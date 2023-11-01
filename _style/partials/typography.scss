@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold; 
+    
+    @include allAbove(medium){
+        
+    }
+}
+ 
+a {
+    color: black;
+    text-decoration: underline;
+    &:hover {
+        background: black;
+        color: white;
+        cursor: pointer;
+    }
+    
+}
+
+em {
+    font-weight: bold;
+}
+

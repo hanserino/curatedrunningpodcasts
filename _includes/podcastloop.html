@@ -1,0 +1,58 @@
+{% assign podcasts = site.categories.['podcast'] %}
+
+<ul class="podcast-loop">
+    <li class="no-podcast-found">
+        <p>No podcast found :/</p>
+    </li>
+
+    {% for podcast in podcasts %}
+    <li class="podcast-loop__item" data-category="{% for tag in podcast.tags %}{{ tag }} {% endfor %}{% for language in podcast.language %}{{ language }} {% endfor %}">
+        <article>
+            <header>
+                <h2 class="podcast-loop__item__title">{{ podcast.title }}</h2>
+                {{ podcast.content }}
+                {% if podcast.description %}
+                <p class="podcast-loop__item__description">{{ podcast.description }}</p>
+                {% endif %}
+            </header>
+ 
+            <h3 class="podcast-loop__item__link-title">Listen to {{ podcast.title }}:</h3>
+            
+            <ul class="podcast-loop__item__links">
+                {% if podcast.spotify_link %}
+                <li><a href="{{podcast.spotify_link}}" target="_blank" title="{{ podcast.title }} på Spotify">Spotify</a></li>
+                {% endif %}
+                {% if podcast.apple_podcast_link %}
+                <li><a href="{{podcast.apple_podcast_link}}" target="_blank" title="{{ podcast.apple_podcast_link }} på Apple Podcasts">Apple Podcasts</a></li>
+                {% endif %}
+                {% if podcast.youtube_link %}
+                <li><a href="{{podcast.youtube_link}}" target="_blank" title="{{ podcast.youtube_link }} på Patreon">YouTube</a></li>
+                {% endif %}
+                {% if podcast.patreon_link %}
+                <li><a href="{{podcast.patreon_link}}" target="_blank" title="{{ podcast.title }} på Patreon">Patreon</a></li>
+                {% endif %}
+            </ul>
+
+            <div class="podcast-loop__item__tags">
+                <div>
+                    <p class="podcast-loop__item__tag-title">Category:</p>
+                    <ul>
+                        {% for category in podcast.tags %}
+                        <li class="taglist__item">{{ category }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+                <div>
+                    <p class="podcast-loop__item__tag-title">Language:</p>
+                    <ul>
+                        {% for language in podcast.language %}
+                        <li class="taglist__item">{{ language }}</button></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </article>
+    </li>
+    {% endfor %}
+</ul>

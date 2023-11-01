@@ -1,0 +1,69 @@
+// Vendor -------------- //
+@import 'lib/reset'; 
+
+// Core -------------- //
+@import 'core/vars';
+@import 'core/utils'; 
+@import 'core/icon';
+
+
+// Partials -------------- //
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/filter';
+@import 'partials/podcastloop';
+@import 'partials/footer';
+
+[data-touch="false"] .mobileOnly { 
+    display: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.desktopOnly { 
+    display: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transform-style: preserve-3d;
+}
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@include allAbove(medium){
+    
+    [data-touch="false"] .mobileOnly {
+        
+    }
+    [data-touch="false"] .mobileOnly { 
+        display: block;
+    }
+}
+
+.main {
+
+
+    @include allAbove(medium){
+   
+    } 
+}
+
+
+.visuallyhidden { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+}
+

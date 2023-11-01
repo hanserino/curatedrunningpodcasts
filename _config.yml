@@ -1,0 +1,104 @@
+baseurl: ''
+url: 'http://0.0.0.0:4000/'
+destination: docs
+email: alvorpodcast@gmail.com
+markdown: kramdown
+sass:
+  sass_dir: _style
+  style: compressed
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      published: 'true'
+prose:
+  rooturl: _posts
+  media: media
+  siteurl: 'http://norskesportspodkaster.no'
+  relativeLinks: 'http://norskesportspodkaster.no/links.jsonp'
+  metadata:
+    _posts/podcasts:
+      - name: published
+        field:
+          element: hidden
+          value: 'true'
+      - name: category
+        field:
+          element: hidden
+          value: podcast
+      - name: title
+        field:
+          element: text
+          label: Name
+          placeholder: Nå Er Det Alvor
+          value: ''
+      - name: spotify_link
+        field:
+          element: text
+          label: Spotify Link
+          placeholder: 'https://open.spotify.com/episode/xxxxx'
+          value: ''
+      - name: apple_podcast_link
+        field:
+          element: text
+          label: Apple Podcasts Link
+          placeholder: 'https://open.spotify.com/episode/xxxxx'
+          value: ''
+      - name: patreon_link
+        field:
+          element: text
+          label: Patreon Link
+          placeholder: 'https://www.patreon.com/nedaproject'
+          value: ''
+      - name: tags
+        field:
+          element: multiselect
+          label: Running type
+          placeholder: Choose type
+          options:
+            - name: Track
+              value: track
+            - name: Trail
+              value: trail
+            - name: Sub ultra
+              value: subultra
+            - name: Ultra
+              value: ultra
+            - name: Skyrunning
+              value: skyrunning
+            - name: Science
+              value: science
+            - name: Business
+              value: business
+      - name: language
+        field:
+          element: multiselect
+          label: Language
+          placeholder: Choose type
+          options:
+            - name: Norwegian
+              value: norwegian
+            - name: English
+              value: english
+            - name: Swedish
+              value: swedish
+            - name: Polish
+              value: polish
+            - name: Italian
+              value: italian
+            - name: French
+              value: french 
+      - name: publisher
+        field:
+          element: text
+          label: Publisher
+          placeholder: NEDA
+          value: ''
+      - name: description
+        field:
+          element: text
+          label: Beskrivelse
+          placeholder: ''
+          value: ''
+

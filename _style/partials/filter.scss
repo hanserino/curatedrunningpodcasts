@@ -1,0 +1,42 @@
+.filter {
+    padding: 1rem;
+    font-size: .85rem;
+
+    &__title {
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 0 0 .5rem 0;
+    }
+
+    legend {
+        font-weight: bold;
+        margin: 0 0 .25rem 0;
+    }
+    fieldset {
+        display: flex;
+    }
+    
+    &__checkboxes {
+        display: block;
+        margin: 0 0 .5rem 0;
+    }
+}
+
+.filter ul {
+    display: flex;
+    list-style: none;
+}
+
+.filter__item{
+    margin: .25rem;
+    padding: .5rem;
+}
+
+.hidden-language, 
+.hidden-category {
+    display: none;
+}
+
+.active-language-filter {
+    
+}

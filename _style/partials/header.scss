@@ -1,0 +1,33 @@
+.header {
+    padding: 2rem 1rem 0 1rem;
+    margin: 0 0 1rem 0;
+
+    &__title {}
+    &__description {}
+
+    .no-touch & {
+        
+    }
+
+    @include allAbove(large){
+        
+    }
+    
+    
+    &__submit-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 1px solid black;
+        padding: .5rem;
+        background: black;
+        text-decoration: none;
+        color: white;
+        font-size: .85rem;
+        &:hover {
+            background: white;
+            border-color: black;
+            color: black;
+        }
+    }
+}
