@@ -38,6 +38,8 @@ $(document).ready(function(){
 
         else {
             $filterItems.show();
+            $('.filter__reset').addClass('checked');
+
         }
 
         if( $('.podcast-loop__item:visible').length >= 1) {
