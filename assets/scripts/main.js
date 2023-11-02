@@ -61,7 +61,7 @@ $(document).ready(function(){
     $('#grid-switch').click(function(e){
         console.log(boxGrid);
         boxGrid = !boxGrid;
-        $('body').attr('data-box-grid', !boxGrid);
+        $('body').attr('data-box-grid', boxGrid);
     });
 
 });
