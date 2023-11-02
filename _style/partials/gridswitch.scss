@@ -1,0 +1,36 @@
+.grid-switch-wrapper{
+    position: relative;
+    display: flex;
+    padding: .5rem;
+}
+
+.grid-switch {
+    border: 1px solid $contrast;
+    background-color: transparent;
+    padding: 0;
+    font-size: 0;
+    cursor: pointer;
+
+    span {
+        display: inline-block;
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+    &__box {
+        border-right: 1px solid $contrast;
+        background: $contrast;
+    }
+
+    &__list {
+        background: white;
+    }
+
+    body[data-box-grid="false"] & {
+        &__box {
+            background: white;
+        }
+        &__list {
+            background: $contrast;
+        }
+    }
+}

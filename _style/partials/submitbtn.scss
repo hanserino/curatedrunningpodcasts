@@ -1,0 +1,27 @@
+.submit-btn {
+    position: relative;
+    top: .5rem;
+    right: .5rem;
+    border: 1px solid black;
+    padding: .5rem 2rem .5rem .5rem;
+    background: transparent;
+    text-decoration: none;
+    color: black;
+    font-size: .85rem;
+    display: inline-block;
+
+    &:hover {
+        background: $contrast;
+        border-color: black;
+        color: black;
+    }
+
+    &__arrow {
+        transform: rotate(-90deg);
+        position: absolute;
+        right: .8rem;
+        top: .2rem;
+        font-size: 1.25rem;
+        opacity: .8;
+    }
+}

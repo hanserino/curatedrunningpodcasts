@@ -1,11 +1,9 @@
 body{
-    //font-family: 'PT Serif', serif;
     font-family: Arial, Helvetica, sans-serif;
 
     font-size: 1.15rem;
     line-height: 1.35;
 }
-
 h1 {
     font-size: 2rem;
     font-weight: bold; 
@@ -15,8 +13,11 @@ h1 {
     }
 }
 
-h1, h2 {
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Fugaz One', sans-serif;
 }
+
 h3 {
     font-weight: bold;
 }
@@ -30,8 +31,7 @@ a {
         background: $contrast;
         color: black;
         cursor: pointer;
-    }
-    
+    } 
 }
 
 em {

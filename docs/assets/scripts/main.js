@@ -15,6 +15,9 @@ function init(){}
 
 $(document).ready(function(){
 
+    let boxGrid = $('body').attr('data-box-grid');
+    console.log(boxGrid);
+
     $('.filter,.podcast-loop').delegate('input[type=checkbox]', 'change', function() {
   
         var $filterItems = $('.podcast-loop__item'),
@@ -53,6 +56,11 @@ $(document).ready(function(){
         $(this).addClass('checked');
     });
 
+    $('#grid-switch').click(function(e){
+        console.log(boxGrid);
+        boxGrid = !boxGrid;
+        $('body').attr('data-box-grid', !boxGrid);
+    });
 
 });
 

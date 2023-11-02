@@ -31,7 +31,7 @@
         border: 1px solid transparent;
 
         &:hover {
-            border-color: black;
+            border-color: $contrast;
         }
     }
 
@@ -40,6 +40,7 @@
         vertical-align: middle;
         -webkit-appearance: none;
         -moz-appearance: none;
+        text-decoration: none;
         border: none;
         background: transparent;
         margin-left: .5rem;

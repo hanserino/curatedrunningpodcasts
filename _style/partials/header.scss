@@ -1,38 +1,23 @@
 .header {
-    padding: 3rem 1rem 0 1rem;
+    padding: 1rem;
     margin: 0 0 1rem 0;
-
-    &__title {
-        font-size: 2.5rem;
-        font-family: 'Fugaz One', sans-serif;
-    }
-
+    
     &__description {}
 
     .no-touch & {
         
     }
 
-    @include allAbove(large){
-        
+    @include allAbove(medium){
+        padding: 3rem 1rem 0 1rem;
     }
     
-    
-    &__submit-btn {
-        position: absolute;
-        top: .5rem;
-        right: .5rem;
-        border: 1px solid black;
-        padding: .5rem;
-        background: transparent;
-        text-decoration: none;
-        color: black;
-        font-size: .85rem;
+    .submit-btn {   
+        display: none;
 
-        &:hover {
-            background: $contrast;
-            border-color: black;
-            color: black;
+        @include allAbove(medium){
+            display: block;
+            position: absolute;
         }
     }
 }

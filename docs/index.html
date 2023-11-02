@@ -11,7 +11,6 @@
 <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
 
 </head>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -21,14 +20,14 @@
   gtag('config', 'G-9K8N2QJRNZ');
 </script>
 
-<body>
+<body data-box-grid="false">
     <main>
-        <header class="header">
+        <header class="header">   
     <h1 class="header__title">Curated Running Podcasts</h1>
     <p class="header__description">A hand picked selection of <em>running related podcasts</em> worth listening to on your longrun.</p>
-    <a class="header__submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank">Submit your favorite running podcast!</a>
+    <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank">Submit your favorite running podcast! <span class="submit-btn__arrow">⇲</span></span></a>
 </header>
- 
+
         <div class="filter" id="filter">
     <h3 class="filter__title">Sort by:</h3>
 
@@ -57,7 +56,15 @@
             </div>
         </fieldset>
     </form>
+
+
 </div>
+        <div class="grid-switch-wrapper">
+            <button type="button" id="grid-switch" class="grid-switch">
+    <span class="grid-switch__box">⊞</span>
+    <span class="grid-switch__list">⊟</span>
+</button>
+        </div>
 		
 
 <ul class="podcast-loop">
@@ -888,8 +895,10 @@
 </ul>
 
 	</main>
-	
+
 <footer class="footer">
+    <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank">Submit your favorite running podcast! <span class="submit-btn__arrow">⇲</span></span></a>
+
     <p>A <a href="https://www.naerdetalvor.no/">NEDA</a> production | Contact: alvorpodcast at gmail dot com | Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" target="_blank">GitHub</a></p>
 </footer>
 

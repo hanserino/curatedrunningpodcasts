@@ -3,7 +3,6 @@
 <head>
 	{% include head.html %}
 </head>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -13,11 +12,14 @@
   gtag('config', 'G-9K8N2QJRNZ');
 </script>
 
-<body>
+<body data-box-grid="false">
     <main>
         {% include header.html %}
         {% include filter.html %}
+        <div class="grid-switch-wrapper">
+            {% include grid-switch.html %}
+        </div>
 		{% include podcastloop.html %}
 	</main>
-	
+
 {% include footer.html %}
