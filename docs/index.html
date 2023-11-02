@@ -23,29 +23,28 @@
         <div class="filter" id="filter">
     <h3 class="filter__title">Filter by:</h3>
 
-    <form>
+    <form onsubmit="return false">
         <fieldset>
             <legend>Category:</legend>
             <div class="filter__checkboxes">
-                <label><input type="checkbox" id="trail" />Trail</label>
-                <label><input type="checkbox" id="track" />Track</label>
-                <label><input type="checkbox" id="ultra" />Ultra</label>
-                <label><input type="checkbox" id="road" />Road</label>
-                <label><input type="checkbox" id="subultra" />Sub ultra</label>
-                <label><input type="checkbox" id="science" />Science</label>
-                <label><input type="checkbox" id="business" />Business</label>
+                <button type="button" class="filter__reset checked">All</button>
+                <label><input type="checkbox" id="trail" /><span>Trail</span></label>
+                <label><input type="checkbox" id="track" /><span>Track</span></label>
+                <label><input type="checkbox" id="ultra" /><span>Ultra</span></label>
+                <label><input type="checkbox" id="road" /><span>Road</span></label>
+                <label><input type="checkbox" id="subultra" /><span>Sub ultra</span></label>
+                <label><input type="checkbox" id="science" /><span>Science</span></label>
+                <label><input type="checkbox" id="business" /><span>Business</span></label>
             </div>
         </fieldset>
 
         <fieldset>
             <legend>Language:</legend>
             <div class="filter__checkboxes">
-                <label><input type="checkbox" id="english" />English</label>
-                <label><input type="checkbox" id="norwegian" />Norwegian</label>
-                <label><input type="checkbox" id="swedish" />Swedish</label>
-                <!--<label><input type="checkbox" id="french" />French</label>
-                <label><input type="checkbox" id="spanish" />Spanish</label>
-                <label><input type="checkbox" id="polish" />Polish</label>-->
+                <button type="button" class="filter__reset checked">All</button>
+                <label><input type="checkbox" id="english" /><span>English</span></label>
+                <label><input type="checkbox" id="norwegian" /><span>Norwegian</span></label>
+                <label><input type="checkbox" id="swedish" /><span>Swedish</span></label>
             </div>
         </fieldset>
     </form>

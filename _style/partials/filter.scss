@@ -1,6 +1,6 @@
 .filter {
     padding: 1rem;
-    font-size: .85rem;
+    font-size: 1rem;
 
     &__title {
         font-weight: bold;
@@ -11,14 +11,56 @@
     legend {
         font-weight: bold;
         margin: 0 0 .25rem 0;
+        float: left;
     }
+
     fieldset {
         display: flex;
+        margin: 0 0 .5rem 0;
+    }
+
+    &__reset{
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: none;
+        background: transparent;
+
+        &.checked {
+            background-color: $contrast;
+            border: none;
+        }
+    }
+
+    &__checkboxes span, &__reset{
+        padding: .25rem .5rem;
+        font-size: 1rem;
+        text-decoration: none;
+        cursor: pointer;
     }
     
     &__checkboxes {
         display: block;
-        margin: 0 0 .5rem 0;
+
+        label {
+            
+        }
+
+        span {
+           
+        }
+
+        input {
+            position: absolute;
+            display: none;
+            left: -999999px;
+            color: #fff !important;
+
+            &:checked {
+                +span {
+                    background: $contrast;
+                }
+            }
+        }
     }
 }
 
@@ -40,3 +82,4 @@
 .active-language-filter {
     
 }
+

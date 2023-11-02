@@ -1,8 +1,9 @@
 .header {
-    padding: 2rem 1rem 0 1rem;
+    padding: 3rem 1rem 0 1rem;
     margin: 0 0 1rem 0;
 
     &__title {
+        font-size: 2.5rem;
         font-family: 'Fugaz One', sans-serif;
     }
 
@@ -19,16 +20,17 @@
     
     &__submit-btn {
         position: absolute;
-        top: 0;
-        right: 0;
+        top: .5rem;
+        right: .5rem;
         border: 1px solid black;
         padding: .5rem;
-        background: black;
+        background: transparent;
         text-decoration: none;
-        color: white;
+        color: black;
         font-size: .85rem;
+
         &:hover {
-            background: white;
+            background: $contrast;
             border-color: black;
             color: black;
         }
