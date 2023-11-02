@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -8,15 +8,24 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style/main.css">
+<link rel="icon" type="image/x-icon" href="/assets/img/favicon.png">
 
-  
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9K8N2QJRNZ');
+</script>
 
 <body>
     <main>
         <header class="header">
     <h1 class="header__title">Curated Running Podcasts</h1>
-    <p class="header__description">A hand picked selection of running related podcasts worth listening to.</p>
+    <p class="header__description">A hand picked selection of <em>running related podcasts</em> worth listening to on your longrun.</p>
     <a class="header__submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank">Submit your favorite running podcast!</a>
 </header>
  
@@ -27,7 +36,7 @@
         <fieldset>
             <legend>Category:</legend>
             <div class="filter__checkboxes">
-                <button type="button" class="filter__reset checked">All</button>
+                <button type="button" class="filter__reset checked"><span>All</span></button>
                 <label><input type="checkbox" id="trail" /><span>Trail</span></label>
                 <label><input type="checkbox" id="track" /><span>Track</span></label>
                 <label><input type="checkbox" id="ultra" /><span>Ultra</span></label>
@@ -41,7 +50,7 @@
         <fieldset>
             <legend>Language:</legend>
             <div class="filter__checkboxes">
-                <button type="button" class="filter__reset checked">All</button>
+                <button type="button" class="filter__reset checked"><span>All</span></button>
                 <label><input type="checkbox" id="english" /><span>English</span></label>
                 <label><input type="checkbox" id="norwegian" /><span>Norwegian</span></label>
                 <label><input type="checkbox" id="swedish" /><span>Swedish</span></label>
