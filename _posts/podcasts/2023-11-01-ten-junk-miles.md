@@ -12,7 +12,7 @@ language:
   - english
 publisher: 'Ten Junk Miles, LLC'
 description: >-
-  Scotty Kummer brings you lighthearted conversation by runners about their
+  Scotty Kummer brings you lighthearted conversations with runners about their
   lives as runners and the issues that are interesting or important to them and
   guests of the show.
 ---

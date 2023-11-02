@@ -7,7 +7,7 @@
     &__item {
         padding: .5rem;
         list-style: none;
-        border: 1px solid rgba(0,0,0, .2);
+        border: 1px solid $contrast;
 
         @include allAbove(medium){
            // width: 33%;
@@ -25,7 +25,7 @@
             display: block;
 
             a {
-                display: block;
+                display: inline-block;
 
             }
         }
@@ -55,7 +55,8 @@
 }
 .podcast-loop__item__tags{
     margin: .5rem 0 0 0;
-    font-size: .85rem;
+    font-size: .8rem;
+    color: rgba(0,0,0, .5);
 }
 .podcast-loop__item__tag-title {
     display: inline;
@@ -66,9 +67,10 @@
 }
 .podcast-loop__item__tags li {
     display: inline;
+    text-transform: capitalize;
 }
 .taglist__item~.taglist__item::before {
-    content: ", ";
+    content: "| ";
 }
 
 

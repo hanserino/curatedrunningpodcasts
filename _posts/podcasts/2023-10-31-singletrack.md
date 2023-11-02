@@ -13,8 +13,7 @@ tags:
 language:
   - english
 description: >-
-  Singletrack is a podcast covering the professional trail and ultrarunning
-  scene.
+  Singletrack covers the professional trail and ultrarunning scene.
 publisher: Finn Melanson
 ---
 ![Singletrack pocdast logo]({{site.baseurl}}/media/singletrack.jpg)

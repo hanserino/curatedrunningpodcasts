@@ -16,7 +16,7 @@
                 {% endif %}
             </header>
  
-            <h3 class="podcast-loop__item__link-title">Listen to {{ podcast.title }}:</h3>
+            <h3 class="podcast-loop__item__link-title">Plattform links:</h3>
             
             <ul class="podcast-loop__item__links">
                 {% if podcast.spotify_link %}
@@ -35,17 +35,15 @@
 
             <div class="podcast-loop__item__tags">
                 <div>
-                    <p class="podcast-loop__item__tag-title">Category:</p>
+                    <p class="podcast-loop__item__tag-title">Publisher: {{ podcast.publisher }}</p>
+                </div>
+
+                <div>
+                    <p class="podcast-loop__item__tag-title">Tags:</p>
                     <ul>
                         {% for category in podcast.tags %}
                         <li class="taglist__item">{{ category }}</li>
                         {% endfor %}
-                    </ul>
-                </div>
-                
-                <div>
-                    <p class="podcast-loop__item__tag-title">Language:</p>
-                    <ul>
                         {% for language in podcast.language %}
                         <li class="taglist__item">{{ language }}</button></li>
                         {% endfor %}

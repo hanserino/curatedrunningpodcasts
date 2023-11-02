@@ -1,7 +1,9 @@
 body{
-    font-family: sans-serif;
+    //font-family: 'PT Serif', serif;
+    font-family: Arial, Helvetica, sans-serif;
+
     font-size: 1.15rem;
-    line-height: 1.5;
+    line-height: 1.35;
 }
 
 h1 {
@@ -12,13 +14,21 @@ h1 {
         
     }
 }
- 
+
+h1, h2 {
+}
+h3 {
+    font-weight: bold;
+}
+
 a {
     color: black;
     text-decoration: underline;
+    font-style: italic;
+
     &:hover {
-        background: black;
-        color: white;
+        background: $contrast;
+        color: black;
         cursor: pointer;
     }
     

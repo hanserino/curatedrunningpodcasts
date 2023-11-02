@@ -12,7 +12,7 @@ language:
 publisher: Trail Runner Nation
 description: >-
   Trail Runner Nation is devoted to sharing knowledge and advice to the trail
-  running community - from beginners to the pros! We offer tips and discussion
+  running community - from beginners to the pros! Tips and discussions
   regarding race nutrition, pacing strategy, mental focus and much more from
   well-respected members of the trail community.
 ---
