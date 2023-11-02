@@ -55,7 +55,7 @@ $(document).ready(function(){
         $('input[type=checkbox]').prop('checked',false);
         $('.podcast-loop__item').show();
 
-        $(this).addClass('checked');
+        $(this).addClass('checked'); 
     });
 
     $('#grid-switch').click(function(e){
