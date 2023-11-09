@@ -1,11 +1,15 @@
-<div class="filter" id="filter">
+
+
+
+<div class="filter" id="filter">           
+
     <h3 class="filter__title">Sort by:</h3>
 
     <form onsubmit="return false">
         <fieldset>
             <legend>Category:</legend>
             <div class="filter__checkboxes">
-                <button type="button" class="filter__reset checked"><span>All</span></button>
+                <button type="button" class="filter__reset checked"><span>All {% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %} </span></button>
                 <label><input type="checkbox" id="trail" /><span>Trail</span></label>
                 <label><input type="checkbox" id="track" /><span>Track</span></label>
                 <label><input type="checkbox" id="ultra" /><span>Ultra</span></label>
@@ -26,6 +30,9 @@
                 <label><input type="checkbox" id="danish" /><span>Danish</span></label>
             </div>
         </fieldset>
+        <ul>
+            
+       
     </form>
 
 
