@@ -1,6 +1,6 @@
 ---
 category: podcast
-published: true
+published: false
 title: Spring Snyggt
 apple_podcast_link: >-
   https://podcasts.apple.com/no/podcast/spring-snyggt-med-jesus-och-manne/id1491068286
