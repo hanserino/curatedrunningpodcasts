@@ -1,0 +1,91 @@
+.editorial {
+    margin: 0.5rem 1rem 0;
+    padding: 0 0 0.5rem;
+    max-width: 64rem;
+}
+
+.editorial__inner {
+    line-height: 1.5;
+
+    p {
+        margin: 0 0 0.75rem 0;
+    }
+
+    h2#editorial-title,
+    h2 {
+        font-size: 1.35rem;
+        font-weight: bold;
+        margin: 0 0 0.5rem 0;
+    }
+
+    a {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+    }
+
+    a:hover,
+    a:focus-visible {
+        text-decoration-thickness: 2px;
+    }
+}
+
+.filter__hint {
+    font-size: 0.9rem;
+    margin: 0 0 0.5rem 0;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.post-article {
+    padding: 0 1rem 2rem;
+    max-width: 48rem;
+
+    &__title {
+        font-size: 1.75rem;
+        font-weight: bold;
+        margin: 0 0 0.5rem 0;
+    }
+
+    &__lede {
+        font-size: 1.1rem;
+        margin: 0 0 1rem 0;
+        line-height: 1.4;
+    }
+
+    &__content {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__footer {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 1px solid $contrast;
+    }
+}
+
+.header--post {
+    padding: 0.5rem 1rem 0;
+
+    .header__title--home-link {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+}
+
+.post-page .footer p {
+    max-width: 40rem;
+}
+
+.podcast-list-section {
+    margin: 0;
+    padding: 0;
+}
+
+.podcast-loop__item__media {
+    p {
+        margin: 0;
+    }
+}

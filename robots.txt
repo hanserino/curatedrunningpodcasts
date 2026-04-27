@@ -1,0 +1,19 @@
+---
+layout: null
+permalink: /robots.txt
+---
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Helpful for AI/assistant crawlers (see also /llms.txt)
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+Sitemap: {{ "/sitemap.xml" | absolute_url }}

@@ -1,11 +1,10 @@
 // Vendor -------------- //
-@import 'lib/reset'; 
+@import 'lib/reset';
 
 // Core -------------- //
 @import 'core/vars';
-@import 'core/utils'; 
+@import 'core/utils';
 @import 'core/icon';
-
 
 // Partials -------------- //
 @import 'partials/typography';
@@ -15,20 +14,21 @@
 @import 'partials/podcastloop';
 @import 'partials/gridswitch';
 @import 'partials/footer';
+@import 'partials/a11y';
+@import 'partials/editorial';
 
-[data-touch="false"] .mobileOnly { 
+[data-touch="false"] .mobileOnly {
     display: none;
 }
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
 
-.desktopOnly { 
+.desktopOnly {
     display: none;
 }
-
 
 html {
     scroll-behavior: smooth;
@@ -37,35 +37,33 @@ html {
 body {
     transform-style: preserve-3d;
 }
+
 main {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-@include allAbove(medium){
-    
+@include allAbove(medium) {
     [data-touch="false"] .mobileOnly {
-        
     }
-    [data-touch="false"] .mobileOnly { 
+
+    [data-touch="false"] .mobileOnly {
         display: block;
     }
 }
 
 .main {
-
-
-    @include allAbove(medium){
-   
-    } 
+    @include allAbove(medium) {
+    }
 }
 
-
-.visuallyhidden { 
-    position: absolute; 
-    overflow: hidden; 
-    clip: rect(0 0 0 0); 
-    height: 1px; width: 1px; 
-    margin: -1px; padding: 0; border: 0; 
+.visuallyhidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
 }
-

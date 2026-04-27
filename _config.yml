@@ -1,8 +1,26 @@
 baseurl: ''
-url: 'http://0.0.0.0:4000/'
+url: 'https://bestrunningpodcasts.com'
 destination: docs
 email: alvorpodcast@gmail.com
+# Used for <title>, Open Graph, JSON-LD, and LLM-oriented summaries
+title: Best Running Podcasts
+heading: Curated Running Podcasts
+tagline: Curated running, trail, ultra, and track podcast directory
+description: >
+  An independent, hand-curated directory of the best running podcasts—road, track, trail, ultra, skyrunning, and training science.
+  Each entry is reviewed for quality and usefulness for runners, coaches, and fans. Filter by training focus and language, discover Spotify and Apple Podcasts links, and find shows worth your long run.
 markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+# Organization / publisher (Schema.org, meta)
+author_name: Hans Kristian Smedsrød
+org_name: NEDA
+org_url: "https://www.naerdetalvor.no"
+lang: en
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 sass:
   sass_dir: _style
   style: compressed
@@ -12,11 +30,12 @@ defaults:
       type: posts
     values:
       published: 'true'
+      layout: post
 prose:
   rooturl: _posts
   media: media
-  siteurl: 'http://norskesportspodkaster.no'
-  relativeLinks: 'http://norskesportspodkaster.no/links.jsonp'
+  siteurl: 'https://bestrunningpodcasts.com'
+  relativeLinks: 'https://bestrunningpodcasts.com/links.jsonp'
   metadata:
     _posts/podcasts:
       - name: published

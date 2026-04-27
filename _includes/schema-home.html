@@ -1,0 +1,44 @@
+{%- assign podcasts = site.categories['podcast'] -%}
+{%- assign site_id = site.url | append: "/#website" -%}
+{%- assign org_id = site.url | append: "/#org" -%}
+{% comment %}WebSite, Organization, and ItemList for search + AI discovery{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ site_id | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": {{ "Curated Running Podcasts" | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "description": {{ site.description | strip_newlines | strip | jsonify }},
+      "inLanguage": "en",
+      "publisher": { "@id": {{ org_id | jsonify }} }
+    },
+    {
+      "@type": "Organization",
+      "@id": {{ org_id | jsonify }},
+      "name": {{ site.org_name | default: "NEDA" | jsonify }},
+      "url": {{ site.org_url | default: "https://www.naerdetalvor.no" | jsonify }}
+    },
+    {
+      "@type": "ItemList",
+      "name": {{ "Curated list of running podcasts" | jsonify }},
+      "description": {{ site.description | strip_newlines | strip | jsonify }},
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": {{ podcasts.size }},
+      "itemListElement": [
+{%- for podcast in podcasts -%}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "name": {{ podcast.title | jsonify }},
+          "item": {{ podcast.url | absolute_url | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+      ]
+    }
+  ]
+}
+</script>

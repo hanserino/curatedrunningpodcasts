@@ -1,0 +1,60 @@
+// Skip link (WCAG 2.x focus order)
+.skip-link {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 100;
+    padding: 0.5rem 0.75rem;
+    background: #0d2b22;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px;
+    transform: translateY(-200%);
+    transition: transform 0.2s ease;
+
+    &:focus {
+        transform: translateY(0);
+    }
+
+    &:focus-visible {
+        outline: 2px solid #7fd4b0;
+        outline-offset: 2px;
+    }
+}
+
+a:focus,
+button:focus,
+input:focus {
+    outline: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+    outline: 2px solid #0d47a1;
+    outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        transition-duration: 0.01ms !important;
+    }
+}
+
+.grid-switch {
+    &:focus-visible {
+        outline: 2px solid #0d47a1;
+        outline-offset: 2px;
+    }
+}
+
+.filter label:has(:focus-visible) > span,
+.filter__reset:focus-visible {
+    outline: 2px solid #0d47a1;
+    outline-offset: 2px;
+}

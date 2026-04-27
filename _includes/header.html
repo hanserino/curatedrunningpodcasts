@@ -1,5 +1,5 @@
-<header class="header">   
-    <h1 class="header__title">Curated Running Podcasts</h1>
-    <p class="header__description">A hand picked selection of <em>running related podcasts</em> worth listening to on your longrun.</p>
+<header class="header" role="banner">
+    <h1 class="header__title">{% if site.heading %}{{ site.heading }}{% else %}{{ site.title }}{% endif %}</h1>
+    <p class="header__description">A hand picked selection of <em>running related podcasts</em> worth listening to on your long run.</p>
     {% include submit_btn.html %}
 </header>

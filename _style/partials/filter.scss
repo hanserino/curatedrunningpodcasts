@@ -63,19 +63,23 @@
            
         }
 
-        input {
+        // Visually hide real checkboxes but keep them in the tab order (WCAG)
+        input[type="checkbox"] {
             position: absolute;
-            display: none;
-            left: -999999px;
-            color: #fff !important;
+            width: 1px;
+            height: 1px;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            clip: rect(0, 0, 0, 0);
+            overflow: hidden;
+            white-space: nowrap;
 
-            &:checked {
-                +span {
-                    background: $contrast;
+            &:checked + span {
+                background: $contrast;
 
-                    &:hover {
-                        cursor: default;
-                    }
+                &:hover {
+                    cursor: default;
                 }
             }
         }

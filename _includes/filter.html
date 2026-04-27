@@ -1,30 +1,51 @@
-<div class="filter" id="filter">           
-    <h3 class="filter__title">Sort by:</h3>
-    <form onsubmit="return false">
+{% capture site_tags %}{% for tag in site.tags %}{{ tag[1].size | plus: 1000 }}&#x1F;{{ tag | first }}{% unless forloop.last %}&#x1E;{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_tags = site_tags | split: '&#x1E;' | sort | reverse %}
+{% capture site_tags %}{% for tag in site_tags %}{{ tag | split: '&#x1F;' | last }}{% unless forloop.last %}&#x1E;{% endunless %}{% endfor %}{% endcapture %}
+{% assign site_tags = site_tags | split: '&#x1E;' %}
+
+{% assign post_count = site.posts | size %}
+{% capture tag_counts %}{% for tag in site_tags %}{{site.tags[tag] | size | times: 10 | plus: post_count | minus: 1 | divided_by: post_count }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+{% assign tag_counts = tag_counts | split: ',' %}
+
+<section class="filter" id="filter" aria-labelledby="filter-heading">
+    <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
+    <p id="filter-hint" class="filter__hint">Narrow the list by category and language. Choose one or more options.</p>
+    <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
         <fieldset>
-            <legend>Category:</legend>
-            <div class="filter__checkboxes">
-                <button type="button" class="filter__reset checked"><span>All {% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %} </span></button>
-                <label><input type="checkbox" id="trail" /><span>Trail</span></label>
-                <label><input type="checkbox" id="track" /><span>Track</span></label>
-                <label><input type="checkbox" id="ultra" /><span>Ultra</span></label>
-                <label><input type="checkbox" id="road" /><span>Road</span></label>
-                <label><input type="checkbox" id="subultra" /><span>Sub ultra</span></label>
-                <label><input type="checkbox" id="science" /><span>Science</span></label>
-                <label><input type="checkbox" id="business" /><span>Business</span></label>
+            <legend>Category</legend>
+            <div class="filter__checkboxes" role="group" aria-label="Run type and topic">
+                <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all categories"><span>All {% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}</span></button>
+                {% for tag in site_tags %}
+                {% assign tag_data = site.data.tags[tag] %}
+                {% capture tag_classes %}tag tag-size-{{ tag_counts[forloop.index0] }} tag-{{ tag | slugify }}{% endcapture %}
+                {% capture tag_name %}{% if tag_data.title %}{{ tag_data.title }}{% else %}{{ tag }}{% endif %}{% endcapture %}
+                <label><input type="checkbox" name="category" id="{{ tag | slugify }}" value="{{ tag | slugify }}" />
+                    <span>{{ tag_name }}</span>
+                </label>
+                {% endfor %}
             </div>
         </fieldset>
 
         <fieldset>
-            <legend>Language:</legend>
-            <div class="filter__checkboxes">
-                <button type="button" class="filter__reset checked"><span>All</span></button>
-                <label><input type="checkbox" id="english" /><span>English</span></label>
-                <label><input type="checkbox" id="english" /><span>French</span></label>
-                <label><input type="checkbox" id="norwegian" /><span>Norwegian</span></label> 
-                <label><input type="checkbox" id="swedish" /><span>Swedish</span></label>
-                <label><input type="checkbox" id="danish" /><span>Danish</span></label>
+            <legend>Language</legend>
+            <div class="filter__checkboxes" role="group" aria-label="Audio language">
+                <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all languages"><span>All</span></button>
+                <label><input type="checkbox" name="language" id="english" value="english" />
+                    <span>English</span>
+                </label>
+                <label><input type="checkbox" name="language" id="french" value="french" />
+                    <span>French</span>
+                </label>
+                <label><input type="checkbox" name="language" id="norwegian" value="norwegian" />
+                    <span>Norwegian</span>
+                </label>
+                <label><input type="checkbox" name="language" id="swedish" value="swedish" />
+                    <span>Swedish</span>
+                </label>
+                <label><input type="checkbox" name="language" id="danish" value="danish" />
+                    <span>Danish</span>
+                </label>
             </div>
-        </fieldset> 
+        </fieldset>
     </form>
-</div>
+</section>

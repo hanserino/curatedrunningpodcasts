@@ -1,35 +1,39 @@
-{% assign podcasts = site.categories.['podcast'] %}
+{% assign podcasts = site.categories['podcast'] %}
 
-<ul class="podcast-loop">
-    <li class="no-podcast-found">
-        <p>No podcast found :/</p>
+<section class="podcast-list-section" id="podcast-directory" aria-labelledby="podcast-directory-heading">
+    <h2 class="visuallyhidden" id="podcast-directory-heading">Directory of running podcasts</h2>
+    <ul class="podcast-loop">
+    <li class="no-podcast-found" role="status" aria-live="polite">
+        <p>No podcast matches these filters. Try choosing “All” to reset.</p>
     </li>
 
     {% for podcast in podcasts %}
     <li class="podcast-loop__item" data-category="{% for tag in podcast.tags %}{{ tag }} {% endfor %}{% for language in podcast.language %}{{ language }} {% endfor %}">
-        <article>
+        <article aria-labelledby="podcast-title-{{ forloop.index }}">
             <header>
-                <h2 class="podcast-loop__item__title">{{ podcast.title }}</h2>
+                <h2 class="podcast-loop__item__title" id="podcast-title-{{ forloop.index }}">{{ podcast.title }}</h2>
+                <div class="podcast-loop__item__media">
                 {{ podcast.content }}
+                </div>
                 {% if podcast.description %}
                 <p class="podcast-loop__item__description">{{ podcast.description }}</p>
                 {% endif %}
             </header>
  
-            <h3 class="podcast-loop__item__link-title">Plattform links:</h3>
+            <h3 class="podcast-loop__item__link-title" id="links-{{ forloop.index }}">Listen and follow</h3>
             
-            <ul class="podcast-loop__item__links">
+            <ul class="podcast-loop__item__links" aria-labelledby="links-{{ forloop.index }}">
                 {% if podcast.spotify_link %}
-                <li><a href="{{podcast.spotify_link}}" target="_blank" title="{{ podcast.title }} på Spotify">Spotify</a></li>
+                <li><a href="{{ podcast.spotify_link }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ podcast.title | xml_escape }} on Spotify (opens in a new tab)">Spotify</a></li>
                 {% endif %}
                 {% if podcast.apple_podcast_link %}
-                <li><a href="{{podcast.apple_podcast_link}}" target="_blank" title="{{ podcast.apple_podcast_link }} på Apple Podcasts">Apple Podcasts</a></li>
+                <li><a href="{{ podcast.apple_podcast_link }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ podcast.title | xml_escape }} on Apple Podcasts (opens in a new tab)">Apple Podcasts</a></li>
                 {% endif %}
                 {% if podcast.youtube_link %}
-                <li><a href="{{podcast.youtube_link}}" target="_blank" title="{{ podcast.youtube_link }} på Patreon">YouTube</a></li>
+                <li><a href="{{ podcast.youtube_link }}" rel="noopener noreferrer" target="_blank" title="{{ podcast.title | xml_escape }} on YouTube (opens in a new tab)">YouTube</a></li>
                 {% endif %}
                 {% if podcast.patreon_link %}
-                <li><a href="{{podcast.patreon_link}}" target="_blank" title="{{ podcast.title }} på Patreon">Patreon</a></li>
+                <li><a href="{{ podcast.patreon_link }}" rel="noopener noreferrer" target="_blank" title="Support {{ podcast.title | xml_escape }} on Patreon (opens in a new tab)">Patreon</a></li>
                 {% endif %}
             </ul>
 
@@ -45,7 +49,7 @@
                         <li class="taglist__item">{{ category }}</li>
                         {% endfor %}
                         {% for language in podcast.language %}
-                        <li class="taglist__item">{{ language }}</button></li>
+                        <li class="taglist__item">{{ language }}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -53,4 +57,5 @@
         </article>
     </li>
     {% endfor %}
-</ul>
+    </ul>
+</section>
