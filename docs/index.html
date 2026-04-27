@@ -5,15 +5,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="canonical" href="https://bestrunningpodcasts.com/">
 <meta name="theme-color" content="#1a4d3a">
-<title>Best Running Podcasts | Curated running, trail, ultra, and track podcast directory</title>
+<title>The Best Running Podcasts | The best running podcasts, trail, ultra, and track podcast directory</title>
 <meta name="description" content="Human-curated list of the best running podcasts: trail, ultra, track, road, and training science. Filter by topic and language; links to Spotify and Apple Podcasts. A trusted, independent resource for runners and coaches.">
-<meta name="author" content="Hans Kristian Smedsrød">
+<meta name="author" content="Hans Kristian Smedsrød Engdahl">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="application-name" content="Best Running Podcasts">
+<meta name="application-name" content="The Best Running Podcasts">
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="Best Running Podcasts">
-<meta property="og:title" content="Best Running Podcasts | Curated running, trail, ultra, and track podcast directory">
+<meta property="og:site_name" content="The Best Running Podcasts">
+<meta property="og:title" content="The Best Running Podcasts | The best running podcasts, trail, ultra, and track podcast directory">
 <meta property="og:description" content="Human-curated list of the best running podcasts: trail, ultra, track, road, and training science. Filter by topic and language; links to Spotify and Apple Podcasts. A trusted, independent resource for runners and coaches.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://bestrunningpodcasts.com/">
@@ -21,7 +21,7 @@
 <meta property="og:image:alt" content="Best Running Podcasts — curated running podcast directory (cover image)">
 <meta property="og:locale" content="en_US"><!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Running Podcasts | Curated running, trail, ultra, and track podcast directory">
+<meta name="twitter:title" content="The Best Running Podcasts | The best running podcasts, trail, ultra, and track podcast directory">
 <meta name="twitter:description" content="Human-curated list of the best running podcasts: trail, ultra, track, road, and training science. Filter by topic and language; links to Spotify and Apple Podcasts. A trusted, independent resource for runners and coaches.">
 <meta name="twitter:image" content="https://bestrunningpodcasts.com/assets/img/social.jpg">
 
@@ -32,7 +32,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/style/main.css">
-<link rel="alternate" type="application/rss+xml" title="Best Running Podcasts feed" href="https://bestrunningpodcasts.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Best Running Podcasts feed" href="https://bestrunningpodcasts.com/feed.xml">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
@@ -50,7 +50,7 @@
     {
       "@type": "WebSite",
       "@id": "https://bestrunningpodcasts.com/#website",
-      "name": "Best Running Podcasts",
+      "name": "The Best Running Podcasts",
       "alternateName": "Curated Running Podcasts",
       "url": "https://bestrunningpodcasts.com",
       "description": "An independent, hand-curated directory of the best running podcasts—road, track, trail, ultra, skyrunning, and training science. Each entry is reviewed for quality and usefulness for runners, coaches, and fans. Filter by training focus and language, discover Spotify and Apple Podcasts links, and find shows worth your long run.",
@@ -212,7 +212,7 @@
         },{
           "@type": "ListItem",
           "position": 29,
-          "name": "Nå Er Det Alvor",
+          "name": "Føkk Asfalt / Nå Er Det Alvor",
           "item": "https://bestrunningpodcasts.com/podcast/2023/10/31/n-er-det-alvor.html"
         },{
           "@type": "ListItem",
@@ -241,7 +241,7 @@
 
 	<main id="main-content">
 		<header class="header" role="banner">
-    <h1 class="header__title">Curated Running Podcasts</h1>
+    <h1 class="header__title">The Best Running Podcasts</h1>
     <p class="header__description">A hand picked selection of <em>running related podcasts</em> worth listening to on your long run.</p>
     <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank" rel="noopener noreferrer" aria-label="Submit a podcast suggestion (opens a Google form in a new tab)">Submit your favorite running podcast! <span class="submit-btn__arrow" aria-hidden="true">⇲</span></a>
 
@@ -273,7 +273,7 @@
 
 <section class="filter" id="filter" aria-labelledby="filter-heading">
     <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
-    <p id="filter-hint" class="filter__hint">Narrow the list by category and language. Choose one or more options.</p>
+    <p id="filter-hint" class="filter__hint">Narrow the list by category and language. You can pick several categories, and <strong>one</strong> language (or all).</p>
     <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
         <fieldset>
             <legend>Category</legend>
@@ -341,21 +341,23 @@
 
         <fieldset>
             <legend>Language</legend>
-            <div class="filter__checkboxes" role="group" aria-label="Audio language">
-                <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all languages"><span>All</span></button>
-                <label><input type="checkbox" name="language" id="english" value="english" />
+            <div class="filter__checkboxes filter__radio-group" role="radiogroup" aria-label="Audio language">
+                <label><input type="radio" name="language_filter" id="lang-all" value="" checked />
+                    <span>All</span>
+                </label>
+                <label><input type="radio" name="language_filter" id="lang-english" value="english" />
                     <span>English</span>
                 </label>
-                <label><input type="checkbox" name="language" id="french" value="french" />
+                <label><input type="radio" name="language_filter" id="lang-french" value="french" />
                     <span>French</span>
                 </label>
-                <label><input type="checkbox" name="language" id="norwegian" value="norwegian" />
+                <label><input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
                     <span>Norwegian</span>
                 </label>
-                <label><input type="checkbox" name="language" id="swedish" value="swedish" />
+                <label><input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
                     <span>Swedish</span>
                 </label>
-                <label><input type="checkbox" name="language" id="danish" value="danish" />
+                <label><input type="radio" name="language_filter" id="lang-danish" value="danish" />
                     <span>Danish</span>
                 </label>
             </div>
@@ -1754,13 +1756,13 @@
     <li class="podcast-loop__item" data-category="trail ultra subultra norwegian english ">
         <article aria-labelledby="podcast-title-29">
             <header>
-                <h2 class="podcast-loop__item__title" id="podcast-title-29">Nå Er Det Alvor</h2>
+                <h2 class="podcast-loop__item__title" id="podcast-title-29">Føkk Asfalt / Nå Er Det Alvor</h2>
                 <div class="podcast-loop__item__media">
-                <p><img src="/media/neda-square.jpg" alt="Nå Er Det Alvor podcast logo" /></p>
+                <p><img src="/media/fokk-asfalt-logo.jpeg" alt="Nå Er Det Alvor podcast logo" /></p>
 
                 </div>
                 
-                <p class="podcast-loop__item__description">A podcast mostly about ultrarunning, but also climbing, alpinism, outdoor sports and other ultra endurance activities. Mostly in Norwegian, sometimes in English.</p>
+                <p class="podcast-loop__item__description">Norwegian mountain ultra trail podcast. 500+ episodes, est. 2018.</p>
                 
             </header>
  
@@ -1768,16 +1770,16 @@
             
             <ul class="podcast-loop__item__links" aria-labelledby="links-29">
                 
-                <li><a href="https://open.spotify.com/show/1s8OvAXNcqRa6oncqakhdg?si=68f8a4a873994356" rel="noopener noreferrer" target="_blank" title="Listen to Nå Er Det Alvor on Spotify (opens in a new tab)">Spotify</a></li>
+                <li><a href="https://open.spotify.com/show/1s8OvAXNcqRa6oncqakhdg?si=68f8a4a873994356" rel="noopener noreferrer" target="_blank" title="Listen to Føkk Asfalt / Nå Er Det Alvor on Spotify (opens in a new tab)">Spotify</a></li>
                 
                 
-                <li><a href="https://podcasts.apple.com/no/podcast/n%C3%A5-er-det-alvor/id1332829214" rel="noopener noreferrer" target="_blank" title="Listen to Nå Er Det Alvor on Apple Podcasts (opens in a new tab)">Apple Podcasts</a></li>
+                <li><a href="https://podcasts.apple.com/no/podcast/n%C3%A5-er-det-alvor/id1332829214" rel="noopener noreferrer" target="_blank" title="Listen to Føkk Asfalt / Nå Er Det Alvor on Apple Podcasts (opens in a new tab)">Apple Podcasts</a></li>
                 
                 
-                <li><a href="https://www.youtube.com/channel/UCInpGUkInQhfGXN8qq8sR9g" rel="noopener noreferrer" target="_blank" title="Nå Er Det Alvor on YouTube (opens in a new tab)">YouTube</a></li>
+                <li><a href="https://www.youtube.com/channel/UCInpGUkInQhfGXN8qq8sR9g" rel="noopener noreferrer" target="_blank" title="Føkk Asfalt / Nå Er Det Alvor on YouTube (opens in a new tab)">YouTube</a></li>
                 
                 
-                <li><a href="https://www.patreon.com/nedaproject" rel="noopener noreferrer" target="_blank" title="Support Nå Er Det Alvor on Patreon (opens in a new tab)">Patreon</a></li>
+                <li><a href="https://www.patreon.com/nedaproject" rel="noopener noreferrer" target="_blank" title="Support Føkk Asfalt / Nå Er Det Alvor on Patreon (opens in a new tab)">Patreon</a></li>
                 
             </ul>
 
@@ -1912,12 +1914,12 @@
             <header>
                 <h2 class="podcast-loop__item__title" id="podcast-title-32">Breaking Marathon Limits</h2>
                 <div class="podcast-loop__item__media">
-                <p><img src="/media/breakingmarathonlimits.jpg" alt="Breaking Marathon Limits logo" /></p>
+                <p><img src="/media/bml.jpeg" alt="Breaking Marathon Limits logo" /></p>
 
 
                 </div>
                 
-                <p class="podcast-loop__item__description">Norwegian running podcast mostly focused on track and road related stuff.</p>
+                <p class="podcast-loop__item__description">Norwegian running podcast, mostly focused on track and road.</p>
                 
             </header>
  
@@ -1971,7 +1973,8 @@
     <p>A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
-    <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants)</p>
+    <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p>
 </footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" defer></script>

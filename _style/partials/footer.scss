@@ -10,5 +10,24 @@
             display: none;
         }
     }
+
+    // Same-site link to /admin/ (Decap CMS)
+    &__admin {
+        display: inline-block;
+        margin: 0.15em 0 0 0.15em;
+        padding: 0.2em 0.65em;
+        border: 1px solid $contrast;
+        border-radius: 4px;
+        font-size: 0.95em;
+        line-height: 1.2;
+        text-decoration: none;
+        vertical-align: middle;
+
+        &:hover,
+        &:focus-visible {
+            background-color: $contrast;
+            text-decoration: none;
+        }
+    }
 }
 

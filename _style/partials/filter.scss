@@ -63,8 +63,9 @@
            
         }
 
-        // Visually hide real checkboxes but keep them in the tab order (WCAG)
-        input[type="checkbox"] {
+        // Visually hide real checkboxes/radios but keep them in the tab order (WCAG)
+        input[type="checkbox"],
+        input[type="radio"] {
             position: absolute;
             width: 1px;
             height: 1px;

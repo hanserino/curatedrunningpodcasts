@@ -9,7 +9,7 @@
 
 <section class="filter" id="filter" aria-labelledby="filter-heading">
     <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
-    <p id="filter-hint" class="filter__hint">Narrow the list by category and language. Choose one or more options.</p>
+    <p id="filter-hint" class="filter__hint">Narrow the list by category and language. You can pick several categories, and <strong>one</strong> language (or all).</p>
     <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
         <fieldset>
             <legend>Category</legend>
@@ -28,21 +28,23 @@
 
         <fieldset>
             <legend>Language</legend>
-            <div class="filter__checkboxes" role="group" aria-label="Audio language">
-                <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all languages"><span>All</span></button>
-                <label><input type="checkbox" name="language" id="english" value="english" />
+            <div class="filter__checkboxes filter__radio-group" role="radiogroup" aria-label="Audio language">
+                <label><input type="radio" name="language_filter" id="lang-all" value="" checked />
+                    <span>All</span>
+                </label>
+                <label><input type="radio" name="language_filter" id="lang-english" value="english" />
                     <span>English</span>
                 </label>
-                <label><input type="checkbox" name="language" id="french" value="french" />
+                <label><input type="radio" name="language_filter" id="lang-french" value="french" />
                     <span>French</span>
                 </label>
-                <label><input type="checkbox" name="language" id="norwegian" value="norwegian" />
+                <label><input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
                     <span>Norwegian</span>
                 </label>
-                <label><input type="checkbox" name="language" id="swedish" value="swedish" />
+                <label><input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
                     <span>Swedish</span>
                 </label>
-                <label><input type="checkbox" name="language" id="danish" value="danish" />
+                <label><input type="radio" name="language_filter" id="lang-danish" value="danish" />
                     <span>Danish</span>
                 </label>
             </div>

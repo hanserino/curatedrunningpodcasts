@@ -1,11 +1,11 @@
 baseurl: ''
 url: 'https://bestrunningpodcasts.com'
 destination: docs
-email: alvorpodcast@gmail.com
+email: hans@naerdetalvor.no
 # Used for <title>, Open Graph, JSON-LD, and LLM-oriented summaries
-title: Best Running Podcasts
-heading: Curated Running Podcasts
-tagline: Curated running, trail, ultra, and track podcast directory
+title: The Best Running Podcasts
+heading: The Best Running Podcasts
+tagline: The best running podcasts, trail, ultra, and track podcast directory
 description: >
   An independent, hand-curated directory of the best running podcasts—road, track, trail, ultra, skyrunning, and training science.
   Each entry is reviewed for quality and usefulness for runners, coaches, and fans. Filter by training focus and language, discover Spotify and Apple Podcasts links, and find shows worth your long run.
@@ -14,7 +14,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 # Organization / publisher (Schema.org, meta)
-author_name: Hans Kristian Smedsrød
+author_name: Hans Kristian Smedsrød Engdahl
 org_name: NEDA
 org_url: "https://www.naerdetalvor.no"
 lang: en
@@ -31,97 +31,7 @@ defaults:
     values:
       published: 'true'
       layout: post
-prose:
-  rooturl: _posts
-  media: media
-  siteurl: 'https://bestrunningpodcasts.com'
-  relativeLinks: 'https://bestrunningpodcasts.com/links.jsonp'
-  metadata:
-    _posts/podcasts:
-      - name: published
-        field:
-          element: hidden
-          value: 'true'
-      - name: category
-        field:
-          element: hidden
-          value: podcast
-      - name: title
-        field:
-          element: text
-          label: Name
-          placeholder: Nå Er Det Alvor
-          value: ''
-      - name: spotify_link
-        field:
-          element: text
-          label: Spotify Link
-          placeholder: 'https://open.spotify.com/episode/xxxxx'
-          value: ''
-      - name: apple_podcast_link
-        field:
-          element: text
-          label: Apple Podcasts Link
-          placeholder: 'https://open.spotify.com/episode/xxxxx'
-          value: ''
-      - name: patreon_link
-        field:
-          element: text
-          label: Patreon Link
-          placeholder: 'https://www.patreon.com/nedaproject'
-          value: ''
-      - name: tags
-        field:
-          element: multiselect
-          label: Running type
-          placeholder: Choose type
-          options:
-            - name: Track
-              value: track
-            - name: Trail
-              value: trail
-            - name: Sub ultra
-              value: subultra
-            - name: Ultra
-              value: ultra
-            - name: Skyrunning
-              value: skyrunning
-            - name: Science
-              value: science
-            - name: Road
-              value: road
-            - name: Business
-              value: business
-      - name: language
-        field:
-          element: multiselect
-          label: Language
-          placeholder: Choose type
-          options:
-            - name: Norwegian
-              value: norwegian
-            - name: English
-              value: english
-            - name: Swedish
-              value: swedish
-            - name: Polish
-              value: polish
-            - name: Italian
-              value: italian
-            - name: French
-              value: french
-            - name: Danish
-              value: danish 
-      - name: publisher
-        field:
-          element: text
-          label: Publisher
-          placeholder: NEDA
-          value: ''
-      - name: description
-        field:
-          element: text
-          label: Beskrivelse
-          placeholder: ''
-          value: ''
 
+# Browser CMS: https://decapcms.org/ — admin UI at /admin/ (build output: docs/admin/).
+# Prose.io is deprecated; the old "prose:" config has been removed. Set up GitHub
+# sign-in: see admin/OAUTH-SETUP.md

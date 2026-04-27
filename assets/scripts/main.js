@@ -20,40 +20,57 @@ function syncGridAria() {
     }
 }
 
+/**
+ * Build CSS selector: AND of selected category tag ids + optional single language.
+ * data-category on each item lists space-separated tag and language slugs.
+ */
+function applyPodcastFilter() {
+    var $allItems = $('.podcast-loop__item').not('.no-podcast-found');
+    var selector = '';
+
+    $('input[name="category"]:checked').each(function () {
+        selector += "[data-category~='" + this.id + "']";
+    });
+
+    var lang = $('input[name="language_filter"]:checked').val();
+    if (lang) {
+        selector += "[data-category~='" + lang + "']";
+    }
+
+    if (!selector) {
+        $allItems.show();
+        $('.filter__reset').addClass('checked').attr('aria-pressed', 'true');
+    } else {
+        $allItems.hide();
+        $allItems.filter(selector).show();
+
+        if ($('input[name="category"]:checked').length) {
+            $('.filter fieldset').first().find('.filter__reset')
+                .removeClass('checked').attr('aria-pressed', 'false');
+        } else {
+            $('.filter fieldset').first().find('.filter__reset')
+                .addClass('checked').attr('aria-pressed', 'true');
+        }
+    }
+
+    if ($('.podcast-loop__item:visible').not('.no-podcast-found').length >= 1) {
+        $('body').removeClass('no-podcasts');
+    } else {
+        $('body').addClass('no-podcasts');
+    }
+}
+
 $(document).ready(function () {
     var boxGrid = $('body').attr('data-box-grid');
 
     syncGridAria();
 
-    $('.filter,.podcast-loop').on('change', 'input[type=checkbox]', function () {
-        var $filterItems = $('.podcast-loop__item'),
-            $checked = $('input[type=checkbox]:checked');
-
-        if ($checked.length) {
-            var selector = '';
-
-            $checked.each(function (index, element) {
-                selector += "[data-category~='" + element.id + "']";
-            });
-
-            $(this).closest('fieldset').find('.filter__reset').removeClass('checked').attr('aria-pressed', 'false');
-
-            $filterItems.hide();
-            $filterItems.filter(selector).show();
-        } else {
-            $filterItems.show();
-            $('.filter__reset').addClass('checked').attr('aria-pressed', 'true');
-        }
-
-        if ($('.podcast-loop__item:visible').not('.no-podcast-found').length >= 1) {
-            $('body').removeClass('no-podcasts');
-        } else {
-            $('body').addClass('no-podcasts');
-        }
-    });
+    $('.filter,.podcast-loop').on('change', 'input[name="category"]', applyPodcastFilter);
+    $('.filter').on('change', 'input[name="language_filter"]', applyPodcastFilter);
 
     $('.filter__reset').on('click', function () {
-        $('input[type=checkbox]').prop('checked', false);
+        $('input[name="category"]').prop('checked', false);
+        $('#lang-all').prop('checked', true);
         $('.podcast-loop__item').show();
         $('.filter__reset').addClass('checked').attr('aria-pressed', 'true');
         $('body').removeClass('no-podcasts');

@@ -12,7 +12,7 @@ tags:
   - road
   - trail
 patreon_link: 'https://www.patreon.com/breakingmarathonlimits/posts'
-description: Norwegian running podcast mostly focused on track and road related stuff. 
+description: Norwegian running podcast, mostly focused on track and road.
 ---
-![Breaking Marathon Limits logo]({{site.baseurl}}/media/breakingmarathonlimits.jpg)
+![Breaking Marathon Limits logo]({{site.baseurl}}/media/bml.jpeg)
  

@@ -1,0 +1,71 @@
+# Decap CMS — https://decapcms.org/
+# If you use GitHub Pages, you need an OAuth proxy. See admin/OAUTH-SETUP.md
+# and uncomment the two backend lines below (base_url + auth_endpoint) after
+# the proxy is live.
+
+backend:
+  name: github
+  branch: main
+  repo: hanserino/curatedrunningpodcasts
+  # GitHub Pages: deploy an OAuth worker (e.g. sterlingwes/decap-proxy on Cloudflare)
+  # and set the URL here:
+  # base_url: https://YOUR-OAUTH-PROXY.example.com
+  # auth_endpoint: auth
+  # use_graphql: true   # optional, fewer API calls to GitHub
+
+# Optional: for local only — run: npx decap-server
+# and keep base_url / auth lines commented, or use a test backend
+# local_backend: true
+
+media_folder: "media" # Jekyll: repository folder for uploads
+public_folder: "/media" # URL path on the live site (baseurl is empty)
+slug:
+  clean_accents: true
+  encoding: "ascii"
+  max_length: 100
+
+editor:
+  preview: false
+
+collections:
+  - name: "podcast"
+    label: "Podcast"
+    label_singular: "podcast"
+    description: "Curated show entries. Filenames are YYYY-MM-DD-slug.md to match Jekyll."
+    folder: "_posts/podcasts"
+    create: true
+    path: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
+    extension: "md"
+    format: "frontmatter"
+    # Slug in filename = slugified title unless you set slug in (future) advanced mode
+    identifier_field: title
+    summary: "{{title}} · {{date}}"
+    sortable_fields: ["date", "title", "description"]
+    fields:
+      - { label: "Publish date", name: "date", required: true, time_format: false, date_format: "YYYY-MM-DD", picker_utc: false, widget: "datetime" }
+      - { label: "Show / podcast name", name: "title", required: true, widget: "string" }
+      - { label: "Category (fixed)", name: "category", default: "podcast", widget: "hidden" }
+      - { label: "Include in site (fixed)", name: "published", default: "true", widget: "hidden" }
+      - { label: "Short description", name: "description", required: false, hint: "Shown in the list and in SEO. One or two sentences.", widget: "text" }
+      - { label: "Publisher", name: "publisher", required: false, widget: "string" }
+      - { label: "Spotify (show or episode URL)", name: "spotify_link", required: false, widget: "string" }
+      - { label: "Apple Podcasts", name: "apple_podcast_link", required: false, widget: "string" }
+      - { label: "Patreon", name: "patreon_link", required: false, widget: "string" }
+      - { label: "YouTube", name: "youtube_link", required: false, widget: "string" }
+      - label: "Running type (tags)"
+        name: "tags"
+        required: true
+        widget: "select"
+        multiple: true
+        min: 1
+        options: ["track", "trail", "subultra", "ultra", "skyrunning", "science", "road", "business"]
+        hint: "One or more — used by the category filter on the site."
+      - label: "Language(s) spoken"
+        name: "language"
+        required: true
+        widget: "select"
+        multiple: true
+        min: 1
+        options: ["norwegian", "english", "swedish", "polish", "italian", "french", "danish"]
+        hint: "One or more — used by the language filter."
+      - { label: "Body (markdown)", name: "body", required: true, widget: "markdown" }
