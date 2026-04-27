@@ -1,7 +1,16 @@
 .grid-switch-wrapper{
     position: relative;
     display: flex;
-    padding: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.5rem;
+    padding: .5rem 1rem;
+}
+
+.grid-switch__label {
+    font-size: 0.95rem;
+    font-weight: bold;
+    line-height: 1.2;
 }
 
 .grid-switch {

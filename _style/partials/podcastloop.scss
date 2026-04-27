@@ -82,6 +82,8 @@
                
             }
 
+            // Cover lives in .podcast-loop__item__media (see podcastloop.html), not a raw <p>.
+            h2 + .podcast-loop__item__media,
             h2 + p {
                 position: absolute;
                 left: 0;

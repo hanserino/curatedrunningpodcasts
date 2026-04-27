@@ -3,20 +3,26 @@
 {%- assign seo_desc = seo_desc | strip_html | strip | truncate: 300 -%}
 {%- endif -%}
 
+{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- assign site_tagline_safe = site.tagline | default: 'The best running podcasts, trail, ultra, and track podcast directory' -%}
+
 {%- assign is_home = false -%}
-{%- if page.url == '/' or page.url == '/index.html' -%}
+{%- if page.layout == 'home' or page.url == '/' or page.url == '/index.html' -%}
 {%- assign is_home = true -%}
 {%- endif -%}
 
-{%- if is_home and site.title and site.tagline -%}
-{%- assign seo_page_title = site.title | append: ' | ' | append: site.tagline -%}
-{%- elsif page.title -%}
-{%- assign seo_page_title = page.title | append: ' | ' | append: site.title -%}
+{%- if is_home -%}
+  {%- assign seo_page_title = site_name | append: ' | ' | append: site_tagline_safe -%}
+{%- elsif page.title and page.title != '' -%}
+  {%- assign seo_page_title = page.title | append: ' | ' | append: site_name -%}
 {%- else -%}
-{%- assign seo_page_title = site.title | append: ' | ' | append: site.tagline -%}
+  {%- assign seo_page_title = site_name | append: ' | ' | append: site_tagline_safe -%}
 {%- endif -%}
+{%- assign seo_page_title = seo_page_title | strip -%}
 
 {%- if is_home -%}
+{%- assign og_type = 'website' -%}
+{%- elsif page.layout == 'page' -%}
 {%- assign og_type = 'website' -%}
 {%- else -%}
 {%- assign og_type = 'article' -%}
@@ -30,10 +36,10 @@
 <meta name="description" content="{{ seo_desc | xml_escape }}">
 <meta name="author" content="{{ site.author_name | default: 'Hans Kristian Smedsrød' | xml_escape }}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="application-name" content="{{ site.title | xml_escape }}">
+<meta name="application-name" content="{{ site_name | xml_escape }}">
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="{{ site.title | xml_escape }}">
+<meta property="og:site_name" content="{{ site_name | xml_escape }}">
 <meta property="og:title" content="{{ seo_page_title | xml_escape }}">
 <meta property="og:description" content="{{ seo_desc | xml_escape }}">
 <meta property="og:type" content="{{ og_type }}">
@@ -58,7 +64,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ "/assets/style/main.css" | relative_url }}">
-<link rel="alternate" type="application/rss+xml" title="{{ site.title | xml_escape }} feed" href="{{ "/feed.xml" | absolute_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site_name | xml_escape }} feed" href="{{ "/feed.xml" | absolute_url }}">
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>

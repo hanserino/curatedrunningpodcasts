@@ -1,6 +1,6 @@
 ---
 category: podcast
-published: true
+published: false
 title: Lavterskel
 apple_podcast_link: 'https://podcasts.apple.com/no/podcast/lavterskel/id1613438684'
 spotify_link: 'https://open.spotify.com/show/1tuCp2sz4zehBwxR896MeH?si=47a97fec24114f85'

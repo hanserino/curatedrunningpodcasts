@@ -7,9 +7,9 @@
 {% capture tag_counts %}{% for tag in site_tags %}{{site.tags[tag] | size | times: 10 | plus: post_count | minus: 1 | divided_by: post_count }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_counts = tag_counts | split: ',' %}
 
-<section class="filter" id="filter" aria-labelledby="filter-heading">
+<section class="filter filter--panel" id="filter" aria-labelledby="filter-heading">
     <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
-    <p id="filter-hint" class="filter__hint">Narrow the list by category and language. You can pick several categories, and <strong>one</strong> language (or all).</p>
+    <p id="filter-hint" class="filter__hint">Narrow the list by category and by language. Pick any mix of <strong>categories</strong> (e.g. trail and science) and <strong>one</strong> language, or <strong>All</strong> languages.</p>
     <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
         <fieldset>
             <legend>Category</legend>
@@ -50,4 +50,8 @@
             </div>
         </fieldset>
     </form>
+    <p class="filter__results" id="filter-results" role="status" aria-live="polite" aria-atomic="true"></p>
+    <p class="filter__actions">
+        <button type="button" class="filter__clear-all">Reset all filters</button>
+    </p>
 </section>

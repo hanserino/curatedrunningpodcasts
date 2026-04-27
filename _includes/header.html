@@ -1,5 +1,6 @@
 <header class="header" role="banner">
-    <h1 class="header__title">{% if site.heading %}{{ site.heading }}{% else %}{{ site.title }}{% endif %}</h1>
-    <p class="header__description">A hand picked selection of <em>running related podcasts</em> worth listening to on your long run.</p>
+    <h1 class="header__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
+    <div class="header__description">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
+    <p class="header__about-link"><a href="{{ '/about/' | relative_url }}">About this list</a></p>
     {% include submit_btn.html %}
 </header>

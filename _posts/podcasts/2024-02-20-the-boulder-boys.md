@@ -11,4 +11,4 @@ language:
   - english
 publisher: The Boulder Boys
 ---
-![the boulder boys podcast]({{site.baseurl}}/media/theboulderboyspodcast.jpeg)
+![the boulder boys podcast]({{site.baseurl}}/media/boulderboys.jpeg)

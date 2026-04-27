@@ -1,0 +1,25 @@
+{%- assign page_desc = page.description | default: page.excerpt | default: site.description | strip_html | strip | truncate: 300 -%}
+{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- assign site_part_id = site.url | append: "/#website" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": {{ page.url | absolute_url | append: "#webpage" | jsonify }},
+      "name": {{ page.title | jsonify }},
+      "description": {{ page_desc | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "isPartOf": { "@id": {{ site_part_id | jsonify }} }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ site.url | jsonify }} },
+        { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+      ]
+    }
+  ]
+}
+</script>

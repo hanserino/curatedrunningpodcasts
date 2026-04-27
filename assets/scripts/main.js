@@ -20,6 +20,32 @@ function syncGridAria() {
     }
 }
 
+var filterTotalItems = 0;
+
+function updateFilterResultsCount() {
+    var el = document.getElementById('filter-results');
+    if (!el) {
+        return;
+    }
+    var $allItems = $('.podcast-loop__item').not('.no-podcast-found');
+    if (!filterTotalItems) {
+        filterTotalItems = $allItems.length;
+    }
+    var visible = $allItems.filter(':visible').length;
+    var hasCategory = $('input[name="category"]:checked').length > 0;
+    var hasLang = !!$('input[name="language_filter"]:checked').val();
+    var filtered = hasCategory || hasLang;
+
+    if (visible === 0) {
+        el.textContent = 'No podcasts match these filters. Reset or pick other options below.';
+    } else if (filtered) {
+        el.textContent =
+            'Showing ' + visible + ' of ' + filterTotalItems + ' podcast' + (filterTotalItems === 1 ? '' : 's');
+    } else {
+        el.textContent = filterTotalItems + ' podcast' + (filterTotalItems === 1 ? '' : 's') + ' in the list';
+    }
+}
+
 /**
  * Build CSS selector: AND of selected category tag ids + optional single language.
  * data-category on each item lists space-separated tag and language slugs.
@@ -43,14 +69,7 @@ function applyPodcastFilter() {
     } else {
         $allItems.hide();
         $allItems.filter(selector).show();
-
-        if ($('input[name="category"]:checked').length) {
-            $('.filter fieldset').first().find('.filter__reset')
-                .removeClass('checked').attr('aria-pressed', 'false');
-        } else {
-            $('.filter fieldset').first().find('.filter__reset')
-                .addClass('checked').attr('aria-pressed', 'true');
-        }
+        $('.filter__reset').removeClass('checked').attr('aria-pressed', 'false');
     }
 
     if ($('.podcast-loop__item:visible').not('.no-podcast-found').length >= 1) {
@@ -58,6 +77,8 @@ function applyPodcastFilter() {
     } else {
         $('body').addClass('no-podcasts');
     }
+
+    updateFilterResultsCount();
 }
 
 $(document).ready(function () {
@@ -68,19 +89,26 @@ $(document).ready(function () {
     $('.filter,.podcast-loop').on('change', 'input[name="category"]', applyPodcastFilter);
     $('.filter').on('change', 'input[name="language_filter"]', applyPodcastFilter);
 
-    $('.filter__reset').on('click', function () {
+    function resetAllFilters() {
         $('input[name="category"]').prop('checked', false);
         $('#lang-all').prop('checked', true);
-        $('.podcast-loop__item').show();
+        $('.podcast-loop__item').not('.no-podcast-found').show();
         $('.filter__reset').addClass('checked').attr('aria-pressed', 'true');
         $('body').removeClass('no-podcasts');
-    });
+        updateFilterResultsCount();
+    }
+
+    $('.filter__reset').on('click', resetAllFilters);
+
+    $('.filter__clear-all').on('click', resetAllFilters);
 
     $('#grid-switch').on('click', function () {
         boxGrid = boxGrid === 'true' ? 'false' : 'true';
         $('body').attr('data-box-grid', boxGrid);
         syncGridAria();
     });
+
+    updateFilterResultsCount();
 });
 
 window.onload = function () {

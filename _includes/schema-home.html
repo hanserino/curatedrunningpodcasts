@@ -1,3 +1,4 @@
+{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
 {%- assign podcasts = site.categories['podcast'] -%}
 {%- assign site_id = site.url | append: "/#website" -%}
 {%- assign org_id = site.url | append: "/#org" -%}
@@ -9,7 +10,7 @@
     {
       "@type": "WebSite",
       "@id": {{ site_id | jsonify }},
-      "name": {{ site.title | jsonify }},
+      "name": {{ site_name | jsonify }},
       "alternateName": {{ "Curated Running Podcasts" | jsonify }},
       "url": {{ site.url | jsonify }},
       "description": {{ site.description | strip_newlines | strip | jsonify }},
