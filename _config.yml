@@ -1,6 +1,11 @@
 baseurl: ''
 url: 'https://bestrunningpodcasts.com'
 destination: docs
+# Must exclude the build output from the source tree, or Jekyll re-reads stale
+# docs/*.html (e.g. after jekyll serve) and you get wrong absolute URLs in meta.
+exclude:
+  - docs
+  - tools
 email: hans@naerdetalvor.no
 # Used for <title>, Open Graph, JSON-LD, and LLM-oriented summaries
 title: The Best Running Podcasts

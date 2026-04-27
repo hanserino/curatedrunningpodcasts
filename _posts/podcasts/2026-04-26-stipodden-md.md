@@ -15,4 +15,4 @@ tags:
 language:
   - norwegian
 ---
-![Stipodden logo](stipodden.jpg "Stipodden")
+![Stipodden logo]({{site.baseurl}}/media/stipodden.jpg)

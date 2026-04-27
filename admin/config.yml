@@ -32,6 +32,9 @@ collections:
     label_singular: "podcast"
     description: "Curated show entries. Filenames are YYYY-MM-DD-slug.md to match Jekyll."
     folder: "_posts/podcasts"
+    # Repeat here so markdown image inserts get /media/… (root-level alone is not always applied)
+    media_folder: "media"
+    public_folder: "/media"
     create: true
     path: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
     extension: "md"
@@ -67,4 +70,10 @@ collections:
         min: 1
         options: ["norwegian", "english", "swedish", "polish", "italian", "french", "danish"]
         hint: "One or more — used by the language filter."
-      - { label: "Body (markdown)", name: "body", required: true, widget: "markdown" }
+      - label: "Body (markdown)"
+        name: "body"
+        required: true
+        widget: "markdown"
+        media_folder: "media"
+        public_folder: "/media"
+        hint: "Use the image button so the inserted path starts with /media/ (required on this site). Same pattern as other podcast posts."
