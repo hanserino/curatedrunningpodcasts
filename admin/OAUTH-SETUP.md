@@ -100,6 +100,16 @@ Only GitHub users with **write access** to **`hanserino/curatedrunningpodcasts`*
 
 ## Troubleshooting
 
+- **`client_id=undefined` in the GitHub URL** — The worker does not have your GitHub OAuth credentials. [decap-proxy](https://github.com/sterlingwes/decap-proxy) reads **`GITHUB_OAUTH_ID`** and **`GITHUB_OAUTH_SECRET`** from the Worker’s environment. Set them (names must match exactly):
+
+  ```bash
+  cd tools/decap-proxy   # your clone, with this repo’s wrangler.toml
+  npx wrangler secret put GITHUB_OAUTH_ID    # paste the OAuth app’s Client ID
+  npx wrangler secret put GITHUB_OAUTH_SECRET
+  ```
+
+  No redeploy is required, but try “Login with GitHub” again in a new tab. Use `npx wrangler whoami` and `npx wrangler deployments list` to confirm you are logged into the same Cloudflare account that **owns** `curatedrunningpodcasts-decap-oauth`.
+
 - **Login still fails** — In the OAuth app, try **adding a second** callback URL: `https://YOUR-PROXY-HOST/callback?provider=github` (the worker uses a `provider` query in the redirect URI).
 - **Wrangler: Node version** — Use Node 20+.
 - **Local `npx decap-server` works but production does not** — Production needs `base_url` + `auth_endpoint` and the worker secrets; see [Decap GitHub + OAuth](https://decapcms.org/docs/backends-overview/#github-backend).

@@ -4,7 +4,7 @@
 # Deploy from tools/decap-proxy:
 #   npm install && npx wrangler deploy
 #
-# Then set GitHub OAuth secrets on the worker:
+# Then set **required** GitHub OAuth secrets on the worker (if these are missing, login URLs show `client_id=undefined`):
 #   npx wrangler secret put GITHUB_OAUTH_ID
 #   npx wrangler secret put GITHUB_OAUTH_SECRET
 
