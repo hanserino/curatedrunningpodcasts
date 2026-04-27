@@ -7,10 +7,9 @@ backend:
   name: github
   branch: main
   repo: hanserino/curatedrunningpodcasts
-  # GitHub Pages: deploy an OAuth worker (e.g. sterlingwes/decap-proxy on Cloudflare)
-  # and set the URL here:
-  # base_url: https://YOUR-OAUTH-PROXY.example.com
-  # auth_endpoint: auth
+  # OAuth proxy (Cloudflare Worker) — see admin/OAUTH-SETUP.md
+  base_url: https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev
+  auth_endpoint: /auth
   # use_graphql: true   # optional, fewer API calls to GitHub
 
 # Optional: for local only — run: npx decap-server

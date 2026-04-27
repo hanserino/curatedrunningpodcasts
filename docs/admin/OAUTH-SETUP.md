@@ -1,44 +1,113 @@
 # Decap CMS + GitHub Pages — authentication
 
-Decap’s **GitHub** backend needs a short **OAuth exchange**; Git does not allow putting a client *secret* in the browser, so a tiny **proxy** (or Netlify) signs users in.
+Decap’s **GitHub** backend needs a short **OAuth exchange**; Git does not allow putting a client *secret* in the browser, so a tiny **proxy** (Cloudflare Worker) signs users in.
 
-Your admin UI: **`https://bestrunningpodcasts.com/admin/`** (or your GitHub Pages URL).
+Your admin UI: **`https://bestrunningpodcasts.com/admin/`**
 
-## Option A — Cloudflare Worker (free tier, no Netlify)
+This repo uses **[sterlingwes/decap-proxy](https://github.com/sterlingwes/decap-proxy)**. Tracked worker name: **`admin/cloudflare-decap-wrangler.toml`** (copy into the clone as `wrangler.toml`).
 
-A common pattern is a small worker that implements `/auth` and `/callback` for Decap. Example template:
+---
 
-- [sterlingwes / decap-proxy (Cloudflare Worker)](https://github.com/sterlingwes/decap-proxy) — follow its README, set `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`, then deploy and copy the worker URL.
+## 1. Prerequisites
 
-Then in **`admin/config.yml`**, under `backend:`, set:
+- **Node.js 20+** (Wrangler 4 requires it). Check: `node -v`. On macOS with Homebrew: `brew install node@22` then ensure that `node` is on your `PATH`, or use [nvm](https://github.com/nvm-sh/nvm) / [fnm](https://github.com/Schniz/fnm).
+- A **Cloudflare** account (free tier is enough).
 
-```yaml
-base_url: https://YOUR-WORKER-SUBDOMAIN.workers.dev
-auth_endpoint: auth
+---
+
+## 2. Clone and deploy the worker (one-time)
+
+From the **project root** (not inside this repo’s tracked `tools/` — that path is gitignored once you clone):
+
+```bash
+git clone --depth 1 https://github.com/sterlingwes/decap-proxy.git tools/decap-proxy
+cp admin/cloudflare-decap-wrangler.toml tools/decap-proxy/wrangler.toml
+cd tools/decap-proxy
+npm install
+npx wrangler login
+npx wrangler deploy
 ```
 
-(If the template uses a different path, match what it documents — often `auth` and `callback` are the routes.)
+`wrangler deploy` prints your worker URL, for example:
 
-**GitHub OAuth app** (Settings → Developer settings → OAuth Apps):
+`https://curatedrunningpodcasts-decap-oauth.<your-subdomain>.workers.dev`
 
-- **Application name:** e.g. `Best Running Podcasts Decap`
-- **Homepage URL:** `https://bestrunningpodcasts.com`
-- **Authorization callback URL:** the worker’s callback URL, e.g. `https://YOUR-WORKER.workers.dev/callback` (use exactly what the proxy README says)
+Open that URL in a browser — you should see **Hello 👋**.
 
-## Option B — Netlify (if you add Netlify in front of the repo)
+**Keep that URL** — it is your **PROXY URL** for the next steps.
 
-If you (later) build or connect the same repo to **Netlify**, you can use [Netlify’s auth provider for Git](https://docs.netlify.com/security/secure-access-to-sites/identity/setup-external-providers/) with Decap. Your site can still be served from the same `docs` build; many teams use Netlify only for the CMS login flow — check the latest Decap + Netlify docs for the exact `backend` block.
+---
 
-## After OAuth works
+## 3. Register the GitHub OAuth app
 
-1. Commit **`admin/config.yml`** with `base_url` and `auth_endpoint` uncommented and correct.
-2. Rebuild the site if `destination` is `docs` and commit **`docs/admin/`** so GitHub Pages serves `/admin/`.
-3. **Collaborators** who use the CMS need **write access** to the GitHub repository (Decap uses their GitHub account to create commits).
+[Create a GitHub OAuth App](https://github.com/settings/applications/new) (Developer settings → OAuth Apps).
+
+Per [decap-proxy’s README](https://github.com/sterlingwes/decap-proxy), use the **proxy** host (not your public site) for both fields:
+
+| Field | Value |
+|--------|--------|
+| **Homepage URL** | `https://YOUR-PROXY-HOST` (same origin as the worker, no path) |
+| **Authorization callback URL** | `https://YOUR-PROXY-HOST/callback` |
+
+Example: if the worker is `https://curatedrunningpodcasts-decap-oauth.hanserino.workers.dev`, set the callback to **`https://curatedrunningpodcasts-decap-oauth.hanserino.workers.dev/callback`**.
+
+Save the **Client ID** and generate a **Client secret**.
+
+---
+
+## 4. Add secrets to the Worker
+
+Still in `tools/decap-proxy/`:
+
+```bash
+npx wrangler secret put GITHUB_OAUTH_ID
+npx wrangler secret put GITHUB_OAUTH_SECRET
+```
+
+Paste the GitHub **Client ID** and **Client secret** when prompted. Redeploy is not required for secrets.
+
+---
+
+## 5. Configure Decap in this repo
+
+In **`admin/config.yml`**, under `backend:`, set (uncomment and replace the URL):
+
+```yaml
+  base_url: https://YOUR-PROXY-HOST
+  auth_endpoint: /auth
+```
+
+Example:
+
+```yaml
+  base_url: https://curatedrunningpodcasts-decap-oauth.hanserino.workers.dev
+  auth_endpoint: /auth
+```
+
+`repo:` and `branch:` should already match this repository.
+
+---
+
+## 6. Ship the site
+
+1. Rebuild: `JEKYLL_ENV=production bundle exec jekyll build`
+2. Commit **`admin/config.yml`** and **`docs/admin/config.yml`** (and other `docs/` changes from the build).
+3. Push so GitHub Pages serves `/admin/` with the new config.
+
+Only GitHub users with **write access** to **`hanserino/curatedrunningpodcasts`** can publish from the CMS.
+
+---
+
+## Troubleshooting
+
+- **Login still fails** — In the OAuth app, try **adding a second** callback URL: `https://YOUR-PROXY-HOST/callback?provider=github` (the worker uses a `provider` query in the redirect URI).
+- **Wrangler: Node version** — Use Node 20+.
+- **Local `npx decap-server` works but production does not** — Production needs `base_url` + `auth_endpoint` and the worker secrets; see [Decap GitHub + OAuth](https://decapcms.org/docs/backends-overview/#github-backend).
+
+## Option B — Netlify (later)
+
+If you (later) connect the same repo to **Netlify**, you can use Netlify’s auth flow with Decap instead of this worker. See the [Decap + Netlify](https://decapcms.org/docs/authentication-backends/) docs for the `backend` block.
 
 ## Local editing (no OAuth)
 
-- Run `npx decap-server` from the project root (or follow [Decap local backend](https://decapcms.org/docs/beta-features/#local-backend)) and, when testing only, you can set `local_backend: true` in `config.yml` (do not leave it on in production for the public site, or the admin may try to use the local server for everyone).
-
-## Removing the old `prose:` block
-
-The **`prose:`** section in `_config.yml` was only for Prose.io; it is safe to remove (already removed). Jekyll ignores it for builds.
+Run `npx decap-server` from the project root, or set `local_backend: true` in `config.yml` **only** for local testing — do not commit that for the public site.

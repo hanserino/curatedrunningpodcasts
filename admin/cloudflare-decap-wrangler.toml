@@ -1,0 +1,20 @@
+# Copy to your decap-proxy clone as `wrangler.toml`:
+#   cp admin/cloudflare-decap-wrangler.toml tools/decap-proxy/wrangler.toml
+#
+# Deploy from tools/decap-proxy:
+#   npm install && npx wrangler deploy
+#
+# Then set GitHub OAuth secrets on the worker:
+#   npx wrangler secret put GITHUB_OAUTH_ID
+#   npx wrangler secret put GITHUB_OAUTH_SECRET
+
+#:schema node_modules/wrangler/config-schema.json
+
+compatibility_date = "2025-11-17"
+main = "src/index.ts"
+
+# URL will be: https://<name>.<account-subdomain>.workers.dev
+name = "curatedrunningpodcasts-decap-oauth"
+
+[vars]
+GITHUB_REPO_PRIVATE = "0"
