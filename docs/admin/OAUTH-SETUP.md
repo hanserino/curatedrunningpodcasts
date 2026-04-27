@@ -47,9 +47,11 @@ Per [decap-proxy’s README](https://github.com/sterlingwes/decap-proxy), use th
 | Field | Value |
 |--------|--------|
 | **Homepage URL** | `https://YOUR-PROXY-HOST` (same origin as the worker, no path) |
-| **Authorization callback URL** | `https://YOUR-PROXY-HOST/callback` |
+| **Authorization callback URL** | **`https://YOUR-PROXY-HOST/callback?provider=github`** (required — see below) |
 
-Example: this repo’s worker is deployed at `https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev` — the GitHub OAuth app **Homepage** and **callback** must use that same host; for the callback, use **`https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev/callback`**.
+**Callback must include the query string.** [decap-proxy](https://github.com/sterlingwes/decap-proxy) sends GitHub a `redirect_uri` of `https://YOUR-PROXY-HOST/callback?provider=github`. GitHub requires that to **match** what you register (see [GitHub: redirect URLs](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps#redirect-urls)). If you only register `.../callback` (no `?provider=github`), authorization can fail with a broken or “not found”–style error after you sign in.
+
+Example for this repo’s worker: **`https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev/callback?provider=github`**
 
 Save the **Client ID** and generate a **Client secret**.
 
@@ -110,7 +112,7 @@ Only GitHub users with **write access** to **`hanserino/curatedrunningpodcasts`*
 
   No redeploy is required, but try “Login with GitHub” again in a new tab. Use `npx wrangler whoami` and `npx wrangler deployments list` to confirm you are logged into the same Cloudflare account that **owns** `curatedrunningpodcasts-decap-oauth`.
 
-- **Login still fails** — In the OAuth app, try **adding a second** callback URL: `https://YOUR-PROXY-HOST/callback?provider=github` (the worker uses a `provider` query in the redirect URI).
+- **404 or error right after GitHub login, or “redirect_uri” errors** — Edit the OAuth app’s **Authorization callback URL** so it is **exactly** `https://YOUR-PROXY-HOST/callback?provider=github` (not only `.../callback`). Classic OAuth apps have a single callback field—**replace** it with that full URL if needed.
 - **Wrangler: Node version** — Use Node 20+.
 - **Local `npx decap-server` works but production does not** — Production needs `base_url` + `auth_endpoint` and the worker secrets; see [Decap GitHub + OAuth](https://decapcms.org/docs/backends-overview/#github-backend).
 
