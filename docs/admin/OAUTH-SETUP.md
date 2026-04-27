@@ -49,7 +49,7 @@ Per [decap-proxy’s README](https://github.com/sterlingwes/decap-proxy), use th
 | **Homepage URL** | `https://YOUR-PROXY-HOST` (same origin as the worker, no path) |
 | **Authorization callback URL** | `https://YOUR-PROXY-HOST/callback` |
 
-Example: if the worker is `https://curatedrunningpodcasts-decap-oauth.hanserino.workers.dev`, set the callback to **`https://curatedrunningpodcasts-decap-oauth.hanserino.workers.dev/callback`**.
+Example: this repo’s worker is deployed at `https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev` — the GitHub OAuth app **Homepage** and **callback** must use that same host; for the callback, use **`https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev/callback`**.
 
 Save the **Client ID** and generate a **Client secret**.
 
@@ -77,10 +77,10 @@ In **`admin/config.yml`**, under `backend:`, set (uncomment and replace the URL)
   auth_endpoint: /auth
 ```
 
-Example:
+Example (must match the worker URL in **`admin/config.yml`** and the GitHub OAuth app):
 
 ```yaml
-  base_url: https://curatedrunningpodcasts-decap-oauth.hanserino.workers.dev
+  base_url: https://curatedrunningpodcasts-decap-oauth.bestpodcasts.workers.dev
   auth_endpoint: /auth
 ```
 
