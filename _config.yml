@@ -20,8 +20,10 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-# Organization / publisher (Schema.org, meta)
-author_name: Hans Kristian Smedsrød Engdahl
+# Organization / publisher (Schema.org, meta). `author` is also used by jekyll-feed (Atom/RSS).
+author:
+  name: Hans Kristian Smedsrød Engdahl
+  email: hans@naerdetalvor.no
 org_name: NEDA
 org_url: "https://www.naerdetalvor.no"
 lang: en

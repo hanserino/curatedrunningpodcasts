@@ -1,0 +1,11 @@
+{%- comment -%}
+  Sets seo_og_abs, seo_og_alt for Open Graph / Twitter meta (included from head.html).
+{%- endcomment -%}
+{%- assign _default_alt = site.seo.default_og_image_alt | default: "Best Running Podcasts — curated running podcast directory (cover image)" -%}
+{%- if page.cover_image and page.cover_image != '' -%}
+  {%- assign seo_og_abs = page.cover_image | strip | absolute_url -%}
+  {%- assign seo_og_alt = page.title | append: " podcast cover art" | strip -%}
+{%- else -%}
+  {%- assign seo_og_abs = "/assets/img/social.jpg" | absolute_url -%}
+  {%- assign seo_og_alt = _default_alt -%}
+{%- endif -%}

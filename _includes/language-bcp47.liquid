@@ -1,0 +1,15 @@
+{%- comment -%}
+  Map Decap/podcast YAML language slugs to BCP-47 for Schema.org JSON-LD inLanguage.
+  Pass: lang (string).
+{%- endcomment -%}
+{%- assign _l = include.lang | strip | downcase -%}
+{%- case _l -%}
+  {%- when "english","en" -%}en
+  {%- when "norwegian","no","nb","nn","norsk","bokmål","bokmal" -%}no
+  {%- when "swedish","sv" -%}sv
+  {%- when "polish","pl" -%}pl
+  {%- when "italian","it" -%}it
+  {%- when "french","fr" -%}fr
+  {%- when "danish","da" -%}da
+  {%- else -%}{{ include.lang | strip }}
+{%- endcase -%}

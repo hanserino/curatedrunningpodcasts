@@ -22,18 +22,42 @@ function syncGridAria() {
 
 var filterTotalItems = 0;
 
+function podcastListItems() {
+    return Array.prototype.slice.call(
+        document.querySelectorAll('.podcast-loop__item:not(.no-podcast-found)')
+    );
+}
+
+/** True when element is displayed (respects inline display:none from filtering). */
+function isItemVisible(li) {
+    return window.getComputedStyle(li).display !== 'none';
+}
+
+function escapeAttrSel(value) {
+    if (typeof CSS !== 'undefined' && typeof CSS.escape === 'function') {
+        return CSS.escape(value);
+    }
+    return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
 function updateFilterResultsCount() {
     var el = document.getElementById('filter-results');
     if (!el) {
         return;
     }
-    var $allItems = $('.podcast-loop__item').not('.no-podcast-found');
+
+    var allItems = podcastListItems();
     if (!filterTotalItems) {
-        filterTotalItems = $allItems.length;
+        filterTotalItems = allItems.length;
     }
-    var visible = $allItems.filter(':visible').length;
-    var hasCategory = $('input[name="category"]:checked').length > 0;
-    var hasLang = !!$('input[name="language_filter"]:checked').val();
+
+    var visible = allItems.reduce(function (n, li) {
+        return n + (isItemVisible(li) ? 1 : 0);
+    }, 0);
+
+    var hasCategory = !!document.querySelector('input[name="category"]:checked');
+    var langInput = document.querySelector('input[name="language_filter"]:checked');
+    var hasLang = !!(langInput && langInput.value);
     var filtered = hasCategory || hasLang;
 
     if (visible === 0) {
@@ -51,65 +75,122 @@ function updateFilterResultsCount() {
  * data-category on each item lists space-separated tag and language slugs.
  */
 function applyPodcastFilter() {
-    var $allItems = $('.podcast-loop__item').not('.no-podcast-found');
+    var allItems = podcastListItems();
     var selector = '';
 
-    $('input[name="category"]:checked').each(function () {
-        selector += "[data-category~='" + this.id + "']";
-    });
-
-    var lang = $('input[name="language_filter"]:checked').val();
-    if (lang) {
-        selector += "[data-category~='" + lang + "']";
+    var categoryInputs = document.querySelectorAll('input[name="category"]:checked');
+    for (var i = 0; i < categoryInputs.length; i++) {
+        var id = categoryInputs[i].id;
+        if (id) {
+            selector += "[data-category~='" + escapeAttrSel(id) + "']";
+        }
     }
+
+    var langInput = document.querySelector('input[name="language_filter"]:checked');
+    var lang = langInput ? langInput.value : '';
+    if (lang) {
+        selector += "[data-category~='" + escapeAttrSel(lang) + "']";
+    }
+
+    var resetBtns = document.querySelectorAll('.filter__reset');
 
     if (!selector) {
-        $allItems.show();
-        $('.filter__reset').addClass('checked').attr('aria-pressed', 'true');
+        allItems.forEach(function (li) {
+            li.style.display = '';
+        });
+        resetBtns.forEach(function (btn) {
+            btn.classList.add('checked');
+            btn.setAttribute('aria-pressed', 'true');
+        });
     } else {
-        $allItems.hide();
-        $allItems.filter(selector).show();
-        $('.filter__reset').removeClass('checked').attr('aria-pressed', 'false');
+        allItems.forEach(function (li) {
+            li.style.display = 'none';
+        });
+
+        try {
+            var matches = document.querySelectorAll('.podcast-loop__item:not(.no-podcast-found)' + selector);
+            for (var j = 0; j < matches.length; j++) {
+                matches[j].style.display = '';
+            }
+        } catch (_e) {
+            /* malformed selector fallback: show nothing filtered */
+        }
+
+        resetBtns.forEach(function (btn) {
+            btn.classList.remove('checked');
+            btn.setAttribute('aria-pressed', 'false');
+        });
     }
 
-    if ($('.podcast-loop__item:visible').not('.no-podcast-found').length >= 1) {
-        $('body').removeClass('no-podcasts');
+    var visibleCount = podcastListItems().filter(isItemVisible).length;
+    if (visibleCount >= 1) {
+        document.body.classList.remove('no-podcasts');
     } else {
-        $('body').addClass('no-podcasts');
+        document.body.classList.add('no-podcasts');
     }
 
     updateFilterResultsCount();
 }
 
-$(document).ready(function () {
-    var boxGrid = $('body').attr('data-box-grid');
+function resetAllFilters() {
+    document.querySelectorAll('input[name="category"]').forEach(function (inp) {
+        inp.checked = false;
+    });
+
+    var langAll = document.getElementById('lang-all');
+    if (langAll) {
+        langAll.checked = true;
+    }
+
+    podcastListItems().forEach(function (li) {
+        li.style.display = '';
+    });
+
+    document.querySelectorAll('.filter__reset').forEach(function (btn) {
+        btn.classList.add('checked');
+        btn.setAttribute('aria-pressed', 'true');
+    });
+
+    document.body.classList.remove('no-podcasts');
+    updateFilterResultsCount();
+}
+
+function wireFilterAndGrid() {
+    var boxGrid = document.body.getAttribute('data-box-grid');
 
     syncGridAria();
 
-    $('.filter,.podcast-loop').on('change', 'input[name="category"]', applyPodcastFilter);
-    $('.filter').on('change', 'input[name="language_filter"]', applyPodcastFilter);
-
-    function resetAllFilters() {
-        $('input[name="category"]').prop('checked', false);
-        $('#lang-all').prop('checked', true);
-        $('.podcast-loop__item').not('.no-podcast-found').show();
-        $('.filter__reset').addClass('checked').attr('aria-pressed', 'true');
-        $('body').removeClass('no-podcasts');
-        updateFilterResultsCount();
-    }
-
-    $('.filter__reset').on('click', resetAllFilters);
-
-    $('.filter__clear-all').on('click', resetAllFilters);
-
-    $('#grid-switch').on('click', function () {
-        boxGrid = boxGrid === 'true' ? 'false' : 'true';
-        $('body').attr('data-box-grid', boxGrid);
-        syncGridAria();
+    document.addEventListener('change', function (e) {
+        var target = e.target;
+        if (!target) {
+            return;
+        }
+        if (target.name === 'category' || target.name === 'language_filter') {
+            applyPodcastFilter();
+        }
     });
 
+    document.querySelectorAll('.filter__reset, .filter__clear-all').forEach(function (el) {
+        el.addEventListener('click', resetAllFilters);
+    });
+
+    var gridSwitch = document.getElementById('grid-switch');
+    if (gridSwitch) {
+        gridSwitch.addEventListener('click', function () {
+            boxGrid = boxGrid === 'true' ? 'false' : 'true';
+            document.body.setAttribute('data-box-grid', boxGrid);
+            syncGridAria();
+        });
+    }
+
     updateFilterResultsCount();
-});
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', wireFilterAndGrid);
+} else {
+    wireFilterAndGrid();
+}
 
 window.onload = function () {
     init();

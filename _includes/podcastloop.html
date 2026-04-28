@@ -13,7 +13,11 @@
             <header>
                 <h2 class="podcast-loop__item__title" id="podcast-title-{{ forloop.index }}">{{ podcast.title }}</h2>
                 <div class="podcast-loop__item__media">
-                {{ podcast.content }}
+                {%- if forloop.index == 1 -%}
+                  {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+                {%- else -%}
+                  {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
+                {%- endif -%}
                 </div>
                 {% if podcast.description %}
                 <p class="podcast-loop__item__description">{{ podcast.description }}</p>

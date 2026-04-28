@@ -8,7 +8,7 @@ An independent, hand-curated directory of running podcasts (road, track, trail, 
 
 - **Jekyll 4** — static site; posts are Markdown in `_posts/podcasts/`.
 - **SCSS** — styles under `_style/`; compiled to `docs/assets/style/`.
-- **jQuery** — home-page filtering (see `_includes/filter.html` and `assets/scripts/main.js`).
+- **Vanilla JS** — home-page filtering and layout toggle (`assets/scripts/main.js`; wired from `_includes/footer.html`).
 - **Plugins** — [jekyll-feed](https://github.com/jekyll/jekyll-feed) (RSS) and [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap).
 
 Site metadata, SEO, and structured data are centralized in `_config.yml` and `head` / `schema` includes. There is a [`llms.txt`](https://bestrunningpodcasts.com/llms.txt) for tools and assistants.

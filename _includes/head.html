@@ -1,7 +1,13 @@
-{%- assign seo_desc = page.seo_description | default: page.description | default: page.excerpt | default: site.description -%}
-{%- if seo_desc -%}
-{%- assign seo_desc = seo_desc | strip_html | strip | truncate: 300 -%}
+{%- assign seo_desc = page.seo_description | default: page.description | default: page.excerpt | default: '' -%}
+{%- assign seo_desc = seo_desc | strip_html | strip -%}
+{%- if seo_desc == '' -%}
+  {%- if page.layout == 'post' and page.title and page.title != '' -%}
+    {%- assign seo_desc = page.title | append: ' — a running podcast curated on The Best Running Podcasts.' -%}
+  {%- else -%}
+    {%- assign seo_desc = site.description -%}
+  {%- endif -%}
 {%- endif -%}
+{%- assign seo_desc = seo_desc | truncate: 300 -%}
 
 {%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
 {%- assign site_tagline_safe = site.tagline | default: 'The best running podcasts, trail, ultra, and track podcast directory' -%}
@@ -34,9 +40,10 @@
 <meta name="theme-color" content="#1a4d3a">
 <title>{{ seo_page_title | xml_escape }}</title>
 <meta name="description" content="{{ seo_desc | xml_escape }}">
-<meta name="author" content="{{ site.author_name | default: 'Hans Kristian Smedsrød' | xml_escape }}">
+<meta name="author" content="{{ site.author.name | default: site.author_name | default: 'Hans Kristian Smedsrød' | xml_escape }}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="application-name" content="{{ site_name | xml_escape }}">
+{%- include head-meta-og.liquid -%}
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="{{ site_name | xml_escape }}">
@@ -44,8 +51,8 @@
 <meta property="og:description" content="{{ seo_desc | xml_escape }}">
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:image" content="{{ "/assets/img/social.jpg" | absolute_url }}">
-<meta property="og:image:alt" content="Best Running Podcasts — curated running podcast directory (cover image)">
+<meta property="og:image" content="{{ seo_og_abs }}">
+<meta property="og:image:alt" content="{{ seo_og_alt | xml_escape }}">
 <meta property="og:locale" content="en_US">
 {%- if page.date and og_type == 'article' -%}
 <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -55,21 +62,16 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ seo_page_title | xml_escape }}">
 <meta name="twitter:description" content="{{ seo_desc | xml_escape }}">
-<meta name="twitter:image" content="{{ "/assets/img/social.jpg" | absolute_url }}">
+<meta name="twitter:image" content="{{ seo_og_abs }}">
+<meta name="twitter:image:alt" content="{{ seo_og_alt | xml_escape }}">
 
 <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | relative_url }}">
 <link rel="apple-touch-icon" href="{{ "/assets/img/favicon.png" | relative_url }}">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+{%- assign _font_href = "https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" -%}
+<link rel="stylesheet" href="{{ _font_href }}" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="{{ _font_href }}"></noscript>
 <link rel="stylesheet" href="{{ "/assets/style/main.css" | relative_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site_name | xml_escape }} feed" href="{{ "/feed.xml" | absolute_url }}">
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-9K8N2QJRNZ');
-</script>

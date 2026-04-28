@@ -18,7 +18,7 @@
 				{% endif %}
 			</header>
 			<div class="post-article__content">
-				{{ content }}
+				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
 			</div>
 			<footer class="post-article__footer">
 				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>

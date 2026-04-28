@@ -51,6 +51,7 @@ collections:
       - { label: "Category (fixed)", name: "category", default: "podcast", widget: "hidden" }
       - { label: "Include in site (fixed)", name: "published", default: "true", widget: "hidden" }
       - { label: "Short description", name: "description", required: false, hint: "Shown in the list and in SEO. One or two sentences.", widget: "text" }
+      - { label: "Cover image (SEO / social)", name: "cover_image", required: false, hint: "Optional. Path from site root, e.g. /media/show.jpg — used for Open Graph, Twitter, and structured data. Falls back to the site default if empty.", widget: "string" }
       - { label: "Publisher", name: "publisher", required: false, widget: "string" }
       - { label: "Spotify (show or episode URL)", name: "spotify_link", required: false, widget: "string" }
       - { label: "Apple Podcasts", name: "apple_podcast_link", required: false, widget: "string" }
