@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
-# - `cover_image` in front matter (e.g. Decap image widget) → normalized path; used for OG/JSON-LD
-#   and for on-page cover when `explicit_cover_image` is true.
-# - If `cover_image` is absent, infer URL from the first Markdown image linking to `/media/...`
-#   (anywhere in the body) for SEO; set `infer_cover_from_body` when that image is the first line
-#   (legacy posts) so the layout keeps a single inline image.
-# - Strips a leading duplicate Markdown image line when it matches an explicit `cover_image`.
-# Use Regexp.new to avoid %r-delimiter clashes with parentheses in the pattern.
+# - `explicit_cover_image` is true only when front matter contained a non-blank `cover_image`
+#   before inference (Decap uploads, hand-edited YAML). Used for `<img>` in templates.
+# - `infer_cover_from_body`: first line is a markdown image linking to `/media/...`
+#   (legacy). Keep a single `<img>` from rendered body — do not also render `cover_image`.
+# - Otherwise, `cover_image` may still be set from a later image in the body (SEO only);
+#   the loop shows body content only to avoid duplicate thumbnails.
+# - Strips a leading duplicate markdown image line when it matches an explicit `cover_image`.
 FIRST_MEDIA_IMG = Regexp.compile('\]\(\s*(?:\{\{[^}]*\}\})?\s*(/media/[^\s)]+)', Regexp::MULTILINE).freeze
 MD_FIRST_IMG_LINE = Regexp.compile('\A[ \t]*!\[[^\]]*\]\(\s*(?:\{\{[^}]*\}\})?\s*(/media/[^\s)]+)\s*\)[ \t]*(?:\r?\n|\z)', Regexp::MULTILINE).freeze
 
@@ -26,11 +26,14 @@ Jekyll::Hooks.register :documents, :pre_render do |doc, _payload|
   data = doc.data
   content_str = doc.content.to_s
 
-  explicit = data.key?("cover_image") && data["cover_image"].to_s.strip != ""
-  data["explicit_cover_image"] = explicit
+  # Snapshot before mutating `cover_image` for inference. Do not use `key?`: YAML `null` or
+  # empty string must not count as “explicit”, and some environments differ on key? for nil.
+  initial_fm = data["cover_image"]
+  explicit_fm = !initial_fm.nil? && !initial_fm.to_s.strip.empty?
+  data["explicit_cover_image"] = explicit_fm
 
-  if explicit
-    data["cover_image"] = self.normalize_cover_path(data["cover_image"])
+  if explicit_fm
+    data["cover_image"] = self.normalize_cover_path(initial_fm.to_s)
     if (md = content_str.match(MD_FIRST_IMG_LINE)) && self.normalize_cover_path(md[1]) == data["cover_image"]
       doc.content = content_str.sub(MD_FIRST_IMG_LINE, "")
     end

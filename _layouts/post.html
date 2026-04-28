@@ -18,8 +18,11 @@
 				{% endif %}
 			</header>
 			<div class="post-article__content">
-				{%- if page.layout == 'post' and page.category == 'podcast' and page.explicit_cover_image and page.cover_image != '' -%}
+				{%- if page.layout == 'post' and page.category == 'podcast' -%}
+				{%- if page.infer_cover_from_body -%}
+				{%- elsif page.explicit_cover_image and page.cover_image != '' -%}
 				{%- include podcast-cover-img.html cover_image=page.cover_image title=page.title high_priority=true -%}
+				{%- endif -%}
 				{%- endif -%}
 				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
 			</div>

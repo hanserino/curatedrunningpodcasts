@@ -13,13 +13,29 @@
             <header>
                 <h2 class="podcast-loop__item__title" id="podcast-title-{{ forloop.index }}">{{ podcast.title }}</h2>
                 <div class="podcast-loop__item__media">
-                {%- if podcast.explicit_cover_image and podcast.cover_image != '' -%}
-                  {%- include podcast-cover-img.html cover_image=podcast.cover_image title=podcast.title high_priority=forloop.first -%}
-                {%- endif -%}
+                {%- comment -%}
+                  Cover: (1) legacy first line = body only, (2) front matter / image widget = include + body,
+                  (3) else = body only (e.g. image later in markdown).
+                {%- endcomment -%}
+                {%- if podcast.infer_cover_from_body -%}
                 {%- if forloop.index == 1 -%}
                   {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
                 {%- else -%}
                   {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
+                {%- endif -%}
+                {%- elsif podcast.explicit_cover_image and podcast.cover_image != '' -%}
+                  {%- include podcast-cover-img.html cover_image=podcast.cover_image title=podcast.title high_priority=forloop.first -%}
+                {%- if forloop.index == 1 -%}
+                  {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+                {%- else -%}
+                  {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
+                {%- endif -%}
+                {%- else -%}
+                {%- if forloop.index == 1 -%}
+                  {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+                {%- else -%}
+                  {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
+                {%- endif -%}
                 {%- endif -%}
                 </div>
                 {% if podcast.description %}
