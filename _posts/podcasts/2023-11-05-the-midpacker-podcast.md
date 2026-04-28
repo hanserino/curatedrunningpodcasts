@@ -14,4 +14,4 @@ tags:
   - trail
   - ultra
 ---
-![themidpackerpodcast.jpeg]({{site.baseurl}}/media/themidpackerpodcast.jpeg)
+![The Midpacker Podcast podcast cover art]({{site.baseurl}}/media/themidpackerpodcast.jpeg)

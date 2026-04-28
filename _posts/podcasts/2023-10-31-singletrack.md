@@ -16,4 +16,4 @@ description: >-
   Singletrack covers the professional trail and ultrarunning scene.
 publisher: Finn Melanson
 ---
-![Singletrack pocdast logo]({{site.baseurl}}/media/singletrack.jpg)
+![Singletrack podcast cover art]({{site.baseurl}}/media/singletrack.jpg)

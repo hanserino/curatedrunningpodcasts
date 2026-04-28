@@ -17,4 +17,4 @@ tags:
   - trail
   - ultra
 ---
-![choosestrongpodcast.jpeg]({{site.baseurl}}/media/choosestrongpodcast.jpeg)
+![Choose Strong podcast cover art]({{site.baseurl}}/media/choosestrongpodcast.jpeg)

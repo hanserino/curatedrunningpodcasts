@@ -16,4 +16,4 @@ tags:
   - trail
   - ultra
 ---
-![trailsocietypodcast.jpeg]({{site.baseurl}}/media/trailsocietypodcast.jpeg)
+![Trail Society podcast cover art]({{site.baseurl}}/media/trailsocietypodcast.jpeg)

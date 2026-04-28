@@ -14,4 +14,4 @@ description: >-
   and race directors about topical subjects. Each episode features a beverage
   and will last as long as it typically takes to leisurely enjoy the beverage.
 ---
-![crackabrew.jpeg]({{site.baseurl}}/media/crackabrew.jpeg)
+![Crack A Brew With AJW podcast cover art]({{site.baseurl}}/media/crackabrew.jpeg)

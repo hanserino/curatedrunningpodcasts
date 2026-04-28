@@ -17,4 +17,4 @@ description: >-
   wide-ranging cohort of guests, covering ultrarunning, sports, business, and
   the outdoor industry.
 ---
-![freetrail.jpeg]({{site.baseurl}}/media/freetrail.jpeg)
+![The Freetrail Podcast podcast cover art]({{site.baseurl}}/media/freetrail.jpeg)

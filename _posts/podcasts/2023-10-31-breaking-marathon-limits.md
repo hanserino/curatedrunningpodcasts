@@ -14,5 +14,5 @@ tags:
 patreon_link: 'https://www.patreon.com/breakingmarathonlimits/posts'
 description: Norwegian running podcast, mostly focused on track and road.
 ---
-![Breaking Marathon Limits logo]({{site.baseurl}}/media/bml.jpeg)
+![Breaking Marathon Limits podcast cover art]({{site.baseurl}}/media/bml.jpeg)
  

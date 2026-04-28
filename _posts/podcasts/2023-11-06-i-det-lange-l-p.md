@@ -14,4 +14,4 @@ language:
   - norwegian
 publisher: NRK
 ---
-![idetlangeloppodcast.jpeg]({{site.baseurl}}/media/idetlangeloppodcast.jpeg)
+![I Det Lange Løp podcast cover art]({{site.baseurl}}/media/idetlangeloppodcast.jpeg)

@@ -19,4 +19,4 @@ description: >-
   the world of sport. They cover all sports, and 75% of the episodes have some
   running related content.
 ---
-![therealscienceofsportspodcast.jpeg]({{site.baseurl}}/media/therealscienceofsportspodcast.jpeg)
+![The Real Science Of Sports podcast cover art]({{site.baseurl}}/media/therealscienceofsportspodcast.jpeg)

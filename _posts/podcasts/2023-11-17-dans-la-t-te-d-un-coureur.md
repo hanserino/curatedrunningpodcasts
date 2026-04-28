@@ -16,4 +16,4 @@ description: >-
   Advice, interviews with inspiring athletes and all about the running
   lifestyle.
 ---
-![danslateteeduncoureur.jpeg]({{site.baseurl}}/media/danslateteeduncoureur.jpeg)
+![Dans la Tête d’un Coureur podcast cover art]({{site.baseurl}}/media/danslateteeduncoureur.jpeg)

@@ -12,4 +12,4 @@ tags:
   - road
 description: Danish podcast by former pro track and road runner Henrik Them
 ---
-![frontrunnerpodcast.jpeg]({{site.baseurl}}/media/frontrunnerpodcast.jpeg)
+![Frontrunner podcast cover art]({{site.baseurl}}/media/frontrunnerpodcast.jpeg)

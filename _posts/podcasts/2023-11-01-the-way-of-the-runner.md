@@ -15,4 +15,4 @@ description: >-
   Award-winning author Adharanand Finn talks to runners of every kind about the
   joy and experience of running.
 ---
-![the-way-of-the-runner-podcast.png]({{site.baseurl}}/media/the-way-of-the-runner-podcast.png)
+![The Way Of The Runner podcast cover art]({{site.baseurl}}/media/the-way-of-the-runner-podcast.png)

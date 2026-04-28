@@ -15,4 +15,4 @@ tags:
   - ultra
   - trail
 ---
-![paceonearth.jpeg]({{site.baseurl}}/media/paceonearth.jpeg)
+![Pace On Earth podcast cover art]({{site.baseurl}}/media/paceonearth.jpeg)

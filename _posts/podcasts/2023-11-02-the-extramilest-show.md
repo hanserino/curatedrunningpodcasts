@@ -15,4 +15,4 @@ description: >-
 language:
   - english
 ---
-![theextramilestshow236.jpg]({{site.baseurl}}/media/theextramilestshow236.jpg)
+![The Extramilest Show podcast cover art]({{site.baseurl}}/media/theextramilestshow236.jpg)

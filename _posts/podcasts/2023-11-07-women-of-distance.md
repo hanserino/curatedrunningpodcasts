@@ -14,4 +14,4 @@ tags:
 language:
   - english
 ---
-![womanofdistancepodcast.jpeg]({{site.baseurl}}/media/womanofdistancepodcast.jpeg)
+![Women of Distance podcast cover art]({{site.baseurl}}/media/womanofdistancepodcast.jpeg)

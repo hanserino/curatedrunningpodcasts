@@ -15,4 +15,4 @@ tags:
 language:
   - english
 ---
-![](/media/albonway.jpg)
+![The Albon Way podcast cover art]({{site.baseurl}}/media/albonway.jpg)

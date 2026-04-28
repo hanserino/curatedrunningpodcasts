@@ -17,4 +17,4 @@ description: >-
   injuries, and get stronger in this informative and fun podcast.
 publisher: Jason Fitzgerald
 ---
-![strengthrunningpodcast.png]({{site.baseurl}}/media/strengthrunningpodcast.png)
+![Strength Running Podcast podcast cover art]({{site.baseurl}}/media/strengthrunningpodcast.png)

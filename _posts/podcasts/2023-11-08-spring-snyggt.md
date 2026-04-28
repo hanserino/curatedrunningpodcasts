@@ -15,4 +15,4 @@ description: >-
   Swedish podcast by elite runner John “Jesus” Kingstedt and the rookie Manne
   Forssberg covering all things road and track.
 ---
-![springsnyggt.jpeg]({{site.baseurl}}/media/springsnyggt.jpeg)
+![Spring Snyggt podcast cover art]({{site.baseurl}}/media/springsnyggt.jpeg)

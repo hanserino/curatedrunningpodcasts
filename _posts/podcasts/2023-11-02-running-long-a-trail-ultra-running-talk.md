@@ -18,4 +18,4 @@ description: >-
   ultra running community from all over the world. From professional world class
   athletes to our Vert.run members and community.
 ---
-![runninglongpodcast.jpeg]({{site.baseurl}}/media/runninglongpodcast.jpeg)
+![Running long - A trail & ultra running talk podcast cover art]({{site.baseurl}}/media/runninglongpodcast.jpeg)

@@ -13,4 +13,4 @@ language:
 publisher: Lavterskel.run
 description: Norwegian feelgood running podcast.
 ---
-![lavterskel.jpeg]({{site.baseurl}}/media/lavterskel.jpeg)
+![Lavterskel podcast cover art]({{site.baseurl}}/media/lavterskel.jpeg)

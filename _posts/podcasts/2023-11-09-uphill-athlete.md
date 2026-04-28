@@ -15,4 +15,4 @@ tags:
   - ultra
   - skyrunning
 ---
-![uphillathlete.jpeg]({{site.baseurl}}/media/uphillathlete.jpeg)
+![Uphill Athlete podcast cover art]({{site.baseurl}}/media/uphillathlete.jpeg)

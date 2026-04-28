@@ -16,4 +16,4 @@ description: >-
   Megan Roche, M.D. and David Roche digs deep into training, races, studies, pop
   culture, and much more! HUZZAH!
 ---
-![swap.jpeg]({{site.baseurl}}/media/swap.jpeg)
+![Some Work, All Play podcast cover art]({{site.baseurl}}/media/swap.jpeg)

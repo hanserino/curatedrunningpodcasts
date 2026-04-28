@@ -14,4 +14,4 @@ tags:
 language:
   - english
 ---
-![subhubpodcast.jpeg]({{site.baseurl}}/media/subhubpodcast.jpeg)
+![The Sub Hub podcast cover art]({{site.baseurl}}/media/subhubpodcast.jpeg)

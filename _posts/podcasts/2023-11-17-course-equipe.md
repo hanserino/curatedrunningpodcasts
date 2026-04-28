@@ -12,5 +12,5 @@ tags:
   - trail
   - ultra
 ---
-![courseepique.jpeg]({{site.baseurl}}/media/courseepique.jpeg)
+![Course Equipe podcast cover art]({{site.baseurl}}/media/courseepique.jpeg)
 

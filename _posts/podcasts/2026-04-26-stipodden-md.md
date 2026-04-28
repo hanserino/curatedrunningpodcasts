@@ -15,4 +15,4 @@ tags:
 language:
   - norwegian
 ---
-![Stipodden logo]({{site.baseurl}}/media/stipodden.jpg)
+![Stipodden podcast cover art]({{site.baseurl}}/media/stipodden.jpg)

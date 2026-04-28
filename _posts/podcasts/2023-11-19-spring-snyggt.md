@@ -15,4 +15,4 @@ description: >-
   Forssberg. All things track and road. 
 spotify_link: 'https://open.spotify.com/show/172Kw8CrpuVp8gU50MPXmm?si=4a93fd8790364e1c'
 ---
-![springsnyggtpodcast.jpeg]({{site.baseurl}}/media/springsnyggtpodcast.jpeg)
+![Spring Snyggt podcast cover art]({{site.baseurl}}/media/springsnyggtpodcast.jpeg)

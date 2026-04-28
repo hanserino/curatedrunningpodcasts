@@ -12,4 +12,4 @@ language:
 tags:
   - ultra
 ---
-![scienceofultra.jpg]({{site.baseurl}}/media/scienceofultra.jpg)
+![Science Of Ultra podcast cover art]({{site.baseurl}}/media/scienceofultra.jpg)

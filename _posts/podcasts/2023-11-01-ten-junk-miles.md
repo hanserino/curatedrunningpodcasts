@@ -16,4 +16,4 @@ description: >-
   lives as runners and the issues that are interesting or important to them and
   guests of the show.
 ---
-![tenjunkmiles.png]({{site.baseurl}}/media/tenjunkmiles.png)
+![Ten Junk Miles podcast cover art]({{site.baseurl}}/media/tenjunkmiles.png)

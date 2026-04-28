@@ -14,4 +14,4 @@ tags:
 language:
   - english
 ---
-![betweentwopinespodcast.jpeg]({{site.baseurl}}/media/betweentwopinespodcast.jpeg)
+![Between Two Pines podcast cover art]({{site.baseurl}}/media/betweentwopinespodcast.jpeg)

@@ -15,4 +15,4 @@ description: >-
   A podcast about the history of ultrarunning by ultrarunner and historian Davy
   Crocket.
 ---
-![ultrarunninghistory.jpeg]({{site.baseurl}}/media/ultrarunninghistory.jpg)
+![Ultrarunning History podcast cover art]({{site.baseurl}}/media/ultrarunninghistory.jpg)

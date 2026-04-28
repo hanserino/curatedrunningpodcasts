@@ -16,4 +16,4 @@ description: >-
   regarding race nutrition, pacing strategy, mental focus and much more from
   well-respected members of the trail community.
 ---
-![trn-logo-podcast-artwork.jpg]({{site.baseurl}}/media/trn-logo-podcast-artwork.jpg)
+![Trail Runner Nation podcast cover art]({{site.baseurl}}/media/trn-logo-podcast-artwork.jpg)
