@@ -1,0 +1,15 @@
+{%- comment -%}
+  Renders a single cover <img> from front matter `cover_image` (paths like /media/foo.jpg or bare filename).
+  Pass: cover_image, title, high_priority (optional, default false).
+{%- endcomment -%}
+{%- assign _c = include.cover_image | strip -%}
+{%- if _c != '' -%}
+{%- if _c contains '/media/' -%}
+  {%- assign _src = _c | relative_url -%}
+{%- elsif _c contains '/' -%}
+  {%- assign _src = _c | relative_url -%}
+{%- else -%}
+  {%- assign _src = '/media/' | append: _c | relative_url -%}
+{%- endif -%}
+<p class="podcast-cover"><img src="{{ _src }}" alt="{{ include.title | xml_escape }} podcast cover art" decoding="async" {% if include.high_priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} /></p>
+{%- endif -%}

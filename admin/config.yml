@@ -51,7 +51,14 @@ collections:
       - { label: "Category (fixed)", name: "category", default: "podcast", widget: "hidden" }
       - { label: "Include in site (fixed)", name: "published", default: "true", widget: "hidden" }
       - { label: "Short description", name: "description", required: false, hint: "Shown in the list and in SEO. One or two sentences.", widget: "text" }
-      - { label: "Cover image (SEO / social)", name: "cover_image", required: false, hint: "Optional. Path from site root, e.g. /media/show.jpg — used for Open Graph, Twitter, and structured data. Falls back to the site default if empty.", widget: "string" }
+      - label: "Cover art"
+        name: "cover_image"
+        widget: "image"
+        choose_url: true
+        media_folder: "/media"
+        public_folder: "/media"
+        required: false
+        hint: "Upload the podcast square artwork (saves under /media). Used on the homepage, episode page, and social previews. Prefer this instead of putting the image in the body below."
       - { label: "Publisher", name: "publisher", required: false, widget: "string" }
       - { label: "Spotify (show or episode URL)", name: "spotify_link", required: false, widget: "string" }
       - { label: "Apple Podcasts", name: "apple_podcast_link", required: false, widget: "string" }
@@ -75,8 +82,6 @@ collections:
         hint: "One or more — used by the language filter."
       - label: "Body (markdown)"
         name: "body"
-        required: true
+        required: false
         widget: "markdown"
-        media_folder: "/media"
-        public_folder: "/media"
-        hint: "Use the image button so the inserted path starts with /media/ (required on this site). Same pattern as other podcast posts."
+        hint: "Optional. Extra copy or embeds only — the cover field above is the main artwork. You can still paste /media/… links here if needed."
