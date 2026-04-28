@@ -1,10 +1,13 @@
 {%- comment -%}
-  Renders a single cover <img> from front matter `cover_image` (paths like /media/foo.jpg or bare filename).
+  Renders a single cover <img> from front matter `cover_image`:
+  `/media/...`, bare filename, absolute URL (Decap/GitHub), or YAML object normalized in the plugin.
   Pass: cover_image, title, high_priority (optional, default false).
 {%- endcomment -%}
 {%- assign _c = include.cover_image | strip -%}
 {%- if _c != '' -%}
-{%- if _c contains '/media/' -%}
+{%- if _c contains '://' -%}
+  {%- assign _src = _c -%}
+{%- elsif _c contains '/media/' -%}
   {%- assign _src = _c | relative_url -%}
 {%- elsif _c contains '/' -%}
   {%- assign _src = _c | relative_url -%}
