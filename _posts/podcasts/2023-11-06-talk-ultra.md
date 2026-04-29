@@ -8,8 +8,8 @@ patreon_link: 'https://www.patreon.com/talkultra'
 tags:
   - trail
   - ultra
-language:
-  - english
+language: 
+  - english 
 publisher: Ian Corless
 description: >-
   The godfather of ultra trail podcasts, Ian Corless, brings you you news and in
