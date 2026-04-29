@@ -31,11 +31,23 @@
                   {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
                 {%- endif -%}
                 {%- else -%}
-                {%- if forloop.index == 1 -%}
-                  {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
-                {%- else -%}
-                  {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
-                {%- endif -%}
+                  {%- if podcast.cover_image and podcast.cover_image != '' -%}
+                    {%- if podcast.content contains '<img' -%}
+                      {%- if forloop.index == 1 -%}
+                        {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+                      {%- else -%}
+                        {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
+                      {%- endif -%}
+                    {%- else -%}
+                      {%- include podcast-cover-img.html cover_image=podcast.cover_image title=podcast.title high_priority=forloop.first -%}
+                    {%- endif -%}
+                  {%- else -%}
+                    {%- if forloop.index == 1 -%}
+                      {{- podcast.content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+                    {%- else -%}
+                      {{- podcast.content | replace: '<img ', '<img loading="lazy" decoding="async" ' -}}
+                    {%- endif -%}
+                  {%- endif -%}
                 {%- endif -%}
                 </div>
                 {% if podcast.description %}
