@@ -11,6 +11,7 @@
     <li class="podcast-loop__item" data-category="{% for tag in podcast.tags %}{{ tag }} {% endfor %}{% for language in podcast.language %}{{ language }} {% endfor %}">
         <article aria-labelledby="podcast-title-{{ forloop.index }}">
             <header>
+                <a class="podcast-loop__item__teaser-link" href="{{ podcast.url | relative_url }}" aria-labelledby="podcast-title-{{ forloop.index }}">
                 <h2 class="podcast-loop__item__title" id="podcast-title-{{ forloop.index }}">{{ podcast.title }}</h2>
                 <div class="podcast-loop__item__media">
                 {%- comment -%}
@@ -50,6 +51,7 @@
                   {%- endif -%}
                 {%- endif -%}
                 </div>
+                </a>
                 {% if podcast.description %}
                 <p class="podcast-loop__item__description">{{ podcast.description }}</p>
                 {% endif %}
