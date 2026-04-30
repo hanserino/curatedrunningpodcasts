@@ -1,0 +1,18 @@
+---
+description: Run production Jekyll build before git push when user requests push
+alwaysApply: true
+---
+
+# Git push for this Jekyll site
+
+When the user asks to **push to git**, **commit and push**, or similar for this repository:
+
+1. **Before** staging or committing changes that affect the built site, run from the project root:
+
+   `JEKYLL_ENV=production bundle exec jekyll build --destination docs`
+
+   This keeps canonical URLs, Open Graph, feeds, and sitemap on `https://bestrunningpodcasts.com` instead of `http://localhost:4000`.
+
+2. Include regenerated **`docs/`** files in the commit when the build changed output (HTML, `assets/style/`, `feed.xml`, `sitemap.xml`, etc.).
+
+3. Do **not** skip the production build for convenience; the default `url` in `_config.yml` is production, but local `jekyll serve` / non-production builds rewrite `docs/` with localhost.
