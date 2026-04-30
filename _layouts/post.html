@@ -27,6 +27,11 @@
 				{%- endif -%}
 				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
 			</div>
+			{%- if page.layout == 'post' and page.category == 'podcast' -%}
+			<div class="post-article__meta">
+				{% include podcast-meta.html podcast=page listen_section_id="post-listen-links" %}
+			</div>
+			{%- endif -%}
 			<footer class="post-article__footer">
 				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to all running podcasts</a></p>
 			</footer>

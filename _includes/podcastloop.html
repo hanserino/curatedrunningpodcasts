@@ -57,40 +57,8 @@
                 {% endif %}
             </header>
  
-            <h3 class="podcast-loop__item__link-title" id="links-{{ forloop.index }}">Listen and follow</h3>
-            
-            <ul class="podcast-loop__item__links" aria-labelledby="links-{{ forloop.index }}">
-                {% if podcast.spotify_link %}
-                <li><a href="{{ podcast.spotify_link }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ podcast.title | xml_escape }} on Spotify (opens in a new tab)">Spotify</a></li>
-                {% endif %}
-                {% if podcast.apple_podcast_link %}
-                <li><a href="{{ podcast.apple_podcast_link }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ podcast.title | xml_escape }} on Apple Podcasts (opens in a new tab)">Apple Podcasts</a></li>
-                {% endif %}
-                {% if podcast.youtube_link %}
-                <li><a href="{{ podcast.youtube_link }}" rel="noopener noreferrer" target="_blank" title="{{ podcast.title | xml_escape }} on YouTube (opens in a new tab)">YouTube</a></li>
-                {% endif %}
-                {% if podcast.patreon_link %}
-                <li><a href="{{ podcast.patreon_link }}" rel="noopener noreferrer" target="_blank" title="Support {{ podcast.title | xml_escape }} on Patreon (opens in a new tab)">Patreon</a></li>
-                {% endif %}
-            </ul>
-
-            <div class="podcast-loop__item__tags">
-                <div>
-                    <p class="podcast-loop__item__tag-title">Publisher: {{ podcast.publisher }}</p>
-                </div>
-
-                <div>
-                    <p class="podcast-loop__item__tag-title">Tags:</p>
-                    <ul>
-                        {% for category in podcast.tags %}
-                        <li class="taglist__item">{{ category }}</li>
-                        {% endfor %}
-                        {% for language in podcast.language %}
-                        <li class="taglist__item">{{ language }}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+            {% capture _listen_id %}links-{{ forloop.index }}{% endcapture %}
+            {% include podcast-meta.html podcast=podcast listen_section_id=_listen_id %}
         </article>
     </li>
     {% endfor %}

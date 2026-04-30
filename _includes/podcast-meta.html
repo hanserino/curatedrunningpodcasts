@@ -1,0 +1,36 @@
+{%- assign p = include.podcast -%}
+{%- assign sid = include.listen_section_id | default: "podcast-listen-links" -%}
+<h3 class="podcast-loop__item__link-title" id="{{ sid }}">Listen and follow</h3>
+
+<ul class="podcast-loop__item__links" aria-labelledby="{{ sid }}">
+    {% if p.spotify_link %}
+    <li><a href="{{ p.spotify_link }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ p.title | xml_escape }} on Spotify (opens in a new tab)">Spotify</a></li>
+    {% endif %}
+    {% if p.apple_podcast_link %}
+    <li><a href="{{ p.apple_podcast_link }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ p.title | xml_escape }} on Apple Podcasts (opens in a new tab)">Apple Podcasts</a></li>
+    {% endif %}
+    {% if p.youtube_link %}
+    <li><a href="{{ p.youtube_link }}" rel="noopener noreferrer" target="_blank" title="{{ p.title | xml_escape }} on YouTube (opens in a new tab)">YouTube</a></li>
+    {% endif %}
+    {% if p.patreon_link %}
+    <li><a href="{{ p.patreon_link }}" rel="noopener noreferrer" target="_blank" title="Support {{ p.title | xml_escape }} on Patreon (opens in a new tab)">Patreon</a></li>
+    {% endif %}
+</ul>
+
+<div class="podcast-loop__item__tags">
+    <div>
+        <p class="podcast-loop__item__tag-title">Publisher: {{ p.publisher }}</p>
+    </div>
+
+    <div>
+        <p class="podcast-loop__item__tag-title">Tags:</p>
+        <ul>
+            {% for category in p.tags %}
+            <li class="taglist__item">{{ category }}</li>
+            {% endfor %}
+            {% for language in p.language %}
+            <li class="taglist__item">{{ language }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
