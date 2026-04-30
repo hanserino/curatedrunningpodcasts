@@ -26,6 +26,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
+- **Styles:** entry file is `assets/style/main.scss`; partials live under `_style/` (`sass.sass_dir` in `_config.yml`). With **`--incremental`**, Jekyll normally would not recompile CSS when only a partial changes; `_plugins/sass_partial_dependencies.rb` registers those files so partial edits still refresh `main.css`. If file events are missed (some network disks or VMs), use `bundle exec jekyll serve --force-polling`.
 - Default output is **`docs/`** (`destination: docs` in `_config.yml`); that folder is what GitHub Pages serves for this project.
 - For production-like URLs in feeds, sitemaps, and meta tags, use:
 
