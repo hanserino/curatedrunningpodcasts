@@ -1,21 +1,12 @@
 """
-Create clean podcast URLs (no date folders) and keep old URLs working.
+Legacy helper for rewriting a prebuilt `docs/` tree (static export only).
 
-Old URLs look like:
-  /podcast/YYYY/MM/DD/<slug>[-md].html
+Production GitHub Pages builds with Jekyll from source: canonical podcast URLs are
+`/<slug>.html` at the site root, with `redirect_from` in each post for older
+`/podcast/...` paths. Prefer `bundle exec jekyll build` over this script.
 
-New URLs:
-  /podcast/<slug-clean>.html
-
-Notes:
-- Some slugs collide after stripping "-md" (example: spring-snyggt appears twice).
-  In those cases, we disambiguate by appending the original date to the filename:
-    /podcast/<slug-clean>-YYYY-MM-DD.html
-- Implementation approach (no Jekyll permalink migration):
-  - Copy the existing old rendered pages to the new clean paths.
-  - Rewrite URL strings inside the copied HTML so canonical/OG/schema point to the new URL.
-  - Overwrite the old date-based pages with noindex redirect stubs to the new URLs.
-  - Update docs/index.html, docs/sitemap.xml, and docs/feed.xml to reference the new URLs.
+When run, it assumes older paths under `/podcast/YYYY/MM/DD/...` and flat
+`/podcast/<slug>.html`, and can copy HTML into new locations for a static host.
 """
 
 from __future__ import annotations

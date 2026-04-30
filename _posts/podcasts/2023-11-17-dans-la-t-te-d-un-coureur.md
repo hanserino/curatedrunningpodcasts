@@ -17,6 +17,7 @@ description: >-
   lifestyle.
 redirect_from:
   - /podcast/2023/11/17/dans-la-t-te-d-un-coureur.html
+  - /podcast/dans-la-t-te-d-un-coureur.html
 
 ---
 ![Dans la Tête d’un Coureur podcast cover art]({{site.baseurl}}/media/danslateteeduncoureur.jpeg)

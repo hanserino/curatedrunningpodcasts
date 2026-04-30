@@ -17,6 +17,7 @@ description: >-
 publisher: Finn Melanson
 redirect_from:
   - /podcast/2023/10/31/singletrack.html
+  - /podcast/singletrack.html
 
 ---
 ![Singletrack podcast cover art]({{site.baseurl}}/media/singletrack.jpg)

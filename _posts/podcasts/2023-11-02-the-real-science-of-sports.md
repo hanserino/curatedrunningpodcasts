@@ -20,6 +20,7 @@ description: >-
   running related content.
 redirect_from:
   - /podcast/2023/11/02/the-real-science-of-sports.html
+  - /podcast/the-real-science-of-sports.html
 
 ---
 ![The Real Science Of Sports podcast cover art]({{site.baseurl}}/media/therealscienceofsportspodcast.jpeg)

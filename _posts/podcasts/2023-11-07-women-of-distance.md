@@ -15,6 +15,7 @@ language:
   - english
 redirect_from:
   - /podcast/2023/11/07/women-of-distance.html
+  - /podcast/women-of-distance.html
 
 ---
 ![Women of Distance podcast cover art]({{site.baseurl}}/media/womanofdistancepodcast.jpeg)

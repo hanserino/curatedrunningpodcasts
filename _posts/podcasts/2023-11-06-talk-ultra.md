@@ -16,6 +16,7 @@ description: >-
   depth interviews from the ultrarunning world.
 redirect_from:
   - /podcast/2023/11/06/talk-ultra.html
+  - /podcast/talk-ultra.html
 
 ---
 ![Talk Ultra podcast cover art]({{site.baseurl}}/media/talkultrapodcast.jpeg)

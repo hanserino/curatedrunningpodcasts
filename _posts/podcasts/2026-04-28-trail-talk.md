@@ -19,5 +19,6 @@ language:
   - english
 redirect_from:
   - /podcast/2026/04/29/trail-talk-md.html
+  - /podcast/trail-talk.html
 
 ---

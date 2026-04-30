@@ -16,6 +16,7 @@ description: >-
   Forssberg covering all things road and track.
 redirect_from:
   - /podcast/2023/11/08/spring-snyggt.html
+  - /podcast/spring-snyggt.html
 
 ---
 ![Spring Snyggt podcast cover art]({{site.baseurl}}/media/springsnyggt.jpeg)

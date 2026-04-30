@@ -15,6 +15,7 @@ description: >-
   and will last as long as it typically takes to leisurely enjoy the beverage.
 redirect_from:
   - /podcast/2023/10/31/crack-a-brew-with-ajw.html
+  - /podcast/crack-a-brew-with-ajw.html
 
 ---
 ![Crack A Brew With AJW podcast cover art]({{site.baseurl}}/media/crackabrew.jpeg)

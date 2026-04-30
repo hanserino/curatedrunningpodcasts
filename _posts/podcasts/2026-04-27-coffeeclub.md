@@ -15,6 +15,7 @@ language:
   - english
 redirect_from:
   - /podcast/2026/04/28/coffeeclub-md.html
+  - /podcast/coffeeclub.html
 
 ---
 ![Coffee club podcast cover art](/media/coffeeclub.jpeg)

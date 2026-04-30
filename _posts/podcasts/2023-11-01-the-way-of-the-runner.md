@@ -16,6 +16,7 @@ description: >-
   joy and experience of running.
 redirect_from:
   - /podcast/2023/11/01/the-way-of-the-runner.html
+  - /podcast/the-way-of-the-runner.html
 
 ---
 ![The Way Of The Runner podcast cover art]({{site.baseurl}}/media/the-way-of-the-runner-podcast.png)

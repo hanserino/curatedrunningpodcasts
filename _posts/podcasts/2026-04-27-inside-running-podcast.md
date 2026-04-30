@@ -16,5 +16,6 @@ language:
   - english
 redirect_from:
   - /podcast/2026/04/28/inside-running-podcast-md.html
+  - /podcast/inside-running-podcast.html
 
 ---

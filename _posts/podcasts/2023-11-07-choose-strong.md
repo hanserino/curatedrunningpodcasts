@@ -18,6 +18,7 @@ tags:
   - ultra
 redirect_from:
   - /podcast/2023/11/07/choose-strong.html
+  - /podcast/choose-strong.html
 
 ---
 ![Choose Strong podcast cover art]({{site.baseurl}}/media/choosestrongpodcast.jpeg)

@@ -12,6 +12,7 @@ language:
 publisher: The Boulder Boys
 redirect_from:
   - /podcast/2024/02/20/the-boulder-boys.html
+  - /podcast/the-boulder-boys.html
 
 ---
 ![The Boulder Boys podcast cover art]({{site.baseurl}}/media/boulderboys.jpeg)

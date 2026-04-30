@@ -18,5 +18,6 @@ language:
   - english
 redirect_from:
   - /podcast/2026/04/28/the-freetrail-podcast.html
+  - /podcast/the-freetrail-podcast.html
 
 ---

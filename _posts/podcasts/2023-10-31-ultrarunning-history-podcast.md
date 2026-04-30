@@ -16,6 +16,7 @@ description: >-
   Crocket.
 redirect_from:
   - /podcast/2023/10/31/ultrarunning-history-podcast.html
+  - /podcast/ultrarunning-history-podcast.html
 
 ---
 ![Ultrarunning History podcast cover art]({{site.baseurl}}/media/ultrarunninghistory.jpg)

@@ -17,6 +17,7 @@ publisher: NEDA
 description: Norwegian mountain ultra trail podcast. 500+ episodes, est. 2018.
 redirect_from:
   - /podcast/2023/10/31/n-er-det-alvor.html
+  - /podcast/n-er-det-alvor.html
 
 ---
 ![Føkk Asfalt / Nå Er Det Alvor podcast cover art]({{site.baseurl}}/media/fokk-asfalt-logo.jpeg)

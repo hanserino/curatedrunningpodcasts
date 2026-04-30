@@ -41,7 +41,7 @@ defaults:
     values:
       published: 'true'
       layout: post
-      permalink: /podcast/:slug.html
+      permalink: /:slug.html
 
 # Browser CMS: https://decapcms.org/ — admin UI at /admin/ (build output: docs/admin/).
 # Prose.io is deprecated; the old "prose:" config has been removed. Set up GitHub

@@ -15,6 +15,7 @@ patreon_link: 'https://www.patreon.com/breakingmarathonlimits/posts'
 description: Norwegian running podcast, mostly focused on track and road.
 redirect_from:
   - /podcast/2023/10/31/breaking-marathon-limits.html
+  - /podcast/breaking-marathon-limits.html
 
 ---
 ![Breaking Marathon Limits podcast cover art]({{site.baseurl}}/media/bml.jpeg)

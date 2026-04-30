@@ -13,6 +13,7 @@ tags:
   - ultra
 redirect_from:
   - /podcast/2023/10/31/science-of-ultra.html
+  - /podcast/science-of-ultra.html
 
 ---
 ![Science Of Ultra podcast cover art]({{site.baseurl}}/media/scienceofultra.jpg)

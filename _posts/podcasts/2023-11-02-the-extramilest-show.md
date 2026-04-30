@@ -16,6 +16,7 @@ language:
   - english
 redirect_from:
   - /podcast/2023/11/02/the-extramilest-show.html
+  - /podcast/the-extramilest-show.html
 
 ---
 ![The Extramilest Show podcast cover art]({{site.baseurl}}/media/theextramilestshow236.jpg)

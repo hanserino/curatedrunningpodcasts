@@ -18,5 +18,6 @@ language:
   - english
 redirect_from:
   - /podcast/2026/04/29/creators-cooldown-md.html
+  - /podcast/creators-cooldown.html
 
 ---

@@ -16,6 +16,7 @@ language:
   - english
 redirect_from:
   - /podcast/2026/04/28/the-albon-way-md.html
+  - /podcast/the-albon-way.html
 
 ---
 ![The Albon Way podcast cover art]({{site.baseurl}}/media/albonway.jpg)

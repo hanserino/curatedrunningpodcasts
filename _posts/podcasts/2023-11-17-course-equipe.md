@@ -13,6 +13,7 @@ tags:
   - ultra
 redirect_from:
   - /podcast/2023/11/17/course-equipe.html
+  - /podcast/course-equipe.html
 
 ---
 ![Course Equipe podcast cover art]({{site.baseurl}}/media/courseepique.jpeg)

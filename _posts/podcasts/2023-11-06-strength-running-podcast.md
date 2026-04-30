@@ -18,6 +18,7 @@ description: >-
 publisher: Jason Fitzgerald
 redirect_from:
   - /podcast/2023/11/06/strength-running-podcast.html
+  - /podcast/strength-running-podcast.html
 
 ---
 ![Strength Running Podcast podcast cover art]({{site.baseurl}}/media/strengthrunningpodcast.png)

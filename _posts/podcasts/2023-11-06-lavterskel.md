@@ -14,6 +14,7 @@ publisher: Lavterskel.run
 description: Norwegian feelgood running podcast.
 redirect_from:
   - /podcast/2023/11/06/lavterskel.html
+  - /podcast/lavterskel.html
 
 ---
 ![Lavterskel podcast cover art]({{site.baseurl}}/media/lavterskel.jpeg)

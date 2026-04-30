@@ -19,6 +19,7 @@ description: >-
   athletes to our Vert.run members and community.
 redirect_from:
   - /podcast/2023/11/02/running-long-a-trail-ultra-running-talk.html
+  - /podcast/running-long-a-trail-ultra-running-talk.html
 
 ---
 ![Running long - A trail & ultra running talk podcast cover art]({{site.baseurl}}/media/runninglongpodcast.jpeg)

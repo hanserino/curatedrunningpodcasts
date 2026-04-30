@@ -17,6 +17,7 @@ description: >-
   well-respected members of the trail community.
 redirect_from:
   - /podcast/2023/11/01/trail-runner-nation.html
+  - /podcast/trail-runner-nation.html
 
 ---
 ![Trail Runner Nation podcast cover art]({{site.baseurl}}/media/trn-logo-podcast-artwork.jpg)

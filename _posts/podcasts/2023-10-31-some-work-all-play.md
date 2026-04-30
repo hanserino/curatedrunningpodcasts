@@ -17,6 +17,7 @@ description: >-
   culture, and much more! HUZZAH!
 redirect_from:
   - /podcast/2023/10/31/some-work-all-play.html
+  - /podcast/some-work-all-play.html
 
 ---
 ![Some Work, All Play podcast cover art]({{site.baseurl}}/media/swap.jpeg)
