@@ -113,9 +113,9 @@ def main() -> None:
             new_slug = clean_base
 
         old_url_abs = f"{site_url}/podcast/{y}/{mo}/{d}/{old_slug}.html"
-        new_url_abs = f"{site_url}/podcast/{new_slug}.html"
+        new_url_abs = f"{site_url}/{new_slug}.html"
 
-        new_html_path = docs_dir / "podcast" / f"{new_slug}.html"
+        new_html_path = docs_dir / f"{new_slug}.html"
         new_html_path.parent.mkdir(parents=True, exist_ok=True)
 
         # Copy old content into new clean page and rewrite URL strings inside it.
@@ -156,4 +156,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
