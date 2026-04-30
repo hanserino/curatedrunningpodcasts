@@ -14,5 +14,8 @@ publisher: Davy Crockett
 description: >-
   A podcast about the history of ultrarunning by ultrarunner and historian Davy
   Crocket.
+redirect_from:
+  - /podcast/2023/10/31/ultrarunning-history-podcast.html
+
 ---
 ![Ultrarunning History podcast cover art]({{site.baseurl}}/media/ultrarunninghistory.jpg)

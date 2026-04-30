@@ -14,5 +14,8 @@ tags:
   - trail
   - ultra
   - skyrunning
+redirect_from:
+  - /podcast/2023/11/09/uphill-athlete.html
+
 ---
 ![Uphill Athlete podcast cover art]({{site.baseurl}}/media/uphillathlete.jpeg)

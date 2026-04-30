@@ -14,5 +14,8 @@ language:
 tags:
   - ultra
   - trail
+redirect_from:
+  - /podcast/2023/10/31/pace-on-earth.html
+
 ---
 ![Pace On Earth podcast cover art]({{site.baseurl}}/media/paceonearth.jpeg)

@@ -13,5 +13,8 @@ language:
 tags:
   - trail
   - ultra
+redirect_from:
+  - /podcast/2023/11/05/the-midpacker-podcast.html
+
 ---
 ![The Midpacker Podcast podcast cover art]({{site.baseurl}}/media/themidpackerpodcast.jpeg)

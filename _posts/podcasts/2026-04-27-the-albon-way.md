@@ -14,5 +14,8 @@ tags:
   - subultra
 language:
   - english
+redirect_from:
+  - /podcast/2026/04/28/the-albon-way-md.html
+
 ---
 ![The Albon Way podcast cover art]({{site.baseurl}}/media/albonway.jpg)

@@ -11,6 +11,9 @@ spotify_link: 'https://open.spotify.com/show/594LF2mZsWhpeD1dXfXBc5?si=a43fa387c
 tags:
   - trail
   - ultra
+redirect_from:
+  - /podcast/2023/11/17/course-equipe.html
+
 ---
 ![Course Equipe podcast cover art]({{site.baseurl}}/media/courseepique.jpeg)
 

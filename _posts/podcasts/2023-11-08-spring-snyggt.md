@@ -14,5 +14,8 @@ publisher: Jesus och Manne
 description: >-
   Swedish podcast by elite runner John “Jesus” Kingstedt and the rookie Manne
   Forssberg covering all things road and track.
+redirect_from:
+  - /podcast/2023/11/08/spring-snyggt.html
+
 ---
 ![Spring Snyggt podcast cover art]({{site.baseurl}}/media/springsnyggt.jpeg)

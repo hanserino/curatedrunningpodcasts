@@ -18,5 +18,8 @@ description: >-
   journalist Mike Finch break down the myths, practices and controversies from
   the world of sport. They cover all sports, and 75% of the episodes have some
   running related content.
+redirect_from:
+  - /podcast/2023/11/02/the-real-science-of-sports.html
+
 ---
 ![The Real Science Of Sports podcast cover art]({{site.baseurl}}/media/therealscienceofsportspodcast.jpeg)

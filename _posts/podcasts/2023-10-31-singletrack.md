@@ -15,5 +15,8 @@ language:
 description: >-
   Singletrack covers the professional trail and ultrarunning scene.
 publisher: Finn Melanson
+redirect_from:
+  - /podcast/2023/10/31/singletrack.html
+
 ---
 ![Singletrack podcast cover art]({{site.baseurl}}/media/singletrack.jpg)

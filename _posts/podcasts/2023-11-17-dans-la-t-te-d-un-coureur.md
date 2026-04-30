@@ -15,5 +15,8 @@ description: >-
   The first French-speaking podcast dedicated to running and mental preparation.
   Advice, interviews with inspiring athletes and all about the running
   lifestyle.
+redirect_from:
+  - /podcast/2023/11/17/dans-la-t-te-d-un-coureur.html
+
 ---
 ![Dans la Tête d’un Coureur podcast cover art]({{site.baseurl}}/media/danslateteeduncoureur.jpeg)

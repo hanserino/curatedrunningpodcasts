@@ -15,5 +15,8 @@ patreon_link: 'https://www.patreon.com/swap/'
 description: >-
   Megan Roche, M.D. and David Roche digs deep into training, races, studies, pop
   culture, and much more! HUZZAH!
+redirect_from:
+  - /podcast/2023/10/31/some-work-all-play.html
+
 ---
 ![Some Work, All Play podcast cover art]({{site.baseurl}}/media/swap.jpeg)

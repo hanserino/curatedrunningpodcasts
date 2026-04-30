@@ -13,5 +13,8 @@ tags:
   - ultra
 language:
   - english
+redirect_from:
+  - /podcast/2023/11/01/between-two-pines.html
+
 ---
 ![Between Two Pines podcast cover art]({{site.baseurl}}/media/betweentwopinespodcast.jpeg)

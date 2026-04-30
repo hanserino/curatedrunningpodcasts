@@ -13,5 +13,8 @@ tags:
 language:
   - norwegian
 publisher: NRK
+redirect_from:
+  - /podcast/2023/11/06/i-det-lange-l-p.html
+
 ---
 ![I Det Lange Løp podcast cover art]({{site.baseurl}}/media/idetlangeloppodcast.jpeg)

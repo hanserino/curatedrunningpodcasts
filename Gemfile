@@ -11,6 +11,7 @@ gem "kramdown-parser-gfm"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"
   gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-redirect-from", "~> 0.16"
 end
 
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do

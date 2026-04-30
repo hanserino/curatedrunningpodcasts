@@ -15,5 +15,8 @@ language:
 tags:
   - trail
   - ultra
+redirect_from:
+  - /podcast/2023/11/01/trail-society.html
+
 ---
 ![Trail Society podcast cover art]({{site.baseurl}}/media/trailsocietypodcast.jpeg)

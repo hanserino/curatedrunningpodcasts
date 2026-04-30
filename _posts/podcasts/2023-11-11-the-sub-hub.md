@@ -13,5 +13,8 @@ tags:
   - subultra
 language:
   - english
+redirect_from:
+  - /podcast/2023/11/11/the-sub-hub.html
+
 ---
 ![The Sub Hub podcast cover art]({{site.baseurl}}/media/subhubpodcast.jpeg)

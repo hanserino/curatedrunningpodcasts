@@ -14,5 +14,8 @@ publisher: Adharanand Finn
 description: >-
   Award-winning author Adharanand Finn talks to runners of every kind about the
   joy and experience of running.
+redirect_from:
+  - /podcast/2023/11/01/the-way-of-the-runner.html
+
 ---
 ![The Way Of The Runner podcast cover art]({{site.baseurl}}/media/the-way-of-the-runner-podcast.png)

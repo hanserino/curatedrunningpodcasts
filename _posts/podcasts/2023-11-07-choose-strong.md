@@ -16,5 +16,8 @@ spotify_link: 'https://open.spotify.com/show/0b3F87c5WWeMCmrx3Uzdlv?si=912cc9271
 tags:
   - trail
   - ultra
+redirect_from:
+  - /podcast/2023/11/07/choose-strong.html
+
 ---
 ![Choose Strong podcast cover art]({{site.baseurl}}/media/choosestrongpodcast.jpeg)

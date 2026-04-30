@@ -17,5 +17,8 @@ description: >-
   Elite runner Francesco Puppi has conversations with key members of the trail &
   ultra running community from all over the world. From professional world class
   athletes to our Vert.run members and community.
+redirect_from:
+  - /podcast/2023/11/02/running-long-a-trail-ultra-running-talk.html
+
 ---
 ![Running long - A trail & ultra running talk podcast cover art]({{site.baseurl}}/media/runninglongpodcast.jpeg)

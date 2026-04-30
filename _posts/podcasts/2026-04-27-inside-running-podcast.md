@@ -14,4 +14,7 @@ tags:
   - track
 language:
   - english
+redirect_from:
+  - /podcast/2026/04/28/inside-running-podcast-md.html
+
 ---

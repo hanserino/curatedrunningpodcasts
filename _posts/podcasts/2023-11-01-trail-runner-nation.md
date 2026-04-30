@@ -15,5 +15,8 @@ description: >-
   running community - from beginners to the pros! Tips and discussions
   regarding race nutrition, pacing strategy, mental focus and much more from
   well-respected members of the trail community.
+redirect_from:
+  - /podcast/2023/11/01/trail-runner-nation.html
+
 ---
 ![Trail Runner Nation podcast cover art]({{site.baseurl}}/media/trn-logo-podcast-artwork.jpg)

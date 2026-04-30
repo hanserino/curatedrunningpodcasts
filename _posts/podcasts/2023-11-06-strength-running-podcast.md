@@ -16,5 +16,8 @@ description: >-
   listeners will learn how to race faster, stay healthy, prevent running
   injuries, and get stronger in this informative and fun podcast.
 publisher: Jason Fitzgerald
+redirect_from:
+  - /podcast/2023/11/06/strength-running-podcast.html
+
 ---
 ![Strength Running Podcast podcast cover art]({{site.baseurl}}/media/strengthrunningpodcast.png)

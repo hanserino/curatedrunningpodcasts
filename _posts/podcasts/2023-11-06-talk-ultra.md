@@ -14,5 +14,8 @@ publisher: Ian Corless
 description: >-
   The godfather of ultra trail podcasts, Ian Corless, brings you you news and in
   depth interviews from the ultrarunning world.
+redirect_from:
+  - /podcast/2023/11/06/talk-ultra.html
+
 ---
 ![Talk Ultra podcast cover art]({{site.baseurl}}/media/talkultrapodcast.jpeg)
