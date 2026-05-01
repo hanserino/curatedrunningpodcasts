@@ -65,6 +65,7 @@ collections:
       - { label: "Apple Podcasts", name: "apple_podcast_link", required: false, widget: "string" }
       - { label: "Patreon", name: "patreon_link", required: false, widget: "string" }
       - { label: "YouTube", name: "youtube_link", required: false, widget: "string" }
+      - { label: "RSS feed URL", name: "rss_feed", required: false, widget: "string", hint: "Used to fetch the latest episode audio for the on-site player." }
       - label: "Running type (tags)"
         name: "tags"
         required: true

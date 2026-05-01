@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Science Of Ultra
+rss_feed: https://rss.libsyn.com/shows/70944/destinations/299934.xml
 spotify_link: 'https://open.spotify.com/show/1F1HpfBJwgKExXQdyE7JbC?si=dfadc5874f9444e4'
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/science-of-ultra/id1042673386'
 description: >-

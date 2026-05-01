@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Ten Junk Miles
+rss_feed: https://rss.libsyn.com/shows/65104/destinations/259001.xml
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/ten-junk-miles/id977007408'
 spotify_link: 'https://open.spotify.com/show/4yeVQnjkjPK20gPxGeP5tu?si=2d8b03e5c0ad4728'
 patreon_link: 'https://www.patreon.com/tenjunkmiles'

@@ -1,0 +1,88 @@
+{%- assign feed_data = site.data.latest_podcast_episodes -%}
+{%- assign items = feed_data.items | default: empty -%}
+{%- assign section_id = include.section_id | default: "latest-episodes-player" -%}
+{%- assign heading = include.heading | default: "Latest Episodes" -%}
+{%- assign max_items = include.limit | default: 25 -%}
+{%- assign deck_cover = "" -%}
+{%- if items.size > 0 -%}
+  {%- assign first_ep = items | first -%}
+  {%- if first_ep.cover_image and first_ep.cover_image != "" -%}
+    {%- assign deck_cover = first_ep.cover_image -%}
+  {%- endif -%}
+{%- endif -%}
+
+<section class="latest-episodes" id="{{ section_id }}" aria-labelledby="{{ section_id }}-title">
+  <h2 class="latest-episodes__title" id="{{ section_id }}-title">{{ heading }}</h2>
+
+  {%- if items.size > 0 -%}
+  <div class="latest-episodes__player-shell">
+    <div
+      class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
+      data-player-art-wrap
+      {% if deck_cover != "" %}data-default-cover="{{ deck_cover | relative_url | escape }}"{% endif %}
+    >
+      {%- if deck_cover != "" -%}
+      <img class="latest-episodes__player-art" data-player-art src="{{ deck_cover | relative_url }}" alt="" width="72" height="72">
+      {%- else -%}
+      <img class="latest-episodes__player-art" data-player-art alt="" width="72" height="72" hidden>
+      {%- endif -%}
+    </div>
+    <div class="latest-episodes__player-main">
+      <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing>Choose an episode below to start listening.</p>
+      <audio controls preload="none" data-latest-player class="latest-episodes__player">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+
+  <ol class="latest-episodes__list">
+    {%- for episode in items limit: max_items -%}
+    {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
+    <li class="latest-episodes__item">
+      <div class="latest-episodes__layout">
+        {%- if episode.cover_image and episode.cover_image != "" -%}
+        <img
+          src="{{ episode.cover_image | relative_url }}"
+          alt=""
+          class="latest-episodes__cover"
+          loading="lazy"
+          decoding="async"
+        >
+        {%- endif -%}
+        <div class="latest-episodes__content">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
+          aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
+          data-audio-url="{{ episode.audio_url | escape }}"
+          data-episode-title="{{ episode.episode_title | escape }}"
+          data-podcast-title="{{ episode.podcast_title | escape }}"
+          {% if episode.cover_image and episode.cover_image != "" %}data-cover-url="{{ episode.cover_image | relative_url | escape }}"{% endif %}
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <span class="latest-episodes__episode-title">{{ episode.episode_title }}</span>
+      </div>
+      <p class="latest-episodes__meta">
+        {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
+        <a href="{{ episode.podcast_page_url | relative_url }}" class="latest-episodes__podcast-link">{{ episode.podcast_title }}</a>
+        {%- else -%}
+        {{ episode.podcast_title }}
+        {%- endif -%}
+        {% if published_label and published_label != "" %} • {{ published_label }}{% endif %}
+      </p>
+        </div>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ol>
+  {%- else -%}
+  <p>No RSS feeds available yet. Add <code>rss_feed:</code> to podcast markdown front matter.</p>
+  {%- endif -%}
+</section>
+
+{%- if items.size > 0 -%}
+{% include latest-episodes-player-runtime.html section_id=section_id %}
+{%- endif -%}

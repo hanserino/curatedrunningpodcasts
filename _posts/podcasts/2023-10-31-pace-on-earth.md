@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Pace On Earth
+rss_feed: https://rss.libsyn.com/shows/105415/destinations/566693.xml
 spotify_link: 'https://open.spotify.com/show/5G3EyPD4eTvlvYoS7ThVh9?si=2a75030401cb4e75'
 apple_podcast_link: 'https://podcasts.apple.com/no/podcast/pace-on-earth-podcast/id1277562331'
 description: >-

@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: The Real Science Of Sports
+rss_feed: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
 spotify_link: 'https://open.spotify.com/show/3g71AuFYy6FnYHEI1GO9A0?si=36a5fc2421e74f0e'
 apple_podcast_link: >-
   https://podcasts.apple.com/us/podcast/the-real-science-of-sport-podcast/id1461719225

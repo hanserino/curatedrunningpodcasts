@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Breaking Marathon Limits
+rss_feed: https://rss.buzzsprout.com/299975.rss
 spotify_link: 'https://open.spotify.com/show/2H86c25anhVQ7YHbBQ0xDc?si=6b4a43f44ad7475f'
 apple_podcast_link: 'https://open.spotify.com/show/2H86c25anhVQ7YHbBQ0xDc?si=6b4a43f44ad7475f'
 publisher: Breaking Marathon Limits

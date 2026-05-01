@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Singletrack
+rss_feed: https://rss.buzzsprout.com/1794638.rss
 spotify_link: 'https://open.spotify.com/show/7jAsWCRNSCU8nh81vrAaC2'
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/id1572382413?mt=2&ls=1'
 patreon_link: 'https://www.patreon.com/runsingletrack/'

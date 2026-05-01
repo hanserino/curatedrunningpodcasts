@@ -1,7 +1,8 @@
 ---
 category: podcast
 published: true
-title: Between Two Pines
+title: 
+rss_feed: https://rss.libsyn.com/shows/489620/destinations/4178531.xml
 apple_podcast_link: 'https://podcasts.apple.com/gb/podcast/between-two-pines/id1711311597'
 publisher: UltraSignup
 description: >-

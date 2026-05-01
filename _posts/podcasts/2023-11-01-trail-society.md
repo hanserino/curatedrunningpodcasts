@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Trail Society
+rss_feed: https://feeds.captivate.fm/trail-society/
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/trail-society/id1579961692'
 description: >-
   Keely Henninger, Corrine Malcolm, and Hillary Allen are three professional

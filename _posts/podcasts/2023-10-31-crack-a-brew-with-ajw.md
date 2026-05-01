@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Crack A Brew With AJW
+rss_feed: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/crack-a-brew-with-ajw/id1670279724'
 spotify_link: 'https://open.spotify.com/show/6FTfgS8tvK7Is4XsSRn8Us?si=a1ce070c3a7749a9'
 tags:

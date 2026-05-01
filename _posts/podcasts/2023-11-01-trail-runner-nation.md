@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Trail Runner Nation
+rss_feed: https://rss.libsyn.com/shows/44345/destinations/142179.xml
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/trail-runner-nation/id484661268'
 spotify_link: 'https://open.spotify.com/show/603z2wAQ73kcqTbM1pTl74?si=b5e0f38c8ae345f1'
 tags:

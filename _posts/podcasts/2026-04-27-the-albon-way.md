@@ -5,6 +5,7 @@ category: podcast
 published: "true"
 description: "Ultra trail power couple Jon and Henriette Albon talk about their
   training, racing, and shares tips, tricks and advice. "
+rss_feed: https://anchor.fm/s/fb539bd8/podcast/rss
 spotify_link: https://open.spotify.com/show/1MFBXgI9X582ns7v4yDkU0?si=d4d0296470a64c4b
 apple_podcast_link: https://podcasts.apple.com/gb/podcast/the-albon-way/id1769928638
 tags:

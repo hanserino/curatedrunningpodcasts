@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: The Way Of The Runner
+rss_feed: https://rss.libsyn.com/shows/234188/destinations/1733936.xml
 patreon_link: 'https://www.patreon.com/adharanandfinn'
 apple_podcast_link: >-
   https://podcasts.apple.com/gb/podcast/the-way-of-the-runner-conversations-on/id1491214324

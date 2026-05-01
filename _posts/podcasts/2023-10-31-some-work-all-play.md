@@ -1,7 +1,7 @@
 ---
 category: podcast
 published: true
-title: 'Some Work, All Play'
+title: Some Work, All Play
 publisher: David Roche and Megan Roche
 language:
   - english
@@ -9,6 +9,7 @@ tags:
   - subultra
   - ultra
   - trail
+rss_feed: https://anchor.fm/s/9abbbe4/podcast/rss
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/some-work-all-play/id1521532868'
 spotify_link: 'https://open.spotify.com/show/3AaJYZngimocFf8aztKTcO?si=b5b831b841b44f29'
 patreon_link: 'https://www.patreon.com/swap/'

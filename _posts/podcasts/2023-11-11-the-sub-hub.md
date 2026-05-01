@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: The Sub Hub
+rss_feed: https://anchor.fm/s/db96fa60/podcast/rss
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/the-sub-hub-podcast/id1675123343'
 description: >-
   Dani Moreno and and EmKay Sullivan brings you your hub for all things

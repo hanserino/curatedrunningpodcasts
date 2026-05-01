@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Ultrarunning History
+rss_feed: https://ultrarunninghistory.com/feed/podcast/
 spotify_link: 'https://open.spotify.com/show/6VYmdPipc5bKMEXjzgNdue'
 apple_podcast_link: >-
   https://itunes.apple.com/us/podcast/ultrarunning-history/id1410858264?mt=2&ls=1

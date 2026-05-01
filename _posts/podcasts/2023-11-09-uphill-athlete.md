@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Uphill Athlete
+rss_feed: https://feeds.zencastr.com/f/f-N7v7jW.rss
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/uphill-athlete-podcast/id1523174465'
 spotify_link: 'https://open.spotify.com/show/2ISHjPD8PFIIxbNMgpX7df'
 description: >-

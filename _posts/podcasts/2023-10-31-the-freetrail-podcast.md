@@ -8,6 +8,7 @@ description: Professional ultrarunner, Dylan Bowman, brings conversations with a
   the outdoor industry.
 cover_image: /media/freetrail2.jpeg
 publisher: Freetrail
+rss_feed: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
 spotify_link: https://open.spotify.com/show/3Ohhp3U4j81S6oY0NQodku?si=64f4fc5446a1479c&nd=1
 apple_podcast_link: https://podcasts.apple.com/us/podcast/the-freetrail-podcast-with-dylan-bowman/id1492327668
 tags:

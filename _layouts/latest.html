@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+	{% include head.html %}
+	{% include schema-page.html %}
+</head>
+<body class="latest-page" data-box-grid="true">
+	{% include skip-link.html %}
+	<main id="main-content">
+		<header class="header header--post" role="banner">
+			<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
+		</header>
+		<article class="post-article">
+			<header>
+				<h1 class="post-article__title">{{ page.title }}</h1>
+				{% if page.description %}
+				<p class="post-article__lede">{{ page.description }}</p>
+				{% endif %} 
+			</header>
+			<div class="post-article__content">
+				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+			</div>
+			<footer class="post-article__footer">
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
+			</footer>
+		</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>

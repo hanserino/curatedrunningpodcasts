@@ -1,7 +1,8 @@
 ---
 category: podcast
 published: true
-title: Strength Running Podcast
+title: 
+rss_feed: https://feeds.feedburner.com/StrengthRunning
 apple_podcast_link: >-
   https://podcasts.apple.com/us/podcast/the-strength-running-podcast/id1170932252
 spotify_link: 'https://open.spotify.com/show/1ZkJ0i0utCvF8NidUvfyYW?si=061947a57f8b4739'

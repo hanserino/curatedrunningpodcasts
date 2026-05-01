@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: I Det Lange Løp
+rss_feed: https://podkast.nrk.no/program/i_det_lange_loep.rss
 spotify_link: 'https://open.spotify.com/show/5w0BNepisaCKduljnj8rpa?si=da8122f696a846fd'
 apple_podcast_link: 'https://podcasts.apple.com/no/podcast/i-det-lange-l%C3%B8p/id1488494849'
 description: >-

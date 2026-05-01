@@ -8,6 +8,7 @@ language:
 tags:
   - trail
   - ultra
+rss_feed: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
 spotify_link: 'https://open.spotify.com/show/4SOoCH4LM0V4WZt4wqiTLH?si=974b1b0013f44f0a'
 apple_podcast_link: >-
   https://podcasts.apple.com/no/podcast/dans-la-t%C3%AAte-dun-coureur/id1444365160

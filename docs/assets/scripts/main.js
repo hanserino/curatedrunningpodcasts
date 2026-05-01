@@ -155,7 +155,17 @@ function resetAllFilters() {
     updateFilterResultsCount();
 }
 
+function setInitialGridModeByViewport() {
+    if (typeof window === 'undefined' || typeof document === 'undefined') {
+        return;
+    }
+
+    var desktopLike = window.matchMedia && window.matchMedia('(min-width: 700px)').matches;
+    document.body.setAttribute('data-box-grid', desktopLike ? 'true' : 'false');
+}
+
 function wireFilterAndGrid() {
+    setInitialGridModeByViewport();
     var boxGrid = document.body.getAttribute('data-box-grid');
 
     syncGridAria();

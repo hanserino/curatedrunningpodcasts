@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Spring Snyggt
+rss_feed: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
 apple_podcast_link: >-
   https://podcasts.apple.com/no/podcast/spring-snyggt-med-jesus-och-manne/id1491068286
 spotify_link: 'https://open.spotify.com/show/172Kw8CrpuVp8gU50MPXmm?si=ba385d926b5a4014'

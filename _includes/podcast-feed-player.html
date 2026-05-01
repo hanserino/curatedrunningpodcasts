@@ -1,0 +1,81 @@
+{%- assign feed_url = include.rss_feed | to_s | strip -%}
+{%- assign feed_key = feed_url | downcase -%}
+{%- assign feed_data = site.data.latest_podcast_episodes -%}
+{%- comment -%} Liquid cannot use hash[variable] on nested site.data; use feed_episodes_list + where. {%- endcomment -%}
+{%- assign episodes = "" | split: "," -%}
+{%- if feed_data and feed_data.feed_episodes_list -%}
+{%- assign feed_match = feed_data.feed_episodes_list | where: "feed_key", feed_key | first -%}
+{%- if feed_match and feed_match.episodes -%}
+{%- assign episodes = feed_match.episodes -%}
+{%- endif -%}
+{%- endif -%}
+{%- assign section_id = include.section_id | default: "podcast-feed-player" -%}
+{%- assign heading = include.heading | default: "Latest Episodes From This Podcast" -%}
+{%- assign max_items = include.limit | default: 10 -%}
+{%- assign show_cover = include.cover_image | default: "" | strip -%}
+{%- assign deck_cover = show_cover -%}
+{%- if deck_cover == "" and feed_data.items -%}
+  {%- assign cover_row = feed_data.items | where: "feed_url", feed_url | first -%}
+  {%- if cover_row and cover_row.cover_image and cover_row.cover_image != "" -%}
+    {%- assign deck_cover = cover_row.cover_image -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if feed_url != "" -%}
+<section class="latest-episodes latest-episodes--embedded" id="{{ section_id }}" aria-labelledby="{{ section_id }}-title">
+  <h3 class="latest-episodes__title" id="{{ section_id }}-title">{{ heading }}</h3>
+
+  {%- if episodes.size > 0 -%}
+  <div class="latest-episodes__player-shell">
+    <div
+      class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
+      data-player-art-wrap
+      {% if deck_cover != "" %}data-default-cover="{{ deck_cover | relative_url | escape }}"{% endif %}
+    >
+      {%- if deck_cover != "" -%}
+      <img class="latest-episodes__player-art" data-player-art src="{{ deck_cover | relative_url }}" alt="" width="72" height="72">
+      {%- else -%}
+      <img class="latest-episodes__player-art" data-player-art alt="" width="72" height="72" hidden>
+      {%- endif -%}
+    </div>
+    <div class="latest-episodes__player-main">
+      <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing>Choose an episode below to start listening.</p>
+      <audio controls preload="none" data-latest-player class="latest-episodes__player">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+
+  <ol class="latest-episodes__list">
+    {%- for episode in episodes limit: max_items -%}
+    <li class="latest-episodes__item">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
+          aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
+          data-audio-url="{{ episode.audio_url | escape }}"
+          data-episode-title="{{ episode.episode_title | escape }}"
+          data-podcast-title="{{ include.podcast_title | default: 'Podcast' | escape }}"
+          {% if show_cover != "" %}data-cover-url="{{ show_cover | relative_url | escape }}"{% endif %}
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <span class="latest-episodes__episode-title">{{ episode.episode_title }}</span>
+      </div>
+    </li>
+    {%- endfor -%}
+  </ol>
+  {%- else -%}
+  <p class="latest-episodes__unavailable">
+    Feed is currently unavailable for this podcast. Try again later or open the
+    <a href="{{ feed_url }}" rel="noopener noreferrer" target="_blank">RSS feed</a>.
+  </p>
+  {%- endif -%}
+</section>
+
+{%- if episodes.size > 0 -%}
+{% include latest-episodes-player-runtime.html section_id=section_id %}
+{%- endif -%}
+{%- endif -%}

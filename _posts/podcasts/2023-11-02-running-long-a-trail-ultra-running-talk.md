@@ -2,6 +2,7 @@
 category: podcast
 published: true
 title: Running long - A trail & ultra running talk
+rss_feed: https://anchor.fm/s/70c9c5f0/podcast/rss
 apple_podcast_link: >-
   https://podcasts.apple.com/no/podcast/running-long-a-trail-ultra-running-talk/id1592106589?l=nb
 spotify_link: 'https://open.spotify.com/show/28uM4oOFberDq2ROkxYwbi?si=2fed42d6509e4d3c'
