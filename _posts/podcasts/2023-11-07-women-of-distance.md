@@ -1,7 +1,7 @@
 ---
 category: podcast
 published: true
-title: 
+title: Women of Distance
 rss_feed: https://anchor.fm/s/eb00f12c/podcast/rss
 description: >-
   A podcast about the women of Mountain, Trail, Ultra and Road running worlds.

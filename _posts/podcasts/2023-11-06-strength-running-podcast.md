@@ -1,7 +1,7 @@
 ---
 category: podcast
 published: true
-title: 
+title: Strength Running Podcast
 rss_feed: https://feeds.feedburner.com/StrengthRunning
 apple_podcast_link: >-
   https://podcasts.apple.com/us/podcast/the-strength-running-podcast/id1170932252

@@ -1,7 +1,7 @@
 ---
 category: podcast
 published: true
-title: 
+title: Choose Strong
 rss_feed: https://anchor.fm/s/674e5298/podcast/rss
 apple_podcast_link: Choose Strong by Sally McRae
 language:

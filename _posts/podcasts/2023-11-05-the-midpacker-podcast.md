@@ -1,7 +1,7 @@
 ---
 category: podcast
 published: true
-title: 
+title: The Midpacker Podcast
 rss_feed: https://anchor.fm/s/e4eabf84/podcast/rss
 spotify_link: 'https://open.spotify.com/show/3nXliB7k1ojebkYTu8zZrL?si=790cec5f2666495d'
 apple_podcast_link: 'https://podcasts.apple.com/us/podcast/the-midpacker-podcast/id1694627544'
