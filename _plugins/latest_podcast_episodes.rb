@@ -123,6 +123,20 @@ module LatestPodcastEpisodes
     site.in_source_dir(".jekyll-rss-cache", "latest_podcast_episodes.yml")
   end
 
+  def committed_data_path(site)
+    site.in_source_dir("_data", "latest_podcast_episodes.yml")
+  end
+
+  def write_committed_data(site, payload)
+    return unless ENV["JEKYLL_ENV"].to_s == "production"
+
+    path = committed_data_path(site)
+    FileUtils.mkdir_p(File.dirname(path))
+    File.write(path, YAML.dump(payload))
+  rescue StandardError => e
+    Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
+  end
+
   def read_rss_cache(path)
     return nil unless File.file?(path)
 
@@ -144,6 +158,13 @@ end
 def build_latest_podcast_episodes_data(site)
   cache_path = LatestPodcastEpisodes.rss_cache_path(site)
   cached = LatestPodcastEpisodes.read_rss_cache(cache_path)
+
+  prior_snapshot = site.data["latest_podcast_episodes"]
+  prior_snapshot = nil unless prior_snapshot.is_a?(Hash)
+  prior_usable =
+    prior_snapshot &&
+      prior_snapshot["items"].is_a?(Array) &&
+      !prior_snapshot["items"].empty?
 
   posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
 
@@ -213,7 +234,11 @@ def build_latest_podcast_episodes_data(site)
   }
   LatestPodcastEpisodes.ensure_feed_episodes_list!(payload)
 
-  if podcasts.any? && sorted.empty? && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
+  if sorted.any?
+    site.data["latest_podcast_episodes"] = payload
+    LatestPodcastEpisodes.write_rss_cache(cache_path, payload)
+    LatestPodcastEpisodes.write_committed_data(site, payload)
+  elsif podcasts.any? && sorted.empty? && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
     Jekyll.logger.warn(
       "LatestPodcastEpisodes:",
       "RSS fetch returned no episodes (#{errors.size} problem(s)); using disk cache from #{cached['generated_at']}."
@@ -228,9 +253,20 @@ def build_latest_podcast_episodes_data(site)
     )
     LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
     site.data["latest_podcast_episodes"] = merged
+  elsif podcasts.any? && sorted.empty? && prior_usable
+    Jekyll.logger.warn(
+      "LatestPodcastEpisodes:",
+      "RSS fetch returned no episodes (#{errors.size} problem(s)); using committed _data/latest_podcast_episodes.yml."
+    )
+    kept = prior_snapshot.merge(
+      "generated_at" => Time.now.utc.iso8601,
+      "committed_fallback" => true,
+      "fetch_errors" => errors
+    )
+    LatestPodcastEpisodes.ensure_feed_episodes_list!(kept)
+    site.data["latest_podcast_episodes"] = kept
   else
     site.data["latest_podcast_episodes"] = payload
-    LatestPodcastEpisodes.write_rss_cache(cache_path, payload) if sorted.any?
   end
 end
 
@@ -244,12 +280,26 @@ class LatestPodcastEpisodesGenerator < Jekyll::Generator
     Jekyll.logger.error "LatestPodcastEpisodes:", "#{e.class}: #{e.message}\n#{e.backtrace&.first(8)&.join("\n")}"
     cache_path = LatestPodcastEpisodes.rss_cache_path(site)
     cached = LatestPodcastEpisodes.read_rss_cache(cache_path)
-    return unless cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
+    if cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
+      Jekyll.logger.warn "LatestPodcastEpisodes:", "Using disk cache after build error (#{e.class})."
+      merged = cached.merge(
+        "generated_at" => Time.now.utc.iso8601,
+        "cache_fallback" => true,
+        "load_error" => "#{e.class}: #{e.message}"
+      )
+      LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
+      site.data["latest_podcast_episodes"] = merged
+      return
+    end
 
-    Jekyll.logger.warn "LatestPodcastEpisodes:", "Using disk cache after build error (#{e.class})."
-    merged = cached.merge(
+    committed_path = LatestPodcastEpisodes.committed_data_path(site)
+    committed = LatestPodcastEpisodes.read_rss_cache(committed_path)
+    return unless committed.is_a?(Hash) && committed["items"].is_a?(Array) && !committed["items"].empty?
+
+    Jekyll.logger.warn "LatestPodcastEpisodes:", "Using _data/latest_podcast_episodes.yml after build error (#{e.class})."
+    merged = committed.merge(
       "generated_at" => Time.now.utc.iso8601,
-      "cache_fallback" => true,
+      "committed_fallback" => true,
       "load_error" => "#{e.class}: #{e.message}"
     )
     LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
