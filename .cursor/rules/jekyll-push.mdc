@@ -1,18 +1,33 @@
 ---
-description: Run production Jekyll build before git push when user requests push
+description: Jekyll build commands by situation; production docs build before git push
 alwaysApply: true
 ---
 
-# Git push for this Jekyll site
+# Jekyll site — commands by situation
 
-When the user asks to **push to git**, **commit and push**, or similar for this repository:
+Use these from the project root. **Pick the row that matches what the user is doing.**
 
-1. **Before** staging or committing changes that affect the built site, run from the project root:
+| Situation | Command | Notes |
+|-----------|---------|--------|
+| **Local dev / preview** (layouts, CSS, JS, content; fast, no RSS) | `bundle exec jekyll serve` | Skips RSS; uses `_data/latest_podcast_episodes.yml` and/or `.jekyll-rss-cache/`. ~seconds, not ~minute. |
+| **Local full site build** (not deploying `docs/`) | `bundle exec jekyll build --destination <dir>` | Same fast path as serve unless production env set. |
+| **Refresh podcast RSS locally** (test players / latest episodes) | `JEKYLL_FETCH_RSS=1 bundle exec jekyll serve` or `... jekyll build --destination docs` | Network fetch of all feeds; slow. |
+| **Before commit/push** that includes built output (`docs/`) | `JEKYLL_ENV=production bundle exec jekyll build --destination docs` | Sets production URLs (canonical, OG, sitemap, feed). **Refreshes RSS** and updates `_data/latest_podcast_episodes.yml`. Always run when the user asks to push or ship the static site. |
+| **Update committed episode data only** (after production build) | Same as push row | Production build rewrites `_data/latest_podcast_episodes.yml`; commit it with `docs/` when it changed. |
 
-   `JEKYLL_ENV=production bundle exec jekyll build --destination docs`
+**Agent behavior**
 
-   This keeps canonical URLs, Open Graph, feeds, and sitemap on `https://bestrunningpodcasts.com` instead of `http://localhost:4000`.
+- If the user asks to **push**, **commit and push**, **deploy**, or **ship** the site: run **`JEKYLL_ENV=production bundle exec jekyll build --destination docs` first**, then stage **`docs/`** and **`_data/latest_podcast_episodes.yml`** when the build changed them, then commit and push. Do not skip the production build for convenience.
+- If the user is **only iterating locally** or asks to **run the site**: use **`bundle exec jekyll serve`** (or a non-production `jekyll build`); do not force `JEKYLL_ENV=production` unless they need production URLs or a fresh RSS pass.
+- If they need **fresh feeds** while developing without a full production deploy: **`JEKYLL_FETCH_RSS=1`** with `jekyll serve` or `jekyll build`.
 
-2. Include regenerated **`docs/`** files in the commit when the build changed output (HTML, `assets/style/`, `feed.xml`, `sitemap.xml`, etc.).
+## Why
 
-3. Do **not** skip the production build for convenience; the default `url` in `_config.yml` is production, but local `jekyll serve` / non-production builds rewrite `docs/` with localhost.
+- **`JEKYLL_ENV=production`**: `absolute_url` and plugins emit `https://bestrunningpodcasts.com` instead of localhost in `docs/`.
+- **RSS plugin** (`_plugins/latest_podcast_episodes.rb`): Fetches feeds only when `JEKYLL_ENV=production` **or** `JEKYLL_FETCH_RSS=1`. Otherwise it uses committed `_data` and/or `.jekyll-rss-cache/` so dev stays fast.
+
+## Git push checklist
+
+1. Run: `JEKYLL_ENV=production bundle exec jekyll build --destination docs`
+2. Include regenerated **`docs/`** when HTML, assets, `feed.xml`, `sitemap.xml`, etc. changed.
+3. Include **`_data/latest_podcast_episodes.yml`** when the production build updated it.

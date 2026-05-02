@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+# RSS feeds are fetched only when JEKYLL_ENV=production or JEKYLL_FETCH_RSS=1.
+# Otherwise the build uses _data/latest_podcast_episodes.yml (from git) and/or
+# .jekyll-rss-cache/latest_podcast_episodes.yml so jekyll serve stays fast.
+
 require "fileutils"
 require "open-uri"
 require "rss"
@@ -153,6 +157,12 @@ module LatestPodcastEpisodes
   rescue StandardError => e
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
   end
+
+  def rss_fetch_enabled?
+    return true if ENV["JEKYLL_FETCH_RSS"].to_s == "1"
+
+    ENV["JEKYLL_ENV"].to_s == "production"
+  end
 end
 
 def build_latest_podcast_episodes_data(site)
@@ -165,6 +175,41 @@ def build_latest_podcast_episodes_data(site)
     prior_snapshot &&
       prior_snapshot["items"].is_a?(Array) &&
       !prior_snapshot["items"].empty?
+
+  cache_usable = cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
+
+  unless LatestPodcastEpisodes.rss_fetch_enabled?
+    merged = nil
+    source = nil
+    if cache_usable
+      merged = cached.merge(
+        "generated_at" => Time.now.utc.iso8601,
+        "rss_fetch_skipped" => true
+      )
+      source = "disk cache (.jekyll-rss-cache/)"
+    elsif prior_usable
+      merged = prior_snapshot.merge(
+        "generated_at" => Time.now.utc.iso8601,
+        "rss_fetch_skipped" => true
+      )
+      source = "committed _data/latest_podcast_episodes.yml"
+    end
+
+    if merged
+      LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
+      site.data["latest_podcast_episodes"] = merged
+      Jekyll.logger.info(
+        "LatestPodcastEpisodes:",
+        "Skipped RSS network fetch; using #{source}. Fresh feeds: JEKYLL_ENV=production or JEKYLL_FETCH_RSS=1."
+      )
+      return
+    end
+
+    Jekyll.logger.warn(
+      "LatestPodcastEpisodes:",
+      "No RSS snapshot (missing _data/latest_podcast_episodes.yml and cache); fetching feeds this run."
+    )
+  end
 
   posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
 

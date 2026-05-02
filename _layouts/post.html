@@ -8,7 +8,7 @@
 	{% include skip-link.html %}
 	<main id="main-content">
 		<header class="header header--post" role="banner">
-			<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
+			<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
 		</header>
 		<article class="post-article">
 			<header>
@@ -19,12 +19,6 @@
                     {%- endif -%}
                     {%- endif -%}
                     {{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
-                    
-                    {%- if page.layout == 'post' and page.category == 'podcast' -%}
-                    <div class="post-article__meta">
-                        {% include podcast-meta.html podcast=page listen_section_id="post-listen-links" %}
-                    </div>
-                    {%- endif -%}
                 </div>
                 
                 <div class="post-article__right">
@@ -32,7 +26,17 @@
                     {% if page.description %}
                     <p class="post-article__lede">{{ page.description }}</p>
                     {% endif %}
+
+                    {%- if page.layout == 'post' and page.category == 'podcast' -%}
+                    <div class="post-article__meta">
+                        {% include podcast-meta-single-post.html podcast=page listen_section_id="post-listen-links" %}
+                    </div>                   
+                    {%- endif -%}
+
+                
+
                 </div>
+                
 			</header>
 			<div class="post-article__content">
 				{% if page.rss_feed and page.rss_feed != '' %}
@@ -41,10 +45,10 @@
 			</div>
 			
 			<footer class="post-article__footer">
-				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to all running podcasts</a></p>
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
 			</footer>
 		</article>
 	</main>
 	{% include footer.html %}
-</body>
+</body> 
 </html>

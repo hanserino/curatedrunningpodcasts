@@ -278,9 +278,10 @@
       updateArt(coverUrl);
 
       var kicker =
-        shouldPlay || userGesture
+        options.kicker ||
+        (shouldPlay || userGesture
           ? 'Now playing'
-          : 'Continue listening';
+          : 'Continue listening');
       setNowPlaying(episodeTitle, podcastTitle, kicker);
 
       saveLastListened(audioUrl, episodeTitle, podcastTitle, coverUrl);
@@ -322,6 +323,20 @@
         if (currentLi) {
           currentLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
+      } catch (e) {}
+    })();
+
+    (function primeLatestForMainPlayer() {
+      if (currentLi) return;
+      var firstBtn = root.querySelector('.latest-episodes__list .latest-episodes__item [data-audio-url]');
+      if (!firstBtn) return;
+      activateEpisode(firstBtn, {
+        userGesture: false,
+        play: false,
+        kicker: 'Latest episode',
+      });
+      try {
+        player.preload = 'metadata';
       } catch (e) {}
     })();
 

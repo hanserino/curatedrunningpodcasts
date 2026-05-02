@@ -48,13 +48,14 @@
 
   <ol class="latest-episodes__list">
     {%- for episode in episodes limit: max_items -%}
+    {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
     <li class="latest-episodes__item">
       <div class="latest-episodes__row latest-episodes__row--episode">
         <button
           type="button"
           class="latest-episodes__play"
           aria-pressed="false"
-          aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
+          aria-label="Play episode: {{ episode.episode_title | xml_escape }}{% if published_label != '' %}, {{ published_label | xml_escape }}{% endif %}"
           data-audio-url="{{ episode.audio_url | escape }}"
           data-episode-title="{{ episode.episode_title | escape }}"
           data-podcast-title="{{ include.podcast_title | default: 'Podcast' | escape }}"
@@ -62,7 +63,12 @@
         >
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title">{{ episode.episode_title }}</span>
+        <div class="latest-episodes__episode-main">
+          <span class="latest-episodes__episode-title">{{ episode.episode_title }}</span>
+          {%- if published_label != "" -%}
+          <time class="latest-episodes__episode-date" datetime="{{ episode.published_at }}">{{ published_label }}</time>
+          {%- endif -%}
+        </div>
       </div>
     </li>
     {%- endfor -%}
