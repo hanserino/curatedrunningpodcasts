@@ -6,13 +6,13 @@
 <link rel="canonical" href="https://bestrunningpodcasts.com/latest-episodes/">
 <meta name="theme-color" content="#1a4d3a">
 <title>Latest Podcast Episodes | The Best Running Podcasts</title>
-<meta name="description" content="Hidden preview page that merges the latest episode from each podcast RSS feed.">
+<meta name="description" content="The newest episode from each curated show in the directory—play here or follow the link to the podcast’s page for more context and listen links.">
 <meta name="author" content="Hans Kristian Smedsrød Engdahl">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="application-name" content="The Best Running Podcasts"><!-- Open Graph -->
 <meta property="og:site_name" content="The Best Running Podcasts">
 <meta property="og:title" content="Latest Podcast Episodes | The Best Running Podcasts">
-<meta property="og:description" content="Hidden preview page that merges the latest episode from each podcast RSS feed.">
+<meta property="og:description" content="The newest episode from each curated show in the directory—play here or follow the link to the podcast’s page for more context and listen links.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://bestrunningpodcasts.com/latest-episodes/">
 <meta property="og:image" content="https://bestrunningpodcasts.com/assets/img/social.jpg">
@@ -20,7 +20,7 @@
 <meta property="og:locale" content="en_US"><!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Latest Podcast Episodes | The Best Running Podcasts">
-<meta name="twitter:description" content="Hidden preview page that merges the latest episode from each podcast RSS feed.">
+<meta name="twitter:description" content="The newest episode from each curated show in the directory—play here or follow the link to the podcast’s page for more context and listen links.">
 <meta name="twitter:image" content="https://bestrunningpodcasts.com/assets/img/social.jpg">
 <meta name="twitter:image:alt" content="Best Running Podcasts — curated running podcast directory (cover image)">
 
@@ -41,7 +41,7 @@
       "@type": "WebPage",
       "@id": "https://bestrunningpodcasts.com/latest-episodes/#webpage",
       "name": "Latest Podcast Episodes",
-      "description": "Hidden preview page that merges the latest episode from each podcast RSS feed.",
+      "description": "The newest episode from each curated show in the directory—play here or follow the link to the podcast’s page for more context and listen links.",
       "url": "https://bestrunningpodcasts.com/latest-episodes/",
       "isPartOf": { "@id": "https://bestrunningpodcasts.com/#website" }
     },
@@ -62,18 +62,53 @@
 
 	<main id="main-content">
 		<header class="header header--post" role="banner">
-			<p class="header__title header__title--home-link"><a href="/">The Best Running Podcasts</a></p>
+			<div class="header__top header__top--compact">
+				<p class="header__title header__title--home-link"><a href="/">The Best Running Podcasts</a></p>
+				<div class="header__actions">
+					<div class="header__nav-shell" data-header-actions>
+  <button
+    type="button"
+    class="header__menu-toggle"
+    aria-expanded="false"
+    aria-controls="site-main-nav-panel"
+    aria-label="Open menu"
+  >
+    <span class="header__menu-bars" aria-hidden="true"></span>
+  </button>
+  <div class="header__nav-panel" id="site-main-nav-panel">
+    <nav class="main-nav" aria-label="Main">
+      <ul class="main-nav__list">
+        <li>
+          <a
+            href="/about/"
+            class="main-nav__link"
+            >About</a>
+        </li>
+        <li>
+          <a
+            href="/latest-episodes/"
+            class="main-nav__link" aria-current="page"
+            >Latest episodes</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+			</div>
 		</header>
-		<article class="post-article">
-			<header>
-				<h1 class="post-article__title">Latest Podcast Episodes</h1>
+
+		<article class="latest">
+			<header class="latest__intro">
+				<h1 class="latest__title">Latest Podcast Episodes</h1>
 				
-				<p class="post-article__lede">Hidden preview page that merges the latest episode from each podcast RSS feed.</p>
-				 
+				<p class="latest__lede">The newest episode from each curated show in the directory—play here or follow the link to the podcast’s page for more context and listen links.</p>
+				
 			</header>
 			<div class="post-article__content"><section class="latest-episodes" id="latest-episodes-page" aria-labelledby="latest-episodes-page-title">
-  <h2 class="latest-episodes__title" id="latest-episodes-page-title">Latest Episodes Across All Feeds</h2><div class="latest-episodes__player-shell">
-    <div class="latest-episodes__player-art-wrap" data-player-art-wrap="" data-default-cover="https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png"><img fetchpriority="high" decoding="async" class="latest-episodes__player-art" data-player-art="" src="https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png" alt="" width="72" height="72" /></div>
+  <h2 class="latest-episodes__title" id="latest-episodes-page-title">Latest episodes across all shows</h2><div class="latest-episodes__player-shell">
+    <div class="latest-episodes__player-art-wrap" data-player-art-wrap="" data-default-cover="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png"><img fetchpriority="high" decoding="async" class="latest-episodes__player-art" data-player-art="" src="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png" alt="" width="72" height="72" /></div>
     <div class="latest-episodes__player-main">
       <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing="">Choose an episode below to start listening.</p>
       <audio controls="" preload="none" data-latest-player="" class="latest-episodes__player">
@@ -83,6 +118,18 @@
   </div>
 
   <ol class="latest-episodes__list"><li class="latest-episodes__item">
+      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png" alt="" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button type="button" class="latest-episodes__play" aria-pressed="false" aria-label="Play episode: Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder" data-audio-url="https://traffic.libsyn.com/secure/tenjunkmiles/LR_Hoadley.mp3?dest-id=259001" data-episode-title="Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder" data-podcast-title="Ten Junk Miles" data-cover-url="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <span class="latest-episodes__episode-title">Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder</span>
+      </div>
+      <p class="latest-episodes__meta"><a href="/ten-junk-miles.html" class="latest-episodes__podcast-link">Ten Junk Miles</a> • May 2, 2026
+      </p>
+        </div>
+      </div>
+    </li><li class="latest-episodes__item">
       <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png" alt="" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
       <div class="latest-episodes__row latest-episodes__row--episode">
         <button type="button" class="latest-episodes__play" aria-pressed="false" aria-label="Play episode: AJW Unplugged: History and Reflection on the Golden Ticket Series, Cocodona Thoughts and Predictions, and a Personal Update" data-audio-url="https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/AJW_unplugged_s13.mp3?dest-id=3847590" data-episode-title="AJW Unplugged: History and Reflection on the Golden Ticket Series, Cocodona Thoughts and Predictions, and a Personal Update" data-podcast-title="Crack A Brew With AJW" data-cover-url="https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png">
@@ -307,18 +354,6 @@
         <span class="latest-episodes__episode-title">Gavan Hennigan | The Iditarod — 1000 Miles Across Alaska</span>
       </div>
       <p class="latest-episodes__meta"><a href="/trail-talk.html" class="latest-episodes__podcast-link">Trail Talk</a> • Apr 28, 2026
-      </p>
-        </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png" alt="" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <div class="latest-episodes__row latest-episodes__row--episode">
-        <button type="button" class="latest-episodes__play" aria-pressed="false" aria-label="Play episode: Gang Show 256 - Julie Hennes and the Fox Valley Gang" data-audio-url="https://traffic.libsyn.com/secure/tenjunkmiles/Gang_show_Up_North.mp3?dest-id=259001" data-episode-title="Gang Show 256 - Julie Hennes and the Fox Valley Gang" data-podcast-title="Ten Junk Miles" data-cover-url="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <span class="latest-episodes__episode-title">Gang Show 256 - Julie Hennes and the Fox Valley Gang</span>
-      </div>
-      <p class="latest-episodes__meta"><a href="/ten-junk-miles.html" class="latest-episodes__podcast-link">Ten Junk Miles</a> • Apr 24, 2026
       </p>
         </div>
       </div>
@@ -896,234 +931,6 @@
   })();
 </script>
 
-<section class="latest-episodes latest-episodes--compact" id="latest-episodes-page-compact" aria-labelledby="latest-episodes-page-compact-title">
-  <h2 class="latest-episodes__title" id="latest-episodes-page-compact-title">Latest Episodes (Compact List)</h2><ul class="latest-episodes__list latest-episodes__list--compact"><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png" alt="Crack A Brew With AJW cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/AJW_unplugged_s13.mp3?dest-id=3847590" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        AJW Unplugged: History and Reflection on the Golden Ticket Series, Cocodona Thoughts and Predictions, and a Personal Update
-      </a>
-      <p class="latest-episodes__meta"><a href="/crack-a-brew-with-ajw.html" class="latest-episodes__podcast-link">Crack A Brew With AJW</a> • May 2, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg" alt="Singletrack cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19112353-jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Jim Walmsley's Back. Is He The Favorite? Our 2026 Western States Power Rankings (Long Run Archives #39)
-      </a>
-      <p class="latest-episodes__meta"><a href="/singletrack.html" class="latest-episodes__podcast-link">Singletrack</a> • May 2, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/0/6/7/4/06749c59643c2839/theextramilestshow236.jpg" alt="The Extramilest Show cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://traffic.libsyn.com/secure/florisgierman/Getting_Faster_After_Age_40_with_Coach_Albert_Shank.mp3?dest-id=557444" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        #126: Coach's Advice to Run &amp; Recover Faster For Recreational Runners
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-extramilest-show.html" class="latest-episodes__podcast-link">The Extramilest Show</a> • May 1, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="/media/insiderunning.jpeg" alt="Inside Running Podcast cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://mcdn.podbean.com/mf/web/h9k4pvhvwh8kfdaf/Alfie_-_iTunes9dxb7.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Interview: Alfie Manthorpe
-      </a>
-      <p class="latest-episodes__meta"><a href="/inside-running-podcast.html" class="latest-episodes__podcast-link">Inside Running Podcast</a> • May 1, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg" alt="The Sub Hub cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/db96fa60/podcast/play/119306874/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-30%2F423228281-44100-2-9ca818f28b384.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Trail Tales - Catching Up on Life and the Plethora of Results from Gorge Waterfalls, Canyons, MIUT, Fuji Trail and WMRA! 😮‍💨
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-sub-hub.html" class="latest-episodes__podcast-link">The Sub Hub</a> • May 1, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg" alt="Trail Runner Nation cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Colleen_Miracle_5_1_26.mp3?dest-id=142179" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        EP 779: The Hidden Performance Cost of Sun Damage
-      </a>
-      <p class="latest-episodes__meta"><a href="/trail-runner-nation.html" class="latest-episodes__podcast-link">Trail Runner Nation</a> • May 1, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg" alt="Dans la Tête d’un Coureur cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://audio.audiomeans.fr/file/hDENVZklas/a73e09f9-63c8-4a89-9db4-2edbe6caf47d.mp3?_=1777065180" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Caféine : le protocole que les équipes pros gardent pour elles... (Bonus)
-      </a>
-      <p class="latest-episodes__meta"><a href="/dans-la-t-te-d-un-coureur.html" class="latest-episodes__podcast-link">Dans la Tête d’un Coureur</a> • May 1, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="/media/freetrail2.jpeg" alt="The Freetrail Podcast cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Cocodona_250_Preview_Show_with_Dan_Green__Trailgating.mp3?dest-id=1746794" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Cocodona 250 Preview Show with Dan Green | Trailgating
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-freetrail-podcast.html" class="latest-episodes__podcast-link">The Freetrail Podcast</a> • Apr 30, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://storage.buzzsprout.com/k3i053javtz14cg5y4b4eqkkev13?.jpg" alt="Breaking Marathon Limits cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://www.buzzsprout.com/299975/episodes/19095771-ep134-1-59-30.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        EP134 - 1:59:30
-      </a>
-      <p class="latest-episodes__meta"><a href="/breaking-marathon-limits.html" class="latest-episodes__podcast-link">Breaking Marathon Limits</a> • May 1, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://media.rss.com/coffeeclub/20211105_155336_4773cbe93752e1ba1d2a4881a15daf14.jpg" alt="COFFEECLUB cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://content.rss.com/episodes/81443/2782130/coffeeclub/2026_04_30_18_27_08_f1d773bb-ee5f-49f5-84eb-8a2b2c4d9352.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Do Marathon Records Even Matter Anymore?
-      </a>
-      <p class="latest-episodes__meta"><a href="/coffeeclub.html" class="latest-episodes__podcast-link">COFFEECLUB</a> • Apr 30, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg" alt="Women of Distance cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/eb00f12c/podcast/play/119250755/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-29%2F423149749-44100-2-c10374c08d032.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Makena Morley - The Small Steps Lead To The Big Steps
-      </a>
-      <p class="latest-episodes__meta"><a href="/women-of-distance.html" class="latest-episodes__podcast-link">Women of Distance</a> • Apr 30, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/38305897/38305897-1695240625477-9b1937958e362.jpg" alt="The Midpacker Podcast cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/e4eabf84/podcast/play/119251542/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-29%2Fcb079636-9975-8190-1b3a-375928a77fa8.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        #116 Ryan Thrower | Curiosity, Creativity, &amp; The Fragility of Life
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-midpacker-podcast.html" class="latest-episodes__podcast-link">The Midpacker Podcast</a> • Apr 30, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://assets.pippa.io/shows/6100856531fd81f125b34dac/1764253945895-a1ed9fa9-2a2e-4594-8b95-1aba16461fd4.jpeg" alt="The Real Science Of Sports cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69f1d25a8647f8587e446e78/media.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        The Spotlight On The Sub-2: A Deep Dive Into Sawe's Marathon Masterclass
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-real-science-of-sports.html" class="latest-episodes__podcast-link">The Real Science Of Sports</a> • Apr 30, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg" alt="Course Equipe cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://sphinx.acast.com/p/acast/s/course-epique/e/69e8c103289eeb2c7b737992/media.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée
-      </a>
-      <p class="latest-episodes__meta"><a href="/course-equipe.html" class="latest-episodes__podcast-link">Course Equipe</a> • Apr 29, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg" alt="Spring Snyggt cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_335.mp3?dest-id=1729274" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        335. Nomio 10k-special
-      </a>
-      <p class="latest-episodes__meta"><a href="/spring-snyggt.html" class="latest-episodes__podcast-link">Spring Snyggt</a> • Apr 29, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17231862/17231862-1647566431353-63702c31bcb9a.jpg" alt="Choose Strong cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/674e5298/podcast/play/119146649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F423005645-44100-2-623488f3340c2.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        #140 | Cocodona 250 Shoe Line-Up, Lifting After a Run &amp; Sparkling Water
-      </a>
-      <p class="latest-episodes__meta"><a href="/choose-strong.html" class="latest-episodes__podcast-link">Choose Strong</a> • Apr 28, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1522497/1522497-1710251881490-4b26d229f6ddb.jpg" alt="Some Work, All Play cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/9abbbe4/podcast/play/119169317/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F71e4c177-a532-9c3d-0f68-fd66393e4710.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        308. Sub-2 Hour Marathon Fueling, The High Carb Plus Bicarb Era, Strides v. Plyometrics Study, Supershoe Evolution, and Iron Theories!
-      </a>
-      <p class="latest-episodes__meta"><a href="/some-work-all-play.html" class="latest-episodes__podcast-link">Some Work, All Play</a> • Apr 28, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg" alt="Trail Society cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://pscrb.fm/rss/p/episodes.captivate.fm/episode/4ca83211-6c35-4396-ae39-90b33c658b5b.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Episode 131: How to rebuild when everything changes with Lizzy Fowler
-      </a>
-      <p class="latest-episodes__meta"><a href="/trail-society.html" class="latest-episodes__podcast-link">Trail Society</a> • Apr 28, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="/media/trailtalk.jpg" alt="Trail Talk cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/ed80b02c/podcast/play/119087064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-26%2F422925226-44100-2-0aee2ab4346cc.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Gavan Hennigan | The Iditarod — 1000 Miles Across Alaska
-      </a>
-      <p class="latest-episodes__meta"><a href="/trail-talk.html" class="latest-episodes__podcast-link">Trail Talk</a> • Apr 28, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png" alt="Ten Junk Miles cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://traffic.libsyn.com/secure/tenjunkmiles/Gang_show_Up_North.mp3?dest-id=259001" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Gang Show 256 - Julie Hennes and the Fox Valley Gang
-      </a>
-      <p class="latest-episodes__meta"><a href="/ten-junk-miles.html" class="latest-episodes__podcast-link">Ten Junk Miles</a> • Apr 24, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/7/8/6/b/786b742f8039e70ae55e3c100dce7605/IMG_2262_3.png" alt="The Boulder Boys cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._75.mp3?dest-id=4343338" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Ep. 75 canyons preview!! + do's and don'ts of cheering
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-boulder-boys.html" class="latest-episodes__podcast-link">The Boulder Boys</a> • Apr 24, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="/media/creatorscooldown.jpg" alt="Creators Cooldown cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/101e74634/podcast/play/118882130/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-23%2F422653583-44100-2-b4233204f9765.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        The Story Behind Salomon TV, with Dean Leslie
-      </a>
-      <p class="latest-episodes__meta"><a href="/creators-cooldown.html" class="latest-episodes__podcast-link">Creators Cooldown</a> • Apr 23, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://static.libsyn.com/p/assets/a/e/a/d/aead861ffc08c97f16c3140a3186d450/paceonearthpodcast-20260314-6nfp9qaad0.jpg" alt="Pace On Earth cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://traffic.libsyn.com/secure/paceonearth/ultratraning_med_christianmalmstrom.mp3?dest-id=566693" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        #376 - Ultraträning med Christian Malmström
-      </a>
-      <p class="latest-episodes__meta"><a href="/pace-on-earth.html" class="latest-episodes__podcast-link">Pace On Earth</a> • Apr 17, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg" alt="Uphill Athlete cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://redirect.zencastr.com/r/episode/69dd691d04e9716464af3075/size/112726701/audio-files/635358be4592c880860238fe/cf3c4b94-183a-4a9a-ba9f-8d27536ea475.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        Making Sense of the Data with Dr. Marco Altini
-      </a>
-      <p class="latest-episodes__meta"><a href="/uphill-athlete.html" class="latest-episodes__podcast-link">Uphill Athlete</a> • Apr 15, 2026
-      </p>
-      </div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__layout"><img fetchpriority="high" decoding="async" src="https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42065606/42065606-1728050335744-df8997240c2de.jpg" alt="The Albon Way cover art" class="latest-episodes__cover" loading="lazy" decoding="async" /><div class="latest-episodes__content">
-      <a href="https://anchor.fm/s/fb539bd8/podcast/play/118372258/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-13%2Fce1dad1c-cb8a-608e-f6e6-378f94d2b165.mp3" class="latest-episodes__episode-title" rel="noopener noreferrer" target="_blank">
-        How to Pace a Trail Ultra: Effort, Intensity &amp; Race Strategy
-      </a>
-      <p class="latest-episodes__meta"><a href="/the-albon-way.html" class="latest-episodes__podcast-link">The Albon Way</a> • Apr 13, 2026
-      </p>
-      </div>
-      </div>
-    </li></ul></section>
-
 </div>
 			<footer class="post-article__footer">
 				<p class="post-article__back"><a href="/" rel="home">← Back to the podcast directory</a></p>
@@ -1134,8 +941,7 @@
     <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank" rel="noopener noreferrer" aria-label="Submit a podcast suggestion (opens a Google form in a new tab)">Submit your favorite running podcast! <span class="submit-btn__arrow" aria-hidden="true">⇲</span></a>
 
 
-    <p><a href="/about/">About this list</a> ·
-    A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
+    <p>A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·

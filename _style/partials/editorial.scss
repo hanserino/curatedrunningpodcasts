@@ -110,10 +110,19 @@
 .header--post {
     padding: 0.5rem 1rem 0;
 
+    .header__top {
+        align-items: center;
+    }
+
     .header__title--home-link {
         margin: 0;
         font-size: 1rem;
         font-weight: normal;
+    }
+
+    .header__actions {
+        gap: 0.5rem 1rem;
+        align-self: center;
     }
 }
 
@@ -179,8 +188,8 @@ $ep-play-size: 2.75rem;
     }
 
     &__player-art-wrap {
-        width: 72px;
-        height: 72px;
+        width: 92px;
+        height: 92px;
         border-radius: 12px;
         overflow: hidden;
         flex-shrink: 0;
@@ -490,6 +499,29 @@ $ep-play-size: 2.75rem;
 .latest-episodes__player::-webkit-media-controls-time-remaining-display {
     font-size: 11px;
     color: $ep-forest;
+}
+
+/* Latest episodes index page (/latest-episodes/) */
+body.latest-page {
+    .latest__intro {
+        margin-bottom: 0.25rem;
+    }
+
+    .latest__title {
+        font-size: clamp(1.45rem, 3.5vw, 1.85rem);
+        font-weight: bold;
+        margin: 0 0 0.5rem;
+        color: $ep-forest;
+        letter-spacing: -0.02em;
+    }
+
+    .latest__lede {
+        margin: 0 0 1.25rem;
+        max-width: 40rem;
+        color: rgba(0, 0, 0, 0.76);
+        line-height: 1.45;
+        font-size: 1.02rem;
+    }
 }
 
 @media screen and (max-width: 520px) {

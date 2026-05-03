@@ -8,7 +8,12 @@
 	{% include skip-link.html %}
 	<main id="main-content">
 		<header class="header header--post" role="banner">
-			<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
+			<div class="header__top header__top--compact">
+				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
+				<div class="header__actions">
+					{% include main-nav.html %}
+				</div>
+			</div>
 		</header>
 		<article class="post-article">
 			<header>

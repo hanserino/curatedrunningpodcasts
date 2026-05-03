@@ -247,12 +247,45 @@
 
 	<main id="main-content">
 		<header class="header" role="banner">
-    <h1 class="header__title">The Best Running Podcasts</h1>
-    <div class="header__description"><p>A hand picked selection of <em>running related podcasts</em> worth listening to on your long run.</p>
+    <div class="header__top">
+        <div class="header__brand">
+            <h1 class="header__title">The Best Running Podcasts</h1>
+            <div class="header__description"><p>A hand picked selection of <em>running related podcasts</em> worth listening to on your long run.</p>
 </div>
-    <p class="header__about-link"><a href="/about/">About this list</a></p>
-    <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank" rel="noopener noreferrer" aria-label="Submit a podcast suggestion (opens a Google form in a new tab)">Submit your favorite running podcast! <span class="submit-btn__arrow" aria-hidden="true">⇲</span></a>
+        </div>
+        <div class="header__actions">
+            <div class="header__nav-shell" data-header-actions>
+  <button
+    type="button"
+    class="header__menu-toggle"
+    aria-expanded="false"
+    aria-controls="site-main-nav-panel"
+    aria-label="Open menu"
+  >
+    <span class="header__menu-bars" aria-hidden="true"></span>
+  </button>
+  <div class="header__nav-panel" id="site-main-nav-panel">
+    <nav class="main-nav" aria-label="Main">
+      <ul class="main-nav__list">
+        <li>
+          <a
+            href="/about/"
+            class="main-nav__link"
+            >About</a>
+        </li>
+        <li>
+          <a
+            href="/latest-episodes/"
+            class="main-nav__link"
+            >Latest episodes</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
+        </div>
+    </div>
 </header>
 
 		
@@ -267,101 +300,108 @@
 
 
 <section class="filter filter--panel" id="filter" aria-labelledby="filter-heading">
-    <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
-    <p id="filter-hint" class="filter__hint">Narrow the list by category and by language. Pick any mix of <strong>categories</strong> (e.g. trail and science) and <strong>one</strong> language, or <strong>All</strong> languages.</p>
-    <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
-        <fieldset>
-            <legend>Category</legend>
-            <div class="filter__checkboxes" role="group" aria-label="Run type and topic">
-                <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all categories"><span>All  podcast (35) </span></button>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="ultra" value="ultra" />
-                    <span>ultra</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="trail" value="trail" />
-                    <span>trail</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="track" value="track" />
-                    <span>track</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="road" value="road" />
-                    <span>road</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="subultra" value="subultra" />
-                    <span>subultra</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="skyrunning" value="skyrunning" />
-                    <span>skyrunning</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="business" value="business" />
-                    <span>business</span>
-                </label>
-                
-                
-                
-                
-                <label><input type="checkbox" name="category" id="science" value="science" />
-                    <span>science</span>
-                </label>
-                
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Language</legend>
-            <div class="filter__checkboxes filter__radio-group" role="radiogroup" aria-label="Audio language">
-                <label><input type="radio" name="language_filter" id="lang-all" value="" checked />
-                    <span>All</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-english" value="english" />
-                    <span>English</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-french" value="french" />
-                    <span>French</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
-                    <span>Norwegian</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
-                    <span>Swedish</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-danish" value="danish" />
-                    <span>Danish</span>
-                </label>
-            </div>
-        </fieldset>
-    </form>
+    <div class="filter__top">
+        <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
+        <button type="button" class="filter__toggle" id="filter-toggle" aria-expanded="false" aria-controls="filter-collapsible">
+            Show filters
+        </button>
+    </div>
     <p class="filter__results" id="filter-results" role="status" aria-live="polite" aria-atomic="true"></p>
-    <p class="filter__actions">
-        <button type="button" class="filter__clear-all">Reset all filters</button>
-    </p>
+    <div id="filter-collapsible" class="filter__collapsible" hidden>
+        <p id="filter-hint" class="filter__hint">Narrow the list by category and by language. Pick any mix of <strong>categories</strong> (e.g. trail and science) and <strong>one</strong> language, or <strong>All</strong> languages.</p>
+        <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
+            <fieldset>
+                <legend>Category</legend>
+                <div class="filter__checkboxes" role="group" aria-label="Run type and topic">
+                    <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all categories"><span>All  podcast (35) </span></button>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="ultra" value="ultra" />
+                        <span>ultra</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="trail" value="trail" />
+                        <span>trail</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="track" value="track" />
+                        <span>track</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="road" value="road" />
+                        <span>road</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="subultra" value="subultra" />
+                        <span>subultra</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="skyrunning" value="skyrunning" />
+                        <span>skyrunning</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="business" value="business" />
+                        <span>business</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label><input type="checkbox" name="category" id="science" value="science" />
+                        <span>science</span>
+                    </label>
+                    
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Language</legend>
+                <div class="filter__checkboxes filter__radio-group" role="radiogroup" aria-label="Audio language">
+                    <label><input type="radio" name="language_filter" id="lang-all" value="" checked />
+                        <span>All</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-english" value="english" />
+                        <span>English</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-french" value="french" />
+                        <span>French</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
+                        <span>Norwegian</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
+                        <span>Swedish</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-danish" value="danish" />
+                        <span>Danish</span>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+        <p class="filter__actions">
+            <button type="button" class="filter__clear-all">Reset all filters</button>
+        </p>
+    </div>
 </section>
 
 		<div class="grid-switch-wrapper" role="group" aria-label="List layout">
@@ -2196,8 +2236,7 @@
     <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank" rel="noopener noreferrer" aria-label="Submit a podcast suggestion (opens a Google form in a new tab)">Submit your favorite running podcast! <span class="submit-btn__arrow" aria-hidden="true">⇲</span></a>
 
 
-    <p><a href="/about/">About this list</a> ·
-    A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
+    <p>A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·

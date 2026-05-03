@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-02T09:56:37Z'
+generated_at: '2026-05-03T09:12:12Z'
 items:
+- podcast_title: Ten Junk Miles
+  podcast_page_url: "/ten-junk-miles.html"
+  cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
+  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
+  episode_title: Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder
+  episode_url: https://tenjunkmiles.com/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
+  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_Hoadley.mp3?dest-id=259001
+  published_at: '2026-05-02T16:45:00+00:00'
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw.html"
   cover_image: https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png
@@ -160,14 +168,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Gavan-Hennigan--The-Iditarod--1000-Miles-Across-Alaska-e3igogo
   audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119087064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-26%2F422925226-44100-2-0aee2ab4346cc.mp3
   published_at: '2026-04-28T05:00:00+00:00'
-- podcast_title: Ten Junk Miles
-  podcast_page_url: "/ten-junk-miles.html"
-  cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
-  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
-  episode_title: Gang Show 256 - Julie Hennes and the Fox Valley Gang
-  episode_url: https://tenjunkmiles.com/gang-show-256-fox
-  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_show_Up_North.mp3?dest-id=259001
-  published_at: '2026-04-24T15:07:00+00:00'
 - podcast_title: The Boulder Boys
   podcast_page_url: "/the-boulder-boys.html"
   cover_image: https://static.libsyn.com/p/assets/7/8/6/b/786b742f8039e70ae55e3c100dce7605/IMG_2262_3.png
@@ -1179,6 +1179,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_S1E8_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-04-25T07:01:00+00:00'
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &11
+  - episode_title: Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder
+    episode_url: https://tenjunkmiles.com/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
+    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_Hoadley.mp3?dest-id=259001
+    published_at: '2026-05-02T16:45:00+00:00'
   - episode_title: Gang Show 256 - Julie Hennes and the Fox Valley Gang
     episode_url: https://tenjunkmiles.com/gang-show-256-fox
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_show_Up_North.mp3?dest-id=259001
@@ -1257,11 +1261,6 @@ episodes_by_feed:
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-episode-1-with-coach-liza-howard
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Final_Coiaching_Call_1.mp3?dest-id=259001
     published_at: '2026-02-20T23:19:00+00:00'
-  - episode_title: Gang Show 253 - Buckethat Bob Henne, Barry Thrune, Arrowhead and
-      GLP-1's
-    episode_url: https://tenjunkmiles.com/gang-show-253-buckethat-bob-henne-barry-thrune-arrowhead-and-glp-1s
-    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Bob_Henne_Returns.mp3?dest-id=259001
-    published_at: '2026-02-20T16:15:00+00:00'
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &12
   - episode_title: Damian Hall on the secrets to becoming an ageless runner
     episode_url: https://thewayoftherunner.com/podcast

@@ -1,0 +1,33 @@
+{%- assign about_href = '/about/' | relative_url -%}
+{%- assign latest_href = '/latest-episodes/' | relative_url -%}
+<div class="header__nav-shell" data-header-actions>
+  <button
+    type="button"
+    class="header__menu-toggle"
+    aria-expanded="false"
+    aria-controls="site-main-nav-panel"
+    aria-label="Open menu"
+  >
+    <span class="header__menu-bars" aria-hidden="true"></span>
+  </button>
+  <div class="header__nav-panel" id="site-main-nav-panel">
+    <nav class="main-nav" aria-label="Main">
+      <ul class="main-nav__list">
+        <li>
+          <a
+            href="{{ about_href }}"
+            class="main-nav__link"
+            {%- if page.path == 'about.md' %} aria-current="page"{% endif %}
+            >About</a>
+        </li>
+        <li>
+          <a
+            href="{{ latest_href }}"
+            class="main-nav__link"
+            {%- if page.path == 'latest-episodes.md' %} aria-current="page"{% endif %}
+            >Latest episodes</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

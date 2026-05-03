@@ -1,11 +1,10 @@
 ---
 layout: latest
 title: Latest Podcast Episodes
-description: Hidden preview page that merges the latest episode from each podcast RSS feed.
+description: >-
+  The newest episode from each curated show in the directory—play here or follow
+  the link to the podcast’s page for more context and listen links.
 permalink: /latest-episodes/
-sitemap: false
 ---
 
-{% include latest-episodes-player.html section_id="latest-episodes-page" heading="Latest Episodes Across All Feeds" limit=100 %}
-
-{% include latest-episodes-list.html section_id="latest-episodes-page-compact" heading="Latest Episodes (Compact List)" limit=25 %}
+{% include latest-episodes-player.html section_id="latest-episodes-page" heading="Latest episodes across all shows" limit=100 %}

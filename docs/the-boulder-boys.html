@@ -61,7 +61,41 @@
 
 	<main id="main-content">
 		<header class="header header--post" role="banner">
-			<p class="header__title header__title--home-link"><a href="/" rel="home">← Back to The Best Running Podcasts</a></p>
+			<div class="header__top header__top--compact">
+				<p class="header__title header__title--home-link"><a href="/" rel="home">← Back to The Best Running Podcasts</a></p>
+				<div class="header__actions">
+					<div class="header__nav-shell" data-header-actions>
+  <button
+    type="button"
+    class="header__menu-toggle"
+    aria-expanded="false"
+    aria-controls="site-main-nav-panel"
+    aria-label="Open menu"
+  >
+    <span class="header__menu-bars" aria-hidden="true"></span>
+  </button>
+  <div class="header__nav-panel" id="site-main-nav-panel">
+    <nav class="main-nav" aria-label="Main">
+      <ul class="main-nav__list">
+        <li>
+          <a
+            href="/about/"
+            class="main-nav__link"
+            >About</a>
+        </li>
+        <li>
+          <a
+            href="/latest-episodes/"
+            class="main-nav__link"
+            >Latest episodes</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+				</div>
+			</div>
 		</header>
 		<article class="post-article">
 			<header>
@@ -90,7 +124,7 @@
 			<div class="post-article__content">
 				
                         <section class="latest-episodes latest-episodes--embedded" id="post-podcast-feed-player" aria-labelledby="post-podcast-feed-player-title">
-  <h3 class="latest-episodes__title" id="post-podcast-feed-player-title">Listen on site</h3><div class="latest-episodes__player-shell">
+  <h3 class="latest-episodes__title" id="post-podcast-feed-player-title">Latest episodes</h3><div class="latest-episodes__player-shell">
     <div
       class="latest-episodes__player-art-wrap"
       data-player-art-wrap
@@ -691,8 +725,7 @@
     <a class="submit-btn" href="https://forms.gle/BqCkkiNqPaDiorCY9" target="_blank" rel="noopener noreferrer" aria-label="Submit a podcast suggestion (opens a Google form in a new tab)">Submit your favorite running podcast! <span class="submit-btn__arrow" aria-hidden="true">⇲</span></a>
 
 
-    <p><a href="/about/">About this list</a> ·
-    A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
+    <p>A <a href="https://www.naerdetalvor.no/" rel="noopener noreferrer" target="_blank">NEDA</a> production ·
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·

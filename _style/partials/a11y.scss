@@ -54,7 +54,8 @@ input:focus-visible {
 }
 
 .filter label:has(:focus-visible) > span,
-.filter__reset:focus-visible {
+.filter__reset:focus-visible,
+.filter__toggle:focus-visible {
     outline: 2px solid #0d47a1;
     outline-offset: 2px;
 }

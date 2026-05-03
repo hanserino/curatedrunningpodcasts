@@ -8,7 +8,12 @@
 	{% include skip-link.html %}
 	<main id="main-content">
 		<header class="header header--post" role="banner">
-			<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
+			<div class="header__top header__top--compact">
+				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
+				<div class="header__actions">
+					{% include main-nav.html %}
+				</div>
+			</div>
 		</header>
 		<article class="post-article">
 			<header>
@@ -40,7 +45,7 @@
 			</header>
 			<div class="post-article__content">
 				{% if page.rss_feed and page.rss_feed != '' %}
-                        {% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Listen on site" limit=10 %}
+                        {% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=10 %}
                 {% endif %}
 			</div>
 			

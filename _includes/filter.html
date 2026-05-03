@@ -8,50 +8,57 @@
 {% assign tag_counts = tag_counts | split: ',' %}
 
 <section class="filter filter--panel" id="filter" aria-labelledby="filter-heading">
-    <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
-    <p id="filter-hint" class="filter__hint">Narrow the list by category and by language. Pick any mix of <strong>categories</strong> (e.g. trail and science) and <strong>one</strong> language, or <strong>All</strong> languages.</p>
-    <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
-        <fieldset>
-            <legend>Category</legend>
-            <div class="filter__checkboxes" role="group" aria-label="Run type and topic">
-                <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all categories"><span>All {% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}</span></button>
-                {% for tag in site_tags %}
-                {% assign tag_data = site.data.tags[tag] %}
-                {% capture tag_classes %}tag tag-size-{{ tag_counts[forloop.index0] }} tag-{{ tag | slugify }}{% endcapture %}
-                {% capture tag_name %}{% if tag_data.title %}{{ tag_data.title }}{% else %}{{ tag }}{% endif %}{% endcapture %}
-                <label><input type="checkbox" name="category" id="{{ tag | slugify }}" value="{{ tag | slugify }}" />
-                    <span>{{ tag_name }}</span>
-                </label>
-                {% endfor %}
-            </div>
-        </fieldset>
-
-        <fieldset>
-            <legend>Language</legend>
-            <div class="filter__checkboxes filter__radio-group" role="radiogroup" aria-label="Audio language">
-                <label><input type="radio" name="language_filter" id="lang-all" value="" checked />
-                    <span>All</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-english" value="english" />
-                    <span>English</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-french" value="french" />
-                    <span>French</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
-                    <span>Norwegian</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
-                    <span>Swedish</span>
-                </label>
-                <label><input type="radio" name="language_filter" id="lang-danish" value="danish" />
-                    <span>Danish</span>
-                </label>
-            </div>
-        </fieldset>
-    </form>
+    <div class="filter__top">
+        <h2 class="filter__title" id="filter-heading">Filter podcasts</h2>
+        <button type="button" class="filter__toggle" id="filter-toggle" aria-expanded="false" aria-controls="filter-collapsible">
+            Show filters
+        </button>
+    </div>
     <p class="filter__results" id="filter-results" role="status" aria-live="polite" aria-atomic="true"></p>
-    <p class="filter__actions">
-        <button type="button" class="filter__clear-all">Reset all filters</button>
-    </p>
+    <div id="filter-collapsible" class="filter__collapsible" hidden>
+        <p id="filter-hint" class="filter__hint">Narrow the list by category and by language. Pick any mix of <strong>categories</strong> (e.g. trail and science) and <strong>one</strong> language, or <strong>All</strong> languages.</p>
+        <form onsubmit="return false" aria-label="Filter podcasts by category and language" aria-describedby="filter-hint">
+            <fieldset>
+                <legend>Category</legend>
+                <div class="filter__checkboxes" role="group" aria-label="Run type and topic">
+                    <button type="button" class="filter__reset checked" aria-pressed="true" aria-label="Show all categories"><span>All {% for cat in site.categories %} {{ cat[0] }} ({{ cat[1].size }}) {% endfor %}</span></button>
+                    {% for tag in site_tags %}
+                    {% assign tag_data = site.data.tags[tag] %}
+                    {% capture tag_classes %}tag tag-size-{{ tag_counts[forloop.index0] }} tag-{{ tag | slugify }}{% endcapture %}
+                    {% capture tag_name %}{% if tag_data.title %}{{ tag_data.title }}{% else %}{{ tag }}{% endif %}{% endcapture %}
+                    <label><input type="checkbox" name="category" id="{{ tag | slugify }}" value="{{ tag | slugify }}" />
+                        <span>{{ tag_name }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Language</legend>
+                <div class="filter__checkboxes filter__radio-group" role="radiogroup" aria-label="Audio language">
+                    <label><input type="radio" name="language_filter" id="lang-all" value="" checked />
+                        <span>All</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-english" value="english" />
+                        <span>English</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-french" value="french" />
+                        <span>French</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
+                        <span>Norwegian</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
+                        <span>Swedish</span>
+                    </label>
+                    <label><input type="radio" name="language_filter" id="lang-danish" value="danish" />
+                        <span>Danish</span>
+                    </label>
+                </div>
+            </fieldset>
+        </form>
+        <p class="filter__actions">
+            <button type="button" class="filter__clear-all">Reset all filters</button>
+        </p>
+    </div>
 </section>

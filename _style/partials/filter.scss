@@ -10,10 +10,58 @@
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     }
 
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.5rem 1rem;
+        margin-bottom: 0.25rem;
+    }
+
     &__title {
         font-weight: bold;
         font-size: 1.2rem;
-        margin: 0 0 .5rem 0;
+        margin: 0;
+    }
+
+    &__toggle {
+        -webkit-appearance: none;
+        appearance: none;
+        font: inherit;
+        font-size: 0.95rem;
+        font-weight: 600;
+        padding: 0.4rem 0.65rem;
+        margin: 0;
+        border: 1px solid $contrast;
+        border-radius: 6px;
+        background: rgba(255, 255, 255, 0.55);
+        cursor: pointer;
+        color: inherit;
+
+        &::after {
+            content: '\25BC';
+            display: inline-block;
+            margin-left: 0.4em;
+            font-size: 0.55em;
+            vertical-align: middle;
+            transition: transform 0.15s ease;
+        }
+
+        &[aria-expanded='true']::after {
+            transform: rotate(180deg);
+        }
+
+        &:hover,
+        &:focus-visible {
+            background: rgba(112, 172, 142, 0.22);
+        }
+    }
+
+    &__collapsible {
+        margin-top: 0.5rem;
+        padding-top: 0.65rem;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
     }
 
     legend {
@@ -96,9 +144,9 @@
     }
 
     &__results {
-        margin: 0.75rem 0 0 0;
-        padding: 0.5rem 0 0 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        margin: 0;
+        padding: 0;
+        border-top: none;
         font-size: 0.95rem;
         line-height: 1.35;
         color: rgba(0, 0, 0, 0.72);

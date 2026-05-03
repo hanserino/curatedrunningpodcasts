@@ -1,6 +1,11 @@
 <header class="header" role="banner">
-    <h1 class="header__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
-    <div class="header__description">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
-    <p class="header__about-link"><a href="{{ '/about/' | relative_url }}">About this list</a></p>
-    {% include submit_btn.html %}
+    <div class="header__top">
+        <div class="header__brand">
+            <h1 class="header__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
+            <div class="header__description">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
+        </div>
+        <div class="header__actions">
+            {% include main-nav.html %}
+        </div>
+    </div>
 </header>

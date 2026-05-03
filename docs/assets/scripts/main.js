@@ -12,6 +12,53 @@ var isTouchDevice = function () {
 
 function init() {}
 
+function wireHeaderNav() {
+    document.querySelectorAll('[data-header-actions]').forEach(function (shell) {
+        var btn = shell.querySelector('.header__menu-toggle');
+        if (!btn) {
+            return;
+        }
+
+        function setOpen(open) {
+            shell.classList.toggle('is-open', open);
+            btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+            btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        }
+
+        btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            setOpen(!shell.classList.contains('is-open'));
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!shell.classList.contains('is-open')) {
+                return;
+            }
+            if (shell.contains(e.target)) {
+                return;
+            }
+            setOpen(false);
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key !== 'Escape') {
+                return;
+            }
+            if (!shell.classList.contains('is-open')) {
+                return;
+            }
+            setOpen(false);
+            btn.focus();
+        });
+
+        shell.querySelectorAll('.main-nav__link').forEach(function (link) {
+            link.addEventListener('click', function () {
+                setOpen(false);
+            });
+        });
+    });
+}
+
 function syncGridAria() {
     var isGrid = document.body.getAttribute('data-box-grid') === 'true';
     var el = document.getElementById('grid-switch');
@@ -164,11 +211,42 @@ function setInitialGridModeByViewport() {
     document.body.setAttribute('data-box-grid', desktopLike ? 'true' : 'false');
 }
 
+function wireFilterCollapse() {
+    var toggle = document.getElementById('filter-toggle');
+    var panel = document.getElementById('filter-collapsible');
+    if (!toggle || !panel) {
+        return;
+    }
+
+    function setOpen(open) {
+        panel.hidden = !open;
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        toggle.textContent = open ? 'Hide filters' : 'Show filters';
+    }
+
+    toggle.addEventListener('click', function () {
+        setOpen(panel.hidden);
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') {
+            return;
+        }
+        if (panel.hidden) {
+            return;
+        }
+        setOpen(false);
+        toggle.focus();
+    });
+}
+
 function wireFilterAndGrid() {
     setInitialGridModeByViewport();
     var boxGrid = document.body.getAttribute('data-box-grid');
 
     syncGridAria();
+
+    wireFilterCollapse();
 
     document.addEventListener('change', function (e) {
         var target = e.target;
@@ -196,10 +274,15 @@ function wireFilterAndGrid() {
     updateFilterResultsCount();
 }
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', wireFilterAndGrid);
-} else {
+function wireDomReady() {
     wireFilterAndGrid();
+    wireHeaderNav();
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', wireDomReady);
+} else {
+    wireDomReady();
 }
 
 window.onload = function () {
