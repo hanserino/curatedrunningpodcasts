@@ -35,6 +35,20 @@
     color: rgba(0, 0, 0, 0.65);
 }
 
+.latest {
+    max-width: 960px;
+    padding: 1rem;
+}
+
+.post-about {
+    max-width: 960px;
+    padding: 1rem;
+
+    p {
+        margin: 0 0 0.75rem 0;
+    }
+}
+
 .post-article {
     padding: 0 1rem 2rem;
     max-width: 48rem;
