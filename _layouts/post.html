@@ -19,12 +19,15 @@
 			<header>
                 <div class="post-article__left">
                     {%- comment -%}
-                      Show cover when front matter has cover_image. Do not require explicit_cover_image:
-                      that flag is set only by a local plugin; GitHub Pages’ default Jekyll build skips
-                      plugins, so relying on it left the hero empty while og:image still worked.
+                      Hero cover: use the include for front-matter covers, or when cover_image exists without
+                      infer_cover_from_body (plugin-less builds never set those flags, but YAML cover_image works).
+                      When infer_cover_from_body is true, the thumbnail lives only in markdown — skip the include
+                      or the same image renders twice (include + content).
                     {%- endcomment -%}
                     {%- if page.layout == 'post' and page.category == 'podcast' and page.cover_image and page.cover_image != '' -%}
+                    {%- if page.explicit_cover_image or page.infer_cover_from_body != true -%}
                         {%- include podcast-cover-img.html cover_image=page.cover_image title=page.title high_priority=true -%}
+                    {%- endif -%}
                     {%- endif -%}
                     {{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
                 </div>

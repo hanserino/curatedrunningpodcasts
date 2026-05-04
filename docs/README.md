@@ -36,6 +36,18 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 Commit the updated **`docs/`** tree (HTML, assets, and `admin/`) so the live site matches your source changes.
 
+## Scheduled RSS rebuilds (GitHub Actions)
+
+Episode lists on the site come from **`_data/latest_podcast_episodes.yml`**, which is filled when Jekyll runs with production RSS fetching. To refresh feeds without a manual build, this repo includes **`.github/workflows/scheduled-jekyll-build.yml`**, which:
+
+- Runs **every hour** (UTC) and can be triggered manually under **Actions → Scheduled Jekyll build (RSS) → Run workflow**
+- Runs `JEKYLL_ENV=production` + `JEKYLL_FETCH_RSS=1` and `jekyll build --destination docs`
+- **Commits and pushes** only when `docs/` or `_data/latest_podcast_episodes.yml` actually change
+
+**One-time GitHub setup:** open the repository **Settings → Actions → General → Workflow permissions**, choose **Read and write permissions**, and save. Without that, the workflow cannot push refreshed files to `main`.
+
+To change how often jobs run, edit the `cron` expression in the workflow file (all times are **UTC**).
+
 ## Repository layout (short)
 
 | Path | Role |
@@ -45,6 +57,7 @@ Commit the updated **`docs/`** tree (HTML, assets, and `admin/`) so the live sit
 | `media/` | Artwork and uploads referenced from posts |
 | `admin/` | Decap `index.html` + `config.yml` (built into `docs/admin/`) |
 | `index.md`, `_layouts/`, `_includes/` | Home page, templates, header/footer/filter |
+| `.github/workflows/` | CI (scheduled Jekyll / RSS refresh) |
 
 ---
 

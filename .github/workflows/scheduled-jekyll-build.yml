@@ -1,0 +1,45 @@
+# Rebuild the site on a schedule so RSS-backed episode lists stay fresh without manual runs.
+# Requires: repo Settings → Actions → General → Workflow permissions → “Read and write”.
+name: Scheduled Jekyll build (RSS)
+
+on:
+  schedule:
+    # Every hour at :00 UTC (adjust as needed)
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scheduled-jekyll-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Production Jekyll build (fetch RSS)
+        env:
+          JEKYLL_ENV: production
+          JEKYLL_FETCH_RSS: "1"
+        run: bundle exec jekyll build --destination docs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs _data/latest_podcast_episodes.yml
+          if git diff --staged --quiet; then
+            echo "No changes; skipping commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh RSS data and rebuild docs"
+          git push
