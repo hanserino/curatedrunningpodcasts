@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-05-04T08:07:42Z'
+generated_at: '2026-05-04T08:10:15Z'
 items:
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
@@ -127,6 +127,14 @@ items:
   episode_url: https://shows.acast.com/realscienceofsport/episodes/the-spotlight-on-the-sub-2-a-deep-dive-into-sawes-marathon-m
   audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69f1d25a8647f8587e446e78/media.mp3
   published_at: '2026-04-30T05:30:00+00:00'
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us-md.html"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  episode_title: 4.18. Freshy Fresh for London 2026!
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_18_-_London_-_Audio.mp3?dest-id=3833748
+  published_at: '2026-04-29T09:00:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
@@ -3275,6 +3283,87 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Building-a-Race-Season--Hardrock-News--Suunto-Vertical-2-Testing-e3cdik7
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/112691271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-16%2F414459326-44100-2-9801466606004.mp3
     published_at: '2025-12-16T18:00:00+00:00'
+  https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &36
+  - episode_title: 4.18. Freshy Fresh for London 2026!
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_18_-_London_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-04-29T09:00:00+00:00'
+  - episode_title: 4.17. Live from London with Cynthia Erivo!
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/417-live-from-london-with-cynthia-erivo
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_17_-_Live_from_London_-_Audio_2.mp3?dest-id=3833748
+    published_at: '2026-04-24T21:48:00+00:00'
+  - episode_title: 4.16. Freshy Fresh from Boston 2026!
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/416-freshy-fresh-from-boston-2026
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_16_-_Freshy_Fresh_in_Boston_2026_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-04-21T03:37:00+00:00'
+  - episode_title: 4.15. Live from Boston 2026!
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/415-live-from-boston-2026
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_-_Episode_15_-_Live_from_Boston.mp3?dest-id=3833748
+    published_at: '2026-04-19T04:27:00+00:00'
+  - episode_title: 4.14. The Boston Preview Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/414-the-boston-preview-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_14_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-04-08T09:00:00+00:00'
+  - episode_title: 4.13. The Dropped Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/413-the-dropped-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_-_Episode_13_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-04-01T09:00:00+00:00'
+  - episode_title: 4.12. The Cosmo Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/412-the-cosmo-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_12_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-03-25T09:00:00+00:00'
+  - episode_title: 4.11. The Running Drama Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/411-the-running-drama-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_11_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-03-11T09:00:00+00:00'
+  - episode_title: 4.10. Disney, US Indoors, and the Atlanta Kerfuffle
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/410-disney-us-indoors-and-the-atlanta-kerfuffle
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_-_Episode_10_Audio.mp3?dest-id=3833748
+    published_at: '2026-03-04T10:00:00+00:00'
+  - episode_title: 4.9. The Olympics Withdrawal Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/49-the-olympics-withdrawal-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_9_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-02-25T10:00:00+00:00'
+  - episode_title: 4.8. Des's First Trail Ultra
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/48-dess-first-trail-ultra
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_8_-_Audio_v2.mp3?dest-id=3833748
+    published_at: '2026-02-18T10:00:00+00:00'
+  - episode_title: 4.7. The Winter Olympics Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/47-the-winter-olympics-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_7_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-02-11T10:00:00+00:00'
+  - episode_title: 4.6. The Millrose Recap
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/46-the-millrose-recap
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_6_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-02-04T10:00:00+00:00'
+  - episode_title: 4.5. The Brooks HQ Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/45-the-brooks-hq-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_5_-_Brooks_HQ.mp3?dest-id=3833748
+    published_at: '2026-01-28T09:00:00+00:00'
+  - episode_title: 4.4. The Trail Mix Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/44-the-trail-mix-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_4_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-01-21T09:00:00+00:00'
+  - episode_title: 4.3. Houston and World XC Recap Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/43-houston-and-world-xc-recap-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_3_-_Houston_and_World_XC_Recaps_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-01-14T03:58:00+00:00'
+  - episode_title: 4.2. Live from Houston 2026 (with Breaking News)
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/42-live-from-houston-2026-wbreaking-news
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_2_-_Live_from_Houston.mp3?dest-id=3833748
+    published_at: '2026-01-10T17:55:00+00:00'
+  - episode_title: 4.1. The Fresh Start Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/41-the-fresh-start-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_1_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-01-06T21:24:00+00:00'
+  - episode_title: 3.47. End of Year Episode!
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/347-end-of-year-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_3_-_Episode_47_-_Audio.mp3?dest-id=3833748
+    published_at: '2025-12-31T16:46:00+00:00'
+  - episode_title: 3.46. The Transparency Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/346-the-transparency-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_3_-_Episode_46_-_Audio_3.mp3?dest-id=3833748
+    published_at: '2025-12-24T00:04:00+00:00'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -3350,3 +3439,5 @@ feed_episodes_list:
   episodes: *34
 - feed_key: https://anchor.fm/s/ed80b02c/podcast/rss
   episodes: *35
+- feed_key: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  episodes: *36
