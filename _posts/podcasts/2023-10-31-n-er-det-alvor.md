@@ -10,6 +10,7 @@ category: podcast
 published: true
 description: Norwegian mountain ultra trail podcast. 500+ episodes, est. 2018.
 featured: true
+cover_image: /media/fokk-asfalt-logo.webp
 publisher: NEDA
 spotify_link: https://open.spotify.com/show/1s8OvAXNcqRa6oncqakhdg?si=68f8a4a873994356
 apple_podcast_link: https://podcasts.apple.com/no/podcast/n%C3%A5-er-det-alvor/id1332829214
@@ -22,4 +23,3 @@ language:
   - norwegian
   - english
 ---
-![Føkk Asfalt / Nå Er Det Alvor podcast cover art]({{site.baseurl}}/media/fokk-asfalt-logo.jpeg)
