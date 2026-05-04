@@ -23,6 +23,8 @@ jobs:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -37,7 +39,10 @@ jobs:
         run: bundle exec jekyll build --destination docs
 
       - name: Commit and push if changed
+        env:
+          BRANCH: ${{ github.ref_name }}
         run: |
+          set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs _data/latest_podcast_episodes.yml
@@ -46,4 +51,5 @@ jobs:
             exit 0
           fi
           git commit -m "chore: refresh RSS data and rebuild docs"
-          git push
+          git pull --rebase origin "$BRANCH"
+          git push origin "$BRANCH"

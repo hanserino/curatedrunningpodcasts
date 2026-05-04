@@ -29,5 +29,16 @@
             text-decoration: none;
         }
     }
+
+    &__build-meta {
+        margin: 0.75rem 0 0;
+        font-size: 0.82rem;
+        line-height: 1.35;
+        color: rgba(0, 0, 0, 0.52);
+    }
+
+    &__build-label {
+        margin-right: 0.25em;
+    }
 }
 

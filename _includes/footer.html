@@ -6,6 +6,12 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a> (for tools &amp; assistants) ·
     <a href="{{ '/admin/' | relative_url }}" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p>
+    {%- assign rss_data = site.data.latest_podcast_episodes -%}
+    {%- if rss_data and rss_data.generated_at -%}
+    <p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
+      <time datetime="{{ rss_data.generated_at }}">{{ rss_data.generated_at | date: "%Y-%m-%d %H:%M" }} UTC</time>
+    </p>
+    {%- endif -%}
 </footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
