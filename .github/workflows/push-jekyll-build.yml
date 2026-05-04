@@ -1,0 +1,66 @@
+# Rebuild when a new podcast post or media asset lands (Decap/Git push to main).
+# Paths are narrow so bot commits that only touch docs/ or _data/ do not re-trigger.
+# Shares concurrency with the scheduled workflow to avoid overlapping pushes.
+name: Push Jekyll build (RSS)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "_posts/**"
+      - "media/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scheduled-jekyll-build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Optimize media (new/changed covers only)
+        run: npm ci && npm run optimize-media
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler: "2.3.24"
+          bundler-cache: true
+
+      - name: Production Jekyll build (fetch RSS)
+        env:
+          JEKYLL_ENV: production
+          JEKYLL_FETCH_RSS: "1"
+        run: bundle exec jekyll build --destination docs
+
+      - name: Commit and push if changed
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs _data/latest_podcast_episodes.yml media
+          if git diff --staged --quiet; then
+            echo "No changes; skipping commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh RSS, optimize new media, rebuild docs (post push)"
+          git pull --rebase origin "$BRANCH"
+          git push origin "$BRANCH"
