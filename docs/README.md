@@ -48,6 +48,8 @@ Episode lists on the site come from **`_data/latest_podcast_episodes.yml`**, whi
 
 To change how often jobs run, edit the `cron` expression in the workflow file (all times are **UTC**).
 
+**CI / Bundler:** `Gemfile.lock` must list a Linux platform (e.g. `x86_64-linux`) so `bundle install` works on GitHub’s Ubuntu runners. If you only develop on macOS, run `bundle lock --add-platform x86_64-linux` and commit the updated lockfile.
+
 ## Repository layout (short)
 
 | Path | Role |
