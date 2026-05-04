@@ -1,0 +1,8 @@
+{%- comment -%}
+  Front page directory order: featured first (still reverse-chrono within each group),
+  then the rest. Set `podcasts` for the including template.
+{%- endcomment -%}
+{% assign _podcast_directory_source = site.categories['podcast'] %}
+{% assign _podcasts_featured = _podcast_directory_source | where: "featured", true %}
+{% assign _podcasts_other = _podcast_directory_source | where_exp: "item", "item.featured != true" %}
+{% assign podcasts = _podcasts_featured | concat: _podcasts_other %}

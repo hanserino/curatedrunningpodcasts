@@ -43,14 +43,15 @@ collections:
     format: "frontmatter"
     # Slug in filename = slugified title unless you set slug in (future) advanced mode
     identifier_field: title
-    summary: "{{title}} · {{date}}"
-    sortable_fields: ["date", "title", "description"]
+    summary: "{{title}} · {{date}}{{featured | ternary(' · Featured','')}}"
+    sortable_fields: ["date", "title", "description", "featured"]
     fields:
       - { label: "Publish date", name: "date", required: true, time_format: false, date_format: "YYYY-MM-DD", picker_utc: false, widget: "datetime" }
       - { label: "Show / podcast name", name: "title", required: true, widget: "string" }
       - { label: "Category (fixed)", name: "category", default: "podcast", widget: "hidden" }
       - { label: "Include in site (fixed)", name: "published", default: "true", widget: "hidden" }
       - { label: "Short description", name: "description", required: false, hint: "Shown in the list and in SEO. One or two sentences.", widget: "text" }
+      - { label: "Featured on home page", name: "featured", required: false, default: false, widget: "boolean", hint: "When checked, this show is listed first in the front-page directory (above others; still respects filters)." }
       # image widget = upload to repo; choose_url: false hides the "URL" tab (upload only).
       - label: "Cover art"
         name: "cover_image"

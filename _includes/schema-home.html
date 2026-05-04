@@ -1,5 +1,5 @@
 {%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
-{%- assign podcasts = site.categories['podcast'] -%}
+{%- include assign-podcasts-directory-order.html -%}
 {%- assign site_id = site.url | append: "/#website" -%}
 {%- assign org_id = site.url | append: "/#org" -%}
 {% comment %}WebSite, Organization, and ItemList for search + AI discovery{% endcomment %}
