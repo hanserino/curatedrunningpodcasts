@@ -39,21 +39,27 @@
     {%- for episode in items limit: max_items -%}
     {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
     <li class="latest-episodes__item">
-      <div class="latest-episodes__layout">
+      <div class="latest-episodes__episode-stack">
         {%- if episode.cover_image and episode.cover_image != "" -%}
-        <img
-          src="{{ episode.cover_image | relative_url }}"
-          alt=""
-          class="latest-episodes__cover"
-          loading="lazy"
-          decoding="async"
-        >
+        <span class="latest-episodes__cover-slot">
+          <img
+            src="{{ episode.cover_image | relative_url }}"
+            alt=""
+            class="latest-episodes__cover"
+            loading="lazy"
+            decoding="async"
+            width="40"
+            height="40"
+          >
+        </span>
+        {%- else -%}
+        <span class="latest-episodes__cover-slot latest-episodes__cover-slot--empty" aria-hidden="true">
+          <span class="latest-episodes__cover-placeholder"></span>
+        </span>
         {%- endif -%}
-        <div class="latest-episodes__content">
-      <div class="latest-episodes__row latest-episodes__row--episode">
         <button
           type="button"
-          class="latest-episodes__play"
+          class="latest-episodes__play latest-episodes__play--compact"
           aria-pressed="false"
           aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
           data-audio-url="{{ episode.audio_url | escape }}"
@@ -63,17 +69,15 @@
         >
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title">{{ episode.episode_title }}</span>
-      </div>
-      <p class="latest-episodes__meta">
+        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">{{ episode.episode_title }}</span>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked">
         {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
         <a href="{{ episode.podcast_page_url | relative_url }}" class="latest-episodes__podcast-link">{{ episode.podcast_title }}</a>
         {%- else -%}
         {{ episode.podcast_title }}
         {%- endif -%}
         {% if published_label and published_label != "" %} • {{ published_label }}{% endif %}
-      </p>
-        </div>
+        </p>
       </div>
     </li>
     {%- endfor -%}

@@ -146,6 +146,23 @@
           type="button"
           class="latest-episodes__play"
           aria-pressed="false"
+          aria-label="Play episode: Rest Day Live | Jim Walmsley Interview, Golden Ticket Schedule, &amp; Transvulcania Preview, May 4, 2026"
+          data-audio-url="https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/rdl_0503.mp3?dest-id=1746794"
+          data-episode-title="Rest Day Live | Jim Walmsley Interview, Golden Ticket Schedule, &amp; Transvulcania Preview"
+          data-podcast-title="The Freetrail Podcast"
+          data-cover-url="/media/freetrail2.jpeg"
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <div class="latest-episodes__episode-main">
+          <span class="latest-episodes__episode-title">Rest Day Live | Jim Walmsley Interview, Golden Ticket Schedule, & Transvulcania Preview</span><time class="latest-episodes__episode-date" datetime="2026-05-04T03:35:00+00:00">May 4, 2026</time></div>
+      </div>
+    </li><li class="latest-episodes__item">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
           aria-label="Play episode: Cocodona 250 Preview Show with Dan Green | Trailgating, Apr 30, 2026"
           data-audio-url="https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Cocodona_250_Preview_Show_with_Dan_Green__Trailgating.mp3?dest-id=1746794"
           data-episode-title="Cocodona 250 Preview Show with Dan Green | Trailgating"
@@ -292,23 +309,6 @@
         </button>
         <div class="latest-episodes__episode-main">
           <span class="latest-episodes__episode-title">Rest Day | Gorge Storylines, Marathon des Sables & Calamorro Skyrace Recap, Kilian's Strava Nugget</span><time class="latest-episodes__episode-date" datetime="2026-04-14T12:00:00+00:00">Apr 14, 2026</time></div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__row latest-episodes__row--episode">
-        <button
-          type="button"
-          class="latest-episodes__play"
-          aria-pressed="false"
-          aria-label="Play episode: Gorge Waterfalls 50k Recap + Podium Interviews, Apr 12, 2026"
-          data-audio-url="https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Gorge_Waterfalls_50k_Recap__Podium_Interviews.mp3?dest-id=1746794"
-          data-episode-title="Gorge Waterfalls 50k Recap + Podium Interviews"
-          data-podcast-title="The Freetrail Podcast"
-          data-cover-url="/media/freetrail2.jpeg"
-        >
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <div class="latest-episodes__episode-main">
-          <span class="latest-episodes__episode-title">Gorge Waterfalls 50k Recap + Podium Interviews</span><time class="latest-episodes__episode-date" datetime="2026-04-12T22:29:00+00:00">Apr 12, 2026</time></div>
       </div>
     </li></ol></section><script>
   (function () {
@@ -631,11 +631,6 @@
         btn.setAttribute('data-cover-url', last.coverUrl);
       }
       activateEpisode(btn, { userGesture: false, play: false });
-      try {
-        if (currentLi) {
-          currentLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      } catch (e) {}
     })();
 
     (function primeLatestForMainPlayer() {

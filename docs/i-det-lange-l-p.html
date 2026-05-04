@@ -563,11 +563,6 @@
         btn.setAttribute('data-cover-url', last.coverUrl);
       }
       activateEpisode(btn, { userGesture: false, play: false });
-      try {
-        if (currentLi) {
-          currentLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      } catch (e) {}
     })();
 
     (function primeLatestForMainPlayer() {

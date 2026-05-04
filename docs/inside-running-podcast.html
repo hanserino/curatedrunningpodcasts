@@ -146,6 +146,23 @@
           type="button"
           class="latest-episodes__play"
           aria-pressed="false"
+          aria-label="Play episode: Interview: Seth O'Donnell, May 4, 2026"
+          data-audio-url="https://mcdn.podbean.com/mf/web/jtjihydjcdw7md9v/Seth_itunes7c1gq.mp3"
+          data-episode-title="Interview: Seth O&#39;Donnell"
+          data-podcast-title="Inside Running Podcast"
+          data-cover-url="/media/insiderunning.jpeg"
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <div class="latest-episodes__episode-main">
+          <span class="latest-episodes__episode-title">Interview: Seth O'Donnell</span><time class="latest-episodes__episode-date" datetime="2026-05-04T10:11:50+10:00">May 4, 2026</time></div>
+      </div>
+    </li><li class="latest-episodes__item">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
           aria-label="Play episode: Interview: Alfie Manthorpe, May 1, 2026"
           data-audio-url="https://mcdn.podbean.com/mf/web/h9k4pvhvwh8kfdaf/Alfie_-_iTunes9dxb7.mp3"
           data-episode-title="Interview: Alfie Manthorpe"
@@ -292,23 +309,6 @@
         </button>
         <div class="latest-episodes__episode-main">
           <span class="latest-episodes__episode-title">439: Maurie Plant Meet | The Ten | Run for the Kids</span><time class="latest-episodes__episode-date" datetime="2026-04-01T06:00:00+11:00">Apr 1, 2026</time></div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__row latest-episodes__row--episode">
-        <button
-          type="button"
-          class="latest-episodes__play"
-          aria-pressed="false"
-          aria-label="Play episode: 438: Indoor World Championships | NSW &amp; Vic State Championships | Maurie Plant Preview, Mar 25, 2026"
-          data-audio-url="https://mcdn.podbean.com/mf/web/msegcuchg52zaew2/Ep_438_iTunesb60ok.mp3"
-          data-episode-title="438: Indoor World Championships | NSW &amp; Vic State Championships | Maurie Plant Preview"
-          data-podcast-title="Inside Running Podcast"
-          data-cover-url="/media/insiderunning.jpeg"
-        >
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <div class="latest-episodes__episode-main">
-          <span class="latest-episodes__episode-title">438: Indoor World Championships | NSW & Vic State Championships | Maurie Plant Preview</span><time class="latest-episodes__episode-date" datetime="2026-03-25T06:00:00+11:00">Mar 25, 2026</time></div>
       </div>
     </li></ol></section><script>
   (function () {
@@ -631,11 +631,6 @@
         btn.setAttribute('data-cover-url', last.coverUrl);
       }
       activateEpisode(btn, { userGesture: false, play: false });
-      try {
-        if (currentLi) {
-          currentLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      } catch (e) {}
     })();
 
     (function primeLatestForMainPlayer() {

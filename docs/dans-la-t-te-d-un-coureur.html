@@ -146,6 +146,23 @@
           type="button"
           class="latest-episodes__play"
           aria-pressed="false"
+          aria-label="Play episode: Zones d’intensité : pourquoi tant de coureurs se trompent (sans même le savoir) ? W. Tristan, May 4, 2026"
+          data-audio-url="https://audio.audiomeans.fr/file/hDENVZklas/af3325d1-401e-4feb-beb0-38234bb34fcc.mp3?_=1776947212"
+          data-episode-title="Zones d’intensité : pourquoi tant de coureurs se trompent (sans même le savoir) ? W. Tristan"
+          data-podcast-title="Dans la Tête d’un Coureur"
+          data-cover-url="/media/danslateteeduncoureur.jpeg"
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <div class="latest-episodes__episode-main">
+          <span class="latest-episodes__episode-title">Zones d’intensité : pourquoi tant de coureurs se trompent (sans même le savoir) ? W. Tristan</span><time class="latest-episodes__episode-date" datetime="2026-05-04T03:55:00+00:00">May 4, 2026</time></div>
+      </div>
+    </li><li class="latest-episodes__item">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
           aria-label="Play episode: Caféine : le protocole que les équipes pros gardent pour elles... (Bonus), May 1, 2026"
           data-audio-url="https://audio.audiomeans.fr/file/hDENVZklas/a73e09f9-63c8-4a89-9db4-2edbe6caf47d.mp3?_=1777065180"
           data-episode-title="Caféine : le protocole que les équipes pros gardent pour elles... (Bonus)"
@@ -292,23 +309,6 @@
         </button>
         <div class="latest-episodes__episode-main">
           <span class="latest-episodes__episode-title">Marathon de Paris 2026 : le Grand Débrief  (Hugo Philip et Tristan) / Partie 1</span><time class="latest-episodes__episode-date" datetime="2026-04-13T03:53:00+00:00">Apr 13, 2026</time></div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__row latest-episodes__row--episode">
-        <button
-          type="button"
-          class="latest-episodes__play"
-          aria-pressed="false"
-          aria-label="Play episode: Arthur Joyeux-Bouillon au Marathon de Paris  : Pourquoi les traileurs passent sur route ?, Apr 10, 2026"
-          data-audio-url="https://audio.audiomeans.fr/file/hDENVZklas/944d12cb-7020-40ad-b291-af1dd17077aa.mp3?_=1775770554"
-          data-episode-title="Arthur Joyeux-Bouillon au Marathon de Paris  : Pourquoi les traileurs passent sur route ?"
-          data-podcast-title="Dans la Tête d’un Coureur"
-          data-cover-url="/media/danslateteeduncoureur.jpeg"
-        >
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <div class="latest-episodes__episode-main">
-          <span class="latest-episodes__episode-title">Arthur Joyeux-Bouillon au Marathon de Paris  : Pourquoi les traileurs passent sur route ?</span><time class="latest-episodes__episode-date" datetime="2026-04-10T03:50:00+00:00">Apr 10, 2026</time></div>
       </div>
     </li></ol></section><script>
   (function () {
@@ -631,11 +631,6 @@
         btn.setAttribute('data-cover-url', last.coverUrl);
       }
       activateEpisode(btn, { userGesture: false, play: false });
-      try {
-        if (currentLi) {
-          currentLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      } catch (e) {}
     })();
 
     (function primeLatestForMainPlayer() {

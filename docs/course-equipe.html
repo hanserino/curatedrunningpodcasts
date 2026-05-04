@@ -147,6 +147,23 @@
           type="button"
           class="latest-episodes__play"
           aria-pressed="false"
+          aria-label="Play episode: [EXTRAIT] Molly Seidel : du bronze olympique à Western States, la course d'une vie 🇬🇧, May 4, 2026"
+          data-audio-url="https://sphinx.acast.com/p/acast/s/course-epique/e/69f22a87c2d898b28bba52e1/media.mp3"
+          data-episode-title="[EXTRAIT] Molly Seidel : du bronze olympique à Western States, la course d&#39;une vie 🇬🇧"
+          data-podcast-title="Course Equipe"
+          data-cover-url="/media/courseepique.jpeg"
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <div class="latest-episodes__episode-main">
+          <span class="latest-episodes__episode-title">[EXTRAIT] Molly Seidel : du bronze olympique à Western States, la course d'une vie 🇬🇧</span><time class="latest-episodes__episode-date" datetime="2026-05-04T03:58:00+00:00">May 4, 2026</time></div>
+      </div>
+    </li><li class="latest-episodes__item">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
           aria-label="Play episode: Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée, Apr 29, 2026"
           data-audio-url="https://sphinx.acast.com/p/acast/s/course-epique/e/69e8c103289eeb2c7b737992/media.mp3"
           data-episode-title="Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée"
@@ -293,23 +310,6 @@
         </button>
         <div class="latest-episodes__episode-main">
           <span class="latest-episodes__episode-title">[VO 🇬🇧]  Dans l'intimité de Kilian Jornet, Emelie Forsberg, Lucille Germain et Elhousine Elazzaoui à Majorque</span><time class="latest-episodes__episode-date" datetime="2026-04-08T03:54:00+00:00">Apr 8, 2026</time></div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__row latest-episodes__row--episode">
-        <button
-          type="button"
-          class="latest-episodes__play"
-          aria-pressed="false"
-          aria-label="Play episode: [EXTRAIT] Kilian Jornet se confie : NNormal, équilibre familial et saison 2026, Apr 6, 2026"
-          data-audio-url="https://sphinx.acast.com/p/acast/s/course-epique/e/69cfea1d3a785fb94b000d01/media.mp3"
-          data-episode-title="[EXTRAIT] Kilian Jornet se confie : NNormal, équilibre familial et saison 2026"
-          data-podcast-title="Course Equipe"
-          data-cover-url="/media/courseepique.jpeg"
-        >
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <div class="latest-episodes__episode-main">
-          <span class="latest-episodes__episode-title">[EXTRAIT] Kilian Jornet se confie : NNormal, équilibre familial et saison 2026</span><time class="latest-episodes__episode-date" datetime="2026-04-06T03:58:00+00:00">Apr 6, 2026</time></div>
       </div>
     </li></ol></section><script>
   (function () {
@@ -632,11 +632,6 @@
         btn.setAttribute('data-cover-url', last.coverUrl);
       }
       activateEpisode(btn, { userGesture: false, play: false });
-      try {
-        if (currentLi) {
-          currentLi.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      } catch (e) {}
     })();
 
     (function primeLatestForMainPlayer() {
