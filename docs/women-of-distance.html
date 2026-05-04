@@ -131,7 +131,7 @@
       class="latest-episodes__player-art-wrap"
       data-player-art-wrap
       data-default-cover="/media/womanofdistancepodcast.jpeg"
-    ><img class="latest-episodes__player-art" data-player-art src="/media/womanofdistancepodcast.jpeg" alt="" width="72" height="72"></div>
+    ><picture><source type="image/webp" srcset="/media/womanofdistancepodcast.webp" /><img src="/media/womanofdistancepodcast.jpeg" alt="" class="latest-episodes__player-art" data-player-art decoding="async" width="72" height="72" loading="lazy" /></picture></div>
     <div class="latest-episodes__player-main">
       <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing>Choose an episode below to start listening.</p>
       <audio controls preload="none" data-latest-player class="latest-episodes__player">
@@ -141,6 +141,23 @@
   </div>
 
   <ol class="latest-episodes__list"><li class="latest-episodes__item">
+      <div class="latest-episodes__row latest-episodes__row--episode">
+        <button
+          type="button"
+          class="latest-episodes__play"
+          aria-pressed="false"
+          aria-label="Play episode: Teamwork Makes the Dream Work, May 4, 2026"
+          data-audio-url="https://anchor.fm/s/eb00f12c/podcast/play/119429781/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-3%2F423392733-44100-2-caf01faf3d7a6.mp3"
+          data-episode-title="Teamwork Makes the Dream Work"
+          data-podcast-title="Women of Distance"
+          data-cover-url="/media/womanofdistancepodcast.jpeg"
+        >
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <div class="latest-episodes__episode-main">
+          <span class="latest-episodes__episode-title">Teamwork Makes the Dream Work</span><time class="latest-episodes__episode-date" datetime="2026-05-04T10:13:40+00:00">May 4, 2026</time></div>
+      </div>
+    </li><li class="latest-episodes__item">
       <div class="latest-episodes__row latest-episodes__row--episode">
         <button
           type="button"
@@ -292,23 +309,6 @@
         </button>
         <div class="latest-episodes__episode-main">
           <span class="latest-episodes__episode-title">Holly Ranson - Golden Opportunity</span><time class="latest-episodes__episode-date" datetime="2026-02-23T11:00:00+00:00">Feb 23, 2026</time></div>
-      </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__row latest-episodes__row--episode">
-        <button
-          type="button"
-          class="latest-episodes__play"
-          aria-pressed="false"
-          aria-label="Play episode: Heather Jackson - Who You Share It With, Feb 17, 2026"
-          data-audio-url="https://anchor.fm/s/eb00f12c/podcast/play/115598892/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-16%2F418226853-44100-2-639c56c8324d5.mp3"
-          data-episode-title="Heather Jackson - Who You Share It With"
-          data-podcast-title="Women of Distance"
-          data-cover-url="/media/womanofdistancepodcast.jpeg"
-        >
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <div class="latest-episodes__episode-main">
-          <span class="latest-episodes__episode-title">Heather Jackson - Who You Share It With</span><time class="latest-episodes__episode-date" datetime="2026-02-17T11:00:00+00:00">Feb 17, 2026</time></div>
       </div>
     </li></ol></section><script>
   (function () {
@@ -727,7 +727,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-05-04T09:46:16Z">2026-05-04 09:46 UTC</time>
+      <time datetime="2026-05-04T11:34:59Z">2026-05-04 11:34 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

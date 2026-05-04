@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "optimize-media": "node tools/optimize-media.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  }
+}

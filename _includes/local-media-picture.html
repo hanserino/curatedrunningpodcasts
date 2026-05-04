@@ -1,0 +1,36 @@
+{%- comment -%}
+  Local /media/ images: WebP via <picture> when not an absolute URL.
+  Params: raw, alt, high_priority (optional), width, height,
+  img_class (optional), img_attrs (optional raw HTML attrs, e.g. data-player-art),
+  wrap_in_podcast_cover (optional, default false).
+{%- endcomment -%}
+{%- assign _c = include.raw | strip -%}
+{%- assign _extra = include.img_attrs | default: '' -%}
+{%- assign _class_attr = include.img_class | default: '' | strip -%}
+{%- assign _dims = '' -%}
+{%- if include.width and include.height -%}
+{%- capture _dims %} width="{{ include.width }}" height="{{ include.height }}"{%- endcapture -%}
+{%- endif -%}
+{%- if _c != '' -%}
+{%- if _c contains '://' -%}
+{%- assign _src = _c -%}
+<img src="{{ _src }}" alt="{{ include.alt | xml_escape }}" {% if _class_attr != '' %}class="{{ _class_attr }}" {% endif %}{% if _extra != '' %}{{ _extra }} {% endif %}decoding="async"{{ _dims }} {% if include.high_priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} />
+{%- else -%}
+{%- if _c contains '/media/' -%}
+{%- assign _src = _c | relative_url -%}
+{%- elsif _c contains '/' -%}
+{%- assign _src = _c | relative_url -%}
+{%- else -%}
+{%- assign _src = '/media/' | append: _c | relative_url -%}
+{%- endif -%}
+{%- assign _webp = _src | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' | replace: '.JPEG', '.webp' | replace: '.JPG', '.webp' | replace: '.PNG', '.webp' -%}
+{%- capture _inner -%}
+<picture><source type="image/webp" srcset="{{ _webp }}" /><img src="{{ _src }}" alt="{{ include.alt | xml_escape }}" {% if _class_attr != '' %}class="{{ _class_attr }}" {% endif %}{% if _extra != '' %}{{ _extra }} {% endif %}decoding="async"{{ _dims }} {% if include.high_priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} /></picture>
+{%- endcapture -%}
+{%- if include.wrap_in_podcast_cover -%}
+<p class="podcast-cover">{{ _inner }}</p>
+{%- else -%}
+{{ _inner }}
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}

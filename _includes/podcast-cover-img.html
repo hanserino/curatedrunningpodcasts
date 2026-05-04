@@ -1,18 +1,10 @@
 {%- comment -%}
-  Renders a single cover <img> from front matter `cover_image`:
+  Renders cover from front matter `cover_image`:
   `/media/...`, bare filename, absolute URL (Decap/GitHub), or YAML object normalized in the plugin.
   Pass: cover_image, title, high_priority (optional, default false).
 {%- endcomment -%}
 {%- assign _c = include.cover_image | strip -%}
 {%- if _c != '' -%}
-{%- if _c contains '://' -%}
-  {%- assign _src = _c -%}
-{%- elsif _c contains '/media/' -%}
-  {%- assign _src = _c | relative_url -%}
-{%- elsif _c contains '/' -%}
-  {%- assign _src = _c | relative_url -%}
-{%- else -%}
-  {%- assign _src = '/media/' | append: _c | relative_url -%}
-{%- endif -%}
-<p class="podcast-cover"><img src="{{ _src }}" alt="{{ include.title | xml_escape }} podcast cover art" decoding="async" {% if include.high_priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} /></p>
+{%- capture _cover_alt -%}{{ include.title }} podcast cover art{%- endcapture -%}
+{%- include local-media-picture.html raw=_c alt=_cover_alt high_priority=include.high_priority wrap_in_podcast_cover=true -%}
 {%- endif -%}

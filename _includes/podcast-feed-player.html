@@ -33,7 +33,7 @@
       {% if deck_cover != "" %}data-default-cover="{{ deck_cover | relative_url | escape }}"{% endif %}
     >
       {%- if deck_cover != "" -%}
-      <img class="latest-episodes__player-art" data-player-art src="{{ deck_cover | relative_url }}" alt="" width="72" height="72">
+      {%- include local-media-picture.html raw=deck_cover alt="" high_priority=false width=72 height=72 img_class="latest-episodes__player-art" img_attrs="data-player-art" -%}
       {%- else -%}
       <img class="latest-episodes__player-art" data-player-art alt="" width="72" height="72" hidden>
       {%- endif -%}

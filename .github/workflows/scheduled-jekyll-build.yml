@@ -26,6 +26,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Optimize media (new/changed covers only)
+        run: npm ci && npm run optimize-media
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"
@@ -45,11 +54,11 @@ jobs:
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs _data/latest_podcast_episodes.yml
+          git add docs _data/latest_podcast_episodes.yml media
           if git diff --staged --quiet; then
             echo "No changes; skipping commit."
             exit 0
           fi
-          git commit -m "chore: refresh RSS data and rebuild docs"
+          git commit -m "chore: refresh RSS, optimize new media, rebuild docs"
           git pull --rebase origin "$BRANCH"
           git push origin "$BRANCH"
