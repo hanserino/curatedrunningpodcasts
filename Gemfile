@@ -13,6 +13,8 @@ gem "jekyll-sass-converter", "~> 2.2"
 gem "sassc", "~> 2.4"
 gem "webrick", "~> 1.8"
 gem "kramdown-parser-gfm"
+# Stdlib RSS was gemified; explicit dep so CI / bundle exec can require "rss" (_plugins/latest_podcast_episodes.rb).
+gem "rss", "~> 0.3"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"

@@ -59,6 +59,8 @@ GEM
       ffi (~> 1.0)
     rexml (3.4.4)
     rouge (3.30.0)
+    rss (0.3.2)
+      rexml
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -83,6 +85,7 @@ DEPENDENCIES
   jekyll-sass-converter (~> 2.2)
   jekyll-sitemap (~> 1.4)
   kramdown-parser-gfm
+  rss (~> 0.3)
   sassc (~> 2.4)
   tzinfo (~> 2.0)
   tzinfo-data
