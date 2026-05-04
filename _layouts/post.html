@@ -18,10 +18,13 @@
 		<article class="post-article">
 			<header>
                 <div class="post-article__left">
-                    {%- if page.layout == 'post' and page.category == 'podcast' -%}
-                    {%- if page.explicit_cover_image and page.cover_image and page.cover_image != '' -%}
+                    {%- comment -%}
+                      Show cover when front matter has cover_image. Do not require explicit_cover_image:
+                      that flag is set only by a local plugin; GitHub Pages’ default Jekyll build skips
+                      plugins, so relying on it left the hero empty while og:image still worked.
+                    {%- endcomment -%}
+                    {%- if page.layout == 'post' and page.category == 'podcast' and page.cover_image and page.cover_image != '' -%}
                         {%- include podcast-cover-img.html cover_image=page.cover_image title=page.title high_priority=true -%}
-                    {%- endif -%}
                     {%- endif -%}
                     {{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
                 </div>
