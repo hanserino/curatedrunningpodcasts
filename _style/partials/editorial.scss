@@ -338,6 +338,23 @@ $ep-play-compact: 2.25rem;
         }
     }
 
+    /* Heard / remaining (localStorage + live playback) */
+    &__listen-track {
+        margin-top: 0.35rem;
+        height: 4px;
+        border-radius: 2px;
+        background: rgba(0, 0, 0, 0.09);
+        overflow: hidden;
+    }
+
+    &__listen-fill {
+        height: 100%;
+        width: 0%;
+        border-radius: 2px;
+        background: linear-gradient(90deg, $ep-mint 0%, $ep-forest 100%);
+        box-shadow: 0 0 0 1px rgba(26, 77, 58, 0.12);
+    }
+
     &__play {
         width: $ep-play-size;
         height: $ep-play-size;

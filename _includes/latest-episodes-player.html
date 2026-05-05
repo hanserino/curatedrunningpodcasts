@@ -71,6 +71,9 @@
         {% if published_label and published_label != "" %} • {{ published_label }}{% endif %}
         </p>
       </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track hidden>
+        <div class="latest-episodes__listen-fill" data-listen-progress style="width: 0%"></div>
+      </div>
     </li>
     {%- endfor -%}
   </ol>
