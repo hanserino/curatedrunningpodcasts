@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-05-05T16:39:48Z'
+generated_at: '2026-05-05T17:38:22Z'
 items:
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play.html"
@@ -18,6 +18,15 @@ items:
   episode_url: https://trail-society.captivate.fm
   audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/577fb5ba-dd17-4b11-a894-a529feae1dd1.mp3
   published_at: '2026-05-05T03:15:00-04:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: The Hardest Ultra on Earth | Prototype Shoes at Western States |
+    Walmsley's Wildcard
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/The-Hardest-Ultra-on-Earth--Prototype-Shoes-at-Western-States--Walmsleys-Wildcard-e3isuui
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119486866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423471468-44100-2-7bf57190117a4.mp3
+  published_at: '2026-05-05T05:00:01+00:00'
 - podcast_title: The Boulder Boys
   podcast_page_url: "/the-boulder-boys.html"
   cover_image: https://static.libsyn.com/p/assets/7/8/6/b/786b742f8039e70ae55e3c100dce7605/IMG_2262_3.png
@@ -203,14 +212,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/140--Cocodona-250-Shoe-Line-Up--Lifting-After-a-Run--Sparkling-Water-e3iiimp
   audio_url: https://anchor.fm/s/674e5298/podcast/play/119146649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F423005645-44100-2-623488f3340c2.mp3
   published_at: '2026-04-28T20:46:43+00:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Gavan Hennigan | The Iditarod — 1000 Miles Across Alaska
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Gavan-Hennigan--The-Iditarod--1000-Miles-Across-Alaska-e3igogo
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119087064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-26%2F422925226-44100-2-0aee2ab4346cc.mp3
-  published_at: '2026-04-28T05:00:00+00:00'
 - podcast_title: Creators Cooldown
   podcast_page_url: "/creators-cooldown.html"
   cover_image: "/media/creatorscooldown.jpg"
@@ -3066,6 +3067,11 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &33
+  - episode_title: The Hardest Ultra on Earth | Prototype Shoes at Western States
+      | Walmsley's Wildcard
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/The-Hardest-Ultra-on-Earth--Prototype-Shoes-at-Western-States--Walmsleys-Wildcard-e3isuui
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119486866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423471468-44100-2-7bf57190117a4.mp3
+    published_at: '2026-05-05T05:00:01+00:00'
   - episode_title: Gavan Hennigan | The Iditarod — 1000 Miles Across Alaska
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Gavan-Hennigan--The-Iditarod--1000-Miles-Across-Alaska-e3igogo
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119087064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-26%2F422925226-44100-2-0aee2ab4346cc.mp3
@@ -3150,10 +3156,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/TransLantau-by-UTMB-Winner-on-Pro-Running--YouTube--Longevity--With-Harry-Jones-e3cdk79
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/112692905/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-16%2F414461132-44100-2-81af0d72e9dbd.mp3
     published_at: '2025-12-18T18:00:00+00:00'
-  - episode_title: Building a Race Season, Hardrock News & Suunto Vertical 2 Testing
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Building-a-Race-Season--Hardrock-News--Suunto-Vertical-2-Testing-e3cdik7
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/112691271/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-16%2F414459326-44100-2-9801466606004.mp3
-    published_at: '2025-12-16T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &34
   - episode_title: NEDA Chronicles Vol. 2
     episode_url: ''
