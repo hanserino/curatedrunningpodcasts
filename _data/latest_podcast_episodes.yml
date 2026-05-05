@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-05T06:54:19Z'
+generated_at: '2026-05-05T07:44:19Z'
 items:
+- podcast_title: Trail Society
+  podcast_page_url: "/trail-society.html"
+  cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
+  feed_url: https://feeds.captivate.fm/trail-society/
+  episode_title: 'Episode 132: Solving the hot weather hydration and fueling puzzle'
+  episode_url: https://trail-society.captivate.fm
+  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/577fb5ba-dd17-4b11-a894-a529feae1dd1.mp3
+  published_at: '2026-05-05T03:15:00-04:00'
 - podcast_title: Trail Talk
   podcast_page_url: "/trail-talk.html"
   cover_image: "/media/trailtalk.jpg"
@@ -204,14 +212,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/308--Sub-2-Hour-Marathon-Fueling--The-High-Carb-Plus-Bicarb-Era--Strides-v--Plyometrics-Study--Supershoe-Evolution--and-Iron-Theories-e3ij8r5
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/119169317/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F71e4c177-a532-9c3d-0f68-fd66393e4710.mp3
   published_at: '2026-04-28T13:28:34+00:00'
-- podcast_title: Trail Society
-  podcast_page_url: "/trail-society.html"
-  cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
-  feed_url: https://feeds.captivate.fm/trail-society/
-  episode_title: 'Episode 131: How to rebuild when everything changes with Lizzy Fowler'
-  episode_url: https://trail-society.captivate.fm
-  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/4ca83211-6c35-4396-ae39-90b33c658b5b.mp3
-  published_at: '2026-04-28T03:15:00-04:00'
 - podcast_title: Creators Cooldown
   podcast_page_url: "/creators-cooldown.html"
   cover_image: "/media/creatorscooldown.jpg"
@@ -1329,6 +1329,10 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Mike_Wardian_2025.mp3?dest-id=142179
     published_at: '2025-12-19T00:27:00+00:00'
   https://feeds.captivate.fm/trail-society/: &12
+  - episode_title: 'Episode 132: Solving the hot weather hydration and fueling puzzle'
+    episode_url: https://trail-society.captivate.fm
+    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/577fb5ba-dd17-4b11-a894-a529feae1dd1.mp3
+    published_at: '2026-05-05T03:15:00-04:00'
   - episode_title: 'Episode 131: How to rebuild when everything changes with Lizzy
       Fowler'
     episode_url: https://trail-society.captivate.fm
@@ -1420,10 +1424,6 @@ episodes_by_feed:
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/8f8f1c48-69f7-4ede-bc18-a91f5d048bfa.mp3
     published_at: '2025-12-02T17:16:00-04:00'
-  - episode_title: 'Episode 113: Redefining Pregnancy and Sport with Dr. Margie Davenport'
-    episode_url: https://trail-society.captivate.fm
-    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/01ea0a51-0b3c-44a0-8ea8-b178da8b3c62.mp3
-    published_at: '2025-11-18T12:33:00-04:00'
   https://anchor.fm/s/70c9c5f0/podcast/rss: &13
   - episode_title: '185. Abby Hall | From Training to Reality: What Trail Running
       Actually Feels Like'
