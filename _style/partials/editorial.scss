@@ -36,12 +36,10 @@
 }
 
 .latest {
-    max-width: 960px;
     padding: 1rem;
 }
 
 .post-about {
-    max-width: 960px;
     padding: 1rem;
 
     p {
@@ -140,9 +138,6 @@
     }
 }
 
-.post-page .footer p {
-    max-width: 40rem;
-}
 
 .podcast-list-section {
     margin: 0;
@@ -163,8 +158,10 @@ $ep-row-art: 40px;
 $ep-play-compact: 2.25rem;
 
 .latest-episodes {
-    margin-top: 1.75rem;
-    padding: 1.25rem 1.25rem 1.5rem;
+    width: calc(100% + 2rem);
+    margin-left: -1rem;
+    margin-top: 1rem;
+    padding: 0 .25rem 1.5rem;
     border-radius: 14px;
     background: linear-gradient(
         155deg,
@@ -181,11 +178,14 @@ $ep-play-compact: 2.25rem;
         padding: 1rem 1rem 1.2rem;
         margin-top: 1.25rem;
     }
+    @include allAbove(medium) {
+        padding: 1.25rem 1.25rem 1.5rem;
+    }
 
     &__title {
         font-size: 1.35rem;
         font-weight: bold;
-        margin: 0 0 1rem 0;
+        margin: 0 0 1rem 0.75rem;
         color: $ep-forest;
         letter-spacing: -0.02em;
     }

@@ -2,8 +2,7 @@
 layout: latest
 title: Latest Podcast Episodes
 description: >-
-  The newest episode from each curated show in the directory. Play here or follow
-  the link to the podcast’s page for more context and listen links.
+  The newest episode from each curated show in the directory.
 permalink: /latest-episodes/
 ---
 
