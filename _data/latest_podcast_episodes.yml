@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-06T10:46:20Z'
+generated_at: '2026-05-06T11:38:56Z'
 items:
+- podcast_title: The Way Of The Runner
+  podcast_page_url: "/the-way-of-the-runner.html"
+  cover_image: https://static.libsyn.com/p/assets/0/4/2/e/042eb98c1dbecc0b/the-way-of-the-runner-podcast_22.png
+  feed_url: https://rss.libsyn.com/shows/234188/destinations/1733936.xml
+  episode_title: Megan Boxall on running 200 marathons around the coast of Great Britain
+  episode_url: https://thewayoftherunner.com/podcast
+  audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/meganboxhall-finaledit.mp3?dest-id=1733936
+  published_at: '2026-05-06T11:28:00+00:00'
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us.html"
   cover_image: "/media/nobodyaskedus.jpg"
@@ -262,14 +270,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/vertrun/episodes/185--Abby-Hall--From-Training-to-Reality-What-Trail-Running-Actually-Feels-Like-e3hb730
   audio_url: https://anchor.fm/s/70c9c5f0/podcast/play/117856800/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-2%2F421277325-44100-2-5ebe1e3682cea.m4a
   published_at: '2026-04-02T15:19:21+00:00'
-- podcast_title: The Way Of The Runner
-  podcast_page_url: "/the-way-of-the-runner.html"
-  cover_image: https://static.libsyn.com/p/assets/0/4/2/e/042eb98c1dbecc0b/the-way-of-the-runner-podcast_22.png
-  feed_url: https://rss.libsyn.com/shows/234188/destinations/1733936.xml
-  episode_title: Damian Hall on the secrets to becoming an ageless runner
-  episode_url: https://thewayoftherunner.com/podcast
-  audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/damian-hall-2026-masterfile.mp3?dest-id=1733936
-  published_at: '2026-04-01T09:54:00+00:00'
 - podcast_title: Speed Dhiman Radio
   podcast_page_url: "/speed-dhiman-radio.html"
   cover_image: "/media/speeddhimanradio.jpeg"
@@ -1142,6 +1142,11 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Final_Coiaching_Call_1.mp3?dest-id=259001
     published_at: '2026-02-20T23:19:00+00:00'
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &10
+  - episode_title: Megan Boxall on running 200 marathons around the coast of Great
+      Britain
+    episode_url: https://thewayoftherunner.com/podcast
+    audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/meganboxhall-finaledit.mp3?dest-id=1733936
+    published_at: '2026-05-06T11:28:00+00:00'
   - episode_title: Damian Hall on the secrets to becoming an ageless runner
     episode_url: https://thewayoftherunner.com/podcast
     audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/damian-hall-2026-masterfile.mp3?dest-id=1733936
@@ -1235,11 +1240,6 @@ episodes_by_feed:
     episode_url: https://thewayoftherunner.com/podcast
     audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/masterfile-nicktiller.mp3?dest-id=1733936
     published_at: '2023-09-05T11:30:00+00:00'
-  - episode_title: "'There's no limit to how far you can push yourself' - interview
-      with Grayson Murphy, the World Mountain Running Champion"
-    episode_url: https://thewayoftherunner.libsyn.com/interview-with-grayson-murphy
-    audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/master_edit_grayson_murphy.mp3?dest-id=1733936
-    published_at: '2023-07-21T11:32:08+00:00'
   https://rss.libsyn.com/shows/44345/destinations/142179.xml: &11
   - episode_title: 'EP 779: The Hidden Performance Cost of Sun Damage'
     episode_url: https://trailrunnernation.libsyn.com/ep-779-the-hidden-performance-cost-of-sun-damage
