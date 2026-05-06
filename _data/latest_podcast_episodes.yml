@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-06T05:11:45Z'
+generated_at: '2026-05-06T07:03:18Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: Thames Path 100 2026 Results and Recap
+  episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fadf6e2714884e770459cd.mp3
+  published_at: '2026-05-06T06:30:47+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
@@ -154,14 +162,6 @@ items:
   episode_url: https://florisgierman.libsyn.com/126-coachs-advice-to-run-recover-faster-for-recreational-runners
   audio_url: https://traffic.libsyn.com/secure/florisgierman/Getting_Faster_After_Age_40_with_Coach_Albert_Shank.mp3?dest-id=557444
   published_at: '2026-05-01T13:27:00+00:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
-  episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69f450af842c1f5f43946a17.mp3
-  published_at: '2026-05-01T07:39:21+00:00'
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run.html"
   cover_image: "/media/forthelongrun.jpeg"
@@ -3330,6 +3330,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_S1E8_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-04-25T07:01:00+00:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &36
+  - episode_title: Thames Path 100 2026 Results and Recap
+    episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fadf6e2714884e770459cd.mp3
+    published_at: '2026-05-06T06:30:47+00:00'
   - episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
     episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69f450af842c1f5f43946a17.mp3
@@ -3411,11 +3415,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-pierre-meslet
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/698844d65d417a2444915c0f.mp3
     published_at: '2026-02-08T12:03:25+00:00'
-  - episode_title: 'Weekly Ep.22: Rocky Raccoon 100 | Opinion vs Fact | Centurion
-      Update |'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep22-rocky-raccoon-100-or-opinion-vs-fact-or-centurion-update-or
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6985b84625639d7231b51b0f.mp3
-    published_at: '2026-02-06T10:42:55+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &37
   - episode_title: What Happens When You Choose the Hard Thing with Brendan Morgan
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/What-Happens-When-You-Choose-the-Hard-Thing-with-Brendan-Morgan-e3ingr5
