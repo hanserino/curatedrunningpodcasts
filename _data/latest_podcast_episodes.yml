@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-06T08:56:40Z'
+generated_at: '2026-05-06T09:55:18Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us.html"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  episode_title: 4.19. The Marathon des Sables Recap
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/419-the-marathon-des-sables-recap
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_14_Episode_19_-_Audio.mp3?dest-id=3833748
+  published_at: '2026-05-06T09:00:00+00:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -211,14 +219,6 @@ items:
   episode_url: https://shows.acast.com/realscienceofsport/episodes/the-spotlight-on-the-sub-2-a-deep-dive-into-sawes-marathon-m
   audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69f1d25a8647f8587e446e78/media.mp3
   published_at: '2026-04-30T05:30:00+00:00'
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us.html"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  episode_title: 4.18. Freshy Fresh for London 2026!
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_18_-_London_-_Audio.mp3?dest-id=3833748
-  published_at: '2026-04-29T09:00:00+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17231862/17231862-1647566431353-63702c31bcb9a.jpg
@@ -3509,6 +3509,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/81032c4/podcast/play/112559028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-13%2F414330604-44100-2-1d06214229ce.m4a
     published_at: '2025-12-19T11:00:00+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &38
+  - episode_title: 4.19. The Marathon des Sables Recap
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/419-the-marathon-des-sables-recap
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_14_Episode_19_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-05-06T09:00:00+00:00'
   - episode_title: 4.18. Freshy Fresh for London 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_18_-_London_-_Audio.mp3?dest-id=3833748
@@ -3585,10 +3589,6 @@ episodes_by_feed:
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/347-end-of-year-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_3_-_Episode_47_-_Audio.mp3?dest-id=3833748
     published_at: '2025-12-31T16:46:00+00:00'
-  - episode_title: 3.46. The Transparency Episode
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/346-the-transparency-episode
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_3_-_Episode_46_-_Audio_3.mp3?dest-id=3833748
-    published_at: '2025-12-24T00:04:00+00:00'
   https://anchor.fm/s/80b609c4/podcast/rss: &39
   - episode_title: '040 | An eventful beginning of 2026: gare, preparazione, infortuni,
       processo'
