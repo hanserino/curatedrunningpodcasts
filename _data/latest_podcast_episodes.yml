@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-06T00:47:16Z'
+generated_at: '2026-05-06T01:40:35Z'
 items:
+- podcast_title: Spring Snyggt
+  podcast_page_url: "/spring-snyggt.html"
+  cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
+  feed_url: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
+  episode_title: 336. Spring Snabbare med Andreas Almgren
+  episode_url: https://springsnyggt.libsyn.com/336-spring-snabbare-med-andreas-almgren
+  audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_6_maj.mp3?dest-id=1729274
+  published_at: '2026-05-06T01:00:00+00:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
@@ -211,14 +219,6 @@ items:
   episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_18_-_London_-_Audio.mp3?dest-id=3833748
   published_at: '2026-04-29T09:00:00+00:00'
-- podcast_title: Spring Snyggt
-  podcast_page_url: "/spring-snyggt.html"
-  cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
-  feed_url: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
-  episode_title: 335. Nomio 10k-special
-  episode_url: https://springsnyggt.libsyn.com/335-nomio-10k-special
-  audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_335.mp3?dest-id=1729274
-  published_at: '2026-04-29T01:00:00+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17231862/17231862-1647566431353-63702c31bcb9a.jpg
@@ -2105,6 +2105,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/111607727/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-24%2F413034698-44100-2-9ffe36f58aeb9.mp3
     published_at: '2025-11-24T11:00:00+00:00'
   https://rss.libsyn.com/shows/233666/destinations/1729274.xml: &22
+  - episode_title: 336. Spring Snabbare med Andreas Almgren
+    episode_url: https://springsnyggt.libsyn.com/336-spring-snabbare-med-andreas-almgren
+    audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_6_maj.mp3?dest-id=1729274
+    published_at: '2026-05-06T01:00:00+00:00'
   - episode_title: 335. Nomio 10k-special
     episode_url: https://springsnyggt.libsyn.com/335-nomio-10k-special
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_335.mp3?dest-id=1729274
@@ -2181,10 +2185,6 @@ episodes_by_feed:
     episode_url: https://springsnyggt.libsyn.com/317-sebastian-stagh-har-anlnt
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_317.mp3?dest-id=1729274
     published_at: '2025-12-24T02:00:00+00:00'
-  - episode_title: 316. Vera Sjöberg - vår nya löparstjärna!
-    episode_url: https://springsnyggt.libsyn.com/316-vera-sjberg-vr-nya-lparstjrna
-    audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_snyggt_316.mp3?dest-id=1729274
-    published_at: '2025-12-17T02:00:00+00:00'
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &23
   - episode_title: 'Voice of the Mountains: Season Two Recap'
     episode_url: https://zencastr.com/z/PbWFmrHu
