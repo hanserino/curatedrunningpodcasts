@@ -1,6 +1,15 @@
 ---
-generated_at: '2026-05-06T03:14:22Z'
+generated_at: '2026-05-06T05:11:45Z'
 items:
+- podcast_title: Course Equipe
+  podcast_page_url: "/course-equipe.html"
+  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  episode_title: "Molly Seidel : du bronze olympique à Western States, la course d'une
+    vie \U0001F1EC\U0001F1E7"
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69f22acbbe5ab6849c6101b4/media.mp3
+  published_at: '2026-05-06T03:58:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
@@ -94,15 +103,6 @@ items:
   episode_url: ''
   audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19119356-aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news.mp3
   published_at: '2026-05-04T00:00:00-06:00'
-- podcast_title: Course Equipe
-  podcast_page_url: "/course-equipe.html"
-  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  episode_title: "[EXTRAIT] Molly Seidel : du bronze olympique à Western States, la
-    course d'une vie \U0001F1EC\U0001F1E7"
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69f22a87c2d898b28bba52e1/media.mp3
-  published_at: '2026-05-04T03:58:00+00:00'
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
   cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
@@ -2362,6 +2362,11 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112044185/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-2%2F413625447-44100-2-55f9290a4f6dc.mp3
     published_at: '2025-12-02T21:30:38+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &25
+  - episode_title: "Molly Seidel : du bronze olympique à Western States, la course
+      d'une vie \U0001F1EC\U0001F1E7"
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69f22acbbe5ab6849c6101b4/media.mp3
+    published_at: '2026-05-06T03:58:00+00:00'
   - episode_title: "[EXTRAIT] Molly Seidel : du bronze olympique à Western States,
       la course d'une vie \U0001F1EC\U0001F1E7"
     episode_url: https://courseepique.fr/
@@ -2455,11 +2460,6 @@ episodes_by_feed:
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69aaa43fb49eecc0b7961510/media.mp3
     published_at: '2026-03-17T23:00:00+00:00'
-  - episode_title: "[EXTRAIT] Après 5300km autour de la France en courant, le chemin
-      continue - Louis Derrien"
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69aaa4357036d73902ec6a1c/media.mp3
-    published_at: '2026-03-15T23:00:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &26
   - episode_title: 'Zones d’intensité : pourquoi tant de coureurs se trompent (sans
       même le savoir) ? W. Tristan'
