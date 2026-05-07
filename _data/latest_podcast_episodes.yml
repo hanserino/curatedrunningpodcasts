@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-07T01:41:24Z'
+generated_at: '2026-05-07T03:14:56Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public.html"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
+  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
+  audio_url: https://mcdn.podbean.com/mf/web/entnnvbjeth6yq4e/2_clips_Edit_31_6jjw1.mp3
+  published_at: '2026-05-06T21:28:36-05:00'
 - podcast_title: The Real Science Of Sports
   podcast_page_url: "/the-real-science-of-sports.html"
   cover_image: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1764253945895-a1ed9fa9-2a2e-4594-8b95-1aba16461fd4.jpeg
@@ -161,14 +169,6 @@ items:
   episode_url: https://tenjunkmiles.com/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
   audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_Hoadley.mp3?dest-id=259001
   published_at: '2026-05-02T16:45:00+00:00'
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public.html"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  episode_title: 'Episode 609: Natalie Hatch'
-  episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
-  audio_url: https://mcdn.podbean.com/mf/web/78uhke7nxxrt7krs/3_clips_Edit_12_5z189.mp3
-  published_at: '2026-05-02T08:40:11-05:00'
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw.html"
   cover_image: https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png
@@ -3763,6 +3763,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
   https://feed.podbean.com/therunningpublic/feed.xml: &41
+  - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
+    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
+    audio_url: https://mcdn.podbean.com/mf/web/entnnvbjeth6yq4e/2_clips_Edit_31_6jjw1.mp3
+    published_at: '2026-05-06T21:28:36-05:00'
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
     audio_url: https://mcdn.podbean.com/mf/web/78uhke7nxxrt7krs/3_clips_Edit_12_5z189.mp3
@@ -3840,10 +3844,6 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/episode-592-wrapping-up-the-listener-questions/
     audio_url: https://mcdn.podbean.com/mf/web/rixjj6wdv23st75a/2_clips_Edit_21_9ackm.mp3
     published_at: '2026-02-20T21:47:21-06:00'
-  - episode_title: 'Training Tuesday: Q&A Part 2'
-    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-qa-part-2/
-    audio_url: https://mcdn.podbean.com/mf/web/ivsb7sded2mkqf2i/New-Episode-2-18-2026-10-47-26-AM_Edit82mma.mp3
-    published_at: '2026-02-18T22:07:08-06:00'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
