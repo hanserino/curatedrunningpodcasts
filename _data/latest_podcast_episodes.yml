@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-07T16:40:12Z'
+generated_at: '2026-05-07T17:38:37Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: 'Centurion Coaching Podcast: Imo Boddy'
+  episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fcbe35e1344c7f0824eb74.mp3
+  published_at: '2026-05-07T16:50:43+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg
@@ -59,14 +67,6 @@ items:
   episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/419-the-marathon-des-sables-recap
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_14_Episode_19_-_Audio.mp3?dest-id=3833748
   published_at: '2026-05-06T09:00:00+00:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: Thames Path 100 2026 Results and Recap
-  episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fadf6e2714884e770459cd.mp3
-  published_at: '2026-05-06T06:30:47+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
@@ -3331,6 +3331,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_S1E8_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-04-25T07:01:00+00:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &36
+  - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
+    episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fcbe35e1344c7f0824eb74.mp3
+    published_at: '2026-05-07T16:50:43+00:00'
   - episode_title: Thames Path 100 2026 Results and Recap
     episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fadf6e2714884e770459cd.mp3
@@ -3412,10 +3416,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-23-black-canyon-or-one-slam-or-tarawera-or
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/698f2aea0cde33cc7e027eaa.mp3
     published_at: '2026-02-13T13:46:42+00:00'
-  - episode_title: 'Centurion Coaching Podcast: Pierre Meslet'
-    episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-pierre-meslet
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/698844d65d417a2444915c0f.mp3
-    published_at: '2026-02-08T12:03:25+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &37
   - episode_title: Rachel Entrekin, Queen of Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Rachel-Entrekin--Queen-of-Cocodona-250-e3f2c01
