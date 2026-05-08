@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-08T21:27:02Z'
+generated_at: '2026-05-08T22:25:51Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast.html"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  episode_title: Ellie Pashley on Winning the Ballarat Marathon
+  episode_url: https://insiderunningpodcast.podbean.com/e/ellie-pashley-on-winning-the-ballarat-marathon/
+  audio_url: https://mcdn.podbean.com/mf/web/6psq3ck6mvp89ueh/Ellie_-_Ballaratb9j7d.mp3
+  published_at: '2026-05-09T07:44:47+10:00'
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
@@ -135,14 +143,6 @@ items:
   episode_url: https://zencastr.com/z/PbWFmrHu
   audio_url: https://redirect.zencastr.com/r/episode/69fa519ba7fb78f733e2730a/size/91886214/video-files/635358be4592c880860238fe/234734f8-a394-48a2-88ae-024a87e7dd2c.mp4
   published_at: '2026-05-05T20:30:00+00:00'
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast.html"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  episode_title: '444: Sydney Half | Adelaide Marathon | The Ideal Warm Up'
-  episode_url: https://insiderunningpodcast.podbean.com/e/444-sydney-half-adelaide-marathon-the-ideal-warm-up/
-  audio_url: https://mcdn.podbean.com/mf/web/6etrd26ty64xrpe6/Ep_444_iTunes95mn9.mp3
-  published_at: '2026-05-06T06:00:00+10:00'
 - podcast_title: The Albon Way
   podcast_page_url: "/the-albon-way.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42065606/42065606-1728050335744-df8997240c2de.jpg
@@ -2831,6 +2831,10 @@ episodes_by_feed:
     audio_url: https://content.rss.com/episodes/81443/2369271/coffeeclub/2025_12_04_19_59_15_ff36d904-0b45-4c27-b8a8-0cb9af5350a9.mp3
     published_at: '2025-12-04T21:20:07+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &30
+  - episode_title: Ellie Pashley on Winning the Ballarat Marathon
+    episode_url: https://insiderunningpodcast.podbean.com/e/ellie-pashley-on-winning-the-ballarat-marathon/
+    audio_url: https://mcdn.podbean.com/mf/web/6psq3ck6mvp89ueh/Ellie_-_Ballaratb9j7d.mp3
+    published_at: '2026-05-09T07:44:47+10:00'
   - episode_title: '444: Sydney Half | Adelaide Marathon | The Ideal Warm Up'
     episode_url: https://insiderunningpodcast.podbean.com/e/444-sydney-half-adelaide-marathon-the-ideal-warm-up/
     audio_url: https://mcdn.podbean.com/mf/web/6etrd26ty64xrpe6/Ep_444_iTunes95mn9.mp3
@@ -2913,10 +2917,6 @@ episodes_by_feed:
     episode_url: https://insiderunningpodcast.podbean.com/e/434-box-hill-burn-lievin-indoor-meet-rayner-s-half-marathon-nr-in-barcelona/
     audio_url: https://mcdn.podbean.com/mf/web/gxcatnair3kxhr4u/Ep_434_itunesa53p5.mp3
     published_at: '2026-02-25T06:00:00+11:00'
-  - episode_title: '433: Perth Track Classic | Indoor Racing Season | NSW 5000m Championships'
-    episode_url: https://insiderunningpodcast.podbean.com/e/433-perth-track-classic-indoor-racing-season-nsw-5000m-championships/
-    audio_url: https://mcdn.podbean.com/mf/web/4epkhb83qgmr4ugm/Ep_433_iTunesaqrfe.mp3
-    published_at: '2026-02-18T06:00:00+11:00'
   https://anchor.fm/s/fb539bd8/podcast/rss: &31
   - episode_title: Rethinking Vert & Fueling for Ultras
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/Rethinking-Vert--Fueling-for-Ultras-e3g5kn8
