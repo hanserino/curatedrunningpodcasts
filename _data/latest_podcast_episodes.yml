@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-09T22:19:49Z'
+generated_at: '2026-05-09T23:21:42Z'
 items:
+- podcast_title: Pace On Earth
+  podcast_page_url: "/pace-on-earth.html"
+  cover_image: https://static.libsyn.com/p/assets/a/e/a/d/aead861ffc08c97f16c3140a3186d450/paceonearthpodcast-20260314-6nfp9qaad0.jpg
+  feed_url: https://rss.libsyn.com/shows/105415/destinations/566693.xml
+  episode_title: "#377 - Pulsbaserad träning med Isabella Brandt från Aktivitus"
+  episode_url: https://paceonearth.libsyn.com/377-pulsbaserad-trning-med-isabella-brandt-frn-aktivitus
+  audio_url: https://traffic.libsyn.com/secure/paceonearth/Pulsbaserad-traning-med-Isabella-Brandt-fran-Aktivitus.mp3?dest-id=566693
+  published_at: '2026-05-09T23:00:00+00:00'
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public.html"
   cover_image: "/media/runningpublic.jpeg"
@@ -270,14 +278,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/040--An-eventful-beginning-of-2026-gare--preparazione--infortuni--processo-e3i68vc
   audio_url: https://anchor.fm/s/80b609c4/podcast/play/118743468/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-20%2F1261bdac-553f-f7e8-187e-d5eea479adf6.mp3
   published_at: '2026-04-20T15:23:09+00:00'
-- podcast_title: Pace On Earth
-  podcast_page_url: "/pace-on-earth.html"
-  cover_image: https://static.libsyn.com/p/assets/a/e/a/d/aead861ffc08c97f16c3140a3186d450/paceonearthpodcast-20260314-6nfp9qaad0.jpg
-  feed_url: https://rss.libsyn.com/shows/105415/destinations/566693.xml
-  episode_title: "#376 - Ultraträning med Christian Malmström"
-  episode_url: https://paceonearth.libsyn.com/376-ultratrning-med-christian-malmstrm
-  audio_url: https://traffic.libsyn.com/secure/paceonearth/ultratraning_med_christianmalmstrom.mp3?dest-id=566693
-  published_at: '2026-04-17T23:00:00+00:00'
 - podcast_title: Running long - A trail & ultra running talk
   podcast_page_url: "/running-long-a-trail-ultra-running-talk.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18822716/18822716-1636980720639-6edb9c080b25c.jpg
@@ -618,6 +618,10 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15172483-spring-energy-nutrition-integrity-and-transparency-226.mp3
     published_at: '2024-06-01T01:00:00-04:00'
   https://rss.libsyn.com/shows/105415/destinations/566693.xml: &4
+  - episode_title: "#377 - Pulsbaserad träning med Isabella Brandt från Aktivitus"
+    episode_url: https://paceonearth.libsyn.com/377-pulsbaserad-trning-med-isabella-brandt-frn-aktivitus
+    audio_url: https://traffic.libsyn.com/secure/paceonearth/Pulsbaserad-traning-med-Isabella-Brandt-fran-Aktivitus.mp3?dest-id=566693
+    published_at: '2026-05-09T23:00:00+00:00'
   - episode_title: "#376 - Ultraträning med Christian Malmström"
     episode_url: https://paceonearth.libsyn.com/376-ultratrning-med-christian-malmstrm
     audio_url: https://traffic.libsyn.com/secure/paceonearth/ultratraning_med_christianmalmstrom.mp3?dest-id=566693
@@ -703,11 +707,6 @@ episodes_by_feed:
     episode_url: https://paceonearth.libsyn.com/358-ls-energigtan-frgor-svar-om-energi-p-ultralopp
     audio_url: https://traffic.libsyn.com/secure/paceonearth/los-energigatan-fragor-och-svar.mp3?dest-id=566693
     published_at: '2025-05-16T23:00:00+00:00'
-  - episode_title: "#357 - Erik Olofsson, sub 2:30 på maran – mitt i uppladdningen
-      för SM i 24-timmars"
-    episode_url: https://paceonearth.libsyn.com/357-erik-olofsson-sub-230-p-maran-mitt-i-uppladdningen-fr-sm-i-24-timmars
-    audio_url: https://traffic.libsyn.com/secure/paceonearth/Erik-Olofsson-sub2-30-mot-24-h.mp3?dest-id=566693
-    published_at: '2025-04-12T05:47:00+00:00'
   https://rss.libsyn.com/shows/70944/destinations/299934.xml: &5
   - episode_title: SOUP Out
     episode_url: https://scienceofultra.libsyn.com/soup-out
