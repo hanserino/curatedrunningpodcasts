@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-09T01:40:51Z'
+generated_at: '2026-05-09T03:13:39Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public.html"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  episode_title: 'Episode 611: Q&A Session'
+  episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
+  audio_url: https://mcdn.podbean.com/mf/web/nbqjuhp77qc57dwb/2_clips_Edit_32_6kr5y.mp3
+  published_at: '2026-05-08T21:18:46-05:00'
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast.html"
   cover_image: "/media/insiderunning.jpeg"
@@ -95,14 +103,6 @@ items:
   episode_url: ''
   audio_url: https://www.buzzsprout.com/145661/episodes/19139949-252-petter-engdahl-boston-marathon-2026-planer-helsetrobbel-lopesko-carbs-state-of-the-sport.mp3
   published_at: '2026-05-07T13:00:00+02:00'
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public.html"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
-  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
-  audio_url: https://mcdn.podbean.com/mf/web/entnnvbjeth6yq4e/2_clips_Edit_31_6jjw1.mp3
-  published_at: '2026-05-06T21:28:36-05:00'
 - podcast_title: Trail Runner Nation
   podcast_page_url: "/trail-runner-nation.html"
   cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
@@ -3771,6 +3771,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
   https://feed.podbean.com/therunningpublic/feed.xml: &41
+  - episode_title: 'Episode 611: Q&A Session'
+    episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
+    audio_url: https://mcdn.podbean.com/mf/web/nbqjuhp77qc57dwb/2_clips_Edit_32_6kr5y.mp3
+    published_at: '2026-05-08T21:18:46-05:00'
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
     audio_url: https://mcdn.podbean.com/mf/web/entnnvbjeth6yq4e/2_clips_Edit_31_6jjw1.mp3
@@ -3848,10 +3852,6 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-properly-use-your-gps-watch/
     audio_url: https://mcdn.podbean.com/mf/web/saqdadzb8637reye/Sam_Konowitch_Edit9gtf2.mp3
     published_at: '2026-02-25T22:19:23-06:00'
-  - episode_title: 'Episode 592: Wrapping Up the Listener Questions'
-    episode_url: https://therunningpublic.podbean.com/e/episode-592-wrapping-up-the-listener-questions/
-    audio_url: https://mcdn.podbean.com/mf/web/rixjj6wdv23st75a/2_clips_Edit_21_9ackm.mp3
-    published_at: '2026-02-20T21:47:21-06:00'
   https://anchor.fm/s/f9f56780/podcast/rss: &42
   - episode_title: 28 - Rachel Entrekin
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/28---Rachel-Entrekin-e3ii0ln
