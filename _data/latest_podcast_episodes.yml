@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-12T15:03:38Z'
+generated_at: '2026-05-12T16:50:01Z'
 items:
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast.html"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  episode_title: Rest Day | Rachel Entrekin Interview & Cocodona 250 Recap
+  episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-rachel-entrekin-interview-cocodona-250-recap
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/RDL_0511.mp3?dest-id=1746794
+  published_at: '2026-05-12T15:39:00+00:00'
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1522497/1522497-1710251881490-4b26d229f6ddb.jpg
@@ -202,15 +210,6 @@ items:
   episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-76-530-gap-for-50k-jim-in-states-and-do-we-know-who-maxjolliiffeunsolicitedmemes-is
   audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._76.mp3?dest-id=4343338
   published_at: '2026-05-04T14:45:00+00:00'
-- podcast_title: The Freetrail Podcast
-  podcast_page_url: "/the-freetrail-podcast.html"
-  cover_image: "/media/freetrail2.jpeg"
-  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  episode_title: Rest Day Live | Jim Walmsley Interview, Golden Ticket Schedule, &
-    Transvulcania Preview
-  episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-live-jim-walmsley-interview-golden-ticket-schedule-transvulcania-preview
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/rdl_0503.mp3?dest-id=1746794
-  published_at: '2026-05-04T03:35:00+00:00'
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
   cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
@@ -2648,6 +2647,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._57.5_-_101025_7.25PM.mp3?dest-id=4343338
     published_at: '2025-10-11T01:07:00+00:00'
   https://rss.libsyn.com/shows/235580/destinations/1746794.xml: &28
+  - episode_title: Rest Day | Rachel Entrekin Interview & Cocodona 250 Recap
+    episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-rachel-entrekin-interview-cocodona-250-recap
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/RDL_0511.mp3?dest-id=1746794
+    published_at: '2026-05-12T15:39:00+00:00'
   - episode_title: Rest Day Live | Jim Walmsley Interview, Golden Ticket Schedule,
       & Transvulcania Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-live-jim-walmsley-interview-golden-ticket-schedule-transvulcania-preview
@@ -2733,11 +2736,6 @@ episodes_by_feed:
     episode_url: https://thewellwithdylanbowman.libsyn.com/jacob-banta-golden-tickets-brain-injury-being-patient-going-pro
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Jacob_Banta__Golden_Tickets_Brain_Injury_Being_Patient__Going_Pro.mp3?dest-id=1746794
     published_at: '2026-04-02T12:00:00+00:00'
-  - episode_title: Rest Day | Rachel Entrekin Interview, Francois D'Haene's 2026 Season
-      & Free Agency News
-    episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-rachel-entrekin-interview-francois-dhaenes-2026-season-free-agency-news
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Rest_Day__Rachel_Entrekin_Interview_Francois_DHaenes_2026_Season__Free_Agency_News.mp3?dest-id=1746794
-    published_at: '2026-03-31T12:00:00+00:00'
   https://media.rss.com/coffeeclub/feed.xml: &29
   - episode_title: Why Rory Linkletter did Triples, Uphill Tempos, and Double Threshold
       to run 2:06 at Boston...
