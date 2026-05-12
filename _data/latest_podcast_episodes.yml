@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-12T17:45:35Z'
+generated_at: '2026-05-12T18:44:14Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
+  episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a02f84355b69e7f2a0d2ad2.mp3
+  published_at: '2026-05-12T17:54:42+00:00'
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast.html"
   cover_image: "/media/freetrail2.jpeg"
@@ -127,14 +135,6 @@ items:
   episode_url: https://rss.com/podcasts/coffeeclub/2802690
   audio_url: https://content.rss.com/episodes/81443/2802690/coffeeclub/2026_05_07_15_42_22_094dfe7e-fa89-44ed-a136-e8e70824e7c3.mp3
   published_at: '2026-05-07T20:15:00+00:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: 'Centurion Coaching Podcast: Imo Boddy'
-  episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fcbe35e1344c7f0824eb74.mp3
-  published_at: '2026-05-07T16:50:43+00:00'
 - podcast_title: The Real Science Of Sports
   podcast_page_url: "/the-real-science-of-sports.html"
   cover_image: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1764253945895-a1ed9fa9-2a2e-4594-8b95-1aba16461fd4.jpeg
@@ -3331,6 +3331,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_S1E8_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-04-25T07:01:00+00:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &36
+  - episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
+    episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a02f84355b69e7f2a0d2ad2.mp3
+    published_at: '2026-05-12T17:54:42+00:00'
   - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69fcbe35e1344c7f0824eb74.mp3
@@ -3412,10 +3416,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/interview-damian-hall-and-the-barkley-marathons-iii
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6994c48aea325f1c25a3320e.mp3
     published_at: '2026-02-17T19:50:28+00:00'
-  - episode_title: 'Weekly Ep. 23: Black Canyon | One Slam | Tarawera |'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep-23-black-canyon-or-one-slam-or-tarawera-or
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/698f2aea0cde33cc7e027eaa.mp3
-    published_at: '2026-02-13T13:46:42+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &37
   - episode_title: Building a Life Around the Process and Choosing Hard Things with
       Joe Corcione
