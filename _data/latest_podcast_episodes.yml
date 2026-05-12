@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-12T18:44:14Z'
+generated_at: '2026-05-12T19:37:35Z'
 items:
+- podcast_title: Uphill Athlete
+  podcast_page_url: "/uphill-athlete.html"
+  cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
+  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
+  episode_title: Muscular Endurance Training with Uphill Athlete Coaches
+  episode_url: https://zencastr.com/z/_mCbGJX0
+  audio_url: https://redirect.zencastr.com/r/episode/6a037b3f5c2897a3798fef77/size/97963333/video-files/635358be4592c880860238fe/84c31e4b-c614-4c59-9e21-448987461e5f.mp4
+  published_at: '2026-05-12T19:10:55+00:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -185,14 +193,6 @@ items:
   episode_url: https://springsnyggt.libsyn.com/336-spring-snabbare-med-andreas-almgren
   audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_6_maj.mp3?dest-id=1729274
   published_at: '2026-05-06T01:00:00+00:00'
-- podcast_title: Uphill Athlete
-  podcast_page_url: "/uphill-athlete.html"
-  cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
-  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
-  episode_title: 'Voice of the Mountains: Season Two Recap'
-  episode_url: https://zencastr.com/z/PbWFmrHu
-  audio_url: https://redirect.zencastr.com/r/episode/69fa519ba7fb78f733e2730a/size/91886214/video-files/635358be4592c880860238fe/234734f8-a394-48a2-88ae-024a87e7dd2c.mp4
-  published_at: '2026-05-05T20:30:00+00:00'
 - podcast_title: The Albon Way
   podcast_page_url: "/the-albon-way.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42065606/42065606-1728050335744-df8997240c2de.jpg
@@ -2189,6 +2189,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_317.mp3?dest-id=1729274
     published_at: '2025-12-24T02:00:00+00:00'
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &23
+  - episode_title: Muscular Endurance Training with Uphill Athlete Coaches
+    episode_url: https://zencastr.com/z/_mCbGJX0
+    audio_url: https://redirect.zencastr.com/r/episode/6a037b3f5c2897a3798fef77/size/97963333/video-files/635358be4592c880860238fe/84c31e4b-c614-4c59-9e21-448987461e5f.mp4
+    published_at: '2026-05-12T19:10:55+00:00'
   - episode_title: 'Voice of the Mountains: Season Two Recap'
     episode_url: https://zencastr.com/z/PbWFmrHu
     audio_url: https://redirect.zencastr.com/r/episode/69fa519ba7fb78f733e2730a/size/91886214/video-files/635358be4592c880860238fe/234734f8-a394-48a2-88ae-024a87e7dd2c.mp4
@@ -2270,10 +2274,6 @@ episodes_by_feed:
     episode_url: https://zencastr.com/z/4eqW36RP
     audio_url: https://redirect.zencastr.com/r/episode/68e896d087a8cc808dfca548/size/1099611094/video-files/635358be4592c880860238fe/27e0510d-8cbb-4c5f-8819-46bb939841ca.mp4
     published_at: '2025-10-14T11:00:00+00:00'
-  - episode_title: 'Voice of the Mountains: To See the Moment with Greg Penner'
-    episode_url: https://zencastr.com/z/0kk7k4e7
-    audio_url: https://redirect.zencastr.com/r/episode/68dee09b70510973e3004320/size/910998411/video-files/635358be4592c880860238fe/e60ea428-b326-4e07-b18d-d7884fbec662.mp4
-    published_at: '2025-10-07T11:00:00+00:00'
   https://anchor.fm/s/db96fa60/podcast/rss: &24
   - episode_title: 'Makena Morley Is All In: New Coach, Missoula Move & Canyons 50K
       Course Record'
