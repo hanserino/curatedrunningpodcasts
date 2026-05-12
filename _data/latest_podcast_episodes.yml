@@ -1,6 +1,22 @@
 ---
-generated_at: '2026-05-12T07:07:51Z'
+generated_at: '2026-05-12T09:05:33Z'
 items:
+- podcast_title: Trail Society
+  podcast_page_url: "/trail-society.html"
+  cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
+  feed_url: https://feeds.captivate.fm/trail-society/
+  episode_title: 'Episode 133: Why staying curious keeps Jenny Quilty racing fast'
+  episode_url: https://trail-society.captivate.fm
+  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/e929e4dd-fbae-4476-99e6-3b9b970fa4ea.mp3
+  published_at: '2026-05-12T03:15:00-04:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Swiss Canyon Trail Elites | History Made at Cocodona 250
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Elites--History-Made-at-Cocodona-250-e3j80g1
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119848897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423963840-44100-2-694a94ce0e738.mp3
+  published_at: '2026-05-12T05:00:01+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg
@@ -176,23 +192,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/309--The-Marathon-that-Changed-Running--Ultra-GOAT-to-Western-States--Misconceptions-about-Training-Volume--A-Supershoe-Lawsuit--and-A-Hydration-Study-e3itn7j
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/119511731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F8bb77138-7be7-7253-526c-8ebe1817f613.mp3
   published_at: '2026-05-05T12:29:36+00:00'
-- podcast_title: Trail Society
-  podcast_page_url: "/trail-society.html"
-  cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
-  feed_url: https://feeds.captivate.fm/trail-society/
-  episode_title: 'Episode 132: Solving the hot weather hydration and fueling puzzle'
-  episode_url: https://trail-society.captivate.fm
-  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/577fb5ba-dd17-4b11-a894-a529feae1dd1.mp3
-  published_at: '2026-05-05T03:15:00-04:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: The Hardest Ultra on Earth | Prototype Shoes at Western States |
-    Walmsley's Wildcard
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/The-Hardest-Ultra-on-Earth--Prototype-Shoes-at-Western-States--Walmsleys-Wildcard-e3isuui
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119486866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423471468-44100-2-7bf57190117a4.mp3
-  published_at: '2026-05-05T05:00:01+00:00'
 - podcast_title: The Boulder Boys
   podcast_page_url: "/the-boulder-boys.html"
   cover_image: https://static.libsyn.com/p/assets/7/8/6/b/786b742f8039e70ae55e3c100dce7605/IMG_2262_3.png
@@ -1333,6 +1332,10 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_Christmas_2025.mp3?dest-id=142179
     published_at: '2025-12-26T20:33:00+00:00'
   https://feeds.captivate.fm/trail-society/: &12
+  - episode_title: 'Episode 133: Why staying curious keeps Jenny Quilty racing fast'
+    episode_url: https://trail-society.captivate.fm
+    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/e929e4dd-fbae-4476-99e6-3b9b970fa4ea.mp3
+    published_at: '2026-05-12T03:15:00-04:00'
   - episode_title: 'Episode 132: Solving the hot weather hydration and fueling puzzle'
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/577fb5ba-dd17-4b11-a894-a529feae1dd1.mp3
@@ -1423,11 +1426,6 @@ episodes_by_feed:
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/3a8f02ec-05c2-40ef-b919-bc932f5ee87e.mp3
     published_at: '2025-12-16T13:06:00-04:00'
-  - episode_title: 'Episode 114. UTCT Deep Dive: Training, Travel Chaos, and Race
-      Week Curveballs'
-    episode_url: https://trail-society.captivate.fm
-    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/8f8f1c48-69f7-4ede-bc18-a91f5d048bfa.mp3
-    published_at: '2025-12-02T17:16:00-04:00'
   https://anchor.fm/s/70c9c5f0/podcast/rss: &13
   - episode_title: '185. Abby Hall | From Training to Reality: What Trail Running
       Actually Feels Like'
@@ -3069,6 +3067,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &33
+  - episode_title: Swiss Canyon Trail Elites | History Made at Cocodona 250
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Elites--History-Made-at-Cocodona-250-e3j80g1
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119848897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423963840-44100-2-694a94ce0e738.mp3
+    published_at: '2026-05-12T05:00:01+00:00'
   - episode_title: The Hardest Ultra on Earth | Prototype Shoes at Western States
       | Walmsley's Wildcard
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/The-Hardest-Ultra-on-Earth--Prototype-Shoes-at-Western-States--Walmsleys-Wildcard-e3isuui
@@ -3153,11 +3155,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Strava-Stats--World-Trail-Majors--UTMB-2025-Updates-e3cnalg
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113010800/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-23%2F414869236-44100-2-8edd866aeede8.mp3
     published_at: '2025-12-23T18:00:00+00:00'
-  - episode_title: TransLantau by UTMB Winner on Pro Running, YouTube & Longevity
-      — With Harry Jones
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/TransLantau-by-UTMB-Winner-on-Pro-Running--YouTube--Longevity--With-Harry-Jones-e3cdk79
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/112692905/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-16%2F414461132-44100-2-81af0d72e9dbd.mp3
-    published_at: '2025-12-18T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &34
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel,
       løpesko, carbs & state of the sport"
