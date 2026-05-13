@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-13T03:15:09Z'
+generated_at: '2026-05-13T05:23:29Z'
 items:
+- podcast_title: Course Equipe
+  podcast_page_url: "/course-equipe.html"
+  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  episode_title: 'Albane Duchemin : on lui a dit qu''elle ne courrait plus jamais'
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a03123e53be193dbdb10a41/media.mp3
+  published_at: '2026-05-13T03:58:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
@@ -83,15 +91,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Humble---Its-Not-About-The-Result-e3j60ag
   audio_url: https://anchor.fm/s/eb00f12c/podcast/play/119783184/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-10%2F423876042-44100-2-3ca533199a1d5.mp3
   published_at: '2026-05-11T10:00:00+00:00'
-- podcast_title: Course Equipe
-  podcast_page_url: "/course-equipe.html"
-  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  episode_title: "[EXTRAIT] Albane Duchemin : on lui a dit qu'elle ne courrait plus
-    jamais"
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69f23c3913ce2999f41691a2/media.mp3
-  published_at: '2026-05-11T03:57:00+00:00'
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
   cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
@@ -2366,6 +2365,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112521688/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-12%2F414242537-44100-2-770310e934878.mp3
     published_at: '2025-12-12T18:19:36+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &25
+  - episode_title: 'Albane Duchemin : on lui a dit qu''elle ne courrait plus jamais'
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a03123e53be193dbdb10a41/media.mp3
+    published_at: '2026-05-13T03:58:00+00:00'
   - episode_title: "[EXTRAIT] Albane Duchemin : on lui a dit qu'elle ne courrait plus
       jamais"
     episode_url: https://courseepique.fr/
@@ -2458,11 +2461,6 @@ episodes_by_feed:
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69c04c3c62f6c66afe5e2495/media.mp3
     published_at: '2026-03-23T04:58:00+00:00'
-  - episode_title: "[EXTRAIT] Le grand débrief du Salomon EcoTrail Paris : Sissi Cussot,
-      Théo Le Boudec et Romain Wyndaele"
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69bd496b1a160b44dba3dfa4/media.mp3
-    published_at: '2026-03-22T04:58:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &26
   - episode_title: Dans l'Enfer du Surentraînement / le Récit de @JB_Tri_off
     episode_url: ''
