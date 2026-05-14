@@ -1,6 +1,22 @@
 ---
-generated_at: '2026-05-14T21:31:30Z'
+generated_at: '2026-05-14T22:29:01Z'
 items:
+- podcast_title: Breaking Marathon Limits
+  podcast_page_url: "/breaking-marathon-limits.html"
+  cover_image: https://storage.buzzsprout.com/k3i053javtz14cg5y4b4eqkkev13?.jpg
+  feed_url: https://rss.buzzsprout.com/299975.rss
+  episode_title: EP136 - Konkurransesesong
+  episode_url: ''
+  audio_url: https://www.buzzsprout.com/299975/episodes/19175555-ep136-konkurransesesong.mp3
+  published_at: '2026-05-15T00:00:00+02:00'
+- podcast_title: Trail Runner Nation
+  podcast_page_url: "/trail-runner-nation.html"
+  cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
+  feed_url: https://rss.libsyn.com/shows/44345/destinations/142179.xml
+  episode_title: 'EP 781: The Finish Line That Changed Everything'
+  episode_url: https://trailrunnernation.libsyn.com/ep-781-the-finish-line-that-changed-everything
+  audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Brian_Morrison.mp3?dest-id=142179
+  published_at: '2026-05-14T21:43:00+00:00'
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast.html"
   cover_image: "/media/freetrail2.jpeg"
@@ -26,15 +42,6 @@ items:
   episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
   audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a059ccc18dadc4e3e8cbd35.mp3
   published_at: '2026-05-14T10:04:26+00:00'
-- podcast_title: Breaking Marathon Limits
-  podcast_page_url: "/breaking-marathon-limits.html"
-  cover_image: https://storage.buzzsprout.com/k3i053javtz14cg5y4b4eqkkev13?.jpg
-  feed_url: https://rss.buzzsprout.com/299975.rss
-  episode_title: 'Rasmus på Loffen 5.0 #3: Recap fra Holmenkollstafetten og perseforsøk
-    på 3000m!'
-  episode_url: ''
-  audio_url: https://www.buzzsprout.com/299975/episodes/19175457-rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m.mp3
-  published_at: '2026-05-14T11:00:00+02:00'
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us.html"
   cover_image: "/media/nobodyaskedus.jpg"
@@ -178,14 +185,6 @@ items:
   episode_url: ''
   audio_url: https://www.buzzsprout.com/145661/episodes/19139949-252-petter-engdahl-boston-marathon-2026-planer-helsetrobbel-lopesko-carbs-state-of-the-sport.mp3
   published_at: '2026-05-07T13:00:00+02:00'
-- podcast_title: Trail Runner Nation
-  podcast_page_url: "/trail-runner-nation.html"
-  cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
-  feed_url: https://rss.libsyn.com/shows/44345/destinations/142179.xml
-  episode_title: 'EP 780: The Woman Who Ran 600 Miles'
-  episode_url: https://trailrunnernation.libsyn.com/ep-780-the-woman-who-ran-600-miles
-  audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Meg_Eckart_2026.mp3?dest-id=142179
-  published_at: '2026-05-06T20:59:00+00:00'
 - podcast_title: The Way Of The Runner
   podcast_page_url: "/the-way-of-the-runner.html"
   cover_image: https://static.libsyn.com/p/assets/0/4/2/e/042eb98c1dbecc0b/the-way-of-the-runner-podcast_22.png
@@ -345,6 +344,10 @@ items:
   published_at: '2021-10-06T14:51:46+00:00'
 episodes_by_feed:
   https://rss.buzzsprout.com/299975.rss: &1
+  - episode_title: EP136 - Konkurransesesong
+    episode_url: ''
+    audio_url: https://www.buzzsprout.com/299975/episodes/19175555-ep136-konkurransesesong.mp3
+    published_at: '2026-05-15T00:00:00+02:00'
   - episode_title: 'Rasmus på Loffen 5.0 #3: Recap fra Holmenkollstafetten og perseforsøk
       på 3000m!'
     episode_url: ''
@@ -424,10 +427,6 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://www.buzzsprout.com/299975/episodes/18850005-breaking-boston-6-prestasjonsernaering.mp3
     published_at: '2026-03-15T21:00:00+01:00'
-  - episode_title: EP127 - Kong Ole Einar av Simostranda
-    episode_url: ''
-    audio_url: https://www.buzzsprout.com/299975/episodes/18834710-ep127-kong-ole-einar-av-simostranda.mp3
-    published_at: '2026-03-13T00:00:00+01:00'
   https://rss.libsyn.com/shows/456963/destinations/3847590.xml: &2
   - episode_title: 'AJW Unplugged: History and Reflection on the Golden Ticket Series,
       Cocodona Thoughts and Predictions, and a Personal Update'
@@ -1248,6 +1247,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/masterfile-nicktiller.mp3?dest-id=1733936
     published_at: '2023-09-05T11:30:00+00:00'
   https://rss.libsyn.com/shows/44345/destinations/142179.xml: &11
+  - episode_title: 'EP 781: The Finish Line That Changed Everything'
+    episode_url: https://trailrunnernation.libsyn.com/ep-781-the-finish-line-that-changed-everything
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Brian_Morrison.mp3?dest-id=142179
+    published_at: '2026-05-14T21:43:00+00:00'
   - episode_title: 'EP 780: The Woman Who Ran 600 Miles'
     episode_url: https://trailrunnernation.libsyn.com/ep-780-the-woman-who-ran-600-miles
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Meg_Eckart_2026.mp3?dest-id=142179
@@ -1329,11 +1332,6 @@ episodes_by_feed:
     episode_url: https://trailrunnernation.libsyn.com/ep-762-from-webster-to-singletrack-the-trail-runner-dictionary-game
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_Dictionary_game_2026.mp3?dest-id=142179
     published_at: '2026-01-01T22:42:00+00:00'
-  - episode_title: 'EP 761: Take This 33-Question Test to See What Kind of Trail Runner
-      You Really Are'
-    episode_url: https://trailrunnernation.libsyn.com/ep-761-take-this-33-question-test-to-see-what-kind-of-trail-runner-you-really-are
-    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_Christmas_2025.mp3?dest-id=142179
-    published_at: '2025-12-26T20:33:00+00:00'
   https://feeds.captivate.fm/trail-society/: &12
   - episode_title: 'Episode 133: Why staying curious keeps Jenny Quilty racing fast'
     episode_url: https://trail-society.captivate.fm
