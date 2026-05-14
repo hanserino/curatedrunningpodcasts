@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-14T11:39:24Z'
+generated_at: '2026-05-14T12:45:16Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public.html"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  episode_title: 'Training Tuesday: Hyrox with Lizzie May'
+  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
+  audio_url: https://mcdn.podbean.com/mf/web/wnr3charkdciq7ph/Lizzie-May_Edita12we.mp3
+  published_at: '2026-05-14T07:11:31-05:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -124,14 +132,6 @@ items:
   episode_url: https://paceonearth.libsyn.com/377-pulsbaserad-trning-med-isabella-brandt-frn-aktivitus
   audio_url: https://traffic.libsyn.com/secure/paceonearth/Pulsbaserad-traning-med-Isabella-Brandt-fran-Aktivitus.mp3?dest-id=566693
   published_at: '2026-05-09T23:00:00+00:00'
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public.html"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  episode_title: 'Episode 611: Q&A Session'
-  episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
-  audio_url: https://mcdn.podbean.com/mf/web/nbqjuhp77qc57dwb/2_clips_Edit_32_6kr5y.mp3
-  published_at: '2026-05-08T21:18:46-05:00'
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
@@ -3763,6 +3763,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
   https://feed.podbean.com/therunningpublic/feed.xml: &41
+  - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
+    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
+    audio_url: https://mcdn.podbean.com/mf/web/wnr3charkdciq7ph/Lizzie-May_Edita12we.mp3
+    published_at: '2026-05-14T07:11:31-05:00'
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
     audio_url: https://mcdn.podbean.com/mf/web/nbqjuhp77qc57dwb/2_clips_Edit_32_6kr5y.mp3
@@ -3840,10 +3844,6 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/episode-594-take2trail-jes-parker/
     audio_url: https://mcdn.podbean.com/mf/web/skcx8crryykipd9x/3_clips_Edit_9_91vxo.mp3
     published_at: '2026-02-27T18:14:24-06:00'
-  - episode_title: 'Training Tuesday: How to Properly Use Your GPS Watch'
-    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-properly-use-your-gps-watch/
-    audio_url: https://mcdn.podbean.com/mf/web/saqdadzb8637reye/Sam_Konowitch_Edit9gtf2.mp3
-    published_at: '2026-02-25T22:19:23-06:00'
   https://anchor.fm/s/f9f56780/podcast/rss: &42
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
