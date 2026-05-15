@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-15T11:42:16Z'
+generated_at: '2026-05-15T12:45:03Z'
 items:
+- podcast_title: For The Long Run
+  podcast_page_url: "/for-the-long-run.html"
+  cover_image: "/media/forthelongrun.jpeg"
+  feed_url: https://anchor.fm/s/81032c4/podcast/rss
+  episode_title: What Endurance Athletes Get Wrong About Health with Dr. Teddy Bross
+  episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/What-Endurance-Athletes-Get-Wrong-About-Health-with-Dr--Teddy-Bross-e3jdiq4
+  audio_url: https://anchor.fm/s/81032c4/podcast/play/120031492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F53c450b3-764c-b514-05d4-7d9dfc388761.mp3
+  published_at: '2026-05-15T11:28:49+00:00'
 - podcast_title: The Real Science Of Sports
   podcast_page_url: "/the-real-science-of-sports.html"
   cover_image: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1764253945895-a1ed9fa9-2a2e-4594-8b95-1aba16461fd4.jpeg
@@ -157,15 +165,6 @@ items:
   episode_url: https://paceonearth.libsyn.com/377-pulsbaserad-trning-med-isabella-brandt-frn-aktivitus
   audio_url: https://traffic.libsyn.com/secure/paceonearth/Pulsbaserad-traning-med-Isabella-Brandt-fran-Aktivitus.mp3?dest-id=566693
   published_at: '2026-05-09T23:00:00+00:00'
-- podcast_title: For The Long Run
-  podcast_page_url: "/for-the-long-run.html"
-  cover_image: "/media/forthelongrun.jpeg"
-  feed_url: https://anchor.fm/s/81032c4/podcast/rss
-  episode_title: Building a Life Around the Process and Choosing Hard Things with
-    Joe Corcione
-  episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Building-a-Life-Around-the-Process-and-Choosing-Hard-Things-with-Joe-Corcione-e3ivpkt
-  audio_url: https://anchor.fm/s/81032c4/podcast/play/119579741/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-6%2F8ccb2b35-89e9-359c-ad62-40ffc80e31e9.mp3
-  published_at: '2026-05-08T07:00:00+00:00'
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub.html"
   cover_image: https://media.rss.com/coffeeclub/20211105_155336_4773cbe93752e1ba1d2a4881a15daf14.jpg
@@ -3413,6 +3412,10 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6998337bd59ba9773b69c042.mp3
     published_at: '2026-02-20T10:20:32+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &37
+  - episode_title: What Endurance Athletes Get Wrong About Health with Dr. Teddy Bross
+    episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/What-Endurance-Athletes-Get-Wrong-About-Health-with-Dr--Teddy-Bross-e3jdiq4
+    audio_url: https://anchor.fm/s/81032c4/podcast/play/120031492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F53c450b3-764c-b514-05d4-7d9dfc388761.mp3
+    published_at: '2026-05-15T11:28:49+00:00'
   - episode_title: Building a Life Around the Process and Choosing Hard Things with
       Joe Corcione
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Building-a-Life-Around-the-Process-and-Choosing-Hard-Things-with-Joe-Corcione-e3ivpkt
@@ -3500,11 +3503,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/From-Gambling-Addiction-to-Ultra-Marathons-How-Running-Saved-Terence-Gerchberg-e3d0jnn
     audio_url: https://anchor.fm/s/81032c4/podcast/play/113314999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-31%2F415254590-44100-2-e19ee62af8f24.m4a
     published_at: '2026-01-02T11:00:00+00:00'
-  - episode_title: 'Don’t Fall for Sports Nutrition Myths: Stevie Lyn Smith on How
-      to ACTUALLY Fuel for Your Next Race'
-    episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dont-Fall-for-Sports-Nutrition-Myths-Stevie-Lyn-Smith-on-How-to-ACTUALLY-Fuel-for-Your-Next-Race-e3cii0m
-    audio_url: https://anchor.fm/s/81032c4/podcast/play/112854486/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-19%2F414667979-44100-2-6985addec2953.m4a
-    published_at: '2025-12-26T11:00:00+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &38
   - episode_title: 4.20. The Colt and Cocodona Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/420-the-colt-and-cocodona-episode
