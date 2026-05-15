@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-15T19:36:25Z'
+generated_at: '2026-05-15T20:31:20Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast.html"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  episode_title: 'Interview: Conner Mantz'
+  episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
+  audio_url: https://mcdn.podbean.com/mf/web/wh8v4imaynmf5gnb/Conner_itunes6u1t7.mp3
+  published_at: '2026-05-16T06:00:00+10:00'
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub.html"
   cover_image: https://media.rss.com/coffeeclub/20211105_155336_4773cbe93752e1ba1d2a4881a15daf14.jpg
@@ -123,14 +131,6 @@ items:
   episode_url: https://springsnyggt.libsyn.com/337-carmens-framfart
   audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_snyggt_13maj.mp3?dest-id=1729274
   published_at: '2026-05-13T00:40:00+00:00'
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast.html"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  episode_title: '445: Lakeside:5 | Shanghai Diamond League Preview | Staying Motivated'
-  episode_url: https://insiderunningpodcast.podbean.com/e/445-lakeside5-shanghai-diamond-league-preview-staying-motivated/
-  audio_url: https://mcdn.podbean.com/mf/web/76mkvejg78nwnrjg/Ep_445_itunesbv70c.mp3
-  published_at: '2026-05-13T06:00:00+10:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
@@ -2819,6 +2819,10 @@ episodes_by_feed:
     audio_url: https://content.rss.com/episodes/81443/2384751/coffeeclub/2025_12_11_20_57_57_ad2a9f53-2242-47f0-a3bd-cbf662112059.mp3
     published_at: '2025-12-11T20:58:15+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &30
+  - episode_title: 'Interview: Conner Mantz'
+    episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
+    audio_url: https://mcdn.podbean.com/mf/web/wh8v4imaynmf5gnb/Conner_itunes6u1t7.mp3
+    published_at: '2026-05-16T06:00:00+10:00'
   - episode_title: '445: Lakeside:5 | Shanghai Diamond League Preview | Staying Motivated'
     episode_url: https://insiderunningpodcast.podbean.com/e/445-lakeside5-shanghai-diamond-league-preview-staying-motivated/
     audio_url: https://mcdn.podbean.com/mf/web/76mkvejg78nwnrjg/Ep_445_itunesbv70c.mp3
@@ -2900,10 +2904,6 @@ episodes_by_feed:
     episode_url: https://insiderunningpodcast.podbean.com/e/shoe-geeks-february-2026/
     audio_url: https://mcdn.podbean.com/mf/web/3tuez4n2rsy775m6/Shoe_Geeks_-_Feb_2026b42yl.m4a
     published_at: '2026-03-03T06:16:14+11:00'
-  - episode_title: 'Interview: Susan Hobson'
-    episode_url: https://insiderunningpodcast.podbean.com/e/interview-susan-hobson/
-    audio_url: https://mcdn.podbean.com/mf/web/skbzkf89qupw6w4h/Susan_Hobson8zqo8.mp3
-    published_at: '2026-02-28T07:37:03+11:00'
   https://anchor.fm/s/fb539bd8/podcast/rss: &31
   - episode_title: Rethinking Vert & Fueling for Ultras
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/Rethinking-Vert--Fueling-for-Ultras-e3g5kn8
