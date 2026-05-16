@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-16T01:41:06Z'
+generated_at: '2026-05-16T03:13:09Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public.html"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  episode_title: 'Episode 613: Superior 50k Preview!'
+  episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
+  audio_url: https://mcdn.podbean.com/mf/web/kem76ybeae5jmxcw/2_clips_Edit_33_a4p3z.mp3
+  published_at: '2026-05-15T21:36:09-05:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17231862/17231862-1647566431353-63702c31bcb9a.jpg
@@ -99,14 +107,6 @@ items:
   episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-transvulcania-recap-zegama-preview-golden-ticket-competitiveness-trail-grails
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Rest_Day__Transvulcania_Recap_Zegama_Preview_Golden_Ticket_Competitiveness__Trail_Grails.mp3?dest-id=1746794
   published_at: '2026-05-14T13:01:00+00:00'
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public.html"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  episode_title: 'Training Tuesday: Hyrox with Lizzie May'
-  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
-  audio_url: https://mcdn.podbean.com/mf/web/wnr3charkdciq7ph/Lizzie-May_Edita12we.mp3
-  published_at: '2026-05-14T07:11:31-05:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -3755,6 +3755,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
   https://feed.podbean.com/therunningpublic/feed.xml: &41
+  - episode_title: 'Episode 613: Superior 50k Preview!'
+    episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
+    audio_url: https://mcdn.podbean.com/mf/web/kem76ybeae5jmxcw/2_clips_Edit_33_a4p3z.mp3
+    published_at: '2026-05-15T21:36:09-05:00'
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
     audio_url: https://mcdn.podbean.com/mf/web/wnr3charkdciq7ph/Lizzie-May_Edita12we.mp3
@@ -3832,10 +3836,6 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/episode-595-zach-cygan/
     audio_url: https://mcdn.podbean.com/mf/web/qdb2dff85sx8vejn/3_clips_Edit_10_8u624.mp3
     published_at: '2026-03-05T08:47:56-06:00'
-  - episode_title: 'Episode 594: Take2Trail (Jes Parker)'
-    episode_url: https://therunningpublic.podbean.com/e/episode-594-take2trail-jes-parker/
-    audio_url: https://mcdn.podbean.com/mf/web/skcx8crryykipd9x/3_clips_Edit_9_91vxo.mp3
-    published_at: '2026-02-27T18:14:24-06:00'
   https://anchor.fm/s/f9f56780/podcast/rss: &42
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
