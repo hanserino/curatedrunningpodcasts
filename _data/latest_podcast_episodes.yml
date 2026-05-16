@@ -1,6 +1,15 @@
 ---
-generated_at: '2026-05-16T07:40:39Z'
+generated_at: '2026-05-16T08:41:13Z'
 items:
+- podcast_title: Crack A Brew With AJW
+  podcast_page_url: "/crack-a-brew-with-ajw.html"
+  cover_image: https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png
+  feed_url: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
+  episode_title: 'Holly Ranson: Golden Ticket Chase, Australian Trail Running Scene,
+    and Hopes and Dreams Going into Western States.'
+  episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/holly-ranson-golden-ticket-chase-australian-trail-running-scene-and-hopes-and-dreams-going-into-western-states
+  audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_w_Holly_Ranson.mp3?dest-id=3847590
+  published_at: '2026-05-16T08:00:00+00:00'
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public.html"
   cover_image: "/media/runningpublic.jpeg"
@@ -231,15 +240,6 @@ items:
   episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-76-530-gap-for-50k-jim-in-states-and-do-we-know-who-maxjolliiffeunsolicitedmemes-is
   audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._76.mp3?dest-id=4343338
   published_at: '2026-05-04T14:45:00+00:00'
-- podcast_title: Crack A Brew With AJW
-  podcast_page_url: "/crack-a-brew-with-ajw.html"
-  cover_image: https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png
-  feed_url: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
-  episode_title: 'AJW Unplugged: History and Reflection on the Golden Ticket Series,
-    Cocodona Thoughts and Predictions, and a Personal Update'
-  episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ajw-unplugged-history-and-reflection-on-the-golden-ticket-series-cocodona-thoughts-and-predictions-and-a-personal-update
-  audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/AJW_unplugged_s13.mp3?dest-id=3847590
-  published_at: '2026-05-02T08:20:00+00:00'
 - podcast_title: The Midpacker Podcast
   podcast_page_url: "/the-midpacker-podcast.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/38305897/38305897-1695240625477-9b1937958e362.jpg
@@ -424,6 +424,11 @@ episodes_by_feed:
     audio_url: https://www.buzzsprout.com/299975/episodes/18850005-breaking-boston-6-prestasjonsernaering.mp3
     published_at: '2026-03-15T21:00:00+01:00'
   https://rss.libsyn.com/shows/456963/destinations/3847590.xml: &2
+  - episode_title: 'Holly Ranson: Golden Ticket Chase, Australian Trail Running Scene,
+      and Hopes and Dreams Going into Western States.'
+    episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/holly-ranson-golden-ticket-chase-australian-trail-running-scene-and-hopes-and-dreams-going-into-western-states
+    audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_w_Holly_Ranson.mp3?dest-id=3847590
+    published_at: '2026-05-16T08:00:00+00:00'
   - episode_title: 'AJW Unplugged: History and Reflection on the Golden Ticket Series,
       Cocodona Thoughts and Predictions, and a Personal Update'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ajw-unplugged-history-and-reflection-on-the-golden-ticket-series-cocodona-thoughts-and-predictions-and-a-personal-update
@@ -519,11 +524,6 @@ episodes_by_feed:
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/leah-yingling-and-mike-mcmonagle-parenting-running-and-the-changing-media-landscape-in-trail-running
     audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Leah_and_Mike.mp3?dest-id=3847590
     published_at: '2025-10-04T05:38:00+00:00'
-  - episode_title: Abby and Cordis Hall -  Western States and the Fine Balance Between
-      Running and Living
-    episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/abby-and-cordis-hall-western-states-and-the-fine-balance-between-running-and-living
-    audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Abby__Cortis_Hall.mp3?dest-id=3847590
-    published_at: '2025-09-27T14:14:00+00:00'
   https://rss.buzzsprout.com/765419.rss: &3
   - episode_title: Koop AI, Unboxed
     episode_url: ''
