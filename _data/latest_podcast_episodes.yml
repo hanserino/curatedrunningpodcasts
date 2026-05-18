@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-18T03:16:47Z'
+generated_at: '2026-05-18T05:29:39Z'
 items:
+- podcast_title: Dans la Tête d’un Coureur
+  podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
+  cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
+  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
+  episode_title: Hugo Deck, la performance peut-elle rester un plaisir ?
+  episode_url: ''
+  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/309d162c-4cb2-4432-b927-140bc34560b5.mp3?_=1778841833
+  published_at: '2026-05-18T04:00:00+00:00'
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw.html"
   cover_image: https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png
@@ -75,14 +83,6 @@ items:
   episode_url: https://shows.acast.com/realscienceofsport/episodes/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussi
   audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a0626463fd6979bfc1cc386/media.mp3
   published_at: '2026-05-15T06:45:00+00:00'
-- podcast_title: Dans la Tête d’un Coureur
-  podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
-  cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
-  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
-  episode_title: 'Gobi : l’histoire du chien qui a bouleversé le monde du Trail'
-  episode_url: ''
-  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/3c204f8a-3789-4cbe-8895-97b61ef4474e.mp3?_=1776937863
-  published_at: '2026-05-15T03:49:00+00:00'
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
@@ -2458,6 +2458,10 @@ episodes_by_feed:
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69c04c3c62f6c66afe5e2495/media.mp3
     published_at: '2026-03-23T04:58:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &26
+  - episode_title: Hugo Deck, la performance peut-elle rester un plaisir ?
+    episode_url: ''
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/309d162c-4cb2-4432-b927-140bc34560b5.mp3?_=1778841833
+    published_at: '2026-05-18T04:00:00+00:00'
   - episode_title: 'Gobi : l’histoire du chien qui a bouleversé le monde du Trail'
     episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/3c204f8a-3789-4cbe-8895-97b61ef4474e.mp3?_=1776937863
@@ -2547,11 +2551,6 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/04aad387-4c2d-4d53-8687-0daac61db879.mp3?_=1774518743
     published_at: '2026-03-30T03:50:00+00:00'
-  - episode_title: 'Muscler ses pieds : pourquoi c’est essentiel (et comment bien
-      faire)'
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/f48a97cf-d3c9-4389-8e00-fb61854c9f51.mp3?_=1773405319
-    published_at: '2026-03-27T05:02:00+00:00'
   https://rss.libsyn.com/shows/506688/destinations/4343338.xml: &27
   - episode_title: Ep. 76  5:30 GAP for 50k!?, Jim in states, and do we know who @maxjolliffeunsolicitedmemes
       is?
