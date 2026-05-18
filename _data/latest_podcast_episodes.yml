@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-18T21:32:12Z'
+generated_at: '2026-05-18T22:25:55Z'
 items:
+- podcast_title: Ten Junk Miles
+  podcast_page_url: "/ten-junk-miles.html"
+  cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
+  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
+  episode_title: Meet The Nation 341 - Jon Krist and Kwik Trip 50K
+  episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
+  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0518_1605.mp3?dest-id=259001
+  published_at: '2026-05-18T21:51:00+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
@@ -84,14 +92,6 @@ items:
   episode_url: https://florisgierman.libsyn.com/127-jakob-ingebrigtsens-advice-to-run-faster-for-non-elites
   audio_url: https://traffic.libsyn.com/secure/florisgierman/Jakob_Ingebrigtsens_Advice_to_Run_Faster.mp3?dest-id=557444
   published_at: '2026-05-15T13:28:00+00:00'
-- podcast_title: Ten Junk Miles
-  podcast_page_url: "/ten-junk-miles.html"
-  cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
-  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
-  episode_title: Gang Show 257 - Kristin Napora and the Big Burrito
-  episode_url: https://tenjunkmiles.com/gang-show-257-kristin-napora-and-the-big-burrito
-  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_Napora.mp3?dest-id=259001
-  published_at: '2026-05-15T13:17:00+00:00'
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run.html"
   cover_image: "/media/forthelongrun.jpeg"
@@ -1063,6 +1063,10 @@ episodes_by_feed:
     audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/06/episode159.mp3
     published_at: '2024-06-20T21:00:09+00:00'
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &9
+  - episode_title: Meet The Nation 341 - Jon Krist and Kwik Trip 50K
+    episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
+    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0518_1605.mp3?dest-id=259001
+    published_at: '2026-05-18T21:51:00+00:00'
   - episode_title: Gang Show 257 - Kristin Napora and the Big Burrito
     episode_url: https://tenjunkmiles.com/gang-show-257-kristin-napora-and-the-big-burrito
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_Napora.mp3?dest-id=259001
@@ -1140,11 +1144,6 @@ episodes_by_feed:
     episode_url: https://tenjunkmiles.com/long-run-258-keira-henninger
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Keira_Henniger_Long_Run_Final.mp3?dest-id=259001
     published_at: '2026-03-06T16:25:00+00:00'
-  - episode_title: From Setback to Starting Line - Episode 2 - With Coach Liza Howard
-      and Michael Tulman, PT, DPT, CMTPT/DN, CFL1, USAW-L1
-    episode_url: https://tenjunkmiles.com/from-setback-to-starting-line-episode-2-with-coach-liza-howard-and-michael-tulman-pt-dpt-cmtptdn-cfl1-usaw-l1
-    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Injury_Coaching_Episode_2.mp3?dest-id=259001
-    published_at: '2026-02-25T14:18:00+00:00'
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &10
   - episode_title: Megan Boxall on running 200 marathons around the coast of Great
       Britain
