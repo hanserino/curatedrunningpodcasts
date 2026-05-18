@@ -1,6 +1,15 @@
 ---
-generated_at: '2026-05-18T05:29:39Z'
+generated_at: '2026-05-18T07:34:15Z'
 items:
+- podcast_title: Singletrack
+  podcast_page_url: "/singletrack.html"
+  cover_image: https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg
+  feed_url: https://rss.buzzsprout.com/1794638.rss
+  episode_title: Tove's Zegama Statement, Snowdonia and Rothrock Results, + Tahoe
+    200's Big Return (Singletrack News)
+  episode_url: ''
+  audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19193719-tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news.mp3
+  published_at: '2026-05-18T00:00:00-06:00'
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
   cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
@@ -182,14 +191,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Elites--History-Made-at-Cocodona-250-e3j80g1
   audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119848897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423963840-44100-2-694a94ce0e738.mp3
   published_at: '2026-05-12T05:00:01+00:00'
-- podcast_title: Singletrack
-  podcast_page_url: "/singletrack.html"
-  cover_image: https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg
-  feed_url: https://rss.buzzsprout.com/1794638.rss
-  episode_title: Rachel Entrekin | 2026 Cocodona 250 Post-Race Interview
-  episode_url: ''
-  audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19160809-rachel-entrekin-2026-cocodona-250-post-race-interview.mp3
-  published_at: '2026-05-11T16:00:00-06:00'
 - podcast_title: Women of Distance
   podcast_page_url: "/women-of-distance.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
@@ -785,6 +786,11 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/scienceofultra/Stop_Failing_Learn_to_Succeed.mp3?dest-id=299934
     published_at: '2020-09-09T18:08:18+00:00'
   https://rss.buzzsprout.com/1794638.rss: &6
+  - episode_title: Tove's Zegama Statement, Snowdonia and Rothrock Results, + Tahoe
+      200's Big Return (Singletrack News)
+    episode_url: ''
+    audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19193719-tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news.mp3
+    published_at: '2026-05-18T00:00:00-06:00'
   - episode_title: Rachel Entrekin | 2026 Cocodona 250 Post-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19160809-rachel-entrekin-2026-cocodona-250-post-race-interview.mp3
@@ -874,11 +880,6 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/18890031-chianti-recap-trail-house-project-golden-ticket-shakeups-singletrack-news.mp3
     published_at: '2026-03-23T00:00:00-06:00'
-  - episode_title: Is UTMB Still a Net Positive for Trail Running? James Elson Weighs
-      In (Sunday Conversation)
-    episode_url: ''
-    audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/18884642-is-utmb-still-a-net-positive-for-trail-running-james-elson-weighs-in-sunday-conversation.mp3
-    published_at: '2026-03-22T00:00:00-06:00'
   https://anchor.fm/s/9abbbe4/podcast/rss: &7
   - episode_title: 310. The Fatigue Resistance Episode! Rachel Entrekin Makes History
       at Cocodona, Women v. Men Durability, Fueling and the Central Nervous System,
