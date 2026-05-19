@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-19T19:38:16Z'
+generated_at: '2026-05-19T20:40:37Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast.html"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
+  episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
+  audio_url: https://mcdn.podbean.com/mf/web/e3b5wwnwekkxq432/Ep_446_iTunes7e9vp.mp3
+  published_at: '2026-05-20T06:00:00+10:00'
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1522497/1522497-1710251881490-4b26d229f6ddb.jpg
@@ -27,15 +35,6 @@ items:
   episode_url: https://trail-society.captivate.fm
   audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/21c0e9b9-849b-4859-8db9-dba65afb4795.mp3
   published_at: '2026-05-19T03:15:00-04:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's Zegama
-    Record | Croft vs Yao at UTA
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120195864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424428910-44100-2-9f8ddc8dae985.mp3
-  published_at: '2026-05-19T05:00:01+00:00'
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
   cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
@@ -103,14 +102,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/141--Sallys-COCODONA-250-Race-Recap-e3je3mr
   audio_url: https://anchor.fm/s/674e5298/podcast/play/120048795/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F424235006-44100-2-dacae04727e45.mp3
   published_at: '2026-05-16T00:20:26+00:00'
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast.html"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  episode_title: 'Interview: Conner Mantz'
-  episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
-  audio_url: https://mcdn.podbean.com/mf/web/wh8v4imaynmf5gnb/Conner_itunes6u1t7.mp3
-  published_at: '2026-05-16T06:00:00+10:00'
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub.html"
   cover_image: https://media.rss.com/coffeeclub/20211105_155336_4773cbe93752e1ba1d2a4881a15daf14.jpg
@@ -200,6 +191,14 @@ items:
   episode_url: https://zencastr.com/z/_mCbGJX0
   audio_url: https://redirect.zencastr.com/r/episode/6a037b3f5c2897a3798fef77/size/97963333/video-files/635358be4592c880860238fe/84c31e4b-c614-4c59-9e21-448987461e5f.mp4
   published_at: '2026-05-12T19:10:55+00:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Swiss Canyon Trail Elites | History Made at Cocodona 250
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Elites--History-Made-at-Cocodona-250-e3j80g1
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119848897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423963840-44100-2-694a94ce0e738.mp3
+  published_at: '2026-05-12T05:00:01+00:00'
 - podcast_title: Pace On Earth
   podcast_page_url: "/pace-on-earth.html"
   cover_image: https://static.libsyn.com/p/assets/a/e/a/d/aead861ffc08c97f16c3140a3186d450/paceonearthpodcast-20260314-6nfp9qaad0.jpg
@@ -2818,6 +2817,10 @@ episodes_by_feed:
     audio_url: https://content.rss.com/episodes/81443/2384751/coffeeclub/2025_12_11_20_57_57_ad2a9f53-2242-47f0-a3bd-cbf662112059.mp3
     published_at: '2025-12-11T20:58:15+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &30
+  - episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
+    episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
+    audio_url: https://mcdn.podbean.com/mf/web/e3b5wwnwekkxq432/Ep_446_iTunes7e9vp.mp3
+    published_at: '2026-05-20T06:00:00+10:00'
   - episode_title: 'Interview: Conner Mantz'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
     audio_url: https://mcdn.podbean.com/mf/web/wh8v4imaynmf5gnb/Conner_itunes6u1t7.mp3
@@ -2899,10 +2902,6 @@ episodes_by_feed:
     episode_url: https://insiderunningpodcast.podbean.com/e/435-hobart-track-classic-tokyo-marathon-asics-superblast-3-review/
     audio_url: https://mcdn.podbean.com/mf/web/rkimhchzh7z7redg/Ep_435_early7r3fl.mp3
     published_at: '2026-03-04T06:00:00+11:00'
-  - episode_title: Shoe Geeks - February 2026
-    episode_url: https://insiderunningpodcast.podbean.com/e/shoe-geeks-february-2026/
-    audio_url: https://mcdn.podbean.com/mf/web/3tuez4n2rsy775m6/Shoe_Geeks_-_Feb_2026b42yl.m4a
-    published_at: '2026-03-03T06:16:14+11:00'
   https://anchor.fm/s/fb539bd8/podcast/rss: &31
   - episode_title: Rethinking Vert & Fueling for Ultras
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/Rethinking-Vert--Fueling-for-Ultras-e3g5kn8
@@ -3059,11 +3058,6 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &33
-  - episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's
-      Zegama Record | Croft vs Yao at UTA
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120195864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424428910-44100-2-9f8ddc8dae985.mp3
-    published_at: '2026-05-19T05:00:01+00:00'
   - episode_title: Swiss Canyon Trail Elites | History Made at Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Elites--History-Made-at-Cocodona-250-e3j80g1
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119848897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423963840-44100-2-694a94ce0e738.mp3
@@ -3148,6 +3142,10 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Highs--Lows-of-the-2025-Trail-Running-Season-e3ctp4r
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113222235/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-29%2F415136997-44100-2-1217212c3032a.mp3
     published_at: '2025-12-29T18:00:00+00:00'
+  - episode_title: Strava Stats, World Trail Majors & UTMB 2025 Updates
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Strava-Stats--World-Trail-Majors--UTMB-2025-Updates-e3cnalg
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113010800/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-23%2F414869236-44100-2-8edd866aeede8.mp3
+    published_at: '2025-12-23T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &34
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel,
       løpesko, carbs & state of the sport"
