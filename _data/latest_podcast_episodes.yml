@@ -1,6 +1,23 @@
 ---
-generated_at: '2026-05-20T07:23:19Z'
+generated_at: '2026-05-20T09:16:11Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us.html"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  episode_title: 4.21. The Hate Mail Episode
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_21_-_Audio.mp3?dest-id=3833748
+  published_at: '2026-05-20T09:00:00+00:00'
+- podcast_title: The Real Science Of Sports
+  podcast_page_url: "/the-real-science-of-sports.html"
+  cover_image: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1764253945895-a1ed9fa9-2a2e-4594-8b95-1aba16461fd4.jpeg
+  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
+  episode_title: Caution for Contact Sport Athletes and CTE / Women's Rugby Six Nations
+    and Smaller Balls / Worst Sport to be Elite at?
+  episode_url: https://shows.acast.com/realscienceofsport/episodes/caution-for-contact-sport-athletes-and-cte-womens-rugby-six
+  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a0d6e4c0797376c6e587b95/media.mp3
+  published_at: '2026-05-20T08:18:20+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
@@ -143,15 +160,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dr--Teddy-Bross-on-Future-of-Athlete-Healthcare--Running--and-Recovery-e3jdiq4
   audio_url: https://anchor.fm/s/81032c4/podcast/play/120031492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F53c450b3-764c-b514-05d4-7d9dfc388761.mp3
   published_at: '2026-05-15T11:28:49+00:00'
-- podcast_title: The Real Science Of Sports
-  podcast_page_url: "/the-real-science-of-sports.html"
-  cover_image: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1764253945895-a1ed9fa9-2a2e-4594-8b95-1aba16461fd4.jpeg
-  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
-  episode_title: A Huge Doping Bust in Georgia Rugby / Epic Climbs and Concussions
-    in Cycling / Who is the Greatest Track Athlete of Them All?
-  episode_url: https://shows.acast.com/realscienceofsport/episodes/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussi
-  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a0626463fd6979bfc1cc386/media.mp3
-  published_at: '2026-05-15T06:45:00+00:00'
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
@@ -184,14 +192,6 @@ items:
   episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
   audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a059ccc18dadc4e3e8cbd35.mp3
   published_at: '2026-05-14T10:04:26+00:00'
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us.html"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  episode_title: 4.20. The Colt and Cocodona Episode
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/420-the-colt-and-cocodona-episode
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_20_-_Audio.mp3?dest-id=3833748
-  published_at: '2026-05-13T09:00:00+00:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
@@ -1616,6 +1616,11 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/florisgierman/Running_After_40_-_How_to_Improve.mp3?dest-id=557444
     published_at: '2025-08-23T23:39:00+00:00'
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &15
+  - episode_title: Caution for Contact Sport Athletes and CTE / Women's Rugby Six
+      Nations and Smaller Balls / Worst Sport to be Elite at?
+    episode_url: https://shows.acast.com/realscienceofsport/episodes/caution-for-contact-sport-athletes-and-cte-womens-rugby-six
+    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a0d6e4c0797376c6e587b95/media.mp3
+    published_at: '2026-05-20T08:18:20+00:00'
   - episode_title: A Huge Doping Bust in Georgia Rugby / Epic Climbs and Concussions
       in Cycling / Who is the Greatest Track Athlete of Them All?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussi
@@ -1705,10 +1710,6 @@ episodes_by_feed:
     episode_url: https://shows.acast.com/realscienceofsport/episodes/winter-olympics-nutella-doping-malinins-traumatic-moments-kl
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69985a50c4ec2d0bf75028c6/media.mp3
     published_at: '2026-02-20T12:57:52+00:00'
-  - episode_title: 'Inside the Mind of a Winter Olympian: The Science of Stoke'
-    episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-mind-of-a-winter-olympian-the-science-of-stoke
-    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6994311a8b7fe5457d2271ac/media.mp3
-    published_at: '2026-02-17T10:01:00+00:00'
   https://anchor.fm/s/e4eabf84/podcast/rss: &16
   - episode_title: "#116 Ryan Thrower | Curiosity, Creativity, & The Fragility of
       Life"
@@ -3502,6 +3503,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/81032c4/podcast/play/113314999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-31%2F415254590-44100-2-e19ee62af8f24.m4a
     published_at: '2026-01-02T11:00:00+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &38
+  - episode_title: 4.21. The Hate Mail Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_21_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-05-20T09:00:00+00:00'
   - episode_title: 4.20. The Colt and Cocodona Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/420-the-colt-and-cocodona-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_20_-_Audio.mp3?dest-id=3833748
@@ -3578,10 +3583,6 @@ episodes_by_feed:
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/42-live-from-houston-2026-wbreaking-news
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_2_-_Live_from_Houston.mp3?dest-id=3833748
     published_at: '2026-01-10T17:55:00+00:00'
-  - episode_title: 4.1. The Fresh Start Episode
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/41-the-fresh-start-episode
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_1_-_Audio.mp3?dest-id=3833748
-    published_at: '2026-01-06T21:24:00+00:00'
   https://anchor.fm/s/80b609c4/podcast/rss: &39
   - episode_title: '040 | An eventful beginning of 2026: gare, preparazione, infortuni,
       processo'
