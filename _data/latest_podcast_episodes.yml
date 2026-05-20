@@ -1,6 +1,15 @@
 ---
-generated_at: '2026-05-20T03:15:36Z'
+generated_at: '2026-05-20T05:28:09Z'
 items:
+- podcast_title: Course Equipe
+  podcast_page_url: "/course-equipe.html"
+  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  episode_title: 224km à la Réunion, une victoire ultra-terrestre à bout de force
+    - avec Louis Calais
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a0c27274239db8b87c2be2e/media.mp3
+  published_at: '2026-05-20T03:59:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
@@ -60,15 +69,6 @@ items:
   episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
   audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0518_1605.mp3?dest-id=259001
   published_at: '2026-05-18T21:51:00+00:00'
-- podcast_title: Course Equipe
-  podcast_page_url: "/course-equipe.html"
-  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  episode_title: "[EXTRAIT] 224km à la Réunion, une victoire ultra-terrestre à bout
-    de force - avec Louis Calais"
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a0afda8cdab12b21c83e035/media.mp3
-  published_at: '2026-05-18T12:33:29+00:00'
 - podcast_title: Women of Distance
   podcast_page_url: "/women-of-distance.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
@@ -2362,6 +2362,11 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112641663/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-15%2F414393392-44100-2-90511c1a14341.mp3
     published_at: '2025-12-15T06:03:00+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &25
+  - episode_title: 224km à la Réunion, une victoire ultra-terrestre à bout de force
+      - avec Louis Calais
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a0c27274239db8b87c2be2e/media.mp3
+    published_at: '2026-05-20T03:59:00+00:00'
   - episode_title: "[EXTRAIT] 224km à la Réunion, une victoire ultra-terrestre à bout
       de force - avec Louis Calais"
     episode_url: https://courseepique.fr/
@@ -2453,11 +2458,6 @@ episodes_by_feed:
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69bb25d96cb58679e80988ef/media.mp3
     published_at: '2026-03-27T04:53:00+00:00'
-  - episode_title: "[EXTRAIT] Thomas Butez : trail de haut niveau et engagement professionnel
-      durable"
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69b4068ecad04b6222c09ca0/media.mp3
-    published_at: '2026-03-25T04:56:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &26
   - episode_title: Hugo Deck, la performance peut-elle rester un plaisir ?
     episode_url: ''
