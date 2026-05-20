@@ -1,6 +1,15 @@
 ---
-generated_at: '2026-05-20T21:38:52Z'
+generated_at: '2026-05-20T22:35:40Z'
 items:
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast.html"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  episode_title: David Sinclair's Transvulcania Victory, Cocodona Viewership Numbers,
+    & the State of Live Streaming
+  episode_url: https://thewellwithdylanbowman.libsyn.com/david-sinclairs-transvulcania-victory-cocodona-viewership-numbers-the-state-of-live-streaming
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/RDL520.mp3?dest-id=1746794
+  published_at: '2026-05-20T21:39:00+00:00'
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public.html"
   cover_image: "/media/runningpublic.jpeg"
@@ -69,15 +78,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/311--The-Science-Episode--How-To-Stop-Cramps--Fat-Oxidation-Changes--Missing-Link-Heat-Training--The-Difficulty-of-Physiology-Data--and-More-e3jjcuv
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120222111/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2Fbeb63af5-208c-caec-0349-035c66cfa9bd.mp3
   published_at: '2026-05-19T12:35:01+00:00'
-- podcast_title: The Freetrail Podcast
-  podcast_page_url: "/the-freetrail-podcast.html"
-  cover_image: "/media/freetrail2.jpeg"
-  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  episode_title: Zegama Recap, Tove's Dominance, Western States Crunch Time, Industry
-    News & Race Results
-  episode_url: https://thewellwithdylanbowman.libsyn.com/zegama-recap-toves-dominance-western-states-crunch-time-industry-news-race-results
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Zegama_Recap_Toves_Dominance_Western_States_Crunch_Time_Industry_News__Race_Results.mp3?dest-id=1746794
-  published_at: '2026-05-19T11:00:00+00:00'
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society.html"
   cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
@@ -2642,6 +2642,11 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._57.5_-_101025_7.25PM.mp3?dest-id=4343338
     published_at: '2025-10-11T01:07:00+00:00'
   https://rss.libsyn.com/shows/235580/destinations/1746794.xml: &28
+  - episode_title: David Sinclair's Transvulcania Victory, Cocodona Viewership Numbers,
+      & the State of Live Streaming
+    episode_url: https://thewellwithdylanbowman.libsyn.com/david-sinclairs-transvulcania-victory-cocodona-viewership-numbers-the-state-of-live-streaming
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/RDL520.mp3?dest-id=1746794
+    published_at: '2026-05-20T21:39:00+00:00'
   - episode_title: Zegama Recap, Tove's Dominance, Western States Crunch Time, Industry
       News & Race Results
     episode_url: https://thewellwithdylanbowman.libsyn.com/zegama-recap-toves-dominance-western-states-crunch-time-industry-news-race-results
@@ -2727,10 +2732,6 @@ episodes_by_feed:
     episode_url: https://thewellwithdylanbowman.libsyn.com/breaking-news-yao-miao-signs-with-all-conditions-gear
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/BREAKING_NEWS_Yao_Miao_signs_with_All_Conditions_Gear.mp3?dest-id=1746794
     published_at: '2026-04-08T14:00:00+00:00'
-  - episode_title: Gorge Waterfalls 100k Preview | Trailgating
-    episode_url: https://thewellwithdylanbowman.libsyn.com/gorge-waterfalls-100k-preview-trailgating
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Gorge_Waterfalls_100k_Preview__Trailgating.mp3?dest-id=1746794
-    published_at: '2026-04-07T20:30:00+00:00'
   https://media.rss.com/coffeeclub/feed.xml: &29
   - episode_title: What's happened to Jakob Ingebrigtsen?
     episode_url: https://rss.com/podcasts/coffeeclub/2828676
