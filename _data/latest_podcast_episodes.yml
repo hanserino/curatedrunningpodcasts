@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-21T22:33:43Z'
+generated_at: '2026-05-21T23:27:49Z'
 items:
+- podcast_title: Trail Runner Nation
+  podcast_page_url: "/trail-runner-nation.html"
+  cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
+  feed_url: https://rss.libsyn.com/shows/44345/destinations/142179.xml
+  episode_title: 'EP 782: Fear Isn''t the Enemy'
+  episode_url: https://trailrunnernation.libsyn.com/ep-782-fear-isnt-the-enemy
+  audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Gael_Dutigny_5_22_26.mp3?dest-id=142179
+  published_at: '2026-05-21T23:03:00+00:00'
 - podcast_title: Breaking Marathon Limits
   podcast_page_url: "/breaking-marathon-limits.html"
   cover_image: https://storage.buzzsprout.com/k3i053javtz14cg5y4b4eqkkev13?.jpg
@@ -193,14 +201,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dr--Teddy-Bross-on-Future-of-Athlete-Healthcare--Running--and-Recovery-e3jdiq4
   audio_url: https://anchor.fm/s/81032c4/podcast/play/120031492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F53c450b3-764c-b514-05d4-7d9dfc388761.mp3
   published_at: '2026-05-15T11:28:49+00:00'
-- podcast_title: Trail Runner Nation
-  podcast_page_url: "/trail-runner-nation.html"
-  cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
-  feed_url: https://rss.libsyn.com/shows/44345/destinations/142179.xml
-  episode_title: 'EP 781: The Finish Line That Changed Everything'
-  episode_url: https://trailrunnernation.libsyn.com/ep-781-the-finish-line-that-changed-everything
-  audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Brian_Morrison.mp3?dest-id=142179
-  published_at: '2026-05-14T21:43:00+00:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
@@ -1246,6 +1246,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/masterfile-nicktiller.mp3?dest-id=1733936
     published_at: '2023-09-05T11:30:00+00:00'
   https://rss.libsyn.com/shows/44345/destinations/142179.xml: &11
+  - episode_title: 'EP 782: Fear Isn''t the Enemy'
+    episode_url: https://trailrunnernation.libsyn.com/ep-782-fear-isnt-the-enemy
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Gael_Dutigny_5_22_26.mp3?dest-id=142179
+    published_at: '2026-05-21T23:03:00+00:00'
   - episode_title: 'EP 781: The Finish Line That Changed Everything'
     episode_url: https://trailrunnernation.libsyn.com/ep-781-the-finish-line-that-changed-everything
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Brian_Morrison.mp3?dest-id=142179
@@ -1326,11 +1330,6 @@ episodes_by_feed:
     episode_url: https://trailrunnernation.libsyn.com/ep-763-the-most-underrated-training-skill-consistency
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_RERUN_w_Adam_Kimble_Consistency2.mp3?dest-id=142179
     published_at: '2026-01-09T23:11:00+00:00'
-  - episode_title: 'EP 762: From Webster to Singletrack: The Trail Runner Dictionary
-      Game'
-    episode_url: https://trailrunnernation.libsyn.com/ep-762-from-webster-to-singletrack-the-trail-runner-dictionary-game
-    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_Dictionary_game_2026.mp3?dest-id=142179
-    published_at: '2026-01-01T22:42:00+00:00'
   https://feeds.captivate.fm/trail-society/: &12
   - episode_title: 'Episode 134: How to build your injury toolkit'
     episode_url: https://trail-society.captivate.fm
