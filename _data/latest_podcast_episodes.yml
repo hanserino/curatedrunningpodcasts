@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-21T03:16:26Z'
+generated_at: '2026-05-21T05:31:50Z'
 items:
+- podcast_title: Ten Junk Miles
+  podcast_page_url: "/ten-junk-miles.html"
+  cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
+  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
+  episode_title: Long Run 263 - John Sterner - Root Repair Surgery
+  episode_url: https://tenjunkmiles.com/long-run-263-john-sterner-root-repair-surgery
+  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_John_Sterner.mp3?dest-id=259001
+  published_at: '2026-05-21T03:22:00+00:00'
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast.html"
   cover_image: "/media/freetrail2.jpeg"
@@ -95,14 +103,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
   audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120195864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424428910-44100-2-9f8ddc8dae985.mp3
   published_at: '2026-05-19T05:00:01+00:00'
-- podcast_title: Ten Junk Miles
-  podcast_page_url: "/ten-junk-miles.html"
-  cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
-  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
-  episode_title: Meet The Nation 341 - Jon Krist and Kwik Trip 50K
-  episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
-  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0518_1605.mp3?dest-id=259001
-  published_at: '2026-05-18T21:51:00+00:00'
 - podcast_title: Women of Distance
   podcast_page_url: "/women-of-distance.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
@@ -1065,6 +1065,10 @@ episodes_by_feed:
     audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/06/episode159.mp3
     published_at: '2024-06-20T21:00:09+00:00'
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &9
+  - episode_title: Long Run 263 - John Sterner - Root Repair Surgery
+    episode_url: https://tenjunkmiles.com/long-run-263-john-sterner-root-repair-surgery
+    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_John_Sterner.mp3?dest-id=259001
+    published_at: '2026-05-21T03:22:00+00:00'
   - episode_title: Meet The Nation 341 - Jon Krist and Kwik Trip 50K
     episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0518_1605.mp3?dest-id=259001
@@ -1142,10 +1146,6 @@ episodes_by_feed:
     episode_url: https://tenjunkmiles.com/meet-the-nation-334-michael-mctighe
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/MTN_334_Michael_Mctighe.mp3?dest-id=259001
     published_at: '2026-03-09T14:00:00+00:00'
-  - episode_title: Long Run 258 Keira Henninger
-    episode_url: https://tenjunkmiles.com/long-run-258-keira-henninger
-    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Keira_Henniger_Long_Run_Final.mp3?dest-id=259001
-    published_at: '2026-03-06T16:25:00+00:00'
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &10
   - episode_title: Megan Boxall on running 200 marathons around the coast of Great
       Britain
