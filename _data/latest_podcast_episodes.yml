@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-22T19:36:48Z'
+generated_at: '2026-05-22T20:37:50Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast.html"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  episode_title: 'Interview: Evan Jager'
+  episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
+  audio_url: https://mcdn.podbean.com/mf/web/k9asg6h9j55yhgfv/Evan_itunes66oj1.mp3
+  published_at: '2026-05-23T06:00:00+10:00'
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run.html"
   cover_image: "/media/forthelongrun.jpeg"
@@ -127,14 +135,6 @@ items:
   episode_url: https://springsnyggt.libsyn.com/338-tilda-springer-cyklar-och-simmar-snabbare-n-ngonsin-frut
   audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_snyggt_20maj.mp3?dest-id=1729274
   published_at: '2026-05-20T01:00:00+00:00'
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast.html"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
-  episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
-  audio_url: https://mcdn.podbean.com/mf/web/e3b5wwnwekkxq432/Ep_446_iTunes7e9vp.mp3
-  published_at: '2026-05-20T06:00:00+10:00'
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1522497/1522497-1710251881490-4b26d229f6ddb.jpg
@@ -2821,6 +2821,10 @@ episodes_by_feed:
     audio_url: https://content.rss.com/episodes/81443/2397840/coffeeclub/2025_12_17_23_52_31_32e59a0b-4d10-44a5-bfb5-2aad66ad787b.mp3
     published_at: '2025-12-19T17:01:00+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &30
+  - episode_title: 'Interview: Evan Jager'
+    episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
+    audio_url: https://mcdn.podbean.com/mf/web/k9asg6h9j55yhgfv/Evan_itunes66oj1.mp3
+    published_at: '2026-05-23T06:00:00+10:00'
   - episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
     episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
     audio_url: https://mcdn.podbean.com/mf/web/e3b5wwnwekkxq432/Ep_446_iTunes7e9vp.mp3
@@ -2901,11 +2905,6 @@ episodes_by_feed:
     episode_url: https://insiderunningpodcast.podbean.com/e/436-box-hill-classic-lisbon-half-marathon-nagoya-marathon/
     audio_url: https://mcdn.podbean.com/mf/web/hdgcj82jc7fj8fpn/Ep_436_itunes92ti7.mp3
     published_at: '2026-03-11T06:00:00+11:00'
-  - episode_title: '435: Hobart Track Classic | Tokyo Marathon | Asics Superblast
-      3 Review'
-    episode_url: https://insiderunningpodcast.podbean.com/e/435-hobart-track-classic-tokyo-marathon-asics-superblast-3-review/
-    audio_url: https://mcdn.podbean.com/mf/web/rkimhchzh7z7redg/Ep_435_early7r3fl.mp3
-    published_at: '2026-03-04T06:00:00+11:00'
   https://anchor.fm/s/fb539bd8/podcast/rss: &31
   - episode_title: Rethinking Vert & Fueling for Ultras
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/Rethinking-Vert--Fueling-for-Ultras-e3g5kn8
