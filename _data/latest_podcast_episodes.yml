@@ -1,6 +1,15 @@
 ---
-generated_at: '2026-05-22T05:28:00Z'
+generated_at: '2026-05-22T07:22:59Z'
 items:
+- podcast_title: For The Long Run
+  podcast_page_url: "/for-the-long-run.html"
+  cover_image: "/media/forthelongrun.jpeg"
+  feed_url: https://anchor.fm/s/81032c4/podcast/rss
+  episode_title: Dan Green Has Run 250 Miles. He Still Just Calls Himself a Guy Who
+    Loves Running.
+  episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dan-Green-Has-Run-250-Miles--He-Still-Just-Calls-Himself-a-Guy-Who-Loves-Running-e3jnh96
+  audio_url: https://anchor.fm/s/81032c4/podcast/play/120357606/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2Fa0adda35-f688-26cb-44ac-c5d876706f0c.mp3
+  published_at: '2026-05-22T07:00:00+00:00'
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
   cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
@@ -194,14 +203,6 @@ items:
   episode_url: https://florisgierman.libsyn.com/127-jakob-ingebrigtsens-advice-to-run-faster-for-non-elites
   audio_url: https://traffic.libsyn.com/secure/florisgierman/Jakob_Ingebrigtsens_Advice_to_Run_Faster.mp3?dest-id=557444
   published_at: '2026-05-15T13:28:00+00:00'
-- podcast_title: For The Long Run
-  podcast_page_url: "/for-the-long-run.html"
-  cover_image: "/media/forthelongrun.jpeg"
-  feed_url: https://anchor.fm/s/81032c4/podcast/rss
-  episode_title: Dr. Teddy Bross on Future of Athlete Healthcare, Running, and Recovery
-  episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dr--Teddy-Bross-on-Future-of-Athlete-Healthcare--Running--and-Recovery-e3jdiq4
-  audio_url: https://anchor.fm/s/81032c4/podcast/play/120031492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F53c450b3-764c-b514-05d4-7d9dfc388761.mp3
-  published_at: '2026-05-15T11:28:49+00:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
@@ -3411,6 +3412,11 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69a1eb126be8d6177c0a3952.mp3
     published_at: '2026-02-27T19:07:11+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &37
+  - episode_title: Dan Green Has Run 250 Miles. He Still Just Calls Himself a Guy
+      Who Loves Running.
+    episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dan-Green-Has-Run-250-Miles--He-Still-Just-Calls-Himself-a-Guy-Who-Loves-Running-e3jnh96
+    audio_url: https://anchor.fm/s/81032c4/podcast/play/120357606/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2Fa0adda35-f688-26cb-44ac-c5d876706f0c.mp3
+    published_at: '2026-05-22T07:00:00+00:00'
   - episode_title: Dr. Teddy Bross on Future of Athlete Healthcare, Running, and Recovery
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dr--Teddy-Bross-on-Future-of-Athlete-Healthcare--Running--and-Recovery-e3jdiq4
     audio_url: https://anchor.fm/s/81032c4/podcast/play/120031492/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F53c450b3-764c-b514-05d4-7d9dfc388761.mp3
@@ -3497,11 +3503,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Emma-Coburns-No-BS-Advice-for-Showing-Up-When-Motivation-Is-Gone-e3d90lq
     audio_url: https://anchor.fm/s/81032c4/podcast/play/113590394/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415600258-44100-2-01a2b109ada37.m4a
     published_at: '2026-01-09T11:00:00+00:00'
-  - episode_title: 'From Gambling Addiction to Ultra Marathons: How Running Saved
-      Terence Gerchberg'
-    episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/From-Gambling-Addiction-to-Ultra-Marathons-How-Running-Saved-Terence-Gerchberg-e3d0jnn
-    audio_url: https://anchor.fm/s/81032c4/podcast/play/113314999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-31%2F415254590-44100-2-e19ee62af8f24.m4a
-    published_at: '2026-01-02T11:00:00+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &38
   - episode_title: 4.21. The Hate Mail Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
