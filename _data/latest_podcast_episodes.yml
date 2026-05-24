@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-24T16:26:43Z'
+generated_at: '2026-05-24T17:26:21Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public.html"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  episode_title: 'Episode 615: Drug Use Among Amateurs'
+  episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
+  audio_url: https://mcdn.podbean.com/mf/web/g5fkjgtmwpc2zbn2/2_clips_Edit_35_6mvms.mp3
+  published_at: '2026-05-24T11:53:17-05:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -102,14 +110,6 @@ items:
   episode_url: https://thewellwithdylanbowman.libsyn.com/david-sinclairs-transvulcania-victory-cocodona-viewership-numbers-the-state-of-live-streaming
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/RDL520.mp3?dest-id=1746794
   published_at: '2026-05-20T21:39:00+00:00'
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public.html"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
-  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
-  audio_url: https://mcdn.podbean.com/mf/web/i3vbh5vjw5pxxc44/2_clips_Edit_34_6ku37.mp3
-  published_at: '2026-05-20T16:17:43-05:00'
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us.html"
   cover_image: "/media/nobodyaskedus.jpg"
@@ -3757,6 +3757,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
   https://feed.podbean.com/therunningpublic/feed.xml: &41
+  - episode_title: 'Episode 615: Drug Use Among Amateurs'
+    episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
+    audio_url: https://mcdn.podbean.com/mf/web/g5fkjgtmwpc2zbn2/2_clips_Edit_35_6mvms.mp3
+    published_at: '2026-05-24T11:53:17-05:00'
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
     audio_url: https://mcdn.podbean.com/mf/web/i3vbh5vjw5pxxc44/2_clips_Edit_34_6ku37.mp3
@@ -3834,10 +3838,6 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-talking-training/
     audio_url: https://mcdn.podbean.com/mf/web/iybsyrcrx8tx9k3p/2_clips_Edit_22_am8o5.mp3
     published_at: '2026-03-11T21:24:33-05:00'
-  - episode_title: 'Episode 596: Aaron Telitz'
-    episode_url: https://therunningpublic.podbean.com/e/episode-596-aaron-telitz/
-    audio_url: https://mcdn.podbean.com/mf/web/pvytzqxsrspj5m4g/3_5_Telitz_Editbkisj.mp3
-    published_at: '2026-03-06T21:41:28-06:00'
   https://anchor.fm/s/f9f56780/podcast/rss: &42
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
