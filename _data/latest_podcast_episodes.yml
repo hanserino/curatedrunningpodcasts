@@ -1,6 +1,23 @@
 ---
-generated_at: '2026-05-25T03:17:51Z'
+generated_at: '2026-05-25T05:38:50Z'
 items:
+- podcast_title: Course Equipe
+  podcast_page_url: "/course-equipe.html"
+  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  episode_title: "[EXTRAIT] L'enfer vert, 130 km dans la jungle martiniquaise"
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a071436382d6c40301f0e44/media.mp3
+  published_at: '2026-05-25T03:58:00+00:00'
+- podcast_title: Dans la Tête d’un Coureur
+  podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
+  cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
+  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
+  episode_title: 'Marathon d’Annecy : et si c’était la plus belle course de France
+    ?'
+  episode_url: ''
+  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/73aac488-b9b3-4d91-b288-8ef2853a84f1.mp3?_=1779352367
+  published_at: '2026-05-25T03:40:00+00:00'
 - podcast_title: Breaking Marathon Limits
   podcast_page_url: "/breaking-marathon-limits.html"
   cover_image: https://storage.buzzsprout.com/k3i053javtz14cg5y4b4eqkkev13?.jpg
@@ -60,15 +77,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dan-Green-Has-Run-250-Miles--He-Still-Just-Calls-Himself-a-Guy-Who-Loves-Running-e3jnh96
   audio_url: https://anchor.fm/s/81032c4/podcast/play/120357606/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2Fa0adda35-f688-26cb-44ac-c5d876706f0c.mp3
   published_at: '2026-05-22T07:00:00+00:00'
-- podcast_title: Dans la Tête d’un Coureur
-  podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
-  cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
-  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
-  episode_title: Nike a voulu révolutionner la chaussure… et ça a échoué (l’histoire
-    de la VaporMax)  [REDIFF ]
-  episode_url: ''
-  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/85775e5e-89da-483c-99bf-67ac3fbf5e0f.mp3?_=1776937686
-  published_at: '2026-05-22T03:46:00+00:00'
 - podcast_title: Trail Runner Nation
   podcast_page_url: "/trail-runner-nation.html"
   cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
@@ -136,15 +144,6 @@ items:
   episode_url: https://shows.acast.com/realscienceofsport/episodes/caution-for-contact-sport-athletes-and-cte-womens-rugby-six
   audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a0d6e4c0797376c6e587b95/media.mp3
   published_at: '2026-05-20T08:18:20+00:00'
-- podcast_title: Course Equipe
-  podcast_page_url: "/course-equipe.html"
-  cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  episode_title: 224km à la Réunion, une victoire ultra-terrestre à bout de force
-    - avec Louis Calais
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a0c27274239db8b87c2be2e/media.mp3
-  published_at: '2026-05-20T03:59:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: https://static.libsyn.com/p/assets/2/d/4/1/2d419b60f2330711/john_och_Manne_bra.jpg
@@ -2364,6 +2363,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-13%2F414299592-44100-2-b801367b993d6.mp3
     published_at: '2025-12-15T07:00:00+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &25
+  - episode_title: "[EXTRAIT] L'enfer vert, 130 km dans la jungle martiniquaise"
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a071436382d6c40301f0e44/media.mp3
+    published_at: '2026-05-25T03:58:00+00:00'
   - episode_title: 224km à la Réunion, une victoire ultra-terrestre à bout de force
       - avec Louis Calais
     episode_url: https://courseepique.fr/
@@ -2455,12 +2458,12 @@ episodes_by_feed:
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69c6b9adc2759aa9b129c10a/media.mp3
     published_at: '2026-03-30T03:59:00+00:00'
-  - episode_title: 'Thomas Butez : combiner projet professionnel et ambition sportive
-      au plus haut niveau avec Millet'
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69bb25d96cb58679e80988ef/media.mp3
-    published_at: '2026-03-27T04:53:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &26
+  - episode_title: 'Marathon d’Annecy : et si c’était la plus belle course de France
+      ?'
+    episode_url: ''
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/73aac488-b9b3-4d91-b288-8ef2853a84f1.mp3?_=1779352367
+    published_at: '2026-05-25T03:40:00+00:00'
   - episode_title: Nike a voulu révolutionner la chaussure… et ça a échoué (l’histoire
       de la VaporMax)  [REDIFF ]
     episode_url: ''
@@ -2550,10 +2553,6 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/1d4f24b8-b3c7-467c-87aa-cfd4d2e56cb6.mp3?_=1775076411
     published_at: '2026-04-03T04:01:00+00:00'
-  - episode_title: "[1/2] Le Lait est-il vraiment bon pour un Coureur ?  (on a creusé)"
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/f215d2df-1766-47d0-affb-894c637c63e3.mp3?_=1775076303
-    published_at: '2026-04-03T03:44:00+00:00'
   https://rss.libsyn.com/shows/506688/destinations/4343338.xml: &27
   - episode_title: Ep. 76  5:30 GAP for 50k!?, Jim in states, and do we know who @maxjolliffeunsolicitedmemes
       is?
