@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-26T03:15:56Z'
+generated_at: '2026-05-26T05:27:21Z'
 items:
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
+  published_at: '2026-05-26T04:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg
@@ -177,15 +185,6 @@ items:
   episode_url: https://trail-society.captivate.fm
   audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/21c0e9b9-849b-4859-8db9-dba65afb4795.mp3
   published_at: '2026-05-19T03:15:00-04:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's Zegama
-    Record | Croft vs Yao at UTA
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120195864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424428910-44100-2-9f8ddc8dae985.mp3
-  published_at: '2026-05-19T05:00:01+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17231862/17231862-1647566431353-63702c31bcb9a.jpg
@@ -3059,6 +3058,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &33
+  - episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
+    published_at: '2026-05-26T04:00:00+00:00'
   - episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's
       Zegama Record | Croft vs Yao at UTA
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
@@ -3144,10 +3147,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/We-Are-So-Back--UTMB-Rules--Pro-Contract-Moves--HR-Training-e3d83pl
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113560821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415562737-44100-2-43b05048de71.mp3
     published_at: '2026-01-06T18:00:00+00:00'
-  - episode_title: Highs & Lows of the 2025 Trail Running Season
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Highs--Lows-of-the-2025-Trail-Running-Season-e3ctp4r
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113222235/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-29%2F415136997-44100-2-1217212c3032a.mp3
-    published_at: '2025-12-29T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &34
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel,
       løpesko, carbs & state of the sport"
