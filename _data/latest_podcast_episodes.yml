@@ -1,14 +1,14 @@
 ---
-generated_at: '2026-05-26T05:27:21Z'
+generated_at: '2026-05-26T07:22:19Z'
 items:
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
-  published_at: '2026-05-26T04:00:00+00:00'
+- podcast_title: Trail Society
+  podcast_page_url: "/trail-society.html"
+  cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
+  feed_url: https://feeds.captivate.fm/trail-society/
+  episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
+  episode_url: https://trail-society.captivate.fm
+  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/5634ad72-3cdf-497a-af77-e0924c1cb1d2.mp3
+  published_at: '2026-05-26T03:15:00-04:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: https://storage.buzzsprout.com/oqc6xhxrw80dohgnt0v6qqco2jic?.jpg
@@ -177,14 +177,15 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/311--The-Science-Episode--How-To-Stop-Cramps--Fat-Oxidation-Changes--Missing-Link-Heat-Training--The-Difficulty-of-Physiology-Data--and-More-e3jjcuv
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120222111/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2Fbeb63af5-208c-caec-0349-035c66cfa9bd.mp3
   published_at: '2026-05-19T12:35:01+00:00'
-- podcast_title: Trail Society
-  podcast_page_url: "/trail-society.html"
-  cover_image: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
-  feed_url: https://feeds.captivate.fm/trail-society/
-  episode_title: 'Episode 134: How to build your injury toolkit'
-  episode_url: https://trail-society.captivate.fm
-  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/21c0e9b9-849b-4859-8db9-dba65afb4795.mp3
-  published_at: '2026-05-19T03:15:00-04:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's Zegama
+    Record | Croft vs Yao at UTA
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120195864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424428910-44100-2-9f8ddc8dae985.mp3
+  published_at: '2026-05-19T05:00:01+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17231862/17231862-1647566431353-63702c31bcb9a.jpg
@@ -1330,6 +1331,10 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_RERUN_w_Adam_Kimble_Consistency2.mp3?dest-id=142179
     published_at: '2026-01-09T23:11:00+00:00'
   https://feeds.captivate.fm/trail-society/: &12
+  - episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
+    episode_url: https://trail-society.captivate.fm
+    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/5634ad72-3cdf-497a-af77-e0924c1cb1d2.mp3
+    published_at: '2026-05-26T03:15:00-04:00'
   - episode_title: 'Episode 134: How to build your injury toolkit'
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/21c0e9b9-849b-4859-8db9-dba65afb4795.mp3
@@ -1418,11 +1423,6 @@ episodes_by_feed:
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/8495b70a-3842-4b57-939c-bb05e92ac542.mp3
     published_at: '2026-01-20T03:00:00-04:00'
-  - episode_title: 'Episode 116: Reflecting on 2025, ReFUEL study updates, and Looking
-      Ahead'
-    episode_url: https://trail-society.captivate.fm
-    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/ed8744ec-d0e8-4fdc-8334-4a04c339df94.mp3
-    published_at: '2025-12-30T13:00:00-04:00'
   https://anchor.fm/s/70c9c5f0/podcast/rss: &13
   - episode_title: '185. Abby Hall | From Training to Reality: What Trail Running
       Actually Feels Like'
@@ -3058,10 +3058,6 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &33
-  - episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
-    published_at: '2026-05-26T04:00:00+00:00'
   - episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's
       Zegama Record | Croft vs Yao at UTA
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
@@ -3147,6 +3143,10 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/We-Are-So-Back--UTMB-Rules--Pro-Contract-Moves--HR-Training-e3d83pl
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113560821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415562737-44100-2-43b05048de71.mp3
     published_at: '2026-01-06T18:00:00+00:00'
+  - episode_title: Highs & Lows of the 2025 Trail Running Season
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Highs--Lows-of-the-2025-Trail-Running-Season-e3ctp4r
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113222235/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-29%2F415136997-44100-2-1217212c3032a.mp3
+    published_at: '2025-12-29T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &34
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel,
       løpesko, carbs & state of the sport"
