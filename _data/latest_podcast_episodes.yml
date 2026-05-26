@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-26T19:42:42Z'
+generated_at: '2026-05-26T20:45:46Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast.html"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
+  episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
+  audio_url: https://mcdn.podbean.com/mf/web/xhye5nxnhjt66dq2/Ep_447_itunes_165s39.mp3
+  published_at: '2026-05-27T06:00:00+10:00'
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1522497/1522497-1710251881490-4b26d229f6ddb.jpg
@@ -102,14 +110,6 @@ items:
   episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/hannah-allgood-training-racing-and-her-return-to-western-states
   audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Hannah_Allgood.mp3?dest-id=3847590
   published_at: '2026-05-23T05:00:00+00:00'
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast.html"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  episode_title: 'Interview: Evan Jager'
-  episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
-  audio_url: https://mcdn.podbean.com/mf/web/k9asg6h9j55yhgfv/Evan_itunes66oj1.mp3
-  published_at: '2026-05-23T06:00:00+10:00'
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run.html"
   cover_image: "/media/forthelongrun.jpeg"
@@ -2818,6 +2818,10 @@ episodes_by_feed:
     audio_url: https://content.rss.com/episodes/81443/2397840/coffeeclub/2025_12_17_23_52_31_32e59a0b-4d10-44a5-bfb5-2aad66ad787b.mp3
     published_at: '2025-12-19T17:01:00+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &30
+  - episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
+    episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
+    audio_url: https://mcdn.podbean.com/mf/web/xhye5nxnhjt66dq2/Ep_447_itunes_165s39.mp3
+    published_at: '2026-05-27T06:00:00+10:00'
   - episode_title: 'Interview: Evan Jager'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
     audio_url: https://mcdn.podbean.com/mf/web/k9asg6h9j55yhgfv/Evan_itunes66oj1.mp3
@@ -2898,10 +2902,6 @@ episodes_by_feed:
     episode_url: https://insiderunningpodcast.podbean.com/e/437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review/
     audio_url: https://mcdn.podbean.com/mf/web/apkxeqzb3cbsg6z2/Ep_437_iTunesb2ku7.mp3
     published_at: '2026-03-18T06:00:00+11:00'
-  - episode_title: '436: Box Hill Classic | Lisbon Half Marathon | Nagoya Marathon'
-    episode_url: https://insiderunningpodcast.podbean.com/e/436-box-hill-classic-lisbon-half-marathon-nagoya-marathon/
-    audio_url: https://mcdn.podbean.com/mf/web/hdgcj82jc7fj8fpn/Ep_436_itunes92ti7.mp3
-    published_at: '2026-03-11T06:00:00+11:00'
   https://anchor.fm/s/fb539bd8/podcast/rss: &31
   - episode_title: Rethinking Vert & Fueling for Ultras
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/Rethinking-Vert--Fueling-for-Ultras-e3g5kn8
