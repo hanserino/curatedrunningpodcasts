@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-26T20:45:46Z'
+generated_at: '2026-05-26T21:36:20Z'
 items:
+- podcast_title: Uphill Athlete
+  podcast_page_url: "/uphill-athlete.html"
+  cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
+  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
+  episode_title: The Four Inputs that Determine Your Progress
+  episode_url: https://zencastr.com/z/Ypw8aclS
+  audio_url: https://redirect.zencastr.com/r/episode/6a16101bc18398ff510e6fa3/size/64216944/audio-files/635358be4592c880860238fe/88df320d-8a1f-4250-9534-b289f567f579.mp3
+  published_at: '2026-05-26T21:26:51+00:00'
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast.html"
   cover_image: "/media/insiderunning.jpeg"
@@ -201,14 +209,6 @@ items:
   episode_url: https://florisgierman.libsyn.com/127-jakob-ingebrigtsens-advice-to-run-faster-for-non-elites
   audio_url: https://traffic.libsyn.com/secure/florisgierman/Jakob_Ingebrigtsens_Advice_to_Run_Faster.mp3?dest-id=557444
   published_at: '2026-05-15T13:28:00+00:00'
-- podcast_title: Uphill Athlete
-  podcast_page_url: "/uphill-athlete.html"
-  cover_image: https://media.zencastr.com/image-files/635358be4592c880860238fe/5977471f-7ebc-4d02-9a21-8d64eec309d6.jpg
-  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
-  episode_title: Muscular Endurance Training with Uphill Athlete Coaches
-  episode_url: https://zencastr.com/z/_mCbGJX0
-  audio_url: https://redirect.zencastr.com/r/episode/6a037b3f5c2897a3798fef77/size/97963333/video-files/635358be4592c880860238fe/84c31e4b-c614-4c59-9e21-448987461e5f.mp4
-  published_at: '2026-05-12T19:10:55+00:00'
 - podcast_title: Pace On Earth
   podcast_page_url: "/pace-on-earth.html"
   cover_image: https://static.libsyn.com/p/assets/a/e/a/d/aead861ffc08c97f16c3140a3186d450/paceonearthpodcast-20260314-6nfp9qaad0.jpg
@@ -2184,6 +2184,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_319.mp3?dest-id=1729274
     published_at: '2026-01-07T02:00:00+00:00'
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &23
+  - episode_title: The Four Inputs that Determine Your Progress
+    episode_url: https://zencastr.com/z/Ypw8aclS
+    audio_url: https://redirect.zencastr.com/r/episode/6a16101bc18398ff510e6fa3/size/64216944/audio-files/635358be4592c880860238fe/88df320d-8a1f-4250-9534-b289f567f579.mp3
+    published_at: '2026-05-26T21:26:51+00:00'
   - episode_title: Muscular Endurance Training with Uphill Athlete Coaches
     episode_url: https://zencastr.com/z/_mCbGJX0
     audio_url: https://redirect.zencastr.com/r/episode/6a037b3f5c2897a3798fef77/size/97963333/video-files/635358be4592c880860238fe/84c31e4b-c614-4c59-9e21-448987461e5f.mp4
@@ -2265,10 +2269,6 @@ episodes_by_feed:
     episode_url: https://zencastr.com/z/dDzkrqOE
     audio_url: https://redirect.zencastr.com/r/episode/68fa7ffc107196857db40ed4/size/670109318/video-files/635358be4592c880860238fe/d36ad246-04cb-403e-917c-dab34dab890b.mp4
     published_at: '2025-10-28T10:00:00+00:00'
-  - episode_title: The Joy of Ski Training with Ben Morley
-    episode_url: https://zencastr.com/z/4eqW36RP
-    audio_url: https://redirect.zencastr.com/r/episode/68e896d087a8cc808dfca548/size/1099611094/video-files/635358be4592c880860238fe/27e0510d-8cbb-4c5f-8819-46bb939841ca.mp4
-    published_at: '2025-10-14T11:00:00+00:00'
   https://anchor.fm/s/db96fa60/podcast/rss: &24
   - episode_title: HISTORIC Zegama! + Early Ledro Sky Trentino
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/HISTORIC-Zegama---Early-Ledro-Sky-Trentino-e3jn40s
