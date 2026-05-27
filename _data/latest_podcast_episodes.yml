@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-27T07:35:53Z'
+generated_at: '2026-05-27T09:16:57Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us.html"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  episode_title: 4.22. Real Track Talk
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
+  published_at: '2026-05-27T09:00:00+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1762449567274-f2a8bbe2-ac6a-4825-aa73-afde80a59100.jpeg
@@ -168,14 +176,6 @@ items:
   episode_url: https://tenjunkmiles.com/long-run-263-john-sterner-root-repair-surgery
   audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_John_Sterner.mp3?dest-id=259001
   published_at: '2026-05-21T03:22:00+00:00'
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us.html"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  episode_title: 4.21. The Hate Mail Episode
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_21_-_Audio.mp3?dest-id=3833748
-  published_at: '2026-05-20T09:00:00+00:00'
 - podcast_title: The Midpacker Podcast
   podcast_page_url: "/the-midpacker-podcast.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/38305897/38305897-1695240625477-9b1937958e362.jpg
@@ -3502,6 +3502,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/81032c4/podcast/play/113590394/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415600258-44100-2-01a2b109ada37.m4a
     published_at: '2026-01-09T11:00:00+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &38
+  - episode_title: 4.22. Real Track Talk
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-05-27T09:00:00+00:00'
   - episode_title: 4.21. The Hate Mail Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_21_-_Audio.mp3?dest-id=3833748
@@ -3578,10 +3582,6 @@ episodes_by_feed:
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/43-houston-and-world-xc-recap-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_3_-_Houston_and_World_XC_Recaps_-_Audio.mp3?dest-id=3833748
     published_at: '2026-01-14T03:58:00+00:00'
-  - episode_title: 4.2. Live from Houston 2026 (with Breaking News)
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/42-live-from-houston-2026-wbreaking-news
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_2_-_Live_from_Houston.mp3?dest-id=3833748
-    published_at: '2026-01-10T17:55:00+00:00'
   https://anchor.fm/s/80b609c4/podcast/rss: &39
   - episode_title: '040 | An eventful beginning of 2026: gare, preparazione, infortuni,
       processo'
