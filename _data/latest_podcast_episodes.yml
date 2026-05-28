@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-28T13:24:26Z'
+generated_at: '2026-05-28T15:15:50Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public.html"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  episode_title: 'Episode 616: DJ Fox'
+  episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
+  audio_url: https://mcdn.podbean.com/mf/web/kpcavcnk7k7dxp7e/3_clips_Edit_13_8wmmt.mp3
+  published_at: '2026-05-28T08:55:16-05:00'
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast.html"
   cover_image: "/media/freetrail2.jpeg"
@@ -119,14 +127,6 @@ items:
   episode_url: ''
   audio_url: https://www.buzzsprout.com/299975/episodes/19230418-rasmus-pa-loffen-39-56.mp3
   published_at: '2026-05-24T21:00:00+02:00'
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public.html"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  episode_title: 'Episode 615: Drug Use Among Amateurs'
-  episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
-  audio_url: https://mcdn.podbean.com/mf/web/g5fkjgtmwpc2zbn2/2_clips_Edit_35_6mvms.mp3
-  published_at: '2026-05-24T11:53:17-05:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -3664,6 +3664,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
   https://feed.podbean.com/therunningpublic/feed.xml: &40
+  - episode_title: 'Episode 616: DJ Fox'
+    episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
+    audio_url: https://mcdn.podbean.com/mf/web/kpcavcnk7k7dxp7e/3_clips_Edit_13_8wmmt.mp3
+    published_at: '2026-05-28T08:55:16-05:00'
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
     audio_url: https://mcdn.podbean.com/mf/web/g5fkjgtmwpc2zbn2/2_clips_Edit_35_6mvms.mp3
@@ -3741,10 +3745,6 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/episode-598-our-best-worst-race-decisions/
     audio_url: https://mcdn.podbean.com/mf/web/h6vnmickz9e4tsmp/2_clips_Edit_23_b0qj9.mp3
     published_at: '2026-03-13T21:35:22-05:00'
-  - episode_title: 'Training Tuesday: Talking Training!'
-    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-talking-training/
-    audio_url: https://mcdn.podbean.com/mf/web/iybsyrcrx8tx9k3p/2_clips_Edit_22_am8o5.mp3
-    published_at: '2026-03-11T21:24:33-05:00'
   https://anchor.fm/s/f9f56780/podcast/rss: &41
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
