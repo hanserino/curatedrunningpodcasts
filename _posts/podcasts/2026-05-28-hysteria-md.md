@@ -11,7 +11,7 @@ spotify_link: https://open.spotify.com/show/7hWv8WljhHUudAwrwh5oR0?si=8b77266380
 apple_podcast_link: https://podcasts.apple.com/tr/podcast/hysteria/id1399025196
 rss_feed: https://audioboom.com/channels/5166619.rss
 tags:
-  - business
+  - uncategorized
 language:
   - english
 ---
