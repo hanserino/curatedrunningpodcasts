@@ -11,7 +11,7 @@ spotify_link: https://open.spotify.com/show/0KVZ16mLZ1bbNlnKemYTzm?si=f25680e15b
 apple_podcast_link: https://podcasts.apple.com/no/podcast/normal-gossip/id1597761181?l=nb
 rss_feed: https://publicfeeds.net/f/3492/feed-rss.xml
 tags:
-  - business
+  - uncategorized
 language:
   - english
 ---
