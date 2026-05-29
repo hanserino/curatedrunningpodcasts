@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-29T10:25:14Z'
+generated_at: '2026-05-29T10:28:27Z'
 items:
+- podcast_title: The Midpacker Podcast
+  podcast_page_url: "/the-midpacker-podcast.html"
+  cover_image: "/media/themidpackerpodcast.jpeg"
+  feed_url: https://anchor.fm/s/e4eabf84/podcast/rss
+  episode_title: "#118 Troy Meadows & Julio Palma | Hellbender 100, Battling the DNF Demons, & Through Endurance We Conquer"
+  episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/118-Troy-Meadows--Julio-Palma--Hellbender-100--Battling-the-DNF-Demons---Through-Endurance-We-Conquer-e3k1qkg
+  audio_url: https://anchor.fm/s/e4eabf84/podcast/play/120694864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2Fff06e00c-0532-29e7-5a3e-45847cb8a379.mp3
+  published_at: '2026-05-29T09:30:00+00:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -265,14 +273,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/jeff-pelletier5/episodes/The-Story-Behind-Salomon-TV--with-Dean-Leslie-e3iagci
   audio_url: https://anchor.fm/s/101e74634/podcast/play/118882130/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-23%2F422653583-44100-2-b4233204f9765.mp3
   published_at: '2026-04-23T01:59:30+00:00'
-- podcast_title: Any Surface Available
-  podcast_page_url: "/any-surface-available.html"
-  cover_image: "/media/anysurfaceavailable.jpeg"
-  feed_url: https://anchor.fm/s/80b609c4/podcast/rss
-  episode_title: '040 | An eventful beginning of 2026: gare, preparazione, infortuni, processo'
-  episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/040--An-eventful-beginning-of-2026-gare--preparazione--infortuni--processo-e3i68vc
-  audio_url: https://anchor.fm/s/80b609c4/podcast/play/118743468/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-20%2F1261bdac-553f-f7e8-187e-d5eea479adf6.mp3
-  published_at: '2026-04-20T15:23:09+00:00'
 - podcast_title: Running long - A trail & ultra running talk
   podcast_page_url: "/running-long-a-trail-ultra-running-talk.html"
   cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18822716/18822716-1636980720639-6edb9c080b25c.jpg
@@ -2563,88 +2563,7 @@ episodes_by_feed:
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/43-houston-and-world-xc-recap-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_3_-_Houston_and_World_XC_Recaps_-_Audio.mp3?dest-id=3833748
     published_at: '2026-01-14T03:58:00+00:00'
-  https://anchor.fm/s/80b609c4/podcast/rss: &30
-  - episode_title: '040 | An eventful beginning of 2026: gare, preparazione, infortuni, processo'
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/040--An-eventful-beginning-of-2026-gare--preparazione--infortuni--processo-e3i68vc
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/118743468/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-20%2F1261bdac-553f-f7e8-187e-d5eea479adf6.mp3
-    published_at: '2026-04-20T15:23:09+00:00'
-  - episode_title: '039 | Kilian Jornet, Henri Aymonod, Xavier Chevrier, Paolo Germanetto, Tito Tiberti. Training talk'
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/039--Kilian-Jornet--Henri-Aymonod--Xavier-Chevrier--Paolo-Germanetto--Tito-Tiberti--Training-talk-e3f1b4j
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/115436115/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-13%2F5e136592-7e53-5009-9f73-a3c542c6f035.mp3
-    published_at: '2026-02-15T08:00:00+00:00'
-  - episode_title: '038 | Maria Chiara Crippa. Lo spazio per ascoltare. Una conversazione con la mia terapeuta'
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/038--Maria-Chiara-Crippa--Lo-spazio-per-ascoltare--Una-conversazione-con-la-mia-terapeuta-e39tl04
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/110072260/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-9-23%2F02280afc-1b1f-ab14-f371-a6c68c25162e.mp3
-    published_at: '2025-10-23T05:00:00+00:00'
-  - episode_title: 037 | William Boffelli. Mont Blanc FKT, skyrunning and more
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/037--William-Boffelli--Mont-Blanc-FKT--skyrunning-and-more-e34lqo0
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/104573120/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-6-1%2F403126621-44100-2-598353d2f3499.m4a
-    published_at: '2025-06-24T13:52:53+00:00'
-  - episode_title: 036 | Il famoso audio inviato a Spirito Trail e le altre storie di oggi
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/036--Il-famoso-audio-inviato-a-Spirito-Trail-e-le-altre-storie-di-oggi-e32paea
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/102590346/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-13%2F7dbb1d20-2360-9a13-c071-2369a4499c18.mp3
-    published_at: '2025-05-13T12:19:00+00:00'
-  - episode_title: 035 | Matteo Pavana e Federico Ravassard. Lo stato dell'Outdoor
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/035--Matteo-Pavana-e-Federico-Ravassard--Lo-stato-dellOutdoor-e31m7ho
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/101440504/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-17%2F4fcb7fe2-2a79-8e88-d78b-20e6c710360c.mp3
-    published_at: '2025-04-21T05:00:00+00:00'
-  - episode_title: 034 | Silence. California, 2025
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/034--Silence--California--2025-e31ei8c
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/101189324/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-3-12%2Fe3eb64cb-555e-1b09-c9d9-25417e71760c.mp3
-    published_at: '2025-04-12T05:53:52+00:00'
-  - episode_title: '033 | Filippo Solaro. Il delicato equilibrio tra atleti e brand: professionalizzazione degli sport outdoor, contratti, performance, media e content creation'
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/033--Filippo-Solaro--Il-delicato-equilibrio-tra-atleti-e-brand-professionalizzazione-degli-sport-outdoor--contratti--performance--media-e-content-creation-e2vrf90
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/99515104/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-7%2F744066f8-49fe-5fc2-d47f-37fad69d0aa9.mp3
-    published_at: '2025-03-07T15:27:55+00:00'
-  - episode_title: 032 | A new chapter (+ we are sooo back)
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/032--A-new-chapter--we-are-sooo-back-e2unkmm
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/98341014/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-11%2Fcd353c69-034f-f5c3-69fa-22f2926c71a9.mp3
-    published_at: '2025-02-11T15:23:15+00:00'
-  - episode_title: 031 | Any Surface Available X Buckled. Hard down the rabbit hole
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/031--Any-Surface-Available-X-Buckled--Hard-down-the-rabbit-hole-e2s9ec6
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/95778630/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-13%2F86c8ef7a-4573-2f02-5a9d-f48d59810c8d.mp3
-    published_at: '2024-12-13T08:22:25+00:00'
-  - episode_title: 030 | Una corsa nei boschi
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/030--Una-corsa-nei-boschi-e2rd80m
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/94854614/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-23%2Fa2b47ee7-6edd-40f7-baae-0714ec275e7e.mp3
-    published_at: '2024-11-23T17:31:48+00:00'
-  - episode_title: '029 | Camilla Spagnol. La corsa occupa un posto nella mia vita: questo'
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/029--Camilla-Spagnol--La-corsa-occupa-un-posto-nella-mia-vita-questo-e2qjq4d
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/94021197/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-5%2Fe1300899-aad5-7810-6489-d15613aff113.mp3
-    published_at: '2024-11-05T20:42:38+00:00'
-  - episode_title: '028 | Greetings from Chamonix. UTMB finals, Leadville, SZ, Kima records, some FKTs + please update my Wikipedia page'
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/028--Greetings-from-Chamonix--UTMB-finals--Leadville--SZ--Kima-records--some-FKTs--please-update-my-Wikipedia-page-e2p589f
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/92495599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-2%2Fad40b2a8-dac7-0dd7-8181-15bd00c7079a.mp3
-    published_at: '2024-10-02T16:41:00+00:00'
-  - episode_title: 027 | Henri Aymonod. Keep it steep
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/027--Henri-Aymonod--Keep-it-steep-e2o94ej
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/91574163/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-11%2Fb37b784e-2a95-2928-a89c-d39e4028a065.mp3
-    published_at: '2024-09-11T14:05:49+00:00'
-  - episode_title: 026 | Paris Olympics, rapporto tra atleti e media, soul sports e trail running
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/026--Paris-Olympics--rapporto-tra-atleti-e-media--soul-sports-e-trail-running-e2mu2pm
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/90163446/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-7%2Ff704f164-2a93-e9cf-26b6-58f048555906.mp3
-    published_at: '2024-08-07T16:18:41+00:00'
-  - episode_title: 025 | Mattia Gaffuri. It's not the mountain we conquer but ourselves
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/025--Mattia-Gaffuri--Its-not-the-mountain-we-conquer-but-ourselves-e2lc59f
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/88527599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-27%2F75bba207-f0c0-7868-e738-4e6f05482d88.mp3
-    published_at: '2024-06-27T07:41:06+00:00'
-  - episode_title: 024 | Non normalizzare ciò che è straordinario
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/024--Non-normalizzare-ci-che--straordinario-e2ksrme
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/88026254/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-14%2F7e4d44ec-dc85-933d-e176-907d9f403e65.mp3
-    published_at: '2024-06-14T14:54:35+00:00'
-  - episode_title: 023 | Versatility
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/023--Versatility-e2j774h
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/86268497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-4-3%2F1699b8b0-094e-b69f-a890-854baa3fe234.mp3
-    published_at: '2024-05-03T14:43:40+00:00'
-  - episode_title: 022 | Chuckanut 50k win, il Pacific Northwest e Boulder
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/022--Chuckanut-50k-win--il-Pacific-Northwest-e-Boulder-e2i55mn
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/85152919/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-3-8%2Ffc6c2df9-4c6d-8386-6aa8-1ac908b5ef45.mp3
-    published_at: '2024-04-08T23:56:54+00:00'
-  - episode_title: 021 | Aggiornamenti
-    episode_url: https://podcasters.spotify.com/pod/show/francesco-puppi/episodes/021--Aggiornamenti-e2gjcfr
-    audio_url: https://anchor.fm/s/80b609c4/podcast/play/83521467/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-2-3%2F8c27381e-135a-310a-6e9b-254547e801a1.mp3
-    published_at: '2024-03-03T21:04:46+00:00'
-  https://anchor.fm/s/fd56e778/podcast/rss: &31
+  https://anchor.fm/s/fd56e778/podcast/rss: &30
   - episode_title: Submaxxing, Tough Choices, Structure&Analysis
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/116714273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2Fd1b78595-1ed9-ab4c-96ca-fce117c7cc6e.mp3
@@ -2725,7 +2644,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Principles-Unlocked-e2t0d6l
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/96531093/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-2%2F18724a2a-2f51-5052-cafc-55d149741e35.mp3
     published_at: '2025-01-02T21:29:18+00:00'
-  https://feed.podbean.com/therunningpublic/feed.xml: &32
+  https://feed.podbean.com/therunningpublic/feed.xml: &31
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
     audio_url: https://mcdn.podbean.com/mf/web/kpcavcnk7k7dxp7e/3_clips_Edit_13_8wmmt.mp3
@@ -2806,7 +2725,7 @@ episodes_by_feed:
     episode_url: https://therunningpublic.podbean.com/e/episode-598-our-best-worst-race-decisions/
     audio_url: https://mcdn.podbean.com/mf/web/h6vnmickz9e4tsmp/2_clips_Edit_23_b0qj9.mp3
     published_at: '2026-03-13T21:35:22-05:00'
-  https://anchor.fm/s/f9f56780/podcast/rss: &33
+  https://anchor.fm/s/f9f56780/podcast/rss: &32
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
     audio_url: https://anchor.fm/s/f9f56780/podcast/play/119128183/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-27%2F422978858-44100-2-582eebc615607.m4a
@@ -2887,7 +2806,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Adam-Peterman-e2u8fca
     audio_url: https://anchor.fm/s/f9f56780/podcast/play/97844042/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-31%2F394063905-44100-2-b9189ba072ee9.m4a
     published_at: '2025-01-31T20:46:13+00:00'
-  https://feeds.captivate.fm/trail-society/: &34
+  https://feeds.captivate.fm/trail-society/: &33
   - episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/5634ad72-3cdf-497a-af77-e0924c1cb1d2.mp3
@@ -2968,7 +2887,7 @@ episodes_by_feed:
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/8495b70a-3842-4b57-939c-bb05e92ac542.mp3
     published_at: '2026-01-20T03:00:00-04:00'
-  https://ultrarunninghistory.com/feed/podcast/: &35
+  https://ultrarunninghistory.com/feed/podcast/: &34
   - episode_title: '178: Grand Canyon Short Stories – Part Two'
     episode_url: https://ultrarunninghistory.com/178-grand-canyon-2/?utm_source=rss&utm_medium=rss&utm_campaign=178-grand-canyon-2
     audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/06/episode178.mp3
@@ -3049,7 +2968,7 @@ episodes_by_feed:
     episode_url: https://ultrarunninghistory.com/ted-corbitt-2/?utm_source=rss&utm_medium=rss&utm_campaign=ted-corbitt-2
     audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/06/episode159.mp3
     published_at: '2024-06-20T21:00:09+00:00'
-  https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &36
+  https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &35
   - episode_title: Megan Boxall on running 200 marathons around the coast of Great Britain
     episode_url: https://thewayoftherunner.com/podcast
     audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/meganboxhall-finaledit.mp3?dest-id=1733936
@@ -3130,7 +3049,7 @@ episodes_by_feed:
     episode_url: https://thewayoftherunner.com/podcast
     audio_url: https://traffic.libsyn.com/secure/thewayoftherunner/masterfile-nicktiller.mp3?dest-id=1733936
     published_at: '2023-09-05T11:30:00+00:00'
-  https://rss.libsyn.com/shows/44345/destinations/142179.xml: &37
+  https://rss.libsyn.com/shows/44345/destinations/142179.xml: &36
   - episode_title: 'EP 782: Fear Isn''t the Enemy'
     episode_url: https://trailrunnernation.libsyn.com/ep-782-fear-isnt-the-enemy
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Gael_Dutigny_5_22_26.mp3?dest-id=142179
@@ -3211,7 +3130,7 @@ episodes_by_feed:
     episode_url: https://trailrunnernation.libsyn.com/ep-763-the-most-underrated-training-skill-consistency
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_RERUN_w_Adam_Kimble_Consistency2.mp3?dest-id=142179
     published_at: '2026-01-09T23:11:00+00:00'
-  https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &38
+  https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &37
   - episode_title: Roland Garros' Zombie Heat Apocalypse / The Death of the Diversified Elite Athlete / World Athletics Raises the Performance Bar
     episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a17fdaa8fd07475b5578875/media.mp3
@@ -3292,6 +3211,87 @@ episodes_by_feed:
     episode_url: https://shows.acast.com/realscienceofsport/episodes/is-rugbys-head-injury-process-working-hitting-the-wall-and-c
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69a81c37b5381e1c0140a5b3/media.mp3
     published_at: '2026-03-04T11:49:11+00:00'
+  https://anchor.fm/s/e4eabf84/podcast/rss: &38
+  - episode_title: "#118 Troy Meadows & Julio Palma | Hellbender 100, Battling the DNF Demons, & Through Endurance We Conquer"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/118-Troy-Meadows--Julio-Palma--Hellbender-100--Battling-the-DNF-Demons---Through-Endurance-We-Conquer-e3k1qkg
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/120694864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2Fff06e00c-0532-29e7-5a3e-45847cb8a379.mp3
+    published_at: '2026-05-29T09:30:00+00:00'
+  - episode_title: "#117 Matt Van Dalsem | Community, Perspective, & More On The Fragility of Life"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/117-Matt-Van-Dalsem--Community--Perspective---More-On-The-Fragility-of-Life-e3jkaqc
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/120252684/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-19%2Fd6aed593-871c-775c-4b71-4258f8088581.mp3
+    published_at: '2026-05-20T09:00:00+00:00'
+  - episode_title: "#116 Ryan Thrower | Curiosity, Creativity, & The Fragility of Life"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/116-Ryan-Thrower--Curiosity--Creativity---The-Fragility-of-Life-e3ilp4m
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/119251542/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-29%2Fcb079636-9975-8190-1b3a-375928a77fa8.mp3
+    published_at: '2026-04-30T06:00:00+00:00'
+  - episode_title: 'MidPacker Pod Field Notes – EP 03 | 3 Weeks to Hellbender: Training Around a Wedding, Leasons Form the Training Camp, & Troy''s Heat Acclamation Protocol'
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/MidPacker-Pod-Field-Notes--EP-03--3-Weeks-to-Hellbender-Training-Around-a-Wedding--Leasons-Form-the-Training-Camp---Troys-Heat-Acclamation-Protocol-e3iaki5
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/118886405/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-22%2F8fed7fd8-64fc-3b01-fc5a-3da905aaf462.mp3
+    published_at: '2026-04-23T06:00:00+00:00'
+  - episode_title: "#115 Jordan Battaglia | Building PlayOn, Strength for Longevity, and Staying Injury Free"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/115-Jordan-Battaglia--Building-PlayOn--Strength-for-Longevity--and-Staying-Injury-Free-e3hvgd6
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/118521702/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-15%2F7c4198c1-05b2-7585-e882-397f1df4706f.mp3
+    published_at: '2026-04-16T06:00:00+00:00'
+  - episode_title: "#114 Stevie Smith | Fueling for your next Ultra, Betting on Yourself & Building an Endurance Nutrition Coaching Business"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/114-Stevie-Smith--Fueling-for-your-next-Ultra--Betting-on-Yourself--Building-an-Endurance-Nutrition-Coaching-Business-e3hkq5i
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/118171250/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-9%2F593f5636-6c9f-4037-c13c-d1f1e890487f.mp3
+    published_at: '2026-04-09T06:00:00+00:00'
+  - episode_title: "#113 Dr Jeff Hammond | Cocodona Dreams, Foot Health, Plantar Fasciitis, Injury Lessons, & Chasing Big Goals"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/113-Dr-Jeff-Hammond--Cocodona-Dreams--Foot-Health--Plantar-Fasciitis--Injury-Lessons---Chasing-Big-Goals-e3ha5uo
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/117822872/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-1%2F4e6dfa2a-b3a5-9858-54a7-6a826fc2e10a.mp3
+    published_at: '2026-04-02T06:00:00+00:00'
+  - episode_title: "#112 Cody Taylor | From Touring Drummer to FKT Machine, Reinvention, & Unsupported Adventures"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/112-Cody-Taylor--From-Touring-Drummer-to-FKT-Machine--Reinvention---Unsupported-Adventures-e3gvvr5
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/117488933/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-26%2Fd9b28935-3d56-dafa-fda7-296bac149620.mp3
+    published_at: '2026-03-26T06:00:00+00:00'
+  - episode_title: "#111 Christi Thompson | From Burnout to Breakthrough, Timed Ultras, and Stretch Lab"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/111-Christi-Thompson--From-Burnout-to-Breakthrough--Timed-Ultras--and-Stretch-Lab-e3gll0o
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/117150168/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-19%2F2e7e28bb-f4b4-3d17-221c-6e66f12e9415.mp3
+    published_at: '2026-03-19T06:00:00+00:00'
+  - episode_title: "#110 Jessica Loudermilk | Black Canyon 100K, Having an Adventure Mindset, & Her Burrito League Experience"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/110-Jessica-Loudermilk--Black-Canyon-100K--Having-an-Adventure-Mindset---Her-Burrito-League-Experience-e3gaced
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/116780941/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-11%2Ff5c4af6d-b739-d995-cd72-0769a5c356f3.mp3
+    published_at: '2026-03-12T06:00:00+00:00'
+  - episode_title: 'MidPacker Pod Field Notes – Ep 002 | 9 Weeks to Hellbender: Finishing the Tempo Block and Starting the Endurance Phase'
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/MidPacker-Pod-Field-Notes--Ep-002--9-Weeks-to-Hellbender-Finishing-the-Tempo-Block-and-Starting-the-Endurance-Phase-e3ftg0r
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/116358619/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-4%2F55379e5e-59cb-0e7e-295d-cdd5cd65cb3c.mp3
+    published_at: '2026-03-04T07:00:00+00:00'
+  - episode_title: "#109 Carrie Baris | RD of the Hellbender 100, President of the Run 828 Foundation, Ride and Tie, & Healing Through Service"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/109-Carrie-Baris--RD-of-the-Hellbender-100--President-of-the-Run-828-Foundation--Ride-and-Tie---Healing-Through-Service-e3fifmo
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/115997848/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-24%2F44df535a-5f9a-7031-9490-cfec3a1ba5a9.mp3
+    published_at: '2026-02-25T07:15:00+00:00'
+  - episode_title: "#108 Kirk Cherep |Building Trail Blaze Running, Trail Golf, & Building Trail Community in the Midwest"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/108-Kirk-Cherep-Building-Trail-Blaze-Running--Trail-Golf---Building-Trail-Community-in-the-Midwest-e3f8850
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/115662432/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2Fa81d90c0-93ef-81d4-7ac4-53ceb98512ce.mp3
+    published_at: '2026-02-18T07:15:00+00:00'
+  - episode_title: "#107 Melissa Londry | Building Safe Trail Communities, Running 240 Miles, & Doing It All with Heart"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/107-Melissa-Londry--Building-Safe-Trail-Communities--Running-240-Miles---Doing-It-All-with-Heart-e3eu5m5
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/115332229/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-11%2F9d8f0b7e-683a-d76e-557b-cb28afc3dc04.mp3
+    published_at: '2026-02-11T07:30:00+00:00'
+  - episode_title: "#106 Kayla Fitzgerald | Building Palmetto Ultras, Fueling the Dream, & The Barkley Fall Classic,"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/106-Kayla-Fitzgerald--Building-Palmetto-Ultras--Fueling-the-Dream---The-Barkley-Fall-Classic-e3eiba5
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/114944773/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-3%2F60d3aca6-e302-22b2-c6a5-37309f19d896.mp3
+    published_at: '2026-02-03T07:30:00+00:00'
+  - episode_title: 'MidPacker Pod Field Notes – Ep 001 | Reset to Rise: VO2 Max, Intentional Rest & the Road to Hellbender'
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/MidPacker-Pod-Field-Notes--Ep-001--Reset-to-Rise-VO2-Max--Intentional-Rest--the-Road-to-Hellbender-e3e7q89
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/114599625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-26%2F5b0411b0-820b-8d66-6a67-4550da82116e.mp3
+    published_at: '2026-01-27T07:00:00+00:00'
+  - episode_title: Trailing Indicators 09 | Year-End Reflections & Big 2026 Goals
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/Trailing-Indicators-09--Year-End-Reflections--Big-2026-Goals-e3d0a4o
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/113305176/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-30%2F8cc69255-cf7d-71c5-a0dd-ee20c80baa04.mp3
+    published_at: '2025-12-31T07:00:00+00:00'
+  - episode_title: "#105 Angie Lake | Re-finding the Joy of Running, Wild Women Trail Runs, & Listening to Your Body"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/105-Angie-Lake--Re-finding-the-Joy-of-Running--Wild-Women-Trail-Runs---Listening-to-Your-Body-e3cnc95
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/113012453/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-23%2Ffbc85238-a93c-7559-8e15-766f17feed94.mp3
+    published_at: '2025-12-23T07:00:00+00:00'
+  - episode_title: "#104 Miranda Williamson | Negative Splitting High Lonesome, RunCations, & Building Your Own Run Community"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/104-Miranda-Williamson--Negative-Splitting-High-Lonesome--RunCations---Building-Your-Own-Run-Community-e3cdl23
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/112693763/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-16%2F202910da-62c2-e8f1-e19e-3c7a8fd5f8db.mp3
+    published_at: '2025-12-16T07:00:00+00:00'
+  - episode_title: "#103 Malcolm Pascotti | Can't Buy Cool Studios, The Anti-Hustle Philosophy, & Taking Big Beets on Yourself"
+    episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/103-Malcolm-Pascotti--Cant-Buy-Cool-Studios--The-Anti-Hustle-Philosophy---Taking-Big-Beets-on-Yourself-e3bulqi
+    audio_url: https://anchor.fm/s/e4eabf84/podcast/play/112203026/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-5%2F8ad16b53-14d6-b4a8-fa58-c7d2277cfeec.mp3
+    published_at: '2025-12-06T07:00:00+00:00'
   https://anchor.fm/s/eb00f12c/podcast/rss: &39
   - episode_title: Sydney Petersen - A Strong Sense of Belonging
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
@@ -3841,23 +3841,23 @@ feed_episodes_list:
   episodes: *28
 - feed_key: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
   episodes: *29
-- feed_key: https://anchor.fm/s/80b609c4/podcast/rss
-  episodes: *30
 - feed_key: https://anchor.fm/s/fd56e778/podcast/rss
-  episodes: *31
+  episodes: *30
 - feed_key: https://feed.podbean.com/therunningpublic/feed.xml
-  episodes: *32
+  episodes: *31
 - feed_key: https://anchor.fm/s/f9f56780/podcast/rss
-  episodes: *33
+  episodes: *32
 - feed_key: https://feeds.captivate.fm/trail-society/
-  episodes: *34
+  episodes: *33
 - feed_key: https://ultrarunninghistory.com/feed/podcast/
-  episodes: *35
+  episodes: *34
 - feed_key: https://rss.libsyn.com/shows/234188/destinations/1733936.xml
-  episodes: *36
+  episodes: *35
 - feed_key: https://rss.libsyn.com/shows/44345/destinations/142179.xml
-  episodes: *37
+  episodes: *36
 - feed_key: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
+  episodes: *37
+- feed_key: https://anchor.fm/s/e4eabf84/podcast/rss
   episodes: *38
 - feed_key: https://anchor.fm/s/eb00f12c/podcast/rss
   episodes: *39
