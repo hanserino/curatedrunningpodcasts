@@ -8,7 +8,7 @@ title: Course Equipe
 category: podcast
 published: true
 description: 1 guest, 1 race, 1 extraordinary story
-not_running_related: true
+not_running_related: false
 cover_image: /media/courseepique.jpeg
 publisher: Sportcast Studios
 spotify_link: https://open.spotify.com/show/594LF2mZsWhpeD1dXfXBc5?si=a43fa387c9874431
