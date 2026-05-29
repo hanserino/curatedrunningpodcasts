@@ -1,5 +1,12 @@
 # Deploy the pre-built docs/ tree from CI (Jekyll 4 + custom plugins).
-# In repo Settings → Pages, set Source to "GitHub Actions" (not Jekyll from /).
+#
+# Recommended GitHub Pages setting (simplest):
+#   Settings → Pages → Build and deployment → Deploy from a branch
+#   Branch: main, Folder: /docs
+#   (docs/.nojekyll skips legacy Jekyll re-processing)
+#
+# Alternative: set Source to "GitHub Actions" and run this workflow.
+# Do NOT click "Configure" on GitHub's suggested Jekyll workflow.
 name: Deploy GitHub Pages
 
 on:
@@ -9,6 +16,15 @@ on:
     paths:
       - "docs/**"
       - "CNAME"
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Push Jekyll build (RSS)"
+      - "Scheduled Jekyll build (RSS)"
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -21,6 +37,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
