@@ -9,7 +9,7 @@ category: podcast
 published: true
 description: Swedish podcast by elite runner John “Jesus” Kingstedt and the
   rookie Manne Forssberg covering all things road and track.
-not_running_related: true
+not_running_related: false
 cover_image: /media/springsnyggt.jpeg
 publisher: Jesus och Manne
 spotify_link: https://open.spotify.com/show/172Kw8CrpuVp8gU50MPXmm?si=ba385d926b5a4014
