@@ -11,7 +11,7 @@ published: true
 description: Scotty Kummer brings you lighthearted conversations with runners
   about their lives as runners and the issues that are interesting or important
   to them and guests of the show.
-not_running_related: true
+not_running_related: false
 cover_image: /media/tenjunkmiles.png
 publisher: Ten Junk Miles, LLC
 spotify_link: https://open.spotify.com/show/4yeVQnjkjPK20gPxGeP5tu?si=2d8b03e5c0ad4728
