@@ -10,7 +10,7 @@ published: true
 description: "A Swedish ultrarunning podcast where the podcast hosts Ellen
   Westfelt and Johnny Hällneby talks about everything from cross training,
   nutrition, meditation, endurance sports and much much more. "
-not_running_related: true
+not_running_related: false
 cover_image: /media/paceonearth.jpeg
 publisher: Ellen och Johnny
 spotify_link: https://open.spotify.com/show/5G3EyPD4eTvlvYoS7ThVh9?si=2a75030401cb4e75
