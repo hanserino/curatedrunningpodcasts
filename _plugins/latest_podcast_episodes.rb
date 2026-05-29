@@ -3,6 +3,10 @@
 # RSS feeds are fetched only when JEKYLL_ENV=production or JEKYLL_FETCH_RSS=1.
 # Otherwise the build uses _data/latest_podcast_episodes.yml (from git) and/or
 # .jekyll-rss-cache/latest_podcast_episodes.yml so jekyll serve stays fast.
+#
+# All podcasts with rss_feed get episodes_by_feed (for single podcast pages).
+# Only running-directory shows (not_running_related != true) appear in items
+# (for /latest-episodes/ and the home directory snapshot).
 
 require "fileutils"
 require "open-uri"
@@ -232,24 +236,26 @@ def build_latest_podcast_episodes_data(site)
 
   posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
 
-  podcasts = posts.select do |doc|
+  podcasts_with_feed = posts.select do |doc|
     doc.data["category"] == "podcast" &&
-      doc.data["rss_feed"].to_s.strip != "" &&
-      doc.data["not_running_related"] != true
+      doc.data["rss_feed"].to_s.strip != ""
   end
 
   items = []
   errors = []
   episodes_by_feed = {}
 
-  podcasts.each do |doc|
+  podcasts_with_feed.each do |doc|
     feed_url = doc.data["rss_feed"].to_s.strip
     feed_key = LatestPodcastEpisodes.normalize_feed_key(feed_url)
+    include_in_directory = doc.data["not_running_related"] != true
 
     begin
       xml = LatestPodcastEpisodes.fetch_feed(feed_url)
       episodes = LatestPodcastEpisodes.episodes_from_feed(xml, 20)
       episodes_by_feed[feed_key] = episodes
+
+      next unless include_in_directory
 
       latest_item = LatestPodcastEpisodes.latest_item_from_feed(xml)
 
@@ -292,6 +298,10 @@ def build_latest_podcast_episodes_data(site)
     end
   end.reverse
 
+  has_episodes_by_feed = episodes_by_feed.any? do |_, episodes|
+    episodes.is_a?(Array) && !episodes.empty?
+  end
+
   payload = {
     "generated_at" => Time.now.utc.iso8601,
     "items" => sorted,
@@ -300,11 +310,11 @@ def build_latest_podcast_episodes_data(site)
   }
   LatestPodcastEpisodes.ensure_feed_episodes_list!(payload)
 
-  if sorted.any?
+  if sorted.any? || has_episodes_by_feed
     site.data["latest_podcast_episodes"] = payload
     LatestPodcastEpisodes.write_rss_cache(cache_path, payload)
     LatestPodcastEpisodes.write_committed_data(site, payload)
-  elsif podcasts.any? && sorted.empty? && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
+  elsif podcasts_with_feed.any? && sorted.empty? && !has_episodes_by_feed && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
     Jekyll.logger.warn(
       "LatestPodcastEpisodes:",
       "RSS fetch returned no episodes (#{errors.size} problem(s)); using disk cache from #{cached['generated_at']}."
@@ -319,7 +329,7 @@ def build_latest_podcast_episodes_data(site)
     )
     LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
     site.data["latest_podcast_episodes"] = merged
-  elsif podcasts.any? && sorted.empty? && prior_usable
+  elsif podcasts_with_feed.any? && sorted.empty? && !has_episodes_by_feed && prior_usable
     Jekyll.logger.warn(
       "LatestPodcastEpisodes:",
       "RSS fetch returned no episodes (#{errors.size} problem(s)); using committed _data/latest_podcast_episodes.yml."

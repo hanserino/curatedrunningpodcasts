@@ -56,7 +56,7 @@ collections:
         name: "not_running_related"
         widget: "boolean"
         default: false
-        hint: "When checked, the show still gets its own page and URL, but is hidden from the home directory, latest-episodes page, episode RSS snapshot, and site feed.xml. Use for podcasts added via Runners' picks that are not part of the main running directory."
+        hint: "When checked, the show still gets its own page and on-page episode player, but is hidden from the home directory, /latest-episodes/, and site feed.xml. Use a valid RSS feed URL (not a show homepage)."
       # image widget = upload to repo; choose_url: false hides the "URL" tab (upload only).
       - label: "Cover art"
         name: "cover_image"
