@@ -70,6 +70,10 @@
           {%- if _cover == '' and resolved_podcast.cover_image and resolved_podcast.cover_image != '' -%}
             {%- assign _cover = resolved_podcast.cover_image -%}
           {%- endif -%}
+          {%- if _cover == '' -%}
+            {%- include podcast-body-cover-path.html doc=resolved_podcast -%}
+            {%- assign _cover = podcast_body_cover -%}
+          {%- endif -%}
         {%- endif -%}
       {%- endif -%}
       {%- if _pick_url contains '://' -%}

@@ -84,10 +84,31 @@ async function processFile(filePath) {
     .toFile(webpPath);
 }
 
-async function main() {
-  let names;
+async function collectRasterFiles(dir, out = []) {
+  let entries;
   try {
-    names = await fs.promises.readdir(mediaDir);
+    entries = await fs.promises.readdir(dir, { withFileTypes: true });
+  } catch (e) {
+    console.error(`Cannot read ${path.relative(root, dir)}:`, e.message);
+    return out;
+  }
+
+  for (const ent of entries) {
+    const fp = path.join(dir, ent.name);
+    if (ent.isDirectory()) {
+      await collectRasterFiles(fp, out);
+      continue;
+    }
+    if (!ent.isFile() || !extRe.test(ent.name)) continue;
+    out.push(fp);
+  }
+  return out;
+}
+
+async function main() {
+  let files;
+  try {
+    files = await collectRasterFiles(mediaDir);
   } catch (e) {
     console.error("Cannot read media/:", e.message);
     process.exit(1);
@@ -95,16 +116,13 @@ async function main() {
 
   let ran = 0;
   let skipped = 0;
-  for (const name of names) {
-    if (!extRe.test(name)) continue;
-    const fp = path.join(mediaDir, name);
-    const st = await fs.promises.stat(fp);
-    if (!st.isFile()) continue;
+  for (const fp of files) {
     if (!(await needsProcessing(fp))) {
       skipped += 1;
       continue;
     }
-    process.stdout.write(`optimize: ${name}\n`);
+    const rel = path.relative(mediaDir, fp).split(path.sep).join("/");
+    process.stdout.write(`optimize: ${rel}\n`);
     await processFile(fp);
     ran += 1;
   }

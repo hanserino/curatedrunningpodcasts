@@ -27,4 +27,13 @@
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}
+  {%- if resolved_podcast == nil and _raw_slug != '' -%}
+    {%- for _p in site.categories.podcast -%}
+      {%- assign _fn = _p.relative_path | replace: '_posts/podcasts/', '' | replace: '.md', '' -%}
+      {%- if _fn == _raw_slug -%}
+        {%- assign resolved_podcast = _p -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
 {%- endif -%}

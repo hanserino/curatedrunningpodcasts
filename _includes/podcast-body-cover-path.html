@@ -1,0 +1,17 @@
+{%- comment -%}
+  First /media/ path from a podcast post's markdown body (legacy covers).
+  Sets `podcast_body_cover`.
+  Params: doc
+{%- endcomment -%}
+{%- assign podcast_body_cover = '' -%}
+{%- assign _doc = include.doc -%}
+{%- if _doc -%}
+  {%- assign _body = _doc.content | default: '' -%}
+  {%- if _body contains '/media/' -%}
+    {%- assign _tail = _body | split: '/media/' | last -%}
+    {%- assign _file = _tail | split: ')' | first | split: '"' | first | split: "'" | first | split: ' ' | first | strip -%}
+    {%- if _file != '' -%}
+      {%- assign podcast_body_cover = '/media/' | append: _file -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}

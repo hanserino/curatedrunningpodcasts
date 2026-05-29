@@ -102,6 +102,11 @@ $rp-accent: rgba(112, 172, 142, 0.38);
 
         &__photo-wrap {
             display: block;
+            line-height: 0;
+
+            picture {
+                display: block;
+            }
         }
 
         &__photo {
@@ -166,6 +171,11 @@ $rp-accent: rgba(112, 172, 142, 0.38);
     &__photo-wrap {
         display: flex;
         justify-content: center;
+        line-height: 0;
+
+        picture {
+            display: block;
+        }
 
         @include allAbove(medium) {
             justify-content: flex-start;
