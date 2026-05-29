@@ -1,22 +1,6 @@
 ---
-generated_at: '2026-05-29T07:22:03Z'
+generated_at: '2026-05-29T07:30:00Z'
 items:
-- podcast_title: For The Long Run
-  podcast_page_url: "/for-the-long-run.html"
-  cover_image: "/media/forthelongrun.jpeg"
-  feed_url: https://anchor.fm/s/81032c4/podcast/rss
-  episode_title: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway
-  episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Maria-Chevalier-on-48-Marathon-States--Running-Double-Boston--and-Doing-Hard-Things-Anyway-e3jvjbo
-  audio_url: https://anchor.fm/s/81032c4/podcast/play/120621880/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-27%2F36b51e23-22b0-6c9d-8d1a-eeca91784f5c.mp3
-  published_at: '2026-05-29T07:00:00+00:00'
-- podcast_title: The Sub Hub
-  podcast_page_url: "/the-sub-hub.html"
-  cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
-  feed_url: https://anchor.fm/s/db96fa60/podcast/rss
-  episode_title: Petter Engdahl on Versatility in Trail Running
-  episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Petter-Engdahl-on-Versatility-in-Trail-Running-e3k1r5q
-  audio_url: https://anchor.fm/s/db96fa60/podcast/play/120695418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F425101247-44100-2-162305ab2781.mp3
-  published_at: '2026-05-29T06:00:01+00:00'
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
   cover_image: https://static.audiomeans.fr/img/podcast/8574e0a2-b493-4285-a6b0-758001b8db7e.jpg
@@ -177,6 +161,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Zach-Hauer-on-Chasing-the-Podium-at-Cocodona-250--and-What-200s-Teach-You-That-Nothing-Else-Can-e3jor82
   audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120400578/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2F7fa5ba03-9924-803c-c937-cd6037533bc4.mp3
   published_at: '2026-05-22T19:11:25+00:00'
+- podcast_title: For The Long Run
+  podcast_page_url: "/for-the-long-run.html"
+  cover_image: "/media/forthelongrun.jpeg"
+  feed_url: https://anchor.fm/s/81032c4/podcast/rss
+  episode_title: Dan Green Has Run 250 Miles. He Still Just Calls Himself a Guy Who Loves Running.
+  episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dan-Green-Has-Run-250-Miles--He-Still-Just-Calls-Himself-a-Guy-Who-Loves-Running-e3jnh96
+  audio_url: https://anchor.fm/s/81032c4/podcast/play/120357606/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2Fa0adda35-f688-26cb-44ac-c5d876706f0c.mp3
+  published_at: '2026-05-22T07:00:00+00:00'
 - podcast_title: Trail Runner Nation
   podcast_page_url: "/trail-runner-nation.html"
   cover_image: https://static.libsyn.com/p/assets/4/4/a/f/44af7fbe79e1e7ba/trn-logo-podcast-artwork.jpg
@@ -193,6 +185,14 @@ items:
   episode_url: https://rss.com/podcasts/coffeeclub/2846328
   audio_url: https://content.rss.com/episodes/81443/2846328/coffeeclub/2026_05_21_14_04_15_511bfff6-7f5a-4c59-8914-829a8c17e634.mp3
   published_at: '2026-05-21T19:10:39+00:00'
+- podcast_title: The Sub Hub
+  podcast_page_url: "/the-sub-hub.html"
+  cover_image: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
+  feed_url: https://anchor.fm/s/db96fa60/podcast/rss
+  episode_title: HISTORIC Zegama! + Early Ledro Sky Trentino
+  episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/HISTORIC-Zegama---Early-Ledro-Sky-Trentino-e3jn40s
+  audio_url: https://anchor.fm/s/db96fa60/podcast/play/120344028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2F424628356-44100-2-4a5042f2b09fb.mp3
+  published_at: '2026-05-21T16:56:49+00:00'
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
   cover_image: https://static.libsyn.com/p/assets/a/c/3/8/ac3891ecc47a88fb/TJM_1400.png
@@ -2017,10 +2017,6 @@ episodes_by_feed:
     audio_url: https://redirect.zencastr.com/r/episode/68fa7ffc107196857db40ed4/size/670109318/video-files/635358be4592c880860238fe/d36ad246-04cb-403e-917c-dab34dab890b.mp4
     published_at: '2025-10-28T10:00:00+00:00'
   https://anchor.fm/s/db96fa60/podcast/rss: &23
-  - episode_title: Petter Engdahl on Versatility in Trail Running
-    episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Petter-Engdahl-on-Versatility-in-Trail-Running-e3k1r5q
-    audio_url: https://anchor.fm/s/db96fa60/podcast/play/120695418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F425101247-44100-2-162305ab2781.mp3
-    published_at: '2026-05-29T06:00:01+00:00'
   - episode_title: HISTORIC Zegama! + Early Ledro Sky Trentino
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/HISTORIC-Zegama---Early-Ledro-Sky-Trentino-e3jn40s
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/120344028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2F424628356-44100-2-4a5042f2b09fb.mp3
@@ -2096,6 +2092,10 @@ episodes_by_feed:
   - episode_title: '2025 Sub Hub Top Pick: Frédéric Tranchand'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Frdric-Tranchand-e3c9of1
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566177/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-15%2F414447294-44100-2-0d03e0f1f8381.mp3
+    published_at: '2025-12-15T07:00:00+00:00'
+  - episode_title: '2025 Sub Hub Top Pick: Madalina Florea'
+    episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Madalina-Florea-e3c9ok9
+    audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-13%2F414299592-44100-2-b801367b993d6.mp3
     published_at: '2025-12-15T07:00:00+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &24
   - episode_title: L'enfer vert, 130 km dans la jungle martiniquaise
@@ -3058,10 +3058,6 @@ episodes_by_feed:
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69ad73c551a1d6b2554fbb2a.mp3
     published_at: '2026-03-08T13:05:51+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &36
-  - episode_title: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway
-    episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Maria-Chevalier-on-48-Marathon-States--Running-Double-Boston--and-Doing-Hard-Things-Anyway-e3jvjbo
-    audio_url: https://anchor.fm/s/81032c4/podcast/play/120621880/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-27%2F36b51e23-22b0-6c9d-8d1a-eeca91784f5c.mp3
-    published_at: '2026-05-29T07:00:00+00:00'
   - episode_title: Dan Green Has Run 250 Miles. He Still Just Calls Himself a Guy Who Loves Running.
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Dan-Green-Has-Run-250-Miles--He-Still-Just-Calls-Himself-a-Guy-Who-Loves-Running-e3jnh96
     audio_url: https://anchor.fm/s/81032c4/podcast/play/120357606/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-21%2Fa0adda35-f688-26cb-44ac-c5d876706f0c.mp3
@@ -3138,6 +3134,10 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Nick-Thompson-on-How-to-Measure-Running-Progress-e3dds6i
     audio_url: https://traffic.megaphone.fm/APO8393509913.mp3
     published_at: '2026-01-16T14:57:53+00:00'
+  - episode_title: Emma Coburn’s No-BS Advice for Showing Up When Motivation Is Gone
+    episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Emma-Coburns-No-BS-Advice-for-Showing-Up-When-Motivation-Is-Gone-e3d90lq
+    audio_url: https://anchor.fm/s/81032c4/podcast/play/113590394/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415600258-44100-2-01a2b109ada37.m4a
+    published_at: '2026-01-09T11:00:00+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &37
   - episode_title: 4.22. Real Track Talk
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
