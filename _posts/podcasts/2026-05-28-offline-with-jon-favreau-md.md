@@ -11,7 +11,7 @@ spotify_link: https://open.spotify.com/show/58XJyTIpYTAbjOoosj6R9M?si=52f41fa5dc
 apple_podcast_link: https://podcasts.apple.com/us/podcast/offline-with-jon-favreau/id1610392666
 rss_feed: https://audioboom.com/channels/5166623.rss
 tags:
-  - business
+  - uncategorized
 language:
   - english
 ---
