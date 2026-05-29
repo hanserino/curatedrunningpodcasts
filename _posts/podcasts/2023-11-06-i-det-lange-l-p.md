@@ -9,7 +9,7 @@ category: podcast
 published: true
 description: "Norwegian running podcast created between 2019 - 2023. Solid
   interviews with elite athletes in all running genres. No longer active. "
-not_running_related: true
+not_running_related: false
 cover_image: /media/idetlangeloppodcast.jpeg
 publisher: NRK
 spotify_link: https://open.spotify.com/show/5w0BNepisaCKduljnj8rpa?si=da8122f696a846fd
