@@ -4,7 +4,7 @@ title: Dear Hank & John
 category: podcast
 published: "true"
 featured: false
-not_running_related: false
+not_running_related: true
 cover_image: /media/dearhank.jpeg
 publisher: Complexly
 spotify_link: https://open.spotify.com/show/6e4HNBdPvjDOHKVf82oMEk?si=20dd6d63d070442c
