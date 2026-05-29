@@ -9,7 +9,9 @@ on:
       - main
     paths:
       - "_posts/**"
+      - "_runner_picks/**"
       - "media/**"
+  workflow_dispatch:
 
 permissions:
   contents: write
