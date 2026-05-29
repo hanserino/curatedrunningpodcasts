@@ -10,7 +10,7 @@ category: podcast
 published: true
 description: A podcast about the history of ultrarunning by ultrarunner and
   historian Davy Crocket.
-not_running_related: true
+not_running_related: false
 cover_image: /media/ultrarunninghistory.jpg
 publisher: Davy Crockett
 spotify_link: https://open.spotify.com/show/6VYmdPipc5bKMEXjzgNdue
