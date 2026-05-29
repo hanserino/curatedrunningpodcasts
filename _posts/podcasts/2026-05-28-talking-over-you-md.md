@@ -11,7 +11,7 @@ spotify_link: https://open.spotify.com/show/6UjUymQyrgq3q1yusgnCB2?si=a7d3a104ee
 apple_podcast_link: https://podcasts.apple.com/us/podcast/talking-over-you/id1836671229
 rss_feed: https://rss.buzzsprout.com/2529065.rss
 tags:
-  - business
+  - uncategorized
 language:
   - english
 ---
