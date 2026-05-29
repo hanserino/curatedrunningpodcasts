@@ -9,7 +9,7 @@ category: podcast
 published: true
 description: A podcast about the women of Mountain, Trail, Ultra and Road
   running worlds. Hosted by Devon Yanko.
-not_running_related: true
+not_running_related: false
 cover_image: /media/womanofdistancepodcast.jpeg
 publisher: Devon Yanko
 spotify_link: https://open.spotify.com/show/043TR4TB6AaV6nx3eflrBK?si=962a6dc71786474b
