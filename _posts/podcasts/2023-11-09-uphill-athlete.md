@@ -9,7 +9,7 @@ category: podcast
 published: true
 description: Legendary alpine climber Steve House brings you highly informative
   discussions that range widely across topics, including running.
-not_running_related: true
+not_running_related: false
 cover_image: /media/uphillathlete.jpeg
 publisher: Uphill Athlete
 spotify_link: https://open.spotify.com/show/2ISHjPD8PFIIxbNMgpX7df
