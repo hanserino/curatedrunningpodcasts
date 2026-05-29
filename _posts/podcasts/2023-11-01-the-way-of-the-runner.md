@@ -10,7 +10,7 @@ category: podcast
 published: true
 description: Award-winning author Adharanand Finn talks to runners of every kind
   about the joy and experience of running.
-not_running_related: true
+not_running_related: false
 cover_image: /media/the-way-of-the-runner-podcast.png
 publisher: Adharanand Finn
 spotify_link: https://open.spotify.com/show/2sOyKRsYF5rTGAuGjlB3D4?si=250fadace6984950
