@@ -9,7 +9,7 @@ title: Breaking Marathon Limits
 category: podcast
 published: true
 description: Norwegian running podcast, mostly focused on track and road.
-not_running_related: true
+not_running_related: false
 cover_image: /media/bml.jpeg
 publisher: Breaking Marathon Limits
 spotify_link: https://open.spotify.com/show/2H86c25anhVQ7YHbBQ0xDc?si=6b4a43f44ad7475f
