@@ -12,7 +12,7 @@ description: "The host, Sally McRae, is a pro athlete , wife, mother, and biz
   covers a variety of life focused topics including running, total wellness,
   mindset, parenting, life balance, the impact of social media, and staying
   motivated while working toward goals. "
-not_running_related: true
+not_running_related: false
 cover_image: /media/choosestrongpodcast.jpeg
 publisher: Sally McRae
 spotify_link: https://open.spotify.com/show/0b3F87c5WWeMCmrx3Uzdlv?si=912cc9271294479e
