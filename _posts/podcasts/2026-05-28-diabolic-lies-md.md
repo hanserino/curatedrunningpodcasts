@@ -10,7 +10,7 @@ spotify_link: https://open.spotify.com/show/2O1NJgUkaXBfSQHsdss7vA?si=daca1a2b6d
 apple_podcast_link: https://podcasts.apple.com/us/podcast/diabolical-lies/id1761438573
 rss_feed: https://api.substack.com/feed/podcast/2836327.rss
 tags:
-  - business
+  - uncategorized
 language:
   - english
 ---
