@@ -11,7 +11,7 @@ description: "Boulder based pro ultra trail runners Seth Ruhling, Adam Merry,
   Matt Daniels, Drew Holmen and Moisés Jimenez takes you behind the scenes of
   the trail running scene and gives you hot unfiltered takes on what's happening
   in the trail running space. "
-not_running_related: true
+not_running_related: false
 cover_image: /media/boulderboys.jpeg
 publisher: The Boulder Boys
 spotify_link: https://open.spotify.com/show/7lt4vCGO7wnTpPLUdQ8lzr?si=f8ba1c019448424a
