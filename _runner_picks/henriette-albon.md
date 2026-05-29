@@ -1,6 +1,6 @@
 ---
 name: Henriette Albon
-role: Pro ultra trail runner
+role: Pro ultra trail runner and podcast host
 photo: /media/runner-picks/henriettealbon.jpg
 bio: Bad ass ultra trail runner and co-host of The Albon Way podcast
 instagram_handle: henriettealbon
