@@ -7,7 +7,7 @@ date: 2026-05-29
 title: The Boulder Boys
 category: podcast
 published: "true"
-not_running_related: true
+not_running_related: false
 cover_image: /media/boulderboys.jpeg
 publisher: The Boulder Boys
 spotify_link: https://open.spotify.com/show/7lt4vCGO7wnTpPLUdQ8lzr?si=f8ba1c019448424a
