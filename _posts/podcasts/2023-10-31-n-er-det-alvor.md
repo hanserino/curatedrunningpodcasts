@@ -8,8 +8,9 @@ date: 2026-05-04
 title: Føkk Asfalt / Nå Er Det Alvor
 category: podcast
 published: true
-description: Norwegian mountain ultra trail podcast. 500+ episodes, est. 2018.
+description: Norwegian mountain ultra trail podcast. 600+ episodes, est. 2018.
 featured: true
+not_running_related: true
 cover_image: /media/fokk-asfalt-logo.webp
 publisher: NEDA
 spotify_link: https://open.spotify.com/show/1s8OvAXNcqRa6oncqakhdg?si=68f8a4a873994356
