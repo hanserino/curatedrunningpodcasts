@@ -10,7 +10,7 @@ category: podcast
 published: true
 description: Norwegian mountain ultra trail podcast. 600+ episodes, est. 2018.
 featured: true
-not_running_related: true
+not_running_related: false
 cover_image: /media/fokk-asfalt-logo.webp
 publisher: NEDA
 spotify_link: https://open.spotify.com/show/1s8OvAXNcqRa6oncqakhdg?si=68f8a4a873994356
