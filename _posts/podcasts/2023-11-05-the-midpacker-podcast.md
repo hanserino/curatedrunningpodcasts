@@ -10,7 +10,7 @@ published: true
 description: Troy Meadows presents a podcast which follows middle and back of
   the pack trail runners and ultra runners at the heart of the trail running
   community.
-not_running_related: true
+not_running_related: false
 cover_image: /media/themidpackerpodcast.jpeg
 publisher: Freetrail
 spotify_link: https://open.spotify.com/show/3nXliB7k1ojebkYTu8zZrL?si=790cec5f2666495d
