@@ -10,7 +10,7 @@ published: true
 description: Interviews with world class athletes, coaches and rukus makers
   about health, wellness and performance. Hosted by endurance athlete Floris
   Gierman.
-not_running_related: true
+not_running_related: false
 cover_image: /media/theextramilestshow236.jpg
 publisher: Floris Gierman
 spotify_link: https://open.spotify.com/show/2y3JWHMkjsdrnBpHNYx7of?si=39eb4a2010e34390
