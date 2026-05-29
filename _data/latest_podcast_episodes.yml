@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-29T07:58:45Z'
+generated_at: '2026-05-29T09:18:40Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
+  episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a19500ebe7eda98206b69c5.mp3
+  published_at: '2026-05-29T08:52:01+00:00'
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run.html"
   cover_image: "/media/forthelongrun.jpeg"
@@ -153,14 +161,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
   audio_url: https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3
   published_at: '2026-05-25T10:00:00+00:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
-  episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a12d1034c01331966485b4f.mp3
-  published_at: '2026-05-24T11:37:43+00:00'
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw.html"
   cover_image: https://static.libsyn.com/p/assets/6/a/9/c/6a9cba88898b8710d959afa2a1bf1c87/CrackaBrew_1200x1200_V1.png
@@ -177,6 +177,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Zach-Hauer-on-Chasing-the-Podium-at-Cocodona-250--and-What-200s-Teach-You-That-Nothing-Else-Can-e3jor82
   audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120400578/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2F7fa5ba03-9924-803c-c937-cd6037533bc4.mp3
   published_at: '2026-05-22T19:11:25+00:00'
+- podcast_title: Trail Runner Nation
+  podcast_page_url: "/trail-runner-nation.html"
+  cover_image: "/media/trn-logo-podcast-artwork.jpg"
+  feed_url: https://rss.libsyn.com/shows/44345/destinations/142179.xml
+  episode_title: 'EP 782: Fear Isn''t the Enemy'
+  episode_url: https://trailrunnernation.libsyn.com/ep-782-fear-isnt-the-enemy
+  audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Gael_Dutigny_5_22_26.mp3?dest-id=142179
+  published_at: '2026-05-21T23:03:00+00:00'
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub.html"
   cover_image: https://media.rss.com/coffeeclub/20211105_155336_4773cbe93752e1ba1d2a4881a15daf14.jpg
@@ -2645,12 +2653,16 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_S1E8_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-04-25T07:01:00+00:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &31
+  - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
+    episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a19500ebe7eda98206b69c5.mp3
+    published_at: '2026-05-29T08:52:01+00:00'
   - episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a12d1034c01331966485b4f.mp3
     published_at: '2026-05-24T11:37:43+00:00'
-  - episode_title: 'Weekly News Ep.38: North Down Way 50 Recap | UTS |'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-down-way-50-recap-or-uts-or
+  - episode_title: 'Weekly News Ep.38: North Downs Way 50 Recap | UTS |'
+    episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-downs-way-50-recap-or-uts-or
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a0f37f05e1b79f1456c46d4.mp3
     published_at: '2026-05-21T16:51:05+00:00'
   - episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
@@ -2721,10 +2733,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-jack-chamberlain
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69afdd41d4008fee6bac3601.mp3
     published_at: '2026-03-10T09:01:17+00:00'
-  - episode_title: 'Weekly Ep.26: TGC | One Slam | UTS |'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep26-tgc-or-one-slam-or-uts-or
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69ad73c551a1d6b2554fbb2a.mp3
-    published_at: '2026-03-08T13:05:51+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &32
   - episode_title: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Maria-Chevalier-on-48-Marathon-States--Running-Double-Boston--and-Doing-Hard-Things-Anyway-e3jvjbo
@@ -3373,7 +3381,88 @@ episodes_by_feed:
     episode_url: https://ultrarunninghistory.com/ted-corbitt-2/?utm_source=rss&utm_medium=rss&utm_campaign=ted-corbitt-2
     audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/06/episode159.mp3
     published_at: '2024-06-20T21:00:09+00:00'
-  https://anchor.fm/s/eb00f12c/podcast/rss: &40
+  https://rss.libsyn.com/shows/44345/destinations/142179.xml: &40
+  - episode_title: 'EP 782: Fear Isn''t the Enemy'
+    episode_url: https://trailrunnernation.libsyn.com/ep-782-fear-isnt-the-enemy
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Gael_Dutigny_5_22_26.mp3?dest-id=142179
+    published_at: '2026-05-21T23:03:00+00:00'
+  - episode_title: 'EP 781: The Finish Line That Changed Everything'
+    episode_url: https://trailrunnernation.libsyn.com/ep-781-the-finish-line-that-changed-everything
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Brian_Morrison.mp3?dest-id=142179
+    published_at: '2026-05-14T21:43:00+00:00'
+  - episode_title: 'EP 780: The Woman Who Ran 600 Miles'
+    episode_url: https://trailrunnernation.libsyn.com/ep-780-the-woman-who-ran-600-miles
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Meg_Eckart_2026.mp3?dest-id=142179
+    published_at: '2026-05-06T20:59:00+00:00'
+  - episode_title: 'EP 779: The Hidden Performance Cost of Sun Damage'
+    episode_url: https://trailrunnernation.libsyn.com/ep-779-the-hidden-performance-cost-of-sun-damage
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Colleen_Miracle_5_1_26.mp3?dest-id=142179
+    published_at: '2026-05-01T04:28:00+00:00'
+  - episode_title: 'EP 778: Audio Magazine- The Run That Changes Your Brain'
+    episode_url: https://trailrunnernation.libsyn.com/ep-778-audio-magazine-the-run-that-changes-your-brain
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_Audio_mag_w_Warren_Pole_2026_TIFOSI_FIXEDD.mp3?dest-id=142179
+    published_at: '2026-04-23T23:39:00+00:00'
+  - episode_title: 'EP 777: Inside the Toughest Era of Ultrarunning'
+    episode_url: https://trailrunnernation.libsyn.com/ep-777-inside-the-toughest-era-of-ultrarunning
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Hal__Ian_2026.mp3?dest-id=142179
+    published_at: '2026-04-17T02:23:00+00:00'
+  - episode_title: 'EP 776: Build Stronger Feet Before They Fail'
+    episode_url: https://trailrunnernation.libsyn.com/ep-776-build-stronger-feet-before-they-fail
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Tonya_Olson_4_10_26.mp3?dest-id=142179
+    published_at: '2026-04-09T22:03:00+00:00'
+  - episode_title: 'EP 775: I Spent $4,500 on One Race'
+    episode_url: https://trailrunnernation.libsyn.com/ep-775-i-spent-4500-on-one-race
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Colleen_Miracle_April_2.mp3?dest-id=142179
+    published_at: '2026-04-03T15:04:00+00:00'
+  - episode_title: 'EP 774: Aging As An Athlete- The Truth About Longevity in Running'
+    episode_url: https://trailrunnernation.libsyn.com/ep-774-aging-as-an-athlete-the-truth-about-longevity-in-running
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_AA_w_Bryce_Thatcher_2026.mp3?dest-id=142179
+    published_at: '2026-03-26T23:42:00+00:00'
+  - episode_title: 'EP 773: Why We Choose to Suffer (And Love It)'
+    episode_url: https://trailrunnernation.libsyn.com/ep-773-why-we-choose-to-suffer-and-love-it
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Adam_Kimble_3_20_26.mp3?dest-id=142179
+    published_at: '2026-03-19T21:22:00+00:00'
+  - episode_title: 'EP 772: Simple Running. Powerful Living'
+    episode_url: https://trailrunnernation.libsyn.com/ep-772-simple-running-powerful-living
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Michael_Miller.mp3?dest-id=142179
+    published_at: '2026-03-13T18:01:00+00:00'
+  - episode_title: 'EP 771: Aging as an Athlete: Mindset, Longevity, and the Love of Running'
+    episode_url: https://trailrunnernation.libsyn.com/ep-771-aging-as-an-athlete-mindset-longevity-and-the-love-of-running
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_AA_w_Darcy_Picue.mp3?dest-id=142179
+    published_at: '2026-03-05T18:11:00+00:00'
+  - episode_title: 'EP 770: Racing the Clock: Life at the Cutoff'
+    episode_url: https://trailrunnernation.libsyn.com/ep-770-racing-the-clock-life-at-the-cutoff
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Dylan_Harris_2026.mp3?dest-id=142179
+    published_at: '2026-02-27T01:06:00+00:00'
+  - episode_title: 'EP 769: Is Your Watch Lying? The Truth About VO₂ Max and Real Fitness'
+    episode_url: https://trailrunnernation.libsyn.com/ep-769-is-your-watch-lying-the-truth-about-vo-max-and-real-fitness
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Dr_Cliff_Pittman.mp3?dest-id=142179
+    published_at: '2026-02-20T19:02:00+00:00'
+  - episode_title: 'EP 768: Is Muscle the Missing Piece in Your Training?'
+    episode_url: https://trailrunnernation.libsyn.com/ep-768-is-muscle-the-missing-piece-in-your-training
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Alex_Hutchinson_Feb2026.mp3?dest-id=142179
+    published_at: '2026-02-12T21:11:00+00:00'
+  - episode_title: 'EP 767: Duct Tape Is Dead: Modern Foot Care for Long Miles'
+    episode_url: https://trailrunnernation.libsyn.com/ep-767-duct-tape-is-dead-modern-foot-care-for-long-miles
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Dr_Tonya_Olson.mp3?dest-id=142179
+    published_at: '2026-02-06T03:53:00+00:00'
+  - episode_title: 'EP 766: Running Advice Under Fire - A Point-Counterpoint Debate'
+    episode_url: https://trailrunnernation.libsyn.com/ep-766-running-advice-under-fire-a-point-counterpoint-debate
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_Point_counter_point_Jan2026.mp3?dest-id=142179
+    published_at: '2026-01-30T15:06:00+00:00'
+  - episode_title: 'EP 765: Aging as an Athlete - Quinn Brett on Redefining Life as an Athlete After Injury'
+    episode_url: https://trailrunnernation.libsyn.com/ep-765-aging-as-an-athlete-quinn-brett-on-redefining-life-as-an-athlete-after-injury
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_AA_w_Quinn_Brett.mp3?dest-id=142179
+    published_at: '2026-01-23T03:09:00+00:00'
+  - episode_title: 'EP 764: From Fringe to Mainstream: The State of Trail Running in 2026'
+    episode_url: https://trailrunnernation.libsyn.com/ep-764-from-fringe-to-mainstream-the-state-of-trail-running-in-2026
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Jamil_Coury_2026.mp3?dest-id=142179
+    published_at: '2026-01-16T23:33:00+00:00'
+  - episode_title: 'EP 763: The Most Underrated Training Skill: Consistency'
+    episode_url: https://trailrunnernation.libsyn.com/ep-763-the-most-underrated-training-skill-consistency
+    audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_RERUN_w_Adam_Kimble_Consistency2.mp3?dest-id=142179
+    published_at: '2026-01-09T23:11:00+00:00'
+  https://anchor.fm/s/eb00f12c/podcast/rss: &41
   - episode_title: Sydney Petersen - A Strong Sense of Belonging
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3
@@ -3454,7 +3543,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Jess-Brazeau---The-Depth-of-a-Truly-Rich-Life-e3d1j40
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/113347136/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-31%2F415294616-44100-2-8077a5de6fc49.mp3
     published_at: '2026-01-01T11:00:00+00:00'
-  https://feeds.zencastr.com/f/f-n7v7jw.rss: &41
+  https://feeds.zencastr.com/f/f-n7v7jw.rss: &42
   - episode_title: The Four Inputs that Determine Your Progress
     episode_url: https://zencastr.com/z/Ypw8aclS
     audio_url: https://redirect.zencastr.com/r/episode/6a16101bc18398ff510e6fa3/size/58144077/video-files/635358be4592c880860238fe/0bf3fb5c-7627-422e-b845-f246c496ee19.mp4
@@ -3535,7 +3624,7 @@ episodes_by_feed:
     episode_url: https://zencastr.com/z/dDzkrqOE
     audio_url: https://redirect.zencastr.com/r/episode/68fa7ffc107196857db40ed4/size/670109318/video-files/635358be4592c880860238fe/d36ad246-04cb-403e-917c-dab34dab890b.mp4
     published_at: '2025-10-28T10:00:00+00:00'
-  https://anchor.fm/s/ef81d1e4/podcast/rss: &42
+  https://anchor.fm/s/ef81d1e4/podcast/rss: &43
   - episode_title: Zach Hauer on Chasing the Podium at Cocodona 250, and What 200s Teach You That Nothing Else Can
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Zach-Hauer-on-Chasing-the-Podium-at-Cocodona-250--and-What-200s-Teach-You-That-Nothing-Else-Can-e3jor82
     audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120400578/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2F7fa5ba03-9924-803c-c937-cd6037533bc4.mp3
@@ -3616,7 +3705,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Jeff-Pelletier-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hlrs6
     audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/118205766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-9%2Fe2681426-1b7e-cbd3-e3c5-385504c360bb.mp3
     published_at: '2026-04-09T18:00:00+00:00'
-  https://anchor.fm/s/f1fb88c/podcast/rss: &43
+  https://anchor.fm/s/f1fb88c/podcast/rss: &44
   - episode_title: "#310 Sara Hall - 20 Years at the Pinnacle of Running + Finding Balance & Living Life to the Fullest"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/310-Sara-Hall---20-Years-at-the-Pinnacle-of-Running--Finding-Balance--Living-Life-to-the-Fullest-e3k12av
     audio_url: https://traffic.megaphone.fm/APO9950015214.mp3
@@ -3697,7 +3786,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/291-Ryan-Ford---Running-205-at-the-Boston-Marathon-for-4th-American--High-Carb-Fueling-160ghr-e3il9fa
     audio_url: https://traffic.megaphone.fm/APO4947926420.mp3
     published_at: '2026-04-29T17:37:11+00:00'
-  https://feeds.megaphone.fm/pom9812562051: &44
+  https://feeds.megaphone.fm/pom9812562051: &45
   - episode_title: 46. How to Read the Avalanche Forecast with Snow Science Expert Simon Trautman
     episode_url: https://share.transistor.fm/s/21bbff8f
     audio_url: https://traffic.megaphone.fm/POM6226558720.mp3?updated=1649870738
@@ -3861,13 +3950,15 @@ feed_episodes_list:
   episodes: *38
 - feed_key: https://ultrarunninghistory.com/feed/podcast/
   episodes: *39
-- feed_key: https://anchor.fm/s/eb00f12c/podcast/rss
+- feed_key: https://rss.libsyn.com/shows/44345/destinations/142179.xml
   episodes: *40
-- feed_key: https://feeds.zencastr.com/f/f-n7v7jw.rss
+- feed_key: https://anchor.fm/s/eb00f12c/podcast/rss
   episodes: *41
-- feed_key: https://anchor.fm/s/ef81d1e4/podcast/rss
+- feed_key: https://feeds.zencastr.com/f/f-n7v7jw.rss
   episodes: *42
-- feed_key: https://anchor.fm/s/f1fb88c/podcast/rss
+- feed_key: https://anchor.fm/s/ef81d1e4/podcast/rss
   episodes: *43
-- feed_key: https://feeds.megaphone.fm/pom9812562051
+- feed_key: https://anchor.fm/s/f1fb88c/podcast/rss
   episodes: *44
+- feed_key: https://feeds.megaphone.fm/pom9812562051
+  episodes: *45
