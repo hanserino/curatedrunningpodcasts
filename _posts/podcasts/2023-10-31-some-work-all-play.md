@@ -10,7 +10,7 @@ category: podcast
 published: true
 description: Megan Roche, M.D. and David Roche digs deep into training, races,
   studies, pop culture, and much more! HUZZAH!
-not_running_related: true
+not_running_related: false
 cover_image: /media/swap.jpeg
 publisher: David Roche and Megan Roche
 spotify_link: https://open.spotify.com/show/3AaJYZngimocFf8aztKTcO?si=b5b831b841b44f29
