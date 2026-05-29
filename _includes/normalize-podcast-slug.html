@@ -1,0 +1,12 @@
+{%- comment -%}
+  Normalize a podcast slug from Decap relation (full filename slug) or manual entry.
+  Sets `normalized_podcast_slug`.
+  Params: slug
+{%- endcomment -%}
+{%- assign normalized_podcast_slug = include.slug | strip -%}
+{%- if normalized_podcast_slug != '' -%}
+  {%- assign _parts = normalized_podcast_slug | split: '-' -%}
+  {%- if _parts.size >= 4 and _parts[0].size == 4 and _parts[1].size <= 2 and _parts[2].size <= 2 -%}
+    {%- assign normalized_podcast_slug = _parts | slice: 3, 100 | join: '-' -%}
+  {%- endif -%}
+{%- endif -%}

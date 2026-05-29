@@ -1,0 +1,30 @@
+{%- comment -%}
+  Returns whether a runner pick entry refers to the given podcast post.
+  Sets `pick_matches_podcast` to true or false.
+  Params: pick, podcast
+{%- endcomment -%}
+{%- assign pick_matches_podcast = false -%}
+{%- assign _podcast = include.podcast -%}
+{%- assign _pick = include.pick -%}
+{%- if _podcast and _pick -%}
+  {%- assign _dir = _pick.directory_slug | default: '' | strip -%}
+  {%- if _dir != '' -%}
+    {%- include normalize-podcast-slug.html slug=_dir -%}
+    {%- if normalized_podcast_slug == _podcast.slug or _dir == _podcast.slug -%}
+      {%- assign pick_matches_podcast = true -%}
+    {%- endif -%}
+    {%- unless pick_matches_podcast -%}
+      {%- assign _slug_suffix = normalized_podcast_slug | append: '.html' -%}
+      {%- if _podcast.url contains _slug_suffix -%}
+        {%- assign pick_matches_podcast = true -%}
+      {%- endif -%}
+    {%- endunless -%}
+  {%- endif -%}
+  {%- unless pick_matches_podcast -%}
+    {%- assign _pick_title = _pick.title | default: '' | strip | downcase -%}
+    {%- assign _podcast_title = _podcast.title | strip | downcase -%}
+    {%- if _pick_title != '' and _pick_title == _podcast_title -%}
+      {%- assign pick_matches_podcast = true -%}
+    {%- endif -%}
+  {%- endunless -%}
+{%- endif -%}

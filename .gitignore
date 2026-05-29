@@ -9,6 +9,7 @@ _site
 .jekyll-metadata
 .DS_Store
 node_modules
+vendor/bundle
 release-builds
 
 # decap-proxy clone (see admin/OAUTH-SETUP.md); use admin/cloudflare-decap-wrangler.toml

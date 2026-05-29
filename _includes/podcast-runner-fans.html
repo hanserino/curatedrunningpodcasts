@@ -1,0 +1,65 @@
+{%- assign _podcast = include.podcast -%}
+{%- if _podcast -%}
+{%- capture _runner_fan_items -%}
+{%- assign _runners_picks_base = '/runners-picks/' | relative_url -%}
+{%- for runner in site.runner_picks -%}
+  {%- assign _runner_matches = false -%}
+  {%- assign _runner_quote = '' -%}
+  {%- if runner.picks -%}
+    {%- for pick in runner.picks -%}
+      {%- include podcast-pick-matches.html pick=pick podcast=_podcast -%}
+      {%- if pick_matches_podcast -%}
+        {%- assign _runner_matches = true -%}
+        {%- if pick.quote and pick.quote != '' -%}
+          {%- assign _runner_quote = pick.quote -%}
+        {%- endif -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if _runner_matches -%}
+    {%- assign _runner_anchor = runner.slug | default: runner.name | slugify -%}
+    {%- assign _runner_href = _runners_picks_base | append: '#runner-' | append: _runner_anchor -%}
+    <li class="podcast-runner-fans__item">
+      <a class="podcast-runner-fans__link" href="{{ _runner_href | escape }}">
+        <span class="podcast-runner-fans__avatar-wrap">
+          {%- if runner.photo and runner.photo != '' -%}
+            {%- include local-media-picture.html raw=runner.photo alt=runner.name img_class="podcast-runner-fans__avatar" -%}
+          {%- else -%}
+            {%- assign _initials = '' -%}
+            {%- assign _words = runner.name | split: ' ' -%}
+            {%- for _word in _words limit: 2 -%}
+              {%- assign _letter = _word | slice: 0, 1 -%}
+              {%- assign _initials = _initials | append: _letter -%}
+            {%- endfor -%}
+            {%- assign _initials = _initials | upcase -%}
+            <span class="podcast-runner-fans__avatar podcast-runner-fans__avatar--placeholder" aria-hidden="true">{{ _initials }}</span>
+          {%- endif -%}
+        </span>
+        <span class="podcast-runner-fans__text">
+          <span class="podcast-runner-fans__name">{{ runner.name }}</span>
+          {%- if runner.role and runner.role != '' -%}
+            <span class="podcast-runner-fans__role">{{ runner.role }}</span>
+          {%- endif -%}
+        </span>
+      </a>
+      {%- if _runner_quote != '' -%}
+        <blockquote class="podcast-runner-fans__quote">
+          <p>{{ _runner_quote | markdownify | strip_html }}</p>
+        </blockquote>
+      {%- endif -%}
+    </li>
+  {%- endif -%}
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign _runner_fan_items = _runner_fan_items | strip -%}
+{%- if _runner_fan_items != '' -%}
+<section class="podcast-runner-fans" aria-labelledby="podcast-runner-fans-heading">
+  <h2 class="podcast-runner-fans__heading" id="podcast-runner-fans-heading">Picked by</h2>
+  <p class="podcast-runner-fans__lede">Runners who featured this show in their <a href="{{ _runners_picks_base | escape }}">top-five picks</a>.</p>
+  <ul class="podcast-runner-fans__list">
+    {{ _runner_fan_items }}
+  </ul>
+</section>
+{%- endif -%}
+{%- endif -%}

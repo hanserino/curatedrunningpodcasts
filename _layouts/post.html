@@ -41,7 +41,8 @@
                     {%- if page.layout == 'post' and page.category == 'podcast' -%}
                     <div class="post-article__meta">
                         {% include podcast-meta-single-post.html podcast=page listen_section_id="post-listen-links" %}
-                    </div>                   
+                    </div>
+                    {% include podcast-runner-fans.html podcast=page %}
                     {%- endif -%}
 
                 

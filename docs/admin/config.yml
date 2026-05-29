@@ -52,6 +52,11 @@ collections:
       - { label: "Include in site (fixed)", name: "published", default: "true", widget: "hidden" }
       - { label: "Short description", name: "description", required: false, hint: "Shown in the list and in SEO. One or two sentences.", widget: "text" }
       - { label: "Featured on home page", name: "featured", required: false, default: false, widget: "boolean", hint: "When checked, this show is listed first in the front-page directory (above others; still respects filters)." }
+      - label: "Not running-related"
+        name: "not_running_related"
+        widget: "boolean"
+        default: false
+        hint: "When checked, the show still gets its own page and URL, but is hidden from the home directory, latest-episodes page, episode RSS snapshot, and site feed.xml. Use for podcasts added via Runners' picks that are not part of the main running directory."
       # image widget = upload to repo; choose_url: false hides the "URL" tab (upload only).
       - label: "Cover art"
         name: "cover_image"
@@ -88,3 +93,77 @@ collections:
         required: false
         widget: "markdown"
         hint: "Optional. Extra copy or embeds only — the cover field above is the main artwork. You can still paste /media/… links here if needed."
+
+  - name: "runner_picks"
+    label: "Runners' picks"
+    label_singular: "Runner profile"
+    description: "Guest-curated top-five podcast lists from elite runners and people in the sport."
+    folder: "_runner_picks"
+    media_folder: "/media/runner-picks"
+    public_folder: "/media/runner-picks"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    identifier_field: name
+    summary: "{{name}} · {{role}}"
+    sortable_fields: ["sort_order", "name", "role"]
+    fields:
+      - { label: "Name", name: "name", required: true, widget: "string" }
+      - { label: "Role / descriptor", name: "role", required: false, widget: "string", hint: "e.g. Ultrarunner, Coach, Commentator" }
+      - label: "Profile photo"
+        name: "photo"
+        widget: "image"
+        choose_url: false
+        media_folder: "/media/runner-picks"
+        public_folder: "/media/runner-picks"
+        required: false
+        hint: "Square portrait works best."
+      - { label: "Bio", name: "bio", required: false, widget: "text", hint: "Two or three sentences about the person." }
+      - { label: "Instagram username", name: "instagram_handle", required: false, widget: "string", hint: "Without @ — linked as instagram.com/username" }
+      - { label: "Sort order", name: "sort_order", required: false, widget: "number", value_type: "int", default: 10, hint: "Lower numbers appear first on /runners-picks/." }
+      - label: "Podcast picks (up to five)"
+        name: "picks"
+        widget: "list"
+        min: 1
+        max: 5
+        summary: "{{fields.title | default: fields.directory_slug | default: 'Pick'}}"
+        fields:
+          - label: "Source"
+            name: "pick_source"
+            widget: "select"
+            default: "site"
+            options:
+              - { label: "Podcast on this site", value: "site" }
+              - { label: "Not on site yet", value: "external" }
+          - label: "Podcast on this site"
+            name: "directory_slug"
+            widget: "relation"
+            collection: "podcast"
+            search_fields: ["title"]
+            display_fields: ["title"]
+            value_field: "{{slug}}"
+            required: false
+            hint: "Search and pick a show from the directory. Title, link, and cover come from the site when set."
+          - label: "Podcast name"
+            name: "title"
+            widget: "string"
+            required: false
+            hint: "Required when the pick is not on the site yet."
+          - label: "Link (Spotify, Apple, website)"
+            name: "url"
+            widget: "string"
+            required: false
+            hint: "For external picks. Optional override for site picks."
+          - label: "Cover art (external picks)"
+            name: "cover_image"
+            widget: "image"
+            choose_url: false
+            media_folder: "/media"
+            public_folder: "/media"
+            required: false
+          - label: "Quote / why they love it"
+            name: "quote"
+            widget: "text"
+            required: false
+            hint: "Short note shown under the podcast title on the Runners' picks page."

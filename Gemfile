@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+ruby ">= 3.2", "< 4.1"
+
 # Jekyll 4. Use jekyll-sass-converter 2.x + sassc (libsass), not dart sass-embedded.
 # sass-embedded (converter 3.x) can raise "can't alloc thread" during `jekyll serve`
 # watch rebuilds on macOS. sassc avoids the embedded Dart VM. Requires a one-time
@@ -15,6 +17,8 @@ gem "webrick", "~> 1.8"
 gem "kramdown-parser-gfm"
 # Stdlib RSS was gemified; explicit dep so CI / bundle exec can require "rss" (_plugins/latest_podcast_episodes.rb).
 gem "rss", "~> 0.3"
+# Ruby 3.4+ gemifies csv; Jekyll still requires it at boot.
+gem "csv"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"

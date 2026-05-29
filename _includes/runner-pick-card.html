@@ -1,0 +1,108 @@
+{%- assign runner = include.runner -%}
+{%- assign card_id = include.card_id | default: runner.slug -%}
+<article class="runner-pick" id="runner-{{ card_id }}" aria-labelledby="runner-name-{{ card_id }}">
+  <header class="runner-pick__profile">
+    <div class="runner-pick__photo-wrap">
+      {%- if runner.photo and runner.photo != '' -%}
+        {%- include local-media-picture.html raw=runner.photo alt=runner.name img_class="runner-pick__photo" high_priority=include.high_priority -%}
+      {%- else -%}
+        {%- assign _initials = '' -%}
+        {%- assign _words = runner.name | split: ' ' -%}
+        {%- for _word in _words limit: 2 -%}
+          {%- assign _letter = _word | slice: 0, 1 -%}
+          {%- assign _initials = _initials | append: _letter -%}
+        {%- endfor -%}
+        {%- assign _initials = _initials | upcase -%}
+        <div class="runner-pick__photo runner-pick__photo--placeholder" aria-hidden="true">{{ _initials }}</div>
+      {%- endif -%}
+    </div>
+    <div class="runner-pick__identity">
+      <h2 class="runner-pick__name" id="runner-name-{{ card_id }}">{{ runner.name }}</h2>
+      {%- if runner.role and runner.role != '' -%}
+        <p class="runner-pick__role">{{ runner.role }}</p>
+      {%- endif -%}
+      {%- if runner.bio and runner.bio != '' -%}
+        <div class="runner-pick__bio">{{ runner.bio | markdownify }}</div>
+      {%- endif -%}
+      {%- if runner.instagram_handle and runner.instagram_handle != '' -%}
+        {%- assign _ig = runner.instagram_handle | strip | remove: '@' -%}
+        {%- assign _ig_url = runner.instagram | default: '' | strip -%}
+        {%- if _ig_url == '' -%}
+          {%- assign _ig_url = 'https://www.instagram.com/' | append: _ig | append: '/' -%}
+        {%- endif -%}
+        <p class="runner-pick__social">
+          <a class="runner-pick__instagram" href="{{ _ig_url | escape }}" rel="noopener noreferrer" target="_blank">
+            <span class="runner-pick__instagram-label">@{{ _ig }}</span>
+            <span class="visuallyhidden"> (opens in a new tab)</span>
+          </a>
+        </p>
+      {%- elsif runner.instagram and runner.instagram != '' -%}
+        {%- assign _ig_label = runner.instagram_handle | default: 'Instagram' -%}
+        <p class="runner-pick__social">
+          <a class="runner-pick__instagram" href="{{ runner.instagram | escape }}" rel="noopener noreferrer" target="_blank">
+            <span class="runner-pick__instagram-label">@{{ _ig_label | remove: '@' }}</span>
+            <span class="visuallyhidden"> (opens in a new tab)</span>
+          </a>
+        </p>
+      {%- endif -%}
+    </div>
+  </header>
+
+  {%- if runner.picks and runner.picks.size > 0 -%}
+  <section class="runner-pick__picks" aria-labelledby="runner-picks-heading-{{ card_id }}">
+    <h3 class="runner-pick__picks-heading" id="runner-picks-heading-{{ card_id }}">Top {{ runner.picks.size }} picks</h3>
+    <ol class="runner-pick__list">
+      {%- for pick in runner.picks -%}
+      {%- assign _pick_url = pick.url | strip -%}
+      {%- assign _dir_slug = pick.directory_slug | strip -%}
+      {%- assign _pick_title = pick.title | strip -%}
+      {%- assign _cover = pick.cover_image | default: '' | strip -%}
+      {%- assign _pick_external = false -%}
+      {%- if _dir_slug != '' -%}
+        {%- include resolve-directory-podcast.html slug=_dir_slug -%}
+        {%- if resolved_podcast -%}
+          {%- if _pick_url == '' -%}
+            {%- assign _pick_url = resolved_podcast.url | relative_url -%}
+          {%- endif -%}
+          {%- if _pick_title == '' -%}
+            {%- assign _pick_title = resolved_podcast.title -%}
+          {%- endif -%}
+          {%- if _cover == '' and resolved_podcast.cover_image and resolved_podcast.cover_image != '' -%}
+            {%- assign _cover = resolved_podcast.cover_image -%}
+          {%- endif -%}
+        {%- endif -%}
+      {%- endif -%}
+      {%- if _pick_url contains '://' -%}
+        {%- assign _pick_external = true -%}
+      {%- elsif _pick_url != '' -%}
+        {%- assign _pick_url = _pick_url | relative_url -%}
+      {%- endif -%}
+      <li class="runner-pick__item">
+        <div class="runner-pick__item-main{% unless _cover != '' %} runner-pick__item-main--no-art{% endunless %}">
+          <span class="runner-pick__rank" aria-hidden="true">{{ forloop.index }}</span>
+          {%- if _cover != '' -%}
+            <div class="runner-pick__item-art">
+              {%- include local-media-picture.html raw=_cover alt=_pick_title img_class="runner-pick__item-cover" -%}
+            </div>
+          {%- endif -%}
+          <div class="runner-pick__item-body">
+            <p class="runner-pick__podcast-title">
+              {%- if _pick_url != '' -%}
+                <a href="{{ _pick_url | escape }}"{% if _pick_external %} rel="noopener noreferrer" target="_blank"{% endif %}>{{ _pick_title }}</a>
+              {%- else -%}
+                {{ _pick_title }}
+              {%- endif -%}
+            </p>
+            {%- if pick.quote and pick.quote != '' -%}
+              <blockquote class="runner-pick__quote">
+                <p>{{ pick.quote | markdownify | strip_html }}</p>
+              </blockquote>
+            {%- endif -%}
+          </div>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ol>
+  </section>
+  {%- endif -%}
+</article>

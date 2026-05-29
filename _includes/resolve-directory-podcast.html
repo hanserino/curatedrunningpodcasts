@@ -1,0 +1,30 @@
+{%- comment -%}
+  Resolve a podcast from the site directory by slug (e.g. talk-ultra or 2023-11-06-talk-ultra).
+  Sets `resolved_podcast` when found.
+  Params: slug
+{%- endcomment -%}
+{%- assign resolved_podcast = nil -%}
+{%- include normalize-podcast-slug.html slug=include.slug -%}
+{%- assign _slug = normalized_podcast_slug -%}
+{%- assign _raw_slug = include.slug | strip -%}
+{%- if _slug != '' or _raw_slug != '' -%}
+  {%- for _p in site.categories.podcast -%}
+    {%- if resolved_podcast -%}
+      {%- break -%}
+    {%- endif -%}
+    {%- if _slug != '' and _p.slug == _slug -%}
+      {%- assign resolved_podcast = _p -%}
+    {%- elsif _raw_slug != '' and _p.slug == _raw_slug -%}
+      {%- assign resolved_podcast = _p -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if resolved_podcast == nil and _slug != '' -%}
+    {%- assign _slug_suffix = _slug | append: '.html' -%}
+    {%- for _p in site.categories.podcast -%}
+      {%- if _p.url contains _slug_suffix -%}
+        {%- assign resolved_podcast = _p -%}
+        {%- break -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}

@@ -1,0 +1,29 @@
+{%- assign runners = include.runners -%}
+{%- if runners and runners.size > 0 -%}
+<nav class="runners-picks-nav" aria-label="Jump to a runner's picks">
+  <ul class="runners-picks-nav__list">
+    {%- for runner in runners -%}
+      {%- assign _anchor = runner.slug | default: runner.name | slugify -%}
+      <li class="runners-picks-nav__item">
+        <a class="runners-picks-nav__link" href="#runner-{{ _anchor | escape }}">
+          <span class="runners-picks-nav__photo-wrap">
+            {%- if runner.photo and runner.photo != '' -%}
+              {%- include local-media-picture.html raw=runner.photo alt="" img_class="runners-picks-nav__photo" high_priority=include.high_priority -%}
+            {%- else -%}
+              {%- assign _initials = '' -%}
+              {%- assign _words = runner.name | split: ' ' -%}
+              {%- for _word in _words limit: 2 -%}
+                {%- assign _letter = _word | slice: 0, 1 -%}
+                {%- assign _initials = _initials | append: _letter -%}
+              {%- endfor -%}
+              {%- assign _initials = _initials | upcase -%}
+              <span class="runners-picks-nav__photo runners-picks-nav__photo--placeholder" aria-hidden="true">{{ _initials }}</span>
+            {%- endif -%}
+          </span>
+          <span class="runners-picks-nav__name">{{ runner.name }}</span>
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
+{%- endif -%}

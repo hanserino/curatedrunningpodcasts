@@ -1,5 +1,7 @@
 {%- assign about_href = '/about/' | relative_url -%}
 {%- assign latest_href = '/latest-episodes/' | relative_url -%}
+{%- assign runners_picks_href = '/runners-picks/' | relative_url -%}
+{%- assign runners_picks_public = site.runners_picks_public | default: false -%}
 <div class="header__nav-shell" data-header-actions>
   <button
     type="button"
@@ -20,6 +22,15 @@
             {%- if page.path == 'about.md' %} aria-current="page"{% endif %}
             >About</a>
         </li>
+        {%- if runners_picks_public -%}
+        <li>
+          <a
+            href="{{ runners_picks_href }}"
+            class="main-nav__link"
+            {%- if page.path == 'runners-picks.md' %} aria-current="page"{% endif %}
+            >Runners' picks</a>
+        </li>
+        {%- endif -%}
         <li>
           <a
             href="{{ latest_href }}"

@@ -8,6 +8,15 @@
 	{% include skip-link.html %}
 	<main id="main-content">
 		{% include header.html %}
+		{% if site.runners_picks_public %}
+		<section class="editorial editorial--callout-only" id="runners-picks-callout" aria-label="Runners' podcast picks">
+			<div class="editorial__inner">
+				<div class="editorial__callout">
+					<p><strong>Runners' podcast picks</strong> — elite athletes and people in the sport share their five favorite shows, with notes on why each one stuck. <a href="{{ '/runners-picks/' | relative_url }}">Browse the lists →</a></p>
+				</div>
+			</div>
+		</section>
+		{% endif %}
 		{% assign body = content | strip %}
 		{% if body != "" %}
 		<section class="editorial" id="about-this-list" aria-labelledby="editorial-title">

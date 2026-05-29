@@ -136,16 +136,35 @@ module LatestPodcastEpisodes
 
     path = committed_data_path(site)
     FileUtils.mkdir_p(File.dirname(path))
-    File.write(path, YAML.dump(payload))
+    File.write(path, dump_yaml(payload))
   rescue StandardError => e
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
+  end
+
+  def load_yaml_file(path)
+    content = File.read(path)
+    YAML.load(content, aliases: true)
+  rescue ArgumentError
+    YAML.load(content)
+  end
+
+  def dump_yaml(payload)
+    if YAML.respond_to?(:dump)
+      begin
+        YAML.dump(payload, line_width: -1, alias: false)
+      rescue ArgumentError
+        YAML.dump(payload)
+      end
+    else
+      YAML.dump(payload)
+    end
   end
 
   def read_rss_cache(path)
     return nil unless File.file?(path)
 
     # Local cache written by this plugin only (under .jekyll-rss-cache/).
-    YAML.load(File.read(path))
+    load_yaml_file(path)
   rescue Psych::Exception, ArgumentError, TypeError => e
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not read #{path}: #{e.message}"
     nil
@@ -153,7 +172,7 @@ module LatestPodcastEpisodes
 
   def write_rss_cache(path, payload)
     FileUtils.mkdir_p(File.dirname(path))
-    File.write(path, YAML.dump(payload))
+    File.write(path, dump_yaml(payload))
   rescue StandardError => e
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
   end
@@ -214,7 +233,9 @@ def build_latest_podcast_episodes_data(site)
   posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
 
   podcasts = posts.select do |doc|
-    doc.data["category"] == "podcast" && doc.data["rss_feed"].to_s.strip != ""
+    doc.data["category"] == "podcast" &&
+      doc.data["rss_feed"].to_s.strip != "" &&
+      doc.data["not_running_related"] != true
   end
 
   items = []

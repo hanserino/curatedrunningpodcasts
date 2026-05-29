@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+	{% include head.html %}
+	{% include schema-page.html %}
+</head>
+<body class="runners-picks-page" data-box-grid="true">
+	{% include skip-link.html %}
+	<main id="main-content">
+		<header class="header header--post" role="banner">
+			<div class="header__top header__top--compact">
+				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← {{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
+				<div class="header__actions">
+					{% include main-nav.html %}
+				</div>
+			</div>
+		</header>
+
+		<article class="runners-picks">
+			<header class="runners-picks__intro">
+				<h1 class="runners-picks__title">{{ page.title }}</h1>
+				{% if page.description %}
+				<p class="runners-picks__lede">{{ page.description }}</p>
+				{% endif %}
+				{% assign body = content | strip %}
+				{% if body != "" %}
+				<div class="runners-picks__editorial">{{ content }}</div>
+				{% endif %}
+			</header>
+
+			{% assign sorted_picks = site.runner_picks | sort: 'sort_order' %}
+			{% include runners-picks-nav.html runners=sorted_picks high_priority=true %}
+			<div class="runners-picks__grid">
+				{% for runner in sorted_picks %}
+					{% include runner-pick-card.html runner=runner high_priority=forloop.first %}
+				{% endfor %}
+			</div>
+
+			<footer class="post-article__footer">
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
+			</footer>
+		</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>
