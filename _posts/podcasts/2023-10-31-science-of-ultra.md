@@ -10,7 +10,7 @@ published: true
 description: "For endurance athletes who want to do more than improve race
   performance. The host, Shawn Bearden, hasn't published any episodes since
   October 2021, but the episodes are gold! "
-not_running_related: true
+not_running_related: false
 cover_image: /media/scienceofultra.jpg
 publisher: Shawn Bearden
 spotify_link: https://open.spotify.com/show/1F1HpfBJwgKExXQdyE7JbC?si=dfadc5874f9444e4
