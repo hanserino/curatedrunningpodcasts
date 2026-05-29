@@ -10,7 +10,7 @@ published: true
 description: Elite runner Francesco Puppi has conversations with key members of
   the trail & ultra running community from all over the world. From professional
   world class athletes to our Vert.run members and community.
-not_running_related: true
+not_running_related: false
 cover_image: /media/runninglongpodcast.jpeg
 publisher: Vert.run
 spotify_link: https://open.spotify.com/show/28uM4oOFberDq2ROkxYwbi?si=2fed42d6509e4d3c
