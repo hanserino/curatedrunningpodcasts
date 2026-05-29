@@ -9,7 +9,7 @@ title: Singletrack
 category: podcast
 published: true
 description: Singletrack covers the professional trail and ultrarunning scene.
-not_running_related: true
+not_running_related: false
 cover_image: /media/singletracknew.jpeg
 publisher: Finn Melanson
 spotify_link: https://open.spotify.com/show/7jAsWCRNSCU8nh81vrAaC2
