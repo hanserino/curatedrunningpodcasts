@@ -78,8 +78,8 @@ collections:
         widget: "select"
         multiple: true
         min: 1
-        options: ["track", "trail", "subultra", "ultra", "skyrunning", "science", "road", "business"]
-        hint: "One or more — used by the category filter on the site."
+        options: ["track", "trail", "subultra", "ultra", "skyrunning", "science", "road", "business", "uncategorized"]
+        hint: "One or more — used by the category filter on the site. Choose Uncategorized (alone or with others) for shows that aren't running-focused."
       - label: "Language(s) spoken"
         name: "language"
         required: true

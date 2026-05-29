@@ -29,7 +29,7 @@ org_name: NEDA
 org_url: "https://www.naerdetalvor.no"
 lang: en
 # Set true when Runners' picks should appear in nav and home callout.
-runners_picks_public: false
+runners_picks_public: true
 collections:
   runner_picks:
     output: false

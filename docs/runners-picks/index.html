@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="canonical" href="https://bestrunningpodcasts.com/runners-picks/">
+<link rel="canonical" href="http://localhost:4000/runners-picks/">
 <meta name="theme-color" content="#1a4d3a">
 <title>Runners&apos; podcast picks | The Best Running Podcasts</title>
 <meta name="description" content="Curated top-five podcast lists from elite runners and running personalities. Personal recommendations with quotes on why each show matters.">
@@ -14,14 +14,14 @@
 <meta property="og:title" content="Runners&apos; podcast picks | The Best Running Podcasts">
 <meta property="og:description" content="Curated top-five podcast lists from elite runners and running personalities. Personal recommendations with quotes on why each show matters.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://bestrunningpodcasts.com/runners-picks/">
-<meta property="og:image" content="https://bestrunningpodcasts.com/assets/img/social.jpg">
+<meta property="og:url" content="http://localhost:4000/runners-picks/">
+<meta property="og:image" content="http://localhost:4000/assets/img/social.jpg">
 <meta property="og:image:alt" content="Best Running Podcasts — curated running podcast directory (cover image)">
 <meta property="og:locale" content="en_US"><!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Runners&apos; podcast picks | The Best Running Podcasts">
 <meta name="twitter:description" content="Curated top-five podcast lists from elite runners and running personalities. Personal recommendations with quotes on why each show matters.">
-<meta name="twitter:image" content="https://bestrunningpodcasts.com/assets/img/social.jpg">
+<meta name="twitter:image" content="http://localhost:4000/assets/img/social.jpg">
 <meta name="twitter:image:alt" content="Best Running Podcasts — curated running podcast directory (cover image)">
 
 <link rel="icon" type="image/png" href="/assets/img/favicon.png">
@@ -31,7 +31,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"></noscript>
 <link rel="stylesheet" href="/assets/style/main.css">
-<link rel="alternate" type="application/rss+xml" title="The Best Running Podcasts feed" href="https://bestrunningpodcasts.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Best Running Podcasts feed" href="http://localhost:4000/feed.xml">
 
 	<script type="application/ld+json">
 {
@@ -39,17 +39,17 @@
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://bestrunningpodcasts.com/runners-picks/#webpage",
+      "@id": "http://localhost:4000/runners-picks/#webpage",
       "name": "Runners' podcast picks",
       "description": "Elite runners and people in the sport share their five favorite podcasts — running-related or not — with notes on why each one is worth a listen.",
-      "url": "https://bestrunningpodcasts.com/runners-picks/",
-      "isPartOf": { "@id": "https://bestrunningpodcasts.com/#website" }
+      "url": "http://localhost:4000/runners-picks/",
+      "isPartOf": { "@id": "http://localhost:4000/#website" }
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://bestrunningpodcasts.com" },
-        { "@type": "ListItem", "position": 2, "name": "Runners' podcast picks", "item": "https://bestrunningpodcasts.com/runners-picks/" }
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "http://localhost:4000" },
+        { "@type": "ListItem", "position": 2, "name": "Runners' podcast picks", "item": "http://localhost:4000/runners-picks/" }
       ]
     }
   ]
@@ -57,15 +57,17 @@
 </script>
 
 </head>
-<body class="runners-picks-page" data-box-grid="true">
+<body class="post-page runners-picks-page" data-box-grid="true">
 	<a class="skip-link" href="#main-content">Skip to main content</a>
 
 	<main id="main-content">
-		<header class="header header--post" role="banner">
-			<div class="header__top header__top--compact">
-				<p class="header__title header__title--home-link"><a href="/" rel="home">← The Best Running Podcasts</a></p>
-				<div class="header__actions">
-					<div class="header__nav-shell" data-header-actions>
+		<article class="runners-picks">
+			<header class="runners-picks__intro">
+				<div class="post-page__intro-bar">
+	<p class="post-page__back">
+		<a href="/" rel="home">← The Best Running Podcasts</a>
+	</p>
+	<div class="header__nav-shell" data-header-actions>
   <button
     type="button"
     class="header__menu-toggle"
@@ -83,7 +85,14 @@
             href="/about/"
             class="main-nav__link"
             >About</a>
-        </li><li>
+        </li>
+        <li>
+          <a
+            href="/runners-picks/"
+            class="main-nav__link" aria-current="page"
+            >Runners' picks</a>
+        </li>
+        <li>
           <a
             href="/latest-episodes/"
             class="main-nav__link"
@@ -94,25 +103,23 @@
   </div>
 </div>
 
-				</div>
-			</div>
-		</header>
+</div>
 
-		<article class="runners-picks">
-			<header class="runners-picks__intro">
+				<p class="runners-picks__kicker">Curated by athletes</p>
 				<h1 class="runners-picks__title">Runners' podcast picks</h1>
 				
 				<p class="runners-picks__lede">Elite runners and people in the sport share their five favorite podcasts — running-related or not — with notes on why each one is worth a listen.</p>
 				
 				
 				
-				<div class="runners-picks__editorial"><p>These lists are <strong>guest-curated</strong>: each profile is someone we admire in the sport, sharing what they actually listen to — on easy days, travel days, and recovery days. Not every pick is about running, and that is the point.</p>
+				<div class="runners-picks__editorial"><p>These lists are <strong>guest-curated</strong>: each profile is someone we admire in the sport, sharing what they actually listen to. Not every pick is about running, and that is the point.</p>
 </div>
 				
 			</header>
 
 			
 			<nav class="runners-picks-nav" aria-label="Jump to a runner's picks">
+  <p class="runners-picks-nav__label">Jump to</p>
   <ul class="runners-picks-nav__list"><li class="runners-picks-nav__item">
         <a class="runners-picks-nav__link" href="#runner-andy-jones-wilkins">
           <span class="runners-picks-nav__photo-wrap"><picture><source type="image/webp" srcset="/media/runner-picks/ajw2.webp" /><img src="/media/runner-picks/ajw2.jpg" alt="" class="runners-picks-nav__photo" decoding="async" fetchpriority="high" /></picture></span>
@@ -331,7 +338,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-05-29T11:42:26Z">2026-05-29 11:42 UTC</time>
+      <time datetime="2026-05-29T12:46:26Z">2026-05-29 12:46 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

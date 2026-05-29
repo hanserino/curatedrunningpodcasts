@@ -1,10 +1,14 @@
-.grid-switch-wrapper{
+$gs-mint: #2d6a4f;
+$gs-forest: #1a4d3a;
+$gs-accent: rgba(112, 172, 142, 0.55);
+
+.grid-switch-wrapper {
     position: relative;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 0.35rem 0.5rem;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .grid-switch__label {
@@ -14,32 +18,60 @@
 }
 
 .grid-switch {
-    border: 1px solid $contrast;
-    background-color: transparent;
+    display: inline-flex;
+    align-items: stretch;
+    border: 1px solid $gs-accent;
+    border-radius: 8px;
+    background: #fff;
     padding: 0;
     font-size: 0;
     cursor: pointer;
+    overflow: hidden;
+    vertical-align: middle;
 
-    span {
-        display: inline-block;
-        font-size: 2rem;
-        line-height: 1.8rem;
-    }
-    &__box {
-        border-right: 1px solid $contrast;
-        background: $contrast;
-    }
-
+    &__box,
     &__list {
-        background: white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        padding: 0.5rem;
+        background: #fff;
+        color: $gs-forest;
+        transition:
+            background 0.15s ease,
+            color 0.15s ease;
     }
 
-    body[data-box-grid="false"] & {
-        &__box {
-            background: white;
-        }
-        &__list {
-            background: $contrast;
-        }
+    &__box {
+        border-right: 1px solid $gs-accent;
+    }
+
+    &__icon {
+        width: 1.125rem;
+        height: 1.125rem;
+        display: block;
+        flex-shrink: 0;
+    }
+
+    body[data-box-grid="true"] & &__box {
+        background: $gs-mint;
+        color: #fff;
+    }
+
+    body[data-box-grid="true"] & &__list {
+        background: #fff;
+        color: $gs-forest;
+    }
+
+    body[data-box-grid="false"] & &__box {
+        background: #fff;
+        color: $gs-forest;
+    }
+
+    body[data-box-grid="false"] & &__list {
+        background: $gs-mint;
+        color: #fff;
     }
 }

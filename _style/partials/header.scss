@@ -1,3 +1,183 @@
+// Shared site navigation (header, home hero, post intro, etc.)
+.header__nav-shell {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 210;
+
+    @include allAbove(medium) {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    @include allBelow(medium) {
+        flex-shrink: 0;
+        min-width: 44px;
+        min-height: 44px;
+    }
+}
+
+.header__menu-toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #141414;
+    cursor: pointer;
+    flex-shrink: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    z-index: 215;
+
+    @include allBelow(medium) {
+        display: inline-flex;
+        position: relative;
+        top: auto;
+        right: auto;
+    }
+
+    &:hover {
+        border-color: rgba(0, 0, 0, 0.28);
+    }
+
+    &[aria-expanded="true"] {
+        border-color: rgba(26, 77, 58, 0.45);
+        box-shadow: 0 2px 10px rgba(26, 77, 58, 0.12);
+    }
+}
+
+.header__menu-bars {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    border-radius: 1px;
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        border-radius: 1px;
+    }
+
+    &::before {
+        top: -6px;
+    }
+
+    &::after {
+        top: 6px;
+    }
+}
+
+.header__nav-panel {
+    @include allBelow(medium) {
+        position: absolute;
+        top: calc(100% + 6px);
+        right: 0;
+        z-index: 220;
+        min-width: 12rem;
+        padding: 0.65rem 1rem 0.85rem;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        box-shadow:
+            0 10px 32px rgba(0, 0, 0, 0.12),
+            0 2px 6px rgba(0, 0, 0, 0.06);
+    }
+
+    @include allAbove(medium) {
+        display: block !important;
+        position: static;
+        padding: 0;
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        min-width: 0;
+    }
+}
+
+.header__nav-shell:not(.is-open) .header__nav-panel {
+    @include allBelow(medium) {
+        display: none;
+    }
+}
+
+@include allAbove(medium) {
+    .header__menu-toggle {
+        display: none !important;
+    }
+}
+
+.main-nav {
+    flex-shrink: 0;
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.35rem 1.25rem;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        @include allBelow(medium) {
+            flex-direction: column;
+            align-items: stretch;
+            gap: 0.15rem;
+        }
+    }
+
+    &__list > li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__link {
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: inherit;
+        border-bottom: 1px solid transparent;
+        white-space: nowrap;
+        font-style: normal;
+
+        @include allBelow(medium) {
+            display: block;
+            padding: 0.45rem 0.15rem;
+            white-space: normal;
+        }
+
+        &:hover {
+            border-bottom-color: currentColor;
+            background: transparent;
+        }
+
+        &:focus-visible {
+            outline: 2px solid #0d47a1;
+            outline-offset: 2px;
+        }
+
+        &[aria-current="page"] {
+            border-bottom-color: currentColor;
+        }
+    }
+}
+
 .header {
     position: relative;
     padding: 1rem;
@@ -12,7 +192,8 @@
     &__brand {
         flex: 1 1 14rem;
         min-width: 0;
-    } 
+    }
+
     &__title {
         padding-right: 3rem;
         font-size: 4rem;
@@ -38,160 +219,48 @@
         right: 1rem;
     }
 
-    &__nav-shell {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    &__menu-toggle {
-        display: none;
-        width: 44px;
-        height: 44px;
-        padding: 0;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid rgba(0, 0, 0, 0.18);
-        border-radius: 10px;
-        background: rgba(255, 255, 255, 0.95);
-        color: #141414;
-        cursor: pointer;
-        flex-shrink: 0;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
-
-        @include allBelow(medium) {
-            display: inline-flex;
-            position: absolute;
-            top: 0;
-            right: 0;
-        }
-
-        &:hover {
-            border-color: rgba(0, 0, 0, 0.28);
-        }
-
-        &[aria-expanded="true"] {
-            border-color: rgba(26, 77, 58, 0.45);
-            box-shadow: 0 2px 10px rgba(26, 77, 58, 0.12);
-        }
-    }
-
-    &__menu-bars {
-        display: block;
-        width: 20px;
-        height: 2px;
-        background: currentColor;
-        border-radius: 1px;
-        position: relative;
-
-        &::before,
-        &::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            width: 20px;
-            height: 2px;
-            background: currentColor;
-            border-radius: 1px;
-        }
-
-        &::before {
-            top: -6px;
-        }
-
-        &::after {
-            top: 6px;
-        }
-    }
-
-    &__nav-panel {
-        @include allBelow(medium) {
-            position: absolute;
-            top: calc(100% + 6px);
-            right: 0;
-            z-index: 60;
-            min-width: 12rem;
-            padding: 0.65rem 1rem 0.85rem;
-            background: #fff;
-            border: 1px solid rgba(0, 0, 0, 0.1);
-            border-radius: 12px;
-            box-shadow:
-                0 10px 32px rgba(0, 0, 0, 0.12),
-                0 2px 6px rgba(0, 0, 0, 0.06);
-        }
-    }
-
-    &__nav-shell:not(.is-open) .header__nav-panel {
-        @include allBelow(medium) {
-            display: none;
-        }
-    }
-
-    .main-nav {
-        flex-shrink: 0;
-
-        &__list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.35rem 1.25rem;
-            justify-content: flex-end;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-
-            @include allBelow(medium) {
-                flex-direction: column;
-                align-items: stretch;
-                gap: 0.15rem;
-            }
-        }
-
-        &__link {
-            font-size: 0.95rem;
-            font-weight: 600;
-            text-decoration: none;
-            color: inherit;
-            border-bottom: 1px solid transparent;
-            white-space: nowrap;
-
-            @include allBelow(medium) {
-                display: block;
-                padding: 0.45rem 0.15rem;
-                white-space: normal;
-            }
-
-            &:hover {
-                border-bottom-color: currentColor;
-            }
-
-            &:focus-visible {
-                outline: 2px solid #0d47a1;
-                outline-offset: 2px;
-            }
-
-            &[aria-current="page"] {
-                border-bottom-color: currentColor;
-            }
-        }
-    }
-
     &__top--compact .header__actions {
         flex-shrink: 0;
     }
 
-    .no-touch & {
-    }
-
     @include allAbove(medium) {
         padding: 3rem 1rem 0 1rem;
+    }
+}
 
-        .header__menu-toggle {
-            display: none !important;
-        }
+.header--post {
+    position: relative;
+    z-index: 200;
+    padding: 0.5rem 1rem 0;
 
-        .header__nav-panel {
-            display: block !important;
+    .header__top {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 0.5rem 1rem;
+
+        &--compact {
+            align-items: flex-start;
         }
+    }
+
+    .header__title--home-link {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: normal;
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: calc(100% - 3.25rem);
+    }
+
+    .header__actions {
+        position: static;
+        top: auto;
+        right: auto;
+        flex-shrink: 0;
+        margin-left: auto;
+        gap: 0.5rem 1rem;
+        align-self: flex-start;
     }
 }

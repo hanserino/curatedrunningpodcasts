@@ -4,23 +4,13 @@
 	{% include head.html %}
 	{% include schema-page.html %}
 </head>
-<body class="post-page" data-box-grid="true">
+<body class="post-page post-page--about" data-box-grid="true">
 	{% include skip-link.html %}
 	<main id="main-content">
-		<header class="header header--post" role="banner">
-			<div class="header__top header__top--compact">
-				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
-				<div class="header__actions">
-					{% include main-nav.html %}
-				</div>
-			</div>
-		</header>
 		<article class="post-about">
-			<header>
-				<h1>{{ page.title }}</h1>
-				{% if page.description %}
-				<p>{{ page.description }}</p>
-				{% endif %}
+			<header class="post-page__intro post-page__intro--compact">
+				{% include post-page-nav.html %}
+				<h1 class="post-page__about-title">{{ page.title }}</h1>
 			</header>
 			<div class="post-article__content">
 				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}

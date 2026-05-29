@@ -16,6 +16,9 @@
 @import 'partials/footer';
 @import 'partials/a11y';
 @import 'partials/editorial';
+@import 'partials/home';
+@import 'partials/post-page';
+@import 'partials/latest-page';
 @import 'partials/runner-picks';
 
 [data-touch="false"] .mobileOnly {
@@ -39,9 +42,18 @@ body {
     transform-style: preserve-3d;
 }
 
-main {
-    max-width: 1280px;
-    margin: 0 auto;
+#main-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 2.5rem;
+}
+
+body:not(.home-page) #main-content {
+    max-width: $content-max-width;
+}
+
+body.home-page #main-content {
+    max-width: $home-content-max-width;
 }
 
 @include allAbove(medium) {

@@ -4,63 +4,82 @@
 	{% include head.html %}
 	{% include schema-post.html %}
 </head>
-<body class="post-page" data-box-grid="true">
+{%- assign _is_podcast = false -%}
+{%- if page.category == 'podcast' -%}
+{%- assign _is_podcast = true -%}
+{%- endif -%}
+<body class="post-page{% if _is_podcast %} post-page--podcast{% endif %}" data-box-grid="true">
 	{% include skip-link.html %}
 	<main id="main-content">
+		{%- unless _is_podcast -%}
 		<header class="header header--post" role="banner">
 			<div class="header__top header__top--compact">
-				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
+				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← {{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
 				<div class="header__actions">
 					{% include main-nav.html %}
 				</div>
 			</div>
 		</header>
+		{%- endunless -%}
 		<article class="post-article">
+			{%- if _is_podcast -%}
+			<header class="post-page__intro">
+				{% include post-page-nav.html %}
+				<div class="post-page__hero">
+					<div class="post-page__cover">
+						{%- if page.cover_image and page.cover_image != '' -%}
+						{%- if page.explicit_cover_image or page.infer_cover_from_body != true -%}
+							{%- include podcast-cover-img.html cover_image=page.cover_image title=page.title high_priority=true -%}
+						{%- endif -%}
+						{%- endif -%}
+						{%- if page.infer_cover_from_body -%}
+						{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+						{%- endif -%}
+					</div>
+					<div class="post-page__details">
+						{%- if page.tags and page.tags.size > 0 -%}
+						<p class="post-page__kicker">
+							{%- for tag in page.tags -%}
+							<span class="post-page__tag">{{ tag }}</span>
+							{%- endfor -%}
+						</p>
+						{%- else -%}
+						<p class="post-page__kicker">Running podcast</p>
+						{%- endif -%}
+						<h1 class="post-article__title">{{ page.title }}</h1>
+						{% if page.description %}
+						<p class="post-article__lede">{{ page.description }}</p>
+						{% endif %}
+						<div class="post-article__meta">
+							{% include podcast-meta-single-post.html podcast=page listen_section_id="post-listen-links" %}
+						</div>
+						{% include podcast-runner-fans.html podcast=page %}
+					</div>
+				</div>
+			</header>
+			<section class="post-page__body" aria-label="Podcast details">
+				<div class="post-article__content">
+					{% if page.rss_feed and page.rss_feed != '' %}
+					{% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=10 %}
+					{% endif %}
+				</div>
+			</section>
+			{%- else -%}
 			<header>
-                <div class="post-article__left">
-                    {%- comment -%}
-                      Hero cover: use the include for front-matter covers, or when cover_image exists without
-                      infer_cover_from_body (plugin-less builds never set those flags, but YAML cover_image works).
-                      When infer_cover_from_body is true, the thumbnail lives only in markdown — skip the include
-                      or the same image renders twice (include + content).
-                    {%- endcomment -%}
-                    {%- if page.layout == 'post' and page.category == 'podcast' and page.cover_image and page.cover_image != '' -%}
-                    {%- if page.explicit_cover_image or page.infer_cover_from_body != true -%}
-                        {%- include podcast-cover-img.html cover_image=page.cover_image title=page.title high_priority=true -%}
-                    {%- endif -%}
-                    {%- endif -%}
-                    {{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
-                </div>
-                
-                <div class="post-article__right">
-                    <h1 class="post-article__title">{{ page.title }}</h1>
-                    {% if page.description %}
-                    <p class="post-article__lede">{{ page.description }}</p>
-                    {% endif %}
-
-                    {%- if page.layout == 'post' and page.category == 'podcast' -%}
-                    <div class="post-article__meta">
-                        {% include podcast-meta-single-post.html podcast=page listen_section_id="post-listen-links" %}
-                    </div>
-                    {% include podcast-runner-fans.html podcast=page %}
-                    {%- endif -%}
-
-                
-
-                </div>
-                
+				<h1 class="post-article__title">{{ page.title }}</h1>
+				{% if page.description %}
+				<p class="post-article__lede">{{ page.description }}</p>
+				{% endif %}
 			</header>
 			<div class="post-article__content">
-				{% if page.rss_feed and page.rss_feed != '' %}
-                        {% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=10 %}
-                {% endif %}
+				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
 			</div>
-			
+			{%- endif -%}
 			<footer class="post-article__footer">
-				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
 			</footer>
 		</article>
 	</main>
 	{% include footer.html %}
-</body> 
+</body>
 </html>

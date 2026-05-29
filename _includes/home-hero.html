@@ -1,0 +1,8 @@
+<header class="home-page__intro" role="banner">
+	<div class="home-page__intro-bar">
+		{% include main-nav.html %}
+	</div>
+	<p class="home-page__kicker">Human-curated directory</p>
+	<h1 class="home-page__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
+	<div class="home-page__lede">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
+</header>

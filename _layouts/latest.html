@@ -4,28 +4,23 @@
 	{% include head.html %}
 	{% include schema-page.html %}
 </head>
-<body class="latest-page" data-box-grid="true">
+<body class="post-page latest-page" data-box-grid="true">
 	{% include skip-link.html %}
 	<main id="main-content">
-		<header class="header header--post" role="banner">
-			<div class="header__top header__top--compact">
-                <p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to The Best Running Podcasts</a></p>
-				<div class="header__actions">
-					{% include main-nav.html %}
-				</div>
-			</div>
-		</header>
-
 		<article class="latest">
-			<header class="latest__intro">
+			<header class="latest-page__intro">
+				{% include post-page-nav.html %}
+				<p class="latest-page__kicker">Fresh from the directory</p>
 				<h1 class="latest__title">{{ page.title }}</h1>
 				{% if page.description %}
 				<p class="latest__lede">{{ page.description }}</p>
 				{% endif %}
 			</header>
-			<div class="post-article__content">
-				{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
-			</div>
+			<section class="latest-page__player" aria-label="Episode player">
+				<div class="post-article__content">
+					{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+				</div>
+			</section>
 			<footer class="post-article__footer">
 				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
 			</footer>

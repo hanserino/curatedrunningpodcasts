@@ -1,6 +1,7 @@
 {%- assign runners = include.runners -%}
 {%- if runners and runners.size > 0 -%}
 <nav class="runners-picks-nav" aria-label="Jump to a runner's picks">
+  <p class="runners-picks-nav__label">Jump to</p>
   <ul class="runners-picks-nav__list">
     {%- for runner in runners -%}
       {%- assign _anchor = runner.slug | default: runner.name | slugify -%}

@@ -1,7 +1,6 @@
 ---
 layout: about
 title: About this list
-description: Why this directory exists, how shows are chosen, and how to suggest a podcast.
 permalink: /about/
 seo_description: >-
   Editorial notes for Best Running Podcasts: curation goals, NEDA project context, how to filter and suggest shows.

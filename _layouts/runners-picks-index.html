@@ -4,20 +4,13 @@
 	{% include head.html %}
 	{% include schema-page.html %}
 </head>
-<body class="runners-picks-page" data-box-grid="true">
+<body class="post-page runners-picks-page" data-box-grid="true">
 	{% include skip-link.html %}
 	<main id="main-content">
-		<header class="header header--post" role="banner">
-			<div class="header__top header__top--compact">
-				<p class="header__title header__title--home-link"><a href="{{ '/' | relative_url }}" rel="home">← {{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</a></p>
-				<div class="header__actions">
-					{% include main-nav.html %}
-				</div>
-			</div>
-		</header>
-
 		<article class="runners-picks">
 			<header class="runners-picks__intro">
+				{% include post-page-nav.html %}
+				<p class="runners-picks__kicker">Curated by athletes</p>
 				<h1 class="runners-picks__title">{{ page.title }}</h1>
 				{% if page.description %}
 				<p class="runners-picks__lede">{{ page.description }}</p>

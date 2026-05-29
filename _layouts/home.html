@@ -4,32 +4,25 @@
 	{% include head.html %}
 	{% include schema-home.html %}
 </head>
-<body data-box-grid="true">
+<body class="home-page" data-box-grid="true">
 	{% include skip-link.html %}
 	<main id="main-content">
-		{% include header.html %}
-		{% if site.runners_picks_public %}
-		<section class="editorial editorial--callout-only" id="runners-picks-callout" aria-label="Runners' podcast picks">
-			<div class="editorial__inner">
-				<div class="editorial__callout">
-					<p><strong>Runners' podcast picks</strong> — elite athletes and people in the sport share their five favorite shows, with notes on why each one stuck. <a href="{{ '/runners-picks/' | relative_url }}">Browse the lists →</a></p>
-				</div>
-			</div>
-		</section>
-		{% endif %}
+		{% include home-hero.html %}
 		{% assign body = content | strip %}
 		{% if body != "" %}
 		<section class="editorial" id="about-this-list" aria-labelledby="editorial-title">
 			<div class="editorial__inner">
 				{{ content }}
 			</div>
-		</section> 
+		</section>
 		{% endif %}
-		{% include filter.html %}
-		<div class="grid-switch-wrapper" role="group" aria-label="List layout">
-			{% include grid-switch.html %}
+		<div class="home-page__directory">
+			{% include filter.html %}
+			<div class="home-page__toolbar" role="group" aria-label="List layout">
+				{% include grid-switch.html %}
+			</div>
+			{% include podcastloop.html %}
 		</div>
-		{% include podcastloop.html %}
 	</main>
 	{% include footer.html %}
 </body>
