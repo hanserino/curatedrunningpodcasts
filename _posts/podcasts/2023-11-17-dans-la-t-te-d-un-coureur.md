@@ -10,7 +10,7 @@ published: true
 description: The first French-speaking podcast dedicated to running and mental
   preparation. Advice, interviews with inspiring athletes and all about the
   running lifestyle.
-not_running_related: true
+not_running_related: false
 cover_image: /media/danslateteeduncoureur.jpeg
 publisher: Sunday Night Productions
 spotify_link: https://open.spotify.com/show/4SOoCH4LM0V4WZt4wqiTLH?si=974b1b0013f44f0a
