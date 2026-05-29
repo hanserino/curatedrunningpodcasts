@@ -1,0 +1,44 @@
+# Deploy the pre-built docs/ tree from CI (Jekyll 4 + custom plugins).
+# In repo Settings → Pages, set Source to "GitHub Actions" (not Jekyll from /).
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "CNAME"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Verify site output exists
+        run: test -f docs/index.html
+
+      - name: Ensure static hosting markers
+        run: |
+          test -f docs/.nojekyll || cp .nojekyll docs/.nojekyll
+          test -f docs/CNAME || cp CNAME docs/CNAME
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
