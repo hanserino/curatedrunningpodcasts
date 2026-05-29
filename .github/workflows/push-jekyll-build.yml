@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: scheduled-jekyll-build
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -52,26 +52,4 @@ jobs:
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
-        run: |
-          set -eu
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A docs _data/latest_podcast_episodes.yml media
-          if git diff --staged --quiet; then
-            echo "No changes; skipping commit."
-            exit 0
-          fi
-          git commit -m "chore: refresh RSS, optimize new media, rebuild docs (post push)"
-          while ! git diff --quiet; do
-            echo "Unstaged tracked changes after commit:"
-            git status --short
-            git add -A docs _data/latest_podcast_episodes.yml media
-            if git diff --staged --quiet; then
-              echo "Discarding unstaged changes outside build paths before rebase."
-              git restore .
-              break
-            fi
-            git commit --amend --no-edit
-          done
-          git pull --rebase origin "$BRANCH"
-          git push origin "$BRANCH"
+        run: bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs (post push)"
