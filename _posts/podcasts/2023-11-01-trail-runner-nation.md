@@ -11,7 +11,7 @@ description: Trail Runner Nation is devoted to sharing knowledge and advice to
   the trail running community - from beginners to the pros! Tips and discussions
   regarding race nutrition, pacing strategy, mental focus and much more from
   well-respected members of the trail community.
-not_running_related: true
+not_running_related: false
 cover_image: /media/trn-logo-podcast-artwork.jpg
 publisher: Trail Runner Nation
 spotify_link: https://open.spotify.com/show/603z2wAQ73kcqTbM1pTl74?si=b5e0f38c8ae345f1
