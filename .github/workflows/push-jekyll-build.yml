@@ -54,4 +54,4 @@ jobs:
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
-        run: bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs (post push)"
+        run: 'bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs (post push)"'
