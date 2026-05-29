@@ -1,9 +1,10 @@
 ---
-date: 2026-05-05
+date: 2026-05-29
 title: Any Surface Available
 category: podcast
 published: "true"
 featured: false
+not_running_related: true
 cover_image: /media/anysurfaceavailable.jpeg
 publisher: Francesco Puppi
 spotify_link: https://open.spotify.com/show/5b5O1KK3WnB0sU0hEGOqR6?si=e15992ced6d049e8
