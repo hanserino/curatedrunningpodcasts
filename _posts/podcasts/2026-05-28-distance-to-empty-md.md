@@ -12,6 +12,7 @@ cover_image: /media/distancetoempty.jpeg
 publisher: Kevin Goldberg and Peter Noyes
 spotify_link: https://open.spotify.com/show/4K2RG9KtSSzDyk4jT4Bv7x?si=aa6d597618334016
 apple_podcast_link: https://podcasts.apple.com/us/podcast/distance-to-empty/id1722571117
+rss_feed: https://anchor.fm/s/ef81d1e4/podcast/rss
 tags:
   - trail
   - ultra
