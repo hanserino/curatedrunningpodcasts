@@ -12,4 +12,6 @@ picks:
     directory_slug: 2026-05-28-ask-a-cycling-coach-podcast-md
     quote: I really like some of the episodes - the ones that are science related
   - pick_source: site
+    directory_slug: 2026-05-28-that-triathlon-show-md
+    quote: ""
 ---
