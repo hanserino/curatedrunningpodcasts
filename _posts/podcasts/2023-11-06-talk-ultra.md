@@ -10,7 +10,7 @@ category: podcast
 published: true
 description: The godfather of ultra trail podcasts, Ian Corless, brings you you
   news and in depth interviews from the ultrarunning world.
-not_running_related: true
+not_running_related: false
 cover_image: /media/talkultrapodcast.jpeg
 publisher: Ian Corless
 spotify_link: https://open.spotify.com/show/71FhmSIeG9UDJU8kQWFaLO?si=0f615d7ab36f419a
