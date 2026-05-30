@@ -3,7 +3,7 @@ name: Corrine Malcolm
 role: Ultrarunner, coach, commentator and podcast host
 photo: /media/runner-picks/corrinemalcolm.jpg
 instagram_handle: corrinemalcolm
-sort_order: ""
+sort_order: 2
 picks:
   - pick_source: site
     directory_slug: 2026-05-28-normal-gossip-md
