@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-30T05:17:58Z'
+generated_at: '2026-05-30T07:00:35Z'
 items:
+- podcast_title: Crack A Brew With AJW
+  podcast_page_url: "/crack-a-brew-with-ajw.html"
+  cover_image: "/media/crackabrew.jpeg"
+  feed_url: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
+  episode_title: 'Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100'
+  episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100
+  audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Jeff_Mogavero.mp3?dest-id=3847590
+  published_at: '2026-05-30T06:00:00+00:00'
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
   cover_image: "/media/tenjunkmiles.png"
@@ -201,14 +209,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
   audio_url: https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3
   published_at: '2026-05-25T10:00:00+00:00'
-- podcast_title: Crack A Brew With AJW
-  podcast_page_url: "/crack-a-brew-with-ajw.html"
-  cover_image: "/media/crackabrew.jpeg"
-  feed_url: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
-  episode_title: 'Hannah Allgood: Training, Racing and Her Return to Western States'
-  episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/hannah-allgood-training-racing-and-her-return-to-western-states
-  audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Hannah_Allgood.mp3?dest-id=3847590
-  published_at: '2026-05-23T05:00:00+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: "/media/choosestrongpodcast.jpeg"
@@ -1396,6 +1396,10 @@ episodes_by_feed:
     audio_url: https://www.buzzsprout.com/299975/episodes/18916216-breaking-boston-7-formtopping.mp3
     published_at: '2026-03-27T05:00:00+01:00'
   https://rss.libsyn.com/shows/456963/destinations/3847590.xml: &14
+  - episode_title: 'Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100'
+    episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100
+    audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Jeff_Mogavero.mp3?dest-id=3847590
+    published_at: '2026-05-30T06:00:00+00:00'
   - episode_title: 'Hannah Allgood: Training, Racing and Her Return to Western States'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/hannah-allgood-training-racing-and-her-return-to-western-states
     audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Hannah_Allgood.mp3?dest-id=3847590
@@ -1472,10 +1476,6 @@ episodes_by_feed:
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/andy-and-shelly-jones-wilkins-javelina-western-states-and-sustaining-a-healthy-relationship-through-three-decades-of-ultrarunning
     audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_AJW__Shelly.mp3?dest-id=3847590
     published_at: '2025-11-01T08:20:00+00:00'
-  - episode_title: 'Zach and Nicole Bitter: The Twists and Turns of Sharing a Life of Running'
-    episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/zach-and-nicole-bitter-the-twists-and-turns-of-sharing-a-life-of-running
-    audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Zach__Nicole.mp3?dest-id=3847590
-    published_at: '2025-10-18T08:00:00+00:00'
   https://rss.buzzsprout.com/765419.rss: &15
   - episode_title: Koop AI, Unboxed
     episode_url: ''
