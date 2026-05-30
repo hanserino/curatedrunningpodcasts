@@ -11,8 +11,8 @@ picks:
     quote: Lots of science shit which is interesting to listen to
   - pick_source: site
     directory_slug: 2026-05-28-ask-a-cycling-coach-podcast-md
-    quote: I really like some of the episodes - the ones that are science related
+    quote: I really like the science related episodes
   - pick_source: site
     directory_slug: 2026-05-28-that-triathlon-show-md
-    quote: ""
+    quote: Same as the above
 ---
