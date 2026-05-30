@@ -33,11 +33,6 @@
         padding: 0.15rem 0;
     }
 
-    .home-page [data-box-grid="false"] .podcast-loop__item article,
-    body[data-box-grid="false"] .podcast-loop__item article {
-        padding-left: calc(16vw + 0.65rem);
-    }
-
     .runners-picks-page .runners-picks {
         padding: 0 $page-gutter-mobile 1.75rem;
     }
