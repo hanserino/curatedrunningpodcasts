@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-05-30T00:36:56Z'
+generated_at: '2026-05-30T01:38:00Z'
 items:
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
@@ -9,6 +9,14 @@ items:
   episode_url: https://tenjunkmiles.com/long-run-263-chris-miles-200-milers-in-the-uk
   audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_Chris_Miles.mp3?dest-id=259001
   published_at: '2026-05-29T23:23:00+00:00'
+- podcast_title: Distance to Empty
+  podcast_page_url: "/distance-to-empty.html"
+  cover_image: "/media/distancetoempty.jpeg"
+  feed_url: https://anchor.fm/s/ef81d1e4/podcast/rss
+  episode_title: 'Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250'
+  episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Trish-Corbett-MBA-Champion--Corner-Threes-and-Broken-Fingers-at-Cocodona-250-e3k2uar
+  audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120731419/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F65b41453-b9fb-a3d2-98b6-72787f5f02ab.mp3
+  published_at: '2026-05-29T18:09:47+00:00'
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub.html"
   cover_image: "/media/coffeeclub.jpeg"
@@ -201,14 +209,6 @@ items:
   episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/hannah-allgood-training-racing-and-her-return-to-western-states
   audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Hannah_Allgood.mp3?dest-id=3847590
   published_at: '2026-05-23T05:00:00+00:00'
-- podcast_title: Distance to Empty
-  podcast_page_url: "/distance-to-empty.html"
-  cover_image: "/media/distancetoempty.jpeg"
-  feed_url: https://anchor.fm/s/ef81d1e4/podcast/rss
-  episode_title: Zach Hauer on Chasing the Podium at Cocodona 250, and What 200s Teach You That Nothing Else Can
-  episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Zach-Hauer-on-Chasing-the-Podium-at-Cocodona-250--and-What-200s-Teach-You-That-Nothing-Else-Can-e3jor82
-  audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120400578/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2F7fa5ba03-9924-803c-c937-cd6037533bc4.mp3
-  published_at: '2026-05-22T19:11:25+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: "/media/choosestrongpodcast.jpeg"
@@ -3707,6 +3707,10 @@ episodes_by_feed:
     published_at: '2025-12-17T16:00:00Z'
   https://api.substack.com/feed/podcast/2836327.rss: &44 []
   https://anchor.fm/s/ef81d1e4/podcast/rss: &45
+  - episode_title: 'Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250'
+    episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Trish-Corbett-MBA-Champion--Corner-Threes-and-Broken-Fingers-at-Cocodona-250-e3k2uar
+    audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120731419/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F65b41453-b9fb-a3d2-98b6-72787f5f02ab.mp3
+    published_at: '2026-05-29T18:09:47+00:00'
   - episode_title: Zach Hauer on Chasing the Podium at Cocodona 250, and What 200s Teach You That Nothing Else Can
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Zach-Hauer-on-Chasing-the-Podium-at-Cocodona-250--and-What-200s-Teach-You-That-Nothing-Else-Can-e3jor82
     audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/120400578/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-22%2F7fa5ba03-9924-803c-c937-cd6037533bc4.mp3
@@ -3783,10 +3787,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/DJ-Fox-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hrmal
     audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/118396693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-13%2F0f7a6731-e5f5-f31a-5845-b4d900359c76.mp3
     published_at: '2026-04-13T18:40:38+00:00'
-  - episode_title: Jeff Pelletier is Flagstaff Bound at the 2026 Cocodona 250
-    episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Jeff-Pelletier-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hlrs6
-    audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/118205766/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-9%2Fe2681426-1b7e-cbd3-e3c5-385504c360bb.mp3
-    published_at: '2026-04-09T18:00:00+00:00'
   https://feeds.simplecast.com/6hkohngs: &46
   - episode_title: 'Interesting Times: Why Are We Still Driving?'
     episode_url: https://www.nytimes.com/column/hard-fork
