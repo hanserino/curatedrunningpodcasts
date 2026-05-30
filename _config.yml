@@ -9,6 +9,7 @@ exclude:
   - _jekyll-sitemap
 email: hans@naerdetalvor.no
 # Used for <title>, Open Graph, JSON-LD, and LLM-oriented summaries
+# Base site name; build adds the current year (see _plugins/site_title_year.rb).
 title: The Best Running Podcasts
 heading: The Best Running Podcasts
 # Home page hero line under the h1 (Markdown; *text* = emphasis)

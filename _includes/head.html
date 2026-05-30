@@ -1,14 +1,3 @@
-{%- assign seo_desc = page.seo_description | default: page.description | default: page.excerpt | default: '' -%}
-{%- assign seo_desc = seo_desc | strip_html | strip -%}
-{%- if seo_desc == '' -%}
-  {%- if page.layout == 'post' and page.title and page.title != '' -%}
-    {%- assign seo_desc = page.title | append: ' — a running podcast curated on The Best Running Podcasts.' -%}
-  {%- else -%}
-    {%- assign seo_desc = site.description -%}
-  {%- endif -%}
-{%- endif -%}
-{%- assign seo_desc = seo_desc | truncate: 300 -%}
-
 {%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
 {%- assign site_tagline_safe = site.tagline | default: 'The best running podcasts, trail, ultra, and track podcast directory' -%}
 
@@ -16,6 +5,17 @@
 {%- if page.layout == 'home' or page.url == '/' or page.url == '/index.html' -%}
 {%- assign is_home = true -%}
 {%- endif -%}
+
+{%- assign seo_desc = page.seo_description | default: page.description | default: page.excerpt | default: '' -%}
+{%- assign seo_desc = seo_desc | strip_html | strip -%}
+{%- if seo_desc == '' -%}
+  {%- if page.layout == 'post' and page.title and page.title != '' -%}
+    {%- assign seo_desc = page.title | append: ' — a running podcast curated on ' | append: site_name | append: '.' -%}
+  {%- else -%}
+    {%- assign seo_desc = site.description -%}
+  {%- endif -%}
+{%- endif -%}
+{%- assign seo_desc = seo_desc | truncate: 300 -%}
 
 {%- if is_home -%}
   {%- assign seo_page_title = site_name | append: ' | ' | append: site_tagline_safe -%}

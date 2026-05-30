@@ -1,6 +1,7 @@
+{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
 {%- assign desc = page.description | default: page.excerpt | strip_html | strip -%}
 {%- if desc == '' and page.title and page.title != '' -%}
-  {%- assign desc = page.title | append: ' — a running podcast curated on The Best Running Podcasts.' -%}
+  {%- assign desc = page.title | append: ' — a running podcast curated on ' | append: site_name | append: '.' -%}
 {%- endif -%}
 {%- if desc == '' -%}
   {%- assign desc = site.description | strip_html | strip -%}
