@@ -81,8 +81,12 @@
       {%- elsif _pick_url != '' -%}
         {%- assign _pick_url = _pick_url | relative_url -%}
       {%- endif -%}
-      <li class="runner-pick__item">
-        <div class="runner-pick__item-main{% unless _cover != '' %} runner-pick__item-main--no-art{% endunless %}">
+      {%- assign _has_quote = false -%}
+      {%- if pick.quote and pick.quote != '' -%}
+        {%- assign _has_quote = true -%}
+      {%- endif -%}
+      <li class="runner-pick__item{% unless _has_quote %} runner-pick__item--no-quote{% endunless %}">
+        <div class="runner-pick__item-main{% unless _cover != '' %} runner-pick__item-main--no-art{% endunless %}{% unless _has_quote %} runner-pick__item-main--no-quote{% endunless %}">
           <span class="runner-pick__rank" aria-hidden="true">{{ forloop.index }}</span>
           {%- if _cover != '' -%}
             <div class="runner-pick__item-art">

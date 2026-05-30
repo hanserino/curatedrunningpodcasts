@@ -1,0 +1,116 @@
+// Tighter outer gutters and card padding on small screens site-wide.
+
+@include allBelow(medium) {
+    body.home-page .home-page__intro {
+        margin-left: $page-gutter-mobile;
+        margin-right: $page-gutter-mobile;
+        padding: 0.95rem $card-padding-mobile-x 1rem;
+    }
+
+    body.home-page .home-page__directory {
+        padding-left: $page-gutter-mobile;
+        padding-right: $page-gutter-mobile;
+    }
+
+    .home-page .editorial {
+        margin-left: $page-gutter-mobile;
+        margin-right: $page-gutter-mobile;
+    }
+
+    .home-page .editorial__inner {
+        padding: 0.85rem $card-padding-mobile-x;
+    }
+
+    .home-page .home-page__toolbar {
+        padding: 0.45rem 0.65rem;
+    }
+
+    .home-page .filter {
+        padding: 0.7rem $card-padding-mobile-x 0.8rem;
+    }
+
+    .home-page .podcast-loop {
+        padding: 0.15rem 0;
+    }
+
+    .home-page [data-box-grid="false"] .podcast-loop__item article,
+    body[data-box-grid="false"] .podcast-loop__item article {
+        padding-left: calc(16vw + 0.65rem);
+    }
+
+    .runners-picks-page .runners-picks {
+        padding: 0 $page-gutter-mobile 1.75rem;
+    }
+
+    .runners-picks-page .runners-picks__intro {
+        padding: 0.95rem $card-padding-mobile-x 1rem;
+        margin-bottom: 1.35rem;
+    }
+
+    .runners-picks-page .runners-picks-nav {
+        padding: 0.6rem $card-padding-mobile-x 0.75rem;
+        margin-bottom: 1.35rem;
+    }
+
+    .runners-picks-page .runners-picks__grid {
+        gap: 1.35rem;
+    }
+
+    .runners-picks-page .runner-pick__profile {
+        padding: 1.05rem $card-padding-mobile-x 0.9rem;
+    }
+
+    .runners-picks-page .runner-pick__picks {
+        padding: 0.8rem $card-padding-mobile-x 0.95rem;
+    }
+
+    .runners-picks-page .runner-pick__item-main {
+        padding: 0.65rem $card-padding-mobile-x;
+    }
+
+    .latest-page .latest {
+        padding: 0 $page-gutter-mobile 1.75rem;
+    }
+
+    .latest-page .latest__intro {
+        padding: 0.95rem $card-padding-mobile-x 1rem;
+    }
+
+    .latest-page .latest-episodes {
+        padding: 0.85rem $card-padding-mobile-x 1rem;
+    }
+
+    .post-page--podcast .post-article {
+        padding: 0 $page-gutter-mobile 1.75rem;
+    }
+
+    .post-page .post-page__intro {
+        padding: 0.95rem $card-padding-mobile-x 1rem;
+    }
+
+    .post-page--podcast .latest-episodes,
+    .post-page--podcast .latest-episodes--embedded {
+        padding: 0.85rem $card-padding-mobile-x 1rem;
+    }
+
+    .post-page--about .post-about {
+        padding: 0 $page-gutter-mobile 1.75rem;
+    }
+
+    .post-page--about .post-article__content {
+        padding: 0.85rem $card-padding-mobile-x;
+    }
+
+    .post-page:not(.post-page--podcast):not(.post-page--about) .post-article {
+        padding: 0 $page-gutter-mobile 1.75rem;
+    }
+
+    .filter--panel {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .podcast-loop {
+        padding: 0.25rem 0;
+    }
+}
