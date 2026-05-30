@@ -1,6 +1,6 @@
 ---
 name: Kristian Ulriksen
-role: Norway's most famous runner
+role: Norway's most influential runner
 photo: /media/runner-picks/kristianulriksen.jpg
 bio: "Host of the podcast Breaking Marathon Limits, coach, race director and
   regular guest on Inside Running Podcast. In many ways the voice of Norwegian
