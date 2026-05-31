@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-05-31T13:33:21Z'
+generated_at: '2026-05-31T14:33:56Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
+  episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1c3738f72e42404345a8e2.mp3
+  published_at: '2026-05-31T13:30:23+00:00'
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride.html"
   cover_image: "/media/lifeinstride.jpeg"
@@ -65,14 +73,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/118-Troy-Meadows--Julio-Palma--Hellbender-100--Battling-the-DNF-Demons---Through-Endurance-We-Conquer-e3k1qkg
   audio_url: https://anchor.fm/s/e4eabf84/podcast/play/120694864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2Fff06e00c-0532-29e7-5a3e-45847cb8a379.mp3
   published_at: '2026-05-29T09:30:00+00:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
-  episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a19500ebe7eda98206b69c5.mp3
-  published_at: '2026-05-29T08:52:01+00:00'
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run.html"
   cover_image: "/media/forthelongrun.jpeg"
@@ -756,6 +756,10 @@ episodes_by_feed:
     audio_url: https://www.buzzsprout.com/145661/episodes/16608631-obt-2025-portrett-12-team-stodig-som-en-bauta.mp3
     published_at: '2025-05-29T05:00:00+02:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
+    episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1c3738f72e42404345a8e2.mp3
+    published_at: '2026-05-31T13:30:23+00:00'
   - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a19500ebe7eda98206b69c5.mp3
@@ -832,10 +836,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-27-hundred-hills-50km-preview
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b140bd32a9bcf3746012d2.mp3
     published_at: '2026-03-11T10:19:24+00:00'
-  - episode_title: 'Centurion Coaching Podcast: Jack Chamberlain'
-    episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-jack-chamberlain
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69afdd41d4008fee6bac3601.mp3
-    published_at: '2026-03-10T09:01:17+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Maria-Chevalier-on-48-Marathon-States--Running-Double-Boston--and-Doing-Hard-Things-Anyway-e3jvjbo
