@@ -1,0 +1,72 @@
+{%- assign deck_cover = include.deck_cover | default: "" -%}
+<div class="latest-episodes__player-shell">
+  <canvas class="latest-episodes__player-waves" data-player-waves aria-hidden="true"></canvas>
+  <div
+    class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
+    data-player-art-wrap
+    {% if deck_cover != "" %}data-default-cover="{{ deck_cover | relative_url | escape }}"{% endif %}
+  >
+    {%- if deck_cover != "" -%}
+    {%- include local-media-picture.html raw=deck_cover alt="" high_priority=false width=96 height=96 img_class="latest-episodes__player-art" img_attrs="data-player-art" -%}
+    {%- else -%}
+    <img class="latest-episodes__player-art" data-player-art alt="" width="96" height="96" hidden>
+    {%- endif -%}
+  </div>
+  <div class="latest-episodes__player-main">
+    <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing>Choose an episode below to start listening.</p>
+    <div class="latest-episodes__transport" data-player-transport hidden>
+      <div class="latest-episodes__transport-primary">
+        <button
+          type="button"
+          class="latest-episodes__deck-skip"
+          data-deck-skip-back
+          aria-label="Skip back 15 seconds"
+        >
+          <span class="latest-episodes__deck-skip-glyph" aria-hidden="true">15</span>
+        </button>
+        <button
+          type="button"
+          class="latest-episodes__deck-play"
+          data-deck-play
+          aria-pressed="false"
+          aria-label="Play"
+        >
+          <span class="latest-episodes__deck-play-glyph" aria-hidden="true"></span>
+        </button>
+        <button
+          type="button"
+          class="latest-episodes__deck-skip"
+          data-deck-skip-forward
+          aria-label="Skip forward 30 seconds"
+        >
+          <span class="latest-episodes__deck-skip-glyph" aria-hidden="true">30</span>
+        </button>
+      </div>
+      <div class="latest-episodes__scrub">
+        <span class="latest-episodes__time" data-player-current aria-hidden="true">0:00</span>
+        <label class="latest-episodes__scrub-track-wrap">
+          <input
+            type="range"
+            class="latest-episodes__scrub-input"
+            data-player-scrub
+            min="0"
+            max="1000"
+            value="0"
+            step="1"
+            aria-label="Seek playback position"
+            aria-valuemin="0"
+            aria-valuemax="1000"
+            aria-valuenow="0"
+          >
+          <span class="latest-episodes__scrub-track" data-player-scrub-track aria-hidden="true"></span>
+          <span class="latest-episodes__scrub-progress" data-player-scrub-progress style="width: 0%">
+            <span class="latest-episodes__scrub-fill" data-player-scrub-fill></span>
+            <span class="latest-episodes__scrub-thumb" data-player-scrub-thumb></span>
+          </span>
+        </label>
+        <span class="latest-episodes__time" data-player-duration aria-hidden="true">0:00</span>
+      </div>
+    </div>
+    <audio preload="none" data-latest-player class="latest-episodes__player"></audio>
+  </div>
+</div>

@@ -15,25 +15,7 @@
   <!-- <h2 class="latest-episodes__title" id="{{ section_id }}-title">{{ heading }}</h2> -->
 
   {%- if items.size > 0 -%}
-  <div class="latest-episodes__player-shell">
-    <div
-      class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
-      data-player-art-wrap
-      {% if deck_cover != "" %}data-default-cover="{{ deck_cover | relative_url | escape }}"{% endif %}
-    >
-      {%- if deck_cover != "" -%}
-      {%- include local-media-picture.html raw=deck_cover alt="" high_priority=false width=72 height=72 img_class="latest-episodes__player-art" img_attrs="data-player-art" -%}
-      {%- else -%}
-      <img class="latest-episodes__player-art" data-player-art alt="" width="72" height="72" hidden>
-      {%- endif -%}
-    </div>
-    <div class="latest-episodes__player-main">
-      <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing>Choose an episode below to start listening.</p>
-      <audio controls preload="none" data-latest-player class="latest-episodes__player">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  </div>
+  {% include latest-episodes-player-chrome.html deck_cover=deck_cover %}
 
   <ol class="latest-episodes__list">
     {%- for episode in items limit: max_items -%}
