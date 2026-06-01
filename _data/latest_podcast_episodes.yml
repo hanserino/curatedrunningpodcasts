@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-01T16:08:11Z'
+generated_at: '2026-06-01T16:14:47Z'
 items:
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
@@ -4942,6 +4942,47 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/05/z758xde8xagkod43b2nnj/podcast_128.mp3
     published_at: '2026-05-18T13:13:29+00:00'
+  https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &61
+  - episode_title: 'Bak USAs mektigste: Hvem er Israel-lobbyen AIPAC?'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/f6f4999b-77d9-4b48-b499-9b77d97b4875_1_ID192MP3.mp3
+    published_at: '2026-06-01T05:59:00+02:00'
+  - episode_title: 'Drapet på danske Emilie: Mannen politiet overså'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/7f556b57-4f75-4805-956b-574f750805b3_2_ID192MP3.mp3
+    published_at: '2026-05-29T05:59:00+02:00'
+  - episode_title: 'Trumps plan: Vil han ta Cuba?'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/08560a5e-c41c-4ab3-960a-5ec41ccab35f_1_ID192MP3.mp3
+    published_at: '2026-05-28T05:59:00+02:00'
+  - episode_title: 'Dop, Dubai og drap: Jakten på narkokartellet'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/04b94a19-1e70-4d1d-b94a-191e707d1dc4_2_ID192MP3.mp3
+    published_at: '2026-05-27T05:59:00+02:00'
+  - episode_title: 'Travsportens skyggeside: De rystende avsløringene'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/d7a9f85b-364d-4a67-a9f8-5b364d9a67bc_1_ID192MP3.mp3
+    published_at: '2026-05-26T05:59:00+02:00'
+  - episode_title: 'Frp er størst: Slik tok Listhaug dem til topps'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/3b998390-6b73-4a6e-9983-906b733a6e7c_1_ID192MP3.mp3
+    published_at: '2026-05-25T05:59:00+02:00'
+  - episode_title: 'Shakira: Derfor risikerte hun åtte år i fengsel'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/01296907-a7ea-4ebd-a969-07a7ea8ebd4e_1_ID192MP3.mp3
+    published_at: '2026-05-22T05:59:00+02:00'
+  - episode_title: 'Trusler mot politikere: Lever Utøya-hatet videre?'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/83c13ba2-ee9a-43b2-813b-a2ee9ad3b2bd_1_ID192MP3.mp3
+    published_at: '2026-05-21T05:59:00+02:00'
+  - episode_title: 'Kampen mot «krigsmaskinen»: Er Norge på feil spor?'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/9635b598-9893-4533-b5b5-9898930533f7_1_ID192MP3.mp3
+    published_at: '2026-05-20T05:59:00+02:00'
+  - episode_title: 'Terget Trump med skjell: Nå er han tiltalt'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/a4cac93d-276f-49e5-8ac9-3d276ff9e562_2_ID192MP3.mp3
+    published_at: '2026-05-19T05:59:00+02:00'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -5070,3 +5111,5 @@ feed_episodes_list:
   episodes: *59
 - feed_key: https://podcast.stream.schibsted.media/ap/100194
   episodes: *60
+- feed_key: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
+  episodes: *61
