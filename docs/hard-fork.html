@@ -17,7 +17,7 @@
 <meta property="og:url" content="https://bestrunningpodcasts.com/hard-fork.html">
 <meta property="og:image" content="https://bestrunningpodcasts.com/media/hardfork.jpeg">
 <meta property="og:image:alt" content="Hard Fork podcast cover art">
-<meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-05-29T00:00:00+00:00"><!-- Twitter (X) Card -->
+<meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-05-29T00:00:00+02:00"><!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Hard Fork | The Best Running Podcasts 2026">
 <meta name="twitter:description" content="Hard Fork — a running podcast curated on The Best Running Podcasts 2026.">
@@ -190,7 +190,13 @@
         <span class="latest-episodes__time" data-player-duration aria-hidden="true">0:00</span>
       </div>
     </div>
-    <audio preload="none" data-latest-player class="latest-episodes__player"></audio>
+    <audio
+      preload="none"
+      playsinline
+      webkit-playsinline
+      data-latest-player
+      class="latest-episodes__player"
+    ></audio>
   </div>
 </div>
 
@@ -275,16 +281,26 @@
     var waveCanvas = root.querySelector('[data-player-waves]');
     if (!player || !nowPlaying) return;
 
-    if (player.dataset.brpMediaHooked === '1' || player.dataset.brpWaveHook === '1') {
+    player.playsInline = true;
+    player.setAttribute('playsinline', '');
+
+    if (player.dataset.brpWaveHook === '1') {
       var restoredPlayer = player.cloneNode(false);
       restoredPlayer.className = player.className;
       restoredPlayer.setAttribute('data-latest-player', '');
       restoredPlayer.preload = player.preload || 'none';
+      restoredPlayer.setAttribute('playsinline', '');
+      restoredPlayer.playsInline = true;
       if (player.src) restoredPlayer.src = player.src;
       player.parentNode.replaceChild(restoredPlayer, player);
       player = restoredPlayer;
     }
 
+    var isIOS =
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var waveUsesFallbackMotion = false;
     var currentLi = null;
     var currentMeta = {
       episodeTitle: '',
@@ -299,7 +315,6 @@
     var waveSource = null;
     var waveAnimId = null;
     var waveResizeObserver = null;
-    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var freqBuffer = null;
     var timeBuffer = null;
     var waveHeights = null;
@@ -569,13 +584,7 @@
     function resetAudioGraph() {
       stopWaveAnimation();
       waveTapReady = false;
-
-      if (player.dataset.brpWaveHook === '1') {
-        if (waveHeights) {
-          for (var wi = 0; wi < waveHeights.length; wi++) waveHeights[wi] = 0;
-        }
-        return;
-      }
+      waveUsesFallbackMotion = false;
 
       if (waveSource) {
         try {
@@ -587,6 +596,16 @@
       freqBuffer = null;
       timeBuffer = null;
       waveHeights = null;
+    }
+
+    function suspendWaveAudioContext() {
+      if (!audioCtx || audioCtx.state !== 'running') return;
+      audioCtx.suspend().catch(function () {});
+    }
+
+    function resumeWaveAudioContext() {
+      if (!audioCtx || audioCtx.state !== 'suspended') return;
+      audioCtx.resume().catch(function () {});
     }
 
     function ensureAudioContext() {
@@ -607,21 +626,6 @@
       freqBuffer = new Uint8Array(analyser.frequencyBinCount);
       timeBuffer = new Uint8Array(analyser.fftSize);
       waveHeights = new Float32Array(waveColumnCount);
-    }
-
-    function connectElementAnalyser(ctx) {
-      if (player.dataset.brpWaveHook === '1') {
-        return !!(waveSource && analyser);
-      }
-      try {
-        waveSource = ctx.createMediaElementSource(player);
-        waveSource.connect(analyser);
-        analyser.connect(ctx.destination);
-        player.dataset.brpWaveHook = '1';
-        return true;
-      } catch (e) {
-        return false;
-      }
     }
 
     function connectStreamAnalyser(ctx) {
@@ -646,10 +650,10 @@
     }
 
     function ensureWaveAnalyser() {
+      if (isIOS) return false;
+
       if (waveTapReady && analyser && waveSource) {
-        if (audioCtx && audioCtx.state === 'suspended') {
-          audioCtx.resume().catch(function () {});
-        }
+        resumeWaveAudioContext();
         return true;
       }
 
@@ -659,11 +663,8 @@
 
       if (connectStreamAnalyser(ctx)) {
         waveTapReady = true;
-        return true;
-      }
-
-      if (player.crossOrigin === 'anonymous' && connectElementAnalyser(ctx)) {
-        waveTapReady = true;
+        waveUsesFallbackMotion = false;
+        resumeWaveAudioContext();
         return true;
       }
 
@@ -671,9 +672,31 @@
     }
 
     function refreshAudioSamples() {
+      if (waveUsesFallbackMotion) return true;
       if (!analyser || !freqBuffer || !timeBuffer) return false;
       analyser.getByteFrequencyData(freqBuffer);
       analyser.getByteTimeDomainData(timeBuffer);
+      return true;
+    }
+
+    function ensureWaveHeights() {
+      if (!waveHeights) waveHeights = new Float32Array(waveColumnCount);
+    }
+
+    function updateWaveColumnsFallback() {
+      ensureWaveHeights();
+      var t = performance.now() / 1000;
+      var c;
+      for (c = 0; c < waveColumnCount; c++) {
+        var nx = c / (waveColumnCount - 1);
+        var target =
+          0.05 +
+          0.09 * Math.abs(Math.sin(t * 1.6 + nx * 5.1)) +
+          0.05 * Math.abs(Math.sin(t * 0.85 + nx * 2.4));
+        var current = waveHeights[c];
+        var k = target > current ? 0.55 : 0.42;
+        waveHeights[c] = current + (target - current) * k;
+      }
       return true;
     }
 
@@ -729,7 +752,12 @@
     }
 
     function updateWaveColumns() {
-      if (!waveHeights || !refreshAudioSamples()) return;
+      ensureWaveHeights();
+      if (waveUsesFallbackMotion) {
+        updateWaveColumnsFallback();
+        return;
+      }
+      if (!refreshAudioSamples()) return;
       var rms = timeRmsLevel();
       var c;
       for (c = 0; c < waveColumnCount; c++) {
@@ -757,7 +785,13 @@
       var h = waveCanvas.clientHeight;
       if (w <= 0 || h <= 0) return;
 
-      if (!waveTapReady) ensureWaveAnalyser();
+      if (!waveTapReady) {
+        ensureWaveAnalyser();
+        if (!waveTapReady && !waveUsesFallbackMotion) {
+          waveUsesFallbackMotion = true;
+          ensureWaveHeights();
+        }
+      }
       updateWaveColumns();
 
       var layers = [
@@ -791,6 +825,7 @@
         waveAnimId = null;
       }
       root.classList.remove('latest-episodes--waves-active');
+      suspendWaveAudioContext();
       if (waveCtx && waveCanvas) {
         waveCtx.clearRect(0, 0, waveCanvas.clientWidth, waveCanvas.clientHeight);
       }
@@ -800,9 +835,16 @@
       if (prefersReducedMotion || !waveCanvas || !waveCtx) return;
       resizeWaveCanvas();
       root.classList.add('latest-episodes--waves-active');
-      ensureWaveAnalyser();
-      if (audioCtx && audioCtx.state === 'suspended') {
-        audioCtx.resume().catch(function () {});
+      ensureWaveHeights();
+      if (!isIOS) {
+        if (!waveTapReady) {
+          ensureWaveAnalyser();
+          if (!waveTapReady) waveUsesFallbackMotion = true;
+        } else {
+          resumeWaveAudioContext();
+        }
+      } else {
+        waveUsesFallbackMotion = true;
       }
       if (waveAnimId) return;
       function loop() {
@@ -810,7 +852,7 @@
           stopWaveAnimation();
           return;
         }
-        if (!waveTapReady) ensureWaveAnalyser();
+        if (!waveTapReady && !waveUsesFallbackMotion) ensureWaveAnalyser();
         drawWaves();
         waveAnimId = requestAnimationFrame(loop);
       }
@@ -883,22 +925,52 @@
       } catch (e) {}
     }
 
+    function playFromMediaSession() {
+      updateMediaSessionMetadata();
+      var playPromise = player.play();
+      if (playPromise && typeof playPromise.then === 'function') {
+        playPromise
+          .then(function () {
+            syncPlayingClass();
+            setMediaSessionPlaybackState('playing');
+            updateMediaSessionPosition();
+            startWaveAnimation();
+          })
+          .catch(function () {
+            setMediaSessionPlaybackState('paused');
+            syncPlayingClass();
+          });
+        return;
+      }
+      syncPlayingClass();
+      setMediaSessionPlaybackState('playing');
+      updateMediaSessionPosition();
+      startWaveAnimation();
+    }
+
+    function pauseFromMediaSession() {
+      player.pause();
+      syncPlayingClass();
+      setMediaSessionPlaybackState('paused');
+    }
+
     function setupMediaSessionHandlers() {
       if (!('mediaSession' in navigator) || mediaSessionReady) return;
       mediaSessionReady = true;
 
       navigator.mediaSession.setActionHandler('play', function () {
-        var playPromise = player.play();
-        if (playPromise && typeof playPromise.catch === 'function') playPromise.catch(function () {});
-        syncPlayingClass();
-        syncDeckPlayButton();
+        playFromMediaSession();
       });
 
       navigator.mediaSession.setActionHandler('pause', function () {
-        player.pause();
-        syncPlayingClass();
-        syncDeckPlayButton();
+        pauseFromMediaSession();
       });
+
+      try {
+        navigator.mediaSession.setActionHandler('stop', function () {
+          pauseFromMediaSession();
+        });
+      } catch (e) {}
 
       navigator.mediaSession.setActionHandler('seekbackward', function (details) {
         var offset = details && details.seekOffset ? details.seekOffset : SKIP_BACK_SEC;
@@ -995,8 +1067,26 @@
     }
 
     function setEpisodeSource(audioUrl) {
-      player.crossOrigin = 'anonymous';
+      player.removeAttribute('crossorigin');
       player.src = audioUrl;
+    }
+
+    function playEpisode(options) {
+      options = options || {};
+      updateMediaSessionMetadata();
+      var playPromise = player.play();
+      if (playPromise && typeof playPromise.then === 'function') {
+        playPromise
+          .then(function () {
+            if (options.onSuccess) options.onSuccess();
+          })
+          .catch(function () {
+            setMediaSessionPlaybackState('paused');
+            syncPlayingClass();
+          });
+        return playPromise;
+      }
+      return null;
     }
 
     function rememberEpisodeMeta(episodeTitle, podcastTitle, coverUrl) {
@@ -1030,8 +1120,7 @@
         if (!player.paused) {
           player.pause();
         } else {
-          var pToggle = player.play();
-          if (pToggle && typeof pToggle.catch === 'function') pToggle.catch(function () {});
+          playEpisode();
         }
         syncPlayingClass();
         return;
@@ -1062,17 +1151,7 @@
       }
 
       if (shouldPlay) {
-        var playPromise = player.play();
-        if (playPromise && typeof playPromise.catch === 'function') {
-          playPromise.catch(function () {
-            if (player.crossOrigin === 'anonymous') {
-              player.removeAttribute('crossorigin');
-              player.src = audioUrl;
-              var retry = player.play();
-              if (retry && typeof retry.catch === 'function') retry.catch(function () {});
-            }
-          });
-        }
+        playEpisode();
       }
       syncPlayingClass();
       updateTransportTimes();
@@ -1085,8 +1164,7 @@
         if (!player.paused) {
           player.pause();
         } else {
-          var p = player.play();
-          if (p && typeof p.catch === 'function') p.catch(function () {});
+          playEpisode();
         }
         syncPlayingClass();
       });
@@ -1243,6 +1321,45 @@
     window.addEventListener('pagehide', function () {
       var u = playerActiveUrl();
       if (u && !player.ended) saveProgressForUrl(u, player.currentTime, player.duration);
+      suspendWaveAudioContext();
+    });
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState === 'hidden') {
+        suspendWaveAudioContext();
+        return;
+      }
+      if (player.paused || player.ended || !player.src) return;
+      resumeWaveAudioContext();
+      if (isIOS) recoverPlaybackAfterBackground();
+    });
+
+    function recoverPlaybackAfterBackground() {
+      if (!player.src || player.paused || player.ended) return;
+      var t0 = player.currentTime;
+      window.setTimeout(function () {
+        if (player.paused || player.ended) return;
+        if (player.currentTime - t0 < 0.05 && !player.seeking) {
+          try {
+            player.pause();
+          } catch (e) {}
+          playEpisode();
+        }
+      }, 450);
+    }
+
+    player.addEventListener('stalled', function () {
+      if (isIOS && !player.paused && !player.ended) recoverPlaybackAfterBackground();
+    });
+
+    player.addEventListener('waiting', function () {
+      if (isIOS && !player.paused && !player.ended) {
+        window.setTimeout(function () {
+          if (!player.paused && !player.ended && player.readyState < 3) {
+            recoverPlaybackAfterBackground();
+          }
+        }, 1200);
+      }
     });
 
     player.addEventListener('ended', function () {
@@ -1286,7 +1403,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-01T07:44:50Z">2026-06-01 07:44 UTC</time>
+      <time datetime="2026-06-01T07:54:53Z">2026-06-01 07:54 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
