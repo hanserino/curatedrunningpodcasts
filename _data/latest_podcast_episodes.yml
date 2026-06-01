@@ -1,6 +1,22 @@
 ---
-generated_at: '2026-06-01T03:09:01Z'
+generated_at: '2026-06-01T05:38:01Z'
 items:
+- podcast_title: Course Equipe
+  podcast_page_url: "/course-equipe.html"
+  cover_image: "/media/courseepique.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a1850ff029c20a5f6ea6bf6/media.mp3
+  published_at: '2026-06-01T04:01:00+00:00'
+- podcast_title: Dans la Tête d’un Coureur
+  podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
+  cover_image: "/media/danslateteeduncoureur.jpeg"
+  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
+  episode_title: 'Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race'
+  episode_url: ''
+  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/7cb02943-5a9e-49a2-b5cf-5bcd0abd716c.mp3?_=1780249253
+  published_at: '2026-06-01T03:59:00+00:00'
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong.html"
   cover_image: "/media/choosestrongpodcast.jpeg"
@@ -105,14 +121,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Petter-Engdahl-on-Versatility-in-Trail-Running-e3k1r5q
   audio_url: https://anchor.fm/s/db96fa60/podcast/play/120695418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F425101247-44100-2-162305ab2781.mp3
   published_at: '2026-05-29T06:00:01+00:00'
-- podcast_title: Dans la Tête d’un Coureur
-  podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
-  cover_image: "/media/danslateteeduncoureur.jpeg"
-  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
-  episode_title: Pourquoi même les coureurs croient aux arnaques ?  Le cas Power Balance  [REDIFF ]
-  episode_url: ''
-  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/f8134f14-b30a-425b-8c76-4e378c1bff1b.mp3?_=1776938095
-  published_at: '2026-05-29T03:53:00+00:00'
 - podcast_title: Trail Runner Nation
   podcast_page_url: "/trail-runner-nation.html"
   cover_image: "/media/trn-logo-podcast-artwork.jpg"
@@ -169,14 +177,6 @@ items:
   episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
   published_at: '2026-05-27T09:00:00+00:00'
-- podcast_title: Course Equipe
-  podcast_page_url: "/course-equipe.html"
-  cover_image: "/media/courseepique.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  episode_title: L'enfer vert, 130 km dans la jungle martiniquaise
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a071486efd1f558b093b29a/media.mp3
-  published_at: '2026-05-27T03:58:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: "/media/springsnyggt.jpeg"
@@ -3147,6 +3147,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566177/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-15%2F414447294-44100-2-0d03e0f1f8381.mp3
     published_at: '2025-12-15T07:00:00+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &37
+  - episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a1850ff029c20a5f6ea6bf6/media.mp3
+    published_at: '2026-06-01T04:01:00+00:00'
   - episode_title: L'enfer vert, 130 km dans la jungle martiniquaise
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a071486efd1f558b093b29a/media.mp3
@@ -3223,11 +3227,15 @@ episodes_by_feed:
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69cfea1d3a785fb94b000d01/media.mp3
     published_at: '2026-04-06T03:58:00+00:00'
-  - episode_title: 'Sébastien Spehler : 6 participations à la 6000D, 6 courses épiques'
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69cbd4234bc3c0b5ceaa7204/media.mp3
-    published_at: '2026-04-01T03:58:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &38
+  - episode_title: 'Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race'
+    episode_url: ''
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/7cb02943-5a9e-49a2-b5cf-5bcd0abd716c.mp3?_=1780249253
+    published_at: '2026-06-01T03:59:00+00:00'
+  - episode_title: 'MaXi-Race : Le Grand Débrief et l''Actu Trail avec Joseph Mestrallet & Candice Fertin'
+    episode_url: ''
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/bc7fbae5-675f-468a-ba07-8e6d0be412ab.mp3?_=1780245091
+    published_at: '2026-06-01T03:50:00+00:00'
   - episode_title: Pourquoi même les coureurs croient aux arnaques ?  Le cas Power Balance  [REDIFF ]
     episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/f8134f14-b30a-425b-8c76-4e378c1bff1b.mp3?_=1776938095
@@ -3300,14 +3308,6 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/c1be47cc-bcf9-47ed-a7f8-e82d116e7288.mp3?_=1776031511
     published_at: '2026-04-13T03:53:00+00:00'
-  - episode_title: 'Arthur Joyeux-Bouillon au Marathon de Paris  : Pourquoi les traileurs passent sur route ?'
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/944d12cb-7020-40ad-b291-af1dd17077aa.mp3?_=1775770554
-    published_at: '2026-04-10T03:50:00+00:00'
-  - episode_title: 'Marathon J-1 : le dîner et le petit-déjeuner parfaits pour performer (sans troubles digestifs) [REDIFF ]'
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/b4d861e9-b746-45a2-89cb-dd9772d76ba0.mp3?_=1775553176
-    published_at: '2026-04-08T04:00:00+00:00'
   https://rss.libsyn.com/shows/506688/destinations/4343338.xml: &39
   - episode_title: Ep. 77  Cocodona 250, Circle Pit, Cam v. Sage + more!!
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-77-cocodona-250-circle-pit-cam-v-sage-more
@@ -3973,7 +3973,7 @@ episodes_by_feed:
   https://audioboom.com/channels/5166623.rss: &49
   - episode_title: Chatbots, MDMA, and Finding Love in the Digital Era
     episode_url: https://audioboom.com/posts/8909169
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8909169.mp3?modified=1780007889&sid=5166623&source=rss
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8909169.mp3?modified=1780289671&sid=5166623&source=rss
     published_at: '2026-05-30T07:30:00+00:00'
   - episode_title: Breaking the Cycle of Political Violence
     episode_url: https://audioboom.com/posts/8907064
