@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-01T16:17:42Z'
+generated_at: '2026-06-01T16:25:40Z'
 items:
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
@@ -17,14 +17,6 @@ items:
   episode_url: ''
   audio_url: https://audio.audiomeans.fr/file/hDENVZklas/7cb02943-5a9e-49a2-b5cf-5bcd0abd716c.mp3?_=1780249253
   published_at: '2026-06-01T03:59:00+00:00'
-- podcast_title: Choose Strong
-  podcast_page_url: "/choose-strong.html"
-  cover_image: "/media/choosestrongpodcast.jpeg"
-  feed_url: https://anchor.fm/s/674e5298/podcast/rss
-  episode_title: "#142 | Recovering After 200+ Miles"
-  episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/142--Recovering-After-200-Miles-e3k4dd6
-  audio_url: https://anchor.fm/s/674e5298/podcast/play/120779622/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-31%2F425208583-44100-2-54043e5d67221.mp3
-  published_at: '2026-05-31T20:33:45+00:00'
 - podcast_title: The Albon Way
   podcast_page_url: "/the-albon-way.html"
   cover_image: "/media/albonway.jpg"
@@ -241,6 +233,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
   audio_url: https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3
   published_at: '2026-05-25T10:00:00+00:00'
+- podcast_title: Choose Strong
+  podcast_page_url: "/choose-strong.html"
+  cover_image: "/media/choosestrongpodcast.jpeg"
+  feed_url: https://anchor.fm/s/674e5298/podcast/rss
+  episode_title: "#141 | Sally's COCODONA 250 Race Recap"
+  episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/141--Sallys-COCODONA-250-Race-Recap-e3je3mr
+  audio_url: https://anchor.fm/s/674e5298/podcast/play/120048795/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F424235006-44100-2-dacae04727e45.mp3
+  published_at: '2026-05-16T00:20:26+00:00'
 - podcast_title: The Extramilest Show
   podcast_page_url: "/the-extramilest-show.html"
   cover_image: "/media/theextramilestshow236.jpg"
@@ -2742,10 +2742,6 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/talkultra/Episode_235_-_Katy_Young.mp3?dest-id=88544
     published_at: '2023-06-15T10:31:00+00:00'
   https://anchor.fm/s/674e5298/podcast/rss: &32
-  - episode_title: "#142 | Recovering After 200+ Miles"
-    episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/142--Recovering-After-200-Miles-e3k4dd6
-    audio_url: https://anchor.fm/s/674e5298/podcast/play/120779622/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-31%2F425208583-44100-2-54043e5d67221.mp3
-    published_at: '2026-05-31T20:33:45+00:00'
   - episode_title: "#141 | Sally's COCODONA 250 Race Recap"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/141--Sallys-COCODONA-250-Race-Recap-e3je3mr
     audio_url: https://anchor.fm/s/674e5298/podcast/play/120048795/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F424235006-44100-2-dacae04727e45.mp3
@@ -2822,6 +2818,10 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/123--Grateful--Thanksgiving-Edition-e3bhjo5
     audio_url: https://anchor.fm/s/674e5298/podcast/play/111774917/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-27%2F413258850-44100-2-f676379054fbe.mp3
     published_at: '2025-11-27T06:18:05+00:00'
+  - episode_title: "#122 | Beginning to Ultra"
+    episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/122--Beginning-to-Ultra-e3b27tr
+    audio_url: https://anchor.fm/s/674e5298/podcast/play/111271291/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-17%2F412599974-44100-2-aecde275a6f9c.mp3
+    published_at: '2025-11-17T21:29:41+00:00'
   https://anchor.fm/s/eb00f12c/podcast/rss: &33
   - episode_title: Sydney Petersen - A Strong Sense of Belonging
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
