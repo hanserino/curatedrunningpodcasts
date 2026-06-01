@@ -14,5 +14,7 @@ picks:
   - pick_source: site
     directory_slug: 2026-04-27-the-albon-way
   - pick_source: site
+    directory_slug: 2026-05-31-sommar-vinter-i-p1-md
+  - pick_source: site
     directory_slug: 2026-05-31-huberman-lab-md
 ---
