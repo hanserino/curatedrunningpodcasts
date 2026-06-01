@@ -315,9 +315,15 @@ $hp-accent-strong: rgba(112, 172, 142, 0.55);
         display: block;
         text-decoration: none;
         color: inherit;
+        cursor: pointer;
 
         &:hover {
             background: transparent;
+        }
+
+        &:focus-visible {
+            outline: 2px solid $hp-mint;
+            outline-offset: 3px;
         }
     }
 
@@ -332,7 +338,6 @@ $hp-accent-strong: rgba(112, 172, 142, 0.55);
 
         .podcast-loop__item__list-cover {
             order: 2;
-            pointer-events: none;
         }
 
         .podcast-loop__item__list-meta {

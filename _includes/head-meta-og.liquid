@@ -1,11 +1,33 @@
 {%- comment -%}
-  Sets seo_og_abs, seo_og_alt for Open Graph / Twitter meta (included from head.html).
+  Sets seo_og_abs, seo_og_alt, seo_og_type, seo_og_width, seo_og_height for Open Graph / Twitter meta.
+  Podcast pages use cover_image (front matter or inferred from body) as the share image.
 {%- endcomment -%}
 {%- assign _default_alt = site.seo.default_og_image_alt | default: "Best Running Podcasts — curated running podcast directory (cover image)" -%}
-{%- if page.cover_image and page.cover_image != '' -%}
-  {%- assign seo_og_abs = page.cover_image | strip | absolute_url -%}
+{%- assign _og_cover = page.cover_image | default: '' | strip -%}
+{%- if _og_cover == '' and page.category == 'podcast' -%}
+  {%- include podcast-body-cover-path.html doc=page -%}
+  {%- assign _og_cover = podcast_body_cover -%}
+{%- endif -%}
+{%- assign seo_og_width = page.og_image_width -%}
+{%- assign seo_og_height = page.og_image_height -%}
+{%- assign seo_og_type = page.og_image_type -%}
+{%- if _og_cover != '' -%}
+  {%- assign seo_og_abs = _og_cover | absolute_url -%}
   {%- assign seo_og_alt = page.title | append: " podcast cover art" | strip -%}
+  {%- if seo_og_type == blank -%}
+    {%- assign _ext = _og_cover | downcase -%}
+    {%- if _ext contains '.png' -%}
+      {%- assign seo_og_type = 'image/png' -%}
+    {%- elsif _ext contains '.webp' -%}
+      {%- assign seo_og_type = 'image/webp' -%}
+    {%- elsif _ext contains '.gif' -%}
+      {%- assign seo_og_type = 'image/gif' -%}
+    {%- else -%}
+      {%- assign seo_og_type = 'image/jpeg' -%}
+    {%- endif -%}
+  {%- endif -%}
 {%- else -%}
   {%- assign seo_og_abs = "/assets/img/social.jpg" | absolute_url -%}
   {%- assign seo_og_alt = _default_alt -%}
+  {%- assign seo_og_type = 'image/jpeg' -%}
 {%- endif -%}
