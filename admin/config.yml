@@ -86,7 +86,7 @@ collections:
         widget: "select"
         multiple: true
         min: 1
-        options: ["norwegian", "english", "swedish", "polish", "italian", "french", "danish", "spanish"]
+        options: ["norwegian", "english", "swedish", "polish", "italian", "french", "danish", "spanish", "catalan"]
         hint: "One or more — used by the language filter."
       - label: "Body (markdown)"
         name: "body"
