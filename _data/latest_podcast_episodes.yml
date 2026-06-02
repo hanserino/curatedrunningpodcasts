@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-02T22:42:14Z'
+generated_at: '2026-06-02T23:34:45Z'
 items:
+- podcast_title: La Sotana
+  podcast_page_url: "/la-sotana.html"
+  cover_image: "/media/lasotana.jpeg"
+  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
+  episode_title: La Sotana 414 amb Roger Mas
+  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-414-amb-Roger-Mas-e3k8fiu
+  audio_url: https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3
+  published_at: '2026-06-02T23:00:00+00:00'
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast.html"
   cover_image: "/media/insiderunning.jpeg"
@@ -241,14 +249,6 @@ items:
   episode_url: https://springsnyggt.libsyn.com/339-de-senaste-rnen-om-energi-och-kolhydratsladdning-med-tobias-christensson
   audio_url: https://traffic.libsyn.com/secure/springsnyggt/339._Ett_nytt_stt_att_springa_maraton.mp3?dest-id=1729274
   published_at: '2026-05-27T01:00:00+00:00'
-- podcast_title: La Sotana
-  podcast_page_url: "/la-sotana.html"
-  cover_image: "/media/lasotana.jpeg"
-  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
-  episode_title: La Sotana 413 amb Pau Víctor
-  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
-  audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
-  published_at: '2026-05-26T23:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -5397,6 +5397,10 @@ episodes_by_feed:
     audio_url: https://www.ivoox.com/tertulia-1-de-2020-a-2021-top_mf_63885931_feed_1.mp3
     published_at: '2021-01-01T18:19:47+01:00'
   https://anchor.fm/s/10e30d900/podcast/rss: &67
+  - episode_title: La Sotana 414 amb Roger Mas
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-414-amb-Roger-Mas-e3k8fiu
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3
+    published_at: '2026-06-02T23:00:00+00:00'
   - episode_title: La Sotana 413 amb Pau Víctor
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
     audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
@@ -5473,10 +5477,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-396-amb-ric-Montes-e3e1763
     audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416612955-44100-2-9fdc1ccf360f871e.mp3
     published_at: '2026-01-20T21:59:00+00:00'
-  - episode_title: La Sotana 395
-    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-395-e3e1746
-    audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383430/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416612936-44100-2-8a1d2b0da22169b5.mp3
-    published_at: '2026-01-13T21:59:00+00:00'
   https://onepercentbetterpodcast.libsyn.com/rss: &68
   - episode_title: 8 Years of One Percent Better
     episode_url: https://onepercentbetterpodcast.libsyn.com/8-years-of-one-percent-better
