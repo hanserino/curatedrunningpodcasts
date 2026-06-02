@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-02T09:41:15Z'
+generated_at: '2026-06-02T09:45:19Z'
 items:
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
@@ -25,6 +25,14 @@ items:
   episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tara-dower-and-69ing-the-la-marathon
   audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_May_draftmfour.mp3?dest-id=4178531
   published_at: '2026-06-02T07:07:00+00:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Swiss Canyon Trail Weekend Debrief
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
+  published_at: '2026-06-02T05:00:00+00:00'
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show.html"
   cover_image: "/media/citiusmag.jpeg"
@@ -233,14 +241,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/312--How-Blood-Volume-Impacts-Performance-and-Adapts-Fast--The-Scary-Potential-of-Lactate-Supplementation--The-True-GOAT--and-The-Circle-Pit-e3jtn97
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120560359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F494946ee-d34e-5515-d4b4-fd2736c3ca82.mp3
   published_at: '2026-05-26T12:45:44+00:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
-  published_at: '2026-05-26T04:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -634,6 +634,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &4
+  - episode_title: Swiss Canyon Trail Weekend Debrief
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
+    published_at: '2026-06-02T05:00:00+00:00'
   - episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
@@ -710,10 +714,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Winter-Spine-Race--The-MAD-Burrito-League--Major-Moves-at-HOKA--Suunto-e3digej
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113901459/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F415998134-44100-2-ef35c4df21b53.mp3
     published_at: '2026-01-13T18:00:00+00:00'
-  - episode_title: We Are So Back — UTMB Rules, Pro Contract Moves & HR Training
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/We-Are-So-Back--UTMB-Rules--Pro-Contract-Moves--HR-Training-e3d83pl
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113560821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415562737-44100-2-43b05048de71.mp3
-    published_at: '2026-01-06T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &5
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs & state of the sport"
     episode_url: ''
