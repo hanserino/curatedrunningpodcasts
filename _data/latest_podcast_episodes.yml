@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-02T10:09:59Z'
+generated_at: '2026-06-02T11:30:29Z'
 items:
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast.html"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  episode_title: Tyler Andrews Everest FKT Interview, Kilian's Zegama Report, Mogavero's WS Block & OCC Course Change
+  episode_url: https://thewellwithdylanbowman.libsyn.com/tyler-andrews-everest-fkt-interview-kilians-zegama-report-mogaveros-ws-block-occ-course-change
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tyler_Andrews_Everest_FKT_Interview_Kilians_Zegama_Report_Mogaveros_WS_Block__OCC_Course_Change.mp3?dest-id=1746794
+  published_at: '2026-06-02T11:14:00+00:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -177,14 +185,6 @@ items:
   episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-77-cocodona-250-circle-pit-cam-v-sage-more
   audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._77.1.mp3?dest-id=4343338
   published_at: '2026-05-28T23:54:00+00:00'
-- podcast_title: The Freetrail Podcast
-  podcast_page_url: "/the-freetrail-podcast.html"
-  cover_image: "/media/freetrail2.jpeg"
-  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  episode_title: Emelie Forsberg's Second Act | Motherhood, Mountains, & Reprioritizing Elite Competition
-  episode_url: https://thewellwithdylanbowman.libsyn.com/emelie-forsbergs-second-act-motherhood-mountains-reprioritizing-elite-competition
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Emelie_Forsbergs_Second_Act__Motherhood_Mountains__Reprioritizing_Elite_Competition.mp3?dest-id=1746794
-  published_at: '2026-05-28T11:50:00+00:00'
 - podcast_title: The Real Science Of Sport
   podcast_page_url: "/the-real-science-of-sports.html"
   cover_image: "/media/therealscienceofsportspodcast.jpeg"
@@ -395,6 +395,10 @@ items:
   published_at: '2021-10-06T14:51:46+00:00'
 episodes_by_feed:
   https://rss.libsyn.com/shows/235580/destinations/1746794.xml: &1
+  - episode_title: Tyler Andrews Everest FKT Interview, Kilian's Zegama Report, Mogavero's WS Block & OCC Course Change
+    episode_url: https://thewellwithdylanbowman.libsyn.com/tyler-andrews-everest-fkt-interview-kilians-zegama-report-mogaveros-ws-block-occ-course-change
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tyler_Andrews_Everest_FKT_Interview_Kilians_Zegama_Report_Mogaveros_WS_Block__OCC_Course_Change.mp3?dest-id=1746794
+    published_at: '2026-06-02T11:14:00+00:00'
   - episode_title: Emelie Forsberg's Second Act | Motherhood, Mountains, & Reprioritizing Elite Competition
     episode_url: https://thewellwithdylanbowman.libsyn.com/emelie-forsbergs-second-act-motherhood-mountains-reprioritizing-elite-competition
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Emelie_Forsbergs_Second_Act__Motherhood_Mountains__Reprioritizing_Elite_Competition.mp3?dest-id=1746794
@@ -471,10 +475,6 @@ episodes_by_feed:
     episode_url: https://thewellwithdylanbowman.libsyn.com/gorge-waterfalls-30k-recap-podium-interviews
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/30k_instant_recap.mp3?dest-id=1746794
     published_at: '2026-04-10T21:58:00+00:00'
-  - episode_title: Gorge Waterfalls Elite Men's and Women's Panels | Trailgating
-    episode_url: https://thewellwithdylanbowman.libsyn.com/gorge-waterfalls-elite-mens-and-womens-panels-trailgating
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/100k_Ath_Panel.mp3?dest-id=1746794
-    published_at: '2026-04-10T01:28:00+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
   - episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
     episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
