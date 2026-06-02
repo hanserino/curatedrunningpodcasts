@@ -130,6 +130,24 @@
     }
 
     &--podcast {
+        .post-page__language {
+            margin: 0 0 1rem;
+            font-size: 0.95rem;
+            line-height: 1.45;
+            color: $color-ink;
+        }
+
+        .post-page__language-label {
+            display: block;
+            margin-bottom: 0.2rem;
+            font-family: $font-mono;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: $color-muted;
+        }
+
         .podcast-loop__item__link-title {
             display: flex;
             align-items: center;

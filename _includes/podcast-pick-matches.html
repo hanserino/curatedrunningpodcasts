@@ -9,16 +9,10 @@
 {%- if _podcast and _pick -%}
   {%- assign _dir = _pick.directory_slug | default: '' | strip -%}
   {%- if _dir != '' -%}
-    {%- include normalize-podcast-slug.html slug=_dir -%}
-    {%- if normalized_podcast_slug == _podcast.slug or _dir == _podcast.slug -%}
+    {%- include resolve-directory-podcast.html slug=_dir -%}
+    {%- if resolved_podcast and resolved_podcast.url == _podcast.url -%}
       {%- assign pick_matches_podcast = true -%}
     {%- endif -%}
-    {%- unless pick_matches_podcast -%}
-      {%- assign _slug_suffix = normalized_podcast_slug | append: '.html' -%}
-      {%- if _podcast.url contains _slug_suffix -%}
-        {%- assign pick_matches_podcast = true -%}
-      {%- endif -%}
-    {%- endunless -%}
   {%- endif -%}
   {%- unless pick_matches_podcast -%}
     {%- assign _pick_title = _pick.title | default: '' | strip | downcase -%}

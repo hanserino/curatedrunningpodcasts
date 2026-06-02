@@ -1,0 +1,14 @@
+{%- comment -%}
+  Human-readable podcast language label from Decap slug.
+  Pass: lang (string). Outputs label only.
+{%- endcomment -%}
+{%- assign _l = include.lang | strip | downcase -%}
+{%- case _l -%}
+  {%- when "english","en" -%}English
+  {%- when "norwegian","no","nb","nn","norsk","bokmål","bokmal" -%}Norwegian
+  {%- when "swedish","sv" -%}Swedish
+  {%- when "italian","it" -%}Italian
+  {%- when "french","fr" -%}French
+  {%- when "spanish","es" -%}Spanish
+  {%- else -%}{{ include.lang | strip | capitalize }}
+{%- endcase -%}

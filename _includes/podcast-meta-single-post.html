@@ -1,5 +1,13 @@
 {%- assign p = include.podcast -%}
 {%- assign sid = include.listen_section_id | default: "podcast-listen-links" -%}
+{%- if p.language and p.language.size > 0 -%}
+<p class="post-page__language">
+  <span class="post-page__language-label">Language</span>
+  {%- for language in p.language -%}
+    {%- if forloop.index > 1 -%}, {% endif -%}{%- capture _lang_label -%}{% include podcast-language-label.liquid lang=language %}{%- endcapture -%}{{ _lang_label | strip }}
+  {%- endfor -%}
+</p>
+{%- endif -%}
 <h3 class="podcast-loop__item__link-title" id="{{ sid }}">Listen and follow</h3>
 
 <ul class="podcast-loop__item__links" aria-labelledby="{{ sid }}">

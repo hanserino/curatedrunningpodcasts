@@ -9,8 +9,9 @@
   {%- if _parts.size >= 4 and _parts[0].size == 4 and _parts[1].size <= 2 and _parts[2].size <= 2 -%}
     {%- assign normalized_podcast_slug = _parts | slice: 3, 100 | join: '-' -%}
   {%- endif -%}
-  {%- assign _md_parts = normalized_podcast_slug | split: '-md' -%}
-  {%- if _md_parts.size > 1 and _md_parts.last == '' -%}
-    {%- assign normalized_podcast_slug = _md_parts.first -%}
+  {%- assign _md_tail = normalized_podcast_slug | slice: -3, 3 -%}
+  {%- if _md_tail == '-md' -%}
+    {%- assign _strip_len = normalized_podcast_slug.size | minus: 3 -%}
+    {%- assign normalized_podcast_slug = normalized_podcast_slug | slice: 0, _strip_len -%}
   {%- endif -%}
 {%- endif -%}
