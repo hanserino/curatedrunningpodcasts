@@ -68,11 +68,68 @@ function syncGridAria() {
 }
 
 var filterTotalItems = 0;
+var podcastLoopInitialOrder = null;
+
+function getPodcastLoop() {
+    return document.querySelector('.podcast-loop');
+}
 
 function podcastListItems() {
     return Array.prototype.slice.call(
         document.querySelectorAll('.podcast-loop__item:not(.no-podcast-found)')
     );
+}
+
+function isFeaturedPodcastItem(li) {
+    return li && li.getAttribute('data-featured') === 'true';
+}
+
+function cachePodcastLoopOrder() {
+    podcastLoopInitialOrder = podcastListItems().slice();
+}
+
+function restorePodcastLoopOrder() {
+    var loop = getPodcastLoop();
+    if (!loop || !podcastLoopInitialOrder) {
+        return;
+    }
+
+    podcastLoopInitialOrder.forEach(function (li) {
+        loop.appendChild(li);
+    });
+}
+
+/** Keep visible featured picks first; hidden items stay after visible ones. */
+function reorderVisiblePodcastsWithFeaturedFirst() {
+    var loop = getPodcastLoop();
+    if (!loop) {
+        return;
+    }
+
+    var visibleFeatured = [];
+    var visibleOther = [];
+    var hidden = [];
+
+    podcastListItems().forEach(function (li) {
+        if (!isItemVisible(li)) {
+            hidden.push(li);
+            return;
+        }
+
+        if (isFeaturedPodcastItem(li)) {
+            visibleFeatured.push(li);
+        } else {
+            visibleOther.push(li);
+        }
+    });
+
+    visibleFeatured.concat(visibleOther).concat(hidden).forEach(function (li) {
+        loop.appendChild(li);
+    });
+}
+
+function setPodcastItemVisible(li, visible) {
+    li.style.display = visible ? '' : 'none';
 }
 
 /** True when element is displayed (respects inline display:none from filtering). */
@@ -186,25 +243,28 @@ function applyPodcastFilter() {
 
     if (!selector) {
         allItems.forEach(function (li) {
-            li.style.display = '';
+            setPodcastItemVisible(li, true);
         });
+        restorePodcastLoopOrder();
         resetBtns.forEach(function (btn) {
             btn.classList.add('checked');
             btn.setAttribute('aria-pressed', 'true');
         });
     } else {
         allItems.forEach(function (li) {
-            li.style.display = 'none';
+            setPodcastItemVisible(li, false);
         });
 
         try {
             var matches = document.querySelectorAll('.podcast-loop__item:not(.no-podcast-found)' + selector);
             for (var j = 0; j < matches.length; j++) {
-                matches[j].style.display = '';
+                setPodcastItemVisible(matches[j], true);
             }
         } catch (_e) {
             /* malformed selector fallback: show nothing filtered */
         }
+
+        reorderVisiblePodcastsWithFeaturedFirst();
 
         resetBtns.forEach(function (btn) {
             btn.classList.remove('checked');
@@ -233,8 +293,10 @@ function resetAllFilters() {
     }
 
     podcastListItems().forEach(function (li) {
-        li.style.display = '';
+        setPodcastItemVisible(li, true);
     });
+
+    restorePodcastLoopOrder();
 
     document.querySelectorAll('.filter__reset').forEach(function (btn) {
         btn.classList.add('checked');
@@ -306,6 +368,7 @@ function wireFilterAndGrid() {
     var boxGrid = document.body.getAttribute('data-box-grid');
 
     syncGridAria();
+    cachePodcastLoopOrder();
 
     wireFilterCollapse();
 

@@ -3,6 +3,6 @@
   then the rest. Set `podcasts` for the including template.
 {%- endcomment -%}
 {% assign _podcast_directory_source = site.categories['podcast'] | where_exp: "item", "item.not_running_related != true" %}
-{% assign _podcasts_featured = _podcast_directory_source | where: "featured", true %}
-{% assign _podcasts_other = _podcast_directory_source | where_exp: "item", "item.featured != true" %}
+{% assign _podcasts_featured = _podcast_directory_source | where_exp: "item", "item.featured == true or item.featured == 'true'" %}
+{% assign _podcasts_other = _podcast_directory_source | where_exp: "item", "item.featured != true and item.featured != 'true'" %}
 {% assign podcasts = _podcasts_featured | concat: _podcasts_other %}
