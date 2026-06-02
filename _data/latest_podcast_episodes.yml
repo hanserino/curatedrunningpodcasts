@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-02T17:34:43Z'
+generated_at: '2026-06-02T19:14:03Z'
 items:
+- podcast_title: Uphill Athlete
+  podcast_page_url: "/uphill-athlete.html"
+  cover_image: "/media/uphillathlete.jpeg"
+  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
+  episode_title: 'Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)'
+  episode_url: https://zencastr.com/z/j3OHYiVS
+  audio_url: https://redirect.zencastr.com/r/episode/6a1e3f3e94a0ef31b11abc1b/size/73872325/video-files/635358be4592c880860238fe/d8c8c6ef-5fe2-485e-91d7-6afc7f5b8a2e.mp4
+  published_at: '2026-06-02T18:00:00+00:00'
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride.html"
   cover_image: "/media/lifeinstride.jpeg"
@@ -233,14 +241,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
   audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
   published_at: '2026-05-26T23:00:00+00:00'
-- podcast_title: Uphill Athlete
-  podcast_page_url: "/uphill-athlete.html"
-  cover_image: "/media/uphillathlete.jpeg"
-  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
-  episode_title: The Four Inputs that Determine Your Progress
-  episode_url: https://zencastr.com/z/Ypw8aclS
-  audio_url: https://redirect.zencastr.com/r/episode/6a16101bc18398ff510e6fa3/size/58144077/video-files/635358be4592c880860238fe/0bf3fb5c-7627-422e-b845-f246c496ee19.mp4
-  published_at: '2026-05-26T21:26:51+00:00'
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast.html"
   cover_image: "/media/insiderunning.jpeg"
@@ -3025,6 +3025,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snygg_3200.mp3?dest-id=1729274
     published_at: '2026-01-14T02:00:00+00:00'
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &35
+  - episode_title: 'Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)'
+    episode_url: https://zencastr.com/z/j3OHYiVS
+    audio_url: https://redirect.zencastr.com/r/episode/6a1e3f3e94a0ef31b11abc1b/size/73872325/video-files/635358be4592c880860238fe/d8c8c6ef-5fe2-485e-91d7-6afc7f5b8a2e.mp4
+    published_at: '2026-06-02T18:00:00+00:00'
   - episode_title: The Four Inputs that Determine Your Progress
     episode_url: https://zencastr.com/z/Ypw8aclS
     audio_url: https://redirect.zencastr.com/r/episode/6a16101bc18398ff510e6fa3/size/58144077/video-files/635358be4592c880860238fe/0bf3fb5c-7627-422e-b845-f246c496ee19.mp4
@@ -3101,10 +3105,6 @@ episodes_by_feed:
     episode_url: https://zencastr.com/z/E6ZrCs5d
     audio_url: https://redirect.zencastr.com/r/episode/68f96eb0c84b604f1d0ac857/size/1536997654/video-files/635358be4592c880860238fe/a9e617b5-944b-4a9f-a8d7-82508f4fbf2d.mp4
     published_at: '2025-11-04T11:00:00+00:00'
-  - episode_title: Should Endurance Athletes Use Supplements?
-    episode_url: https://zencastr.com/z/dDzkrqOE
-    audio_url: https://redirect.zencastr.com/r/episode/68fa7ffc107196857db40ed4/size/670109318/video-files/635358be4592c880860238fe/d36ad246-04cb-403e-917c-dab34dab890b.mp4
-    published_at: '2025-10-28T10:00:00+00:00'
   https://anchor.fm/s/db96fa60/podcast/rss: &36
   - episode_title: Petter Engdahl on Versatility in Trail Running
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Petter-Engdahl-on-Versatility-in-Trail-Running-e3k1r5q
