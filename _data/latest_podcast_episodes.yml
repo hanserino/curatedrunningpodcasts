@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-02T07:38:08Z'
+generated_at: '2026-06-02T09:13:41Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
+  episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1e8a393179b8b95d85b018.mp3
+  published_at: '2026-06-02T07:48:25+00:00'
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society.html"
   cover_image: "/media/trailsocietypodcast.jpeg"
@@ -81,14 +89,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/UTS-50K-Debrief--Training-Races--Poles--The-Sugar-Experiment-e3k516a
   audio_url: https://anchor.fm/s/fb539bd8/podcast/play/120799882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-31%2F29b782d0-9c8e-7ef9-ba4c-8fe64566646e.mp3
   published_at: '2026-05-31T16:38:58+00:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
-  episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1c3738f72e42404345a8e2.mp3
-  published_at: '2026-05-31T13:30:23+00:00'
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public.html"
   cover_image: "/media/runningpublic.jpeg"
@@ -329,6 +329,14 @@ items:
   episode_url: https://talkultra.libsyn.com/episode-254-amy-mcculloch-runner-13
   audio_url: https://traffic.libsyn.com/secure/talkultra/Amy_McCulloch.mp3?dest-id=88544
   published_at: '2025-09-17T09:20:00+00:00'
+- podcast_title: Pionieri
+  podcast_page_url: "/pionieri.html"
+  cover_image: "/media/pioneri.jpeg"
+  feed_url: https://anchor.fm/s/f8f3525c/podcast/rss
+  episode_title: Ep. 12 | Storie
+  episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--12--Storie-e34a6um
+  audio_url: https://anchor.fm/s/f8f3525c/podcast/play/104192406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-16%2F402251055-44100-2-f623024941703.m4a
+  published_at: '2025-06-16T08:30:16+00:00'
 - podcast_title: Ultrarunning History
   podcast_page_url: "/ultrarunning-history-podcast.html"
   cover_image: "/media/ultrarunninghistory.jpg"
@@ -756,6 +764,10 @@ episodes_by_feed:
     audio_url: https://www.buzzsprout.com/145661/episodes/16608631-obt-2025-portrett-12-team-stodig-som-en-bauta.mp3
     published_at: '2025-05-29T05:00:00+02:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
+    episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1e8a393179b8b95d85b018.mp3
+    published_at: '2026-06-02T07:48:25+00:00'
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1c3738f72e42404345a8e2.mp3
@@ -832,10 +844,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b2eae55b10dd9b7f6b7a17.m4a
     published_at: '2026-03-12T16:55:53+00:00'
-  - episode_title: 'Weekly Ep. 27: Hundred Hills 50km Preview'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep-27-hundred-hills-50km-preview
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b140bd32a9bcf3746012d2.mp3
-    published_at: '2026-03-11T10:19:24+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Maria-Chevalier-on-48-Marathon-States--Running-Double-Boston--and-Doing-Hard-Things-Anyway-e3jvjbo
@@ -4133,6 +4141,10 @@ episodes_by_feed:
     audio_url: https://traffic.megaphone.fm/POM6785769955.mp3?updated=1649870758
     published_at: '2021-03-18T08:00:00Z'
   https://feeds.acast.com/public/shows/pablo-torre-finds-out: &51
+  - episode_title: 'Exclusive: Inside Zohran Mamdani''s NYC Sports Equinox (feat. Adam Friedland)'
+    episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/exclusive-inside-zohran-mamdanis-nyc-sports-equinox-feat-ada
+    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a1df85b5dacba3f0ae13fa8/media.mp3
+    published_at: '2026-06-02T09:00:00+00:00'
   - episode_title: Share & Eat the Rich & Tell with Tim Miller and Stephanie Ruhle
     episode_url: https://pablo.show
     audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a18e051e9800206fbccd5aa/media.mp3
@@ -4209,10 +4221,6 @@ episodes_by_feed:
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/we-got-inside-knicks-surveillance-and-msgs-deep-state-is-str
     audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/69e19b715e91e07b1e94c9e5/media.mp3
     published_at: '2026-04-17T10:00:00+00:00'
-  - episode_title: The Right-Wing Takeover of Combat Sports Is Upon Us
-    episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-right-wing-takeover-of-combat-sports-is-upon-us
-    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/69e04e69c2771e7381a81126/media.mp3
-    published_at: '2026-04-16T09:00:00+00:00'
   https://rss.buzzsprout.com/2529065.rss: &52
   - episode_title: The Iron Horse, truffle pigs, and crickets
     episode_url: ''
@@ -5145,6 +5153,71 @@ episodes_by_feed:
     episode_url: https://www.sverigesradio.se/avsnitt/2578992
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/08/sommar__vinter_i_p1_jonna_sundling_20250821_1552410560.mp3
     published_at: '2025-08-09T11:00:00Z'
+  https://anchor.fm/s/f8f3525c/podcast/rss: &64
+  - episode_title: Ep. 12 | Storie
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--12--Storie-e34a6um
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/104192406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-16%2F402251055-44100-2-f623024941703.m4a
+    published_at: '2025-06-16T08:30:16+00:00'
+  - episode_title: Ep. 11 | Lo sviluppo del professionismo 2021-2025
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--11--Lo-sviluppo-del-professionismo-2021-2025-e331iq8
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/102861064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-19%2F400551168-44100-2-a61295982cb5c.m4a
+    published_at: '2025-05-19T08:00:00+00:00'
+  - episode_title: Spin-off 3 | Lo sviluppo del materiale 1995-2025
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Spin-off-3--Lo-sviluppo-del-materiale-1995-2025-e324v4i
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/101923410/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-5%2F2f7e081c-1bb9-436f-58b6-ecdbf283cec8.mp3
+    published_at: '2025-05-05T08:00:00+00:00'
+  - episode_title: Ep. 10 | L'estate dell'amore 2020
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--10--Lestate-dellamore-2020-e31evkg
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/101203024/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-7%2F399770987-44100-2-a36950c45d775.m4a
+    published_at: '2025-04-14T13:08:18+00:00'
+  - episode_title: Ep. 9 | Un'età di mezzo 2014-2019
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--9--Unet-di-mezzo-2014-2019-e302j40
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/99748416/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-17%2F396718874-44100-2-295ecfa7aee03.m4a
+    published_at: '2025-03-17T09:00:00+00:00'
+  - episode_title: Ep. 8 | Federazioni 2012-2015
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--8--Federazioni-2012-2015-e2uovl7
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/98384999/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-17%2F395064979-44100-2-85c57e5279a16.m4a
+    published_at: '2025-02-17T09:00:00+00:00'
+  - episode_title: Ep. 7 | Giganti e piccoli uomini 2009-2010
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--7--Giganti-e-piccoli-uomini-2009-2010-e2tk9fh
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/97182641/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-17%2F393238324-44100-2-9ff9b858e7c37.m4a
+    published_at: '2025-01-20T18:47:55+00:00'
+  - episode_title: Ep. 6 | Nostalgia 2010-2012
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--6--Nostalgia-2010-2012-e2s7tpc
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/95728876/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-12%2F391430773-44100-2-8d686a88a7a0b.m4a
+    published_at: '2024-12-16T09:00:00+00:00'
+  - episode_title: Spin-off 2 | Nadir Maguet, e il sottile confine tra record e FKT
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Spin-off-2--Nadir-Maguet--e-il-sottile-confine-tra-record-e-FKT-e2r6ih5
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/94636005/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-19%2F390077907-44100-2-2f0da8cd6cb55.m4a
+    published_at: '2024-12-02T09:00:00+00:00'
+  - episode_title: Ep. 5 | Qui America 2005-2013
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--5--Qui-America-2005-2013-e2qj0pd
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/93995245/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-10-5%2F389284834-44100-2-bdec5c2f3581e.m4a
+    published_at: '2024-11-18T09:00:00+00:00'
+  - episode_title: Ep. 4 | 2007 Parte II
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--4--2007-Parte-II-e2p85j5
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/92591141/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-9-4%2F387546236-44100-2-7dacc386d4de3.m4a
+    published_at: '2024-10-14T08:00:00+00:00'
+  - episode_title: Ep. 3 | 2007 Parte I
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--3--2007-Parte-I-e2odnr3
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/91725091/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-15%2F386387541-44100-2-9ad6904eee6a8.m4a
+    published_at: '2024-09-16T08:00:00+00:00'
+  - episode_title: Ep. 2 | Fili pendenti 1996-2006
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--2--Fili-pendenti-1996-2006-e2n0du4
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/90240388/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-12%2F384663780-44100-2-620fa55e256d6.m4a
+    published_at: '2024-08-19T08:00:00+00:00'
+  - episode_title: Spin-off 1 | La Sportiva Lavaredo Ultra Trail
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Spin-off-1--La-Sportiva-Lavaredo-Ultra-Trail-e2mr1a1
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/90063617/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-5%2F384313957-44100-2-c06d7ca85b624.m4a
+    published_at: '2024-08-05T08:43:03+00:00'
+  - episode_title: Ep. 1 | Le Origini 1985-1995
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--1--Le-Origini-1985-1995-e2m7ih5
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/89425893/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-21%2F383572079-44100-2-5a876464204e9.m4a
+    published_at: '2024-07-22T08:00:00+00:00'
+  - episode_title: Pionieri | Trailer
+    episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Pionieri--Trailer-e2m7ee1
+    audio_url: https://anchor.fm/s/f8f3525c/podcast/play/89421697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-19%2F383487161-44100-2-e33791fd31701.m4a
+    published_at: '2024-07-19T14:36:19+00:00'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -5279,3 +5352,5 @@ feed_episodes_list:
   episodes: *62
 - feed_key: https://sr-restored.se/rss/2071
   episodes: *63
+- feed_key: https://anchor.fm/s/f8f3525c/podcast/rss
+  episodes: *64
