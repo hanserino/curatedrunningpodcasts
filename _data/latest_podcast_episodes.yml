@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-01T23:32:08Z'
+generated_at: '2026-06-02T00:43:13Z'
 items:
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show.html"
@@ -17,6 +17,14 @@ items:
   episode_url: ''
   audio_url: https://www.buzzsprout.com/299975/episodes/19272984-rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run.mp3
   published_at: '2026-06-01T21:00:00+02:00'
+- podcast_title: Life in Stride
+  podcast_page_url: "/life-in-stride.html"
+  cover_image: "/media/lifeinstride.jpeg"
+  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
+  episode_title: "#312 Jonny Dahlke - Training Breakdown for a 62 Minute Half-Marathoner, Founding Milers Colonia, Learning the Marathon"
+  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/312-Jonny-Dahlke---Training-Breakdown-for-a-62-Minute-Half-Marathoner--Founding-Milers-Colonia--Learning-the-Marathon-e3k6nil
+  audio_url: https://traffic.megaphone.fm/APO7345565980.mp3
+  published_at: '2026-06-01T18:45:23+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: "/media/courseepique.jpeg"
@@ -57,14 +65,6 @@ items:
   episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
   audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1c3738f72e42404345a8e2.mp3
   published_at: '2026-05-31T13:30:23+00:00'
-- podcast_title: Life in Stride
-  podcast_page_url: "/life-in-stride.html"
-  cover_image: "/media/lifeinstride.jpeg"
-  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
-  episode_title: "#311 Cody Poskin - Cocodona 250 3rd Overall Race Recap + Training for a Mountain Race in Missouri"
-  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/311-Cody-Poskin---Cocodona-250-3rd-Overall-Race-Recap--Training-for-a-Mountain-Race-in-Missouri-e3k41ef
-  audio_url: https://traffic.megaphone.fm/APO8266563007.mp3
-  published_at: '2026-05-30T17:57:06+00:00'
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public.html"
   cover_image: "/media/runningpublic.jpeg"
@@ -3809,6 +3809,10 @@ episodes_by_feed:
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8864149.mp3?modified=1771721851&sid=5166619&source=rss
     published_at: '2026-02-22T08:00:00+00:00'
   https://anchor.fm/s/f1fb88c/podcast/rss: &47
+  - episode_title: "#312 Jonny Dahlke - Training Breakdown for a 62 Minute Half-Marathoner, Founding Milers Colonia, Learning the Marathon"
+    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/312-Jonny-Dahlke---Training-Breakdown-for-a-62-Minute-Half-Marathoner--Founding-Milers-Colonia--Learning-the-Marathon-e3k6nil
+    audio_url: https://traffic.megaphone.fm/APO7345565980.mp3
+    published_at: '2026-06-01T18:45:23+00:00'
   - episode_title: "#311 Cody Poskin - Cocodona 250 3rd Overall Race Recap + Training for a Mountain Race in Missouri"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/311-Cody-Poskin---Cocodona-250-3rd-Overall-Race-Recap--Training-for-a-Mountain-Race-in-Missouri-e3k41ef
     audio_url: https://traffic.megaphone.fm/APO8266563007.mp3
@@ -3885,10 +3889,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/293-Kendall-Fallas---72-Hours-at-the-BPN-Backyard-Ultra--Being-Intentional-About-Who-You-Are-Becoming-e3iq6ce
     audio_url: https://traffic.megaphone.fm/APO6380328826.mp3
     published_at: '2026-05-03T03:13:47+00:00'
-  - episode_title: "#292 Nathan Wilkins - 3:48 to 2:38 in the Marathon, How to Grow Your Brand, Boston Marathon Recap"
-    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/292-Nathan-Wilkins---348-to-238-in-the-Marathon--How-to-Grow-Your-Brand--Boston-Marathon-Recap-e3inls3
-    audio_url: https://traffic.megaphone.fm/APO1508194044.mp3
-    published_at: '2026-05-01T00:58:33+00:00'
   https://publicfeeds.net/f/3492/feed-rss.xml: &48
   - episode_title: 'Bonus Episode: Shout Out to the Divas with Jonquilyn Hill'
     episode_url: https://play.prx.org/listen?ge=prx_3492_e4a16514-75a4-4f0c-ac9c-1898b540d825&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F3492%2Ffeed-rss.xml
