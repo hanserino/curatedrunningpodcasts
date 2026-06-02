@@ -146,18 +146,6 @@
     &__scroll {
         flex: 1 1 auto;
         min-width: 0;
-        position: relative;
-
-        &::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            width: 1.75rem;
-            pointer-events: none;
-            background: linear-gradient(to right, rgba($color-surface, 0), $color-surface 85%);
-        }
     }
 
     &__chips {
@@ -165,19 +153,6 @@
         flex-wrap: wrap;
         gap: 0.4rem;
         align-items: center;
-
-        &--scroll {
-            flex-wrap: nowrap;
-            overflow-x: auto;
-            overscroll-behavior-x: contain;
-            -webkit-overflow-scrolling: touch;
-            scrollbar-width: none;
-            padding: 0.1rem 1.5rem 0.1rem 0.05rem;
-
-            &::-webkit-scrollbar {
-                display: none;
-            }
-        }
 
         &--compact {
             gap: 0.35rem;
@@ -322,18 +297,78 @@
     .filter__body[hidden] {
         display: block !important;
     }
+
+    .filter__scroll {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 1.75rem;
+            pointer-events: none;
+            background: linear-gradient(to right, rgba($color-surface, 0), $color-surface 85%);
+        }
+    }
+
+    .filter__chips--scroll {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overscroll-behavior-x: contain;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        padding: 0.1rem 1.5rem 0.1rem 0.05rem;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
 }
 
 @include allBelow(medium) {
     .filter__bar {
         padding: 0.8rem 0.85rem;
+        align-items: flex-start;
+    }
+
+    .filter__intro {
+        flex: 1 1 100%;
+    }
+
+    .filter__actions {
+        width: 100%;
+        justify-content: space-between;
     }
 
     .filter__body {
         padding: 0 0.85rem 0.85rem;
     }
 
+    .filter__row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.45rem;
+        margin-bottom: 0.85rem;
+    }
+
     .filter__row-label {
-        flex-basis: 3.75rem;
+        flex-basis: auto;
+        margin: 0;
+    }
+
+    .filter__scroll {
+        width: 100%;
+    }
+
+    .filter__chips--scroll,
+    .filter__chips--compact {
+        gap: 0.35rem;
+    }
+
+    .filter__chip {
+        white-space: normal;
+        flex-shrink: 1;
     }
 }
