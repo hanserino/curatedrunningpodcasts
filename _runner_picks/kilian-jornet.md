@@ -24,4 +24,5 @@ picks:
     quote: About different science topics
   - pick_source: site
     directory_slug: 2026-06-01-la-sotana-md
+    quote: Is about football, but mostly a fun podcast
 ---
