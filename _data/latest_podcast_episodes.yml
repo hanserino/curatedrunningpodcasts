@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-02T19:14:03Z'
+generated_at: '2026-06-02T21:04:12Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast.html"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  episode_title: '448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR'
+  episode_url: https://insiderunningpodcast.podbean.com/e/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/
+  audio_url: https://mcdn.podbean.com/mf/web/a2yuksn5ddxj5xz8/itunes_4487gcus.mp3
+  published_at: '2026-06-03T06:00:00+10:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: "/media/uphillathlete.jpeg"
@@ -241,14 +249,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
   audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
   published_at: '2026-05-26T23:00:00+00:00'
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast.html"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
-  episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
-  audio_url: https://mcdn.podbean.com/mf/web/xhye5nxnhjt66dq2/Ep_447_itunes_165s39.mp3
-  published_at: '2026-05-27T06:00:00+10:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -484,6 +484,10 @@ episodes_by_feed:
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/30k_instant_recap.mp3?dest-id=1746794
     published_at: '2026-04-10T21:58:00+00:00'
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
+  - episode_title: '448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR'
+    episode_url: https://insiderunningpodcast.podbean.com/e/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/
+    audio_url: https://mcdn.podbean.com/mf/web/a2yuksn5ddxj5xz8/itunes_4487gcus.mp3
+    published_at: '2026-06-03T06:00:00+10:00'
   - episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
     episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
     audio_url: https://mcdn.podbean.com/mf/web/xhye5nxnhjt66dq2/Ep_447_itunes_165s39.mp3
@@ -560,10 +564,6 @@ episodes_by_feed:
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-marius-bakken/
     audio_url: https://mcdn.podbean.com/mf/web/3ccypt34bjz5br6v/Marius_iTunes9uj0t.mp3
     published_at: '2026-03-22T11:26:59+11:00'
-  - episode_title: '437: Adelaide Invitational | NYC Half Marathon | Adidas Hyperboost Edge Review'
-    episode_url: https://insiderunningpodcast.podbean.com/e/437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review/
-    audio_url: https://mcdn.podbean.com/mf/web/apkxeqzb3cbsg6z2/Ep_437_iTunesb2ku7.mp3
-    published_at: '2026-03-18T06:00:00+11:00'
   https://anchor.fm/s/101e74634/podcast/rss: &3
   - episode_title: The Story Behind Salomon TV, with Dean Leslie
     episode_url: https://podcasters.spotify.com/pod/show/jeff-pelletier5/episodes/The-Story-Behind-Salomon-TV--with-Dean-Leslie-e3iagci
@@ -4659,10 +4659,6 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/How_To_Build_A_Platform_For_Lifelong_Athletes.mp3?dest-id=4458728
     published_at: '2026-01-23T13:00:00+00:00'
   https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034: &57
-  - episode_title: Ep. 252 | How Murda Beatz Became a Generation's Favorite Producer
-    episode_url: https://shows.acast.com/andthewriteris/episodes/how-murda-beatz-became-a-generations-favorite-producer
-    audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a1ef8e99942b8f91f22a329/media.mp3
-    published_at: '2026-06-02T15:38:17+00:00'
   - episode_title: 'And The Update Is...Universal''s Big Week: AI, TikTok While Drake Dominates'
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isuniversals-big-week-ai-tiktok-while-drake-d
     audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a19ed0cad55909da6d23211/media.mp3
@@ -4739,6 +4735,10 @@ episodes_by_feed:
     episode_url: https://shows.acast.com/andthewriteris/episodes/charlie-puth-the-long-road-to-becoming-yourself
     audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/69b96d04e1ad9c35216b3336/media.mp3
     published_at: '2026-03-17T15:02:28+00:00'
+  - episode_title: 'Ep. 242: Megan Moroney | The Unlikely Road of a Country Superstar'
+    episode_url: https://shows.acast.com/andthewriteris/episodes/ep-242-megan-moroney-the-unlikely-road-of-a-country-supersta
+    audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/69b02880963a18ae3a03b2ec/media.mp3
+    published_at: '2026-03-10T15:00:00+00:00'
   https://anchor.fm/s/9085ecc/podcast/rss: &58
   - episode_title: 'Meet Sam Blaskowski: The D3 Kid Who Just Ran 9.89 For 100m'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Meet-Sam-Blaskowski-The-D3-Kid-Who-Just-Ran-9-89-For-100m-e3k6qlf
@@ -5623,93 +5623,16 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Pionieri--Trailer-e2m7ee1
     audio_url: https://anchor.fm/s/f8f3525c/podcast/play/89421697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-19%2F383487161-44100-2-e33791fd31701.m4a
     published_at: '2024-07-19T14:36:19+00:00'
-  https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss: &70
-  - episode_title: 'Katie Lamb: Becoming the First Woman to Do V16—Twice'
-    episode_url: https://soundcloud.com/american-alpine-journal/katie-lamb-becoming-the-first
-    audio_url: https://feeds.soundcloud.com/stream/2312819630-american-alpine-journal-katie-lamb-becoming-the-first.mp3
-    published_at: '2026-05-01T15:10:13+00:00'
-  - episode_title: 'Benjamin Védrines: The First Ascent of Jannu East'
-    episode_url: https://soundcloud.com/american-alpine-journal/benjamin-vedrines-on-jannu
-    audio_url: https://feeds.soundcloud.com/stream/2295984269-american-alpine-journal-benjamin-vedrines-on-jannu.mp3
-    published_at: '2026-04-03T15:45:34+00:00'
-  - episode_title: Massive Climbs and Wild Adventures in Mozambique
-    episode_url: https://soundcloud.com/american-alpine-journal/cutting-edge_mozambique_final
-    audio_url: https://feeds.soundcloud.com/stream/2276067617-american-alpine-journal-cutting-edge_mozambique_final.mp3
-    published_at: '2026-03-02T14:42:36+00:00'
-  - episode_title: Eight Women, Six New Routes in Greenland
-    episode_url: https://soundcloud.com/american-alpine-journal/eight-women-six-new-routes-in-greenland
-    audio_url: https://feeds.soundcloud.com/stream/2258795858-american-alpine-journal-eight-women-six-new-routes-in-greenland.mp3
-    published_at: '2026-02-02T16:52:30+00:00'
-  - episode_title: Sasha DiGiulian on El Cap's Direct Line
-    episode_url: https://soundcloud.com/american-alpine-journal/cutting-edge_direct
-    audio_url: https://feeds.soundcloud.com/stream/2238975080-american-alpine-journal-cutting-edge_direct.mp3
-    published_at: '2025-12-30T15:48:02+00:00'
-  - episode_title: Colin Haley's Cerro Torre Winter Solo
-    episode_url: https://soundcloud.com/american-alpine-journal/colin-haleys-winter-solo-of-cerro-torre
-    audio_url: https://feeds.soundcloud.com/stream/2220527744-american-alpine-journal-colin-haleys-winter-solo-of-cerro-torre.mp3
-    published_at: '2025-11-28T14:40:48+00:00'
-  - episode_title: The Coveted Southeast Pillar of Ultar Sar Is Finally Climbed
-    episode_url: https://soundcloud.com/american-alpine-journal/ultar-sars-southeast-pillar-finally-climbed
-    audio_url: https://feeds.soundcloud.com/stream/2203280239-american-alpine-journal-ultar-sars-southeast-pillar-finally-climbed.mp3
-    published_at: '2025-10-31T13:01:00+00:00'
-  - episode_title: 'Finding Providence in the Alaska Range: Anna Pfaff, Andres Marin and Tad McCrea'
-    episode_url: https://soundcloud.com/american-alpine-journal/return-to-providence-anna-pfaff-andres-marin-and-tad-mccrea
-    audio_url: https://feeds.soundcloud.com/stream/2128566870-american-alpine-journal-return-to-providence-anna-pfaff-andres-marin-and-tad-mccrea.mp3
-    published_at: '2025-07-11T21:06:24+00:00'
-  - episode_title: 'Big Walls on Baffin Island: Brandon Adams, Miles Fullman and Sam Stuckey'
-    episode_url: https://soundcloud.com/american-alpine-journal/modern-aid-on-baffin-island-brandon-adams-miles-fullman-and-sam-stuckey
-    audio_url: https://feeds.soundcloud.com/stream/2068421516-american-alpine-journal-modern-aid-on-baffin-island-brandon-adams-miles-fullman-and-sam-stuckey.mp3
-    published_at: '2025-03-29T00:00:00+00:00'
-  - episode_title: 'First Ascent of Yashkuk Sar: Dane Steadman, with guests Kelly Cordes and Graham Zimmerman'
-    episode_url: https://soundcloud.com/american-alpine-journal/yashkuk-sar
-    audio_url: https://feeds.soundcloud.com/stream/2041477252-american-alpine-journal-yashkuk-sar.mp3
-    published_at: '2025-02-22T00:00:00+00:00'
-  - episode_title: Babsi Zangerl Flashes El Cap
-    episode_url: https://soundcloud.com/american-alpine-journal/babsi-zangerl-flashes-el-cap
-    audio_url: https://feeds.soundcloud.com/stream/1997374647-american-alpine-journal-babsi-zangerl-flashes-el-cap.mp3
-    published_at: '2024-12-26T00:00:00+00:00'
-  - episode_title: Kilian Jornet's Mind-Blowing Traverse of the Alps
-    episode_url: https://soundcloud.com/american-alpine-journal/kilian-jornets-mind-blowing-traverse-of-the-alps
-    audio_url: https://feeds.soundcloud.com/stream/1967059155-american-alpine-journal-kilian-jornets-mind-blowing-traverse-of-the-alps.mp3
-    published_at: '2024-11-21T00:00:00+00:00'
-  - episode_title: 'Mt. Dickey: A New Route and a Brilliant History'
-    episode_url: https://soundcloud.com/american-alpine-journal/mt-dickey-a-new-route-and-brilliant-history
-    audio_url: https://feeds.soundcloud.com/stream/1937918285-american-alpine-journal-mt-dickey-a-new-route-and-brilliant-history.mp3
-    published_at: '2024-10-17T00:00:00+00:00'
-  - episode_title: 'Christian Black, Vitaliy Musiyenko and Hayden Wyatt: A First Ascent in India'
-    episode_url: https://soundcloud.com/american-alpine-journal/christian-black-vitaliy-musiyenko-and-hayden-wyatt-first-ascent-in-india
-    audio_url: https://feeds.soundcloud.com/stream/1702249050-american-alpine-journal-christian-black-vitaliy-musiyenko-and-hayden-wyatt-first-ascent-in-india.mp3
-    published_at: '2023-12-28T20:19:31+00:00'
-  - episode_title: 'Matt Cornell, Jackson Marvell and Alan Rousseau: Jannu North Face'
-    episode_url: https://soundcloud.com/american-alpine-journal/matt-cornell-jackson-marvell-and-alan-rousseau-jannu-north-face
-    audio_url: https://feeds.soundcloud.com/stream/1680983727-american-alpine-journal-matt-cornell-jackson-marvell-and-alan-rousseau-jannu-north-face.mp3
-    published_at: '2023-12-03T18:27:51+00:00'
-  - episode_title: 'Connor Herson and Fan Yang: 5.13+ on Mt. Whitney'
-    episode_url: https://soundcloud.com/american-alpine-journal/connor-herson-and-fan-yang-hairline-free-on-mt-whitney
-    audio_url: https://feeds.soundcloud.com/stream/1670328420-american-alpine-journal-connor-herson-and-fan-yang-hairline-free-on-mt-whitney.mp3
-    published_at: '2023-11-20T22:55:33+00:00'
-  - episode_title: 'Kazyua Hiraide and Kenro Nakajima: The Secret Line in the Hindu Kush'
-    episode_url: https://soundcloud.com/american-alpine-journal/tirich-mir-in-the-hindu-kush-kazyua-hiraide-and-kenro-nakajima
-    audio_url: https://feeds.soundcloud.com/stream/1653479394-american-alpine-journal-tirich-mir-in-the-hindu-kush-kazyua-hiraide-and-kenro-nakajima.mp3
-    published_at: '2023-10-31T15:42:56+00:00'
-  - episode_title: 'Sarah McNair-Landry and Erik Boomer: Fun Hogs for the 21st Century'
-    episode_url: https://soundcloud.com/american-alpine-journal/sarah-mcnair-landry-and-erik-boomer-fun-hogs-for-the-21st-century
-    audio_url: https://feeds.soundcloud.com/stream/1641388548-american-alpine-journal-sarah-mcnair-landry-and-erik-boomer-fun-hogs-for-the-21st-century.mp3
-    published_at: '2023-10-16T13:30:36+00:00'
-  - episode_title: 'The Cowboy Direct on Trango Tower: Jordan Cannon, Jesse Huey and Matt Segal'
-    episode_url: https://soundcloud.com/american-alpine-journal/the-cowboy-direct-jordan-cannon-jesse-huey-and-matt-segal
-    audio_url: https://feeds.soundcloud.com/stream/1626058566-american-alpine-journal-the-cowboy-direct-jordan-cannon-jesse-huey-and-matt-segal.mp3
-    published_at: '2023-09-27T00:04:38+00:00'
-  - episode_title: 'Mark Richey and Will Carey: An Enormous Rock Climb in Africa'
-    episode_url: https://soundcloud.com/american-alpine-journal/adventures-in-malawi
-    audio_url: https://feeds.soundcloud.com/stream/1603119105-american-alpine-journal-adventures-in-malawi.mp3
-    published_at: '2023-08-28T22:58:22+00:00'
+  https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss: &70 []
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
+  error: 'OpenURI::HTTPError: 403 Forbidden'
+- podcast: The Cutting Edge
+  rss_feed: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
 feed_episodes_list:
 - feed_key: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
