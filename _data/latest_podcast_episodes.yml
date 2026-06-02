@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-02T09:36:23Z'
+generated_at: '2026-06-02T09:41:15Z'
 items:
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
@@ -25,14 +25,6 @@ items:
   episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tara-dower-and-69ing-the-la-marathon
   audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_May_draftmfour.mp3?dest-id=4178531
   published_at: '2026-06-02T07:07:00+00:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Swiss Canyon Trail Weekend Debrief
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
-  published_at: '2026-06-02T05:00:00+00:00'
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show.html"
   cover_image: "/media/citiusmag.jpeg"
@@ -209,6 +201,14 @@ items:
   episode_url: https://springsnyggt.libsyn.com/339-de-senaste-rnen-om-energi-och-kolhydratsladdning-med-tobias-christensson
   audio_url: https://traffic.libsyn.com/secure/springsnyggt/339._Ett_nytt_stt_att_springa_maraton.mp3?dest-id=1729274
   published_at: '2026-05-27T01:00:00+00:00'
+- podcast_title: La Sotana
+  podcast_page_url: "/la-sotana.html"
+  cover_image: "/media/lasotana.jpeg"
+  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
+  episode_title: La Sotana 413 amb Pau Víctor
+  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
+  audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
+  published_at: '2026-05-26T23:00:00+00:00'
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete.html"
   cover_image: "/media/uphillathlete.jpeg"
@@ -233,6 +233,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/312--How-Blood-Volume-Impacts-Performance-and-Adapts-Fast--The-Scary-Potential-of-Lactate-Supplementation--The-True-GOAT--and-The-Circle-Pit-e3jtn97
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120560359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F494946ee-d34e-5515-d4b4-fd2736c3ca82.mp3
   published_at: '2026-05-26T12:45:44+00:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
+  published_at: '2026-05-26T04:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -626,10 +634,6 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &4
-  - episode_title: Swiss Canyon Trail Weekend Debrief
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
-    published_at: '2026-06-02T05:00:00+00:00'
   - episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
@@ -706,6 +710,10 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Winter-Spine-Race--The-MAD-Burrito-League--Major-Moves-at-HOKA--Suunto-e3digej
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113901459/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F415998134-44100-2-ef35c4df21b53.mp3
     published_at: '2026-01-13T18:00:00+00:00'
+  - episode_title: We Are So Back — UTMB Rules, Pro Contract Moves & HR Training
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/We-Are-So-Back--UTMB-Rules--Pro-Contract-Moves--HR-Training-e3d83pl
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113560821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415562737-44100-2-43b05048de71.mp3
+    published_at: '2026-01-06T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &5
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs & state of the sport"
     episode_url: ''
@@ -2911,13 +2919,13 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Heather-Jackson---Who-You-Share-It-With-e3f6a3c
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/115598892/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-16%2F418226853-44100-2-639c56c8324d5.mp3
     published_at: '2026-02-17T11:00:00+00:00'
-  - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
-    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
-    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114995288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417422489-44100-2-dd9c8fc289124.mp3
-    published_at: '2026-02-04T11:00:00+00:00'
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (Veterans)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-Veterans-e3ejrvi
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114994610/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417421607-44100-2-3603d426ce53.mp3
+    published_at: '2026-02-04T11:00:00+00:00'
+  - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
+    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
+    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114995288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417422489-44100-2-dd9c8fc289124.mp3
     published_at: '2026-02-04T11:00:00+00:00'
   - episode_title: Tina Muir - Do The Next Right Thing
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tina-Muir---Do-The-Next-Right-Thing-e3dr6th
@@ -3174,9 +3182,9 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Sara-Alonso-e3ciko1
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112857281/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-19%2F414671687-44100-2-b335c50925f6.mp3
     published_at: '2025-12-19T05:32:33+00:00'
-  - episode_title: '2025 Sub Hub Top Pick: Madalina Florea'
-    episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Madalina-Florea-e3c9ok9
-    audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-13%2F414299592-44100-2-b801367b993d6.mp3
+  - episode_title: '2025 Sub Hub Top Pick: Frédéric Tranchand'
+    episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Frdric-Tranchand-e3c9of1
+    audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566177/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-15%2F414447294-44100-2-0d03e0f1f8381.mp3
     published_at: '2025-12-15T07:00:00+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &37
   - episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
@@ -3664,87 +3672,7 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/79c04b1f-dc9c-4377-a626-eea27a888512.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
     published_at: '2025-12-17T16:00:00Z'
-  https://api.substack.com/feed/podcast/2836327.rss: &43
-  - episode_title: The "Rise" and Fall of the Girlboss
-    episode_url: https://www.diabolicalliespod.com/p/the-rise-and-fall-of-the-girlboss
-    audio_url: https://api.substack.com/feed/podcast/199483448/ff901ac65b36a45d17b7859adca08063.mp3
-    published_at: '2026-05-31T11:00:00+00:00'
-  - episode_title: How to Give Birth in America, Pt. 2
-    episode_url: https://www.diabolicalliespod.com/p/how-to-give-birth-in-america-pt-2
-    audio_url: https://api.substack.com/feed/podcast/197866895/cc73bc3c5d976359c927410796527b31.mp3
-    published_at: '2026-05-17T11:00:45+00:00'
-  - episode_title: Gen Z Women's New "Anti-Woke Voice"
-    episode_url: https://www.diabolicalliespod.com/p/gen-z-womens-new-anti-woke-voice
-    audio_url: https://api.substack.com/feed/podcast/195361021/9cb320751c48ee228b65f9ab7defa988.mp3
-    published_at: '2026-05-03T11:00:00+00:00'
-  - episode_title: Who's Afraid of Hasan Piker?
-    episode_url: https://www.diabolicalliespod.com/p/whos-afraid-of-hasan-piker
-    audio_url: https://api.substack.com/feed/podcast/194328963/7a5e15944d7061b0d901efa7d55654e9.mp3
-    published_at: '2026-04-19T12:21:05+00:00'
-  - episode_title: The Caro Episode
-    episode_url: https://www.diabolicalliespod.com/p/the-caro-episode
-    audio_url: https://api.substack.com/feed/podcast/193060849/e090eb22b3072d419ed81fd6ecae296c.mp3
-    published_at: '2026-04-05T11:00:00+00:00'
-  - episode_title: How 'Love Story'—and the Kennedys—Fooled America
-    episode_url: https://www.diabolicalliespod.com/p/how-love-storyand-the-kennedysfooled
-    audio_url: https://api.substack.com/feed/podcast/190790990/2308a7a208ab75c27f0adf191aafa64f.mp3
-    published_at: '2026-03-22T11:01:20+00:00'
-  - episode_title: Jeffrey Epstein & the Ordinary Misogyny of "Extraordinary" Men
-    episode_url: https://www.diabolicalliespod.com/p/jeffrey-epstein-and-the-ordinary
-    audio_url: https://api.substack.com/feed/podcast/189807923/0fad9f3b3d81113bb05d228dcb46729b.mp3
-    published_at: '2026-03-08T11:05:00+00:00'
-  - episode_title: The Myth of Centrism
-    episode_url: https://www.diabolicalliespod.com/p/the-myth-of-centrism
-    audio_url: https://api.substack.com/feed/podcast/188639989/888f32cc9b788f2ba32550f9c8d0dae8.mp3
-    published_at: '2026-02-22T12:02:41+00:00'
-  - episode_title: Usha Vance, Rama Duwaji, & the Tragedy of Heterosexuality
-    episode_url: https://www.diabolicalliespod.com/p/usha-vance-vs-rama-duwaji-who-will
-    audio_url: https://api.substack.com/feed/podcast/187001517/2cef64549a2b046c955ce1951b37a4e9.mp3
-    published_at: '2026-02-08T12:00:00+00:00'
-  - episode_title: ICE is a Public Jobs Program for Losers
-    episode_url: https://www.diabolicalliespod.com/p/ice-is-a-public-jobs-program-for
-    audio_url: https://api.substack.com/feed/podcast/185543898/0ed9ce204b1abf19f27f7c7899063145.mp3
-    published_at: '2026-01-25T12:02:35+00:00'
-  - episode_title: 'Scott Galloway vs. Heated Rivalry: Who Will Save the Men?'
-    episode_url: https://www.diabolicalliespod.com/p/heated-rivalry-vs-scott-galloway
-    audio_url: https://api.substack.com/feed/podcast/183788739/8253864d0bed11a6a3e1a7f9a871f6de.mp3
-    published_at: '2026-01-11T12:00:00+00:00'
-  - episode_title: The Texasification of America
-    episode_url: https://www.diabolicalliespod.com/p/the-texasification-of-america
-    audio_url: https://api.substack.com/feed/podcast/182659892/8fed1bbeac1f4891e99d697033554325.mp3
-    published_at: '2025-12-28T13:02:21+00:00'
-  - episode_title: 'BONUS: Caro & Katie React to the Erika Kirk CBS Town Hall'
-    episode_url: https://www.diabolicalliespod.com/p/bonus-a-very-merry-kirkmas-presented
-    audio_url: https://api.substack.com/feed/podcast/182466636/0c99efea082121afc192c4170b19182d.mp3
-    published_at: '2025-12-24T17:19:23+00:00'
-  - episode_title: Don't Go to Starbucks This Holiday Season. Here's Why.
-    episode_url: https://www.diabolicalliespod.com/p/dont-go-to-starbucks-this-holiday
-    audio_url: https://api.substack.com/feed/podcast/181814547/08691a0d2bfccca27eb950fb94083466.mp3
-    published_at: '2025-12-16T22:38:32+00:00'
-  - episode_title: Is There a ‘Skinny Apocalypse’ in Hollywood?
-    episode_url: https://www.diabolicalliespod.com/p/wicked-ozempic-and-the-end-of-body
-    audio_url: https://api.substack.com/feed/podcast/181285995/f6614ec839377870a9015ff5e2842fb8.mp3
-    published_at: '2025-12-14T12:30:00+00:00'
-  - episode_title: Did Women Ruin the Workplace?
-    episode_url: https://www.diabolicalliespod.com/p/did-women-ruin-the-workplace
-    audio_url: https://api.substack.com/feed/podcast/180060452/7d240e84d7508b8ff64b03f12696a1cb.mp3
-    published_at: '2025-11-30T12:15:28+00:00'
-  - episode_title: 'BONUS: Olivia Nuzzi, Trump/Mamdani, & Where Caro and Katie Disagree'
-    episode_url: https://www.diabolicalliespod.com/p/bonus-olivia-nuzzi-trumpmamdani-and
-    audio_url: https://api.substack.com/feed/podcast/179869974/52112af7a6eec31ec4a7244a555b321c.mp3
-    published_at: '2025-11-27T01:20:12+00:00'
-  - episode_title: The Katie Episode
-    episode_url: https://www.diabolicalliespod.com/p/the-katie-episode
-    audio_url: https://api.substack.com/feed/podcast/178975361/99508154c6518c1c175671cd94692675.mp3
-    published_at: '2025-11-16T12:02:00+00:00'
-  - episode_title: '"Ethical Consumption" & the History of "Selling Out"'
-    episode_url: https://www.diabolicalliespod.com/p/ethical-consumption-and-the-history
-    audio_url: https://api.substack.com/feed/podcast/177684180/6f75bafbbb936830deecfe0113fe60c3.mp3
-    published_at: '2025-11-02T13:00:00+00:00'
-  - episode_title: How to Give Birth in America, Pt. 1
-    episode_url: https://www.diabolicalliespod.com/p/how-to-give-birth-in-america-pt-1
-    audio_url: https://api.substack.com/feed/podcast/176394214/286f8620eb73d321885eab6435087f92.mp3
-    published_at: '2025-10-19T11:04:44+00:00'
+  https://api.substack.com/feed/podcast/2836327.rss: &43 []
   https://anchor.fm/s/ef81d1e4/podcast/rss: &44
   - episode_title: 'Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250'
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Trish-Corbett-MBA-Champion--Corner-Threes-and-Broken-Fingers-at-Cocodona-250-e3k2uar
@@ -5387,7 +5315,88 @@ episodes_by_feed:
     episode_url: http://www.bbc.co.uk/programmes/m001hnlf
     audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0f0ddgm.mp3
     published_at: '2023-03-02T10:15:00+00:00'
-  https://anchor.fm/s/f8f3525c/podcast/rss: &66
+  https://anchor.fm/s/10e30d900/podcast/rss: &66
+  - episode_title: La Sotana 413 amb Pau Víctor
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
+    published_at: '2026-05-26T23:00:00+00:00'
+  - episode_title: La Sotana 412 amb José Mari Bakero
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-412-amb-Jos-Mari-Bakero-e3jlp1h
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/120300017/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-20%2F424569991-44100-2-71f61ab84359d.mp3
+    published_at: '2026-05-20T21:12:56+00:00'
+  - episode_title: La Sotana 412 amb José Mari Bakero
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-412-amb-Jos-Mari-Bakero-e3jl2tg
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/120277360/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-20%2F424538343-44100-2-f2442bb9a20eb.mp3
+    published_at: '2026-05-20T12:55:50+00:00'
+  - episode_title: La Sotana 411 - Campions
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-411---Campions-e3j9c6e
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/119893646/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-12%2F424023804-44100-2-36d5ab75a9cb9.mp3
+    published_at: '2026-05-11T23:00:00+00:00'
+  - episode_title: La Sotana 410 amb Eloi Amagat
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-410-amb-Eloi-Amagat-e3iue3m
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/119535158/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423542902-44100-2-5c7ef140c5df6.mp3
+    published_at: '2026-05-05T23:00:00+00:00'
+  - episode_title: La Sotana 409 amb Albert Om
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-409-amb-Albert-Om-e3ijo4v
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/119184991/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F423061966-44100-2-68c8a546392f9.mp3
+    published_at: '2026-04-28T23:00:00+00:00'
+  - episode_title: La Sotana 408
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-408-e3i6qr4
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/118761764/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-20%2F422476291-44100-2-7b0360a4a8794.mp3
+    published_at: '2026-04-21T21:37:00+00:00'
+  - episode_title: La Sotana 407 amb Víctor Navarro
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-407-amb-Vctor-Navarro-e3htm1j
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/118461939/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-14%2F422079750-44100-2-7f952c0fae7a4.mp3
+    published_at: '2026-04-14T23:00:00+00:00'
+  - episode_title: La Sotana 406 | I NI ESTA
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-406--I-NI-ESTA-e3h8545
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/117756485/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421143329-44100-2-63fc91cd1dd78.mp3
+    published_at: '2026-03-31T23:05:00+00:00'
+  - episode_title: La Sotana 405 | L'estadi Tamudo
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-405--Lestadi-Tamudo-e3gsi2j
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/117376531/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-23%2F420631084-44100-2-ea082b6b4b56c.mp3
+    published_at: '2026-03-24T22:59:00+00:00'
+  - episode_title: La Sotana 404 amb Daniel Juan
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-404-amb-Daniel-Juan-e3gjbpr
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/117075195/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-17%2F420236511-44100-2-c93ec447755c1.mp3
+    published_at: '2026-03-18T00:30:00+00:00'
+  - episode_title: La Sotana 403 | Traditional Chinese Music to Relax or Eleccions or Relax
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-403--Traditional-Chinese-Music-to-Relax-or-Eleccions-or-Relax-e3g8ao4
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/116713668/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2F419738013-44100-2-f49dcaadfb382.mp3
+    published_at: '2026-03-11T00:00:00+00:00'
+  - episode_title: La Sotana 402 | La Traviesa
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-402--La-Traviesa-e3fssgn
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/116338647/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-3%2F419217747-44100-2-576c0fd9fe74a.mp3
+    published_at: '2026-03-04T00:00:00+00:00'
+  - episode_title: La Sotana 401 amb Ot Ferrer
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-401-amb-Ot-Ferrer-e3fif6s
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/115997340/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-24%2F418765779-44100-2-416862d6d721c.mp3
+    published_at: '2026-02-24T23:30:55+00:00'
+  - episode_title: La Sotana 400
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-400-e3f8i3h
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/115672625/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2F418327135-44100-2-359325401a55c.mp3
+    published_at: '2026-02-18T08:37:01+00:00'
+  - episode_title: La Sotana 399 amb Lluís Gavaldà
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-399-amb-Llus-Gavald-e3f8i27
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/115672583/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2F418326728-44100-2-889786f3534dd.mp3
+    published_at: '2026-02-18T08:24:43+00:00'
+  - episode_title: La Sotana 398
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-398-e3f8hvp
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/115672505/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2F418326644-44100-2-15686e546d2e3.mp3
+    published_at: '2026-02-18T08:21:44+00:00'
+  - episode_title: La Sotana 397 amb Marc Crosas
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-397-amb-Marc-Crosas-e3f8hsh
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/115672401/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-18%2F418326517-44100-2-b17f69d79fedf.mp3
+    published_at: '2026-02-18T08:18:28+00:00'
+  - episode_title: La Sotana 396 amb Èric Montes
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-396-amb-ric-Montes-e3e1763
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416612955-44100-2-9fdc1ccf360f871e.mp3
+    published_at: '2026-01-20T21:59:00+00:00'
+  - episode_title: La Sotana 395
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-395-e3e1746
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383430/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416612936-44100-2-8a1d2b0da22169b5.mp3
+    published_at: '2026-01-13T21:59:00+00:00'
+  https://anchor.fm/s/f8f3525c/podcast/rss: &67
   - episode_title: Ep. 12 | Storie
     episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--12--Storie-e34a6um
     audio_url: https://anchor.fm/s/f8f3525c/podcast/play/104192406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-16%2F402251055-44100-2-f623024941703.m4a
@@ -5452,7 +5461,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Pionieri--Trailer-e2m7ee1
     audio_url: https://anchor.fm/s/f8f3525c/podcast/play/89421697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-19%2F383487161-44100-2-e33791fd31701.m4a
     published_at: '2024-07-19T14:36:19+00:00'
-  https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss: &67
+  https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss: &68
   - episode_title: 'Katie Lamb: Becoming the First Woman to Do V16—Twice'
     episode_url: https://soundcloud.com/american-alpine-journal/katie-lamb-becoming-the-first
     audio_url: https://feeds.soundcloud.com/stream/2312819630-american-alpine-journal-katie-lamb-becoming-the-first.mp3
@@ -5537,6 +5546,9 @@ errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
+- podcast: Diabolic Lies
+  rss_feed: https://api.substack.com/feed/podcast/2836327.rss
+  error: 'OpenURI::HTTPError: 403 Forbidden'
 feed_episodes_list:
 - feed_key: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
   episodes: *1
@@ -5668,7 +5680,9 @@ feed_episodes_list:
   episodes: *64
 - feed_key: https://podcasts.files.bbci.co.uk/p01gyd7j.rss
   episodes: *65
-- feed_key: https://anchor.fm/s/f8f3525c/podcast/rss
+- feed_key: https://anchor.fm/s/10e30d900/podcast/rss
   episodes: *66
-- feed_key: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
+- feed_key: https://anchor.fm/s/f8f3525c/podcast/rss
   episodes: *67
+- feed_key: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
+  episodes: *68
