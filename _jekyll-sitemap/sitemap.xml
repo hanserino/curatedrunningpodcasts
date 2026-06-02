@@ -5,7 +5,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign collections = site.collections | where_exp:'collection','collection.output != false' %}
   {% for collection in collections %}
-    {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' %}
+    {% assign docs = collection.docs | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.not_running_related != true' %}
     {% for doc in docs %}
       <url>
         <loc>{{ doc.url | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
@@ -16,21 +16,16 @@
     {% endfor %}
   {% endfor %}
 
-  {% assign pages = site.html_pages | where_exp:'doc','doc.sitemap != false' | where_exp:'doc','doc.url != "/404.html"' %}
-  {% for page in pages %}
+  {% assign sitemap_page_paths = "/,/about/,/latest-episodes/,/runners-picks/,/llms.txt" | split: "," %}
+  {% for sitemap_path in sitemap_page_paths %}
+    {% assign page = site.pages | where: "url", sitemap_path | first %}
+    {% if page and page.sitemap != false %}
     <url>
       <loc>{{ page.url | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
       {% if page.last_modified_at %}
         <lastmod>{{ page.last_modified_at | date_to_xmlschema }}</lastmod>
       {% endif %}
     </url>
-  {% endfor %}
-
-  {% assign static_files = page.static_files | where_exp:'page','page.sitemap != false' | where_exp:'page','page.name != "404.html"' %}
-  {% for file in static_files %}
-    <url>
-      <loc>{{ file.path | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
-      <lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
-    </url>
+    {% endif %}
   {% endfor %}
 </urlset>
