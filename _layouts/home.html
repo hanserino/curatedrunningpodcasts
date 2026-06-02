@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: 'en' }}">
 <head>
 	{% include head.html %}
+	<link rel="preload" as="image" href="{{ '/assets/img/bg.jpg' | relative_url }}">
 	{% include schema-home.html %}
 </head>
 <body class="home-page" data-box-grid="true">
@@ -17,9 +18,8 @@
 		</section>
 		{% endif %}
 		<div class="home-page__directory">
-			{% include filter.html %}
-			<div class="home-page__toolbar" role="group" aria-label="List layout">
-				{% include grid-switch.html %}
+			<div class="home-page__controls">
+				{% include filter.html %}
 			</div>
 			{% include podcastloop.html %}
 		</div>

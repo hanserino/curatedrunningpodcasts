@@ -1,8 +1,12 @@
-<header class="home-page__intro" role="banner">
-	<div class="home-page__intro-bar">
-		{% include main-nav.html %}
+<header class="home-page__hero" role="banner">
+	<div class="home-page__hero-bg" style="background-image: url('{{ '/assets/img/bg.jpg' | relative_url }}');" aria-hidden="true"></div>
+	<div class="home-page__hero-scrim" aria-hidden="true"></div>
+	<div class="home-page__hero-content">
+		<div class="home-page__hero-bar">
+			{% include main-nav.html %}
+		</div>
+		<p class="home-page__kicker"><span class="home-page__kicker-dot" aria-hidden="true"></span> Human-curated directory · Est. 2026</p>
+		<h1 class="home-page__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
+		<div class="home-page__lede">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
 	</div>
-	<p class="home-page__kicker">Human-curated directory</p>
-	<h1 class="home-page__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
-	<div class="home-page__lede">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
 </header>

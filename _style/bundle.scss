@@ -41,20 +41,28 @@ html {
 
 body {
     transform-style: preserve-3d;
+    background-color: $color-paper;
+    @include track-stripes(0.035);
+}
+
+body.home-page {
+    background-color: $color-paper;
+    background-image:
+        linear-gradient(180deg, rgba($color-mist-light, 0.35) 0%, $color-paper 18rem),
+        repeating-linear-gradient(
+            -11deg,
+            transparent,
+            transparent 18px,
+            rgba($color-ink, 0.025) 18px,
+            rgba($color-ink, 0.025) 20px
+        );
 }
 
 #main-content {
     margin-left: auto;
     margin-right: auto;
     padding: 0 0 2.5rem;
-}
-
-body:not(.home-page) #main-content {
-    max-width: $content-max-width;
-}
-
-body.home-page #main-content {
-    max-width: $home-content-max-width;
+    max-width: $site-max-width;
 }
 
 @include allAbove(medium) {

@@ -18,9 +18,12 @@
 </ul>
 
 <div class="podcast-loop__item__tags">
+    {%- assign _publisher = p.publisher | strip -%}
+    {%- if _publisher != '' -%}
     <div>
-        <p class="podcast-loop__item__tag-title">Publisher: {{ p.publisher }}</p>
+        <p class="podcast-loop__item__tag-title">Publisher: {{ _publisher }}</p>
     </div>
+    {%- endif -%}
 
     <div>
         <p class="podcast-loop__item__tag-title">Tags:</p>

@@ -1,15 +1,15 @@
-// Skip link (WCAG 2.x focus order)
 .skip-link {
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
     z-index: 100;
     padding: 0.5rem 0.75rem;
-    background: #0d2b22;
-    color: #fff;
+    background: $color-ink;
+    color: $color-surface;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 2px;
+    font-weight: 700;
+    border: $border-heavy;
+    box-shadow: $shadow-brutal-sm;
     transform: translateY(-200%);
     transition: transform 0.2s ease;
 
@@ -18,7 +18,7 @@
     }
 
     &:focus-visible {
-        outline: 2px solid #7fd4b0;
+        outline: 3px solid $color-speed;
         outline-offset: 2px;
     }
 }
@@ -32,7 +32,7 @@ input:focus {
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
-    outline: 2px solid #0d47a1;
+    outline: 3px solid $color-speed;
     outline-offset: 2px;
 }
 
@@ -48,14 +48,15 @@ input:focus-visible {
 
 .grid-switch {
     &:focus-visible {
-        outline: 2px solid #0d47a1;
+        outline: 3px solid $color-speed;
         outline-offset: 2px;
     }
 }
 
-.filter label:has(:focus-visible) > span,
+.filter__chip:focus-within,
 .filter__reset:focus-visible,
-.filter__toggle:focus-visible {
-    outline: 2px solid #0d47a1;
+.filter__toggle:focus-visible,
+.filter__clear-all:focus-visible {
+    outline: 3px solid $color-speed;
     outline-offset: 2px;
 }

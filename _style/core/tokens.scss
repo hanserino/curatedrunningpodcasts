@@ -1,0 +1,90 @@
+// Design tokens — trail / track · La Palatine · neo-brutalism · Spotify pace · 2026
+$color-paper: #f6f3eb;
+$color-surface: #ffffff;
+$color-ink: #1d1d1d;
+$color-muted: #5a6469;
+$color-lane: #e8e3d9;
+$color-lane-dark: #d4cec2;
+$color-mist: #5a7a86;
+$color-mist-light: #c5d4d9;
+$color-speed: #1ed760;
+$color-speed-dark: #12a845;
+$color-flash: #d4e157;
+$color-warm: #b8432f;
+$color-warm-dark: #8f3224;
+$color-track: #004e98;
+
+$border-width: 2px;
+$border-color: $color-ink;
+$border-heavy: $border-width solid $color-ink;
+$radius-sm: 4px;
+$radius-md: 6px;
+$shadow-brutal: 4px 4px 0 $color-ink;
+$shadow-brutal-sm: 3px 3px 0 $color-ink;
+$shadow-brutal-lg: 6px 6px 0 $color-ink;
+
+$font-display: "Space Grotesk", system-ui, sans-serif;
+$font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+$font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+$grid-card-padding-x: 1.35rem;
+$grid-card-padding-y: 1.25rem;
+$grid-card-meta-bottom: 1.4rem;
+
+@mixin brutal-surface($bg: $color-surface) {
+    background: $bg;
+    border: $border-heavy;
+    border-radius: $radius-sm;
+    box-shadow: $shadow-brutal;
+}
+
+@mixin brutal-surface-hover {
+    transform: translate(-2px, -2px);
+    box-shadow: $shadow-brutal-lg;
+}
+
+@mixin track-stripes($alpha: 0.028) {
+    background-image: repeating-linear-gradient(
+        -11deg,
+        transparent,
+        transparent 18px,
+        rgba($color-ink, $alpha) 18px,
+        rgba($color-ink, $alpha) 20px
+    );
+}
+
+@mixin lane-ticker($height: 3px) {
+    &::before {
+        content: "";
+        display: block;
+        height: $height;
+        margin-bottom: 1rem;
+        background: repeating-linear-gradient(
+            90deg,
+            $color-ink 0,
+            $color-ink 12px,
+            $color-speed 12px,
+            $color-speed 24px,
+            $color-mist-light 24px,
+            $color-mist-light 36px
+        );
+    }
+}
+
+@mixin timer-label {
+    font-family: $font-mono;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $color-muted;
+}
+
+@mixin hero-photo-scrim {
+    background: linear-gradient(
+        105deg,
+        rgba($color-ink, 0.42) 0%,
+        rgba($color-ink, 0.12) 38%,
+        transparent 62%
+    );
+}

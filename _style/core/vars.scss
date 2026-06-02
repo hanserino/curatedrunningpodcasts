@@ -1,19 +1,22 @@
+@import "tokens";
+
 /*
 * Breakpoints
 * ======================================================================== */
 $breakpoints: (
-    'small': 320px,
-    'medium': 700px,
-    'large': 1024px,
-    'xLarge': 1400px
+    "small": 320px,
+    "medium": 700px,
+    "large": 1024px,
+    "xLarge": 1400px
 );
 
+// Legacy alias used across filter / footer partials
+$contrast: $color-lane;
 
-$contrast: #70ac8e47;
+$site-max-width: 76rem;
+$content-max-width: $site-max-width;
+$home-content-max-width: $site-max-width;
 
-$content-max-width: 52rem;
-$home-content-max-width: 72rem;
-
-$page-gutter-mobile: 0.65rem;
-$card-padding-mobile-x: 0.75rem;
-$card-padding-mobile-y: 0.85rem;
+$page-gutter-mobile: 0.75rem;
+$card-padding-mobile-x: 0.85rem;
+$card-padding-mobile-y: 0.9rem;

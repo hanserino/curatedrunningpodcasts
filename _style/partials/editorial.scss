@@ -1,7 +1,6 @@
 .editorial {
     margin: 0.5rem 1rem 0;
     padding: 0 0 0.5rem;
-    max-width: 64rem;
 }
 
 .editorial__inner {
@@ -132,8 +131,6 @@
 }
 
 /* On-site podcast player (shared with /latest-episodes/ and post pages) */
-$ep-forest: #1a4d3a;
-$ep-mint: #2d6a4f;
 $ep-play-size: 2.75rem;
 $ep-row-art: 40px;
 $ep-play-compact: 2.25rem;
@@ -142,32 +139,32 @@ $ep-play-compact: 2.25rem;
     width: calc(100% + 2rem);
     margin-left: -1rem;
     margin-top: 1rem;
-    padding: 0 .25rem 1.5rem;
-    border-radius: 14px;
-    background: linear-gradient(
-        155deg,
-        rgba(112, 172, 142, 0.14) 0%,
-        rgba(255, 255, 255, 0.92) 38%,
-        #fff 100%
-    );
-    border: 1px solid rgba(112, 172, 142, 0.38);
-    box-shadow:
-        0 4px 28px rgba(26, 77, 58, 0.08),
-        0 1px 3px rgba(0, 0, 0, 0.04);
+    padding: 0 0.25rem 1.5rem;
+    @include brutal-surface;
+    box-shadow: $shadow-brutal;
+
+    .latest-page & {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 1rem 1rem 1.2rem;
+    }
 
     &--embedded {
         padding: 1rem 1rem 1.2rem;
         margin-top: 1.25rem;
     }
+
     @include allAbove(medium) {
-        padding: 1.25rem 1.25rem 1.5rem;
+        padding: 1.15rem 1.15rem 1.45rem;
     }
 
     &__title {
-        font-size: 1.35rem;
-        font-weight: bold;
+        font-family: $font-display;
+        font-size: 1.2rem;
+        font-weight: 700;
         margin: 0 0 1rem 0.75rem;
-        color: $ep-forest;
+        color: $color-ink;
         letter-spacing: -0.02em;
     }
 
@@ -176,17 +173,14 @@ $ep-play-compact: 2.25rem;
         overflow: hidden;
         display: grid;
         grid-template-columns: auto 1fr;
-        gap: 1.1rem;
+        gap: 1rem;
         align-items: stretch;
-        margin-bottom: 1.15rem;
-        padding: 1.05rem 1.1rem 1.15rem;
-        background:
-            linear-gradient(145deg, rgba(255, 255, 255, 0.94) 0%, rgba(244, 250, 246, 0.88) 100%);
-        border-radius: 16px;
-        border: 1px solid rgba(112, 172, 142, 0.28);
-        box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.95),
-            0 8px 28px rgba(26, 77, 58, 0.1);
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background: $color-surface;
+        border-radius: $radius-sm;
+        border: $border-heavy;
+        box-shadow: $shadow-brutal-sm;
     }
 
     &__player-waves {
@@ -209,21 +203,17 @@ $ep-play-compact: 2.25rem;
         z-index: 1;
         width: 96px;
         height: 96px;
-        border-radius: 14px;
+        border-radius: $radius-sm;
         overflow: hidden;
         flex-shrink: 0;
-        background: linear-gradient(140deg, $ep-mint 0%, $ep-forest 100%);
-        box-shadow:
-            0 6px 18px rgba(26, 77, 58, 0.28),
-            inset 0 0 0 1px rgba(255, 255, 255, 0.12);
-        transition:
-            box-shadow 0.25s ease,
-            transform 0.25s ease;
+        background: $color-lane;
+        border: $border-heavy;
+        box-shadow: $shadow-brutal-sm;
 
         .latest-episodes--transport-active & {
-            box-shadow:
-                0 8px 24px rgba(26, 77, 58, 0.34),
-                0 0 0 3px rgba(112, 172, 142, 0.35);
+            box-shadow: $shadow-brutal;
+            outline: 3px solid $color-speed;
+            outline-offset: 0;
         }
 
         &--empty {
@@ -267,18 +257,19 @@ $ep-play-compact: 2.25rem;
         min-height: 2.75em;
 
         &--idle {
-            color: rgba(0, 0, 0, 0.52);
+            color: $color-muted;
             font-style: italic;
         }
     }
 
     &__now-playing-kicker {
         display: block;
+        font-family: $font-mono;
         font-size: 0.68rem;
-        font-weight: bold;
-        letter-spacing: 0.08em;
+        font-weight: 600;
+        letter-spacing: 0.1em;
         text-transform: uppercase;
-        color: $ep-mint;
+        color: $color-muted;
         margin-bottom: 0.25rem;
         font-style: normal;
     }
@@ -295,11 +286,11 @@ $ep-play-compact: 2.25rem;
 
     &__now-playing-sep {
         font-weight: normal;
-        color: rgba(0, 0, 0, 0.35);
+        color: $color-muted;
     }
 
     &__now-playing-show {
-        color: rgba(0, 0, 0, 0.68);
+        color: $color-muted;
     }
 
     &__transport {
@@ -319,29 +310,27 @@ $ep-play-compact: 2.25rem;
         width: 3.25rem;
         height: 3.25rem;
         padding: 0;
-        border: none;
-        border-radius: 50%;
+        border: $border-heavy;
+        border-radius: $radius-sm;
         cursor: pointer;
-        color: #fff;
-        background: linear-gradient(145deg, #3a9168 0%, $ep-forest 100%);
-        box-shadow: 0 4px 16px rgba(26, 77, 58, 0.38);
+        color: $color-ink;
+        background: $color-speed;
+        box-shadow: $shadow-brutal-sm;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
         transition:
-            transform 0.15s ease,
-            box-shadow 0.15s ease,
-            filter 0.15s ease;
+            transform 0.12s ease,
+            box-shadow 0.12s ease;
 
         &:hover {
-            transform: scale(1.05);
-            filter: brightness(1.05);
+            @include brutal-surface-hover;
         }
 
         &--playing {
-            background: linear-gradient(145deg, #c65d42 0%, #9c3d28 100%);
-            box-shadow: 0 4px 16px rgba(180, 70, 45, 0.4);
+            background: $color-warm;
+            color: $color-surface;
 
             .latest-episodes__deck-play-glyph {
                 width: 12px;
@@ -376,11 +365,12 @@ $ep-play-compact: 2.25rem;
         width: 2.35rem;
         height: 2.35rem;
         padding: 0;
-        border: 1px solid rgba(26, 77, 58, 0.14);
-        border-radius: 50%;
+        border: $border-heavy;
+        border-radius: $radius-sm;
         cursor: pointer;
-        background: rgba(255, 255, 255, 0.82);
-        color: $ep-forest;
+        background: $color-surface;
+        color: $color-ink;
+        box-shadow: $shadow-brutal-sm;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -391,9 +381,10 @@ $ep-play-compact: 2.25rem;
             transform 0.12s ease;
 
         &:hover {
-            background: rgba(112, 172, 142, 0.16);
-            border-color: rgba(26, 77, 58, 0.24);
-            transform: scale(1.04);
+            background: rgba($color-speed, 0.16);
+            border-color: $color-ink;
+            transform: translate(-1px, -1px);
+            box-shadow: $shadow-brutal-sm;
         }
     }
 
@@ -412,10 +403,12 @@ $ep-play-compact: 2.25rem;
     }
 
     &__time {
+        font-family: $font-mono;
         font-size: 0.72rem;
+        font-weight: 600;
         font-variant-numeric: tabular-nums;
-        color: rgba(26, 77, 58, 0.78);
-        min-width: 2.4rem;
+        color: $color-ink;
+        min-width: 2.75rem;
         line-height: 1;
 
         &:last-child {
@@ -435,10 +428,11 @@ $ep-play-compact: 2.25rem;
         left: 0;
         right: 0;
         top: 50%;
-        height: 5px;
-        margin-top: -2.5px;
-        border-radius: 999px;
-        background: rgba(26, 77, 58, 0.12);
+        height: 6px;
+        margin-top: -3px;
+        border-radius: 0;
+        background: $color-lane;
+        border: 1px solid rgba($color-ink, 0.15);
         pointer-events: none;
     }
 
@@ -446,10 +440,10 @@ $ep-play-compact: 2.25rem;
         position: absolute;
         left: 0;
         top: 50%;
-        height: 5px;
-        margin-top: -2.5px;
+        height: 6px;
+        margin-top: -3px;
         width: 0%;
-        border-radius: 999px 0 0 999px;
+        border-radius: 0;
         pointer-events: none;
         overflow: visible;
         z-index: 1;
@@ -460,19 +454,19 @@ $ep-play-compact: 2.25rem;
         width: 100%;
         height: 100%;
         border-radius: inherit;
-        background: linear-gradient(90deg, #5a9e78 0%, $ep-forest 100%);
+        background: $color-speed;
     }
 
     &__scrub-thumb {
         position: absolute;
         top: 50%;
         right: 0;
-        width: 13px;
-        height: 13px;
-        border-radius: 50%;
-        background: #fff;
-        border: 2px solid $ep-forest;
-        box-shadow: 0 1px 6px rgba(26, 77, 58, 0.28);
+        width: 12px;
+        height: 12px;
+        border-radius: 0;
+        background: $color-ink;
+        border: none;
+        box-shadow: none;
         pointer-events: none;
         transform: translate(50%, -50%);
         transition: transform 0.12s ease;
@@ -489,8 +483,8 @@ $ep-play-compact: 2.25rem;
         z-index: 2;
 
         &:focus-visible ~ .latest-episodes__scrub-progress .latest-episodes__scrub-thumb {
-            transform: translate(50%, -50%) scale(1.12);
-            outline: 2px solid #0d47a1;
+            transform: translate(50%, -50%) scale(1.15);
+            outline: 3px solid $color-speed;
             outline-offset: 2px;
         }
     }
@@ -519,39 +513,39 @@ $ep-play-compact: 2.25rem;
     }
 
     &__item {
-        margin-bottom: 0.2rem;
-        padding: 0.4rem 0.5rem;
-        border-radius: 8px;
-        border: 1px solid transparent;
+        margin-bottom: 0.25rem;
+        padding: 0.45rem 0.55rem;
+        border-radius: $radius-sm;
+        border: $border-width solid transparent;
         transition:
-            background 0.15s ease,
-            border-color 0.15s ease,
-            box-shadow 0.15s ease;
+            background 0.12s ease,
+            border-color 0.12s ease,
+            box-shadow 0.12s ease;
 
         &:nth-child(odd) {
-            background: rgba(255, 255, 255, 0.45);
+            background: rgba($color-lane, 0.45);
         }
 
         &:nth-child(even) {
-            background: rgba(112, 172, 142, 0.08);
+            background: transparent;
+        }
+
+        &:hover {
+            background: $color-lane;
+        }
+
+        &--current {
+            border-color: $color-ink;
+            background: rgba($color-speed, 0.14);
+            box-shadow: $shadow-brutal-sm;
+        }
+
+        &--playing {
+            background: rgba($color-speed, 0.22);
         }
 
         &:last-child {
             margin-bottom: 0;
-        }
-
-        &:hover {
-            background: rgba(112, 172, 142, 0.14);
-        }
-
-        &--current {
-            background: rgba(112, 172, 142, 0.16);
-            border-color: rgba(112, 172, 142, 0.32);
-            box-shadow: 0 2px 10px rgba(26, 77, 58, 0.07);
-        }
-
-        &--playing {
-            background: rgba(112, 172, 142, 0.2);
         }
     }
 
@@ -559,17 +553,17 @@ $ep-play-compact: 2.25rem;
     &__listen-track {
         margin-top: 0.35rem;
         height: 4px;
-        border-radius: 2px;
-        background: rgba(0, 0, 0, 0.09);
+        border-radius: 0;
+        background: $color-lane;
+        border: 1px solid rgba($color-ink, 0.12);
         overflow: hidden;
     }
 
     &__listen-fill {
         height: 100%;
         width: 0%;
-        border-radius: 2px;
-        background: linear-gradient(90deg, $ep-mint 0%, $ep-forest 100%);
-        box-shadow: 0 0 0 1px rgba(26, 77, 58, 0.12);
+        border-radius: 0;
+        background: $color-speed;
     }
 
     &__play {
@@ -579,34 +573,32 @@ $ep-play-compact: 2.25rem;
         padding: 0;
         margin-right: 0.65rem;
         margin-top: 0.1rem;
-        border: none;
-        border-radius: 50%;
+        border: $border-heavy;
+        border-radius: $radius-sm;
         cursor: pointer;
-        background: linear-gradient(145deg, #348060 0%, $ep-forest 100%);
-        color: #fff;
-        box-shadow: 0 3px 12px rgba(26, 77, 58, 0.38);
+        background: $color-speed;
+        color: $color-ink;
+        box-shadow: $shadow-brutal-sm;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         flex-shrink: 0;
         transition:
             transform 0.12s ease,
-            box-shadow 0.12s ease,
-            filter 0.12s ease;
+            box-shadow 0.12s ease;
 
         &:hover {
-            transform: scale(1.06);
-            filter: brightness(1.06);
+            @include brutal-surface-hover;
         }
 
         &:focus-visible {
-            outline: 2px solid #0d47a1;
+            outline: 3px solid $color-ink;
             outline-offset: 2px;
         }
 
         &--playing {
-            background: linear-gradient(145deg, #c65d42 0%, #9c3d28 100%);
-            box-shadow: 0 3px 14px rgba(180, 70, 45, 0.42);
+            background: $color-warm;
+            color: $color-surface;
         }
 
         &--compact {
@@ -614,7 +606,7 @@ $ep-play-compact: 2.25rem;
             height: $ep-play-compact;
             min-width: $ep-play-compact;
             margin: 0;
-            box-shadow: 0 2px 8px rgba(26, 77, 58, 0.32);
+            box-shadow: $shadow-brutal-sm;
 
             .latest-episodes__play-glyph {
                 border-width: 5px 0 5px 9px;
@@ -669,7 +661,7 @@ $ep-play-compact: 2.25rem;
 
     &__meta {
         margin: 0.25rem 0 0;
-        color: rgba(0, 0, 0, 0.7);
+        color: $color-muted;
         font-size: 0.9rem;
     }
 
@@ -681,7 +673,7 @@ $ep-play-compact: 2.25rem;
 
     &__unavailable {
         margin: 0.25rem 0 0;
-        color: rgba(0, 0, 0, 0.7);
+        color: $color-muted;
     }
 
     &__row {
@@ -711,7 +703,7 @@ $ep-play-compact: 2.25rem;
     &__episode-date {
         font-size: 0.85rem;
         font-weight: normal;
-        color: rgba(0, 0, 0, 0.55);
+        color: $color-muted;
         line-height: 1.3;
     }
 
@@ -738,10 +730,11 @@ $ep-play-compact: 2.25rem;
         grid-row: 1;
         width: $ep-row-art;
         height: $ep-row-art;
-        border-radius: 6px;
+        border-radius: $radius-sm;
         overflow: hidden;
         flex-shrink: 0;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+        border: $border-heavy;
+        box-shadow: $shadow-brutal-sm;
 
         &--empty {
             display: flex;
@@ -752,10 +745,10 @@ $ep-play-compact: 2.25rem;
         .latest-episodes__cover {
             width: $ep-row-art;
             height: $ep-row-art;
-            border-radius: 6px;
+            border-radius: 0;
             object-fit: cover;
             display: block;
-            background: rgba(0, 0, 0, 0.05);
+            background: $color-lane;
         }
     }
 
@@ -763,9 +756,8 @@ $ep-play-compact: 2.25rem;
         display: block;
         width: $ep-row-art;
         height: $ep-row-art;
-        border-radius: 6px;
-        background: linear-gradient(135deg, rgba(112, 172, 142, 0.2) 0%, rgba(0, 0, 0, 0.04) 100%);
-        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06);
+        border-radius: 0;
+        background: linear-gradient(135deg, rgba($color-speed, 0.2) 0%, $color-lane 100%);
     }
 
     &__episode-stack > .latest-episodes__play {
@@ -778,10 +770,11 @@ $ep-play-compact: 2.25rem;
         grid-column: 3;
         grid-row: 1;
         margin: 0;
+        font-family: $font-display;
         font-size: 0.8rem;
         font-weight: 600;
         line-height: 1.25;
-        color: #1a1a1a;
+        color: $color-ink;
         min-width: 0;
         white-space: nowrap;
         overflow: hidden;
@@ -793,9 +786,10 @@ $ep-play-compact: 2.25rem;
         grid-row: 2;
         margin: 0;
         padding: 0;
+        font-family: $font-mono;
         font-size: 0.68rem;
         line-height: 1.3;
-        color: rgba(0, 0, 0, 0.58);
+        color: $color-muted;
 
         .latest-episodes__podcast-link {
             font-size: inherit;
@@ -813,10 +807,11 @@ $ep-play-compact: 2.25rem;
     &__cover {
         width: 56px;
         height: 56px;
-        border-radius: 8px;
+        border-radius: $radius-sm;
         object-fit: cover;
-        background: rgba(0, 0, 0, 0.05);
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        background: $color-lane;
+        border: $border-heavy;
+        box-shadow: $shadow-brutal-sm;
     }
 
     &__content {
@@ -839,7 +834,7 @@ $ep-play-compact: 2.25rem;
             padding: 0 0 0.6rem 0;
             margin-bottom: 0.85rem;
             border-radius: 0;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+            border-bottom: $border-width solid rgba($color-ink, 0.12);
 
             &:nth-child(odd),
             &:nth-child(even) {
@@ -847,13 +842,13 @@ $ep-play-compact: 2.25rem;
             }
 
             &:hover {
-                background: transparent;
+                background: $color-lane;
             }
 
             &--current,
             &--playing {
-                background: transparent;
-                border-color: rgba(0, 0, 0, 0.08);
+                background: rgba($color-speed, 0.12);
+                border-color: $color-ink;
                 box-shadow: none;
             }
         }

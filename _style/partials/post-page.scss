@@ -1,16 +1,4 @@
-$pp-forest: #1a4d3a;
-$pp-mint: #2d6a4f;
-$pp-mint-light: #348060;
-$pp-accent: rgba(112, 172, 142, 0.38);
-$pp-accent-strong: rgba(112, 172, 142, 0.55);
-
 .post-page {
-    background: linear-gradient(
-        180deg,
-        rgba(112, 172, 142, 0.11) 0%,
-        rgba(255, 255, 255, 0) 14rem
-    );
-
     &--podcast {
         .post-article {
             padding: 0 1rem 2rem;
@@ -25,28 +13,9 @@ $pp-accent-strong: rgba(112, 172, 142, 0.55);
     &__intro {
         position: relative;
         margin-bottom: 1.5rem;
-        padding: 1.1rem 1.25rem 1.25rem;
-        border-radius: 18px;
-        border: 1px solid $pp-accent;
-        background: linear-gradient(
-            145deg,
-            rgba(255, 255, 255, 0.97) 0%,
-            rgba(112, 172, 142, 0.1) 100%
-        );
-        box-shadow:
-            0 8px 32px rgba(26, 77, 58, 0.09),
-            0 2px 8px rgba(0, 0, 0, 0.04);
-
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            border-radius: 18px 18px 0 0;
-            background: linear-gradient(90deg, $pp-mint 0%, $pp-forest 55%, $pp-mint-light 100%);
-        }
+        padding: 1.15rem 1.2rem 1.25rem;
+        @include brutal-surface;
+        @include lane-ticker;
     }
 
     &__intro-bar {
@@ -55,38 +24,28 @@ $pp-accent-strong: rgba(112, 172, 142, 0.55);
         align-items: center;
         justify-content: space-between;
         gap: 0.5rem 1rem;
-        margin-bottom: 1.15rem;
+        margin-bottom: 1rem;
 
         .header__nav-shell {
             position: relative;
             margin-left: auto;
         }
-
-        .header__menu-toggle {
-            @include allBelow(medium) {
-                position: relative;
-                top: auto;
-                right: auto;
-            }
-        }
     }
 
     &__back {
         margin: 0;
-        font-size: 0.92rem;
-        font-weight: 600;
+        font-size: 0.88rem;
+        font-weight: 700;
 
         a {
-            color: $pp-forest;
-            text-decoration: none;
+            color: $color-ink;
+            text-decoration: underline;
+            text-underline-offset: 3px;
             font-style: normal;
-            border-bottom: 2px solid rgba(112, 172, 142, 0.45);
 
             &:hover,
             &:focus-visible {
-                color: $pp-mint;
-                border-bottom-color: $pp-mint;
-                background: transparent;
+                background: $color-lane;
             }
         }
     }
@@ -112,22 +71,14 @@ $pp-accent-strong: rgba(112, 172, 142, 0.55);
             justify-content: flex-start;
         }
 
-        .podcast-cover,
-        picture {
-            display: block;
-        }
-
         img {
             width: 100%;
             max-width: 220px;
             aspect-ratio: 1 / 1;
             object-fit: cover;
-            border-radius: 16px;
             display: block;
-            box-shadow:
-                0 10px 32px rgba(26, 77, 58, 0.22),
-                0 0 0 4px #fff,
-                0 0 0 6px rgba(112, 172, 142, 0.35);
+            border: $border-heavy;
+            box-shadow: $shadow-brutal;
 
             @include allAbove(medium) {
                 max-width: 200px;
@@ -145,193 +96,112 @@ $pp-accent-strong: rgba(112, 172, 142, 0.55);
     &__tag {
         display: inline-block;
         padding: 0.2rem 0.55rem;
-        border-radius: 999px;
+        border-radius: $radius-sm;
+        font-family: $font-mono;
         font-size: 0.68rem;
-        font-weight: bold;
+        font-weight: 600;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        color: $pp-forest;
-        background: rgba(112, 172, 142, 0.14);
-        border: 1px solid $pp-accent;
+        color: $color-ink;
+        background: rgba($color-mist-light, 0.55);
+        border: $border-width solid $color-ink;
     }
 
     &__details {
         min-width: 0;
 
         .post-article__title {
-            font-family: 'Fugaz One', sans-serif;
-            font-size: clamp(1.55rem, 4vw, 2.15rem);
-            font-weight: normal;
+            font-family: $font-display;
+            font-size: clamp(1.65rem, 4vw, 2.35rem);
+            font-weight: 700;
             margin: 0 0 0.5rem;
-            color: $pp-forest;
-            letter-spacing: -0.02em;
-            line-height: 1.15;
+            color: $color-ink;
+            letter-spacing: -0.03em;
+            line-height: 1.05;
         }
 
         .post-article__lede {
             margin: 0 0 1rem;
             max-width: 40rem;
-            color: rgba(0, 0, 0, 0.78);
-            line-height: 1.5;
+            color: $color-muted;
+            line-height: 1.55;
             font-size: 1.05rem;
         }
     }
 
-    &__body {
-        margin-bottom: 0.5rem;
-    }
-
     &--podcast {
-        .post-article__meta {
-            margin: 0 0 1rem;
-        }
-
         .podcast-loop__item__link-title {
             display: flex;
             align-items: center;
             gap: 0.5rem;
             margin: 0 0 0.65rem;
+            font-family: $font-mono;
             font-size: 0.72rem;
-            font-weight: bold;
-            letter-spacing: 0.1em;
+            font-weight: 600;
+            letter-spacing: 0.08em;
             text-transform: uppercase;
-            color: rgba(0, 0, 0, 0.5);
+            color: $color-muted;
 
             &::after {
                 content: "";
                 flex: 1;
-                height: 1px;
-                background: linear-gradient(90deg, $pp-accent-strong 0%, transparent 100%);
+                height: 2px;
+                background: repeating-linear-gradient(
+                    90deg,
+                    $color-ink 0,
+                    $color-ink 8px,
+                    transparent 8px,
+                    transparent 14px
+                );
             }
         }
 
-        .podcast-loop__item__links {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.45rem;
-            list-style: none;
-            margin: 0;
-            padding: 0;
+        .podcast-loop__item__links a {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.4rem 0.75rem;
+            border-radius: $radius-sm;
+            font-size: 0.88rem;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none;
+            color: $color-ink;
+            background: $color-surface;
+            border: $border-heavy;
+            box-shadow: $shadow-brutal-sm;
 
-            li {
-                margin: 0;
+            &:hover,
+            &:focus-visible {
+                background: $color-speed;
+                transform: translate(-1px, -1px);
+                box-shadow: $shadow-brutal;
             }
-
-            a {
-                display: inline-flex;
-                align-items: center;
-                padding: 0.4rem 0.75rem;
-                border-radius: 999px;
-                font-size: 0.88rem;
-                font-weight: 600;
-                font-style: normal;
-                text-decoration: none;
-                color: $pp-forest;
-                background: rgba(112, 172, 142, 0.14);
-                border: 1px solid rgba(112, 172, 142, 0.35);
-                transition:
-                    background 0.15s ease,
-                    color 0.15s ease,
-                    border-color 0.15s ease;
-
-                &:hover,
-                &:focus-visible {
-                    background: $pp-forest;
-                    color: #fff;
-                    border-color: $pp-forest;
-                }
-            }
-        }
-
-        .post-article__content {
-            margin: 0;
-            padding: 0;
         }
 
         .latest-episodes {
             width: 100%;
             margin: 0;
-            padding: 1.15rem 1.15rem 1.35rem;
-            border-radius: 20px;
-            border: 1px solid $pp-accent-strong;
-            background: #fff;
-            box-shadow:
-                0 10px 40px rgba(26, 77, 58, 0.1),
-                0 2px 6px rgba(0, 0, 0, 0.04);
-
-            &--embedded {
-                padding: 1.15rem 1.15rem 1.35rem;
-                margin-top: 0;
-            }
-
-            &__title {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-                margin: 0 0 1rem 0.5rem;
-                font-size: 0.72rem;
-                font-weight: bold;
-                letter-spacing: 0.1em;
-                text-transform: uppercase;
-                color: rgba(0, 0, 0, 0.5);
-
-                &::after {
-                    content: "";
-                    flex: 1;
-                    height: 1px;
-                    background: linear-gradient(90deg, $pp-accent-strong 0%, transparent 100%);
-                }
-            }
-
-            &__player-shell {
-                border-color: rgba(112, 172, 142, 0.2);
-            }
-
-            &__item {
-                border-radius: 10px;
-
-                &:hover {
-                    background: rgba(112, 172, 142, 0.12);
-                }
-
-                &--current {
-                    border-color: $pp-accent-strong;
-                }
-            }
+            padding: 1rem 1rem 1.2rem;
+            @include brutal-surface;
         }
 
         .post-article__footer {
             margin-top: 2rem;
             padding-top: 1.25rem;
-            border-top: 1px solid $pp-accent;
-        }
-
-        .post-article__back a {
-            font-weight: 600;
-            font-style: normal;
-            color: $pp-forest;
-            text-decoration: none;
-            border-bottom: 2px solid rgba(112, 172, 142, 0.45);
-
-            &:hover,
-            &:focus-visible {
-                color: $pp-mint;
-                border-bottom-color: $pp-mint;
-                background: transparent;
-            }
+            border-top: $border-heavy;
         }
     }
 
     .main-nav__link {
-        color: $pp-forest;
+        color: $color-ink;
 
         &:hover {
-            border-bottom-color: $pp-mint;
+            border-bottom-color: $color-speed;
             background: transparent;
         }
 
         &[aria-current="page"] {
-            border-bottom-color: $pp-mint;
+            border-bottom-color: $color-speed;
         }
     }
 }
@@ -344,25 +214,21 @@ $pp-accent-strong: rgba(112, 172, 142, 0.55);
 
     .post-page__intro--compact {
         margin-bottom: 1.25rem;
-        padding-bottom: 1rem;
     }
 
     .post-page__about-title {
         margin: 0.5rem 0 0;
-        font-family: 'Fugaz One', sans-serif;
-        font-size: clamp(1.55rem, 4vw, 2rem);
-        font-weight: normal;
-        color: $pp-forest;
-        letter-spacing: -0.02em;
-        line-height: 1.15;
+        font-family: $font-display;
+        font-size: clamp(1.65rem, 4vw, 2.2rem);
+        font-weight: 800;
+        color: $color-ink;
+        letter-spacing: -0.03em;
+        line-height: 1.08;
     }
 
     .post-article__content {
         padding: 1rem 1.05rem;
-        border-radius: 14px;
-        border: 1px solid $pp-accent;
-        background: rgba(255, 255, 255, 0.94);
-        box-shadow: 0 4px 20px rgba(26, 77, 58, 0.08);
+        @include brutal-surface;
         line-height: 1.55;
 
         p {
@@ -372,20 +238,11 @@ $pp-accent-strong: rgba(112, 172, 142, 0.55);
 }
 
 .post-page:not(.post-page--podcast):not(.post-page--about) {
-    .header--post {
-        padding: 0.75rem 1rem 0;
-    }
-
-    .post-article {
-        padding: 0 1rem 2rem;
-        max-width: none;
-    }
-
     .post-article__title {
-        color: $pp-forest;
+        color: $color-ink;
     }
 
     .post-article__footer {
-        border-top-color: $pp-accent;
+        border-top: $border-heavy;
     }
 }

@@ -1,44 +1,48 @@
-.footer{
-    margin: 8rem auto 2rem auto;
-    padding: 0 1rem;
+.footer {
+    max-width: $site-max-width;
+    margin: 4rem auto 2rem auto;
+    padding: 0 1rem 1.5rem;
     text-align: center;
+    font-family: $font-mono;
+    font-size: 0.82rem;
+    color: $color-muted;
 
     .submit-btn {
         margin: 0 0 2rem 0;
 
-        @include allAbove(medium){
+        @include allAbove(medium) {
             display: none;
         }
     }
 
-    // Same-site link to /admin/ (Decap CMS)
     &__admin {
         display: inline-block;
         margin: 0.15em 0 0 0.15em;
-        padding: 0.2em 0.65em;
-        border: 1px solid $contrast;
-        border-radius: 4px;
+        padding: 0.25em 0.65em;
+        border: $border-heavy;
+        border-radius: $radius-sm;
         font-size: 0.95em;
         line-height: 1.2;
         text-decoration: none;
         vertical-align: middle;
+        box-shadow: $shadow-brutal-sm;
+        color: $color-ink;
 
         &:hover,
         &:focus-visible {
-            background-color: $contrast;
+            background-color: $color-lane;
             text-decoration: none;
         }
     }
 
     &__build-meta {
         margin: 0.75rem 0 0;
-        font-size: 0.82rem;
+        font-size: 0.78rem;
         line-height: 1.35;
-        color: rgba(0, 0, 0, 0.52);
+        color: $color-muted;
     }
 
     &__build-label {
         margin-right: 0.25em;
     }
 }
-

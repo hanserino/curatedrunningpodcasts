@@ -1,10 +1,16 @@
 // Tighter outer gutters and card padding on small screens site-wide.
 
 @include allBelow(medium) {
-    body.home-page .home-page__intro {
-        margin-left: $page-gutter-mobile;
-        margin-right: $page-gutter-mobile;
-        padding: 0.95rem $card-padding-mobile-x 1rem;
+    body.home-page .home-page__hero-content {
+        padding: 1rem $page-gutter-mobile 1.2rem;
+    }
+
+    body.home-page .home-page__title {
+        max-width: none;
+    }
+
+    body.home-page .home-page__hero-bg {
+        background-position: 68% 35%;
     }
 
     body.home-page .home-page__directory {
@@ -21,12 +27,9 @@
         padding: 0.85rem $card-padding-mobile-x;
     }
 
-    .home-page .home-page__toolbar {
-        padding: 0.45rem 0.65rem;
-    }
-
-    .home-page .filter {
-        padding: 0.7rem $card-padding-mobile-x 0.8rem;
+    .home-page .home-page__controls {
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .home-page .podcast-loop {

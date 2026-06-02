@@ -1,16 +1,4 @@
-$lp-forest: #1a4d3a;
-$lp-mint: #2d6a4f;
-$lp-mint-light: #348060;
-$lp-accent: rgba(112, 172, 142, 0.38);
-$lp-accent-strong: rgba(112, 172, 142, 0.55);
-
 .latest-page {
-    background: linear-gradient(
-        180deg,
-        rgba(112, 172, 142, 0.11) 0%,
-        rgba(255, 255, 255, 0) 14rem
-    );
-
     .latest {
         padding: 0 1rem 2rem;
     }
@@ -20,28 +8,9 @@ $lp-accent-strong: rgba(112, 172, 142, 0.55);
         z-index: 1;
         overflow: visible;
         margin-bottom: 1.5rem;
-        padding: 1.1rem 1.25rem 1.25rem;
-        border-radius: 18px;
-        border: 1px solid $lp-accent;
-        background: linear-gradient(
-            145deg,
-            rgba(255, 255, 255, 0.97) 0%,
-            rgba(112, 172, 142, 0.1) 100%
-        );
-        box-shadow:
-            0 8px 32px rgba(26, 77, 58, 0.09),
-            0 2px 8px rgba(0, 0, 0, 0.04);
-
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            border-radius: 18px 18px 0 0;
-            background: linear-gradient(90deg, $lp-mint 0%, $lp-forest 55%, $lp-mint-light 100%);
-        }
+        padding: 1.15rem 1.2rem 1.25rem;
+        @include brutal-surface;
+        @include lane-ticker;
 
         .post-page__intro-bar {
             margin-bottom: 0.85rem;
@@ -49,30 +18,26 @@ $lp-accent-strong: rgba(112, 172, 142, 0.55);
     }
 
     &__kicker {
-        margin: 0 0 0.35rem;
-        font-size: 0.72rem;
-        font-weight: bold;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-        color: $lp-mint;
+        @include timer-label;
+        margin: 0 0 0.5rem;
     }
 
     .latest__title {
-        font-family: 'Fugaz One', sans-serif;
-        font-size: clamp(1.75rem, 4.5vw, 2.35rem);
-        font-weight: normal;
-        margin: 0 0 0.55rem;
-        color: $lp-forest;
+        font-family: $font-display;
+        font-size: clamp(1.65rem, 4vw, 2.35rem);
+        font-weight: 700;
+        margin: 0 0 0.5rem;
+        color: $color-ink;
         letter-spacing: -0.03em;
-        line-height: 1.15;
+        line-height: 1.05;
     }
 
     .latest__lede {
         margin: 0;
         max-width: 40rem;
-        color: rgba(0, 0, 0, 0.78);
-        line-height: 1.5;
-        font-size: 1.08rem;
+        color: $color-muted;
+        line-height: 1.55;
+        font-size: 1.05rem;
     }
 
     &__player {
@@ -87,100 +52,60 @@ $lp-accent-strong: rgba(112, 172, 142, 0.55);
     .latest-episodes {
         width: 100%;
         margin: 0;
-        padding: 1.15rem 1.15rem 1.35rem;
-        border-radius: 20px;
-        border: 1px solid $lp-accent-strong;
-        background: #fff;
-        box-shadow:
-            0 10px 40px rgba(26, 77, 58, 0.1),
-            0 2px 6px rgba(0, 0, 0, 0.04);
+        padding: 1rem 1rem 1.2rem;
+        box-shadow: $shadow-brutal;
 
         &__title {
             display: flex;
             align-items: center;
             gap: 0.5rem;
-            margin: 0 0 1rem 0.5rem;
-            font-size: 0.72rem;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: rgba(0, 0, 0, 0.5);
+            margin: 0 0 1rem 0.25rem;
+            @include timer-label;
 
             &::after {
                 content: "";
                 flex: 1;
-                height: 1px;
-                background: linear-gradient(90deg, $lp-accent-strong 0%, transparent 100%);
+                height: 2px;
+                background: repeating-linear-gradient(
+                    90deg,
+                    $color-ink 0,
+                    $color-ink 8px,
+                    transparent 8px,
+                    transparent 14px
+                );
             }
-        }
-
-        &__player-shell {
-            border-color: rgba(112, 172, 142, 0.2);
-            background: rgba(248, 252, 250, 0.85);
-        }
-
-        &__item {
-            border-radius: 10px;
-
-            &:hover {
-                background: rgba(112, 172, 142, 0.12);
-            }
-
-            &--current {
-                border-color: $lp-accent-strong;
-            }
-        }
-
-        &__podcast-link {
-            color: $lp-forest;
-            font-style: normal;
-            text-decoration: none;
-            border-bottom: 1px solid rgba(112, 172, 142, 0.45);
-
-            &:hover,
-            &:focus-visible {
-                color: $lp-mint;
-                border-bottom-color: $lp-mint;
-                background: transparent;
-            }
-        }
-
-        &__episode-title--row {
-            color: $lp-forest;
         }
     }
 
     .post-article__footer {
         margin-top: 2rem;
         padding-top: 1.25rem;
-        border-top: 1px solid $lp-accent;
+        border-top: $border-heavy;
     }
 
     .post-article__back a {
-        font-weight: 600;
+        font-weight: 700;
         font-style: normal;
-        color: $lp-forest;
-        text-decoration: none;
-        border-bottom: 2px solid rgba(112, 172, 142, 0.45);
+        color: $color-ink;
+        text-decoration: underline;
+        text-underline-offset: 3px;
 
         &:hover,
         &:focus-visible {
-            color: $lp-mint;
-            border-bottom-color: $lp-mint;
-            background: transparent;
+            background: $color-lane;
         }
     }
 
     .main-nav__link {
-        color: $lp-forest;
+        color: $color-ink;
 
         &:hover {
-            border-bottom-color: $lp-mint;
+            border-bottom-color: $color-speed;
             background: transparent;
         }
 
         &[aria-current="page"] {
-            border-bottom-color: $lp-mint;
+            border-bottom-color: $color-speed;
         }
     }
 }

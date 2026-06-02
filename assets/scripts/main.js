@@ -107,13 +107,56 @@ function updateFilterResultsCount() {
     var hasLang = !!(langInput && langInput.value);
     var filtered = hasCategory || hasLang;
 
+    el.classList.remove('filter__results--active', 'filter__results--empty');
+
     if (visible === 0) {
-        el.textContent = 'No podcasts match these filters. Reset or pick other options below.';
+        el.textContent = 'No matches — try fewer filters or clear all.';
+        el.classList.add('filter__results--empty');
     } else if (filtered) {
         el.textContent =
             'Showing ' + visible + ' of ' + filterTotalItems + ' podcast' + (filterTotalItems === 1 ? '' : 's');
+        el.classList.add('filter__results--active');
     } else {
-        el.textContent = filterTotalItems + ' podcast' + (filterTotalItems === 1 ? '' : 's') + ' in the list';
+        el.textContent = filterTotalItems + ' podcast' + (filterTotalItems === 1 ? '' : 's') + ' in the directory';
+    }
+
+    updateFilterChrome();
+}
+
+function getActiveFilterCount() {
+    var count = document.querySelectorAll('input[name="category"]:checked').length;
+    var langInput = document.querySelector('input[name="language_filter"]:checked');
+    if (langInput && langInput.value) {
+        count += 1;
+    }
+    return count;
+}
+
+function updateFilterChrome() {
+    var filter = document.getElementById('filter');
+    var clearBtn = document.querySelector('.filter__clear-all');
+    var toggleText = document.querySelector('.filter__toggle-text');
+    var panel = document.getElementById('filter-body');
+    var activeCount = getActiveFilterCount();
+    var hasFilters = activeCount > 0;
+
+    if (filter) {
+        filter.classList.toggle('filter--active', hasFilters);
+    }
+
+    if (clearBtn) {
+        clearBtn.hidden = !hasFilters;
+    }
+
+    if (toggleText && panel) {
+        var open = !panel.hidden;
+        if (open) {
+            toggleText.textContent = 'Hide filters';
+        } else if (hasFilters) {
+            toggleText.textContent = 'Filters (' + activeCount + ')';
+        } else {
+            toggleText.textContent = 'Show filters';
+        }
     }
 }
 
@@ -213,15 +256,25 @@ function setInitialGridModeByViewport() {
 
 function wireFilterCollapse() {
     var toggle = document.getElementById('filter-toggle');
-    var panel = document.getElementById('filter-collapsible');
+    var panel = document.getElementById('filter-body');
     if (!toggle || !panel) {
         return;
     }
 
+    function isDesktopFilters() {
+        return window.matchMedia && window.matchMedia('(min-width: 700px)').matches;
+    }
+
     function setOpen(open) {
+        if (isDesktopFilters()) {
+            panel.hidden = false;
+            toggle.setAttribute('aria-expanded', 'true');
+            return;
+        }
+
         panel.hidden = !open;
         toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        toggle.textContent = open ? 'Hide filters' : 'Show filters';
+        updateFilterChrome();
     }
 
     toggle.addEventListener('click', function () {
@@ -232,12 +285,20 @@ function wireFilterCollapse() {
         if (e.key !== 'Escape') {
             return;
         }
-        if (panel.hidden) {
+        if (isDesktopFilters() || panel.hidden) {
             return;
         }
         setOpen(false);
         toggle.focus();
     });
+
+    window.addEventListener('resize', function () {
+        if (isDesktopFilters()) {
+            setOpen(true);
+        }
+    });
+
+    setOpen(!isDesktopFilters() ? false : true);
 }
 
 function wireFilterAndGrid() {
