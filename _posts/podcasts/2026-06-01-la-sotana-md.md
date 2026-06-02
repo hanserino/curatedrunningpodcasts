@@ -3,13 +3,10 @@ date: 2026-06-02
 title: La Sotana
 category: podcast
 published: "true"
-description: "Ja ho sabeu: La Sotana és un programa d’esports, és a dir de
-  futbol, és a dir del Barça, és a dir de Messi. 100% lliure de periodistes, és
-  un espai on l’actualitat blaugrana és analitzada com es mereix:
-  tendenciosament i en calent, sense cap mena de rigor ni més pretensió que
-  oferir als oients una hora de ràdio lliure, allunyada del to i dels tòpics
-  habituals a la informació esportiva. La ràdio en directe que t'entra pel
-  recte."
+description: A Spanish football podcast focused entirely on FC Barcelona. Free
+  from traditional sports journalism, it delivers passionate, biased, and often
+  hilarious reactions to the latest Barça news, with no claim to objectivity or
+  rigor.
 featured: false
 not_running_related: false
 cover_image: /media/lasotana.jpeg
