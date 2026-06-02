@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-02T09:21:54Z'
+generated_at: '2026-06-02T09:25:57Z'
 items:
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
@@ -25,6 +25,14 @@ items:
   episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tara-dower-and-69ing-the-la-marathon
   audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_May_draftmfour.mp3?dest-id=4178531
   published_at: '2026-06-02T07:07:00+00:00'
+- podcast_title: Trail Talk
+  podcast_page_url: "/trail-talk.html"
+  cover_image: "/media/trailtalk.jpg"
+  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
+  episode_title: Swiss Canyon Trail Weekend Debrief
+  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
+  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
+  published_at: '2026-06-02T05:00:00+00:00'
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show.html"
   cover_image: "/media/citiusmag.jpeg"
@@ -225,14 +233,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/312--How-Blood-Volume-Impacts-Performance-and-Adapts-Fast--The-Scary-Potential-of-Lactate-Supplementation--The-True-GOAT--and-The-Circle-Pit-e3jtn97
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120560359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F494946ee-d34e-5515-d4b4-fd2736c3ca82.mp3
   published_at: '2026-05-26T12:45:44+00:00'
-- podcast_title: Trail Talk
-  podcast_page_url: "/trail-talk.html"
-  cover_image: "/media/trailtalk.jpg"
-  feed_url: https://anchor.fm/s/ed80b02c/podcast/rss
-  episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
-  episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
-  audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
-  published_at: '2026-05-26T04:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -321,6 +321,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
   audio_url: https://anchor.fm/s/fd56e778/podcast/play/116714273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2Fd1b78595-1ed9-ab4c-96ca-fce117c7cc6e.mp3
   published_at: '2026-03-10T19:58:20+00:00'
+- podcast_title: 'In Our Time: Science'
+  podcast_page_url: "/in-our-time-science.html"
+  cover_image: "/media/inourtimesciencepodcast.jpeg"
+  feed_url: https://podcasts.files.bbci.co.uk/p01gyd7j.rss
+  episode_title: The Mariana Trench
+  episode_url: http://www.bbc.co.uk/programmes/m002q38k
+  audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0mw2pfd.mp3
+  published_at: '2026-02-19T10:15:00+00:00'
 - podcast_title: KoopCast
   podcast_page_url: "/koopcast.html"
   cover_image: "/media/koopcast.jpg"
@@ -618,6 +626,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/101e74634/podcast/play/99275013/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-2-3%2F395844763-44100-2-e96706367aad1.mp3
     published_at: '2025-03-01T17:42:00+00:00'
   https://anchor.fm/s/ed80b02c/podcast/rss: &4
+  - episode_title: Swiss Canyon Trail Weekend Debrief
+    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
+    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
+    published_at: '2026-06-02T05:00:00+00:00'
   - episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
@@ -694,10 +706,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Winter-Spine-Race--The-MAD-Burrito-League--Major-Moves-at-HOKA--Suunto-e3digej
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113901459/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F415998134-44100-2-ef35c4df21b53.mp3
     published_at: '2026-01-13T18:00:00+00:00'
-  - episode_title: We Are So Back — UTMB Rules, Pro Contract Moves & HR Training
-    episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/We-Are-So-Back--UTMB-Rules--Pro-Contract-Moves--HR-Training-e3d83pl
-    audio_url: https://anchor.fm/s/ed80b02c/podcast/play/113560821/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-6%2F415562737-44100-2-43b05048de71.mp3
-    published_at: '2026-01-06T18:00:00+00:00'
   https://rss.buzzsprout.com/145661.rss: &5
   - episode_title: "#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs & state of the sport"
     episode_url: ''
@@ -5218,7 +5226,88 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://traffic.megaphone.fm/TSSL1017147131.mp3?updated=1707415629
     published_at: '2024-02-08T12:45:00Z'
-  https://anchor.fm/s/f8f3525c/podcast/rss: &65
+  https://podcasts.files.bbci.co.uk/p01gyd7j.rss: &65
+  - episode_title: The Mariana Trench
+    episode_url: http://www.bbc.co.uk/programmes/m002q38k
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0mw2pfd.mp3
+    published_at: '2026-02-19T10:15:00+00:00'
+  - episode_title: The Evolution of Lungs
+    episode_url: http://www.bbc.co.uk/programmes/m002d8t2
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0lhfk3d.mp3
+    published_at: '2025-07-10T09:15:00+00:00'
+  - episode_title: Lise Meitner
+    episode_url: http://www.bbc.co.uk/programmes/m002bt7s
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0l8k232.mp3
+    published_at: '2025-06-05T09:15:00+00:00'
+  - episode_title: Pollination
+    episode_url: http://www.bbc.co.uk/programmes/m0028jtx
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0kw7x23.mp3
+    published_at: '2025-04-03T09:15:00+00:00'
+  - episode_title: Slime Moulds
+    episode_url: http://www.bbc.co.uk/programmes/m002691y
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0kcshj1.mp3
+    published_at: '2025-01-30T09:02:00+00:00'
+  - episode_title: The Habitability of Planets
+    episode_url: http://www.bbc.co.uk/programmes/m0025vvd
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0k9x6z8.mp3
+    published_at: '2025-01-09T09:02:00+00:00'
+  - episode_title: The Antikythera Mechanism
+    episode_url: http://www.bbc.co.uk/programmes/m0024x0g
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0k3sxf9.mp3
+    published_at: '2024-12-12T09:02:00+00:00'
+  - episode_title: Wormholes
+    episode_url: http://www.bbc.co.uk/programmes/m00237yt
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0jsgjl6.mp3
+    published_at: '2024-10-24T08:02:00+00:00'
+  - episode_title: Bacteriophages
+    episode_url: http://www.bbc.co.uk/programmes/m0020pf0
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0j83bp2.mp3
+    published_at: '2024-08-01T09:15:00+00:00'
+  - episode_title: Mercury
+    episode_url: http://www.bbc.co.uk/programmes/m001yqp3
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0htx90r.mp3
+    published_at: '2024-05-30T09:15:00+00:00'
+  - episode_title: Nikola Tesla
+    episode_url: http://www.bbc.co.uk/programmes/m001xvhb
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0hnd478.mp3
+    published_at: '2024-05-02T09:15:00+00:00'
+  - episode_title: Heisenberg's Uncertainty Principle
+    episode_url: http://www.bbc.co.uk/programmes/m001wq9h
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0hfbtg1.mp3
+    published_at: '2024-03-28T10:15:00+00:00'
+  - episode_title: Hormones
+    episode_url: http://www.bbc.co.uk/programmes/m001w0z9
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0h99zbk.mp3
+    published_at: '2024-03-07T10:15:00+00:00'
+  - episode_title: Plankton
+    episode_url: http://www.bbc.co.uk/programmes/m001r1t5
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0gjdbl0.mp3
+    published_at: '2023-11-02T10:15:00+00:00'
+  - episode_title: Albert Einstein
+    episode_url: http://www.bbc.co.uk/programmes/m001qdx1
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0gcx38q.mp3
+    published_at: '2023-10-12T09:15:00+00:00'
+  - episode_title: Jupiter
+    episode_url: http://www.bbc.co.uk/programmes/m001n8mv
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0fxqn58.mp3
+    published_at: '2023-07-27T09:15:00+00:00'
+  - episode_title: Mitochondria
+    episode_url: http://www.bbc.co.uk/programmes/m001md34
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0frgycd.mp3
+    published_at: '2023-06-29T09:15:00+00:00'
+  - episode_title: Linnaeus
+    episode_url: http://www.bbc.co.uk/programmes/m001l291
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0fhkvpb.mp3
+    published_at: '2023-05-18T09:15:00+00:00'
+  - episode_title: Paul Erdős
+    episode_url: http://www.bbc.co.uk/programmes/m001jc68
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0f4stfc.mp3
+    published_at: '2023-03-23T10:15:00+00:00'
+  - episode_title: Tycho Brahe
+    episode_url: http://www.bbc.co.uk/programmes/m001hnlf
+    audio_url: http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0f0ddgm.mp3
+    published_at: '2023-03-02T10:15:00+00:00'
+  https://anchor.fm/s/f8f3525c/podcast/rss: &66
   - episode_title: Ep. 12 | Storie
     episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--12--Storie-e34a6um
     audio_url: https://anchor.fm/s/f8f3525c/podcast/play/104192406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-16%2F402251055-44100-2-f623024941703.m4a
@@ -5283,7 +5372,7 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Pionieri--Trailer-e2m7ee1
     audio_url: https://anchor.fm/s/f8f3525c/podcast/play/89421697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-19%2F383487161-44100-2-e33791fd31701.m4a
     published_at: '2024-07-19T14:36:19+00:00'
-  https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss: &66
+  https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss: &67
   - episode_title: 'Katie Lamb: Becoming the First Woman to Do V16—Twice'
     episode_url: https://soundcloud.com/american-alpine-journal/katie-lamb-becoming-the-first
     audio_url: https://feeds.soundcloud.com/stream/2312819630-american-alpine-journal-katie-lamb-becoming-the-first.mp3
@@ -5500,7 +5589,9 @@ feed_episodes_list:
   episodes: *63
 - feed_key: https://feeds.megaphone.fm/90gramosmethub
   episodes: *64
-- feed_key: https://anchor.fm/s/f8f3525c/podcast/rss
+- feed_key: https://podcasts.files.bbci.co.uk/p01gyd7j.rss
   episodes: *65
-- feed_key: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
+- feed_key: https://anchor.fm/s/f8f3525c/podcast/rss
   episodes: *66
+- feed_key: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
+  episodes: *67
