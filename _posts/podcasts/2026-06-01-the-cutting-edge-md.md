@@ -8,7 +8,7 @@ description: The Cutting Edge presents in-depth interviews with the world's best
   from the editors of the American Alpine Journal and local experts. This
   podcast is hosted by Jim Aikman and produced by the American Alpine Club.
 featured: false
-not_running_related: false
+not_running_related: true
 cover_image: /media/cuttingedgepodcast.jpeg
 publisher: The American Alpiine Club
 spotify_link: https://open.spotify.com/show/6BUZB5EQyaDLlrdHig6Ssq?si=0fb21eae24784b0a
