@@ -1,6 +1,22 @@
 ---
-generated_at: '2026-06-02T05:34:43Z'
+generated_at: '2026-06-02T07:38:08Z'
 items:
+- podcast_title: Trail Society
+  podcast_page_url: "/trail-society.html"
+  cover_image: "/media/trailsocietypodcast.jpeg"
+  feed_url: https://feeds.captivate.fm/trail-society/
+  episode_title: 'Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine'
+  episode_url: https://trail-society.captivate.fm
+  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/509a42c8-a997-4d7c-8f66-2c7db8aca8b1.mp3
+  published_at: '2026-06-02T03:15:00-04:00'
+- podcast_title: Between Two Pines
+  podcast_page_url: "/between-two-pines.html"
+  cover_image: "/media/betweentwopinespodcast.webp"
+  feed_url: https://rss.libsyn.com/shows/489620/destinations/4178531.xml
+  episode_title: Tara Dower and 69ing the LA Marathon
+  episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tara-dower-and-69ing-the-la-marathon
+  audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_May_draftmfour.mp3?dest-id=4178531
+  published_at: '2026-06-02T07:07:00+00:00'
 - podcast_title: Trail Talk
   podcast_page_url: "/trail-talk.html"
   cover_image: "/media/trailtalk.jpg"
@@ -217,14 +233,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/312--How-Blood-Volume-Impacts-Performance-and-Adapts-Fast--The-Scary-Potential-of-Lactate-Supplementation--The-True-GOAT--and-The-Circle-Pit-e3jtn97
   audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120560359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F494946ee-d34e-5515-d4b4-fd2736c3ca82.mp3
   published_at: '2026-05-26T12:45:44+00:00'
-- podcast_title: Trail Society
-  podcast_page_url: "/trail-society.html"
-  cover_image: "/media/trailsocietypodcast.jpeg"
-  feed_url: https://feeds.captivate.fm/trail-society/
-  episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
-  episode_url: https://trail-society.captivate.fm
-  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/5634ad72-3cdf-497a-af77-e0924c1cb1d2.mp3
-  published_at: '2026-05-26T03:15:00-04:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -305,14 +313,6 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
   audio_url: https://anchor.fm/s/fd56e778/podcast/play/116714273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2Fd1b78595-1ed9-ab4c-96ca-fce117c7cc6e.mp3
   published_at: '2026-03-10T19:58:20+00:00'
-- podcast_title: Between Two Pines
-  podcast_page_url: "/between-two-pines.html"
-  cover_image: "/media/betweentwopinespodcast.webp"
-  feed_url: https://rss.libsyn.com/shows/489620/destinations/4178531.xml
-  episode_title: Sally McRae and Please Stop Challenging Us To Races
-  episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/sally-mcrae-and-please-stop-challenging-us-to-races
-  audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_Feb_RE-EDIT_final.mp3?dest-id=4178531
-  published_at: '2026-02-19T14:29:00+00:00'
 - podcast_title: KoopCast
   podcast_page_url: "/koopcast.html"
   cover_image: "/media/koopcast.jpg"
@@ -1242,6 +1242,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/f9f56780/podcast/play/97844042/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-0-31%2F394063905-44100-2-b9189ba072ee9.m4a
     published_at: '2025-01-31T20:46:13+00:00'
   https://feeds.captivate.fm/trail-society/: &12
+  - episode_title: 'Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine'
+    episode_url: https://trail-society.captivate.fm
+    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/509a42c8-a997-4d7c-8f66-2c7db8aca8b1.mp3
+    published_at: '2026-06-02T03:15:00-04:00'
   - episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/5634ad72-3cdf-497a-af77-e0924c1cb1d2.mp3
@@ -1318,10 +1322,6 @@ episodes_by_feed:
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/68348de4-a91a-4f30-8826-b3cbc73ff778.mp3
     published_at: '2026-01-27T03:00:00-04:00'
-  - episode_title: 'Episode 117: Western States Winner Abby Hall and the Freedom of Owning Ambition'
-    episode_url: https://trail-society.captivate.fm
-    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/8495b70a-3842-4b57-939c-bb05e92ac542.mp3
-    published_at: '2026-01-20T03:00:00-04:00'
   https://rss.buzzsprout.com/299975.rss: &13
   - episode_title: 'Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!'
     episode_url: ''
@@ -1971,6 +1971,10 @@ episodes_by_feed:
     audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/06/episode159.mp3
     published_at: '2024-06-20T21:00:09+00:00'
   https://rss.libsyn.com/shows/489620/destinations/4178531.xml: &21
+  - episode_title: Tara Dower and 69ing the LA Marathon
+    episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tara-dower-and-69ing-the-la-marathon
+    audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_May_draftmfour.mp3?dest-id=4178531
+    published_at: '2026-06-02T07:07:00+00:00'
   - episode_title: Sally McRae and Please Stop Challenging Us To Races
     episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/sally-mcrae-and-please-stop-challenging-us-to-races
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_Feb_RE-EDIT_final.mp3?dest-id=4178531
@@ -2047,10 +2051,6 @@ episodes_by_feed:
     episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tim-tollefson-would-you-rather-and-tripping-between-the-pines
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_E109_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-05-23T07:01:00+00:00'
-  - episode_title: Semi-Rad, NOT the Barkley Marathons, and a New Soap Opera
-    episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/semi-rad-not-the-barkley-mararathons-and-a-new-soap-opera
-    audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_S1E8_Master_-18LUFS.mp3?dest-id=4178531
-    published_at: '2024-04-25T07:01:00+00:00'
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &22
   - episode_title: Long Run 263 - Chris Miles - 200 Milers in the U.K.
     episode_url: https://tenjunkmiles.com/long-run-263-chris-miles-200-milers-in-the-uk
@@ -5024,7 +5024,11 @@ episodes_by_feed:
     audio_url: https://traffic.megaphone.fm/SCIM9148608044.mp3?updated=1774494753
     published_at: '2026-03-26T08:00:00Z'
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &62
-  - episode_title: 'Bak USAs mektigste: Hvem er Israel-lobbyen AIPAC?'
+  - episode_title: 'Ebolaviruset herjar: Kvifor får Vesten skulda?'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/08bc3fb2-acc8-4808-bc3f-b2acc898084b_1_ID192MP3.mp3
+    published_at: '2026-06-02T05:59:00+02:00'
+  - episode_title: 'Israel-lobbyens grep om USA: Maktkamp i kulissene'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/f6f4999b-77d9-4b48-b499-9b77d97b4875_1_ID192MP3.mp3
     published_at: '2026-06-01T05:59:00+02:00'
@@ -5032,7 +5036,7 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/7f556b57-4f75-4805-956b-574f750805b3_2_ID192MP3.mp3
     published_at: '2026-05-29T05:59:00+02:00'
-  - episode_title: 'Trumps plan: Vil han ta Cuba?'
+  - episode_title: 'Trumps plan: Er Cuba hans neste mål?'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/08560a5e-c41c-4ab3-960a-5ec41ccab35f_1_ID192MP3.mp3
     published_at: '2026-05-28T05:59:00+02:00'
@@ -5060,10 +5064,6 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/9635b598-9893-4533-b5b5-9898930533f7_1_ID192MP3.mp3
     published_at: '2026-05-20T05:59:00+02:00'
-  - episode_title: 'Terget Trump med skjell: Nå er han tiltalt'
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/a4cac93d-276f-49e5-8ac9-3d276ff9e562_2_ID192MP3.mp3
-    published_at: '2026-05-19T05:59:00+02:00'
   https://sr-restored.se/rss/2071: &63
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
