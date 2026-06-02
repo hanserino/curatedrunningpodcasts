@@ -22,4 +22,6 @@ picks:
   - pick_source: site
     directory_slug: 2026-06-01-in-our-time-science-md
     quote: About different science topics
+  - pick_source: site
+    directory_slug: 2026-06-01-la-sotana-md
 ---
