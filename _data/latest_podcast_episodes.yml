@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-03T04:06:23Z'
+generated_at: '2026-06-03T04:14:57Z'
 items:
+- podcast_title: Course Equipe
+  podcast_page_url: "/course-equipe.html"
+  cover_image: "/media/courseepique.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  episode_title: 'Vincent Esmiol au MIUT : s''effondrer, revenir, gagner'
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a1c32f849418f56c4cf66a5/media.mp3
+  published_at: '2026-06-03T04:01:00+00:00'
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
   cover_image: "/media/springsnyggt.jpeg"
@@ -113,14 +121,6 @@ items:
   episode_url: ''
   audio_url: https://www.buzzsprout.com/299975/episodes/19272984-rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run.mp3
   published_at: '2026-06-01T21:00:00+02:00'
-- podcast_title: Course Equipe
-  podcast_page_url: "/course-equipe.html"
-  cover_image: "/media/courseepique.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a1850ff029c20a5f6ea6bf6/media.mp3
-  published_at: '2026-06-01T04:01:00+00:00'
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur.html"
   cover_image: "/media/danslateteeduncoureur.jpeg"
@@ -3187,6 +3187,10 @@ episodes_by_feed:
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566177/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-15%2F414447294-44100-2-0d03e0f1f8381.mp3
     published_at: '2025-12-15T07:00:00+00:00'
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &37
+  - episode_title: 'Vincent Esmiol au MIUT : s''effondrer, revenir, gagner'
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a1c32f849418f56c4cf66a5/media.mp3
+    published_at: '2026-06-03T04:01:00+00:00'
   - episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a1850ff029c20a5f6ea6bf6/media.mp3
@@ -3263,10 +3267,6 @@ episodes_by_feed:
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69d529fd34b90cef2b19c393/media.mp3
     published_at: '2026-04-08T03:54:00+00:00'
-  - episode_title: "[EXTRAIT] Kilian Jornet se confie : NNormal, équilibre familial et saison 2026"
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69cfea1d3a785fb94b000d01/media.mp3
-    published_at: '2026-04-06T03:58:00+00:00'
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &38
   - episode_title: 'Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race'
     episode_url: ''
@@ -6028,6 +6028,87 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://traffic.megaphone.fm/LUHUC4825309800.mp3?updated=1763619650
     published_at: '2025-11-19T11:00:00Z'
+  https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &75
+  - episode_title: 'Tech Whistleblower: You Only Have 3 Years Left Before This Hits! - Mo Gawdat'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSZDQ99M066XNR08PQ078JAX.mp3
+    published_at: '2026-06-01T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: The Hidden Organ That Controls Exactly How You Age!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7WVVFYXM3ZDV5XD9HNM1TS.mp3
+    published_at: '2026-05-29T05:00:00Z'
+  - episode_title: 'EMERGENCY DEBATE: The Economy Is About To Collapse! The 2026 AI Crisis Nobody Sees Coming'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSNMG2EP6VGFS7XMRD7DJDJP.mp3
+    published_at: '2026-05-28T05:00:00Z'
+  - episode_title: 'Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No.'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSDJ6Z8QSPTDNJAZH53T49K5.mp3
+    published_at: '2026-05-25T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: AI Safety Expert Predicts The Next 20 Years! Will It Really Take All Jobs?'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7WFP6JP4XREP3Y6WYDWYDQ.mp3
+    published_at: '2026-05-22T05:00:00Z'
+  - episode_title: 'World-Renowned Physicist: The Truth About Aliens! UFOs Are Definitely Robotic - Michio Kaku'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KS3J8KQHXKD95MNHATDGNNM5.mp3
+    published_at: '2026-05-21T05:00:00Z'
+  - episode_title: 'Fatty Liver Expert: Your Liver Is Filling With Fat Right Now - Dr David Unwin'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KRVDFT0BT3SEX6MS5JJHV5P9.mp3
+    published_at: '2026-05-18T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7W8NWE37Z0NG2N3A4FENKM.mp3
+    published_at: '2026-05-15T05:00:00Z'
+  - episode_title: 'UFO Roundtable: CIA Physicist Proves Aliens Exist'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KRHZY6HB764G4YM0FXQSHDGR.mp3
+    published_at: '2026-05-14T05:00:00Z'
+  - episode_title: 'Pulitzer Prize Historian: You Won''t Notice Until It''s Too Late!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KR97YM65FSCA0X36KAZTVF8N.mp3
+    published_at: '2026-05-11T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: This Is The Best Exercise Protocol For Women!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7VSBTANVKSA7RTZQX72HPV.mp3
+    published_at: '2026-05-08T05:00:00Z'
+  - episode_title: 'WW3 Expert: This Could Trigger Global Starvation'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KR007TMEK8C59M1BK18WN9YQ.mp3
+    published_at: '2026-05-07T05:00:00Z'
+  - episode_title: 'Scott Galloway: AI Wasn’t Built For You. The Rich Don’t Need You Anymore!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQNHXQA2KSJ79F2PYMQKM4AQ.mp3
+    published_at: '2026-05-04T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: Neil deGrasse Tyson On The Future Of Humanity! Will We Ever Go To Mars?'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7TY8MF7BWP6QNWCFP4FEEP.mp3
+    published_at: '2026-05-01T05:00:00Z'
+  - episode_title: 'Money Expert: Buying A House Is A Mistake! Becoming Rich is Simple But You Won’t Do It!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQDN7P37G9MVHMHB4WV6NSZN.mp3
+    published_at: '2026-04-30T05:00:00Z'
+  - episode_title: 'Sex Scientist: Phone Addiction Is Killing Your Sex Life More Than Porn!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ00359JPKGPYKC6EMBPFK8D.mp3
+    published_at: '2026-04-27T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: Neuroscientist’s Proof Of Life After Death! Dr Tara Swart'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KMZRHZSZ98WR7ZHV73NXA1PN.mp3
+    published_at: '2026-04-24T05:00:00Z'
+  - episode_title: 'Stanford Neuroscientist: Can’t Remember Your Dreams? Your Brain May Be Warning You!'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KPV0GH4G6H4G6ZENNH0KMDS1.mp3
+    published_at: '2026-04-23T05:00:00Z'
+  - episode_title: 'The Peptide Expert: Big Pharma Are Hiding This Powerful Peptide From You! - Dr. Alex Tatem'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KPJQR48KKBSGYTN1GXQRS2JE.mp3
+    published_at: '2026-04-20T05:00:00Z'
+  - episode_title: 'Most Replayed Moment: Insulin Is The Reason You''re Gaining Fat! How To Lower It Now'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KMZRVEW8EBVJ39EYDKFETPK7.mp3
+    published_at: '2026-04-17T05:00:00Z'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -6184,3 +6265,5 @@ feed_episodes_list:
   episodes: *73
 - feed_key: https://feeds.megaphone.fm/li6529969937
   episodes: *74
+- feed_key: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
+  episodes: *75
