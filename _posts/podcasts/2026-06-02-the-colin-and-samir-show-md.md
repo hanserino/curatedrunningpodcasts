@@ -6,7 +6,7 @@ published: "true"
 description: "YouTube creators and podcasters Colin and Samir break down the
   latest news in the creator economy from a creator's perspective. "
 featured: false
-not_running_related: false
+not_running_related: true
 cover_image: /media/colinandsamirshow.jpeg
 publisher: Colin and Samir
 spotify_link: https://open.spotify.com/show/5QaSbbv2eD4SFrlFR6IyY7?si=f8b70c1fa9044b74
