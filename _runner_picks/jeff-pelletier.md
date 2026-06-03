@@ -17,12 +17,18 @@ picks:
   - pick_source: site
     title: ""
     directory_slug: 2023-10-31-singletrack
+    quote: The best source for news on the professional side of the sport, along
+      with really insightful interviews
   - pick_source: site
     directory_slug: 2023-10-31-the-freetrail-podcast
+    quote: Great race previews and other stories from the sport
   - pick_source: site
     directory_slug: 2026-05-29-second-nature-md
+    quote: The business side of running and outdoor
   - pick_source: site
     directory_slug: 2023-10-31-koopcast
+    quote: The science of training and racing
   - pick_source: site
     directory_slug: 2023-10-31-some-work-all-play
+    quote: A lighter approach, with some great insights into training and physiology
 ---
