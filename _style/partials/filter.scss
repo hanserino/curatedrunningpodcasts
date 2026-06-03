@@ -113,13 +113,13 @@
     }
 
     &__body {
-        padding: 0 1rem 0.9rem;
+        padding: 1rem;
         border-top: $border-heavy;
     }
 
     &__row {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         gap: 0.65rem;
         margin: 0 0 0.75rem;
 

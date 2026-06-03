@@ -9,7 +9,7 @@ Use these from the project root. **Pick the row that matches what the user is do
 
 | Situation | Command | Notes |
 |-----------|---------|--------|
-| **Local dev / preview** (layouts, CSS, JS, content; fast, no RSS) | `bundle exec jekyll serve` | Skips RSS; uses `_data/latest_podcast_episodes.yml` and/or `.jekyll-rss-cache/`. ~seconds, not ~minute. |
+| **Local dev / preview** (layouts, CSS, JS, content; fast, no RSS) | `bundle exec jekyll serve --destination /tmp/curatedrunningpodcasts-dev --incremental --force-polling` | Skips RSS; uses `_data/latest_podcast_episodes.yml` and/or `.jekyll-rss-cache/`. `--incremental` + Sass partial deps so `_style/` edits rebuild CSS; `--force-polling` if file watch is flaky. |
 | **Local full site build** (not deploying `docs/`) | `bundle exec jekyll build --destination <dir>` | Same fast path as serve unless production env set. |
 | **Refresh podcast RSS locally** (test players / latest episodes) | `JEKYLL_FETCH_RSS=1 bundle exec jekyll serve` or `... jekyll build --destination docs` | Network fetch of all feeds; slow. |
 | **Before commit/push** that includes built output (`docs/`) | `JEKYLL_ENV=production bundle exec jekyll build --destination docs` | Sets production URLs (canonical, OG, sitemap, feed). **Refreshes RSS** and updates `_data/latest_podcast_episodes.yml`. Always run when the user asks to push or ship the static site. |
