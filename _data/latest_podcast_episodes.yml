@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-03T21:05:36Z'
+generated_at: '2026-06-03T22:44:13Z'
 items:
+- podcast_title: Ten Junk Miles
+  podcast_page_url: "/ten-junk-miles.html"
+  cover_image: "/media/tenjunkmiles.png"
+  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
+  episode_title: Meet The Nation 342 - Rachel Carrasquillo
+  episode_url: https://tenjunkmiles.com/meet-the-nation-342-rachel-carrasquillo
+  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0603_1546.mp3?dest-id=259001
+  published_at: '2026-06-03T21:27:00+00:00'
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show.html"
   cover_image: "/media/citiusmag.jpeg"
@@ -185,14 +193,6 @@ items:
   episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100
   audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Jeff_Mogavero.mp3?dest-id=3847590
   published_at: '2026-05-30T06:00:00+00:00'
-- podcast_title: Ten Junk Miles
-  podcast_page_url: "/ten-junk-miles.html"
-  cover_image: "/media/tenjunkmiles.png"
-  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
-  episode_title: Long Run 263 - Chris Miles - 200 Milers in the U.K.
-  episode_url: https://tenjunkmiles.com/long-run-263-chris-miles-200-milers-in-the-uk
-  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_Chris_Miles.mp3?dest-id=259001
-  published_at: '2026-05-29T23:23:00+00:00'
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty.html"
   cover_image: "/media/distancetoempty.jpeg"
@@ -2100,6 +2100,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_E109_Master_-18LUFS.mp3?dest-id=4178531
     published_at: '2024-05-23T07:01:00+00:00'
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &22
+  - episode_title: Meet The Nation 342 - Rachel Carrasquillo
+    episode_url: https://tenjunkmiles.com/meet-the-nation-342-rachel-carrasquillo
+    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0603_1546.mp3?dest-id=259001
+    published_at: '2026-06-03T21:27:00+00:00'
   - episode_title: Long Run 263 - Chris Miles - 200 Milers in the U.K.
     episode_url: https://tenjunkmiles.com/long-run-263-chris-miles-200-milers-in-the-uk
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/LR_Chris_Miles.mp3?dest-id=259001
@@ -2176,10 +2180,6 @@ episodes_by_feed:
     episode_url: https://tenjunkmiles.com/gang-show-245-pettit-indoor-marathons-2026
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Petit_Show_2026.mp3?dest-id=259001
     published_at: '2026-03-13T22:13:00+00:00'
-  - episode_title: From Setback To the Start Line - Episode 3 - There's Hope - With 2:38 Marathoner Jon Pohlkamp
-    episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-episode-3-theres-hope-with-238-marathoner-jon-pohlkamp
-    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Jon_Polknap.mp3?dest-id=259001
-    published_at: '2026-03-13T21:46:00+00:00'
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &23
   - episode_title: Stephanie Case on running as an act of protest
     episode_url: https://thewayoftherunner.com/podcast
