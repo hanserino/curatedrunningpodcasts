@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-03T09:16:10Z'
+generated_at: '2026-06-03T09:18:19Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running.html"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
+  episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1fef548e9b802a6fd16bbd.mp3
+  published_at: '2026-06-03T09:16:25+00:00'
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us.html"
   cover_image: "/media/nobodyaskedus.jpg"
@@ -89,14 +97,6 @@ items:
   episode_url: https://mathiasmacody.podbean.com/e/recap-kval%c3%b8milen/
   audio_url: https://mcdn.podbean.com/mf/web/4xsiksbzsnqcg9ep/Post_Kval_milen8kdsx.mp3
   published_at: '2026-06-02T08:01:07-03:00'
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running.html"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
-  episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1e8a393179b8b95d85b018.mp3
-  published_at: '2026-06-02T07:48:25+00:00'
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society.html"
   cover_image: "/media/trailsocietypodcast.jpeg"
@@ -804,6 +804,10 @@ episodes_by_feed:
     audio_url: https://www.buzzsprout.com/145661/episodes/16608631-obt-2025-portrett-12-team-stodig-som-en-bauta.mp3
     published_at: '2025-05-29T05:00:00+02:00'
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
+    episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1fef548e9b802a6fd16bbd.mp3
+    published_at: '2026-06-03T09:16:25+00:00'
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1e8a393179b8b95d85b018.mp3
@@ -880,10 +884,6 @@ episodes_by_feed:
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-28-hundred-hills-50km-recap
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b83a24552154ff2966cebb.mp3
     published_at: '2026-03-16T17:19:50+00:00'
-  - episode_title: Ourea Events No More. How, Why and What does it mean for our sport.
-    episode_url: https://www.centurionrunning.com/podcast/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b2eae55b10dd9b7f6b7a17.m4a
-    published_at: '2026-03-12T16:55:53+00:00'
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway
     episode_url: https://podcasters.spotify.com/pod/show/forthelongrun/episodes/Maria-Chevalier-on-48-Marathon-States--Running-Double-Boston--and-Doing-Hard-Things-Anyway-e3jvjbo
