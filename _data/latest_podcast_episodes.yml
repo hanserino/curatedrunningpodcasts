@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-03T09:18:19Z'
+generated_at: '2026-06-03T09:36:41Z'
 items:
+- podcast_title: The Real Science Of Sport
+  podcast_page_url: "/the-real-science-of-sports.html"
+  cover_image: "/media/therealscienceofsportspodcast.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
+  episode_title: Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal
+  episode_url: https://shows.acast.com/realscienceofsport/episodes/sleeping-your-way-to-more-epo-grand-slam-chaos-the-ucis-expe
+  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a1fefdbd610a77403d53ba8/media.mp3
+  published_at: '2026-06-03T09:20:00+00:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -249,14 +257,6 @@ items:
   episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-77-cocodona-250-circle-pit-cam-v-sage-more
   audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._77.1.mp3?dest-id=4343338
   published_at: '2026-05-28T23:54:00+00:00'
-- podcast_title: The Real Science Of Sport
-  podcast_page_url: "/the-real-science-of-sports.html"
-  cover_image: "/media/therealscienceofsportspodcast.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
-  episode_title: Roland Garros' Zombie Heat Apocalypse / The Death of the Diversified Elite Athlete / World Athletics Raises the Performance Bar
-  episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
-  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a17fdaa8fd07475b5578875/media.mp3
-  published_at: '2026-05-28T09:30:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -2505,6 +2505,10 @@ episodes_by_feed:
     audio_url: https://traffic.libsyn.com/secure/florisgierman/Running_After_40_-_How_to_Improve.mp3?dest-id=557444
     published_at: '2025-08-23T23:39:00+00:00'
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &27
+  - episode_title: Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal
+    episode_url: https://shows.acast.com/realscienceofsport/episodes/sleeping-your-way-to-more-epo-grand-slam-chaos-the-ucis-expe
+    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a1fefdbd610a77403d53ba8/media.mp3
+    published_at: '2026-06-03T09:20:00+00:00'
   - episode_title: Roland Garros' Zombie Heat Apocalypse / The Death of the Diversified Elite Athlete / World Athletics Raises the Performance Bar
     episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a17fdaa8fd07475b5578875/media.mp3
@@ -2581,10 +2585,6 @@ episodes_by_feed:
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-physiology-of-beating-van-der-poel-in-san-remo-a-210-wom
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69ba7ba4073190d04acd494a/media.mp3
     published_at: '2026-03-18T10:17:07+00:00'
-  - episode_title: Is Rugby's Head Injury Process Working? / Hitting the Wall and Carb Depletion / Can Sexias Match Pogacar? / Should Doped World Records Be Reset?
-    episode_url: https://shows.acast.com/realscienceofsport/episodes/is-rugbys-head-injury-process-working-hitting-the-wall-and-c
-    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69a81c37b5381e1c0140a5b3/media.mp3
-    published_at: '2026-03-04T11:49:11+00:00'
   https://anchor.fm/s/e4eabf84/podcast/rss: &28
   - episode_title: "#118 Troy Meadows & Julio Palma | Hellbender 100, Battling the DNF Demons, & Through Endurance We Conquer"
     episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/118-Troy-Meadows--Julio-Palma--Hellbender-100--Battling-the-DNF-Demons---Through-Endurance-We-Conquer-e3k1qkg
