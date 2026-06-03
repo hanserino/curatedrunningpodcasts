@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-03T03:52:57Z'
+generated_at: '2026-06-03T03:54:25Z'
 items:
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
@@ -41,6 +41,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/313-Jacob-Thomson--Corbin-Harris---Training-Updates--Rabat-DL-Recap--NCAA-Champs-Races-to-Watch-e3k86pf
   audio_url: https://traffic.megaphone.fm/APO5469674004.mp3
   published_at: '2026-06-02T16:39:59+00:00'
+- podcast_title: Some Work, All Play
+  podcast_page_url: "/some-work-all-play.html"
+  cover_image: "/media/swap.jpeg"
+  feed_url: https://anchor.fm/s/9abbbe4/podcast/rss
+  episode_title: 313. Marathons v. Ultras, Fatigue Resistance Debates, Gene Editing Breakthrough, and Posture Impact on Blood Volume!
+  episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/313--Marathons-v--Ultras--Fatigue-Resistance-Debates--Gene-Editing-Breakthrough--and-Posture-Impact-on-Blood-Volume-e3k7scr
+  audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120893275/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2Fab33a9c2-0ab8-1237-83c8-238a4b0e962d.mp3
+  published_at: '2026-06-02T12:49:29+00:00'
 - podcast_title: The Way Of The Runner
   podcast_page_url: "/the-way-of-the-runner.html"
   cover_image: "/media/the-way-of-the-runner-podcast.png"
@@ -241,14 +249,6 @@ items:
   episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
   published_at: '2026-05-27T09:00:00+00:00'
-- podcast_title: Some Work, All Play
-  podcast_page_url: "/some-work-all-play.html"
-  cover_image: "/media/swap.jpeg"
-  feed_url: https://anchor.fm/s/9abbbe4/podcast/rss
-  episode_title: 312. How Blood Volume Impacts Performance and Adapts Fast, The Scary Potential of Lactate Supplementation, The True GOAT, and The Circle Pit!
-  episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/312--How-Blood-Volume-Impacts-Performance-and-Adapts-Fast--The-Scary-Potential-of-Lactate-Supplementation--The-True-GOAT--and-The-Circle-Pit-e3jtn97
-  audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120560359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F494946ee-d34e-5515-d4b4-fd2736c3ca82.mp3
-  published_at: '2026-05-26T12:45:44+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -1849,6 +1849,10 @@ episodes_by_feed:
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/18928425-bugs-cancel-a-race-cocodona-250-lottery-system-emma-bates-dropped-while-pregnant-singletrack-news.mp3
     published_at: '2026-03-30T00:00:00-06:00'
   https://anchor.fm/s/9abbbe4/podcast/rss: &19
+  - episode_title: 313. Marathons v. Ultras, Fatigue Resistance Debates, Gene Editing Breakthrough, and Posture Impact on Blood Volume!
+    episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/313--Marathons-v--Ultras--Fatigue-Resistance-Debates--Gene-Editing-Breakthrough--and-Posture-Impact-on-Blood-Volume-e3k7scr
+    audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120893275/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2Fab33a9c2-0ab8-1237-83c8-238a4b0e962d.mp3
+    published_at: '2026-06-02T12:49:29+00:00'
   - episode_title: 312. How Blood Volume Impacts Performance and Adapts Fast, The Scary Potential of Lactate Supplementation, The True GOAT, and The Circle Pit!
     episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/312--How-Blood-Volume-Impacts-Performance-and-Adapts-Fast--The-Scary-Potential-of-Lactate-Supplementation--The-True-GOAT--and-The-Circle-Pit-e3jtn97
     audio_url: https://anchor.fm/s/9abbbe4/podcast/play/120560359/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F494946ee-d34e-5515-d4b4-fd2736c3ca82.mp3
@@ -1925,10 +1929,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/294--The-Bicarb-Revolution--Theory-of-Doubles--Vitamin-D-Supplementation--Stairmill-Training--and-Zone-2-Weirdness-e3du5cg
     audio_url: https://anchor.fm/s/9abbbe4/podcast/play/114283344/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-20%2F8868e37b-0444-98e2-ce0f-291206330fb5.mp3
     published_at: '2026-01-20T14:42:19+00:00'
-  - episode_title: 293. Ultra Runner of the Year Rankings, Unintentional Low Carb Studies, Health Update, Continuous Lactate Monitors, and Blood Tests!
-    episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/293--Ultra-Runner-of-the-Year-Rankings--Unintentional-Low-Carb-Studies--Health-Update--Continuous-Lactate-Monitors--and-Blood-Tests-e3djbvu
-    audio_url: https://anchor.fm/s/9abbbe4/podcast/play/113929662/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-13%2F4e1a3fdb-0cd2-448b-c31a-d02f381e59ed.mp3
-    published_at: '2026-01-13T14:15:19+00:00'
   https://ultrarunninghistory.com/feed/podcast/: &20
   - episode_title: '178: Grand Canyon Short Stories – Part Two'
     episode_url: https://ultrarunninghistory.com/178-grand-canyon-2/?utm_source=rss&utm_medium=rss&utm_campaign=178-grand-canyon-2
@@ -5785,7 +5785,88 @@ episodes_by_feed:
     episode_url: https://www.acquired.fm/episodes/ikea
     audio_url: https://pscrb.fm/rss/p/media.transistor.fm/51775457/5b90483f.mp3
     published_at: '2024-11-17T20:42:39-08:00'
-  https://feeds.megaphone.fm/hs2300184645: &72
+  https://rss.art19.com/how-i-built-this: &72
+  - episode_title: 'UGG: Brian Smith. How an epiphany, surfers, and $500 launched an iconic sheepskin footwear company.'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/56230048-59d6-43c2-b386-7d06ea89f939.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-06-01T07:10:00Z'
+  - episode_title: Advice Line with Jeffrey Hollender of Seventh Generation
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/f8ce2410-1176-47d9-be44-03f9fa945714.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-28T07:10:00Z'
+  - episode_title: 'Justin’s Nut Butter: Justin Gold. He Was Waiting Tables, Then...He Reinvented Peanut Butter.'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/b456c4b4-0243-4e46-9460-d0de7cf5d98b.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-25T07:10:00Z'
+  - episode_title: Advice Line with Sarah LaFleur of M.M. LaFleur
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/ace5a853-d0cf-4c65-95ad-1ecfc8808c03.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-21T07:10:00Z'
+  - episode_title: 'NVIDIA: Jensen Huang. From near collapse to becoming the world’s biggest company'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/3d2f974e-a24c-4da4-9dfb-46c405545dfa.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-18T07:10:00Z'
+  - episode_title: 'Advice Line: New Offerings, Bigger Markets'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/4ccace90-9a45-40d6-9e11-2c769ddf5ddc.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-14T07:10:00Z'
+  - episode_title: 'Room & Board: John Gabbert. A Broken Deal, a Family Rift, and the Birth of a Furniture Giant'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/0df9d69a-440f-49d4-9a1d-e50665b2c49f.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-11T07:10:00Z'
+  - episode_title: Advice Line with Jonah Peretti of Buzzfeed
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/62db8f23-a2ab-4247-a3f4-877b109cebbd.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-07T07:10:00Z'
+  - episode_title: 'Beautycounter: Gregg Renfrew. She Built Beautycounter to $1B… Then Got Fired From Her Own Company'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/70b30f1f-238b-4be4-8893-291de5af52a1.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-05-04T07:10:00Z'
+  - episode_title: Advice Line with David Neeleman of JetBlue
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/0c0af207-2622-4a1a-b7e2-4a6d4a5c244d.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-30T07:10:00Z'
+  - episode_title: 'Shep and Ian Murray: Vineyard Vines. A Stale Product Transforms into a Lifestyle Brand.'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/30577acd-0a96-4b5c-9301-d43b955cbb1a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-27T07:10:00Z'
+  - episode_title: Advice Line with Eric Ryan of Method returns
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/e21691a9-29c3-4af2-b232-d380f776847b.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-23T07:00:00Z'
+  - episode_title: 'KIND bars: Daniel Lubetzky. From peace in the Middle East to a $5 billion snack bar'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/44445edf-0780-4c38-bafa-bbd2cdfd1d90.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-20T07:10:00Z'
+  - episode_title: Advice Line with Chieh Huang of Boxed
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/ed16e81b-6ca6-45fe-a6d7-426fdc92979a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-16T07:00:00Z'
+  - episode_title: 'iRobot: Colin Angle. How The Roomba Became a Household Icon'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/412c1dc3-6528-4197-b34a-8c57fa24d806.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-13T07:10:00Z'
+  - episode_title: Advice Line with Steve Ells of Chipotle
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/1b5b1548-292a-40f0-810b-f63b79519b1b.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-09T07:10:00Z'
+  - episode_title: 'Wingstop: Antonio Swad. A Brilliant Idea — And a Nail-Biting Exit'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/133db8a1-2006-4a69-8b75-78ea186411e2.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-06T07:10:00Z'
+  - episode_title: Advice Line with Angie & Dan Bastian of Angie's BOOMCHICKAPOP
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/fb62faf8-9e66-4644-a940-21c85d69260a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-04-02T07:10:00Z'
+  - episode_title: 'diapers.com: Marc Lore. The ecommerce visionary who lost to Amazon but still made billions (2021)'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/9fc0ae31-7724-40ac-a489-21ee3e158647.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-03-30T07:00:00Z'
+  - episode_title: Advice Line with Marcia Kilgore of Beauty Pie (June 2025)
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/fc2fd26c-9fb7-49f2-b64b-65853699e45a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-03-26T07:10:00Z'
+  https://feeds.megaphone.fm/hs2300184645: &73
   - episode_title: We found 7 business ideas that will blow up in 2026
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS7543635910.mp3
@@ -5866,7 +5947,7 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS9499668173.mp3?updated=1774877030
     published_at: '2026-03-30T13:04:00Z'
-  https://feeds.megaphone.fm/li6529969937: &73
+  https://feeds.megaphone.fm/li6529969937: &74
   - episode_title: Why every creator is making a show
     episode_url: ''
     audio_url: https://traffic.megaphone.fm/LUHUC2510477753.mp3
@@ -6097,7 +6178,9 @@ feed_episodes_list:
   episodes: *70
 - feed_key: https://feeds.transistor.fm/acquired
   episodes: *71
-- feed_key: https://feeds.megaphone.fm/hs2300184645
+- feed_key: https://rss.art19.com/how-i-built-this
   episodes: *72
-- feed_key: https://feeds.megaphone.fm/li6529969937
+- feed_key: https://feeds.megaphone.fm/hs2300184645
   episodes: *73
+- feed_key: https://feeds.megaphone.fm/li6529969937
+  episodes: *74
