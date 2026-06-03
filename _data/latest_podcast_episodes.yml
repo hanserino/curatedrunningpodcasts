@@ -1,6 +1,14 @@
 ---
-generated_at: '2026-06-03T07:41:18Z'
+generated_at: '2026-06-03T09:16:10Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us.html"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  episode_title: 4.23. High Standards
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/423-high-standards
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_23_-_Audio.mp3?dest-id=3833748
+  published_at: '2026-06-03T09:00:00+00:00'
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
   cover_image: "/media/courseepique.jpeg"
@@ -73,6 +81,14 @@ items:
   episode_url: https://thewellwithdylanbowman.libsyn.com/tyler-andrews-everest-fkt-interview-kilians-zegama-report-mogaveros-ws-block-occ-course-change
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tyler_Andrews_Everest_FKT_Interview_Kilians_Zegama_Report_Mogaveros_WS_Block__OCC_Course_Change.mp3?dest-id=1746794
   published_at: '2026-06-02T11:14:00+00:00'
+- podcast_title: Team Macody Podcast
+  podcast_page_url: "/team-macody-podcast.html"
+  cover_image: "/media/teammacody.jpeg"
+  feed_url: https://feed.podbean.com/mathiasmacody/feed.xml
+  episode_title: Recap Kvalømilen
+  episode_url: https://mathiasmacody.podbean.com/e/recap-kval%c3%b8milen/
+  audio_url: https://mcdn.podbean.com/mf/web/4xsiksbzsnqcg9ep/Post_Kval_milen8kdsx.mp3
+  published_at: '2026-06-02T08:01:07-03:00'
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running.html"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -241,14 +257,6 @@ items:
   episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
   audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a17fdaa8fd07475b5578875/media.mp3
   published_at: '2026-05-28T09:30:00+00:00'
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us.html"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  episode_title: 4.22. Real Track Talk
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
-  published_at: '2026-05-27T09:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -958,6 +966,10 @@ episodes_by_feed:
     audio_url: https://traffic.megaphone.fm/APO8393509913.mp3
     published_at: '2026-01-16T14:57:53+00:00'
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &8
+  - episode_title: 4.23. High Standards
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/423-high-standards
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_23_-_Audio.mp3?dest-id=3833748
+    published_at: '2026-06-03T09:00:00+00:00'
   - episode_title: 4.22. Real Track Talk
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
@@ -1034,10 +1046,6 @@ episodes_by_feed:
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/44-the-trail-mix-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_4_-_Audio.mp3?dest-id=3833748
     published_at: '2026-01-21T09:00:00+00:00'
-  - episode_title: 4.3. Houston and World XC Recap Episode
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/43-houston-and-world-xc-recap-episode
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_3_-_Houston_and_World_XC_Recaps_-_Audio.mp3?dest-id=3833748
-    published_at: '2026-01-14T03:58:00+00:00'
   https://anchor.fm/s/fd56e778/podcast/rss: &9
   - episode_title: Submaxxing, Tough Choices, Structure&Analysis
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
@@ -4902,10 +4910,10 @@ episodes_by_feed:
     audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7685714221.mp3?updated=1770951952
     published_at: '2026-02-13T09:00:00Z'
   https://podcast.stream.schibsted.media/ap/100194: &60
-  - episode_title: 'Peptider: Stor økning i beslag av ulovlig «trenddop»'
+  - episode_title: Injiserer ulovlige peptider kjøpt på nettet - idioti eller snarvei til superkropp?
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/9512xvx71wac3ztn9pcd0/podcast_128.mp3
-    published_at: '2026-06-03T03:00:02+00:00'
+    published_at: '2026-06-03T08:29:16+00:00'
   - episode_title: 'Kort Forklart: Kraftige angrep i Libanon, og Ronny Brede Aase svarer på kritikken'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/vu3pv1hqptm8z082rvnmd/podcast_128.mp3
@@ -6028,7 +6036,88 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS9499668173.mp3?updated=1774877030
     published_at: '2026-03-30T13:04:00Z'
-  https://feeds.megaphone.fm/li6529969937: &75
+  https://feed.podbean.com/mathiasmacody/feed.xml: &75
+  - episode_title: Recap Kvalømilen
+    episode_url: https://mathiasmacody.podbean.com/e/recap-kval%c3%b8milen/
+    audio_url: https://mcdn.podbean.com/mf/web/4xsiksbzsnqcg9ep/Post_Kval_milen8kdsx.mp3
+    published_at: '2026-06-02T08:01:07-03:00'
+  - episode_title: Trond Mohn Games-spesial
+    episode_url: https://mathiasmacody.podbean.com/e/trond-mohn-games-spesial/
+    audio_url: https://mcdn.podbean.com/mf/web/uxrnuk56hbx5awpu/Trond_Mohn_Games70adp.mp3
+    published_at: '2026-05-29T04:31:09-03:00'
+  - episode_title: 5 dager til Team Macody Kvalømilen!
+    episode_url: https://mathiasmacody.podbean.com/e/7-dager-til-team-macody-kval%c3%b8milen/
+    audio_url: https://mcdn.podbean.com/mf/web/vepanphenf5jiyyd/7-dager_til_kval_milena0p5x.mp3
+    published_at: '2026-05-25T17:04:30-03:00'
+  - episode_title: Post 17.Mai-stemning, Sykdom og Tveitevannet Rundt
+    episode_url: https://mathiasmacody.podbean.com/e/post-17mai-stemning-sykdom-og-tveitevannet-rundt/
+    audio_url: https://mcdn.podbean.com/mf/web/hhdefi4wrh5e2uqm/Post-17.mp3
+    published_at: '2026-05-18T17:34:18-03:00'
+  - episode_title: Jeppe på Bjerget
+    episode_url: https://mathiasmacody.podbean.com/e/jeppe-pa-bjerget/
+    audio_url: https://mcdn.podbean.com/mf/web/mx7njdnwzrnifkru/APL_Recap9ruzd.mp3
+    published_at: '2026-05-12T02:39:39-03:00'
+  - episode_title: Hvil i fred, Rimi-Hagen
+    episode_url: https://mathiasmacody.podbean.com/e/hvil-i-fred-rimi-hagen/
+    audio_url: https://mcdn.podbean.com/mf/web/j3mjqyvkaa7mgi8c/Rim-Hagen.mp3
+    published_at: '2026-05-05T04:45:23-03:00'
+  - episode_title: Kristian Blummenfelt + APL
+    episode_url: https://mathiasmacody.podbean.com/e/kristian-blummenfelt-apl/
+    audio_url: https://mcdn.podbean.com/mf/web/znfuuiv39akt6m29/refleksjonspodden_big_bleau706t0.mp3
+    published_at: '2026-04-28T02:41:29-03:00'
+  - episode_title: Recap Annecy
+    episode_url: https://mathiasmacody.podbean.com/e/recap-annecy/
+    audio_url: https://mcdn.podbean.com/mf/web/idsazpicidhagiqt/clubhouse-audio-team-macody-podcast-shk8jnkycuzv-2026-04-20-17-28.mp3
+    published_at: '2026-04-20T15:58:36-03:00'
+  - episode_title: 1 uke til "Slaget i Alpene"
+    episode_url: https://mathiasmacody.podbean.com/e/1-uke-til-slaget-i-alpene/
+    audio_url: https://mcdn.podbean.com/mf/web/wx5yb89a294tps68/1-uke-til-Annecy.mp3
+    published_at: '2026-04-13T16:59:42-03:00'
+  - episode_title: 'Road to Rotterdam/Annecy: Ola Sakshaug'
+    episode_url: https://mathiasmacody.podbean.com/e/road-to-rotterdamannecy-ola-sakshaug/
+    audio_url: https://mcdn.podbean.com/mf/web/9dt5pgpfdpsaqiwg/clubhouse-audio-team-macody-podcast-shk8jnkycuzv-2026-04-06-18-00_1_a7ygk.mp3
+    published_at: '2026-04-07T04:52:56-03:00'
+  - episode_title: Påske-spesial med panelet
+    episode_url: https://mathiasmacody.podbean.com/e/paske-spesial-med-panelet/
+    audio_url: https://mcdn.podbean.com/mf/web/n8bcdwsfj2r57psb/clubhouse-audio-team-macody-podcast-shk8jnkycuzv-2026-03-30-17-59.mp3
+    published_at: '2026-03-31T03:59:29-03:00'
+  - episode_title: Kvaløs Comeback
+    episode_url: https://mathiasmacody.podbean.com/e/kval%c3%b8s-comeback/
+    audio_url: https://mcdn.podbean.com/mf/web/hv6vkcp2ehxmerzf/Kval_s_Comeback8iqcj.mp3
+    published_at: '2026-03-24T03:15:33-03:00'
+  - episode_title: Kvaløymilen + Bankett
+    episode_url: https://mathiasmacody.podbean.com/e/kval%c3%b8ymilen-bankett/
+    audio_url: https://mcdn.podbean.com/mf/web/bqfirtaenyu4ukxv/Kval_ymilen-q1a2kl9.mp3
+    published_at: '2026-03-17T05:50:44-03:00'
+  - episode_title: Det tikker mot Kvalømilen
+    episode_url: https://mathiasmacody.podbean.com/e/det-tikker-mot-kval%c3%b8milen/
+    audio_url: https://mcdn.podbean.com/mf/web/bhdky3chj4d2fvhd/Team_Macody_Kval_milen-mars77u6a.mp3
+    published_at: '2026-03-10T04:48:35-03:00'
+  - episode_title: Hvem er Marianne Hagen?
+    episode_url: https://mathiasmacody.podbean.com/e/hvem-er-marianne-hagen/
+    audio_url: https://mcdn.podbean.com/mf/web/csxvhh5gu47betme/Hvem-er-Marianne-Hagen.mp3
+    published_at: '2026-03-03T04:17:35-04:00'
+  - episode_title: 97 i Vo2 max
+    episode_url: https://mathiasmacody.podbean.com/e/97-i-vo2-max/
+    audio_url: https://mcdn.podbean.com/mf/web/kbsd4i9m7sij23wi/97_i_Vo2maks9g6yk.mp3
+    published_at: '2026-02-23T04:33:00-04:00'
+  - episode_title: Hall Pass
+    episode_url: https://mathiasmacody.podbean.com/e/hall-pass/
+    audio_url: https://mcdn.podbean.com/mf/web/hwbe349agdfmhsbz/Sykdom_i_paneletbpro3.mp3
+    published_at: '2026-02-16T17:27:06-04:00'
+  - episode_title: Knockin On Heavens Door
+    episode_url: https://mathiasmacody.podbean.com/e/knockin-on-heavens-door/
+    audio_url: https://mcdn.podbean.com/mf/web/pjm8mnfdit9ijcyf/Brooks_Winterrun_bjqdh.mp3
+    published_at: '2026-02-10T03:10:34-04:00'
+  - episode_title: Nerdeprat med Skeltvedt
+    episode_url: https://mathiasmacody.podbean.com/e/nerdeprat-med-skeltvedt/
+    audio_url: https://mcdn.podbean.com/mf/web/e4aqu44afaqv9q3c/Nerdeprat_med_Skeltved6iqbw.mp3
+    published_at: '2026-02-05T16:11:20-04:00'
+  - episode_title: Frukt skal ikke i ovnen
+    episode_url: https://mathiasmacody.podbean.com/e/frukt-skal-ikke-i-ovnen/
+    audio_url: https://mcdn.podbean.com/mf/web/6wxfagmdjz5gjy5a/Uke_6_20266amye.mp3
+    published_at: '2026-02-03T08:09:04-04:00'
+  https://feeds.megaphone.fm/li6529969937: &76
   - episode_title: Why every creator is making a show
     episode_url: ''
     audio_url: https://traffic.megaphone.fm/LUHUC2510477753.mp3
@@ -6109,7 +6198,7 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://traffic.megaphone.fm/LUHUC4825309800.mp3?updated=1763619650
     published_at: '2025-11-19T11:00:00Z'
-  https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &76
+  https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &77
   - episode_title: 'Tech Whistleblower: You Only Have 3 Years Left Before This Hits! - Mo Gawdat'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSZDQ99M066XNR08PQ078JAX.mp3
@@ -6346,7 +6435,9 @@ feed_episodes_list:
   episodes: *73
 - feed_key: https://feeds.megaphone.fm/hs2300184645
   episodes: *74
-- feed_key: https://feeds.megaphone.fm/li6529969937
+- feed_key: https://feed.podbean.com/mathiasmacody/feed.xml
   episodes: *75
-- feed_key: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
+- feed_key: https://feeds.megaphone.fm/li6529969937
   episodes: *76
+- feed_key: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
+  episodes: *77
