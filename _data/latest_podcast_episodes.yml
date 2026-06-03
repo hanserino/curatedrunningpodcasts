@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-03T03:39:58Z'
+generated_at: '2026-06-03T03:47:32Z'
 items:
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt.html"
@@ -9,6 +9,14 @@ items:
   episode_url: https://springsnyggt.libsyn.com/340-stockholm-marathon-special-2026
   audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_3_juni.mp3?dest-id=1729274
   published_at: '2026-06-03T01:00:00+00:00'
+- podcast_title: La Sotana
+  podcast_page_url: "/la-sotana.html"
+  cover_image: "/media/lasotana.jpeg"
+  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
+  episode_title: La Sotana 414 amb Roger Mas
+  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-414-amb-Roger-Mas-e3k8fiu
+  audio_url: https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3
+  published_at: '2026-06-02T23:00:00+00:00'
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast.html"
   cover_image: "/media/insiderunning.jpeg"
@@ -241,14 +249,6 @@ items:
   episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
   audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
   published_at: '2026-05-27T09:00:00+00:00'
-- podcast_title: La Sotana
-  podcast_page_url: "/la-sotana.html"
-  cover_image: "/media/lasotana.jpeg"
-  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
-  episode_title: La Sotana 413 amb Pau Víctor
-  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
-  audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
-  published_at: '2026-05-26T23:00:00+00:00'
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack.html"
   cover_image: "/media/singletracknew.jpeg"
@@ -5397,6 +5397,10 @@ episodes_by_feed:
     audio_url: https://www.ivoox.com/tertulia-1-de-2020-a-2021-top_mf_63885931_feed_1.mp3
     published_at: '2021-01-01T18:19:47+01:00'
   https://anchor.fm/s/10e30d900/podcast/rss: &67
+  - episode_title: La Sotana 414 amb Roger Mas
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-414-amb-Roger-Mas-e3k8fiu
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3
+    published_at: '2026-06-02T23:00:00+00:00'
   - episode_title: La Sotana 413 amb Pau Víctor
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
     audio_url: https://anchor.fm/s/10e30d900/podcast/play/120577366/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-26%2F424944221-44100-2-00b354d289713.mp3
@@ -5473,10 +5477,6 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-396-amb-ric-Montes-e3e1763
     audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416612955-44100-2-9fdc1ccf360f871e.mp3
     published_at: '2026-01-20T21:59:00+00:00'
-  - episode_title: La Sotana 395
-    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-395-e3e1746
-    audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383430/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416612936-44100-2-8a1d2b0da22169b5.mp3
-    published_at: '2026-01-13T21:59:00+00:00'
   https://onepercentbetterpodcast.libsyn.com/rss: &68
   - episode_title: 8 Years of One Percent Better
     episode_url: https://onepercentbetterpodcast.libsyn.com/8-years-of-one-percent-better
@@ -5704,6 +5704,87 @@ episodes_by_feed:
     episode_url: https://soundcloud.com/american-alpine-journal/adventures-in-malawi
     audio_url: https://feeds.soundcloud.com/stream/1603119105-american-alpine-journal-adventures-in-malawi.mp3
     published_at: '2023-08-28T22:58:22+00:00'
+  https://feeds.transistor.fm/acquired: &71
+  - episode_title: Vanguard
+    episode_url: https://www.acquired.fm/episodes/vanguard
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/ee9d0817/c12627bd.mp3
+    published_at: '2026-05-17T20:26:52-07:00'
+  - episode_title: Ferrari
+    episode_url: https://www.acquired.fm/episodes/ferrari
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/9ca1df08/e400ba0d.mp3
+    published_at: '2026-04-12T20:33:59-07:00'
+  - episode_title: Formula 1
+    episode_url: https://www.acquired.fm/episodes/formula-1
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/93e7bac7/9d4b12b6.mp3
+    published_at: '2026-03-02T14:18:59-08:00'
+  - episode_title: The NFL
+    episode_url: https://www.acquired.fm/episodes/the-nfl
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/87d6503d/b2af8272.mp3
+    published_at: '2026-01-26T18:50:40-08:00'
+  - episode_title: Rolex
+    episode_url: https://www.acquired.fm/episodes/rolex
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/7bea4e45/0aa48fa3.mp3
+    published_at: '2026-01-02T20:34:00-08:00'
+  - episode_title: Costco
+    episode_url: https://www.acquired.fm/episodes/costco
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/fcf31c71/acf1c31d.mp3
+    published_at: '2026-01-01T21:46:00-08:00'
+  - episode_title: 10 Years of Acquired (with Michael Lewis)
+    episode_url: https://www.acquired.fm/episodes/10-years-of-acquired-with-michael-lewis
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/0f470567/18269289.mp3
+    published_at: '2025-12-14T20:19:45-08:00'
+  - episode_title: Coca-Cola
+    episode_url: https://www.acquired.fm/episodes/coca-cola
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/95f9fcf7/68ea94eb.mp3
+    published_at: '2025-11-23T19:00:17-08:00'
+  - episode_title: Trader Joe’s
+    episode_url: https://www.acquired.fm/episodes/trader-joes
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/8d72cb9c/19650029.mp3
+    published_at: '2025-10-26T20:07:10-07:00'
+  - episode_title: 'Google Part III: The AI Company'
+    episode_url: https://www.acquired.fm/episodes/google-the-ai-company
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/701dc613/9f822931.mp3
+    published_at: '2025-10-05T18:35:54-07:00'
+  - episode_title: Acquired Live at Radio City Music Hall (Presented by J.P. Morgan)
+    episode_url: https://www.acquired.fm/episodes/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/6f730593/d29fa674.mp3
+    published_at: '2025-09-30T20:08:00-07:00'
+  - episode_title: 'Google Part II: Alphabet'
+    episode_url: https://www.acquired.fm/episodes/alphabet-inc
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/8296b628/7f670b87.mp3
+    published_at: '2025-08-26T03:19:06-07:00'
+  - episode_title: The Jamie Dimon Interview
+    episode_url: https://www.acquired.fm/episodes/the-jamie-dimon-interview
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/621b1ddd/5b08fc34.mp3
+    published_at: '2025-07-16T07:18:04-07:00'
+  - episode_title: 'Google Part I: Origins of Search'
+    episode_url: https://www.acquired.fm/episodes/google
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/d927288f/d5b2a4ff.mp3
+    published_at: '2025-06-29T20:11:14-07:00'
+  - episode_title: The Steve Ballmer Interview
+    episode_url: https://www.acquired.fm/episodes/the-steve-ballmer-interview
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/6a598848/caeda411.mp3
+    published_at: '2025-06-01T18:54:06-07:00'
+  - episode_title: Epic Systems (MyChart)
+    episode_url: https://www.acquired.fm/episodes/epic-systems-mychart
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/da990430/4c8bb4df.mp3
+    published_at: '2025-04-20T19:04:52-07:00'
+  - episode_title: Indian Premier League Cricket
+    episode_url: https://www.acquired.fm/episodes/indian-premier-league-cricket
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/c5d05bfb/3bc12ad7.mp3
+    published_at: '2025-03-23T18:39:34-07:00'
+  - episode_title: TSMC Founder Morris Chang
+    episode_url: https://www.acquired.fm/episodes/tsmc-founder-morris-chang
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/9a264053/327df5d5.mp3
+    published_at: '2025-01-26T18:35:00-08:00'
+  - episode_title: Mars Inc. (the chocolate story)
+    episode_url: https://www.acquired.fm/episodes/mars-inc-the-chocolate-story
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/65646a4e/4312fe62.mp3
+    published_at: '2024-12-15T17:57:15-08:00'
+  - episode_title: IKEA
+    episode_url: https://www.acquired.fm/episodes/ikea
+    audio_url: https://pscrb.fm/rss/p/media.transistor.fm/51775457/5b90483f.mp3
+    published_at: '2024-11-17T20:42:39-08:00'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -5852,3 +5933,5 @@ feed_episodes_list:
   episodes: *69
 - feed_key: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
   episodes: *70
+- feed_key: https://feeds.transistor.fm/acquired
+  episodes: *71
