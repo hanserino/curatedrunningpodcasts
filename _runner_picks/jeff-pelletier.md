@@ -3,13 +3,12 @@ name: Jeff Pelletier
 role: Canadian trailrunner, filmmaker and podcast host
 photo: /media/runner-picks/jeffpelettier.jpg
 bio: >+
-  Jeff Pelletier is a prominent Vancouver-based ultra-distance trail runner and
-  documentary filmmaker. Known for tackling grueling multi-day and
-  point-to-point endurance events worldwide, he documents his journeys in
-  cinematic, first-person style films on his Jeff Pelletier YouTube Channel.
-  He's also the host of the podcast Creators Cooldown where he speaks to some of
-  the top creators of running related content, from filmmakers and
-  photographers, to writers and podcast hosts.
+  A prominent Vancouver-based ultra trail runner and documentary filmmaker.
+  Known for tackling grueling multi-day and point-to-point endurance events
+  worldwide, he documents his journeys in cinematic, first-person style films on
+  his Jeff Pelletier YouTube Channel. He's also the host of the podcast Creators
+  Cooldown where he speaks to some of the top creators of running related
+  content, from filmmakers and photographers, to writers and podcast hosts.
 
 instagram_handle: jpelletier
 sort_order: 10
