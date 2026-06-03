@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-03T04:17:14Z'
+generated_at: '2026-06-03T04:22:24Z'
 items:
 - podcast_title: Course Equipe
   podcast_page_url: "/course-equipe.html"
@@ -353,6 +353,14 @@ items:
   episode_url: https://podcasters.spotify.com/pod/show/thepilloutdoor9/episodes/Ep--12--Storie-e34a6um
   audio_url: https://anchor.fm/s/f8f3525c/podcast/play/104192406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-16%2F402251055-44100-2-f623024941703.m4a
   published_at: '2025-06-16T08:30:16+00:00'
+- podcast_title: Ultrarunning History
+  podcast_page_url: "/ultrarunning-history-podcast.html"
+  cover_image: "/media/ultrarunninghistory.jpg"
+  feed_url: https://ultrarunninghistory.com/feed/podcast/
+  episode_title: '178: Grand Canyon Short Stories – Part Two'
+  episode_url: https://ultrarunninghistory.com/178-grand-canyon-2/?utm_source=rss&utm_medium=rss&utm_campaign=178-grand-canyon-2
+  audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/06/episode178.mp3
+  published_at: '2025-06-01T23:39:47+00:00'
 - podcast_title: 90 Gramos
   podcast_page_url: "/90-gramos.html"
   cover_image: "/media/90gramos.jpeg"
@@ -1921,7 +1929,87 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/294--The-Bicarb-Revolution--Theory-of-Doubles--Vitamin-D-Supplementation--Stairmill-Training--and-Zone-2-Weirdness-e3du5cg
     audio_url: https://anchor.fm/s/9abbbe4/podcast/play/114283344/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-20%2F8868e37b-0444-98e2-ce0f-291206330fb5.mp3
     published_at: '2026-01-20T14:42:19+00:00'
-  https://ultrarunninghistory.com/feed/podcast/: &20 []
+  https://ultrarunninghistory.com/feed/podcast/: &20
+  - episode_title: '178: Grand Canyon Short Stories – Part Two'
+    episode_url: https://ultrarunninghistory.com/178-grand-canyon-2/?utm_source=rss&utm_medium=rss&utm_campaign=178-grand-canyon-2
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/06/episode178.mp3
+    published_at: '2025-06-01T23:39:47+00:00'
+  - episode_title: '177: Grand Canyon History Short Stories – Part One'
+    episode_url: https://ultrarunninghistory.com/grand-canyon-1/?utm_source=rss&utm_medium=rss&utm_campaign=grand-canyon-1
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/05/episode177.mp3
+    published_at: '2025-05-16T16:42:41+00:00'
+  - episode_title: '176: Trail Runner Nation Interview about Old Sport Campana'
+    episode_url: https://ultrarunninghistory.com/176-trail-runner-nation-interview/?utm_source=rss&utm_medium=rss&utm_campaign=176-trail-runner-nation-interview
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/05/episode176.mp3
+    published_at: '2025-05-04T21:57:21+00:00'
+  - episode_title: '175: The Tarahumara Ultrarunners'
+    episode_url: https://ultrarunninghistory.com/tarahumara-ultrarunners/?utm_source=rss&utm_medium=rss&utm_campaign=tarahumara-ultrarunners
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/04/episode175.mp3
+    published_at: '2025-04-17T19:34:48+00:00'
+  - episode_title: '174: Old Sport Campana (1836-1906) – Part Seven'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-7/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-7
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/03/episode174.mp3
+    published_at: '2025-03-29T20:30:55+00:00'
+  - episode_title: '173: Old Sport Campana (1836-1906) – Part Six'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-6/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-6
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/03/episode173.mp3
+    published_at: '2025-03-15T22:22:21+00:00'
+  - episode_title: '172: Old Sport Campana (1836-1906) – Part Five'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-5/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-5
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/03/episode172.mp3
+    published_at: '2025-03-01T23:00:12+00:00'
+  - episode_title: '171: Old Sport Campana (1836-1906) – Part Four'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-4/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-4
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/02/episode171.mp3
+    published_at: '2025-02-12T16:30:12+00:00'
+  - episode_title: '170: Old Sport Campana (1836-1906) – Part Three'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-3/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-3
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/01/episode170.mp3
+    published_at: '2025-01-30T16:00:47+00:00'
+  - episode_title: '169: Old Sport Campana (1836-1906) – Part Two'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-2/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-2
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/01/episode169.mp3
+    published_at: '2025-01-16T13:30:13+00:00'
+  - episode_title: '168: Old Sport Campana (1836-1906) – Part One'
+    episode_url: https://ultrarunninghistory.com/old-sport-campana-1/?utm_source=rss&utm_medium=rss&utm_campaign=old-sport-campana-1
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/01/episode168.mp3
+    published_at: '2025-01-03T19:30:10+00:00'
+  - episode_title: '167: Connie Gardner – National Champion Ultrarunner'
+    episode_url: https://ultrarunninghistory.com/connie-gardner/?utm_source=rss&utm_medium=rss&utm_campaign=connie-gardner
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/11/episode167.mp3
+    published_at: '2024-11-17T14:00:46+00:00'
+  - episode_title: '166: Stu Mittleman – The Ultrarunning Professor'
+    episode_url: https://ultrarunninghistory.com/stu-mittleman/?utm_source=rss&utm_medium=rss&utm_campaign=stu-mittleman
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/10/episode166.mp3
+    published_at: '2024-10-24T15:00:20+00:00'
+  - episode_title: '165: Bernd Heinrich – Naturalist Ultrarunner'
+    episode_url: https://ultrarunninghistory.com/bernd-heinrich-2/?utm_source=rss&utm_medium=rss&utm_campaign=bernd-heinrich-2
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/10/episode165.mp3
+    published_at: '2024-10-01T23:00:14+00:00'
+  - episode_title: '164: Sue Ellen Trapp – Pioneer Ultrarunner and Legend'
+    episode_url: https://ultrarunninghistory.com/sue-ellen-trapp/?utm_source=rss&utm_medium=rss&utm_campaign=sue-ellen-trapp
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/09/episode164.mp3
+    published_at: '2024-09-18T21:15:39+00:00'
+  - episode_title: '163: Marcy Schwam: Pioneer Ultrarunner'
+    episode_url: https://ultrarunninghistory.com/marcy-schwam-ultrarunner/?utm_source=rss&utm_medium=rss&utm_campaign=marcy-schwam-ultrarunner
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/09/episode163.mp3
+    published_at: '2024-09-04T18:30:11+00:00'
+  - episode_title: '162: Sandy Kiddy – Pioneer Ultrarunner (1936-2018)'
+    episode_url: https://ultrarunninghistory.com/sandra-kiddy/?utm_source=rss&utm_medium=rss&utm_campaign=sandra-kiddy
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/08/episode162.mp3
+    published_at: '2024-08-17T00:30:24+00:00'
+  - episode_title: '161: Gordy Ainsleigh’s Western States Run – 50 Years Ago'
+    episode_url: https://ultrarunninghistory.com/gordy-ainsleigh-run/?utm_source=rss&utm_medium=rss&utm_campaign=gordy-ainsleigh-run
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/07/episode161.mp3
+    published_at: '2024-07-27T20:00:02+00:00'
+  - episode_title: '160: Ted Corbitt – Part Three (1964-2007)'
+    episode_url: https://ultrarunninghistory.com/ted-corbitt-3/?utm_source=rss&utm_medium=rss&utm_campaign=ted-corbitt-3
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/07/episode160.mp3
+    published_at: '2024-07-21T22:00:03+00:00'
+  - episode_title: '159: Ted Corbitt – Part Two (1953-1963)'
+    episode_url: https://ultrarunninghistory.com/ted-corbitt-2/?utm_source=rss&utm_medium=rss&utm_campaign=ted-corbitt-2
+    audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2024/06/episode159.mp3
+    published_at: '2024-06-20T21:00:09+00:00'
   https://rss.libsyn.com/shows/489620/destinations/4178531.xml: &21
   - episode_title: Tara Dower and 69ing the LA Marathon
     episode_url: https://f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472.libsyn.com/tara-dower-and-69ing-the-la-marathon
@@ -6023,9 +6111,6 @@ episodes_by_feed:
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KMZRVEW8EBVJ39EYDKFETPK7.mp3
     published_at: '2026-04-17T05:00:00Z'
 errors:
-- podcast: Ultrarunning History
-  rss_feed: https://ultrarunninghistory.com/feed/podcast/
-  error: 'Net::OpenTimeout: Failed to open TCP connection to ultrarunninghistory.com:443 (execution expired)'
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
