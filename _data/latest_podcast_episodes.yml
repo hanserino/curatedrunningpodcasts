@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-04T05:37:51Z'
+generated_at: '2026-06-04T05:44:51Z'
 items:
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
@@ -313,7 +313,7 @@ items:
   episode_url: https://paceonearth.libsyn.com/377-pulsbaserad-trning-med-isabella-brandt-frn-aktivitus
   audio_url: https://traffic.libsyn.com/secure/paceonearth/Pulsbaserad-traning-med-Isabella-Brandt-fran-Aktivitus.mp3?dest-id=566693
   published_at: '2026-05-09T23:00:00+00:00'
-- podcast_title: Føkk Asfalt / Nå Er Det Alvor
+- podcast_title: Føkk Asfalt
   podcast_page_url: "/n-er-det-alvor.html"
   cover_image: "/media/fokk-asfalt-logo.webp"
   feed_url: https://rss.buzzsprout.com/145661.rss
@@ -401,6 +401,14 @@ items:
   episode_url: ''
   audio_url: https://traffic.megaphone.fm/TSSL3452159980.mp3?updated=1739215760
   published_at: '2024-12-19T23:01:00Z'
+- podcast_title: The Ultra Sound Podcast
+  podcast_page_url: "/the-ultra-sound-podcast.html"
+  cover_image: "/media/theultrasoundpodcast.jpeg"
+  feed_url: https://anchor.fm/s/f7fa9d38/podcast/rss
+  episode_title: UTMB Debrief
+  episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/UTMB-Debrief-e2om5he
+  audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/92001262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-21%2F386758186-44100-2-613d97e8b6a86.mp3
+  published_at: '2024-09-23T16:00:00+00:00'
 - podcast_title: I Det Lange Løp
   podcast_page_url: "/i-det-lange-l-p.html"
   cover_image: "/media/idetlangeloppodcast.jpeg"
@@ -6467,6 +6475,43 @@ episodes_by_feed:
     episode_url: https://493f0699-c147-4699-91f6-cc8d1c238aad.libsyn.com/brian-metzler-on-utmb-trade-shows-and-trail-running-hot-takes
     audio_url: https://traffic.libsyn.com/secure/493f0699-c147-4699-91f6-cc8d1c238aad/riverside_copy_of_metzler_edit_the_buzz.mp3?dest-id=4941070
     published_at: '2025-09-09T06:23:00+00:00'
+  https://anchor.fm/s/f7fa9d38/podcast/rss: &82
+  - episode_title: UTMB Debrief
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/UTMB-Debrief-e2om5he
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/92001262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-21%2F386758186-44100-2-613d97e8b6a86.mp3
+    published_at: '2024-09-23T16:00:00+00:00'
+  - episode_title: Preparing for UTMB
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Preparing-for-UTMB-e2mttdt
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/90157949/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-7%2F384430151-44100-2-c70b3c0fd63e8.mp3
+    published_at: '2024-08-14T16:00:00+00:00'
+  - episode_title: Mindset for Ultramarathons
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Mindset-for-Ultramarathons-e2mtq90
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/90154720/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-7-7%2F384429728-44100-2-8a549924ca58d.mp3
+    published_at: '2024-08-07T16:00:00+00:00'
+  - episode_title: Racing Ultramarathons
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Racing-Ultramarathons-e2mlrhj
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/89893875/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-31%2F384110564-44100-2-847d230b66537.mp3
+    published_at: '2024-07-31T17:42:53+00:00'
+  - episode_title: Training for Ultramarathons
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Training-for-Ultramarathons-e2md0pd
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/89604333/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-24%2F383747038-44100-2-24ee7712a29c4.mp3
+    published_at: '2024-07-24T16:00:00+00:00'
+  - episode_title: Choosing Gear for Ultramarathons
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Choosing-Gear-for-Ultramarathons-e2m4j79
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/89328297/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-17%2F383349819-44100-2-9a345b7003149.mp3
+    published_at: '2024-07-17T16:00:00+00:00'
+  - episode_title: Nutrition for Ultramarathons
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Nutrition-for-Ultramarathons-e2lr3f5
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/89017253/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-9%2F382828174-44100-2-cc3ac0eb1ad15.mp3
+    published_at: '2024-07-10T16:00:00+00:00'
+  - episode_title: Getting into Ultrarunning and Meet your Hosts
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Getting-into-Ultrarunning-and-Meet-your-Hosts-e2lk2qq
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/88787226/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-6-3%2F382332617-44100-2-516478662353e.mp3
+    published_at: '2024-07-03T15:55:00+00:00'
+  - episode_title: Introduction to your Cohost
+    episode_url: https://podcasters.spotify.com/pod/show/santaratech8/episodes/Introduction-to-your-Cohost-e2l76t0
+    audio_url: https://anchor.fm/s/f7fa9d38/podcast/play/88365408/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-5-23%2F0d2f054d-b2eb-d96b-6c52-91c452feb04e.mp3
+    published_at: '2024-06-23T15:43:38+00:00'
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -6643,3 +6688,5 @@ feed_episodes_list:
   episodes: *80
 - feed_key: https://rss.libsyn.com/shows/571035/destinations/4941070.xml
   episodes: *81
+- feed_key: https://anchor.fm/s/f7fa9d38/podcast/rss
+  episodes: *82
