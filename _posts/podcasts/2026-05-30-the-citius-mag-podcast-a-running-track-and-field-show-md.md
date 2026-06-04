@@ -2,6 +2,7 @@
 date: 2026-05-31
 title: The CITIUS MAG Podcast | A Running + Track and Field Show
 category: podcast
+url_slug: the-citius-mag-podcast-a-running-track-and-field-show
 published: "true"
 description: Hosted by CITIUS MAG founder Chris Chavez. The show was named one
   of "The Best Running Podcasts" by Runner's World.

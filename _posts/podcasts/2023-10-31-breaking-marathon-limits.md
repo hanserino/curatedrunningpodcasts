@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: Breaking Marathon Limits
 category: podcast
+url_slug: breaking-marathon-limits
 published: true
 description: Norwegian running podcast, mostly focused on track and road.
 not_running_related: false

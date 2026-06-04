@@ -2,6 +2,7 @@
 date: 2026-06-02
 title: La Sotana
 category: podcast
+url_slug: la-sotana
 published: "true"
 description: A Spanish football podcast focused entirely on FC Barcelona. Free
   from traditional sports journalism, it delivers passionate, biased, and often

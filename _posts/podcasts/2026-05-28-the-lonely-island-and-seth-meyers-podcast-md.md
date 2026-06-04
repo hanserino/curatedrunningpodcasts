@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: The Lonely Island and Seth Meyers Podcast
 category: podcast
+url_slug: the-lonely-island-and-seth-meyers-podcast
 published: "true"
 featured: false
 not_running_related: true

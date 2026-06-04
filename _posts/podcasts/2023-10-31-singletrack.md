@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: Singletrack
 category: podcast
+url_slug: singletrack
 published: true
 description: Singletrack covers the professional trail and ultrarunning scene.
 not_running_related: false

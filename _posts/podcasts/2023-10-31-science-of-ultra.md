@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Science Of Ultra
 category: podcast
+url_slug: science-of-ultra
 published: true
 description: "For endurance athletes who want to do more than improve race
   performance. The host, Shawn Bearden, hasn't published any episodes since

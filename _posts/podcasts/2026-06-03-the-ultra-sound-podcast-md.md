@@ -2,6 +2,7 @@
 date: 2026-06-04
 title: The Ultra Sound Podcast
 category: podcast
+url_slug: the-ultra-sound-podcast
 published: "true"
 description: Pro trailrunner Tom Evans and his best friend Brett Saunders
   discuss all things trailrunning.

@@ -2,6 +2,7 @@
 date: 2026-06-01
 title: Forklart
 category: podcast
+url_slug: forklart
 published: "true"
 description: Hver ukedag gir Forklart deg en grundig forklaring av én nyhet på
   bare 15 minutter. Aftenpostens journalister gir deg en rask oppdatering og

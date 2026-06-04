@@ -2,6 +2,7 @@
 date: 2026-06-02
 title: Pionieri
 category: podcast
+url_slug: pionieri
 published: "true"
 description: Il podcast sulla storia del trail in Italia. Raccontato da Filippo
   Caon e supportato da La Sportiva.

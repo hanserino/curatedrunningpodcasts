@@ -2,6 +2,7 @@
 date: 2026-04-29
 title: Creators Cooldown
 category: podcast
+url_slug: creators-cooldown
 published: "true"
 description: Host Jeff Pelletier speaks to some of the top creators of running
   related content, from filmmakers and photographers, to writers and podcast

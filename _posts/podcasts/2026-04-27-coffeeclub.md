@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: COFFEECLUB
 category: podcast
+url_slug: coffeeclub
 published: "true"
 description: Pro runners Morgan McDonald, Oliver Hoare and George Beamish
   sitting down drinking coffee and having a chat.

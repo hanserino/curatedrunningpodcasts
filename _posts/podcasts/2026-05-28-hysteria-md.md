@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Hysteria
 category: podcast
+url_slug: hysteria
 published: "true"
 featured: false
 not_running_related: true

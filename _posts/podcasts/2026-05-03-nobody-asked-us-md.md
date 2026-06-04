@@ -2,6 +2,7 @@
 date: 2026-05-04
 title: Nobody Asked Us
 category: podcast
+url_slug: nobody-asked-us
 published: "true"
 description: Olympic teammates, Des Linden and Kara Goucher share their hot
   takes about all things running with a little bit of life-stuff sprinkled in

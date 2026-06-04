@@ -2,6 +2,7 @@
 date: 2026-05-31
 title: And The Writer Is...with Ross Golan
 category: podcast
+url_slug: and-the-writer-is-with-ross-golan
 published: "true"
 description: Every week, we sit down with an acclaimed and venerable songwriter
   to intimately discuss what happens behind closed doors in the music industry.

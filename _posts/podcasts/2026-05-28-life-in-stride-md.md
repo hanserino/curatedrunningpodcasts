@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Life in Stride
 category: podcast
+url_slug: life-in-stride
 published: "true"
 description: "Goal of the podcast: serve as a safe haven for the “try hard”
   amateur who loves to balance the demands of family, work and life while

@@ -2,6 +2,7 @@
 date: 2026-06-02
 title: The Cutting Edge
 category: podcast
+url_slug: the-cutting-edge
 published: "true"
 description: The Cutting Edge presents in-depth interviews with the world's best
   climbers, just back from great new climbs, along with historical perspective

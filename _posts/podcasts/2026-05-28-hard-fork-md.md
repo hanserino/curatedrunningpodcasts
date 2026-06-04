@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Hard Fork
 category: podcast
+url_slug: hard-fork
 published: "true"
 featured: false
 not_running_related: true

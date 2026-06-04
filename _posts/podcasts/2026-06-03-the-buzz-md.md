@@ -2,6 +2,7 @@
 date: 2026-06-04
 title: The Buzz
 category: podcast
+url_slug: the-buzz
 published: "true"
 description: >
   A podcast that cuts through the noise of ultra trail running with grounded

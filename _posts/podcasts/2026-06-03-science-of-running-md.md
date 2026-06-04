@@ -2,6 +2,7 @@
 date: 2026-06-04
 title: Science of Running
 category: podcast
+url_slug: science-of-running
 published: "true"
 description: Author and coach Steve Magness takes an in depth look at training,
   coaching, sport science, and anything else that relates to enhancing endurance

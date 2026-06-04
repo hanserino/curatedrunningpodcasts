@@ -2,6 +2,7 @@
 date: 2026-06-04
 title: EvokeCast
 category: podcast
+url_slug: evokecast
 published: "true"
 description: Join Scott Johnston and the Evoke Endurance coaching team for
   regular interviews, discussion, and educational materials for the global

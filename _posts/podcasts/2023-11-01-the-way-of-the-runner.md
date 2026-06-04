@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: The Way Of The Runner
 category: podcast
+url_slug: the-way-of-the-runner
 published: true
 description: Award-winning author Adharanand Finn talks to runners of every kind
   about the joy and experience of running.

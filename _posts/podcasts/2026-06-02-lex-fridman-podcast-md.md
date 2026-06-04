@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: Lex Fridman Podcast
 category: podcast
+url_slug: lex-fridman-podcast
 published: "true"
 description: Conversations that explore technology, history, philosophy,
   physics, mathematics, biology, chemistry, engineering, AI, robotics,

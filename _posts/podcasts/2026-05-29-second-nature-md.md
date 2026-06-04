@@ -2,6 +2,7 @@
 date: 2026-05-30
 title: Second Nature
 category: podcast
+url_slug: second-nature
 published: "true"
 description: The business of outdoor hosted by Aaron Lutze & Dylan Bowman
 featured: false

@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: How I Built This
 category: podcast
+url_slug: how-i-built-this
 published: "true"
 description: "Guy Raz interviews the world’s best-known entrepreneurs to learn
   how they built their iconic brands. In each episode, founders reveal deep,

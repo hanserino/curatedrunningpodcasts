@@ -2,6 +2,7 @@
 date: 2026-05-04
 title: For The Long Run
 category: podcast
+url_slug: for-the-long-run
 published: "true"
 description: Jonathan Levitt interviews athletes and founders in the the
   outdoor, running and performance space.

@@ -2,6 +2,7 @@
 date: 2026-06-01
 title: Huberman Lab
 category: podcast
+url_slug: huberman-lab
 published: "true"
 description: Hosted by Andrew Huberman, Ph.D., a neuroscientist and tenured
   professor in the department of neurobiology, and by courtesy, psychiatry and

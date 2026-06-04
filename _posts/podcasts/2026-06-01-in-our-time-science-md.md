@@ -2,6 +2,7 @@
 date: 2026-06-02
 title: "In Our Time: Science"
 category: podcast
+url_slug: in-our-time-science
 published: "true"
 description: Scientific principles, theory, and the role of key figures in the
   advancement of science.

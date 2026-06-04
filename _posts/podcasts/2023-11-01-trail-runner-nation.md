@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Trail Runner Nation
 category: podcast
+url_slug: trail-runner-nation
 published: true
 description: Trail Runner Nation is devoted to sharing knowledge and advice to
   the trail running community - from beginners to the pros! Tips and discussions

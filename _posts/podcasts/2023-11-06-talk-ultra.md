@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: Talk Ultra
 category: podcast
+url_slug: talk-ultra
 published: true
 description: The godfather of ultra trail podcasts, Ian Corless, brings you you
   news and in depth interviews from the ultrarunning world.

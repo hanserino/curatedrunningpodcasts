@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: The Boulder Boys
 category: podcast
+url_slug: the-boulder-boys
 published: "true"
 description: "Boulder based pro ultra trail runners Seth Ruhling, Adam Merry,
   Matt Daniels, Drew Holmen and Moisés Jimenez takes you behind the scenes of

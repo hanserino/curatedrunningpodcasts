@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Spring Snyggt
 category: podcast
+url_slug: spring-snyggt
 published: true
 description: Swedish podcast by elite runner John “Jesus” Kingstedt and the
   rookie Manne Forssberg covering all things road and track.

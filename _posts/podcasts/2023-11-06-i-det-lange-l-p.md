@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: I Det Lange Løp
 category: podcast
+url_slug: i-det-lange-l-p
 published: true
 description: "Norwegian running podcast created between 2019 - 2023. Solid
   interviews with elite athletes in all running genres. No longer active. "

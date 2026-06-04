@@ -2,6 +2,7 @@
 date: 2026-04-28
 title: The Freetrail Podcast
 category: podcast
+url_slug: the-freetrail-podcast
 published: true
 description: Professional ultrarunner, Dylan Bowman, brings conversations with a
   wide-ranging cohort of guests, covering ultrarunning, sports, business, and

@@ -25,6 +25,7 @@ Jekyll::Hooks.register :site, :post_read do |site|
     next if base.empty?
 
     data["slug"] = base
+    data["url_slug"] = base if data["url_slug"].to_s.strip.empty?
 
     old_path = "/#{slug}.html"
     old_md_path = "/#{base}-md.html"

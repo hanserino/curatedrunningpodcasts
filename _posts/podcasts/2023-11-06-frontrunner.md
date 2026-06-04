@@ -5,6 +5,7 @@ redirect_from:
 date: 2026-05-29
 title: Frontrunner
 category: podcast
+url_slug: frontrunner
 published: false
 description: Danish podcast by former pro track and road runner Henrik Them
 not_running_related: false

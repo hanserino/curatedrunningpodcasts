@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-28
 title: Trail Society
 category: podcast
+url_slug: trail-society
 published: true
 description: Keely Henninger, Corrine Malcolm, and Hillary Allen are three
   professional trail runners looking to utilize their experience as athletes and

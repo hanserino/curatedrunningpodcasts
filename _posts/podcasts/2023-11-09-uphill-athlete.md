@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Uphill Athlete
 category: podcast
+url_slug: uphill-athlete
 published: true
 description: Legendary alpine climber Steve House brings you highly informative
   discussions that range widely across topics, including running.

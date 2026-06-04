@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Pablo Torre Finds Out
 category: podcast
+url_slug: pablo-torre-finds-out
 published: "true"
 featured: false
 not_running_related: true

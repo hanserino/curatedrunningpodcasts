@@ -2,6 +2,7 @@
 date: 2026-05-31
 title: "Waveform: The MKBHD Podcast"
 category: podcast
+url_slug: waveform-the-mkbhd-podcast
 published: "true"
 description: A tech podcast for the gadget lovers and tech heads among us from
   the mind of Marques Brownlee, better known as MKBHD. MKBHD has made a name for

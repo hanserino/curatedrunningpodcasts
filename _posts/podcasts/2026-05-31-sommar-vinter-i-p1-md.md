@@ -2,6 +2,7 @@
 date: 2026-06-01
 title: Sommar & Vinter i P1
 category: podcast
+url_slug: sommar-vinter-i-p1
 published: "true"
 description: Sveriges största podd med personliga berättelser som definierar vår tid.
 featured: false

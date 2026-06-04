@@ -2,6 +2,7 @@
 date: 2026-05-31
 title: Road to the Trials
 category: podcast
+url_slug: road-to-the-trials
 published: "true"
 description: Co-hosts Matt Chittim, Lindsey Hein, and Peter Bromka interview
   every 2028 Olympic Marathon Trials Qualifier along with a wide-ranging group

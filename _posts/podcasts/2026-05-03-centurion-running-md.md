@@ -2,6 +2,7 @@
 date: 2026-05-04
 title: Centurion Running
 category: podcast
+url_slug: centurion-running
 published: "true"
 description: Centurion Running is a UK based trail running event company.
   Episodes are focused around their races + current events on the international

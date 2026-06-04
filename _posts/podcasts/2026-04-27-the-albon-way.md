@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: The Albon Way
 category: podcast
+url_slug: the-albon-way
 published: "true"
 description: "Ultra trail power couple Jon and Henriette Albon talk about their
   training, racing, and shares tips, tricks and advice. "

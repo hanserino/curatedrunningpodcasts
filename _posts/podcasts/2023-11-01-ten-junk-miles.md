@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: Ten Junk Miles
 category: podcast
+url_slug: ten-junk-miles
 published: true
 description: Scotty Kummer brings you lighthearted conversations with runners
   about their lives as runners and the issues that are interesting or important

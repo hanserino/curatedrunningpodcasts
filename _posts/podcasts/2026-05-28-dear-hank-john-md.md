@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Dear Hank & John
 category: podcast
+url_slug: dear-hank-john
 published: "true"
 featured: false
 not_running_related: true

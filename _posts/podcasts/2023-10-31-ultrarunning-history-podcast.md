@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: Ultrarunning History
 category: podcast
+url_slug: ultrarunning-history-podcast
 published: true
 description: A podcast about the history of ultrarunning by ultrarunner and
   historian Davy Crocket.

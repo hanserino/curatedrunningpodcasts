@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: Xampany o Suero
 category: podcast
+url_slug: xampany-o-suero
 published: "true"
 description: A Catalan-language mountain sports podcast focusing on trail
   running, ultrarunning, mountain culture, and endurance sports, with an

@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: The Extramilest Show
 category: podcast
+url_slug: the-extramilest-show
 published: true
 description: Interviews with world class athletes, coaches and rukus makers
   about health, wellness and performance. Hosted by endurance athlete Floris

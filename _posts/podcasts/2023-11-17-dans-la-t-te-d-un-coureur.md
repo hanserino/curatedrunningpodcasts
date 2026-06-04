@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Dans la Tête d’un Coureur
 category: podcast
+url_slug: dans-la-t-te-d-un-coureur
 published: true
 description: The first French-speaking podcast dedicated to running and mental
   preparation. Advice, interviews with inspiring athletes and all about the

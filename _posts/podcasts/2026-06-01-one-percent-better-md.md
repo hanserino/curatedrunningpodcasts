@@ -2,6 +2,7 @@
 date: 2026-06-02
 title: One Percent Better
 category: podcast
+url_slug: one-percent-better
 published: "true"
 description: Imagine how your life would be transformed if you could get 1%
   better every day. Every week since 2017, your host Joe Ferraro releases a new

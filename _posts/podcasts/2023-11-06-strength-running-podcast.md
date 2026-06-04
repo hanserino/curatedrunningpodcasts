@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Strength Running Podcast
 category: podcast
+url_slug: strength-running-podcast
 published: true
 description: Running and coaching tips for beginner and advanced runners with
   Coach Jason Fitzgerald. Featuring guests like Nick Symmonds and Shalane

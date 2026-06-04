@@ -2,6 +2,7 @@
 date: 2026-06-02
 title: Ingravidos
 category: podcast
+url_slug: ingravidos
 published: "true"
 description: Spanish mountain, trail running, and adventure racing show.
 featured: false

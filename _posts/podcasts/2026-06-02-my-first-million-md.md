@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: My First Million
 category: podcast
+url_slug: my-first-million
 published: "true"
 description: Sam Parr and Shaan Puri brainstorm new business ideas based on
   trends & opportunities they see in the market. Sometimes they bring on famous

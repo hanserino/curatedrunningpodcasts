@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: THEMOVE
 category: podcast
+url_slug: themove
 published: "true"
 featured: false
 not_running_related: true

@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Crack A Brew With AJW
 category: podcast
+url_slug: crack-a-brew-with-ajw
 published: true
 description: Runner and Coach Andy Jones-Wilkins talks with trail running
   athletes, coaches and race directors about topical subjects. Each episode

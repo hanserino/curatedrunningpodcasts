@@ -2,6 +2,7 @@
 date: 2026-06-04
 title: Historias del Trail
 category: podcast
+url_slug: historias-del-trail
 published: "true"
 description: Spanish podcast with Albert Jorquera  - a trail running journalist,
   commentator, writer, podcast host, and ultrarunner.

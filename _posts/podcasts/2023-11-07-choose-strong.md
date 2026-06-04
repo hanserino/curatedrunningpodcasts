@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Choose Strong
 category: podcast
+url_slug: choose-strong
 published: true
 description: "The host, Sally McRae, is a pro athlete , wife, mother, and biz
   owner. She seeks to encourage others to live a strong and courageous life and

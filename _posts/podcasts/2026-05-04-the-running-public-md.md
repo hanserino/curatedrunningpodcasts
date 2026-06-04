@@ -2,6 +2,7 @@
 date: 2026-05-05
 title: The Running Public
 category: podcast
+url_slug: the-running-public
 published: "true"
 description: Two endurance athletes and coaches sit down to talk all things running.
 featured: false

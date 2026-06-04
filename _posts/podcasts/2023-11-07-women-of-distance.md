@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Women of Distance
 category: podcast
+url_slug: women-of-distance
 published: true
 description: A podcast about the women of Mountain, Trail, Ultra and Road
   running worlds. Hosted by Devon Yanko.

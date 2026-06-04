@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Ask a Cycling Coach Podcast
 category: podcast
+url_slug: ask-a-cycling-coach-podcast
 published: "true"
 featured: false
 not_running_related: true

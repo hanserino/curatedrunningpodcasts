@@ -2,6 +2,7 @@
 date: 2026-05-08
 title: Take Off Your Shoes
 category: podcast
+url_slug: take-off-your-shoes
 published: "true"
 description: Real and heartfelt conversations with host Bora Erör and pro trail runners.
 featured: false

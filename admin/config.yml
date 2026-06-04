@@ -38,26 +38,33 @@ collections:
     media_folder: "/media"
     public_folder: "/media"
     create: true
-    path: "{{year}}-{{month}}-{{day}}-{{slug}}.md"
+    # Use {{fields.url_slug}} — a field named "slug" conflicts with Decap's built-in {{slug}} tag (from title).
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.url_slug}}"
+    path: "{{year}}-{{month}}-{{day}}-{{fields.url_slug}}.md"
     extension: "md"
     format: "frontmatter"
-    # Slug in filename = slugified title unless you set slug in (future) advanced mode
     identifier_field: title
     summary: "{{title}} · {{date}}{{featured | ternary(' · Featured','')}}"
     sortable_fields: ["date", "title", "description", "featured"]
     fields:
       - { label: "Publish date", name: "date", required: true, time_format: false, date_format: "YYYY-MM-DD", picker_utc: false, widget: "datetime" }
       - { label: "Show / podcast name", name: "title", required: true, widget: "string" }
-      - label: "URL slug"
-        name: "slug"
-        widget: "slug"
+      - label: "URL slug (current address)"
+        name: "url_slug"
+        widget: "string"
         required: true
-        hint: "Public path for the show page — https://bestrunningpodcasts.com/[slug]/ . Use lowercase letters, numbers, and hyphens only (no æ, ø, å). Auto-filled from the title; edit if you need a shorter or cleaner URL. Saving may rename the Markdown file to match."
+        pattern:
+          - "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          - "Use lowercase letters, numbers, and hyphens only (no spaces or æ/ø/å)."
+        hint: "The show page URL is https://bestrunningpodcasts.com/[this-value]/ . Match the podcast name or keep it short (e.g. n-er-det-alvor). Saving may rename the Markdown file."
       - label: "Previous URL slug (optional)"
         name: "legacy_slug"
         widget: "string"
         required: false
-        hint: "If you change the slug above, enter the old slug here once so visitors on the old address are redirected to the new page."
+        pattern:
+          - "^$|^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          - "Lowercase letters, numbers, and hyphens only."
+        hint: "Only when you change the URL slug above — enter the old slug once so the old link redirects to the new page."
       - { label: "Category (fixed)", name: "category", default: "podcast", widget: "hidden" }
       - { label: "Include in site (fixed)", name: "published", default: "true", widget: "hidden" }
       - { label: "Short description", name: "description", required: false, hint: "Shown in the list and in SEO. One or two sentences.", widget: "text" }

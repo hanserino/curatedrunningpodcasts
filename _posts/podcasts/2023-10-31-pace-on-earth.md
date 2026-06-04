@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Pace On Earth
 category: podcast
+url_slug: pace-on-earth
 published: true
 description: "A Swedish ultrarunning podcast where the podcast hosts Ellen
   Westfelt and Johnny Hällneby talks about everything from cross training,

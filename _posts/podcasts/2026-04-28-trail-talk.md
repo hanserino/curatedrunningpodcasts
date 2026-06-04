@@ -2,6 +2,7 @@
 date: 2026-04-29
 title: Trail Talk
 category: podcast
+url_slug: trail-talk
 published: "true"
 description: Global ultra-trail show covering races, athlete stories, gear
   reviews, and the culture that drives runners to push beyond the marathon, by

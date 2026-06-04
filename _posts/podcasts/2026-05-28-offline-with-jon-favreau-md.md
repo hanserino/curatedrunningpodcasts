@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Offline with Jon Favreau
 category: podcast
+url_slug: offline-with-jon-favreau
 published: "true"
 featured: false
 not_running_related: true

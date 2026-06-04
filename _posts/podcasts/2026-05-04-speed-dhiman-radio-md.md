@@ -2,6 +2,7 @@
 date: 2026-05-05
 title: Speed Dhiman Radio
 category: podcast
+url_slug: speed-dhiman-radio
 published: "true"
 description: Endurance conversation and ramblings from pro trail runner Ben Dhiman.
 featured: false

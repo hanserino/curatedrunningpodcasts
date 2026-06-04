@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Between Two Pines
 category: podcast
+url_slug: between-two-pines
 published: true
 description: A running podcast for people who think running podcasts are stupid.
   Dom Grossman and Andy Pearson ask their guests hilariously insulting questions

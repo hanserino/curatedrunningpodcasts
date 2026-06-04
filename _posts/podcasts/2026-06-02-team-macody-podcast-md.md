@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: Team Macody Podcast
 category: podcast
+url_slug: team-macody-podcast
 published: "true"
 description: "Norwegian road running podcast. Weekly chats with the Macody
   brothers + friends recorded with the Clubhouse app. Listening to it feels like

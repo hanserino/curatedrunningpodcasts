@@ -2,6 +2,7 @@
 date: 2026-06-04
 title: Long Run Labs
 category: podcast
+url_slug: long-run-labs
 published: "true"
 featured: false
 not_running_related: false

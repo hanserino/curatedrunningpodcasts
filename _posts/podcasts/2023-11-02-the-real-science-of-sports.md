@@ -7,6 +7,7 @@ redirect_from:
 date: 2026-05-29
 title: The Real Science Of Sport
 category: podcast
+url_slug: the-real-science-of-sports
 published: true
 description: World-renowned sports scientist Professor Ross Tucker and veteran
   sports journalist Mike Finch break down the myths, practices and controversies

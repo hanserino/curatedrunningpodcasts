@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Running long - A trail & ultra running talk
 category: podcast
+url_slug: running-long-a-trail-ultra-running-talk
 published: true
 description: Elite runner Francesco Puppi has conversations with key members of
   the trail & ultra running community from all over the world. From professional

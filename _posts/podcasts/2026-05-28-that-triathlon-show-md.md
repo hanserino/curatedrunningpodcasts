@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: That Triathlon Show
 category: podcast
+url_slug: that-triathlon-show
 published: "true"
 featured: false
 not_running_related: true

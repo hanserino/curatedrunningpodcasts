@@ -2,6 +2,7 @@
 date: 2026-04-28
 title: Inside Running Podcast
 category: podcast
+url_slug: inside-running-podcast
 published: "true"
 description: "Australian road and track podcast with Brady Threlfall, Julian
   Spence and Bradley Croker. "

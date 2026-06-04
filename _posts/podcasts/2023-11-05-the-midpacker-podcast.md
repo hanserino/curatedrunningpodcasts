@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: The Midpacker Podcast
 category: podcast
+url_slug: the-midpacker-podcast
 published: true
 description: Troy Meadows presents a podcast which follows middle and back of
   the pack trail runners and ultra runners at the heart of the trail running

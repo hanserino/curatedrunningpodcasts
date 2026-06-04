@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: The Sub Hub
 category: podcast
+url_slug: the-sub-hub
 published: true
 description: Dani Moreno and and EmKay Sullivan brings you your hub for all
   things sub-ultra mountain and trail running.

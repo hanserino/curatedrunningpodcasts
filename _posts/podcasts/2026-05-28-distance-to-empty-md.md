@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Distance to Empty
 category: podcast
+url_slug: distance-to-empty
 published: "true"
 description: Through in-depth interviews with athletes, race organizers and
   sports scientists, shedding light on the unique challenges involved in

@@ -2,6 +2,7 @@
 date: 2026-05-29
 title: Out and Back
 category: podcast
+url_slug: out-and-back
 published: "true"
 description: Professional marathoners Rory Linkletter and Jacob Thomson bring
   listeners behind the scenes of the marathon lifestyle. Training talk with a

@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: The Diary Of A CEO
 category: podcast
+url_slug: the-diary-of-a-ceo
 published: "true"
 description: Interviews with the world’s most fascinating CEOs, experts,
   therapists, and leaders – created with the hope that their lessons will help

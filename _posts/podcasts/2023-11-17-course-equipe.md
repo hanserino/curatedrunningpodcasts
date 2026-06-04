@@ -6,6 +6,7 @@ redirect_from:
 date: 2026-05-29
 title: Course Épique
 category: podcast
+url_slug: course-equipe
 published: true
 description: "French running and trail-running podcast focused on storytelling
   rather than race analysis or training advice. Framework: 1 guest, 1 race, 1

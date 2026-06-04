@@ -2,6 +2,7 @@
 date: 2026-06-01
 title: Oppdatert
 category: podcast
+url_slug: oppdatert
 published: "true"
 description: "Det lille du trenger for å henge med på sakene alle snakker om.
   Kåret til Årets faktapodkast i 2025. Nye episoder på hverdager. "

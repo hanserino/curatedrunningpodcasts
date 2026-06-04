@@ -2,6 +2,7 @@
 date: 2026-05-28
 title: Conversational Pace
 category: podcast
+url_slug: conversational-pace
 published: "true"
 description: In-depth trail shoe reviews with Brett Hornig + guest. For the gear geeks.
 featured: false

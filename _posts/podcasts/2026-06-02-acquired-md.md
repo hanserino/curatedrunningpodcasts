@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: Acquired
 category: podcast
+url_slug: acquired
 published: "true"
 description: Every company has a story. Learn the playbooks that built the
   world’s greatest companies — and how you can apply them.

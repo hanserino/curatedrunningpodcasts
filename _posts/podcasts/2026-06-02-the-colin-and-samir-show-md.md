@@ -2,6 +2,7 @@
 date: 2026-06-03
 title: The Colin and Samir Show
 category: podcast
+url_slug: the-colin-and-samir-show
 published: "true"
 description: "YouTube creators and podcasters Colin and Samir break down the
   latest news in the creator economy from a creator's perspective. "
