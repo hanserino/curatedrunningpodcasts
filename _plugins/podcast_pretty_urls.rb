@@ -19,6 +19,12 @@ Jekyll::Hooks.register :site, :post_read, priority: :low do |site|
 
     legacy_paths = ["/#{slug}.html"]
 
+    previous_slug = doc.data["legacy_slug"].to_s.strip
+    if previous_slug != "" && previous_slug != slug
+      legacy_paths << "/#{previous_slug}/"
+      legacy_paths << "/#{previous_slug}.html"
+    end
+
     case doc.data["redirect_from"]
     when nil, false
       doc.data["redirect_from"] = legacy_paths.uniq
