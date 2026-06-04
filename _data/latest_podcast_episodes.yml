@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-04T22:32:19Z'
+generated_at: '2026-06-04T23:27:39Z'
 items:
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
@@ -24704,9 +24704,6 @@ errors:
   error: Latest episode has no enclosure URL
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
-  error: 'OpenURI::HTTPError: 403 Forbidden'
-- podcast: The Cutting Edge
-  rss_feed: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
