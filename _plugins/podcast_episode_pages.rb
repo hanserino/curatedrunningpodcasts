@@ -3,16 +3,10 @@
 # Generates a static page per RSS episode under /{podcast-slug}/{episode-title-slug}/
 # using episodes_by_feed from LatestPodcastEpisodes (production RSS or committed YAML).
 
-class PodcastEpisodePage < Jekyll::Page
-  def initialize(site, base, podcast_doc, episode, episode_slug)
-    @site = site
-    @base = base
-    podcast_slug = podcast_doc.data["slug"].to_s
-    @dir = podcast_slug
-    @name = "#{episode_slug}.html"
+module PodcastEpisodeRedirects
+  module_function
 
-    permalink = LatestPodcastEpisodes.episode_page_path(podcast_slug, episode_slug)
-
+  def paths_for(podcast_slug, episode, episode_slug)
     redirects = []
     legacy_long = episode["episode_uid"].to_s.strip
     if legacy_long != "" && legacy_long != episode_slug
@@ -24,6 +18,71 @@ class PodcastEpisodePage < Jekyll::Page
       redirects << "/#{podcast_slug}/#{legacy_numbered}/"
       redirects << "/#{podcast_slug}/#{legacy_numbered}.html"
     end
+
+    legacy_unicode = episode["legacy_unicode_slug"].to_s.strip
+    if legacy_unicode != "" && legacy_unicode != episode_slug
+      redirects << "/#{podcast_slug}/#{legacy_unicode}/"
+      redirects << "/#{podcast_slug}/#{legacy_unicode}.html"
+    end
+
+    redirects.uniq
+  end
+
+  def split_redirect_path(path)
+    clean = path.to_s.strip.sub(%r{\A/}, "")
+    if clean.end_with?(".html")
+      parts = clean.split("/")
+      dir = parts[0..-2].join("/")
+      name = parts[-1]
+      [dir, name]
+    else
+      [clean.sub(%r{/+\z}, ""), "index.html"]
+    end
+  end
+
+  def absolute_target(site, permalink)
+    base = site.config["url"].to_s.chomp("/")
+    path = permalink.to_s.start_with?("/") ? permalink : "/#{permalink}"
+    "#{base}#{path}"
+  end
+end
+
+class PodcastEpisodeRedirectPage < Jekyll::Page
+  def initialize(site, base, from_path, target_url)
+    @site = site
+    @base = base
+    @dir, @name = PodcastEpisodeRedirects.split_redirect_path(from_path)
+
+    self.content = <<~HTML
+      <!DOCTYPE html>
+      <html lang="en">
+        <meta charset="utf-8">
+        <title>Redirecting&hellip;</title>
+        <link rel="canonical" href="#{target_url}">
+        <script>location="#{target_url}"</script>
+        <meta http-equiv="refresh" content="0; url=#{target_url}">
+        <meta name="robots" content="noindex">
+        <h1>Redirecting&hellip;</h1>
+        <a href="#{target_url}">Click here if you are not redirected.</a>
+      </html>
+    HTML
+    self.data = { "sitemap" => false }
+    process(@name)
+  end
+end
+
+class PodcastEpisodePage < Jekyll::Page
+  def initialize(site, base, podcast_doc, episode, episode_slug)
+    @site = site
+    @base = base
+    podcast_slug = podcast_doc.data["slug"].to_s
+    @dir = podcast_slug
+    @name = "#{episode_slug}.html"
+
+    permalink = LatestPodcastEpisodes.episode_page_path(podcast_slug, episode_slug)
+
+    @redirect_paths =
+      PodcastEpisodeRedirects.paths_for(podcast_slug, episode, episode_slug)
 
     description_html = LatestPodcastEpisodes.sanitize_episode_description_html(
       episode["description_html"]
@@ -71,10 +130,10 @@ class PodcastEpisodePage < Jekyll::Page
       "episode_page_url" => permalink,
       "permalink" => permalink
     }
-    self.data["redirect_from"] = redirects.uniq unless redirects.empty?
     process(@name)
   end
 
+  attr_reader :redirect_paths
 end
 
 class PodcastEpisodePagesGenerator < Jekyll::Generator
@@ -134,7 +193,12 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
             LatestPodcastEpisodes.description_plain_from_html(episode["description_html"])
           end
 
-        site.pages << PodcastEpisodePage.new(site, site.source, podcast_doc, episode, episode_slug)
+        page = PodcastEpisodePage.new(site, site.source, podcast_doc, episode, episode_slug)
+        site.pages << page
+        target = PodcastEpisodeRedirects.absolute_target(site, page.data["permalink"])
+        page.redirect_paths.each do |from_path|
+          site.pages << PodcastEpisodeRedirectPage.new(site, site.source, from_path, target)
+        end
         page_count += 1
       end
     end

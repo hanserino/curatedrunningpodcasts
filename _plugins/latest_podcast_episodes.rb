@@ -347,10 +347,11 @@ module LatestPodcastEpisodes
     end
   end
 
-  def slugify_segment(text)
+  # ASCII-only URL segments: transliterate æ→ae, ø→o, å→a, é→e, etc. (I18n + Jekyll "latin" mode).
+  def slugify_segment(text, mode: "latin")
     return "" if text.to_s.strip.empty?
 
-    Jekyll::Utils.slugify(text.to_s, mode: "default")
+    Jekyll::Utils.slugify(text.to_s, mode: mode)
   end
 
   def legacy_numbered_episode_slug(index)
@@ -381,10 +382,10 @@ module LatestPodcastEpisodes
     base[0, 96]
   end
 
-  def episode_slug_for_title(title, published_at: nil, used_slugs: [])
-    base = slugify_segment(title.to_s)
+  def episode_slug_for_title(title, published_at: nil, used_slugs: [], slugify_mode: "latin")
+    base = slugify_segment(title.to_s, mode: slugify_mode)
     if base.empty? && published_at
-      base = slugify_segment(published_at.strftime("%Y-%m-%d"))
+      base = slugify_segment(published_at.strftime("%Y-%m-%d"), mode: slugify_mode)
     end
     base = "episode" if base.empty?
     base = base[0, 120]
@@ -395,7 +396,7 @@ module LatestPodcastEpisodes
       slug = "#{base}-#{suffix}"
       suffix += 1
     end
-    used_slugs << slug
+    used_slugs << slug if slugify_mode == "latin"
     slug
   end
 
@@ -413,9 +414,12 @@ module LatestPodcastEpisodes
         rescue ArgumentError, TypeError
           nil
         end
-      slug = episode_slug_for_title(title, published_at: published_at, used_slugs: used_slugs)
+      slug = episode_slug_for_title(title, published_at: published_at, used_slugs: used_slugs, slugify_mode: "latin")
+      unicode_slug =
+        episode_slug_for_title(title, published_at: published_at, used_slugs: [], slugify_mode: "default")
       entry["episode_slug"] = slug
       entry["episode_key"] = slug
+      entry["legacy_unicode_slug"] = unicode_slug if unicode_slug != slug
       entry["legacy_numbered_slug"] = legacy_numbered_episode_slug(index)
       next if podcast_slug.to_s.strip.empty?
 
