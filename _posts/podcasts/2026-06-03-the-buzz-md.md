@@ -3,6 +3,11 @@ date: 2026-06-04
 title: The Buzz
 category: podcast
 published: "true"
+description: >
+  A podcast that cuts through the noise of ultra trail running with grounded
+  takes from a true expert in the sport. As a pioneering ultrarunner, FKT
+  legend, and industry veteran, Buzz brings decades of experience and a sharp,
+  critical eye to the big ideas shaping endurance sports. 
 featured: false
 not_running_related: false
 cover_image: /media/thebuzz.jpeg
