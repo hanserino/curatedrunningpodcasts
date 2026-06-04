@@ -6,8 +6,8 @@ redirect_from:
   - /podcast/n-er-det-alvor.html
 date: 2026-05-04
 title: Føkk Asfalt
+url_slug: fokk-asfalt
 category: podcast
-url_slug: n-er-det-alvor
 published: true
 description: Norwegian mountain ultra trail podcast. 600+ episodes, est. 2018.
 featured: true
