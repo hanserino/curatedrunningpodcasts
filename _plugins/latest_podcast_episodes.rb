@@ -20,6 +20,10 @@ module LatestPodcastEpisodes
   USER_AGENT = "Mozilla/5.0 (compatible; BestRunningPodcasts/1.0; +https://bestrunningpodcasts.com)".freeze
   OPEN_TIMEOUT = 6
   READ_TIMEOUT = 10
+  # Non-breaking space as entity, numeric reference, or literal character (feeds often use <p>&nbsp;</p> spacers).
+  NBSP_ENTITY_RX = /(?:&nbsp;|&#0*160;|&#x0*a0;|&amp;nbsp;|\u00A0)/i.freeze
+  PARAGRAPH_ONLY_NBSP_RX =
+    %r{<p(\s[^>]*)?>(?:\s|<br\s*/?>|#{NBSP_ENTITY_RX.source})*</p>}im.freeze
 
   module_function
 
@@ -134,14 +138,43 @@ module LatestPodcastEpisodes
     html.to_s.gsub(/<[^>]+>/, " ").gsub(/\s+/, " ").strip
   end
 
+  def strip_nbsp_entities(text)
+    text.to_s.gsub(NBSP_ENTITY_RX, " ")
+  end
+
   def html_inner_blank?(inner)
-    inner
-      .to_s
+    strip_nbsp_entities(inner)
       .gsub(/<br\s*\/?>/i, " ")
       .gsub(/<[^>]+>/, "")
-      .gsub(/&nbsp;|&#160;|&#xA0;/i, " ")
       .gsub(/\s+/, "")
       .empty?
+  end
+
+  def strip_paragraphs_with_only_nbsp(html)
+    prev = nil
+    cleaned = html.to_s
+    while cleaned != prev
+      prev = cleaned
+      cleaned = cleaned.gsub(PARAGRAPH_ONLY_NBSP_RX, "")
+    end
+    cleaned
+  end
+
+  def strip_empty_block_tags(html)
+    cleaned = html.to_s
+    %w[p div h1 h2 h3 h4 h5 h6 li].each do |tag|
+      loop do
+        next_html = cleaned.gsub(
+          /<(#{tag})(\s[^>]*)?>(.*?)<\/\1>/im
+        ) do
+          html_inner_blank?(::Regexp.last_match(3)) ? "" : ::Regexp.last_match(0)
+        end
+        break if next_html == cleaned
+
+        cleaned = next_html
+      end
+    end
+    cleaned
   end
 
   def sanitize_episode_description_html(html)
@@ -149,19 +182,20 @@ module LatestPodcastEpisodes
     return "" if cleaned.empty?
 
     cleaned = cleaned.gsub(/\r\n?/, "\n")
-    cleaned = cleaned.gsub(/&nbsp;|&#160;|&#xA0;/i, " ")
+    cleaned = strip_paragraphs_with_only_nbsp(cleaned)
+    cleaned = strip_nbsp_entities(cleaned)
     # Podcast show notes often use <br> for line breaks; remove and keep text flowing in blocks.
     cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
 
-    %w[p div h1 h2 h3 h4 h5 h6 li].each do |tag|
-      cleaned = cleaned.gsub(
-        /<(#{tag})(\s[^>]*)?>(.*?)<\/\1>/im
-      ) do
-        html_inner_blank?(::Regexp.last_match(3)) ? "" : ::Regexp.last_match(0)
-      end
+    cleaned = strip_empty_block_tags(cleaned)
+
+    loop do
+      next_html = cleaned.gsub(/<p(\s[^>]*)?>\s*<\/p>/i, "")
+      break if next_html == cleaned
+
+      cleaned = next_html
     end
 
-    cleaned = cleaned.gsub(/(?:<p(\s[^>]*)?>\s*<\/p>\s*){2,}/i, "")
     cleaned = cleaned.gsub(/<(p|div|li)(\s[^>]*)?>\s+/, '<\1\2>')
     cleaned = cleaned.gsub(/\s+<\/(p|div|li)>/, "</\\1>")
     cleaned = cleaned.gsub(/>\s+</, "><")
