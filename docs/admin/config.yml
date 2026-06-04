@@ -38,6 +38,7 @@ collections:
     media_folder: "/media"
     public_folder: "/media"
     create: true
+    # Use {{fields.url_slug}} — a field named "slug" conflicts with Decap's built-in {{slug}} tag (from title).
     slug: "{{year}}-{{month}}-{{day}}-{{fields.url_slug}}"
     path: "{{year}}-{{month}}-{{day}}-{{fields.url_slug}}.md"
     extension: "md"
