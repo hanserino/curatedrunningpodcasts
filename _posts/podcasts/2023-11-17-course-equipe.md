@@ -4,10 +4,12 @@ redirect_from:
   - /podcast/2023/11/17/course-equipe.html
   - /podcast/course-equipe.html
 date: 2026-05-29
-title: Course Equipe
+title: Course Épique
 category: podcast
 published: true
-description: 1 guest, 1 race, 1 extraordinary story
+description: "French running and trail-running podcast focused on storytelling
+  rather than race analysis or training advice. Framework: 1 guest, 1 race, 1
+  extraordinary story"
 not_running_related: false
 cover_image: /media/courseepique.jpeg
 publisher: Sportcast Studios
@@ -19,5 +21,3 @@ tags:
 language:
   - french
 ---
-
-
