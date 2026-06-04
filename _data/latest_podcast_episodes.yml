@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-04T03:09:02Z'
+generated_at: '2026-06-04T03:29:14Z'
 items:
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles.html"
@@ -6279,6 +6279,7 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KMZRVEW8EBVJ39EYDKFETPK7.mp3
     published_at: '2026-04-17T05:00:00Z'
+  https://evokeendurance.com/media-type/evokecast/feed/: &78 []
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
@@ -6286,6 +6287,9 @@ errors:
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
+- podcast: EvokeCast
+  rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
+  error: Latest episode has no enclosure URL
 feed_episodes_list:
 - feed_key: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
   episodes: *1
@@ -6441,3 +6445,5 @@ feed_episodes_list:
   episodes: *76
 - feed_key: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
   episodes: *77
+- feed_key: https://evokeendurance.com/media-type/evokecast/feed/
+  episodes: *78
