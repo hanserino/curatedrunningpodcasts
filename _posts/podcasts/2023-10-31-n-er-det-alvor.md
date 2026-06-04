@@ -5,7 +5,7 @@ redirect_from:
   - /podcast/2023/10/31/n-er-det-alvor.html
   - /podcast/n-er-det-alvor.html
 date: 2026-05-04
-title: Føkk Asfalt / Nå Er Det Alvor
+title: Føkk Asfalt
 category: podcast
 published: true
 description: Norwegian mountain ultra trail podcast. 600+ episodes, est. 2018.
@@ -20,7 +20,7 @@ tags:
   - trail
   - ultra
   - subultra
+  - skyrunning
 language:
   - norwegian
-  - english
 ---
