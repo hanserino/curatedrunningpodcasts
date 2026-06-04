@@ -1,0 +1,16 @@
+{%- comment -%}
+  Extra head tags for generated podcast episode pages (layout: episode).
+{%- endcomment -%}
+{%- if page.audio_url and page.audio_url != '' -%}
+<link rel="alternate" type="audio/mpeg" href="{{ page.audio_url | escape }}" title="{{ page.episode_title | escape }}">
+<meta property="og:audio" content="{{ page.audio_url | escape }}">
+<meta property="og:audio:secure_url" content="{{ page.audio_url | escape }}">
+<meta property="og:audio:type" content="audio/mpeg">
+{%- endif -%}
+{%- if page.rss_feed and page.rss_feed != '' -%}
+<link rel="alternate" type="application/rss+xml" title="{{ page.podcast_title | escape }} podcast feed" href="{{ page.rss_feed | escape }}">
+{%- endif -%}
+{%- if page.published_at and page.published_at != '' -%}
+<meta property="article:published_time" content="{{ page.published_at | date_to_xmlschema }}">
+{%- endif -%}
+<meta property="article:section" content="{{ page.podcast_title | xml_escape }}">

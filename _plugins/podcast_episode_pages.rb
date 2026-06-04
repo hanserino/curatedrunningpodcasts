@@ -35,6 +35,16 @@ class PodcastEpisodePage < Jekyll::Page
         LatestPodcastEpisodes.description_plain_from_html(description_html)
       end
 
+    episode_title = episode["episode_title"].to_s.strip
+    podcast_title = podcast_doc.data["title"].to_s.strip
+    seo_description =
+      if description_plain.empty?
+        "Listen to \"#{episode_title}\" from #{podcast_title} on Best Running Podcasts."
+      else
+        snippet = description_plain.length > 200 ? "#{description_plain[0, 200].strip}…" : description_plain
+        "Listen to \"#{episode_title}\" from #{podcast_title}. #{snippet}"
+      end
+
     self.data = {
       "layout" => "episode",
       "category" => "podcast_episode",
@@ -48,6 +58,7 @@ class PodcastEpisodePage < Jekyll::Page
       "published_at" => episode["published_at"],
       "description_html" => description_html,
       "description_plain" => description_plain,
+      "seo_description" => seo_description,
       "podcast_title" => podcast_doc.data["title"],
       "podcast_url" => podcast_doc.url,
       "podcast_slug" => podcast_slug,

@@ -1,0 +1,13 @@
+<nav class="episode-page__breadcrumb" aria-label="Breadcrumb">
+	<ol class="episode-page__breadcrumb-list">
+		<li class="episode-page__breadcrumb-item">
+			<a href="{{ '/' | relative_url }}">Home</a>
+		</li>
+		<li class="episode-page__breadcrumb-item">
+			<a href="{{ page.podcast_url | relative_url }}">{{ page.podcast_title }}</a>
+		</li>
+		<li class="episode-page__breadcrumb-item episode-page__breadcrumb-item--current" aria-current="page">
+			<span>{{ page.episode_title }}</span>
+		</li>
+	</ol>
+</nav>
