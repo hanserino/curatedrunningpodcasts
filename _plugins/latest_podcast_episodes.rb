@@ -90,6 +90,12 @@ module LatestPodcastEpisodes
     url.to_s.strip.downcase
   end
 
+  def filter_category_for_doc(doc)
+    tags = Array(doc.data["tags"]).map { |t| t.to_s.strip }.reject(&:empty?)
+    langs = Array(doc.data["language"]).map { |l| l.to_s.strip }.reject(&:empty?)
+    (tags + langs).join(" ").strip
+  end
+
   # Liquid cannot reliably resolve hash[variable_key] on nested site.data hashes, so we also
   # expose an array of { "feed_key", "episodes" } for the `where` filter in templates.
   def ensure_feed_episodes_list!(h)
@@ -101,31 +107,332 @@ module LatestPodcastEpisodes
     h["feed_episodes_list"] = eb.map { |k, eps| { "feed_key" => k.to_s, "episodes" => eps } }
   end
 
-  def episodes_from_feed(xml, limit = 15)
+  # When a feed fetch fails, keep prior committed or disk-cache episodes for that feed key.
+  def merge_episodes_by_feed(fresh, prior, cache)
+    return fresh unless fresh.is_a?(Hash)
+
+    fresh.each_with_object({}) do |(key, episodes), merged|
+      k = key.to_s
+      if episodes.is_a?(Array) && !episodes.empty?
+        merged[k] = episodes
+        next
+      end
+
+      from_prior = prior[k] if prior.is_a?(Hash)
+      from_cache = cache[k] if cache.is_a?(Hash)
+      fallback =
+        if from_prior.is_a?(Array) && !from_prior.empty?
+          from_prior
+        elsif from_cache.is_a?(Array) && !from_cache.empty?
+          from_cache
+        end
+      merged[k] = fallback || episodes
+    end
+  end
+
+  def description_plain_from_html(html)
+    html.to_s.gsub(/<[^>]+>/, " ").gsub(/\s+/, " ").strip
+  end
+
+  def html_inner_blank?(inner)
+    inner
+      .to_s
+      .gsub(/<br\s*\/?>/i, " ")
+      .gsub(/<[^>]+>/, "")
+      .gsub(/&nbsp;|&#160;|&#xA0;/i, " ")
+      .gsub(/\s+/, "")
+      .empty?
+  end
+
+  def sanitize_episode_description_html(html)
+    cleaned = html.to_s.strip
+    return "" if cleaned.empty?
+
+    cleaned = cleaned.gsub(/\r\n?/, "\n")
+    cleaned = cleaned.gsub(/&nbsp;|&#160;|&#xA0;/i, " ")
+    # Podcast show notes often use <br> for line breaks; remove and keep text flowing in blocks.
+    cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
+
+    %w[p div h1 h2 h3 h4 h5 h6 li].each do |tag|
+      cleaned = cleaned.gsub(
+        /<(#{tag})(\s[^>]*)?>(.*?)<\/\1>/im
+      ) do
+        html_inner_blank?(::Regexp.last_match(3)) ? "" : ::Regexp.last_match(0)
+      end
+    end
+
+    cleaned = cleaned.gsub(/(?:<p(\s[^>]*)?>\s*<\/p>\s*){2,}/i, "")
+    cleaned = cleaned.gsub(/<(p|div|li)(\s[^>]*)?>\s+/, '<\1\2>')
+    cleaned = cleaned.gsub(/\s+<\/(p|div|li)>/, "</\\1>")
+    cleaned = cleaned.gsub(/>\s+</, "><")
+    cleaned.strip
+  end
+
+  def episode_image_url(item)
+    if item.respond_to?(:itunes_image) && item.itunes_image
+      href =
+        if item.itunes_image.respond_to?(:href)
+          item.itunes_image.href.to_s.strip
+        else
+          item.itunes_image.to_s.strip
+        end
+      return href unless href.empty?
+    end
+
+    if item.respond_to?(:media_thumbnail) && item.media_thumbnail
+      thumb = item.media_thumbnail
+      url =
+        if thumb.respond_to?(:url) && thumb.url
+          thumb.url
+        elsif thumb.respond_to?(:content) && thumb.content
+          thumb.content
+        else
+          ""
+        end
+      url = url.to_s.strip
+      return url unless url.empty?
+    end
+
+    if item.respond_to?(:image) && item.image
+      img = item.image
+      url = img.respond_to?(:url) ? img.url.to_s.strip : img.to_s.strip
+      return url unless url.empty?
+    end
+
+    ""
+  end
+
+  def episode_description_html(item)
+    candidates = []
+    %i[content_encoded itunes_summary description itunes_subtitle dc_description summary].each do |meth|
+      next unless item.respond_to?(meth)
+
+      value = item.public_send(meth)
+      candidates << value if value
+    end
+
+    raw = candidates.map(&:to_s).map(&:strip).find { |text| !text.empty? } || ""
+    sanitize_episode_description_html(raw)
+  end
+
+  def normalize_audio_key(url)
+    url.to_s.strip.downcase.sub(/\?.*\z/, "")
+  end
+
+  def episodes_need_feed_backfill?(episodes_by_feed)
+    return false unless episodes_by_feed.is_a?(Hash)
+
+    episodes_by_feed.any? do |_, episodes|
+      Array(episodes).any? do |entry|
+        next false unless entry.is_a?(Hash)
+
+        entry["description_html"].to_s.strip.empty? ||
+          entry["episode_image_url"].to_s.strip.empty?
+      end
+    end
+  end
+
+  def backfill_episodes_from_feed!(episodes, xml)
+    parsed = RSS::Parser.parse(xml, false)
+    lookup = {}
+
+    Array(parsed&.items).each do |item|
+      audio = item.respond_to?(:enclosure) ? item.enclosure&.url.to_s.strip : ""
+      next if audio.empty?
+
+      lookup[normalize_audio_key(audio)] = item
+    end
+
+    Array(episodes).each do |entry|
+      next unless entry.is_a?(Hash)
+
+      item = lookup[normalize_audio_key(entry["audio_url"])]
+      next unless item
+
+      if entry["description_html"].to_s.strip.empty?
+        html = episode_description_html(item)
+        unless html.empty?
+          entry["description_html"] = html
+          entry["description_plain"] = description_plain_from_html(html)
+        end
+      else
+        entry["description_html"] = sanitize_episode_description_html(entry["description_html"])
+        entry["description_plain"] = description_plain_from_html(entry["description_html"])
+      end
+
+      next unless entry["episode_image_url"].to_s.strip.empty?
+
+      image_url = episode_image_url(item)
+      entry["episode_image_url"] = image_url unless image_url.empty?
+    end
+  end
+
+  def backfill_episodes_from_feeds!(site, podcasts_with_feed, episodes_by_feed)
+    return episodes_by_feed unless episodes_by_feed.is_a?(Hash)
+    return episodes_by_feed unless episodes_need_feed_backfill?(episodes_by_feed)
+
+    backfilled_feeds = 0
+    podcasts_with_feed.each do |doc|
+      feed_url = doc.data["rss_feed"].to_s.strip
+      next if feed_url.empty?
+
+      feed_key = normalize_feed_key(feed_url)
+      episodes = episodes_by_feed[feed_key]
+      next unless episodes.is_a?(Array) && !episodes.empty?
+      next unless episodes.any? do |entry|
+        entry["description_html"].to_s.strip.empty? ||
+          entry["episode_image_url"].to_s.strip.empty?
+      end
+
+      begin
+        xml = fetch_feed(feed_url)
+        backfill_episodes_from_feed!(episodes, xml)
+        backfilled_feeds += 1
+      rescue StandardError => e
+        Jekyll.logger.debug "LatestPodcastEpisodes:", "Episode metadata backfill failed #{feed_url}: #{e.class}"
+      end
+    end
+
+    if backfilled_feeds.positive?
+      Jekyll.logger.info(
+        "LatestPodcastEpisodes:",
+        "Backfilled episode metadata from #{backfilled_feeds} RSS feed(s)."
+      )
+      cache_path = rss_cache_path(site)
+      payload = site.data["latest_podcast_episodes"]
+      write_rss_cache(cache_path, payload) if payload.is_a?(Hash)
+    end
+
+    episodes_by_feed
+  end
+
+  def podcast_posts_with_feed(site)
+    posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
+    posts.select do |doc|
+      doc.data["category"] == "podcast" && doc.data["rss_feed"].to_s.strip != ""
+    end
+  end
+
+  def slugify_segment(text)
+    return "" if text.to_s.strip.empty?
+
+    Jekyll::Utils.slugify(text.to_s, mode: "default")
+  end
+
+  def legacy_numbered_episode_slug(index)
+    n = index + 1
+    width = if n >= 1000
+              4
+            elsif n >= 100
+              3
+            else
+              2
+            end
+    format("episode-%0#{width}d", n)
+  end
+
+  def episode_uid_from_item(item)
+    guid_raw =
+      if item.respond_to?(:guid) && item.guid
+        item.guid.respond_to?(:content) ? item.guid.content.to_s : item.guid.to_s
+      else
+        ""
+      end
+    guid_raw = guid_raw.strip
+    guid_raw = guid_raw.split("/").last if guid_raw.include?("://")
+
+    base = slugify_segment(guid_raw)
+    return "" if base.empty?
+
+    base[0, 96]
+  end
+
+  def episode_slug_for_title(title, published_at: nil, used_slugs: [])
+    base = slugify_segment(title.to_s)
+    if base.empty? && published_at
+      base = slugify_segment(published_at.strftime("%Y-%m-%d"))
+    end
+    base = "episode" if base.empty?
+    base = base[0, 120]
+
+    slug = base
+    suffix = 2
+    while used_slugs.include?(slug)
+      slug = "#{base}-#{suffix}"
+      suffix += 1
+    end
+    used_slugs << slug
+    slug
+  end
+
+  def episode_page_path(podcast_slug, episode_slug)
+    "/#{podcast_slug}/#{episode_slug}/"
+  end
+
+  def assign_episode_slugs!(episodes, podcast_slug: nil)
+    used_slugs = []
+    Array(episodes).each_with_index do |entry, index|
+      title = entry["episode_title"].to_s
+      published_at =
+        begin
+          Time.parse(entry["published_at"].to_s)
+        rescue ArgumentError, TypeError
+          nil
+        end
+      slug = episode_slug_for_title(title, published_at: published_at, used_slugs: used_slugs)
+      entry["episode_slug"] = slug
+      entry["episode_key"] = slug
+      entry["legacy_numbered_slug"] = legacy_numbered_episode_slug(index)
+      next if podcast_slug.to_s.strip.empty?
+
+      entry["episode_page_url"] = episode_page_path(podcast_slug, slug)
+    end
+    episodes
+  end
+
+  def episodes_from_feed(xml, limit = 15, podcast_slug: nil)
     parsed = RSS::Parser.parse(xml, false)
     items = Array(parsed&.items).compact
     return [] if items.empty?
 
-    items
-      .map do |item|
-        enclosure_url = item.respond_to?(:enclosure) ? item.enclosure&.url.to_s.strip : ""
-        next if enclosure_url == ""
+    sorted =
+      items
+        .map do |item|
+          enclosure_url = item.respond_to?(:enclosure) ? item.enclosure&.url.to_s.strip : ""
+          next if enclosure_url == ""
 
-        published_at = parse_time(item) || Time.at(0)
-        {
-          "episode_title" => item.title.to_s.strip,
-          "episode_url" => item.link.to_s.strip,
-          "audio_url" => enclosure_url,
-          "published_at" => published_at.iso8601
-        }
-      end
-      .compact
-      .sort_by { |entry| Time.parse(entry["published_at"].to_s) rescue Time.at(0) }
-      .reverse
-      .first(limit)
+          title = item.title.to_s.strip
+          next if title.empty?
+
+          published_at = parse_time(item) || Time.at(0)
+          description_html = episode_description_html(item)
+          image_url = episode_image_url(item)
+          {
+            "episode_title" => title,
+            "episode_url" => item.link.to_s.strip,
+            "audio_url" => enclosure_url,
+            "published_at" => published_at.iso8601,
+            "description_html" => description_html,
+            "description_plain" => description_plain_from_html(description_html),
+            "episode_image_url" => image_url,
+            "episode_uid" => episode_uid_from_item(item)
+          }
+        end
+        .compact
+        .sort_by { |entry| Time.parse(entry["published_at"].to_s) rescue Time.at(0) }
+        .reverse
+        .first(limit)
+    assign_episode_slugs!(sorted, podcast_slug: podcast_slug)
   rescue RSS::Error
     []
   end
+
+  def episodes_per_podcast_limit
+    Integer(ENV.fetch("EPISODE_PAGES_PER_PODCAST", "25"))
+  rescue ArgumentError, TypeError
+    25
+  end
+
 
   def rss_cache_path(site)
     site.in_source_dir(".jekyll-rss-cache", "latest_podcast_episodes.yml")
@@ -219,6 +526,14 @@ def build_latest_podcast_episodes_data(site)
     end
 
     if merged
+      podcasts_with_feed = LatestPodcastEpisodes.podcast_posts_with_feed(site)
+      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
+        LatestPodcastEpisodes.backfill_episodes_from_feeds!(
+          site,
+          podcasts_with_feed,
+          merged["episodes_by_feed"]
+        )
+      end
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
       Jekyll.logger.info(
@@ -252,7 +567,9 @@ def build_latest_podcast_episodes_data(site)
 
     begin
       xml = LatestPodcastEpisodes.fetch_feed(feed_url)
-      episodes = LatestPodcastEpisodes.episodes_from_feed(xml, 20)
+      podcast_slug = doc.data["slug"].to_s.strip
+      episode_limit = LatestPodcastEpisodes.episodes_per_podcast_limit
+      episodes = LatestPodcastEpisodes.episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug)
       episodes_by_feed[feed_key] = episodes
 
       next unless include_in_directory
@@ -273,15 +590,20 @@ def build_latest_podcast_episodes_data(site)
       published_at = LatestPodcastEpisodes.parse_time(latest_item) || Time.now
       cover_image = doc.data["cover_image"].to_s.strip
       cover_image = LatestPodcastEpisodes.feed_image_from_xml(xml) if cover_image == ""
+      latest_episode_meta = episodes.is_a?(Array) ? episodes.first : nil
       items << {
         "podcast_title" => doc.data["title"],
         "podcast_page_url" => doc.url,
         "cover_image" => cover_image,
         "feed_url" => feed_url,
+        "filter_category" => LatestPodcastEpisodes.filter_category_for_doc(doc),
         "episode_title" => latest_item.title.to_s.strip,
         "episode_url" => latest_item.link.to_s.strip,
         "audio_url" => enclosure_url,
-        "published_at" => published_at.iso8601
+        "published_at" => published_at.iso8601,
+        "episode_key" => latest_episode_meta&.dig("episode_slug"),
+        "episode_slug" => latest_episode_meta&.dig("episode_slug"),
+        "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
       }
     rescue StandardError => e
       episodes_by_feed[feed_key] = []
@@ -298,9 +620,26 @@ def build_latest_podcast_episodes_data(site)
     end
   end.reverse
 
-  has_episodes_by_feed = episodes_by_feed.any? do |_, episodes|
+  feeds_with_episodes = episodes_by_feed.count do |_, episodes|
     episodes.is_a?(Array) && !episodes.empty?
   end
+  has_episodes_by_feed = feeds_with_episodes.positive?
+  fetch_looks_healthy =
+    sorted.any? &&
+      (podcasts_with_feed.empty? || feeds_with_episodes >= (podcasts_with_feed.size * 0.5).ceil)
+
+  prior_episodes = prior_snapshot.is_a?(Hash) ? prior_snapshot["episodes_by_feed"] : nil
+  cache_episodes = cached.is_a?(Hash) ? cached["episodes_by_feed"] : nil
+  episodes_by_feed = LatestPodcastEpisodes.merge_episodes_by_feed(
+    episodes_by_feed,
+    prior_episodes,
+    cache_episodes
+  )
+
+  feeds_with_episodes = episodes_by_feed.count do |_, episodes|
+    episodes.is_a?(Array) && !episodes.empty?
+  end
+  has_episodes_by_feed = feeds_with_episodes.positive?
 
   payload = {
     "generated_at" => Time.now.utc.iso8601,
@@ -310,11 +649,11 @@ def build_latest_podcast_episodes_data(site)
   }
   LatestPodcastEpisodes.ensure_feed_episodes_list!(payload)
 
-  if sorted.any? || has_episodes_by_feed
+  if fetch_looks_healthy
     site.data["latest_podcast_episodes"] = payload
     LatestPodcastEpisodes.write_rss_cache(cache_path, payload)
     LatestPodcastEpisodes.write_committed_data(site, payload)
-  elsif podcasts_with_feed.any? && sorted.empty? && !has_episodes_by_feed && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
+  elsif podcasts_with_feed.any? && !fetch_looks_healthy && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
     Jekyll.logger.warn(
       "LatestPodcastEpisodes:",
       "RSS fetch returned no episodes (#{errors.size} problem(s)); using disk cache from #{cached['generated_at']}."
@@ -329,7 +668,7 @@ def build_latest_podcast_episodes_data(site)
     )
     LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
     site.data["latest_podcast_episodes"] = merged
-  elsif podcasts_with_feed.any? && sorted.empty? && !has_episodes_by_feed && prior_usable
+  elsif podcasts_with_feed.any? && !fetch_looks_healthy && prior_usable
     Jekyll.logger.warn(
       "LatestPodcastEpisodes:",
       "RSS fetch returned no episodes (#{errors.size} problem(s)); using committed _data/latest_podcast_episodes.yml."

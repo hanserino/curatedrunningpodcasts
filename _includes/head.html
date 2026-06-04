@@ -9,7 +9,12 @@
 {%- assign seo_desc = page.seo_description | default: page.description | default: page.excerpt | default: '' -%}
 {%- assign seo_desc = seo_desc | strip_html | strip -%}
 {%- if seo_desc == '' -%}
-  {%- if page.layout == 'post' and page.title and page.title != '' -%}
+  {%- if page.layout == 'episode' -%}
+    {%- assign seo_desc = page.description_plain | default: page.episode_title | strip -%}
+    {%- if seo_desc == '' -%}
+      {%- assign seo_desc = page.episode_title | append: ' — ' | append: page.podcast_title | append: ' on ' | append: site_name -%}
+    {%- endif -%}
+  {%- elsif page.layout == 'post' and page.title and page.title != '' -%}
     {%- assign seo_desc = page.title | append: ' — a running podcast curated on ' | append: site_name | append: '.' -%}
   {%- else -%}
     {%- assign seo_desc = site.description -%}

@@ -16,6 +16,18 @@
     {% endfor %}
   {% endfor %}
 
+  {% assign episode_pages = site.pages | where_exp: "item", "item.category == 'podcast_episode'" %}
+  {% for page in episode_pages %}
+    {% if page.sitemap != false %}
+    <url>
+      <loc>{{ page.url | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
+      {% if page.published_at or page.date %}
+        <lastmod>{{ page.published_at | default: page.date | date_to_xmlschema }}</lastmod>
+      {% endif %}
+    </url>
+    {% endif %}
+  {% endfor %}
+
   {% assign sitemap_page_paths = "/,/about/,/latest-episodes/,/runners-picks/,/llms.txt" | split: "," %}
   {% for sitemap_path in sitemap_page_paths %}
     {% assign page = site.pages | where: "url", sitemap_path | first %}

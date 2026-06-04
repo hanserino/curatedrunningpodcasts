@@ -18,9 +18,25 @@
   {% include latest-episodes-player-chrome.html deck_cover=deck_cover %}
 
   <ol class="latest-episodes__list">
+    <li class="latest-episodes__empty" role="status" aria-live="polite" hidden>
+      <p>No episodes match these filters. Try clearing filters or choose fewer categories.</p>
+    </li>
     {%- for episode in items limit: max_items -%}
     {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
-    <li class="latest-episodes__item">
+    {%- assign _filter_category = episode.filter_category | default: '' | strip -%}
+    {%- assign _podcast_doc = nil -%}
+    {%- if _filter_category == '' -%}
+      {%- include podcast-slug-from-url.html url=episode.podcast_page_url -%}
+      {%- assign _page_slug = podcast_slug_from_url -%}
+      {%- if _page_slug != '' -%}
+        {%- include resolve-directory-podcast.html slug=_page_slug -%}
+        {%- assign _podcast_doc = resolved_podcast -%}
+      {%- endif -%}
+    {%- endif -%}
+    <li
+      class="latest-episodes__item"
+      {% if _filter_category != '' %}data-category="{{ _filter_category }}"{% elsif _podcast_doc %}data-category="{% for tag in _podcast_doc.tags %}{{ tag }} {% endfor %}{% for language in _podcast_doc.language %}{{ language }} {% endfor %}"{% endif %}
+    >
       <div class="latest-episodes__episode-stack">
         {%- if episode.cover_image and episode.cover_image != "" -%}
         <span class="latest-episodes__cover-slot">
@@ -43,7 +59,7 @@
         >
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">{{ episode.episode_title }}</span>
+        {% include episode-page-link.html episode=episode podcast_page_url=episode.podcast_page_url class="latest-episodes__episode-title latest-episodes__episode-title--row" %}
         <p class="latest-episodes__meta latest-episodes__meta--stacked">
         {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
         <a href="{{ episode.podcast_page_url | relative_url }}" class="latest-episodes__podcast-link">{{ episode.podcast_title }}</a>

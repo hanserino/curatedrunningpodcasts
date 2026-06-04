@@ -743,8 +743,18 @@
     }
 
     function setNowPlaying(episodeTitle, podcastTitle, kickerLabel) {
-      kickerLabel = kickerLabel || 'Now playing';
       nowPlaying.classList.remove('latest-episodes__now-playing--idle');
+      if (kickerLabel === false) {
+        nowPlaying.innerHTML =
+          '<span class="latest-episodes__now-playing-line">' +
+          '<span class="latest-episodes__now-playing-episode">' +
+          episodeTitle +
+          '</span>' +
+          '</span>';
+        showTransport();
+        return;
+      }
+      kickerLabel = kickerLabel || 'Now playing';
       nowPlaying.innerHTML =
         '<span class="latest-episodes__now-playing-kicker">' +
         kickerLabel +
@@ -872,11 +882,13 @@
       updateArt(coverUrl);
       rememberEpisodeMeta(episodeTitle, podcastTitle, coverUrl);
 
-      var kicker =
-        options.kicker ||
-        (shouldPlay || userGesture
-          ? 'Now playing'
-          : 'Continue listening');
+      var kicker;
+      if (Object.prototype.hasOwnProperty.call(options, 'kicker')) {
+        kicker = options.kicker;
+      } else {
+        kicker =
+          shouldPlay || userGesture ? 'Now playing' : 'Continue listening';
+      }
       setNowPlaying(episodeTitle, podcastTitle, kicker);
 
       saveLastListened(audioUrl, episodeTitle, podcastTitle, coverUrl);
@@ -963,6 +975,7 @@
     });
 
     (function hydrateFromLastVisit() {
+      if (root.classList.contains('latest-episodes--episode-page')) return;
       var last = loadLastListened();
       if (!last) return;
       var btn = findButtonForStoredUrl(last.url);
@@ -979,12 +992,27 @@
 
     (function primeLatestForMainPlayer() {
       if (currentLi) return;
+      if (root.classList.contains('latest-episodes--episode-page')) return;
       var firstBtn = root.querySelector('.latest-episodes__list .latest-episodes__item [data-audio-url]');
       if (!firstBtn) return;
       activateEpisode(firstBtn, {
         userGesture: false,
         play: false,
         kicker: 'Latest episode',
+      });
+      try {
+        player.preload = 'metadata';
+      } catch (e) {}
+    })();
+
+    (function initEpisodePagePlayer() {
+      if (!root.classList.contains('latest-episodes--episode-page')) return;
+      var btn = root.querySelector('.latest-episodes__list--episode-page [data-audio-url]');
+      if (!btn) return;
+      activateEpisode(btn, {
+        userGesture: false,
+        play: false,
+        kicker: false,
       });
       try {
         player.preload = 'metadata';

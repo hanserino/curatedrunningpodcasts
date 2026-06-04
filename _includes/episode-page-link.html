@@ -1,0 +1,26 @@
+{%- comment -%}
+  Renders episode title as link when we have a site episode page, else plain text.
+  Params: episode (hash), podcast_slug (optional), podcast_page_url (optional), class (optional), datetime_attr (optional)
+{%- endcomment -%}
+{%- assign _episode = include.episode -%}
+{%- assign _class = include.class | default: '' -%}
+{%- assign _ep_path = _episode.episode_page_url | default: '' | strip -%}
+{%- if _ep_path == '' -%}
+  {%- assign _key = _episode.episode_slug | default: _episode.episode_key | default: '' | strip -%}
+  {%- unless _episode.episode_page_url -%}
+    {%- assign _key = _episode.episode_title | slugify -%}
+  {%- endunless -%}
+  {%- assign _slug = include.podcast_slug | default: '' | strip -%}
+  {%- if _slug == '' and include.podcast_page_url -%}
+    {%- include podcast-slug-from-url.html url=include.podcast_page_url -%}
+    {%- assign _slug = podcast_slug_from_url -%}
+  {%- endif -%}
+  {%- if _slug != '' and _key != '' -%}
+    {%- assign _ep_path = '/' | append: _slug | append: '/' | append: _key | append: '/' -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if _ep_path != '' -%}
+<a href="{{ _ep_path | relative_url | escape }}" class="{{ _class }}"{% if include.datetime_attr %} {{ include.datetime_attr }}{% endif %}>{{ _episode.episode_title }}</a>
+{%- else -%}
+<span class="{{ _class }}"{% if include.datetime_attr %} {{ include.datetime_attr }}{% endif %}>{{ _episode.episode_title }}</span>
+{%- endif -%}

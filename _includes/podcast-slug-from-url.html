@@ -1,0 +1,5 @@
+{%- comment -%}
+  Normalizes a podcast page URL or path to a bare slug (no slashes or .html).
+  Sets `podcast_slug_from_url`. Params: url
+{%- endcomment -%}
+{%- assign podcast_slug_from_url = include.url | default: '' | strip | remove: '/' | remove: '.html' -%}

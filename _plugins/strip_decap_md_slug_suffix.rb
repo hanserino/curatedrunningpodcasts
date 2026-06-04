@@ -24,17 +24,18 @@ Jekyll::Hooks.register :site, :post_read do |site|
     base = slug.delete_suffix("-md")
     next if base.empty?
 
-    data["permalink"] = "/#{base}.html"
     data["slug"] = base
 
     old_path = "/#{slug}.html"
+    old_md_path = "/#{base}-md.html"
+    extra_redirects = [old_path, old_md_path].uniq
     case data["redirect_from"]
     when nil, false
-      data["redirect_from"] = [old_path]
+      data["redirect_from"] = extra_redirects
     when Array
-      data["redirect_from"] = (data["redirect_from"] + [old_path]).uniq
+      data["redirect_from"] = (data["redirect_from"] + extra_redirects).uniq
     when String
-      data["redirect_from"] = [data["redirect_from"], old_path].uniq
+      data["redirect_from"] = ([data["redirect_from"]] + extra_redirects).uniq
     end
 
     %i[@url @url_placeholders @destination @id @to_liquid].each do |iv|

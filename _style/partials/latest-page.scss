@@ -40,12 +40,36 @@
         font-size: 1.05rem;
     }
 
+    &__controls {
+        margin: 0 0 1rem;
+
+        .filter--panel {
+            border: none;
+            background: transparent;
+            box-shadow: none;
+        }
+    }
+
     &__player {
         margin-bottom: 0.5rem;
 
         .post-article__content {
             margin: 0;
             padding: 0;
+        }
+    }
+
+    .latest-episodes__empty {
+        list-style: none;
+        margin: 0;
+        padding: 1rem 0.5rem;
+        text-align: center;
+        color: $color-muted;
+        font-size: 0.98rem;
+        line-height: 1.5;
+
+        p {
+            margin: 0;
         }
     }
 

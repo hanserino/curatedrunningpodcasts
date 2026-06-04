@@ -110,7 +110,147 @@
 				
 			</header>
 			<section class="latest-page__player" aria-label="Episode player">
-				<div class="post-article__content"><section class="latest-episodes" id="latest-episodes-page" aria-labelledby="latest-episodes-page-title">
+				<div class="post-article__content"><div class="latest-page__controls">
+  
+
+
+
+
+<section class="filter filter--panel" id="filter" aria-labelledby="filter-heading" data-filter-item=".latest-episodes__item" data-filter-noun="episode">
+    <div class="filter__bar">
+        <div class="filter__intro">
+            <h2 class="filter__title" id="filter-heading">Filter episodes</h2>
+            <p class="filter__results" id="filter-results" role="status" aria-live="polite" aria-atomic="true"></p>
+        </div>
+        <div class="filter__actions"><button type="button" class="filter__clear-all" hidden="">Clear all</button>
+            <button type="button" class="filter__toggle" id="filter-toggle" aria-expanded="false" aria-controls="filter-body">
+                <span class="filter__toggle-text">Show filters</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="filter-body" class="filter__body" hidden="">
+        <div class="filter__row filter__row--category">
+            <p class="filter__row-label" id="filter-category-label">Category</p>
+            <div class="filter__scroll">
+                <div class="filter__chips filter__chips--scroll" role="group" aria-labelledby="filter-category-label">
+                    <button type="button" class="filter__chip filter__reset checked" aria-pressed="true" aria-label="Show all categories">
+                        <span class="filter__chip-text">All</span>
+                        <span class="filter__chip-count">54</span>
+                    </button>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="ultra" value="ultra" />
+                        <span class="filter__chip-text">ultra</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="trail" value="trail" />
+                        <span class="filter__chip-text">trail</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="road" value="road" />
+                        <span class="filter__chip-text">road</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="track" value="track" />
+                        <span class="filter__chip-text">track</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="subultra" value="subultra" />
+                        <span class="filter__chip-text">subultra</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="business" value="business" />
+                        <span class="filter__chip-text">business</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="skyrunning" value="skyrunning" />
+                        <span class="filter__chip-text">skyrunning</span>
+                    </label>
+                    
+                    
+                    
+                    
+                    <label class="filter__chip">
+                        <input type="checkbox" name="category" id="science" value="science" />
+                        <span class="filter__chip-text">science</span>
+                    </label>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="filter__row filter__row--language">
+            <p class="filter__row-label" id="filter-language-label">Language</p>
+            <div class="filter__chips filter__chips--compact" role="radiogroup" aria-labelledby="filter-language-label">
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-all" value="" checked="" />
+                    <span class="filter__chip-text">All</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-english" value="english" />
+                    <span class="filter__chip-text">English</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-french" value="french" />
+                    <span class="filter__chip-text">French</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-italian" value="italian" />
+                    <span class="filter__chip-text">Italian</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-norwegian" value="norwegian" />
+                    <span class="filter__chip-text">Norwegian</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-swedish" value="swedish" />
+                    <span class="filter__chip-text">Swedish</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-spanish" value="spanish" />
+                    <span class="filter__chip-text">Spanish</span>
+                </label>
+                <label class="filter__chip">
+                    <input type="radio" name="language_filter" id="lang-catalan" value="catalan" />
+                    <span class="filter__chip-text">Catalan</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+
+</div>
+
+<section class="latest-episodes" id="latest-episodes-page" aria-labelledby="latest-episodes-page-title">
   <!-- <h2 class="latest-episodes__title" id="latest-episodes-page-title">Latest episodes across all shows</h2> --><div class="latest-episodes__player-shell">
   <canvas class="latest-episodes__player-waves" data-player-waves="" aria-hidden="true"></canvas>
   <div class="latest-episodes__player-art-wrap" data-player-art-wrap="" data-default-cover="/media/tenjunkmiles.png"><picture><source type="image/webp" srcset="/media/tenjunkmiles.webp" /><img fetchpriority="high" decoding="async" src="/media/tenjunkmiles.png" alt="" class="latest-episodes__player-art" data-player-art="" decoding="async" width="96" height="96" loading="lazy" /></picture></div>
@@ -146,606 +286,598 @@
 </div>
 
 
-  <ol class="latest-episodes__list"><li class="latest-episodes__item">
+  <ol class="latest-episodes__list">
+    <li class="latest-episodes__empty" role="status" aria-live="polite" hidden="">
+      <p>No episodes match these filters. Try clearing filters or choose fewer categories.</p>
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/tenjunkmiles.webp" /><img fetchpriority="high" decoding="async" src="/media/tenjunkmiles.png" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Meet The Nation 342 - Rachel Carrasquillo" data-audio-url="https://traffic.libsyn.com/secure/tenjunkmiles/2025_0603_1546.mp3?dest-id=259001" data-episode-title="Meet The Nation 342 - Rachel Carrasquillo" data-podcast-title="Ten Junk Miles" data-cover-url="/media/tenjunkmiles.png">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Meet The Nation 342 - Rachel Carrasquillo</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/ten-junk-miles.html" class="latest-episodes__podcast-link">Ten Junk Miles</a> • Jun 3, 2026
+        <a href="/ten-junk-miles/meet-the-nation-342-rachel-carrasquillo/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Meet The Nation 342 - Rachel Carrasquillo</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/ten-junk-miles/" class="latest-episodes__podcast-link">Ten Junk Miles</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track road english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/citiusmag.webp" /><img fetchpriority="high" decoding="async" src="/media/citiusmag.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: This Week In Track &amp; Field: Rabat Diamond League Takeaways + Rome &amp; Stockholm Preview As Keely Hodgkinson, Melissa Jefferson-Wooden And Noah Lyles Are In Action" data-audio-url="https://traffic.megaphone.fm/APO9436945117.mp3" data-episode-title="This Week In Track &amp; Field: Rabat Diamond League Takeaways + Rome &amp; Stockholm Preview As Keely Hodgkinson, Melissa Jefferson-Wooden And Noah Lyles Are In Action" data-podcast-title="The CITIUS MAG Podcast | A Running + Track and Field Show" data-cover-url="/media/citiusmag.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">This Week In Track &amp; Field: Rabat Diamond League Takeaways + Rome &amp; Stockholm Preview As Keely Hodgkinson, Melissa Jefferson-Wooden And Noah Lyles Are In Action</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-citius-mag-podcast-a-running-track-and-field-show.html" class="latest-episodes__podcast-link">The CITIUS MAG Podcast | A Running + Track and Field Show</a> • Jun 3, 2026
+        <a href="/the-citius-mag-podcast-a-running-track-and-field-show/this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo/" class="latest-episodes__episode-title latest-episodes__episode-title--row">This Week In Track &amp; Field: Rabat Diamond League Takeaways + Rome &amp; Stockholm Preview As Keely Hodgkinson, Melissa Jefferson-Wooden And Noah Lyles Are In Action</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-citius-mag-podcast-a-running-track-and-field-show/" class="latest-episodes__podcast-link">The CITIUS MAG Podcast | A Running + Track and Field Show</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track science road english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/therealscienceofsportspodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/therealscienceofsportspodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI&apos;s Expensive Regulatory Defeat and a Weighing Scandal" data-audio-url="https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a1fefdbd610a77403d53ba8/media.mp3" data-episode-title="Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI&#39;s Expensive Regulatory Defeat and a Weighing Scandal" data-podcast-title="The Real Science Of Sport" data-cover-url="/media/therealscienceofsportspodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-real-science-of-sports.html" class="latest-episodes__podcast-link">The Real Science Of Sport</a> • Jun 3, 2026
+        <a href="/the-real-science-of-sports/sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-real-science-of-sports/" class="latest-episodes__podcast-link">The Real Science Of Sport</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra trail english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/centurionrunningpodast.webp" /><img fetchpriority="high" decoding="async" src="/media/centurionrunningpodast.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner." data-audio-url="https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a1fef548e9b802a6fd16bbd.mp3" data-episode-title="SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner." data-podcast-title="Centurion Running" data-cover-url="/media/centurionrunningpodast.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/centurion-running.html" class="latest-episodes__podcast-link">Centurion Running</a> • Jun 3, 2026
+        <a href="/centurion-running/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner/" class="latest-episodes__episode-title latest-episodes__episode-title--row">SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/centurion-running/" class="latest-episodes__podcast-link">Centurion Running</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track road english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/nobodyaskedus.webp" /><img fetchpriority="high" decoding="async" src="/media/nobodyaskedus.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 4.23. High Standards" data-audio-url="https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_23_-_Audio.mp3?dest-id=3833748" data-episode-title="4.23. High Standards" data-podcast-title="Nobody Asked Us" data-cover-url="/media/nobodyaskedus.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">4.23. High Standards</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/nobody-asked-us.html" class="latest-episodes__podcast-link">Nobody Asked Us</a> • Jun 3, 2026
+        <a href="/nobody-asked-us/4-23-high-standards/" class="latest-episodes__episode-title latest-episodes__episode-title--row">4.23. High Standards</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/nobody-asked-us/" class="latest-episodes__podcast-link">Nobody Asked Us</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/courseepique.webp" /><img fetchpriority="high" decoding="async" src="/media/courseepique.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Vincent Esmiol au MIUT : s&apos;effondrer, revenir, gagner" data-audio-url="https://sphinx.acast.com/p/acast/s/course-epique/e/6a1c32f849418f56c4cf66a5/media.mp3" data-episode-title="Vincent Esmiol au MIUT : s&#39;effondrer, revenir, gagner" data-podcast-title="Course Épique" data-cover-url="/media/courseepique.jpeg">
+    </li><li class="latest-episodes__item" data-category="trail ultra french">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/courseepique.webp" /><img fetchpriority="high" decoding="async" src="/media/courseepique.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Vincent Esmiol au MIUT : s&apos;effondrer, revenir, gagner" data-audio-url="https://sphinx.acast.com/p/acast/s/course-epique/e/6a1c32f849418f56c4cf66a5/media.mp3" data-episode-title="Vincent Esmiol au MIUT : s&#39;effondrer, revenir, gagner" data-podcast-title="Course Equipe" data-cover-url="/media/courseepique.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Vincent Esmiol au MIUT : s'effondrer, revenir, gagner</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/course-equipe.html" class="latest-episodes__podcast-link">Course Épique</a> • Jun 3, 2026
+        <a href="/course-equipe/vincent-esmiol-au-miut-s-effondrer-revenir-gagner/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Vincent Esmiol au MIUT : s'effondrer, revenir, gagner</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/course-equipe/" class="latest-episodes__podcast-link">Course Equipe</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track road swedish">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/springsnyggt.webp" /><img fetchpriority="high" decoding="async" src="/media/springsnyggt.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 340. Stockholm Marathon Special 2026" data-audio-url="https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_3_juni.mp3?dest-id=1729274" data-episode-title="340. Stockholm Marathon Special 2026" data-podcast-title="Spring Snyggt" data-cover-url="/media/springsnyggt.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">340. Stockholm Marathon Special 2026</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/spring-snyggt.html" class="latest-episodes__podcast-link">Spring Snyggt</a> • Jun 3, 2026
+        <a href="/spring-snyggt/340-stockholm-marathon-special-2026/" class="latest-episodes__episode-title latest-episodes__episode-title--row">340. Stockholm Marathon Special 2026</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/spring-snyggt/" class="latest-episodes__podcast-link">Spring Snyggt</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="uncategorized spanish">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lasotana.webp" /><img fetchpriority="high" decoding="async" src="/media/lasotana.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: La Sotana 414 amb Roger Mas" data-audio-url="https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3" data-episode-title="La Sotana 414 amb Roger Mas" data-podcast-title="La Sotana" data-cover-url="/media/lasotana.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">La Sotana 414 amb Roger Mas</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/la-sotana.html" class="latest-episodes__podcast-link">La Sotana</a> • Jun 2, 2026
+        <a href="/la-sotana/la-sotana-414-amb-roger-mas/" class="latest-episodes__episode-title latest-episodes__episode-title--row">La Sotana 414 amb Roger Mas</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/la-sotana/" class="latest-episodes__podcast-link">La Sotana</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="road track english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/insiderunning.webp" /><img fetchpriority="high" decoding="async" src="/media/insiderunning.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR" data-audio-url="https://mcdn.podbean.com/mf/web/a2yuksn5ddxj5xz8/itunes_4487gcus.mp3" data-episode-title="448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR" data-podcast-title="Inside Running Podcast" data-cover-url="/media/insiderunning.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/inside-running-podcast.html" class="latest-episodes__podcast-link">Inside Running Podcast</a> • Jun 3, 2026
+        <a href="/inside-running-podcast/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/" class="latest-episodes__episode-title latest-episodes__episode-title--row">448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/inside-running-podcast/" class="latest-episodes__podcast-link">Inside Running Podcast</a> • Jun 3, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra skyrunning english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/uphillathlete.webp" /><img fetchpriority="high" decoding="async" src="/media/uphillathlete.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)" data-audio-url="https://redirect.zencastr.com/r/episode/6a1e3f3e94a0ef31b11abc1b/size/73872325/video-files/635358be4592c880860238fe/d8c8c6ef-5fe2-485e-91d7-6afc7f5b8a2e.mp4" data-episode-title="Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)" data-podcast-title="Uphill Athlete" data-cover-url="/media/uphillathlete.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/uphill-athlete.html" class="latest-episodes__podcast-link">Uphill Athlete</a> • Jun 2, 2026
+        <a href="/uphill-athlete/voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/uphill-athlete/" class="latest-episodes__podcast-link">Uphill Athlete</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="road english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lifeinstride.webp" /><img fetchpriority="high" decoding="async" src="/media/lifeinstride.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #313 Jacob Thomson &amp; Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch" data-audio-url="https://traffic.megaphone.fm/APO5469674004.mp3" data-episode-title="#313 Jacob Thomson &amp; Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch" data-podcast-title="Life in Stride" data-cover-url="/media/lifeinstride.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">#313 Jacob Thomson &amp; Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/life-in-stride.html" class="latest-episodes__podcast-link">Life in Stride</a> • Jun 2, 2026
+        <a href="/life-in-stride/313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#313 Jacob Thomson &amp; Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/life-in-stride/" class="latest-episodes__podcast-link">Life in Stride</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="subultra ultra trail english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/swap.webp" /><img fetchpriority="high" decoding="async" src="/media/swap.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 313. Marathons v. Ultras, Fatigue Resistance Debates, Gene Editing Breakthrough, and Posture Impact on Blood Volume!" data-audio-url="https://anchor.fm/s/9abbbe4/podcast/play/120893275/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2Fab33a9c2-0ab8-1237-83c8-238a4b0e962d.mp3" data-episode-title="313. Marathons v. Ultras, Fatigue Resistance Debates, Gene Editing Breakthrough, and Posture Impact on Blood Volume!" data-podcast-title="Some Work, All Play" data-cover-url="/media/swap.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">313. Marathons v. Ultras, Fatigue Resistance Debates, Gene Editing Breakthrough, and Posture Impact on Blood Volume!</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/some-work-all-play.html" class="latest-episodes__podcast-link">Some Work, All Play</a> • Jun 2, 2026
+        <a href="/some-work-all-play/313-marathons-v-ultras-fatigue-resistance-debates-gene-editing-breakthrough-and-posture-impact-on-blood-volume/" class="latest-episodes__episode-title latest-episodes__episode-title--row">313. Marathons v. Ultras, Fatigue Resistance Debates, Gene Editing Breakthrough, and Posture Impact on Blood Volume!</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/some-work-all-play/" class="latest-episodes__podcast-link">Some Work, All Play</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/thebuzz.webp" /><img fetchpriority="high" decoding="async" src="/media/thebuzz.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: ATRA Founder Nancy Hobbs on Whether Trail Running Belongs in the Olympics" data-audio-url="https://traffic.libsyn.com/secure/493f0699-c147-4699-91f6-cc8d1c238aad/riverside_nancy_hobbs_edit_the_buzz.mp3?dest-id=4941070" data-episode-title="ATRA Founder Nancy Hobbs on Whether Trail Running Belongs in the Olympics" data-podcast-title="The Buzz" data-cover-url="/media/thebuzz.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">ATRA Founder Nancy Hobbs on Whether Trail Running Belongs in the Olympics</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-buzz.html" class="latest-episodes__podcast-link">The Buzz</a> • Jun 2, 2026
+        <a href="/the-buzz/atra-founder-nancy-hobbs-on-whether-trail-running-belongs-in-the-olympics/" class="latest-episodes__episode-title latest-episodes__episode-title--row">ATRA Founder Nancy Hobbs on Whether Trail Running Belongs in the Olympics</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-buzz/" class="latest-episodes__podcast-link">The Buzz</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/the-way-of-the-runner-podcast.webp" /><img fetchpriority="high" decoding="async" src="/media/the-way-of-the-runner-podcast.png" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Stephanie Case on running as an act of protest" data-audio-url="https://traffic.libsyn.com/secure/thewayoftherunner/stephanie-case-final-cut.mp3?dest-id=1733936" data-episode-title="Stephanie Case on running as an act of protest" data-podcast-title="The Way Of The Runner" data-cover-url="/media/the-way-of-the-runner-podcast.png">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Stephanie Case on running as an act of protest</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-way-of-the-runner.html" class="latest-episodes__podcast-link">The Way Of The Runner</a> • Jun 2, 2026
+        <a href="/the-way-of-the-runner/stephanie-case-on-running-as-an-act-of-protest/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Stephanie Case on running as an act of protest</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-way-of-the-runner/" class="latest-episodes__podcast-link">The Way Of The Runner</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra trail business english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/freetrail2.webp" /><img fetchpriority="high" decoding="async" src="/media/freetrail2.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Tyler Andrews Everest FKT Interview, Kilian&apos;s Zegama Report, Mogavero&apos;s WS Block &amp; OCC Course Change" data-audio-url="https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tyler_Andrews_Everest_FKT_Interview_Kilians_Zegama_Report_Mogaveros_WS_Block__OCC_Course_Change.mp3?dest-id=1746794" data-episode-title="Tyler Andrews Everest FKT Interview, Kilian&#39;s Zegama Report, Mogavero&#39;s WS Block &amp; OCC Course Change" data-podcast-title="The Freetrail Podcast" data-cover-url="/media/freetrail2.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Tyler Andrews Everest FKT Interview, Kilian's Zegama Report, Mogavero's WS Block &amp; OCC Course Change</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-freetrail-podcast.html" class="latest-episodes__podcast-link">The Freetrail Podcast</a> • Jun 2, 2026
+        <a href="/the-freetrail-podcast/tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Tyler Andrews Everest FKT Interview, Kilian's Zegama Report, Mogavero's WS Block &amp; OCC Course Change</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-freetrail-podcast/" class="latest-episodes__podcast-link">The Freetrail Podcast</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="road norwegian">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/teammacody.webp" /><img fetchpriority="high" decoding="async" src="/media/teammacody.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Recap Kvalømilen" data-audio-url="https://mcdn.podbean.com/mf/web/4xsiksbzsnqcg9ep/Post_Kval_milen8kdsx.mp3" data-episode-title="Recap Kvalømilen" data-podcast-title="Team Macody Podcast" data-cover-url="/media/teammacody.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Recap Kvalømilen</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/team-macody-podcast.html" class="latest-episodes__podcast-link">Team Macody Podcast</a> • Jun 2, 2026
+        <a href="/team-macody-podcast/recap-kval%C3%B8milen/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Recap Kvalømilen</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/team-macody-podcast/" class="latest-episodes__podcast-link">Team Macody Podcast</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="science english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/oncoaching.webp" /><img fetchpriority="high" decoding="async" src="/media/oncoaching.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Unlocking Potential: The Power of Constraints in Coaching and Training" data-audio-url="https://media.blubrry.com/magness_marcus_on_coaching/archive.org/download/Constraints/Constraints.mp3" data-episode-title="Unlocking Potential: The Power of Constraints in Coaching and Training" data-podcast-title="Science of Running" data-cover-url="/media/oncoaching.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Unlocking Potential: The Power of Constraints in Coaching and Training</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/science-of-running.html" class="latest-episodes__podcast-link">Science of Running</a> • Jun 2, 2026
+        <a href="/science-of-running/unlocking-potential-the-power-of-constraints-in-coaching-and-training/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Unlocking Potential: The Power of Constraints in Coaching and Training</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/science-of-running/" class="latest-episodes__podcast-link">Science of Running</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/trailsocietypodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/trailsocietypodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine" data-audio-url="https://pscrb.fm/rss/p/episodes.captivate.fm/episode/509a42c8-a997-4d7c-8f66-2c7db8aca8b1.mp3" data-episode-title="Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine" data-podcast-title="Trail Society" data-cover-url="/media/trailsocietypodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/trail-society.html" class="latest-episodes__podcast-link">Trail Society</a> • Jun 2, 2026
+        <a href="/trail-society/episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/trail-society/" class="latest-episodes__podcast-link">Trail Society</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/betweentwopinespodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/betweentwopinespodcast.webp" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Tara Dower and 69ing the LA Marathon" data-audio-url="https://traffic.libsyn.com/secure/f04d7e8c-333b-43c6-ad0a-3fb9cdaaf472/BTP_May_draftmfour.mp3?dest-id=4178531" data-episode-title="Tara Dower and 69ing the LA Marathon" data-podcast-title="Between Two Pines" data-cover-url="/media/betweentwopinespodcast.webp">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Tara Dower and 69ing the LA Marathon</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/between-two-pines.html" class="latest-episodes__podcast-link">Between Two Pines</a> • Jun 2, 2026
+        <a href="/between-two-pines/tara-dower-and-69ing-the-la-marathon/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Tara Dower and 69ing the LA Marathon</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/between-two-pines/" class="latest-episodes__podcast-link">Between Two Pines</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="business english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/longrunlabs.webp" /><img fetchpriority="high" decoding="async" src="/media/longrunlabs.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Accidental Business Owner Who Built the Science of Endurance Fueling" data-audio-url="https://anchor.fm/s/1061aabc4/podcast/play/120836593/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-1%2F22ea5d06-68fc-57bd-bf81-cd10b4a89bea.mp3" data-episode-title="The Accidental Business Owner Who Built the Science of Endurance Fueling" data-podcast-title="Long Run Labs" data-cover-url="/media/longrunlabs.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">The Accidental Business Owner Who Built the Science of Endurance Fueling</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/long-run-labs.html" class="latest-episodes__podcast-link">Long Run Labs</a> • Jun 2, 2026
+        <a href="/long-run-labs/the-accidental-business-owner-who-built-the-science-of-endurance-fueling/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Accidental Business Owner Who Built the Science of Endurance Fueling</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/long-run-labs/" class="latest-episodes__podcast-link">Long Run Labs</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra subultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/trailtalk.webp" /><img fetchpriority="high" decoding="async" src="/media/trailtalk.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Swiss Canyon Trail Weekend Debrief" data-audio-url="https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3" data-episode-title="Swiss Canyon Trail Weekend Debrief" data-podcast-title="Trail Talk" data-cover-url="/media/trailtalk.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Swiss Canyon Trail Weekend Debrief</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/trail-talk.html" class="latest-episodes__podcast-link">Trail Talk</a> • Jun 2, 2026
+        <a href="/trail-talk/swiss-canyon-trail-weekend-debrief/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Swiss Canyon Trail Weekend Debrief</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/trail-talk/" class="latest-episodes__podcast-link">Trail Talk</a> • Jun 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track road trail norwegian">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/bml.webp" /><img fetchpriority="high" decoding="async" src="/media/bml.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!" data-audio-url="https://www.buzzsprout.com/299975/episodes/19272984-rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run.mp3" data-episode-title="Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!" data-podcast-title="Breaking Marathon Limits" data-cover-url="/media/bml.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/breaking-marathon-limits.html" class="latest-episodes__podcast-link">Breaking Marathon Limits</a> • Jun 1, 2026
+        <a href="/breaking-marathon-limits/rasmus-p%C3%A5-loffen-to-halvmaraton%C3%B8kter-og-klar-for-the-arctic-run/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/breaking-marathon-limits/" class="latest-episodes__podcast-link">Breaking Marathon Limits</a> • Jun 1, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra french">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/danslateteeduncoureur.webp" /><img fetchpriority="high" decoding="async" src="/media/danslateteeduncoureur.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race" data-audio-url="https://audio.audiomeans.fr/file/hDENVZklas/7cb02943-5a9e-49a2-b5cf-5bcd0abd716c.mp3?_=1780249253" data-episode-title="Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race" data-podcast-title="Dans la Tête d’un Coureur" data-cover-url="/media/danslateteeduncoureur.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/dans-la-t-te-d-un-coureur.html" class="latest-episodes__podcast-link">Dans la Tête d’un Coureur</a> • Jun 1, 2026
+        <a href="/dans-la-t-te-d-un-coureur/hugo-deck-le-r%C3%A9cit-de-son-duel-avec-th%C3%A9o-d%C3%A9tienne-et-yannick-no%C3%ABl-%C3%A0-la-maxi-race/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/dans-la-t-te-d-un-coureur/" class="latest-episodes__podcast-link">Dans la Tête d’un Coureur</a> • Jun 1, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/choosestrongpodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/choosestrongpodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #142 | Recovering After 200+ Miles" data-audio-url="https://anchor.fm/s/674e5298/podcast/play/120779622/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-31%2F425208583-44100-2-54043e5d67221.mp3" data-episode-title="#142 | Recovering After 200+ Miles" data-podcast-title="Choose Strong" data-cover-url="/media/choosestrongpodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">#142 | Recovering After 200+ Miles</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/choose-strong.html" class="latest-episodes__podcast-link">Choose Strong</a> • May 31, 2026
+        <a href="/choose-strong/142-recovering-after-200-miles/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#142 | Recovering After 200+ Miles</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/choose-strong/" class="latest-episodes__podcast-link">Choose Strong</a> • May 31, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail skyrunning ultra subultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/albonway.webp" /><img fetchpriority="high" decoding="async" src="/media/albonway.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: UTS 50K Debrief, &quot;Training Races&quot;, Poles &amp; The Sugar Experiment" data-audio-url="https://anchor.fm/s/fb539bd8/podcast/play/120799882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-31%2F29b782d0-9c8e-7ef9-ba4c-8fe64566646e.mp3" data-episode-title="UTS 50K Debrief, &quot;Training Races&quot;, Poles &amp; The Sugar Experiment" data-podcast-title="The Albon Way" data-cover-url="/media/albonway.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">UTS 50K Debrief, "Training Races", Poles &amp; The Sugar Experiment</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-albon-way.html" class="latest-episodes__podcast-link">The Albon Way</a> • May 31, 2026
+        <a href="/the-albon-way/uts-50k-debrief-training-races-poles-the-sugar-experiment/" class="latest-episodes__episode-title latest-episodes__episode-title--row">UTS 50K Debrief, "Training Races", Poles &amp; The Sugar Experiment</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-albon-way/" class="latest-episodes__podcast-link">The Albon Way</a> • May 31, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/runningpublic.webp" /><img fetchpriority="high" decoding="async" src="/media/runningpublic.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Training Tuesday: Our Coaching Journey" data-audio-url="https://mcdn.podbean.com/mf/web/2d9iyu8km7wc5c4n/2_clips_Edit_36_9zqm5.mp3" data-episode-title="Training Tuesday: Our Coaching Journey" data-podcast-title="The Running Public" data-cover-url="/media/runningpublic.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Training Tuesday: Our Coaching Journey</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-running-public.html" class="latest-episodes__podcast-link">The Running Public</a> • May 30, 2026
+        <a href="/the-running-public/training-tuesday-our-coaching-journey/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Training Tuesday: Our Coaching Journey</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-running-public/" class="latest-episodes__podcast-link">The Running Public</a> • May 30, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/crackabrew.webp" /><img fetchpriority="high" decoding="async" src="/media/crackabrew.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100" data-audio-url="https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Jeff_Mogavero.mp3?dest-id=3847590" data-episode-title="Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100" data-podcast-title="Crack A Brew With AJW" data-cover-url="/media/crackabrew.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/crack-a-brew-with-ajw.html" class="latest-episodes__podcast-link">Crack A Brew With AJW</a> • May 30, 2026
+        <a href="/crack-a-brew-with-ajw/jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/crack-a-brew-with-ajw/" class="latest-episodes__podcast-link">Crack A Brew With AJW</a> • May 30, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/distancetoempty.webp" /><img fetchpriority="high" decoding="async" src="/media/distancetoempty.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250" data-audio-url="https://anchor.fm/s/ef81d1e4/podcast/play/120731419/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F65b41453-b9fb-a3d2-98b6-72787f5f02ab.mp3" data-episode-title="Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250" data-podcast-title="Distance to Empty" data-cover-url="/media/distancetoempty.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/distance-to-empty.html" class="latest-episodes__podcast-link">Distance to Empty</a> • May 29, 2026
+        <a href="/distance-to-empty/trish-corbett-mba-champion-corner-threes-and-broken-fingers-at-cocodona-250/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/distance-to-empty/" class="latest-episodes__podcast-link">Distance to Empty</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track road english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/coffeeclub.webp" /><img fetchpriority="high" decoding="async" src="/media/coffeeclub.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Fake Records &amp; Impossible Standards" data-audio-url="https://content.rss.com/episodes/81443/2869124/coffeeclub/2026_05_29_14_51_31_283ddbe7-8d53-41e4-b0dc-befd591ecf9d.mp3" data-episode-title="Fake Records &amp; Impossible Standards" data-podcast-title="COFFEECLUB" data-cover-url="/media/coffeeclub.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Fake Records &amp; Impossible Standards</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/coffeeclub.html" class="latest-episodes__podcast-link">COFFEECLUB</a> • May 29, 2026
+        <a href="/coffeeclub/fake-records-impossible-standards/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Fake Records &amp; Impossible Standards</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/coffeeclub/" class="latest-episodes__podcast-link">COFFEECLUB</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="business english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/secondnaturepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/secondnaturepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: What Happens When You Actually Ask For Help" data-audio-url="https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-158.mp3?dest-id=4458728" data-episode-title="What Happens When You Actually Ask For Help" data-podcast-title="Second Nature" data-cover-url="/media/secondnaturepodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">What Happens When You Actually Ask For Help</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/second-nature.html" class="latest-episodes__podcast-link">Second Nature</a> • May 29, 2026
+        <a href="/second-nature/what-happens-when-you-actually-ask-for-help/" class="latest-episodes__episode-title latest-episodes__episode-title--row">What Happens When You Actually Ask For Help</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/second-nature/" class="latest-episodes__podcast-link">Second Nature</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/themidpackerpodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/themidpackerpodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #118 Troy Meadows &amp; Julio Palma | Hellbender 100, Battling the DNF Demons, &amp; Through Endurance We Conquer" data-audio-url="https://anchor.fm/s/e4eabf84/podcast/play/120694864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-28%2Fff06e00c-0532-29e7-5a3e-45847cb8a379.mp3" data-episode-title="#118 Troy Meadows &amp; Julio Palma | Hellbender 100, Battling the DNF Demons, &amp; Through Endurance We Conquer" data-podcast-title="The Midpacker Podcast" data-cover-url="/media/themidpackerpodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">#118 Troy Meadows &amp; Julio Palma | Hellbender 100, Battling the DNF Demons, &amp; Through Endurance We Conquer</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-midpacker-podcast.html" class="latest-episodes__podcast-link">The Midpacker Podcast</a> • May 29, 2026
+        <a href="/the-midpacker-podcast/118-troy-meadows-julio-palma-hellbender-100-battling-the-dnf-demons-through-endurance-we-conquer/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#118 Troy Meadows &amp; Julio Palma | Hellbender 100, Battling the DNF Demons, &amp; Through Endurance We Conquer</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-midpacker-podcast/" class="latest-episodes__podcast-link">The Midpacker Podcast</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="business road trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/forthelongrun.webp" /><img fetchpriority="high" decoding="async" src="/media/forthelongrun.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway" data-audio-url="https://anchor.fm/s/81032c4/podcast/play/120621880/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-27%2F36b51e23-22b0-6c9d-8d1a-eeca91784f5c.mp3" data-episode-title="Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway" data-podcast-title="For The Long Run" data-cover-url="/media/forthelongrun.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/for-the-long-run.html" class="latest-episodes__podcast-link">For The Long Run</a> • May 29, 2026
+        <a href="/for-the-long-run/maria-chevalier-on-48-marathon-states-running-double-boston-and-doing-hard-things-anyway/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Maria Chevalier on 48 Marathon States, Running Double Boston, and Doing Hard Things Anyway</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/for-the-long-run/" class="latest-episodes__podcast-link">For The Long Run</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail subultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/subhubpodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/subhubpodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Petter Engdahl on Versatility in Trail Running" data-audio-url="https://anchor.fm/s/db96fa60/podcast/play/120695418/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-29%2F425101247-44100-2-162305ab2781.mp3" data-episode-title="Petter Engdahl on Versatility in Trail Running" data-podcast-title="The Sub Hub" data-cover-url="/media/subhubpodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Petter Engdahl on Versatility in Trail Running</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-sub-hub.html" class="latest-episodes__podcast-link">The Sub Hub</a> • May 29, 2026
+        <a href="/the-sub-hub/petter-engdahl-on-versatility-in-trail-running/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Petter Engdahl on Versatility in Trail Running</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-sub-hub/" class="latest-episodes__podcast-link">The Sub Hub</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/trn-logo-podcast-artwork.webp" /><img fetchpriority="high" decoding="async" src="/media/trn-logo-podcast-artwork.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: EP 783: The Supplement Runners Should Consider" data-audio-url="https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Dan_Pardi_5_28_26.mp3?dest-id=142179" data-episode-title="EP 783: The Supplement Runners Should Consider" data-podcast-title="Trail Runner Nation" data-cover-url="/media/trn-logo-podcast-artwork.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">EP 783: The Supplement Runners Should Consider</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/trail-runner-nation.html" class="latest-episodes__podcast-link">Trail Runner Nation</a> • May 29, 2026
+        <a href="/trail-runner-nation/ep-783-the-supplement-runners-should-consider/" class="latest-episodes__episode-title latest-episodes__episode-title--row">EP 783: The Supplement Runners Should Consider</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/trail-runner-nation/" class="latest-episodes__podcast-link">Trail Runner Nation</a> • May 29, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/boulderboys.webp" /><img fetchpriority="high" decoding="async" src="/media/boulderboys.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Ep. 77  Cocodona 250, Circle Pit, Cam v. Sage + more!!" data-audio-url="https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._77.1.mp3?dest-id=4343338" data-episode-title="Ep. 77  Cocodona 250, Circle Pit, Cam v. Sage + more!!" data-podcast-title="The Boulder Boys" data-cover-url="/media/boulderboys.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Ep. 77  Cocodona 250, Circle Pit, Cam v. Sage + more!!</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-boulder-boys.html" class="latest-episodes__podcast-link">The Boulder Boys</a> • May 28, 2026
+        <a href="/the-boulder-boys/ep-77-cocodona-250-circle-pit-cam-v-sage-more/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Ep. 77  Cocodona 250, Circle Pit, Cam v. Sage + more!!</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-boulder-boys/" class="latest-episodes__podcast-link">The Boulder Boys</a> • May 28, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra trail business english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/singletracknew.webp" /><img fetchpriority="high" decoding="async" src="/media/singletracknew.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Kilian Korth Injury Update, Rachel Entrekin&apos;s New Deal, Sage vs Cam Goes to USADA (Singletrack News)" data-audio-url="https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19236963-kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news.mp3" data-episode-title="Kilian Korth Injury Update, Rachel Entrekin&#39;s New Deal, Sage vs Cam Goes to USADA (Singletrack News)" data-podcast-title="Singletrack" data-cover-url="/media/singletracknew.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Kilian Korth Injury Update, Rachel Entrekin's New Deal, Sage vs Cam Goes to USADA (Singletrack News)</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/singletrack.html" class="latest-episodes__podcast-link">Singletrack</a> • May 25, 2026
+        <a href="/singletrack/kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Kilian Korth Injury Update, Rachel Entrekin's New Deal, Sage vs Cam Goes to USADA (Singletrack News)</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/singletrack/" class="latest-episodes__podcast-link">Singletrack</a> • May 25, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/womanofdistancepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/womanofdistancepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Sydney Petersen - A Strong Sense of Belonging" data-audio-url="https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3" data-episode-title="Sydney Petersen - A Strong Sense of Belonging" data-podcast-title="Women of Distance" data-cover-url="/media/womanofdistancepodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Sydney Petersen - A Strong Sense of Belonging</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/women-of-distance.html" class="latest-episodes__podcast-link">Women of Distance</a> • May 25, 2026
+        <a href="/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Sydney Petersen - A Strong Sense of Belonging</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/women-of-distance/" class="latest-episodes__podcast-link">Women of Distance</a> • May 25, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/theextramilestshow236.webp" /><img fetchpriority="high" decoding="async" src="/media/theextramilestshow236.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #127: Jakob Ingebrigtsen&apos;s Advice to Run Faster, For Non-Elites" data-audio-url="https://traffic.libsyn.com/secure/florisgierman/Jakob_Ingebrigtsens_Advice_to_Run_Faster.mp3?dest-id=557444" data-episode-title="#127: Jakob Ingebrigtsen&#39;s Advice to Run Faster, For Non-Elites" data-podcast-title="The Extramilest Show" data-cover-url="/media/theextramilestshow236.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">#127: Jakob Ingebrigtsen's Advice to Run Faster, For Non-Elites</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-extramilest-show.html" class="latest-episodes__podcast-link">The Extramilest Show</a> • May 15, 2026
+        <a href="/the-extramilest-show/127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#127: Jakob Ingebrigtsen's Advice to Run Faster, For Non-Elites</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-extramilest-show/" class="latest-episodes__podcast-link">The Extramilest Show</a> • May 15, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra trail swedish">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/paceonearth.webp" /><img fetchpriority="high" decoding="async" src="/media/paceonearth.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #377 - Pulsbaserad träning med Isabella Brandt från Aktivitus" data-audio-url="https://traffic.libsyn.com/secure/paceonearth/Pulsbaserad-traning-med-Isabella-Brandt-fran-Aktivitus.mp3?dest-id=566693" data-episode-title="#377 - Pulsbaserad träning med Isabella Brandt från Aktivitus" data-podcast-title="Pace On Earth" data-cover-url="/media/paceonearth.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">#377 - Pulsbaserad träning med Isabella Brandt från Aktivitus</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pace-on-earth.html" class="latest-episodes__podcast-link">Pace On Earth</a> • May 9, 2026
+        <a href="/pace-on-earth/377-pulsbaserad-tr%C3%A4ning-med-isabella-brandt-fr%C3%A5n-aktivitus/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#377 - Pulsbaserad träning med Isabella Brandt från Aktivitus</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pace-on-earth/" class="latest-episodes__podcast-link">Pace On Earth</a> • May 9, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/fokk-asfalt-logo.webp" /><img fetchpriority="high" decoding="async" src="/media/fokk-asfalt-logo.webp" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs &amp; state of the sport" data-audio-url="https://www.buzzsprout.com/145661/episodes/19139949-252-petter-engdahl-boston-marathon-2026-planer-helsetrobbel-lopesko-carbs-state-of-the-sport.mp3" data-episode-title="#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs &amp; state of the sport" data-podcast-title="Føkk Asfalt" data-cover-url="/media/fokk-asfalt-logo.webp">
+    </li><li class="latest-episodes__item" data-category="trail ultra subultra norwegian english">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/fokk-asfalt-logo.webp" /><img fetchpriority="high" decoding="async" src="/media/fokk-asfalt-logo.webp" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs &amp; state of the sport" data-audio-url="https://www.buzzsprout.com/145661/episodes/19139949-252-petter-engdahl-boston-marathon-2026-planer-helsetrobbel-lopesko-carbs-state-of-the-sport.mp3" data-episode-title="#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs &amp; state of the sport" data-podcast-title="Føkk Asfalt / Nå Er Det Alvor" data-cover-url="/media/fokk-asfalt-logo.webp">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs &amp; state of the sport</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/n-er-det-alvor.html" class="latest-episodes__podcast-link">Føkk Asfalt</a> • May 7, 2026
+        <a href="/n-er-det-alvor/252-petter-engdahl-boston-marathon-2026-planer-helsetr%C3%B8bbel-l%C3%B8pesko-carbs-state-of-the-sport/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#252 - Petter Engdahl | Boston Marathon, 2026-planer, helsetrøbbel, løpesko, carbs &amp; state of the sport</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/n-er-det-alvor/" class="latest-episodes__podcast-link">Føkk Asfalt / Nå Er Det Alvor</a> • May 7, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/takeoffyourshoespodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/takeoffyourshoespodcast.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Take Off Your Shoes: Rachel Entrekin" data-audio-url="https://anchor.fm/s/f9f56780/podcast/play/119128183/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-27%2F422978858-44100-2-582eebc615607.m4a" data-episode-title="Take Off Your Shoes: Rachel Entrekin" data-podcast-title="Take Off Your Shoes" data-cover-url="/media/takeoffyourshoespodcast.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Take Off Your Shoes: Rachel Entrekin</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/take-off-your-shoes.html" class="latest-episodes__podcast-link">Take Off Your Shoes</a> • Apr 27, 2026
+        <a href="/take-off-your-shoes/take-off-your-shoes-rachel-entrekin/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Take Off Your Shoes: Rachel Entrekin</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/take-off-your-shoes/" class="latest-episodes__podcast-link">Take Off Your Shoes</a> • Apr 27, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="business trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/creatorscooldown.webp" /><img fetchpriority="high" decoding="async" src="/media/creatorscooldown.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Story Behind Salomon TV, with Dean Leslie" data-audio-url="https://anchor.fm/s/101e74634/podcast/play/118882130/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-23%2F422653583-44100-2-b4233204f9765.mp3" data-episode-title="The Story Behind Salomon TV, with Dean Leslie" data-podcast-title="Creators Cooldown" data-cover-url="/media/creatorscooldown.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">The Story Behind Salomon TV, with Dean Leslie</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/creators-cooldown.html" class="latest-episodes__podcast-link">Creators Cooldown</a> • Apr 23, 2026
+        <a href="/creators-cooldown/the-story-behind-salomon-tv-with-dean-leslie/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Story Behind Salomon TV, with Dean Leslie</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/creators-cooldown/" class="latest-episodes__podcast-link">Creators Cooldown</a> • Apr 23, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail subultra ultra skyrunning english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/runninglongpodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/runninglongpodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 185. Abby Hall | From Training to Reality: What Trail Running Actually Feels Like" data-audio-url="https://anchor.fm/s/70c9c5f0/podcast/play/117856800/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-2%2F421277325-44100-2-5ebe1e3682cea.m4a" data-episode-title="185. Abby Hall | From Training to Reality: What Trail Running Actually Feels Like" data-podcast-title="Running long - A trail &amp; ultra running talk" data-cover-url="/media/runninglongpodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">185. Abby Hall | From Training to Reality: What Trail Running Actually Feels Like</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/running-long-a-trail-ultra-running-talk.html" class="latest-episodes__podcast-link">Running long - A trail &amp; ultra running talk</a> • Apr 2, 2026
+        <a href="/running-long-a-trail-ultra-running-talk/185-abby-hall-from-training-to-reality-what-trail-running-actually-feels-like/" class="latest-episodes__episode-title latest-episodes__episode-title--row">185. Abby Hall | From Training to Reality: What Trail Running Actually Feels Like</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/running-long-a-trail-ultra-running-talk/" class="latest-episodes__podcast-link">Running long - A trail &amp; ultra running talk</a> • Apr 2, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/speeddhimanradio.webp" /><img fetchpriority="high" decoding="async" src="/media/speeddhimanradio.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Submaxxing, Tough Choices, Structure&amp;Analysis" data-audio-url="https://anchor.fm/s/fd56e778/podcast/play/116714273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2Fd1b78595-1ed9-ab4c-96ca-fce117c7cc6e.mp3" data-episode-title="Submaxxing, Tough Choices, Structure&amp;Analysis" data-podcast-title="Speed Dhiman Radio" data-cover-url="/media/speeddhimanradio.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Submaxxing, Tough Choices, Structure&amp;Analysis</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/speed-dhiman-radio.html" class="latest-episodes__podcast-link">Speed Dhiman Radio</a> • Mar 10, 2026
+        <a href="/speed-dhiman-radio/submaxxing-tough-choices-structure-analysis/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Submaxxing, Tough Choices, Structure&amp;Analysis</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/speed-dhiman-radio/" class="latest-episodes__podcast-link">Speed Dhiman Radio</a> • Mar 10, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="uncategorized english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/inourtimesciencepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/inourtimesciencepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Mariana Trench" data-audio-url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0mw2pfd.mp3" data-episode-title="The Mariana Trench" data-podcast-title="In Our Time: Science" data-cover-url="/media/inourtimesciencepodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">The Mariana Trench</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/in-our-time-science.html" class="latest-episodes__podcast-link">In Our Time: Science</a> • Feb 19, 2026
+        <a href="/in-our-time-science/the-mariana-trench/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Mariana Trench</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/in-our-time-science/" class="latest-episodes__podcast-link">In Our Time: Science</a> • Feb 19, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra science trail english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/koopcast.webp" /><img fetchpriority="high" decoding="async" src="/media/koopcast.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Koop AI, Unboxed" data-audio-url="https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/17976773-koop-ai-unboxed.mp3" data-episode-title="Koop AI, Unboxed" data-podcast-title="KoopCast" data-cover-url="/media/koopcast.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Koop AI, Unboxed</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/koopcast.html" class="latest-episodes__podcast-link">KoopCast</a> • Oct 8, 2025
+        <a href="/koopcast/koop-ai-unboxed/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Koop AI, Unboxed</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/koopcast/" class="latest-episodes__podcast-link">KoopCast</a> • Oct 8, 2025
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/talkultrapodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/talkultrapodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Episode 254 - Amy McCulloch - RUNNER 13" data-audio-url="https://traffic.libsyn.com/secure/talkultra/Amy_McCulloch.mp3?dest-id=88544" data-episode-title="Episode 254 - Amy McCulloch - RUNNER 13" data-podcast-title="Talk Ultra" data-cover-url="/media/talkultrapodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Episode 254 - Amy McCulloch - RUNNER 13</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/talk-ultra.html" class="latest-episodes__podcast-link">Talk Ultra</a> • Sep 17, 2025
+        <a href="/talk-ultra/episode-254-amy-mcculloch-runner-13/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Episode 254 - Amy McCulloch - RUNNER 13</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/talk-ultra/" class="latest-episodes__podcast-link">Talk Ultra</a> • Sep 17, 2025
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail skyrunning ultra italian">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/pioneri.webp" /><img fetchpriority="high" decoding="async" src="/media/pioneri.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Ep. 12 | Storie" data-audio-url="https://anchor.fm/s/f8f3525c/podcast/play/104192406/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-5-16%2F402251055-44100-2-f623024941703.m4a" data-episode-title="Ep. 12 | Storie" data-podcast-title="Pionieri" data-cover-url="/media/pioneri.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Ep. 12 | Storie</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pionieri.html" class="latest-episodes__podcast-link">Pionieri</a> • Jun 16, 2025
+        <a href="/pionieri/ep-12-storie/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Ep. 12 | Storie</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pionieri/" class="latest-episodes__podcast-link">Pionieri</a> • Jun 16, 2025
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/ultrarunninghistory.webp" /><img fetchpriority="high" decoding="async" src="/media/ultrarunninghistory.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 178: Grand Canyon Short Stories – Part Two" data-audio-url="https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/06/episode178.mp3" data-episode-title="178: Grand Canyon Short Stories – Part Two" data-podcast-title="Ultrarunning History" data-cover-url="/media/ultrarunninghistory.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">178: Grand Canyon Short Stories – Part Two</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/ultrarunning-history-podcast.html" class="latest-episodes__podcast-link">Ultrarunning History</a> • Jun 1, 2025
+        <a href="/ultrarunning-history-podcast/178-grand-canyon-short-stories-part-two/" class="latest-episodes__episode-title latest-episodes__episode-title--row">178: Grand Canyon Short Stories – Part Two</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/ultrarunning-history-podcast/" class="latest-episodes__podcast-link">Ultrarunning History</a> • Jun 1, 2025
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="science spanish">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/90gramos.webp" /><img fetchpriority="high" decoding="async" src="/media/90gramos.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Episodio 10 - Kilian Jornet y el Everest" data-audio-url="https://traffic.megaphone.fm/TSSL3452159980.mp3?updated=1739215760" data-episode-title="Episodio 10 - Kilian Jornet y el Everest" data-podcast-title="90 Gramos" data-cover-url="/media/90gramos.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Episodio 10 - Kilian Jornet y el Everest</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/90-gramos.html" class="latest-episodes__podcast-link">90 Gramos</a> • Dec 19, 2024
+        <a href="/90-gramos/episodio-10-kilian-jornet-y-el-everest/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Episodio 10 - Kilian Jornet y el Everest</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/90-gramos/" class="latest-episodes__podcast-link">90 Gramos</a> • Dec 19, 2024
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/theultrasoundpodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/theultrasoundpodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: UTMB Debrief" data-audio-url="https://anchor.fm/s/f7fa9d38/podcast/play/92001262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-8-21%2F386758186-44100-2-613d97e8b6a86.mp3" data-episode-title="UTMB Debrief" data-podcast-title="The Ultra Sound Podcast" data-cover-url="/media/theultrasoundpodcast.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">UTMB Debrief</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-ultra-sound-podcast.html" class="latest-episodes__podcast-link">The Ultra Sound Podcast</a> • Sep 23, 2024
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="track road norwegian">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/idetlangeloppodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/idetlangeloppodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Hør alle episodene i NRK Radio" data-audio-url="https://podkast.nrk.no/fil/i_det_lange_loep/2338692d-69cc-4594-bc58-ae45af268354_0_ID192MP3.mp3" data-episode-title="Hør alle episodene i NRK Radio" data-podcast-title="I Det Lange Løp" data-cover-url="/media/idetlangeloppodcast.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">Hør alle episodene i NRK Radio</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/i-det-lange-l-p.html" class="latest-episodes__podcast-link">I Det Lange Løp</a> • Mar 24, 2024
+        <a href="/i-det-lange-l-p/h%C3%B8r-alle-episodene-i-nrk-radio/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Hør alle episodene i NRK Radio</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/i-det-lange-l-p/" class="latest-episodes__podcast-link">I Det Lange Løp</a> • Mar 24, 2024
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="road english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/out-and-back-logo-scaled.webp" /><img fetchpriority="high" decoding="async" src="/media/out-and-back-logo-scaled.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 46. How to Read the Avalanche Forecast with Snow Science Expert Simon Trautman" data-audio-url="https://traffic.megaphone.fm/POM6226558720.mp3?updated=1649870738" data-episode-title="46. How to Read the Avalanche Forecast with Snow Science Expert Simon Trautman" data-podcast-title="Out and Back" data-cover-url="/media/out-and-back-logo-scaled.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">46. How to Read the Avalanche Forecast with Snow Science Expert Simon Trautman</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/out-and-back.html" class="latest-episodes__podcast-link">Out and Back</a> • Dec 15, 2021
+        <a href="/out-and-back/46-how-to-read-the-avalanche-forecast-with-snow-science-expert-simon-trautman/" class="latest-episodes__episode-title latest-episodes__episode-title--row">46. How to Read the Avalanche Forecast with Snow Science Expert Simon Trautman</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/out-and-back/" class="latest-episodes__podcast-link">Out and Back</a> • Dec 15, 2021
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="ultra english">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/scienceofultra.webp" /><img fetchpriority="high" decoding="async" src="/media/scienceofultra.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: SOUP Out" data-audio-url="https://traffic.libsyn.com/secure/scienceofultra/SOUP_Out.mp3?dest-id=299934" data-episode-title="SOUP Out" data-podcast-title="Science Of Ultra" data-cover-url="/media/scienceofultra.jpg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">SOUP Out</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/science-of-ultra.html" class="latest-episodes__podcast-link">Science Of Ultra</a> • Oct 6, 2021
+        <a href="/science-of-ultra/soup-out/" class="latest-episodes__episode-title latest-episodes__episode-title--row">SOUP Out</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/science-of-ultra/" class="latest-episodes__podcast-link">Science Of Ultra</a> • Oct 6, 2021
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item">
+    </li><li class="latest-episodes__item" data-category="trail skyrunning ultra subultra spanish">
       <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/ingravidos.webp" /><img fetchpriority="high" decoding="async" src="/media/ingravidos.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: ingrÁvidos 5x18 (08/01/2021)" data-audio-url="https://www.ivoox.com/ingravidos-5x18-08-01-2021_mf_63688358_feed_1.mp3" data-episode-title="ingrÁvidos 5x18 (08/01/2021)" data-podcast-title="Ingravidos" data-cover-url="/media/ingravidos.jpeg">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <span class="latest-episodes__episode-title latest-episodes__episode-title--row">ingrÁvidos 5x18 (08/01/2021)</span>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/ingravidos.html" class="latest-episodes__podcast-link">Ingravidos</a> • Jan 9, 2021
+        <a href="/ingravidos/ingr%C3%A1vidos-5x18-08-01-2021/" class="latest-episodes__episode-title latest-episodes__episode-title--row">ingrÁvidos 5x18 (08/01/2021)</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/ingravidos/" class="latest-episodes__podcast-link">Ingravidos</a> • Jan 9, 2021
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
@@ -1497,8 +1629,18 @@
     }
 
     function setNowPlaying(episodeTitle, podcastTitle, kickerLabel) {
-      kickerLabel = kickerLabel || 'Now playing';
       nowPlaying.classList.remove('latest-episodes__now-playing--idle');
+      if (kickerLabel === false) {
+        nowPlaying.innerHTML =
+          '<span class="latest-episodes__now-playing-line">' +
+          '<span class="latest-episodes__now-playing-episode">' +
+          episodeTitle +
+          '</span>' +
+          '</span>';
+        showTransport();
+        return;
+      }
+      kickerLabel = kickerLabel || 'Now playing';
       nowPlaying.innerHTML =
         '<span class="latest-episodes__now-playing-kicker">' +
         kickerLabel +
@@ -1626,11 +1768,13 @@
       updateArt(coverUrl);
       rememberEpisodeMeta(episodeTitle, podcastTitle, coverUrl);
 
-      var kicker =
-        options.kicker ||
-        (shouldPlay || userGesture
-          ? 'Now playing'
-          : 'Continue listening');
+      var kicker;
+      if (Object.prototype.hasOwnProperty.call(options, 'kicker')) {
+        kicker = options.kicker;
+      } else {
+        kicker =
+          shouldPlay || userGesture ? 'Now playing' : 'Continue listening';
+      }
       setNowPlaying(episodeTitle, podcastTitle, kicker);
 
       saveLastListened(audioUrl, episodeTitle, podcastTitle, coverUrl);
@@ -1717,6 +1861,7 @@
     });
 
     (function hydrateFromLastVisit() {
+      if (root.classList.contains('latest-episodes--episode-page')) return;
       var last = loadLastListened();
       if (!last) return;
       var btn = findButtonForStoredUrl(last.url);
@@ -1733,12 +1878,27 @@
 
     (function primeLatestForMainPlayer() {
       if (currentLi) return;
+      if (root.classList.contains('latest-episodes--episode-page')) return;
       var firstBtn = root.querySelector('.latest-episodes__list .latest-episodes__item [data-audio-url]');
       if (!firstBtn) return;
       activateEpisode(firstBtn, {
         userGesture: false,
         play: false,
         kicker: 'Latest episode',
+      });
+      try {
+        player.preload = 'metadata';
+      } catch (e) {}
+    })();
+
+    (function initEpisodePagePlayer() {
+      if (!root.classList.contains('latest-episodes--episode-page')) return;
+      var btn = root.querySelector('.latest-episodes__list--episode-page [data-audio-url]');
+      if (!btn) return;
+      activateEpisode(btn, {
+        userGesture: false,
+        play: false,
+        kicker: false,
       });
       try {
         player.preload = 'metadata';
@@ -1894,7 +2054,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-04T07:37:56Z">2026-06-04 07:37 UTC</time>
+      <time datetime="2026-06-04T07:23:03Z">2026-06-04 07:23 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

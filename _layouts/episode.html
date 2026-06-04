@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+	{% include head.html %}
+	{% include schema-episode.html %}
+</head>
+<body class="post-page post-page--podcast post-page--episode" data-box-grid="true">
+	{% include skip-link.html %}
+	<main id="main-content">
+		<article class="episode-page">
+			<div class="episode-page__toolbar">
+				{% include episode-page-nav.html %}
+			</div>
+
+			<section class="episode-page__player" aria-label="Listen to this episode">
+				{% include episode-single-player.html %}
+			</section>
+
+			<header class="episode-page__intro">
+				<h1 class="episode-page__title">{{ page.episode_title }}</h1>
+				<p class="episode-page__meta">
+					<a class="episode-page__podcast-link" href="{{ page.podcast_url | relative_url }}">{{ page.podcast_title }}</a>
+					{%- if page.published_at -%}
+					<span class="episode-page__meta-sep" aria-hidden="true"> · </span>
+					<time class="episode-page__date" datetime="{{ page.published_at }}">{{ page.published_at | date: "%B %-d, %Y" }}</time>
+					{%- endif -%}
+				</p>
+			</header>
+
+			{%- if page.description_html and page.description_html != '' -%}
+			<section class="episode-page__description" aria-labelledby="episode-description-heading">
+				<h2 id="episode-description-heading" class="episode-page__description-heading">About this episode</h2>
+				<div class="episode-page__description-body">
+					{{ page.description_html }}
+				</div>
+			</section>
+			{%- elsif page.description_plain and page.description_plain != '' -%}
+			<section class="episode-page__description" aria-labelledby="episode-description-heading">
+				<h2 id="episode-description-heading" class="episode-page__description-heading">About this episode</h2>
+				<div class="episode-page__description-body">
+					<p>{{ page.description_plain }}</p>
+				</div>
+			</section>
+			{%- endif -%}
+
+			<footer class="episode-page__footer">
+				<p class="episode-page__back">
+					<a href="{{ page.podcast_url | relative_url }}">← All episodes of {{ page.podcast_title }}</a>
+				</p>
+				{%- if page.episode_url and page.episode_url != '' -%}
+				<p class="episode-page__external">
+					<a href="{{ page.episode_url | escape }}" rel="noopener noreferrer" target="_blank">Open on the podcast’s website</a>
+				</p>
+				{%- endif -%}
+			</footer>
+		</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>

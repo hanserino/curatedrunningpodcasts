@@ -1,0 +1,9 @@
+{%- comment -%}
+  Space-separated tag + language slugs for filter matching (data-category).
+  Whitespace between tokens is required for [data-category~='tag'] selectors.
+  Params: podcast (post document)
+{%- endcomment -%}
+{%- assign _p = include.podcast -%}
+{%- if _p -%}
+{% for tag in _p.tags %}{{ tag }} {% endfor %}{% for language in _p.language %}{{ language }} {% endfor %}
+{%- endif -%}

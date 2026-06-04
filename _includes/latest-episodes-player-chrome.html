@@ -4,10 +4,29 @@
   <div
     class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
     data-player-art-wrap
-    {% if deck_cover != "" %}data-default-cover="{{ deck_cover | relative_url | escape }}"{% endif %}
+    {% if deck_cover != "" %}
+      {% if deck_cover contains '://' %}
+    data-default-cover="{{ deck_cover | escape }}"
+      {% else %}
+    data-default-cover="{{ deck_cover | relative_url | escape }}"
+      {% endif %}
+    {% endif %}
   >
     {%- if deck_cover != "" -%}
+    {%- if deck_cover contains '://' -%}
+    <img
+      class="latest-episodes__player-art"
+      data-player-art
+      src="{{ deck_cover | escape }}"
+      alt=""
+      width="96"
+      height="96"
+      decoding="async"
+      loading="eager"
+    >
+    {%- else -%}
     {%- include local-media-picture.html raw=deck_cover alt="" high_priority=false width=96 height=96 img_class="latest-episodes__player-art" img_attrs="data-player-art" -%}
+    {%- endif -%}
     {%- else -%}
     <img class="latest-episodes__player-art" data-player-art alt="" width="96" height="96" hidden>
     {%- endif -%}

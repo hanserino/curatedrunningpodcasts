@@ -1,0 +1,37 @@
+{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- assign desc = page.description_plain | default: page.description | strip_html | strip -%}
+{%- if desc == '' -%}
+  {%- assign desc = page.episode_title | append: ' — ' | append: page.podcast_title | append: ' on ' | append: site_name -%}
+{%- endif -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ site.url | jsonify }} },
+        { "@type": "ListItem", "position": 2, "name": {{ page.podcast_title | jsonify }}, "item": {{ page.podcast_url | absolute_url | jsonify }} },
+        { "@type": "ListItem", "position": 3, "name": {{ page.episode_title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+      ]
+    },
+    {
+      "@type": "PodcastEpisode",
+      "@id": {{ page.url | absolute_url | append: "#episode" | jsonify }},
+      "name": {{ page.episode_title | jsonify }},
+      "description": {{ desc | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "datePublished": {{ page.published_at | jsonify }},
+      "associatedMedia": {
+        "@type": "MediaObject",
+        "contentUrl": {{ page.audio_url | jsonify }}
+      },
+      "partOfSeries": {
+        "@type": "PodcastSeries",
+        "name": {{ page.podcast_title | jsonify }},
+        "url": {{ page.podcast_url | absolute_url | jsonify }}
+      }
+    }
+  ]
+}
+</script>
