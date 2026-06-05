@@ -6,8 +6,8 @@ redirect_from:
   - /podcast/some-work-all-play.html
 date: 2026-05-29
 title: Some Work, All Play
-category: podcast
 url_slug: some-work-all-play
+category: podcast
 published: true
 description: Megan Roche, M.D. and David Roche digs deep into training, races,
   studies, pop culture, and much more! HUZZAH!
@@ -20,7 +20,7 @@ tags:
   - subultra
   - ultra
   - trail
+  - science
 language:
   - english
 ---
-
