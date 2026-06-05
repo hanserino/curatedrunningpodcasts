@@ -53,8 +53,7 @@
 
         &__links {
             list-style: none;
-            display: flex;
-            gap: 1rem;
+            display: block;
 
             [data-box-grid="false"] & {
                 li {
