@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-05T03:08:34Z'
+generated_at: '2026-06-05T03:23:04Z'
 items:
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub/"
@@ -445,6 +445,18 @@ items:
   episode_key: sydney-petersen-a-strong-sense-of-belonging
   episode_slug: sydney-petersen-a-strong-sense-of-belonging
   episode_page_url: "/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/"
+- podcast_title: FKT Podcast
+  podcast_page_url: "/fkt-podcast/"
+  cover_image: "/media/fkt-podcast.jpeg"
+  feed_url: https://feeds.megaphone.fm/POM8075949892
+  filter_category: trail ultra english
+  episode_title: 'Cameron Bostock: Australia''s Bibbulmun Track -#285'
+  episode_url: https://fastestknowntime.com
+  audio_url: https://traffic.megaphone.fm/POM1624928964.mp3
+  published_at: '2026-05-22T09:00:00Z'
+  episode_key: cameron-bostock-australia-s-bibbulmun-track-285
+  episode_slug: cameron-bostock-australia-s-bibbulmun-track-285
+  episode_page_url: "/fkt-podcast/cameron-bostock-australia-s-bibbulmun-track-285/"
 - podcast_title: The Extramilest Show
   podcast_page_url: "/the-extramilest-show/"
   cover_image: "/media/theextramilestshow236.jpg"
@@ -24701,15 +24713,313 @@ episodes_by_feed:
     episode_key: introduction-to-your-cohost
     legacy_numbered_slug: episode-09
     episode_page_url: "/the-ultra-sound-podcast/introduction-to-your-cohost/"
+  https://feeds.megaphone.fm/pom8075949892: &84
+  - episode_title: 'Cameron Bostock: Australia''s Bibbulmun Track -#285'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM1624928964.mp3
+    published_at: '2026-05-22T09:00:00Z'
+    description_html: "<p>The 600-mile-plus Bibbulmun Track is one of Australia’s classic long-distance hiking routes. Traversing beaches and forests in the southwestern part of the country, it’s laden with challenges. This week’s guest, Cam Bostock, completed the Bibbulmun unsupported in just 14 days, 7 hours, and 49 minutes. Tune in to hear him tell host Heather Anderson all about his experiences with sleep deprivation, wildlife, weather and the temptation of town.</p>"
+    description_plain: The 600-mile-plus Bibbulmun Track is one of Australia’s classic long-distance hiking routes. Traversing beaches and forests in the southwestern part of the country, it’s laden with challenges. This week’s guest, Cam Bostock, completed the Bibbulmun unsupported in just 14 days, 7 hours, and 49 minutes. Tune in to hear him tell host Heather Anderson all about his experiences with sleep deprivation, wildlife, weather and the temptation of town.
+    episode_image_url: https://megaphone.imgix.net/podcasts/a7ffad12-5546-11f1-9dfc-0b53af7fa081/image/38400fc980e9d4de029e1237da7602fc.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: a7ffad12-5546-11f1-9dfc-0b53af7fa081
+    episode_slug: cameron-bostock-australia-s-bibbulmun-track-285
+    episode_key: cameron-bostock-australia-s-bibbulmun-track-285
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/fkt-podcast/cameron-bostock-australia-s-bibbulmun-track-285/"
+  - episode_title: 'Jana Palocna: Pico de las Nieves (Canary Islands) FKT -#284'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM6061454672.mp3
+    published_at: '2026-05-08T09:00:00Z'
+    description_html: "<p>Today we’re traveling to the Canary Islands off the coast of Morocco. Host Heather Anderson is joined by Jana Palocna who recently set the unsupported FKT for the 41K Pico de las Nieves route. Jana shares the details of her last-minute decision to run from sea to summit on the south side of the island while on vacation despite having an undiagnosed broken shoulder.</p>"
+    description_plain: Today we’re traveling to the Canary Islands off the coast of Morocco. Host Heather Anderson is joined by Jana Palocna who recently set the unsupported FKT for the 41K Pico de las Nieves route. Jana shares the details of her last-minute decision to run from sea to summit on the south side of the island while on vacation despite having an undiagnosed broken shoulder.
+    episode_image_url: https://megaphone.imgix.net/podcasts/710a9a18-4a53-11f1-a632-036bc8ab01d5/image/b65cd348ca4f2658748c50ad3b790c17.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 710a9a18-4a53-11f1-a632-036bc8ab01d5
+    episode_slug: jana-palocna-pico-de-las-nieves-canary-islands-fkt-284
+    episode_key: jana-palocna-pico-de-las-nieves-canary-islands-fkt-284
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/fkt-podcast/jana-palocna-pico-de-las-nieves-canary-islands-fkt-284/"
+  - episode_title: 'Eli Burakian: Eastern White Mountains Triple Infinity Loop -#283'
+    episode_url: ''
+    audio_url: https://traffic.megaphone.fm/POM1616782502.mp3
+    published_at: '2026-04-24T16:09:00Z'
+    description_html: "<p>This week we’re going off the beaten path in the White Mountains National Forest where Eli Burakian created a burly 77 mile-long route that has 27,000 feet of climbing and tops 10 of the 4,000 footers. He joins host Heather Anderson to talk about rocks, route finding, and his belief that FKTs are for everyone. He also shares tips for those interested in exploring this route and how night hiking with horror books keeps him going.</p>"
+    description_plain: This week we’re going off the beaten path in the White Mountains National Forest where Eli Burakian created a burly 77 mile-long route that has 27,000 feet of climbing and tops 10 of the 4,000 footers. He joins host Heather Anderson to talk about rocks, route finding, and his belief that FKTs are for everyone. He also shares tips for those interested in exploring this route and how night hiking with horror books keeps him going.
+    episode_image_url: https://megaphone.imgix.net/podcasts/ff1c7bc0-3ff7-11f1-817c-9f80a00b8ea7/image/37194d66229c75f77de366f6dbf90d56.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: ff1c7bc0-3ff7-11f1-817c-9f80a00b8ea7
+    episode_slug: eli-burakian-eastern-white-mountains-triple-infinity-loop-283
+    episode_key: eli-burakian-eastern-white-mountains-triple-infinity-loop-283
+    legacy_numbered_slug: episode-03
+    episode_page_url: "/fkt-podcast/eli-burakian-eastern-white-mountains-triple-infinity-loop-283/"
+  - episode_title: 'Lotti Brinks: Zion Crossing FKT -#282'
+    episode_url: https://fastestknowntime.com/route/zion-crossing-ut
+    audio_url: https://traffic.megaphone.fm/POM4488366229.mp3
+    published_at: '2026-04-10T09:00:00Z'
+    description_html: "<p>On today’s episode, host Heather Anderson is joined by Lotti Brinks, who recently set the overall FKT for a Utah classic: the Zion Crossing. This 37-mile version of the now-closed Zion Traverse travels through highly varied terrain from sandy trail to creekbeds and muddy plateaus. Lotti shares her experiences with early season conditions, lucky weather windows, and how her supported effort became a series of missed connections and bonus miles.</p>"
+    description_plain: 'On today’s episode, host Heather Anderson is joined by Lotti Brinks, who recently set the overall FKT for a Utah classic: the Zion Crossing. This 37-mile version of the now-closed Zion Traverse travels through highly varied terrain from sandy trail to creekbeds and muddy plateaus. Lotti shares her experiences with early season conditions, lucky weather windows, and how her supported effort became a series of missed connections and bonus miles.'
+    episode_image_url: https://megaphone.imgix.net/podcasts/2bc94eae-345a-11f1-b1fc-ab107945e5b4/image/d5f734bee165e7cb07ff54a55c7c16e5.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 2bc94eae-345a-11f1-b1fc-ab107945e5b4
+    episode_slug: lotti-brinks-zion-crossing-fkt-282
+    episode_key: lotti-brinks-zion-crossing-fkt-282
+    legacy_numbered_slug: episode-04
+    episode_page_url: "/fkt-podcast/lotti-brinks-zion-crossing-fkt-282/"
+  - episode_title: 'Justin Jennings and Huw Rogers: Tackling Papua New Guinea''s Kokoda Track -#281'
+    episode_url: https://fastestknowntime.com/route/kokoda-track-there-and-back
+    audio_url: https://traffic.megaphone.fm/POM3390050691.mp3
+    published_at: '2026-03-27T16:17:00Z'
+    description_html: "<p>On today’s episode we’re traveling to the jungle of Papua New Guinea where Justin Jennings, Huw Rogers, Si Lewis, Darren Roberts, and Jamie Porter traversed the 200-kilometer Kokoda Track out-and back in a supported style with the local guides of TruWarrior.</p><p>Host Heather Anderson is joined by two members of the team: Huw and Justin. They share the logistics of planning the unheard of feat of completing the Kokoda out-and-back in the time it takes most people to travel one way. They also talk about their history of endurance projects as fundraisers for Brecon Mountain Rescue and how this historic trail came to be on their radar. Tune in to learn about how they pushed through humidity, 1940’s trail conditions, trench foot, and more to achieve their goal.</p>"
+    description_plain: 'On today’s episode we’re traveling to the jungle of Papua New Guinea where Justin Jennings, Huw Rogers, Si Lewis, Darren Roberts, and Jamie Porter traversed the 200-kilometer Kokoda Track out-and back in a supported style with the local guides of TruWarrior. Host Heather Anderson is joined by two members of the team: Huw and Justin. They share the logistics of planning the unheard of feat of completing the Kokoda out-and-back in the time it takes most people to travel one way. They also talk about their history of endurance projects as fundraisers for Brecon Mountain Rescue and how this historic trail came to be on their radar. Tune in to learn about how they pushed through humidity, 1940’s trail conditions, trench foot, and more to achieve their goal.'
+    episode_image_url: https://megaphone.imgix.net/podcasts/7e3693a2-29f8-11f1-a13a-ab321e1d8644/image/1abe5ee79db46869c5c1796ed357f090.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 7e3693a2-29f8-11f1-a13a-ab321e1d8644
+    episode_slug: justin-jennings-and-huw-rogers-tackling-papua-new-guinea-s-kokoda-track-281
+    episode_key: justin-jennings-and-huw-rogers-tackling-papua-new-guinea-s-kokoda-track-281
+    legacy_numbered_slug: episode-05
+    episode_page_url: "/fkt-podcast/justin-jennings-and-huw-rogers-tackling-papua-new-guinea-s-kokoda-track-281/"
+  - episode_title: 'Greg Nance: Setting FKTs All Over the World -#280'
+    episode_url: ''
+    audio_url: https://traffic.megaphone.fm/POM2624164130.mp3
+    published_at: '2026-03-13T09:00:00Z'
+    description_html: "<p>On today’s episode, host Heather Anderson is joined by nonprofit entrepreneur Greg Nance. Greg shares his methodology and experiences pioneering FKTs around the world, including Cuba, Grenada, and Colombia. He also describes what it was like to become the first person to run to the summit of Mount Rainier from the Puget Sound. Greg shares his love of nature and why he feels so connected to the FKT community as well as tips for establishing new routes wherever you go.</p>"
+    description_plain: On today’s episode, host Heather Anderson is joined by nonprofit entrepreneur Greg Nance. Greg shares his methodology and experiences pioneering FKTs around the world, including Cuba, Grenada, and Colombia. He also describes what it was like to become the first person to run to the summit of Mount Rainier from the Puget Sound. Greg shares his love of nature and why he feels so connected to the FKT community as well as tips for establishing new routes wherever you go.
+    episode_image_url: https://megaphone.imgix.net/podcasts/2fe31986-1e37-11f1-8e27-d7ca9794239b/image/38d591f0573693c5b7ad6137b82ddd83.jpeg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 2fe31986-1e37-11f1-8e27-d7ca9794239b
+    episode_slug: greg-nance-setting-fkts-all-over-the-world-280
+    episode_key: greg-nance-setting-fkts-all-over-the-world-280
+    legacy_numbered_slug: episode-06
+    episode_page_url: "/fkt-podcast/greg-nance-setting-fkts-all-over-the-world-280/"
+  - episode_title: 'William Boffelli: Mont Blanc FKT -#279'
+    episode_url: https://fastestknowntime.com/fkt/william-boffelli-mont-blanc-france-2025-05-31
+    audio_url: https://traffic.megaphone.fm/POM2238633929.mp3
+    published_at: '2026-02-27T10:00:00Z'
+    description_html: "<p>Today we travel to one of the most iconic mountains in Europe with our 2025 third place FKT of the year athlete, William Boffelli who completed the round trip from Chamonix to the summit with skis in a blisteringly fast 4 hours and 43 minutes. Tune in as William shares his training, gear, and route choices with host Heather Anderson.</p>"
+    description_plain: Today we travel to one of the most iconic mountains in Europe with our 2025 third place FKT of the year athlete, William Boffelli who completed the round trip from Chamonix to the summit with skis in a blisteringly fast 4 hours and 43 minutes. Tune in as William shares his training, gear, and route choices with host Heather Anderson.
+    episode_image_url: https://megaphone.imgix.net/podcasts/a36aabce-1385-11f1-9031-47a5a1705594/image/d201d1a0be69ac04451bb3f61d081a86.jpeg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: a36aabce-1385-11f1-9031-47a5a1705594
+    episode_slug: william-boffelli-mont-blanc-fkt-279
+    episode_key: william-boffelli-mont-blanc-fkt-279
+    legacy_numbered_slug: episode-07
+    episode_page_url: "/fkt-podcast/william-boffelli-mont-blanc-fkt-279/"
+  - episode_title: 'Paulina Zack: Te Araroa Trail - #278'
+    episode_url: https://fastestknowntime.com/route/te-araroa
+    audio_url: https://traffic.megaphone.fm/POM9866417413.mp3
+    published_at: '2026-02-13T11:53:00Z'
+    description_html: "<p>This week we’re heading all the way south to New Zealand's famous Te Araroa Trail where Paulina Zack set a new women’s self-supported time of 54 days 9 hours and 48 minutes—earning her 3rd place in our 2025 FKT of the Year countdown. Drop in and join host Heather Anderson in learning all about Paulina’s experiences with navigation, biting spiders, solitude, and joy on her journey across the island nation while setting her first FKT.</p>"
+    description_plain: This week we’re heading all the way south to New Zealand's famous Te Araroa Trail where Paulina Zack set a new women’s self-supported time of 54 days 9 hours and 48 minutes—earning her 3rd place in our 2025 FKT of the Year countdown. Drop in and join host Heather Anderson in learning all about Paulina’s experiences with navigation, biting spiders, solitude, and joy on her journey across the island nation while setting her first FKT.
+    episode_image_url: https://megaphone.imgix.net/podcasts/03f7ff50-0873-11f1-976e-1f7b6f171931/image/27319db31aebfb6bddbedbee60434590.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 03f7ff50-0873-11f1-976e-1f7b6f171931
+    episode_slug: paulina-zack-te-araroa-trail-278
+    episode_key: paulina-zack-te-araroa-trail-278
+    legacy_numbered_slug: episode-08
+    episode_page_url: "/fkt-podcast/paulina-zack-te-araroa-trail-278/"
+  - episode_title: 'David Hedges: Reclaiming Nolan''s 14 FKT -#277'
+    episode_url: https://fastestknowntime.com/fkt/david-hedges-nolans-14-co-2025-09-15
+    audio_url: https://traffic.megaphone.fm/POM3461209541.mp3
+    published_at: '2026-01-30T15:25:00Z'
+    description_html: "<p>Tune in to this week’s episode as we travel to Colorado and one of our Premier Routes. Host Heather Anderson talks with David Hedges about his impressive Nolan’s 14 supported FKT, which placed 5th in our 2025 FKT of the Year rankings. David talks about what set this FKT apart from his previous Nolan's 14 FKT in 2023 as well as whether he’d try again in the future. Drop in and hear about his struggles with hypothermia conditions, ice, snow, and wind while still shaving 4 hours off his previous time.</p>"
+    description_plain: Tune in to this week’s episode as we travel to Colorado and one of our Premier Routes. Host Heather Anderson talks with David Hedges about his impressive Nolan’s 14 supported FKT, which placed 5th in our 2025 FKT of the Year rankings. David talks about what set this FKT apart from his previous Nolan's 14 FKT in 2023 as well as whether he’d try again in the future. Drop in and hear about his struggles with hypothermia conditions, ice, snow, and wind while still shaving 4 hours off his previous time.
+    episode_image_url: https://megaphone.imgix.net/podcasts/f72c25ea-fdef-11f0-bb72-f7b3bd765b69/image/b26183452b575de286c2d0c52156d9be.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: f72c25ea-fdef-11f0-bb72-f7b3bd765b69
+    episode_slug: david-hedges-reclaiming-nolan-s-14-fkt-277
+    episode_key: david-hedges-reclaiming-nolan-s-14-fkt-277
+    legacy_numbered_slug: episode-09
+    episode_page_url: "/fkt-podcast/david-hedges-reclaiming-nolan-s-14-fkt-277/"
+  - episode_title: 'Lucy Gossage: South West Coast Path -#276'
+    episode_url: https://fastestknowntime.com/fkt/lucy-gossage-south-west-coast-path-united-kingdom-2025-09-17
+    audio_url: https://traffic.megaphone.fm/POM8490890320.mp3
+    published_at: '2026-01-16T10:00:00Z'
+    description_html: "<p>In this week’s episode, join host Heather Anderson as she chats with our women’s fifth place FKT of 2025, Lucy Gossage. Lucy set a stout new self-supported time on the U.K.’s 630-mile South West Coast Path by completing it in 11 days and 9 hours. Tune in to hear how she handled the challenging logistics of a route that has over a dozen ferries to catch, nightly hotel reservations to make, and tides to time correctly while tackling 40,000 meters of elevation gain in often rainy and sometimes windy conditions.</p>"
+    description_plain: In this week’s episode, join host Heather Anderson as she chats with our women’s fifth place FKT of 2025, Lucy Gossage. Lucy set a stout new self-supported time on the U.K.’s 630-mile South West Coast Path by completing it in 11 days and 9 hours. Tune in to hear how she handled the challenging logistics of a route that has over a dozen ferries to catch, nightly hotel reservations to make, and tides to time correctly while tackling 40,000 meters of elevation gain in often rainy and sometimes windy conditions.
+    episode_image_url: https://megaphone.imgix.net/podcasts/c5b14e48-f253-11f0-8f98-6b0107b852c2/image/3364c2032bfbcd15cf0c8a70c20b1659.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: c5b14e48-f253-11f0-8f98-6b0107b852c2
+    episode_slug: lucy-gossage-south-west-coast-path-276
+    episode_key: lucy-gossage-south-west-coast-path-276
+    legacy_numbered_slug: episode-10
+    episode_page_url: "/fkt-podcast/lucy-gossage-south-west-coast-path-276/"
+  - episode_title: '2025 FKT of the Year: Tara Dower & Jeff Garmire -#275'
+    episode_url: ''
+    audio_url: https://traffic.megaphone.fm/POM8744858639.mp3
+    published_at: '2026-01-02T10:00:00Z'
+    description_html: "<p>This year was a highly competitive year with stout efforts on trails across the world. For the first time, the majority of our top five were on routes outside the United States. For the second year in a row, Tara Dower has claimed our first place title for her Long Trail FKT in Vermont where she set the overall supported time. Our men’s winner is Jeff Garmire for his incredible Appalachian Trail self-supported FKT. Tune in to this week's episode to hear Tara and Jeff discuss their recovery, goals, and the sport with host Heather Anderson.</p>"
+    description_plain: This year was a highly competitive year with stout efforts on trails across the world. For the first time, the majority of our top five were on routes outside the United States. For the second year in a row, Tara Dower has claimed our first place title for her Long Trail FKT in Vermont where she set the overall supported time. Our men’s winner is Jeff Garmire for his incredible Appalachian Trail self-supported FKT. Tune in to this week's episode to hear Tara and Jeff discuss their recovery, goals, and the sport with host Heather Anderson.
+    episode_image_url: https://megaphone.imgix.net/podcasts/3a1cb9e8-e75f-11f0-af0d-ab2652360ae0/image/e2996dd3be66ae717d91da1b4cfa3405.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 3a1cb9e8-e75f-11f0-af0d-ab2652360ae0
+    episode_slug: 2025-fkt-of-the-year-tara-dower-jeff-garmire-275
+    episode_key: 2025-fkt-of-the-year-tara-dower-jeff-garmire-275
+    legacy_numbered_slug: episode-11
+    episode_page_url: "/fkt-podcast/2025-fkt-of-the-year-tara-dower-jeff-garmire-275/"
+  - episode_title: 'Xander Keiter and Maia Buckingham: Hundred Mile Wilderness FKTs -#274'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM9802204102.mp3
+    published_at: '2025-12-19T11:00:00Z'
+    description_html: "<p>Today we’re traveling to remote Maine where the classic Hundred Mile Wilderness route stretches from Monson to Abol Bridge. Host Heather Anderson chats with Maia Buckingham and Xander Keiter who each set supported times on this route. Maia’s time was 1d 5hr 33 m and Xander broke the 24 hour barrier coming in at 23 hours 9 min. Tune in to hear how they handled the logistics of crew access on remote logging roads, what led them to return to this particular trail, and the highs and lows of their experience.</p>"
+    description_plain: Today we’re traveling to remote Maine where the classic Hundred Mile Wilderness route stretches from Monson to Abol Bridge. Host Heather Anderson chats with Maia Buckingham and Xander Keiter who each set supported times on this route. Maia’s time was 1d 5hr 33 m and Xander broke the 24 hour barrier coming in at 23 hours 9 min. Tune in to hear how they handled the logistics of crew access on remote logging roads, what led them to return to this particular trail, and the highs and lows of their experience.
+    episode_image_url: https://megaphone.imgix.net/podcasts/bf7a0f2c-dc2f-11f0-af55-57eb04d7e8a2/image/2923c280a5a0b0a6289542f6113cec8f.png?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: bf7a0f2c-dc2f-11f0-af55-57eb04d7e8a2
+    episode_slug: xander-keiter-and-maia-buckingham-hundred-mile-wilderness-fkts-274
+    episode_key: xander-keiter-and-maia-buckingham-hundred-mile-wilderness-fkts-274
+    legacy_numbered_slug: episode-12
+    episode_page_url: "/fkt-podcast/xander-keiter-and-maia-buckingham-hundred-mile-wilderness-fkts-274/"
+  - episode_title: 'Ashlie Itherburn: Pinhoti Trail FKT -#273'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM9979564919.mp3
+    published_at: '2025-12-05T11:00:00Z'
+    description_html: "<p>Extending from Blue Ridge, Georgia, to near Sylacauga, Alabama, the 335-mile Pinhoti Trail is a popular route through the southernmost portion of the Appalachian Mountains in the southeastern United States.</p><p>This week’s episode, hosted by Heather Anderson, delves into Ashlie Itherburn’s recent overall supported FKT on the route. Ashlie shares her highs and lows, which were often linked, as she raced storms, dealt with aggressive dogs, and got turned around in the Duggar Wilderness.</p><p>Tune in to hear more about her incredible FKT debut completing the trail in 5 days, 6 hours, and 39 minutes.</p>"
+    description_plain: Extending from Blue Ridge, Georgia, to near Sylacauga, Alabama, the 335-mile Pinhoti Trail is a popular route through the southernmost portion of the Appalachian Mountains in the southeastern United States. This week’s episode, hosted by Heather Anderson, delves into Ashlie Itherburn’s recent overall supported FKT on the route. Ashlie shares her highs and lows, which were often linked, as she raced storms, dealt with aggressive dogs, and got turned around in the Duggar Wilderness. Tune in to hear more about her incredible FKT debut completing the trail in 5 days, 6 hours, and 39 minutes.
+    episode_image_url: https://megaphone.imgix.net/podcasts/73765d74-d126-11f0-b545-e757d5455101/image/12dd18050420d013b5b9a629cdb43d53.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 73765d74-d126-11f0-b545-e757d5455101
+    episode_slug: ashlie-itherburn-pinhoti-trail-fkt-273
+    episode_key: ashlie-itherburn-pinhoti-trail-fkt-273
+    legacy_numbered_slug: episode-13
+    episode_page_url: "/fkt-podcast/ashlie-itherburn-pinhoti-trail-fkt-273/"
+  - episode_title: 'Michael Brower: Michigan Shore-to-Shore Trail -#272'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM6163722466.mp3
+    published_at: '2025-11-21T14:26:00Z'
+    description_html: "<p>In this week’s episode host Heather Anderson is joined by Michael Brower to talk about his experience setting the overall FKT for Michigan’s 220-mile-long Shore-to-Shore Trail. Michael details his experiences with ticks and sand and how he handled encountering unexpected restrictions around an active military base, as well as a scary cabin in the woods at night. Tune in to learn more about this lesser-known route.</p>"
+    description_plain: In this week’s episode host Heather Anderson is joined by Michael Brower to talk about his experience setting the overall FKT for Michigan’s 220-mile-long Shore-to-Shore Trail. Michael details his experiences with ticks and sand and how he handled encountering unexpected restrictions around an active military base, as well as a scary cabin in the woods at night. Tune in to learn more about this lesser-known route.
+    episode_image_url: https://megaphone.imgix.net/podcasts/1bca4b0c-c6e6-11f0-b2df-3b2d3cf6c371/image/2f47392ae05f70f4c6c4146464e727b7.jpeg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 1bca4b0c-c6e6-11f0-b2df-3b2d3cf6c371
+    episode_slug: michael-brower-michigan-shore-to-shore-trail-272
+    episode_key: michael-brower-michigan-shore-to-shore-trail-272
+    legacy_numbered_slug: episode-14
+    episode_page_url: "/fkt-podcast/michael-brower-michigan-shore-to-shore-trail-272/"
+  - episode_title: 'Jeff Colt: Taking on the Northeast''s Hardest 50K -#271'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM2415955384.mp3
+    published_at: '2025-11-07T12:41:00Z'
+    description_html: "<p>In this week’s episode we’re traveling to the rugged Mahoosic mountains of southern Maine, home of the hardest mile on the AT. Host Heather Anderson talks with Jeff Colt who recently set the overall unsupported time on the Northeast’s “Hardest 50K” completing the route in 6 hours, 40 minutes, and 53 seconds—taking an hour off of the previous men’s time.</p><p>Tune in to hear how his background as an AMC “Hut Kid” and his connection to the history of this route inspired him to take it on.</p>"
+    description_plain: In this week’s episode we’re traveling to the rugged Mahoosic mountains of southern Maine, home of the hardest mile on the AT. Host Heather Anderson talks with Jeff Colt who recently set the overall unsupported time on the Northeast’s “Hardest 50K” completing the route in 6 hours, 40 minutes, and 53 seconds—taking an hour off of the previous men’s time. Tune in to hear how his background as an AMC “Hut Kid” and his connection to the history of this route inspired him to take it on.
+    episode_image_url: https://megaphone.imgix.net/podcasts/1513dab8-bbd7-11f0-bd35-2358f164eefc/image/e4847095cfe8fe897f6ee0f435852fcd.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 1513dab8-bbd7-11f0-bd35-2358f164eefc
+    episode_slug: jeff-colt-taking-on-the-northeast-s-hardest-50k-271
+    episode_key: jeff-colt-taking-on-the-northeast-s-hardest-50k-271
+    legacy_numbered_slug: episode-15
+    episode_page_url: "/fkt-podcast/jeff-colt-taking-on-the-northeast-s-hardest-50k-271/"
+  - episode_title: 'Brittany Haver and Carrie Henderson: Tonto Trail FKTs -#270'
+    episode_url: https://fastestknowntime.com/route/tonto-trail-az
+    audio_url: https://traffic.megaphone.fm/POM1032527521.mp3
+    published_at: '2025-10-31T16:34:00Z'
+    description_html: "<p>In this week’s episode, host Heather Anderson talks with Brittany Haver and Carrie Henderson, who each set FKTs on Arizona’s rugged Tonto Trail. Carrie established the initial supported female time in 1 day, 9 hours, 20 minutes, while Brittany logged the first female unsupported time in 1 day, 9 hours, and 58 minutes. Tune in to journey along this lesser-done trail in the Grand Canyon and hear about the unique challenges this desert route presents, including why finding water in the notoriously rugged Gems segment is so crucial to success.</p>"
+    description_plain: In this week’s episode, host Heather Anderson talks with Brittany Haver and Carrie Henderson, who each set FKTs on Arizona’s rugged Tonto Trail. Carrie established the initial supported female time in 1 day, 9 hours, 20 minutes, while Brittany logged the first female unsupported time in 1 day, 9 hours, and 58 minutes. Tune in to journey along this lesser-done trail in the Grand Canyon and hear about the unique challenges this desert route presents, including why finding water in the notoriously rugged Gems segment is so crucial to success.
+    episode_image_url: https://megaphone.imgix.net/podcasts/8b93d950-b677-11f0-b1d4-57e45a0c5019/image/0a8539f9e133ab277d06a58faa4066c5.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 8b93d950-b677-11f0-b1d4-57e45a0c5019
+    episode_slug: brittany-haver-and-carrie-henderson-tonto-trail-fkts-270
+    episode_key: brittany-haver-and-carrie-henderson-tonto-trail-fkts-270
+    legacy_numbered_slug: episode-16
+    episode_page_url: "/fkt-podcast/brittany-haver-and-carrie-henderson-tonto-trail-fkts-270/"
+  - episode_title: Long Trail Roundup with Tara Dower and Tori Constantine -#269
+    episode_url: https://fastestknowntime.com/route/long-trail-vt
+    audio_url: https://traffic.megaphone.fm/POM3003841203.mp3
+    published_at: '2025-10-24T09:00:00Z'
+    description_html: "<p>The 272-mile Long Trail is one of our premier routes for good reason. With an impressive history of competitive FKTs, this trail has once again seen stout records fall.</p><p>Tune in to join host Heather Anderson as she talks all things LT with Tara Dower, who set the overall and women’s supported time in 3 days, 18 hours, and 30 minutes, and Tori Constantine who took down the women’s unsupported time in 5 days, 19 hours, and 29 minutes.</p><p>They share their stories of sleep deprivation and accompanying hallucinations, their hard-earned lessons, as well as what they’d do differently.</p>"
+    description_plain: The 272-mile Long Trail is one of our premier routes for good reason. With an impressive history of competitive FKTs, this trail has once again seen stout records fall. Tune in to join host Heather Anderson as she talks all things LT with Tara Dower, who set the overall and women’s supported time in 3 days, 18 hours, and 30 minutes, and Tori Constantine who took down the women’s unsupported time in 5 days, 19 hours, and 29 minutes. They share their stories of sleep deprivation and accompanying hallucinations, their hard-earned lessons, as well as what they’d do differently.
+    episode_image_url: https://megaphone.imgix.net/podcasts/13851e12-b03f-11f0-8275-6305fd3c2e91/image/869bb9778a27c232836e12421d5965eb.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 13851e12-b03f-11f0-8275-6305fd3c2e91
+    episode_slug: long-trail-roundup-with-tara-dower-and-tori-constantine-269
+    episode_key: long-trail-roundup-with-tara-dower-and-tori-constantine-269
+    legacy_numbered_slug: episode-17
+    episode_page_url: "/fkt-podcast/long-trail-roundup-with-tara-dower-and-tori-constantine-269/"
+  - episode_title: 'Sadie Curry: Arizona Trail FKT -#268'
+    episode_url: https://fastestknowntime.com/fkt/sadie-curry-arizona-trail-az-2025-04-29
+    audio_url: https://traffic.megaphone.fm/POM3123467592.mp3
+    published_at: '2025-10-17T09:00:00Z'
+    description_html: "<p>This week we head to the well-trodden premier route across Arizona. Host Heather Anderson is joined by Sadie Curry who set the women’s self-supported northbound time on the iconic Arizona Trail by covering the 800 mile distance in 17 days, 12 hours, and 27 minutes, taking 7 hours off of the previous time. Tune in to hear how she accomplished her first FKT despite being sick, dealing with UV rash, and developing severe tendonitis.</p>"
+    description_plain: This week we head to the well-trodden premier route across Arizona. Host Heather Anderson is joined by Sadie Curry who set the women’s self-supported northbound time on the iconic Arizona Trail by covering the 800 mile distance in 17 days, 12 hours, and 27 minutes, taking 7 hours off of the previous time. Tune in to hear how she accomplished her first FKT despite being sick, dealing with UV rash, and developing severe tendonitis.
+    episode_image_url: https://megaphone.imgix.net/podcasts/26cf103a-aabe-11f0-824e-134dc823c19e/image/3610ae2969c195b9a35848fb688be80b.jpeg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 26cf103a-aabe-11f0-824e-134dc823c19e
+    episode_slug: sadie-curry-arizona-trail-fkt-268
+    episode_key: sadie-curry-arizona-trail-fkt-268
+    legacy_numbered_slug: episode-18
+    episode_page_url: "/fkt-podcast/sadie-curry-arizona-trail-fkt-268/"
+  - episode_title: 'Scott Benerofe: Adirondack 46 High Peaks FKT -#267'
+    episode_url: https://fastestknowntime.com/
+    audio_url: https://traffic.megaphone.fm/POM1019824622.mp3
+    published_at: '2025-10-10T18:48:00Z'
+    description_html: "<p>This week we’re headed to the rugged Adirondacks of New York where Scott Benerofe recently set the unsupported FKT for tagging all 46 4,000-foot peaks in one go. Tune in to hear how he pulled together his experiences with trail running, thru-hiking, and peakbagging to push deeper into the realm of endurance adventure. He shares the highs and lows of the effort from the effects of wildfire smoke, to how he wanted to quit so badly that he was hoping for a minor injury, to his gratitude for a beautiful sunset in the Great Range and humorous sleep deprivation issues.</p>"
+    description_plain: This week we’re headed to the rugged Adirondacks of New York where Scott Benerofe recently set the unsupported FKT for tagging all 46 4,000-foot peaks in one go. Tune in to hear how he pulled together his experiences with trail running, thru-hiking, and peakbagging to push deeper into the realm of endurance adventure. He shares the highs and lows of the effort from the effects of wildfire smoke, to how he wanted to quit so badly that he was hoping for a minor injury, to his gratitude for a beautiful sunset in the Great Range and humorous sleep deprivation issues.
+    episode_image_url: https://megaphone.imgix.net/podcasts/b1b64e8e-a609-11f0-904f-6b0d496be593/image/d97325b0db4068b043f4a93d69860df4.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: b1b64e8e-a609-11f0-904f-6b0d496be593
+    episode_slug: scott-benerofe-adirondack-46-high-peaks-fkt-267
+    episode_key: scott-benerofe-adirondack-46-high-peaks-fkt-267
+    legacy_numbered_slug: episode-19
+    episode_page_url: "/fkt-podcast/scott-benerofe-adirondack-46-high-peaks-fkt-267/"
+  - episode_title: 'Jeff Garmire, Sarah Baker, Lyla Harrod: AT FKTs -#266'
+    episode_url: https://fastestknowntime.com/route/appalachian-trail
+    audio_url: https://traffic.megaphone.fm/POM7217413538.mp3
+    published_at: '2025-10-03T15:59:00Z'
+    description_html: "<p>2025 was a stunningly busy year on the Appalachian Trail. There were many high profile FKT efforts and several DNFs in the final days. Three long-held records did fall, however. Sarah Baker set the women’s self-supported northbound time in 74:04:42. Lyla Harrod set the women’s southbound time in 52:18:37. And Jeff Garmire took down the men’s self-supported record in a time of 45:08:37. Tune in to learn more about these notable feats and the highs and lows of their experiences.</p>"
+    description_plain: 2025 was a stunningly busy year on the Appalachian Trail. There were many high profile FKT efforts and several DNFs in the final days. Three long-held records did fall, however. Sarah Baker set the women’s self-supported northbound time in 74:04:42. Lyla Harrod set the women’s southbound time in 52:18:37. And Jeff Garmire took down the men’s self-supported record in a time of 45:08:37. Tune in to learn more about these notable feats and the highs and lows of their experiences.
+    episode_image_url: https://megaphone.imgix.net/podcasts/01fe18b0-a072-11f0-bd50-13d5201ccd71/image/2715365a606daa2df0f44b855149213a.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 01fe18b0-a072-11f0-bd50-13d5201ccd71
+    episode_slug: jeff-garmire-sarah-baker-lyla-harrod-at-fkts-266
+    episode_key: jeff-garmire-sarah-baker-lyla-harrod-at-fkts-266
+    legacy_numbered_slug: episode-20
+    episode_page_url: "/fkt-podcast/jeff-garmire-sarah-baker-lyla-harrod-at-fkts-266/"
+  - episode_title: 'Katie Gunvalson: Oregon Coast Trail FKT -#265'
+    episode_url: https://fastestknowntime.com/fkt/katie-gunvalson-oregon-coast-trail-or-2025-07-13
+    audio_url: https://traffic.megaphone.fm/POM5852634201.mp3
+    published_at: '2025-09-26T10:00:00Z'
+    description_html: "<p>Stretching from Washington to California along the Pacific Ocean, the 400+ mile long Oregon Coast Trail is a mix of road, beach, and forested trail that challenges travelers with tides, estuaries, and frequent bad weather. Join host Heather Anderson this week as she chats with Katie Gunvalson who recently smashed the women’s overall record with her self-supported time of 7 days, 19 hours, and 41 minutes–two hours faster than the women’s supported time–despite logging over 20 additional miles. Katie shares her experiences with timing the tides, battling bad weather at the crux of the route, sleep deprivation, and how this record reset what she thought she was capable of.</p>"
+    description_plain: Stretching from Washington to California along the Pacific Ocean, the 400+ mile long Oregon Coast Trail is a mix of road, beach, and forested trail that challenges travelers with tides, estuaries, and frequent bad weather. Join host Heather Anderson this week as she chats with Katie Gunvalson who recently smashed the women’s overall record with her self-supported time of 7 days, 19 hours, and 41 minutes–two hours faster than the women’s supported time–despite logging over 20 additional miles. Katie shares her experiences with timing the tides, battling bad weather at the crux of the route, sleep deprivation, and how this record reset what she thought she was capable of.
+    episode_image_url: https://megaphone.imgix.net/podcasts/0adbcbfe-9a68-11f0-a6ac-632c4852e803/image/44c6f604e8a840b153e7771d2b5984c0.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 0adbcbfe-9a68-11f0-a6ac-632c4852e803
+    episode_slug: katie-gunvalson-oregon-coast-trail-fkt-265
+    episode_key: katie-gunvalson-oregon-coast-trail-fkt-265
+    legacy_numbered_slug: episode-21
+    episode_page_url: "/fkt-podcast/katie-gunvalson-oregon-coast-trail-fkt-265/"
+  - episode_title: 'Caroline Himbert: John Muir Trail FKT -#264'
+    episode_url: https://fastestknowntime.com/podcast/264-caroline-himbert-getting-back-her-roots
+    audio_url: https://traffic.megaphone.fm/POM2751769979.mp3
+    published_at: '2025-09-19T10:00:00Z'
+    description_html: "<p>On today’s episode we’re traveling to the High Sierra of California where Caroline Himbert recently set the women’s unsupported northbound record on the premier John Muir Trail. Her first long, unsupported effort was a way for her to go back to her roots as a long distance hiker. Along the way she dealt with excruciating foot pain, a knee injury, and the effects of sleep deprivation. Tune in to hear how she almost missed the record when her hallucinations led her off trail, her “brain said goodbye” and she fell asleep for over 4 hours, just miles from the finish and why she ended up in Urgent Care after it was all over.</p>"
+    description_plain: On today’s episode we’re traveling to the High Sierra of California where Caroline Himbert recently set the women’s unsupported northbound record on the premier John Muir Trail. Her first long, unsupported effort was a way for her to go back to her roots as a long distance hiker. Along the way she dealt with excruciating foot pain, a knee injury, and the effects of sleep deprivation. Tune in to hear how she almost missed the record when her hallucinations led her off trail, her “brain said goodbye” and she fell asleep for over 4 hours, just miles from the finish and why she ended up in Urgent Care after it was all over.
+    episode_image_url: https://megaphone.imgix.net/podcasts/faa6f6e2-94e4-11f0-92b1-5f1077fa36ae/image/57314724750af9f46a800661179ad8b3.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: faa6f6e2-94e4-11f0-92b1-5f1077fa36ae
+    episode_slug: caroline-himbert-john-muir-trail-fkt-264
+    episode_key: caroline-himbert-john-muir-trail-fkt-264
+    legacy_numbered_slug: episode-22
+    episode_page_url: "/fkt-podcast/caroline-himbert-john-muir-trail-fkt-264/"
+  - episode_title: 'Katya Guryeva: Transcaucasian Trail -#263'
+    episode_url: https://fastestknowntime.com/route/transcaucasian-trail
+    audio_url: https://traffic.megaphone.fm/POM9365464287.mp3
+    published_at: '2025-09-12T19:19:00Z'
+    description_html: "<p>Bears, sheepdogs and snakes…oh my!When you think of Armenia, you probably don’t think of a wild long distance mountain trail. However, today’s guest, Katya Guryeva, shares stories from her 21 day supported FKT on the country’s 820 kilometers of the Transcaucasian Trail.</p><p>Over the course of the record, Katya encountered a wide variety of challenges from weather and navigation, to wildlife and remoteness. Tune in to hear how she handled language barriers, planned around political security issues, and embraced the beauty of this seldom hiked trail.</p>"
+    description_plain: Bears, sheepdogs and snakes…oh my!When you think of Armenia, you probably don’t think of a wild long distance mountain trail. However, today’s guest, Katya Guryeva, shares stories from her 21 day supported FKT on the country’s 820 kilometers of the Transcaucasian Trail. Over the course of the record, Katya encountered a wide variety of challenges from weather and navigation, to wildlife and remoteness. Tune in to hear how she handled language barriers, planned around political security issues, and embraced the beauty of this seldom hiked trail.
+    episode_image_url: https://megaphone.imgix.net/podcasts/7769a0a8-900d-11f0-9aba-873e4594a60a/image/90adec5c2c9d9c016a4011c2842a680a.jpeg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 7769a0a8-900d-11f0-9aba-873e4594a60a
+    episode_slug: katya-guryeva-transcaucasian-trail-263
+    episode_key: katya-guryeva-transcaucasian-trail-263
+    legacy_numbered_slug: episode-23
+    episode_page_url: "/fkt-podcast/katya-guryeva-transcaucasian-trail-263/"
+  - episode_title: 'Tim Beissinger: Ozark Trail Unsupported FKT -#262'
+    episode_url: https://fastestknowntime.com/podcast/262-tim-beissinger-all-alone-ozark-trail
+    audio_url: https://traffic.megaphone.fm/POM4461947916.mp3
+    published_at: '2025-09-05T11:15:00Z'
+    description_html: "<p>This week we’re heading to the Show Me state where Tim Beissinger set the unsupported FKT on the 230 mile long Ozark Trail in a time of 4 days, 9 hours, and 24 minutes. Tune in as he and host Heather Anderson discuss methods and motivations for this former triathlete as he pushed his limits to set his first fastest known time. Tim accomplished the new record while coping with trench foot and significant pain as well as rainy weather and little sleep. He shares his encounters with wildlife, including dozens of ticks, and lack of encounters with people along the way. They also discuss the challenges of water crossings including the flooding of Courtois Creek. Drop in and take a walk on Missouri’s wild side.</p>"
+    description_plain: This week we’re heading to the Show Me state where Tim Beissinger set the unsupported FKT on the 230 mile long Ozark Trail in a time of 4 days, 9 hours, and 24 minutes. Tune in as he and host Heather Anderson discuss methods and motivations for this former triathlete as he pushed his limits to set his first fastest known time. Tim accomplished the new record while coping with trench foot and significant pain as well as rainy weather and little sleep. He shares his encounters with wildlife, including dozens of ticks, and lack of encounters with people along the way. They also discuss the challenges of water crossings including the flooding of Courtois Creek. Drop in and take a walk on Missouri’s wild side.
+    episode_image_url: https://megaphone.imgix.net/podcasts/9c93d480-8a49-11f0-b40a-b338cbdc0911/image/528703f9a661b5c8c68a2be0734b78bd.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 9c93d480-8a49-11f0-b40a-b338cbdc0911
+    episode_slug: tim-beissinger-ozark-trail-unsupported-fkt-262
+    episode_key: tim-beissinger-ozark-trail-unsupported-fkt-262
+    legacy_numbered_slug: episode-24
+    episode_page_url: "/fkt-podcast/tim-beissinger-ozark-trail-unsupported-fkt-262/"
+  - episode_title: 'Chris Roberts: Moms are the Best FKT Support -#261'
+    episode_url: https://fastestknowntime.com/podcast/261-chris-roberts-moms-are-best-fkt-support
+    audio_url: https://traffic.megaphone.fm/POM1401453508.mp3
+    published_at: '2025-08-29T09:00:00Z'
+    description_html: "<p>In today’s episode, Chris Roberts shows us what it takes to run the longest rail trail in the United States in just 1 day 21 hours and 37 minutes. Missouri’s Katy Trail stretches 238 miles almost the entire east-west distance across the state. Chris shares how his mom joined in on bike for her first ever multi-day, no sleep adventure and how his trip prep combined with sleep deprivation led to a strange deja vu mindset in the waning hours.</p>"
+    description_plain: In today’s episode, Chris Roberts shows us what it takes to run the longest rail trail in the United States in just 1 day 21 hours and 37 minutes. Missouri’s Katy Trail stretches 238 miles almost the entire east-west distance across the state. Chris shares how his mom joined in on bike for her first ever multi-day, no sleep adventure and how his trip prep combined with sleep deprivation led to a strange deja vu mindset in the waning hours.
+    episode_image_url: https://megaphone.imgix.net/podcasts/f9fc5c02-843e-11f0-9a6b-bb473cd743b6/image/1d445a49ccce87c518101a7386112a30.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: f9fc5c02-843e-11f0-9a6b-bb473cd743b6
+    episode_slug: chris-roberts-moms-are-the-best-fkt-support-261
+    episode_key: chris-roberts-moms-are-the-best-fkt-support-261
+    legacy_numbered_slug: episode-25
+    episode_page_url: "/fkt-podcast/chris-roberts-moms-are-the-best-fkt-support-261/"
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
-  error: 'OpenURI::HTTPError: 403 Forbidden'
-- podcast: The Cutting Edge
-  rss_feed: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
@@ -24881,3 +25191,5 @@ feed_episodes_list:
   episodes: *82
 - feed_key: https://anchor.fm/s/f7fa9d38/podcast/rss
   episodes: *83
+- feed_key: https://feeds.megaphone.fm/pom8075949892
+  episodes: *84
