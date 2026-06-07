@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-07T07:24:55Z'
+generated_at: '2026-06-07T09:05:00Z'
 items:
+- podcast_title: Breaking Marathon Limits
+  podcast_page_url: "/breaking-marathon-limits/"
+  cover_image: "/media/bml.jpeg"
+  feed_url: https://rss.buzzsprout.com/299975.rss
+  filter_category: track road trail norwegian
+  episode_title: 'Rasmus på Loffen: PB but no sigar!'
+  episode_url: ''
+  audio_url: https://www.buzzsprout.com/299975/episodes/19306536-rasmus-pa-loffen-pb-but-no-sigar.mp3
+  published_at: '2026-06-07T10:00:00+02:00'
+  episode_key: rasmus-pa-loffen-pb-but-no-sigar
+  episode_slug: rasmus-pa-loffen-pb-but-no-sigar
+  episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-pb-but-no-sigar/"
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running/"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  filter_category: ultra trail english
+  episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
+  episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-autumn-100-champion
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a251e932d60e5f93eea2d70.mp3
+  published_at: '2026-06-07T07:35:12+00:00'
+  episode_key: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
+  episode_slug: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
+  episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
   cover_image: "/media/lifeinstride.jpeg"
@@ -13,18 +37,6 @@ items:
   episode_key: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
   episode_slug: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
   episode_page_url: "/life-in-stride/315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it/"
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running/"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  filter_category: ultra trail english
-  episode_title: 'SDW100 Pre-Race Interviews: Robyn Cassidy. Lakeland 100 and Dragons Back Champion.'
-  episode_url: https://www.centurionrunning.com/podcast/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a23c5f3ccefa2122c808861.mp3
-  published_at: '2026-06-06T07:18:21+00:00'
-  episode_key: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-  episode_slug: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-  episode_page_url: "/centurion-running/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion/"
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw/"
   cover_image: "/media/crackabrew.jpeg"
@@ -205,18 +217,6 @@ items:
   episode_key: 2026-usatf-mountain-classic-championship-sunapee-scramble-preview
   episode_slug: 2026-usatf-mountain-classic-championship-sunapee-scramble-preview
   episode_page_url: "/the-sub-hub/2026-usatf-mountain-classic-championship-sunapee-scramble-preview/"
-- podcast_title: Breaking Marathon Limits
-  podcast_page_url: "/breaking-marathon-limits/"
-  cover_image: "/media/bml.jpeg"
-  feed_url: https://rss.buzzsprout.com/299975.rss
-  filter_category: track road trail norwegian
-  episode_title: EP139 - Bak hver opptur ligger en nedtur som ikke fikk siste ord!
-  episode_url: ''
-  audio_url: https://www.buzzsprout.com/299975/episodes/19294816-ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord.mp3
-  published_at: '2026-06-05T00:00:00+02:00'
-  episode_key: ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord
-  episode_slug: ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord
-  episode_page_url: "/breaking-marathon-limits/ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord/"
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
   cover_image: "/media/citiusmag.jpeg"
@@ -2130,6 +2130,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fokk-asfalt/246-bjorg-austrheim-smith-var-ukjente-western-states-dronning/"
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
+    episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-autumn-100-champion
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a251e932d60e5f93eea2d70.mp3
+    published_at: '2026-06-07T07:35:12+00:00'
+    description_html: '<p>Co-hosts Julia Davis and Robbie Britton welcome Hugh Tibbs to the pod. Hugh has finished second here in both of the last two editions, posting a 14:13 in 2025. Won the Arc of Attrition in January in a just off course record time before finishing fourth at the ACP/ British 100km Champs in 6:37. In October he set a new 100 mile trail record on British soil of 13:03 at the Autumn 100. And he is our North Downs Way 50 course record holder.</p><p>Find our show partners Precision Fuel and Hydration Planner here: <a href="https://www.precisionhydration.com/planner/" target="_blank">https://www.precisionhydration.com/planner/</a></p><p>Visit the PF&amp;H collection at our store here: <a href="https://www.centurionultrarunningstore.com/collections/precision-hydration" target="_blank">https://www.centurionultrarunningstore.com/collections/precision-hydration</a></p><p><a href="https://www.centurionultrarunningstore.com/discount/PODCAST10?redirect=%2Fcollections%2Frrp" target="_blank">Visit the store here and enter code PODCAST10</a> for 10% off all RRP items</p>'
+    description_plain: 'Co-hosts Julia Davis and Robbie Britton welcome Hugh Tibbs to the pod. Hugh has finished second here in both of the last two editions, posting a 14:13 in 2025. Won the Arc of Attrition in January in a just off course record time before finishing fourth at the ACP/ British 100km Champs in 6:37. In October he set a new 100 mile trail record on British soil of 13:03 at the Autumn 100. And he is our North Downs Way 50 course record holder. Find our show partners Precision Fuel and Hydration Planner here: https://www.precisionhydration.com/planner/ Visit the PF&amp;H collection at our store here: https://www.centurionultrarunningstore.com/collections/precision-hydration Visit the store here and enter code PODCAST10 for 10% off all RRP items'
+    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1780817786/btgdr2wlrqkfs2c5b04c.jpg
+    episode_uid: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-aut
+    episode_slug: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
+    episode_key: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
   - episode_title: 'SDW100 Pre-Race Interviews: Robyn Cassidy. Lakeland 100 and Dragons Back Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a23c5f3ccefa2122c808861.mp3
@@ -2140,7 +2152,7 @@ episodes_by_feed:
     episode_uid: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_slug: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_key: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/centurion-running/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
@@ -2152,7 +2164,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-
     episode_slug: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
     episode_key: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
@@ -2164,7 +2176,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_slug: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_key: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
@@ -2176,7 +2188,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_slug: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_key: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder/"
   - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
@@ -2188,7 +2200,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
     episode_slug: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
     episode_key: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/centurion-running/weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news/"
   - episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
@@ -2200,7 +2212,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_slug: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_key: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/centurion-running/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice/"
   - episode_title: 'Weekly News Ep.38: North Downs Way 50 Recap | UTS |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-downs-way-50-recap-or-uts-or
@@ -2212,7 +2224,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep38-north-downs-way-50-recap-or-uts-or
     episode_slug: weekly-news-ep-38-north-downs-way-50-recap-uts
     episode_key: weekly-news-ep-38-north-downs-way-50-recap-uts
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/centurion-running/weekly-news-ep-38-north-downs-way-50-recap-uts/"
   - episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
@@ -2224,7 +2236,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep37-north-downs-way-50-preview
     episode_slug: weekly-news-ep-37-north-downs-way-50-preview
     episode_key: weekly-news-ep-37-north-downs-way-50-preview
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
   - episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
     episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
@@ -2236,7 +2248,7 @@ episodes_by_feed:
     episode_uid: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_slug: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_key: interview-martin-stone-mountain-fell-and-ultrarunning-records
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/centurion-running/interview-martin-stone-mountain-fell-and-ultrarunning-records/"
   - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
@@ -2248,7 +2260,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-imo-boddy
     episode_slug: centurion-coaching-podcast-imo-boddy
     episode_key: centurion-coaching-podcast-imo-boddy
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/centurion-running/centurion-coaching-podcast-imo-boddy/"
   - episode_title: Thames Path 100 2026 Results and Recap
     episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
@@ -2260,7 +2272,7 @@ episodes_by_feed:
     episode_uid: thames-path-100-2026-results-and-recap
     episode_slug: thames-path-100-2026-results-and-recap
     episode_key: thames-path-100-2026-results-and-recap
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/centurion-running/thames-path-100-2026-results-and-recap/"
   - episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
     episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
@@ -2272,7 +2284,7 @@ episodes_by_feed:
     episode_uid: mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
     episode_slug: mt-fuji-100-report-with-robbie-britton-miut-canyons
     episode_key: mt-fuji-100-report-with-robbie-britton-miut-canyons
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/centurion-running/mt-fuji-100-report-with-robbie-britton-miut-canyons/"
   - episode_title: 'Weekly News Ep. 35: TP100 Preview | Fellsman | London Marathon | 3 Peaks | DOTH |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
@@ -2284,7 +2296,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
     episode_slug: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
     episode_key: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/centurion-running/weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth/"
   - episode_title: 'Weekly News Ep. 34: Northern Traverse | Dragons Back | Mt Fuji 100 | MIUT | So Many Races |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
@@ -2296,7 +2308,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
     episode_slug: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
     episode_key: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/centurion-running/weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races/"
   - episode_title: 'Weekly Ep. 33: British Trail Champs | MDS | Lake Sonoma |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
@@ -2308,7 +2320,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
     episode_slug: weekly-ep-33-british-trail-champs-mds-lake-sonoma
     episode_key: weekly-ep-33-british-trail-champs-mds-lake-sonoma
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/centurion-running/weekly-ep-33-british-trail-champs-mds-lake-sonoma/"
   - episode_title: South Downs Way 50 2026 Results & Recap
     episode_url: https://www.centurionrunning.com/podcast/south-downs-way-50-2026-results-and-recap
@@ -2320,7 +2332,7 @@ episodes_by_feed:
     episode_uid: south-downs-way-50-2026-results-and-recap
     episode_slug: south-downs-way-50-2026-results-recap
     episode_key: south-downs-way-50-2026-results-recap
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/centurion-running/south-downs-way-50-2026-results-recap/"
   - episode_title: 'Weekly Ep. 32: SDW50 Preview | MDS | British Trail Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
@@ -2332,7 +2344,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
     episode_slug: weekly-ep-32-sdw50-preview-mds-british-trail-champs
     episode_key: weekly-ep-32-sdw50-preview-mds-british-trail-champs
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/centurion-running/weekly-ep-32-sdw50-preview-mds-british-trail-champs/"
   - episode_title: 'Weekly Ep.31: Sea to Sea 300km Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep31-sea-to-sea-300km-recap
@@ -2344,7 +2356,7 @@ episodes_by_feed:
     episode_uid: weekly-ep31-sea-to-sea-300km-recap
     episode_slug: weekly-ep-31-sea-to-sea-300km-recap
     episode_key: weekly-ep-31-sea-to-sea-300km-recap
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/centurion-running/weekly-ep-31-sea-to-sea-300km-recap/"
   - episode_title: 'Weekly Ep.30 : ACP100km | Sea to Sea 300km | Community Traverse |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
@@ -2356,7 +2368,7 @@ episodes_by_feed:
     episode_uid: weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
     episode_slug: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
     episode_key: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/centurion-running/weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse/"
   - episode_title: 'Weekly Ep.29: Sea to Sea 300km | ACP100km | World 50km Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep29-sea-to-sea-300km-or-acp100km-or-world-50km-champs-or
@@ -2368,7 +2380,7 @@ episodes_by_feed:
     episode_uid: weekly-ep29-sea-to-sea-300km-or-acp100km-or-world-50km-champs-or
     episode_slug: weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs
     episode_key: weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/centurion-running/weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs/"
   - episode_title: 'Weekly Ep. 28: Hundred Hills 50km Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-28-hundred-hills-50km-recap
@@ -2380,7 +2392,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-28-hundred-hills-50km-recap
     episode_slug: weekly-ep-28-hundred-hills-50km-recap
     episode_key: weekly-ep-28-hundred-hills-50km-recap
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/centurion-running/weekly-ep-28-hundred-hills-50km-recap/"
   - episode_title: Ourea Events No More. How, Why and What does it mean for our sport.
     episode_url: https://www.centurionrunning.com/podcast/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
@@ -2392,7 +2404,7 @@ episodes_by_feed:
     episode_uid: ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
     episode_slug: ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
     episode_key: ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/centurion-running/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport/"
   - episode_title: 'Weekly Ep. 27: Hundred Hills 50km Preview'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-27-hundred-hills-50km-preview
@@ -2404,7 +2416,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-27-hundred-hills-50km-preview
     episode_slug: weekly-ep-27-hundred-hills-50km-preview
     episode_key: weekly-ep-27-hundred-hills-50km-preview
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/centurion-running/weekly-ep-27-hundred-hills-50km-preview/"
   - episode_title: 'Centurion Coaching Podcast: Jack Chamberlain'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-jack-chamberlain
@@ -2416,20 +2428,8 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-jack-chamberlain
     episode_slug: centurion-coaching-podcast-jack-chamberlain
     episode_key: centurion-coaching-podcast-jack-chamberlain
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/centurion-running/centurion-coaching-podcast-jack-chamberlain/"
-  - episode_title: 'Weekly Ep.26: TGC | One Slam | UTS |'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep26-tgc-or-one-slam-or-uts-or
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69ad73c551a1d6b2554fbb2a.mp3
-    published_at: '2026-03-08T13:05:51+00:00'
-    description_html: "<p>This weekly episode hosted by James Elson covers the results from TransGrancanaria Classic, the UTMB-UTS course release debarcle, the latest from our Store and some other shorter bits of news from around our sport.</p><p>Photo: Transgrancanaria/Carlos D&iacute;az-Recio</p>"
-    description_plain: 'This weekly episode hosted by James Elson covers the results from TransGrancanaria Classic, the UTMB-UTS course release debarcle, the latest from our Store and some other shorter bits of news from around our sport. Photo: Transgrancanaria/Carlos D&iacute;az-Recio'
-    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1772975212/w82p8xsx5s83s3o8zdxr.jpg
-    episode_uid: weekly-ep26-tgc-or-one-slam-or-uts-or
-    episode_slug: weekly-ep-26-tgc-one-slam-uts
-    episode_key: weekly-ep-26-tgc-one-slam-uts
     legacy_numbered_slug: episode-25
-    episode_page_url: "/centurion-running/weekly-ep-26-tgc-one-slam-uts/"
+    episode_page_url: "/centurion-running/centurion-coaching-podcast-jack-chamberlain/"
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Mark Dowdle on Backyard Ultras, Keeping Promises to Yourself, and What Hour 60 Reveals
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/mark_dowdle_on_backyard_ultras_keeping_promises_to_yourself_and_what_hour_60_reveals
@@ -4227,6 +4227,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/trail-society/episode-113-redefining-pregnancy-and-sport-with-dr-margie-davenport/"
   https://rss.buzzsprout.com/299975.rss: &13
+  - episode_title: 'Rasmus på Loffen: PB but no sigar!'
+    episode_url: ''
+    audio_url: https://www.buzzsprout.com/299975/episodes/19306536-rasmus-pa-loffen-pb-but-no-sigar.mp3
+    published_at: '2026-06-07T10:00:00+02:00'
+    description_html: '<p>Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. Denne episoden er en ren løpsrapport spilt inn på hotellrommet i Stokmarknes like etter målgang på The Arctic Run!</p><p>Takk til våre samarbeidspartnere Comfyballs, Kiprun og SAYSKY!</p><ul><li><b>Comfyballs </b>får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no.</li><li><b>Kiprun:</b> Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko!</li><li><b>SAYSKY</b> får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;.</li></ul><p><b>SAYSKY T-SHIRTS &amp; SINGLETS GUIDE: </b>https://actsporty.no/pages/saysky-t-shirts-singlets-guide</p><p><a rel="payment" href="https://www.patreon.com/breakingmarathonlimits">Support the show</a></p><p><b>Kontakt Breaking Marathon Limits</b></p><p>Følg oss her: <a href=''https://www.instagram.com/breakingmarathonlimits/''>Instagram</a> | <a href=''https://www.facebook.com/breakingmarathonlimits/''>Facebook</a> | <a href=''https://www.youtube.com/channel/UCCoiOBmSTuCUTKIdmlpie0g''>Youtube</a> | <a href=''https://www.patreon.com/breakingmarathonlimits''>Patreon</a> Andre hendvendelser kan sendes til <a href=''mailto:Breakingmarathonlimits@gmail.com''>Breakingmarathonlimits@gmail.com</a> Bli en Patreon: <a href=''https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator''>https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator</a></p>'
+    description_plain: 'Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. Denne episoden er en ren løpsrapport spilt inn på hotellrommet i Stokmarknes like etter målgang på The Arctic Run! Takk til våre samarbeidspartnere Comfyballs, Kiprun og SAYSKY! Comfyballs får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no. Kiprun: Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko! SAYSKY får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;. SAYSKY T-SHIRTS &amp; SINGLETS GUIDE: https://actsporty.no/pages/saysky-t-shirts-singlets-guide Support the show Kontakt Breaking Marathon Limits Følg oss her: Instagram | Facebook | Youtube | Patreon Andre hendvendelser kan sendes til Breakingmarathonlimits@gmail.com Bli en Patreon: https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator'
+    episode_image_url: ''
+    episode_uid: buzzsprout-19306536
+    episode_slug: rasmus-pa-loffen-pb-but-no-sigar
+    episode_key: rasmus-pa-loffen-pb-but-no-sigar
+    legacy_unicode_slug: rasmus-på-loffen-pb-but-no-sigar
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-pb-but-no-sigar/"
   - episode_title: EP139 - Bak hver opptur ligger en nedtur som ikke fikk siste ord!
     episode_url: ''
     audio_url: https://www.buzzsprout.com/299975/episodes/19294816-ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord.mp3
@@ -4237,7 +4250,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19294816
     episode_slug: ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord
     episode_key: ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/breaking-marathon-limits/ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord/"
   - episode_title: 'Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!'
     episode_url: ''
@@ -4250,7 +4263,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run
     episode_key: rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run
     legacy_unicode_slug: rasmus-på-loffen-to-halvmaratonøkter-og-klar-for-the-arctic-run
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run/"
   - episode_title: EP138 - Dødsmarsjen på Simostranda
     episode_url: ''
@@ -4263,7 +4276,7 @@ episodes_by_feed:
     episode_slug: ep138-dodsmarsjen-pa-simostranda
     episode_key: ep138-dodsmarsjen-pa-simostranda
     legacy_unicode_slug: ep138-dødsmarsjen-på-simostranda
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/breaking-marathon-limits/ep138-dodsmarsjen-pa-simostranda/"
   - episode_title: 'Rasmus på Loffen: 39.56!'
     episode_url: ''
@@ -4276,7 +4289,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-39-56
     episode_key: rasmus-pa-loffen-39-56
     legacy_unicode_slug: rasmus-på-loffen-39-56
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-39-56/"
   - episode_title: EP137 -  Vi trives best ute blant folket
     episode_url: ''
@@ -4288,7 +4301,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19218687
     episode_slug: ep137-vi-trives-best-ute-blant-folket
     episode_key: ep137-vi-trives-best-ute-blant-folket
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/breaking-marathon-limits/ep137-vi-trives-best-ute-blant-folket/"
   - episode_title: 'Rasmus på Loffen 5.0 #4: Sub 40 på Bjørndalenmila!'
     episode_url: ''
@@ -4301,7 +4314,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-4-sub-40-pa-bjorndalenmila
     episode_key: rasmus-pa-loffen-5-0-4-sub-40-pa-bjorndalenmila
     legacy_unicode_slug: rasmus-på-loffen-5-0-4-sub-40-på-bjørndalenmila
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-4-sub-40-pa-bjorndalenmila/"
   - episode_title: EP136 - Konkurransesesong
     episode_url: ''
@@ -4313,7 +4326,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19175555
     episode_slug: ep136-konkurransesesong
     episode_key: ep136-konkurransesesong
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/breaking-marathon-limits/ep136-konkurransesesong/"
   - episode_title: 'Rasmus på Loffen 5.0 #3: Recap fra Holmenkollstafetten og perseforsøk på 3000m!'
     episode_url: ''
@@ -4326,7 +4339,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m
     episode_key: rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m
     legacy_unicode_slug: rasmus-på-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsøk-på-3000m
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m/"
   - episode_title: EP135 - To stk i kraftig stigning!
     episode_url: ''
@@ -4338,7 +4351,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19139292
     episode_slug: ep135-to-stk-i-kraftig-stigning
     episode_key: ep135-to-stk-i-kraftig-stigning
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/breaking-marathon-limits/ep135-to-stk-i-kraftig-stigning/"
   - episode_title: 'Rasmus på Loffen 5.0 #2: Full kroppsanalyse med huslegen i BML, Audun!'
     episode_url: ''
@@ -4351,7 +4364,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun
     episode_key: rasmus-pa-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun
     legacy_unicode_slug: rasmus-på-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun/"
   - episode_title: EP134 - 1:59:30
     episode_url: ''
@@ -4363,7 +4376,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19095771
     episode_slug: ep134-1-59-30
     episode_key: ep134-1-59-30
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/breaking-marathon-limits/ep134-1-59-30/"
   - episode_title: 'Rasmus på Loffen 5.0 #1: Same shit, different wrapping!'
     episode_url: ''
@@ -4376,7 +4389,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-1-same-shit-different-wrapping
     episode_key: rasmus-pa-loffen-5-0-1-same-shit-different-wrapping
     legacy_unicode_slug: rasmus-på-loffen-5-0-1-same-shit-different-wrapping
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-1-same-shit-different-wrapping/"
   - episode_title: 'Breaking Boston #10: Løpsrapport fra Boston Maraton'
     episode_url: ''
@@ -4389,7 +4402,7 @@ episodes_by_feed:
     episode_slug: breaking-boston-10-lopsrapport-fra-boston-maraton
     episode_key: breaking-boston-10-lopsrapport-fra-boston-maraton
     legacy_unicode_slug: breaking-boston-10-løpsrapport-fra-boston-maraton
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/breaking-marathon-limits/breaking-boston-10-lopsrapport-fra-boston-maraton/"
   - episode_title: EP133 - Kraftig stigning!
     episode_url: ''
@@ -4401,7 +4414,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19061103
     episode_slug: ep133-kraftig-stigning
     episode_key: ep133-kraftig-stigning
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/breaking-marathon-limits/ep133-kraftig-stigning/"
   - episode_title: "”I Grøgaards hule” med Martin Myrvold"
     episode_url: ''
@@ -4414,7 +4427,7 @@ episodes_by_feed:
     episode_slug: i-grogaards-hule-med-martin-myrvold
     episode_key: i-grogaards-hule-med-martin-myrvold
     legacy_unicode_slug: i-grøgaards-hule-med-martin-myrvold
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/breaking-marathon-limits/i-grogaards-hule-med-martin-myrvold/"
   - episode_title: EP132 - Bjørndalen er tilbake!
     episode_url: ''
@@ -4427,7 +4440,7 @@ episodes_by_feed:
     episode_slug: ep132-bjorndalen-er-tilbake
     episode_key: ep132-bjorndalen-er-tilbake
     legacy_unicode_slug: ep132-bjørndalen-er-tilbake
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/breaking-marathon-limits/ep132-bjorndalen-er-tilbake/"
   - episode_title: 'Breaking Boston #9: Løpsrapport fra Drammen 10k og løpsplan i Boston Maraton'
     episode_url: ''
@@ -4440,7 +4453,7 @@ episodes_by_feed:
     episode_slug: breaking-boston-9-lopsrapport-fra-drammen-10k-og-lopsplan-i-boston-maraton
     episode_key: breaking-boston-9-lopsrapport-fra-drammen-10k-og-lopsplan-i-boston-maraton
     legacy_unicode_slug: breaking-boston-9-løpsrapport-fra-drammen-10k-og-løpsplan-i-boston-maraton
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/breaking-marathon-limits/breaking-boston-9-lopsrapport-fra-drammen-10k-og-lopsplan-i-boston-maraton/"
   - episode_title: EP131 - Drammen 10km
     episode_url: ''
@@ -4452,7 +4465,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18990240
     episode_slug: ep131-drammen-10km
     episode_key: ep131-drammen-10km
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/breaking-marathon-limits/ep131-drammen-10km/"
   - episode_title: 'Breaking Boston #8: Siste langtur!'
     episode_url: ''
@@ -4464,7 +4477,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18978212
     episode_slug: breaking-boston-8-siste-langtur
     episode_key: breaking-boston-8-siste-langtur
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/breaking-marathon-limits/breaking-boston-8-siste-langtur/"
   - episode_title: EP130 - Påskespesial
     episode_url: ''
@@ -4477,7 +4490,7 @@ episodes_by_feed:
     episode_slug: ep130-paskespesial
     episode_key: ep130-paskespesial
     legacy_unicode_slug: ep130-påskespesial
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/breaking-marathon-limits/ep130-paskespesial/"
   - episode_title: "”I Grøgaards hule” med Einar Hedegart"
     episode_url: ''
@@ -4490,7 +4503,7 @@ episodes_by_feed:
     episode_slug: i-grogaards-hule-med-einar-hedegart
     episode_key: i-grogaards-hule-med-einar-hedegart
     legacy_unicode_slug: i-grøgaards-hule-med-einar-hedegart
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/breaking-marathon-limits/i-grogaards-hule-med-einar-hedegart/"
   - episode_title: 'Breaking Boston #7: Formtopping'
     episode_url: ''
@@ -4502,7 +4515,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18916216
     episode_slug: breaking-boston-7-formtopping
     episode_key: breaking-boston-7-formtopping
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/breaking-marathon-limits/breaking-boston-7-formtopping/"
   - episode_title: EP129 -  Chianti UTMB recap
     episode_url: ''
@@ -4514,7 +4527,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18910751
     episode_slug: ep129-chianti-utmb-recap
     episode_key: ep129-chianti-utmb-recap
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/breaking-marathon-limits/ep129-chianti-utmb-recap/"
   - episode_title: "”I Grøgaards hule” med Evan Jager"
     episode_url: ''
@@ -4527,20 +4540,8 @@ episodes_by_feed:
     episode_slug: i-grogaards-hule-med-evan-jager
     episode_key: i-grogaards-hule-med-evan-jager
     legacy_unicode_slug: i-grøgaards-hule-med-evan-jager
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/breaking-marathon-limits/i-grogaards-hule-med-evan-jager/"
-  - episode_title: EP128 - RACE WEEK CHIANTI UTMB
-    episode_url: ''
-    audio_url: https://www.buzzsprout.com/299975/episodes/18873216-ep128-race-week-chianti-utmb.mp3
-    published_at: '2026-03-20T00:00:00+01:00'
-    description_html: "<p>Det er race week! Sindre gjør de siste forberedelsene før Chianti Ultra Trail (47 km), og vi går gjennom siste innspurt, form og forventninger.</p><p>Sindre – siste oppladning</p><p>4 dager igjen til start. Når reiser han, og hvordan er helsa og ambisjonsnivået?  Endelig skovalg:</p><ul><li>Hoka Rocket X Trail – 45 mm hæl, 8 mm dropp</li><li>Hoka Tecton X 3 – ATPU-skum, lavere dropp</li></ul><p>Hva skjer etter Chianti – og hvordan planlegges veien videre?</p><p>Vi oppdaterer også på turen til Valencia med BML Charter: Fly 1 er utsolgt (187 plasser), og det er nå kun <b>18 plasser igjen på fly 2</b>.</p><p>Kristian – tilbake i trening</p><p>Det blir <b>DNS på Boston Marathon</b>, men Kristian er nå på dag 10 med normal trening igjen.  Veien videre:</p><ul><li><b>Drammen 10K</b></li><li><b>Simostranda 10K</b></li></ul><p>Også en prat om Barcelona Marathon og diskusjonen rundt 2:10-nivået.</p><p>News &amp; Northcom</p><ul><li>Sondre Nordstad Moen i New York</li><li>Boutera debuterer på Berlin Half Marathon</li><li>Awet Nftalem Kibrab og Zerei Kbrom Mezngi i Paris Half Marathon</li><li>Per Svela Sandvik og Even Brøndbo Dahl Halvorsen på løp i Nice</li><li>Jakob Ingebrigtsen, Magnus Tuv Myhre og Filip Ingebrigtsen på camp i Sandnes</li><li>Vegard Warnes klar for Drammen</li></ul><p>Ukas økt:</p><p><b>20 × 90/30 sek</b>  Øk farten gradvis (0,1 per 5 drag). Start rundt halvmaratonfart og jobb deg ned mot 10 km-fart+.</p><p>Ukas spørsmål</p><p>Hvor god bør man være før man starter med dobbel terskel? Vi svarer en 16-åring som trener mye og lurer på neste steg.</p><p>Samarbeidspartnere</p><ul><li>Combyballs — kode <b>BML15</b></li><li>Timik — tredemøller fra Woodway</li><li>Maurten — kode <b>BML15</b></li><li>Strava — kode <b>BML20</b></li></ul><p>Behandlerverket: Brynestad er tilbake!</p><p><b>Meld deg på Bjørndalenmila:</b></p><p>Påmelding til Bjørndalenmila | <a href='https://signup.eqtiming.com/?Event=bjorndalenmila'>https://signup.eqtiming.com/?Event=bjorndalenmila</a> Hjemmeside | <a href='https://www.bjorndalenmila.no/'>https://www.bjorndalenmila.no/</a></p><p>God lytting \U0001F3A7</p><p><a rel=\"payment\" href=\"https://www.patreon.com/breakingmarathonlimits\">Support the show</a></p><p><b>Kontakt Breaking Marathon Limits</b></p><p>Følg oss her: <a href='https://www.instagram.com/breakingmarathonlimits/'>Instagram</a> | <a href='https://www.facebook.com/breakingmarathonlimits/'>Facebook</a> | <a href='https://www.youtube.com/channel/UCCoiOBmSTuCUTKIdmlpie0g'>Youtube</a> | <a href='https://www.patreon.com/breakingmarathonlimits'>Patreon</a> Andre hendvendelser kan sendes til <a href='mailto:Breakingmarathonlimits@gmail.com'>Breakingmarathonlimits@gmail.com</a> Bli en Patreon: <a href='https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator'>https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator</a></p>"
-    description_plain: "Det er race week! Sindre gjør de siste forberedelsene før Chianti Ultra Trail (47 km), og vi går gjennom siste innspurt, form og forventninger. Sindre – siste oppladning 4 dager igjen til start. Når reiser han, og hvordan er helsa og ambisjonsnivået? Endelig skovalg: Hoka Rocket X Trail – 45 mm hæl, 8 mm dropp Hoka Tecton X 3 – ATPU-skum, lavere dropp Hva skjer etter Chianti – og hvordan planlegges veien videre? Vi oppdaterer også på turen til Valencia med BML Charter: Fly 1 er utsolgt (187 plasser), og det er nå kun 18 plasser igjen på fly 2 . Kristian – tilbake i trening Det blir DNS på Boston Marathon , men Kristian er nå på dag 10 med normal trening igjen. Veien videre: Drammen 10K Simostranda 10K Også en prat om Barcelona Marathon og diskusjonen rundt 2:10-nivået. News &amp; Northcom Sondre Nordstad Moen i New York Boutera debuterer på Berlin Half Marathon Awet Nftalem Kibrab og Zerei Kbrom Mezngi i Paris Half Marathon Per Svela Sandvik og Even Brøndbo Dahl Halvorsen på løp i Nice Jakob Ingebrigtsen, Magnus Tuv Myhre og Filip Ingebrigtsen på camp i Sandnes Vegard Warnes klar for Drammen Ukas økt: 20 × 90/30 sek Øk farten gradvis (0,1 per 5 drag). Start rundt halvmaratonfart og jobb deg ned mot 10 km-fart+. Ukas spørsmål Hvor god bør man være før man starter med dobbel terskel? Vi svarer en 16-åring som trener mye og lurer på neste steg. Samarbeidspartnere Combyballs — kode BML15 Timik — tredemøller fra Woodway Maurten — kode BML15 Strava — kode BML20 Behandlerverket: Brynestad er tilbake! Meld deg på Bjørndalenmila: Påmelding til Bjørndalenmila | https://signup.eqtiming.com/?Event=bjorndalenmila Hjemmeside | https://www.bjorndalenmila.no/ God lytting \U0001F3A7 Support the show Kontakt Breaking Marathon Limits Følg oss her: Instagram | Facebook | Youtube | Patreon Andre hendvendelser kan sendes til Breakingmarathonlimits@gmail.com Bli en Patreon: https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator"
-    episode_image_url: ''
-    episode_uid: buzzsprout-18873216
-    episode_slug: ep128-race-week-chianti-utmb
-    episode_key: ep128-race-week-chianti-utmb
     legacy_numbered_slug: episode-25
-    episode_page_url: "/breaking-marathon-limits/ep128-race-week-chianti-utmb/"
+    episode_page_url: "/breaking-marathon-limits/i-grogaards-hule-med-evan-jager/"
   https://rss.libsyn.com/shows/456963/destinations/3847590.xml: &14
   - episode_title: Zach Miller - Western States Training, 12 Years Between Golden Tickets and A Run Down Memory Lane
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/zach-miller-western-states-training-12-years-between-golden-tickets-and-a-run-down-memory-lane
