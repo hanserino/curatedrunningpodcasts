@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-08T01:49:13Z'
+generated_at: '2026-06-08T03:10:08Z'
 items:
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong/"
@@ -625,18 +625,6 @@ items:
   episode_key: ep-12-storie
   episode_slug: ep-12-storie
   episode_page_url: "/pionieri/ep-12-storie/"
-- podcast_title: Ultrarunning History
-  podcast_page_url: "/ultrarunning-history-podcast/"
-  cover_image: "/media/ultrarunninghistory.jpg"
-  feed_url: https://ultrarunninghistory.com/feed/podcast/
-  filter_category: ultra english
-  episode_title: '178: Grand Canyon Short Stories – Part Two'
-  episode_url: https://ultrarunninghistory.com/178-grand-canyon-2/?utm_source=rss&utm_medium=rss&utm_campaign=178-grand-canyon-2
-  audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/06/episode178.mp3
-  published_at: '2025-06-01T23:39:47+00:00'
-  episode_key: 178-grand-canyon-short-stories-part-two
-  episode_slug: 178-grand-canyon-short-stories-part-two
-  episode_page_url: "/ultrarunning-history-podcast/178-grand-canyon-short-stories-part-two/"
 - podcast_title: 90 Gramos
   podcast_page_url: "/90-gramos/"
   cover_image: "/media/90gramos.jpeg"
@@ -18102,6 +18090,22 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/exclusive-lots-of-drama-around-oneplus/"
   https://podcast.stream.schibsted.media/ap/100194: &60
+  - episode_title: Dette venter Mette-Marit nå
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/mimtatezqgz1ftkk3tq5c/podcast_128.mp3
+    published_at: '2026-06-08T03:00:04+00:00'
+    description_html: |-
+      Ett til to års forventet levetid uten operasjon: Kronprinsesse Mette-Marit er satt på venteliste for lungetransplantasjon. Hva betyr det for kronprinsessen - og kongehuset - i en allerede krevende tid? Og hva tenker lungepasienter på mens de venter på dagen som skal redde livet deres? Med informasjonssjef i Stiftelsen Organdonasjon, Aleksander Sekowski, og politisk redaktør Kjetil B. Alstadheim.
+
+      Foto: Dusan Reljin, Det kongelige hoff
+    description_plain: 'Ett til to års forventet levetid uten operasjon: Kronprinsesse Mette-Marit er satt på venteliste for lungetransplantasjon. Hva betyr det for kronprinsessen - og kongehuset - i en allerede krevende tid? Og hva tenker lungepasienter på mens de venter på dagen som skal redde livet deres? Med informasjonssjef i Stiftelsen Organdonasjon, Aleksander Sekowski, og politisk redaktør Kjetil B. Alstadheim. Foto: Dusan Reljin, Det kongelige hoff'
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/51f4999dc2e679563b819aa441a41fef.jpg?t%5B%5D=1440q80
+    episode_uid: ap-139263
+    episode_slug: dette-venter-mette-marit-na
+    episode_key: dette-venter-mette-marit-na
+    legacy_unicode_slug: dette-venter-mette-marit-nå
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/dette-venter-mette-marit-na/"
   - episode_title: 'Annonsørinnhold fra Helsedirektoratet: Du trenger ikke bære dette alene'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/2y4nlesqi66778agya77f/podcast_128.mp3
@@ -18122,7 +18126,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene
     episode_key: annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene
     legacy_unicode_slug: annonsørinnhold-fra-helsedirektoratet-du-trenger-ikke-bære-dette-alene
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene/"
   - episode_title: 'Kort Forklart: Kronprinsessen på transplantasjonsliste: – En operasjon med stor risiko'
     episode_url: ''
@@ -18135,7 +18139,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko
     episode_key: kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko
     legacy_unicode_slug: kort-forklart-kronprinsessen-på-transplantasjonsliste-en-operasjon-med-stor-risiko
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko/"
   - episode_title: 'Konspirasjonsteorier og barnevern: Hva skjedde da Shada døde?'
     episode_url: ''
@@ -18151,7 +18155,7 @@ episodes_by_feed:
     episode_slug: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode
     episode_key: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode
     legacy_unicode_slug: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-døde
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode/"
   - episode_title: 'Kort Forklart: «Selvmordshjelper» Steinar Wangen i retten, og albanere sinte på Ivanka Trump'
     episode_url: ''
@@ -18164,7 +18168,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-pa-ivanka-trump
     episode_key: kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-pa-ivanka-trump
     legacy_unicode_slug: kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-på-ivanka-trump
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-pa-ivanka-trump/"
   - episode_title: Sjeldent ebolavirus herjer. Derfor går helsealarmen.
     episode_url: ''
@@ -18180,7 +18184,7 @@ episodes_by_feed:
     episode_slug: sjeldent-ebolavirus-herjer-derfor-gar-helsealarmen
     episode_key: sjeldent-ebolavirus-herjer-derfor-gar-helsealarmen
     legacy_unicode_slug: sjeldent-ebolavirus-herjer-derfor-går-helsealarmen
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/sjeldent-ebolavirus-herjer-derfor-gar-helsealarmen/"
   - episode_title: 'Kort Forklart: Familien reiser hjem til syk kronprinsesse, og Trump skjelte ut Netanyahu'
     episode_url: ''
@@ -18192,7 +18196,7 @@ episodes_by_feed:
     episode_uid: ap-139206
     episode_slug: kort-forklart-familien-reiser-hjem-til-syk-kronprinsesse-og-trump-skjelte-ut-netanyahu
     episode_key: kort-forklart-familien-reiser-hjem-til-syk-kronprinsesse-og-trump-skjelte-ut-netanyahu
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/kort-forklart-familien-reiser-hjem-til-syk-kronprinsesse-og-trump-skjelte-ut-netanyahu/"
   - episode_title: Injiserer ulovlige peptider kjøpt på nettet - idioti eller snarvei til superkropp?
     episode_url: ''
@@ -18205,7 +18209,7 @@ episodes_by_feed:
     episode_slug: injiserer-ulovlige-peptider-kjopt-pa-nettet-idioti-eller-snarvei-til-superkropp
     episode_key: injiserer-ulovlige-peptider-kjopt-pa-nettet-idioti-eller-snarvei-til-superkropp
     legacy_unicode_slug: injiserer-ulovlige-peptider-kjøpt-på-nettet-idioti-eller-snarvei-til-superkropp
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/injiserer-ulovlige-peptider-kjopt-pa-nettet-idioti-eller-snarvei-til-superkropp/"
   - episode_title: 'Kort Forklart: Kraftige angrep i Libanon, og Ronny Brede Aase svarer på kritikken'
     episode_url: ''
@@ -18218,7 +18222,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-pa-kritikken
     episode_key: kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-pa-kritikken
     legacy_unicode_slug: kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-på-kritikken
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-pa-kritikken/"
   - episode_title: 'Barnefengsler: Nå vil Sverige fengsle 13-åringene som dreper'
     episode_url: ''
@@ -18231,7 +18235,7 @@ episodes_by_feed:
     episode_slug: barnefengsler-na-vil-sverige-fengsle-13-aringene-som-dreper
     episode_key: barnefengsler-na-vil-sverige-fengsle-13-aringene-som-dreper
     legacy_unicode_slug: barnefengsler-nå-vil-sverige-fengsle-13-åringene-som-dreper
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/barnefengsler-na-vil-sverige-fengsle-13-aringene-som-dreper/"
   - episode_title: 'Kort Forklart: Drapet på Tamima: Tiltalte så på videoer av terrorister'
     episode_url: ''
@@ -18244,7 +18248,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-drapet-pa-tamima-tiltalte-sa-pa-videoer-av-terrorister
     episode_key: kort-forklart-drapet-pa-tamima-tiltalte-sa-pa-videoer-av-terrorister
     legacy_unicode_slug: kort-forklart-drapet-på-tamima-tiltalte-så-på-videoer-av-terrorister
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/kort-forklart-drapet-pa-tamima-tiltalte-sa-pa-videoer-av-terrorister/"
   - episode_title: Slik holder du ut når «alle» snakker om fotball-VM
     episode_url: ''
@@ -18260,7 +18264,7 @@ episodes_by_feed:
     episode_slug: slik-holder-du-ut-nar-alle-snakker-om-fotball-vm
     episode_key: slik-holder-du-ut-nar-alle-snakker-om-fotball-vm
     legacy_unicode_slug: slik-holder-du-ut-når-alle-snakker-om-fotball-vm
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/slik-holder-du-ut-nar-alle-snakker-om-fotball-vm/"
   - episode_title: 'Kort Forklart: Derfor kalte Støre teknologigiganter «jævla selskaper»'
     episode_url: ''
@@ -18273,7 +18277,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-derfor-kalte-store-teknologigiganter-jaevla-selskaper
     episode_key: kort-forklart-derfor-kalte-store-teknologigiganter-jaevla-selskaper
     legacy_unicode_slug: kort-forklart-derfor-kalte-støre-teknologigiganter-jævla-selskaper
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/kort-forklart-derfor-kalte-store-teknologigiganter-jaevla-selskaper/"
   - episode_title: 'Pass deg for lange samtaler med chatboter: – Kan bli en «demon»'
     episode_url: ''
@@ -18285,7 +18289,7 @@ episodes_by_feed:
     episode_uid: ap-139124
     episode_slug: pass-deg-for-lange-samtaler-med-chatboter-kan-bli-en-demon
     episode_key: pass-deg-for-lange-samtaler-med-chatboter-kan-bli-en-demon
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/pass-deg-for-lange-samtaler-med-chatboter-kan-bli-en-demon/"
   - episode_title: 'Kort Forklart: Kongen om dronningens sykdom: – Jeg tror humøret nå er mye bedre'
     episode_url: ''
@@ -18298,7 +18302,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humoret-na-er-mye-bedre
     episode_key: kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humoret-na-er-mye-bedre
     legacy_unicode_slug: kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humøret-nå-er-mye-bedre
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humoret-na-er-mye-bedre/"
   - episode_title: 'Fra fest til gapestokk: 17. mai-volden som gikk viralt'
     episode_url: ''
@@ -18310,7 +18314,7 @@ episodes_by_feed:
     episode_uid: ap-139110
     episode_slug: fra-fest-til-gapestokk-17-mai-volden-som-gikk-viralt
     episode_key: fra-fest-til-gapestokk-17-mai-volden-som-gikk-viralt
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/fra-fest-til-gapestokk-17-mai-volden-som-gikk-viralt/"
   - episode_title: 'Kort Forklart: Nordmenn mer kritiske til innvandring, og Høiby-fornærmet vant mot NRK'
     episode_url: ''
@@ -18323,7 +18327,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-hoiby-fornaermet-vant-mot-nrk
     episode_key: kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-hoiby-fornaermet-vant-mot-nrk
     legacy_unicode_slug: kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-høiby-fornærmet-vant-mot-nrk
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-hoiby-fornaermet-vant-mot-nrk/"
   - episode_title: Syk barnehagekultur eller sutrete småbarnsforeldre?
     episode_url: ''
@@ -18339,7 +18343,7 @@ episodes_by_feed:
     episode_slug: syk-barnehagekultur-eller-sutrete-smabarnsforeldre
     episode_key: syk-barnehagekultur-eller-sutrete-smabarnsforeldre
     legacy_unicode_slug: syk-barnehagekultur-eller-sutrete-småbarnsforeldre
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/syk-barnehagekultur-eller-sutrete-smabarnsforeldre/"
   - episode_title: 'Kort Forklart: Hvis en Iran-avtale snart er klar – hvorfor angriper USA?'
     episode_url: ''
@@ -18351,7 +18355,7 @@ episodes_by_feed:
     episode_uid: ap-139088
     episode_slug: kort-forklart-hvis-en-iran-avtale-snart-er-klar-hvorfor-angriper-usa
     episode_key: kort-forklart-hvis-en-iran-avtale-snart-er-klar-hvorfor-angriper-usa
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/kort-forklart-hvis-en-iran-avtale-snart-er-klar-hvorfor-angriper-usa/"
   - episode_title: 'Seksualisert vold i Israel og Palestina: Historiene som ryster verden'
     episode_url: ''
@@ -18366,7 +18370,7 @@ episodes_by_feed:
     episode_uid: ap-139077
     episode_slug: seksualisert-vold-i-israel-og-palestina-historiene-som-ryster-verden
     episode_key: seksualisert-vold-i-israel-og-palestina-historiene-som-ryster-verden
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/seksualisert-vold-i-israel-og-palestina-historiene-som-ryster-verden/"
   - episode_title: 'Ny podkast: Fanget i 764 (1:3) Internettsekten'
     episode_url: ''
@@ -18378,7 +18382,7 @@ episodes_by_feed:
     episode_uid: ap-139053
     episode_slug: ny-podkast-fanget-i-764-1-3-internettsekten
     episode_key: ny-podkast-fanget-i-764-1-3-internettsekten
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/ny-podkast-fanget-i-764-1-3-internettsekten/"
   - episode_title: 'Kort Forklart: Mange skeive nordmenn tør ikke dra til VM i USA'
     episode_url: ''
@@ -18391,7 +18395,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa
     episode_key: kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa
     legacy_unicode_slug: kort-forklart-mange-skeive-nordmenn-tør-ikke-dra-til-vm-i-usa
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa/"
   - episode_title: 'Frykten for «Super-El Niño» øker: Sånn kan det påvirke deg.'
     episode_url: ''
@@ -18404,7 +18408,7 @@ episodes_by_feed:
     episode_slug: frykten-for-super-el-nino-oker-sann-kan-det-pavirke-deg
     episode_key: frykten-for-super-el-nino-oker-sann-kan-det-pavirke-deg
     legacy_unicode_slug: frykten-for-super-el-niño-øker-sånn-kan-det-påvirke-deg
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/frykten-for-super-el-nino-oker-sann-kan-det-pavirke-deg/"
   - episode_title: 'Kort Forklart: En av Norges mektigste dømt til fem års fengsel, og vi spår VM-troppen'
     episode_url: ''
@@ -18417,7 +18421,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-en-av-norges-mektigste-domt-til-fem-ars-fengsel-og-vi-spar-vm-troppen
     episode_key: kort-forklart-en-av-norges-mektigste-domt-til-fem-ars-fengsel-og-vi-spar-vm-troppen
     legacy_unicode_slug: kort-forklart-en-av-norges-mektigste-dømt-til-fem-års-fengsel-og-vi-spår-vm-troppen
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/kort-forklart-en-av-norges-mektigste-domt-til-fem-ars-fengsel-og-vi-spar-vm-troppen/"
   - episode_title: Et hus på Andøya. En bunker i Bodø. Var kineserne spioner?
     episode_url: ''
@@ -18433,21 +18437,8 @@ episodes_by_feed:
     episode_slug: et-hus-pa-andoya-en-bunker-i-bodo-var-kineserne-spioner
     episode_key: et-hus-pa-andoya-en-bunker-i-bodo-var-kineserne-spioner
     legacy_unicode_slug: et-hus-på-andøya-en-bunker-i-bodø-var-kineserne-spioner
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/et-hus-pa-andoya-en-bunker-i-bodo-var-kineserne-spioner/"
-  - episode_title: 'Kort Forklart: Bråk rundt Indias norgesbesøk: Journalist stemples som spion'
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/05/9rxs0m9hmj7k5e7gdokna/podcast_128.mp3
-    published_at: '2026-05-20T13:20:31+00:00'
-    description_html: Indias statsminister Narendra Modis besøk i Oslo har ikke gått upåaktet hen i hjemlandet. Et spørsmål fra en norsk journalist har blitt sett av flere millioner. Vi oppsummerer nyhetene for deg, i dag også om at Marius Borg Høiby ikke får sone resten av varetekten hjemme.
-    description_plain: Indias statsminister Narendra Modis besøk i Oslo har ikke gått upåaktet hen i hjemlandet. Et spørsmål fra en norsk journalist har blitt sett av flere millioner. Vi oppsummerer nyhetene for deg, i dag også om at Marius Borg Høiby ikke får sone resten av varetekten hjemme.
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/d9b08ebbeda478ef2aa39b98e326fd6e.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139035
-    episode_slug: kort-forklart-brak-rundt-indias-norgesbesok-journalist-stemples-som-spion
-    episode_key: kort-forklart-brak-rundt-indias-norgesbesok-journalist-stemples-som-spion
-    legacy_unicode_slug: kort-forklart-bråk-rundt-indias-norgesbesøk-journalist-stemples-som-spion
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/kort-forklart-brak-rundt-indias-norgesbesok-journalist-stemples-som-spion/"
+    episode_page_url: "/forklart/et-hus-pa-andoya-en-bunker-i-bodo-var-kineserne-spioner/"
   https://feeds.megaphone.fm/hubermanlab: &61
   - episode_title: 'Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams'
     episode_url: https://www.hubermanlab.com/episode/essentials-psychedelics-neurostimulation-for-brain-rewiring-nolan-williams
@@ -25673,6 +25664,9 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fkt-podcast/tim-beissinger-ozark-trail-unsupported-fkt-262/"
 errors:
+- podcast: Ultrarunning History
+  rss_feed: https://ultrarunninghistory.com/feed/podcast/
+  error: 'Net::OpenTimeout: Failed to open TCP connection to ultrarunninghistory.com:443 (execution expired)'
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
