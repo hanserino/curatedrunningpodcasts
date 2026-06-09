@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-09T11:05:45Z'
+generated_at: '2026-06-09T13:01:14Z'
 items:
+- podcast_title: Team Macody Podcast
+  podcast_page_url: "/team-macody-podcast/"
+  cover_image: "/media/teammacody.jpeg"
+  feed_url: https://feed.podbean.com/mathiasmacody/feed.xml
+  filter_category: road norwegian
+  episode_title: Opel Zafira
+  episode_url: https://mathiasmacody.podbean.com/e/opel-zafira/
+  audio_url: https://mcdn.podbean.com/mf/web/hdw3qibjjj6qp6uv/Opel_Zafira8xt5p.mp3
+  published_at: '2026-06-09T09:29:22-03:00'
+  episode_key: opel-zafira
+  episode_slug: opel-zafira
+  episode_page_url: "/team-macody-podcast/opel-zafira/"
 - podcast_title: Long Run Labs
   podcast_page_url: "/long-run-labs/"
   cover_image: "/media/longrunlabs.jpeg"
@@ -445,18 +457,6 @@ items:
   episode_key: tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change
   episode_slug: tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change
   episode_page_url: "/the-freetrail-podcast/tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change/"
-- podcast_title: Team Macody Podcast
-  podcast_page_url: "/team-macody-podcast/"
-  cover_image: "/media/teammacody.jpeg"
-  feed_url: https://feed.podbean.com/mathiasmacody/feed.xml
-  filter_category: road norwegian
-  episode_title: Recap Kvalømilen
-  episode_url: https://mathiasmacody.podbean.com/e/recap-kval%c3%b8milen/
-  audio_url: https://mcdn.podbean.com/mf/web/4xsiksbzsnqcg9ep/Post_Kval_milen8kdsx.mp3
-  published_at: '2026-06-02T08:01:07-03:00'
-  episode_key: recap-kvalomilen
-  episode_slug: recap-kvalomilen
-  episode_page_url: "/team-macody-podcast/recap-kvalomilen/"
 - podcast_title: Science of Running
   podcast_page_url: "/science-of-running/"
   cover_image: "/media/oncoaching.jpeg"
@@ -18101,6 +18101,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/exclusive-lots-of-drama-around-oneplus/"
   https://podcast.stream.schibsted.media/ap/100194: &60
+  - episode_title: 'Kort Forklart: Dette fikk retten til å si ja til Høiby'
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/a5qmej2fxwy95ue3ozw4f/podcast_128.mp3
+    published_at: '2026-06-09T12:35:13+00:00'
+    description_html: For én måned siden fikk Marius Borg Høiby avslag på løslatelse. Nå mener tingretten at han bør ut av varetekt. Hva har endret seg? Vi oppsummerer nyhetene for deg, i dag også om fotografiet som kan bli det mest innbringende i norsk historie.
+    description_plain: For én måned siden fikk Marius Borg Høiby avslag på løslatelse. Nå mener tingretten at han bør ut av varetekt. Hva har endret seg? Vi oppsummerer nyhetene for deg, i dag også om fotografiet som kan bli det mest innbringende i norsk historie.
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/c2740f9ae4e817c50bb3a7e99afaf73b.jpg?t%5B%5D=1440q80
+    episode_uid: ap-139300
+    episode_slug: kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby
+    episode_key: kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby
+    legacy_unicode_slug: kort-forklart-dette-fikk-retten-til-å-si-ja-til-høiby
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby/"
   - episode_title: Økningen i IQ har snudd. Blir vi dummere og dummere?
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/y3u6duw2wov559hkju8ko/podcast_128.mp3
@@ -18115,7 +18128,7 @@ episodes_by_feed:
     episode_slug: okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
     episode_key: okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
     legacy_unicode_slug: økningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere/"
   - episode_title: 'Kort Forklart: Vil retten tro på at Tamimas drapsmann har endret seg?'
     episode_url: ''
@@ -18128,7 +18141,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg
     episode_key: kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg
     legacy_unicode_slug: kort-forklart-vil-retten-tro-på-at-tamimas-drapsmann-har-endret-seg
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg/"
   - episode_title: Dette venter Mette-Marit nå
     episode_url: ''
@@ -18144,7 +18157,7 @@ episodes_by_feed:
     episode_slug: dette-venter-mette-marit-na
     episode_key: dette-venter-mette-marit-na
     legacy_unicode_slug: dette-venter-mette-marit-nå
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/dette-venter-mette-marit-na/"
   - episode_title: 'Annonsørinnhold fra Helsedirektoratet: Du trenger ikke bære dette alene'
     episode_url: ''
@@ -18166,7 +18179,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene
     episode_key: annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene
     legacy_unicode_slug: annonsørinnhold-fra-helsedirektoratet-du-trenger-ikke-bære-dette-alene
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene/"
   - episode_title: 'Kort Forklart: Kronprinsessen på transplantasjonsliste: – En operasjon med stor risiko'
     episode_url: ''
@@ -18179,7 +18192,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko
     episode_key: kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko
     legacy_unicode_slug: kort-forklart-kronprinsessen-på-transplantasjonsliste-en-operasjon-med-stor-risiko
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko/"
   - episode_title: 'Konspirasjonsteorier og barnevern: Hva skjedde da Shada døde?'
     episode_url: ''
@@ -18195,7 +18208,7 @@ episodes_by_feed:
     episode_slug: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode
     episode_key: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode
     legacy_unicode_slug: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-døde
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode/"
   - episode_title: 'Kort Forklart: «Selvmordshjelper» Steinar Wangen i retten, og albanere sinte på Ivanka Trump'
     episode_url: ''
@@ -18208,7 +18221,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-pa-ivanka-trump
     episode_key: kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-pa-ivanka-trump
     legacy_unicode_slug: kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-på-ivanka-trump
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/kort-forklart-selvmordshjelper-steinar-wangen-i-retten-og-albanere-sinte-pa-ivanka-trump/"
   - episode_title: Sjeldent ebolavirus herjer. Derfor går helsealarmen.
     episode_url: ''
@@ -18224,7 +18237,7 @@ episodes_by_feed:
     episode_slug: sjeldent-ebolavirus-herjer-derfor-gar-helsealarmen
     episode_key: sjeldent-ebolavirus-herjer-derfor-gar-helsealarmen
     legacy_unicode_slug: sjeldent-ebolavirus-herjer-derfor-går-helsealarmen
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/sjeldent-ebolavirus-herjer-derfor-gar-helsealarmen/"
   - episode_title: 'Kort Forklart: Familien reiser hjem til syk kronprinsesse, og Trump skjelte ut Netanyahu'
     episode_url: ''
@@ -18236,7 +18249,7 @@ episodes_by_feed:
     episode_uid: ap-139206
     episode_slug: kort-forklart-familien-reiser-hjem-til-syk-kronprinsesse-og-trump-skjelte-ut-netanyahu
     episode_key: kort-forklart-familien-reiser-hjem-til-syk-kronprinsesse-og-trump-skjelte-ut-netanyahu
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/kort-forklart-familien-reiser-hjem-til-syk-kronprinsesse-og-trump-skjelte-ut-netanyahu/"
   - episode_title: Injiserer ulovlige peptider kjøpt på nettet - idioti eller snarvei til superkropp?
     episode_url: ''
@@ -18249,7 +18262,7 @@ episodes_by_feed:
     episode_slug: injiserer-ulovlige-peptider-kjopt-pa-nettet-idioti-eller-snarvei-til-superkropp
     episode_key: injiserer-ulovlige-peptider-kjopt-pa-nettet-idioti-eller-snarvei-til-superkropp
     legacy_unicode_slug: injiserer-ulovlige-peptider-kjøpt-på-nettet-idioti-eller-snarvei-til-superkropp
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/injiserer-ulovlige-peptider-kjopt-pa-nettet-idioti-eller-snarvei-til-superkropp/"
   - episode_title: 'Kort Forklart: Kraftige angrep i Libanon, og Ronny Brede Aase svarer på kritikken'
     episode_url: ''
@@ -18262,7 +18275,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-pa-kritikken
     episode_key: kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-pa-kritikken
     legacy_unicode_slug: kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-på-kritikken
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/kort-forklart-kraftige-angrep-i-libanon-og-ronny-brede-aase-svarer-pa-kritikken/"
   - episode_title: 'Barnefengsler: Nå vil Sverige fengsle 13-åringene som dreper'
     episode_url: ''
@@ -18275,7 +18288,7 @@ episodes_by_feed:
     episode_slug: barnefengsler-na-vil-sverige-fengsle-13-aringene-som-dreper
     episode_key: barnefengsler-na-vil-sverige-fengsle-13-aringene-som-dreper
     legacy_unicode_slug: barnefengsler-nå-vil-sverige-fengsle-13-åringene-som-dreper
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/barnefengsler-na-vil-sverige-fengsle-13-aringene-som-dreper/"
   - episode_title: 'Kort Forklart: Drapet på Tamima: Tiltalte så på videoer av terrorister'
     episode_url: ''
@@ -18288,7 +18301,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-drapet-pa-tamima-tiltalte-sa-pa-videoer-av-terrorister
     episode_key: kort-forklart-drapet-pa-tamima-tiltalte-sa-pa-videoer-av-terrorister
     legacy_unicode_slug: kort-forklart-drapet-på-tamima-tiltalte-så-på-videoer-av-terrorister
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/kort-forklart-drapet-pa-tamima-tiltalte-sa-pa-videoer-av-terrorister/"
   - episode_title: Slik holder du ut når «alle» snakker om fotball-VM
     episode_url: ''
@@ -18304,7 +18317,7 @@ episodes_by_feed:
     episode_slug: slik-holder-du-ut-nar-alle-snakker-om-fotball-vm
     episode_key: slik-holder-du-ut-nar-alle-snakker-om-fotball-vm
     legacy_unicode_slug: slik-holder-du-ut-når-alle-snakker-om-fotball-vm
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/slik-holder-du-ut-nar-alle-snakker-om-fotball-vm/"
   - episode_title: 'Kort Forklart: Derfor kalte Støre teknologigiganter «jævla selskaper»'
     episode_url: ''
@@ -18317,7 +18330,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-derfor-kalte-store-teknologigiganter-jaevla-selskaper
     episode_key: kort-forklart-derfor-kalte-store-teknologigiganter-jaevla-selskaper
     legacy_unicode_slug: kort-forklart-derfor-kalte-støre-teknologigiganter-jævla-selskaper
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/kort-forklart-derfor-kalte-store-teknologigiganter-jaevla-selskaper/"
   - episode_title: 'Pass deg for lange samtaler med chatboter: – Kan bli en «demon»'
     episode_url: ''
@@ -18329,7 +18342,7 @@ episodes_by_feed:
     episode_uid: ap-139124
     episode_slug: pass-deg-for-lange-samtaler-med-chatboter-kan-bli-en-demon
     episode_key: pass-deg-for-lange-samtaler-med-chatboter-kan-bli-en-demon
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/pass-deg-for-lange-samtaler-med-chatboter-kan-bli-en-demon/"
   - episode_title: 'Kort Forklart: Kongen om dronningens sykdom: – Jeg tror humøret nå er mye bedre'
     episode_url: ''
@@ -18342,7 +18355,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humoret-na-er-mye-bedre
     episode_key: kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humoret-na-er-mye-bedre
     legacy_unicode_slug: kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humøret-nå-er-mye-bedre
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/kort-forklart-kongen-om-dronningens-sykdom-jeg-tror-humoret-na-er-mye-bedre/"
   - episode_title: 'Fra fest til gapestokk: 17. mai-volden som gikk viralt'
     episode_url: ''
@@ -18354,7 +18367,7 @@ episodes_by_feed:
     episode_uid: ap-139110
     episode_slug: fra-fest-til-gapestokk-17-mai-volden-som-gikk-viralt
     episode_key: fra-fest-til-gapestokk-17-mai-volden-som-gikk-viralt
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/fra-fest-til-gapestokk-17-mai-volden-som-gikk-viralt/"
   - episode_title: 'Kort Forklart: Nordmenn mer kritiske til innvandring, og Høiby-fornærmet vant mot NRK'
     episode_url: ''
@@ -18367,7 +18380,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-hoiby-fornaermet-vant-mot-nrk
     episode_key: kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-hoiby-fornaermet-vant-mot-nrk
     legacy_unicode_slug: kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-høiby-fornærmet-vant-mot-nrk
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/kort-forklart-nordmenn-mer-kritiske-til-innvandring-og-hoiby-fornaermet-vant-mot-nrk/"
   - episode_title: Syk barnehagekultur eller sutrete småbarnsforeldre?
     episode_url: ''
@@ -18383,7 +18396,7 @@ episodes_by_feed:
     episode_slug: syk-barnehagekultur-eller-sutrete-smabarnsforeldre
     episode_key: syk-barnehagekultur-eller-sutrete-smabarnsforeldre
     legacy_unicode_slug: syk-barnehagekultur-eller-sutrete-småbarnsforeldre
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/syk-barnehagekultur-eller-sutrete-smabarnsforeldre/"
   - episode_title: 'Kort Forklart: Hvis en Iran-avtale snart er klar – hvorfor angriper USA?'
     episode_url: ''
@@ -18395,7 +18408,7 @@ episodes_by_feed:
     episode_uid: ap-139088
     episode_slug: kort-forklart-hvis-en-iran-avtale-snart-er-klar-hvorfor-angriper-usa
     episode_key: kort-forklart-hvis-en-iran-avtale-snart-er-klar-hvorfor-angriper-usa
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/kort-forklart-hvis-en-iran-avtale-snart-er-klar-hvorfor-angriper-usa/"
   - episode_title: 'Seksualisert vold i Israel og Palestina: Historiene som ryster verden'
     episode_url: ''
@@ -18410,7 +18423,7 @@ episodes_by_feed:
     episode_uid: ap-139077
     episode_slug: seksualisert-vold-i-israel-og-palestina-historiene-som-ryster-verden
     episode_key: seksualisert-vold-i-israel-og-palestina-historiene-som-ryster-verden
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/seksualisert-vold-i-israel-og-palestina-historiene-som-ryster-verden/"
   - episode_title: 'Ny podkast: Fanget i 764 (1:3) Internettsekten'
     episode_url: ''
@@ -18422,7 +18435,7 @@ episodes_by_feed:
     episode_uid: ap-139053
     episode_slug: ny-podkast-fanget-i-764-1-3-internettsekten
     episode_key: ny-podkast-fanget-i-764-1-3-internettsekten
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/ny-podkast-fanget-i-764-1-3-internettsekten/"
   - episode_title: 'Kort Forklart: Mange skeive nordmenn tør ikke dra til VM i USA'
     episode_url: ''
@@ -18435,21 +18448,8 @@ episodes_by_feed:
     episode_slug: kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa
     episode_key: kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa
     legacy_unicode_slug: kort-forklart-mange-skeive-nordmenn-tør-ikke-dra-til-vm-i-usa
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa/"
-  - episode_title: 'Frykten for «Super-El Niño» øker: Sånn kan det påvirke deg.'
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/05/e0zlgrhvcuepiqlabzw50/podcast_128.mp3
-    published_at: '2026-05-22T03:05:02+00:00'
-    description_html: En ny «Super-El Niño» kan føre til ekstrem tørke, flommer og værhendelser verden aldri før har sett. Hva betyr det egentlig for Norge – og hvor sannsynlig er det at det faktisk skjer? Med klimajournalist Stine Barstad. Marcio Jose Sanchez/AP/NTB Scanpix
-    description_plain: En ny «Super-El Niño» kan føre til ekstrem tørke, flommer og værhendelser verden aldri før har sett. Hva betyr det egentlig for Norge – og hvor sannsynlig er det at det faktisk skjer? Med klimajournalist Stine Barstad. Marcio Jose Sanchez/AP/NTB Scanpix
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/8962805254aa84c4df4d0c3716bcfd44.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139056
-    episode_slug: frykten-for-super-el-nino-oker-sann-kan-det-pavirke-deg
-    episode_key: frykten-for-super-el-nino-oker-sann-kan-det-pavirke-deg
-    legacy_unicode_slug: frykten-for-super-el-niño-øker-sånn-kan-det-påvirke-deg
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/frykten-for-super-el-nino-oker-sann-kan-det-pavirke-deg/"
+    episode_page_url: "/forklart/kort-forklart-mange-skeive-nordmenn-tor-ikke-dra-til-vm-i-usa/"
   https://feeds.megaphone.fm/hubermanlab: &61
   - episode_title: Eating for Better Sleep & Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge
     episode_url: https://www.hubermanlab.com/episode/eating-for-better-sleep-and-foods-that-improve-metabolic-health-marie-pierre-st-onge
@@ -18879,6 +18879,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/trumps-plan-er-cuba-hans-neste-mal/"
   https://sr-restored.se/rss/2071: &63
+  - episode_title: Hör årets Sommarpratare presenteras
+    episode_url: https://www.sverigesradio.se/avsnitt/2801803
+    audio_url: https://lyssna-cdn.sr.se/ljudit/p1/rets_sommarvrdar_presenteras/2026/06/rets_sommarvrdar_presenteras_20260609_1300_192.m4a
+    published_at: '2026-06-09T11:00:00Z'
+    description_html: <p>Sommarvärdarna presenteras av programchef Bibi Rödöö.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Sommarvärdarna presenteras av programchef Bibi Rödöö. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/6b6d0064-266e-4392-a16e-d71ecc4b3b53.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2801803
+    episode_slug: hor-arets-sommarpratare-presenteras
+    episode_key: hor-arets-sommarpratare-presenteras
+    legacy_unicode_slug: hör-årets-sommarpratare-presenteras
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/04/sommar__vinter_i_p1_poddtips_jag_skjuter_mig_om_20260420_1030536200.mp3
@@ -18890,7 +18903,7 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   - episode_title: Camilla Lif
     episode_url: https://www.sverigesradio.se/avsnitt/2700899
@@ -18902,7 +18915,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700899
     episode_slug: camilla-lif
     episode_key: camilla-lif
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
   - episode_title: Claes Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700884
@@ -18914,7 +18927,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700884
     episode_slug: claes-eriksson
     episode_key: claes-eriksson
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
   - episode_title: Dilsa Demirbag-Sten
     episode_url: https://www.sverigesradio.se/avsnitt/2700859
@@ -18926,7 +18939,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700859
     episode_slug: dilsa-demirbag-sten
     episode_key: dilsa-demirbag-sten
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/dilsa-demirbag-sten/"
   - episode_title: Ulf Ellervik
     episode_url: https://www.sverigesradio.se/avsnitt/2700835
@@ -18938,7 +18951,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700835
     episode_slug: ulf-ellervik
     episode_key: ulf-ellervik
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/ulf-ellervik/"
   - episode_title: Denise Rudberg
     episode_url: https://www.sverigesradio.se/avsnitt/2700813
@@ -18950,7 +18963,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700813
     episode_slug: denise-rudberg
     episode_key: denise-rudberg
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/denise-rudberg/"
   - episode_title: Bert Sundström
     episode_url: https://www.sverigesradio.se/avsnitt/2700802
@@ -18963,7 +18976,7 @@ episodes_by_feed:
     episode_slug: bert-sundstrom
     episode_key: bert-sundstrom
     legacy_unicode_slug: bert-sundström
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/bert-sundstrom/"
   - episode_title: Linnea Henriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700790
@@ -18975,7 +18988,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700790
     episode_slug: linnea-henriksson
     episode_key: linnea-henriksson
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/linnea-henriksson/"
   - episode_title: Thomas Bodström
     episode_url: https://www.sverigesradio.se/avsnitt/2700772
@@ -18988,7 +19001,7 @@ episodes_by_feed:
     episode_slug: thomas-bodstrom
     episode_key: thomas-bodstrom
     legacy_unicode_slug: thomas-bodström
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/thomas-bodstrom/"
   - episode_title: Vintervärdarna 2025 presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2705958
@@ -19001,7 +19014,7 @@ episodes_by_feed:
     episode_slug: vintervardarna-2025-presenteras
     episode_key: vintervardarna-2025-presenteras
     legacy_unicode_slug: vintervärdarna-2025-presenteras
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/vintervardarna-2025-presenteras/"
   - episode_title: Roland Pöntinen
     episode_url: https://www.sverigesradio.se/avsnitt/2579000
@@ -19014,7 +19027,7 @@ episodes_by_feed:
     episode_slug: roland-pontinen
     episode_key: roland-pontinen
     legacy_unicode_slug: roland-pöntinen
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/roland-pontinen/"
   - episode_title: Ella Carlsson
     episode_url: https://www.sverigesradio.se/avsnitt/2578999
@@ -19026,7 +19039,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578999
     episode_slug: ella-carlsson
     episode_key: ella-carlsson
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/ella-carlsson/"
   - episode_title: Aya Kanbar
     episode_url: https://www.sverigesradio.se/avsnitt/2578998
@@ -19038,7 +19051,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578998
     episode_slug: aya-kanbar
     episode_key: aya-kanbar
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/aya-kanbar/"
   - episode_title: Isabelle Haak
     episode_url: https://www.sverigesradio.se/avsnitt/2578997
@@ -19050,7 +19063,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578997
     episode_slug: isabelle-haak
     episode_key: isabelle-haak
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/isabelle-haak/"
   - episode_title: Mikael Wiehe
     episode_url: https://www.sverigesradio.se/avsnitt/2578996
@@ -19062,7 +19075,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578996
     episode_slug: mikael-wiehe
     episode_key: mikael-wiehe
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/mikael-wiehe/"
   - episode_title: Fråga Värden – Clas Svahn
     episode_url: https://www.sverigesradio.se/avsnitt/2621861
@@ -19075,7 +19088,7 @@ episodes_by_feed:
     episode_slug: fraga-varden-clas-svahn
     episode_key: fraga-varden-clas-svahn
     legacy_unicode_slug: fråga-värden-clas-svahn
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/fraga-varden-clas-svahn/"
   - episode_title: Clas Svahn
     episode_url: https://www.sverigesradio.se/avsnitt/2578995
@@ -19087,7 +19100,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578995
     episode_slug: clas-svahn
     episode_key: clas-svahn
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/clas-svahn/"
   - episode_title: Lotta Klemming
     episode_url: https://www.sverigesradio.se/avsnitt/2578994
@@ -19099,7 +19112,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578994
     episode_slug: lotta-klemming
     episode_key: lotta-klemming
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/lotta-klemming/"
   - episode_title: Britt Ekland
     episode_url: https://www.sverigesradio.se/avsnitt/2578993
@@ -19111,7 +19124,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578993
     episode_slug: britt-ekland
     episode_key: britt-ekland
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/britt-ekland/"
   - episode_title: Jonna Sundling
     episode_url: https://www.sverigesradio.se/avsnitt/2578992
@@ -19123,7 +19136,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578992
     episode_slug: jonna-sundling
     episode_key: jonna-sundling
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/jonna-sundling/"
   - episode_title: Per Persson
     episode_url: https://www.sverigesradio.se/avsnitt/2578991
@@ -19135,7 +19148,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578991
     episode_slug: per-persson
     episode_key: per-persson
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/per-persson/"
   - episode_title: Julia Ravanis
     episode_url: https://www.sverigesradio.se/avsnitt/2578990
@@ -19147,7 +19160,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578990
     episode_slug: julia-ravanis
     episode_key: julia-ravanis
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/julia-ravanis/"
   - episode_title: Malin Ackermann
     episode_url: https://www.sverigesradio.se/avsnitt/2578989
@@ -19159,7 +19172,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578989
     episode_slug: malin-ackermann
     episode_key: malin-ackermann
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/malin-ackermann/"
   - episode_title: Bo Ekman
     episode_url: https://www.sverigesradio.se/avsnitt/2578987
@@ -19171,20 +19184,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578987
     episode_slug: bo-ekman
     episode_key: bo-ekman
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/bo-ekman/"
-  - episode_title: Rissa Seidou
-    episode_url: https://www.sverigesradio.se/avsnitt/2578986
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/07/sommar__vinter_i_p1_rissa_seidou_20250821_1601105860.mp3
-    published_at: '2025-08-04T11:00:00Z'
-    description_html: <p>Järvapolisen om ungdomarna hon sett begravas och varför hon inte tänker lämna yrket.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Järvapolisen om ungdomarna hon sett begravas och varför hon inte tänker lämna yrket. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/3a6d4008-9d50-42d4-9d18-68cab5d95dbc.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2578986
-    episode_slug: rissa-seidou
-    episode_key: rissa-seidou
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/rissa-seidou/"
+    episode_page_url: "/sommar-vinter-i-p1/bo-ekman/"
   https://feeds.megaphone.fm/90gramosmethub: &64
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -22618,6 +22619,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/my-first-million/dhh-100m-advice-that-ll-piss-off-every-business-guru/"
   https://feed.podbean.com/mathiasmacody/feed.xml: &75
+  - episode_title: Opel Zafira
+    episode_url: https://mathiasmacody.podbean.com/e/opel-zafira/
+    audio_url: https://mcdn.podbean.com/mf/web/hdw3qibjjj6qp6uv/Opel_Zafira8xt5p.mp3
+    published_at: '2026-06-09T09:29:22-03:00'
+    description_html: "<p>Panelet samler troppene etter en travel uke. Martin har jobbet både seint og tidlig, men har fått skvist inn treningsøkter både her og der. Calle har slitt med en forkjølelse, men rakk likevel å innkassere det nye prestisje-segmentet i løpe-Bergen. Mathias fikk et realt hekseskudd i ryggen, men vakler videre i sitt forsøk på en Hail Mary Jølster-plan.</p><p>Marius Vedvik går rett i strupen på Mathias når han uttaler seg kritisk mot rustnivåene på Marius sin gode gamle Opel Zafira.</p><p>Og er jordbær-melk undervurdert eller overvurdert?</p><p>Sponsorer: Brooks, Torshov Sport, Zooca</p>"
+    description_plain: 'Panelet samler troppene etter en travel uke. Martin har jobbet både seint og tidlig, men har fått skvist inn treningsøkter både her og der. Calle har slitt med en forkjølelse, men rakk likevel å innkassere det nye prestisje-segmentet i løpe-Bergen. Mathias fikk et realt hekseskudd i ryggen, men vakler videre i sitt forsøk på en Hail Mary Jølster-plan. Marius Vedvik går rett i strupen på Mathias når han uttaler seg kritisk mot rustnivåene på Marius sin gode gamle Opel Zafira. Og er jordbær-melk undervurdert eller overvurdert? Sponsorer: Brooks, Torshov Sport, Zooca'
+    episode_image_url: ''
+    episode_uid: mathiasmacody-podbean-com-34f58ec5-7926-3e17-a72a-fbbc2c77dc33
+    episode_slug: opel-zafira
+    episode_key: opel-zafira
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/team-macody-podcast/opel-zafira/"
   - episode_title: Recap Kvalømilen
     episode_url: https://mathiasmacody.podbean.com/e/recap-kval%c3%b8milen/
     audio_url: https://mcdn.podbean.com/mf/web/4xsiksbzsnqcg9ep/Post_Kval_milen8kdsx.mp3
@@ -22629,7 +22642,7 @@ episodes_by_feed:
     episode_slug: recap-kvalomilen
     episode_key: recap-kvalomilen
     legacy_unicode_slug: recap-kvalømilen
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/team-macody-podcast/recap-kvalomilen/"
   - episode_title: Trond Mohn Games-spesial
     episode_url: https://mathiasmacody.podbean.com/e/trond-mohn-games-spesial/
@@ -22641,7 +22654,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-b881aab8-61a8-3fe9-9414-073aa0f95c9d
     episode_slug: trond-mohn-games-spesial
     episode_key: trond-mohn-games-spesial
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/team-macody-podcast/trond-mohn-games-spesial/"
   - episode_title: 5 dager til Team Macody Kvalømilen!
     episode_url: https://mathiasmacody.podbean.com/e/7-dager-til-team-macody-kval%c3%b8milen/
@@ -22654,7 +22667,7 @@ episodes_by_feed:
     episode_slug: 5-dager-til-team-macody-kvalomilen
     episode_key: 5-dager-til-team-macody-kvalomilen
     legacy_unicode_slug: 5-dager-til-team-macody-kvalømilen
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/team-macody-podcast/5-dager-til-team-macody-kvalomilen/"
   - episode_title: Post 17.Mai-stemning, Sykdom og Tveitevannet Rundt
     episode_url: https://mathiasmacody.podbean.com/e/post-17mai-stemning-sykdom-og-tveitevannet-rundt/
@@ -22666,7 +22679,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-b378f994-8f2c-3763-9d27-6aaff40678a9
     episode_slug: post-17-mai-stemning-sykdom-og-tveitevannet-rundt
     episode_key: post-17-mai-stemning-sykdom-og-tveitevannet-rundt
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/team-macody-podcast/post-17-mai-stemning-sykdom-og-tveitevannet-rundt/"
   - episode_title: Jeppe på Bjerget
     episode_url: https://mathiasmacody.podbean.com/e/jeppe-pa-bjerget/
@@ -22679,7 +22692,7 @@ episodes_by_feed:
     episode_slug: jeppe-pa-bjerget
     episode_key: jeppe-pa-bjerget
     legacy_unicode_slug: jeppe-på-bjerget
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/team-macody-podcast/jeppe-pa-bjerget/"
   - episode_title: Hvil i fred, Rimi-Hagen
     episode_url: https://mathiasmacody.podbean.com/e/hvil-i-fred-rimi-hagen/
@@ -22691,7 +22704,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-beb5867f-bf83-300a-8620-56c8d2a962a3
     episode_slug: hvil-i-fred-rimi-hagen
     episode_key: hvil-i-fred-rimi-hagen
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/team-macody-podcast/hvil-i-fred-rimi-hagen/"
   - episode_title: Kristian Blummenfelt + APL
     episode_url: https://mathiasmacody.podbean.com/e/kristian-blummenfelt-apl/
@@ -22703,7 +22716,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-10aaae39-f344-35f3-891c-f21b28e88e5c
     episode_slug: kristian-blummenfelt-apl
     episode_key: kristian-blummenfelt-apl
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/team-macody-podcast/kristian-blummenfelt-apl/"
   - episode_title: Recap Annecy
     episode_url: https://mathiasmacody.podbean.com/e/recap-annecy/
@@ -22715,7 +22728,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-26fa746c-6c7c-3b4a-964e-cb3948562b0f
     episode_slug: recap-annecy
     episode_key: recap-annecy
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/team-macody-podcast/recap-annecy/"
   - episode_title: 1 uke til "Slaget i Alpene"
     episode_url: https://mathiasmacody.podbean.com/e/1-uke-til-slaget-i-alpene/
@@ -22727,7 +22740,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-4d17eb93-ea28-39e5-ac91-86a946b642af
     episode_slug: 1-uke-til-slaget-i-alpene
     episode_key: 1-uke-til-slaget-i-alpene
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/team-macody-podcast/1-uke-til-slaget-i-alpene/"
   - episode_title: 'Road to Rotterdam/Annecy: Ola Sakshaug'
     episode_url: https://mathiasmacody.podbean.com/e/road-to-rotterdamannecy-ola-sakshaug/
@@ -22739,7 +22752,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-dc0d646c-3d7e-3e2a-926b-fdc316dabc24
     episode_slug: road-to-rotterdam-annecy-ola-sakshaug
     episode_key: road-to-rotterdam-annecy-ola-sakshaug
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/team-macody-podcast/road-to-rotterdam-annecy-ola-sakshaug/"
   - episode_title: Påske-spesial med panelet
     episode_url: https://mathiasmacody.podbean.com/e/paske-spesial-med-panelet/
@@ -22752,7 +22765,7 @@ episodes_by_feed:
     episode_slug: paske-spesial-med-panelet
     episode_key: paske-spesial-med-panelet
     legacy_unicode_slug: påske-spesial-med-panelet
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/team-macody-podcast/paske-spesial-med-panelet/"
   - episode_title: Kvaløs Comeback
     episode_url: https://mathiasmacody.podbean.com/e/kval%c3%b8s-comeback/
@@ -22765,7 +22778,7 @@ episodes_by_feed:
     episode_slug: kvalos-comeback
     episode_key: kvalos-comeback
     legacy_unicode_slug: kvaløs-comeback
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/team-macody-podcast/kvalos-comeback/"
   - episode_title: Kvaløymilen + Bankett
     episode_url: https://mathiasmacody.podbean.com/e/kval%c3%b8ymilen-bankett/
@@ -22778,7 +22791,7 @@ episodes_by_feed:
     episode_slug: kvaloymilen-bankett
     episode_key: kvaloymilen-bankett
     legacy_unicode_slug: kvaløymilen-bankett
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/team-macody-podcast/kvaloymilen-bankett/"
   - episode_title: Det tikker mot Kvalømilen
     episode_url: https://mathiasmacody.podbean.com/e/det-tikker-mot-kval%c3%b8milen/
@@ -22791,7 +22804,7 @@ episodes_by_feed:
     episode_slug: det-tikker-mot-kvalomilen
     episode_key: det-tikker-mot-kvalomilen
     legacy_unicode_slug: det-tikker-mot-kvalømilen
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/team-macody-podcast/det-tikker-mot-kvalomilen/"
   - episode_title: Hvem er Marianne Hagen?
     episode_url: https://mathiasmacody.podbean.com/e/hvem-er-marianne-hagen/
@@ -22803,7 +22816,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-2922cc0f-266e-36ff-97c6-00e96bce00b6
     episode_slug: hvem-er-marianne-hagen
     episode_key: hvem-er-marianne-hagen
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/team-macody-podcast/hvem-er-marianne-hagen/"
   - episode_title: 97 i Vo2 max
     episode_url: https://mathiasmacody.podbean.com/e/97-i-vo2-max/
@@ -22815,7 +22828,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-a6b81a01-0951-3b81-8ecd-814385feb897
     episode_slug: 97-i-vo2-max
     episode_key: 97-i-vo2-max
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/team-macody-podcast/97-i-vo2-max/"
   - episode_title: Hall Pass
     episode_url: https://mathiasmacody.podbean.com/e/hall-pass/
@@ -22827,7 +22840,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-074cdf9f-f103-310a-875a-2134d409406d
     episode_slug: hall-pass
     episode_key: hall-pass
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/team-macody-podcast/hall-pass/"
   - episode_title: Knockin On Heavens Door
     episode_url: https://mathiasmacody.podbean.com/e/knockin-on-heavens-door/
@@ -22839,7 +22852,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-178fb4c7-22a5-3af2-bfa0-db24744574ca
     episode_slug: knockin-on-heavens-door
     episode_key: knockin-on-heavens-door
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/team-macody-podcast/knockin-on-heavens-door/"
   - episode_title: Nerdeprat med Skeltvedt
     episode_url: https://mathiasmacody.podbean.com/e/nerdeprat-med-skeltvedt/
@@ -22851,7 +22864,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-7504f313-941e-3962-9637-010f1700f84a
     episode_slug: nerdeprat-med-skeltvedt
     episode_key: nerdeprat-med-skeltvedt
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/team-macody-podcast/nerdeprat-med-skeltvedt/"
   - episode_title: Frukt skal ikke i ovnen
     episode_url: https://mathiasmacody.podbean.com/e/frukt-skal-ikke-i-ovnen/
@@ -22863,7 +22876,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-9f9f10df-1a87-3796-98e4-cf47c840888f
     episode_slug: frukt-skal-ikke-i-ovnen
     episode_key: frukt-skal-ikke-i-ovnen
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/team-macody-podcast/frukt-skal-ikke-i-ovnen/"
   - episode_title: 'Uke 4: Vinter i Bergen'
     episode_url: https://mathiasmacody.podbean.com/e/uke-4-vinter-i-bergen/
@@ -22875,7 +22888,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-a425ed58-65db-3f7b-b7d8-9df12e9b0b2b
     episode_slug: uke-4-vinter-i-bergen
     episode_key: uke-4-vinter-i-bergen
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/team-macody-podcast/uke-4-vinter-i-bergen/"
   - episode_title: Uke 3 - Arbeidsleir i Arguineguin
     episode_url: https://mathiasmacody.podbean.com/e/uke-3-arbeidsleir-i-arguineguin/
@@ -22887,7 +22900,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-1b41c671-8377-3bae-91ba-82c3c2e6bed5
     episode_slug: uke-3-arbeidsleir-i-arguineguin
     episode_key: uke-3-arbeidsleir-i-arguineguin
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/team-macody-podcast/uke-3-arbeidsleir-i-arguineguin/"
   - episode_title: Selvbetjente kasser, norsk asfalt, spansk kaffe
     episode_url: https://mathiasmacody.podbean.com/e/selvbetjente-kasser-norsk-asfalt-spansk-kaffe/
@@ -22899,7 +22912,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-4981ff55-e24d-3647-af2b-c334d476ec0d
     episode_slug: selvbetjente-kasser-norsk-asfalt-spansk-kaffe
     episode_key: selvbetjente-kasser-norsk-asfalt-spansk-kaffe
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/team-macody-podcast/selvbetjente-kasser-norsk-asfalt-spansk-kaffe/"
   - episode_title: Sprengkulde i Bergen, hvetebakst på Granca
     episode_url: https://mathiasmacody.podbean.com/e/sprengkulde-i-bergen-hvetebakst-pa-granca/
@@ -22912,21 +22925,8 @@ episodes_by_feed:
     episode_slug: sprengkulde-i-bergen-hvetebakst-pa-granca
     episode_key: sprengkulde-i-bergen-hvetebakst-pa-granca
     legacy_unicode_slug: sprengkulde-i-bergen-hvetebakst-på-granca
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/team-macody-podcast/sprengkulde-i-bergen-hvetebakst-pa-granca/"
-  - episode_title: Romjulsjabbing og oppsummering av året
-    episode_url: https://mathiasmacody.podbean.com/e/romjulsjabbing-og-oppsummering-av-aret/
-    audio_url: https://mcdn.podbean.com/mf/web/fz6bxqevu62eztb6/romjulsjabb.mp3
-    published_at: '2025-12-29T17:34:41-04:00'
-    description_html: "<p>Calle, Martin og Mathias tar en oppsummering av 2025 og går igjennom de viktigste hendelsene i løpet av året. Det blir som mulig mye rorbuprat og litt skosnakk, samt Q and A.</p>"
-    description_plain: Calle, Martin og Mathias tar en oppsummering av 2025 og går igjennom de viktigste hendelsene i løpet av året. Det blir som mulig mye rorbuprat og litt skosnakk, samt Q and A.
-    episode_image_url: ''
-    episode_uid: mathiasmacody-podbean-com-99f2ba19-fb7f-3229-9868-421f24158d0e
-    episode_slug: romjulsjabbing-og-oppsummering-av-aret
-    episode_key: romjulsjabbing-og-oppsummering-av-aret
-    legacy_unicode_slug: romjulsjabbing-og-oppsummering-av-året
     legacy_numbered_slug: episode-25
-    episode_page_url: "/team-macody-podcast/romjulsjabbing-og-oppsummering-av-aret/"
+    episode_page_url: "/team-macody-podcast/sprengkulde-i-bergen-hvetebakst-pa-granca/"
   https://feeds.megaphone.fm/li6529969937: &76
   - episode_title: 'Emergency Pod: The YouTube Kids are taking over Hollywood'
     episode_url: ''
