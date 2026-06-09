@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-09T18:45:17Z'
+generated_at: '2026-06-09T19:43:47Z'
 items:
+- podcast_title: Uphill Athlete
+  podcast_page_url: "/uphill-athlete/"
+  cover_image: "/media/uphillathlete.jpeg"
+  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
+  filter_category: trail ultra skyrunning english
+  episode_title: Building the Aerobic Engine with Dr. Øyvind Sandbakk
+  episode_url: https://zencastr.com/z/CE8BWuuq
+  audio_url: https://redirect.zencastr.com/r/episode/6a2756fa645604f9a5ece6f1/size/85591996/video-files/635358be4592c880860238fe/2834bdbe-c52a-4111-878a-cdcff1c60c23.mp4
+  published_at: '2026-06-09T19:00:00+00:00'
+  episode_key: building-the-aerobic-engine-with-dr-oyvind-sandbakk
+  episode_slug: building-the-aerobic-engine-with-dr-oyvind-sandbakk
+  episode_page_url: "/uphill-athlete/building-the-aerobic-engine-with-dr-oyvind-sandbakk/"
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
   cover_image: "/media/swap.jpeg"
@@ -421,18 +433,6 @@ items:
   episode_key: la-sotana-414-amb-roger-mas
   episode_slug: la-sotana-414-amb-roger-mas
   episode_page_url: "/la-sotana/la-sotana-414-amb-roger-mas/"
-- podcast_title: Uphill Athlete
-  podcast_page_url: "/uphill-athlete/"
-  cover_image: "/media/uphillathlete.jpeg"
-  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
-  filter_category: trail ultra skyrunning english
-  episode_title: 'Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)'
-  episode_url: https://zencastr.com/z/j3OHYiVS
-  audio_url: https://redirect.zencastr.com/r/episode/6a1e3f3e94a0ef31b11abc1b/size/73872325/video-files/635358be4592c880860238fe/d8c8c6ef-5fe2-485e-91d7-6afc7f5b8a2e.mp4
-  published_at: '2026-06-02T18:00:00+00:00'
-  episode_key: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
-  episode_slug: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
-  episode_page_url: "/uphill-athlete/voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay/"
 - podcast_title: The Buzz
   podcast_page_url: "/the-buzz/"
   cover_image: "/media/thebuzz.jpeg"
@@ -10436,6 +10436,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/spring-snyggt/316-vera-sjoberg-var-nya-loparstjarna/"
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &35
+  - episode_title: Building the Aerobic Engine with Dr. Øyvind Sandbakk
+    episode_url: https://zencastr.com/z/CE8BWuuq
+    audio_url: https://redirect.zencastr.com/r/episode/6a2756fa645604f9a5ece6f1/size/85591996/video-files/635358be4592c880860238fe/2834bdbe-c52a-4111-878a-cdcff1c60c23.mp4
+    published_at: '2026-06-09T19:00:00+00:00'
+    description_html: '<p>Steve House welcomes Dr. Øivind Sandbakk, professor at the Norwegian School of Sports Sciences and director of the School for Elite Sports, for a deep dive into the science underlying Norwegian endurance dominance. Sandbakk traces his path from competitive cross-country skier to national-team coach to researcher, explaining that Norway''s success stems less from any single training method and more from three decades of shared terminology, systematic data collection, and cross-sport knowledge exchange. He walks through how training intensity distribution is not universal but must be derived from each sport''s specific demands — the metabolic fluctuations of skiing, the mechanical load constraints of running, the discipline-specific quirks of swimming and speed skating — and why blindly exporting any one "Norwegian model" misses the point entirely.</p><p>The conversation then turns to the practical architecture of elite endurance development: high volumes of low-intensity work as the aerobic foundation, two to three quality sessions per week, and careful load-recovery management where the goal is optimizing adaptation signals rather than executing a plan for its own sake. Sandbakk and House find common ground on the art of coaching — the calibrated gut feeling built from lab data, training diary patterns, and honest athlete communication — and explore muscular endurance, aerobic threshold identification, and the long arc of athletic development, noting that most athletes haven''t reached their aerobic ceiling until their early thirties. Sandbakk closes by previewing his current focus on young athlete development, arguing that building complete humans — psychologically resilient, multi-sport, injury-resistant — is the prerequisite for producing world champions.</p>'
+    description_plain: 'Steve House welcomes Dr. Øivind Sandbakk, professor at the Norwegian School of Sports Sciences and director of the School for Elite Sports, for a deep dive into the science underlying Norwegian endurance dominance. Sandbakk traces his path from competitive cross-country skier to national-team coach to researcher, explaining that Norway''s success stems less from any single training method and more from three decades of shared terminology, systematic data collection, and cross-sport knowledge exchange. He walks through how training intensity distribution is not universal but must be derived from each sport''s specific demands — the metabolic fluctuations of skiing, the mechanical load constraints of running, the discipline-specific quirks of swimming and speed skating — and why blindly exporting any one "Norwegian model" misses the point entirely. The conversation then turns to the practical architecture of elite endurance development: high volumes of low-intensity work as the aerobic foundation, two to three quality sessions per week, and careful load-recovery management where the goal is optimizing adaptation signals rather than executing a plan for its own sake. Sandbakk and House find common ground on the art of coaching — the calibrated gut feeling built from lab data, training diary patterns, and honest athlete communication — and explore muscular endurance, aerobic threshold identification, and the long arc of athletic development, noting that most athletes haven''t reached their aerobic ceiling until their early thirties. Sandbakk closes by previewing his current focus on young athlete development, arguing that building complete humans — psychologically resilient, multi-sport, injury-resistant — is the prerequisite for producing world champions.'
+    episode_image_url: https://media.zencastr.com/image-files/635358be4592c880860238fe/3c43c7b3-d648-4649-a6c6-b83135ecb8c5.jpg
+    episode_uid: 91415304-440b-47a4-a279-a7e4bbd3681e
+    episode_slug: building-the-aerobic-engine-with-dr-oyvind-sandbakk
+    episode_key: building-the-aerobic-engine-with-dr-oyvind-sandbakk
+    legacy_unicode_slug: building-the-aerobic-engine-with-dr-øyvind-sandbakk
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/uphill-athlete/building-the-aerobic-engine-with-dr-oyvind-sandbakk/"
   - episode_title: 'Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)'
     episode_url: https://zencastr.com/z/j3OHYiVS
     audio_url: https://redirect.zencastr.com/r/episode/6a1e3f3e94a0ef31b11abc1b/size/73872325/video-files/635358be4592c880860238fe/d8c8c6ef-5fe2-485e-91d7-6afc7f5b8a2e.mp4
@@ -10446,7 +10459,7 @@ episodes_by_feed:
     episode_uid: 8e5049fd-91a7-4c61-ba5f-a4a77ba5bec3
     episode_slug: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
     episode_key: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay/"
   - episode_title: The Four Inputs that Determine Your Progress
     episode_url: https://zencastr.com/z/Ypw8aclS
@@ -10458,7 +10471,7 @@ episodes_by_feed:
     episode_uid: db276c04-8436-49d1-a9f0-5b7ba2f1ccad
     episode_slug: the-four-inputs-that-determine-your-progress
     episode_key: the-four-inputs-that-determine-your-progress
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/uphill-athlete/the-four-inputs-that-determine-your-progress/"
   - episode_title: Muscular Endurance Training with Uphill Athlete Coaches
     episode_url: https://zencastr.com/z/_mCbGJX0
@@ -10470,7 +10483,7 @@ episodes_by_feed:
     episode_uid: 05341ded-0fdd-494f-969b-bd8c04c33392
     episode_slug: muscular-endurance-training-with-uphill-athlete-coaches
     episode_key: muscular-endurance-training-with-uphill-athlete-coaches
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/uphill-athlete/muscular-endurance-training-with-uphill-athlete-coaches/"
   - episode_title: 'Voice of the Mountains: Season Two Recap'
     episode_url: https://zencastr.com/z/PbWFmrHu
@@ -10482,7 +10495,7 @@ episodes_by_feed:
     episode_uid: 32c04b8d-1775-4237-a74a-3625332d89c3
     episode_slug: voice-of-the-mountains-season-two-recap
     episode_key: voice-of-the-mountains-season-two-recap
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-season-two-recap/"
   - episode_title: Making Sense of the Data with Dr. Marco Altini
     episode_url: https://zencastr.com/z/a113SzsF
@@ -10494,7 +10507,7 @@ episodes_by_feed:
     episode_uid: 2cf82139-5904-477b-925c-a40536d681c2
     episode_slug: making-sense-of-the-data-with-dr-marco-altini
     episode_key: making-sense-of-the-data-with-dr-marco-altini
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/uphill-athlete/making-sense-of-the-data-with-dr-marco-altini/"
   - episode_title: 'Voice of the Mountains: Success is Not the Summit with Peter Metcalf (Director''s Cut)'
     episode_url: https://zencastr.com/z/V716voug
@@ -10506,7 +10519,7 @@ episodes_by_feed:
     episode_uid: 6cda18aa-e5b9-40e6-b73e-f544c9414149
     episode_slug: voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut
     episode_key: voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut/"
   - episode_title: Understanding the Female Athlete
     episode_url: https://zencastr.com/z/QEvHUgqW
@@ -10518,7 +10531,7 @@ episodes_by_feed:
     episode_uid: 11a58f28-b3bc-448a-9d85-167b18777738
     episode_slug: understanding-the-female-athlete
     episode_key: understanding-the-female-athlete
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/uphill-athlete/understanding-the-female-athlete/"
   - episode_title: Strength for the Female Athlete
     episode_url: https://zencastr.com/z/stSN2Xrh
@@ -10530,7 +10543,7 @@ episodes_by_feed:
     episode_uid: f7c749f1-7040-4dc1-9055-53b45fb4f32f
     episode_slug: strength-for-the-female-athlete
     episode_key: strength-for-the-female-athlete
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/uphill-athlete/strength-for-the-female-athlete/"
   - episode_title: 'Voice of the Mountains: The Measure of Permission with Dr. Christine Theodorovics'
     episode_url: https://zencastr.com/z/rTIdzn_1
@@ -10542,7 +10555,7 @@ episodes_by_feed:
     episode_uid: 29b0b91f-73a6-4579-ae8c-6a167c016f39
     episode_slug: voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics
     episode_key: voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics/"
   - episode_title: Gas Exchange and Altitude Acclimatization with Dr Patrycja Jonetzko
     episode_url: https://zencastr.com/z/qkyAHOpP
@@ -10554,7 +10567,7 @@ episodes_by_feed:
     episode_uid: 30d07596-4edd-4f45-88b3-2f8e504ef0b6
     episode_slug: gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko
     episode_key: gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/uphill-athlete/gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko/"
   - episode_title: 'Voice of the Mountains: The Responsibility to Remain with Mark Twight (part two)'
     episode_url: https://zencastr.com/z/AUdtWUxw
@@ -10566,7 +10579,7 @@ episodes_by_feed:
     episode_uid: b6f7dfbf-4b56-4ee7-9f0b-148a4a6c6e45
     episode_slug: voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two
     episode_key: voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two/"
   - episode_title: 'Voice of the Mountains: The Hunger for Redemption with Mark Twight (part one)'
     episode_url: https://zencastr.com/z/bfVFcKtP
@@ -10578,7 +10591,7 @@ episodes_by_feed:
     episode_uid: fbe98393-bc65-4148-93bb-feaac08b8d37
     episode_slug: voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one
     episode_key: voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one/"
   - episode_title: '2026 Uphill Athlete Coaches: Goal Setting Summit'
     episode_url: https://zencastr.com/z/mDvPeta2
@@ -10590,7 +10603,7 @@ episodes_by_feed:
     episode_uid: b3d9a827-aac9-4777-9dd8-be72140648b2
     episode_slug: 2026-uphill-athlete-coaches-goal-setting-summit
     episode_key: 2026-uphill-athlete-coaches-goal-setting-summit
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/uphill-athlete/2026-uphill-athlete-coaches-goal-setting-summit/"
   - episode_title: 'Voice of the Mountains: Brilliance is Abundant with John Winsor'
     episode_url: https://zencastr.com/z/97sPck9A
@@ -10602,7 +10615,7 @@ episodes_by_feed:
     episode_uid: 5436e5d4-c5cf-4c19-9a43-317a7ed5743c
     episode_slug: voice-of-the-mountains-brilliance-is-abundant-with-john-winsor
     episode_key: voice-of-the-mountains-brilliance-is-abundant-with-john-winsor
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-brilliance-is-abundant-with-john-winsor/"
   - episode_title: 2025 Trail and Mountain Running Highlights with Gabe Joyes
     episode_url: https://zencastr.com/z/qPNkv2Ao
@@ -10614,7 +10627,7 @@ episodes_by_feed:
     episode_uid: fef125b2-2ebf-4c4d-83d7-021c4a441201
     episode_slug: 2025-trail-and-mountain-running-highlights-with-gabe-joyes
     episode_key: 2025-trail-and-mountain-running-highlights-with-gabe-joyes
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/uphill-athlete/2025-trail-and-mountain-running-highlights-with-gabe-joyes/"
   - episode_title: The Life Between Climbs with Scott Backes
     episode_url: https://zencastr.com/z/Ld--jcBg
@@ -10626,7 +10639,7 @@ episodes_by_feed:
     episode_uid: f9c35acf-00bb-4872-824d-01f05786cc32
     episode_slug: the-life-between-climbs-with-scott-backes
     episode_key: the-life-between-climbs-with-scott-backes
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/uphill-athlete/the-life-between-climbs-with-scott-backes/"
   - episode_title: 'Voice of the Mountains: The Geography of Risk with Kyle Lefkoff'
     episode_url: https://zencastr.com/z/_J2JnXxe
@@ -10638,7 +10651,7 @@ episodes_by_feed:
     episode_uid: 23b02a3a-44a2-4f5c-a4c8-b3c7f9abcef4
     episode_slug: voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff
     episode_key: voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff/"
   - episode_title: 'Nutrition Tips for Athletes: Holiday Edition - Replay'
     episode_url: https://zencastr.com/z/PDI0phcw
@@ -10650,7 +10663,7 @@ episodes_by_feed:
     episode_uid: 84d7d820-7f2c-4f2a-839f-fa2653e44c41
     episode_slug: nutrition-tips-for-athletes-holiday-edition-replay
     episode_key: nutrition-tips-for-athletes-holiday-edition-replay
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/uphill-athlete/nutrition-tips-for-athletes-holiday-edition-replay/"
   - episode_title: 'Supplements: How to Choose Safe and Effective Products'
     episode_url: https://zencastr.com/z/NZvBA3A7
@@ -10662,7 +10675,7 @@ episodes_by_feed:
     episode_uid: daa8fbab-6d3d-4fea-8365-ebfdce3fb760
     episode_slug: supplements-how-to-choose-safe-and-effective-products
     episode_key: supplements-how-to-choose-safe-and-effective-products
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/uphill-athlete/supplements-how-to-choose-safe-and-effective-products/"
   - episode_title: 'Voice of the Mountains: The Poetry of the Long Game with Randy Leavitt'
     episode_url: https://zencastr.com/z/E6ZrCs5d
@@ -10674,7 +10687,7 @@ episodes_by_feed:
     episode_uid: a908dc3a-bc6e-4e65-a20d-c7186eadbc75
     episode_slug: voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt
     episode_key: voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt/"
   - episode_title: Should Endurance Athletes Use Supplements?
     episode_url: https://zencastr.com/z/dDzkrqOE
@@ -10686,7 +10699,7 @@ episodes_by_feed:
     episode_uid: eddcd688-f2b8-419b-97d8-020c2342fb68
     episode_slug: should-endurance-athletes-use-supplements
     episode_key: should-endurance-athletes-use-supplements
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/uphill-athlete/should-endurance-athletes-use-supplements/"
   - episode_title: The Joy of Ski Training with Ben Morley
     episode_url: https://zencastr.com/z/4eqW36RP
@@ -10698,7 +10711,7 @@ episodes_by_feed:
     episode_uid: 757b0661-cc9f-4389-b9a5-2ad9ebebf84b
     episode_slug: the-joy-of-ski-training-with-ben-morley
     episode_key: the-joy-of-ski-training-with-ben-morley
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/uphill-athlete/the-joy-of-ski-training-with-ben-morley/"
   - episode_title: 'Voice of the Mountains: To See the Moment with Greg Penner'
     episode_url: https://zencastr.com/z/0kk7k4e7
@@ -10710,7 +10723,7 @@ episodes_by_feed:
     episode_uid: 41c8bfed-214e-42ef-851a-0300740df0ee
     episode_slug: voice-of-the-mountains-to-see-the-moment-with-greg-penner
     episode_key: voice-of-the-mountains-to-see-the-moment-with-greg-penner
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-to-see-the-moment-with-greg-penner/"
   - episode_title: The Yosemite Triple with Laura Pineau
     episode_url: https://zencastr.com/z/kKgswkcE
@@ -10722,20 +10735,8 @@ episodes_by_feed:
     episode_uid: 2c016e9c-61bb-437a-95c7-a07fae6f0316
     episode_slug: the-yosemite-triple-with-laura-pineau
     episode_key: the-yosemite-triple-with-laura-pineau
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/uphill-athlete/the-yosemite-triple-with-laura-pineau/"
-  - episode_title: Foot Care with Dr. Jeff Hammond
-    episode_url: https://zencastr.com/z/Zvt7cFPq
-    audio_url: https://redirect.zencastr.com/r/episode/68b8b4ae979e656aa15818df/size/1097998429/video-files/635358be4592c880860238fe/c73fb4f9-55c3-4f7f-ab94-41f5b41ba22a.mp4
-    published_at: '2025-09-09T11:00:00+00:00'
-    description_html: '<p>Dr. Jeff Hammond, a double-boarded foot and ankle specialist, joins host Alyssa Clark to talk about athlete foot health and injury prevention. They cover the pros and cons of shoe drop, custom orthotics, and how different footwear can impact performance and injury risk. Jeff shares practical advice on managing Achilles tendonitis, stress fractures, blisters, and trench foot while emphasizing prevention through smart training, socks, and foot care. The conversation also explores mental and physical challenges athletes face during tapering and long races, plus strategies for nutrition and gear testing. Join us to learn about all things foot care and injury prevention.</p><p>You can learn more about Dr. Hammond at https://hammondfootandankle.com/</p><p>If you''d like to check out our special offer for podcast listeners visit: <a href="http://uphillathlete.com/letsgo">uphillathlete.com/letsgo</a></p><p>You can also write to us at coach@uphillathlete.com</p>'
-    description_plain: 'Dr. Jeff Hammond, a double-boarded foot and ankle specialist, joins host Alyssa Clark to talk about athlete foot health and injury prevention. They cover the pros and cons of shoe drop, custom orthotics, and how different footwear can impact performance and injury risk. Jeff shares practical advice on managing Achilles tendonitis, stress fractures, blisters, and trench foot while emphasizing prevention through smart training, socks, and foot care. The conversation also explores mental and physical challenges athletes face during tapering and long races, plus strategies for nutrition and gear testing. Join us to learn about all things foot care and injury prevention. You can learn more about Dr. Hammond at https://hammondfootandankle.com/ If you''d like to check out our special offer for podcast listeners visit: uphillathlete.com/letsgo You can also write to us at coach@uphillathlete.com'
-    episode_image_url: https://media.zencastr.com/image-files/635358be4592c880860238fe/d5e24825-d3b6-4946-bbed-2cb9ff6ca856.jpg
-    episode_uid: 80006413-a8bb-4c29-8a79-e0ddbfb1b0bc
-    episode_slug: foot-care-with-dr-jeff-hammond
-    episode_key: foot-care-with-dr-jeff-hammond
     legacy_numbered_slug: episode-25
-    episode_page_url: "/uphill-athlete/foot-care-with-dr-jeff-hammond/"
+    episode_page_url: "/uphill-athlete/the-yosemite-triple-with-laura-pineau/"
   https://anchor.fm/s/db96fa60/podcast/rss: &36
   - episode_title: 2026 USATF Mountain Classic Championship - Sunapee Scramble Preview
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-USATF-Mountain-Classic-Championship---Sunapee-Scramble-Preview-e3kc00n
