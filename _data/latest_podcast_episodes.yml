@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-10T17:07:01Z'
+generated_at: '2026-06-10T18:54:03Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running/"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  filter_category: ultra trail english
+  episode_title: 'SDW50km 2026 Pre-Race Interviews: Nicole Funnell'
+  episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-nicole-funnell
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a29a5ec29205cc2728e5ae2.mp3
+  published_at: '2026-06-10T18:16:40+00:00'
+  episode_key: sdw50km-2026-pre-race-interviews-nicole-funnell
+  episode_slug: sdw50km-2026-pre-race-interviews-nicole-funnell
+  episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-nicole-funnell/"
 - podcast_title: The Real Science Of Sport
   podcast_page_url: "/the-real-science-of-sport/"
   cover_image: "/media/realscienceofsportpod.jpeg"
@@ -157,18 +169,6 @@ items:
   episode_key: this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo
   episode_slug: this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo
   episode_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo/"
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running/"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  filter_category: ultra trail english
-  episode_title: 'Weekly News Ep. 40 & Race Review: Comrades'
-  episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-40-and-race-review-comrades
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a2680b423bb7458525e990e.mp3
-  published_at: '2026-06-08T08:54:54+00:00'
-  episode_key: weekly-news-ep-40-race-review-comrades
-  episode_slug: weekly-news-ep-40-race-review-comrades
-  episode_page_url: "/centurion-running/weekly-news-ep-40-race-review-comrades/"
 - podcast_title: Føkk Asfalt
   podcast_page_url: "/fokk-asfalt/"
   cover_image: "/media/fokk-asfalt-logo.webp"
@@ -2129,6 +2129,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fokk-asfalt/obt-2025-portrett-9-birgitte-nyblin-austgulen/"
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW50km 2026 Pre-Race Interviews: Nicole Funnell'
+    episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-nicole-funnell
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a29a5ec29205cc2728e5ae2.mp3
+    published_at: '2026-06-10T18:16:40+00:00'
+    description_html: '<p>The final of our pre-race interviews in the lead up to the 2026 South Downs Way 100 &amp; 50km. Hosts Julia Davis and Robbie Britton welcome Nicole Funnell. Third at the SDW100 last year in 16:58. The fourth fastest all time performance. Later that summer, Nicole went on to finish fourth at Lakeland 50. In April, Nicole finished second at the British 100km Champs representing England.</p><p><a href="https://www.centurionultrarunningstore.com/discount/PODCAST10?redirect=%2Fcollections%2Frrp" target="_blank">Visit the store here and enter code PODCAST10</a> for 10% off all RRP items</p><p>Find our show partners Precision Fuel and Hydration Planner here: <a href="https://www.precisionhydration.com/planner/" target="_blank">https://www.precisionhydration.com/planner/</a></p><p>Visit the PF&amp;H collection at our store here: <a href="https://www.centurionultrarunningstore.com/collections/precision-hydration" target="_blank">https://www.centurionultrarunningstore.com/collections/precision-hydration</a></p>'
+    description_plain: 'The final of our pre-race interviews in the lead up to the 2026 South Downs Way 100 &amp; 50km. Hosts Julia Davis and Robbie Britton welcome Nicole Funnell. Third at the SDW100 last year in 16:58. The fourth fastest all time performance. Later that summer, Nicole went on to finish fourth at Lakeland 50. In April, Nicole finished second at the British 100km Champs representing England. Visit the store here and enter code PODCAST10 for 10% off all RRP items Find our show partners Precision Fuel and Hydration Planner here: https://www.precisionhydration.com/planner/ Visit the PF&amp;H collection at our store here: https://www.centurionultrarunningstore.com/collections/precision-hydration'
+    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1781114379/knwxmjnkqvqdbtr8f7xv.jpg
+    episode_uid: sdw50km-2026-pre-race-interviews-nicole-funnell
+    episode_slug: sdw50km-2026-pre-race-interviews-nicole-funnell
+    episode_key: sdw50km-2026-pre-race-interviews-nicole-funnell
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-nicole-funnell/"
   - episode_title: 'Weekly News Ep. 40 & Race Review: Comrades'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-40-and-race-review-comrades
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a2680b423bb7458525e990e.mp3
@@ -2139,7 +2151,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-40-and-race-review-comrades
     episode_slug: weekly-news-ep-40-race-review-comrades
     episode_key: weekly-news-ep-40-race-review-comrades
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/centurion-running/weekly-news-ep-40-race-review-comrades/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-autumn-100-champion
@@ -2151,7 +2163,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-aut
     episode_slug: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
     episode_key: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
   - episode_title: 'SDW100 Pre-Race Interviews: Robyn Cassidy. Lakeland 100 and Dragons Back Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
@@ -2163,7 +2175,7 @@ episodes_by_feed:
     episode_uid: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_slug: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_key: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/centurion-running/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
@@ -2175,7 +2187,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-
     episode_slug: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
     episode_key: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
@@ -2187,7 +2199,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_slug: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_key: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
@@ -2199,7 +2211,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_slug: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_key: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder/"
   - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
@@ -2211,7 +2223,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
     episode_slug: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
     episode_key: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/centurion-running/weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news/"
   - episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
@@ -2223,7 +2235,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_slug: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_key: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/centurion-running/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice/"
   - episode_title: 'Weekly News Ep.38: North Downs Way 50 Recap | UTS |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-downs-way-50-recap-or-uts-or
@@ -2235,7 +2247,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep38-north-downs-way-50-recap-or-uts-or
     episode_slug: weekly-news-ep-38-north-downs-way-50-recap-uts
     episode_key: weekly-news-ep-38-north-downs-way-50-recap-uts
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/centurion-running/weekly-news-ep-38-north-downs-way-50-recap-uts/"
   - episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
@@ -2247,7 +2259,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep37-north-downs-way-50-preview
     episode_slug: weekly-news-ep-37-north-downs-way-50-preview
     episode_key: weekly-news-ep-37-north-downs-way-50-preview
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
   - episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
     episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
@@ -2259,7 +2271,7 @@ episodes_by_feed:
     episode_uid: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_slug: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_key: interview-martin-stone-mountain-fell-and-ultrarunning-records
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/centurion-running/interview-martin-stone-mountain-fell-and-ultrarunning-records/"
   - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
@@ -2271,7 +2283,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-imo-boddy
     episode_slug: centurion-coaching-podcast-imo-boddy
     episode_key: centurion-coaching-podcast-imo-boddy
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/centurion-running/centurion-coaching-podcast-imo-boddy/"
   - episode_title: Thames Path 100 2026 Results and Recap
     episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
@@ -2283,7 +2295,7 @@ episodes_by_feed:
     episode_uid: thames-path-100-2026-results-and-recap
     episode_slug: thames-path-100-2026-results-and-recap
     episode_key: thames-path-100-2026-results-and-recap
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/centurion-running/thames-path-100-2026-results-and-recap/"
   - episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
     episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
@@ -2295,7 +2307,7 @@ episodes_by_feed:
     episode_uid: mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
     episode_slug: mt-fuji-100-report-with-robbie-britton-miut-canyons
     episode_key: mt-fuji-100-report-with-robbie-britton-miut-canyons
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/centurion-running/mt-fuji-100-report-with-robbie-britton-miut-canyons/"
   - episode_title: 'Weekly News Ep. 35: TP100 Preview | Fellsman | London Marathon | 3 Peaks | DOTH |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
@@ -2307,7 +2319,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
     episode_slug: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
     episode_key: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/centurion-running/weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth/"
   - episode_title: 'Weekly News Ep. 34: Northern Traverse | Dragons Back | Mt Fuji 100 | MIUT | So Many Races |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
@@ -2319,7 +2331,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
     episode_slug: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
     episode_key: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/centurion-running/weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races/"
   - episode_title: 'Weekly Ep. 33: British Trail Champs | MDS | Lake Sonoma |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
@@ -2331,7 +2343,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
     episode_slug: weekly-ep-33-british-trail-champs-mds-lake-sonoma
     episode_key: weekly-ep-33-british-trail-champs-mds-lake-sonoma
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/centurion-running/weekly-ep-33-british-trail-champs-mds-lake-sonoma/"
   - episode_title: South Downs Way 50 2026 Results & Recap
     episode_url: https://www.centurionrunning.com/podcast/south-downs-way-50-2026-results-and-recap
@@ -2343,7 +2355,7 @@ episodes_by_feed:
     episode_uid: south-downs-way-50-2026-results-and-recap
     episode_slug: south-downs-way-50-2026-results-recap
     episode_key: south-downs-way-50-2026-results-recap
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/centurion-running/south-downs-way-50-2026-results-recap/"
   - episode_title: 'Weekly Ep. 32: SDW50 Preview | MDS | British Trail Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
@@ -2355,7 +2367,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
     episode_slug: weekly-ep-32-sdw50-preview-mds-british-trail-champs
     episode_key: weekly-ep-32-sdw50-preview-mds-british-trail-champs
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/centurion-running/weekly-ep-32-sdw50-preview-mds-british-trail-champs/"
   - episode_title: 'Weekly Ep.31: Sea to Sea 300km Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep31-sea-to-sea-300km-recap
@@ -2367,7 +2379,7 @@ episodes_by_feed:
     episode_uid: weekly-ep31-sea-to-sea-300km-recap
     episode_slug: weekly-ep-31-sea-to-sea-300km-recap
     episode_key: weekly-ep-31-sea-to-sea-300km-recap
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/centurion-running/weekly-ep-31-sea-to-sea-300km-recap/"
   - episode_title: 'Weekly Ep.30 : ACP100km | Sea to Sea 300km | Community Traverse |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
@@ -2379,7 +2391,7 @@ episodes_by_feed:
     episode_uid: weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
     episode_slug: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
     episode_key: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/centurion-running/weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse/"
   - episode_title: 'Weekly Ep.29: Sea to Sea 300km | ACP100km | World 50km Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep29-sea-to-sea-300km-or-acp100km-or-world-50km-champs-or
@@ -2391,7 +2403,7 @@ episodes_by_feed:
     episode_uid: weekly-ep29-sea-to-sea-300km-or-acp100km-or-world-50km-champs-or
     episode_slug: weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs
     episode_key: weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/centurion-running/weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs/"
   - episode_title: 'Weekly Ep. 28: Hundred Hills 50km Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-28-hundred-hills-50km-recap
@@ -2403,7 +2415,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-28-hundred-hills-50km-recap
     episode_slug: weekly-ep-28-hundred-hills-50km-recap
     episode_key: weekly-ep-28-hundred-hills-50km-recap
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/centurion-running/weekly-ep-28-hundred-hills-50km-recap/"
   - episode_title: Ourea Events No More. How, Why and What does it mean for our sport.
     episode_url: https://www.centurionrunning.com/podcast/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
@@ -2415,20 +2427,8 @@ episodes_by_feed:
     episode_uid: ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
     episode_slug: ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
     episode_key: ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/centurion-running/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport/"
-  - episode_title: 'Weekly Ep. 27: Hundred Hills 50km Preview'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep-27-hundred-hills-50km-preview
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b140bd32a9bcf3746012d2.mp3
-    published_at: '2026-03-11T10:19:24+00:00'
-    description_html: "<p>This weeks episode features an in-depth look at the Hundred Hills 50km which kicks off this Saturday at 0900. Our RD James Elson reviews the course, the history of the race and looks at all the likely leading contenders from the stacked womens and mens race fields.</p><p>Find the full preview post here: https://www.centurionrunning.com/news/2026/03/10/hundred-hills-50km-2026-preview</p>"
-    description_plain: 'This weeks episode features an in-depth look at the Hundred Hills 50km which kicks off this Saturday at 0900. Our RD James Elson reviews the course, the history of the race and looks at all the likely leading contenders from the stacked womens and mens race fields. Find the full preview post here: https://www.centurionrunning.com/news/2026/03/10/hundred-hills-50km-2026-preview'
-    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1773224371/g6i0afgpvi5qnut8boaq.jpg
-    episode_uid: weekly-ep-27-hundred-hills-50km-preview
-    episode_slug: weekly-ep-27-hundred-hills-50km-preview
-    episode_key: weekly-ep-27-hundred-hills-50km-preview
     legacy_numbered_slug: episode-25
-    episode_page_url: "/centurion-running/weekly-ep-27-hundred-hills-50km-preview/"
+    episode_page_url: "/centurion-running/ourea-events-no-more-how-why-and-what-does-it-mean-for-our-sport/"
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Mark Dowdle on Backyard Ultras, Keeping Promises to Yourself, and What Hour 60 Reveals
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/mark_dowdle_on_backyard_ultras_keeping_promises_to_yourself_and_what_hour_60_reveals
