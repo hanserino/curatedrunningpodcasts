@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-12T09:25:51Z'
+generated_at: '2026-06-12T11:19:54Z'
 items:
+- podcast_title: Second Nature
+  podcast_page_url: "/second-nature/"
+  cover_image: "/media/secondnaturepodcast.jpeg"
+  feed_url: https://rss.libsyn.com/shows/519408/destinations/4458728.xml
+  filter_category: business english
+  episode_title: The Sunscreen Brand That's Rewriting Performance Science
+  episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-sunscreen-brand-thats-rewriting-performance-science
+  audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Pelotan.mp3?dest-id=4458728
+  published_at: '2026-06-12T10:44:00+00:00'
+  episode_key: the-sunscreen-brand-that-s-rewriting-performance-science
+  episode_slug: the-sunscreen-brand-that-s-rewriting-performance-science
+  episode_page_url: "/second-nature/the-sunscreen-brand-that-s-rewriting-performance-science/"
+- podcast_title: Human Performance Outliers
+  podcast_page_url: "/human-performance-outliers/"
+  cover_image: "/media/humanperformanceoutliers.jpeg"
+  feed_url: https://rss.libsyn.com/shows/118682/destinations/685773.xml
+  filter_category: ultra english
+  episode_title: 'Episode 491: The Art Of Ultrarunning | Ian Sharman'
+  episode_url: https://humanperformanceoutliers.libsyn.com/episode-491-the-art-of-ultrarunning-ian-sharman
+  audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.491_IanSharman_audio_complete.mp3?dest-id=685773
+  published_at: '2026-06-12T10:00:00+00:00'
+  episode_key: episode-491-the-art-of-ultrarunning-ian-sharman
+  episode_slug: episode-491-the-art-of-ultrarunning-ian-sharman
+  episode_page_url: "/human-performance-outliers/episode-491-the-art-of-ultrarunning-ian-sharman/"
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run/"
   cover_image: "/media/forthelongrun.jpeg"
@@ -373,30 +397,6 @@ items:
   episode_key: 128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
   episode_slug: 128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
   episode_page_url: "/the-extramilest-show/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer/"
-- podcast_title: Second Nature
-  podcast_page_url: "/second-nature/"
-  cover_image: "/media/secondnaturepodcast.jpeg"
-  feed_url: https://rss.libsyn.com/shows/519408/destinations/4458728.xml
-  filter_category: business english
-  episode_title: 'Behind The Brand: Athletic Brewing'
-  episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/behind-the-brand-athletic-brewing
-  audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-AthleticBrewing.mp3?dest-id=4458728
-  published_at: '2026-06-05T10:21:00+00:00'
-  episode_key: behind-the-brand-athletic-brewing
-  episode_slug: behind-the-brand-athletic-brewing
-  episode_page_url: "/second-nature/behind-the-brand-athletic-brewing/"
-- podcast_title: Human Performance Outliers
-  podcast_page_url: "/human-performance-outliers/"
-  cover_image: "/media/humanperformanceoutliers.jpeg"
-  feed_url: https://rss.libsyn.com/shows/118682/destinations/685773.xml
-  filter_category: ultra english
-  episode_title: 'Episode 490: Multiday Ultramarathon Performance Insights | Kevin Goldberg'
-  episode_url: https://humanperformanceoutliers.libsyn.com/episode-490-multiday-ultramarathon-performance-insights-keven-goldberg
-  audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.490_KevinGoldberg_audio_complete.mp3?dest-id=685773
-  published_at: '2026-06-05T10:00:00+00:00'
-  episode_key: episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg
-  episode_slug: episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg
-  episode_page_url: "/human-performance-outliers/episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg/"
 - podcast_title: FKT Podcast
   podcast_page_url: "/fkt-podcast/"
   cover_image: "/media/fkt-podcast.jpeg"
@@ -13489,6 +13489,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/distance-to-empty/lauren-jones-is-flagstaff-bound-at-the-2026-cocodona-250/"
   https://feeds.simplecast.com/6hkohngs: &45
+  - episode_title: "‘Hard Fork’ Live, Part 1: Satya Nadella and Cindy Cohn"
+    episode_url: https://www.nytimes.com/column/hard-fork
+    audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/9ecc57ce-4f60-4b34-a531-8157d3d5073e/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=9ecc57ce-4f60-4b34-a531-8157d3d5073e&feed=6HKOhNgS
+    published_at: '2026-06-12T11:01:28+00:00'
+    description_html: '<p>This week and next, we’re bringing you recordings from our second-ever live taping in San Francisco. First, we sit down with Microsoft’s chief executive, Satya Nadella, to hear what he’s maxing out his A.I. tokens on, why he’s skeptical that software developers will ever be fully replaced, and how he’s hoping to create a new business model for Xbox. Then, Phil Mohun tells us what it has been like to watch people in the Bay Area interact with two robot dogs that wear the faces of Elon Musk and Mark Zuckerberg. And finally, we talk with the longtime privacy defender Cindy Cohn about where things stand in the fight to protect internet users from digital surveillance by Big Tech and the government.</p><p>Guests:</p><ul><li><a href="https://news.microsoft.com/source/exec/satya-nadella/" rel="noopener noreferrer">Satya Nadella</a>, chairman and chief executive of Microsoft.</li><li><a href="https://www.philmohun.com/" rel="noopener noreferrer">Phil Mohun</a>, executive director of Node.</li><li><a href="https://www.eff.org/about/staff/cindy-cohn" rel="noopener noreferrer">Cindy Cohn</a>, former executive director of the Electronic Frontier Foundation and author of “Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance.”</li></ul><p>Additional Reading:</p><ul><li><a href="https://www.nytimes.com/2026/06/10/technology/microsoft-satya-nadella-artificial-intelligence.html" rel="noopener noreferrer">Microsoft C.E.O. Satya Nadella Says, ‘Everyone Is a Stakeholder’ in A.I.</a></li><li><a href="https://nodefoundation.com/program/infinite-loop" rel="noopener noreferrer">Node presents “Beeple: /Infinite_Loop”</a></li></ul><p>We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on <a href="https://www.youtube.com/hardfork" rel="noopener noreferrer">YouTube</a> and <a href="https://www.tiktok.com/@hardfork" rel="noopener noreferrer">TikTok</a>.</p><p><p>Subscribe today at <a href="http://nytimes.com/podcasts">nytimes.com/podcasts</a> or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here <a href="https://www.nytimes.com/activate-access/audio?source=podcatcher">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><p>Hosted by Simplecast, an AdsWizz company. See <a href="https://pcm.adswizz.com">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>'
+    description_plain: 'This week and next, we’re bringing you recordings from our second-ever live taping in San Francisco. First, we sit down with Microsoft’s chief executive, Satya Nadella, to hear what he’s maxing out his A.I. tokens on, why he’s skeptical that software developers will ever be fully replaced, and how he’s hoping to create a new business model for Xbox. Then, Phil Mohun tells us what it has been like to watch people in the Bay Area interact with two robot dogs that wear the faces of Elon Musk and Mark Zuckerberg. And finally, we talk with the longtime privacy defender Cindy Cohn about where things stand in the fight to protect internet users from digital surveillance by Big Tech and the government. Guests: Satya Nadella , chairman and chief executive of Microsoft. Phil Mohun , executive director of Node. Cindy Cohn , former executive director of the Electronic Frontier Foundation and author of “Privacy’s Defender: My Thirty-Year Fight Against Digital Surveillance.” Additional Reading: Microsoft C.E.O. Satya Nadella Says, ‘Everyone Is a Stakeholder’ in A.I. Node presents “Beeple: /Infinite_Loop” We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.'
+    episode_image_url: ''
+    episode_uid: 41c26687-bb10-4fcd-9c93-3358cab25770
+    episode_slug: hard-fork-live-part-1-satya-nadella-and-cindy-cohn
+    episode_key: hard-fork-live-part-1-satya-nadella-and-cindy-cohn
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/hard-fork/hard-fork-live-part-1-satya-nadella-and-cindy-cohn/"
   - episode_title: Hot I.P.O Summer + What Is A.I. Doing to Math? + HatGPT
     episode_url: https://www.nytimes.com/column/hard-fork
     audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/251f62fd-3b1d-4f8b-a5b0-0966414c7f74/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=251f62fd-3b1d-4f8b-a5b0-0966414c7f74&feed=6HKOhNgS
@@ -13499,7 +13511,7 @@ episodes_by_feed:
     episode_uid: 0235c1af-ecf6-4d7e-ad5a-6d8319398a2c
     episode_slug: hot-i-p-o-summer-what-is-a-i-doing-to-math-hatgpt
     episode_key: hot-i-p-o-summer-what-is-a-i-doing-to-math-hatgpt
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/hard-fork/hot-i-p-o-summer-what-is-a-i-doing-to-math-hatgpt/"
   - episode_title: 'Interesting Times: Why Are We Still Driving?'
     episode_url: https://www.nytimes.com/column/hard-fork
@@ -13511,7 +13523,7 @@ episodes_by_feed:
     episode_uid: ac9b5539-ffff-4492-8fb3-912754ec9cdd
     episode_slug: interesting-times-why-are-we-still-driving
     episode_key: interesting-times-why-are-we-still-driving
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/hard-fork/interesting-times-why-are-we-still-driving/"
   - episode_title: What’s a Hard Fork?
     episode_url: https://www.nytimes.com/2022/10/04/podcasts/hard-fork-technology.html
@@ -13523,7 +13535,7 @@ episodes_by_feed:
     episode_uid: 4e573fc5-f8ff-404c-af6e-a003d8835d31
     episode_slug: what-s-a-hard-fork
     episode_key: what-s-a-hard-fork
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/hard-fork/what-s-a-hard-fork/"
   https://audioboom.com/channels/5166619.rss: &46
   - episode_title: Two Steps Forward, One Step Back w. Jennifer Siebel Newsom
@@ -16745,6 +16757,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/themove/liege-bastogne-liege-2026-breakdown-themove/"
   https://rss.libsyn.com/shows/519408/destinations/4458728.xml: &56
+  - episode_title: The Sunscreen Brand That's Rewriting Performance Science
+    episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-sunscreen-brand-thats-rewriting-performance-science
+    audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Pelotan.mp3?dest-id=4458728
+    published_at: '2026-06-12T10:44:00+00:00'
+    description_html: '<p>Tom Austen is the founder of Pelotan, the world''s first sun performance brand, and co-founder of Chance, a trail running apparel brand he''s building with pro athlete and serial entrepreneur Christian Meier. Both brands are based in Girona, Spain — a two-square-kilometer pocket of world-class endurance athletes, cafes, and startups that''s become the Boulder of Europe.</p><p>In this conversation, Tom walks through how Pelotan went from a sunburn problem on training rides to winning two Tour de Frances with Team Sky in its first year, and how the brand is now pioneering something entirely new: treating the sun as a performance variable rather than just a health risk. He also gets into the Chance origin story, why cross-pollination across categories is the key to building something original, and what it''s like to run two high-growth startups at the same time from a city of 100,000 people.</p><p>Show Notes:</p><p>Popfly for Athletes/Creators: <a href= "https://popf.ly/secondnaturecreators" target="_blank" rel= "noopener">https://popf.ly/secondnaturecreators</a></p><p>Popfly for Brands: <a href="https://popf.ly/secondnaturebrands" target="_blank" rel= "noopener">https://popf.ly/secondnaturebrands</a></p><p>Tom Austen: <a href="https://www.linkedin.com/in/tomausten1/" target="_blank" rel= "noopener">https://www.linkedin.com/in/tomausten1/</a></p><p>Pelotan: <a href="https://pelotan.cc/" target="_blank" rel= "noopener">https://pelotan.cc/</a></p><p>Chance Running: <a href="https://chancerunning.com/" target= "_blank" rel="noopener">https://chancerunning.com/</a></p><p>Second Nature - Sea Otter Episode: <a href= "https://www.youtube.com/watch?v=hLk1LGIthPc" target="_blank" rel= "noopener">https://www.youtube.com/watch?v=hLk1LGIthPc</a></p><p>Christian Meier: <a href= "https://www.instagram.com/christianmmeier/" target="_blank" rel= "noopener">https://www.instagram.com/christianmmeier/</a></p><p>The Gartner Hype Cycle: <a href= "https://www.forbes.com/sites/johnwerner/2024/07/18/the-trough-of-disillusionment-and-four-outliers-on-the-gartner-hype-cycle/" target="_blank" rel= "noopener">https://www.forbes.com/sites/johnwerner/2024/07/18/the-trough-of-disillusionment-and-four-outliers-on-the-gartner-hype-cycle/</a></p><p>Pelotan Apres Aftersun: <a href= "https://pelotan.cc/products/pelotan-apres-200ml" target="_blank" rel= "noopener">https://pelotan.cc/products/pelotan-apres-200ml</a></p><p>Pelotan App for Second Nature listeners: <a href= "https://pelotan.cc/secondnature" target="_blank" rel= "noopener">https://pelotan.cc/secondnature</a></p><p>Broken Arrow Skyrace: <a href= "https://www.brokenarrowskyrace.com/" target="_blank" rel= "noopener">https://www.brokenarrowskyrace.com/</a></p><p>Lael Wilcox: <a href="https://www.instagram.com/laelwilcox/" target="_blank" rel= "noopener">https://www.instagram.com/laelwilcox/</a></p><p>BPC - Brand, Product, Content:</p><p>Nomio: <a href="https://drinknomio.com/" target="_blank" rel= "noopener">https://drinknomio.com/</a></p><p>Adidas World Cup ad: <a href= "https://www.youtube.com/watch?v=mJJY53qhJe0" target="_blank" rel= "noopener">https://www.youtube.com/watch?v=mJJY53qhJe0</a></p><p>Nike - Airport soccer: <a href= "https://www.youtube.com/watch?v=mGalnbiGDW4" target="_blank" rel= "noopener">https://www.youtube.com/watch?v=mGalnbiGDW4</a></p><p>Insta360 GO Ultra: <a href= "https://store.insta360.com/product/go-ultra" target="_blank" rel= "noopener">https://store.insta360.com/product/go-ultra</a></p><p>Join us on LinkedIn: <a href= "https://www.linkedin.com/company/second-nature-media" target= "_blank" rel= "noopener">https://www.linkedin.com/company/second-nature-media</a></p><p>Meet us on Slack: <a href= "https://www.launchpass.com/second-nature" target="_blank" rel= "noopener">https://www.launchpass.com/second-nature</a></p><p>Follow us on Instagram: <a href= "https://www.instagram.com/secondnature.media" target="_blank" rel= "noopener">https://www.instagram.com/secondnature.media</a></p><p>Subscribe to our newsletter: <a href= "https://www.secondnature.media" target="_blank" rel= "noopener">https://www.secondnature.media</a></p><p>Subscribe to the YouTube channel: <a href= "https://www.youtube.com/@secondnaturemedia" target="_blank" rel= "noopener">https://www.youtube.com/@secondnaturemedia</a></p>'
+    description_plain: 'Tom Austen is the founder of Pelotan, the world''s first sun performance brand, and co-founder of Chance, a trail running apparel brand he''s building with pro athlete and serial entrepreneur Christian Meier. Both brands are based in Girona, Spain — a two-square-kilometer pocket of world-class endurance athletes, cafes, and startups that''s become the Boulder of Europe. In this conversation, Tom walks through how Pelotan went from a sunburn problem on training rides to winning two Tour de Frances with Team Sky in its first year, and how the brand is now pioneering something entirely new: treating the sun as a performance variable rather than just a health risk. He also gets into the Chance origin story, why cross-pollination across categories is the key to building something original, and what it''s like to run two high-growth startups at the same time from a city of 100,000 people. Show Notes: Popfly for Athletes/Creators: https://popf.ly/secondnaturecreators Popfly for Brands: https://popf.ly/secondnaturebrands Tom Austen: https://www.linkedin.com/in/tomausten1/ Pelotan: https://pelotan.cc/ Chance Running: https://chancerunning.com/ Second Nature - Sea Otter Episode: https://www.youtube.com/watch?v=hLk1LGIthPc Christian Meier: https://www.instagram.com/christianmmeier/ The Gartner Hype Cycle: https://www.forbes.com/sites/johnwerner/2024/07/18/the-trough-of-disillusionment-and-four-outliers-on-the-gartner-hype-cycle/ Pelotan Apres Aftersun: https://pelotan.cc/products/pelotan-apres-200ml Pelotan App for Second Nature listeners: https://pelotan.cc/secondnature Broken Arrow Skyrace: https://www.brokenarrowskyrace.com/ Lael Wilcox: https://www.instagram.com/laelwilcox/ BPC - Brand, Product, Content: Nomio: https://drinknomio.com/ Adidas World Cup ad: https://www.youtube.com/watch?v=mJJY53qhJe0 Nike - Airport soccer: https://www.youtube.com/watch?v=mGalnbiGDW4 Insta360 GO Ultra: https://store.insta360.com/product/go-ultra Join us on LinkedIn: https://www.linkedin.com/company/second-nature-media Meet us on Slack: https://www.launchpass.com/second-nature Follow us on Instagram: https://www.instagram.com/secondnature.media Subscribe to our newsletter: https://www.secondnature.media Subscribe to the YouTube channel: https://www.youtube.com/@secondnaturemedia'
+    episode_image_url: ''
+    episode_uid: d784e5ca-8e5c-4908-aac6-09aff06652f7
+    episode_slug: the-sunscreen-brand-that-s-rewriting-performance-science
+    episode_key: the-sunscreen-brand-that-s-rewriting-performance-science
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/second-nature/the-sunscreen-brand-that-s-rewriting-performance-science/"
   - episode_title: 'Behind The Brand: Athletic Brewing'
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/behind-the-brand-athletic-brewing
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-AthleticBrewing.mp3?dest-id=4458728
@@ -16755,7 +16779,7 @@ episodes_by_feed:
     episode_uid: b75344fa-42df-4928-9c78-57e48ed8e69f
     episode_slug: behind-the-brand-athletic-brewing
     episode_key: behind-the-brand-athletic-brewing
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/second-nature/behind-the-brand-athletic-brewing/"
   - episode_title: What Happens When You Actually Ask For Help
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/what-happens-when-you-actually-ask-for-help
@@ -16767,7 +16791,7 @@ episodes_by_feed:
     episode_uid: b9e06100-0260-4105-bc57-8173841b8f96
     episode_slug: what-happens-when-you-actually-ask-for-help
     episode_key: what-happens-when-you-actually-ask-for-help
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/second-nature/what-happens-when-you-actually-ask-for-help/"
   - episode_title: You Can Just Build Things Now
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/you-can-just-build-things-now
@@ -16779,7 +16803,7 @@ episodes_by_feed:
     episode_uid: 54772533-2398-4c01-904f-c0f4a7a533f9
     episode_slug: you-can-just-build-things-now
     episode_key: you-can-just-build-things-now
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/second-nature/you-can-just-build-things-now/"
   - episode_title: What 5.5 Million Followers Taught Her About Brand Social
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/what-55-million-followers-taught-her-about-brand-social
@@ -16791,7 +16815,7 @@ episodes_by_feed:
     episode_uid: ead7e81e-a984-4438-abd8-2eac506eae2d
     episode_slug: what-5-5-million-followers-taught-her-about-brand-social
     episode_key: what-5-5-million-followers-taught-her-about-brand-social
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/second-nature/what-5-5-million-followers-taught-her-about-brand-social/"
   - episode_title: What Outdoor Brands Get Wrong About Storytelling
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/what-outdoor-brands-get-wrong-about-storytelling
@@ -16803,7 +16827,7 @@ episodes_by_feed:
     episode_uid: afd51504-85e7-4337-8205-1357a978998a
     episode_slug: what-outdoor-brands-get-wrong-about-storytelling
     episode_key: what-outdoor-brands-get-wrong-about-storytelling
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/second-nature/what-outdoor-brands-get-wrong-about-storytelling/"
   - episode_title: Why Your Brand's YouTube Channel Is Failing (And How to Fix It)
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/why-your-brands-youtube-channel-is-failing-and-how-to-fix-it
@@ -16815,7 +16839,7 @@ episodes_by_feed:
     episode_uid: ea2c915c-716d-4025-97ff-a3bd6cfd0b68
     episode_slug: why-your-brand-s-youtube-channel-is-failing-and-how-to-fix-it
     episode_key: why-your-brand-s-youtube-channel-is-failing-and-how-to-fix-it
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/second-nature/why-your-brand-s-youtube-channel-is-failing-and-how-to-fix-it/"
   - episode_title: Why PR Is Now More Powerful Than Paid Search
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/why-pr-is-now-more-powerful-than-paid-search
@@ -16827,7 +16851,7 @@ episodes_by_feed:
     episode_uid: 69295c00-c540-428b-a128-d41ad807b2be
     episode_slug: why-pr-is-now-more-powerful-than-paid-search
     episode_key: why-pr-is-now-more-powerful-than-paid-search
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/second-nature/why-pr-is-now-more-powerful-than-paid-search/"
   - episode_title: Athletes, Managers, Founders — Sea Otter Unfiltered
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/athletes-managers-founders-sea-otter-unfiltered
@@ -16839,7 +16863,7 @@ episodes_by_feed:
     episode_uid: 2b5aeba4-d6eb-4e20-b5dc-7a84bcd423c7
     episode_slug: athletes-managers-founders-sea-otter-unfiltered
     episode_key: athletes-managers-founders-sea-otter-unfiltered
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/second-nature/athletes-managers-founders-sea-otter-unfiltered/"
   - episode_title: Bikes Are Bigger Than the Bike Industry Thinks
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/bikes-are-bigger-than-the-bike-industry-thinks
@@ -16851,7 +16875,7 @@ episodes_by_feed:
     episode_uid: 875f2264-a795-4c53-8166-f1ee71ee8340
     episode_slug: bikes-are-bigger-than-the-bike-industry-thinks
     episode_key: bikes-are-bigger-than-the-bike-industry-thinks
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/second-nature/bikes-are-bigger-than-the-bike-industry-thinks/"
   - episode_title: 150 Episodes In - We're Just Getting Started
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/150-episodes-in-were-just-getting-started
@@ -16863,7 +16887,7 @@ episodes_by_feed:
     episode_uid: aeea21a6-2fcc-40f0-8565-c07daa899b7a
     episode_slug: 150-episodes-in-we-re-just-getting-started
     episode_key: 150-episodes-in-we-re-just-getting-started
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/second-nature/150-episodes-in-we-re-just-getting-started/"
   - episode_title: Why Curiosity Outlasts Strategy
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/why-curiosity-outlasts-strategy
@@ -16875,7 +16899,7 @@ episodes_by_feed:
     episode_uid: 50361735-a71b-4d21-aa07-0d09cb0d60c2
     episode_slug: why-curiosity-outlasts-strategy
     episode_key: why-curiosity-outlasts-strategy
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/second-nature/why-curiosity-outlasts-strategy/"
   - episode_title: The Evolution of Brands, Athletes and Creators
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-evolution-of-brands-athletes-and-creators
@@ -16887,7 +16911,7 @@ episodes_by_feed:
     episode_uid: 28d059eb-3161-487c-954d-4e6b3c2634ac
     episode_slug: the-evolution-of-brands-athletes-and-creators
     episode_key: the-evolution-of-brands-athletes-and-creators
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/second-nature/the-evolution-of-brands-athletes-and-creators/"
   - episode_title: A Refreshing Approach To Acquisition In the Outdoor Industry
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/a-refreshing-approach-to-acquisition-in-the-outdoor-industry
@@ -16899,7 +16923,7 @@ episodes_by_feed:
     episode_uid: 6db000a6-60c9-43a3-ae93-46c33c3bef08
     episode_slug: a-refreshing-approach-to-acquisition-in-the-outdoor-industry
     episode_key: a-refreshing-approach-to-acquisition-in-the-outdoor-industry
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/second-nature/a-refreshing-approach-to-acquisition-in-the-outdoor-industry/"
   - episode_title: The Future Of Investing In The Outdoor Industry
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-future-of-investing-in-the-outdoor-industry
@@ -16911,7 +16935,7 @@ episodes_by_feed:
     episode_uid: 2ebb5a0e-0ccb-45f1-b604-a1b49e2756f1
     episode_slug: the-future-of-investing-in-the-outdoor-industry
     episode_key: the-future-of-investing-in-the-outdoor-industry
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/second-nature/the-future-of-investing-in-the-outdoor-industry/"
   - episode_title: Uplifting Talent In The Outdoor Industry
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/uplifting-talent-in-the-outdoor-industry
@@ -16923,7 +16947,7 @@ episodes_by_feed:
     episode_uid: e9baa90a-f1fe-4cb3-b58b-732ae855cce9
     episode_slug: uplifting-talent-in-the-outdoor-industry
     episode_key: uplifting-talent-in-the-outdoor-industry
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/second-nature/uplifting-talent-in-the-outdoor-industry/"
   - episode_title: The Roadmap Of Rumpl
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-roadmap-of-rumpl
@@ -16935,7 +16959,7 @@ episodes_by_feed:
     episode_uid: 430694d4-93a7-4fa0-a57f-7b28ac5e4fec
     episode_slug: the-roadmap-of-rumpl
     episode_key: the-roadmap-of-rumpl
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/second-nature/the-roadmap-of-rumpl/"
   - episode_title: Uncovering The Fear Of Success
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/uncovering-the-fear-of-success
@@ -16947,7 +16971,7 @@ episodes_by_feed:
     episode_uid: de19017f-c478-42a6-8638-559c08f39360
     episode_slug: uncovering-the-fear-of-success
     episode_key: uncovering-the-fear-of-success
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/second-nature/uncovering-the-fear-of-success/"
   - episode_title: The Past, Present and Future of Des Linden
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-past-present-and-future-of-des-linden
@@ -16959,7 +16983,7 @@ episodes_by_feed:
     episode_uid: f9364f51-f539-47c2-a612-467d7b503ce6
     episode_slug: the-past-present-and-future-of-des-linden
     episode_key: the-past-present-and-future-of-des-linden
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/second-nature/the-past-present-and-future-of-des-linden/"
   - episode_title: The Outdoor Brand Spending $1 MILLION On Ads (Every Month)
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-outdoor-brand-spending-1-million-on-ads-every-month
@@ -16971,7 +16995,7 @@ episodes_by_feed:
     episode_uid: 71aba3fd-19d7-4f7d-8436-e5704810000c
     episode_slug: the-outdoor-brand-spending-1-million-on-ads-every-month
     episode_key: the-outdoor-brand-spending-1-million-on-ads-every-month
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/second-nature/the-outdoor-brand-spending-1-million-on-ads-every-month/"
   - episode_title: How To Write A Book About Running
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/how-to-write-a-book-about-running
@@ -16983,7 +17007,7 @@ episodes_by_feed:
     episode_uid: b26ebf74-0372-4f70-aa5a-dcf6f6a1c061
     episode_slug: how-to-write-a-book-about-running
     episode_key: how-to-write-a-book-about-running
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/second-nature/how-to-write-a-book-about-running/"
   - episode_title: How To Build A Platform For Lifelong Athletes
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/how-to-build-a-platform-for-lifelong-athletes
@@ -16995,7 +17019,7 @@ episodes_by_feed:
     episode_uid: 1fc458f8-819e-43d7-96fc-7bdb4ab8c191
     episode_slug: how-to-build-a-platform-for-lifelong-athletes
     episode_key: how-to-build-a-platform-for-lifelong-athletes
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/second-nature/how-to-build-a-platform-for-lifelong-athletes/"
   - episode_title: Predictions For The Outdoor Industry In 2026
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/sn138-predictions-for-the-outdoor-industry-in-2026
@@ -17007,7 +17031,7 @@ episodes_by_feed:
     episode_uid: e9f25d3e-bebc-4d14-a498-4e4e8e672703
     episode_slug: predictions-for-the-outdoor-industry-in-2026
     episode_key: predictions-for-the-outdoor-industry-in-2026
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/second-nature/predictions-for-the-outdoor-industry-in-2026/"
   - episode_title: '20 Years Of Brand Building Lessons: FlyLow'
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/20-years-of-brand-building-lessons-flylow
@@ -17019,7 +17043,7 @@ episodes_by_feed:
     episode_uid: 5a140311-c41b-4e63-ae64-c84356974c40
     episode_slug: 20-years-of-brand-building-lessons-flylow
     episode_key: 20-years-of-brand-building-lessons-flylow
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/second-nature/20-years-of-brand-building-lessons-flylow/"
   - episode_title: All Good Things Must Come To An End
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/all-good-things-must-come-to-an-end
@@ -17031,20 +17055,8 @@ episodes_by_feed:
     episode_uid: 0ad2cb3c-851a-45a9-81b4-e918eea17ee1
     episode_slug: all-good-things-must-come-to-an-end
     episode_key: all-good-things-must-come-to-an-end
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/second-nature/all-good-things-must-come-to-an-end/"
-  - episode_title: The Business Of Outdoor Eats
-    episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-business-of-outdoor-eats
-    audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/The_Business_Of_Outdoor_Eats.mp3?dest-id=4458728
-    published_at: '2025-12-19T13:00:00+00:00'
-    description_html: "<p>Chef Corso launched Outdoor Eats to improve the quality of trailside food. On his journey to level up everyone's culinary experience outdoors, he managed to build a brand that includes a TV series (going on its third season), a line of cookbooks, and plenty more. Reaching the outdoor audience has been an iterative process, and we dug into all of the details and steps along the way.</p><p>Chef Corso: https://www.instagram.com/outdooreats365/</p><p>Outdoor Eats: https://outdooreats.tv/</p><p>Trail Meals Cookbook: https://outdooreats.com/product/trail-meals-cascade-edition/</p><p>Chef Corso Substack: https://chefcorso.substack.com/</p><p>Creativity Inc: https://amzn.to/48UruQ4</p><p>Science Of Scaling: https://amzn.to/4r6MviC</p><p>Heliconia Productions: https://heliconia.ca/</p><p>Aaron's SF Peninsula Video: https://www.youtube.com/watch?v=CHqGcGxmvGw</p><p>Titanium Spork: https://outdooreats.com/product/creekside-titanium-spork/</p><p>OE Guided Trips 2026: https://outdooreats.com/outdoor-eats-guided-trips-2026/</p><p>BPC - Brand, Product, Content:</p><p>Why You Eat What You Eat: https://amzn.to/4j2ypLy</p><p>Mama Lil's Peppers: https://amzn.to/3KRoUm0</p><p>Red Bull - Everest Ski Video: https://www.youtube.com/watch?v=cjZvFY6__qw</p><p>Join us on LinkedIn: https://www.linkedin.com/company/second-nature-media</p><p>Meet us on Slack: https://www.launchpass.com/second-nature</p><p>Follow us on Instagram: https://www.instagram.com/secondnature.media</p><p>Subscribe to our newsletter: https://www.secondnature.media</p><p>Subscribe to the YouTube channel: https://www.youtube.com/@secondnaturemedia</p>"
-    description_plain: 'Chef Corso launched Outdoor Eats to improve the quality of trailside food. On his journey to level up everyone''s culinary experience outdoors, he managed to build a brand that includes a TV series (going on its third season), a line of cookbooks, and plenty more. Reaching the outdoor audience has been an iterative process, and we dug into all of the details and steps along the way. Chef Corso: https://www.instagram.com/outdooreats365/ Outdoor Eats: https://outdooreats.tv/ Trail Meals Cookbook: https://outdooreats.com/product/trail-meals-cascade-edition/ Chef Corso Substack: https://chefcorso.substack.com/ Creativity Inc: https://amzn.to/48UruQ4 Science Of Scaling: https://amzn.to/4r6MviC Heliconia Productions: https://heliconia.ca/ Aaron''s SF Peninsula Video: https://www.youtube.com/watch?v=CHqGcGxmvGw Titanium Spork: https://outdooreats.com/product/creekside-titanium-spork/ OE Guided Trips 2026: https://outdooreats.com/outdoor-eats-guided-trips-2026/ BPC - Brand, Product, Content: Why You Eat What You Eat: https://amzn.to/4j2ypLy Mama Lil''s Peppers: https://amzn.to/3KRoUm0 Red Bull - Everest Ski Video: https://www.youtube.com/watch?v=cjZvFY6__qw Join us on LinkedIn: https://www.linkedin.com/company/second-nature-media Meet us on Slack: https://www.launchpass.com/second-nature Follow us on Instagram: https://www.instagram.com/secondnature.media Subscribe to our newsletter: https://www.secondnature.media Subscribe to the YouTube channel: https://www.youtube.com/@secondnaturemedia'
-    episode_image_url: ''
-    episode_uid: 538ffe14-3057-4301-b9db-e123e2dcbdea
-    episode_slug: the-business-of-outdoor-eats
-    episode_key: the-business-of-outdoor-eats
     legacy_numbered_slug: episode-25
-    episode_page_url: "/second-nature/the-business-of-outdoor-eats/"
+    episode_page_url: "/second-nature/all-good-things-must-come-to-an-end/"
   https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034: &57
   - episode_title: 'Ep. 252: Lizzo | Rock Bottom, #1, and the Game Nobody Explains'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
@@ -22321,6 +22333,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/lex-fridman-podcast/473-iran-war-debate-nuclear-weapons-trump-peace-power-the-middle-east/"
   https://feeds.megaphone.fm/hs2300184645: &74
+  - episode_title: The most simplified breakdown of the SpaceX IPO on the internet
+    episode_url: ''
+    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS2271768526.mp3
+    published_at: '2026-06-12T10:56:00Z'
+    description_html: '<p><strong>Get our Business Idea Database:</strong><a href="https://clickhubspot.com/wjsl"><strong> https://clickhubspot.com/wjsl</strong></a></p><p>Episode 833: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) and Shaan Puri ( <a href="https://x.com/ShaanVP"><u>https://x.com/ShaanVP</u></a> ) breakdown the biggest IPO of all time.</p><p>—</p><p>Show Notes:</p><p>(0:00) what even is SpaceX</p><p>(7:11) What even is a trillion dollars?</p><p>(8:51) Launches explained</p><p>(9:07) Starlink</p><p>(14:07) Data centers in space</p><p>(17:39) Starship</p><p>(24:46) Grok</p><p>(28:06) a wonderful business at a silly price?</p><p>(34:16) the mission</p><p>(37:51) SBF''s $114B fumble</p><p>(39:04) funny, weird, surprising nuggets from the IPO</p><p>(42:35Who''s getting rich this week?</p><p>(51:13) The genius insight of Luke at Gigafund</p><p>(55:46) Pessimists get to be right, optimists get to be right</p><p>(59:12) Elon''s comp package</p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Need a bank for your company? Go check out Mercury (<a href="http://mercury.com/">mercury.com</a>). Shaan uses it for all of his companies!</p><p><em>Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p>beehiiv.com/mfm-challenge</p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
+    description_plain: 'Get our Business Idea Database: https://clickhubspot.com/wjsl Episode 833: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) breakdown the biggest IPO of all time. — Show Notes: (0:00) what even is SpaceX (7:11) What even is a trillion dollars? (8:51) Launches explained (9:07) Starlink (14:07) Data centers in space (17:39) Starship (24:46) Grok (28:06) a wonderful business at a silly price? (34:16) the mission (37:51) SBF''s $114B fumble (39:04) funny, weird, surprising nuggets from the IPO (42:35Who''s getting rich this week? (51:13) The genius insight of Luke at Gigafund (55:46) Pessimists get to be right, optimists get to be right (59:12) Elon''s comp package — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury ( mercury.com ). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
+    episode_image_url: ''
+    episode_uid: c68664a6-65f4-11f1-9de4-e37b68835eca
+    episode_slug: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
+    episode_key: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/my-first-million/the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet/"
   - episode_title: Brutally honest guide to not losing money in the market
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS5754626623.mp3
@@ -22331,7 +22355,7 @@ episodes_by_feed:
     episode_uid: 9e1c2478-64c4-11f1-84cd-772fbe16ca42
     episode_slug: brutally-honest-guide-to-not-losing-money-in-the-market
     episode_key: brutally-honest-guide-to-not-losing-money-in-the-market
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/my-first-million/brutally-honest-guide-to-not-losing-money-in-the-market/"
   - episode_title: 'The "Idiot Index": the simple math that made Elon Musk billions'
     episode_url: ''
@@ -22343,7 +22367,7 @@ episodes_by_feed:
     episode_uid: 6f819d98-5f90-11f1-801f-4b95257989f7
     episode_slug: the-idiot-index-the-simple-math-that-made-elon-musk-billions
     episode_key: the-idiot-index-the-simple-math-that-made-elon-musk-billions
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/my-first-million/the-idiot-index-the-simple-math-that-made-elon-musk-billions/"
   - episode_title: We found 7 business ideas that will blow up in 2026
     episode_url: ''
@@ -22355,7 +22379,7 @@ episodes_by_feed:
     episode_uid: 548f822c-5e71-11f1-8953-67690eb1a7e9
     episode_slug: we-found-7-business-ideas-that-will-blow-up-in-2026
     episode_key: we-found-7-business-ideas-that-will-blow-up-in-2026
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/my-first-million/we-found-7-business-ideas-that-will-blow-up-in-2026/"
   - episode_title: The insane true story behind MTV
     episode_url: ''
@@ -22367,7 +22391,7 @@ episodes_by_feed:
     episode_uid: 728780f2-5af4-11f1-9c0c-3f4651ea78e5
     episode_slug: the-insane-true-story-behind-mtv
     episode_key: the-insane-true-story-behind-mtv
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/my-first-million/the-insane-true-story-behind-mtv/"
   - episode_title: The 50 richest families in America are betting on this trend
     episode_url: ''
@@ -22379,7 +22403,7 @@ episodes_by_feed:
     episode_uid: 6d34df0a-5941-11f1-a122-871eda1ebd30
     episode_slug: the-50-richest-families-in-america-are-betting-on-this-trend
     episode_key: the-50-richest-families-in-america-are-betting-on-this-trend
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/my-first-million/the-50-richest-families-in-america-are-betting-on-this-trend/"
   - episode_title: 'Mohnish Pabrai: This will save you 10 years of bad investments'
     episode_url: ''
@@ -22391,7 +22415,7 @@ episodes_by_feed:
     episode_uid: 47fa4356-55d6-11f1-8e97-9f707faff290
     episode_slug: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
     episode_key: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/my-first-million/mohnish-pabrai-this-will-save-you-10-years-of-bad-investments/"
   - episode_title: How Gary Vee runs 7 businesses
     episode_url: ''
@@ -22403,7 +22427,7 @@ episodes_by_feed:
     episode_uid: dda1a364-5314-11f1-adfa-ff899d3d9bff
     episode_slug: how-gary-vee-runs-7-businesses
     episode_key: how-gary-vee-runs-7-businesses
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/my-first-million/how-gary-vee-runs-7-businesses/"
   - episode_title: We hit record on our private strategy session
     episode_url: ''
@@ -22415,7 +22439,7 @@ episodes_by_feed:
     episode_uid: cc8f8d78-5050-11f1-8627-67885a2431b6
     episode_slug: we-hit-record-on-our-private-strategy-session
     episode_key: we-hit-record-on-our-private-strategy-session
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/my-first-million/we-hit-record-on-our-private-strategy-session/"
   - episode_title: How to manufacture a billionaire childhood
     episode_url: ''
@@ -22427,7 +22451,7 @@ episodes_by_feed:
     episode_uid: 01e5975a-4ebd-11f1-bb47-ab5cba329297
     episode_slug: how-to-manufacture-a-billionaire-childhood
     episode_key: how-to-manufacture-a-billionaire-childhood
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/my-first-million/how-to-manufacture-a-billionaire-childhood/"
   - episode_title: I put 80% of my money in the S&P
     episode_url: ''
@@ -22439,7 +22463,7 @@ episodes_by_feed:
     episode_uid: bb4c9a48-4d2a-11f1-b25d-8b22698537a3
     episode_slug: i-put-80-of-my-money-in-the-s-p
     episode_key: i-put-80-of-my-money-in-the-s-p
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/my-first-million/i-put-80-of-my-money-in-the-s-p/"
   - episode_title: How Replit Agent made $1M on day one (then $250M in a year)
     episode_url: ''
@@ -22451,7 +22475,7 @@ episodes_by_feed:
     episode_uid: 2ee1169c-4a0a-11f1-a08c-07fbaacaa2a3
     episode_slug: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
     episode_key: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/my-first-million/how-replit-agent-made-1m-on-day-one-then-250m-in-a-year/"
   - episode_title: Spotting Billion Dollar Investments Was Hard Until I Learned These 3 Rules | Rohan Oza
     episode_url: ''
@@ -22463,7 +22487,7 @@ episodes_by_feed:
     episode_uid: 3f0047e0-481c-11f1-8396-87c0687b7af3
     episode_slug: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
     episode_key: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/my-first-million/spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza/"
   - episode_title: This Opportunity Is Hidden In Plain Sight
     episode_url: ''
@@ -22475,7 +22499,7 @@ episodes_by_feed:
     episode_uid: 913eb3fe-435b-11f1-9187-7fc70c93a52e
     episode_slug: this-opportunity-is-hidden-in-plain-sight
     episode_key: this-opportunity-is-hidden-in-plain-sight
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/my-first-million/this-opportunity-is-hidden-in-plain-sight/"
   - episode_title: How to find your thing
     episode_url: ''
@@ -22487,7 +22511,7 @@ episodes_by_feed:
     episode_uid: 4c7342ea-41a2-11f1-b3bf-9f18d66051ca
     episode_slug: how-to-find-your-thing
     episode_key: how-to-find-your-thing
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/my-first-million/how-to-find-your-thing/"
   - episode_title: This guy built a $1B+ brand in 3 years. The product? You'd never guess
     episode_url: ''
@@ -22499,7 +22523,7 @@ episodes_by_feed:
     episode_uid: 5c1c6b3c-3ff3-11f1-bedf-5761296b80f8
     episode_slug: this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess
     episode_key: this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/my-first-million/this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess/"
   - episode_title: 25% Of My Portfolio Is One Overvalued Stock, Here's Why
     episode_url: ''
@@ -22511,7 +22535,7 @@ episodes_by_feed:
     episode_uid: 8658da72-3e57-11f1-964d-a3588e93fc1c
     episode_slug: 25-of-my-portfolio-is-one-overvalued-stock-here-s-why
     episode_key: 25-of-my-portfolio-is-one-overvalued-stock-here-s-why
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/my-first-million/25-of-my-portfolio-is-one-overvalued-stock-here-s-why/"
   - episode_title: "#1 Habit Expert: Here's how you become dramatically better"
     episode_url: ''
@@ -22523,7 +22547,7 @@ episodes_by_feed:
     episode_uid: 612c71e2-39a1-11f1-a443-0b57f56ee0b0
     episode_slug: 1-habit-expert-here-s-how-you-become-dramatically-better
     episode_key: 1-habit-expert-here-s-how-you-become-dramatically-better
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/my-first-million/1-habit-expert-here-s-how-you-become-dramatically-better/"
   - episode_title: 'Steph Smith: “This opportunity is totally overlooked”'
     episode_url: ''
@@ -22535,7 +22559,7 @@ episodes_by_feed:
     episode_uid: 432c42e0-381f-11f1-87b1-efa1177fcd1f
     episode_slug: steph-smith-this-opportunity-is-totally-overlooked
     episode_key: steph-smith-this-opportunity-is-totally-overlooked
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/my-first-million/steph-smith-this-opportunity-is-totally-overlooked/"
   - episode_title: Ex-Tesla President reveals EVERYTHING Elon does to win
     episode_url: ''
@@ -22547,7 +22571,7 @@ episodes_by_feed:
     episode_uid: 5f21ebca-3415-11f1-8462-2bdea5b6951a
     episode_slug: ex-tesla-president-reveals-everything-elon-does-to-win
     episode_key: ex-tesla-president-reveals-everything-elon-does-to-win
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/my-first-million/ex-tesla-president-reveals-everything-elon-does-to-win/"
   - episode_title: We asked a $18.9B Investor how to survive the AI bubble
     episode_url: ''
@@ -22559,7 +22583,7 @@ episodes_by_feed:
     episode_uid: abc352a6-327c-11f1-be6a-cf74927f1f32
     episode_slug: we-asked-a-18-9b-investor-how-to-survive-the-ai-bubble
     episode_key: we-asked-a-18-9b-investor-how-to-survive-the-ai-bubble
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/my-first-million/we-asked-a-18-9b-investor-how-to-survive-the-ai-bubble/"
   - episode_title: 'The Side Hustle King: "Make $20K+/month without money, luck, or experience"'
     episode_url: ''
@@ -22571,7 +22595,7 @@ episodes_by_feed:
     episode_uid: db404d9a-2dcc-11f1-b520-0f9ab93af696
     episode_slug: the-side-hustle-king-make-20k-month-without-money-luck-or-experience
     episode_key: the-side-hustle-king-make-20k-month-without-money-luck-or-experience
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/my-first-million/the-side-hustle-king-make-20k-month-without-money-luck-or-experience/"
   - episode_title: 'Oz Pearlman: How To "Read" Minds, Influence Anyone, and Never Fear Rejection'
     episode_url: ''
@@ -22583,7 +22607,7 @@ episodes_by_feed:
     episode_uid: 825aec00-2c35-11f1-b6e3-6f6c42bb3275
     episode_slug: oz-pearlman-how-to-read-minds-influence-anyone-and-never-fear-rejection
     episode_key: oz-pearlman-how-to-read-minds-influence-anyone-and-never-fear-rejection
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/my-first-million/oz-pearlman-how-to-read-minds-influence-anyone-and-never-fear-rejection/"
   - episode_title: The Underrated Money Making Skill In 2026
     episode_url: ''
@@ -22595,7 +22619,7 @@ episodes_by_feed:
     episode_uid: 2e5d5a22-29f4-11f1-be16-d7ac53f1e40c
     episode_slug: the-underrated-money-making-skill-in-2026
     episode_key: the-underrated-money-making-skill-in-2026
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/my-first-million/the-underrated-money-making-skill-in-2026/"
   - episode_title: 'Best of MFM: Listen To This Before You Invest Another Dollar'
     episode_url: ''
@@ -22607,20 +22631,8 @@ episodes_by_feed:
     episode_uid: 86bc67ea-284f-11f1-b090-db5b0940fcf1
     episode_slug: best-of-mfm-listen-to-this-before-you-invest-another-dollar
     episode_key: best-of-mfm-listen-to-this-before-you-invest-another-dollar
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/my-first-million/best-of-mfm-listen-to-this-before-you-invest-another-dollar/"
-  - episode_title: This guy cured his dog’s cancer with ChatGPT + 4 other crazy AI stories
-    episode_url: ''
-    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS3375948828.mp3?updated=1773928044
-    published_at: '2026-03-19T13:29:00Z'
-    description_html: '<p><strong>Get Sam''s exact system/playbook for ChatGPT:</strong><a href="https://clickhubspot.com/jdeb"><strong> https://clickhubspot.com/jdeb</strong></a></p><p>Episode 807: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about the wildest stories in AI right now.</p><p>—</p><p>Show Notes:</p><p>(0:00) Intro</p><p>(5:08) Story 1: Anthropic did $6B in revenue last month</p><p>(10:34) Story 2: Man uses AI to treat his dog''s cancer</p><p>(17:06) Story 3: New high school for entrepreneurs</p><p>(29:12) Story 4: Pokemon Go is an AI mapping company now</p><p>(35:18) Story 5: Karpathy''s job thing</p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Need a bank for your company? Go check out Mercury (<a href="http://mercury.com/">mercury.com</a>). Shaan uses it for all of his companies!</p><p><em>Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p>beehiiv.com/mfm-challenge</p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton - <a href="https://www.joinhampton.com/"><u>https://www.joinhampton.com/</u></a></p><p>• Ideation Bootcamp - <a href="https://www.ideationbootcamp.co/"><u>https://www.ideationbootcamp.co/</u></a></p><p>• Copy That - <a href="https://copythat.com/"><u>https://copythat.com</u></a></p><p>• Hampton Wealth Survey - <a href="https://joinhampton.com/wealth">https://joinhampton.com/wealth</a></p><p>• Sam’s List - <a href="http://samslist.co/"><u>http://samslist.co/</u></a></p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
-    description_plain: 'Get Sam''s exact system/playbook for ChatGPT: https://clickhubspot.com/jdeb Episode 807: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about the wildest stories in AI right now. — Show Notes: (0:00) Intro (5:08) Story 1: Anthropic did $6B in revenue last month (10:34) Story 2: Man uses AI to treat his dog''s cancer (17:06) Story 3: New high school for entrepreneurs (29:12) Story 4: Pokemon Go is an AI mapping company now (35:18) Story 5: Karpathy''s job thing — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury ( mercury.com ). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge — Check Out Sam''s Stuff: • Hampton - https://www.joinhampton.com/ • Ideation Bootcamp - https://www.ideationbootcamp.co/ • Copy That - https://copythat.com • Hampton Wealth Survey - https://joinhampton.com/wealth • Sam’s List - http://samslist.co/ My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
-    episode_image_url: ''
-    episode_uid: af911998-2397-11f1-a746-d38c88d330e5
-    episode_slug: this-guy-cured-his-dog-s-cancer-with-chatgpt-4-other-crazy-ai-stories
-    episode_key: this-guy-cured-his-dog-s-cancer-with-chatgpt-4-other-crazy-ai-stories
     legacy_numbered_slug: episode-25
-    episode_page_url: "/my-first-million/this-guy-cured-his-dog-s-cancer-with-chatgpt-4-other-crazy-ai-stories/"
+    episode_page_url: "/my-first-million/best-of-mfm-listen-to-this-before-you-invest-another-dollar/"
   https://feed.podbean.com/mathiasmacody/feed.xml: &75
   - episode_title: Opel Zafira
     episode_url: https://mathiasmacody.podbean.com/e/opel-zafira/
@@ -25078,6 +25090,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/find-your-everest/training-camp-con-nnormal-como-planificar-temporada-find-your-everest-podcast-by-javi-ordieres/"
   https://rss.libsyn.com/shows/118682/destinations/685773.xml: &85
+  - episode_title: 'Episode 491: The Art Of Ultrarunning | Ian Sharman'
+    episode_url: https://humanperformanceoutliers.libsyn.com/episode-491-the-art-of-ultrarunning-ian-sharman
+    audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.491_IanSharman_audio_complete.mp3?dest-id=685773
+    published_at: '2026-06-12T10:00:00+00:00'
+    description_html: '<p>Ian Sharman is a legend in the ultramarathon space, finishing top ten at WSER 100 nine times, four wins at Leadville 100 mile, and a wealth of knowledge with respect to training theory and the variables that make for successful ultramarathon results. Ian recently published a book, "Art of Ultrarunning: Tried & Tested Strategies for Long-Distance Runners." We spent some time covering what he has learned throughout his career as an athlete and coach.</p><p dir="ltr">Ian: <a href= "https://www.sharmanultra.com/">sharmanultra.com</a> | IG: <a href= "https://www.instagram.com/sharmanian/">@sharmanian</a> | X: <a href="https://x.com/sharmanian">@sharmanian</a></p><p dir="ltr">Episode Sponsors:</p><p dir="ltr">ProBio: <a href= "https://www.probionutrition.com/endurance">probionutrition.com/endurance</a> Code: Endurance (20% Off)</p><p dir="ltr">LMNT: <a href= "http://drinklmnt.com/HPO">drinkLMNT.com/HPO</a> (free sample pack with purchase)</p><p dir="ltr">deltaG: <a href= "https://www.deltagketones.com/BITTER20">deltagketones.com</a> Code: BITTER20 (20% Off)</p><p dir="ltr">True Nutrition: <a href= "https://truenutrition.com/hpo">truenutrition.com/hpo</a> Code: HPO (20% Off)</p><p dir="ltr">Podcast Details:</p><p dir="ltr">Support HPO: <a href= "https://zachbitter.com/hposponsors">zachbitter.com/hposponsors</a></p><p dir="ltr">HPO Website: <a href= "https://zachbitter.com/hpo">zachbitter.com/hpo</a></p><p dir="ltr">Zach''s Coaching: <a href= "https://zachbitter.com/coaching">zachbitter.com/coaching</a></p><p dir="ltr">Zach''s Journal: <a href= "https://substack.com/@zachbitter">substack.com/@zachbitter</a></p><p dir="ltr">Find Zach: <a href= "https://zachbitter.com">zachbitter.com</a> | IG: <a href= "https://www.instagram.com/zachbitter/">@zachbitter</a> | X: <a href="https://twitter.com/zbitter">@zbitter</a> | FB: <a href= "https://www.facebook.com/zbitter">Zach Bitter</a> | Strava: <a href="https://www.strava.com/pros/5255567">Zach Bitter</a></p>'
+    description_plain: 'Ian Sharman is a legend in the ultramarathon space, finishing top ten at WSER 100 nine times, four wins at Leadville 100 mile, and a wealth of knowledge with respect to training theory and the variables that make for successful ultramarathon results. Ian recently published a book, "Art of Ultrarunning: Tried & Tested Strategies for Long-Distance Runners." We spent some time covering what he has learned throughout his career as an athlete and coach. Ian: sharmanultra.com | IG: @sharmanian | X: @sharmanian Episode Sponsors: ProBio: probionutrition.com/endurance Code: Endurance (20% Off) LMNT: drinkLMNT.com/HPO (free sample pack with purchase) deltaG: deltagketones.com Code: BITTER20 (20% Off) True Nutrition: truenutrition.com/hpo Code: HPO (20% Off) Podcast Details: Support HPO: zachbitter.com/hposponsors HPO Website: zachbitter.com/hpo Zach''s Coaching: zachbitter.com/coaching Zach''s Journal: substack.com/@zachbitter Find Zach: zachbitter.com | IG: @zachbitter | X: @zbitter | FB: Zach Bitter | Strava: Zach Bitter'
+    episode_image_url: https://static.libsyn.com/p/assets/c/a/1/1/ca112e81de7248b516c3140a3186d450/iTunes_Thumbnail.png
+    episode_uid: 6d5ec844-71c7-4216-a868-7f9cb97efe2f
+    episode_slug: episode-491-the-art-of-ultrarunning-ian-sharman
+    episode_key: episode-491-the-art-of-ultrarunning-ian-sharman
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/human-performance-outliers/episode-491-the-art-of-ultrarunning-ian-sharman/"
   - episode_title: 'Episode 490: Multiday Ultramarathon Performance Insights | Kevin Goldberg'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-490-multiday-ultramarathon-performance-insights-keven-goldberg
     audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.490_KevinGoldberg_audio_complete.mp3?dest-id=685773
@@ -25088,7 +25112,7 @@ episodes_by_feed:
     episode_uid: 85a65f6a-b528-45ab-9af9-b2772cd080a9
     episode_slug: episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg
     episode_key: episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/human-performance-outliers/episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg/"
   - episode_title: 'Episode 489: Walmsley Deserves WSER Entry & Policing Non-Professionals | Brian Peterson'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson
@@ -25100,7 +25124,7 @@ episodes_by_feed:
     episode_uid: 7e4e57de-0f7e-45d2-b5b2-08021e6768cc
     episode_slug: episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson
     episode_key: episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/human-performance-outliers/episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson/"
   - episode_title: 'Episode 488: Ultramarathon Problem Solving | Kilian Korth'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-488-ultramarathon-problem-solving-kilian-korth
@@ -25112,7 +25136,7 @@ episodes_by_feed:
     episode_uid: 99650dfe-727c-4cd0-80e3-36e01bc1c6c5
     episode_slug: episode-488-ultramarathon-problem-solving-kilian-korth
     episode_key: episode-488-ultramarathon-problem-solving-kilian-korth
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/human-performance-outliers/episode-488-ultramarathon-problem-solving-kilian-korth/"
   - episode_title: Run The News | Is Fair Sport Fantasy?
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-is-fair-sport-fantasy
@@ -25124,7 +25148,7 @@ episodes_by_feed:
     episode_uid: ba848af3-73e4-44f1-89a1-d4e0520abf96
     episode_slug: run-the-news-is-fair-sport-fantasy
     episode_key: run-the-news-is-fair-sport-fantasy
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/human-performance-outliers/run-the-news-is-fair-sport-fantasy/"
   - episode_title: 'Episode 487: Rachel Entrekin | Cocodona 250 Course Record'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-487-rachel-entrekin-cocodona-250-course-record-0
@@ -25136,7 +25160,7 @@ episodes_by_feed:
     episode_uid: bdfc3e0a-0dfd-4238-b138-13c6f2b89902
     episode_slug: episode-487-rachel-entrekin-cocodona-250-course-record
     episode_key: episode-487-rachel-entrekin-cocodona-250-course-record
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/human-performance-outliers/episode-487-rachel-entrekin-cocodona-250-course-record/"
   - episode_title: Run The News | Cocodona 250 Leveled Up
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-cocodona-250-leveled-up
@@ -25148,7 +25172,7 @@ episodes_by_feed:
     episode_uid: 5f1394a0-f4ee-4226-a0b7-217a8e2a7e7c
     episode_slug: run-the-news-cocodona-250-leveled-up
     episode_key: run-the-news-cocodona-250-leveled-up
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/human-performance-outliers/run-the-news-cocodona-250-leveled-up/"
   - episode_title: 'Episode 486: Inside The Pro Running World | Jacob Thomson'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-486-inside-the-pro-running-world-jacob-thomson
@@ -25160,7 +25184,7 @@ episodes_by_feed:
     episode_uid: d40bba64-a8c8-44d8-9c17-cb0689b4b3ed
     episode_slug: episode-486-inside-the-pro-running-world-jacob-thomson
     episode_key: episode-486-inside-the-pro-running-world-jacob-thomson
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/human-performance-outliers/episode-486-inside-the-pro-running-world-jacob-thomson/"
   - episode_title: Run The News | Super Shoes, Carbs, & Doping
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-super-shoes-carbs-doping
@@ -25172,7 +25196,7 @@ episodes_by_feed:
     episode_uid: d1a5f532-3dc5-4aa3-bc66-a3c84cea3f8e
     episode_slug: run-the-news-super-shoes-carbs-doping
     episode_key: run-the-news-super-shoes-carbs-doping
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/human-performance-outliers/run-the-news-super-shoes-carbs-doping/"
   - episode_title: 'Episode 485: Long Term Running Improvement | Brant Stachel'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-485-long-term-running-improvement-brant-stachel
@@ -25184,7 +25208,7 @@ episodes_by_feed:
     episode_uid: 3e73036c-45d7-4a4a-9734-354d124c8050
     episode_slug: episode-485-long-term-running-improvement-brant-stachel
     episode_key: episode-485-long-term-running-improvement-brant-stachel
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/human-performance-outliers/episode-485-long-term-running-improvement-brant-stachel/"
   - episode_title: 'Episode 484: Influencers v. Athletes | Tommy Lewis'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-484-influencers-v-athletes-tommy-lewis
@@ -25196,7 +25220,7 @@ episodes_by_feed:
     episode_uid: 5fe41282-0af3-4af6-991f-a1830076566a
     episode_slug: episode-484-influencers-v-athletes-tommy-lewis
     episode_key: episode-484-influencers-v-athletes-tommy-lewis
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/human-performance-outliers/episode-484-influencers-v-athletes-tommy-lewis/"
   - episode_title: 'Episode 483: Arizona Monster 300 Course Record | Mike McKnight'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-483-arizona-monster-300-course-record-mike-mcknight
@@ -25208,7 +25232,7 @@ episodes_by_feed:
     episode_uid: f8364fa4-d5f6-430b-8e36-a6823d7e869c
     episode_slug: episode-483-arizona-monster-300-course-record-mike-mcknight
     episode_key: episode-483-arizona-monster-300-course-record-mike-mcknight
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/human-performance-outliers/episode-483-arizona-monster-300-course-record-mike-mcknight/"
   - episode_title: 'Episode 482: What Performance Fueling Shows Us | Dr. James DiNicolantonio'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio
@@ -25220,7 +25244,7 @@ episodes_by_feed:
     episode_uid: ce4c13f5-e899-4cb8-ade7-28d709df458a
     episode_slug: episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio
     episode_key: episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/human-performance-outliers/episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio/"
   - episode_title: 'Episode 481: Multi-day & Backyard Ultras | Mark Dowdle'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-481-multi-day-backyard-ultras-mark-dowdle
@@ -25232,7 +25256,7 @@ episodes_by_feed:
     episode_uid: 7c9a13e6-dfd9-4f07-8abf-06524ff15c08
     episode_slug: episode-481-multi-day-backyard-ultras-mark-dowdle
     episode_key: episode-481-multi-day-backyard-ultras-mark-dowdle
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/human-performance-outliers/episode-481-multi-day-backyard-ultras-mark-dowdle/"
   - episode_title: 'Episode 480: Has Endurance Fueling Bonked?'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-480-has-endurance-fueling-bonked
@@ -25244,7 +25268,7 @@ episodes_by_feed:
     episode_uid: d6349c52-6ce0-40ab-8d84-305991a42188
     episode_slug: episode-480-has-endurance-fueling-bonked
     episode_key: episode-480-has-endurance-fueling-bonked
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/human-performance-outliers/episode-480-has-endurance-fueling-bonked/"
   - episode_title: 'Episode 479: Is Low Carb Performance Misplaced? | Jonah Rosner'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-479-is-low-carb-performance-misplaced-jonah-rosner
@@ -25256,7 +25280,7 @@ episodes_by_feed:
     episode_uid: 2732bc3c-93b8-424b-be51-570563796668
     episode_slug: episode-479-is-low-carb-performance-misplaced-jonah-rosner
     episode_key: episode-479-is-low-carb-performance-misplaced-jonah-rosner
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/human-performance-outliers/episode-479-is-low-carb-performance-misplaced-jonah-rosner/"
   - episode_title: 'Episode 478: 100 Mile Record Redemption | Raj Pannu'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-478-100-mile-record-redemption-raj-paunnu
@@ -25268,7 +25292,7 @@ episodes_by_feed:
     episode_uid: 26a5c3a0-a23c-4bd9-a9ec-646e835ee8c1
     episode_slug: episode-478-100-mile-record-redemption-raj-pannu
     episode_key: episode-478-100-mile-record-redemption-raj-pannu
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/human-performance-outliers/episode-478-100-mile-record-redemption-raj-pannu/"
   - episode_title: 'Episode 477: Cocodona 250 Ultra Champ | Rachel Entrekin'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-477-cocodona-250-ultra-champ-rachel-entrekin
@@ -25280,7 +25304,7 @@ episodes_by_feed:
     episode_uid: bf487189-e254-4989-81d7-5c5ac2354121
     episode_slug: episode-477-cocodona-250-ultra-champ-rachel-entrekin
     episode_key: episode-477-cocodona-250-ultra-champ-rachel-entrekin
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/human-performance-outliers/episode-477-cocodona-250-ultra-champ-rachel-entrekin/"
   - episode_title: 'Episode 476: Carbohydrate Fueling Strategies For Runners | Claire Shorenstein'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-476-high-carb-fueling-for-runners-claire-shorenstein
@@ -25292,7 +25316,7 @@ episodes_by_feed:
     episode_uid: 8da46261-2512-47b2-9d0b-764ed22da91d
     episode_slug: episode-476-carbohydrate-fueling-strategies-for-runners-claire-shorenstein
     episode_key: episode-476-carbohydrate-fueling-strategies-for-runners-claire-shorenstein
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/human-performance-outliers/episode-476-carbohydrate-fueling-strategies-for-runners-claire-shorenstein/"
   - episode_title: 'Episode 475: Are Multiday Ultramarathons Soft?'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-475-are-multiday-ultramarathons-soft
@@ -25304,7 +25328,7 @@ episodes_by_feed:
     episode_uid: 95e60c3f-680b-4673-bc43-d054387bcbd3
     episode_slug: episode-475-are-multiday-ultramarathons-soft
     episode_key: episode-475-are-multiday-ultramarathons-soft
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/human-performance-outliers/episode-475-are-multiday-ultramarathons-soft/"
   - episode_title: 'Episode 474: 3:58 Mile to Ultra | Everett Smulders'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-474-358-mile-to-ultra-everett-smulders
@@ -25316,7 +25340,7 @@ episodes_by_feed:
     episode_uid: 1a716393-01e6-42ec-9b93-bcf6baa4dd68
     episode_slug: episode-474-3-58-mile-to-ultra-everett-smulders
     episode_key: episode-474-3-58-mile-to-ultra-everett-smulders
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/human-performance-outliers/episode-474-3-58-mile-to-ultra-everett-smulders/"
   - episode_title: 'Episode 473: The Trial of Miles Chasing Olympic Trials Marathon Peter Bromka'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka
@@ -25328,7 +25352,7 @@ episodes_by_feed:
     episode_uid: 7db30539-6132-416a-9a09-6f6cc9fb60bc
     episode_slug: episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka
     episode_key: episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/human-performance-outliers/episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka/"
   - episode_title: 'Episode 472: Brad Stulberg The Pursuit of Excellence'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-472-brad-stulberg-the-pursuit-of-excellence
@@ -25340,7 +25364,7 @@ episodes_by_feed:
     episode_uid: f06c5bdb-c67d-44b6-8f3e-c64cbb605fc7
     episode_slug: episode-472-brad-stulberg-the-pursuit-of-excellence
     episode_key: episode-472-brad-stulberg-the-pursuit-of-excellence
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/human-performance-outliers/episode-472-brad-stulberg-the-pursuit-of-excellence/"
   - episode_title: 'Episode 471: Rory Linkletter | Sub-60 Half Marathon & Marathon Training Evolution'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution
@@ -25352,7 +25376,7 @@ episodes_by_feed:
     episode_uid: bef23b14-8451-4e72-a691-5aeea3048d31
     episode_slug: episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution
     episode_key: episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/human-performance-outliers/episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution/"
   - episode_title: 'Episode 470: Strength for Endurance | Jason Fitzgerald'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-470-strength-for-endurance-jason-fitzgerald
@@ -25364,20 +25388,8 @@ episodes_by_feed:
     episode_uid: 527409ef-3bd5-4c24-80db-fab05aaebd73
     episode_slug: episode-470-strength-for-endurance-jason-fitzgerald
     episode_key: episode-470-strength-for-endurance-jason-fitzgerald
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/human-performance-outliers/episode-470-strength-for-endurance-jason-fitzgerald/"
-  - episode_title: 'Episode 469: Failures & Success: Assessing a Training Cycle & Future Planning'
-    episode_url: https://humanperformanceoutliers.libsyn.com/episode-469-failures-success-assessing-a-training-cycle-future-planning
-    audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.469_Learning_From_Success__Failure_audio_complete.mp3?dest-id=685773
-    published_at: '2025-12-31T11:00:00+00:00'
-    description_html: '<p dir="ltr">I ended the year with a race where I didn''t meet expectations. These types of experiences offer opportunities about what should be kept, versus what will likely lead to the same mistakes. For this episode, I highlight how I assess a training cycle to tease out the positives and the learning opportunities.</p><p dir="ltr"><a href= "https://zachbitter.com/endurance-training-series">Endurance Training Simplified Series</a></p><p dir="ltr">ProBio: <a href= "https://www.probionutrition.com/endurance">probionutrition.com/endurance</a> Code: Endurance (20% Off)</p><p dir="ltr">LMNT: <a href= "http://drinklmnt.com/HPO">drinkLMNT.com/HPO</a> (free sample pack with purchase)</p><p dir="ltr">deltaG: <a href= "https://www.deltagketones.com/">deltagketones.com</a> Code: BITTER20 (20% Off)</p><p dir="ltr">Training Peaks: <a href= "http://trainingpeaks.com/hpopodcast">trainingpeaks.com/hpopodcast</a> (free 14-day trial)</p><p>CurraNZ: <a href= "http://www.curranzusa.com/" target="_blank" rel= "nofollow noopener" data-saferedirecturl= "https://www.google.com/url?q=http://www.curranzusa.com/&source=gmail&ust=1767633447638000&usg=AOvVaw3COH2w7ZXXW4E-RwYqSuRH">www.curranzusa.com</a> – code: BITTER20DEAL</p><p dir="ltr">Support HPO: <a href= "https://zachbitter.com/hposponsors">zachbitter.com/hposponsors</a></p><p dir="ltr">HPO Website: <a href= "https://zachbitter.com/hpo">zachbitter.com/hpo</a></p><p dir="ltr">Zach''s Coaching: <a href= "https://zachbitter.com/coaching">zachbitter.com/coaching</a></p><p dir="ltr">Zach''s Journal: <a href= "https://substack.com/@zachbitter">substack.com/@zachbitter</a></p><p dir="ltr">Find Zach: <a href= "https://zachbitter.com">zachbitter.com</a> | IG: <a href= "https://www.instagram.com/zachbitter/">@zachbitter</a> | X: <a href="https://twitter.com/zbitter">@zbitter</a> | FB: <a href= "https://www.facebook.com/zbitter">Zach Bitter</a> | Strava: <a href="https://www.strava.com/pros/5255567">Zach Bitter</a></p>'
-    description_plain: 'I ended the year with a race where I didn''t meet expectations. These types of experiences offer opportunities about what should be kept, versus what will likely lead to the same mistakes. For this episode, I highlight how I assess a training cycle to tease out the positives and the learning opportunities. Endurance Training Simplified Series ProBio: probionutrition.com/endurance Code: Endurance (20% Off) LMNT: drinkLMNT.com/HPO (free sample pack with purchase) deltaG: deltagketones.com Code: BITTER20 (20% Off) Training Peaks: trainingpeaks.com/hpopodcast (free 14-day trial) CurraNZ: www.curranzusa.com – code: BITTER20DEAL Support HPO: zachbitter.com/hposponsors HPO Website: zachbitter.com/hpo Zach''s Coaching: zachbitter.com/coaching Zach''s Journal: substack.com/@zachbitter Find Zach: zachbitter.com | IG: @zachbitter | X: @zbitter | FB: Zach Bitter | Strava: Zach Bitter'
-    episode_image_url: https://static.libsyn.com/p/assets/3/9/f/8/39f8cf35e1e6e54d16c3140a3186d450/iTunes_Thumbnail.png
-    episode_uid: 7c83c8b5-41c1-404e-bf18-b22a300e0188
-    episode_slug: episode-469-failures-success-assessing-a-training-cycle-future-planning
-    episode_key: episode-469-failures-success-assessing-a-training-cycle-future-planning
     legacy_numbered_slug: episode-25
-    episode_page_url: "/human-performance-outliers/episode-469-failures-success-assessing-a-training-cycle-future-planning/"
+    episode_page_url: "/human-performance-outliers/episode-470-strength-for-endurance-jason-fitzgerald/"
   https://feeds.megaphone.fm/pom8075949892: &86
   - episode_title: 'Erin Ton: Aconcagua and High Altitude Peaks -#286'
     episode_url: https://fastestknowntime.com
