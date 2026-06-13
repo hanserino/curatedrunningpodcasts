@@ -1,0 +1,21 @@
+---
+name: Ida Nilsson
+role: Pro mountain/ultra/trail runner
+photo: /media/runner-picks/idanilsson.jpg
+instagram_handle: idanilssi
+sort_order: 10
+picks:
+  - pick_source: site
+    directory_slug: 2026-06-12--md
+    quote: Swedish podcast about historical football teams and players
+  - pick_source: site
+    directory_slug: 2026-06-12--md-1
+    quote: Documentaries about a wide spectrum of events (Swedish)
+  - pick_source: site
+    directory_slug: 2023-11-08-spring-snyggt
+    quote: Swedish running podcast
+  - pick_source: site
+    directory_slug: 2026-06-12--md-2
+  - pick_source: site
+    directory_slug: 2026-05-31-sommar-vinter-i-p1-md
+---
