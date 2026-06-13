@@ -2,6 +2,11 @@
 name: Ida Nilsson
 role: Pro mountain/ultra/trail runner
 photo: /media/runner-picks/idanilsson.jpg
+bio: Swedish runner and ski mountaineer who first made her name as an NCAA
+  champion and Swedish record-holder in the 3000 m steeplechase before
+  reinventing herself as one of the world's top mountain and ultratrail runners.
+  She won major races including Transvulcania Ultramarathon, Marathon du
+  Mont-Blanc, and Zegama-Aizkorri, and now lives in Romsdal, Norway.
 instagram_handle: idanilssi
 sort_order: 10
 picks:
