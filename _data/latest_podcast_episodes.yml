@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-14T11:00:45Z'
+generated_at: '2026-06-14T11:48:06Z'
 items:
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
@@ -26624,9 +26624,6 @@ errors:
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
-- podcast: Lex Fridman Podcast
-  rss_feed: https://lexfridman.com/feed/podcast/
-  error: 'Net::OpenTimeout: Net::OpenTimeout'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
   error: Latest episode has no enclosure URL
