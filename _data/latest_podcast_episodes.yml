@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-15T03:11:04Z'
+generated_at: '2026-06-15T05:50:06Z'
 items:
+- podcast_title: Course Épique
+  podcast_page_url: "/course-equipe/"
+  cover_image: "/media/courseepique.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  filter_category: trail ultra french
+  episode_title: "[EXTRAIT] Thomas Cardin : la Western comme nouveau départ"
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a2d4e6a252d86e8469715ef/media.mp3
+  published_at: '2026-06-15T04:01:00+00:00'
+  episode_key: extrait-thomas-cardin-la-western-comme-nouveau-depart
+  episode_slug: extrait-thomas-cardin-la-western-comme-nouveau-depart
+  episode_page_url: "/course-equipe/extrait-thomas-cardin-la-western-comme-nouveau-depart/"
+- podcast_title: Dans la Tête d’un Coureur
+  podcast_page_url: "/dans-la-t-te-d-un-coureur/"
+  cover_image: "/media/danslateteeduncoureur.jpeg"
+  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
+  filter_category: trail ultra french
+  episode_title: '“Je cours avec ma colère" : Ben Mazué ou l’art de faire la paix en courant'
+  episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-mazue-je-cours-avec-ma-colere-dltdc-heroes-c76fe265
+  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/c76fe265-5765-4574-97c6-182d25551995.mp3?_=1781281248
+  published_at: '2026-06-15T03:31:00+00:00'
+  episode_key: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
+  episode_slug: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
+  episode_page_url: "/dans-la-t-te-d-un-coureur/je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant/"
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
   cover_image: "/media/lifeinstride.jpeg"
@@ -157,18 +181,6 @@ items:
   episode_key: tommie-runz-on-western-states-running-as-a-black-man-on-trail-and-trusting-the-long-game
   episode_slug: tommie-runz-on-western-states-running-as-a-black-man-on-trail-and-trusting-the-long-game
   episode_page_url: "/for-the-long-run/tommie-runz-on-western-states-running-as-a-black-man-on-trail-and-trusting-the-long-game/"
-- podcast_title: Dans la Tête d’un Coureur
-  podcast_page_url: "/dans-la-t-te-d-un-coureur/"
-  cover_image: "/media/danslateteeduncoureur.jpeg"
-  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
-  filter_category: trail ultra french
-  episode_title: "[2/2]  Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
-  episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/22-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-fd0021bd
-  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/fd0021bd-2c7b-4392-a3f9-90e0ccb75e2f.mp3?_=1781185175
-  published_at: '2026-06-12T03:45:00+00:00'
-  episode_key: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
-  episode_slug: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
-  episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
 - podcast_title: Trail Runner Nation
   podcast_page_url: "/trail-runner-nation/"
   cover_image: "/media/trn-logo-podcast-artwork.jpg"
@@ -241,18 +253,6 @@ items:
   episode_key: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
   episode_slug: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
   episode_page_url: "/the-real-science-of-sport/800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too/"
-- podcast_title: Course Épique
-  podcast_page_url: "/course-equipe/"
-  cover_image: "/media/courseepique.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  filter_category: trail ultra french
-  episode_title: En immersion sur le Swiss Canyon Trail
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a22f422ccc3ddbc7448fd3b/media.mp3
-  published_at: '2026-06-10T04:01:00+00:00'
-  episode_key: en-immersion-sur-le-swiss-canyon-trail
-  episode_slug: en-immersion-sur-le-swiss-canyon-trail
-  episode_page_url: "/course-equipe/en-immersion-sur-le-swiss-canyon-trail/"
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt/"
   cover_image: "/media/springsnyggt.jpeg"
@@ -11041,6 +11041,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-sub-hub/2025-sub-hub-top-pick-madalina-florea/"
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &37
+  - episode_title: "[EXTRAIT] Thomas Cardin : la Western comme nouveau départ"
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a2d4e6a252d86e8469715ef/media.mp3
+    published_at: '2026-06-15T04:01:00+00:00'
+    description_html: '<p>Moins de 15 jours. C''est le temps qu''il lui reste avant l''un des ultras les plus mythiques de la planète, et Thomas Cardin nous reçoit encore en tenue de course, transpirant de sa dernière sortie longue achevée quelques minutes avant.</p><p>La Western States 100 l''attend en Californie le 27 juin — 161 km, 5 500 m de dénivelé positif, une chaleur qui peut briser les plus aguerris. Mais avant de parler de la course, il y a une histoire plus grande à raconter : celle d''un homme qui a tout remis à plat.</p><p>Quatre victoires sur le Ventoux, trois SaintéLyon, Champion de France, d''Europe — Thomas Cardin a tout gagné. Et c''est peut-être là que les choses ont commencé à se fissurer. Une lassitude à l''entraînement, des victoires qui déclenchent moins d''émotions, une blessure quelques semaines avant les Championnats du monde qui le prive de son objectif de l''année.</p><p>La tête qui dit stop, ou plutôt : <em>assez de ça, essaie autre chose</em>. Ce basculement vers l''ultra-trail, il en raconte les coulisses sans fard — la peur de perdre son niveau, l''ego mis en jeu, et la confiance progressive grâce à son coach Philippe Propage et à sa femme Anne-Claire, qui l''accompagnent dans une décision bien plus large : arrêter l''enseignement pour devenir athlète professionnel à temps plein.</p><p>Dans cet épisode, Thomas parle de la redécouverte du plaisir de courir — ces sorties de cinq à six heures où l''on arrive fatigué mais pas détruit. Il évoque sa victoire sur son premier ultra à Chianti, la gestion de la chaleur comme défi existentiel de la Western, les séances en doudoune par 20 degrés, le capteur de température corporelle, et les équipes de recherche mobilisées pour qu''il arrive au départ dans les meilleures conditions.</p><p>Il parle aussi de cet imaginaire américain construit depuis l''adolescence — le Grand Canyon, Anton Krupicka torse nu, Jim Walmsley et son crop-top troué.</p><p>La Western n''est pas seulement une course. Pour Thomas, c''est le début d''un nouveau chemin, vécu avec son père, son équipementier partenaire, et une sincérité désarmante : <em>"Après, je voudrais rentrer chez moi, retrouver ma famille."</em></p><p>Derrière le coureur d''élite, il y a un homme qui a choisi de ne rien sacrifier. Et il est sacrément attachant.</p><p>Episode intégral disponible le mercredi 17 juin.</p><p>***</p><p>Course Épique, c''est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun.</p><p>Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/</p><p>Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube</p><p>Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios</p><hr><p style=''color:grey; font-size:0.75em;''>Hébergé par Acast. Visitez <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> pour plus d''informations.</p>'
+    description_plain: 'Moins de 15 jours. C''est le temps qu''il lui reste avant l''un des ultras les plus mythiques de la planète, et Thomas Cardin nous reçoit encore en tenue de course, transpirant de sa dernière sortie longue achevée quelques minutes avant. La Western States 100 l''attend en Californie le 27 juin — 161 km, 5 500 m de dénivelé positif, une chaleur qui peut briser les plus aguerris. Mais avant de parler de la course, il y a une histoire plus grande à raconter : celle d''un homme qui a tout remis à plat. Quatre victoires sur le Ventoux, trois SaintéLyon, Champion de France, d''Europe — Thomas Cardin a tout gagné. Et c''est peut-être là que les choses ont commencé à se fissurer. Une lassitude à l''entraînement, des victoires qui déclenchent moins d''émotions, une blessure quelques semaines avant les Championnats du monde qui le prive de son objectif de l''année. La tête qui dit stop, ou plutôt : assez de ça, essaie autre chose . Ce basculement vers l''ultra-trail, il en raconte les coulisses sans fard — la peur de perdre son niveau, l''ego mis en jeu, et la confiance progressive grâce à son coach Philippe Propage et à sa femme Anne-Claire, qui l''accompagnent dans une décision bien plus large : arrêter l''enseignement pour devenir athlète professionnel à temps plein. Dans cet épisode, Thomas parle de la redécouverte du plaisir de courir — ces sorties de cinq à six heures où l''on arrive fatigué mais pas détruit. Il évoque sa victoire sur son premier ultra à Chianti, la gestion de la chaleur comme défi existentiel de la Western, les séances en doudoune par 20 degrés, le capteur de température corporelle, et les équipes de recherche mobilisées pour qu''il arrive au départ dans les meilleures conditions. Il parle aussi de cet imaginaire américain construit depuis l''adolescence — le Grand Canyon, Anton Krupicka torse nu, Jim Walmsley et son crop-top troué. La Western n''est pas seulement une course. Pour Thomas, c''est le début d''un nouveau chemin, vécu avec son père, son équipementier partenaire, et une sincérité désarmante : "Après, je voudrais rentrer chez moi, retrouver ma famille." Derrière le coureur d''élite, il y a un homme qui a choisi de ne rien sacrifier. Et il est sacrément attachant. Episode intégral disponible le mercredi 17 juin. *** Course Épique, c''est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun. Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/ Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios Hébergé par Acast. Visitez acast.com/privacy pour plus d''informations.'
+    episode_image_url: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1781354158848-8eefa58d-ddf4-4409-8d68-cd049bb49376.jpeg
+    episode_uid: 6a2d4e6a252d86e8469715ef
+    episode_slug: extrait-thomas-cardin-la-western-comme-nouveau-depart
+    episode_key: extrait-thomas-cardin-la-western-comme-nouveau-depart
+    legacy_unicode_slug: extrait-thomas-cardin-la-western-comme-nouveau-départ
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/course-equipe/extrait-thomas-cardin-la-western-comme-nouveau-depart/"
   - episode_title: En immersion sur le Swiss Canyon Trail
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a22f422ccc3ddbc7448fd3b/media.mp3
@@ -11051,7 +11064,7 @@ episodes_by_feed:
     episode_uid: 6a22f422ccc3ddbc7448fd3b
     episode_slug: en-immersion-sur-le-swiss-canyon-trail
     episode_key: en-immersion-sur-le-swiss-canyon-trail
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/course-equipe/en-immersion-sur-le-swiss-canyon-trail/"
   - episode_title: "[EXTRAIT] En immersion sur le Swiss Canyon Trail"
     episode_url: https://courseepique.fr/
@@ -11063,7 +11076,7 @@ episodes_by_feed:
     episode_uid: 6a22d3f114e465e5cec1e9df
     episode_slug: extrait-en-immersion-sur-le-swiss-canyon-trail
     episode_key: extrait-en-immersion-sur-le-swiss-canyon-trail
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/course-equipe/extrait-en-immersion-sur-le-swiss-canyon-trail/"
   - episode_title: 'Vincent Esmiol au MIUT : s''effondrer, revenir, gagner'
     episode_url: https://courseepique.fr/
@@ -11075,7 +11088,7 @@ episodes_by_feed:
     episode_uid: 6a1c32f849418f56c4cf66a5
     episode_slug: vincent-esmiol-au-miut-s-effondrer-revenir-gagner
     episode_key: vincent-esmiol-au-miut-s-effondrer-revenir-gagner
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/course-equipe/vincent-esmiol-au-miut-s-effondrer-revenir-gagner/"
   - episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
     episode_url: https://courseepique.fr/
@@ -11087,7 +11100,7 @@ episodes_by_feed:
     episode_uid: 6a1850ff029c20a5f6ea6bf6
     episode_slug: extrait-vincent-esmiol-au-miut-s-effondrer-revenir-gagner
     episode_key: extrait-vincent-esmiol-au-miut-s-effondrer-revenir-gagner
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/course-equipe/extrait-vincent-esmiol-au-miut-s-effondrer-revenir-gagner/"
   - episode_title: L'enfer vert, 130 km dans la jungle martiniquaise
     episode_url: https://courseepique.fr/
@@ -11099,7 +11112,7 @@ episodes_by_feed:
     episode_uid: 6a071486efd1f558b093b29a
     episode_slug: l-enfer-vert-130-km-dans-la-jungle-martiniquaise
     episode_key: l-enfer-vert-130-km-dans-la-jungle-martiniquaise
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/course-equipe/l-enfer-vert-130-km-dans-la-jungle-martiniquaise/"
   - episode_title: "[EXTRAIT] L'enfer vert, 130 km dans la jungle martiniquaise"
     episode_url: https://courseepique.fr/
@@ -11111,7 +11124,7 @@ episodes_by_feed:
     episode_uid: 6a071436382d6c40301f0e44
     episode_slug: extrait-l-enfer-vert-130-km-dans-la-jungle-martiniquaise
     episode_key: extrait-l-enfer-vert-130-km-dans-la-jungle-martiniquaise
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/course-equipe/extrait-l-enfer-vert-130-km-dans-la-jungle-martiniquaise/"
   - episode_title: 224km à la Réunion, une victoire ultra-terrestre à bout de force - avec Louis Calais
     episode_url: https://courseepique.fr/
@@ -11124,7 +11137,7 @@ episodes_by_feed:
     episode_slug: 224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     episode_key: 224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     legacy_unicode_slug: 224km-à-la-réunion-une-victoire-ultra-terrestre-à-bout-de-force-avec-louis-calais
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/course-equipe/224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais/"
   - episode_title: "[EXTRAIT] 224km à la Réunion, une victoire ultra-terrestre à bout de force - avec Louis Calais"
     episode_url: https://courseepique.fr/
@@ -11137,7 +11150,7 @@ episodes_by_feed:
     episode_slug: extrait-224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     episode_key: extrait-224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     legacy_unicode_slug: extrait-224km-à-la-réunion-une-victoire-ultra-terrestre-à-bout-de-force-avec-louis-calais
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/course-equipe/extrait-224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais/"
   - episode_title: 'Albane Duchemin : son rêve de marathon plus fort que la maladie'
     episode_url: https://courseepique.fr/
@@ -11150,7 +11163,7 @@ episodes_by_feed:
     episode_slug: albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     episode_key: albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     legacy_unicode_slug: albane-duchemin-son-rêve-de-marathon-plus-fort-que-la-maladie
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/course-equipe/albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie/"
   - episode_title: "[EXTRAIT] Albane Duchemin : son rêve de marathon plus fort que la maladie"
     episode_url: https://courseepique.fr/
@@ -11163,7 +11176,7 @@ episodes_by_feed:
     episode_slug: extrait-albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     episode_key: extrait-albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     legacy_unicode_slug: extrait-albane-duchemin-son-rêve-de-marathon-plus-fort-que-la-maladie
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/course-equipe/extrait-albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie/"
   - episode_title: "[L'ÉLAN] Yani Khelaf : de l'équipe de France à réapprendre à courir"
     episode_url: https://courseepique.fr/
@@ -11176,7 +11189,7 @@ episodes_by_feed:
     episode_slug: l-elan-yani-khelaf-de-l-equipe-de-france-a-reapprendre-a-courir
     episode_key: l-elan-yani-khelaf-de-l-equipe-de-france-a-reapprendre-a-courir
     legacy_unicode_slug: l-élan-yani-khelaf-de-l-équipe-de-france-à-réapprendre-à-courir
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/course-equipe/l-elan-yani-khelaf-de-l-equipe-de-france-a-reapprendre-a-courir/"
   - episode_title: "Molly Seidel : du bronze olympique à Western States, la course d'une vie \U0001F1EC\U0001F1E7"
     episode_url: https://courseepique.fr/
@@ -11189,7 +11202,7 @@ episodes_by_feed:
     episode_slug: molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     episode_key: molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     legacy_unicode_slug: molly-seidel-du-bronze-olympique-à-western-states-la-course-d-une-vie
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/course-equipe/molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie/"
   - episode_title: "[EXTRAIT] Molly Seidel : du bronze olympique à Western States, la course d'une vie \U0001F1EC\U0001F1E7"
     episode_url: https://courseepique.fr/
@@ -11202,7 +11215,7 @@ episodes_by_feed:
     episode_slug: extrait-molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     episode_key: extrait-molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     legacy_unicode_slug: extrait-molly-seidel-du-bronze-olympique-à-western-states-la-course-d-une-vie
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/course-equipe/extrait-molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie/"
   - episode_title: 'Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée'
     episode_url: https://courseepique.fr/
@@ -11215,7 +11228,7 @@ episodes_by_feed:
     episode_slug: philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     episode_key: philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     legacy_unicode_slug: philippine-delaire-de-la-scène-à-son-1er-marathon-une-vie-à-pleine-foulée
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/course-equipe/philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee/"
   - episode_title: "[EXTRAIT] Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée"
     episode_url: https://courseepique.fr/
@@ -11228,7 +11241,7 @@ episodes_by_feed:
     episode_slug: extrait-philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     episode_key: extrait-philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     legacy_unicode_slug: extrait-philippine-delaire-de-la-scène-à-son-1er-marathon-une-vie-à-pleine-foulée
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/course-equipe/extrait-philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee/"
   - episode_title: 'La France d''est en ouest : 1 140 km, une boussole, zéro GPS. Cap à l''ouest avec Fleury Roux.'
     episode_url: https://courseepique.fr/
@@ -11241,7 +11254,7 @@ episodes_by_feed:
     episode_slug: la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     episode_key: la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     legacy_unicode_slug: la-france-d-est-en-ouest-1-140-km-une-boussole-zéro-gps-cap-à-l-ouest-avec-fleury-roux
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/course-equipe/la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux/"
   - episode_title: "[EXTRAIT] La France d'est en ouest : 1 140 km, une boussole, zéro GPS. Cap à l'ouest avec Fleury Roux."
     episode_url: https://courseepique.fr/
@@ -11254,7 +11267,7 @@ episodes_by_feed:
     episode_slug: extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     episode_key: extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     legacy_unicode_slug: extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zéro-gps-cap-à-l-ouest-avec-fleury-roux
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/course-equipe/extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux/"
   - episode_title: 'Céline & Ludovic Pommeret : à l''épreuve du Marathon des Sables'
     episode_url: https://courseepique.fr/
@@ -11267,7 +11280,7 @@ episodes_by_feed:
     episode_slug: celine-ludovic-pommeret-a-l-epreuve-du-marathon-des-sables
     episode_key: celine-ludovic-pommeret-a-l-epreuve-du-marathon-des-sables
     legacy_unicode_slug: céline-ludovic-pommeret-à-l-épreuve-du-marathon-des-sables
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/course-equipe/celine-ludovic-pommeret-a-l-epreuve-du-marathon-des-sables/"
   - episode_title: 'Rémy Brassac : en perdition sur le Ventoux, sa folle remontée jusqu''à la sélection française'
     episode_url: https://courseepique.fr/
@@ -11280,7 +11293,7 @@ episodes_by_feed:
     episode_slug: remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
     episode_key: remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
     legacy_unicode_slug: rémy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontée-jusqu-à-la-sélection-française
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/course-equipe/remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
   - episode_title: "[EXTRAIT] Rémy Brassac : en perdition sur le Ventoux, sa folle remontée jusqu'à la sélection française"
     episode_url: https://courseepique.fr/
@@ -11293,7 +11306,7 @@ episodes_by_feed:
     episode_slug: extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
     episode_key: extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
     legacy_unicode_slug: extrait-rémy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontée-jusqu-à-la-sélection-française
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/course-equipe/extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
   - episode_title: "[VF \U0001F1EB\U0001F1F7] Dans l'intimité de Kilian Jornet, Emelie Forsberg, Lucille Germain et Elhousine Elazzaoui à Majorque"
     episode_url: https://courseepique.fr/
@@ -11306,7 +11319,7 @@ episodes_by_feed:
     episode_slug: vf-dans-l-intimite-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-a-majorque
     episode_key: vf-dans-l-intimite-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-a-majorque
     legacy_unicode_slug: vf-dans-l-intimité-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-à-majorque
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/course-equipe/vf-dans-l-intimite-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-a-majorque/"
   - episode_title: "[VO \U0001F1EC\U0001F1E7]  Dans l'intimité de Kilian Jornet, Emelie Forsberg, Lucille Germain et Elhousine Elazzaoui à Majorque"
     episode_url: https://courseepique.fr/
@@ -11319,7 +11332,7 @@ episodes_by_feed:
     episode_slug: vo-dans-l-intimite-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-a-majorque
     episode_key: vo-dans-l-intimite-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-a-majorque
     legacy_unicode_slug: vo-dans-l-intimité-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-à-majorque
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/course-equipe/vo-dans-l-intimite-de-kilian-jornet-emelie-forsberg-lucille-germain-et-elhousine-elazzaoui-a-majorque/"
   - episode_title: "[EXTRAIT] Kilian Jornet se confie : NNormal, équilibre familial et saison 2026"
     episode_url: https://courseepique.fr/
@@ -11332,7 +11345,7 @@ episodes_by_feed:
     episode_slug: extrait-kilian-jornet-se-confie-nnormal-equilibre-familial-et-saison-2026
     episode_key: extrait-kilian-jornet-se-confie-nnormal-equilibre-familial-et-saison-2026
     legacy_unicode_slug: extrait-kilian-jornet-se-confie-nnormal-équilibre-familial-et-saison-2026
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/course-equipe/extrait-kilian-jornet-se-confie-nnormal-equilibre-familial-et-saison-2026/"
   - episode_title: 'Sébastien Spehler : 6 participations à la 6000D, 6 courses épiques'
     episode_url: https://courseepique.fr/
@@ -11345,22 +11358,22 @@ episodes_by_feed:
     episode_slug: sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques
     episode_key: sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques
     legacy_unicode_slug: sébastien-spehler-6-participations-à-la-6000d-6-courses-épiques
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/course-equipe/sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques/"
-  - episode_title: "[EXTRAIT] Sébastien Spehler : 6 participations à la 6000D, 6 courses épiques"
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69c6b9adc2759aa9b129c10a/media.mp3
-    published_at: '2026-03-30T03:59:00+00:00'
-    description_html: '<p>Il y a des coureurs qui gagnent. Et il y a des coureurs qui reviennent. Sébastien, lui, fait les deux — mais rarement pour les mêmes raisons.</p><p>Champion du monde de canicross en 2011, il décide de tout arrêter au sommet. Pas par lassitude. Par soif d''autre chose. Cette même logique l''emmène, deux ans plus tard, sur les sentiers de la 6000D — un trail de légende des Alpes savoisiennes, 69 kilomètres et plus de 3000 mètres de dénivelé entre La Plagne et le glacier de Bellecôte. Il ne soupçonne pas encore qu''il va en faire son terrain de jeu pendant plus d''une décennie.</p><p>Six participations. Cinq victoires. Mais derrière les chiffres, il y a des histoires que personne ne raconte : une première édition victorieuse partagée avec Stéphane Ricard, par loyauté ; une course en 2015 courue en plein deuil, comme une bouée jetée dans le vide ; une arrivée en 2024 en chaussettes, une ampoule géante sous le pied, la mâchoire serrée, et malgré tout deuxième ; une sixième édition en 2025 sous la neige et la pluie, où forcer dans le glacier était la seule façon de ne pas trop subir le froid pinçant.</p><p>Dans cet épisode, on plonge dans la trajectoire unique de cet athlète alsacien — du cross à six ans jusqu''au plus haut niveau de l''ultra-trail — en passant par la paternité, l''art de durer dans la performance et ce rapport particulier à une course qu''on ne quitte jamais vraiment.</p><p>Ce qu''on entend ici, c''est un portrait dans toute son épaisseur : les victoires, les choix, les renoncements, et cette phrase entendue en 2013 à 400 mètres de l''arrivée — <em>"profites-en, tu ne revivras peut-être jamais ça."</em></p><p>Sébastien y est ensuite retourné cinq fois.</p><p>Cet épisode est réalisé en partenariat avec la 6000D, trail de légende qui célèbre une nouvelle édition du 30 juillet au 1er août à La Plagne. Des formats pour tous les niveaux, des inscriptions encore ouvertes, tout se passe ici : https://www.la6000d.com/inscriptions/</p><p>Episode intégral disponible le mercredi 1er avril.</p><p>***</p><p>Course Épique, c''est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun.</p><p>Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/</p><p>Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube</p><p>Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios</p><hr><p style=''color:grey; font-size:0.75em;''>Hébergé par Acast. Visitez <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> pour plus d''informations.</p>'
-    description_plain: 'Il y a des coureurs qui gagnent. Et il y a des coureurs qui reviennent. Sébastien, lui, fait les deux — mais rarement pour les mêmes raisons. Champion du monde de canicross en 2011, il décide de tout arrêter au sommet. Pas par lassitude. Par soif d''autre chose. Cette même logique l''emmène, deux ans plus tard, sur les sentiers de la 6000D — un trail de légende des Alpes savoisiennes, 69 kilomètres et plus de 3000 mètres de dénivelé entre La Plagne et le glacier de Bellecôte. Il ne soupçonne pas encore qu''il va en faire son terrain de jeu pendant plus d''une décennie. Six participations. Cinq victoires. Mais derrière les chiffres, il y a des histoires que personne ne raconte : une première édition victorieuse partagée avec Stéphane Ricard, par loyauté ; une course en 2015 courue en plein deuil, comme une bouée jetée dans le vide ; une arrivée en 2024 en chaussettes, une ampoule géante sous le pied, la mâchoire serrée, et malgré tout deuxième ; une sixième édition en 2025 sous la neige et la pluie, où forcer dans le glacier était la seule façon de ne pas trop subir le froid pinçant. Dans cet épisode, on plonge dans la trajectoire unique de cet athlète alsacien — du cross à six ans jusqu''au plus haut niveau de l''ultra-trail — en passant par la paternité, l''art de durer dans la performance et ce rapport particulier à une course qu''on ne quitte jamais vraiment. Ce qu''on entend ici, c''est un portrait dans toute son épaisseur : les victoires, les choix, les renoncements, et cette phrase entendue en 2013 à 400 mètres de l''arrivée — "profites-en, tu ne revivras peut-être jamais ça." Sébastien y est ensuite retourné cinq fois. Cet épisode est réalisé en partenariat avec la 6000D, trail de légende qui célèbre une nouvelle édition du 30 juillet au 1er août à La Plagne. Des formats pour tous les niveaux, des inscriptions encore ouvertes, tout se passe ici : https://www.la6000d.com/inscriptions/ Episode intégral disponible le mercredi 1er avril. *** Course Épique, c''est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun. Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/ Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios Hébergé par Acast. Visitez acast.com/privacy pour plus d''informations.'
-    episode_image_url: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1774631058994-1c725c60-2320-4550-82e7-28920469cd5d.jpeg
-    episode_uid: 69c6b9adc2759aa9b129c10a
-    episode_slug: extrait-sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques
-    episode_key: extrait-sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques
-    legacy_unicode_slug: extrait-sébastien-spehler-6-participations-à-la-6000d-6-courses-épiques
     legacy_numbered_slug: episode-25
-    episode_page_url: "/course-equipe/extrait-sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques/"
+    episode_page_url: "/course-equipe/sebastien-spehler-6-participations-a-la-6000d-6-courses-epiques/"
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &38
+  - episode_title: '“Je cours avec ma colère" : Ben Mazué ou l’art de faire la paix en courant'
+    episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-mazue-je-cours-avec-ma-colere-dltdc-heroes-c76fe265
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/c76fe265-5765-4574-97c6-182d25551995.mp3?_=1781281248
+    published_at: '2026-06-15T03:31:00+00:00'
+    description_html: '<p>Ben Mazué est auteur, compositeur, interprète mais aussi coureur.</p><p>Dans cet épisode, il raconte pourquoi la course à pied est devenue bien plus qu''un simple sport : un moyen de faire le vide, d''apprivoiser ses émotions et de retrouver un équilibre dans une vie où tout va vite.</p><p>On parle de colère, de créativité, de solitude, de trac avant de monter sur scène et de cette phrase qui résume peut-être tout : « Je cours avec ma colère. »</p><p>Hébergé par Audiomeans. Visitez <a href="https://www.audiomeans.fr/politique-de-confidentialite">audiomeans.fr/politique-de-confidentialite</a> pour plus d''informations.</p>'
+    description_plain: 'Ben Mazué est auteur, compositeur, interprète mais aussi coureur. Dans cet épisode, il raconte pourquoi la course à pied est devenue bien plus qu''un simple sport : un moyen de faire le vide, d''apprivoiser ses émotions et de retrouver un équilibre dans une vie où tout va vite. On parle de colère, de créativité, de solitude, de trac avant de monter sur scène et de cette phrase qui résume peut-être tout : « Je cours avec ma colère. » Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d''informations.'
+    episode_image_url: https://static.audiomeans.fr/img/episode/0b2e9a49-1372-4378-a2c0-9ce9e7c3bb94.jpg
+    episode_uid: c76fe265-5765-4574-97c6-182d25551995
+    episode_slug: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
+    episode_key: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
+    legacy_unicode_slug: je-cours-avec-ma-colère-ben-mazué-ou-l-art-de-faire-la-paix-en-courant
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/dans-la-t-te-d-un-coureur/je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant/"
   - episode_title: "[2/2]  Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/22-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-fd0021bd
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/fd0021bd-2c7b-4392-a3f9-90e0ccb75e2f.mp3?_=1781185175
@@ -11372,7 +11385,7 @@ episodes_by_feed:
     episode_slug: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     episode_key: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     legacy_unicode_slug: 2-2-pourquoi-notre-cerveau-déteste-courir-après-une-coupure-et-comment-le-reprogrammer
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
   - episode_title: "[1/2] Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/12-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-0357e31d
@@ -11385,7 +11398,7 @@ episodes_by_feed:
     episode_slug: 1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     episode_key: 1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     legacy_unicode_slug: 1-2-pourquoi-notre-cerveau-déteste-courir-après-une-coupure-et-comment-le-reprogrammer
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
   - episode_title: Depuis quand le Marathon est-il devenu banal ? Océane Andréa & Charlotte Martin  / SAFE PLACE
     episode_url: ''
@@ -11398,7 +11411,7 @@ episodes_by_feed:
     episode_slug: depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place
     episode_key: depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place
     legacy_unicode_slug: depuis-quand-le-marathon-est-il-devenu-banal-océane-andréa-charlotte-martin-safe-place
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/dans-la-t-te-d-un-coureur/depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place/"
   - episode_title: "[2/2]  L’endurance Fondamentale est-elle Surcotée ? (ou réservée aux élites )"
     episode_url: ''
@@ -11411,7 +11424,7 @@ episodes_by_feed:
     episode_slug: 2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     episode_key: 2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     legacy_unicode_slug: 2-2-l-endurance-fondamentale-est-elle-surcotée-ou-réservée-aux-élites
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites/"
   - episode_title: "[1/2]  L’endurance Fondamentale est-elle Surcotée ? (ou réservée aux élites )"
     episode_url: ''
@@ -11424,7 +11437,7 @@ episodes_by_feed:
     episode_slug: 1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     episode_key: 1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     legacy_unicode_slug: 1-2-l-endurance-fondamentale-est-elle-surcotée-ou-réservée-aux-élites
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites/"
   - episode_title: 'Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race'
     episode_url: ''
@@ -11437,7 +11450,7 @@ episodes_by_feed:
     episode_slug: hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race
     episode_key: hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race
     legacy_unicode_slug: hugo-deck-le-récit-de-son-duel-avec-théo-détienne-et-yannick-noël-à-la-maxi-race
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race/"
   - episode_title: 'MaXi-Race : Le Grand Débrief et l''Actu Trail avec Joseph Mestrallet & Candice Fertin'
     episode_url: ''
@@ -11450,7 +11463,7 @@ episodes_by_feed:
     episode_slug: maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
     episode_key: maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
     legacy_unicode_slug: maxi-race-le-grand-débrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/dans-la-t-te-d-un-coureur/maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin/"
   - episode_title: Pourquoi même les coureurs croient aux arnaques ?  Le cas Power Balance  [REDIFF ]
     episode_url: ''
@@ -11463,7 +11476,7 @@ episodes_by_feed:
     episode_slug: pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
     episode_key: pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
     legacy_unicode_slug: pourquoi-même-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff/"
   - episode_title: 'Marathon d’Annecy : et si c’était la plus belle course de France ?'
     episode_url: ''
@@ -11476,7 +11489,7 @@ episodes_by_feed:
     episode_slug: marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france
     episode_key: marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france
     legacy_unicode_slug: marathon-d-annecy-et-si-c-était-la-plus-belle-course-de-france
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/dans-la-t-te-d-un-coureur/marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france/"
   - episode_title: Nike a voulu révolutionner la chaussure… et ça a échoué (l’histoire de la VaporMax)  [REDIFF ]
     episode_url: ''
@@ -11489,7 +11502,7 @@ episodes_by_feed:
     episode_slug: nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff
     episode_key: nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff
     legacy_unicode_slug: nike-a-voulu-révolutionner-la-chaussure-et-ça-a-échoué-l-histoire-de-la-vapormax-rediff
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/dans-la-t-te-d-un-coureur/nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff/"
   - episode_title: Hugo Deck, la performance peut-elle rester un plaisir ?
     episode_url: ''
@@ -11501,7 +11514,7 @@ episodes_by_feed:
     episode_uid: 309d162c-4cb2-4432-b927-140bc34560b5
     episode_slug: hugo-deck-la-performance-peut-elle-rester-un-plaisir
     episode_key: hugo-deck-la-performance-peut-elle-rester-un-plaisir
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-la-performance-peut-elle-rester-un-plaisir/"
   - episode_title: 'Gobi : l’histoire du chien qui a bouleversé le monde du Trail'
     episode_url: ''
@@ -11514,7 +11527,7 @@ episodes_by_feed:
     episode_slug: gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail
     episode_key: gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail
     legacy_unicode_slug: gobi-l-histoire-du-chien-qui-a-bouleversé-le-monde-du-trail
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/dans-la-t-te-d-un-coureur/gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail/"
   - episode_title: Dans l'Enfer du Surentraînement / le Récit de @JB_Tri_off
     episode_url: ''
@@ -11527,7 +11540,7 @@ episodes_by_feed:
     episode_slug: dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off
     episode_key: dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off
     legacy_unicode_slug: dans-l-enfer-du-surentraînement-le-récit-de-jb-tri-off
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/dans-la-t-te-d-un-coureur/dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off/"
   - episode_title: 'Rosie Ruiz : la tricheuse qui a gagné le marathon de Boston sans jamais le courir  [REDIFF ]'
     episode_url: ''
@@ -11540,7 +11553,7 @@ episodes_by_feed:
     episode_slug: rosie-ruiz-la-tricheuse-qui-a-gagne-le-marathon-de-boston-sans-jamais-le-courir-rediff
     episode_key: rosie-ruiz-la-tricheuse-qui-a-gagne-le-marathon-de-boston-sans-jamais-le-courir-rediff
     legacy_unicode_slug: rosie-ruiz-la-tricheuse-qui-a-gagné-le-marathon-de-boston-sans-jamais-le-courir-rediff
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/dans-la-t-te-d-un-coureur/rosie-ruiz-la-tricheuse-qui-a-gagne-le-marathon-de-boston-sans-jamais-le-courir-rediff/"
   - episode_title: 'Zones d’intensité : pourquoi tant de coureurs se trompent (sans même le savoir) ? W. Tristan'
     episode_url: ''
@@ -11553,7 +11566,7 @@ episodes_by_feed:
     episode_slug: zones-d-intensite-pourquoi-tant-de-coureurs-se-trompent-sans-meme-le-savoir-w-tristan
     episode_key: zones-d-intensite-pourquoi-tant-de-coureurs-se-trompent-sans-meme-le-savoir-w-tristan
     legacy_unicode_slug: zones-d-intensité-pourquoi-tant-de-coureurs-se-trompent-sans-même-le-savoir-w-tristan
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/dans-la-t-te-d-un-coureur/zones-d-intensite-pourquoi-tant-de-coureurs-se-trompent-sans-meme-le-savoir-w-tristan/"
   - episode_title: 'Caféine : le protocole que les équipes pros gardent pour elles... (Bonus)'
     episode_url: ''
@@ -11566,7 +11579,7 @@ episodes_by_feed:
     episode_slug: cafeine-le-protocole-que-les-equipes-pros-gardent-pour-elles-bonus
     episode_key: cafeine-le-protocole-que-les-equipes-pros-gardent-pour-elles-bonus
     legacy_unicode_slug: caféine-le-protocole-que-les-équipes-pros-gardent-pour-elles-bonus
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/dans-la-t-te-d-un-coureur/cafeine-le-protocole-que-les-equipes-pros-gardent-pour-elles-bonus/"
   - episode_title: 'UTMB Index 2.0 : les 7 changements qui vont vraiment impacter ton score (et le monde du trail)'
     episode_url: ''
@@ -11578,7 +11591,7 @@ episodes_by_feed:
     episode_uid: fb8e0164-e7bd-4680-a74d-50388059fc3f
     episode_slug: utmb-index-2-0-les-7-changements-qui-vont-vraiment-impacter-ton-score-et-le-monde-du-trail
     episode_key: utmb-index-2-0-les-7-changements-qui-vont-vraiment-impacter-ton-score-et-le-monde-du-trail
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/dans-la-t-te-d-un-coureur/utmb-index-2-0-les-7-changements-qui-vont-vraiment-impacter-ton-score-et-le-monde-du-trail/"
   - episode_title: "[2/2] Caféine : ce qu’on croit… et ce que la science dit vraiment"
     episode_url: ''
@@ -11591,7 +11604,7 @@ episodes_by_feed:
     episode_slug: 2-2-cafeine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment
     episode_key: 2-2-cafeine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment
     legacy_unicode_slug: 2-2-caféine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-cafeine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment/"
   - episode_title: "[1/2]  Caféine : ce qu’on croit… et ce que la science dit vraiment"
     episode_url: ''
@@ -11604,7 +11617,7 @@ episodes_by_feed:
     episode_slug: 1-2-cafeine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment
     episode_key: 1-2-cafeine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment
     legacy_unicode_slug: 1-2-caféine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-cafeine-ce-qu-on-croit-et-ce-que-la-science-dit-vraiment/"
   - episode_title: On ne m'a jamais appris à courir avec mon cycle / SAFE PLACE w. Océane Andréa et Charlotte Martin
     episode_url: ''
@@ -11617,7 +11630,7 @@ episodes_by_feed:
     episode_slug: on-ne-m-a-jamais-appris-a-courir-avec-mon-cycle-safe-place-w-oceane-andrea-et-charlotte-martin
     episode_key: on-ne-m-a-jamais-appris-a-courir-avec-mon-cycle-safe-place-w-oceane-andrea-et-charlotte-martin
     legacy_unicode_slug: on-ne-m-a-jamais-appris-à-courir-avec-mon-cycle-safe-place-w-océane-andréa-et-charlotte-martin
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/dans-la-t-te-d-un-coureur/on-ne-m-a-jamais-appris-a-courir-avec-mon-cycle-safe-place-w-oceane-andrea-et-charlotte-martin/"
   - episode_title: "[2/2] Édulcorants : un faux ami pour les Coureurs ? ( Skyr, Zéro, Électrolytes)"
     episode_url: ''
@@ -11630,7 +11643,7 @@ episodes_by_feed:
     episode_slug: 2-2-edulcorants-un-faux-ami-pour-les-coureurs-skyr-zero-electrolytes
     episode_key: 2-2-edulcorants-un-faux-ami-pour-les-coureurs-skyr-zero-electrolytes
     legacy_unicode_slug: 2-2-édulcorants-un-faux-ami-pour-les-coureurs-skyr-zéro-électrolytes
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-edulcorants-un-faux-ami-pour-les-coureurs-skyr-zero-electrolytes/"
   - episode_title: "[1/2] Édulcorants : un faux ami pour les Coureurs ? ( Skyr, Zéro, Électrolytes)"
     episode_url: ''
@@ -11643,7 +11656,7 @@ episodes_by_feed:
     episode_slug: 1-2-edulcorants-un-faux-ami-pour-les-coureurs-skyr-zero-electrolytes
     episode_key: 1-2-edulcorants-un-faux-ami-pour-les-coureurs-skyr-zero-electrolytes
     legacy_unicode_slug: 1-2-édulcorants-un-faux-ami-pour-les-coureurs-skyr-zéro-électrolytes
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-edulcorants-un-faux-ami-pour-les-coureurs-skyr-zero-electrolytes/"
   - episode_title: Les plus belles histoires du Marathon de Paris 2026 ! (Philippine Delaire, Stéphane Diagana, @Depuisquejecours) / Partie 2
     episode_url: ''
@@ -11656,7 +11669,7 @@ episodes_by_feed:
     episode_slug: les-plus-belles-histoires-du-marathon-de-paris-2026-philippine-delaire-stephane-diagana-depuisquejecours-partie-2
     episode_key: les-plus-belles-histoires-du-marathon-de-paris-2026-philippine-delaire-stephane-diagana-depuisquejecours-partie-2
     legacy_unicode_slug: les-plus-belles-histoires-du-marathon-de-paris-2026-philippine-delaire-stéphane-diagana-depuisquejecours-partie-2
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/dans-la-t-te-d-un-coureur/les-plus-belles-histoires-du-marathon-de-paris-2026-philippine-delaire-stephane-diagana-depuisquejecours-partie-2/"
   - episode_title: 'Marathon de Paris 2026 : le Grand Débrief  (Hugo Philip et Tristan) / Partie 1'
     episode_url: ''
@@ -11669,20 +11682,8 @@ episodes_by_feed:
     episode_slug: marathon-de-paris-2026-le-grand-debrief-hugo-philip-et-tristan-partie-1
     episode_key: marathon-de-paris-2026-le-grand-debrief-hugo-philip-et-tristan-partie-1
     legacy_unicode_slug: marathon-de-paris-2026-le-grand-débrief-hugo-philip-et-tristan-partie-1
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/dans-la-t-te-d-un-coureur/marathon-de-paris-2026-le-grand-debrief-hugo-philip-et-tristan-partie-1/"
-  - episode_title: 'Arthur Joyeux-Bouillon au Marathon de Paris  : Pourquoi les traileurs passent sur route ?'
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/944d12cb-7020-40ad-b291-af1dd17077aa.mp3?_=1775770554
-    published_at: '2026-04-10T03:50:00+00:00'
-    description_html: <p>Dans 48 heures, Arthur Joyeux-Bouillon qui n’a plus rien à prouver sur les sentiers du monde entier, s’apprête à prendre le départ du mythique Marathon de Paris !</p><p>Il revient sans filtre sur ses motivations, sa préparation et ses interrogations à quelques heures du départ !</p><p>Un épisode rendu possible grâce au soutien de SHOKZ (10€ offert avec le code PODCAST10 sur <a target="_blank" rel="noopener noreferrer nofollow" href="https://fr.shokz.com/">https://fr.shokz.com/)</a></p><p>Hébergé par Audiomeans. Visitez <a href="https://www.audiomeans.fr/politique-de-confidentialite">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>
-    description_plain: Dans 48 heures, Arthur Joyeux-Bouillon qui n’a plus rien à prouver sur les sentiers du monde entier, s’apprête à prendre le départ du mythique Marathon de Paris ! Il revient sans filtre sur ses motivations, sa préparation et ses interrogations à quelques heures du départ ! Un épisode rendu possible grâce au soutien de SHOKZ (10€ offert avec le code PODCAST10 sur https://fr.shokz.com/) Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d'informations.
-    episode_image_url: https://static.audiomeans.fr/img/episode/d8a150da-8344-4f66-b13d-4dfe5a2cfeb9.jpg
-    episode_uid: 944d12cb-7020-40ad-b291-af1dd17077aa
-    episode_slug: arthur-joyeux-bouillon-au-marathon-de-paris-pourquoi-les-traileurs-passent-sur-route
-    episode_key: arthur-joyeux-bouillon-au-marathon-de-paris-pourquoi-les-traileurs-passent-sur-route
     legacy_numbered_slug: episode-25
-    episode_page_url: "/dans-la-t-te-d-un-coureur/arthur-joyeux-bouillon-au-marathon-de-paris-pourquoi-les-traileurs-passent-sur-route/"
+    episode_page_url: "/dans-la-t-te-d-un-coureur/marathon-de-paris-2026-le-grand-debrief-hugo-philip-et-tristan-partie-1/"
   https://rss.libsyn.com/shows/506688/destinations/4343338.xml: &39
   - episode_title: Ep. 78 Is Kilian going to race Western States? + We're not done talking about Sage and Cam
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-78-is-kilian-going-to-race-western-states-were-not-done-talking-about-sage-and-cam
@@ -18759,6 +18760,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/huberman-lab/essentials-tools-for-setting-achieving-goals-dr-emily-balcetis/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &62
+  - episode_title: 'Nowak-drapet: Derfor koker Storbritannia'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/fb7f3d2f-cb8c-403f-bf3d-2fcb8cd03f25_1_ID192MP3.mp3
+    published_at: '2026-06-15T05:59:00+02:00'
+    description_html: En video av en pågripelse og knivstikking har utløst en bølge av aggressive protester i Storbritannia.
+    description_plain: En video av en pågripelse og knivstikking har utløst en bølge av aggressive protester i Storbritannia.
+    episode_image_url: https://gfx.nrk.no/jNr8OqyB6Qj14ab2B3ylHALurY0jX2vOnK-NhQWcjfYw.jpg
+    episode_uid: fb7f3d2f-cb8c-403f-bf3d-2fcb8cd03f25-1-id192mp3-mp3
+    episode_slug: nowak-drapet-derfor-koker-storbritannia
+    episode_key: nowak-drapet-derfor-koker-storbritannia
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/oppdatert/nowak-drapet-derfor-koker-storbritannia/"
   - episode_title: '18-åringen drepte Tamima: Inspirert av Hitler'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/1b228551-7530-4704-a285-517530e70427_1_ID192MP3.mp3
@@ -18770,7 +18783,7 @@ episodes_by_feed:
     episode_slug: 18-aringen-drepte-tamima-inspirert-av-hitler
     episode_key: 18-aringen-drepte-tamima-inspirert-av-hitler
     legacy_unicode_slug: 18-åringen-drepte-tamima-inspirert-av-hitler
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/oppdatert/18-aringen-drepte-tamima-inspirert-av-hitler/"
   - episode_title: "«Internett-politiet» Jørgen: Skurk eller helt?"
     episode_url: ''
@@ -18783,7 +18796,7 @@ episodes_by_feed:
     episode_slug: internett-politiet-jorgen-skurk-eller-helt
     episode_key: internett-politiet-jorgen-skurk-eller-helt
     legacy_unicode_slug: internett-politiet-jørgen-skurk-eller-helt
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/oppdatert/internett-politiet-jorgen-skurk-eller-helt/"
   - episode_title: Livet til Helene rakna - å leve sakte endra alt
     episode_url: ''
@@ -18796,7 +18809,7 @@ episodes_by_feed:
     episode_slug: livet-til-helene-rakna-a-leve-sakte-endra-alt
     episode_key: livet-til-helene-rakna-a-leve-sakte-endra-alt
     legacy_unicode_slug: livet-til-helene-rakna-å-leve-sakte-endra-alt
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/oppdatert/livet-til-helene-rakna-a-leve-sakte-endra-alt/"
   - episode_title: 'Bor ulovlig i Norge: Lyver han til myndighetene?'
     episode_url: ''
@@ -18808,7 +18821,7 @@ episodes_by_feed:
     episode_uid: 9d380fbc-fe22-4946-b80f-bcfe2229468e-1-id192mp3-mp3
     episode_slug: bor-ulovlig-i-norge-lyver-han-til-myndighetene
     episode_key: bor-ulovlig-i-norge-lyver-han-til-myndighetene
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/oppdatert/bor-ulovlig-i-norge-lyver-han-til-myndighetene/"
   - episode_title: 'Fotballens mektigste: Derfor stormer det rundt ham'
     episode_url: ''
@@ -18820,7 +18833,7 @@ episodes_by_feed:
     episode_uid: 92a8673e-0a74-4526-a867-3e0a749526ca-2-id192mp3-mp3
     episode_slug: fotballens-mektigste-derfor-stormer-det-rundt-ham
     episode_key: fotballens-mektigste-derfor-stormer-det-rundt-ham
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/oppdatert/fotballens-mektigste-derfor-stormer-det-rundt-ham/"
   - episode_title: 'Kronprinsessa si helse: No ventar ho på nye lunger'
     episode_url: ''
@@ -18833,7 +18846,7 @@ episodes_by_feed:
     episode_slug: kronprinsessa-si-helse-no-ventar-ho-pa-nye-lunger
     episode_key: kronprinsessa-si-helse-no-ventar-ho-pa-nye-lunger
     legacy_unicode_slug: kronprinsessa-si-helse-no-ventar-ho-på-nye-lunger
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/oppdatert/kronprinsessa-si-helse-no-ventar-ho-pa-nye-lunger/"
   - episode_title: 'Friends-stjernens død: Nå er fem personer dømt'
     episode_url: ''
@@ -18846,7 +18859,7 @@ episodes_by_feed:
     episode_slug: friends-stjernens-dod-na-er-fem-personer-domt
     episode_key: friends-stjernens-dod-na-er-fem-personer-domt
     legacy_unicode_slug: friends-stjernens-død-nå-er-fem-personer-dømt
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/oppdatert/friends-stjernens-dod-na-er-fem-personer-domt/"
   - episode_title: 'Europas atomvåpenskjold: Genialt eller galskap?'
     episode_url: ''
@@ -18859,7 +18872,7 @@ episodes_by_feed:
     episode_slug: europas-atomvapenskjold-genialt-eller-galskap
     episode_key: europas-atomvapenskjold-genialt-eller-galskap
     legacy_unicode_slug: europas-atomvåpenskjold-genialt-eller-galskap
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/oppdatert/europas-atomvapenskjold-genialt-eller-galskap/"
   - episode_title: '17. mai-vold gikk viralt: Et politisk spill?'
     episode_url: ''
@@ -18871,21 +18884,8 @@ episodes_by_feed:
     episode_uid: d73526c4-265e-4681-b526-c4265e0681bb-1-id192mp3-mp3
     episode_slug: 17-mai-vold-gikk-viralt-et-politisk-spill
     episode_key: 17-mai-vold-gikk-viralt-et-politisk-spill
-    legacy_numbered_slug: episode-09
-    episode_page_url: "/oppdatert/17-mai-vold-gikk-viralt-et-politisk-spill/"
-  - episode_title: 'Ebolaviruset herjar: Kvifor får Vesten skulda?'
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/08bc3fb2-acc8-4808-bc3f-b2acc898084b_1_ID192MP3.mp3
-    published_at: '2026-06-02T05:59:00+02:00'
-    description_html: Ein ny og dødeleg variant av ebola-viruset spreier seg i Afrika. Fleire rettar peikefingeren mot Donald Trump og Vesten.
-    description_plain: Ein ny og dødeleg variant av ebola-viruset spreier seg i Afrika. Fleire rettar peikefingeren mot Donald Trump og Vesten.
-    episode_image_url: https://gfx.nrk.no/Ohhl4IF9XOu77QkANczgMwc23E5zp0u8DnJOh1yxJ9lQ.jpg
-    episode_uid: '08bc3fb2-acc8-4808-bc3f-b2acc898084b-1-id192mp3-mp3'
-    episode_slug: ebolaviruset-herjar-kvifor-far-vesten-skulda
-    episode_key: ebolaviruset-herjar-kvifor-far-vesten-skulda
-    legacy_unicode_slug: ebolaviruset-herjar-kvifor-får-vesten-skulda
     legacy_numbered_slug: episode-10
-    episode_page_url: "/oppdatert/ebolaviruset-herjar-kvifor-far-vesten-skulda/"
+    episode_page_url: "/oppdatert/17-mai-vold-gikk-viralt-et-politisk-spill/"
   https://sr-restored.se/rss/2071: &63
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
@@ -23239,6 +23239,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-colin-and-samir-show/the-business-of-email-how-substack-changed-everything/"
   https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &77
+  - episode_title: 'Creatine Expert: Creatine Is The Secret To Weight Loss'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KV1ANNH3K4XZ9V9D3NRE9A7C.mp3
+    published_at: '2026-06-15T05:00:00Z'
+    description_html: '<p class="text-node">What is creatine really doing to your brain? Top Creatine Researcher Dr Darren Candow reveals why 5g won’t reach your brain, how creatine may reverse sleep deprivation, and the 5 myths stopping millions from taking it!  Dr Darren Candow is a professor and Director of the Ageing Muscle and Bone Health Laboratory at the University of Regina, with 175 published research papers. He is a fellow and incoming Vice-President of the International Society of Sports Nutrition and was named on Stanford University''s Top 2% Scientists list in 2025.</p><p class="text-node">He explains:</p><p class="text-node">◼ The 5 myths stopping you from taking creatine, and why they''re all wrong</p><p class="text-node">◼ How much creatine you really need for muscle, bone, brain and sleep deprivation</p><p class="text-node">◼ How adding creatine to your antidepressant can double your remission rate</p><p class="text-node">◼ Why you lose 1% of your muscle every year after 40 and what to do about it</p><p class="text-node">◼Why creatine protects your brain from stress, sleep loss and cognitive decline</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:26</strong> What is the mission that you''re on?</li><li><strong>00:04:14</strong> Why has creatine exploded?</li><li><strong>00:06:30</strong> Are we deficient in creatine?</li><li><strong>00:08:14</strong> Does creatine damage your kidneys?</li><li><strong>00:10:32</strong> If I have creatine in my muscle, am I more likely to gain muscle?</li><li><strong>00:11:50</strong> Should women take creatine?</li><li><strong>00:12:31</strong> Will creatine cause hair loss?</li><li><strong>00:13:36</strong> Creatine causes muscle cramps?</li><li><strong>00:16:28</strong> How effective is creatine in gaining muscle mass?</li><li><strong>00:18:08</strong> Is the "loading phase" unnecessary?</li><li><strong>00:19:06</strong> Is there anyone that shouldn''t take creatine?</li><li><strong>00:19:41</strong> Whats the best type of creatine to take?</li><li><strong>00:21:31</strong> The Dosing Dilemma - How much to take for each benefit?</li><li><strong>00:22:43</strong> Does creatine cause dizziness?</li><li><strong>00:24:49</strong> Taste test</li><li><strong>00:25:38</strong> The best dosage for bone health</li><li><strong>00:34:20</strong> What are the brain benefits of creatine?</li><li><strong>00:36:51</strong> Anything else to know about creatine''s impact on the brain?</li><li><strong>00:38:06</strong> Ads</li><li><strong>00:40:13</strong> Does creatine help with inflammation?</li><li><strong>00:41:28</strong> Using creatine for Alzheimer''s</li><li><strong>00:42:45</strong> Does creatine have an impact on our mental health?</li><li><strong>00:44:39</strong> What are foods I can eat that would supply creatine?</li><li><strong>00:45:03</strong> Study that showed creatine improved young athletes'' sleep</li><li><strong>00:47:43</strong> The importance of weight training</li><li><strong>00:48:12</strong> What are the misconceptions about weight training?</li><li><strong>00:50:58</strong> Why is exercise more important as we get older?</li><li><strong>00:52:46</strong> Combining protein and creatine</li><li><strong>00:53:55</strong> Ads</li><li><strong>00:54:56</strong> How creatine helps menopausal and post-menopausal women</li><li><strong>00:56:00</strong> Is creatine safe for kids and people in general?</li><li><strong>00:57:09</strong> What''s the best time to take creatine?</li><li><strong>00:58:15</strong> What do you think of creatine gummies?</li><li><strong>01:00:44</strong> What supplements do you take other than creatine?</li><li><strong>01:02:52</strong> Are there any direct weight benefits to creatine?</li><li><strong>01:04:18</strong> What differences will I notice when taking creatine?</li><li><strong>01:06:42</strong> Whats your health routine?</li><li><strong>01:08:31</strong> Do different people need to dose differently?</li><li><strong>01:10:45</strong> How do you define ageing?</li><li><strong>01:12:04</strong> What is your goal?</li><li><strong>01:13:05</strong> Fear of death</li></ul></p><p class="text-node">Follow Darren:</p><p class="text-node">Instagram - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/EIZm0wm">https://link.thediaryofaceo.com/EIZm0wm</a></p><p class="text-node">X - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/5AUqbZD">https://link.thediaryofaceo.com/5AUqbZD</a></p><p class="text-node">The Diary Of A CEO:</p><p class="text-node">◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a></p><p class="text-node">◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a></p><p class="text-node">◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a></p><p class="text-node">◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a></p><p class="text-node">◼ Get email updates - <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a></p><p class="text-node">◼ Follow Steven - <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors:</p><p class="text-node">Flightcast - Check out <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://www.flightcast.com/DOAC1">https://www.flightcast.com/DOAC1</a></p><p class="text-node">Stan - Visit <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9">https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9</a></p>'
+    description_plain: 'What is creatine really doing to your brain? Top Creatine Researcher Dr Darren Candow reveals why 5g won’t reach your brain, how creatine may reverse sleep deprivation, and the 5 myths stopping millions from taking it! Dr Darren Candow is a professor and Director of the Ageing Muscle and Bone Health Laboratory at the University of Regina, with 175 published research papers. He is a fellow and incoming Vice-President of the International Society of Sports Nutrition and was named on Stanford University''s Top 2% Scientists list in 2025. He explains: ◼ The 5 myths stopping you from taking creatine, and why they''re all wrong ◼ How much creatine you really need for muscle, bone, brain and sleep deprivation ◼ How adding creatine to your antidepressant can double your remission rate ◼ Why you lose 1% of your muscle every year after 40 and what to do about it ◼Why creatine protects your brain from stress, sleep loss and cognitive decline Chapters 00:00:00 Intro 00:02:26 What is the mission that you''re on? 00:04:14 Why has creatine exploded? 00:06:30 Are we deficient in creatine? 00:08:14 Does creatine damage your kidneys? 00:10:32 If I have creatine in my muscle, am I more likely to gain muscle? 00:11:50 Should women take creatine? 00:12:31 Will creatine cause hair loss? 00:13:36 Creatine causes muscle cramps? 00:16:28 How effective is creatine in gaining muscle mass? 00:18:08 Is the "loading phase" unnecessary? 00:19:06 Is there anyone that shouldn''t take creatine? 00:19:41 Whats the best type of creatine to take? 00:21:31 The Dosing Dilemma - How much to take for each benefit? 00:22:43 Does creatine cause dizziness? 00:24:49 Taste test 00:25:38 The best dosage for bone health 00:34:20 What are the brain benefits of creatine? 00:36:51 Anything else to know about creatine''s impact on the brain? 00:38:06 Ads 00:40:13 Does creatine help with inflammation? 00:41:28 Using creatine for Alzheimer''s 00:42:45 Does creatine have an impact on our mental health? 00:44:39 What are foods I can eat that would supply creatine? 00:45:03 Study that showed creatine improved young athletes'' sleep 00:47:43 The importance of weight training 00:48:12 What are the misconceptions about weight training? 00:50:58 Why is exercise more important as we get older? 00:52:46 Combining protein and creatine 00:53:55 Ads 00:54:56 How creatine helps menopausal and post-menopausal women 00:56:00 Is creatine safe for kids and people in general? 00:57:09 What''s the best time to take creatine? 00:58:15 What do you think of creatine gummies? 01:00:44 What supplements do you take other than creatine? 01:02:52 Are there any direct weight benefits to creatine? 01:04:18 What differences will I notice when taking creatine? 01:06:42 Whats your health routine? 01:08:31 Do different people need to dose differently? 01:10:45 How do you define ageing? 01:12:04 What is your goal? 01:13:05 Fear of death Follow Darren: Instagram - https://link.thediaryofaceo.com/EIZm0wm X - https://link.thediaryofaceo.com/5AUqbZD The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Flightcast - Check out https://www.flightcast.com/DOAC1 Stan - Visit https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9'
+    episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KV1AY5PKNPP6608A1KX5WMWJ/doac_ep_cover_dr_darren.jpg
+    episode_uid: flightcast-01kv1annh3b159tvxz55c6w851
+    episode_slug: creatine-expert-creatine-is-the-secret-to-weight-loss
+    episode_key: creatine-expert-creatine-is-the-secret-to-weight-loss
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-diary-of-a-ceo/creatine-expert-creatine-is-the-secret-to-weight-loss/"
   - episode_title: 'Most Replayed Moment: Is Milk Healthy? The Truth About Dairy, Sugar, Fruit And Fasting'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSSJRTDKNW8JAJ7GHQSAQXVH.mp3
@@ -23249,7 +23261,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssjrtdkrpredtygqvjz91ab
     episode_slug: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
     episode_key: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting/"
   - episode_title: 'Archaeology WARNING:  They Secretly Found Antarctica 300 Years Before Us - Graham Hancock'
     episode_url: ''
@@ -23261,7 +23273,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ktsq9b3v53jfegbr8ddybsmm
     episode_slug: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
     episode_key: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-diary-of-a-ceo/archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock/"
   - episode_title: 'Death of the Middle Class: Billionaire vs Entrepreneur DEBATE - Daniel Priestley v Nick Hanauer'
     episode_url: ''
@@ -23273,7 +23285,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kthx7wcr8tv92taf5y99fm5m
     episode_slug: death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer
     episode_key: death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-diary-of-a-ceo/death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer/"
   - episode_title: 'Most Replayed Moment: Brené Brown on Vulnerability, Self Esteem and The Four Skillsets Of Courage'
     episode_url: ''
@@ -23286,7 +23298,7 @@ episodes_by_feed:
     episode_slug: most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
     episode_key: most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
     legacy_unicode_slug: most-replayed-moment-brené-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage/"
   - episode_title: 'Christian Apologist: The Truth About Christianity (And Why Atheism Is Fading)'
     episode_url: ''
@@ -23298,7 +23310,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kt7fyycxjwmnjyvrcj3rx9vp
     episode_slug: christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading
     episode_key: christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-diary-of-a-ceo/christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading/"
   - episode_title: 'Tech Whistleblower: You Only Have 3 Years Left Before This Hits! - Mo Gawdat'
     episode_url: ''
@@ -23310,7 +23322,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kszdq99mmz0tdaac0ewy7t03
     episode_slug: tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat
     episode_key: tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-diary-of-a-ceo/tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat/"
   - episode_title: 'Most Replayed Moment: The Hidden Organ That Controls Exactly How You Age!'
     episode_url: ''
@@ -23322,7 +23334,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7wvvfyr4va949s12svfs3x
     episode_slug: most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age
     episode_key: most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age/"
   - episode_title: 'EMERGENCY DEBATE: The Economy Is About To Collapse! The 2026 AI Crisis Nobody Sees Coming'
     episode_url: ''
@@ -23334,7 +23346,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ksnmg2epdsanf6f3eh346zaj
     episode_slug: emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming
     episode_key: emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-diary-of-a-ceo/emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming/"
   - episode_title: 'Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No.'
     episode_url: ''
@@ -23346,7 +23358,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ksdj6z8qn3e3a9k5vxm0td8s
     episode_slug: bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no
     episode_key: bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-diary-of-a-ceo/bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no/"
   - episode_title: 'Most Replayed Moment: AI Safety Expert Predicts The Next 20 Years! Will It Really Take All Jobs?'
     episode_url: ''
@@ -23358,7 +23370,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7wfp6j4y4xyjnwbty7d743
     episode_slug: most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs
     episode_key: most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs/"
   - episode_title: 'World-Renowned Physicist: The Truth About Aliens! UFOs Are Definitely Robotic - Michio Kaku'
     episode_url: ''
@@ -23370,7 +23382,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ks3j8kqhh9hb44tjm37pbhz3
     episode_slug: world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku
     episode_key: world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-diary-of-a-ceo/world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku/"
   - episode_title: 'Fatty Liver Expert: Your Liver Is Filling With Fat Right Now - Dr David Unwin'
     episode_url: ''
@@ -23382,7 +23394,7 @@ episodes_by_feed:
     episode_uid: flightcast-01krvdft0bae6257wqwr76mwr6
     episode_slug: fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin
     episode_key: fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-diary-of-a-ceo/fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin/"
   - episode_title: 'Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?'
     episode_url: ''
@@ -23394,7 +23406,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7w8nwe3d62nfc72x0q1wbs
     episode_slug: most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful
     episode_key: most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful/"
   - episode_title: 'UFO Roundtable: CIA Physicist Proves Aliens Exist'
     episode_url: ''
@@ -23406,7 +23418,7 @@ episodes_by_feed:
     episode_uid: flightcast-01krhzy6hbpb067yc206xc7erf
     episode_slug: ufo-roundtable-cia-physicist-proves-aliens-exist
     episode_key: ufo-roundtable-cia-physicist-proves-aliens-exist
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-diary-of-a-ceo/ufo-roundtable-cia-physicist-proves-aliens-exist/"
   - episode_title: 'Pulitzer Prize Historian: You Won''t Notice Until It''s Too Late!'
     episode_url: ''
@@ -23418,7 +23430,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kr97ym65pryfhgrx6w8e0gne
     episode_slug: pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late
     episode_key: pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-diary-of-a-ceo/pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late/"
   - episode_title: 'Most Replayed Moment: This Is The Best Exercise Protocol For Women!'
     episode_url: ''
@@ -23430,7 +23442,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7vsbtaf3grs244y13qqj0a
     episode_slug: most-replayed-moment-this-is-the-best-exercise-protocol-for-women
     episode_key: most-replayed-moment-this-is-the-best-exercise-protocol-for-women
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-this-is-the-best-exercise-protocol-for-women/"
   - episode_title: 'WW3 Expert: This Could Trigger Global Starvation'
     episode_url: ''
@@ -23442,7 +23454,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kr007tme4vjbshmqshhy34j4
     episode_slug: ww3-expert-this-could-trigger-global-starvation
     episode_key: ww3-expert-this-could-trigger-global-starvation
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-diary-of-a-ceo/ww3-expert-this-could-trigger-global-starvation/"
   - episode_title: 'Scott Galloway: AI Wasn’t Built For You. The Rich Don’t Need You Anymore!'
     episode_url: ''
@@ -23454,7 +23466,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kqnhxqa2c1eygwgh1g7vpf2c
     episode_slug: scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore
     episode_key: scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-diary-of-a-ceo/scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore/"
   - episode_title: 'Most Replayed Moment: Neil deGrasse Tyson On The Future Of Humanity! Will We Ever Go To Mars?'
     episode_url: ''
@@ -23466,7 +23478,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7ty8mft987djxv13gtsasp
     episode_slug: most-replayed-moment-neil-degrasse-tyson-on-the-future-of-humanity-will-we-ever-go-to-mars
     episode_key: most-replayed-moment-neil-degrasse-tyson-on-the-future-of-humanity-will-we-ever-go-to-mars
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-neil-degrasse-tyson-on-the-future-of-humanity-will-we-ever-go-to-mars/"
   - episode_title: 'Money Expert: Buying A House Is A Mistake! Becoming Rich is Simple But You Won’t Do It!'
     episode_url: ''
@@ -23478,7 +23490,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kqdn7p374jrhzhw5atsyrecc
     episode_slug: money-expert-buying-a-house-is-a-mistake-becoming-rich-is-simple-but-you-won-t-do-it
     episode_key: money-expert-buying-a-house-is-a-mistake-becoming-rich-is-simple-but-you-won-t-do-it
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-diary-of-a-ceo/money-expert-buying-a-house-is-a-mistake-becoming-rich-is-simple-but-you-won-t-do-it/"
   - episode_title: 'Sex Scientist: Phone Addiction Is Killing Your Sex Life More Than Porn!'
     episode_url: ''
@@ -23490,7 +23502,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq00359jtynq0e9t9ttkg3sv
     episode_slug: sex-scientist-phone-addiction-is-killing-your-sex-life-more-than-porn
     episode_key: sex-scientist-phone-addiction-is-killing-your-sex-life-more-than-porn
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-diary-of-a-ceo/sex-scientist-phone-addiction-is-killing-your-sex-life-more-than-porn/"
   - episode_title: 'Most Replayed Moment: Neuroscientist’s Proof Of Life After Death! Dr Tara Swart'
     episode_url: ''
@@ -23502,7 +23514,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kmzrhzszvpjzybjq2ma8zsxx
     episode_slug: most-replayed-moment-neuroscientist-s-proof-of-life-after-death-dr-tara-swart
     episode_key: most-replayed-moment-neuroscientist-s-proof-of-life-after-death-dr-tara-swart
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-neuroscientist-s-proof-of-life-after-death-dr-tara-swart/"
   - episode_title: 'Stanford Neuroscientist: Can’t Remember Your Dreams? Your Brain May Be Warning You!'
     episode_url: ''
@@ -23514,7 +23526,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kpv0gh4ghgbqt7bd84webams
     episode_slug: stanford-neuroscientist-can-t-remember-your-dreams-your-brain-may-be-warning-you
     episode_key: stanford-neuroscientist-can-t-remember-your-dreams-your-brain-may-be-warning-you
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-diary-of-a-ceo/stanford-neuroscientist-can-t-remember-your-dreams-your-brain-may-be-warning-you/"
   - episode_title: 'The Peptide Expert: Big Pharma Are Hiding This Powerful Peptide From You! - Dr. Alex Tatem'
     episode_url: ''
@@ -23526,20 +23538,8 @@ episodes_by_feed:
     episode_uid: flightcast-01kpjqr48knq71a7c2hcy9pgpy
     episode_slug: the-peptide-expert-big-pharma-are-hiding-this-powerful-peptide-from-you-dr-alex-tatem
     episode_key: the-peptide-expert-big-pharma-are-hiding-this-powerful-peptide-from-you-dr-alex-tatem
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-diary-of-a-ceo/the-peptide-expert-big-pharma-are-hiding-this-powerful-peptide-from-you-dr-alex-tatem/"
-  - episode_title: 'Most Replayed Moment: Insulin Is The Reason You''re Gaining Fat! How To Lower It Now'
-    episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KMZRVEW8EBVJ39EYDKFETPK7.mp3
-    published_at: '2026-04-17T05:00:00Z'
-    description_html: '<p class="text-node">Dr Pradip Jamnadas is a cardiologist and expert in metabolic health, known for his work on insulin resistance, fasting, and cardiovascular disease prevention.</p><p class="text-node">In this moment, he breaks down the real driver behind modern health issues: insulin resistance. Dr Jamnadas explains exactly what habits keep insulin elevated and causes visceral fat gain, inflammation, and diseases like diabetes. He also reveals the key to reversing this metabolic dysfunction, that you can start implementing today.</p><p class="text-node">Listen to the full episode here:</p><p class="text-node">Spotify: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/x6ShJA3YV1b">https://g2ul0.app.link/x6ShJA3YV1b</a></p><p class="text-node">Apple: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/BMi7037YV1b">https://g2ul0.app.link/BMi7037YV1b</a></p><p class="text-node">Watch the Episodes On YouTube: <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.youtube.com/c/%20TheDiaryOfACEO/videos">https://www.youtube.com/c/%20TheDiaryOfACEO/videos</a></p><p class="text-node">Follow Pradip: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://www.youtube.com/channel/UCOtQHehGWtblMp1gZC8Kq3Q">https://www.youtube.com/channel/UCOtQHehGWtblMp1gZC8Kq3Q</a></p>'
-    description_plain: 'Dr Pradip Jamnadas is a cardiologist and expert in metabolic health, known for his work on insulin resistance, fasting, and cardiovascular disease prevention. In this moment, he breaks down the real driver behind modern health issues: insulin resistance. Dr Jamnadas explains exactly what habits keep insulin elevated and causes visceral fat gain, inflammation, and diseases like diabetes. He also reveals the key to reversing this metabolic dysfunction, that you can start implementing today. Listen to the full episode here: Spotify: https://g2ul0.app.link/x6ShJA3YV1b Apple: https://g2ul0.app.link/BMi7037YV1b Watch the Episodes On YouTube: https://www.youtube.com/c/%20TheDiaryOfACEO/videos Follow Pradip: https://www.youtube.com/channel/UCOtQHehGWtblMp1gZC8Kq3Q'
-    episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KMZRX4GYARBV961M81CFBG25/square_cover_image.jpg
-    episode_uid: flightcast-01kmzrvew8tbwd8qtdh5gjqwe6
-    episode_slug: most-replayed-moment-insulin-is-the-reason-you-re-gaining-fat-how-to-lower-it-now
-    episode_key: most-replayed-moment-insulin-is-the-reason-you-re-gaining-fat-how-to-lower-it-now
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-insulin-is-the-reason-you-re-gaining-fat-how-to-lower-it-now/"
+    episode_page_url: "/the-diary-of-a-ceo/the-peptide-expert-big-pharma-are-hiding-this-powerful-peptide-from-you-dr-alex-tatem/"
   https://evokeendurance.com/media-type/evokecast/feed/: &78 []
   https://anchor.fm/s/108a0bfdc/podcast/rss: &79
   - episode_title: 11. Entrevista Andreu Blanes, nuevo fichaje de Salomon
