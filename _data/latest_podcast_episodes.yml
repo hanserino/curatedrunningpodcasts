@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-16T17:45:09Z'
+generated_at: '2026-06-16T19:15:40Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast/"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  filter_category: road track english
+  episode_title: '450: Oslo Diamond League | LA Grand Prix | Cruden Farm'
+  episode_url: https://insiderunningpodcast.podbean.com/e/450-oslo-diamond-league-la-grand-prix-cruden-farm/
+  audio_url: https://mcdn.podbean.com/mf/web/b6628f6z7tn8se85/Ep_450_iTunes90cbe.mp3
+  published_at: '2026-06-17T05:00:00+10:00'
+  episode_key: 450-oslo-diamond-league-la-grand-prix-cruden-farm
+  episode_slug: 450-oslo-diamond-league-la-grand-prix-cruden-farm
+  episode_page_url: "/inside-running-podcast/450-oslo-diamond-league-la-grand-prix-cruden-farm/"
+- podcast_title: Life in Stride
+  podcast_page_url: "/life-in-stride/"
+  cover_image: "/media/lifeinstride.jpeg"
+  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
+  filter_category: road english
+  episode_title: "#322 Toni Roca Diaz - 3:26 to 2:23 in the Marathon, Working at Saysky as Athlete/PR Manager + the 17k Run Interview To Get the Job"
+  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/322-Toni-Roca-Diaz---326-to-223-in-the-Marathon--Working-at-Saysky-as-AthletePR-Manager--the-17k-Run-Interview-To-Get-the-Job-e3ksjda
+  audio_url: https://traffic.megaphone.fm/APO3036381904.mp3
+  published_at: '2026-06-16T18:41:19+00:00'
+  episode_key: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
+  episode_slug: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
+  episode_page_url: "/life-in-stride/322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the/"
 - podcast_title: Find Your Everest by Javi Ordieres
   podcast_page_url: "/find-your-everest/"
   cover_image: "/media/findyoureverest.jpeg"
@@ -97,18 +121,6 @@ items:
   episode_key: tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40
   episode_slug: tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40
   episode_page_url: "/singletrack/tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40/"
-- podcast_title: Life in Stride
-  podcast_page_url: "/life-in-stride/"
-  cover_image: "/media/lifeinstride.jpeg"
-  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
-  filter_category: road english
-  episode_title: "#321 - NCAA Track Champs, Cole Hocker Injury + Parker Valby Impresses, USA Best 800/1500 Country?"
-  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/321---NCAA-Track-Champs--Cole-Hocker-Injury--Parker-Valby-Impresses--USA-Best-8001500-Country-e3krabm
-  audio_url: https://traffic.megaphone.fm/APO5295952528.mp3
-  published_at: '2026-06-15T22:57:34+00:00'
-  episode_key: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
-  episode_slug: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
-  episode_page_url: "/life-in-stride/321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country/"
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
   cover_image: "/media/citiusmag.jpeg"
@@ -217,18 +229,6 @@ items:
   episode_key: bml-hjelper-deg-flexbeam-baerbar-rodlysterapi
   episode_slug: bml-hjelper-deg-flexbeam-baerbar-rodlysterapi
   episode_page_url: "/breaking-marathon-limits/bml-hjelper-deg-flexbeam-baerbar-rodlysterapi/"
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast/"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  filter_category: road track english
-  episode_title: 'Interview: Andy Buchanan'
-  episode_url: https://insiderunningpodcast.podbean.com/e/interview-andy-buchanan/
-  audio_url: https://mcdn.podbean.com/mf/web/nubvb7sfwj7qbs8f/Andy_-_RP_itunes6uyua.mp3
-  published_at: '2026-06-13T06:00:00+10:00'
-  episode_key: interview-andy-buchanan
-  episode_slug: interview-andy-buchanan
-  episode_page_url: "/inside-running-podcast/interview-andy-buchanan/"
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
   cover_image: "/media/coffeeclub.jpeg"
@@ -1012,6 +1012,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-freetrail-podcast/gorge-waterfalls-50k-preview-trailgating/"
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
+  - episode_title: '450: Oslo Diamond League | LA Grand Prix | Cruden Farm'
+    episode_url: https://insiderunningpodcast.podbean.com/e/450-oslo-diamond-league-la-grand-prix-cruden-farm/
+    audio_url: https://mcdn.podbean.com/mf/web/b6628f6z7tn8se85/Ep_450_iTunes90cbe.mp3
+    published_at: '2026-06-17T05:00:00+10:00'
+    description_html: "<p dir=\"ltr\">450: Oslo Diamond League | LA Grand Prix | Cruden Farm</p><p>This episode is brought to you by<a href='http://precisionhydration.com/'> precisionhydration.com</a> for more info on hydration and fuelling products and research, and use the discount code given in the episode.</p><p dir=\"ltr\">Brad plays it safe off the track and with the lactate monitor. \nJulian picks up some confidence on the hills.</p><p dir=\"ltr\">Brady explores the trails along the Murray River.</p><p dir=\"ltr\">This week's running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit <a href='http://precisionhydration.com/'>precisionhydration.com</a> and get your numbers.</p><p dir=\"ltr\">Ky Robinson set the new 5000m NR in 12:50.82 at the Oslo Diamond League. \nPeter Bol ran a season best of 1:43.64 as Cooper Lutkenhaus edged out Emmanuel Wanyonyi by .01 of a second to win the 800m in 1:4208. \nCam Myers came third in the Dream Mile, running 3:48.35 behind winner Timothy Cheruiyot and Yared Nuguse. \nLinden Hall ran 8:28.06 in the 3000m leading fellow Aussies Rose Davies, Lauren Ryan and Georgia Griffith. \n<a href='https://ath-wdl-archive.azureedge.net/2026/oslo/ATH-------------------------------_MUL_1.0.PDF'>Official Results</a></p><p dir=\"ltr\">Oli Hoare placed third in the 1500m in 3:34.20 at the LA Grand Prix, behind winner Ethan Strand, while Lauren Ryan backed up from Oslo to run 4:14.45. Jackson Sharp ran 7:41.50 in the 3000m. \n<a href='https://worldathletics.org/competition/calendar-results/results/7233063?day=2'>Results via World Athletics</a></p><p dir=\"ltr\">Ed Marks for Glenhuntly won the 12k XC at Cruden Farm in 35:33 clear of Luca Di Conza and Zayd al Sayd. The winning team for Men’s Premier Division was Sandringham ahead of Western Athletics and Box Hill. \nAlice Oakley Kerr representing Sandringham won the 12k open race in 44:55 ahead of Amy Cashin and Kate Mason. Sandringham also won the Women’s Premier Division, ahead of South Melbourne and Box Hill. \n<a href='https://athsvic.resultshub.com.au/'>Aths Vic Results Hub</a></p><p dir=\"ltr\">Tom Palfrey ran 3:38.67 for Oregon at the NCAA Championships, while Hayley Kitching placed second in the 800m representing Penn State. \n<a href='https://www.flashresults.com/2026_Meets/Outdoor/06-10_NCAA/index.htm'>NCAA Results</a></p><p dir=\"ltr\">Cape Town Marathon announced as the eighth Marathon World Major. \n<a href='https://www.worldmarathonmajors.com/content-hub/sanlam-cape-town-marathon-becomes-a-major'>Press Release</a></p><p dir=\"ltr\">Gudaf Tsegay four month ban, despite applying for Therapeutic Use Exemption  \n<a href='https://athleticsweekly.com/news/gudaf-tsegay-given-four-month-doping-ban-1040011620/'>Athletics Weekly</a></p><p dir=\"ltr\">Whispers tries to sort out the Commonwealth Games team selection while a Japanese-based American looks to our shores, then the coach-athlete relationship tests Moose On the Loose.</p><p dir=\"ltr\">This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. When fit, how accurate are GPS watch predictions?</p><p dir=\"ltr\">Visit<a href='http://precisionhydration.com/'> precisionhydration.com</a> for more info on hydration and fuelling products and research, and use the discount code given in the episode.</p><p class=\"p1\">Patreon Link: <a href='https://www.patreon.com/insiderunningpodcast'>https://www.patreon.com/insiderunningpodcast</a></p><p class=\"p1\">Opening and Closing Music is Undercover of my Skin by Benny Walker. <a href='http://www.bennywalkermusic.com/'>www.bennywalkermusic.com</a></p><p class=\"p1\">Join the conversation at: <a href='https://www.facebook.com/insiderunningpodcast/'>https://www.facebook.com/insiderunningpodcast/</a></p>"
+    description_plain: '450: Oslo Diamond League | LA Grand Prix | Cruden Farm This episode is brought to you by precisionhydration.com for more info on hydration and fuelling products and research, and use the discount code given in the episode. Brad plays it safe off the track and with the lactate monitor. Julian picks up some confidence on the hills. Brady explores the trails along the Murray River. This week''s running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit precisionhydration.com and get your numbers. Ky Robinson set the new 5000m NR in 12:50.82 at the Oslo Diamond League. Peter Bol ran a season best of 1:43.64 as Cooper Lutkenhaus edged out Emmanuel Wanyonyi by .01 of a second to win the 800m in 1:4208. Cam Myers came third in the Dream Mile, running 3:48.35 behind winner Timothy Cheruiyot and Yared Nuguse. Linden Hall ran 8:28.06 in the 3000m leading fellow Aussies Rose Davies, Lauren Ryan and Georgia Griffith. Official Results Oli Hoare placed third in the 1500m in 3:34.20 at the LA Grand Prix, behind winner Ethan Strand, while Lauren Ryan backed up from Oslo to run 4:14.45. Jackson Sharp ran 7:41.50 in the 3000m. Results via World Athletics Ed Marks for Glenhuntly won the 12k XC at Cruden Farm in 35:33 clear of Luca Di Conza and Zayd al Sayd. The winning team for Men’s Premier Division was Sandringham ahead of Western Athletics and Box Hill. Alice Oakley Kerr representing Sandringham won the 12k open race in 44:55 ahead of Amy Cashin and Kate Mason. Sandringham also won the Women’s Premier Division, ahead of South Melbourne and Box Hill. Aths Vic Results Hub Tom Palfrey ran 3:38.67 for Oregon at the NCAA Championships, while Hayley Kitching placed second in the 800m representing Penn State. NCAA Results Cape Town Marathon announced as the eighth Marathon World Major. Press Release Gudaf Tsegay four month ban, despite applying for Therapeutic Use Exemption Athletics Weekly Whispers tries to sort out the Commonwealth Games team selection while a Japanese-based American looks to our shores, then the coach-athlete relationship tests Moose On the Loose. This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. When fit, how accurate are GPS watch predictions? Visit precisionhydration.com for more info on hydration and fuelling products and research, and use the discount code given in the episode. Patreon Link: https://www.patreon.com/insiderunningpodcast Opening and Closing Music is Undercover of my Skin by Benny Walker. www.bennywalkermusic.com Join the conversation at: https://www.facebook.com/insiderunningpodcast/'
+    episode_image_url: ''
+    episode_uid: insiderunningpodcast-podbean-com-7b26ace9-6be4-3f70-bb0b-a43f87323529
+    episode_slug: 450-oslo-diamond-league-la-grand-prix-cruden-farm
+    episode_key: 450-oslo-diamond-league-la-grand-prix-cruden-farm
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/inside-running-podcast/450-oslo-diamond-league-la-grand-prix-cruden-farm/"
   - episode_title: 'Interview: Andy Buchanan'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-andy-buchanan/
     audio_url: https://mcdn.podbean.com/mf/web/nubvb7sfwj7qbs8f/Andy_-_RP_itunes6uyua.mp3
@@ -1022,7 +1034,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-d09c9684-44ac-3ef9-bd4c-08c0a8520a89
     episode_slug: interview-andy-buchanan
     episode_key: interview-andy-buchanan
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/inside-running-podcast/interview-andy-buchanan/"
   - episode_title: '449: Rome & Stockholm Diamond League | Brisbane Marathon | Mackay Marina Fun Run'
     episode_url: https://insiderunningpodcast.podbean.com/e/449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run/
@@ -1034,7 +1046,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-8714a587-2469-306e-a492-5de534767cfa
     episode_slug: 449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run
     episode_key: 449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/inside-running-podcast/449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run/"
   - episode_title: 'Interview: Ed Marks'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-ed-marks/
@@ -1046,7 +1058,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7b612fa0-1416-39a7-be83-5d67ccf50298
     episode_slug: interview-ed-marks
     episode_key: interview-ed-marks
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/inside-running-podcast/interview-ed-marks/"
   - episode_title: '448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR'
     episode_url: https://insiderunningpodcast.podbean.com/e/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/
@@ -1058,7 +1070,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-5563461a-52ae-332e-ba68-70159b47ae41
     episode_slug: 448-launceston-running-festival-rabat-diamond-league-bendigo-xcr
     episode_key: 448-launceston-running-festival-rabat-diamond-league-bendigo-xcr
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/inside-running-podcast/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/"
   - episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
     episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
@@ -1070,7 +1082,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-10fb7cd9-613a-31cc-85d9-b8fca6b26fb9
     episode_slug: 447-xiamen-diamond-league-la-track-fest-cape-town-marathon
     episode_key: 447-xiamen-diamond-league-la-track-fest-cape-town-marathon
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/inside-running-podcast/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/"
   - episode_title: 'Interview: Evan Jager'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
@@ -1082,7 +1094,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-1e60c640-4a1e-3cd0-88bd-fa8b37bc417a
     episode_slug: interview-evan-jager
     episode_key: interview-evan-jager
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/inside-running-podcast/interview-evan-jager/"
   - episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
     episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
@@ -1094,7 +1106,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-067ad685-abce-3408-b440-c70572a9c3ab
     episode_slug: 446-shanghai-diamond-league-sydney-10-jells-park-relays
     episode_key: 446-shanghai-diamond-league-sydney-10-jells-park-relays
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/inside-running-podcast/446-shanghai-diamond-league-sydney-10-jells-park-relays/"
   - episode_title: 'Interview: Conner Mantz'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
@@ -1106,7 +1118,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-b9809831-8f66-3914-bbd6-c906869f2931
     episode_slug: interview-conner-mantz
     episode_key: interview-conner-mantz
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/inside-running-podcast/interview-conner-mantz/"
   - episode_title: '445: Lakeside:5 | Shanghai Diamond League Preview | Staying Motivated'
     episode_url: https://insiderunningpodcast.podbean.com/e/445-lakeside5-shanghai-diamond-league-preview-staying-motivated/
@@ -1118,7 +1130,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-ccbd12c7-f249-3112-948b-70ea2b37f01b
     episode_slug: 445-lakeside-5-shanghai-diamond-league-preview-staying-motivated
     episode_key: 445-lakeside-5-shanghai-diamond-league-preview-staying-motivated
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/inside-running-podcast/445-lakeside-5-shanghai-diamond-league-preview-staying-motivated/"
   - episode_title: Ellie Pashley on Winning the Ballarat Marathon
     episode_url: https://insiderunningpodcast.podbean.com/e/ellie-pashley-on-winning-the-ballarat-marathon/
@@ -1130,7 +1142,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-edfa0dc6-39d2-36d0-b3fc-5b931141c70d
     episode_slug: ellie-pashley-on-winning-the-ballarat-marathon
     episode_key: ellie-pashley-on-winning-the-ballarat-marathon
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/inside-running-podcast/ellie-pashley-on-winning-the-ballarat-marathon/"
   - episode_title: '444: Sydney Half | Adelaide Marathon | The Ideal Warm Up'
     episode_url: https://insiderunningpodcast.podbean.com/e/444-sydney-half-adelaide-marathon-the-ideal-warm-up/
@@ -1142,7 +1154,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-a4a332a4-4290-3ca8-b5fb-2044f7f747f2
     episode_slug: 444-sydney-half-adelaide-marathon-the-ideal-warm-up
     episode_key: 444-sydney-half-adelaide-marathon-the-ideal-warm-up
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/inside-running-podcast/444-sydney-half-adelaide-marathon-the-ideal-warm-up/"
   - episode_title: 'Interview: Seth O''Donnell'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-seth-odonnell/
@@ -1154,7 +1166,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7099510d-ef1f-3cda-85d8-5a3a3d61e439
     episode_slug: interview-seth-o-donnell
     episode_key: interview-seth-o-donnell
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/inside-running-podcast/interview-seth-o-donnell/"
   - episode_title: 'Interview: Alfie Manthorpe'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-alfie-manthorpe/
@@ -1166,7 +1178,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-2962838a-4647-3177-adc5-31271949d528
     episode_slug: interview-alfie-manthorpe
     episode_key: interview-alfie-manthorpe
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/inside-running-podcast/interview-alfie-manthorpe/"
   - episode_title: 'Interview: Izzi Batt-Doyle'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-izzi-batt-doyle/
@@ -1178,7 +1190,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-9e412362-3d2b-3cc7-ae11-b0fe5449a86f
     episode_slug: interview-izzi-batt-doyle
     episode_key: interview-izzi-batt-doyle
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/inside-running-podcast/interview-izzi-batt-doyle/"
   - episode_title: '443: Ballarat, Boston & London Marathons | Run The Tan'
     episode_url: https://insiderunningpodcast.podbean.com/e/443-ballarat-boston-london-marathons-run-the-tan/
@@ -1190,7 +1202,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-b5ab25ef-569a-3a76-9ea7-fc65f7a51c02
     episode_slug: 443-ballarat-boston-london-marathons-run-the-tan
     episode_key: 443-ballarat-boston-london-marathons-run-the-tan
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/inside-running-podcast/443-ballarat-boston-london-marathons-run-the-tan/"
   - episode_title: Road to Somewhere Ep 9 featuring Phil from MeteoPace
     episode_url: https://insiderunningpodcast.podbean.com/e/road-to-somewhere-ep-9-featuring-phil-from-meteopace/
@@ -1202,7 +1214,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-64395bb0-9eda-3db9-9882-28e6388c8238
     episode_slug: road-to-somewhere-ep-9-featuring-phil-from-meteopace
     episode_key: road-to-somewhere-ep-9-featuring-phil-from-meteopace
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/inside-running-podcast/road-to-somewhere-ep-9-featuring-phil-from-meteopace/"
   - episode_title: '442: Cam Myers | Run Wollongong 5K | World Athletics blocks Turkiye transfers'
     episode_url: https://insiderunningpodcast.podbean.com/e/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/
@@ -1214,7 +1226,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-62da5c65-8d93-31eb-9266-cdcebaba4997
     episode_slug: 442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers
     episode_key: 442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/inside-running-podcast/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/"
   - episode_title: '441: National Track & Field Championships | Canberra Marathon | One Running Kit Review'
     episode_url: https://insiderunningpodcast.podbean.com/e/441-national-track-field-championships-canberra-marathon-one-running-kit-review/
@@ -1226,7 +1238,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-52077f79-67bc-3fa0-b3ff-823b593bcf8f
     episode_slug: 441-national-track-field-championships-canberra-marathon-one-running-kit-review
     episode_key: 441-national-track-field-championships-canberra-marathon-one-running-kit-review
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/inside-running-podcast/441-national-track-field-championships-canberra-marathon-one-running-kit-review/"
   - episode_title: '440: Urban Traile de Lille | Vic Milers Club | Herb Hedemann'
     episode_url: https://insiderunningpodcast.podbean.com/e/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/
@@ -1238,7 +1250,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-30d3d4ed-c3cf-3037-99e6-021d09771d3f
     episode_slug: 440-urban-traile-de-lille-vic-milers-club-herb-hedemann
     episode_key: 440-urban-traile-de-lille-vic-milers-club-herb-hedemann
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/inside-running-podcast/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/"
   - episode_title: 'Interview: Andy Blow (CEO and Founder of Precision Fuel and Hydration)'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-any-blow-ceo-and-founder-of-precision-fuel-and-hydration/
@@ -1250,7 +1262,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-9849ebf0-dd6a-365e-b0f8-723902dbb838
     episode_slug: interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration
     episode_key: interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/inside-running-podcast/interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration/"
   - episode_title: '439: Maurie Plant Meet | The Ten | Run for the Kids'
     episode_url: https://insiderunningpodcast.podbean.com/e/439-maurie-plant-meet-the-ten-run-for-the-kids/
@@ -1262,7 +1274,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-6f97da96-445f-32e0-8f85-8ccae5c574cc
     episode_slug: 439-maurie-plant-meet-the-ten-run-for-the-kids
     episode_key: 439-maurie-plant-meet-the-ten-run-for-the-kids
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/inside-running-podcast/439-maurie-plant-meet-the-ten-run-for-the-kids/"
   - episode_title: '438: Indoor World Championships | NSW & Vic State Championships | Maurie Plant Preview'
     episode_url: https://insiderunningpodcast.podbean.com/e/438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview/
@@ -1274,7 +1286,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-d685ff15-09e7-39cd-86d2-e3ced65fc5d7
     episode_slug: 438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview
     episode_key: 438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/inside-running-podcast/438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview/"
   - episode_title: 'Interview: Marius Bakken'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-marius-bakken/
@@ -1286,7 +1298,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-9b5c32f8-3e45-38e4-800b-1363cbc6a8c3
     episode_slug: interview-marius-bakken
     episode_key: interview-marius-bakken
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/inside-running-podcast/interview-marius-bakken/"
   - episode_title: '437: Adelaide Invitational | NYC Half Marathon | Adidas Hyperboost Edge Review'
     episode_url: https://insiderunningpodcast.podbean.com/e/437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review/
@@ -1298,20 +1310,8 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-644b780f-8cc2-3a1a-b58e-4e7f5f943085
     episode_slug: 437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review
     episode_key: 437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/inside-running-podcast/437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review/"
-  - episode_title: '436: Box Hill Classic | Lisbon Half Marathon | Nagoya Marathon'
-    episode_url: https://insiderunningpodcast.podbean.com/e/436-box-hill-classic-lisbon-half-marathon-nagoya-marathon/
-    audio_url: https://mcdn.podbean.com/mf/web/hdgcj82jc7fj8fpn/Ep_436_itunes92ti7.mp3
-    published_at: '2026-03-11T06:00:00+11:00'
-    description_html: "<p dir=\"ltr\">436: Box Hill Classic | Lisbon Half Marathon | Nagoya Marathon</p><p dir=\"ltr\">This episode is brought to you by SAYSKY. The Spring/Summer 26 collection is inspired by the unspoken poetry of running. Shop the full range at <a href='http://saysky.com/'>saysky.com</a>, where you can also score 15% off with our exclusive discount code using the code IRP15 at checkout.</p><p dir=\"ltr\">Brad gets in a workout while managing the community 5K track event. \nJulian gives shoe advice for fitting shoes over the phone and makes progress in recovery. \nBrady starts sizing up race shoe options.</p><p dir=\"ltr\">This week's running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit <a href='http://precisionhydration.com/'>precisionhydration.com</a> and get your numbers.</p><p dir=\"ltr\">Claudia Hollingsworth ran 3:58.09, the fastest ever 1500m by an Australian on home soil at the Box Hill Classic. Thomas Moorcroft won the Men’s 1500m. \nJunya Matsumoto of Japan won the 800m in 1:47:40, while Rachel O’Brien won in 2:06.55 Tom Bowers and Aynslee Minnaar won their 3000m races. <a href='https://athsvic.resultshub.com.au/'>AthsVic Results Hub</a></p><p dir=\"ltr\">Jacob Kiplimo won the Lisbon Half Marathon in a(nother) World Record time of 57:20. \n<a href='https://worldathletics.org/competitions/world-athletics-label-road-races/news/jacob-kiplimo-half-marathon-world-record-lisbon'>World Athletics Report</a></p><p dir=\"ltr\">Gen Gregson placed 8th in the Nagoya Marathon in 2:25:06, while Brett Robinson took out the win in the attached Nagoya City Half Marathon in 1:03:47. \n<a href='https://japanrunningnews.blogspot.com/2026/03/chepkirui-over-sato-again-to-win-2nd.html'>Japan Running News</a></p><p dir=\"ltr\">Liam Boudin placed 6th in Bashir’s Run Half Marathon in Gent, Belgium, running 1:01:08, with Tim Vincent 7th in 1:01:17. <a href='https://www.keeponrunning.be/en/events/runners-lab-bashirs-run/#1_D8786A'>Results</a></p><p dir=\"ltr\">Jaylah Hancock-Cameron won the 800m A race in 2:02.37 at the NSW Milers Meet, Lachlan Raper won the Men’s 800m A in 1:48.79. <a href='https://athleticsnsw.anet.live/meets/62925'>Results</a></p><p dir=\"ltr\">Atlanta Track Club agreed to pay Jess McClain $20,000 USD as compensation following developments made after an investigation into lead car debacle. \n<a href='https://www.letsrun.com/news/2026/03/the-13-minute-crisis-a-struck-officer-a-wrong-turn-and-the-chaos-at-the-us-half-marathon-championships/'>Lets Run Article \n \n</a>Only 1% of 240,000 applications were successful for this year’s NYC Marathon. \n<a href='https://run247.com/running-news/marathon-news/new-york-marathon-places-2026-incredible-demand'>Run247 Article</a></p><p dir=\"ltr\">Ethiopian Junior U20 records not to be ratified with AIU finding evidence of age falsification. <a href='https://runningmagazine.ca/the-scene/world-athletics-rejects-five-u20-world-records-due-to-age-cheating/'>Canadian Running Magazine</a></p><p dir=\"ltr\">Whispers are compiling the lists of top 10 running songs from IRP hosts, then Moose wants to know what little habits of self-improvement the boys are going to do.</p><p dir=\"ltr\">This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. Thoughts on using Training Blocks to structure your running?</p><p dir=\"ltr\">Visit<a href='http://precisionhydration.com/'> precisionhydration.com</a> for more info on hydration and fuelling products and research, and use the discount code given in the episode.</p><p dir=\"ltr\">The boys close out with discussions on the Adelaide Invitational and Bluff 2 Boat Ramp.</p><p class=\"p1\">Patreon Link: <a href='https://www.patreon.com/insiderunningpodcast'>https://www.patreon.com/insiderunningpodcast</a></p><p class=\"p1\">Opening and Closing Music is Undercover of my Skin by Benny Walker. <a href='http://www.bennywalkermusic.com/'>www.bennywalkermusic.com</a></p><p class=\"p1\">Join the conversation at: <a href='https://www.facebook.com/insiderunningpodcast/'>https://www.facebook.com/insiderunningpodcast/</a></p>"
-    description_plain: '436: Box Hill Classic | Lisbon Half Marathon | Nagoya Marathon This episode is brought to you by SAYSKY. The Spring/Summer 26 collection is inspired by the unspoken poetry of running. Shop the full range at saysky.com , where you can also score 15% off with our exclusive discount code using the code IRP15 at checkout. Brad gets in a workout while managing the community 5K track event. Julian gives shoe advice for fitting shoes over the phone and makes progress in recovery. Brady starts sizing up race shoe options. This week''s running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit precisionhydration.com and get your numbers. Claudia Hollingsworth ran 3:58.09, the fastest ever 1500m by an Australian on home soil at the Box Hill Classic. Thomas Moorcroft won the Men’s 1500m. Junya Matsumoto of Japan won the 800m in 1:47:40, while Rachel O’Brien won in 2:06.55 Tom Bowers and Aynslee Minnaar won their 3000m races. AthsVic Results Hub Jacob Kiplimo won the Lisbon Half Marathon in a(nother) World Record time of 57:20. World Athletics Report Gen Gregson placed 8th in the Nagoya Marathon in 2:25:06, while Brett Robinson took out the win in the attached Nagoya City Half Marathon in 1:03:47. Japan Running News Liam Boudin placed 6th in Bashir’s Run Half Marathon in Gent, Belgium, running 1:01:08, with Tim Vincent 7th in 1:01:17. Results Jaylah Hancock-Cameron won the 800m A race in 2:02.37 at the NSW Milers Meet, Lachlan Raper won the Men’s 800m A in 1:48.79. Results Atlanta Track Club agreed to pay Jess McClain $20,000 USD as compensation following developments made after an investigation into lead car debacle. Lets Run Article Only 1% of 240,000 applications were successful for this year’s NYC Marathon. Run247 Article Ethiopian Junior U20 records not to be ratified with AIU finding evidence of age falsification. Canadian Running Magazine Whispers are compiling the lists of top 10 running songs from IRP hosts, then Moose wants to know what little habits of self-improvement the boys are going to do. This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. Thoughts on using Training Blocks to structure your running? Visit precisionhydration.com for more info on hydration and fuelling products and research, and use the discount code given in the episode. The boys close out with discussions on the Adelaide Invitational and Bluff 2 Boat Ramp. Patreon Link: https://www.patreon.com/insiderunningpodcast Opening and Closing Music is Undercover of my Skin by Benny Walker. www.bennywalkermusic.com Join the conversation at: https://www.facebook.com/insiderunningpodcast/'
-    episode_image_url: ''
-    episode_uid: insiderunningpodcast-podbean-com-2393c497-f6e0-3458-9e81-1e9971b5dac1
-    episode_slug: 436-box-hill-classic-lisbon-half-marathon-nagoya-marathon
-    episode_key: 436-box-hill-classic-lisbon-half-marathon-nagoya-marathon
     legacy_numbered_slug: episode-25
-    episode_page_url: "/inside-running-podcast/436-box-hill-classic-lisbon-half-marathon-nagoya-marathon/"
+    episode_page_url: "/inside-running-podcast/437-adelaide-invitational-nyc-half-marathon-adidas-hyperboost-edge-review/"
   https://anchor.fm/s/101e74634/podcast/rss: &3
   - episode_title: The Story Behind Salomon TV, with Dean Leslie
     episode_url: https://podcasters.spotify.com/pod/show/jeff-pelletier5/episodes/The-Story-Behind-Salomon-TV--with-Dean-Leslie-e3iagci
@@ -13829,6 +13829,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/hysteria/pam-bondi-s-rough-morning-w-sami-sage/"
   https://anchor.fm/s/f1fb88c/podcast/rss: &47
+  - episode_title: "#322 Toni Roca Diaz - 3:26 to 2:23 in the Marathon, Working at Saysky as Athlete/PR Manager + the 17k Run Interview To Get the Job"
+    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/322-Toni-Roca-Diaz---326-to-223-in-the-Marathon--Working-at-Saysky-as-AthletePR-Manager--the-17k-Run-Interview-To-Get-the-Job-e3ksjda
+    audio_url: https://traffic.megaphone.fm/APO3036381904.mp3
+    published_at: '2026-06-16T18:41:19+00:00'
+    description_html: '<p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had special guest Toni Roca Diaz on the podcast! Toni is the Athlete/PR Manger at Saysky, one of the top running apparel brands in the world, and also an excellent runner, with PBs of 1:09 in the half and 2:23 in the marathon!</p><p>Toni has a really cool job - and the way he got it is a great story! His current boss did a run interview with him, about a 10 mile run that secured Toni the job! He travels to expos representing Saysky and works with athletes that represent the brand on the daily - he is one of the major reasons you probably know of Saysky!</p><p>There is some great running advice on this episode, Toni has significantly dropped his marathon time over the years - but also some great career advice as well. If you want a career in the running space, Toni explains how to do it! Enjoy!</p><p>FOLLOW TONI:</p><p>IG: https://www.instagram.com/tigertonito/?hl=en</p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>INSTA360 Affiliate code:</p><p>INRSGUOCSXX</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
+    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had special guest Toni Roca Diaz on the podcast! Toni is the Athlete/PR Manger at Saysky, one of the top running apparel brands in the world, and also an excellent runner, with PBs of 1:09 in the half and 2:23 in the marathon! Toni has a really cool job - and the way he got it is a great story! His current boss did a run interview with him, about a 10 mile run that secured Toni the job! He travels to expos representing Saysky and works with athletes that represent the brand on the daily - he is one of the major reasons you probably know of Saysky! There is some great running advice on this episode, Toni has significantly dropped his marathon time over the years - but also some great career advice as well. If you want a career in the running space, Toni explains how to do it! Enjoy! FOLLOW TONI: IG: https://www.instagram.com/tigertonito/?hl=en FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ INSTA360 Affiliate code: INRSGUOCSXX CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
+    episode_uid: 3b0089d1-317a-49a3-ba8a-ba032d75e88e
+    episode_slug: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
+    episode_key: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/life-in-stride/322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the/"
   - episode_title: "#321 - NCAA Track Champs, Cole Hocker Injury + Parker Valby Impresses, USA Best 800/1500 Country?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/321---NCAA-Track-Champs--Cole-Hocker-Injury--Parker-Valby-Impresses--USA-Best-8001500-Country-e3krabm
     audio_url: https://traffic.megaphone.fm/APO5295952528.mp3
@@ -13839,7 +13851,7 @@ episodes_by_feed:
     episode_uid: 6c77c09f-0e3d-401b-97e3-f86419bc25ea
     episode_slug: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
     episode_key: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/life-in-stride/321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country/"
   - episode_title: "#320 Will Loevner - From MTB/Gravel Cyclist to 2:13 Marathon, OTQ Marathon + Winning 2026 Pittsburgh Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/320-Will-Loevner---From-MTBGravel-Cyclist-to-213-Marathon--OTQ-Marathon--Winning-2026-Pittsburgh-Marathon-e3kpgg2
@@ -13851,7 +13863,7 @@ episodes_by_feed:
     episode_uid: 60888aa9-c59a-4a18-84f1-39e4938c0cdf
     episode_slug: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
     episode_key: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/life-in-stride/320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon/"
   - episode_title: "#319 Bats in the Basement, Top Running Vacation Spot, Scotty is Getting Jet Skis"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/319-Bats-in-the-Basement--Top-Running-Vacation-Spot--Scotty-is-Getting-Jet-Skis-e3knljd
@@ -13863,7 +13875,7 @@ episodes_by_feed:
     episode_uid: 89a23aa3-91f8-4394-84c9-80f5ef5e8508
     episode_slug: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
     episode_key: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/life-in-stride/319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis/"
   - episode_title: "#318 Vince Ciattei - Running 3:30 in the 1500m, What a Diamond League Meet is Really Like, Full Training Breakdown"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/318-Vince-Ciattei---Running-330-in-the-1500m--What-a-Diamond-League-Meet-is-Really-Like--Full-Training-Breakdown-e3kkrru
@@ -13875,7 +13887,7 @@ episodes_by_feed:
     episode_uid: 360e1502-3822-460e-a9ad-95133f8be633
     episode_slug: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
     episode_key: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/life-in-stride/318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown/"
   - episode_title: "#317 - European Running Etiquette, Different Dialed Levels, Strieg Final Pre-Parent Thoughts"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/317---European-Running-Etiquette--Different-Dialed-Levels--Strieg-Final-Pre-Parent-Thoughts-e3kj32m
@@ -13887,7 +13899,7 @@ episodes_by_feed:
     episode_uid: b3d4320e-10ca-4970-bf45-82a7d71777c4
     episode_slug: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
     episode_key: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/life-in-stride/317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts/"
   - episode_title: "#316 John Bizzell - Winning the Area 51 Marathon, 2:56 Marathons Back to Back at Newport/Boston, Louisville Running Community"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/316-John-Bizzell---Winning-the-Area-51-Marathon--256-Marathons-Back-to-Back-at-NewportBoston--Louisville-Running-Community-e3kfbtb
@@ -13899,7 +13911,7 @@ episodes_by_feed:
     episode_uid: 2047b626-5a75-4db1-a14f-8a8c3066cce3
     episode_slug: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
     episode_key: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/life-in-stride/316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community/"
   - episode_title: "#315 Dylan Belles - 2:18 for 2nd Place at the Bayshore Marathon, Fast Finish Long Runs, Carb Load Worth It?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/315-Dylan-Belles---218-for-2nd-Place-at-the-Bayshore-Marathon--Fast-Finish-Long-Runs--Carb-Load-Worth-It-e3ke741
@@ -13911,7 +13923,7 @@ episodes_by_feed:
     episode_uid: bc51a5f5-c39f-40b4-99c0-c429374bdf7b
     episode_slug: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
     episode_key: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/life-in-stride/315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it/"
   - episode_title: "#314 - Fall Race Plans + Goals, How to Approach Summer Training, Danny’s Big Announcement"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/314---Fall-Race-Plans--Goals--How-to-Approach-Summer-Training--Dannys-Big-Announcement-e3kblr8
@@ -13923,7 +13935,7 @@ episodes_by_feed:
     episode_uid: 014e8853-bd84-4a44-9a91-00ad0beef33d
     episode_slug: 314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement
     episode_key: 314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/life-in-stride/314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement/"
   - episode_title: "#313 Jacob Thomson & Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/313-Jacob-Thomson--Corbin-Harris---Training-Updates--Rabat-DL-Recap--NCAA-Champs-Races-to-Watch-e3k86pf
@@ -13935,7 +13947,7 @@ episodes_by_feed:
     episode_uid: 26c153d7-b7d3-4425-88eb-8e7a361553a2
     episode_slug: 313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch
     episode_key: 313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/life-in-stride/313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch/"
   - episode_title: "#312 Jonny Dahlke - Training Breakdown for a 62 Minute Half-Marathoner, Founding Milers Colonia, Learning the Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/312-Jonny-Dahlke---Training-Breakdown-for-a-62-Minute-Half-Marathoner--Founding-Milers-Colonia--Learning-the-Marathon-e3k6nil
@@ -13947,7 +13959,7 @@ episodes_by_feed:
     episode_uid: e027e5d1-0d3a-48d3-85d7-125b1e71cb09
     episode_slug: 312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon
     episode_key: 312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/life-in-stride/312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon/"
   - episode_title: "#311 Cody Poskin - Cocodona 250 3rd Overall Race Recap + Training for a Mountain Race in Missouri"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/311-Cody-Poskin---Cocodona-250-3rd-Overall-Race-Recap--Training-for-a-Mountain-Race-in-Missouri-e3k41ef
@@ -13959,7 +13971,7 @@ episodes_by_feed:
     episode_uid: f2ca0577-e442-4377-9467-f15d59cb03cb
     episode_slug: 311-cody-poskin-cocodona-250-3rd-overall-race-recap-training-for-a-mountain-race-in-missouri
     episode_key: 311-cody-poskin-cocodona-250-3rd-overall-race-recap-training-for-a-mountain-race-in-missouri
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/life-in-stride/311-cody-poskin-cocodona-250-3rd-overall-race-recap-training-for-a-mountain-race-in-missouri/"
   - episode_title: "#310 Sara Hall - 20 Years at the Pinnacle of Running + Finding Balance & Living Life to the Fullest"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/310-Sara-Hall---20-Years-at-the-Pinnacle-of-Running--Finding-Balance--Living-Life-to-the-Fullest-e3k12av
@@ -13971,7 +13983,7 @@ episodes_by_feed:
     episode_uid: 539e466d-d9fc-41c3-86ab-e814f8159b06
     episode_slug: 310-sara-hall-20-years-at-the-pinnacle-of-running-finding-balance-living-life-to-the-fullest
     episode_key: 310-sara-hall-20-years-at-the-pinnacle-of-running-finding-balance-living-life-to-the-fullest
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/life-in-stride/310-sara-hall-20-years-at-the-pinnacle-of-running-finding-balance-living-life-to-the-fullest/"
   - episode_title: "#309 - Enhanced Games Failure, Parker Valby is So Back, Xiamen Diamond League Recap"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/309---Enhanced-Games-Failure--Parker-Valby-is-So-Back--Xiamen-Diamond-League-Recap-e3jvoi7
@@ -13983,7 +13995,7 @@ episodes_by_feed:
     episode_uid: cd963645-3ad5-4aa5-9915-b56af7102725
     episode_slug: 309-enhanced-games-failure-parker-valby-is-so-back-xiamen-diamond-league-recap
     episode_key: 309-enhanced-games-failure-parker-valby-is-so-back-xiamen-diamond-league-recap
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/life-in-stride/309-enhanced-games-failure-parker-valby-is-so-back-xiamen-diamond-league-recap/"
   - episode_title: "#308 - Bayshore Marathon Recap with Yowana"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/308---Bayshore-Marathon-Recap-with-Yowana-e3ju4v8
@@ -13995,7 +14007,7 @@ episodes_by_feed:
     episode_uid: 0562cef4-475b-456a-b890-06a8a80fdeda
     episode_slug: 308-bayshore-marathon-recap-with-yowana
     episode_key: 308-bayshore-marathon-recap-with-yowana
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/life-in-stride/308-bayshore-marathon-recap-with-yowana/"
   - episode_title: "#307 Peter Lynch - 2:06 at the London Marathon for Top European + Irish National Record"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/307-Peter-Lynch---206-at-the-London-Marathon-for-Top-European--Irish-National-Record-e3jsgdj
@@ -14007,7 +14019,7 @@ episodes_by_feed:
     episode_uid: 96ca91dd-2f10-412a-a2e7-d6cb14eb370e
     episode_slug: 307-peter-lynch-2-06-at-the-london-marathon-for-top-european-irish-national-record
     episode_key: 307-peter-lynch-2-06-at-the-london-marathon-for-top-european-irish-national-record
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/life-in-stride/307-peter-lynch-2-06-at-the-london-marathon-for-top-european-irish-national-record/"
   - episode_title: "#306 Cole Sprout - Training Under Jerry Schumacher, Why He Takes Creatine, Fall Marathon Debut"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/306-Cole-Sprout---Training-Under-Jerry-Schumacher--Why-He-Takes-Creatine--Fall-Marathon-Debut-e3jpvqd
@@ -14019,7 +14031,7 @@ episodes_by_feed:
     episode_uid: e3977e0e-af25-464a-931b-6707bd69b590
     episode_slug: 306-cole-sprout-training-under-jerry-schumacher-why-he-takes-creatine-fall-marathon-debut
     episode_key: 306-cole-sprout-training-under-jerry-schumacher-why-he-takes-creatine-fall-marathon-debut
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/life-in-stride/306-cole-sprout-training-under-jerry-schumacher-why-he-takes-creatine-fall-marathon-debut/"
   - episode_title: "#305 - Bayshore Marathon Preview + Hanes/Canaday Drama"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/305---Bayshore-Marathon-Preview--HanesCanaday-Drama-e3jn1mt
@@ -14031,7 +14043,7 @@ episodes_by_feed:
     episode_uid: a9a96ca8-6430-472e-8cb7-652c35a2105e
     episode_slug: 305-bayshore-marathon-preview-hanes-canaday-drama
     episode_key: 305-bayshore-marathon-preview-hanes-canaday-drama
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/life-in-stride/305-bayshore-marathon-preview-hanes-canaday-drama/"
   - episode_title: "#304 - Pre-Run Morning Routines, 405lb Bench or 2:25 Marathon More Impressive?, Listener Emails"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/304---Pre-Run-Morning-Routines--405lb-Bench-or-225-Marathon-More-Impressive---Listener-Emails-e3jldgp
@@ -14043,7 +14055,7 @@ episodes_by_feed:
     episode_uid: ef92ed12-c3e9-4dee-8b01-f246ec401517
     episode_slug: 304-pre-run-morning-routines-405lb-bench-or-2-25-marathon-more-impressive-listener-emails
     episode_key: 304-pre-run-morning-routines-405lb-bench-or-2-25-marathon-more-impressive-listener-emails
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/life-in-stride/304-pre-run-morning-routines-405lb-bench-or-2-25-marathon-more-impressive-listener-emails/"
   - episode_title: "#303 - Shanghai Diamond League Was INSANE + NCAA Conference Weekend Highlights"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/303---Shanghai-Diamond-League-Was-INSANE--NCAA-Conference-Weekend-Highlights-e3jjr5t
@@ -14055,7 +14067,7 @@ episodes_by_feed:
     episode_uid: 45368367-1be6-4b8a-95ef-afa8934105f0
     episode_slug: 303-shanghai-diamond-league-was-insane-ncaa-conference-weekend-highlights
     episode_key: 303-shanghai-diamond-league-was-insane-ncaa-conference-weekend-highlights
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/life-in-stride/303-shanghai-diamond-league-was-insane-ncaa-conference-weekend-highlights/"
   - episode_title: "#302 Sam Griffiths - Running Back to Back Marathon PBs at London & Copenhagen"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/302-Sam-Griffiths---Running-Back-to-Back-Marathon-PBs-at-London--Copenhagen-e3ji95l
@@ -14067,7 +14079,7 @@ episodes_by_feed:
     episode_uid: 5b9b5507-60fa-48d4-bc79-72eaf11e66df
     episode_slug: 302-sam-griffiths-running-back-to-back-marathon-pbs-at-london-copenhagen
     episode_key: 302-sam-griffiths-running-back-to-back-marathon-pbs-at-london-copenhagen
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/life-in-stride/302-sam-griffiths-running-back-to-back-marathon-pbs-at-london-copenhagen/"
   - episode_title: "#301 - Instagram Q + A With Our Coaching Staff"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/301---Instagram-Q--A-With-Our-Coaching-Staff-e3jf74r
@@ -14079,7 +14091,7 @@ episodes_by_feed:
     episode_uid: 7a4e376a-32c6-4531-8d2d-b7baad391138
     episode_slug: 301-instagram-q-a-with-our-coaching-staff
     episode_key: 301-instagram-q-a-with-our-coaching-staff
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/life-in-stride/301-instagram-q-a-with-our-coaching-staff/"
   - episode_title: "#300 Vincent Mauri - 2:05 Debut at Glass City Marathon + Full Training Breakdown"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/300-Vincent-Mauri---205-Debut-at-Glass-City-Marathon--Full-Training-Breakdown-e3jc686
@@ -14091,7 +14103,7 @@ episodes_by_feed:
     episode_uid: c59eec92-a45c-403c-8c8b-fbe79e603a92
     episode_slug: 300-vincent-mauri-2-05-debut-at-glass-city-marathon-full-training-breakdown
     episode_key: 300-vincent-mauri-2-05-debut-at-glass-city-marathon-full-training-breakdown
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/life-in-stride/300-vincent-mauri-2-05-debut-at-glass-city-marathon-full-training-breakdown/"
   - episode_title: "#299 - Cocodona 250, Insane 1500m Times in the NCAA, Jager and Ingebrigtsen at Copenhagen Marathon?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/299---Cocodona-250--Insane-1500m-Times-in-the-NCAA--Jager-and-Ingebrigtsen-at-Copenhagen-Marathon-e3j8ulr
@@ -14103,7 +14115,7 @@ episodes_by_feed:
     episode_uid: d0886dc4-4c09-418d-aa99-aa5446f9614b
     episode_slug: 299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon
     episode_key: 299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/life-in-stride/299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon/"
   - episode_title: "#298 Aaron Bienenfeld - Running 2:08 at Hamburg Marathon for the Fastest German Debut Ever"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/298-Aaron-Bienenfeld---Running-208-at-Hamburg-Marathon-for-the-Fastest-German-Debut-Ever-e3j7kjj
@@ -14115,20 +14127,8 @@ episodes_by_feed:
     episode_uid: a931dabc-56f4-4ab3-bb0a-3dd115784fe3
     episode_slug: 298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever
     episode_key: 298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/life-in-stride/298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever/"
-  - episode_title: "#297 Michael Ottesen - The Mile 24 Hamstring Cramp That Derailed the Boston Marathon"
-    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/297-Michael-Ottesen---The-Mile-24-Hamstring-Cramp-That-Derailed-the-Boston-Marathon-e3j4jrg
-    audio_url: https://traffic.megaphone.fm/APO2889489443.mp3
-    published_at: '2026-05-09T16:01:53+00:00'
-    description_html: '<p>Visit lisrunning.com to be coached by us!</p><p>On this episode, the boys had Michael Ottesen on the podcast to recap the Boston Marathon! This was Michael&#39;s first World Major Marathon and he was in the elite field! It was interesting to hear about the behind the scenes of the elite field especially from the perspective of someone who has never had an experience like that!</p><p>Michael had an amazing training block going into Boston - his best ever. Going into halfway he was on about 2:10 marathon pace, got over the Newton Hills well, but at Mile 24 disaster struck. The twinges in his hamstring turned into a massive cramp and forced him to fully stop for about 2 minutes. He was able to struggle to the finish line, just missing the OTQ standard by a few seconds!</p><p>FOLLOW MICHAEL:</p><p>IG: https://www.instagram.com/mottesen_runs/</p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
-    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, the boys had Michael Ottesen on the podcast to recap the Boston Marathon! This was Michael&#39;s first World Major Marathon and he was in the elite field! It was interesting to hear about the behind the scenes of the elite field especially from the perspective of someone who has never had an experience like that! Michael had an amazing training block going into Boston - his best ever. Going into halfway he was on about 2:10 marathon pace, got over the Newton Hills well, but at Mile 24 disaster struck. The twinges in his hamstring turned into a massive cramp and forced him to fully stop for about 2 minutes. He was able to struggle to the finish line, just missing the OTQ standard by a few seconds! FOLLOW MICHAEL: IG: https://www.instagram.com/mottesen_runs/ FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
-    episode_uid: c7c979bc-87ef-408f-8726-b7037f50530b
-    episode_slug: 297-michael-ottesen-the-mile-24-hamstring-cramp-that-derailed-the-boston-marathon
-    episode_key: 297-michael-ottesen-the-mile-24-hamstring-cramp-that-derailed-the-boston-marathon
     legacy_numbered_slug: episode-25
-    episode_page_url: "/life-in-stride/297-michael-ottesen-the-mile-24-hamstring-cramp-that-derailed-the-boston-marathon/"
+    episode_page_url: "/life-in-stride/298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever/"
   https://publicfeeds.net/f/3492/feed-rss.xml: &48
   - episode_title: 'Bonus Episode: Shout Out to the Divas with Jonquilyn Hill'
     episode_url: https://play.prx.org/listen?ge=prx_3492_e4a16514-75a4-4f0c-ac9c-1898b540d825&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F3492%2Ffeed-rss.xml
