@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-16T13:47:21Z'
+generated_at: '2026-06-16T15:43:07Z'
 items:
+- podcast_title: Ten Junk Miles
+  podcast_page_url: "/ten-junk-miles/"
+  cover_image: "/media/tenjunkmiles.png"
+  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
+  filter_category: trail ultra english
+  episode_title: Gang show 258 - Live From The Manitowoc Marathon
+  episode_url: https://tenjunkmiles.com/gang-show-258-live-from-the-manitowoc-marathon
+  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_258_-_Manitowoc_Marathon.mp3?dest-id=259001
+  published_at: '2026-06-16T15:23:00+00:00'
+  episode_key: gang-show-258-live-from-the-manitowoc-marathon
+  episode_slug: gang-show-258-live-from-the-manitowoc-marathon
+  episode_page_url: "/ten-junk-miles/gang-show-258-live-from-the-manitowoc-marathon/"
+- podcast_title: Women of Distance
+  podcast_page_url: "/women-of-distance/"
+  cover_image: "/media/womanofdistancepodcast.jpeg"
+  feed_url: https://anchor.fm/s/eb00f12c/podcast/rss
+  filter_category: trail ultra english
+  episode_title: Western States 100 Women's Elite Field Preview Series
+  episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Western-States-100-Womens-Elite-Field-Preview-Series-e3ks3jh
+  audio_url: https://anchor.fm/s/eb00f12c/podcast/play/121556017/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F426244926-44100-2-16052362ad7db.mp3
+  published_at: '2026-06-16T13:08:50+00:00'
+  episode_key: western-states-100-women-s-elite-field-preview-series
+  episode_slug: western-states-100-women-s-elite-field-preview-series
+  episode_page_url: "/women-of-distance/western-states-100-women-s-elite-field-preview-series/"
 - podcast_title: The Buzz
   podcast_page_url: "/the-buzz/"
   cover_image: "/media/thebuzz.jpeg"
@@ -397,18 +421,6 @@ items:
   episode_key: ep-78-is-kilian-going-to-race-western-states-we-re-not-done-talking-about-sage-and-cam
   episode_slug: ep-78-is-kilian-going-to-race-western-states-we-re-not-done-talking-about-sage-and-cam
   episode_page_url: "/the-boulder-boys/ep-78-is-kilian-going-to-race-western-states-we-re-not-done-talking-about-sage-and-cam/"
-- podcast_title: Ten Junk Miles
-  podcast_page_url: "/ten-junk-miles/"
-  cover_image: "/media/tenjunkmiles.png"
-  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
-  filter_category: trail ultra english
-  episode_title: Long Run 265 - Ian Corless
-  episode_url: https://tenjunkmiles.com/long-run-265-ian-corless
-  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Ian_Corless_Full_final.mp3?dest-id=259001
-  published_at: '2026-06-05T21:10:00+00:00'
-  episode_key: long-run-265-ian-corless
-  episode_slug: long-run-265-ian-corless
-  episode_page_url: "/ten-junk-miles/long-run-265-ian-corless/"
 - podcast_title: The Midpacker Podcast
   podcast_page_url: "/the-midpacker-podcast/"
   cover_image: "/media/themidpackerpodcast.jpeg"
@@ -493,18 +505,6 @@ items:
   episode_key: uts-50k-debrief-training-races-poles-the-sugar-experiment
   episode_slug: uts-50k-debrief-training-races-poles-the-sugar-experiment
   episode_page_url: "/the-albon-way/uts-50k-debrief-training-races-poles-the-sugar-experiment/"
-- podcast_title: Women of Distance
-  podcast_page_url: "/women-of-distance/"
-  cover_image: "/media/womanofdistancepodcast.jpeg"
-  feed_url: https://anchor.fm/s/eb00f12c/podcast/rss
-  filter_category: trail ultra english
-  episode_title: Sydney Petersen - A Strong Sense of Belonging
-  episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
-  audio_url: https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3
-  published_at: '2026-05-25T10:00:00+00:00'
-  episode_key: sydney-petersen-a-strong-sense-of-belonging
-  episode_slug: sydney-petersen-a-strong-sense-of-belonging
-  episode_page_url: "/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/"
 - podcast_title: Pace On Earth
   podcast_page_url: "/pace-on-earth/"
   cover_image: "/media/paceonearth.jpeg"
@@ -6977,6 +6977,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/between-two-pines/between-two-christmas-trees-holiday-special/"
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &22
+  - episode_title: Gang show 258 - Live From The Manitowoc Marathon
+    episode_url: https://tenjunkmiles.com/gang-show-258-live-from-the-manitowoc-marathon
+    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_258_-_Manitowoc_Marathon.mp3?dest-id=259001
+    published_at: '2026-06-16T15:23:00+00:00'
+    description_html: '<p>Join Scotty, Mandi, Barry, Jon Krist, Bill Schneider and Curt Brey for ten junk miles in which they discuss the Manitowoc Maratime Marathon - Scotty''s first race post injury, how the race went for everyone, the event generally, backing in, "of course," Strava Shoutouts, Patreon and much much more!!</p> Sign up for the Ten Junk Miles races here: <a class= "x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tenjunkmilesracing.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3wlJdfOhpnOjcdHmkhDhNryl28K5a9xPRoMLHP41a2DZ7nfzZRWD02nrw_aem_SEPK7TNOnoZAyfeyiiM8CA&h=AT3GWDHb7NbSQT7oCXrWjyTOStRekAY55lECJ_fBmxFL0Yw9IfMf_MIl1inK1F5DvqrQB5LO5pW5KohR09dPktaHn4mdCYi5o_H9KXuhErsrnAN9jYBlq15Cd5wYQRqlnG1urys&__tn__=-UK-R&c[0]=AT2C-ZoVv9xiCfZAd2RNt6MjO2a9adRHdlvHT5-HESkW4xZBKwHEhA_xyiu9CG1AVtrublfdk9zf4aqvh3z1And8pMOT-ulymjL6ypgGpBVv4Gm7SnArBr7yjRECznaamZ6--DNjyiXCuiYc3vz8geMHxBLyrm0cRTK9grc7FunhtQwxq0PKb7_3YtmiNXXIRhNQPFAjU3Y" target="_blank" rel= "nofollow noopener noreferrer">https://www.tenjunkmilesracing.com</a> Join the Official Podcast Group: <a class= "x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg xo1l8bm" tabindex="0" role="link" href= "https://www.facebook.com/groups/1057521258604634/?__cft__[0]=AZVwYoKeWowbU1u1qOlk_fIKBsOXv4KUldrf55a2OEHpc_T12BZAvgfadNPaYqxA8zvXksq6k4A0uSf6If_nMK_l3KTBX-PC6eUjX2Auf-i_uiR97Gpd-8OtnTreYKc-Jn0Zs42lbEGNq0bwGjD8UxEJA9G2xoHdi7jvPQCUbXhzmysGrtKY9TOoJHDH_l8DuY8&__tn__=-UK-R"> https://www.facebook.com/groups/1057521258604634</a> Support the show via Patreon here: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://www.patreon.com/tenjunkmiles?fbclid=IwZXh0bgNhZW0CMTAAAR1at47WSTURojFezHQpT_l0pi060DN0p77FkEWAz26gbe4kkGNfTM_3Enc_aem_GHLy6_dJZF-p_Pyq11nWGg" target="_blank" rel= "nofollow noopener noreferrer">https://www.patreon.com/tenjunkmiles</a> Website: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "http://www.tenjunkmiles.com/?fbclid=IwZXh0bgNhZW0CMTAAAR1Gm0iSAh8DaBEgad9PWbg_glAFsIJ9Bkyof_Pzhy1fs86fpYJC0MhGtxA_aem_we0Vjj2-uPce7IzX1TwluQ" target="_blank" rel= "nofollow noopener noreferrer">http://www.tenjunkmiles.com/</a>'
+    description_plain: 'Join Scotty, Mandi, Barry, Jon Krist, Bill Schneider and Curt Brey for ten junk miles in which they discuss the Manitowoc Maratime Marathon - Scotty''s first race post injury, how the race went for everyone, the event generally, backing in, "of course," Strava Shoutouts, Patreon and much much more!! Sign up for the Ten Junk Miles races here: https://www.tenjunkmilesracing.com Join the Official Podcast Group: https://www.facebook.com/groups/1057521258604634 Support the show via Patreon here: https://www.patreon.com/tenjunkmiles Website: http://www.tenjunkmiles.com/'
+    episode_image_url: https://static.libsyn.com/p/assets/3/1/2/7/3127d9221c8fca4316c3140a3186d450/Gang_258_-_Live_From_the_Manitowoc_Marathon.jpeg
+    episode_uid: bb31b1b8-2e29-450a-8e8c-8e9cd5a07791
+    episode_slug: gang-show-258-live-from-the-manitowoc-marathon
+    episode_key: gang-show-258-live-from-the-manitowoc-marathon
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/ten-junk-miles/gang-show-258-live-from-the-manitowoc-marathon/"
   - episode_title: Long Run 265 - Ian Corless
     episode_url: https://tenjunkmiles.com/long-run-265-ian-corless
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Ian_Corless_Full_final.mp3?dest-id=259001
@@ -6987,7 +6999,7 @@ episodes_by_feed:
     episode_uid: 2a27d8f2-a524-420c-8eaa-b33ea70149ae
     episode_slug: long-run-265-ian-corless
     episode_key: long-run-265-ian-corless
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/ten-junk-miles/long-run-265-ian-corless/"
   - episode_title: Meet The Nation 342 - Rachel Carrasquillo
     episode_url: https://tenjunkmiles.com/meet-the-nation-342-rachel-carrasquillo
@@ -6999,7 +7011,7 @@ episodes_by_feed:
     episode_uid: 55e04921-d53b-49a7-accb-5c1026c2a169
     episode_slug: meet-the-nation-342-rachel-carrasquillo
     episode_key: meet-the-nation-342-rachel-carrasquillo
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/ten-junk-miles/meet-the-nation-342-rachel-carrasquillo/"
   - episode_title: Long Run 263 - Chris Miles - 200 Milers in the U.K.
     episode_url: https://tenjunkmiles.com/long-run-263-chris-miles-200-milers-in-the-uk
@@ -7011,7 +7023,7 @@ episodes_by_feed:
     episode_uid: e83c3b1b-f1f8-4f5d-bfc8-7ebde50434ff
     episode_slug: long-run-263-chris-miles-200-milers-in-the-u-k
     episode_key: long-run-263-chris-miles-200-milers-in-the-u-k
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/ten-junk-miles/long-run-263-chris-miles-200-milers-in-the-u-k/"
   - episode_title: Long Run 263 - John Sterner - Root Repair Surgery
     episode_url: https://tenjunkmiles.com/long-run-263-john-sterner-root-repair-surgery
@@ -7023,7 +7035,7 @@ episodes_by_feed:
     episode_uid: 6999030e-04b6-441e-839b-58d6130aaef5
     episode_slug: long-run-263-john-sterner-root-repair-surgery
     episode_key: long-run-263-john-sterner-root-repair-surgery
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/ten-junk-miles/long-run-263-john-sterner-root-repair-surgery/"
   - episode_title: Meet The Nation 341 - Jon Krist and Kwik Trip 50K
     episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
@@ -7035,7 +7047,7 @@ episodes_by_feed:
     episode_uid: 4ef7c80f-7f28-42ed-a13b-e1af28f7fe6f
     episode_slug: meet-the-nation-341-jon-krist-and-kwik-trip-50k
     episode_key: meet-the-nation-341-jon-krist-and-kwik-trip-50k
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/ten-junk-miles/meet-the-nation-341-jon-krist-and-kwik-trip-50k/"
   - episode_title: Gang Show 257 - Kristin Napora and the Big Burrito
     episode_url: https://tenjunkmiles.com/gang-show-257-kristin-napora-and-the-big-burrito
@@ -7047,7 +7059,7 @@ episodes_by_feed:
     episode_uid: 9ce20430-d92c-4614-bbf5-6daadc1a4515
     episode_slug: gang-show-257-kristin-napora-and-the-big-burrito
     episode_key: gang-show-257-kristin-napora-and-the-big-burrito
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/ten-junk-miles/gang-show-257-kristin-napora-and-the-big-burrito/"
   - episode_title: From Setback To The Start Line - 5 - Coaching Call 5-22-26
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-5-coaching-call-5-22-26
@@ -7059,7 +7071,7 @@ episodes_by_feed:
     episode_uid: 95a77c02-2344-48ee-b808-2b0a18fd9a75
     episode_slug: from-setback-to-the-start-line-5-coaching-call-5-22-26
     episode_key: from-setback-to-the-start-line-5-coaching-call-5-22-26
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/ten-junk-miles/from-setback-to-the-start-line-5-coaching-call-5-22-26/"
   - episode_title: Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder
     episode_url: https://tenjunkmiles.com/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
@@ -7071,7 +7083,7 @@ episodes_by_feed:
     episode_uid: 51280b5a-7183-4545-b419-5d4ec63eaa86
     episode_slug: long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
     episode_key: long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/ten-junk-miles/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder/"
   - episode_title: Gang Show 256 - Julie Hennes and the Fox Valley Gang
     episode_url: https://tenjunkmiles.com/gang-show-256-fox
@@ -7083,7 +7095,7 @@ episodes_by_feed:
     episode_uid: a6a0ef49-a254-4ece-bd81-32c5fd8e3978
     episode_slug: gang-show-256-julie-hennes-and-the-fox-valley-gang
     episode_key: gang-show-256-julie-hennes-and-the-fox-valley-gang
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/ten-junk-miles/gang-show-256-julie-hennes-and-the-fox-valley-gang/"
   - episode_title: Meet The Nation 340 - Levi Marriott
     episode_url: https://tenjunkmiles.com/meet-the-nation-340-levi-marriott
@@ -7095,7 +7107,7 @@ episodes_by_feed:
     episode_uid: b5dc9589-38ea-4a0a-a629-7c4fa62cf5d5
     episode_slug: meet-the-nation-340-levi-marriott
     episode_key: meet-the-nation-340-levi-marriott
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/ten-junk-miles/meet-the-nation-340-levi-marriott/"
   - episode_title: Long Run 261 - Alex Ramsey - Sri Chimnoy 3100 Finisher
     episode_url: https://tenjunkmiles.com/long-run-261-alex-ramsey-sri-chimney-3100-finisher
@@ -7107,7 +7119,7 @@ episodes_by_feed:
     episode_uid: 9a4914fb-ed24-40da-aa18-107e22595579
     episode_slug: long-run-261-alex-ramsey-sri-chimnoy-3100-finisher
     episode_key: long-run-261-alex-ramsey-sri-chimnoy-3100-finisher
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/ten-junk-miles/long-run-261-alex-ramsey-sri-chimnoy-3100-finisher/"
   - episode_title: Meet The Nation 339 - Rachel Grabow
     episode_url: https://tenjunkmiles.com/meet-the-nation-339-rachel-grabow
@@ -7119,7 +7131,7 @@ episodes_by_feed:
     episode_uid: 29d2912f-82a9-4e96-9b4f-b135ca97f640
     episode_slug: meet-the-nation-339-rachel-grabow
     episode_key: meet-the-nation-339-rachel-grabow
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/ten-junk-miles/meet-the-nation-339-rachel-grabow/"
   - episode_title: From Setback To The Start Line 4 - Coaching Call 04-12-26
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-4-coaching-call-04-12-26
@@ -7131,7 +7143,7 @@ episodes_by_feed:
     episode_uid: '084a88e5-f3d9-4b7b-b07d-158b7d19c6c6'
     episode_slug: from-setback-to-the-start-line-4-coaching-call-04-12-26
     episode_key: from-setback-to-the-start-line-4-coaching-call-04-12-26
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/ten-junk-miles/from-setback-to-the-start-line-4-coaching-call-04-12-26/"
   - episode_title: Long Run 261 Full Corrected - Sophie Speidel
     episode_url: https://tenjunkmiles.com/long-run-261-full-corrected-sophie-speidel
@@ -7143,7 +7155,7 @@ episodes_by_feed:
     episode_uid: b9489eda-8fdd-4055-9325-80d26840b20d
     episode_slug: long-run-261-full-corrected-sophie-speidel
     episode_key: long-run-261-full-corrected-sophie-speidel
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/ten-junk-miles/long-run-261-full-corrected-sophie-speidel/"
   - episode_title: Meet The Nation 338 - Andrew Kuzee
     episode_url: https://tenjunkmiles.com/meet-the-nation-338-andrew-kuzee
@@ -7155,7 +7167,7 @@ episodes_by_feed:
     episode_uid: 19a9ca29-38c0-4ee7-a5ed-1731aea11834
     episode_slug: meet-the-nation-338-andrew-kuzee
     episode_key: meet-the-nation-338-andrew-kuzee
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/ten-junk-miles/meet-the-nation-338-andrew-kuzee/"
   - episode_title: Meet the Nation 337 - Eric Mauricette
     episode_url: https://tenjunkmiles.com/meet-the-nation-337-eric-mauricette
@@ -7167,7 +7179,7 @@ episodes_by_feed:
     episode_uid: 914e9add-b66e-4559-be90-40ec12ffc737
     episode_slug: meet-the-nation-337-eric-mauricette
     episode_key: meet-the-nation-337-eric-mauricette
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/ten-junk-miles/meet-the-nation-337-eric-mauricette/"
   - episode_title: Long Run 259 Cory Reece 2026
     episode_url: https://tenjunkmiles.com/long-run-259-cory-reece-2026
@@ -7179,7 +7191,7 @@ episodes_by_feed:
     episode_uid: a4261404-a86c-472d-acb4-08ba59c76f59
     episode_slug: long-run-259-cory-reece-2026
     episode_key: long-run-259-cory-reece-2026
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/ten-junk-miles/long-run-259-cory-reece-2026/"
   - episode_title: Meet The Nation 336 - Serrah West
     episode_url: https://tenjunkmiles.com/meet-the-nation-336-serrah-west
@@ -7191,7 +7203,7 @@ episodes_by_feed:
     episode_uid: e86fa309-67d0-4b8e-b3d5-53c85b3a8e0f
     episode_slug: meet-the-nation-336-serrah-west
     episode_key: meet-the-nation-336-serrah-west
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/ten-junk-miles/meet-the-nation-336-serrah-west/"
   - episode_title: Gang Show 255 - Donnie Symonds and the Chicago Gang
     episode_url: https://tenjunkmiles.com/gang-show-255-donnie-symonds-and-the-chicago-gang
@@ -7203,7 +7215,7 @@ episodes_by_feed:
     episode_uid: '0893326a-38a1-4910-af25-fd5ff9a90fb2'
     episode_slug: gang-show-255-donnie-symonds-and-the-chicago-gang
     episode_key: gang-show-255-donnie-symonds-and-the-chicago-gang
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/ten-junk-miles/gang-show-255-donnie-symonds-and-the-chicago-gang/"
   - episode_title: Meet The Nation 334 - Greg Phillips
     episode_url: https://tenjunkmiles.com/meet-the-nation-334-greg-phillips
@@ -7215,7 +7227,7 @@ episodes_by_feed:
     episode_uid: 8462a99a-16d1-45a6-85e4-65b09d2b6ca2
     episode_slug: meet-the-nation-334-greg-phillips
     episode_key: meet-the-nation-334-greg-phillips
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/ten-junk-miles/meet-the-nation-334-greg-phillips/"
   - episode_title: Gang Show 245 - Pettit Indoor Marathons 2026
     episode_url: https://tenjunkmiles.com/gang-show-245-pettit-indoor-marathons-2026
@@ -7227,7 +7239,7 @@ episodes_by_feed:
     episode_uid: aefba561-891f-4e44-b2b8-13a5805d791c
     episode_slug: gang-show-245-pettit-indoor-marathons-2026
     episode_key: gang-show-245-pettit-indoor-marathons-2026
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/ten-junk-miles/gang-show-245-pettit-indoor-marathons-2026/"
   - episode_title: From Setback To the Start Line - Episode 3 - There's Hope - With 2:38 Marathoner Jon Pohlkamp
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-episode-3-theres-hope-with-238-marathoner-jon-pohlkamp
@@ -7239,7 +7251,7 @@ episodes_by_feed:
     episode_uid: 355aeb1b-07fc-421c-8ecd-56485199d723
     episode_slug: from-setback-to-the-start-line-episode-3-there-s-hope-with-2-38-marathoner-jon-pohlkamp
     episode_key: from-setback-to-the-start-line-episode-3-there-s-hope-with-2-38-marathoner-jon-pohlkamp
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/ten-junk-miles/from-setback-to-the-start-line-episode-3-there-s-hope-with-2-38-marathoner-jon-pohlkamp/"
   - episode_title: Meet The Nation 334 - Michael Mctighe
     episode_url: https://tenjunkmiles.com/meet-the-nation-334-michael-mctighe
@@ -7251,7 +7263,7 @@ episodes_by_feed:
     episode_uid: f6954c29-31c5-45c1-9e8e-b91fd8c4734a
     episode_slug: meet-the-nation-334-michael-mctighe
     episode_key: meet-the-nation-334-michael-mctighe
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/ten-junk-miles/meet-the-nation-334-michael-mctighe/"
   - episode_title: Long Run 258 Keira Henninger
     episode_url: https://tenjunkmiles.com/long-run-258-keira-henninger
@@ -7263,20 +7275,8 @@ episodes_by_feed:
     episode_uid: a65edfa7-00c7-424a-a322-d8bd30880670
     episode_slug: long-run-258-keira-henninger
     episode_key: long-run-258-keira-henninger
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/ten-junk-miles/long-run-258-keira-henninger/"
-  - episode_title: From Setback to Starting Line - Episode 2 - With Coach Liza Howard and Michael Tulman, PT, DPT, CMTPT/DN, CFL1, USAW-L1
-    episode_url: https://tenjunkmiles.com/from-setback-to-starting-line-episode-2-with-coach-liza-howard-and-michael-tulman-pt-dpt-cmtptdn-cfl1-usaw-l1
-    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Injury_Coaching_Episode_2.mp3?dest-id=259001
-    published_at: '2026-02-25T14:18:00+00:00'
-    description_html: '<p>Join Scotty, Coach Liza Howard and Scotty''s PT Michael Tulman for a discussion of Scotty''s injury, other meniscus injuries, his arc of recovery, next steps and how the coach and PT can work together to get Scotty back running again.</p><p>The information on this podcast episode is for educational and informational purposes only and is not intended to be, and should not be interpreted as, medical advice, diagnosis, coaching, physical therapy or treatment. Always seek the advice of your own physician, coach, physical therapist or other qualified health provider with any questions you may have regarding any medical condition</p><p>Articles referenced by Michael:</p><p><a href= "https://www.jospt.org/doi/10.2519/jospt.2016.6219?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed"> https://www.jospt.org/doi/10.2519/jospt.2016.6219?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed</a></p><p><a href= "https://pmc.ncbi.nlm.nih.gov/articles/PMC9194705/">https://pmc.ncbi.nlm.nih.gov/articles/PMC9194705/</a></p><p>Thanks to the products helping my recovery:</p><p>MIdwest Orthopedics at Rush: <a href= "https://www.rushortho.com/">https://www.rushortho.com/</a></p><p>Get Path Products here: <a href= "https://pathprojects.com">https://pathprojects.com</a></p><p>And UCAN: <a href= "https://ucan.co/collections/all">https://ucan.co/collections/all</a></p><p>And Fitsok: <a href= "https://fitsok.com">https://fitsok.com</a></p><p>And Mount to Coast: <a href= "https://mounttocoast.com">https://mounttocoast.com</a></p><p>And Trail Toes: <a href= "https://www.trailtoes.com">https://www.trailtoes.com</a></p> Sign up for the Ten Junk Miles races here: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tenjunkmilesracing.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3wlJdfOhpnOjcdHmkhDhNryl28K5a9xPRoMLHP41a2DZ7nfzZRWD02nrw_aem_SEPK7TNOnoZAyfeyiiM8CA&h=AT3GWDHb7NbSQT7oCXrWjyTOStRekAY55lECJ_fBmxFL0Yw9IfMf_MIl1inK1F5DvqrQB5LO5pW5KohR09dPktaHn4mdCYi5o_H9KXuhErsrnAN9jYBlq15Cd5wYQRqlnG1urys&__tn__=-UK-R&c[0]=AT2C-ZoVv9xiCfZAd2RNt6MjO2a9adRHdlvHT5-HESkW4xZBKwHEhA_xyiu9CG1AVtrublfdk9zf4aqvh3z1And8pMOT-ulymjL6ypgGpBVv4Gm7SnArBr7yjRECznaamZ6--DNjyiXCuiYc3vz8geMHxBLyrm0cRTK9grc7FunhtQwxq0PKb7_3YtmiNXXIRhNQPFAjU3Y" target="_blank" rel= "nofollow noopener noreferrer">https://www.tenjunkmilesracing.com</a> Join the Official Podcast Group: <a class= "x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg xo1l8bm" tabindex="0" role="link" href= "https://www.facebook.com/groups/1057521258604634/?__cft__[0]=AZVwYoKeWowbU1u1qOlk_fIKBsOXv4KUldrf55a2OEHpc_T12BZAvgfadNPaYqxA8zvXksq6k4A0uSf6If_nMK_l3KTBX-PC6eUjX2Auf-i_uiR97Gpd-8OtnTreYKc-Jn0Zs42lbEGNq0bwGjD8UxEJA9G2xoHdi7jvPQCUbXhzmysGrtKY9TOoJHDH_l8DuY8&__tn__=-UK-R"> https://www.facebook.com/groups/1057521258604634</a> Support the show via Patreon here: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://www.patreon.com/tenjunkmiles?fbclid=IwZXh0bgNhZW0CMTAAAR1at47WSTURojFezHQpT_l0pi060DN0p77FkEWAz26gbe4kkGNfTM_3Enc_aem_GHLy6_dJZF-p_Pyq11nWGg" target="_blank" rel= "nofollow noopener noreferrer">https://www.patreon.com/tenjunkmiles</a> Website: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "http://www.tenjunkmiles.com/?fbclid=IwZXh0bgNhZW0CMTAAAR1Gm0iSAh8DaBEgad9PWbg_glAFsIJ9Bkyof_Pzhy1fs86fpYJC0MhGtxA_aem_we0Vjj2-uPce7IzX1TwluQ" target="_blank" rel= "nofollow noopener noreferrer">http://www.tenjunkmiles.com/</a>'
-    description_plain: 'Join Scotty, Coach Liza Howard and Scotty''s PT Michael Tulman for a discussion of Scotty''s injury, other meniscus injuries, his arc of recovery, next steps and how the coach and PT can work together to get Scotty back running again. The information on this podcast episode is for educational and informational purposes only and is not intended to be, and should not be interpreted as, medical advice, diagnosis, coaching, physical therapy or treatment. Always seek the advice of your own physician, coach, physical therapist or other qualified health provider with any questions you may have regarding any medical condition Articles referenced by Michael: https://www.jospt.org/doi/10.2519/jospt.2016.6219?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed https://pmc.ncbi.nlm.nih.gov/articles/PMC9194705/ Thanks to the products helping my recovery: MIdwest Orthopedics at Rush: https://www.rushortho.com/ Get Path Products here: https://pathprojects.com And UCAN: https://ucan.co/collections/all And Fitsok: https://fitsok.com And Mount to Coast: https://mounttocoast.com And Trail Toes: https://www.trailtoes.com Sign up for the Ten Junk Miles races here: https://www.tenjunkmilesracing.com Join the Official Podcast Group: https://www.facebook.com/groups/1057521258604634 Support the show via Patreon here: https://www.patreon.com/tenjunkmiles Website: http://www.tenjunkmiles.com/'
-    episode_image_url: https://static.libsyn.com/p/assets/d/3/e/4/d3e49af39f286e37d959afa2a1bf1c87/Setback_Episode_2.jpeg
-    episode_uid: 69c0e71d-387a-4d5f-a597-c4e6da45844d
-    episode_slug: from-setback-to-starting-line-episode-2-with-coach-liza-howard-and-michael-tulman-pt-dpt-cmtpt-dn-cfl1-usaw-l1
-    episode_key: from-setback-to-starting-line-episode-2-with-coach-liza-howard-and-michael-tulman-pt-dpt-cmtpt-dn-cfl1-usaw-l1
     legacy_numbered_slug: episode-25
-    episode_page_url: "/ten-junk-miles/from-setback-to-starting-line-episode-2-with-coach-liza-howard-and-michael-tulman-pt-dpt-cmtpt-dn-cfl1-usaw-l1/"
+    episode_page_url: "/ten-junk-miles/long-run-258-keira-henninger/"
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &23
   - episode_title: Stephanie Case on running as an act of protest
     episode_url: https://thewayoftherunner.com/podcast
@@ -9815,6 +9815,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/choose-strong/119-thriving-through-injury/"
   https://anchor.fm/s/eb00f12c/podcast/rss: &33
+  - episode_title: Western States 100 Women's Elite Field Preview Series
+    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Western-States-100-Womens-Elite-Field-Preview-Series-e3ks3jh
+    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/121556017/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F426244926-44100-2-16052362ad7db.mp3
+    published_at: '2026-06-16T13:08:50+00:00'
+    description_html: '<p>Welcome to the Women of Distance Preview Series for the Western States 100, featuring 12 athletes from the WSER women&#39;s elite field!</p><p>These women have a variety of experience across a broad time frame, from the defending champion, to a long list of previous top tens, to first 100 miler ever - and in this episode you&#39;ll hear about all of it!</p><p>In order of appearance, you&#39;ll hear from:</p><p>-Abby Hall</p><p>-Marianne Hogan</p><p>-Fiona Pascall</p><p>-Hannah Allgood</p><p>-Caitlin Fielder-</p><p>Emily Hawgood</p><p>-Tara Dower</p><p>-Lotti Brinks</p><p>-Addie Bracy</p><p>-Ellaney Matarese</p><p>-Sarah Humble</p><p>-Holly Ranson</p><p>*This is one long, single episode that you can listen to over the course of a few days, a solid long run, or find each athlete by chapter.</p><p>Find the Women of WSER Elite Playlist, curated by these athletes, on Spotify here:<a href="https://open.spotify.com/playlist/5bfpn2LUrVOIURpbawfkMQ?si=6Nbe_GZnRHqtVXabNOhh-A&pi=lVdg6e1eTTGkA" target="_blank">https://open.spotify.com/playlist/5bfpn2LUrVOIURpbawfkMQ?si=6Nbe_GZnRHqtVXabNOhh-A&amp;pi=lVdg6e1eTTGkA</a></p><p>*Please note that there are several athletes who I KNOW you want to hear from, and I do too - we didn&#39;t forget or leave them out - but many women decided to keep their head down and forego media in advance of the race, and I fully respect that. We are all excited to watch this women&#39;s race unfold, and want every athlete lining up in their own best way!</p><p>*Find and follow all things Women of Distance at: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠<a href="http://linktr.ee/womenofdistance" target="_blank">linktr.ee/womenofdistance</a>⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</p><p>*Women of Distance is supported by ⁠⁠⁠⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠⁠⁠⁠!</p><p>Responsible fueling for your adventure - check out their Ultra Fuel (passion mango tango is my current fav) and their gel mix at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠<a href="http://openfuel.co/" target="_blank">openfuel.co</a>⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ .</p><p>Use code: WOD for 20% off your order, every time!</p><p>*Women of Distance is also kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠<a href="http://www.summit-roasters.com/" target="_blank">www.summit-roasters.com</a>⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</p><p>Use code WOD15 for 15% off your order every time!⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ (Trolley House, medium roast, is my top choice.)</p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us. Thank you!</p>'
+    description_plain: 'Welcome to the Women of Distance Preview Series for the Western States 100, featuring 12 athletes from the WSER women&#39;s elite field! These women have a variety of experience across a broad time frame, from the defending champion, to a long list of previous top tens, to first 100 miler ever - and in this episode you&#39;ll hear about all of it! In order of appearance, you&#39;ll hear from: -Abby Hall -Marianne Hogan -Fiona Pascall -Hannah Allgood -Caitlin Fielder- Emily Hawgood -Tara Dower -Lotti Brinks -Addie Bracy -Ellaney Matarese -Sarah Humble -Holly Ranson *This is one long, single episode that you can listen to over the course of a few days, a solid long run, or find each athlete by chapter. Find the Women of WSER Elite Playlist, curated by these athletes, on Spotify here: https://open.spotify.com/playlist/5bfpn2LUrVOIURpbawfkMQ?si=6Nbe_GZnRHqtVXabNOhh-A&amp;pi=lVdg6e1eTTGkA *Please note that there are several athletes who I KNOW you want to hear from, and I do too - we didn&#39;t forget or leave them out - but many women decided to keep their head down and forego media in advance of the race, and I fully respect that. We are all excited to watch this women&#39;s race unfold, and want every athlete lining up in their own best way! *Find and follow all things Women of Distance at: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ linktr.ee/womenofdistance ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ *Women of Distance is supported by ⁠⁠⁠⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠⁠⁠⁠! Responsible fueling for your adventure - check out their Ultra Fuel (passion mango tango is my current fav) and their gel mix at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ openfuel.co ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ . Use code: WOD for 20% off your order, every time! *Women of Distance is also kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ www.summit-roasters.com ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time!⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ (Trolley House, medium roast, is my top choice.) We&#39;d love to see Women of Distance listeners supporting those, supporting us. Thank you!'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
+    episode_uid: 6bd8f171-61c1-44b5-a291-b1732034f1dd
+    episode_slug: western-states-100-women-s-elite-field-preview-series
+    episode_key: western-states-100-women-s-elite-field-preview-series
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/women-of-distance/western-states-100-women-s-elite-field-preview-series/"
   - episode_title: Sydney Petersen - A Strong Sense of Belonging
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/120485173/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-24%2F424813074-44100-2-9eb280319e054.mp3
@@ -9825,7 +9837,7 @@ episodes_by_feed:
     episode_uid: af6bc884-b521-4474-858f-4057bf9b8a0c
     episode_slug: sydney-petersen-a-strong-sense-of-belonging
     episode_key: sydney-petersen-a-strong-sense-of-belonging
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/"
   - episode_title: Lindsey Dwyer - I Just Love Running
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Lindsey-Dwyer---I-Just-Love-Running-e3jgi9p
@@ -9837,7 +9849,7 @@ episodes_by_feed:
     episode_uid: 01471a01-7bbe-43f1-8dfb-138c4ab4b1c2
     episode_slug: lindsey-dwyer-i-just-love-running
     episode_key: lindsey-dwyer-i-just-love-running
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/women-of-distance/lindsey-dwyer-i-just-love-running/"
   - episode_title: Sarah Humble - It's Not About The Result
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Humble---Its-Not-About-The-Result-e3j60ag
@@ -9849,7 +9861,7 @@ episodes_by_feed:
     episode_uid: c7c86c13-a557-4062-ab75-bae40d16fd22
     episode_slug: sarah-humble-it-s-not-about-the-result
     episode_key: sarah-humble-it-s-not-about-the-result
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/women-of-distance/sarah-humble-it-s-not-about-the-result/"
   - episode_title: Teamwork Makes the Dream Work
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Teamwork-Makes-the-Dream-Work-e3ir76l
@@ -9861,7 +9873,7 @@ episodes_by_feed:
     episode_uid: ceaf1c4a-55a1-4679-a6ff-8eeda9cd640e
     episode_slug: teamwork-makes-the-dream-work
     episode_key: teamwork-makes-the-dream-work
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/women-of-distance/teamwork-makes-the-dream-work/"
   - episode_title: Makena Morley - The Small Steps Lead To The Big Steps
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Makena-Morley---The-Small-Steps-Lead-To-The-Big-Steps-e3iloc3
@@ -9873,7 +9885,7 @@ episodes_by_feed:
     episode_uid: 3f8f1395-c924-4597-a0f7-d0cfb5703e5e
     episode_slug: makena-morley-the-small-steps-lead-to-the-big-steps
     episode_key: makena-morley-the-small-steps-lead-to-the-big-steps
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/women-of-distance/makena-morley-the-small-steps-lead-to-the-big-steps/"
   - episode_title: Sarah Morrison - 100k Road National Champion
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Morrison---100k-Road-National-Champion-e3igkj8
@@ -9885,7 +9897,7 @@ episodes_by_feed:
     episode_uid: 530681bb-eb4f-44ea-b7c3-2b1de7770877
     episode_slug: sarah-morrison-100k-road-national-champion
     episode_key: sarah-morrison-100k-road-national-champion
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/women-of-distance/sarah-morrison-100k-road-national-champion/"
   - episode_title: Bailey Kowalczyk - For The Love Of It
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Bailey-Kowalczyk---For-The-Love-Of-It-e3i8t47
@@ -9897,7 +9909,7 @@ episodes_by_feed:
     episode_uid: 529ef4d3-5de4-4e78-b9e2-58a41a698d38
     episode_slug: bailey-kowalczyk-for-the-love-of-it
     episode_key: bailey-kowalczyk-for-the-love-of-it
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/women-of-distance/bailey-kowalczyk-for-the-love-of-it/"
   - episode_title: Tayler Peavey - It Doesn't Have to be Perfect to be Good
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tayler-Peavey---It-Doesnt-Have-to-be-Perfect-to-be-Good-e3hul89
@@ -9909,7 +9921,7 @@ episodes_by_feed:
     episode_uid: a3a50a54-085a-43aa-bd40-271806e13e00
     episode_slug: tayler-peavey-it-doesn-t-have-to-be-perfect-to-be-good
     episode_key: tayler-peavey-it-doesn-t-have-to-be-perfect-to-be-good
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/women-of-distance/tayler-peavey-it-doesn-t-have-to-be-perfect-to-be-good/"
   - episode_title: Pregnancy and Motherhood in Sport
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Pregnancy-and-Motherhood-in-Sport-e3hhd51
@@ -9921,7 +9933,7 @@ episodes_by_feed:
     episode_uid: 226a37b0-88d3-4d78-8689-57042de833bb
     episode_slug: pregnancy-and-motherhood-in-sport
     episode_key: pregnancy-and-motherhood-in-sport
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/women-of-distance/pregnancy-and-motherhood-in-sport/"
   - episode_title: Sylvie Abel - A Pathway to Gratitude
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sylvie-Abel---A-Pathway-to-Gratitude-e3ha6n6
@@ -9933,7 +9945,7 @@ episodes_by_feed:
     episode_uid: d760d156-3b01-49ba-9242-17d9447c21ae
     episode_slug: sylvie-abel-a-pathway-to-gratitude
     episode_key: sylvie-abel-a-pathway-to-gratitude
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/women-of-distance/sylvie-abel-a-pathway-to-gratitude/"
   - episode_title: Lindsay Allison - It's About Who You Are
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Lindsay-Allison---Its-About-Who-You-Are-e3gjmog
@@ -9945,7 +9957,7 @@ episodes_by_feed:
     episode_uid: a07685e7-84b9-49ce-8335-8f5ed31a21bc
     episode_slug: lindsay-allison-it-s-about-who-you-are
     episode_key: lindsay-allison-it-s-about-who-you-are
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/women-of-distance/lindsay-allison-it-s-about-who-you-are/"
   - episode_title: Ellaney Matarese - Don't Be Afraid of Failure
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Ellaney-Matarese---Dont-Be-Afraid-of-Failure-e3fut18
@@ -9957,7 +9969,7 @@ episodes_by_feed:
     episode_uid: 78b0ef5a-bc49-4674-a4f4-96a7c905b7a3
     episode_slug: ellaney-matarese-don-t-be-afraid-of-failure
     episode_key: ellaney-matarese-don-t-be-afraid-of-failure
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/women-of-distance/ellaney-matarese-don-t-be-afraid-of-failure/"
   - episode_title: Holly Ranson - Golden Opportunity
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Holly-Ranson---Golden-Opportunity-e3fetae
@@ -9969,7 +9981,7 @@ episodes_by_feed:
     episode_uid: 87887951-1bc1-46df-8e2b-0ed7c69d68bf
     episode_slug: holly-ranson-golden-opportunity
     episode_key: holly-ranson-golden-opportunity
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/women-of-distance/holly-ranson-golden-opportunity/"
   - episode_title: Heather Jackson - Who You Share It With
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Heather-Jackson---Who-You-Share-It-With-e3f6a3c
@@ -9981,7 +9993,7 @@ episodes_by_feed:
     episode_uid: a28fd4c5-4d7a-4803-94ec-f188ef1527f4
     episode_slug: heather-jackson-who-you-share-it-with
     episode_key: heather-jackson-who-you-share-it-with
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/women-of-distance/heather-jackson-who-you-share-it-with/"
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (Veterans)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-Veterans-e3ejrvi
@@ -9993,7 +10005,7 @@ episodes_by_feed:
     episode_uid: 50695b07-0b12-4f7a-a686-5028c56ac734
     episode_slug: black-canyon-100k-women-s-elite-field-preview-veterans
     episode_key: black-canyon-100k-women-s-elite-field-preview-veterans
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-veterans/"
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
@@ -10005,7 +10017,7 @@ episodes_by_feed:
     episode_uid: 4ad8d31f-f80a-4cbd-81c4-79fe59a8e62f
     episode_slug: black-canyon-100k-women-s-elite-field-preview-first-timers
     episode_key: black-canyon-100k-women-s-elite-field-preview-first-timers
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-first-timers/"
   - episode_title: Tina Muir - Do The Next Right Thing
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tina-Muir---Do-The-Next-Right-Thing-e3dr6th
@@ -10017,7 +10029,7 @@ episodes_by_feed:
     episode_uid: b7c5dfe5-bb0a-4c96-a3da-03849206c892
     episode_slug: tina-muir-do-the-next-right-thing
     episode_key: tina-muir-do-the-next-right-thing
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/women-of-distance/tina-muir-do-the-next-right-thing/"
   - episode_title: Shelby Houlihan - Trail Runner?
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Shelby-Houlihan---Trail-Runner-e3dk1r1
@@ -10029,7 +10041,7 @@ episodes_by_feed:
     episode_uid: 9014ed97-8a86-48ad-9c74-286aedc4fd00
     episode_slug: shelby-houlihan-trail-runner
     episode_key: shelby-houlihan-trail-runner
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/women-of-distance/shelby-houlihan-trail-runner/"
   - episode_title: Olympic Skimo, with Anna Gibson
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Olympic-Skimo--with-Anna-Gibson-e3d9c8k
@@ -10041,7 +10053,7 @@ episodes_by_feed:
     episode_uid: 558f287b-3a0f-4129-839d-a51f61a872b9
     episode_slug: olympic-skimo-with-anna-gibson
     episode_key: olympic-skimo-with-anna-gibson
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/women-of-distance/olympic-skimo-with-anna-gibson/"
   - episode_title: Jess Brazeau - The Depth of a Truly Rich Life
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Jess-Brazeau---The-Depth-of-a-Truly-Rich-Life-e3d1j40
@@ -10053,7 +10065,7 @@ episodes_by_feed:
     episode_uid: e15d73c2-db86-4348-9c09-d27401955226
     episode_slug: jess-brazeau-the-depth-of-a-truly-rich-life
     episode_key: jess-brazeau-the-depth-of-a-truly-rich-life
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/women-of-distance/jess-brazeau-the-depth-of-a-truly-rich-life/"
   - episode_title: IAU 50k World Champs - And The State of Road Ultrarunning
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/IAU-50k-World-Champs---And-The-State-of-Road-Ultrarunning-e3br9b1
@@ -10065,7 +10077,7 @@ episodes_by_feed:
     episode_uid: 739ad965-66a0-461e-bcf0-9153b3a398db
     episode_slug: iau-50k-world-champs-and-the-state-of-road-ultrarunning
     episode_key: iau-50k-world-champs-and-the-state-of-road-ultrarunning
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/women-of-distance/iau-50k-world-champs-and-the-state-of-road-ultrarunning/"
   - episode_title: Jade Belzberg - The Unexpected Path
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Jade-Belzberg---The-Unexpected-Path-e3bm57l
@@ -10077,7 +10089,7 @@ episodes_by_feed:
     episode_uid: 5e68d057-217a-4831-a292-6ebf03a4f2ae
     episode_slug: jade-belzberg-the-unexpected-path
     episode_key: jade-belzberg-the-unexpected-path
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/women-of-distance/jade-belzberg-the-unexpected-path/"
   - episode_title: Sarah Biehl - Fall Down and Get Back Up
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Biehl---Fall-Down-and-Get-Back-Up-e3bcgff
@@ -10089,7 +10101,7 @@ episodes_by_feed:
     episode_uid: 19fc2298-9361-4e6c-b5f3-fc66b8600a8a
     episode_slug: sarah-biehl-fall-down-and-get-back-up
     episode_key: sarah-biehl-fall-down-and-get-back-up
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/women-of-distance/sarah-biehl-fall-down-and-get-back-up/"
   - episode_title: Carla Molinaro - Hold It Lightly
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Carla-Molinaro---Hold-It-Lightly-e3aub3a
@@ -10101,20 +10113,8 @@ episodes_by_feed:
     episode_uid: cf3bdec5-b79c-48af-af7b-c840ae6b1548
     episode_slug: carla-molinaro-hold-it-lightly
     episode_key: carla-molinaro-hold-it-lightly
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/women-of-distance/carla-molinaro-hold-it-lightly/"
-  - episode_title: Addie Bracy - Consistency and Curiosity
-    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Addie-Bracy---Consistency-and-Curiosity-e3annic
-    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/110926860/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-9%2F412142201-44100-2-1fb545c61c194.mp3
-    published_at: '2025-11-10T11:00:00+00:00'
-    description_html: '<p>Addie Bracy is fresh off of a third place finish and her fastest 100-mile race ever at the Javelina Jundred, where she earned a Golden Ticket to return for her third appearance at Western States.</p><p>With a running career spanning 25-years on the track, the road, and the trails - Addie is still finding ways to learn, grow, improve, and compete at the top of the sport!</p><p>In this episode, Lauren and Addie go back to her origins, where she was raised with a strong work ethic and the guiding principle that success is only earned, never given. We discuss her path through collegiate and post collegiate competition, her decision to retire from the track and roads, discovering competitive trail running, and the deep curiosity that led her to ultra-distances.</p><p>Of course, we spend time discussing how her experience paid off at Javelina, and the confidence she built to accept the Golden Ticket she earned.</p><p>You can find and follow Addie at  <a href="http://instagram.com/kristenaschindler" rel="ugc noopener noreferrer" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/addiebracy⁠</a></p><p>Find and follow W.o.D. at</p><p><a href="http://instagram.com/" rel="ugc noopener noreferrer" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/womenofdistance⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>*This podcast is produced with support from our friends, and fellow trail runners, at <a href="http://www.summit-roasters.com/" target="_blank" rel="ugc noopener noreferrer">⁠⁠⁠www.summit-roasters.com⁠⁠⁠</a></p><p>Use code WOD15 for 15% off your order every time!</p><p>*And also by my own team at More Miles Run Coaching.</p><p>With a team of four coaches and a combined more than 25 years of coaching experience, we offer one-on-one coaching for athletes of all abilities: from beginners to veterans, 5ks to 200milers, roads to trails, your first to your fastest. Learn more at: <a href="http://www.moremilestogo.com/" target="_blank" rel="ugc noopener noreferrer">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a><a href="http://www.moremilestogo.com/" target="_blank" rel="ugc noopener noreferrer">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.moremilestogo.com⁠⁠</a></p><p>We''d love to see Women of Distance listeners supporting those, supporting us!</p>'
-    description_plain: 'Addie Bracy is fresh off of a third place finish and her fastest 100-mile race ever at the Javelina Jundred, where she earned a Golden Ticket to return for her third appearance at Western States. With a running career spanning 25-years on the track, the road, and the trails - Addie is still finding ways to learn, grow, improve, and compete at the top of the sport! In this episode, Lauren and Addie go back to her origins, where she was raised with a strong work ethic and the guiding principle that success is only earned, never given. We discuss her path through collegiate and post collegiate competition, her decision to retire from the track and roads, discovering competitive trail running, and the deep curiosity that led her to ultra-distances. Of course, we spend time discussing how her experience paid off at Javelina, and the confidence she built to accept the Golden Ticket she earned. You can find and follow Addie at ⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/addiebracy⁠ Find and follow W.o.D. at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/womenofdistance⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ *This podcast is produced with support from our friends, and fellow trail runners, at ⁠⁠⁠www.summit-roasters.com⁠⁠⁠ Use code WOD15 for 15% off your order every time! *And also by my own team at More Miles Run Coaching. With a team of four coaches and a combined more than 25 years of coaching experience, we offer one-on-one coaching for athletes of all abilities: from beginners to veterans, 5ks to 200milers, roads to trails, your first to your fastest. Learn more at: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.moremilestogo.com⁠⁠ We''d love to see Women of Distance listeners supporting those, supporting us!'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
-    episode_uid: 46021966-e4ff-4a52-8cd3-a24db47ce983
-    episode_slug: addie-bracy-consistency-and-curiosity
-    episode_key: addie-bracy-consistency-and-curiosity
     legacy_numbered_slug: episode-25
-    episode_page_url: "/women-of-distance/addie-bracy-consistency-and-curiosity/"
+    episode_page_url: "/women-of-distance/carla-molinaro-hold-it-lightly/"
   https://rss.libsyn.com/shows/233666/destinations/1729274.xml: &34
   - episode_title: 341. Berättelsen om Inger Knutsson
     episode_url: https://springsnyggt.libsyn.com/341-berttelsen-om-inger-knutsson
