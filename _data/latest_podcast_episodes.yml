@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-17T15:07:50Z'
+generated_at: '2026-06-17T17:05:55Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
+  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
+  audio_url: https://mcdn.podbean.com/mf/web/wmf5xngu6z67rk2j/2_clips_Edit_39_ajkd4.mp3
+  published_at: '2026-06-17T11:00:41-05:00'
+  episode_key: training-tuesday-how-to-execute-an-x-day-workout
+  episode_slug: training-tuesday-how-to-execute-an-x-day-workout
+  episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
+- podcast_title: Distance to Empty
+  podcast_page_url: "/distance-to-empty/"
+  cover_image: "/media/distancetoempty.jpeg"
+  feed_url: https://anchor.fm/s/ef81d1e4/podcast/rss
+  filter_category: trail ultra english
+  episode_title: 'The Cocodona 250 Last Man Standing: Six Years & Counting'
+  episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/The-Cocodona-250-Last-Man-Standing-Six-Years--Counting-e3ktsco
+  audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/121614168/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-17%2F3a34cd02-371e-dae9-88e1-e4c0f48aa381.mp3
+  published_at: '2026-06-17T16:00:00+00:00'
+  episode_key: the-cocodona-250-last-man-standing-six-years-counting
+  episode_slug: the-cocodona-250-last-man-standing-six-years-counting
+  episode_page_url: "/distance-to-empty/the-cocodona-250-last-man-standing-six-years-counting/"
 - podcast_title: Breaking Marathon Limits
   podcast_page_url: "/breaking-marathon-limits/"
   cover_image: "/media/bml.jpeg"
@@ -301,18 +325,6 @@ items:
   episode_key: brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
   episode_slug: brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
   episode_page_url: "/crack-a-brew-with-ajw/brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Episode 619: Listener Questions'
-  episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
-  audio_url: https://mcdn.podbean.com/mf/web/eajtzvnic7qz6xmn/2_clips_Edit_38_98sah.mp3
-  published_at: '2026-06-12T23:00:01-05:00'
-  episode_key: episode-619-listener-questions
-  episode_slug: episode-619-listener-questions
-  episode_page_url: "/the-running-public/episode-619-listener-questions/"
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
   cover_image: "/media/coffeeclub.jpeg"
@@ -373,18 +385,6 @@ items:
   episode_key: ep-785-why-fitness-isn-t-enough
   episode_slug: ep-785-why-fitness-isn-t-enough
   episode_page_url: "/trail-runner-nation/ep-785-why-fitness-isn-t-enough/"
-- podcast_title: Distance to Empty
-  podcast_page_url: "/distance-to-empty/"
-  cover_image: "/media/distancetoempty.jpeg"
-  feed_url: https://anchor.fm/s/ef81d1e4/podcast/rss
-  filter_category: trail ultra english
-  episode_title: 2026 Tahoe 200 Deep Dive! Course Preview, Tips & Strategies
-  episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/2026-Tahoe-200-Deep-Dive--Course-Preview--Tips--Strategies-e3kkfdp
-  audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/121305977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-10%2Fe36d3953-7527-8c98-51d7-e26cb113b37d.mp3
-  published_at: '2026-06-10T21:06:39+00:00'
-  episode_key: 2026-tahoe-200-deep-dive-course-preview-tips-strategies
-  episode_slug: 2026-tahoe-200-deep-dive-course-preview-tips-strategies
-  episode_page_url: "/distance-to-empty/2026-tahoe-200-deep-dive-course-preview-tips-strategies/"
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete/"
   cover_image: "/media/uphillathlete.jpeg"
@@ -3322,6 +3322,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-24
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
+    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
+    audio_url: https://mcdn.podbean.com/mf/web/wmf5xngu6z67rk2j/2_clips_Edit_39_ajkd4.mp3
+    published_at: '2026-06-17T11:00:41-05:00'
+    description_html: "<p>With threshold training all the rage, there is a lot of discussion about “X Days”. Should this always be a fast, speed based session or is there more to it than that?</p>"
+    description_plain: With threshold training all the rage, there is a lot of discussion about “X Days”. Should this always be a fast, speed based session or is there more to it than that?
+    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Copy_of_Untitled_Design9qavj.png
+    episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
+    episode_slug: training-tuesday-how-to-execute-an-x-day-workout
+    episode_key: training-tuesday-how-to-execute-an-x-day-workout
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
     audio_url: https://mcdn.podbean.com/mf/web/eajtzvnic7qz6xmn/2_clips_Edit_38_98sah.mp3
@@ -3332,7 +3344,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3344,7 +3356,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3356,7 +3368,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3368,7 +3380,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3380,7 +3392,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3392,7 +3404,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -3404,7 +3416,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -3416,7 +3428,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -3428,7 +3440,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -3440,7 +3452,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -3452,7 +3464,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -3464,7 +3476,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -3476,7 +3488,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -3488,7 +3500,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -3500,7 +3512,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   - episode_title: 'Episode 604: Talkin’ Shop!'
     episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
@@ -3512,7 +3524,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
     episode_slug: episode-604-talkin-shop
     episode_key: episode-604-talkin-shop
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/episode-604-talkin-shop/"
   - episode_title: 'Training Tuesday: Kirk’s Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-qa-session/
@@ -3524,7 +3536,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cf9144dc-cae7-3c8d-9465-432883738b81
     episode_slug: training-tuesday-kirk-s-q-a-session
     episode_key: training-tuesday-kirk-s-q-a-session
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-q-a-session/"
   - episode_title: 'Episode 602: Jake Prusha'
     episode_url: https://therunningpublic.podbean.com/e/episode-602-jake-prusha/
@@ -3536,7 +3548,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d9607426-5db4-3104-88b7-85968914ae57
     episode_slug: episode-602-jake-prusha
     episode_key: episode-602-jake-prusha
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/episode-602-jake-prusha/"
   - episode_title: 'Episode 601: Answering AI Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-601-answering-ai-questions/
@@ -3548,7 +3560,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-69a0b749-5401-31da-9725-25f1758ba30f
     episode_slug: episode-601-answering-ai-questions
     episode_key: episode-601-answering-ai-questions
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
   - episode_title: 'Training Tuesday: Race Prep Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-race-prep-workouts/
@@ -3560,7 +3572,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-e06e2fa5-3f5c-3856-8858-6fed172d2041
     episode_slug: training-tuesday-race-prep-workouts
     episode_key: training-tuesday-race-prep-workouts
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/training-tuesday-race-prep-workouts/"
   - episode_title: Our 600th Episode!
     episode_url: https://therunningpublic.podbean.com/e/our-600th-episode/
@@ -3572,7 +3584,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-fed56e2a-8f3d-3d53-88b6-0918852668c5
     episode_slug: our-600th-episode
     episode_key: our-600th-episode
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/our-600th-episode/"
   - episode_title: 'Training Tuesday: “X Factor” Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-x-factor-workouts/
@@ -3584,7 +3596,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-c938ecc3-1a00-332f-ba66-4c07f7da5382
     episode_slug: training-tuesday-x-factor-workouts
     episode_key: training-tuesday-x-factor-workouts
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/training-tuesday-x-factor-workouts/"
   - episode_title: 'Episode 598: Our Best & Worst Race Decisions'
     episode_url: https://therunningpublic.podbean.com/e/episode-598-our-best-worst-race-decisions/
@@ -3596,7 +3608,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-391f0d2c-7cc1-3c6f-9d9d-c98d3ad7eb17
     episode_slug: episode-598-our-best-worst-race-decisions
     episode_key: episode-598-our-best-worst-race-decisions
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/episode-598-our-best-worst-race-decisions/"
   - episode_title: 'Training Tuesday: Talking Training!'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-talking-training/
@@ -3608,20 +3620,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cca69a74-dc58-3ed0-b842-623c631aed6f
     episode_slug: training-tuesday-talking-training
     episode_key: training-tuesday-talking-training
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/training-tuesday-talking-training/"
-  - episode_title: 'Episode 596: Aaron Telitz'
-    episode_url: https://therunningpublic.podbean.com/e/episode-596-aaron-telitz/
-    audio_url: https://mcdn.podbean.com/mf/web/pvytzqxsrspj5m4g/3_5_Telitz_Editbkisj.mp3
-    published_at: '2026-03-06T21:41:28-06:00'
-    description_html: "<p>A professional driver for Lexus, Aaron joins us to talk fitness, training, mental toughness, and doing whatever it takes to pursue your goal.</p>"
-    description_plain: A professional driver for Lexus, Aaron joins us to talk fitness, training, mental toughness, and doing whatever it takes to pursue your goal.
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Untitled_Designbbosn.png
-    episode_uid: therunningpublic-podbean-com-322cdcb8-c683-38e0-bc72-1e19f261d228
-    episode_slug: episode-596-aaron-telitz
-    episode_key: episode-596-aaron-telitz
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/episode-596-aaron-telitz/"
+    episode_page_url: "/the-running-public/training-tuesday-talking-training/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
@@ -4230,8 +4230,8 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://www.buzzsprout.com/299975/episodes/19355899-rasmus-pa-loffen-veien-til-kobenhavn-halvmaraton.mp3
     published_at: '2026-06-17T15:00:00+02:00'
-    description_html: '<p>Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. Rasmus er nå påmeldt København Halvmaraton i september. Det hårete målet er å løpe 1:25! Det får blant annet Nicolay Ramm til å rynke på nesen og sende lytterinnlegg!</p><p>Takk til våre samarbeidspartnere Comfyballs, Kiprun, SAYSKY og The Fifth Laboratory!</p><ul><li><b>Comfyballs </b>får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no.</li><li><b>Kiprun:</b> Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko!</li><li><b>SAYSKY</b> får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;.</li><li><b>The Fifth Laboratory: </b>Hva skjer egentlig med huden når vi løper langt, svetter mye, bruker caps, hjelm, solkrem og treningsklær time etter time? Hanne og Rebecca fra The Fifth Laboratory gjester podcasten for å gi konkrete tips og triks for hvordan du kan ta vare på huden i treningshverdagen, på reise og før/etter barbering. Bruk koden BML for 20 % rabatt på thefifthlaboratory.com</li></ul><p><a rel="payment" href="https://www.patreon.com/breakingmarathonlimits">Support the show</a></p><p><b>Kontakt Breaking Marathon Limits</b></p><p>Følg oss her: <a href=''https://www.instagram.com/breakingmarathonlimits/''>Instagram</a> | <a href=''https://www.facebook.com/breakingmarathonlimits/''>Facebook</a> | <a href=''https://www.youtube.com/channel/UCCoiOBmSTuCUTKIdmlpie0g''>Youtube</a> | <a href=''https://www.patreon.com/breakingmarathonlimits''>Patreon</a> Andre hendvendelser kan sendes til <a href=''mailto:Breakingmarathonlimits@gmail.com''>Breakingmarathonlimits@gmail.com</a> Bli en Patreon: <a href=''https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator''>https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator</a></p>'
-    description_plain: 'Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. Rasmus er nå påmeldt København Halvmaraton i september. Det hårete målet er å løpe 1:25! Det får blant annet Nicolay Ramm til å rynke på nesen og sende lytterinnlegg! Takk til våre samarbeidspartnere Comfyballs, Kiprun, SAYSKY og The Fifth Laboratory! Comfyballs får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no. Kiprun: Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko! SAYSKY får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;. The Fifth Laboratory: Hva skjer egentlig med huden når vi løper langt, svetter mye, bruker caps, hjelm, solkrem og treningsklær time etter time? Hanne og Rebecca fra The Fifth Laboratory gjester podcasten for å gi konkrete tips og triks for hvordan du kan ta vare på huden i treningshverdagen, på reise og før/etter barbering. Bruk koden BML for 20 % rabatt på thefifthlaboratory.com Support the show Kontakt Breaking Marathon Limits Følg oss her: Instagram | Facebook | Youtube | Patreon Andre hendvendelser kan sendes til Breakingmarathonlimits@gmail.com Bli en Patreon: https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator'
+    description_html: '<p>Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. Rasmus er nå påmeldt København Halvmaraton i september. Det hårete målet er å løpe 1:25! Det får blant annet Nicolay Ramm til å rynke på nesen og sende lytterinnlegg!</p><p>Treningsplanen til Rasmus<b></b>finner du på <b>BML Patreon:</b> https://www.patreon.com/breakingmarathonlimits/posts/rasmus-wolds-for-160693459</p><p>Takk til våre samarbeidspartnere Comfyballs, Kiprun, SAYSKY og The Fifth Laboratory!</p><ul><li><b>Comfyballs </b>får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no.</li><li><b>Kiprun:</b> Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko!</li><li><b>SAYSKY</b> får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;.</li><li><b>The Fifth Laboratory: </b>Hva skjer egentlig med huden når vi løper langt, svetter mye, bruker caps, hjelm, solkrem og treningsklær time etter time? Hanne og Rebecca fra The Fifth Laboratory gjester podcasten for å gi konkrete tips og triks for hvordan du kan ta vare på huden i treningshverdagen, på reise og før/etter barbering. Bruk koden BML for 20 % rabatt på thefifthlaboratory.com</li></ul><p><a rel="payment" href="https://www.patreon.com/breakingmarathonlimits">Support the show</a></p><p><b>Kontakt Breaking Marathon Limits</b></p><p>Følg oss her: <a href=''https://www.instagram.com/breakingmarathonlimits/''>Instagram</a> | <a href=''https://www.facebook.com/breakingmarathonlimits/''>Facebook</a> | <a href=''https://www.youtube.com/channel/UCCoiOBmSTuCUTKIdmlpie0g''>Youtube</a> | <a href=''https://www.patreon.com/breakingmarathonlimits''>Patreon</a> Andre hendvendelser kan sendes til <a href=''mailto:Breakingmarathonlimits@gmail.com''>Breakingmarathonlimits@gmail.com</a> Bli en Patreon: <a href=''https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator''>https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator</a></p>'
+    description_plain: 'Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. Rasmus er nå påmeldt København Halvmaraton i september. Det hårete målet er å løpe 1:25! Det får blant annet Nicolay Ramm til å rynke på nesen og sende lytterinnlegg! Treningsplanen til Rasmus finner du på BML Patreon: https://www.patreon.com/breakingmarathonlimits/posts/rasmus-wolds-for-160693459 Takk til våre samarbeidspartnere Comfyballs, Kiprun, SAYSKY og The Fifth Laboratory! Comfyballs får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no. Kiprun: Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko! SAYSKY får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;. The Fifth Laboratory: Hva skjer egentlig med huden når vi løper langt, svetter mye, bruker caps, hjelm, solkrem og treningsklær time etter time? Hanne og Rebecca fra The Fifth Laboratory gjester podcasten for å gi konkrete tips og triks for hvordan du kan ta vare på huden i treningshverdagen, på reise og før/etter barbering. Bruk koden BML for 20 % rabatt på thefifthlaboratory.com Support the show Kontakt Breaking Marathon Limits Følg oss her: Instagram | Facebook | Youtube | Patreon Andre hendvendelser kan sendes til Breakingmarathonlimits@gmail.com Bli en Patreon: https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator'
     episode_image_url: ''
     episode_uid: buzzsprout-19355899
     episode_slug: rasmus-pa-loffen-veien-til-kobenhavn-halvmaraton
@@ -13190,6 +13190,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/diabolic-lies/democrats-are-failing-what-comes-after-the-liberal-status-quo/"
   https://anchor.fm/s/ef81d1e4/podcast/rss: &44
+  - episode_title: 'The Cocodona 250 Last Man Standing: Six Years & Counting'
+    episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/The-Cocodona-250-Last-Man-Standing-Six-Years--Counting-e3ktsco
+    audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/121614168/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-17%2F3a34cd02-371e-dae9-88e1-e4c0f48aa381.mp3
+    published_at: '2026-06-17T16:00:00+00:00'
+    description_html: '<p>Become a Distance to Empty subscriber!: https://www.patreon.com/DistancetoEmptyPod</p><p>Get some free DTE Swag by supporting out sponsors!</p><p><a href="https://janji.com/pages/distance-to-empty">⁠⁠https://janji.com/pages/distance-to-empty⁠⁠</a>⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ and be sure to select &#39;podcast&#39; &gt; &#39;Distance to Empty&#39; on the post purchase &quot;How did you hear about Janji&quot; page. Thank you!</p><p>Check out Mount to Coast here: <a href="⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mounttocoast.com/discount/Distance⁠⁠⁠⁠⁠⁠⁠⁠⁠">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mounttocoast.com/discount/Distance⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Code IRON at www.goodranchers.com and mention us in the post purchase survey!</p><p><strong>The Last Four Standing: Six Years of Cocodona 250</strong></p><p>Four runners. Six straight years. Roughly 6,000 miles of one of the hardest point-to-point ultras in the country. In this episode, Kevin Goldberg sits down with Andy Glaze, Jeff Garmire, Aaron Fleisher, and Jose Sosa — the only four athletes to finish every single Cocodona 250 since its 2021 debut.</p><p>What started as a one-off pandemic-era adventure (Aaron even emailed the race directors to say he&#39;d never be back) somehow became an annual ritual none of them saw coming. The guys talk through how the race hooked them, why it never actually gets easier, and the community that keeps pulling them back to the start line each May.</p><p>There&#39;s also a healthy dose of competition and chaos: back-of-the-napkin math on how many hours they&#39;ve each logged on course (the guesses are scarily accurate), predictions for when the streak finally breaks and who&#39;ll be the last one standing, theories on how each man&#39;s run will eventually end — from injury to flight delays to one very specific basketball-related exit — and the origin of Andy&#39;s parallel 100-mile-week streak that may be even harder to kill than the Cocodona one.</p><p>Equal parts tribute, roast, and group therapy for people who can&#39;t stop signing up. Here&#39;s to year seven.</p>'
+    description_plain: 'Become a Distance to Empty subscriber!: https://www.patreon.com/DistancetoEmptyPod Get some free DTE Swag by supporting out sponsors! ⁠⁠https://janji.com/pages/distance-to-empty⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ and be sure to select &#39;podcast&#39; &gt; &#39;Distance to Empty&#39; on the post purchase &quot;How did you hear about Janji&quot; page. Thank you! Check out Mount to Coast here: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mounttocoast.com/discount/Distance⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Code IRON at www.goodranchers.com and mention us in the post purchase survey! The Last Four Standing: Six Years of Cocodona 250 Four runners. Six straight years. Roughly 6,000 miles of one of the hardest point-to-point ultras in the country. In this episode, Kevin Goldberg sits down with Andy Glaze, Jeff Garmire, Aaron Fleisher, and Jose Sosa — the only four athletes to finish every single Cocodona 250 since its 2021 debut. What started as a one-off pandemic-era adventure (Aaron even emailed the race directors to say he&#39;d never be back) somehow became an annual ritual none of them saw coming. The guys talk through how the race hooked them, why it never actually gets easier, and the community that keeps pulling them back to the start line each May. There&#39;s also a healthy dose of competition and chaos: back-of-the-napkin math on how many hours they&#39;ve each logged on course (the guesses are scarily accurate), predictions for when the streak finally breaks and who&#39;ll be the last one standing, theories on how each man&#39;s run will eventually end — from injury to flight delays to one very specific basketball-related exit — and the origin of Andy&#39;s parallel 100-mile-week streak that may be even harder to kill than the Cocodona one. Equal parts tribute, roast, and group therapy for people who can&#39;t stop signing up. Here&#39;s to year seven.'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/40082625/40082625-1719777787541-d5d6c2afe6908.jpg
+    episode_uid: df58004e-a8aa-4b42-8e60-d4dfd9696a0d
+    episode_slug: the-cocodona-250-last-man-standing-six-years-counting
+    episode_key: the-cocodona-250-last-man-standing-six-years-counting
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/distance-to-empty/the-cocodona-250-last-man-standing-six-years-counting/"
   - episode_title: 2026 Tahoe 200 Deep Dive! Course Preview, Tips & Strategies
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/2026-Tahoe-200-Deep-Dive--Course-Preview--Tips--Strategies-e3kkfdp
     audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/121305977/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-10%2Fe36d3953-7527-8c98-51d7-e26cb113b37d.mp3
@@ -13200,7 +13212,7 @@ episodes_by_feed:
     episode_uid: 64db994c-5569-41c4-a1d5-834efcb85323
     episode_slug: 2026-tahoe-200-deep-dive-course-preview-tips-strategies
     episode_key: 2026-tahoe-200-deep-dive-course-preview-tips-strategies
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/distance-to-empty/2026-tahoe-200-deep-dive-course-preview-tips-strategies/"
   - episode_title: 'The Fear Can Hang Out: Lessons from a First 250 w/ Laura Rambikur'
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/The-Fear-Can-Hang-Out-Lessons-from-a-First-250-w-Laura-Rambikur-e3kbib6
@@ -13212,7 +13224,7 @@ episodes_by_feed:
     episode_uid: 632e0331-7673-4d1c-91a3-d26c5207ce1f
     episode_slug: the-fear-can-hang-out-lessons-from-a-first-250-w-laura-rambikur
     episode_key: the-fear-can-hang-out-lessons-from-a-first-250-w-laura-rambikur
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/distance-to-empty/the-fear-can-hang-out-lessons-from-a-first-250-w-laura-rambikur/"
   - episode_title: 'Trish Corbett: MBA Champion, Corner Threes and Broken Fingers at Cocodona 250'
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Trish-Corbett-MBA-Champion--Corner-Threes-and-Broken-Fingers-at-Cocodona-250-e3k2uar
@@ -13224,7 +13236,7 @@ episodes_by_feed:
     episode_uid: 9ad7e43f-7153-483b-aa21-ea84d6d22ca7
     episode_slug: trish-corbett-mba-champion-corner-threes-and-broken-fingers-at-cocodona-250
     episode_key: trish-corbett-mba-champion-corner-threes-and-broken-fingers-at-cocodona-250
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/distance-to-empty/trish-corbett-mba-champion-corner-threes-and-broken-fingers-at-cocodona-250/"
   - episode_title: Zach Hauer on Chasing the Podium at Cocodona 250, and What 200s Teach You That Nothing Else Can
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Zach-Hauer-on-Chasing-the-Podium-at-Cocodona-250--and-What-200s-Teach-You-That-Nothing-Else-Can-e3jor82
@@ -13236,7 +13248,7 @@ episodes_by_feed:
     episode_uid: dc35fd4a-fae5-4240-88f5-4613970afd95
     episode_slug: zach-hauer-on-chasing-the-podium-at-cocodona-250-and-what-200s-teach-you-that-nothing-else-can
     episode_key: zach-hauer-on-chasing-the-podium-at-cocodona-250-and-what-200s-teach-you-that-nothing-else-can
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/distance-to-empty/zach-hauer-on-chasing-the-podium-at-cocodona-250-and-what-200s-teach-you-that-nothing-else-can/"
   - episode_title: Missy Hendricks | Being Seen, Running the Land & the Back of the Pack
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Missy-Hendricks--Being-Seen--Running-the-Land--the-Back-of-the-Pack-e3jk8aq
@@ -13248,7 +13260,7 @@ episodes_by_feed:
     episode_uid: ab389bc1-9bdc-4014-83da-b0c409a765c4
     episode_slug: missy-hendricks-being-seen-running-the-land-the-back-of-the-pack
     episode_key: missy-hendricks-being-seen-running-the-land-the-back-of-the-pack
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/distance-to-empty/missy-hendricks-being-seen-running-the-land-the-back-of-the-pack/"
   - episode_title: Randi Zuckerberg is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Randi-Zuckerberg-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3iqm4s
@@ -13260,7 +13272,7 @@ episodes_by_feed:
     episode_uid: e6ca659d-cfea-4f20-b2d7-3834670b7616
     episode_slug: randi-zuckerberg-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: randi-zuckerberg-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/distance-to-empty/randi-zuckerberg-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Megan Eckert is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Megan-Eckert-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ip9cq
@@ -13272,7 +13284,7 @@ episodes_by_feed:
     episode_uid: c20c889b-281c-4cdf-9ac3-a1d4ae86905c
     episode_slug: megan-eckert-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: megan-eckert-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/distance-to-empty/megan-eckert-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Courtney Dauwalter is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Courtney-Dauwalter-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ioj0d
@@ -13284,7 +13296,7 @@ episodes_by_feed:
     episode_uid: f8a7881e-1ea4-4c23-b305-d1ce518d012d
     episode_slug: courtney-dauwalter-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: courtney-dauwalter-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/distance-to-empty/courtney-dauwalter-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Sally McRae is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Sally-McRae-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3inf7g
@@ -13296,7 +13308,7 @@ episodes_by_feed:
     episode_uid: e9c98b81-085d-4c6c-b199-7cbf3a8b48fd
     episode_slug: sally-mcrae-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: sally-mcrae-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/distance-to-empty/sally-mcrae-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Heather Jackson is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Heather-Jackson-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ilchm
@@ -13308,7 +13320,7 @@ episodes_by_feed:
     episode_uid: 379126ef-31df-4322-8a9e-51ffcc48bbbf
     episode_slug: heather-jackson-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: heather-jackson-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/distance-to-empty/heather-jackson-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: 2026 Cocodona 250 Deep Dive! Course Preview, Tips & Strategies
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/2026-Cocodona-250-Deep-Dive--Course-Preview--Tips--Strategies-e3ikg2e
@@ -13320,7 +13332,7 @@ episodes_by_feed:
     episode_uid: 6cdf0413-5cdd-4005-95ab-d6111c2ff47f
     episode_slug: 2026-cocodona-250-deep-dive-course-preview-tips-strategies
     episode_key: 2026-cocodona-250-deep-dive-course-preview-tips-strategies
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/distance-to-empty/2026-cocodona-250-deep-dive-course-preview-tips-strategies/"
   - episode_title: Mike McKnight is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Mike-McKnight-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ijjvh
@@ -13332,7 +13344,7 @@ episodes_by_feed:
     episode_uid: 2dad1178-6090-4ee3-8203-1d08bfbd066a
     episode_slug: mike-mcknight-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: mike-mcknight-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/distance-to-empty/mike-mcknight-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Fra Balbi is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Fra-Balbi-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ihm2o
@@ -13344,7 +13356,7 @@ episodes_by_feed:
     episode_uid: 7d89c23f-0b6d-4661-b9ba-792f3e23cbb7
     episode_slug: fra-balbi-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: fra-balbi-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/distance-to-empty/fra-balbi-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Holly Stables is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Holly-Stables-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ig78i
@@ -13356,7 +13368,7 @@ episodes_by_feed:
     episode_uid: af088ab0-8c3e-4f57-aff6-e26974b4602f
     episode_slug: holly-stables-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: holly-stables-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/distance-to-empty/holly-stables-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Allison Powell is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Allison-Powell-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ifmc2
@@ -13368,7 +13380,7 @@ episodes_by_feed:
     episode_uid: 8d5414af-1641-45fe-b737-9e0e6182e5b2
     episode_slug: allison-powell-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: allison-powell-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/distance-to-empty/allison-powell-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: "⁠Manuela Vilaseca⁠ is Flagstaff Bound at the 2026 Cocodona 250"
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Manuela-Vilaseca-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3ie9pm
@@ -13380,7 +13392,7 @@ episodes_by_feed:
     episode_uid: 5690d2dc-4b2f-42db-9151-8b062c1bc1c9
     episode_slug: manuela-vilaseca-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: manuela-vilaseca-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/distance-to-empty/manuela-vilaseca-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Running & Recording at Badwater Salton Sea
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Running--Recording-at-Badwater-Salton-Sea-e3idlij
@@ -13392,7 +13404,7 @@ episodes_by_feed:
     episode_uid: 7f1e4989-1173-495a-aecd-03c376ed6b2c
     episode_slug: running-recording-at-badwater-salton-sea
     episode_key: running-recording-at-badwater-salton-sea
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/distance-to-empty/running-recording-at-badwater-salton-sea/"
   - episode_title: Adam Kimble is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Adam-Kimble-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3i85uf
@@ -13404,7 +13416,7 @@ episodes_by_feed:
     episode_uid: 99edc5c1-fa21-4d8d-a8f8-110887110afc
     episode_slug: adam-kimble-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: adam-kimble-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/distance-to-empty/adam-kimble-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Joe 'Stringbean' McConaughy is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Joe-Stringbean-McConaughy-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3i18gj
@@ -13416,7 +13428,7 @@ episodes_by_feed:
     episode_uid: dc310c5a-655d-438c-badd-e0d4b6425e21
     episode_slug: joe-stringbean-mcconaughy-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: joe-stringbean-mcconaughy-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/distance-to-empty/joe-stringbean-mcconaughy-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Lila Gaudrault is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Lila-Gaudrault-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hv25p
@@ -13428,7 +13440,7 @@ episodes_by_feed:
     episode_uid: 83ab795b-917a-4032-9809-b7063c70ad48
     episode_slug: lila-gaudrault-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: lila-gaudrault-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/distance-to-empty/lila-gaudrault-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Michael Versteeg is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Michael-Versteeg-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3htggl
@@ -13440,7 +13452,7 @@ episodes_by_feed:
     episode_uid: a29ef280-8e36-4e59-af2b-08fc578cd491
     episode_slug: michael-versteeg-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: michael-versteeg-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/distance-to-empty/michael-versteeg-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: DJ Fox is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/DJ-Fox-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hrmal
@@ -13452,7 +13464,7 @@ episodes_by_feed:
     episode_uid: 93e58372-eca7-40d0-b523-5d77ebf88e40
     episode_slug: dj-fox-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: dj-fox-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/distance-to-empty/dj-fox-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Jeff Pelletier is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Jeff-Pelletier-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hlrs6
@@ -13464,7 +13476,7 @@ episodes_by_feed:
     episode_uid: 031a5d83-8332-4a2a-b310-fad8672721c5
     episode_slug: jeff-pelletier-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: jeff-pelletier-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/distance-to-empty/jeff-pelletier-is-flagstaff-bound-at-the-2026-cocodona-250/"
   - episode_title: Jeff Browning is Flagstaff Bound at the 2026 Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Jeff-Browning-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hkads
@@ -13476,20 +13488,8 @@ episodes_by_feed:
     episode_uid: 3c089594-0fe2-435d-8101-b7b2c20ca5e5
     episode_slug: jeff-browning-is-flagstaff-bound-at-the-2026-cocodona-250
     episode_key: jeff-browning-is-flagstaff-bound-at-the-2026-cocodona-250
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/distance-to-empty/jeff-browning-is-flagstaff-bound-at-the-2026-cocodona-250/"
-  - episode_title: Lauren Jones is Flagstaff Bound at the 2026 Cocodona 250
-    episode_url: https://podcasters.spotify.com/pod/show/kevin-goldberg/episodes/Lauren-Jones-is-Flagstaff-Bound-at-the-2026-Cocodona-250-e3hihcn
-    audio_url: https://anchor.fm/s/ef81d1e4/podcast/play/118096727/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-7%2F1d4e98f7-8b76-9e5e-79e6-ef2c24a31d0d.mp3
-    published_at: '2026-04-07T18:00:00+00:00'
-    description_html: "<p>FLAGSTAFF BOUND is BACK for 2026!</p><p>Become a Distance to Empty subscriber!: https://www.patreon.com/DistancetoEmptyPod</p><p>Get some free DTE Swag by supporting out sponsors!</p><p>Check out Mount to Coast here: ⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mounttocoast.com/discount/Distance⁠⁠⁠⁠⁠⁠⁠⁠⁠</p><p>Use code DISTANCE at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Janji.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ and be sure to select &#39;podcast&#39; &gt; &#39;Distance to Empty&#39; on the post purchase &quot;How did you hear about Janji&quot; page. Thank you!</p><p>She finished second female at the 2022 Cocodona 250. She sobbed on the descent off Mingus Mountain. She wrote a blog post about the whole experience called &quot;I&#39;d Run 100 Miles for a Grilled Cheese Sandwich.&quot; She is back.</p><p>In this episode of Flagstaff Bound, Kevin and Peter sit down with Lauren Jones — ultrarunner, writer, and proud cheese enthusiast from Atlanta — for one of the most honest and genuinely funny conversations in the series. Lauren talks about what it was like to run 250 miles through the Arizona desert, fall apart on a mountain descent in tears, keep going anyway, and then write about all of it with the kind of self-awareness that makes you feel like you were out there with her.</p><p>She also gives her chalkboard message for Mingus Mountain, and it is exactly what you&#39;d expect from someone who has cried on that descent and earned the right to say it.</p><p>Cocodona 250 kicks off Monday, May 4th at 5 AM Pacific. Follow the action live on the Mountain Outpost YouTube channel.</p>"
-    description_plain: 'FLAGSTAFF BOUND is BACK for 2026! Become a Distance to Empty subscriber!: https://www.patreon.com/DistancetoEmptyPod Get some free DTE Swag by supporting out sponsors! Check out Mount to Coast here: ⁠⁠⁠⁠⁠⁠⁠⁠⁠https://mounttocoast.com/discount/Distance⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code DISTANCE at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Janji.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ and be sure to select &#39;podcast&#39; &gt; &#39;Distance to Empty&#39; on the post purchase &quot;How did you hear about Janji&quot; page. Thank you! She finished second female at the 2022 Cocodona 250. She sobbed on the descent off Mingus Mountain. She wrote a blog post about the whole experience called &quot;I&#39;d Run 100 Miles for a Grilled Cheese Sandwich.&quot; She is back. In this episode of Flagstaff Bound, Kevin and Peter sit down with Lauren Jones — ultrarunner, writer, and proud cheese enthusiast from Atlanta — for one of the most honest and genuinely funny conversations in the series. Lauren talks about what it was like to run 250 miles through the Arizona desert, fall apart on a mountain descent in tears, keep going anyway, and then write about all of it with the kind of self-awareness that makes you feel like you were out there with her. She also gives her chalkboard message for Mingus Mountain, and it is exactly what you&#39;d expect from someone who has cried on that descent and earned the right to say it. Cocodona 250 kicks off Monday, May 4th at 5 AM Pacific. Follow the action live on the Mountain Outpost YouTube channel.'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/40082625/40082625-1719777787541-d5d6c2afe6908.jpg
-    episode_uid: faa08af4-fb63-452a-b15a-26f73ef88647
-    episode_slug: lauren-jones-is-flagstaff-bound-at-the-2026-cocodona-250
-    episode_key: lauren-jones-is-flagstaff-bound-at-the-2026-cocodona-250
     legacy_numbered_slug: episode-25
-    episode_page_url: "/distance-to-empty/lauren-jones-is-flagstaff-bound-at-the-2026-cocodona-250/"
+    episode_page_url: "/distance-to-empty/jeff-browning-is-flagstaff-bound-at-the-2026-cocodona-250/"
   https://feeds.simplecast.com/6hkohngs: &45
   - episode_title: "‘Hard Fork’ Live Part 2: Dylan Field on Standing Out in the A.I. Era"
     episode_url: https://www.nytimes.com/column/hard-fork
@@ -13530,7 +13530,7 @@ episodes_by_feed:
   https://audioboom.com/channels/5166619.rss: &46
   - episode_title: Two Steps Forward, One Step Back w. Jennifer Siebel Newsom
     episode_url: https://audioboom.com/posts/8915177
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8915177.mp3?modified=1781136702&sid=5166619&source=rss
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8915177.mp3?modified=1781245229&sid=5166619&source=rss
     published_at: '2026-06-11T07:00:00+00:00'
     description_html: 'First Partner of California, Jennifer Siebel Newsom, joins Hysteria for a conversation about her status as a right-wing media target and her new film, Miss Representation: Rise Up. Erin and Alyssa also recap Graham Platner’s slew of scandals that led up to him winning the Democratic nomination for Maine’s Senate seat, discuss Bari Weiss’ next media move, and check in on the latest news from the Epstein files. Then they wrap up with a petty conversation about Gwyneth Paltrow’s politics.'
     description_plain: 'First Partner of California, Jennifer Siebel Newsom, joins Hysteria for a conversation about her status as a right-wing media target and her new film, Miss Representation: Rise Up. Erin and Alyssa also recap Graham Platner’s slew of scandals that led up to him winning the Democratic nomination for Maine’s Senate seat, discuss Bari Weiss’ next media move, and check in on the latest news from the Epstein files. Then they wrap up with a petty conversation about Gwyneth Paltrow’s politics.'
@@ -13542,7 +13542,7 @@ episodes_by_feed:
     episode_page_url: "/hysteria/two-steps-forward-one-step-back-w-jennifer-siebel-newsom/"
   - episode_title: 'This F*cking Guy: Jared Kushner'
     episode_url: https://audioboom.com/posts/8913142
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8913142.mp3?modified=1780702119&sid=5166619&source=rss
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8913142.mp3?modified=1780934489&sid=5166619&source=rss
     published_at: '2026-06-07T19:30:00+00:00'
     description_html: In our 41st episode of This F*cking Guy, Erin and Alyssa dive deep into the past of the Dumb-a** Daddy’s Boy, Jared Kushner. From slithering into the top Ivy League with help from his corrupt father, to being one of NYC’s most soulless slumlords, to his abhorrent handling of COVID and his Middle East meddling under his father-in-law, this may be one of our more notorious nepo-baby guys yet.
     description_plain: In our 41st episode of This F*cking Guy, Erin and Alyssa dive deep into the past of the Dumb-a** Daddy’s Boy, Jared Kushner. From slithering into the top Ivy League with help from his corrupt father, to being one of NYC’s most soulless slumlords, to his abhorrent handling of COVID and his Middle East meddling under his father-in-law, this may be one of our more notorious nepo-baby guys yet.
@@ -13590,7 +13590,7 @@ episodes_by_feed:
     episode_page_url: "/hysteria/this-f-cking-guy-bari-weiss/"
   - episode_title: Runaway Virus w. Alex Wagner
     episode_url: https://audioboom.com/posts/8903329
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8903329.mp3?modified=1778720983&sid=5166619&source=rss
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8903329.mp3?modified=1778827404&sid=5166619&source=rss
     published_at: '2026-05-14T07:00:00+00:00'
     description_html: Erin and guest host Alex Wagner (Runaway Country) cover the rapidly evolving Hantavirus outbreak situation, Trump’s latest pro-natalist initiative, and Republicans’ increasingly shameless plays to turn their careers in public service into careers as reality TV stars. They also react to Representative Virginia Foxx’s insane response to one of her child constituents, Alex points out Trump’s suspicious napping habit, and Erin squashes her beef with Blippi.
     description_plain: Erin and guest host Alex Wagner (Runaway Country) cover the rapidly evolving Hantavirus outbreak situation, Trump’s latest pro-natalist initiative, and Republicans’ increasingly shameless plays to turn their careers in public service into careers as reality TV stars. They also react to Representative Virginia Foxx’s insane response to one of her child constituents, Alex points out Trump’s suspicious napping habit, and Erin squashes her beef with Blippi.
@@ -15427,6 +15427,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/pablo-torre-finds-out/exclusive-how-the-onion-finally-shut-up-alex-jones-for-good/"
   https://rss.buzzsprout.com/2529065.rss: &52
+  - episode_title: Hospital people, World Cup drama, and Strava
+    episode_url: ''
+    audio_url: https://www.buzzsprout.com/2529065/episodes/19361486-hospital-people-world-cup-drama-and-strava.mp3
+    published_at: '2026-06-17T08:00:00-07:00'
+    description_html: "<p>This week, Sarah and Hannah talk about the success of crownhole at Sarah’s baby shower, her visit to the maternity hospital with her birthing class, and the drama surrounding the women’s XCO World Cup in Leogang. They also attempt to discuss soccer, basketball, Strava, and pimple patches before Sarah reveals all the places that she’s accidentally peed herself recently.</p><p>This episode is sponsored by <a href='https://www.instagram.com/thankgravelitsfriday/'>Thank Gravel It’s Friday</a> and the <a href='https://www.instagram.com/therideforhope_/'>Ride for Hope</a>.</p><p>Instagram: <a href='https://www.instagram.com/talking.over.you'>@talking.over.you</a></p>"
+    description_plain: 'This week, Sarah and Hannah talk about the success of crownhole at Sarah’s baby shower, her visit to the maternity hospital with her birthing class, and the drama surrounding the women’s XCO World Cup in Leogang. They also attempt to discuss soccer, basketball, Strava, and pimple patches before Sarah reveals all the places that she’s accidentally peed herself recently. This episode is sponsored by Thank Gravel It’s Friday and the Ride for Hope . Instagram: @talking.over.you'
+    episode_image_url: ''
+    episode_uid: buzzsprout-19361486
+    episode_slug: hospital-people-world-cup-drama-and-strava
+    episode_key: hospital-people-world-cup-drama-and-strava
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/talking-over-you/hospital-people-world-cup-drama-and-strava/"
   - episode_title: Balloons, the Giro, and boa constrictors
     episode_url: ''
     audio_url: https://www.buzzsprout.com/2529065/episodes/19324972-balloons-the-giro-and-boa-constrictors.mp3
@@ -15437,7 +15449,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19324972
     episode_slug: balloons-the-giro-and-boa-constrictors
     episode_key: balloons-the-giro-and-boa-constrictors
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/talking-over-you/balloons-the-giro-and-boa-constrictors/"
   - episode_title: 'BONUS: Dispatches from Unbound (ft. Cecile Lejeune, Ruby Ryan, Payson McElveen, and Dominique Powers)'
     episode_url: ''
@@ -15449,7 +15461,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19294759
     episode_slug: bonus-dispatches-from-unbound-ft-cecile-lejeune-ruby-ryan-payson-mcelveen-and-dominique-powers
     episode_key: bonus-dispatches-from-unbound-ft-cecile-lejeune-ruby-ryan-payson-mcelveen-and-dominique-powers
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/talking-over-you/bonus-dispatches-from-unbound-ft-cecile-lejeune-ruby-ryan-payson-mcelveen-and-dominique-powers/"
   - episode_title: Unbound, lab coats, and ChatCBD
     episode_url: ''
@@ -15461,7 +15473,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19287477
     episode_slug: unbound-lab-coats-and-chatcbd
     episode_key: unbound-lab-coats-and-chatcbd
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/talking-over-you/unbound-lab-coats-and-chatcbd/"
   - episode_title: The Iron Horse, truffle pigs, and crickets
     episode_url: ''
@@ -15473,7 +15485,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19248180
     episode_slug: the-iron-horse-truffle-pigs-and-crickets
     episode_key: the-iron-horse-truffle-pigs-and-crickets
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/talking-over-you/the-iron-horse-truffle-pigs-and-crickets/"
   - episode_title: The Cocodona, swamping, and ageing in cycling
     episode_url: ''
@@ -15485,7 +15497,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19172541
     episode_slug: the-cocodona-swamping-and-ageing-in-cycling
     episode_key: the-cocodona-swamping-and-ageing-in-cycling
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/talking-over-you/the-cocodona-swamping-and-ageing-in-cycling/"
   - episode_title: The Traka, driving in Europe, and jelly beans
     episode_url: ''
@@ -15497,7 +15509,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19134825
     episode_slug: the-traka-driving-in-europe-and-jelly-beans
     episode_key: the-traka-driving-in-europe-and-jelly-beans
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/talking-over-you/the-traka-driving-in-europe-and-jelly-beans/"
   - episode_title: Rapha team camp, adult braces, and weight loss in cycling (with Danni Shrosbree)
     episode_url: ''
@@ -15509,7 +15521,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19092531
     episode_slug: rapha-team-camp-adult-braces-and-weight-loss-in-cycling-with-danni-shrosbree
     episode_key: rapha-team-camp-adult-braces-and-weight-loss-in-cycling-with-danni-shrosbree
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/talking-over-you/rapha-team-camp-adult-braces-and-weight-loss-in-cycling-with-danni-shrosbree/"
   - episode_title: Sea Otter, soup, and sea lions
     episode_url: ''
@@ -15521,7 +15533,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19058592
     episode_slug: sea-otter-soup-and-sea-lions
     episode_key: sea-otter-soup-and-sea-lions
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/talking-over-you/sea-otter-soup-and-sea-lions/"
   - episode_title: FansOnly, Paris-Roubaix, and Coachella
     episode_url: ''
@@ -15533,7 +15545,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19021991
     episode_slug: fansonly-paris-roubaix-and-coachella
     episode_key: fansonly-paris-roubaix-and-coachella
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/talking-over-you/fansonly-paris-roubaix-and-coachella/"
   - episode_title: Passover, bike messengers, and flopsy (ft. Margie Weinstein)
     episode_url: ''
@@ -15545,7 +15557,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18979985
     episode_slug: passover-bike-messengers-and-flopsy-ft-margie-weinstein
     episode_key: passover-bike-messengers-and-flopsy-ft-margie-weinstein
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/talking-over-you/passover-bike-messengers-and-flopsy-ft-margie-weinstein/"
   - episode_title: Galileo, The Hills have wheels, and leather chamois
     episode_url: ''
@@ -15557,7 +15569,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18941310
     episode_slug: galileo-the-hills-have-wheels-and-leather-chamois
     episode_key: galileo-the-hills-have-wheels-and-leather-chamois
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/talking-over-you/galileo-the-hills-have-wheels-and-leather-chamois/"
   - episode_title: Lady Whistledown, the Cape Epic, and race coverage
     episode_url: ''
@@ -15569,7 +15581,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18906492
     episode_slug: lady-whistledown-the-cape-epic-and-race-coverage
     episode_key: lady-whistledown-the-cape-epic-and-race-coverage
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/talking-over-you/lady-whistledown-the-cape-epic-and-race-coverage/"
   - episode_title: 'BONUS: Mid South post-race interviews (ft. Sofia Gomez Villafane, Cobe Freeburn, Gee Schreurs, and Cecile Lejeune)'
     episode_url: ''
@@ -15581,7 +15593,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18876306
     episode_slug: bonus-mid-south-post-race-interviews-ft-sofia-gomez-villafane-cobe-freeburn-gee-schreurs-and-cecile-lejeune
     episode_key: bonus-mid-south-post-race-interviews-ft-sofia-gomez-villafane-cobe-freeburn-gee-schreurs-and-cecile-lejeune
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/talking-over-you/bonus-mid-south-post-race-interviews-ft-sofia-gomez-villafane-cobe-freeburn-gee-schreurs-and-cecile-lejeune/"
   - episode_title: 'Live from Mid South: Woodworking, tantrums, and pregnancy clauses'
     episode_url: ''
@@ -15593,7 +15605,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18868170
     episode_slug: live-from-mid-south-woodworking-tantrums-and-pregnancy-clauses
     episode_key: live-from-mid-south-woodworking-tantrums-and-pregnancy-clauses
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/talking-over-you/live-from-mid-south-woodworking-tantrums-and-pregnancy-clauses/"
   - episode_title: Sarah’s news, manatees, and ebikes
     episode_url: ''
@@ -15605,7 +15617,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18827748
     episode_slug: sarah-s-news-manatees-and-ebikes
     episode_key: sarah-s-news-manatees-and-ebikes
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/talking-over-you/sarah-s-news-manatees-and-ebikes/"
   - episode_title: Aqua-mittens, foot tires, and cat bejewelling with ultra-runner Abby Hall
     episode_url: ''
@@ -15617,7 +15629,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18787386
     episode_slug: aqua-mittens-foot-tires-and-cat-bejewelling-with-ultra-runner-abby-hall
     episode_key: aqua-mittens-foot-tires-and-cat-bejewelling-with-ultra-runner-abby-hall
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/talking-over-you/aqua-mittens-foot-tires-and-cat-bejewelling-with-ultra-runner-abby-hall/"
   - episode_title: The Super Bowl, Lindsey Vonn, and hamster sod
     episode_url: ''
@@ -15629,7 +15641,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18661591
     episode_slug: the-super-bowl-lindsey-vonn-and-hamster-sod
     episode_key: the-super-bowl-lindsey-vonn-and-hamster-sod
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/talking-over-you/the-super-bowl-lindsey-vonn-and-hamster-sod/"
   - episode_title: Cereal, the Winter Olympics, and peeing (again)
     episode_url: ''
@@ -15641,7 +15653,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18623654
     episode_slug: cereal-the-winter-olympics-and-peeing-again
     episode_key: cereal-the-winter-olympics-and-peeing-again
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/talking-over-you/cereal-the-winter-olympics-and-peeing-again/"
   - episode_title: Male anatomy, gravel teams, and poddy talk
     episode_url: ''
@@ -15653,7 +15665,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18583416
     episode_slug: male-anatomy-gravel-teams-and-poddy-talk
     episode_key: male-anatomy-gravel-teams-and-poddy-talk
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/talking-over-you/male-anatomy-gravel-teams-and-poddy-talk/"
   - episode_title: Palm Springs, drop bars, and entomology (ft. their friend Dani)
     episode_url: ''
@@ -15665,7 +15677,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18547461
     episode_slug: palm-springs-drop-bars-and-entomology-ft-their-friend-dani
     episode_key: palm-springs-drop-bars-and-entomology-ft-their-friend-dani
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/talking-over-you/palm-springs-drop-bars-and-entomology-ft-their-friend-dani/"
   - episode_title: Leg shaving, techy talky, and Scrub Daddy
     episode_url: ''
@@ -15677,7 +15689,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18507189
     episode_slug: leg-shaving-techy-talky-and-scrub-daddy
     episode_key: leg-shaving-techy-talky-and-scrub-daddy
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/talking-over-you/leg-shaving-techy-talky-and-scrub-daddy/"
   - episode_title: Graphite gals, fast food, and how to get started with outdoor adventuring
     episode_url: ''
@@ -15689,7 +15701,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18467910
     episode_slug: graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring
     episode_key: graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/talking-over-you/graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring/"
   - episode_title: The boy aquarium, New Year’s resolutions, and imposter syndrome
     episode_url: ''
@@ -15701,7 +15713,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18435492
     episode_slug: the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome
     episode_key: the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/talking-over-you/the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome/"
   - episode_title: Solstice singing circles, a high profile exit from cycling, and sock length
     episode_url: ''
@@ -15713,20 +15725,8 @@ episodes_by_feed:
     episode_uid: buzzsprout-18411677
     episode_slug: solstice-singing-circles-a-high-profile-exit-from-cycling-and-sock-length
     episode_key: solstice-singing-circles-a-high-profile-exit-from-cycling-and-sock-length
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/talking-over-you/solstice-singing-circles-a-high-profile-exit-from-cycling-and-sock-length/"
-  - episode_title: Birthdays, thousands of pinto beans, and sponsorship Tetris
-    episode_url: ''
-    audio_url: https://www.buzzsprout.com/2529065/episodes/18370802-birthdays-thousands-of-pinto-beans-and-sponsorship-tetris.mp3
-    published_at: '2025-12-17T06:00:00-07:00'
-    description_html: "<p>Sarah and Hannah are on their own again this week and they’re feeling nostalgic about the time Hannah ate dog food as a kid and that one year when they got laundry baskets for Hanukkah. Sarah also had a birthday this week which brings up some old grievances about being a December baby. Plus, they talk about the Tetris game of finding and maintaining sponsors as a gravel privateer.</p><p>Instagram: <a href='https://www.instagram.com/talking.over.you'>@talking.over.you</a></p>"
-    description_plain: 'Sarah and Hannah are on their own again this week and they’re feeling nostalgic about the time Hannah ate dog food as a kid and that one year when they got laundry baskets for Hanukkah. Sarah also had a birthday this week which brings up some old grievances about being a December baby. Plus, they talk about the Tetris game of finding and maintaining sponsors as a gravel privateer. Instagram: @talking.over.you'
-    episode_image_url: ''
-    episode_uid: buzzsprout-18370802
-    episode_slug: birthdays-thousands-of-pinto-beans-and-sponsorship-tetris
-    episode_key: birthdays-thousands-of-pinto-beans-and-sponsorship-tetris
     legacy_numbered_slug: episode-25
-    episode_page_url: "/talking-over-you/birthdays-thousands-of-pinto-beans-and-sponsorship-tetris/"
+    episode_page_url: "/talking-over-you/solstice-singing-circles-a-high-profile-exit-from-cycling-and-sock-length/"
   https://feeds.simplecast.com/rxabnzh0: &53
   - episode_title: 10 Triathlon Race Day Tips That Actually Make a Difference
     episode_url: https://scientifictriathlon.com/tts701/
