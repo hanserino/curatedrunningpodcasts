@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-17T01:53:32Z'
+generated_at: '2026-06-17T03:10:52Z'
 items:
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt/"
@@ -13,6 +13,18 @@ items:
   episode_key: 342-emma-eriksson-tog-stigen-till-ett-em-brons
   episode_slug: 342-emma-eriksson-tog-stigen-till-ett-em-brons
   episode_page_url: "/spring-snyggt/342-emma-eriksson-tog-stigen-till-ett-em-brons/"
+- podcast_title: La Sotana
+  podcast_page_url: "/la-sotana/"
+  cover_image: "/media/lasotana.jpeg"
+  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
+  filter_category: uncategorized spanish
+  episode_title: La Sotana 416 | Un programa de Vozinha
+  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-416--Un-programa-de-Vozinha-e3ks4j4
+  audio_url: https://anchor.fm/s/10e30d900/podcast/play/121557028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F426253231-44100-2-569071ee5fcde.mp3
+  published_at: '2026-06-17T00:00:00+00:00'
+  episode_key: la-sotana-416-un-programa-de-vozinha
+  episode_slug: la-sotana-416-un-programa-de-vozinha
+  episode_page_url: "/la-sotana/la-sotana-416-un-programa-de-vozinha/"
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast/"
   cover_image: "/media/insiderunning.jpeg"
@@ -445,18 +457,6 @@ items:
   episode_key: erin-ton-aconcagua-and-high-altitude-peaks-286
   episode_slug: erin-ton-aconcagua-and-high-altitude-peaks-286
   episode_page_url: "/fkt-podcast/erin-ton-aconcagua-and-high-altitude-peaks-286/"
-- podcast_title: La Sotana
-  podcast_page_url: "/la-sotana/"
-  cover_image: "/media/lasotana.jpeg"
-  feed_url: https://anchor.fm/s/10e30d900/podcast/rss
-  filter_category: uncategorized spanish
-  episode_title: La Sotana 414 amb Roger Mas
-  episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-414-amb-Roger-Mas-e3k8fiu
-  audio_url: https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3
-  published_at: '2026-06-02T23:00:00+00:00'
-  episode_key: la-sotana-414-amb-roger-mas
-  episode_slug: la-sotana-414-amb-roger-mas
-  episode_page_url: "/la-sotana/la-sotana-414-amb-roger-mas/"
 - podcast_title: The Way Of The Runner
   podcast_page_url: "/the-way-of-the-runner/"
   cover_image: "/media/the-way-of-the-runner-podcast.png"
@@ -20298,6 +20298,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/ingravidos/tertulia-cuando-suspenden-tu-carrera/"
   https://anchor.fm/s/10e30d900/podcast/rss: &67
+  - episode_title: La Sotana 416 | Un programa de Vozinha
+    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-416--Un-programa-de-Vozinha-e3ks4j4
+    audio_url: https://anchor.fm/s/10e30d900/podcast/play/121557028/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-16%2F426253231-44100-2-569071ee5fcde.mp3
+    published_at: '2026-06-17T00:00:00+00:00'
+    description_html: "<p>El penúltim de la temporada :(</p>"
+    description_plain: El penúltim de la temporada :(
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45230496/87d7268e6e5b3dd4.jpg
+    episode_uid: 3f6a2509-0101-4b56-b887-f04cfd43a88e
+    episode_slug: la-sotana-416-un-programa-de-vozinha
+    episode_key: la-sotana-416-un-programa-de-vozinha
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/la-sotana/la-sotana-416-un-programa-de-vozinha/"
   - episode_title: La Sotana 414 amb Roger Mas
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-414-amb-Roger-Mas-e3k8fiu
     audio_url: https://anchor.fm/s/10e30d900/podcast/play/120912926/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425386768-44100-2-90899123b72cb.mp3
@@ -20308,7 +20320,7 @@ episodes_by_feed:
     episode_uid: 3f273992-52b8-47f3-a787-1c359796ebe0
     episode_slug: la-sotana-414-amb-roger-mas
     episode_key: la-sotana-414-amb-roger-mas
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/la-sotana/la-sotana-414-amb-roger-mas/"
   - episode_title: La Sotana 413 amb Pau Víctor
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-413-amb-Pau-Vctor-e3ju7sm
@@ -20321,7 +20333,7 @@ episodes_by_feed:
     episode_slug: la-sotana-413-amb-pau-victor
     episode_key: la-sotana-413-amb-pau-victor
     legacy_unicode_slug: la-sotana-413-amb-pau-víctor
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/la-sotana/la-sotana-413-amb-pau-victor/"
   - episode_title: La Sotana 412 amb José Mari Bakero
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-412-amb-Jos-Mari-Bakero-e3jlp1h
@@ -20334,7 +20346,7 @@ episodes_by_feed:
     episode_slug: la-sotana-412-amb-jose-mari-bakero
     episode_key: la-sotana-412-amb-jose-mari-bakero
     legacy_unicode_slug: la-sotana-412-amb-josé-mari-bakero
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/la-sotana/la-sotana-412-amb-jose-mari-bakero/"
   - episode_title: La Sotana 412 amb José Mari Bakero
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-412-amb-Jos-Mari-Bakero-e3jl2tg
@@ -20347,7 +20359,7 @@ episodes_by_feed:
     episode_slug: la-sotana-412-amb-jose-mari-bakero-2
     episode_key: la-sotana-412-amb-jose-mari-bakero-2
     legacy_unicode_slug: la-sotana-412-amb-josé-mari-bakero
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/la-sotana/la-sotana-412-amb-jose-mari-bakero-2/"
   - episode_title: La Sotana 411 - Campions
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-411---Campions-e3j9c6e
@@ -20359,7 +20371,7 @@ episodes_by_feed:
     episode_uid: ff1018b8-4b66-4f50-a4ce-d0f3155e646b
     episode_slug: la-sotana-411-campions
     episode_key: la-sotana-411-campions
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/la-sotana/la-sotana-411-campions/"
   - episode_title: La Sotana 410 amb Eloi Amagat
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-410-amb-Eloi-Amagat-e3iue3m
@@ -20371,7 +20383,7 @@ episodes_by_feed:
     episode_uid: cf32e42d-b8cb-41ab-ad26-a908f44b8ca7
     episode_slug: la-sotana-410-amb-eloi-amagat
     episode_key: la-sotana-410-amb-eloi-amagat
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/la-sotana/la-sotana-410-amb-eloi-amagat/"
   - episode_title: La Sotana 409 amb Albert Om
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-409-amb-Albert-Om-e3ijo4v
@@ -20383,7 +20395,7 @@ episodes_by_feed:
     episode_uid: f07e68dc-25b7-40e3-8552-7fa374b795c6
     episode_slug: la-sotana-409-amb-albert-om
     episode_key: la-sotana-409-amb-albert-om
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/la-sotana/la-sotana-409-amb-albert-om/"
   - episode_title: La Sotana 408
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-408-e3i6qr4
@@ -20395,7 +20407,7 @@ episodes_by_feed:
     episode_uid: 622a1da9-9b37-41e0-96be-ed449a51c32a
     episode_slug: la-sotana-408
     episode_key: la-sotana-408
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/la-sotana/la-sotana-408/"
   - episode_title: La Sotana 407 amb Víctor Navarro
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-407-amb-Vctor-Navarro-e3htm1j
@@ -20408,7 +20420,7 @@ episodes_by_feed:
     episode_slug: la-sotana-407-amb-victor-navarro
     episode_key: la-sotana-407-amb-victor-navarro
     legacy_unicode_slug: la-sotana-407-amb-víctor-navarro
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/la-sotana/la-sotana-407-amb-victor-navarro/"
   - episode_title: La Sotana 406 | I NI ESTA
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-406--I-NI-ESTA-e3h8545
@@ -20420,7 +20432,7 @@ episodes_by_feed:
     episode_uid: 5fc77da5-f76d-402c-8d0e-81194cc653a2
     episode_slug: la-sotana-406-i-ni-esta
     episode_key: la-sotana-406-i-ni-esta
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/la-sotana/la-sotana-406-i-ni-esta/"
   - episode_title: La Sotana 405 | L'estadi Tamudo
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-405--Lestadi-Tamudo-e3gsi2j
@@ -20432,7 +20444,7 @@ episodes_by_feed:
     episode_uid: d0c7ff56-6c17-468e-a13c-b177683f8f24
     episode_slug: la-sotana-405-l-estadi-tamudo
     episode_key: la-sotana-405-l-estadi-tamudo
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/la-sotana/la-sotana-405-l-estadi-tamudo/"
   - episode_title: La Sotana 404 amb Daniel Juan
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-404-amb-Daniel-Juan-e3gjbpr
@@ -20444,7 +20456,7 @@ episodes_by_feed:
     episode_uid: f5b4b597-173e-420e-8ee1-e125e30c0210
     episode_slug: la-sotana-404-amb-daniel-juan
     episode_key: la-sotana-404-amb-daniel-juan
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/la-sotana/la-sotana-404-amb-daniel-juan/"
   - episode_title: La Sotana 403 | Traditional Chinese Music to Relax or Eleccions or Relax
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-403--Traditional-Chinese-Music-to-Relax-or-Eleccions-or-Relax-e3g8ao4
@@ -20456,7 +20468,7 @@ episodes_by_feed:
     episode_uid: 23407862-a356-4923-8620-a05fd6378a9b
     episode_slug: la-sotana-403-traditional-chinese-music-to-relax-or-eleccions-or-relax
     episode_key: la-sotana-403-traditional-chinese-music-to-relax-or-eleccions-or-relax
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/la-sotana/la-sotana-403-traditional-chinese-music-to-relax-or-eleccions-or-relax/"
   - episode_title: La Sotana 402 | La Traviesa
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-402--La-Traviesa-e3fssgn
@@ -20468,7 +20480,7 @@ episodes_by_feed:
     episode_uid: 11f3c5d8-f99d-436f-b0b3-5244c13f4dc7
     episode_slug: la-sotana-402-la-traviesa
     episode_key: la-sotana-402-la-traviesa
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/la-sotana/la-sotana-402-la-traviesa/"
   - episode_title: La Sotana 401 amb Ot Ferrer
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-401-amb-Ot-Ferrer-e3fif6s
@@ -20480,7 +20492,7 @@ episodes_by_feed:
     episode_uid: 97551f56-717b-49c9-a56e-c6555a195c3f
     episode_slug: la-sotana-401-amb-ot-ferrer
     episode_key: la-sotana-401-amb-ot-ferrer
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/la-sotana/la-sotana-401-amb-ot-ferrer/"
   - episode_title: La Sotana 400
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-400-e3f8i3h
@@ -20492,7 +20504,7 @@ episodes_by_feed:
     episode_uid: d57b9ef6-e1d3-44f1-9846-1d5d029ef32c
     episode_slug: la-sotana-400
     episode_key: la-sotana-400
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/la-sotana/la-sotana-400/"
   - episode_title: La Sotana 399 amb Lluís Gavaldà
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-399-amb-Llus-Gavald-e3f8i27
@@ -20505,7 +20517,7 @@ episodes_by_feed:
     episode_slug: la-sotana-399-amb-lluis-gavalda
     episode_key: la-sotana-399-amb-lluis-gavalda
     legacy_unicode_slug: la-sotana-399-amb-lluís-gavaldà
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/la-sotana/la-sotana-399-amb-lluis-gavalda/"
   - episode_title: La Sotana 398
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-398-e3f8hvp
@@ -20517,7 +20529,7 @@ episodes_by_feed:
     episode_uid: 4f28d3a6-f102-4060-8f9f-071fca3c272c
     episode_slug: la-sotana-398
     episode_key: la-sotana-398
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/la-sotana/la-sotana-398/"
   - episode_title: La Sotana 397 amb Marc Crosas
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-397-amb-Marc-Crosas-e3f8hsh
@@ -20529,7 +20541,7 @@ episodes_by_feed:
     episode_uid: a255586e-5bc1-4f6f-9399-d017129dd56f
     episode_slug: la-sotana-397-amb-marc-crosas
     episode_key: la-sotana-397-amb-marc-crosas
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/la-sotana/la-sotana-397-amb-marc-crosas/"
   - episode_title: La Sotana 396 amb Èric Montes
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-396-amb-ric-Montes-e3e1763
@@ -20542,7 +20554,7 @@ episodes_by_feed:
     episode_slug: la-sotana-396-amb-eric-montes
     episode_key: la-sotana-396-amb-eric-montes
     legacy_unicode_slug: la-sotana-396-amb-èric-montes
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/la-sotana/la-sotana-396-amb-eric-montes/"
   - episode_title: La Sotana 395
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-395-e3e1746
@@ -20554,7 +20566,7 @@ episodes_by_feed:
     episode_uid: '166540833'
     episode_slug: la-sotana-395
     episode_key: la-sotana-395
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/la-sotana/la-sotana-395/"
   - episode_title: La Sotana 394 amb en Peyu
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-394-amb-en-Peyu-e3e1765
@@ -20566,7 +20578,7 @@ episodes_by_feed:
     episode_uid: '164867391'
     episode_slug: la-sotana-394-amb-en-peyu
     episode_key: la-sotana-394-amb-en-peyu
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/la-sotana/la-sotana-394-amb-en-peyu/"
   - episode_title: La Sotana 393
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-393-e3e1729
@@ -20578,7 +20590,7 @@ episodes_by_feed:
     episode_uid: '164322684'
     episode_slug: la-sotana-393
     episode_key: la-sotana-393
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/la-sotana/la-sotana-393/"
   - episode_title: La Sotana 392
     episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-392-e3e1768
@@ -20590,20 +20602,8 @@ episodes_by_feed:
     episode_uid: '163540628'
     episode_slug: la-sotana-392
     episode_key: la-sotana-392
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/la-sotana/la-sotana-392/"
-  - episode_title: La Sotana 391
-    episode_url: https://podcasters.spotify.com/pod/show/la-sotana/episodes/La-Sotana-391-e3e1769
-    audio_url: https://anchor.fm/s/10e30d900/podcast/play/114383497/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-22%2F416613043-44100-2-32034b990fbceb0d.mp3
-    published_at: '2025-11-25T21:59:00+00:00'
-    description_html: La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391
-    description_plain: La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391 La Sotana 391
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45230496/0644912380d7beb9.jpg
-    episode_uid: '163172101'
-    episode_slug: la-sotana-391
-    episode_key: la-sotana-391
     legacy_numbered_slug: episode-25
-    episode_page_url: "/la-sotana/la-sotana-391/"
+    episode_page_url: "/la-sotana/la-sotana-392/"
   https://onepercentbetterpodcast.libsyn.com/rss: &68
   - episode_title: 8 Years of One Percent Better
     episode_url: https://onepercentbetterpodcast.libsyn.com/8-years-of-one-percent-better
