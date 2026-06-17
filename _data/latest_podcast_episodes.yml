@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-17T07:51:10Z'
+generated_at: '2026-06-17T09:40:15Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us/"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  filter_category: track road english
+  episode_title: 4.25. The NCAA Champs Recap Episode (aka It's Complicated)
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/425-the-ncaa-champs-recap-episode-aka-its-complicated
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_25_-_Audio_-_Final.mp3?dest-id=3833748
+  published_at: '2026-06-17T09:00:00+00:00'
+  episode_key: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
+  episode_slug: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
+  episode_page_url: "/nobody-asked-us/4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated/"
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running/"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  filter_category: ultra trail english
+  episode_title: 'SDW100 2026 Post-Race: Interview with Womens Champion Sarah Webster'
+  episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a32578aca5e7f6f6e7a646c.mp3
+  published_at: '2026-06-17T08:16:30+00:00'
+  episode_key: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+  episode_slug: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+  episode_page_url: "/centurion-running/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -325,30 +349,6 @@ items:
   episode_key: ep-785-why-fitness-isn-t-enough
   episode_slug: ep-785-why-fitness-isn-t-enough
   episode_page_url: "/trail-runner-nation/ep-785-why-fitness-isn-t-enough/"
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running/"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  filter_category: ultra trail english
-  episode_title: 'SDW100 and 50km 2026 Race Previews: Who will take the crowns this weekend!'
-  episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a2a4eafee8cbe327d311187.mp3
-  published_at: '2026-06-11T09:17:12+00:00'
-  episode_key: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
-  episode_slug: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
-  episode_page_url: "/centurion-running/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend/"
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us/"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  filter_category: track road english
-  episode_title: 4.24. The Diamond Episode
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/424-the-diamond-episode
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_24_-_Audio.mp3?dest-id=3833748
-  published_at: '2026-06-11T09:00:00+00:00'
-  episode_key: 4-24-the-diamond-episode
-  episode_slug: 4-24-the-diamond-episode
-  episode_page_url: "/nobody-asked-us/4-24-the-diamond-episode/"
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty/"
   cover_image: "/media/distancetoempty.jpeg"
@@ -2129,6 +2129,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fokk-asfalt/obt-2025-portrett-9-birgitte-nyblin-austgulen/"
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW100 2026 Post-Race: Interview with Womens Champion Sarah Webster'
+    episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a32578aca5e7f6f6e7a646c.mp3
+    published_at: '2026-06-17T08:16:30+00:00'
+    description_html: "<p>Julia Davis and Robbie Britton interview new SDW 100 course holder Sarah Webster after her 14:27 run and talk about the race itself, how welcome Sarah felt in the Centurion Community and the challenges that surprised her the most coming from European road 100k record and World 24hr record to 100 miles of the South Downs finest trails.</p>"
+    description_plain: Julia Davis and Robbie Britton interview new SDW 100 course holder Sarah Webster after her 14:27 run and talk about the race itself, how welcome Sarah felt in the Centurion Community and the challenges that surprised her the most coming from European road 100k record and World 24hr record to 100 miles of the South Downs finest trails.
+    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1781684182/bg8932qyon5lf4sqeswo.jpg
+    episode_uid: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+    episode_slug: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+    episode_key: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/centurion-running/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster/"
   - episode_title: 'SDW100 and 50km 2026 Race Previews: Who will take the crowns this weekend!'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a2a4eafee8cbe327d311187.mp3
@@ -2139,7 +2151,7 @@ episodes_by_feed:
     episode_uid: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     episode_slug: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     episode_key: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/centurion-running/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Nicole Funnell'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-nicole-funnell
@@ -2151,7 +2163,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-nicole-funnell
     episode_slug: sdw50km-2026-pre-race-interviews-nicole-funnell
     episode_key: sdw50km-2026-pre-race-interviews-nicole-funnell
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-nicole-funnell/"
   - episode_title: 'Weekly News Ep. 40 & Race Review: Comrades'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-40-and-race-review-comrades
@@ -2163,7 +2175,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-40-and-race-review-comrades
     episode_slug: weekly-news-ep-40-race-review-comrades
     episode_key: weekly-news-ep-40-race-review-comrades
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/centurion-running/weekly-news-ep-40-race-review-comrades/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-autumn-100-champion
@@ -2175,7 +2187,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-aut
     episode_slug: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
     episode_key: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
   - episode_title: 'SDW100 Pre-Race Interviews: Robyn Cassidy. Lakeland 100 and Dragons Back Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
@@ -2187,7 +2199,7 @@ episodes_by_feed:
     episode_uid: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_slug: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_key: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/centurion-running/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
@@ -2199,7 +2211,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-
     episode_slug: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
     episode_key: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
@@ -2211,7 +2223,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_slug: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_key: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
@@ -2223,7 +2235,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_slug: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_key: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder/"
   - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
@@ -2235,7 +2247,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
     episode_slug: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
     episode_key: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/centurion-running/weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news/"
   - episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
@@ -2247,7 +2259,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_slug: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_key: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/centurion-running/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice/"
   - episode_title: 'Weekly News Ep.38: North Downs Way 50 Recap | UTS |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-downs-way-50-recap-or-uts-or
@@ -2259,7 +2271,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep38-north-downs-way-50-recap-or-uts-or
     episode_slug: weekly-news-ep-38-north-downs-way-50-recap-uts
     episode_key: weekly-news-ep-38-north-downs-way-50-recap-uts
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/centurion-running/weekly-news-ep-38-north-downs-way-50-recap-uts/"
   - episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
@@ -2271,7 +2283,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep37-north-downs-way-50-preview
     episode_slug: weekly-news-ep-37-north-downs-way-50-preview
     episode_key: weekly-news-ep-37-north-downs-way-50-preview
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
   - episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
     episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
@@ -2283,7 +2295,7 @@ episodes_by_feed:
     episode_uid: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_slug: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_key: interview-martin-stone-mountain-fell-and-ultrarunning-records
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/centurion-running/interview-martin-stone-mountain-fell-and-ultrarunning-records/"
   - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
@@ -2295,7 +2307,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-imo-boddy
     episode_slug: centurion-coaching-podcast-imo-boddy
     episode_key: centurion-coaching-podcast-imo-boddy
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/centurion-running/centurion-coaching-podcast-imo-boddy/"
   - episode_title: Thames Path 100 2026 Results and Recap
     episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
@@ -2307,7 +2319,7 @@ episodes_by_feed:
     episode_uid: thames-path-100-2026-results-and-recap
     episode_slug: thames-path-100-2026-results-and-recap
     episode_key: thames-path-100-2026-results-and-recap
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/centurion-running/thames-path-100-2026-results-and-recap/"
   - episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
     episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
@@ -2319,7 +2331,7 @@ episodes_by_feed:
     episode_uid: mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
     episode_slug: mt-fuji-100-report-with-robbie-britton-miut-canyons
     episode_key: mt-fuji-100-report-with-robbie-britton-miut-canyons
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/centurion-running/mt-fuji-100-report-with-robbie-britton-miut-canyons/"
   - episode_title: 'Weekly News Ep. 35: TP100 Preview | Fellsman | London Marathon | 3 Peaks | DOTH |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
@@ -2331,7 +2343,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
     episode_slug: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
     episode_key: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/centurion-running/weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth/"
   - episode_title: 'Weekly News Ep. 34: Northern Traverse | Dragons Back | Mt Fuji 100 | MIUT | So Many Races |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
@@ -2343,7 +2355,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
     episode_slug: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
     episode_key: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/centurion-running/weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races/"
   - episode_title: 'Weekly Ep. 33: British Trail Champs | MDS | Lake Sonoma |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
@@ -2355,7 +2367,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
     episode_slug: weekly-ep-33-british-trail-champs-mds-lake-sonoma
     episode_key: weekly-ep-33-british-trail-champs-mds-lake-sonoma
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/centurion-running/weekly-ep-33-british-trail-champs-mds-lake-sonoma/"
   - episode_title: South Downs Way 50 2026 Results & Recap
     episode_url: https://www.centurionrunning.com/podcast/south-downs-way-50-2026-results-and-recap
@@ -2367,7 +2379,7 @@ episodes_by_feed:
     episode_uid: south-downs-way-50-2026-results-and-recap
     episode_slug: south-downs-way-50-2026-results-recap
     episode_key: south-downs-way-50-2026-results-recap
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/centurion-running/south-downs-way-50-2026-results-recap/"
   - episode_title: 'Weekly Ep. 32: SDW50 Preview | MDS | British Trail Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
@@ -2379,7 +2391,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
     episode_slug: weekly-ep-32-sdw50-preview-mds-british-trail-champs
     episode_key: weekly-ep-32-sdw50-preview-mds-british-trail-champs
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/centurion-running/weekly-ep-32-sdw50-preview-mds-british-trail-champs/"
   - episode_title: 'Weekly Ep.31: Sea to Sea 300km Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep31-sea-to-sea-300km-recap
@@ -2391,7 +2403,7 @@ episodes_by_feed:
     episode_uid: weekly-ep31-sea-to-sea-300km-recap
     episode_slug: weekly-ep-31-sea-to-sea-300km-recap
     episode_key: weekly-ep-31-sea-to-sea-300km-recap
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/centurion-running/weekly-ep-31-sea-to-sea-300km-recap/"
   - episode_title: 'Weekly Ep.30 : ACP100km | Sea to Sea 300km | Community Traverse |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
@@ -2403,7 +2415,7 @@ episodes_by_feed:
     episode_uid: weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
     episode_slug: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
     episode_key: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/centurion-running/weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse/"
   - episode_title: 'Weekly Ep.29: Sea to Sea 300km | ACP100km | World 50km Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep29-sea-to-sea-300km-or-acp100km-or-world-50km-champs-or
@@ -2415,20 +2427,8 @@ episodes_by_feed:
     episode_uid: weekly-ep29-sea-to-sea-300km-or-acp100km-or-world-50km-champs-or
     episode_slug: weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs
     episode_key: weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/centurion-running/weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs/"
-  - episode_title: 'Weekly Ep. 28: Hundred Hills 50km Recap'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep-28-hundred-hills-50km-recap
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69b83a24552154ff2966cebb.mp3
-    published_at: '2026-03-16T17:19:50+00:00'
-    description_html: "<p>A full recap of the 2026 Hundred Hills 50km - our season opener - from front to back and lots of other stories from the day.</p>"
-    description_plain: A full recap of the 2026 Hundred Hills 50km - our season opener - from front to back and lots of other stories from the day.
-    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1773681380/ymuuyeixpqecgzsul5zq.jpg
-    episode_uid: weekly-ep-28-hundred-hills-50km-recap
-    episode_slug: weekly-ep-28-hundred-hills-50km-recap
-    episode_key: weekly-ep-28-hundred-hills-50km-recap
     legacy_numbered_slug: episode-25
-    episode_page_url: "/centurion-running/weekly-ep-28-hundred-hills-50km-recap/"
+    episode_page_url: "/centurion-running/weekly-ep-29-sea-to-sea-300km-acp100km-world-50km-champs/"
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Tommie Runz on Western States, Running as a Black Man on Trail, and Trusting the Long Game
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/tommie_runz_on_western_states_running_as_a_black_man_on_trail_and_trusting_the_long_game
@@ -2732,6 +2732,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/for-the-long-run/don-t-fall-for-sports-nutrition-myths-stevie-lyn-smith-on-how-to-actually-fuel-for-your-next-race/"
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &8
+  - episode_title: 4.25. The NCAA Champs Recap Episode (aka It's Complicated)
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/425-the-ncaa-champs-recap-episode-aka-its-complicated
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_25_-_Audio_-_Final.mp3?dest-id=3833748
+    published_at: '2026-06-17T09:00:00+00:00'
+    description_html: '<p>Yes, they talk about the NCAA Champs for a good portion of the episode, but this episode is about so much more (as usual)!</p><p>Des and Kara start with some hilarious catch-up stories where Kara can''t stop laughing (sorry Adam!). Then, they dig into the LA Grand Prix results where Parker Valby ran another PR, and Josh Kerr ran an 800m in prep for his WR attempt.</p><p>Of course, they talk about the NCAA Champs where there was a potential WR run in the prelims of 110 hurdles. But, will it count due to the doping protocols of the NCAA? There was also a big DQ in the women''s 5K. Fair or not? Plus, what does it all mean for NIL as the professionalization of the NCAA continues...</p><p>Finally (before a top 5), they discuss a big doping positive from the pro ranks with an unusually short punishment timeline. Was it justified or should it have been longer??</p><p>It''s all a bit complicated, and Des and Kara are here to simplify for you!</p><p>To support the pod and get your LEVER Movement system, use code NOBODYASKEDUS for 20% off here... Purchase link: <a href= "https://bit.ly/4bLI2tG">https://bit.ly/4bLI2tG</a>.</p><p>Speaking of Lever lift-up moments, thank you to everyone who registered for the Brave Like Gabe 5K. You can still support the cause via the 5K (virtual or in-person). Use promo code - Kara&Des - for 5% off at this link: <a href= "https://organizations.hakuapp.com/sites/organization_sites/cd4e4817d889bfcc5e42"> https://organizations.hakuapp.com/sites/organization_sites/cd4e4817d889bfcc5e42</a>. Register before June 25th!</p>'
+    description_plain: 'Yes, they talk about the NCAA Champs for a good portion of the episode, but this episode is about so much more (as usual)! Des and Kara start with some hilarious catch-up stories where Kara can''t stop laughing (sorry Adam!). Then, they dig into the LA Grand Prix results where Parker Valby ran another PR, and Josh Kerr ran an 800m in prep for his WR attempt. Of course, they talk about the NCAA Champs where there was a potential WR run in the prelims of 110 hurdles. But, will it count due to the doping protocols of the NCAA? There was also a big DQ in the women''s 5K. Fair or not? Plus, what does it all mean for NIL as the professionalization of the NCAA continues... Finally (before a top 5), they discuss a big doping positive from the pro ranks with an unusually short punishment timeline. Was it justified or should it have been longer?? It''s all a bit complicated, and Des and Kara are here to simplify for you! To support the pod and get your LEVER Movement system, use code NOBODYASKEDUS for 20% off here... Purchase link: https://bit.ly/4bLI2tG . Speaking of Lever lift-up moments, thank you to everyone who registered for the Brave Like Gabe 5K. You can still support the cause via the 5K (virtual or in-person). Use promo code - Kara&Des - for 5% off at this link: https://organizations.hakuapp.com/sites/organization_sites/cd4e4817d889bfcc5e42 . Register before June 25th!'
+    episode_image_url: https://static.libsyn.com/p/assets/2/e/1/3/2e137f1110e239fe16c3140a3186d450/Des_and_Kara_-_Square_-_New_2-20260616-1o88qvrm8g.png
+    episode_uid: 2c6a9b92-94a0-4580-8019-51bad8c9e7c5
+    episode_slug: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
+    episode_key: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/nobody-asked-us/4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated/"
   - episode_title: 4.24. The Diamond Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/424-the-diamond-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_24_-_Audio.mp3?dest-id=3833748
@@ -2742,7 +2754,7 @@ episodes_by_feed:
     episode_uid: ef87f92a-5796-4c78-b28f-7b6d336baf92
     episode_slug: 4-24-the-diamond-episode
     episode_key: 4-24-the-diamond-episode
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/nobody-asked-us/4-24-the-diamond-episode/"
   - episode_title: 4.23. High Standards
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/423-high-standards
@@ -2754,7 +2766,7 @@ episodes_by_feed:
     episode_uid: 070a48b1-2e40-4e2a-a7d1-f4d866ece541
     episode_slug: 4-23-high-standards
     episode_key: 4-23-high-standards
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/nobody-asked-us/4-23-high-standards/"
   - episode_title: 4.22. Real Track Talk
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
@@ -2766,7 +2778,7 @@ episodes_by_feed:
     episode_uid: 5da0265b-9035-4e18-bc5c-1dee2f468747
     episode_slug: 4-22-real-track-talk
     episode_key: 4-22-real-track-talk
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/nobody-asked-us/4-22-real-track-talk/"
   - episode_title: 4.21. The Hate Mail Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
@@ -2778,7 +2790,7 @@ episodes_by_feed:
     episode_uid: 7bc14ee8-034f-4b7b-950e-39dc08c91fe5
     episode_slug: 4-21-the-hate-mail-episode
     episode_key: 4-21-the-hate-mail-episode
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/nobody-asked-us/4-21-the-hate-mail-episode/"
   - episode_title: 4.20. The Colt and Cocodona Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/420-the-colt-and-cocodona-episode
@@ -2790,7 +2802,7 @@ episodes_by_feed:
     episode_uid: a415004f-4f26-493f-abad-3be65679d91a
     episode_slug: 4-20-the-colt-and-cocodona-episode
     episode_key: 4-20-the-colt-and-cocodona-episode
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/nobody-asked-us/4-20-the-colt-and-cocodona-episode/"
   - episode_title: 4.19. The Marathon des Sables Recap
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/419-the-marathon-des-sables-recap
@@ -2802,7 +2814,7 @@ episodes_by_feed:
     episode_uid: 55a6af20-5f35-4318-9c52-f29168f97373
     episode_slug: 4-19-the-marathon-des-sables-recap
     episode_key: 4-19-the-marathon-des-sables-recap
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/nobody-asked-us/4-19-the-marathon-des-sables-recap/"
   - episode_title: 4.18. Freshy Fresh for London 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
@@ -2814,7 +2826,7 @@ episodes_by_feed:
     episode_uid: 1ac66505-9f0c-4889-a183-5fd13c7232ce
     episode_slug: 4-18-freshy-fresh-for-london-2026
     episode_key: 4-18-freshy-fresh-for-london-2026
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/nobody-asked-us/4-18-freshy-fresh-for-london-2026/"
   - episode_title: 4.17. Live from London with Cynthia Erivo!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/417-live-from-london-with-cynthia-erivo
@@ -2826,7 +2838,7 @@ episodes_by_feed:
     episode_uid: bc4cbc48-b095-4832-a741-e8a75106d077
     episode_slug: 4-17-live-from-london-with-cynthia-erivo
     episode_key: 4-17-live-from-london-with-cynthia-erivo
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/nobody-asked-us/4-17-live-from-london-with-cynthia-erivo/"
   - episode_title: 4.16. Freshy Fresh from Boston 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/416-freshy-fresh-from-boston-2026
@@ -2838,7 +2850,7 @@ episodes_by_feed:
     episode_uid: 4dfbd385-8cdd-4a76-938c-bc5c83c07fe2
     episode_slug: 4-16-freshy-fresh-from-boston-2026
     episode_key: 4-16-freshy-fresh-from-boston-2026
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/nobody-asked-us/4-16-freshy-fresh-from-boston-2026/"
   - episode_title: 4.15. Live from Boston 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/415-live-from-boston-2026
@@ -2850,7 +2862,7 @@ episodes_by_feed:
     episode_uid: f497730b-f4e3-4b24-8bb1-83db02aa88df
     episode_slug: 4-15-live-from-boston-2026
     episode_key: 4-15-live-from-boston-2026
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/nobody-asked-us/4-15-live-from-boston-2026/"
   - episode_title: 4.14. The Boston Preview Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/414-the-boston-preview-episode
@@ -2862,7 +2874,7 @@ episodes_by_feed:
     episode_uid: c0a94974-5c71-46da-8703-26fac9f1c87c
     episode_slug: 4-14-the-boston-preview-episode
     episode_key: 4-14-the-boston-preview-episode
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/nobody-asked-us/4-14-the-boston-preview-episode/"
   - episode_title: 4.13. The Dropped Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/413-the-dropped-episode
@@ -2874,7 +2886,7 @@ episodes_by_feed:
     episode_uid: 13d14cd3-8b2d-4bc2-9aa7-b17a9bd3fc61
     episode_slug: 4-13-the-dropped-episode
     episode_key: 4-13-the-dropped-episode
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/nobody-asked-us/4-13-the-dropped-episode/"
   - episode_title: 4.12. The Cosmo Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/412-the-cosmo-episode
@@ -2886,7 +2898,7 @@ episodes_by_feed:
     episode_uid: 2f571d03-9551-48b6-af82-121c99a6e1b2
     episode_slug: 4-12-the-cosmo-episode
     episode_key: 4-12-the-cosmo-episode
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/nobody-asked-us/4-12-the-cosmo-episode/"
   - episode_title: 4.11. The Running Drama Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/411-the-running-drama-episode
@@ -2898,7 +2910,7 @@ episodes_by_feed:
     episode_uid: 0c27db94-3f7d-4236-b66d-902dccea69c6
     episode_slug: 4-11-the-running-drama-episode
     episode_key: 4-11-the-running-drama-episode
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/nobody-asked-us/4-11-the-running-drama-episode/"
   - episode_title: 4.10. Disney, US Indoors, and the Atlanta Kerfuffle
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/410-disney-us-indoors-and-the-atlanta-kerfuffle
@@ -2910,7 +2922,7 @@ episodes_by_feed:
     episode_uid: 447ffcb1-2492-476c-a0f6-2eb0fd1f4d6a
     episode_slug: 4-10-disney-us-indoors-and-the-atlanta-kerfuffle
     episode_key: 4-10-disney-us-indoors-and-the-atlanta-kerfuffle
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/nobody-asked-us/4-10-disney-us-indoors-and-the-atlanta-kerfuffle/"
   - episode_title: 4.9. The Olympics Withdrawal Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/49-the-olympics-withdrawal-episode
@@ -2922,7 +2934,7 @@ episodes_by_feed:
     episode_uid: 12781d93-bef8-4bca-81a7-7982576d2272
     episode_slug: 4-9-the-olympics-withdrawal-episode
     episode_key: 4-9-the-olympics-withdrawal-episode
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/nobody-asked-us/4-9-the-olympics-withdrawal-episode/"
   - episode_title: 4.8. Des's First Trail Ultra
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/48-dess-first-trail-ultra
@@ -2934,7 +2946,7 @@ episodes_by_feed:
     episode_uid: 1072b904-c5c7-4f4d-841b-f1ba8815a591
     episode_slug: 4-8-des-s-first-trail-ultra
     episode_key: 4-8-des-s-first-trail-ultra
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/nobody-asked-us/4-8-des-s-first-trail-ultra/"
   - episode_title: 4.7. The Winter Olympics Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/47-the-winter-olympics-episode
@@ -2946,7 +2958,7 @@ episodes_by_feed:
     episode_uid: 7fe158d1-f05e-44cc-9013-716fe39a3971
     episode_slug: 4-7-the-winter-olympics-episode
     episode_key: 4-7-the-winter-olympics-episode
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/nobody-asked-us/4-7-the-winter-olympics-episode/"
   - episode_title: 4.6. The Millrose Recap
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/46-the-millrose-recap
@@ -2958,7 +2970,7 @@ episodes_by_feed:
     episode_uid: 63ee455a-41f0-471d-849a-eab891b331db
     episode_slug: 4-6-the-millrose-recap
     episode_key: 4-6-the-millrose-recap
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/nobody-asked-us/4-6-the-millrose-recap/"
   - episode_title: 4.5. The Brooks HQ Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/45-the-brooks-hq-episode
@@ -2970,7 +2982,7 @@ episodes_by_feed:
     episode_uid: 336880a4-21b9-4a42-b9bc-2544bb7c2cca
     episode_slug: 4-5-the-brooks-hq-episode
     episode_key: 4-5-the-brooks-hq-episode
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/nobody-asked-us/4-5-the-brooks-hq-episode/"
   - episode_title: 4.4. The Trail Mix Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/44-the-trail-mix-episode
@@ -2982,7 +2994,7 @@ episodes_by_feed:
     episode_uid: a41179ad-27a6-4498-9675-963c5f23ccc5
     episode_slug: 4-4-the-trail-mix-episode
     episode_key: 4-4-the-trail-mix-episode
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/nobody-asked-us/4-4-the-trail-mix-episode/"
   - episode_title: 4.3. Houston and World XC Recap Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/43-houston-and-world-xc-recap-episode
@@ -2994,7 +3006,7 @@ episodes_by_feed:
     episode_uid: 11a1d343-2ada-473c-a7ce-ba438dbe6517
     episode_slug: 4-3-houston-and-world-xc-recap-episode
     episode_key: 4-3-houston-and-world-xc-recap-episode
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/nobody-asked-us/4-3-houston-and-world-xc-recap-episode/"
   - episode_title: 4.2. Live from Houston 2026 (with Breaking News)
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/42-live-from-houston-2026-wbreaking-news
@@ -3006,7 +3018,7 @@ episodes_by_feed:
     episode_uid: e9f2c56e-3fdc-4824-80c1-4faa75ca4125
     episode_slug: 4-2-live-from-houston-2026-with-breaking-news
     episode_key: 4-2-live-from-houston-2026-with-breaking-news
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/nobody-asked-us/4-2-live-from-houston-2026-with-breaking-news/"
   - episode_title: 4.1. The Fresh Start Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/41-the-fresh-start-episode
@@ -3018,20 +3030,8 @@ episodes_by_feed:
     episode_uid: d6cb81fc-7b1b-4940-82de-ae449e63f06b
     episode_slug: 4-1-the-fresh-start-episode
     episode_key: 4-1-the-fresh-start-episode
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/nobody-asked-us/4-1-the-fresh-start-episode/"
-  - episode_title: 3.47. End of Year Episode!
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/347-end-of-year-episode
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_3_-_Episode_47_-_Audio.mp3?dest-id=3833748
-    published_at: '2025-12-31T16:46:00+00:00'
-    description_html: '<p>We are excited to wrap up the year with one final episode for 2025. Happy New Year''s Eve everyone!</p><p>As we wrap the year, we wanted to send a massive "thank you" to you for listening and to our presenting sponsor Brooks Running who makes so many things with the pod possible. Thank you Brooks. Go get yourself a pair of their shoes to kick off 2026!</p><p>Also, Des and Kara will be in Houston for a live pod on Friday, January 9th at 7 pm at the Cullen Theater. Get your tickets here before they sell-out: <a href= "https://performingartshouston.org/events/nobody-asked-us-with-des-and-kara-2026-01-09-700-pm/" target="_blank" rel="noopener" data-saferedirecturl= "https://www.google.com/url?q=https://performingartshouston.org/events/nobody-asked-us-with-des-and-kara-2026-01-09-700-pm/&source=gmail&ust=1767285915203000&usg=AOvVaw3vYygYkixOmK3zh2oxwXsO">https://performingartshouston.org/events/nobody-asked-us-with-des-and-kara-2026-01-09-700-pm/</a>.</p><p>Now, this is a fun episode where Des and Kara give you a little update on NCAA madness before sharing their top 10 running stories of 2025. Reminsce on 2025 with them and then go ring in the New Year!</p>'
-    description_plain: 'We are excited to wrap up the year with one final episode for 2025. Happy New Year''s Eve everyone! As we wrap the year, we wanted to send a massive "thank you" to you for listening and to our presenting sponsor Brooks Running who makes so many things with the pod possible. Thank you Brooks. Go get yourself a pair of their shoes to kick off 2026! Also, Des and Kara will be in Houston for a live pod on Friday, January 9th at 7 pm at the Cullen Theater. Get your tickets here before they sell-out: https://performingartshouston.org/events/nobody-asked-us-with-des-and-kara-2026-01-09-700-pm/ . Now, this is a fun episode where Des and Kara give you a little update on NCAA madness before sharing their top 10 running stories of 2025. Reminsce on 2025 with them and then go ring in the New Year!'
-    episode_image_url: https://static.libsyn.com/p/assets/d/4/e/c/d4ec90f688439236d959afa2a1bf1c87/Des_and_Kara_-_Square_-_New_2-20251231-88we30vs8n.png
-    episode_uid: 60675267-235c-4a81-9b29-297963f02e64
-    episode_slug: 3-47-end-of-year-episode
-    episode_key: 3-47-end-of-year-episode
     legacy_numbered_slug: episode-25
-    episode_page_url: "/nobody-asked-us/3-47-end-of-year-episode/"
+    episode_page_url: "/nobody-asked-us/4-1-the-fresh-start-episode/"
   https://anchor.fm/s/fd56e778/podcast/rss: &9
   - episode_title: Submaxxing, Tough Choices, Structure&Analysis
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
