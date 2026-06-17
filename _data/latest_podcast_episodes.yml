@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-17T00:46:28Z'
+generated_at: '2026-06-17T01:53:32Z'
 items:
+- podcast_title: Spring Snyggt
+  podcast_page_url: "/spring-snyggt/"
+  cover_image: "/media/springsnyggt.jpeg"
+  feed_url: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
+  filter_category: track road swedish
+  episode_title: 342. Emma Eriksson tog stigen till ett EM-brons
+  episode_url: https://springsnyggt.libsyn.com/342-emma-eriksson-tog-stigen-till-ett-em-brons
+  audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_17_juni.mp3?dest-id=1729274
+  published_at: '2026-06-17T01:00:00+00:00'
+  episode_key: 342-emma-eriksson-tog-stigen-till-ett-em-brons
+  episode_slug: 342-emma-eriksson-tog-stigen-till-ett-em-brons
+  episode_page_url: "/spring-snyggt/342-emma-eriksson-tog-stigen-till-ett-em-brons/"
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast/"
   cover_image: "/media/insiderunning.jpeg"
@@ -349,18 +361,6 @@ items:
   episode_key: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
   episode_slug: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
   episode_page_url: "/the-real-science-of-sport/800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too/"
-- podcast_title: Spring Snyggt
-  podcast_page_url: "/spring-snyggt/"
-  cover_image: "/media/springsnyggt.jpeg"
-  feed_url: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
-  filter_category: track road swedish
-  episode_title: 341. Berättelsen om Inger Knutsson
-  episode_url: https://springsnyggt.libsyn.com/341-berttelsen-om-inger-knutsson
-  audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_10juni.mp3?dest-id=1729274
-  published_at: '2026-06-10T01:00:00+00:00'
-  episode_key: 341-berattelsen-om-inger-knutsson
-  episode_slug: 341-berattelsen-om-inger-knutsson
-  episode_page_url: "/spring-snyggt/341-berattelsen-om-inger-knutsson/"
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete/"
   cover_image: "/media/uphillathlete.jpeg"
@@ -10116,6 +10116,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/women-of-distance/carla-molinaro-hold-it-lightly/"
   https://rss.libsyn.com/shows/233666/destinations/1729274.xml: &34
+  - episode_title: 342. Emma Eriksson tog stigen till ett EM-brons
+    episode_url: https://springsnyggt.libsyn.com/342-emma-eriksson-tog-stigen-till-ett-em-brons
+    audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_17_juni.mp3?dest-id=1729274
+    published_at: '2026-06-17T01:00:00+00:00'
+    description_html: '<p>Emma Eriksson är den landslagsmeriterade orienteraren med rötterna i dem småländska skogarna utanför Eksjö, som satte på sig stigskorna och på kort tid bärgade hem ett EM-brons till Sverige vid de Europeiska Trail-mästerskapen. På ett år som stig/traillöpare har Emma slagit banrekord vid i princip alla lopp hon ställt upp vid och vid EM i Slovenien så bärgade hon alltså ett brons på det utmanande 52-kilometersloppet. I veckan får vi veta hur Emma har seglat upp som en av europas bästa stiglöpare och hur hon på kort tid utvecklats så starkt som hon gjort. Utöver satsningen på stig/trail är Emma också elitsatsande orienterare och fokuserar nu lika mycket på bägge disciplinerna.</p><p>Manne har kommit i slag och är nu redo för 10k-loppet i Berlin. En värmefront själva loppdagen haltar förväntningarna något men han går in med ambitionen att ta ut sig helt! John gör sig redo för säsongens första banlopp innan starten i Berlin. Veckans Sponsorer: Saucony - Nya Elite 3 är en fantastiskt snabb sko som kommer användas flitigt på kommande landsvägslopp. Lika responsiv och studsig som tidigare modell, men än mer åtsmidande och snabb. Löplabbet - Testa skoväljaren. Löplabbets skoväljare hjälper dig välja den perfekta skon bland över 300 modeller - <a href= "https://www.loplabbet.se/landningssida/skovaljaren-ny">Löplabbets Skoväljare</a></p><p>Häng med oss på löparresa 4-11/12 till Playitas. Föreläsningar, dubbeltrösklar, långpass, distanspass, god mat och trevligt umgänge - <a href= "https://www.apollo.se/resor/traningsresor/traningskalender/loparresan-med-spring-snyggt-podden"> Löparresa med Spring snyggt-podden på Playitas Resort | Apollo</a></p>'
+    description_plain: 'Emma Eriksson är den landslagsmeriterade orienteraren med rötterna i dem småländska skogarna utanför Eksjö, som satte på sig stigskorna och på kort tid bärgade hem ett EM-brons till Sverige vid de Europeiska Trail-mästerskapen. På ett år som stig/traillöpare har Emma slagit banrekord vid i princip alla lopp hon ställt upp vid och vid EM i Slovenien så bärgade hon alltså ett brons på det utmanande 52-kilometersloppet. I veckan får vi veta hur Emma har seglat upp som en av europas bästa stiglöpare och hur hon på kort tid utvecklats så starkt som hon gjort. Utöver satsningen på stig/trail är Emma också elitsatsande orienterare och fokuserar nu lika mycket på bägge disciplinerna. Manne har kommit i slag och är nu redo för 10k-loppet i Berlin. En värmefront själva loppdagen haltar förväntningarna något men han går in med ambitionen att ta ut sig helt! John gör sig redo för säsongens första banlopp innan starten i Berlin. Veckans Sponsorer: Saucony - Nya Elite 3 är en fantastiskt snabb sko som kommer användas flitigt på kommande landsvägslopp. Lika responsiv och studsig som tidigare modell, men än mer åtsmidande och snabb. Löplabbet - Testa skoväljaren. Löplabbets skoväljare hjälper dig välja den perfekta skon bland över 300 modeller - Löplabbets Skoväljare Häng med oss på löparresa 4-11/12 till Playitas. Föreläsningar, dubbeltrösklar, långpass, distanspass, god mat och trevligt umgänge - Löparresa med Spring snyggt-podden på Playitas Resort | Apollo'
+    episode_image_url: ''
+    episode_uid: 10bb94e4-ba50-45f7-a8a3-eef9d6ad9c3d
+    episode_slug: 342-emma-eriksson-tog-stigen-till-ett-em-brons
+    episode_key: 342-emma-eriksson-tog-stigen-till-ett-em-brons
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/spring-snyggt/342-emma-eriksson-tog-stigen-till-ett-em-brons/"
   - episode_title: 341. Berättelsen om Inger Knutsson
     episode_url: https://springsnyggt.libsyn.com/341-berttelsen-om-inger-knutsson
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_10juni.mp3?dest-id=1729274
@@ -10127,7 +10139,7 @@ episodes_by_feed:
     episode_slug: 341-berattelsen-om-inger-knutsson
     episode_key: 341-berattelsen-om-inger-knutsson
     legacy_unicode_slug: 341-berättelsen-om-inger-knutsson
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/spring-snyggt/341-berattelsen-om-inger-knutsson/"
   - episode_title: 340. Stockholm Marathon Special 2026
     episode_url: https://springsnyggt.libsyn.com/340-stockholm-marathon-special-2026
@@ -10139,7 +10151,7 @@ episodes_by_feed:
     episode_uid: a1ce6e16-400a-4c94-addc-94de303389a9
     episode_slug: 340-stockholm-marathon-special-2026
     episode_key: 340-stockholm-marathon-special-2026
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/spring-snyggt/340-stockholm-marathon-special-2026/"
   - episode_title: 339. De senaste rönen om energi och kolhydratsladdning med Tobias Christensson
     episode_url: https://springsnyggt.libsyn.com/339-de-senaste-rnen-om-energi-och-kolhydratsladdning-med-tobias-christensson
@@ -10152,7 +10164,7 @@ episodes_by_feed:
     episode_slug: 339-de-senaste-ronen-om-energi-och-kolhydratsladdning-med-tobias-christensson
     episode_key: 339-de-senaste-ronen-om-energi-och-kolhydratsladdning-med-tobias-christensson
     legacy_unicode_slug: 339-de-senaste-rönen-om-energi-och-kolhydratsladdning-med-tobias-christensson
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/spring-snyggt/339-de-senaste-ronen-om-energi-och-kolhydratsladdning-med-tobias-christensson/"
   - episode_title: 338. Tilda springer, cyklar och simmar snabbare än någonsin förut!
     episode_url: https://springsnyggt.libsyn.com/338-tilda-springer-cyklar-och-simmar-snabbare-n-ngonsin-frut
@@ -10165,7 +10177,7 @@ episodes_by_feed:
     episode_slug: 338-tilda-springer-cyklar-och-simmar-snabbare-an-nagonsin-forut
     episode_key: 338-tilda-springer-cyklar-och-simmar-snabbare-an-nagonsin-forut
     legacy_unicode_slug: 338-tilda-springer-cyklar-och-simmar-snabbare-än-någonsin-förut
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/spring-snyggt/338-tilda-springer-cyklar-och-simmar-snabbare-an-nagonsin-forut/"
   - episode_title: 337. Carmens framfart
     episode_url: https://springsnyggt.libsyn.com/337-carmens-framfart
@@ -10177,7 +10189,7 @@ episodes_by_feed:
     episode_uid: 5c5c168b-5b23-455a-ba99-3de2a501c8cf
     episode_slug: 337-carmens-framfart
     episode_key: 337-carmens-framfart
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/spring-snyggt/337-carmens-framfart/"
   - episode_title: 336. Spring Snabbare med Andreas Almgren
     episode_url: https://springsnyggt.libsyn.com/336-spring-snabbare-med-andreas-almgren
@@ -10189,7 +10201,7 @@ episodes_by_feed:
     episode_uid: 74d18241-2334-4b67-8cf4-728349a114ab
     episode_slug: 336-spring-snabbare-med-andreas-almgren
     episode_key: 336-spring-snabbare-med-andreas-almgren
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/spring-snyggt/336-spring-snabbare-med-andreas-almgren/"
   - episode_title: 335. Nomio 10k-special
     episode_url: https://springsnyggt.libsyn.com/335-nomio-10k-special
@@ -10201,7 +10213,7 @@ episodes_by_feed:
     episode_uid: b329e28f-92c4-489b-9074-3dd5c8252d14
     episode_slug: 335-nomio-10k-special
     episode_key: 335-nomio-10k-special
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/spring-snyggt/335-nomio-10k-special/"
   - episode_title: 334. Footing tar Liv till nya höjder!
     episode_url: https://springsnyggt.libsyn.com/334-fotting-tar-liv-till-nya-hjder
@@ -10214,7 +10226,7 @@ episodes_by_feed:
     episode_slug: 334-footing-tar-liv-till-nya-hojder
     episode_key: 334-footing-tar-liv-till-nya-hojder
     legacy_unicode_slug: 334-footing-tar-liv-till-nya-höjder
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/spring-snyggt/334-footing-tar-liv-till-nya-hojder/"
   - episode_title: 333. Gjert Ingebrigtsen
     episode_url: https://springsnyggt.libsyn.com/333-gjert-ingebrigtsen
@@ -10226,7 +10238,7 @@ episodes_by_feed:
     episode_uid: 766a4d2c-09dc-42ac-a08d-cfaf1a95fbc8
     episode_slug: 333-gjert-ingebrigtsen
     episode_key: 333-gjert-ingebrigtsen
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/spring-snyggt/333-gjert-ingebrigtsen/"
   - episode_title: 332. Att sluta på topp!
     episode_url: https://springsnyggt.libsyn.com/332-att-sluta-p-topp
@@ -10239,7 +10251,7 @@ episodes_by_feed:
     episode_slug: 332-att-sluta-pa-topp
     episode_key: 332-att-sluta-pa-topp
     legacy_unicode_slug: 332-att-sluta-på-topp
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/spring-snyggt/332-att-sluta-pa-topp/"
   - episode_title: 331. Emils väg tillbaka
     episode_url: https://springsnyggt.libsyn.com/331-emils-vg-tillbaka
@@ -10252,7 +10264,7 @@ episodes_by_feed:
     episode_slug: 331-emils-vag-tillbaka
     episode_key: 331-emils-vag-tillbaka
     legacy_unicode_slug: 331-emils-väg-tillbaka
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/spring-snyggt/331-emils-vag-tillbaka/"
   - episode_title: 330. Marius Bakken och grunden till den norska modellen
     episode_url: https://springsnyggt.libsyn.com/330-marius-bakken-och-grunden-till-den-norska-modellen
@@ -10264,7 +10276,7 @@ episodes_by_feed:
     episode_uid: e8936ae1-5998-4e56-a9c1-d988be226d55
     episode_slug: 330-marius-bakken-och-grunden-till-den-norska-modellen
     episode_key: 330-marius-bakken-och-grunden-till-den-norska-modellen
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/spring-snyggt/330-marius-bakken-och-grunden-till-den-norska-modellen/"
   - episode_title: 329. Löpningens ekonomiska värld
     episode_url: https://springsnyggt.libsyn.com/330-lpningens-ekonomiska-vrld
@@ -10277,7 +10289,7 @@ episodes_by_feed:
     episode_slug: 329-lopningens-ekonomiska-varld
     episode_key: 329-lopningens-ekonomiska-varld
     legacy_unicode_slug: 329-löpningens-ekonomiska-värld
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/spring-snyggt/329-lopningens-ekonomiska-varld/"
   - episode_title: 328. De största misstagen inför ett maraton
     episode_url: https://springsnyggt.libsyn.com/328-de-strsta-misstagen-infr-ett-maraton
@@ -10290,7 +10302,7 @@ episodes_by_feed:
     episode_slug: 328-de-storsta-misstagen-infor-ett-maraton
     episode_key: 328-de-storsta-misstagen-infor-ett-maraton
     legacy_unicode_slug: 328-de-största-misstagen-inför-ett-maraton
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/spring-snyggt/328-de-storsta-misstagen-infor-ett-maraton/"
   - episode_title: 327. 2026 års Vasaloppsvinnare - Oskar Kardin!
     episode_url: https://springsnyggt.libsyn.com/327-2026-rs-vasaloppsvinnare-oskar-kardin
@@ -10303,7 +10315,7 @@ episodes_by_feed:
     episode_slug: 327-2026-ars-vasaloppsvinnare-oskar-kardin
     episode_key: 327-2026-ars-vasaloppsvinnare-oskar-kardin
     legacy_unicode_slug: 327-2026-års-vasaloppsvinnare-oskar-kardin
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/spring-snyggt/327-2026-ars-vasaloppsvinnare-oskar-kardin/"
   - episode_title: 326. Världens snabbaste Andreas efter 10K i Castellón
     episode_url: https://springsnyggt.libsyn.com/326-vrldens-snabbaste-andreas-efter-10k-i-castelln
@@ -10316,7 +10328,7 @@ episodes_by_feed:
     episode_slug: 326-varldens-snabbaste-andreas-efter-10k-i-castellon
     episode_key: 326-varldens-snabbaste-andreas-efter-10k-i-castellon
     legacy_unicode_slug: 326-världens-snabbaste-andreas-efter-10k-i-castellón
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/spring-snyggt/326-varldens-snabbaste-andreas-efter-10k-i-castellon/"
   - episode_title: 325. 9 av 10 gånger går det åt helvete!
     episode_url: https://springsnyggt.libsyn.com/325-9-av-10-gnger-gr-det-t-helvete
@@ -10329,7 +10341,7 @@ episodes_by_feed:
     episode_slug: 325-9-av-10-ganger-gar-det-at-helvete
     episode_key: 325-9-av-10-ganger-gar-det-at-helvete
     legacy_unicode_slug: 325-9-av-10-gånger-går-det-åt-helvete
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/spring-snyggt/325-9-av-10-ganger-gar-det-at-helvete/"
   - episode_title: 324. Yolanda Ngarambe - "Folk är alldeles för rädda för att vila"
     episode_url: https://springsnyggt.libsyn.com/324-yolanda-ngarambe-folk-r-alldeles-fr-rdda-fr-att-vila
@@ -10342,7 +10354,7 @@ episodes_by_feed:
     episode_slug: 324-yolanda-ngarambe-folk-ar-alldeles-for-radda-for-att-vila
     episode_key: 324-yolanda-ngarambe-folk-ar-alldeles-for-radda-for-att-vila
     legacy_unicode_slug: 324-yolanda-ngarambe-folk-är-alldeles-för-rädda-för-att-vila
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/spring-snyggt/324-yolanda-ngarambe-folk-ar-alldeles-for-radda-for-att-vila/"
   - episode_title: 323. Uppladdning för 10 snabba kilometer med Sebastian Lörstad
     episode_url: https://springsnyggt.libsyn.com/323-uppladdning-fr-10-snabba-kilometer-med-sebastian-lrstad
@@ -10355,7 +10367,7 @@ episodes_by_feed:
     episode_slug: 323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad
     episode_key: 323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad
     legacy_unicode_slug: 323-uppladdning-för-10-snabba-kilometer-med-sebastian-lörstad
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/spring-snyggt/323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad/"
   - episode_title: 322. Graviditet och elitlöpning med Ingrid Kristiansen
     episode_url: https://springsnyggt.libsyn.com/322-graviditet-och-elitlpning-med-ingrid-kristiansen
@@ -10368,7 +10380,7 @@ episodes_by_feed:
     episode_slug: 322-graviditet-och-elitlopning-med-ingrid-kristiansen
     episode_key: 322-graviditet-och-elitlopning-med-ingrid-kristiansen
     legacy_unicode_slug: 322-graviditet-och-elitlöpning-med-ingrid-kristiansen
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/spring-snyggt/322-graviditet-och-elitlopning-med-ingrid-kristiansen/"
   - episode_title: 321. Hampus Månsson presenterar sig!
     episode_url: https://springsnyggt.libsyn.com/321-hampus-mnsson-presenterar-sig
@@ -10381,7 +10393,7 @@ episodes_by_feed:
     episode_slug: 321-hampus-mansson-presenterar-sig
     episode_key: 321-hampus-mansson-presenterar-sig
     legacy_unicode_slug: 321-hampus-månsson-presenterar-sig
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/spring-snyggt/321-hampus-mansson-presenterar-sig/"
   - episode_title: 320. Europarekorden rullar in som de ska, det går bra!
     episode_url: https://springsnyggt.libsyn.com/320-europarekorden-rullar-in-som-de-ska-det-gr-bra
@@ -10394,7 +10406,7 @@ episodes_by_feed:
     episode_slug: 320-europarekorden-rullar-in-som-de-ska-det-gar-bra
     episode_key: 320-europarekorden-rullar-in-som-de-ska-det-gar-bra
     legacy_unicode_slug: 320-europarekorden-rullar-in-som-de-ska-det-går-bra
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/spring-snyggt/320-europarekorden-rullar-in-som-de-ska-det-gar-bra/"
   - episode_title: 319. Att bygga för en ny säsong
     episode_url: https://springsnyggt.libsyn.com/319-att-bygga-fr-en-ny-ssong
@@ -10407,7 +10419,7 @@ episodes_by_feed:
     episode_slug: 319-att-bygga-for-en-ny-sasong
     episode_key: 319-att-bygga-for-en-ny-sasong
     legacy_unicode_slug: 319-att-bygga-för-en-ny-säsong
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/spring-snyggt/319-att-bygga-for-en-ny-sasong/"
   - episode_title: 318. Nyårsgalan 2025
     episode_url: https://springsnyggt.libsyn.com/318-nyrsgalan-2025
@@ -10420,21 +10432,8 @@ episodes_by_feed:
     episode_slug: 318-nyarsgalan-2025
     episode_key: 318-nyarsgalan-2025
     legacy_unicode_slug: 318-nyårsgalan-2025
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/spring-snyggt/318-nyarsgalan-2025/"
-  - episode_title: 317. Sebastian Stagh har anlänt!
-    episode_url: https://springsnyggt.libsyn.com/317-sebastian-stagh-har-anlnt
-    audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_317.mp3?dest-id=1729274
-    published_at: '2025-12-24T02:00:00+00:00'
-    description_html: <p>Vi mötte Sebastian Stagh för första gången då han som 12-åring ställde upp vid vårt lopp i Långbro Park. Våra ögon drogs direkt till den lilla pojken som sprang oerhört vackert och fort. Den gången blev det 35.28 och senare samma år slog han Europarekord när han löpte 5000m på 17.10. En talang av sällan skådat slag. Sedan följde några jobbiga år med skador och stor tillväxt och vi såg inte den där lilla talangen blomma ut på riktigt samma sätt som vi anade. Men i år, vid 17 års ålder har Sebastian äntligen kommit ut på andra sidan. Efter att ha fått kontinuitet i löpningen för första gången på många år löpte Sebastian Lidingöloppets fruktade sista 10k på 31.11, näst snabbast någonsin. Därefter följde ett silver vid terräng-SM i juniorklass och nu förra veckan en mycket fin 28e plats vid Terräng-EM i Portugal. Vi fick ett samtal med Sebastian där han berättade om de jobbiga åren och hur han nu blickar fram för att för första gången kunna förvalta den stora talang vi såg där i Långbro-loopen.</p><p>John har styrt bilen mot Skåne och gör sig redo för ett nyårslopp på Köpenhamns gator. Manne fortsätter att rada upp 10-mila veckor och gör även han sig redo för tävling på Nyårsafton. Vi får också besök av Hattfen som ställer svåra frågor om träning. Missa inte vår Patreon, veckoprogram med återkoppling för en billig peng (anmäl er via webläsare och inte Patreons App för att slippa 20 kr straffavgift) - <a href= "https://www.patreon.com/c/Springsnyggt823">https://www.patreon.com/c/Springsnyggt823</a></p><p>God Jul!</p>
-    description_plain: Vi mötte Sebastian Stagh för första gången då han som 12-åring ställde upp vid vårt lopp i Långbro Park. Våra ögon drogs direkt till den lilla pojken som sprang oerhört vackert och fort. Den gången blev det 35.28 och senare samma år slog han Europarekord när han löpte 5000m på 17.10. En talang av sällan skådat slag. Sedan följde några jobbiga år med skador och stor tillväxt och vi såg inte den där lilla talangen blomma ut på riktigt samma sätt som vi anade. Men i år, vid 17 års ålder har Sebastian äntligen kommit ut på andra sidan. Efter att ha fått kontinuitet i löpningen för första gången på många år löpte Sebastian Lidingöloppets fruktade sista 10k på 31.11, näst snabbast någonsin. Därefter följde ett silver vid terräng-SM i juniorklass och nu förra veckan en mycket fin 28e plats vid Terräng-EM i Portugal. Vi fick ett samtal med Sebastian där han berättade om de jobbiga åren och hur han nu blickar fram för att för första gången kunna förvalta den stora talang vi såg där i Långbro-loopen. John har styrt bilen mot Skåne och gör sig redo för ett nyårslopp på Köpenhamns gator. Manne fortsätter att rada upp 10-mila veckor och gör även han sig redo för tävling på Nyårsafton. Vi får också besök av Hattfen som ställer svåra frågor om träning. Missa inte vår Patreon, veckoprogram med återkoppling för en billig peng (anmäl er via webläsare och inte Patreons App för att slippa 20 kr straffavgift) - https://www.patreon.com/c/Springsnyggt823 God Jul!
-    episode_image_url: ''
-    episode_uid: 2698d4d7-ebc4-43dd-8c6f-53d28326b91e
-    episode_slug: 317-sebastian-stagh-har-anlant
-    episode_key: 317-sebastian-stagh-har-anlant
-    legacy_unicode_slug: 317-sebastian-stagh-har-anlänt
     legacy_numbered_slug: episode-25
-    episode_page_url: "/spring-snyggt/317-sebastian-stagh-har-anlant/"
+    episode_page_url: "/spring-snyggt/318-nyarsgalan-2025/"
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &35
   - episode_title: Building the Aerobic Engine with Dr. Øyvind Sandbakk
     episode_url: https://zencastr.com/z/CE8BWuuq
@@ -15126,6 +15125,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/out-and-back/23-sophia-schwartz-and-sean-mccoy-gearjunkie-backcountry-skiing-gear/"
   https://feeds.acast.com/public/shows/pablo-torre-finds-out: &51
+  - episode_title: '"Reverse 9/11": Celebrating These Knicks Title Vibes, with Desus Nice'
+    episode_url: https://pablo.show
+    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a31b9d7cc559732cf42a9f3/media.mp3
+    published_at: '2026-06-17T01:04:33+00:00'
+    description_html: <p>Transcendence on the court. Dancing in the streets. And a drunk Instagram Live for the ages. Why wait 'til the parade? Pablo raises a glass (while devouring an egg-and-cheese) with Desus — his fellow New Yorker and bard of Knicks nation — to the commute of a champion and the beauty of a bandwagon; to the drip of Landry Shamet and the sweat of Patrick Ewing; to KAT and OG and Wu-Tang and, yes, even Coldplay. Just not that traitor from Sesame Street.</p><p>• Subscribe to <a href="https://www.youtube.com/@DesusPieces" rel="noopener noreferrer" target="_blank">"Desus Pieces"</a></p><p>• Subscribe to <a href="https://www.pablo.show/" rel="noopener noreferrer" target="_blank">Pablo's newsletter</a></p><p>• Subscribe to <a href="https://theathletic.onelink.me/eNRy/ptfo" rel="noopener noreferrer" target="_blank">The Athletic</a></p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: Transcendence on the court. Dancing in the streets. And a drunk Instagram Live for the ages. Why wait 'til the parade? Pablo raises a glass (while devouring an egg-and-cheese) with Desus — his fellow New Yorker and bard of Knicks nation — to the commute of a champion and the beauty of a bandwagon; to the drip of Landry Shamet and the sweat of Patrick Ewing; to KAT and OG and Wu-Tang and, yes, even Coldplay. Just not that traitor from Sesame Street. • Subscribe to "Desus Pieces" • Subscribe to Pablo's newsletter • Subscribe to The Athletic Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/68b1d0ea993d10acb9c3fe4f/1775008407441-209a6288-80af-4538-9c37-9728cb9397d3.jpeg
+    episode_uid: 6a31b9d7cc559732cf42a9f3
+    episode_slug: reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice
+    episode_key: reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/pablo-torre-finds-out/reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice/"
   - episode_title: 'UFC at the White House: How Dana White and Donald Trump Cashed In'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ufc-at-the-white-house-how-dana-white-and-donald-trump-cashe
     audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a2b2c7ff2e26d5f939d181f/media.mp3
@@ -15136,7 +15147,7 @@ episodes_by_feed:
     episode_uid: 6a2b2c7ff2e26d5f939d181f
     episode_slug: ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in
     episode_key: ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/pablo-torre-finds-out/ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in/"
   - episode_title: America Signed Up for the World Cup. FIFA Stuck You with the Tab.
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/america-signed-up-for-the-world-cup-fifa-stuck-you-with-the
@@ -15148,7 +15159,7 @@ episodes_by_feed:
     episode_uid: 6a2a06babc36e5cc01463061
     episode_slug: america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab
     episode_key: america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/pablo-torre-finds-out/america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab/"
   - episode_title: 'Linsanity Is Dead. Long Live Linsanity: Jeremy Lin on the Finals, the Garden and the Healing Power of These Knicks'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-fina
@@ -15160,7 +15171,7 @@ episodes_by_feed:
     episode_uid: 6a281fbc8e157b3f7c98518d
     episode_slug: linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks
     episode_key: linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/pablo-torre-finds-out/linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks/"
   - episode_title: 'Ballmer''s Secret I.O.U., Aspiration''s "Web of Lies" and the Zenith of Fraud: Kawhi-Gate, Part XI'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ballmers-secret-iou-aspirations-web-of-lies-and-the-zenith-o
@@ -15172,7 +15183,7 @@ episodes_by_feed:
     episode_uid: 6a22296ab0f2962be4810901
     episode_slug: ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi
     episode_key: ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/pablo-torre-finds-out/ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi/"
   - episode_title: Do Not Mess with the Reporter Who Took Down Jeffrey Epstein
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
@@ -15184,7 +15195,7 @@ episodes_by_feed:
     episode_uid: 6a20cc591d75a957bfc42800
     episode_slug: do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
     episode_key: do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/pablo-torre-finds-out/do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein/"
   - episode_title: 'Exclusive: Inside Zohran Mamdani''s NYC Sports Equinox (feat. Adam Friedland)'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/exclusive-inside-zohran-mamdanis-nyc-sports-equinox-feat-ada
@@ -15196,7 +15207,7 @@ episodes_by_feed:
     episode_uid: 6a1df85b5dacba3f0ae13fa8
     episode_slug: exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland
     episode_key: exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/pablo-torre-finds-out/exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland/"
   - episode_title: Share & Eat the Rich & Tell with Tim Miller and Stephanie Ruhle
     episode_url: https://pablo.show
@@ -15208,7 +15219,7 @@ episodes_by_feed:
     episode_uid: 6a18e051e9800206fbccd5aa
     episode_slug: share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle
     episode_key: share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/pablo-torre-finds-out/share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle/"
   - episode_title: 'Exclusive: The Harambe Tapes, Revealed'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ep378-placeholder
@@ -15220,7 +15231,7 @@ episodes_by_feed:
     episode_uid: 6a1777d2a3de744e8eb2fd83
     episode_slug: exclusive-the-harambe-tapes-revealed
     episode_key: exclusive-the-harambe-tapes-revealed
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/pablo-torre-finds-out/exclusive-the-harambe-tapes-revealed/"
   - episode_title: '"Celebrity Jeopardy!" Film Study (Championship Edition) with Mina Kimes and Domonique Foxworth'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/celebrity-jeopardy-film-study-championship-edition-with-mina
@@ -15232,7 +15243,7 @@ episodes_by_feed:
     episode_uid: 6a1497850eddd1a22513a8ad
     episode_slug: celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth
     episode_key: celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/pablo-torre-finds-out/celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth/"
   - episode_title: Unlocking the State Secrets of College Football, with FOIAball's "King of the Bros"
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/unlocking-the-state-secrets-of-college-football-with-foiabal
@@ -15244,7 +15255,7 @@ episodes_by_feed:
     episode_uid: 6a0f936151a683b506b937a2
     episode_slug: unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros
     episode_key: unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/pablo-torre-finds-out/unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros/"
   - episode_title: Share & Walk Alone & Tell with Mike Schur and Joe Posnanski
     episode_url: https://pablo.show
@@ -15256,7 +15267,7 @@ episodes_by_feed:
     episode_uid: 6a0dc8f6ff17e979a891e04d
     episode_slug: share-walk-alone-tell-with-mike-schur-and-joe-posnanski
     episode_key: share-walk-alone-tell-with-mike-schur-and-joe-posnanski
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/pablo-torre-finds-out/share-walk-alone-tell-with-mike-schur-and-joe-posnanski/"
   - episode_title: 'Cheap Trick: Debunking the "Magic" of Mentalist Oz Pearlman'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/cheap-trick-debunking-the-magic-of-mentalist-oz-pearlman
@@ -15268,7 +15279,7 @@ episodes_by_feed:
     episode_uid: 6a0ba3e736aa6fb037b1b57d
     episode_slug: cheap-trick-debunking-the-magic-of-mentalist-oz-pearlman
     episode_key: cheap-trick-debunking-the-magic-of-mentalist-oz-pearlman
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/pablo-torre-finds-out/cheap-trick-debunking-the-magic-of-mentalist-oz-pearlman/"
   - episode_title: 'The Sporting Class: Is the NFL Killing the Golden Goose?'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-sporting-class-is-the-nfl-killing-the-golden-goose
@@ -15280,7 +15291,7 @@ episodes_by_feed:
     episode_uid: 6a063626bb09cac465d35538
     episode_slug: the-sporting-class-is-the-nfl-killing-the-golden-goose
     episode_key: the-sporting-class-is-the-nfl-killing-the-golden-goose
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/pablo-torre-finds-out/the-sporting-class-is-the-nfl-killing-the-golden-goose/"
   - episode_title: '"Be Like Satoshi": We Unmask Scottie Pippen''s A.I. Crypto Slop'
     episode_url: https://pablo.show
@@ -15292,7 +15303,7 @@ episodes_by_feed:
     episode_uid: 6a053004f55ed53fc84ae5fe
     episode_slug: be-like-satoshi-we-unmask-scottie-pippen-s-a-i-crypto-slop
     episode_key: be-like-satoshi-we-unmask-scottie-pippen-s-a-i-crypto-slop
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/pablo-torre-finds-out/be-like-satoshi-we-unmask-scottie-pippen-s-a-i-crypto-slop/"
   - episode_title: It's the End of LIV Golf as We Knew It (and Trump Feels Fine)
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/its-the-end-of-liv-golf-as-we-knew-it-and-trump-feels-fine
@@ -15304,7 +15315,7 @@ episodes_by_feed:
     episode_uid: 6a0271178e9a64ceebb7c5bd
     episode_slug: it-s-the-end-of-liv-golf-as-we-knew-it-and-trump-feels-fine
     episode_key: it-s-the-end-of-liv-golf-as-we-knew-it-and-trump-feels-fine
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/pablo-torre-finds-out/it-s-the-end-of-liv-golf-as-we-knew-it-and-trump-feels-fine/"
   - episode_title: '"Did You Hear That, James?" We Survived MSG Surveillance... with Edward Snowden''s Lawyer'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/did-you-hear-that-james-we-survived-msg-surveillance-with-ed
@@ -15316,7 +15327,7 @@ episodes_by_feed:
     episode_uid: 69fd0560d3524d2a980c6da3
     episode_slug: did-you-hear-that-james-we-survived-msg-surveillance-with-edward-snowden-s-lawyer
     episode_key: did-you-hear-that-james-we-survived-msg-surveillance-with-edward-snowden-s-lawyer
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/pablo-torre-finds-out/did-you-hear-that-james-we-survived-msg-surveillance-with-edward-snowden-s-lawyer/"
   - episode_title: Share & Anti-Pulitzer & Tell with Michael Cruz Kayne and Sam Reich
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/share-anti-pulitzer-tell-with-michael-cruz-kayne-and-sam-rei
@@ -15328,7 +15339,7 @@ episodes_by_feed:
     episode_uid: 69fbee0c5a52ab27fae4a639
     episode_slug: share-anti-pulitzer-tell-with-michael-cruz-kayne-and-sam-reich
     episode_key: share-anti-pulitzer-tell-with-michael-cruz-kayne-and-sam-reich
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/pablo-torre-finds-out/share-anti-pulitzer-tell-with-michael-cruz-kayne-and-sam-reich/"
   - episode_title: 'Steve Ballmer''s Victim Impact, the Man Who Prosecuted Aspiration and the Abacus of Incarceration: Kawhi-Gate, Part X'
     episode_url: https://pablo.show
@@ -15340,7 +15351,7 @@ episodes_by_feed:
     episode_uid: 69f91c9f9b1507fbdde01f78
     episode_slug: steve-ballmer-s-victim-impact-the-man-who-prosecuted-aspiration-and-the-abacus-of-incarceration-kawhi-gate-part-x
     episode_key: steve-ballmer-s-victim-impact-the-man-who-prosecuted-aspiration-and-the-abacus-of-incarceration-kawhi-gate-part-x
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/pablo-torre-finds-out/steve-ballmer-s-victim-impact-the-man-who-prosecuted-aspiration-and-the-abacus-of-incarceration-kawhi-gate-part-x/"
   - episode_title: 'Failure to Report: How Harvard Whitewashed Jeffrey Epstein''s Millions (Part 2)'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/failure-to-report-how-harvard-whitewashed-jeffrey-epsteins-m
@@ -15352,7 +15363,7 @@ episodes_by_feed:
     episode_uid: 69f403c870e63ceaa0020abb
     episode_slug: failure-to-report-how-harvard-whitewashed-jeffrey-epstein-s-millions-part-2
     episode_key: failure-to-report-how-harvard-whitewashed-jeffrey-epstein-s-millions-part-2
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/pablo-torre-finds-out/failure-to-report-how-harvard-whitewashed-jeffrey-epstein-s-millions-part-2/"
   - episode_title: '"The Jeffrey E. Epstein Fund for Women''s Athletics": We Investigate Harvard''s Hidden Epstein Files (Part 1)'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-jeffrey-e-epstein-fund-for-womens-athletics-we-investiga
@@ -15364,7 +15375,7 @@ episodes_by_feed:
     episode_uid: 69f2bdec3d21ee228c6ab24a
     episode_slug: the-jeffrey-e-epstein-fund-for-women-s-athletics-we-investigate-harvard-s-hidden-epstein-files-part-1
     episode_key: the-jeffrey-e-epstein-fund-for-women-s-athletics-we-investigate-harvard-s-hidden-epstein-files-part-1
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/pablo-torre-finds-out/the-jeffrey-e-epstein-fund-for-women-s-athletics-we-investigate-harvard-s-hidden-epstein-files-part-1/"
   - episode_title: 'The Man Who (Relentlessly) Sued the NFL Has Receipts: A Sitdown with DeMaurice Smith'
     episode_url: https://pablo.show
@@ -15376,7 +15387,7 @@ episodes_by_feed:
     episode_uid: 69f01118c00f8a5d1a3056a3
     episode_slug: the-man-who-relentlessly-sued-the-nfl-has-receipts-a-sitdown-with-demaurice-smith
     episode_key: the-man-who-relentlessly-sued-the-nfl-has-receipts-a-sitdown-with-demaurice-smith
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/pablo-torre-finds-out/the-man-who-relentlessly-sued-the-nfl-has-receipts-a-sitdown-with-demaurice-smith/"
   - episode_title: 'The Sporting Class: Affairs, Private Eyes and the All-Seeing Eye'
     episode_url: https://pablo.show
@@ -15388,7 +15399,7 @@ episodes_by_feed:
     episode_uid: 69eaa452deba2739103e0c77
     episode_slug: the-sporting-class-affairs-private-eyes-and-the-all-seeing-eye
     episode_key: the-sporting-class-affairs-private-eyes-and-the-all-seeing-eye
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/pablo-torre-finds-out/the-sporting-class-affairs-private-eyes-and-the-all-seeing-eye/"
   - episode_title: '"Celebrity Jeopardy!" Film Study: Share & Buzz & Tell with Mina Kimes and Timothy Simons'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/celebrity-jeopardy-film-study-share-buzz-tell-with-mina-kime
@@ -15400,7 +15411,7 @@ episodes_by_feed:
     episode_uid: 69e953d0c5fbf04f4a1ca67d
     episode_slug: celebrity-jeopardy-film-study-share-buzz-tell-with-mina-kimes-and-timothy-simons
     episode_key: celebrity-jeopardy-film-study-share-buzz-tell-with-mina-kimes-and-timothy-simons
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/pablo-torre-finds-out/celebrity-jeopardy-film-study-share-buzz-tell-with-mina-kimes-and-timothy-simons/"
   - episode_title: 'Exclusive: How The Onion Finally Shut Up Alex Jones for Good'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/exclusive-how-the-onion-finally-shut-up-alex-jones-for-good
@@ -15412,20 +15423,8 @@ episodes_by_feed:
     episode_uid: 69e653a293fd0f5de0f32ada
     episode_slug: exclusive-how-the-onion-finally-shut-up-alex-jones-for-good
     episode_key: exclusive-how-the-onion-finally-shut-up-alex-jones-for-good
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/pablo-torre-finds-out/exclusive-how-the-onion-finally-shut-up-alex-jones-for-good/"
-  - episode_title: We Got Inside Knicks Surveillance — and MSG's Deep State Is Stranger Than You Think
-    episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/we-got-inside-knicks-surveillance-and-msgs-deep-state-is-str
-    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/69e19b715e91e07b1e94c9e5/media.mp3
-    published_at: '2026-04-17T10:00:00+00:00'
-    description_html: <p>Tracking players. Monitoring kids. Allegedly watching a fan enter the bathroom. The panopticon of notorious owner James Dolan has been caught in glimpses. But a WIRED investigation — revealed in collaboration with PTFO — lifts the veil on the Orwellian scope (and occasional clown show) of MSG security, from The Garden and The Sphere to the streets of New York and out across America. Correspondent Noah Shachtman and Pablo hear from spooked insiders, read snooping group chats, scour a second-by-second confidential report, plus view the facial-recognition database itself — only to discover that paranoid billionaires... are all around us.</p><p>• Read <a href="https://www.wired.com/story/madison-square-garden-jim-dolan-surveillance-machine" rel="noopener noreferrer" target="_blank">the full digital cover story</a> at WIRED</p><p>• Subscribe to <a href="https://pablo.show/" rel="noopener noreferrer" target="_blank">Pablo's newsletter</a> for exclusive access, documents and invites</p><p>(Pablo Torre Finds Out is independently produced by Meadowlark Media and distributed by The Athletic. The views, research and reporting expressed in this episode are solely those of Pablo Torre Finds Out and do not reflect the work or editorial input of The Athletic or its journalists.)</p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
-    description_plain: Tracking players. Monitoring kids. Allegedly watching a fan enter the bathroom. The panopticon of notorious owner James Dolan has been caught in glimpses. But a WIRED investigation — revealed in collaboration with PTFO — lifts the veil on the Orwellian scope (and occasional clown show) of MSG security, from The Garden and The Sphere to the streets of New York and out across America. Correspondent Noah Shachtman and Pablo hear from spooked insiders, read snooping group chats, scour a second-by-second confidential report, plus view the facial-recognition database itself — only to discover that paranoid billionaires... are all around us. • Read the full digital cover story at WIRED • Subscribe to Pablo's newsletter for exclusive access, documents and invites (Pablo Torre Finds Out is independently produced by Meadowlark Media and distributed by The Athletic. The views, research and reporting expressed in this episode are solely those of Pablo Torre Finds Out and do not reflect the work or editorial input of The Athletic or its journalists.) Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/68b1d0ea993d10acb9c3fe4f/1776395482625-d80fd84a-e709-4787-a8b3-ed01a50a5241.jpeg
-    episode_uid: 69e19b715e91e07b1e94c9e5
-    episode_slug: we-got-inside-knicks-surveillance-and-msg-s-deep-state-is-stranger-than-you-think
-    episode_key: we-got-inside-knicks-surveillance-and-msg-s-deep-state-is-stranger-than-you-think
     legacy_numbered_slug: episode-25
-    episode_page_url: "/pablo-torre-finds-out/we-got-inside-knicks-surveillance-and-msg-s-deep-state-is-stranger-than-you-think/"
+    episode_page_url: "/pablo-torre-finds-out/exclusive-how-the-onion-finally-shut-up-alex-jones-for-good/"
   https://rss.buzzsprout.com/2529065.rss: &52
   - episode_title: Balloons, the Giro, and boa constrictors
     episode_url: ''
