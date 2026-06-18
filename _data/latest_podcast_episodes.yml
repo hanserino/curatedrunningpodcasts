@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-18T17:06:00Z'
+generated_at: '2026-06-18T18:52:10Z'
 items:
+- podcast_title: Ten Junk Miles
+  podcast_page_url: "/ten-junk-miles/"
+  cover_image: "/media/tenjunkmiles.png"
+  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
+  filter_category: trail ultra english
+  episode_title: Meet The Nation 343 - Amy Bird
+  episode_url: https://tenjunkmiles.com/meet-the-nation-343-amy-bird
+  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0618_1247.mp3?dest-id=259001
+  published_at: '2026-06-18T18:22:00+00:00'
+  episode_key: meet-the-nation-343-amy-bird
+  episode_slug: meet-the-nation-343-amy-bird
+  episode_page_url: "/ten-junk-miles/meet-the-nation-343-amy-bird/"
+- podcast_title: Life in Stride
+  podcast_page_url: "/life-in-stride/"
+  cover_image: "/media/lifeinstride.jpeg"
+  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
+  filter_category: road english
+  episode_title: "#323 Alex Scearce - Scotty Interviews His Wife on Her Running Journey & Chasing the OTQ + How They Balance Family & Training"
+  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/323-Alex-Scearce---Scotty-Interviews-His-Wife-on-Her-Running-Journey--Chasing-the-OTQ--How-They-Balance-Family--Training-e3kvknf
+  audio_url: https://traffic.megaphone.fm/APO9221237047.mp3
+  published_at: '2026-06-18T17:08:33+00:00'
+  episode_key: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
+  episode_slug: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
+  episode_page_url: "/life-in-stride/323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training/"
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running/"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -169,18 +193,6 @@ items:
   episode_key: 450-oslo-diamond-league-la-grand-prix-cruden-farm
   episode_slug: 450-oslo-diamond-league-la-grand-prix-cruden-farm
   episode_page_url: "/inside-running-podcast/450-oslo-diamond-league-la-grand-prix-cruden-farm/"
-- podcast_title: Life in Stride
-  podcast_page_url: "/life-in-stride/"
-  cover_image: "/media/lifeinstride.jpeg"
-  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
-  filter_category: road english
-  episode_title: "#322 Toni Roca Diaz - 3:26 to 2:23 in the Marathon, Working at Saysky as Athlete/PR Manager + the 17k Run Interview To Get the Job"
-  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/322-Toni-Roca-Diaz---326-to-223-in-the-Marathon--Working-at-Saysky-as-AthletePR-Manager--the-17k-Run-Interview-To-Get-the-Job-e3ksjda
-  audio_url: https://traffic.megaphone.fm/APO3036381904.mp3
-  published_at: '2026-06-16T18:41:19+00:00'
-  episode_key: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
-  episode_slug: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
-  episode_page_url: "/life-in-stride/322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the/"
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
   cover_image: "/media/swap.jpeg"
@@ -205,18 +217,6 @@ items:
   episode_key: la-travesera-mas-extrema-de-la-historia-debut-sonado-en-ultradistancia-find-your-podcast
   episode_slug: la-travesera-mas-extrema-de-la-historia-debut-sonado-en-ultradistancia-find-your-podcast
   episode_page_url: "/find-your-everest/la-travesera-mas-extrema-de-la-historia-debut-sonado-en-ultradistancia-find-your-podcast/"
-- podcast_title: Ten Junk Miles
-  podcast_page_url: "/ten-junk-miles/"
-  cover_image: "/media/tenjunkmiles.png"
-  feed_url: https://rss.libsyn.com/shows/65104/destinations/259001.xml
-  filter_category: trail ultra english
-  episode_title: Gang show 258 - Live From The Manitowoc Marathon
-  episode_url: https://tenjunkmiles.com/gang-show-258-live-from-the-manitowoc-marathon
-  audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_258_-_Manitowoc_Marathon.mp3?dest-id=259001
-  published_at: '2026-06-16T15:23:00+00:00'
-  episode_key: gang-show-258-live-from-the-manitowoc-marathon
-  episode_slug: gang-show-258-live-from-the-manitowoc-marathon
-  episode_page_url: "/ten-junk-miles/gang-show-258-live-from-the-manitowoc-marathon/"
 - podcast_title: Women of Distance
   podcast_page_url: "/women-of-distance/"
   cover_image: "/media/womanofdistancepodcast.jpeg"
@@ -6978,6 +6978,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/between-two-pines/between-two-christmas-trees-holiday-special/"
   https://rss.libsyn.com/shows/65104/destinations/259001.xml: &22
+  - episode_title: Meet The Nation 343 - Amy Bird
+    episode_url: https://tenjunkmiles.com/meet-the-nation-343-amy-bird
+    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/2025_0618_1247.mp3?dest-id=259001
+    published_at: '2026-06-18T18:22:00+00:00'
+    description_html: '<p>Meet Nation Member Amy Bird #RunTJM</p><p>RUSEEN Reflective Gear: <a href= "https://ruseen.com/?srsltid=AfmBOoov_pTWeho4ziS8d0zFBvvcBm6j9F8Dynbot0bMtXPE2F7tHxW2"> https://ruseen.com/?srsltid=AfmBOoov_pTWeho4ziS8d0zFBvvcBm6j9F8Dynbot0bMtXPE2F7tHxW2</a></p><p>Weekly Strava Champions</p><p>Most Miles: Jeremiah Sullivan: 162.6</p><p>Most Time Runing: Jimmy Jones 30:38:15</p><p>Most Vert: Andy Kumeda 22,188</p><p>Sign up for theTen Junk Miles races here: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tenjunkmilesracing.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3wlJdfOhpnOjcdHmkhDhNryl28K5a9xPRoMLHP41a2DZ7nfzZRWD02nrw_aem_SEPK7TNOnoZAyfeyiiM8CA&h=AT3GWDHb7NbSQT7oCXrWjyTOStRekAY55lECJ_fBmxFL0Yw9IfMf_MIl1inK1F5DvqrQB5LO5pW5KohR09dPktaHn4mdCYi5o_H9KXuhErsrnAN9jYBlq15Cd5wYQRqlnG1urys&__tn__=-UK-R&c[0]=AT2C-ZoVv9xiCfZAd2RNt6MjO2a9adRHdlvHT5-HESkW4xZBKwHEhA_xyiu9CG1AVtrublfdk9zf4aqvh3z1And8pMOT-ulymjL6ypgGpBVv4Gm7SnArBr7yjRECznaamZ6--DNjyiXCuiYc3vz8geMHxBLyrm0cRTK9grc7FunhtQwxq0PKb7_3YtmiNXXIRhNQPFAjU3Y" target="_blank" rel= "nofollow noopener noreferrer">https://www.tenjunkmilesracing.com</a></p> Join the Official Podcast Group: <a class= "x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg xo1l8bm" tabindex="0" role="link" href= "https://www.facebook.com/groups/1057521258604634/?__cft__[0]=AZVwYoKeWowbU1u1qOlk_fIKBsOXv4KUldrf55a2OEHpc_T12BZAvgfadNPaYqxA8zvXksq6k4A0uSf6If_nMK_l3KTBX-PC6eUjX2Auf-i_uiR97Gpd-8OtnTreYKc-Jn0Zs42lbEGNq0bwGjD8UxEJA9G2xoHdi7jvPQCUbXhzmysGrtKY9TOoJHDH_l8DuY8&__tn__=-UK-R"> https://www.facebook.com/groups/1057521258604634</a>'
+    description_plain: 'Meet Nation Member Amy Bird #RunTJM RUSEEN Reflective Gear: https://ruseen.com/?srsltid=AfmBOoov_pTWeho4ziS8d0zFBvvcBm6j9F8Dynbot0bMtXPE2F7tHxW2 Weekly Strava Champions Most Miles: Jeremiah Sullivan: 162.6 Most Time Runing: Jimmy Jones 30:38:15 Most Vert: Andy Kumeda 22,188 Sign up for theTen Junk Miles races here: https://www.tenjunkmilesracing.com Join the Official Podcast Group: https://www.facebook.com/groups/1057521258604634'
+    episode_image_url: https://static.libsyn.com/p/assets/d/3/a/c/d3acd3fd62fd90a8d959afa2a1bf1c87/MTN_343_Amy_Bird.jpg
+    episode_uid: 07d7a6a3-952e-4eed-8766-1430b8111f7f
+    episode_slug: meet-the-nation-343-amy-bird
+    episode_key: meet-the-nation-343-amy-bird
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/ten-junk-miles/meet-the-nation-343-amy-bird/"
   - episode_title: Gang show 258 - Live From The Manitowoc Marathon
     episode_url: https://tenjunkmiles.com/gang-show-258-live-from-the-manitowoc-marathon
     audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Gang_258_-_Manitowoc_Marathon.mp3?dest-id=259001
@@ -6988,7 +7000,7 @@ episodes_by_feed:
     episode_uid: bb31b1b8-2e29-450a-8e8c-8e9cd5a07791
     episode_slug: gang-show-258-live-from-the-manitowoc-marathon
     episode_key: gang-show-258-live-from-the-manitowoc-marathon
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/ten-junk-miles/gang-show-258-live-from-the-manitowoc-marathon/"
   - episode_title: Long Run 265 - Ian Corless
     episode_url: https://tenjunkmiles.com/long-run-265-ian-corless
@@ -7000,7 +7012,7 @@ episodes_by_feed:
     episode_uid: 2a27d8f2-a524-420c-8eaa-b33ea70149ae
     episode_slug: long-run-265-ian-corless
     episode_key: long-run-265-ian-corless
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/ten-junk-miles/long-run-265-ian-corless/"
   - episode_title: Meet The Nation 342 - Rachel Carrasquillo
     episode_url: https://tenjunkmiles.com/meet-the-nation-342-rachel-carrasquillo
@@ -7012,7 +7024,7 @@ episodes_by_feed:
     episode_uid: 55e04921-d53b-49a7-accb-5c1026c2a169
     episode_slug: meet-the-nation-342-rachel-carrasquillo
     episode_key: meet-the-nation-342-rachel-carrasquillo
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/ten-junk-miles/meet-the-nation-342-rachel-carrasquillo/"
   - episode_title: Long Run 263 - Chris Miles - 200 Milers in the U.K.
     episode_url: https://tenjunkmiles.com/long-run-263-chris-miles-200-milers-in-the-uk
@@ -7024,7 +7036,7 @@ episodes_by_feed:
     episode_uid: e83c3b1b-f1f8-4f5d-bfc8-7ebde50434ff
     episode_slug: long-run-263-chris-miles-200-milers-in-the-u-k
     episode_key: long-run-263-chris-miles-200-milers-in-the-u-k
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/ten-junk-miles/long-run-263-chris-miles-200-milers-in-the-u-k/"
   - episode_title: Long Run 263 - John Sterner - Root Repair Surgery
     episode_url: https://tenjunkmiles.com/long-run-263-john-sterner-root-repair-surgery
@@ -7036,7 +7048,7 @@ episodes_by_feed:
     episode_uid: 6999030e-04b6-441e-839b-58d6130aaef5
     episode_slug: long-run-263-john-sterner-root-repair-surgery
     episode_key: long-run-263-john-sterner-root-repair-surgery
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/ten-junk-miles/long-run-263-john-sterner-root-repair-surgery/"
   - episode_title: Meet The Nation 341 - Jon Krist and Kwik Trip 50K
     episode_url: https://tenjunkmiles.com/meet-the-nation-341-jon-krist-and-kwik-trip-50k
@@ -7048,7 +7060,7 @@ episodes_by_feed:
     episode_uid: 4ef7c80f-7f28-42ed-a13b-e1af28f7fe6f
     episode_slug: meet-the-nation-341-jon-krist-and-kwik-trip-50k
     episode_key: meet-the-nation-341-jon-krist-and-kwik-trip-50k
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/ten-junk-miles/meet-the-nation-341-jon-krist-and-kwik-trip-50k/"
   - episode_title: Gang Show 257 - Kristin Napora and the Big Burrito
     episode_url: https://tenjunkmiles.com/gang-show-257-kristin-napora-and-the-big-burrito
@@ -7060,7 +7072,7 @@ episodes_by_feed:
     episode_uid: 9ce20430-d92c-4614-bbf5-6daadc1a4515
     episode_slug: gang-show-257-kristin-napora-and-the-big-burrito
     episode_key: gang-show-257-kristin-napora-and-the-big-burrito
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/ten-junk-miles/gang-show-257-kristin-napora-and-the-big-burrito/"
   - episode_title: From Setback To The Start Line - 5 - Coaching Call 5-22-26
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-5-coaching-call-5-22-26
@@ -7072,7 +7084,7 @@ episodes_by_feed:
     episode_uid: 95a77c02-2344-48ee-b808-2b0a18fd9a75
     episode_slug: from-setback-to-the-start-line-5-coaching-call-5-22-26
     episode_key: from-setback-to-the-start-line-5-coaching-call-5-22-26
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/ten-junk-miles/from-setback-to-the-start-line-5-coaching-call-5-22-26/"
   - episode_title: Long Run 262 Matt Hoadley - Ultrarunner, RD, And Community Builder
     episode_url: https://tenjunkmiles.com/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
@@ -7084,7 +7096,7 @@ episodes_by_feed:
     episode_uid: 51280b5a-7183-4545-b419-5d4ec63eaa86
     episode_slug: long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
     episode_key: long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/ten-junk-miles/long-run-262-matt-hoadley-ultrarunner-rd-and-community-builder/"
   - episode_title: Gang Show 256 - Julie Hennes and the Fox Valley Gang
     episode_url: https://tenjunkmiles.com/gang-show-256-fox
@@ -7096,7 +7108,7 @@ episodes_by_feed:
     episode_uid: a6a0ef49-a254-4ece-bd81-32c5fd8e3978
     episode_slug: gang-show-256-julie-hennes-and-the-fox-valley-gang
     episode_key: gang-show-256-julie-hennes-and-the-fox-valley-gang
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/ten-junk-miles/gang-show-256-julie-hennes-and-the-fox-valley-gang/"
   - episode_title: Meet The Nation 340 - Levi Marriott
     episode_url: https://tenjunkmiles.com/meet-the-nation-340-levi-marriott
@@ -7108,7 +7120,7 @@ episodes_by_feed:
     episode_uid: b5dc9589-38ea-4a0a-a629-7c4fa62cf5d5
     episode_slug: meet-the-nation-340-levi-marriott
     episode_key: meet-the-nation-340-levi-marriott
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/ten-junk-miles/meet-the-nation-340-levi-marriott/"
   - episode_title: Long Run 261 - Alex Ramsey - Sri Chimnoy 3100 Finisher
     episode_url: https://tenjunkmiles.com/long-run-261-alex-ramsey-sri-chimney-3100-finisher
@@ -7120,7 +7132,7 @@ episodes_by_feed:
     episode_uid: 9a4914fb-ed24-40da-aa18-107e22595579
     episode_slug: long-run-261-alex-ramsey-sri-chimnoy-3100-finisher
     episode_key: long-run-261-alex-ramsey-sri-chimnoy-3100-finisher
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/ten-junk-miles/long-run-261-alex-ramsey-sri-chimnoy-3100-finisher/"
   - episode_title: Meet The Nation 339 - Rachel Grabow
     episode_url: https://tenjunkmiles.com/meet-the-nation-339-rachel-grabow
@@ -7132,7 +7144,7 @@ episodes_by_feed:
     episode_uid: 29d2912f-82a9-4e96-9b4f-b135ca97f640
     episode_slug: meet-the-nation-339-rachel-grabow
     episode_key: meet-the-nation-339-rachel-grabow
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/ten-junk-miles/meet-the-nation-339-rachel-grabow/"
   - episode_title: From Setback To The Start Line 4 - Coaching Call 04-12-26
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-4-coaching-call-04-12-26
@@ -7144,7 +7156,7 @@ episodes_by_feed:
     episode_uid: '084a88e5-f3d9-4b7b-b07d-158b7d19c6c6'
     episode_slug: from-setback-to-the-start-line-4-coaching-call-04-12-26
     episode_key: from-setback-to-the-start-line-4-coaching-call-04-12-26
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/ten-junk-miles/from-setback-to-the-start-line-4-coaching-call-04-12-26/"
   - episode_title: Long Run 261 Full Corrected - Sophie Speidel
     episode_url: https://tenjunkmiles.com/long-run-261-full-corrected-sophie-speidel
@@ -7156,7 +7168,7 @@ episodes_by_feed:
     episode_uid: b9489eda-8fdd-4055-9325-80d26840b20d
     episode_slug: long-run-261-full-corrected-sophie-speidel
     episode_key: long-run-261-full-corrected-sophie-speidel
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/ten-junk-miles/long-run-261-full-corrected-sophie-speidel/"
   - episode_title: Meet The Nation 338 - Andrew Kuzee
     episode_url: https://tenjunkmiles.com/meet-the-nation-338-andrew-kuzee
@@ -7168,7 +7180,7 @@ episodes_by_feed:
     episode_uid: 19a9ca29-38c0-4ee7-a5ed-1731aea11834
     episode_slug: meet-the-nation-338-andrew-kuzee
     episode_key: meet-the-nation-338-andrew-kuzee
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/ten-junk-miles/meet-the-nation-338-andrew-kuzee/"
   - episode_title: Meet the Nation 337 - Eric Mauricette
     episode_url: https://tenjunkmiles.com/meet-the-nation-337-eric-mauricette
@@ -7180,7 +7192,7 @@ episodes_by_feed:
     episode_uid: 914e9add-b66e-4559-be90-40ec12ffc737
     episode_slug: meet-the-nation-337-eric-mauricette
     episode_key: meet-the-nation-337-eric-mauricette
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/ten-junk-miles/meet-the-nation-337-eric-mauricette/"
   - episode_title: Long Run 259 Cory Reece 2026
     episode_url: https://tenjunkmiles.com/long-run-259-cory-reece-2026
@@ -7192,7 +7204,7 @@ episodes_by_feed:
     episode_uid: a4261404-a86c-472d-acb4-08ba59c76f59
     episode_slug: long-run-259-cory-reece-2026
     episode_key: long-run-259-cory-reece-2026
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/ten-junk-miles/long-run-259-cory-reece-2026/"
   - episode_title: Meet The Nation 336 - Serrah West
     episode_url: https://tenjunkmiles.com/meet-the-nation-336-serrah-west
@@ -7204,7 +7216,7 @@ episodes_by_feed:
     episode_uid: e86fa309-67d0-4b8e-b3d5-53c85b3a8e0f
     episode_slug: meet-the-nation-336-serrah-west
     episode_key: meet-the-nation-336-serrah-west
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/ten-junk-miles/meet-the-nation-336-serrah-west/"
   - episode_title: Gang Show 255 - Donnie Symonds and the Chicago Gang
     episode_url: https://tenjunkmiles.com/gang-show-255-donnie-symonds-and-the-chicago-gang
@@ -7216,7 +7228,7 @@ episodes_by_feed:
     episode_uid: '0893326a-38a1-4910-af25-fd5ff9a90fb2'
     episode_slug: gang-show-255-donnie-symonds-and-the-chicago-gang
     episode_key: gang-show-255-donnie-symonds-and-the-chicago-gang
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/ten-junk-miles/gang-show-255-donnie-symonds-and-the-chicago-gang/"
   - episode_title: Meet The Nation 334 - Greg Phillips
     episode_url: https://tenjunkmiles.com/meet-the-nation-334-greg-phillips
@@ -7228,7 +7240,7 @@ episodes_by_feed:
     episode_uid: 8462a99a-16d1-45a6-85e4-65b09d2b6ca2
     episode_slug: meet-the-nation-334-greg-phillips
     episode_key: meet-the-nation-334-greg-phillips
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/ten-junk-miles/meet-the-nation-334-greg-phillips/"
   - episode_title: Gang Show 245 - Pettit Indoor Marathons 2026
     episode_url: https://tenjunkmiles.com/gang-show-245-pettit-indoor-marathons-2026
@@ -7240,7 +7252,7 @@ episodes_by_feed:
     episode_uid: aefba561-891f-4e44-b2b8-13a5805d791c
     episode_slug: gang-show-245-pettit-indoor-marathons-2026
     episode_key: gang-show-245-pettit-indoor-marathons-2026
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/ten-junk-miles/gang-show-245-pettit-indoor-marathons-2026/"
   - episode_title: From Setback To the Start Line - Episode 3 - There's Hope - With 2:38 Marathoner Jon Pohlkamp
     episode_url: https://tenjunkmiles.com/from-setback-to-the-start-line-episode-3-theres-hope-with-238-marathoner-jon-pohlkamp
@@ -7252,7 +7264,7 @@ episodes_by_feed:
     episode_uid: 355aeb1b-07fc-421c-8ecd-56485199d723
     episode_slug: from-setback-to-the-start-line-episode-3-there-s-hope-with-2-38-marathoner-jon-pohlkamp
     episode_key: from-setback-to-the-start-line-episode-3-there-s-hope-with-2-38-marathoner-jon-pohlkamp
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/ten-junk-miles/from-setback-to-the-start-line-episode-3-there-s-hope-with-2-38-marathoner-jon-pohlkamp/"
   - episode_title: Meet The Nation 334 - Michael Mctighe
     episode_url: https://tenjunkmiles.com/meet-the-nation-334-michael-mctighe
@@ -7264,20 +7276,8 @@ episodes_by_feed:
     episode_uid: f6954c29-31c5-45c1-9e8e-b91fd8c4734a
     episode_slug: meet-the-nation-334-michael-mctighe
     episode_key: meet-the-nation-334-michael-mctighe
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/ten-junk-miles/meet-the-nation-334-michael-mctighe/"
-  - episode_title: Long Run 258 Keira Henninger
-    episode_url: https://tenjunkmiles.com/long-run-258-keira-henninger
-    audio_url: https://traffic.libsyn.com/secure/tenjunkmiles/Keira_Henniger_Long_Run_Final.mp3?dest-id=259001
-    published_at: '2026-03-06T16:25:00+00:00'
-    description_html: '<p>Join Scotty and Race Director Keira Henninger for a long run in which they discuss her life in running, how she came to be an RD, her races, life as a full time race director, and much much more!</p> Learn about Keira and all of her races here: <a href= "https://www.keirahenninger.com/races">https://www.keirahenninger.com/races</a> Sign up for Ten Junk Miles races here: <a class= "x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.tenjunkmilesracing.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR3wlJdfOhpnOjcdHmkhDhNryl28K5a9xPRoMLHP41a2DZ7nfzZRWD02nrw_aem_SEPK7TNOnoZAyfeyiiM8CA&h=AT3GWDHb7NbSQT7oCXrWjyTOStRekAY55lECJ_fBmxFL0Yw9IfMf_MIl1inK1F5DvqrQB5LO5pW5KohR09dPktaHn4mdCYi5o_H9KXuhErsrnAN9jYBlq15Cd5wYQRqlnG1urys&__tn__=-UK-R&c[0]=AT2C-ZoVv9xiCfZAd2RNt6MjO2a9adRHdlvHT5-HESkW4xZBKwHEhA_xyiu9CG1AVtrublfdk9zf4aqvh3z1And8pMOT-ulymjL6ypgGpBVv4Gm7SnArBr7yjRECznaamZ6--DNjyiXCuiYc3vz8geMHxBLyrm0cRTK9grc7FunhtQwxq0PKb7_3YtmiNXXIRhNQPFAjU3Y" target="_blank" rel= "nofollow noopener noreferrer">https://www.tenjunkmilesracing.com</a> Join the Official Podcast Group: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg xo1l8bm" tabindex="0" role="link" href= "https://www.facebook.com/groups/1057521258604634/?__cft__[0]=AZVwYoKeWowbU1u1qOlk_fIKBsOXv4KUldrf55a2OEHpc_T12BZAvgfadNPaYqxA8zvXksq6k4A0uSf6If_nMK_l3KTBX-PC6eUjX2Auf-i_uiR97Gpd-8OtnTreYKc-Jn0Zs42lbEGNq0bwGjD8UxEJA9G2xoHdi7jvPQCUbXhzmysGrtKY9TOoJHDH_l8DuY8&__tn__=-UK-R">https://www.facebook.com/groups/1057521258604634</a> Support the show via Patreon here: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://www.patreon.com/tenjunkmiles?fbclid=IwZXh0bgNhZW0CMTAAAR1at47WSTURojFezHQpT_l0pi060DN0p77FkEWAz26gbe4kkGNfTM_3Enc_aem_GHLy6_dJZF-p_Pyq11nWGg" target="_blank" rel= "nofollow noopener noreferrer">https://www.patreon.com/tenjunkmiles</a> Website: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "http://www.tenjunkmiles.com/?fbclid=IwZXh0bgNhZW0CMTAAAR1Gm0iSAh8DaBEgad9PWbg_glAFsIJ9Bkyof_Pzhy1fs86fpYJC0MhGtxA_aem_we0Vjj2-uPce7IzX1TwluQ" target="_blank" rel= "nofollow noopener noreferrer">http://www.tenjunkmiles.com/</a> Patreon: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://www.patreon.com/tenjunkmiles?fbclid=IwZXh0bgNhZW0CMTAAAR2o5x-qFjINMfeaDkkLis7eu88WGSYk4BimCHQSxjAMntnk0kOY_fcwCQI_aem_uphYUh0F4tYO77UZNItCeA" target="_blank" rel= "nofollow noopener noreferrer">https://www.patreon.com/tenjunkmiles</a> Twitter: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://twitter.com/tenjunkmiles?fbclid=IwZXh0bgNhZW0CMTAAAR1Gm0iSAh8DaBEgad9PWbg_glAFsIJ9Bkyof_Pzhy1fs86fpYJC0MhGtxA_aem_we0Vjj2-uPce7IzX1TwluQ" target="_blank" rel= "nofollow noopener noreferrer">https://twitter.com/tenjunkmiles</a> Instagram: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg" tabindex="0" role="link" href= "https://www.instagram.com/tenjunkmiles/?fbclid=IwZXh0bgNhZW0CMTAAAR3eSiuhZVUQDXBwpNO87aHRBHM4_OYq3w_KFJ5a43I-Xz90ej6Ll26ZHd0_aem_mgaGN5gJ1R2TaRRmX4eUAg" target="_blank" rel= "nofollow noopener noreferrer">https://www.instagram.com/tenjunkmiles/</a> Facebook: <a class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xt0psk2 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x1sur9pj xkrqix3 x1fey0fg xo1l8bm" tabindex="0" role="link" href= "https://www.facebook.com/TenJunkMiles?__cft__[0]=AZVwYoKeWowbU1u1qOlk_fIKBsOXv4KUldrf55a2OEHpc_T12BZAvgfadNPaYqxA8zvXksq6k4A0uSf6If_nMK_l3KTBX-PC6eUjX2Auf-i_uiR97Gpd-8OtnTreYKc-Jn0Zs42lbEGNq0bwGjD8UxEJA9G2xoHdi7jvPQCUbXhzmysGrtKY9TOoJHDH_l8DuY8&__tn__=-]K-R">https://www.facebook.com/TenJunkMiles/</a>'
-    description_plain: 'Join Scotty and Race Director Keira Henninger for a long run in which they discuss her life in running, how she came to be an RD, her races, life as a full time race director, and much much more! Learn about Keira and all of her races here: https://www.keirahenninger.com/races Sign up for Ten Junk Miles races here: https://www.tenjunkmilesracing.com Join the Official Podcast Group: https://www.facebook.com/groups/1057521258604634 Support the show via Patreon here: https://www.patreon.com/tenjunkmiles Website: http://www.tenjunkmiles.com/ Patreon: https://www.patreon.com/tenjunkmiles Twitter: https://twitter.com/tenjunkmiles Instagram: https://www.instagram.com/tenjunkmiles/ Facebook: https://www.facebook.com/TenJunkMiles/'
-    episode_image_url: https://static.libsyn.com/p/assets/4/f/7/8/4f78f671adb0fb8dd959afa2a1bf1c87/LR_258_Keira_Henninger.jpeg
-    episode_uid: a65edfa7-00c7-424a-a322-d8bd30880670
-    episode_slug: long-run-258-keira-henninger
-    episode_key: long-run-258-keira-henninger
     legacy_numbered_slug: episode-25
-    episode_page_url: "/ten-junk-miles/long-run-258-keira-henninger/"
+    episode_page_url: "/ten-junk-miles/meet-the-nation-334-michael-mctighe/"
   https://rss.libsyn.com/shows/234188/destinations/1733936.xml: &23
   - episode_title: Stephanie Case on running as an act of protest
     episode_url: https://thewayoftherunner.com/podcast
@@ -13829,6 +13829,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/hysteria/kristi-noem-s-mile-high-club/"
   https://anchor.fm/s/f1fb88c/podcast/rss: &47
+  - episode_title: "#323 Alex Scearce - Scotty Interviews His Wife on Her Running Journey & Chasing the OTQ + How They Balance Family & Training"
+    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/323-Alex-Scearce---Scotty-Interviews-His-Wife-on-Her-Running-Journey--Chasing-the-OTQ--How-They-Balance-Family--Training-e3kvknf
+    audio_url: https://traffic.megaphone.fm/APO9221237047.mp3
+    published_at: '2026-06-18T17:08:33+00:00'
+    description_html: '<p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!!</p><p>On this episode, Scotty did an episode with his wife, Alex! Alex recently ran a 2:42 marathon at Bayshore and is hoping to qualify for the 2028 Olympic Trials Marathon! They had some fun banter but also went through Alex’s running journey to date.</p><p>Scotty and Alex also just ran the Boston Marathon together shortly before Bayshore and told that story on this episode. They also gave their thoughts on how they parent while both training seriously for running + how running even makes them better parents!</p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride" rel="ugc noopener noreferrer" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>INSTA360 Affiliate code:</p><p>INRSGUOCSXX</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
+    description_plain: 'Visit lisrunning.com to be coached by us!! On this episode, Scotty did an episode with his wife, Alex! Alex recently ran a 2:42 marathon at Bayshore and is hoping to qualify for the 2028 Olympic Trials Marathon! They had some fun banter but also went through Alex’s running journey to date. Scotty and Alex also just ran the Boston Marathon together shortly before Bayshore and told that story on this episode. They also gave their thoughts on how they parent while both training seriously for running + how running even makes them better parents! FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ INSTA360 Affiliate code: INRSGUOCSXX CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
+    episode_uid: 21cd9e4f-2f5c-4eb8-a80e-b5d85897417d
+    episode_slug: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
+    episode_key: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/life-in-stride/323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training/"
   - episode_title: "#322 Toni Roca Diaz - 3:26 to 2:23 in the Marathon, Working at Saysky as Athlete/PR Manager + the 17k Run Interview To Get the Job"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/322-Toni-Roca-Diaz---326-to-223-in-the-Marathon--Working-at-Saysky-as-AthletePR-Manager--the-17k-Run-Interview-To-Get-the-Job-e3ksjda
     audio_url: https://traffic.megaphone.fm/APO3036381904.mp3
@@ -13839,7 +13851,7 @@ episodes_by_feed:
     episode_uid: 3b0089d1-317a-49a3-ba8a-ba032d75e88e
     episode_slug: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
     episode_key: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/life-in-stride/322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the/"
   - episode_title: "#321 - NCAA Track Champs, Cole Hocker Injury + Parker Valby Impresses, USA Best 800/1500 Country?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/321---NCAA-Track-Champs--Cole-Hocker-Injury--Parker-Valby-Impresses--USA-Best-8001500-Country-e3krabm
@@ -13851,7 +13863,7 @@ episodes_by_feed:
     episode_uid: 6c77c09f-0e3d-401b-97e3-f86419bc25ea
     episode_slug: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
     episode_key: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/life-in-stride/321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country/"
   - episode_title: "#320 Will Loevner - From MTB/Gravel Cyclist to 2:13 Marathon, OTQ Marathon + Winning 2026 Pittsburgh Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/320-Will-Loevner---From-MTBGravel-Cyclist-to-213-Marathon--OTQ-Marathon--Winning-2026-Pittsburgh-Marathon-e3kpgg2
@@ -13863,7 +13875,7 @@ episodes_by_feed:
     episode_uid: 60888aa9-c59a-4a18-84f1-39e4938c0cdf
     episode_slug: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
     episode_key: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/life-in-stride/320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon/"
   - episode_title: "#319 Bats in the Basement, Top Running Vacation Spot, Scotty is Getting Jet Skis"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/319-Bats-in-the-Basement--Top-Running-Vacation-Spot--Scotty-is-Getting-Jet-Skis-e3knljd
@@ -13875,7 +13887,7 @@ episodes_by_feed:
     episode_uid: 89a23aa3-91f8-4394-84c9-80f5ef5e8508
     episode_slug: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
     episode_key: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/life-in-stride/319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis/"
   - episode_title: "#318 Vince Ciattei - Running 3:30 in the 1500m, What a Diamond League Meet is Really Like, Full Training Breakdown"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/318-Vince-Ciattei---Running-330-in-the-1500m--What-a-Diamond-League-Meet-is-Really-Like--Full-Training-Breakdown-e3kkrru
@@ -13887,7 +13899,7 @@ episodes_by_feed:
     episode_uid: 360e1502-3822-460e-a9ad-95133f8be633
     episode_slug: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
     episode_key: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/life-in-stride/318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown/"
   - episode_title: "#317 - European Running Etiquette, Different Dialed Levels, Strieg Final Pre-Parent Thoughts"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/317---European-Running-Etiquette--Different-Dialed-Levels--Strieg-Final-Pre-Parent-Thoughts-e3kj32m
@@ -13899,7 +13911,7 @@ episodes_by_feed:
     episode_uid: b3d4320e-10ca-4970-bf45-82a7d71777c4
     episode_slug: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
     episode_key: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/life-in-stride/317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts/"
   - episode_title: "#316 John Bizzell - Winning the Area 51 Marathon, 2:56 Marathons Back to Back at Newport/Boston, Louisville Running Community"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/316-John-Bizzell---Winning-the-Area-51-Marathon--256-Marathons-Back-to-Back-at-NewportBoston--Louisville-Running-Community-e3kfbtb
@@ -13911,7 +13923,7 @@ episodes_by_feed:
     episode_uid: 2047b626-5a75-4db1-a14f-8a8c3066cce3
     episode_slug: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
     episode_key: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/life-in-stride/316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community/"
   - episode_title: "#315 Dylan Belles - 2:18 for 2nd Place at the Bayshore Marathon, Fast Finish Long Runs, Carb Load Worth It?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/315-Dylan-Belles---218-for-2nd-Place-at-the-Bayshore-Marathon--Fast-Finish-Long-Runs--Carb-Load-Worth-It-e3ke741
@@ -13923,7 +13935,7 @@ episodes_by_feed:
     episode_uid: bc51a5f5-c39f-40b4-99c0-c429374bdf7b
     episode_slug: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
     episode_key: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/life-in-stride/315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it/"
   - episode_title: "#314 - Fall Race Plans + Goals, How to Approach Summer Training, Danny’s Big Announcement"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/314---Fall-Race-Plans--Goals--How-to-Approach-Summer-Training--Dannys-Big-Announcement-e3kblr8
@@ -13935,7 +13947,7 @@ episodes_by_feed:
     episode_uid: 014e8853-bd84-4a44-9a91-00ad0beef33d
     episode_slug: 314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement
     episode_key: 314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/life-in-stride/314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement/"
   - episode_title: "#313 Jacob Thomson & Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/313-Jacob-Thomson--Corbin-Harris---Training-Updates--Rabat-DL-Recap--NCAA-Champs-Races-to-Watch-e3k86pf
@@ -13947,7 +13959,7 @@ episodes_by_feed:
     episode_uid: 26c153d7-b7d3-4425-88eb-8e7a361553a2
     episode_slug: 313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch
     episode_key: 313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/life-in-stride/313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch/"
   - episode_title: "#312 Jonny Dahlke - Training Breakdown for a 62 Minute Half-Marathoner, Founding Milers Colonia, Learning the Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/312-Jonny-Dahlke---Training-Breakdown-for-a-62-Minute-Half-Marathoner--Founding-Milers-Colonia--Learning-the-Marathon-e3k6nil
@@ -13959,7 +13971,7 @@ episodes_by_feed:
     episode_uid: e027e5d1-0d3a-48d3-85d7-125b1e71cb09
     episode_slug: 312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon
     episode_key: 312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/life-in-stride/312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon/"
   - episode_title: "#311 Cody Poskin - Cocodona 250 3rd Overall Race Recap + Training for a Mountain Race in Missouri"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/311-Cody-Poskin---Cocodona-250-3rd-Overall-Race-Recap--Training-for-a-Mountain-Race-in-Missouri-e3k41ef
@@ -13971,7 +13983,7 @@ episodes_by_feed:
     episode_uid: f2ca0577-e442-4377-9467-f15d59cb03cb
     episode_slug: 311-cody-poskin-cocodona-250-3rd-overall-race-recap-training-for-a-mountain-race-in-missouri
     episode_key: 311-cody-poskin-cocodona-250-3rd-overall-race-recap-training-for-a-mountain-race-in-missouri
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/life-in-stride/311-cody-poskin-cocodona-250-3rd-overall-race-recap-training-for-a-mountain-race-in-missouri/"
   - episode_title: "#310 Sara Hall - 20 Years at the Pinnacle of Running + Finding Balance & Living Life to the Fullest"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/310-Sara-Hall---20-Years-at-the-Pinnacle-of-Running--Finding-Balance--Living-Life-to-the-Fullest-e3k12av
@@ -13983,7 +13995,7 @@ episodes_by_feed:
     episode_uid: 539e466d-d9fc-41c3-86ab-e814f8159b06
     episode_slug: 310-sara-hall-20-years-at-the-pinnacle-of-running-finding-balance-living-life-to-the-fullest
     episode_key: 310-sara-hall-20-years-at-the-pinnacle-of-running-finding-balance-living-life-to-the-fullest
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/life-in-stride/310-sara-hall-20-years-at-the-pinnacle-of-running-finding-balance-living-life-to-the-fullest/"
   - episode_title: "#309 - Enhanced Games Failure, Parker Valby is So Back, Xiamen Diamond League Recap"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/309---Enhanced-Games-Failure--Parker-Valby-is-So-Back--Xiamen-Diamond-League-Recap-e3jvoi7
@@ -13995,7 +14007,7 @@ episodes_by_feed:
     episode_uid: cd963645-3ad5-4aa5-9915-b56af7102725
     episode_slug: 309-enhanced-games-failure-parker-valby-is-so-back-xiamen-diamond-league-recap
     episode_key: 309-enhanced-games-failure-parker-valby-is-so-back-xiamen-diamond-league-recap
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/life-in-stride/309-enhanced-games-failure-parker-valby-is-so-back-xiamen-diamond-league-recap/"
   - episode_title: "#308 - Bayshore Marathon Recap with Yowana"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/308---Bayshore-Marathon-Recap-with-Yowana-e3ju4v8
@@ -14007,7 +14019,7 @@ episodes_by_feed:
     episode_uid: 0562cef4-475b-456a-b890-06a8a80fdeda
     episode_slug: 308-bayshore-marathon-recap-with-yowana
     episode_key: 308-bayshore-marathon-recap-with-yowana
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/life-in-stride/308-bayshore-marathon-recap-with-yowana/"
   - episode_title: "#307 Peter Lynch - 2:06 at the London Marathon for Top European + Irish National Record"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/307-Peter-Lynch---206-at-the-London-Marathon-for-Top-European--Irish-National-Record-e3jsgdj
@@ -14019,7 +14031,7 @@ episodes_by_feed:
     episode_uid: 96ca91dd-2f10-412a-a2e7-d6cb14eb370e
     episode_slug: 307-peter-lynch-2-06-at-the-london-marathon-for-top-european-irish-national-record
     episode_key: 307-peter-lynch-2-06-at-the-london-marathon-for-top-european-irish-national-record
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/life-in-stride/307-peter-lynch-2-06-at-the-london-marathon-for-top-european-irish-national-record/"
   - episode_title: "#306 Cole Sprout - Training Under Jerry Schumacher, Why He Takes Creatine, Fall Marathon Debut"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/306-Cole-Sprout---Training-Under-Jerry-Schumacher--Why-He-Takes-Creatine--Fall-Marathon-Debut-e3jpvqd
@@ -14031,7 +14043,7 @@ episodes_by_feed:
     episode_uid: e3977e0e-af25-464a-931b-6707bd69b590
     episode_slug: 306-cole-sprout-training-under-jerry-schumacher-why-he-takes-creatine-fall-marathon-debut
     episode_key: 306-cole-sprout-training-under-jerry-schumacher-why-he-takes-creatine-fall-marathon-debut
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/life-in-stride/306-cole-sprout-training-under-jerry-schumacher-why-he-takes-creatine-fall-marathon-debut/"
   - episode_title: "#305 - Bayshore Marathon Preview + Hanes/Canaday Drama"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/305---Bayshore-Marathon-Preview--HanesCanaday-Drama-e3jn1mt
@@ -14043,7 +14055,7 @@ episodes_by_feed:
     episode_uid: a9a96ca8-6430-472e-8cb7-652c35a2105e
     episode_slug: 305-bayshore-marathon-preview-hanes-canaday-drama
     episode_key: 305-bayshore-marathon-preview-hanes-canaday-drama
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/life-in-stride/305-bayshore-marathon-preview-hanes-canaday-drama/"
   - episode_title: "#304 - Pre-Run Morning Routines, 405lb Bench or 2:25 Marathon More Impressive?, Listener Emails"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/304---Pre-Run-Morning-Routines--405lb-Bench-or-225-Marathon-More-Impressive---Listener-Emails-e3jldgp
@@ -14055,7 +14067,7 @@ episodes_by_feed:
     episode_uid: ef92ed12-c3e9-4dee-8b01-f246ec401517
     episode_slug: 304-pre-run-morning-routines-405lb-bench-or-2-25-marathon-more-impressive-listener-emails
     episode_key: 304-pre-run-morning-routines-405lb-bench-or-2-25-marathon-more-impressive-listener-emails
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/life-in-stride/304-pre-run-morning-routines-405lb-bench-or-2-25-marathon-more-impressive-listener-emails/"
   - episode_title: "#303 - Shanghai Diamond League Was INSANE + NCAA Conference Weekend Highlights"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/303---Shanghai-Diamond-League-Was-INSANE--NCAA-Conference-Weekend-Highlights-e3jjr5t
@@ -14067,7 +14079,7 @@ episodes_by_feed:
     episode_uid: 45368367-1be6-4b8a-95ef-afa8934105f0
     episode_slug: 303-shanghai-diamond-league-was-insane-ncaa-conference-weekend-highlights
     episode_key: 303-shanghai-diamond-league-was-insane-ncaa-conference-weekend-highlights
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/life-in-stride/303-shanghai-diamond-league-was-insane-ncaa-conference-weekend-highlights/"
   - episode_title: "#302 Sam Griffiths - Running Back to Back Marathon PBs at London & Copenhagen"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/302-Sam-Griffiths---Running-Back-to-Back-Marathon-PBs-at-London--Copenhagen-e3ji95l
@@ -14079,7 +14091,7 @@ episodes_by_feed:
     episode_uid: 5b9b5507-60fa-48d4-bc79-72eaf11e66df
     episode_slug: 302-sam-griffiths-running-back-to-back-marathon-pbs-at-london-copenhagen
     episode_key: 302-sam-griffiths-running-back-to-back-marathon-pbs-at-london-copenhagen
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/life-in-stride/302-sam-griffiths-running-back-to-back-marathon-pbs-at-london-copenhagen/"
   - episode_title: "#301 - Instagram Q + A With Our Coaching Staff"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/301---Instagram-Q--A-With-Our-Coaching-Staff-e3jf74r
@@ -14091,7 +14103,7 @@ episodes_by_feed:
     episode_uid: 7a4e376a-32c6-4531-8d2d-b7baad391138
     episode_slug: 301-instagram-q-a-with-our-coaching-staff
     episode_key: 301-instagram-q-a-with-our-coaching-staff
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/life-in-stride/301-instagram-q-a-with-our-coaching-staff/"
   - episode_title: "#300 Vincent Mauri - 2:05 Debut at Glass City Marathon + Full Training Breakdown"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/300-Vincent-Mauri---205-Debut-at-Glass-City-Marathon--Full-Training-Breakdown-e3jc686
@@ -14103,7 +14115,7 @@ episodes_by_feed:
     episode_uid: c59eec92-a45c-403c-8c8b-fbe79e603a92
     episode_slug: 300-vincent-mauri-2-05-debut-at-glass-city-marathon-full-training-breakdown
     episode_key: 300-vincent-mauri-2-05-debut-at-glass-city-marathon-full-training-breakdown
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/life-in-stride/300-vincent-mauri-2-05-debut-at-glass-city-marathon-full-training-breakdown/"
   - episode_title: "#299 - Cocodona 250, Insane 1500m Times in the NCAA, Jager and Ingebrigtsen at Copenhagen Marathon?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/299---Cocodona-250--Insane-1500m-Times-in-the-NCAA--Jager-and-Ingebrigtsen-at-Copenhagen-Marathon-e3j8ulr
@@ -14115,20 +14127,8 @@ episodes_by_feed:
     episode_uid: d0886dc4-4c09-418d-aa99-aa5446f9614b
     episode_slug: 299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon
     episode_key: 299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/life-in-stride/299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon/"
-  - episode_title: "#298 Aaron Bienenfeld - Running 2:08 at Hamburg Marathon for the Fastest German Debut Ever"
-    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/298-Aaron-Bienenfeld---Running-208-at-Hamburg-Marathon-for-the-Fastest-German-Debut-Ever-e3j7kjj
-    audio_url: https://traffic.megaphone.fm/APO9762826734.mp3
-    published_at: '2026-05-11T19:03:54+00:00'
-    description_html: '<p>Visit lisrunning.com to be coached by us!</p><p>On this episode, we had special guest Aaron Bienenfeld back on the podcast after his epic run at the Hamburg Marathon! Not only did he have an amazing debut for himself, running 2:08 in a competitive field, he also ran the fastest ever German debut marathon time! We got the full recap from race weekend and also talked training and fueling on this episode.</p><p>Aaron also talked about how competitive German marathoning is right now. After some amazing performances so far this Spring and last Fall by German athletes - Aaron is not going to get comfortable at all with his 2:08 time. For now though - his objective moves to trying to make the German team at the European outdoor championships in the 10k!</p><p>FOLLOW AARON</p><p>IG: https://www.instagram.com/aarunfast/</p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
-    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had special guest Aaron Bienenfeld back on the podcast after his epic run at the Hamburg Marathon! Not only did he have an amazing debut for himself, running 2:08 in a competitive field, he also ran the fastest ever German debut marathon time! We got the full recap from race weekend and also talked training and fueling on this episode. Aaron also talked about how competitive German marathoning is right now. After some amazing performances so far this Spring and last Fall by German athletes - Aaron is not going to get comfortable at all with his 2:08 time. For now though - his objective moves to trying to make the German team at the European outdoor championships in the 10k! FOLLOW AARON IG: https://www.instagram.com/aarunfast/ FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
-    episode_uid: a931dabc-56f4-4ab3-bb0a-3dd115784fe3
-    episode_slug: 298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever
-    episode_key: 298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever
     legacy_numbered_slug: episode-25
-    episode_page_url: "/life-in-stride/298-aaron-bienenfeld-running-2-08-at-hamburg-marathon-for-the-fastest-german-debut-ever/"
+    episode_page_url: "/life-in-stride/299-cocodona-250-insane-1500m-times-in-the-ncaa-jager-and-ingebrigtsen-at-copenhagen-marathon/"
   https://publicfeeds.net/f/3492/feed-rss.xml: &48
   - episode_title: 'Bonus Episode: Shout Out to the Divas with Jonquilyn Hill'
     episode_url: https://play.prx.org/listen?ge=prx_3492_e4a16514-75a4-4f0c-ac9c-1898b540d825&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F3492%2Ffeed-rss.xml
@@ -16033,6 +16033,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/that-triathlon-show/what-gordo-byrn-learnt-about-training-load-stress-and-fatigue-management-from-nils-van-der-poel-stephen-seiler-and-olav-/"
   https://feeds.megaphone.fm/rgp4565962324: &54
+  - episode_title: I Just Had Sex (Part 1)
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/10/clrtpod.com/m/arttrk.com/p/SMPL7/arttrk.com/p/ARTS0/traffic.megaphone.fm/RGP7928744804.mp3
+    published_at: '2026-06-18T18:21:00Z'
+    description_html: "<p>On this episode of The Lonely Island and Seth Meyers Podcast we’re talking about the platinum single I Just Had Sex, featured on Turtle Neck and Chain and airing on Season 36 episode 10 on December 18th 2010 and featuring Akon. Before they dive into that, they go over some van names, some SPORTZ content about the Knicks, and an update on Stumblin’ from uncredited collaborator Mike O’Brian. Andy also found some old demos from I Like Sex and they go over the original treatment for the video!\n\nI Just Had Sex (feat. Akon) | <a href=\"https://www.youtube.com/watch?v=lQlIhraqL7o\">https://www.youtube.com/watch?v=lQlIhraqL7o</a>\n\nSend us an email: thelonelyislandpod@gmail.com\n\nSend us a voice note: <a href=\"https://www.speakpipe.com/thelonelyisland\">https://www.speakpipe.com/thelonelyisland</a>\n\nSend us stuff:\nP.O. Box 4024\nNew York, NY 10185\n\nPhotos and everything else can be found by following us on Instagram @lonelymeyerspod\n\n(Not all the clips we mention are available online; some never even aired.)\n\nIf you want to see more photos and clips follow us on Instagram @lonelymeyerspod. Send us an email! thelonelyislandpod@gmail.com\n\nQuince \nElevate your summer bedding. Go to <a href=\"https://Quince.com/island\">https://Quince.com/island</a> for free shipping on your order and 365-day returns. Now available in Canada, too. \n\nCashApp\nDownload Cash App Today: <a href=\"https://capl.onelink.me/vFut/w3eekzve%20\">https://capl.onelink.me/vFut/w3eekzve </a> #CashAppPod.\nCash App is a financial services platform, not a bank. Banking services provided by Cash App’s bank partner(s). Prepaid debit cards issued by Sutton Bank, Member FDIC. Cash App Visa® Debit Flex Cards issued by Sutton Bank, Member FDIC, and The Bancorp Bank, N.A., pursuant to a license from Visa U.S.A. Inc. See terms and conditions for the Sutton prepaid card, Sutton debit flex card, and Bancorp debit flex card.  Savings provided by Cash App, a Block, Inc. brand. Visit cash.app/legal/podcast for full disclosures.\n\nShopify\nSign up for your one-dollar-per-month trial today at <a href=\"https://SHOPIFY.COM/lonelyisland\">https://SHOPIFY.COM/lonelyisland</a></p><p>Learn more about your ad choices. Visit <a href=\"https://megaphone.fm/adchoices\">megaphone.fm/adchoices</a></p>"
+    description_plain: 'On this episode of The Lonely Island and Seth Meyers Podcast we’re talking about the platinum single I Just Had Sex, featured on Turtle Neck and Chain and airing on Season 36 episode 10 on December 18th 2010 and featuring Akon. Before they dive into that, they go over some van names, some SPORTZ content about the Knicks, and an update on Stumblin’ from uncredited collaborator Mike O’Brian. Andy also found some old demos from I Like Sex and they go over the original treatment for the video! I Just Had Sex (feat. Akon) | https://www.youtube.com/watch?v=lQlIhraqL7o Send us an email: thelonelyislandpod@gmail.com Send us a voice note: https://www.speakpipe.com/thelonelyisland Send us stuff: P.O. Box 4024 New York, NY 10185 Photos and everything else can be found by following us on Instagram @lonelymeyerspod (Not all the clips we mention are available online; some never even aired.) If you want to see more photos and clips follow us on Instagram @lonelymeyerspod. Send us an email! thelonelyislandpod@gmail.com Quince Elevate your summer bedding. Go to https://Quince.com/island for free shipping on your order and 365-day returns. Now available in Canada, too. CashApp Download Cash App Today: https://capl.onelink.me/vFut/w3eekzve #CashAppPod. Cash App is a financial services platform, not a bank. Banking services provided by Cash App’s bank partner(s). Prepaid debit cards issued by Sutton Bank, Member FDIC. Cash App Visa® Debit Flex Cards issued by Sutton Bank, Member FDIC, and The Bancorp Bank, N.A., pursuant to a license from Visa U.S.A. Inc. See terms and conditions for the Sutton prepaid card, Sutton debit flex card, and Bancorp debit flex card. Savings provided by Cash App, a Block, Inc. brand. Visit cash.app/legal/podcast for full disclosures. Shopify Sign up for your one-dollar-per-month trial today at https://SHOPIFY.COM/lonelyisland Learn more about your ad choices. Visit megaphone.fm/adchoices'
+    episode_image_url: ''
+    episode_uid: 28882d2c-6b38-11f1-a16c-afdd53a1aaac
+    episode_slug: i-just-had-sex-part-1
+    episode_key: i-just-had-sex-part-1
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/i-just-had-sex-part-1/"
   - episode_title: Stumblin'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/10/clrtpod.com/m/arttrk.com/p/SMPL7/arttrk.com/p/ARTS0/traffic.megaphone.fm/RGP7561182709.mp3
@@ -16043,7 +16055,7 @@ episodes_by_feed:
     episode_uid: 8902215c-646d-11f1-8ecb-0bf159384e18
     episode_slug: stumblin
     episode_key: stumblin
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/stumblin/"
   - episode_title: A Sleepy Lil Ep
     episode_url: ''
@@ -16055,7 +16067,7 @@ episodes_by_feed:
     episode_uid: ced8aca8-5ed4-11f1-b9c7-e3f0a5ec4388
     episode_slug: a-sleepy-lil-ep
     episode_key: a-sleepy-lil-ep
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/a-sleepy-lil-ep/"
   - episode_title: Party at Mr. Bernard's
     episode_url: ''
@@ -16093,7 +16105,7 @@ episodes_by_feed:
     episode_uid: 932ad466-59f6-11f1-b795-9f76d64b45a3
     episode_slug: party-at-mr-bernard-s
     episode_key: party-at-mr-bernard-s
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/party-at-mr-bernard-s/"
   - episode_title: Episode 112
     episode_url: ''
@@ -16105,7 +16117,7 @@ episodes_by_feed:
     episode_uid: 50ead84c-5467-11f1-955e-23ac63dbde4c
     episode_slug: episode-112
     episode_key: episode-112
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/episode-112/"
   - episode_title: We Like Sportz
     episode_url: ''
@@ -16146,7 +16158,7 @@ episodes_by_feed:
     episode_uid: eb139d5e-4e4b-11f1-8ecc-27cd163137f7
     episode_slug: we-like-sportz
     episode_key: we-like-sportz
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/we-like-sportz/"
   - episode_title: What Was That?
     episode_url: ''
@@ -16188,7 +16200,7 @@ episodes_by_feed:
     episode_uid: 1ea2fda4-482a-11f1-9380-a7d89edb465a
     episode_slug: what-was-that
     episode_key: what-was-that
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/what-was-that/"
   - episode_title: Listener Q&A Episode 12
     episode_url: ''
@@ -16225,7 +16237,7 @@ episodes_by_feed:
     episode_uid: bbf0c8a4-434b-11f1-9ef2-331f80f24613
     episode_slug: listener-q-a-episode-12
     episode_key: listener-q-a-episode-12
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-12/"
   - episode_title: Over Your Dead Body
     episode_url: ''
@@ -16237,7 +16249,7 @@ episodes_by_feed:
     episode_uid: 16597104-3df4-11f1-b42e-c34316589f7f
     episode_slug: over-your-dead-body
     episode_key: over-your-dead-body
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/over-your-dead-body/"
   - episode_title: 'Shy Ronnie 2: Ronnie & Clyde'
     episode_url: ''
@@ -16249,7 +16261,7 @@ episodes_by_feed:
     episode_uid: 91905002-3932-11f1-a8e0-6fa445343a7c
     episode_slug: shy-ronnie-2-ronnie-clyde
     episode_key: shy-ronnie-2-ronnie-clyde
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/shy-ronnie-2-ronnie-clyde/"
   - episode_title: I Broke My Arm
     episode_url: ''
@@ -16261,7 +16273,7 @@ episodes_by_feed:
     episode_uid: 43e06984-32f5-11f1-bae8-af5289c7c464
     episode_slug: i-broke-my-arm
     episode_key: i-broke-my-arm
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/i-broke-my-arm/"
   - episode_title: Rescue Dog 3D & Relaxation Therapy
     episode_url: ''
@@ -16273,7 +16285,7 @@ episodes_by_feed:
     episode_uid: 147ac250-2e10-11f1-a43a-2fcc130b5130
     episode_slug: rescue-dog-3d-relaxation-therapy
     episode_key: rescue-dog-3d-relaxation-therapy
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/rescue-dog-3d-relaxation-therapy/"
   - episode_title: Boogerman Part 1&2
     episode_url: ''
@@ -16285,7 +16297,7 @@ episodes_by_feed:
     episode_uid: fa1de020-2952-11f1-a2b5-63cc056c1ccb
     episode_slug: boogerman-part-1-2
     episode_key: boogerman-part-1-2
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/boogerman-part-1-2/"
   - episode_title: The Taccones Live at SXSW
     episode_url: ''
@@ -16297,7 +16309,7 @@ episodes_by_feed:
     episode_uid: 1553aaa8-230b-11f1-9b3b-074613751b3d
     episode_slug: the-taccones-live-at-sxsw
     episode_key: the-taccones-live-at-sxsw
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-taccones-live-at-sxsw/"
   - episode_title: The Heist & Ka-Blamo!
     episode_url: ''
@@ -16309,7 +16321,7 @@ episodes_by_feed:
     episode_uid: 8570a204-1c3b-11f1-8a03-e3e0c608529b
     episode_slug: the-heist-ka-blamo
     episode_key: the-heist-ka-blamo
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-heist-ka-blamo/"
   - episode_title: Episode (Channel) 101
     episode_url: ''
@@ -16321,7 +16333,7 @@ episodes_by_feed:
     episode_uid: d73e1070-16b5-11f1-918f-1b3f153fefe8
     episode_slug: episode-channel-101
     episode_key: episode-channel-101
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/episode-channel-101/"
   - episode_title: 'Episode 100: Turtleneck & Chain Part 2'
     episode_url: ''
@@ -16333,7 +16345,7 @@ episodes_by_feed:
     episode_uid: db03edf6-1138-11f1-b7c0-5b4907291ee9
     episode_slug: episode-100-turtleneck-chain-part-2
     episode_key: episode-100-turtleneck-chain-part-2
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/episode-100-turtleneck-chain-part-2/"
   - episode_title: Just 2 Guyz
     episode_url: ''
@@ -16345,7 +16357,7 @@ episodes_by_feed:
     episode_uid: 6569e0ae-0c25-11f1-beda-cbea782b9ce0
     episode_slug: just-2-guyz
     episode_key: just-2-guyz
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/just-2-guyz/"
   - episode_title: Talkin’ Ads/Turtleneck & Chain Part 1
     episode_url: ''
@@ -16357,7 +16369,7 @@ episodes_by_feed:
     episode_uid: e0cfc332-06f1-11f1-8fca-23ae92726039
     episode_slug: talkin-ads-turtleneck-chain-part-1
     episode_key: talkin-ads-turtleneck-chain-part-1
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/talkin-ads-turtleneck-chain-part-1/"
   - episode_title: Great Day
     episode_url: ''
@@ -16369,7 +16381,7 @@ episodes_by_feed:
     episode_uid: 80334360-0092-11f1-9bee-e7c8be9a36f3
     episode_slug: great-day
     episode_key: great-day
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/great-day/"
   - episode_title: Listener Q&A Episode 11 aka Snow Day
     episode_url: ''
@@ -16381,7 +16393,7 @@ episodes_by_feed:
     episode_uid: 7b77370a-fbfb-11f0-a212-97e1c53f72fa
     episode_slug: listener-q-a-episode-11-aka-snow-day
     episode_key: listener-q-a-episode-11-aka-snow-day
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-11-aka-snow-day/"
   - episode_title: Listener Q&A Episode 10
     episode_url: ''
@@ -16393,7 +16405,7 @@ episodes_by_feed:
     episode_uid: 22da2a34-f5b2-11f0-af68-ab4e0448b002
     episode_slug: listener-q-a-episode-10
     episode_key: listener-q-a-episode-10
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-10/"
   - episode_title: Golden Girls Theme
     episode_url: ''
@@ -16405,7 +16417,7 @@ episodes_by_feed:
     episode_uid: 17de0e06-f036-11f0-8d8a-5f4c6fe6132a
     episode_slug: golden-girls-theme
     episode_key: golden-girls-theme
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/golden-girls-theme/"
   - episode_title: The 2025 Criterion Episode
     episode_url: ''
@@ -16417,7 +16429,7 @@ episodes_by_feed:
     episode_uid: d23a70e6-eaaf-11f0-aaf1-6ba2dc05affc
     episode_slug: the-2025-criterion-episode
     episode_key: the-2025-criterion-episode
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-2025-criterion-episode/"
   - episode_title: The Criterion Episode (2024 Re-release)
     episode_url: ''
@@ -16429,20 +16441,8 @@ episodes_by_feed:
     episode_uid: 96b3d094-e500-11f0-b14f-237d07c9018f
     episode_slug: the-criterion-episode-2024-re-release
     episode_key: the-criterion-episode-2024-re-release
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-criterion-episode-2024-re-release/"
-  - episode_title: Listener Q&A Episode 9
-    episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/10/clrtpod.com/m/arttrk.com/p/SMPL7/arttrk.com/p/ARTS0/traffic.megaphone.fm/RGP3708987137.mp3?updated=1766528331
-    published_at: '2025-12-23T21:59:00Z'
-    description_html: '<p>This week on The Lonely Island and Seth Meyers Podcast, Seth is gone. The guy are answering some of your emails. From Quaid Army Patches to whether or not the ads are good or bad, it’s a real shaggy ep. Have a good holiday!</p><p>Send us an email: thelonelyislandpod@gmail.com Send us a voice note: https://www.speakpipe.com/thelonelyisland</p><p>Send us stuff:  P.O. Box 4024 New York, NY 10185 Photos and everything else can be found by following us on Instagram @lonelymeyerspod</p><p>Support our sponsors:</p><p>Vuori Get 20% off your FIRST purchase. Get yourself some of the most comfortable and versatile clothing on the planet at https://vuori.com/ISLAND</p><p>AG1 Head to https://drinkag1.com/island you’ll get the welcome kit, a Morning Person hat, a bottle of Vitamin D3+K2, a AG1 Flavor Sampler and you’ll get to try their new sleep supplement AGZ for free.   Wonderful Pistachios Grab a bag today.   https://www.wonderfulpistachios.com</p><p>Rula Connect with quality therapists and mental health experts who specialize in you at https://www.rula.com/island  #rulapod</p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>'
-    description_plain: 'This week on The Lonely Island and Seth Meyers Podcast, Seth is gone. The guy are answering some of your emails. From Quaid Army Patches to whether or not the ads are good or bad, it’s a real shaggy ep. Have a good holiday! Send us an email: thelonelyislandpod@gmail.com Send us a voice note: https://www.speakpipe.com/thelonelyisland Send us stuff: P.O. Box 4024 New York, NY 10185 Photos and everything else can be found by following us on Instagram @lonelymeyerspod Support our sponsors: Vuori Get 20% off your FIRST purchase. Get yourself some of the most comfortable and versatile clothing on the planet at https://vuori.com/ISLAND AG1 Head to https://drinkag1.com/island you’ll get the welcome kit, a Morning Person hat, a bottle of Vitamin D3+K2, a AG1 Flavor Sampler and you’ll get to try their new sleep supplement AGZ for free. Wonderful Pistachios Grab a bag today. https://www.wonderfulpistachios.com Rula Connect with quality therapists and mental health experts who specialize in you at https://www.rula.com/island #rulapod Learn more about your ad choices. Visit megaphone.fm/adchoices'
-    episode_image_url: ''
-    episode_uid: 015e2262-dfd1-11f0-b97e-af06843f1093
-    episode_slug: listener-q-a-episode-9
-    episode_key: listener-q-a-episode-9
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-9/"
+    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-criterion-episode-2024-re-release/"
   https://rss.libsyn.com/shows/101338/destinations/535577.xml: &55
   - episode_title: Is Isaac del Toro a Serious Tour de France Contender Now? | Dauphiné Review | THEMOVE
     episode_url: https://stages.libsyn.com/is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphin-review-themove
