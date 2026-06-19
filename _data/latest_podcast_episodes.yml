@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-19T13:13:04Z'
+generated_at: '2026-06-19T15:06:09Z'
 items:
+- podcast_title: FKT Podcast
+  podcast_page_url: "/fkt-podcast/"
+  cover_image: "/media/fkt-podcast.jpeg"
+  feed_url: https://feeds.megaphone.fm/POM8075949892
+  filter_category: trail ultra english
+  episode_title: 'Jamieson Hatt: Ice Age Trail -#287'
+  episode_url: https://fastestknowntime.com
+  audio_url: https://traffic.megaphone.fm/POM2923688213.mp3
+  published_at: '2026-06-19T13:41:00Z'
+  episode_key: jamieson-hatt-ice-age-trail-287
+  episode_slug: jamieson-hatt-ice-age-trail-287
+  episode_page_url: "/fkt-podcast/jamieson-hatt-ice-age-trail-287/"
+- podcast_title: The Extramilest Show
+  podcast_page_url: "/the-extramilest-show/"
+  cover_image: "/media/theextramilestshow236.jpg"
+  feed_url: https://rss.libsyn.com/shows/104231/destinations/557444.xml
+  filter_category: trail ultra english
+  episode_title: "#130: Molly Seidel's Advice to Improve Your Running"
+  episode_url: https://florisgierman.libsyn.com/130-molly-seidels-advice-to-improve-your-running
+  audio_url: https://traffic.libsyn.com/secure/florisgierman/Molly_Seidels_Advice_to_Improve_Your_Running.mp3?dest-id=557444
+  published_at: '2026-06-19T13:20:00+00:00'
+  episode_key: 130-molly-seidel-s-advice-to-improve-your-running
+  episode_slug: 130-molly-seidel-s-advice-to-improve-your-running
+  episode_page_url: "/the-extramilest-show/130-molly-seidel-s-advice-to-improve-your-running/"
 - podcast_title: Second Nature
   podcast_page_url: "/second-nature/"
   cover_image: "/media/secondnaturepodcast.jpeg"
@@ -385,18 +409,6 @@ items:
   episode_key: brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
   episode_slug: brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
   episode_page_url: "/crack-a-brew-with-ajw/brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process/"
-- podcast_title: The Extramilest Show
-  podcast_page_url: "/the-extramilest-show/"
-  cover_image: "/media/theextramilestshow236.jpg"
-  feed_url: https://rss.libsyn.com/shows/104231/destinations/557444.xml
-  filter_category: trail ultra english
-  episode_title: "#129: From Complete Beginner at age 42 to Sub-2 Hour Half Marathon at age 48"
-  episode_url: https://florisgierman.libsyn.com/129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
-  audio_url: https://traffic.libsyn.com/secure/florisgierman/Katja_Podcast_Audio_v2.mp3?dest-id=557444
-  published_at: '2026-06-12T12:08:00+00:00'
-  episode_key: 129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
-  episode_slug: 129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
-  episode_page_url: "/the-extramilest-show/129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48/"
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete/"
   cover_image: "/media/uphillathlete.jpeg"
@@ -445,18 +457,6 @@ items:
   episode_key: 143-andy-glaze-is-back
   episode_slug: 143-andy-glaze-is-back
   episode_page_url: "/choose-strong/143-andy-glaze-is-back/"
-- podcast_title: FKT Podcast
-  podcast_page_url: "/fkt-podcast/"
-  cover_image: "/media/fkt-podcast.jpeg"
-  feed_url: https://feeds.megaphone.fm/POM8075949892
-  filter_category: trail ultra english
-  episode_title: 'Erin Ton: Aconcagua and High Altitude Peaks -#286'
-  episode_url: https://fastestknowntime.com
-  audio_url: https://traffic.megaphone.fm/POM1793671114.mp3
-  published_at: '2026-06-05T09:00:00Z'
-  episode_key: erin-ton-aconcagua-and-high-altitude-peaks-286
-  episode_slug: erin-ton-aconcagua-and-high-altitude-peaks-286
-  episode_page_url: "/fkt-podcast/erin-ton-aconcagua-and-high-altitude-peaks-286/"
 - podcast_title: The Way Of The Runner
   podcast_page_url: "/the-way-of-the-runner/"
   cover_image: "/media/the-way-of-the-runner-podcast.png"
@@ -8182,6 +8182,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/running-long-a-trail-ultra-running-talk/161-voices-from-the-vert-run-community-adina-crawford-trail-running-and-diversity-changing-the-narrative-and-a-memorable/"
   https://rss.libsyn.com/shows/104231/destinations/557444.xml: &26
+  - episode_title: "#130: Molly Seidel's Advice to Improve Your Running"
+    episode_url: https://florisgierman.libsyn.com/130-molly-seidels-advice-to-improve-your-running
+    audio_url: https://traffic.libsyn.com/secure/florisgierman/Molly_Seidels_Advice_to_Improve_Your_Running.mp3?dest-id=557444
+    published_at: '2026-06-19T13:20:00+00:00'
+    description_html: '<p>Thanks to Precision Fuel & Hydration for sponsoring this video! Get 15% off your first order at <a href= "http://visit.pfandh.com/extramilestshow">http://visit.pfandh.com/extramilestshow</a></p><p>Olympic bronze medalist Molly Seidel talks about the mental side of running, how to train your mind, quiet negative self-talk, recover smarter, and stop letting fear of the unknown hold back your running.</p><p dir="ltr"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw">Watch the full video on YouTube</a></p><p dir="ltr">Topics covered:</p><ul><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw">0:00</a> — Molly Seidel: The mental side of running</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=158s">2:38</a> — Morning threshold workouts in Flagstaff</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=249s">4:09</a> — Recovering from Black Canyon & preparing for Western States</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=398s">6:38</a> — Being open to infinite possibilities</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=588s">9:48</a> — Advice for recreational runners</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=783s">13:03</a> — How to train your mind like your body</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=893s">14:53</a> — Mental toughness isn''t about pushing through</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=944s">15:44</a> — Self-talk and learning to be kinder to yourself</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=1203s">20:03</a> — Molly''s approach to heat adaptation</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=1406s">23:26</a> — Moving from marathons to ultrarunning</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=1637s">27:17</a> — Journaling & processing highs and lows</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=1876s">31:16</a> — Social media, boundaries & authenticity</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=2132s">35:32</a> — Data vs feel in training</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=2310s">38:30</a> — Learning how to fuel for ultras</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=2708s">45:08</a> — Mistakes of recreational runners</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=2864s">47:44</a> — Race-day nerves and embracing challenge</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=2977s">49:37</a> — Molly''s advice for her younger self</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=3442s">57:22</a>— Female runners, menstrual cycles & health</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=3724s">1:02:04</a> — Advice for women experiencing cycle loss</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=3993s">1:06:33</a> — Recovery, sleep & naps</p></li><li dir="ltr" aria-level="1"><p dir="ltr" role="presentation"><a href= "https://www.youtube.com/watch?v=OFelJ8TRRVw&t=4292s">1:11:32</a> — How to become a stronger, healthier, happier athlete</p></li></ul><p dir="ltr">Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an Amazon Associate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way.</p><p dir="ltr">FIND MOLLY:</p><p dir="ltr">► INSTAGRAM: <a href= "https://www.instagram.com/bygolly.molly">https://www.instagram.com/bygolly.molly</a></p><p dir="ltr">► STRAVA: <a href= "https://www.strava.com/pros/16553663">https://www.strava.com/pros/16553663</a></p><p dir="ltr">► SUBSTACK: <a href= "https://substack.com/@bygollymolly">https://substack.com/@bygollymolly</a></p><p dir="ltr">► YOUTUBE: <a href= "https://www.youtube.com/@Bygolly.itsmolly">https://www.youtube.com/@Bygolly.itsmolly </a></p><p dir="ltr">LINKS & TOOLS MENTIONED</p><p dir="ltr">► My Personal Best Running Coaching Program: <a href= "https://www.skool.com/personalbest">https://www.skool.com/personalbest</a></p><p dir="ltr">► Precision Fuel and Hydration (Get 15% off your first order): <a href= "http://visit.pfandh.com/extramilestshow">http://visit.pfandh.com/extramilestshow</a></p><p dir="ltr">► Buy my new book Running Breakthroughs: <a href= "https://geni.us/running-breakthroughs">https://geni.us/running-breakthroughs</a></p><p dir="ltr">YOU CAN FIND ME, FLORIS GIERMAN HERE:</p><p dir="ltr">► Podcast: <a href= "https://extramilest.com/podcast/">https://extramilest.com/podcast</a></p><p dir="ltr">► Strava: <a href= "https://www.strava.com/athletes/1329785">https://www.strava.com/athletes/1329785</a></p><p dir="ltr">► Instagram: <a href= "https://www.instagram.com/florisgierman/">https://www.instagram.com/florisgierman</a></p><p dir="ltr">► Extramilest Website: <a href= "https://extramilest.com">https://extramilest.com</a></p><p dir="ltr">► Path Projects Website: <a href= "https://pathprojects.com">https://pathprojects.com</a></p><p dir="ltr">ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete. More info about our running coaching program can be found at <a href= "https://www.skool.com/personalbest">https://www.skool.com/personalbest</a></p><p dir="ltr">Subscribe and hit the bell to see new videos: <a href= "https://bit.ly/Flo-YT">https://bit.ly/Flo-YT</a></p><p dir="ltr">#MollySeidel #RunningPodcast #MarathonTraining #UltraRunning #MentalToughness #RunningMotivation #DistanceRunning #TrailRunning</p>'
+    description_plain: 'Thanks to Precision Fuel & Hydration for sponsoring this video! Get 15% off your first order at http://visit.pfandh.com/extramilestshow Olympic bronze medalist Molly Seidel talks about the mental side of running, how to train your mind, quiet negative self-talk, recover smarter, and stop letting fear of the unknown hold back your running. Watch the full video on YouTube Topics covered: 0:00 — Molly Seidel: The mental side of running 2:38 — Morning threshold workouts in Flagstaff 4:09 — Recovering from Black Canyon & preparing for Western States 6:38 — Being open to infinite possibilities 9:48 — Advice for recreational runners 13:03 — How to train your mind like your body 14:53 — Mental toughness isn''t about pushing through 15:44 — Self-talk and learning to be kinder to yourself 20:03 — Molly''s approach to heat adaptation 23:26 — Moving from marathons to ultrarunning 27:17 — Journaling & processing highs and lows 31:16 — Social media, boundaries & authenticity 35:32 — Data vs feel in training 38:30 — Learning how to fuel for ultras 45:08 — Mistakes of recreational runners 47:44 — Race-day nerves and embracing challenge 49:37 — Molly''s advice for her younger self 57:22 — Female runners, menstrual cycles & health 1:02:04 — Advice for women experiencing cycle loss 1:06:33 — Recovery, sleep & naps 1:11:32 — How to become a stronger, healthier, happier athlete Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an Amazon Associate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way. FIND MOLLY: ► INSTAGRAM: https://www.instagram.com/bygolly.molly ► STRAVA: https://www.strava.com/pros/16553663 ► SUBSTACK: https://substack.com/@bygollymolly ► YOUTUBE: https://www.youtube.com/@Bygolly.itsmolly LINKS & TOOLS MENTIONED ► My Personal Best Running Coaching Program: https://www.skool.com/personalbest ► Precision Fuel and Hydration (Get 15% off your first order): http://visit.pfandh.com/extramilestshow ► Buy my new book Running Breakthroughs: https://geni.us/running-breakthroughs YOU CAN FIND ME, FLORIS GIERMAN HERE: ► Podcast: https://extramilest.com/podcast ► Strava: https://www.strava.com/athletes/1329785 ► Instagram: https://www.instagram.com/florisgierman ► Extramilest Website: https://extramilest.com ► Path Projects Website: https://pathprojects.com ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete. More info about our running coaching program can be found at https://www.skool.com/personalbest Subscribe and hit the bell to see new videos: https://bit.ly/Flo-YT #MollySeidel #RunningPodcast #MarathonTraining #UltraRunning #MentalToughness #RunningMotivation #DistanceRunning #TrailRunning'
+    episode_image_url: ''
+    episode_uid: d4023e85-122d-4a8d-b2e3-77e091362722
+    episode_slug: 130-molly-seidel-s-advice-to-improve-your-running
+    episode_key: 130-molly-seidel-s-advice-to-improve-your-running
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-extramilest-show/130-molly-seidel-s-advice-to-improve-your-running/"
   - episode_title: "#129: From Complete Beginner at age 42 to Sub-2 Hour Half Marathon at age 48"
     episode_url: https://florisgierman.libsyn.com/129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
     audio_url: https://traffic.libsyn.com/secure/florisgierman/Katja_Podcast_Audio_v2.mp3?dest-id=557444
@@ -8192,7 +8204,7 @@ episodes_by_feed:
     episode_uid: 2a6c5096-204d-45d6-bf15-384b05d03be4
     episode_slug: 129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
     episode_key: 129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-extramilest-show/129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48/"
   - episode_title: "#128: How to Overcome Race Nerves and Anxiety with Jude Brewer"
     episode_url: https://florisgierman.libsyn.com/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
@@ -8204,7 +8216,7 @@ episodes_by_feed:
     episode_uid: 53524014-810f-4aae-97f9-b4b969231353
     episode_slug: 128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
     episode_key: 128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-extramilest-show/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer/"
   - episode_title: "#127: Jakob Ingebrigtsen's Advice to Run Faster, For Non-Elites"
     episode_url: https://florisgierman.libsyn.com/127-jakob-ingebrigtsens-advice-to-run-faster-for-non-elites
@@ -8216,7 +8228,7 @@ episodes_by_feed:
     episode_uid: e190dfb9-7395-40d2-a261-cf9aa1c8d6d2
     episode_slug: 127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites
     episode_key: 127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-extramilest-show/127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites/"
   - episode_title: "#126: Coach's Advice to Run & Recover Faster For Recreational Runners"
     episode_url: https://florisgierman.libsyn.com/126-coachs-advice-to-run-recover-faster-for-recreational-runners
@@ -8228,7 +8240,7 @@ episodes_by_feed:
     episode_uid: 148cdb67-0864-43bf-9f23-18ff5c00286c
     episode_slug: 126-coach-s-advice-to-run-recover-faster-for-recreational-runners
     episode_key: 126-coach-s-advice-to-run-recover-faster-for-recreational-runners
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-extramilest-show/126-coach-s-advice-to-run-recover-faster-for-recreational-runners/"
   - episode_title: "#125: Sara Hall's Advice For Non-Elite Runners"
     episode_url: https://florisgierman.libsyn.com/125-sara-halls-advice-for-non-elite-runners
@@ -8240,7 +8252,7 @@ episodes_by_feed:
     episode_uid: 0a2d0889-fab0-427b-9d9d-2eb8c50612ce
     episode_slug: 125-sara-hall-s-advice-for-non-elite-runners
     episode_key: 125-sara-hall-s-advice-for-non-elite-runners
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-extramilest-show/125-sara-hall-s-advice-for-non-elite-runners/"
   - episode_title: "#124: Ryan Hall 2.0 on Strength Training For Runners, Lifting Heavy & Trail Running"
     episode_url: https://florisgierman.libsyn.com/124-ryan-hall-20-on-strength-training-for-runners-lifting-heavy-trail-running
@@ -8252,7 +8264,7 @@ episodes_by_feed:
     episode_uid: c064b0fc-a29a-463b-a30f-25db03f31425
     episode_slug: 124-ryan-hall-2-0-on-strength-training-for-runners-lifting-heavy-trail-running
     episode_key: 124-ryan-hall-2-0-on-strength-training-for-runners-lifting-heavy-trail-running
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-extramilest-show/124-ryan-hall-2-0-on-strength-training-for-runners-lifting-heavy-trail-running/"
   - episode_title: "#123: Why Most Runners Quit Too Early (Not What You Think) | Kerry Ward"
     episode_url: https://florisgierman.libsyn.com/123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward
@@ -8264,7 +8276,7 @@ episodes_by_feed:
     episode_uid: 11069c4d-e62f-4433-a973-ef077840f2a0
     episode_slug: 123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward
     episode_key: 123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-extramilest-show/123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward/"
   - episode_title: "#122: You're Doing Zone 2 Wrong (Even If You Think You're Not) | Scott Johnston Round 2"
     episode_url: https://florisgierman.libsyn.com/122-youre-doing-zone-2-wrong-even-if-you-think-youre-not-scott-johnston-round-2
@@ -8276,7 +8288,7 @@ episodes_by_feed:
     episode_uid: 231824f8-2531-453b-b003-9d3c97bedc9d
     episode_slug: 122-you-re-doing-zone-2-wrong-even-if-you-think-you-re-not-scott-johnston-round-2
     episode_key: 122-you-re-doing-zone-2-wrong-even-if-you-think-you-re-not-scott-johnston-round-2
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-extramilest-show/122-you-re-doing-zone-2-wrong-even-if-you-think-you-re-not-scott-johnston-round-2/"
   - episode_title: "#121: How to Build an Unstoppable Aerobic Engine (Even If Starting From Zero) | Scott Johnston"
     episode_url: https://florisgierman.libsyn.com/121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston
@@ -8288,7 +8300,7 @@ episodes_by_feed:
     episode_uid: bc2cbe5e-90ad-4b29-ad77-b361ad0674b4
     episode_slug: 121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston
     episode_key: 121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-extramilest-show/121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston/"
   - episode_title: "#120: Stress Is Killing Your Running (The Relax Fix You're Missing) with Dr Kasim Al-Mashat"
     episode_url: https://florisgierman.libsyn.com/120-stress-is-killing-your-running-the-relax-fix-youre-missing-with-dr-kasim-al-mashat
@@ -8300,7 +8312,7 @@ episodes_by_feed:
     episode_uid: 23dd984d-7034-48f1-b25f-6254263ef36a
     episode_slug: 120-stress-is-killing-your-running-the-relax-fix-you-re-missing-with-dr-kasim-al-mashat
     episode_key: 120-stress-is-killing-your-running-the-relax-fix-you-re-missing-with-dr-kasim-al-mashat
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-extramilest-show/120-stress-is-killing-your-running-the-relax-fix-you-re-missing-with-dr-kasim-al-mashat/"
   - episode_title: "#119: When Things Get Hard, Say This (It Works in Any Race) with Jeff Pelletier"
     episode_url: https://florisgierman.libsyn.com/119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier
@@ -8312,7 +8324,7 @@ episodes_by_feed:
     episode_uid: 6d78884d-2b7c-41a8-b85b-9b215e14a050
     episode_slug: 119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier
     episode_key: 119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-extramilest-show/119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier/"
   - episode_title: "#118: From Couch to 5K To 3:52 Marathon at 56 with Susan Bayes"
     episode_url: https://florisgierman.libsyn.com/118-from-couch-to-5k-to-352-marathon-at-56-with-susan-bayes
@@ -8324,7 +8336,7 @@ episodes_by_feed:
     episode_uid: 63a293b0-4caa-42b6-93a6-6bc559c206f4
     episode_slug: 118-from-couch-to-5k-to-3-52-marathon-at-56-with-susan-bayes
     episode_key: 118-from-couch-to-5k-to-3-52-marathon-at-56-with-susan-bayes
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-extramilest-show/118-from-couch-to-5k-to-3-52-marathon-at-56-with-susan-bayes/"
   - episode_title: Your Performance Is Dropping? Here's Why | Dr Phil Maffetone
     episode_url: https://florisgierman.libsyn.com/your-performance-is-dropping-heres-why-dr-phil-maffetone
@@ -8336,7 +8348,7 @@ episodes_by_feed:
     episode_uid: f4b8ed2e-4c44-4b61-b557-735afbe04df1
     episode_slug: your-performance-is-dropping-here-s-why-dr-phil-maffetone
     episode_key: your-performance-is-dropping-here-s-why-dr-phil-maffetone
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-extramilest-show/your-performance-is-dropping-here-s-why-dr-phil-maffetone/"
   - episode_title: "#116: Running & Life Breakthroughs: What 20,000 Miles & 100+ Interviews Taught Me"
     episode_url: https://florisgierman.libsyn.com/116-running-life-breakthroughs-what-20000-miles-100-interviews-taught-me
@@ -8348,7 +8360,7 @@ episodes_by_feed:
     episode_uid: 8c5a6276-981c-4bee-8ded-dd2009e3059d
     episode_slug: 116-running-life-breakthroughs-what-20-000-miles-100-interviews-taught-me
     episode_key: 116-running-life-breakthroughs-what-20-000-miles-100-interviews-taught-me
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-extramilest-show/116-running-life-breakthroughs-what-20-000-miles-100-interviews-taught-me/"
   - episode_title: "#115: From Overweight to 19 Marathons in 4 Years (Age 50-54) with Chris Neil"
     episode_url: https://florisgierman.libsyn.com/115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil
@@ -8360,7 +8372,7 @@ episodes_by_feed:
     episode_uid: 628b3fca-8269-4280-9b88-a5d427934f80
     episode_slug: 115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil
     episode_key: 115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-extramilest-show/115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil/"
   - episode_title: "#114: Unstuck Your Running With Lawrence van Lingen (Round 2)"
     episode_url: https://florisgierman.libsyn.com/114-unstuck-your-running-with-lawrence-van-lingen-round-2
@@ -8372,7 +8384,7 @@ episodes_by_feed:
     episode_uid: 793aff53-a26e-4b78-a855-d8367240992c
     episode_slug: 114-unstuck-your-running-with-lawrence-van-lingen-round-2
     episode_key: 114-unstuck-your-running-with-lawrence-van-lingen-round-2
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-extramilest-show/114-unstuck-your-running-with-lawrence-van-lingen-round-2/"
   - episode_title: "#113: How to Finish Every Race Strong | Marathon Tips from My Sister's First Marathon"
     episode_url: https://florisgierman.libsyn.com/113-how-to-finish-every-race-strong-marathon-tips-from-my-sisters-first-marathon
@@ -8384,7 +8396,7 @@ episodes_by_feed:
     episode_uid: '0187f30a-0d94-4b15-b9ba-920a58451315'
     episode_slug: 113-how-to-finish-every-race-strong-marathon-tips-from-my-sister-s-first-marathon
     episode_key: 113-how-to-finish-every-race-strong-marathon-tips-from-my-sister-s-first-marathon
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-extramilest-show/113-how-to-finish-every-race-strong-marathon-tips-from-my-sister-s-first-marathon/"
   - episode_title: "#112: How to Find Your Ideal Heart Rate Zones (Step-by-Step Guide)"
     episode_url: https://florisgierman.libsyn.com/112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide
@@ -8396,7 +8408,7 @@ episodes_by_feed:
     episode_uid: 36be1e85-0afa-4093-90e8-7d1184d5964e
     episode_slug: 112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide
     episode_key: 112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-extramilest-show/112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide/"
   - episode_title: "#111: Pushing Limits in Running, Adventure & Business with COROS CEO Lewis Wu"
     episode_url: https://florisgierman.libsyn.com/111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu
@@ -8408,7 +8420,7 @@ episodes_by_feed:
     episode_uid: 9db38648-3843-4fa6-ad6a-207c0a64e830
     episode_slug: 111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu
     episode_key: 111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-extramilest-show/111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu/"
   - episode_title: "#109: Can You Really Run Faster Than You Think?"
     episode_url: https://florisgierman.libsyn.com/109-can-you-really-run-faster-than-you-think
@@ -8420,7 +8432,7 @@ episodes_by_feed:
     episode_uid: 4ad0d255-692c-4426-8d53-8caf3ce0b664
     episode_slug: 109-can-you-really-run-faster-than-you-think
     episode_key: 109-can-you-really-run-faster-than-you-think
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-extramilest-show/109-can-you-really-run-faster-than-you-think/"
   - episode_title: "#107: Injury-Free Running: Rehab & Prevention with Jay Dicharry"
     episode_url: https://florisgierman.libsyn.com/107-injury-free-running-rehab-prevention-with-jay-dicharry
@@ -8432,7 +8444,7 @@ episodes_by_feed:
     episode_uid: 5a66bb15-5135-48a9-aa2e-13c23a9afc5e
     episode_slug: 107-injury-free-running-rehab-prevention-with-jay-dicharry
     episode_key: 107-injury-free-running-rehab-prevention-with-jay-dicharry
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-extramilest-show/107-injury-free-running-rehab-prevention-with-jay-dicharry/"
   - episode_title: "#106: Running After 40: Lessons To Improve At Any Age, with Sean Lee"
     episode_url: https://florisgierman.libsyn.com/106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee
@@ -8444,7 +8456,7 @@ episodes_by_feed:
     episode_uid: d114112f-f2e0-405c-8a1e-d9dc262accf6
     episode_slug: 106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee
     episode_key: 106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-extramilest-show/106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee/"
   - episode_title: "#105: From Couch & Overweight to Running Marathons in Her 50's, with Ayako Fackenthal"
     episode_url: https://florisgierman.libsyn.com/105-from-couch-overweight-to-running-marathons-in-her-50s-with-ayako-fackenthal
@@ -8456,7 +8468,7 @@ episodes_by_feed:
     episode_uid: e66fcec3-98a1-4b38-ba12-c2073b3aa817
     episode_slug: 105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal
     episode_key: 105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-extramilest-show/105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal/"
   - episode_title: "#104: How Changing Your Mindset Helps Crush Your Runs | With Alex Hutchinson"
     episode_url: https://florisgierman.libsyn.com/how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson
@@ -8468,20 +8480,8 @@ episodes_by_feed:
     episode_uid: a1122f8b-f620-4745-8a6f-63e6b1d791c6
     episode_slug: 104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson
     episode_key: 104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-extramilest-show/104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson/"
-  - episode_title: "#103: Building a Bulletproof Body and Preventing Injuries with Jason Fitzgerald"
-    episode_url: https://florisgierman.libsyn.com/103-building-a-bulletproof-body-and-preventing-injuries-with-jason-fitzgerald
-    audio_url: https://traffic.libsyn.com/secure/florisgierman/Run_Pain-Free_FOREVER.mp3?dest-id=557444
-    published_at: '2025-06-27T05:00:00+00:00'
-    description_html: '<p>Thanks to LMNT for sponsoring this video! Head to <a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEdMYV9QbUdmTWtTWGlnaUxNcS1aYVRhX1B3QXxBQ3Jtc0tsQlA2WGhZQ3RnTkViaklZTW83clBjYWVJV3RINXVoT0VUV2VMUDRTTWY5NlhYQ1ladHAxUXJ1ZVlqR0hjZXNGUV9FRkxFNDlmckpQS1dvVUpPZ1dSeWxSeDM4WlNWZkw1MWdCNlVDcC1wcEVraEc1WQ&q=https%3A%2F%2FDrinkLMNT.com%2FFLO&v=J7Mn9J30bGA" target="_blank" rel= "nofollow noopener">https://DrinkLMNT.com/FLO</a> to get your free sample pack with any purchase. In this episode, running coach and Strength Running podcast host Jason Fitzgerald shares his deep knowledge on preventing injuries, building a bulletproof body, and staying consistent in training.</p><p>Learn more about the Personal Best Running Coaching Program at <a href= "https://www.pbprogram.com/">https://www.pbprogram.com/</a></p><p>Watch this full video on YouTube: <a href= "https://www.youtube.com/watch?v=J7Mn9J30bGA">https://www.youtube.com/watch?v=J7Mn9J30bGA</a></p><p>Chapters:</p><ul><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href="https://www.youtube.com/watch?v=J7Mn9J30bGA" target="">0:00</a> – How to prevent running injuries and build a stronger body</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=50s" target= "">0:50</a> – Intro: Running injuries can derail your progress, here''s how to avoid them</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=117s" target= "">1:57</a> – LMNT Sponsorship</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=166s" target= "">2:46</a> – How many runners get injured each year? (Surprising stats!)</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=320s" target= "">5:20</a> – Top reasons runners get injured</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=450s" target= "">7:30</a> – How to know when to stop or keep running through pain</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=762s" target= "">12:42</a> – Why journaling helps you avoid injury and train smarter</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=878s" target= "">14:38</a> – Signs your body needs rest</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=979s" target= "">16:19</a> – Strength & mobility routines to stay injury-free</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=1338s" target= "">22:18</a> – Cross-training options that support your running goals</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=1668s" target= "">27:48</a> – Pool running: how it works and why it''s so effective</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=1899s" target= "">31:39</a> – Budget-friendly gear for strength & mobility</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=2021s" target= "">33:41</a> – Choosing the right kettlebell weight for runners</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=2225s" target= "">37:05</a> – How and when to use foam rollers effectively</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=2677s" target= "">44:37</a> – Strength training advice for runners in their 30s, 40s, 50s+</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=2893s" target= "">48:13</a> – Big takeaways from coaching elites and everyday runners</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=3440s" target= "">57:20</a> – Mental strategies for dealing with injury</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=J7Mn9J30bGA&t=3657s" target= "">1:00:57</a> – How to become a stronger, healthier, and happier athlete</li></ul><p>FIND JASON FITZGERALD:</p><p>► Podcast: <a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa1EzZExhVFJwclhUb2pGTWJMdHVDWTBEblZEd3xBQ3Jtc0ttYmM2MXhlZzIxTi04QXBGX2w3MVl3U202Um9WeURpRTJwUnJ5NmctS18wV19NbHhCU3g3c1BpSDhzMjBpQVpCQ0ZVSGZ6Wi1pUGhmckM4UzlZRmF4b1FqLW5qTkF0c2JfZWRrcFBFTTZ4N1BjV3Nkcw&q=https%3A%2F%2Fstrengthrunning.com%2Fcategory%2Fpodcast%2F&v=J7Mn9J30bGA" target="_blank" rel= "nofollow noopener">https://apple.co/2L19km1</a></p><p>► Website: <a href= "https://strengthrunning.com/">https://strengthrunning.com/</a></p><p>► YouTube: <a href= "https://www.youtube.com/strengthrunning">https://www.youtube.com/strengthrunning</a></p><p>► Training: <a href= "http://bit.ly/2YgBLAv">http://bit.ly/2YgBLAv</a></p><p>LINKS & TOOLS MENTIONED</p><p>► Interview with Matt Fitzgerald: <a href= "https://www.youtube.com/watch?v=VkDYXUI1x08">https://www.youtube.com/watch?v=VkDYXUI1x08</a></p><p>► Interview with Andy Wheatcroft: <a href= "https://www.youtube.com/watch?v=IIGKMA3b8dc">https://www.youtube.com/watch?v=IIGKMA3b8dc</a></p><p>► Interview with Dr Rangan Chatterjee: <a href= "https://www.youtube.com/watch?v=mF0CCpy3Dzo">https://www.youtube.com/watch?v=mF0CCpy3Dzo</a></p><p>► Resistance Bands: <a href= "https://amzn.to/3TeGktk">https://amzn.to/3TeGktk</a></p><p>► Kettlebells: <a href= "https://amzn.to/3TGW3kW">https://amzn.to/3TGW3kW</a></p><p>► Foam Roller: <a href= "https://amzn.to/3T7Aaey">https://amzn.to/3T7Aaey</a></p><p>► Vibrating Foam Roller: <a href= "https://amzn.to/4lu1fEY">https://amzn.to/4lu1fEY</a></p><p>► Massage Gun: <a href= "https://amzn.to/4ktVmqt">https://amzn.to/4ktVmqt</a></p><p>► Aqua Jogging Belt: <a href= "https://amzn.to/4kbpp5Y">https://amzn.to/4kbpp5Y</a></p><p>► Training Journal: <a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVFXTnlIdTMxR1pFUlNZejVVSTQ4WUZvQ2czUXxBQ3Jtc0tsOFc4TzVLOG1qR0xSMU1NcEt2TUlCY0VlbFNBZi15OFR1Q0d6QnEzbFhyMlhWOW90bE9xSDZvLU5BTHExbThESzg4VVdURXY3Mm1BU1p3a083eFJjN1lWcnVDZm9iYlZ0VWVfQjl1ZlJEQjI5UWN2OA&q=https%3A%2F%2Fstrengthrunning.com%2Fthe-performance-training-journal%2F&v=J7Mn9J30bGA" target="_blank" rel= "nofollow noopener">https://strengthrunning.com/the-perfo...</a></p><p>YOU CAN FIND ME, COACH FLORIS GIERMAN HERE:</p><p>► Our Personal Best Coaching Program: <a href= "https://www.pbprogram.com/">https://www.pbprogram.com/</a></p><p>► Free Weekly Running Newsletter: <a href= "https://extramilest.com/subscribe">https://extramilest.com/subscribe</a></p><p>► YouTube: <a href= "https://www.youtube.com/florisgierman">https://www.youtube.com/florisgierman</a></p><p>► Strava: <a href= "https://www.strava.com/athletes/1329785">https://www.strava.com/athletes/1329785</a></p><p>► Instagram: <a href= "https://www.instagram.com/florisgierman">https://www.instagram.com/florisgierman</a></p><p>► Extramilest: <a href= "https://extramilest.com/">https://extramilest.com/</a></p><p>► Path Projects: <a href= "https://pathprojects.com/flo">https://pathprojects.com/flo</a></p><p>► Podcast: <a href= "https://extramilest.com/podcast/">https://extramilest.com/podcast/</a></p><p>Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an affiliate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way.</p><p>ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete.</p><p>More info about our Personal Best Running Coaching Program can be found at <a href= "https://www.pbprogram.com/">https://www.pbprogram.com</a>.</p><p>SUBSCRIBE and hit the bell to see new videos: <a href= "https://bit.ly/Flo-YT">https://bit.ly/Flo-YT</a></p>'
-    description_plain: 'Thanks to LMNT for sponsoring this video! Head to https://DrinkLMNT.com/FLO to get your free sample pack with any purchase. In this episode, running coach and Strength Running podcast host Jason Fitzgerald shares his deep knowledge on preventing injuries, building a bulletproof body, and staying consistent in training. Learn more about the Personal Best Running Coaching Program at https://www.pbprogram.com/ Watch this full video on YouTube: https://www.youtube.com/watch?v=J7Mn9J30bGA Chapters: 0:00 – How to prevent running injuries and build a stronger body 0:50 – Intro: Running injuries can derail your progress, here''s how to avoid them 1:57 – LMNT Sponsorship 2:46 – How many runners get injured each year? (Surprising stats!) 5:20 – Top reasons runners get injured 7:30 – How to know when to stop or keep running through pain 12:42 – Why journaling helps you avoid injury and train smarter 14:38 – Signs your body needs rest 16:19 – Strength & mobility routines to stay injury-free 22:18 – Cross-training options that support your running goals 27:48 – Pool running: how it works and why it''s so effective 31:39 – Budget-friendly gear for strength & mobility 33:41 – Choosing the right kettlebell weight for runners 37:05 – How and when to use foam rollers effectively 44:37 – Strength training advice for runners in their 30s, 40s, 50s+ 48:13 – Big takeaways from coaching elites and everyday runners 57:20 – Mental strategies for dealing with injury 1:00:57 – How to become a stronger, healthier, and happier athlete FIND JASON FITZGERALD: ► Podcast: https://apple.co/2L19km1 ► Website: https://strengthrunning.com/ ► YouTube: https://www.youtube.com/strengthrunning ► Training: http://bit.ly/2YgBLAv LINKS & TOOLS MENTIONED ► Interview with Matt Fitzgerald: https://www.youtube.com/watch?v=VkDYXUI1x08 ► Interview with Andy Wheatcroft: https://www.youtube.com/watch?v=IIGKMA3b8dc ► Interview with Dr Rangan Chatterjee: https://www.youtube.com/watch?v=mF0CCpy3Dzo ► Resistance Bands: https://amzn.to/3TeGktk ► Kettlebells: https://amzn.to/3TGW3kW ► Foam Roller: https://amzn.to/3T7Aaey ► Vibrating Foam Roller: https://amzn.to/4lu1fEY ► Massage Gun: https://amzn.to/4ktVmqt ► Aqua Jogging Belt: https://amzn.to/4kbpp5Y ► Training Journal: https://strengthrunning.com/the-perfo... YOU CAN FIND ME, COACH FLORIS GIERMAN HERE: ► Our Personal Best Coaching Program: https://www.pbprogram.com/ ► Free Weekly Running Newsletter: https://extramilest.com/subscribe ► YouTube: https://www.youtube.com/florisgierman ► Strava: https://www.strava.com/athletes/1329785 ► Instagram: https://www.instagram.com/florisgierman ► Extramilest: https://extramilest.com/ ► Path Projects: https://pathprojects.com/flo ► Podcast: https://extramilest.com/podcast/ Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an affiliate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way. ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete. More info about our Personal Best Running Coaching Program can be found at https://www.pbprogram.com . SUBSCRIBE and hit the bell to see new videos: https://bit.ly/Flo-YT'
-    episode_image_url: ''
-    episode_uid: 259d95d0-21d1-441e-adfd-bc677fd478bd
-    episode_slug: 103-building-a-bulletproof-body-and-preventing-injuries-with-jason-fitzgerald
-    episode_key: 103-building-a-bulletproof-body-and-preventing-injuries-with-jason-fitzgerald
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-extramilest-show/103-building-a-bulletproof-body-and-preventing-injuries-with-jason-fitzgerald/"
+    episode_page_url: "/the-extramilest-show/104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson/"
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &27
   - episode_title: World Cup Water Breaks / What Will It Take to Break the 800m WR? / College Sprinting Goes Wild / Does Remco Have the Watts to Match Pogacar?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/world-cup-water-breaks-college-sprinting-goes-wild-what-will
@@ -23254,8 +23254,8 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KVBBAP1A06XXHGVQG2Z74VTN.mp3
     published_at: '2026-06-18T05:00:00Z'
-    description_html: '<p class="text-node">US Vice President JD Vance reveals the inside story of the Iran peace deal, how his mother''s opioid addiction shaped him, why he went from angry atheist to baptised Christian, and how Donald Trump operates behind closed doors!  JD Vance is the 50th Vice President of the United States, serving under President Donald Trump. A Yale Law School graduate and former US Senator for Ohio, he is the bestselling author of ''Hillbilly Elegy'' and his new book ''Communion: Finding My Way Back to Faith''.</p><p class="text-node">He explains:</p><p class="text-node">◼️Why one stable person in your childhood can determine your entire future</p><p class="text-node">◼️Why he went from calling Trump ''America''s Hitler'' to becoming his Vice President</p><p class="text-node">◼️Why governments lying to young people about war are destroying the West</p><p class="text-node">◼️Why AI won''t take your job but will make the rich dramatically richer</p><p class="text-node">◼️Why the speed of immigration is what really divides communities</p><p class="text-node">00:00 Intro</p><p class="text-node">02:38 How Childhood Shaped Who You Became</p><p class="text-node">05:34 You Were Put Up For Adoption</p><p class="text-node">06:40 Watching Your Mother''s Relationships Up Close</p><p class="text-node">07:42 How Childhood Trauma Shapes Adults</p><p class="text-node">10:13 How Addiction Tore The Family Apart</p><p class="text-node">15:58 Why Empathy Is Missing In Politics</p><p class="text-node">17:48 Why Politics Turns Opponents Into Villains</p><p class="text-node">19:15 Trump''s Immigration Rhetoric Explained</p><p class="text-node">22:44 Can You Discuss Immigration Without Division?</p><p class="text-node">24:56 Moving Into An All-White Neighborhood</p><p class="text-node">28:16 How Political Messaging Creates Division</p><p class="text-node">30:36 Would You Cross A Border For Your Family?</p><p class="text-node">33:29 Why You Joined The Marine Corps</p><p class="text-node">36:28 Why George W. Bush Frustrated You</p><p class="text-node">39:00 Ads</p><p class="text-node">41:05 The War With Iran</p><p class="text-node">48:16 Iran''s Most Powerful Weapon</p><p class="text-node">51:06 Could Iran Wait Out Trump?</p><p class="text-node">52:01 The Real Deal With Iran</p><p class="text-node">53:08 What''s Inside The Iran Term Sheet?</p><p class="text-node">55:42 What Happens To Iran''s Nuclear Material?</p><p class="text-node">56:28 Can Inspectors Stop Secret Nuclear Programs?</p><p class="text-node">57:33 Trump''s Message To Netanyahu</p><p class="text-node">58:40 Do You Trust Israel?</p><p class="text-node">59:35 Why The US And Israel Are So Closely Linked</p><p class="text-node">01:02:07 What Does Netanyahu Really Want?</p><p class="text-node">01:03:13 Why Your Views On Trump Changed</p><p class="text-node">01:06:43 What You Learned Behind Closed Doors</p><p class="text-node">01:09:02 The Call To Become Vice President</p><p class="text-node">01:11:24 Ads</p><p class="text-node">01:12:23 Did You Know What You Were Signing Up For?</p><p class="text-node">01:14:53 How Becoming VP Changed Your Family</p><p class="text-node">01:19:14 What Surprised Your Wife Most</p><p class="text-node">01:20:16 Does The Secret Service Control Your Life?</p><p class="text-node">01:21:40 Why Faith Came Back Into Your Life</p><p class="text-node">01:23:41 When You Realized Faith Matters</p><p class="text-node">01:27:33 What AI Means For America''s Future</p><p class="text-node">01:28:20 Are You Worried About AI Job Loss?</p><p class="text-node">01:37:07 Should America Own The Biggest AI Companies?</p><p class="text-node">01:38:43 What Mamaw Would Think Today</p><p class="text-node">01:42:31 Are Aliens Real?</p><p class="text-node">You can pre-order JD Vance’s book, ‘Communion: Finding My Way Back to Faith’, here: <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/4LtlJPz">https://link.thediaryofaceo.com/4LtlJPz</a></p><p class="text-node">The Diary Of A CEO:</p><p class="text-node">◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a></p><p class="text-node">◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a></p><p class="text-node">◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a></p><p class="text-node">◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a></p><p class="text-node">◼ Get email updates - <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a></p><p class="text-node">◼ Follow Steven - <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors:</p><p class="text-node">Flightcast - Check out <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.flightcast.com/DOAC4">https://www.flightcast.com/DOAC</a> Ketone - Go to <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/steven">https://ketone.com/steven</a> to enter to win! no purchase necessary, terms and conditions apply. HeyGen - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://heygen.com/doac">https://heygen.com/doac</a></p>'
-    description_plain: 'US Vice President JD Vance reveals the inside story of the Iran peace deal, how his mother''s opioid addiction shaped him, why he went from angry atheist to baptised Christian, and how Donald Trump operates behind closed doors! JD Vance is the 50th Vice President of the United States, serving under President Donald Trump. A Yale Law School graduate and former US Senator for Ohio, he is the bestselling author of ''Hillbilly Elegy'' and his new book ''Communion: Finding My Way Back to Faith''. He explains: ◼️Why one stable person in your childhood can determine your entire future ◼️Why he went from calling Trump ''America''s Hitler'' to becoming his Vice President ◼️Why governments lying to young people about war are destroying the West ◼️Why AI won''t take your job but will make the rich dramatically richer ◼️Why the speed of immigration is what really divides communities 00:00 Intro 02:38 How Childhood Shaped Who You Became 05:34 You Were Put Up For Adoption 06:40 Watching Your Mother''s Relationships Up Close 07:42 How Childhood Trauma Shapes Adults 10:13 How Addiction Tore The Family Apart 15:58 Why Empathy Is Missing In Politics 17:48 Why Politics Turns Opponents Into Villains 19:15 Trump''s Immigration Rhetoric Explained 22:44 Can You Discuss Immigration Without Division? 24:56 Moving Into An All-White Neighborhood 28:16 How Political Messaging Creates Division 30:36 Would You Cross A Border For Your Family? 33:29 Why You Joined The Marine Corps 36:28 Why George W. Bush Frustrated You 39:00 Ads 41:05 The War With Iran 48:16 Iran''s Most Powerful Weapon 51:06 Could Iran Wait Out Trump? 52:01 The Real Deal With Iran 53:08 What''s Inside The Iran Term Sheet? 55:42 What Happens To Iran''s Nuclear Material? 56:28 Can Inspectors Stop Secret Nuclear Programs? 57:33 Trump''s Message To Netanyahu 58:40 Do You Trust Israel? 59:35 Why The US And Israel Are So Closely Linked 01:02:07 What Does Netanyahu Really Want? 01:03:13 Why Your Views On Trump Changed 01:06:43 What You Learned Behind Closed Doors 01:09:02 The Call To Become Vice President 01:11:24 Ads 01:12:23 Did You Know What You Were Signing Up For? 01:14:53 How Becoming VP Changed Your Family 01:19:14 What Surprised Your Wife Most 01:20:16 Does The Secret Service Control Your Life? 01:21:40 Why Faith Came Back Into Your Life 01:23:41 When You Realized Faith Matters 01:27:33 What AI Means For America''s Future 01:28:20 Are You Worried About AI Job Loss? 01:37:07 Should America Own The Biggest AI Companies? 01:38:43 What Mamaw Would Think Today 01:42:31 Are Aliens Real? You can pre-order JD Vance’s book, ‘Communion: Finding My Way Back to Faith’, here: https://link.thediaryofaceo.com/4LtlJPz The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Flightcast - Check out https://www.flightcast.com/DOAC Ketone - Go to https://ketone.com/steven to enter to win! no purchase necessary, terms and conditions apply. HeyGen - https://heygen.com/doac'
+    description_html: '<p class="text-node">US Vice President JD Vance reveals the inside story of the Iran peace deal, how his mother''s opioid addiction shaped him, why he went from angry atheist to baptised Christian, and how Donald Trump operates behind closed doors!  JD Vance is the 50th Vice President of the United States, serving under President Donald Trump. A Yale Law School graduate and former US Senator for Ohio, he is the bestselling author of ''Hillbilly Elegy'' and his new book ''Communion: Finding My Way Back to Faith''.</p><p class="text-node">He explains:</p><p class="text-node">◼️Why one stable person in your childhood can determine your entire future</p><p class="text-node">◼️Why he went from calling Trump ''America''s Hitler'' to becoming his Vice President</p><p class="text-node">◼️Why governments lying to young people about war are destroying the West</p><p class="text-node">◼️Why AI won''t take your job but will make the rich dramatically richer</p><p class="text-node">◼️Why the speed of immigration is what really divides communities</p><p class="text-node">00:00 Intro</p><p class="text-node">02:38 How Childhood Shaped Who You Became</p><p class="text-node">05:34 You Were Put Up For Adoption</p><p class="text-node">06:40 Watching Your Mother''s Relationships Up Close</p><p class="text-node">07:42 How Childhood Trauma Shapes Adults</p><p class="text-node">10:13 How Addiction Tore The Family Apart</p><p class="text-node">15:58 Why Empathy Is Missing In Politics</p><p class="text-node">17:48 Why Politics Turns Opponents Into Villains</p><p class="text-node">19:15 Trump''s Immigration Rhetoric Explained</p><p class="text-node">22:44 Can You Discuss Immigration Without Division?</p><p class="text-node">24:56 Moving Into An All-White Neighborhood</p><p class="text-node">28:16 How Political Messaging Creates Division</p><p class="text-node">30:36 Would You Cross A Border For Your Family?</p><p class="text-node">33:29 Why You Joined The Marine Corps</p><p class="text-node">36:28 Why George W. Bush Frustrated You</p><p class="text-node">39:00 Ads</p><p class="text-node">41:05 The War With Iran</p><p class="text-node">48:16 Iran''s Most Powerful Weapon</p><p class="text-node">51:06 Could Iran Wait Out Trump?</p><p class="text-node">52:01 The Real Deal With Iran</p><p class="text-node">53:08 What''s Inside The Iran Term Sheet?</p><p class="text-node">55:42 What Happens To Iran''s Nuclear Material?</p><p class="text-node">56:28 Can Inspectors Stop Secret Nuclear Programs?</p><p class="text-node">57:33 Trump''s Message To Netanyahu</p><p class="text-node">58:40 Do You Trust Israel?</p><p class="text-node">59:35 Why The US And Israel Are So Closely Linked</p><p class="text-node">01:02:07 What Does Netanyahu Really Want?</p><p class="text-node">01:03:13 Why Your Views On Trump Changed</p><p class="text-node">01:06:43 What You Learned Behind Closed Doors</p><p class="text-node">01:09:02 The Call To Become Vice President</p><p class="text-node">01:11:24 Ads</p><p class="text-node">01:12:23 Did You Know What You Were Signing Up For?</p><p class="text-node">01:14:53 How Becoming VP Changed Your Family</p><p class="text-node">01:19:14 What Surprised Your Wife Most</p><p class="text-node">01:20:16 Does The Secret Service Control Your Life?</p><p class="text-node">01:21:40 Why Faith Came Back Into Your Life</p><p class="text-node">01:23:41 When You Realized Faith Matters</p><p class="text-node">01:27:33 What AI Means For America''s Future</p><p class="text-node">01:28:20 Are You Worried About AI Job Loss?</p><p class="text-node">01:37:07 Should America Own The Biggest AI Companies?</p><p class="text-node">01:38:43 What Mamaw Would Think Today</p><p class="text-node">01:42:31 Are Aliens Real?</p><p class="text-node">You can pre-order JD Vance’s book, ‘Communion: Finding My Way Back to Faith’, here: <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/4LtlJPz">https://link.thediaryofaceo.com/4LtlJPz</a></p><p class="text-node">The Diary Of A CEO:</p><p class="text-node">◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a></p><p class="text-node">◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a></p><p class="text-node">◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a></p><p class="text-node">◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a></p><p class="text-node">◼ Get email updates - <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a></p><p class="text-node">◼ Follow Steven - <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors:</p><p class="text-node">Flightcast - Check out <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.flightcast.com/DOAC4">https://www.flightcast.com/DOAC</a>4 Ketone - Go to <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/steven">https://ketone.com/steven</a> to enter to win! no purchase necessary, terms and conditions apply. HeyGen - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://heygen.com/doac">https://heygen.com/doac</a></p>'
+    description_plain: 'US Vice President JD Vance reveals the inside story of the Iran peace deal, how his mother''s opioid addiction shaped him, why he went from angry atheist to baptised Christian, and how Donald Trump operates behind closed doors! JD Vance is the 50th Vice President of the United States, serving under President Donald Trump. A Yale Law School graduate and former US Senator for Ohio, he is the bestselling author of ''Hillbilly Elegy'' and his new book ''Communion: Finding My Way Back to Faith''. He explains: ◼️Why one stable person in your childhood can determine your entire future ◼️Why he went from calling Trump ''America''s Hitler'' to becoming his Vice President ◼️Why governments lying to young people about war are destroying the West ◼️Why AI won''t take your job but will make the rich dramatically richer ◼️Why the speed of immigration is what really divides communities 00:00 Intro 02:38 How Childhood Shaped Who You Became 05:34 You Were Put Up For Adoption 06:40 Watching Your Mother''s Relationships Up Close 07:42 How Childhood Trauma Shapes Adults 10:13 How Addiction Tore The Family Apart 15:58 Why Empathy Is Missing In Politics 17:48 Why Politics Turns Opponents Into Villains 19:15 Trump''s Immigration Rhetoric Explained 22:44 Can You Discuss Immigration Without Division? 24:56 Moving Into An All-White Neighborhood 28:16 How Political Messaging Creates Division 30:36 Would You Cross A Border For Your Family? 33:29 Why You Joined The Marine Corps 36:28 Why George W. Bush Frustrated You 39:00 Ads 41:05 The War With Iran 48:16 Iran''s Most Powerful Weapon 51:06 Could Iran Wait Out Trump? 52:01 The Real Deal With Iran 53:08 What''s Inside The Iran Term Sheet? 55:42 What Happens To Iran''s Nuclear Material? 56:28 Can Inspectors Stop Secret Nuclear Programs? 57:33 Trump''s Message To Netanyahu 58:40 Do You Trust Israel? 59:35 Why The US And Israel Are So Closely Linked 01:02:07 What Does Netanyahu Really Want? 01:03:13 Why Your Views On Trump Changed 01:06:43 What You Learned Behind Closed Doors 01:09:02 The Call To Become Vice President 01:11:24 Ads 01:12:23 Did You Know What You Were Signing Up For? 01:14:53 How Becoming VP Changed Your Family 01:19:14 What Surprised Your Wife Most 01:20:16 Does The Secret Service Control Your Life? 01:21:40 Why Faith Came Back Into Your Life 01:23:41 When You Realized Faith Matters 01:27:33 What AI Means For America''s Future 01:28:20 Are You Worried About AI Job Loss? 01:37:07 Should America Own The Biggest AI Companies? 01:38:43 What Mamaw Would Think Today 01:42:31 Are Aliens Real? You can pre-order JD Vance’s book, ‘Communion: Finding My Way Back to Faith’, here: https://link.thediaryofaceo.com/4LtlJPz The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Flightcast - Check out https://www.flightcast.com/DOAC 4 Ketone - Go to https://ketone.com/steven to enter to win! no purchase necessary, terms and conditions apply. HeyGen - https://heygen.com/doac'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KVBBCC5149ZHSYCBVFJ2Z3EC/jd_vance_ep_cover_.pfinal_1ng.jpg
     episode_uid: flightcast-01kvbbap1azyt30q74j6n4cm84
     episode_slug: vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real
@@ -23266,8 +23266,8 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KV1ANNH3K4XZ9V9D3NRE9A7C.mp3
     published_at: '2026-06-15T05:00:00Z'
-    description_html: '<p class="text-node">What is creatine really doing to your brain? Top Creatine Researcher Dr Darren Candow reveals why 5g won’t reach your brain, how creatine may reverse sleep deprivation, and the 5 myths stopping millions from taking it!  Dr Darren Candow is a professor and Director of the Ageing Muscle and Bone Health Laboratory at the University of Regina, with 175 published research papers. He is a fellow and incoming Vice-President of the International Society of Sports Nutrition and was named on Stanford University''s Top 2% Scientists list in 2025.</p><p class="text-node">He explains:</p><p class="text-node">◼ The 5 myths stopping you from taking creatine, and why they''re all wrong</p><p class="text-node">◼ How much creatine you really need for muscle, bone, brain and sleep deprivation</p><p class="text-node">◼ How adding creatine to your antidepressant can double your remission rate</p><p class="text-node">◼ Why you lose 1% of your muscle every year after 40 and what to do about it</p><p class="text-node">◼Why creatine protects your brain from stress, sleep loss and cognitive decline</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:26</strong> What is the mission that you''re on?</li><li><strong>00:04:14</strong> Why has creatine exploded?</li><li><strong>00:06:30</strong> Are we deficient in creatine?</li><li><strong>00:08:14</strong> Does creatine damage your kidneys?</li><li><strong>00:10:32</strong> If I have creatine in my muscle, am I more likely to gain muscle?</li><li><strong>00:11:50</strong> Should women take creatine?</li><li><strong>00:12:31</strong> Will creatine cause hair loss?</li><li><strong>00:13:36</strong> Creatine causes muscle cramps?</li><li><strong>00:16:28</strong> How effective is creatine in gaining muscle mass?</li><li><strong>00:18:08</strong> Is the "loading phase" unnecessary?</li><li><strong>00:19:06</strong> Is there anyone that shouldn''t take creatine?</li><li><strong>00:19:41</strong> Whats the best type of creatine to take?</li><li><strong>00:21:31</strong> The Dosing Dilemma - How much to take for each benefit?</li><li><strong>00:22:43</strong> Does creatine cause dizziness?</li><li><strong>00:24:49</strong> Taste test</li><li><strong>00:25:38</strong> The best dosage for bone health</li><li><strong>00:34:20</strong> What are the brain benefits of creatine?</li><li><strong>00:36:51</strong> Anything else to know about creatine''s impact on the brain?</li><li><strong>00:38:06</strong> Ads</li><li><strong>00:40:13</strong> Does creatine help with inflammation?</li><li><strong>00:41:28</strong> Using creatine for Alzheimer''s</li><li><strong>00:42:45</strong> Does creatine have an impact on our mental health?</li><li><strong>00:44:39</strong> What are foods I can eat that would supply creatine?</li><li><strong>00:45:03</strong> Study that showed creatine improved young athletes'' sleep</li><li><strong>00:47:43</strong> The importance of weight training</li><li><strong>00:48:12</strong> What are the misconceptions about weight training?</li><li><strong>00:50:58</strong> Why is exercise more important as we get older?</li><li><strong>00:52:46</strong> Combining protein and creatine</li><li><strong>00:53:55</strong> Ads</li><li><strong>00:54:56</strong> How creatine helps menopausal and post-menopausal women</li><li><strong>00:56:00</strong> Is creatine safe for kids and people in general?</li><li><strong>00:57:09</strong> What''s the best time to take creatine?</li><li><strong>00:58:15</strong> What do you think of creatine gummies?</li><li><strong>01:00:44</strong> What supplements do you take other than creatine?</li><li><strong>01:02:52</strong> Are there any direct weight benefits to creatine?</li><li><strong>01:04:18</strong> What differences will I notice when taking creatine?</li><li><strong>01:06:42</strong> Whats your health routine?</li><li><strong>01:08:31</strong> Do different people need to dose differently?</li><li><strong>01:10:45</strong> How do you define ageing?</li><li><strong>01:12:04</strong> What is your goal?</li><li><strong>01:13:05</strong> Fear of death</li></ul></p><p class="text-node">Follow Darren:</p><p class="text-node">Instagram - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/EIZm0wm">https://link.thediaryofaceo.com/EIZm0wm</a></p><p class="text-node">X - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/5AUqbZD">https://link.thediaryofaceo.com/5AUqbZD</a></p><p class="text-node">The Diary Of A CEO:</p><p class="text-node">◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a></p><p class="text-node">◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a></p><p class="text-node">◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a></p><p class="text-node">◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a></p><p class="text-node">◼ Get email updates - <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a></p><p class="text-node">◼ Follow Steven - <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors:</p><p class="text-node">Flightcast - Check out <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://www.flightcast.com/DOAC1">https://www.flightcast.com/DOAC1</a></p><p class="text-node">Stan - Visit <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9">https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9</a></p><p class="text-node">BonCharge - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://boncharge.com/DOAC">https://boncharge.com/DOAC</a></p>'
-    description_plain: 'What is creatine really doing to your brain? Top Creatine Researcher Dr Darren Candow reveals why 5g won’t reach your brain, how creatine may reverse sleep deprivation, and the 5 myths stopping millions from taking it! Dr Darren Candow is a professor and Director of the Ageing Muscle and Bone Health Laboratory at the University of Regina, with 175 published research papers. He is a fellow and incoming Vice-President of the International Society of Sports Nutrition and was named on Stanford University''s Top 2% Scientists list in 2025. He explains: ◼ The 5 myths stopping you from taking creatine, and why they''re all wrong ◼ How much creatine you really need for muscle, bone, brain and sleep deprivation ◼ How adding creatine to your antidepressant can double your remission rate ◼ Why you lose 1% of your muscle every year after 40 and what to do about it ◼Why creatine protects your brain from stress, sleep loss and cognitive decline Chapters 00:00:00 Intro 00:02:26 What is the mission that you''re on? 00:04:14 Why has creatine exploded? 00:06:30 Are we deficient in creatine? 00:08:14 Does creatine damage your kidneys? 00:10:32 If I have creatine in my muscle, am I more likely to gain muscle? 00:11:50 Should women take creatine? 00:12:31 Will creatine cause hair loss? 00:13:36 Creatine causes muscle cramps? 00:16:28 How effective is creatine in gaining muscle mass? 00:18:08 Is the "loading phase" unnecessary? 00:19:06 Is there anyone that shouldn''t take creatine? 00:19:41 Whats the best type of creatine to take? 00:21:31 The Dosing Dilemma - How much to take for each benefit? 00:22:43 Does creatine cause dizziness? 00:24:49 Taste test 00:25:38 The best dosage for bone health 00:34:20 What are the brain benefits of creatine? 00:36:51 Anything else to know about creatine''s impact on the brain? 00:38:06 Ads 00:40:13 Does creatine help with inflammation? 00:41:28 Using creatine for Alzheimer''s 00:42:45 Does creatine have an impact on our mental health? 00:44:39 What are foods I can eat that would supply creatine? 00:45:03 Study that showed creatine improved young athletes'' sleep 00:47:43 The importance of weight training 00:48:12 What are the misconceptions about weight training? 00:50:58 Why is exercise more important as we get older? 00:52:46 Combining protein and creatine 00:53:55 Ads 00:54:56 How creatine helps menopausal and post-menopausal women 00:56:00 Is creatine safe for kids and people in general? 00:57:09 What''s the best time to take creatine? 00:58:15 What do you think of creatine gummies? 01:00:44 What supplements do you take other than creatine? 01:02:52 Are there any direct weight benefits to creatine? 01:04:18 What differences will I notice when taking creatine? 01:06:42 Whats your health routine? 01:08:31 Do different people need to dose differently? 01:10:45 How do you define ageing? 01:12:04 What is your goal? 01:13:05 Fear of death Follow Darren: Instagram - https://link.thediaryofaceo.com/EIZm0wm X - https://link.thediaryofaceo.com/5AUqbZD The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Flightcast - Check out https://www.flightcast.com/DOAC1 Stan - Visit https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9 BonCharge - https://boncharge.com/DOAC'
+    description_html: '<p class="text-node">What is creatine really doing to your brain? Top Creatine Researcher Dr Darren Candow reveals why 5g won’t reach your brain, how creatine may reverse sleep deprivation, and the 5 myths stopping millions from taking it! Dr Darren Candow is a professor and Director of the Ageing Muscle and Bone Health Laboratory at the University of Regina, with 175 published research papers. He is a fellow and incoming Vice-President of the International Society of Sports Nutrition and was named on Stanford University''s Top 2% Scientists list in 2025. He explains: ◼ The 5 myths stopping you from taking creatine, and why they''re all wrong ◼ How much creatine you really need for muscle, bone, brain and sleep deprivation ◼ How adding creatine to your antidepressant can double your remission rate ◼ Why you lose 1% of your muscle every year after 40 and what to do about it ◼Why creatine protects your brain from stress, sleep loss and cognitive decline Follow Darren: Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/EIZm0wm">https://link.thediaryofaceo.com/EIZm0wm</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/5AUqbZD">https://link.thediaryofaceo.com/5AUqbZD</a>  The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a>  ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a>  ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a>  ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a>  ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a>  ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a>  Sponsors: Flightcast - Check out <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://www.flightcast.com/DOAC1">https://www.flightcast.com/DOAC</a>2 Stan - Visit <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9">https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9</a></p>'
+    description_plain: 'What is creatine really doing to your brain? Top Creatine Researcher Dr Darren Candow reveals why 5g won’t reach your brain, how creatine may reverse sleep deprivation, and the 5 myths stopping millions from taking it! Dr Darren Candow is a professor and Director of the Ageing Muscle and Bone Health Laboratory at the University of Regina, with 175 published research papers. He is a fellow and incoming Vice-President of the International Society of Sports Nutrition and was named on Stanford University''s Top 2% Scientists list in 2025. He explains: ◼ The 5 myths stopping you from taking creatine, and why they''re all wrong ◼ How much creatine you really need for muscle, bone, brain and sleep deprivation ◼ How adding creatine to your antidepressant can double your remission rate ◼ Why you lose 1% of your muscle every year after 40 and what to do about it ◼Why creatine protects your brain from stress, sleep loss and cognitive decline Follow Darren: Instagram - https://link.thediaryofaceo.com/EIZm0wm X - https://link.thediaryofaceo.com/5AUqbZD The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Flightcast - Check out https://www.flightcast.com/DOAC 2 Stan - Visit https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode9'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KV1AY5PKNPP6608A1KX5WMWJ/doac_ep_cover_dr_darren.jpg
     episode_uid: flightcast-01kv1annh3b159tvxz55c6w851
     episode_slug: creatine-expert-creatine-is-the-secret-to-weight-loss
@@ -25386,6 +25386,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/human-performance-outliers/episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution/"
   https://feeds.megaphone.fm/pom8075949892: &86
+  - episode_title: 'Jamieson Hatt: Ice Age Trail -#287'
+    episode_url: https://fastestknowntime.com
+    audio_url: https://traffic.megaphone.fm/POM2923688213.mp3
+    published_at: '2026-06-19T13:41:00Z'
+    description_html: "<p>This week Jamieson Hatt joins host Heather Anderson to talk about his experience setting the longest known distance unsupported FKT on Wisconsin’s 1,100-plus-mile Ice Age Trail. Tune in to hear about the unique challenges of an unsupported effort of this length and how he dealt with inclement weather, technology issues, an unexpected zero day, and a problematic injury with only five days left. You’ll be inspired by his stories and how his motto of “keep surviving” carried him through.</p>"
+    description_plain: This week Jamieson Hatt joins host Heather Anderson to talk about his experience setting the longest known distance unsupported FKT on Wisconsin’s 1,100-plus-mile Ice Age Trail. Tune in to hear about the unique challenges of an unsupported effort of this length and how he dealt with inclement weather, technology issues, an unexpected zero day, and a problematic injury with only five days left. You’ll be inspired by his stories and how his motto of “keep surviving” carried him through.
+    episode_image_url: https://megaphone.imgix.net/podcasts/8a3cf320-6be4-11f1-b681-5b97fcd163a1/image/dd54000311ed29a11b37467bf99140cc.jpeg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 8a3cf320-6be4-11f1-b681-5b97fcd163a1
+    episode_slug: jamieson-hatt-ice-age-trail-287
+    episode_key: jamieson-hatt-ice-age-trail-287
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/fkt-podcast/jamieson-hatt-ice-age-trail-287/"
   - episode_title: 'Erin Ton: Aconcagua and High Altitude Peaks -#286'
     episode_url: https://fastestknowntime.com
     audio_url: https://traffic.megaphone.fm/POM1793671114.mp3
@@ -25396,7 +25408,7 @@ episodes_by_feed:
     episode_uid: a689576e-6066-11f1-8196-4bd856d4c531
     episode_slug: erin-ton-aconcagua-and-high-altitude-peaks-286
     episode_key: erin-ton-aconcagua-and-high-altitude-peaks-286
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/fkt-podcast/erin-ton-aconcagua-and-high-altitude-peaks-286/"
   - episode_title: 'Cameron Bostock: Australia''s Bibbulmun Track -#285'
     episode_url: https://fastestknowntime.com
@@ -25408,7 +25420,7 @@ episodes_by_feed:
     episode_uid: a7ffad12-5546-11f1-9dfc-0b53af7fa081
     episode_slug: cameron-bostock-australia-s-bibbulmun-track-285
     episode_key: cameron-bostock-australia-s-bibbulmun-track-285
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/fkt-podcast/cameron-bostock-australia-s-bibbulmun-track-285/"
   - episode_title: 'Jana Palocna: Pico de las Nieves (Canary Islands) FKT -#284'
     episode_url: https://fastestknowntime.com
@@ -25420,7 +25432,7 @@ episodes_by_feed:
     episode_uid: 710a9a18-4a53-11f1-a632-036bc8ab01d5
     episode_slug: jana-palocna-pico-de-las-nieves-canary-islands-fkt-284
     episode_key: jana-palocna-pico-de-las-nieves-canary-islands-fkt-284
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/fkt-podcast/jana-palocna-pico-de-las-nieves-canary-islands-fkt-284/"
   - episode_title: 'Eli Burakian: Eastern White Mountains Triple Infinity Loop -#283'
     episode_url: ''
@@ -25432,7 +25444,7 @@ episodes_by_feed:
     episode_uid: ff1c7bc0-3ff7-11f1-817c-9f80a00b8ea7
     episode_slug: eli-burakian-eastern-white-mountains-triple-infinity-loop-283
     episode_key: eli-burakian-eastern-white-mountains-triple-infinity-loop-283
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/fkt-podcast/eli-burakian-eastern-white-mountains-triple-infinity-loop-283/"
   - episode_title: 'Lotti Brinks: Zion Crossing FKT -#282'
     episode_url: https://fastestknowntime.com/route/zion-crossing-ut
@@ -25444,7 +25456,7 @@ episodes_by_feed:
     episode_uid: 2bc94eae-345a-11f1-b1fc-ab107945e5b4
     episode_slug: lotti-brinks-zion-crossing-fkt-282
     episode_key: lotti-brinks-zion-crossing-fkt-282
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/fkt-podcast/lotti-brinks-zion-crossing-fkt-282/"
   - episode_title: 'Justin Jennings and Huw Rogers: Tackling Papua New Guinea''s Kokoda Track -#281'
     episode_url: https://fastestknowntime.com/route/kokoda-track-there-and-back
@@ -25456,7 +25468,7 @@ episodes_by_feed:
     episode_uid: 7e3693a2-29f8-11f1-a13a-ab321e1d8644
     episode_slug: justin-jennings-and-huw-rogers-tackling-papua-new-guinea-s-kokoda-track-281
     episode_key: justin-jennings-and-huw-rogers-tackling-papua-new-guinea-s-kokoda-track-281
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/fkt-podcast/justin-jennings-and-huw-rogers-tackling-papua-new-guinea-s-kokoda-track-281/"
   - episode_title: 'Greg Nance: Setting FKTs All Over the World -#280'
     episode_url: ''
@@ -25468,7 +25480,7 @@ episodes_by_feed:
     episode_uid: 2fe31986-1e37-11f1-8e27-d7ca9794239b
     episode_slug: greg-nance-setting-fkts-all-over-the-world-280
     episode_key: greg-nance-setting-fkts-all-over-the-world-280
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/fkt-podcast/greg-nance-setting-fkts-all-over-the-world-280/"
   - episode_title: 'William Boffelli: Mont Blanc FKT -#279'
     episode_url: https://fastestknowntime.com/fkt/william-boffelli-mont-blanc-france-2025-05-31
@@ -25480,7 +25492,7 @@ episodes_by_feed:
     episode_uid: a36aabce-1385-11f1-9031-47a5a1705594
     episode_slug: william-boffelli-mont-blanc-fkt-279
     episode_key: william-boffelli-mont-blanc-fkt-279
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/fkt-podcast/william-boffelli-mont-blanc-fkt-279/"
   - episode_title: 'Paulina Zack: Te Araroa Trail - #278'
     episode_url: https://fastestknowntime.com/route/te-araroa
@@ -25492,7 +25504,7 @@ episodes_by_feed:
     episode_uid: 03f7ff50-0873-11f1-976e-1f7b6f171931
     episode_slug: paulina-zack-te-araroa-trail-278
     episode_key: paulina-zack-te-araroa-trail-278
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/fkt-podcast/paulina-zack-te-araroa-trail-278/"
   - episode_title: 'David Hedges: Reclaiming Nolan''s 14 FKT -#277'
     episode_url: https://fastestknowntime.com/fkt/david-hedges-nolans-14-co-2025-09-15
@@ -25504,7 +25516,7 @@ episodes_by_feed:
     episode_uid: f72c25ea-fdef-11f0-bb72-f7b3bd765b69
     episode_slug: david-hedges-reclaiming-nolan-s-14-fkt-277
     episode_key: david-hedges-reclaiming-nolan-s-14-fkt-277
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/fkt-podcast/david-hedges-reclaiming-nolan-s-14-fkt-277/"
   - episode_title: 'Lucy Gossage: South West Coast Path -#276'
     episode_url: https://fastestknowntime.com/fkt/lucy-gossage-south-west-coast-path-united-kingdom-2025-09-17
@@ -25516,7 +25528,7 @@ episodes_by_feed:
     episode_uid: c5b14e48-f253-11f0-8f98-6b0107b852c2
     episode_slug: lucy-gossage-south-west-coast-path-276
     episode_key: lucy-gossage-south-west-coast-path-276
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/fkt-podcast/lucy-gossage-south-west-coast-path-276/"
   - episode_title: '2025 FKT of the Year: Tara Dower & Jeff Garmire -#275'
     episode_url: ''
@@ -25528,7 +25540,7 @@ episodes_by_feed:
     episode_uid: 3a1cb9e8-e75f-11f0-af0d-ab2652360ae0
     episode_slug: 2025-fkt-of-the-year-tara-dower-jeff-garmire-275
     episode_key: 2025-fkt-of-the-year-tara-dower-jeff-garmire-275
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/fkt-podcast/2025-fkt-of-the-year-tara-dower-jeff-garmire-275/"
   - episode_title: 'Xander Keiter and Maia Buckingham: Hundred Mile Wilderness FKTs -#274'
     episode_url: https://fastestknowntime.com
@@ -25540,7 +25552,7 @@ episodes_by_feed:
     episode_uid: bf7a0f2c-dc2f-11f0-af55-57eb04d7e8a2
     episode_slug: xander-keiter-and-maia-buckingham-hundred-mile-wilderness-fkts-274
     episode_key: xander-keiter-and-maia-buckingham-hundred-mile-wilderness-fkts-274
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/fkt-podcast/xander-keiter-and-maia-buckingham-hundred-mile-wilderness-fkts-274/"
   - episode_title: 'Ashlie Itherburn: Pinhoti Trail FKT -#273'
     episode_url: https://fastestknowntime.com
@@ -25552,7 +25564,7 @@ episodes_by_feed:
     episode_uid: 73765d74-d126-11f0-b545-e757d5455101
     episode_slug: ashlie-itherburn-pinhoti-trail-fkt-273
     episode_key: ashlie-itherburn-pinhoti-trail-fkt-273
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/fkt-podcast/ashlie-itherburn-pinhoti-trail-fkt-273/"
   - episode_title: 'Michael Brower: Michigan Shore-to-Shore Trail -#272'
     episode_url: https://fastestknowntime.com
@@ -25564,7 +25576,7 @@ episodes_by_feed:
     episode_uid: 1bca4b0c-c6e6-11f0-b2df-3b2d3cf6c371
     episode_slug: michael-brower-michigan-shore-to-shore-trail-272
     episode_key: michael-brower-michigan-shore-to-shore-trail-272
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/fkt-podcast/michael-brower-michigan-shore-to-shore-trail-272/"
   - episode_title: 'Jeff Colt: Taking on the Northeast''s Hardest 50K -#271'
     episode_url: https://fastestknowntime.com
@@ -25576,7 +25588,7 @@ episodes_by_feed:
     episode_uid: 1513dab8-bbd7-11f0-bd35-2358f164eefc
     episode_slug: jeff-colt-taking-on-the-northeast-s-hardest-50k-271
     episode_key: jeff-colt-taking-on-the-northeast-s-hardest-50k-271
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/fkt-podcast/jeff-colt-taking-on-the-northeast-s-hardest-50k-271/"
   - episode_title: 'Brittany Haver and Carrie Henderson: Tonto Trail FKTs -#270'
     episode_url: https://fastestknowntime.com/route/tonto-trail-az
@@ -25588,7 +25600,7 @@ episodes_by_feed:
     episode_uid: 8b93d950-b677-11f0-b1d4-57e45a0c5019
     episode_slug: brittany-haver-and-carrie-henderson-tonto-trail-fkts-270
     episode_key: brittany-haver-and-carrie-henderson-tonto-trail-fkts-270
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/fkt-podcast/brittany-haver-and-carrie-henderson-tonto-trail-fkts-270/"
   - episode_title: Long Trail Roundup with Tara Dower and Tori Constantine -#269
     episode_url: https://fastestknowntime.com/route/long-trail-vt
@@ -25600,7 +25612,7 @@ episodes_by_feed:
     episode_uid: 13851e12-b03f-11f0-8275-6305fd3c2e91
     episode_slug: long-trail-roundup-with-tara-dower-and-tori-constantine-269
     episode_key: long-trail-roundup-with-tara-dower-and-tori-constantine-269
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/fkt-podcast/long-trail-roundup-with-tara-dower-and-tori-constantine-269/"
   - episode_title: 'Sadie Curry: Arizona Trail FKT -#268'
     episode_url: https://fastestknowntime.com/fkt/sadie-curry-arizona-trail-az-2025-04-29
@@ -25612,7 +25624,7 @@ episodes_by_feed:
     episode_uid: 26cf103a-aabe-11f0-824e-134dc823c19e
     episode_slug: sadie-curry-arizona-trail-fkt-268
     episode_key: sadie-curry-arizona-trail-fkt-268
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/fkt-podcast/sadie-curry-arizona-trail-fkt-268/"
   - episode_title: 'Scott Benerofe: Adirondack 46 High Peaks FKT -#267'
     episode_url: https://fastestknowntime.com/
@@ -25624,7 +25636,7 @@ episodes_by_feed:
     episode_uid: b1b64e8e-a609-11f0-904f-6b0d496be593
     episode_slug: scott-benerofe-adirondack-46-high-peaks-fkt-267
     episode_key: scott-benerofe-adirondack-46-high-peaks-fkt-267
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/fkt-podcast/scott-benerofe-adirondack-46-high-peaks-fkt-267/"
   - episode_title: 'Jeff Garmire, Sarah Baker, Lyla Harrod: AT FKTs -#266'
     episode_url: https://fastestknowntime.com/route/appalachian-trail
@@ -25636,7 +25648,7 @@ episodes_by_feed:
     episode_uid: 01fe18b0-a072-11f0-bd50-13d5201ccd71
     episode_slug: jeff-garmire-sarah-baker-lyla-harrod-at-fkts-266
     episode_key: jeff-garmire-sarah-baker-lyla-harrod-at-fkts-266
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/fkt-podcast/jeff-garmire-sarah-baker-lyla-harrod-at-fkts-266/"
   - episode_title: 'Katie Gunvalson: Oregon Coast Trail FKT -#265'
     episode_url: https://fastestknowntime.com/fkt/katie-gunvalson-oregon-coast-trail-or-2025-07-13
@@ -25648,7 +25660,7 @@ episodes_by_feed:
     episode_uid: 0adbcbfe-9a68-11f0-a6ac-632c4852e803
     episode_slug: katie-gunvalson-oregon-coast-trail-fkt-265
     episode_key: katie-gunvalson-oregon-coast-trail-fkt-265
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/fkt-podcast/katie-gunvalson-oregon-coast-trail-fkt-265/"
   - episode_title: 'Caroline Himbert: John Muir Trail FKT -#264'
     episode_url: https://fastestknowntime.com/podcast/264-caroline-himbert-getting-back-her-roots
@@ -25660,7 +25672,7 @@ episodes_by_feed:
     episode_uid: faa6f6e2-94e4-11f0-92b1-5f1077fa36ae
     episode_slug: caroline-himbert-john-muir-trail-fkt-264
     episode_key: caroline-himbert-john-muir-trail-fkt-264
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/fkt-podcast/caroline-himbert-john-muir-trail-fkt-264/"
   - episode_title: 'Katya Guryeva: Transcaucasian Trail -#263'
     episode_url: https://fastestknowntime.com/route/transcaucasian-trail
@@ -25672,20 +25684,8 @@ episodes_by_feed:
     episode_uid: 7769a0a8-900d-11f0-9aba-873e4594a60a
     episode_slug: katya-guryeva-transcaucasian-trail-263
     episode_key: katya-guryeva-transcaucasian-trail-263
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/fkt-podcast/katya-guryeva-transcaucasian-trail-263/"
-  - episode_title: 'Tim Beissinger: Ozark Trail Unsupported FKT -#262'
-    episode_url: https://fastestknowntime.com/podcast/262-tim-beissinger-all-alone-ozark-trail
-    audio_url: https://traffic.megaphone.fm/POM4461947916.mp3
-    published_at: '2025-09-05T11:15:00Z'
-    description_html: "<p>This week we’re heading to the Show Me state where Tim Beissinger set the unsupported FKT on the 230 mile long Ozark Trail in a time of 4 days, 9 hours, and 24 minutes. Tune in as he and host Heather Anderson discuss methods and motivations for this former triathlete as he pushed his limits to set his first fastest known time. Tim accomplished the new record while coping with trench foot and significant pain as well as rainy weather and little sleep. He shares his encounters with wildlife, including dozens of ticks, and lack of encounters with people along the way. They also discuss the challenges of water crossings including the flooding of Courtois Creek. Drop in and take a walk on Missouri’s wild side.</p>"
-    description_plain: This week we’re heading to the Show Me state where Tim Beissinger set the unsupported FKT on the 230 mile long Ozark Trail in a time of 4 days, 9 hours, and 24 minutes. Tune in as he and host Heather Anderson discuss methods and motivations for this former triathlete as he pushed his limits to set his first fastest known time. Tim accomplished the new record while coping with trench foot and significant pain as well as rainy weather and little sleep. He shares his encounters with wildlife, including dozens of ticks, and lack of encounters with people along the way. They also discuss the challenges of water crossings including the flooding of Courtois Creek. Drop in and take a walk on Missouri’s wild side.
-    episode_image_url: https://megaphone.imgix.net/podcasts/9c93d480-8a49-11f0-b40a-b338cbdc0911/image/528703f9a661b5c8c68a2be0734b78bd.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
-    episode_uid: 9c93d480-8a49-11f0-b40a-b338cbdc0911
-    episode_slug: tim-beissinger-ozark-trail-unsupported-fkt-262
-    episode_key: tim-beissinger-ozark-trail-unsupported-fkt-262
     legacy_numbered_slug: episode-25
-    episode_page_url: "/fkt-podcast/tim-beissinger-ozark-trail-unsupported-fkt-262/"
+    episode_page_url: "/fkt-podcast/katya-guryeva-transcaucasian-trail-263/"
   https://sr-restored.se/rss/2519: &87
   - episode_title: Fallet Kapten Klänning - hela serien
     episode_url: https://www.sverigesradio.se/avsnitt/2827030
