@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-19T20:35:23Z'
+generated_at: '2026-06-19T21:28:47Z'
 items:
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast/"
@@ -325,6 +325,18 @@ items:
   episode_key: hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete
   episode_slug: hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete
   episode_page_url: "/the-buzz/hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete/"
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast/"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  filter_category: ultra trail business english
+  episode_title: Top 10 Storylines of the 2026 Broken Arrow Skyrace
+  episode_url: https://thewellwithdylanbowman.libsyn.com/top-10-storylines-of-the-2026-broken-arrow-skyrace
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/rdl615.mp3?dest-id=1746794
+  published_at: '2026-06-16T11:55:00+00:00'
+  episode_key: top-10-storylines-of-the-2026-broken-arrow-skyrace
+  episode_slug: top-10-storylines-of-the-2026-broken-arrow-skyrace
+  episode_page_url: "/the-freetrail-podcast/top-10-storylines-of-the-2026-broken-arrow-skyrace/"
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society/"
   cover_image: "/media/trailsocietypodcast.jpeg"
@@ -27857,9 +27869,6 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/pivot/meta-and-youtube-lose-in-court-insider-iran-trades-and-sora-shuts-down/"
 errors:
-- podcast: The Freetrail Podcast
-  rss_feed: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  error: No parseable episodes found
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
