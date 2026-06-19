@@ -20,7 +20,7 @@
 <meta property="og:image:alt" content="Ep. 249: Rick Beato | Songwriters Got Poorer. AI Is Next. So Where Is Music Going? — And The Writer Is...with Ross Golan episode artwork"><meta property="og:locale" content="en_US"><link rel="alternate" type="audio/mpeg" href="https://sphinx.acast.com/p/acast/s/andthewriteris/e/69fa17f082781c7c457dc19c/media.mp3" title="Ep. 249: Rick Beato | Songwriters Got Poorer. AI Is Next. So Where Is Music Going?">
 <meta property="og:audio" content="https://sphinx.acast.com/p/acast/s/andthewriteris/e/69fa17f082781c7c457dc19c/media.mp3">
 <meta property="og:audio:secure_url" content="https://sphinx.acast.com/p/acast/s/andthewriteris/e/69fa17f082781c7c457dc19c/media.mp3">
-<meta property="og:audio:type" content="audio/mpeg"><link rel="alternate" type="application/rss+xml" title="And The Writer Is...with Ross Golan podcast feed" href="https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034"><meta property="article:published_time" content="2026-05-05T16:16:48+00:00"><meta property="article:section" content="And The Writer Is...with Ross Golan">
+<meta property="og:audio:type" content="audio/mpeg"><link rel="alternate" type="application/rss+xml" title="And The Writer Is...with Ross Golan podcast feed" href="https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034"><meta property="article:published_time" content="2026-05-05T18:16:48+02:00"><meta property="article:section" content="And The Writer Is...with Ross Golan">
 <!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ep. 249: Rick Beato | Songwriters Got Poorer. AI Is Next. So Where Is Music Going? | And The Writer Is...with Ross Golan | The Best Running Podcasts 2026">
@@ -164,11 +164,7 @@
   <div
     class="latest-episodes__player-art-wrap"
     data-player-art-wrap
-    
-      
     data-default-cover="https://assets.pippa.io/shows/61b76666169562d85de9508f/1777997100410-bc5d650d-6ba8-4de0-9e58-05bd4b4bcc19.jpeg"
-      
-    
   ><img
       class="latest-episodes__player-art"
       data-player-art
@@ -1038,22 +1034,51 @@
       showTransport();
     }
 
+    function imagePathname(url) {
+      if (!url) return '';
+      try {
+        return new URL(url, window.location.href).pathname;
+      } catch (e) {
+        return String(url).split(/[?#]/)[0];
+      }
+    }
+
+    function localWebpCandidate(url) {
+      var value = (url || '').trim();
+      var path = imagePathname(value);
+      if (!value || !path) return '';
+      if (/\.webp$/i.test(path)) return value;
+      if (/^[a-z][a-z0-9+.-]*:\/\//i.test(value)) return '';
+      if (!/\.(jpe?g|png)$/i.test(path)) return '';
+      return value.replace(/\.(jpe?g|png)(?=([?#]|$))/i, '.webp');
+    }
+
+    function updatePictureSource(url) {
+      if (!art) return;
+      var picture = art.closest('picture');
+      if (!picture) return;
+      var source = picture.querySelector('source');
+      if (!source) return;
+
+      var srcset = localWebpCandidate(url);
+      if (srcset) {
+        source.setAttribute('type', 'image/webp');
+        source.setAttribute('srcset', srcset);
+      } else {
+        source.removeAttribute('srcset');
+      }
+    }
+
     function updateArt(url) {
       if (!art || !artWrap) return;
-      var fallback = (artWrap.getAttribute('data-default-cover') || '').trim();
-      var effective = (url || '').trim() || fallback;
+      var effective = (url || '').trim();
       if (effective) {
+        updatePictureSource(effective);
         art.src = effective;
         art.removeAttribute('hidden');
         artWrap.classList.remove('latest-episodes__player-art-wrap--empty');
-        var picture = art.closest('picture');
-        if (picture) {
-          var source = picture.querySelector('source');
-          if (source && /\.(jpe?g|png)$/i.test(effective)) {
-            source.srcset = effective.replace(/\.(jpe?g|png)$/i, '.webp');
-          }
-        }
       } else {
+        updatePictureSource('');
         art.removeAttribute('src');
         art.setAttribute('hidden', '');
         artWrap.classList.add('latest-episodes__player-art-wrap--empty');
@@ -1449,7 +1474,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-19T07:53:44Z">2026-06-19 07:53 UTC</time>
+      <time datetime="2026-06-19T09:33:04Z">2026-06-19 09:33 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

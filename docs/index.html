@@ -508,7 +508,6 @@
                     
                     
                     
-                    
                     <label class="filter__chip">
                         <input type="checkbox" name="category" id="ultra" value="ultra" />
                         <span class="filter__chip-text">ultra</span>
@@ -612,8 +611,23 @@
                 </label>
             </div>
         </div>
-    </div>
-</section>
+    </div><div class="filter__opml-panel" data-opml-favorites hidden>
+        <div class="filter__opml-header">
+            <div>
+                <h3 class="filter__opml-title">Your favorites</h3>
+                <p class="filter__opml-copy">Star podcasts to build an OPML file you can import elsewhere.</p>
+            </div>
+            <div class="filter__opml-actions">
+                <button type="button" class="filter__button filter__button--primary" data-opml-export disabled>Export OPML</button>
+                <button type="button" class="filter__button" data-opml-clear disabled>Clear favorites</button>
+            </div>
+        </div>
+        <p class="filter__opml-status" aria-live="polite">
+            <span data-opml-favorites-count>0</span> favorites
+        </p>
+        <p class="filter__opml-empty" data-opml-favorites-empty>Use the star on any podcast card to add it here.</p>
+        <ul class="filter__opml-list" data-opml-favorites-list></ul>
+    </div></section>
 
 			</div>
 			
@@ -630,7 +644,7 @@
     </li>
 
     
-    <li class="podcast-loop__item podcast-loop__item--featured" data-featured="true" data-category="trail ultra subultra skyrunning norwegian ">
+    <li class="podcast-loop__item podcast-loop__item--featured" data-featured="true" data-category="trail ultra subultra skyrunning norwegian " data-podcast-title="Føkk Asfalt" data-podcast-url="/fokk-asfalt/" data-rss-feed="https://rss.buzzsprout.com/145661.rss">
         <article aria-labelledby="podcast-title-1">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/fokk-asfalt/" aria-label="Føkk Asfalt — view podcast page">
@@ -642,6 +656,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/fokk-asfalt/" aria-labelledby="podcast-title-1">
                             <h2 class="podcast-loop__item__title" id="podcast-title-1">Føkk Asfalt</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Føkk Asfalt to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Norwegian mountain ultra trail podcast. 600+ episodes, est. 2018.</p>
                         
@@ -693,7 +711,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="FKT Podcast" data-podcast-url="/fkt-podcast/" data-rss-feed="https://feeds.megaphone.fm/POM8075949892">
         <article aria-labelledby="podcast-title-2">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/fkt-podcast/" aria-label="FKT Podcast — view podcast page">
@@ -705,6 +723,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/fkt-podcast/" aria-labelledby="podcast-title-2">
                             <h2 class="podcast-loop__item__title" id="podcast-title-2">FKT Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add FKT Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">The podcast of fastestknowntime.com. Learn about the best FKT routes, who did them, and how fast.</p>
                         
@@ -748,7 +770,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra english ">
+    <li class="podcast-loop__item" data-category="ultra english " data-podcast-title="Human Performance Outliers" data-podcast-url="/human-performance-outliers/" data-rss-feed="https://rss.libsyn.com/shows/118682/destinations/685773.xml">
         <article aria-labelledby="podcast-title-3">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/human-performance-outliers/" aria-label="Human Performance Outliers — view podcast page">
@@ -760,6 +782,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/human-performance-outliers/" aria-labelledby="podcast-title-3">
                             <h2 class="podcast-loop__item__title" id="podcast-title-3">Human Performance Outliers</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Human Performance Outliers to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Pro runner Zach Bitter interviews folks exploring their outer limits and research in a wide variety of sports, fitness, and nutrition.
 </p>
@@ -802,7 +828,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail spanish ">
+    <li class="podcast-loop__item" data-category="trail spanish " data-podcast-title="Find Your Everest by Javi Ordieres" data-podcast-url="/find-your-everest/" data-rss-feed="https://feeds.ivoox.com/feed_fg_f11845321_filtro_1.xml">
         <article aria-labelledby="podcast-title-4">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/find-your-everest/" aria-label="Find Your Everest by Javi Ordieres — view podcast page">
@@ -814,6 +840,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/find-your-everest/" aria-labelledby="podcast-title-4">
                             <h2 class="podcast-loop__item__title" id="podcast-title-4">Find Your Everest by Javi Ordieres</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Find Your Everest by Javi Ordieres to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Trail running news, race calendars, gear reviews, and interviews with pro athletes, leading brands, physiotherapists, nutritionists, and more.</p>
                         
@@ -853,7 +883,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="The Ultra Sound Podcast" data-podcast-url="/the-ultra-sound-podcast/" data-rss-feed="https://anchor.fm/s/f7fa9d38/podcast/rss">
         <article aria-labelledby="podcast-title-5">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-ultra-sound-podcast/" aria-label="The Ultra Sound Podcast — view podcast page">
@@ -865,6 +895,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-ultra-sound-podcast/" aria-labelledby="podcast-title-5">
                             <h2 class="podcast-loop__item__title" id="podcast-title-5">The Ultra Sound Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Ultra Sound Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Pro trailrunner Tom Evans and his best friend Brett Saunders discuss all things trailrunning.</p>
                         
@@ -908,7 +942,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="The Buzz" data-podcast-url="/the-buzz/" data-rss-feed="https://rss.libsyn.com/shows/571035/destinations/4941070.xml">
         <article aria-labelledby="podcast-title-6">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-buzz/" aria-label="The Buzz — view podcast page">
@@ -920,6 +954,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-buzz/" aria-labelledby="podcast-title-6">
                             <h2 class="podcast-loop__item__title" id="podcast-title-6">The Buzz</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Buzz to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A podcast that cuts through the noise of ultra trail running with grounded takes from a true expert in the sport. As a pioneering ultrarunner, FKT legend, and industry veteran, Buzz brings decades of experience and a sharp, critical eye to the big ideas shaping endurance sports. 
 </p>
@@ -964,7 +1002,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="science english ">
+    <li class="podcast-loop__item" data-category="science english " data-podcast-title="Science of Running" data-podcast-url="/science-of-running/" data-rss-feed="https://feeds.feedburner.com/stevemagness">
         <article aria-labelledby="podcast-title-7">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/science-of-running/" aria-label="Science of Running — view podcast page">
@@ -976,6 +1014,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/science-of-running/" aria-labelledby="podcast-title-7">
                             <h2 class="podcast-loop__item__title" id="podcast-title-7">Science of Running</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Science of Running to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Author and coach Steve Magness takes an in depth look at training, coaching, sport science, and anything else that relates to enhancing endurance performance.</p>
                         
@@ -1017,7 +1059,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="business english ">
+    <li class="podcast-loop__item" data-category="business english " data-podcast-title="Long Run Labs" data-podcast-url="/long-run-labs/" data-rss-feed="https://anchor.fm/s/1061aabc4/podcast/rss">
         <article aria-labelledby="podcast-title-8">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/long-run-labs/" aria-label="Long Run Labs — view podcast page">
@@ -1029,6 +1071,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/long-run-labs/" aria-labelledby="podcast-title-8">
                             <h2 class="podcast-loop__item__title" id="podcast-title-8">Long Run Labs</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Long Run Labs to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                     </header>
 
@@ -1068,7 +1114,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail skyrunning subultra ultra spanish ">
+    <li class="podcast-loop__item" data-category="trail skyrunning subultra ultra spanish " data-podcast-title="Historias del Trail" data-podcast-url="/historias-del-trail/" data-rss-feed="https://anchor.fm/s/108a0bfdc/podcast/rss">
         <article aria-labelledby="podcast-title-9">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/historias-del-trail/" aria-label="Historias del Trail — view podcast page">
@@ -1080,6 +1126,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/historias-del-trail/" aria-labelledby="podcast-title-9">
                             <h2 class="podcast-loop__item__title" id="podcast-title-9">Historias del Trail</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Historias del Trail to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Spanish podcast with Albert Jorquera  - a trail running journalist, commentator, writer, podcast host, and ultrarunner.</p>
                         
@@ -1127,7 +1177,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="science english ">
+    <li class="podcast-loop__item" data-category="science english " data-podcast-title="EvokeCast" data-podcast-url="/evokecast/" data-rss-feed="https://evokeendurance.com/media-type/evokecast/feed/">
         <article aria-labelledby="podcast-title-10">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/evokecast/" aria-label="EvokeCast — view podcast page">
@@ -1139,6 +1189,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/evokecast/" aria-labelledby="podcast-title-10">
                             <h2 class="podcast-loop__item__title" id="podcast-title-10">EvokeCast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add EvokeCast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Join Scott Johnston and the Evoke Endurance coaching team for regular interviews, discussion, and educational materials for the global mountain community.</p>
                         
@@ -1180,7 +1234,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra skyrunning subultra catalan ">
+    <li class="podcast-loop__item" data-category="trail ultra skyrunning subultra catalan " data-podcast-title="Xampany o Suero" data-podcast-url="/xampany-o-suero/">
         <article aria-labelledby="podcast-title-11">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/xampany-o-suero/" aria-label="Xampany o Suero — view podcast page">
@@ -1192,6 +1246,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/xampany-o-suero/" aria-labelledby="podcast-title-11">
                             <h2 class="podcast-loop__item__title" id="podcast-title-11">Xampany o Suero</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite podcast-loop__favorite--disabled" data-opml-favorite aria-pressed="false" aria-label="Xampany o Suero cannot be exported because it has no RSS feed" title="No RSS feed available" disabled>
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>No RSS feed available</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A Catalan-language mountain sports podcast focusing on trail running, ultrarunning, mountain culture, and endurance sports, with an emphasis on critical thinking, rigor, humor, and perspective. "Xampany" = champagne, "suero" = medical saline/IV fluid), a nod to the highs and lows of endurance sports—success and celebration versus suffering and recovery.</p>
                         
@@ -1239,7 +1297,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="road norwegian ">
+    <li class="podcast-loop__item" data-category="road norwegian " data-podcast-title="Team Macody Podcast" data-podcast-url="/team-macody-podcast/" data-rss-feed="https://feed.podbean.com/mathiasmacody/feed.xml">
         <article aria-labelledby="podcast-title-12">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/team-macody-podcast/" aria-label="Team Macody Podcast — view podcast page">
@@ -1251,6 +1309,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/team-macody-podcast/" aria-labelledby="podcast-title-12">
                             <h2 class="podcast-loop__item__title" id="podcast-title-12">Team Macody Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Team Macody Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Norwegian road running podcast. Weekly chats with the Macody brothers + friends recorded with the Clubhouse app. Listening to it feels like you're listening in on a bunch of dudes talking shit in a locker room. So bad it's god. Takes a while to get used to the characters, but once you're in you're in. </p>
                         
@@ -1292,7 +1354,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail skyrunning ultra italian ">
+    <li class="podcast-loop__item" data-category="trail skyrunning ultra italian " data-podcast-title="Pionieri" data-podcast-url="/pionieri/" data-rss-feed="https://anchor.fm/s/f8f3525c/podcast/rss">
         <article aria-labelledby="podcast-title-13">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/pionieri/" aria-label="Pionieri — view podcast page">
@@ -1304,6 +1366,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/pionieri/" aria-labelledby="podcast-title-13">
                             <h2 class="podcast-loop__item__title" id="podcast-title-13">Pionieri</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Pionieri to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Il podcast sulla storia del trail in Italia. Raccontato da Filippo Caon e supportato da La Sportiva.</p>
                         
@@ -1349,7 +1415,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="uncategorized spanish ">
+    <li class="podcast-loop__item" data-category="uncategorized spanish " data-podcast-title="La Sotana" data-podcast-url="/la-sotana/" data-rss-feed="https://anchor.fm/s/10e30d900/podcast/rss">
         <article aria-labelledby="podcast-title-14">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/la-sotana/" aria-label="La Sotana — view podcast page">
@@ -1361,6 +1427,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/la-sotana/" aria-labelledby="podcast-title-14">
                             <h2 class="podcast-loop__item__title" id="podcast-title-14">La Sotana</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add La Sotana to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A Spanish football podcast focused entirely on FC Barcelona. Free from traditional sports journalism, it delivers passionate, biased, and often hilarious reactions to the latest Barça news, with no claim to objectivity or rigor.</p>
                         
@@ -1402,7 +1472,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail skyrunning ultra subultra spanish ">
+    <li class="podcast-loop__item" data-category="trail skyrunning ultra subultra spanish " data-podcast-title="Ingravidos" data-podcast-url="/ingravidos/" data-rss-feed="https://feeds.ivoox.com/feed_fg_f1614382_filtro_1.xml">
         <article aria-labelledby="podcast-title-15">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/ingravidos/" aria-label="Ingravidos — view podcast page">
@@ -1414,6 +1484,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/ingravidos/" aria-labelledby="podcast-title-15">
                             <h2 class="podcast-loop__item__title" id="podcast-title-15">Ingravidos</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Ingravidos to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Spanish mountain, trail running, and adventure racing show.</p>
                         
@@ -1461,7 +1535,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="uncategorized english ">
+    <li class="podcast-loop__item" data-category="uncategorized english " data-podcast-title="In Our Time: Science" data-podcast-url="/in-our-time-science/" data-rss-feed="https://podcasts.files.bbci.co.uk/p01gyd7j.rss">
         <article aria-labelledby="podcast-title-16">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/in-our-time-science/" aria-label="In Our Time: Science — view podcast page">
@@ -1473,6 +1547,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/in-our-time-science/" aria-labelledby="podcast-title-16">
                             <h2 class="podcast-loop__item__title" id="podcast-title-16">In Our Time: Science</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add In Our Time: Science to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Scientific principles, theory, and the role of key figures in the advancement of science.</p>
                         
@@ -1514,7 +1592,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="science spanish ">
+    <li class="podcast-loop__item" data-category="science spanish " data-podcast-title="90 Gramos" data-podcast-url="/90-gramos/" data-rss-feed="https://feeds.megaphone.fm/90gramosmethub">
         <article aria-labelledby="podcast-title-17">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/90-gramos/" aria-label="90 Gramos — view podcast page">
@@ -1526,6 +1604,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/90-gramos/" aria-labelledby="podcast-title-17">
                             <h2 class="podcast-loop__item__title" id="podcast-title-17">90 Gramos</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add 90 Gramos to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A spanish science podcast that explores the fascinating world of metabolism through expert interviews and compelling human stories. Hosted by Adrián Castillo and Aitor Viribay, it explains the science behind health, performance, and human energy in a way that is both accessible and rigorous.</p>
                         
@@ -1567,7 +1649,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road english ">
+    <li class="podcast-loop__item" data-category="track road english " data-podcast-title="The CITIUS MAG Podcast | A Running + Track and Field Show" data-podcast-url="/the-citius-mag-podcast-a-running-track-and-field-show/" data-rss-feed="https://anchor.fm/s/9085ecc/podcast/rss">
         <article aria-labelledby="podcast-title-18">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-citius-mag-podcast-a-running-track-and-field-show/" aria-label="The CITIUS MAG Podcast | A Running + Track and Field Show — view podcast page">
@@ -1579,6 +1661,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-citius-mag-podcast-a-running-track-and-field-show/" aria-labelledby="podcast-title-18">
                             <h2 class="podcast-loop__item__title" id="podcast-title-18">The CITIUS MAG Podcast | A Running + Track and Field Show</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The CITIUS MAG Podcast | A Running + Track and Field Show to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Hosted by CITIUS MAG founder Chris Chavez. The show was named one of "The Best Running Podcasts" by Runner's World.</p>
                         
@@ -1620,7 +1706,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="road english ">
+    <li class="podcast-loop__item" data-category="road english " data-podcast-title="Road to the Trials" data-podcast-url="/road-to-the-trials/">
         <article aria-labelledby="podcast-title-19">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/road-to-the-trials/" aria-label="Road to the Trials — view podcast page">
@@ -1632,6 +1718,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/road-to-the-trials/" aria-labelledby="podcast-title-19">
                             <h2 class="podcast-loop__item__title" id="podcast-title-19">Road to the Trials</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite podcast-loop__favorite--disabled" data-opml-favorite aria-pressed="false" aria-label="Road to the Trials cannot be exported because it has no RSS feed" title="No RSS feed available" disabled>
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>No RSS feed available</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Co-hosts Matt Chittim, Lindsey Hein, and Peter Bromka interview every 2028 Olympic Marathon Trials Qualifier along with a wide-ranging group of industry professionals in preparation for the 2028 Olympics in Los Angeles.</p>
                         
@@ -1671,7 +1761,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="business english ">
+    <li class="podcast-loop__item" data-category="business english " data-podcast-title="Second Nature" data-podcast-url="/second-nature/" data-rss-feed="https://rss.libsyn.com/shows/519408/destinations/4458728.xml">
         <article aria-labelledby="podcast-title-20">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/second-nature/" aria-label="Second Nature — view podcast page">
@@ -1683,6 +1773,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/second-nature/" aria-labelledby="podcast-title-20">
                             <h2 class="podcast-loop__item__title" id="podcast-title-20">Second Nature</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Second Nature to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">The business of outdoor hosted by Aaron Lutze & Dylan Bowman</p>
                         
@@ -1726,7 +1820,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="road english ">
+    <li class="podcast-loop__item" data-category="road english " data-podcast-title="Out and Back" data-podcast-url="/out-and-back/" data-rss-feed="https://feeds.megaphone.fm/POM9812562051">
         <article aria-labelledby="podcast-title-21">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/out-and-back/" aria-label="Out and Back — view podcast page">
@@ -1738,6 +1832,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/out-and-back/" aria-labelledby="podcast-title-21">
                             <h2 class="podcast-loop__item__title" id="podcast-title-21">Out and Back</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Out and Back to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Professional marathoners Rory Linkletter and Jacob Thomson bring listeners behind the scenes of the marathon lifestyle. Training talk with a few detours.</p>
                         
@@ -1779,7 +1877,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="road english ">
+    <li class="podcast-loop__item" data-category="road english " data-podcast-title="Life in Stride" data-podcast-url="/life-in-stride/" data-rss-feed="https://anchor.fm/s/f1fb88c/podcast/rss">
         <article aria-labelledby="podcast-title-22">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/life-in-stride/" aria-label="Life in Stride — view podcast page">
@@ -1791,6 +1889,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/life-in-stride/" aria-labelledby="podcast-title-22">
                             <h2 class="podcast-loop__item__title" id="podcast-title-22">Life in Stride</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Life in Stride to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Goal of the podcast: serve as a safe haven for the “try hard” amateur who loves to balance the demands of family, work and life while building their fastest self. </p>
                         
@@ -1832,7 +1934,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Distance to Empty" data-podcast-url="/distance-to-empty/" data-rss-feed="https://anchor.fm/s/ef81d1e4/podcast/rss">
         <article aria-labelledby="podcast-title-23">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/distance-to-empty/" aria-label="Distance to Empty — view podcast page">
@@ -1844,6 +1946,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/distance-to-empty/" aria-labelledby="podcast-title-23">
                             <h2 class="podcast-loop__item__title" id="podcast-title-23">Distance to Empty</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Distance to Empty to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Through in-depth interviews with athletes, race organizers and sports scientists, shedding light on the unique challenges involved in tackling 200+ mile races.</p>
                         
@@ -1887,7 +1993,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail skyrunning ultra subultra english ">
+    <li class="podcast-loop__item" data-category="trail skyrunning ultra subultra english " data-podcast-title="The Albon Way" data-podcast-url="/the-albon-way/" data-rss-feed="https://anchor.fm/s/fb539bd8/podcast/rss">
         <article aria-labelledby="podcast-title-24">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-albon-way/" aria-label="The Albon Way — view podcast page">
@@ -1899,6 +2005,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-albon-way/" aria-labelledby="podcast-title-24">
                             <h2 class="podcast-loop__item__title" id="podcast-title-24">The Albon Way</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Albon Way to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Ultra trail power couple Jon and Henriette Albon talk about their training, racing, and shares tips, tricks and advice. </p>
                         
@@ -1944,7 +2054,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road english ">
+    <li class="podcast-loop__item" data-category="track road english " data-podcast-title="COFFEECLUB" data-podcast-url="/coffeeclub/" data-rss-feed="https://media.rss.com/coffeeclub/feed.xml">
         <article aria-labelledby="podcast-title-25">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/coffeeclub/" aria-label="COFFEECLUB — view podcast page">
@@ -1956,6 +2066,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/coffeeclub/" aria-labelledby="podcast-title-25">
                             <h2 class="podcast-loop__item__title" id="podcast-title-25">COFFEECLUB</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add COFFEECLUB to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Pro runners Morgan McDonald, Oliver Hoare and George Beamish sitting down drinking coffee and having a chat.</p>
                         
@@ -1999,7 +2113,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="The Boulder Boys" data-podcast-url="/the-boulder-boys/" data-rss-feed="https://rss.libsyn.com/shows/506688/destinations/4343338.xml">
         <article aria-labelledby="podcast-title-26">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-boulder-boys/" aria-label="The Boulder Boys — view podcast page">
@@ -2011,6 +2125,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-boulder-boys/" aria-labelledby="podcast-title-26">
                             <h2 class="podcast-loop__item__title" id="podcast-title-26">The Boulder Boys</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Boulder Boys to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Boulder based pro ultra trail runners Seth Ruhling, Adam Merry, Matt Daniels, Drew Holmen and Moisés Jimenez takes you behind the scenes of the trail running scene and gives you hot unfiltered takes on what's happening in the trail running space. </p>
                         
@@ -2054,7 +2172,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra french ">
+    <li class="podcast-loop__item" data-category="trail ultra french " data-podcast-title="Dans la Tête d’un Coureur" data-podcast-url="/dans-la-t-te-d-un-coureur/" data-rss-feed="https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml">
         <article aria-labelledby="podcast-title-27">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/dans-la-t-te-d-un-coureur/" aria-label="Dans la Tête d’un Coureur — view podcast page">
@@ -2066,6 +2184,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/dans-la-t-te-d-un-coureur/" aria-labelledby="podcast-title-27">
                             <h2 class="podcast-loop__item__title" id="podcast-title-27">Dans la Tête d’un Coureur</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Dans la Tête d’un Coureur to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">The first French-speaking podcast dedicated to running and mental preparation. Advice, interviews with inspiring athletes and all about the running lifestyle.</p>
                         
@@ -2109,7 +2231,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra french ">
+    <li class="podcast-loop__item" data-category="trail ultra french " data-podcast-title="Course Épique" data-podcast-url="/course-equipe/" data-rss-feed="https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66">
         <article aria-labelledby="podcast-title-28">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/course-equipe/" aria-label="Course Épique — view podcast page">
@@ -2121,6 +2243,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/course-equipe/" aria-labelledby="podcast-title-28">
                             <h2 class="podcast-loop__item__title" id="podcast-title-28">Course Épique</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Course Épique to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">French running and trail-running podcast focused on storytelling rather than race analysis or training advice. Framework: 1 guest, 1 race, 1 extraordinary story</p>
                         
@@ -2164,7 +2290,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail subultra english ">
+    <li class="podcast-loop__item" data-category="trail subultra english " data-podcast-title="The Sub Hub" data-podcast-url="/the-sub-hub/" data-rss-feed="https://anchor.fm/s/db96fa60/podcast/rss">
         <article aria-labelledby="podcast-title-29">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-sub-hub/" aria-label="The Sub Hub — view podcast page">
@@ -2176,6 +2302,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-sub-hub/" aria-labelledby="podcast-title-29">
                             <h2 class="podcast-loop__item__title" id="podcast-title-29">The Sub Hub</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Sub Hub to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Dani Moreno and and EmKay Sullivan brings you your hub for all things sub-ultra mountain and trail running.</p>
                         
@@ -2219,7 +2349,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra skyrunning english ">
+    <li class="podcast-loop__item" data-category="trail ultra skyrunning english " data-podcast-title="Uphill Athlete" data-podcast-url="/uphill-athlete/" data-rss-feed="https://feeds.zencastr.com/f/f-N7v7jW.rss">
         <article aria-labelledby="podcast-title-30">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/uphill-athlete/" aria-label="Uphill Athlete — view podcast page">
@@ -2231,6 +2361,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/uphill-athlete/" aria-labelledby="podcast-title-30">
                             <h2 class="podcast-loop__item__title" id="podcast-title-30">Uphill Athlete</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Uphill Athlete to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Legendary alpine climber Steve House brings you highly informative discussions that range widely across topics, including running.</p>
                         
@@ -2276,7 +2410,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road swedish ">
+    <li class="podcast-loop__item" data-category="track road swedish " data-podcast-title="Spring Snyggt" data-podcast-url="/spring-snyggt/" data-rss-feed="https://rss.libsyn.com/shows/233666/destinations/1729274.xml">
         <article aria-labelledby="podcast-title-31">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/spring-snyggt/" aria-label="Spring Snyggt — view podcast page">
@@ -2288,6 +2422,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/spring-snyggt/" aria-labelledby="podcast-title-31">
                             <h2 class="podcast-loop__item__title" id="podcast-title-31">Spring Snyggt</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Spring Snyggt to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Swedish podcast by elite runner John “Jesus” Kingstedt and the rookie Manne Forssberg covering all things road and track.</p>
                         
@@ -2331,7 +2469,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Women of Distance" data-podcast-url="/women-of-distance/" data-rss-feed="https://anchor.fm/s/eb00f12c/podcast/rss">
         <article aria-labelledby="podcast-title-32">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/women-of-distance/" aria-label="Women of Distance — view podcast page">
@@ -2343,6 +2481,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/women-of-distance/" aria-labelledby="podcast-title-32">
                             <h2 class="podcast-loop__item__title" id="podcast-title-32">Women of Distance</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Women of Distance to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A podcast about the women of Mountain, Trail, Ultra and Road running worlds. Hosted by Devon Yanko.</p>
                         
@@ -2386,7 +2528,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Choose Strong" data-podcast-url="/choose-strong/" data-rss-feed="https://anchor.fm/s/674e5298/podcast/rss">
         <article aria-labelledby="podcast-title-33">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/choose-strong/" aria-label="Choose Strong — view podcast page">
@@ -2398,6 +2540,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/choose-strong/" aria-labelledby="podcast-title-33">
                             <h2 class="podcast-loop__item__title" id="podcast-title-33">Choose Strong</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Choose Strong to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">The host, Sally McRae, is a pro athlete , wife, mother, and biz owner. She seeks to encourage others to live a strong and courageous life and covers a variety of life focused topics including running, total wellness, mindset, parenting, life balance, the impact of social media, and staying motivated while working toward goals. </p>
                         
@@ -2441,7 +2587,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Talk Ultra" data-podcast-url="/talk-ultra/" data-rss-feed="https://rss.libsyn.com/shows/35424/destinations/88544.xml">
         <article aria-labelledby="podcast-title-34">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/talk-ultra/" aria-label="Talk Ultra — view podcast page">
@@ -2453,6 +2599,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/talk-ultra/" aria-labelledby="podcast-title-34">
                             <h2 class="podcast-loop__item__title" id="podcast-title-34">Talk Ultra</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Talk Ultra to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">The godfather of ultra trail podcasts, Ian Corless, brings you you news and in depth interviews from the ultrarunning world.</p>
                         
@@ -2498,7 +2648,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road english ">
+    <li class="podcast-loop__item" data-category="track road english " data-podcast-title="Strength Running Podcast" data-podcast-url="/strength-running-podcast/" data-rss-feed="https://feeds.feedburner.com/StrengthRunning">
         <article aria-labelledby="podcast-title-35">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/strength-running-podcast/" aria-label="Strength Running Podcast — view podcast page">
@@ -2510,6 +2660,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/strength-running-podcast/" aria-labelledby="podcast-title-35">
                             <h2 class="podcast-loop__item__title" id="podcast-title-35">Strength Running Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Strength Running Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Running and coaching tips for beginner and advanced runners with Coach Jason Fitzgerald. Featuring guests like Nick Symmonds and Shalane Flanagan, listeners will learn how to race faster, stay healthy, prevent running injuries, and get stronger in this informative and fun podcast.</p>
                         
@@ -2553,7 +2707,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road norwegian ">
+    <li class="podcast-loop__item" data-category="track road norwegian " data-podcast-title="I Det Lange Løp" data-podcast-url="/i-det-lange-l-p/" data-rss-feed="https://podkast.nrk.no/program/i_det_lange_loep.rss">
         <article aria-labelledby="podcast-title-36">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/i-det-lange-l-p/" aria-label="I Det Lange Løp — view podcast page">
@@ -2565,6 +2719,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/i-det-lange-l-p/" aria-labelledby="podcast-title-36">
                             <h2 class="podcast-loop__item__title" id="podcast-title-36">I Det Lange Løp</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add I Det Lange Løp to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Norwegian running podcast created between 2019 - 2023. Solid interviews with elite athletes in all running genres. No longer active. </p>
                         
@@ -2608,7 +2766,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="The Midpacker Podcast" data-podcast-url="/the-midpacker-podcast/" data-rss-feed="https://anchor.fm/s/e4eabf84/podcast/rss">
         <article aria-labelledby="podcast-title-37">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-midpacker-podcast/" aria-label="The Midpacker Podcast — view podcast page">
@@ -2620,6 +2778,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-midpacker-podcast/" aria-labelledby="podcast-title-37">
                             <h2 class="podcast-loop__item__title" id="podcast-title-37">The Midpacker Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Midpacker Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Troy Meadows presents a podcast which follows middle and back of the pack trail runners and ultra runners at the heart of the trail running community.</p>
                         
@@ -2663,7 +2825,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="science english ">
+    <li class="podcast-loop__item" data-category="science english " data-podcast-title="The Real Science Of Sport" data-podcast-url="/the-real-science-of-sport/" data-rss-feed="https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24">
         <article aria-labelledby="podcast-title-38">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-real-science-of-sport/" aria-label="The Real Science Of Sport — view podcast page">
@@ -2675,6 +2837,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-real-science-of-sport/" aria-labelledby="podcast-title-38">
                             <h2 class="podcast-loop__item__title" id="podcast-title-38">The Real Science Of Sport</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Real Science Of Sport to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">World-renowned sports scientist Professor Ross Tucker and veteran sports journalist Mike Finch break down the myths, practices and controversies from the world of sport. They cover all sports, and 75% of the episodes have some running related content.</p>
                         
@@ -2718,7 +2884,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="The Extramilest Show" data-podcast-url="/the-extramilest-show/" data-rss-feed="https://rss.libsyn.com/shows/104231/destinations/557444.xml">
         <article aria-labelledby="podcast-title-39">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-extramilest-show/" aria-label="The Extramilest Show — view podcast page">
@@ -2730,6 +2896,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-extramilest-show/" aria-labelledby="podcast-title-39">
                             <h2 class="podcast-loop__item__title" id="podcast-title-39">The Extramilest Show</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Extramilest Show to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Interviews with world class athletes, coaches and rukus makers about health, wellness and performance. Hosted by endurance athlete Floris Gierman.</p>
                         
@@ -2775,7 +2945,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail subultra ultra skyrunning english ">
+    <li class="podcast-loop__item" data-category="trail subultra ultra skyrunning english " data-podcast-title="Running long - A trail &amp; ultra running talk" data-podcast-url="/running-long-a-trail-ultra-running-talk/" data-rss-feed="https://anchor.fm/s/70c9c5f0/podcast/rss">
         <article aria-labelledby="podcast-title-40">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/running-long-a-trail-ultra-running-talk/" aria-label="Running long - A trail &amp; ultra running talk — view podcast page">
@@ -2787,6 +2957,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/running-long-a-trail-ultra-running-talk/" aria-labelledby="podcast-title-40">
                             <h2 class="podcast-loop__item__title" id="podcast-title-40">Running long - A trail & ultra running talk</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Running long - A trail &amp; ultra running talk to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Elite runner Francesco Puppi has conversations with key members of the trail & ultra running community from all over the world. From professional world class athletes to our Vert.run members and community.</p>
                         
@@ -2834,7 +3008,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Trail Runner Nation" data-podcast-url="/trail-runner-nation/" data-rss-feed="https://rss.libsyn.com/shows/44345/destinations/142179.xml">
         <article aria-labelledby="podcast-title-41">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/trail-runner-nation/" aria-label="Trail Runner Nation — view podcast page">
@@ -2846,6 +3020,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/trail-runner-nation/" aria-labelledby="podcast-title-41">
                             <h2 class="podcast-loop__item__title" id="podcast-title-41">Trail Runner Nation</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Trail Runner Nation to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Trail Runner Nation is devoted to sharing knowledge and advice to the trail running community - from beginners to the pros! Tips and discussions regarding race nutrition, pacing strategy, mental focus and much more from well-respected members of the trail community.</p>
                         
@@ -2889,7 +3067,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra english ">
+    <li class="podcast-loop__item" data-category="ultra english " data-podcast-title="The Way Of The Runner" data-podcast-url="/the-way-of-the-runner/" data-rss-feed="https://rss.libsyn.com/shows/234188/destinations/1733936.xml">
         <article aria-labelledby="podcast-title-42">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-way-of-the-runner/" aria-label="The Way Of The Runner — view podcast page">
@@ -2901,6 +3079,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-way-of-the-runner/" aria-labelledby="podcast-title-42">
                             <h2 class="podcast-loop__item__title" id="podcast-title-42">The Way Of The Runner</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Way Of The Runner to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Award-winning author Adharanand Finn talks to runners of every kind about the joy and experience of running.</p>
                         
@@ -2944,7 +3126,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Ten Junk Miles" data-podcast-url="/ten-junk-miles/" data-rss-feed="https://rss.libsyn.com/shows/65104/destinations/259001.xml">
         <article aria-labelledby="podcast-title-43">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/ten-junk-miles/" aria-label="Ten Junk Miles — view podcast page">
@@ -2956,6 +3138,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/ten-junk-miles/" aria-labelledby="podcast-title-43">
                             <h2 class="podcast-loop__item__title" id="podcast-title-43">Ten Junk Miles</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Ten Junk Miles to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Scotty Kummer brings you lighthearted conversations with runners about their lives as runners and the issues that are interesting or important to them and guests of the show.</p>
                         
@@ -3001,7 +3187,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Between Two Pines" data-podcast-url="/between-two-pines/" data-rss-feed="https://rss.libsyn.com/shows/489620/destinations/4178531.xml">
         <article aria-labelledby="podcast-title-44">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/between-two-pines/" aria-label="Between Two Pines — view podcast page">
@@ -3013,6 +3199,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/between-two-pines/" aria-labelledby="podcast-title-44">
                             <h2 class="podcast-loop__item__title" id="podcast-title-44">Between Two Pines</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Between Two Pines to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A running podcast for people who think running podcasts are stupid. Dom Grossman and Andy Pearson ask their guests hilariously insulting questions in a "between two ferns" style manner.</p>
                         
@@ -3056,7 +3246,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra english ">
+    <li class="podcast-loop__item" data-category="ultra english " data-podcast-title="Ultrarunning History" data-podcast-url="/ultrarunning-history-podcast/" data-rss-feed="https://ultrarunninghistory.com/feed/podcast/">
         <article aria-labelledby="podcast-title-45">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/ultrarunning-history-podcast/" aria-label="Ultrarunning History — view podcast page">
@@ -3068,6 +3258,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/ultrarunning-history-podcast/" aria-labelledby="podcast-title-45">
                             <h2 class="podcast-loop__item__title" id="podcast-title-45">Ultrarunning History</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Ultrarunning History to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A podcast about the history of ultrarunning by ultrarunner and historian Davy Crocket.</p>
                         
@@ -3111,7 +3305,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="subultra ultra trail science english ">
+    <li class="podcast-loop__item" data-category="subultra ultra trail science english " data-podcast-title="Some Work, All Play" data-podcast-url="/some-work-all-play/" data-rss-feed="https://anchor.fm/s/9abbbe4/podcast/rss">
         <article aria-labelledby="podcast-title-46">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/some-work-all-play/" aria-label="Some Work, All Play — view podcast page">
@@ -3123,6 +3317,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/some-work-all-play/" aria-labelledby="podcast-title-46">
                             <h2 class="podcast-loop__item__title" id="podcast-title-46">Some Work, All Play</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Some Work, All Play to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Megan Roche, M.D. and David Roche digs deep into training, races, studies, pop culture, and much more! HUZZAH!</p>
                         
@@ -3172,7 +3370,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra trail business english ">
+    <li class="podcast-loop__item" data-category="ultra trail business english " data-podcast-title="Singletrack" data-podcast-url="/singletrack/" data-rss-feed="https://rss.buzzsprout.com/1794638.rss">
         <article aria-labelledby="podcast-title-47">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/singletrack/" aria-label="Singletrack — view podcast page">
@@ -3184,6 +3382,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/singletrack/" aria-labelledby="podcast-title-47">
                             <h2 class="podcast-loop__item__title" id="podcast-title-47">Singletrack</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Singletrack to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Singletrack covers the professional trail and ultrarunning scene.</p>
                         
@@ -3233,7 +3435,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra english ">
+    <li class="podcast-loop__item" data-category="ultra english " data-podcast-title="Science Of Ultra" data-podcast-url="/science-of-ultra/" data-rss-feed="https://rss.libsyn.com/shows/70944/destinations/299934.xml">
         <article aria-labelledby="podcast-title-48">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/science-of-ultra/" aria-label="Science Of Ultra — view podcast page">
@@ -3245,6 +3447,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/science-of-ultra/" aria-labelledby="podcast-title-48">
                             <h2 class="podcast-loop__item__title" id="podcast-title-48">Science Of Ultra</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Science Of Ultra to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">For endurance athletes who want to do more than improve race performance. The host, Shawn Bearden, hasn't published any episodes since October 2021, but the episodes are gold! </p>
                         
@@ -3286,7 +3492,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra trail swedish ">
+    <li class="podcast-loop__item" data-category="ultra trail swedish " data-podcast-title="Pace On Earth" data-podcast-url="/pace-on-earth/" data-rss-feed="https://rss.libsyn.com/shows/105415/destinations/566693.xml">
         <article aria-labelledby="podcast-title-49">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/pace-on-earth/" aria-label="Pace On Earth — view podcast page">
@@ -3298,6 +3504,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/pace-on-earth/" aria-labelledby="podcast-title-49">
                             <h2 class="podcast-loop__item__title" id="podcast-title-49">Pace On Earth</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Pace On Earth to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">A Swedish ultrarunning podcast where the podcast hosts Ellen Westfelt and Johnny Hällneby talks about everything from cross training, nutrition, meditation, endurance sports and much much more. </p>
                         
@@ -3341,7 +3551,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra science trail english ">
+    <li class="podcast-loop__item" data-category="ultra science trail english " data-podcast-title="KoopCast" data-podcast-url="/koopcast/" data-rss-feed="https://rss.buzzsprout.com/765419.rss">
         <article aria-labelledby="podcast-title-50">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/koopcast/" aria-label="KoopCast — view podcast page">
@@ -3353,6 +3563,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/koopcast/" aria-labelledby="podcast-title-50">
                             <h2 class="podcast-loop__item__title" id="podcast-title-50">KoopCast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add KoopCast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Coach Jason Koop covers training, nutrition and recent happenings in the ultramarathon world.</p>
                         
@@ -3400,7 +3614,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Crack A Brew With AJW" data-podcast-url="/crack-a-brew-with-ajw/" data-rss-feed="https://rss.libsyn.com/shows/456963/destinations/3847590.xml">
         <article aria-labelledby="podcast-title-51">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/crack-a-brew-with-ajw/" aria-label="Crack A Brew With AJW — view podcast page">
@@ -3412,6 +3626,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/crack-a-brew-with-ajw/" aria-labelledby="podcast-title-51">
                             <h2 class="podcast-loop__item__title" id="podcast-title-51">Crack A Brew With AJW</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Crack A Brew With AJW to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Runner and Coach Andy Jones-Wilkins talks with trail running athletes, coaches and race directors about topical subjects. Each episode features a beverage and will last as long as it typically takes to leisurely enjoy the beverage.</p>
                         
@@ -3453,7 +3671,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road trail norwegian ">
+    <li class="podcast-loop__item" data-category="track road trail norwegian " data-podcast-title="Breaking Marathon Limits" data-podcast-url="/breaking-marathon-limits/" data-rss-feed="https://rss.buzzsprout.com/299975.rss">
         <article aria-labelledby="podcast-title-52">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/breaking-marathon-limits/" aria-label="Breaking Marathon Limits — view podcast page">
@@ -3465,6 +3683,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/breaking-marathon-limits/" aria-labelledby="podcast-title-52">
                             <h2 class="podcast-loop__item__title" id="podcast-title-52">Breaking Marathon Limits</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Breaking Marathon Limits to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Norwegian running podcast, mostly focused on track and road.</p>
                         
@@ -3512,7 +3734,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail business english ">
+    <li class="podcast-loop__item" data-category="trail business english " data-podcast-title="Conversational Pace" data-podcast-url="/conversational-pace/">
         <article aria-labelledby="podcast-title-53">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/conversational-pace/" aria-label="Conversational Pace — view podcast page">
@@ -3524,6 +3746,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/conversational-pace/" aria-labelledby="podcast-title-53">
                             <h2 class="podcast-loop__item__title" id="podcast-title-53">Conversational Pace</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite podcast-loop__favorite--disabled" data-opml-favorite aria-pressed="false" aria-label="Conversational Pace cannot be exported because it has no RSS feed" title="No RSS feed available" disabled>
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>No RSS feed available</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">In-depth trail shoe reviews with Brett Hornig + guest. For the gear geeks.</p>
                         
@@ -3567,7 +3793,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Trail Society" data-podcast-url="/trail-society/" data-rss-feed="https://feeds.captivate.fm/trail-society/">
         <article aria-labelledby="podcast-title-54">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/trail-society/" aria-label="Trail Society — view podcast page">
@@ -3579,6 +3805,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/trail-society/" aria-labelledby="podcast-title-54">
                             <h2 class="podcast-loop__item__title" id="podcast-title-54">Trail Society</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Trail Society to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Keely Henninger, Corrine Malcolm, and Hillary Allen are three professional trail runners looking to utilize their experience as athletes and scientists to foster community and discussion around new and challenging topics in the world of trail running, training and racing, and equality.</p>
                         
@@ -3622,7 +3852,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Take Off Your Shoes" data-podcast-url="/take-off-your-shoes/" data-rss-feed="https://anchor.fm/s/f9f56780/podcast/rss">
         <article aria-labelledby="podcast-title-55">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/take-off-your-shoes/" aria-label="Take Off Your Shoes — view podcast page">
@@ -3634,6 +3864,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/take-off-your-shoes/" aria-labelledby="podcast-title-55">
                             <h2 class="podcast-loop__item__title" id="podcast-title-55">Take Off Your Shoes</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Take Off Your Shoes to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Real and heartfelt conversations with host Bora Erör and pro trail runners.</p>
                         
@@ -3677,7 +3911,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra english ">
+    <li class="podcast-loop__item" data-category="ultra english " data-podcast-title="The Running Public" data-podcast-url="/the-running-public/" data-rss-feed="https://feed.podbean.com/therunningpublic/feed.xml">
         <article aria-labelledby="podcast-title-56">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-running-public/" aria-label="The Running Public — view podcast page">
@@ -3689,6 +3923,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-running-public/" aria-labelledby="podcast-title-56">
                             <h2 class="podcast-loop__item__title" id="podcast-title-56">The Running Public</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Running Public to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Two endurance athletes and coaches sit down to talk all things running.</p>
                         
@@ -3730,7 +3968,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra english " data-podcast-title="Speed Dhiman Radio" data-podcast-url="/speed-dhiman-radio/" data-rss-feed="https://anchor.fm/s/fd56e778/podcast/rss">
         <article aria-labelledby="podcast-title-57">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/speed-dhiman-radio/" aria-label="Speed Dhiman Radio — view podcast page">
@@ -3742,6 +3980,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/speed-dhiman-radio/" aria-labelledby="podcast-title-57">
                             <h2 class="podcast-loop__item__title" id="podcast-title-57">Speed Dhiman Radio</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Speed Dhiman Radio to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Endurance conversation and ramblings from pro trail runner Ben Dhiman.</p>
                         
@@ -3785,7 +4027,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="track road english ">
+    <li class="podcast-loop__item" data-category="track road english " data-podcast-title="Nobody Asked Us" data-podcast-url="/nobody-asked-us/" data-rss-feed="https://rss.libsyn.com/shows/455619/destinations/3833748.xml">
         <article aria-labelledby="podcast-title-58">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/nobody-asked-us/" aria-label="Nobody Asked Us — view podcast page">
@@ -3797,6 +4039,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/nobody-asked-us/" aria-labelledby="podcast-title-58">
                             <h2 class="podcast-loop__item__title" id="podcast-title-58">Nobody Asked Us</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Nobody Asked Us to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Olympic teammates, Des Linden and Kara Goucher share their hot takes about all things running with a little bit of life-stuff sprinkled in too. No filter needed.</p>
                         
@@ -3840,7 +4086,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="business road trail ultra english ">
+    <li class="podcast-loop__item" data-category="business road trail ultra english " data-podcast-title="For The Long Run" data-podcast-url="/for-the-long-run/" data-rss-feed="https://anchor.fm/s/81032c4/podcast/rss">
         <article aria-labelledby="podcast-title-59">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/for-the-long-run/" aria-label="For The Long Run — view podcast page">
@@ -3852,6 +4098,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/for-the-long-run/" aria-labelledby="podcast-title-59">
                             <h2 class="podcast-loop__item__title" id="podcast-title-59">For The Long Run</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add For The Long Run to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Jonathan Levitt interviews athletes and founders in the the outdoor, running and performance space.</p>
                         
@@ -3901,7 +4151,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra trail english ">
+    <li class="podcast-loop__item" data-category="ultra trail english " data-podcast-title="Centurion Running" data-podcast-url="/centurion-running/" data-rss-feed="https://www.centurionrunning.com/podcast/podcast.xml">
         <article aria-labelledby="podcast-title-60">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/centurion-running/" aria-label="Centurion Running — view podcast page">
@@ -3913,6 +4163,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/centurion-running/" aria-labelledby="podcast-title-60">
                             <h2 class="podcast-loop__item__title" id="podcast-title-60">Centurion Running</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Centurion Running to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Centurion Running is a UK based trail running event company. Episodes are focused around their races + current events on the international trail/ultra scene.</p>
                         
@@ -3956,7 +4210,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="trail ultra subultra english ">
+    <li class="podcast-loop__item" data-category="trail ultra subultra english " data-podcast-title="Trail Talk" data-podcast-url="/trail-talk/" data-rss-feed="https://anchor.fm/s/ed80b02c/podcast/rss">
         <article aria-labelledby="podcast-title-61">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/trail-talk/" aria-label="Trail Talk — view podcast page">
@@ -3968,6 +4222,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/trail-talk/" aria-labelledby="podcast-title-61">
                             <h2 class="podcast-loop__item__title" id="podcast-title-61">Trail Talk</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Trail Talk to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Global ultra-trail show covering races, athlete stories, gear reviews, and the culture that drives runners to push beyond the marathon, by Irish ultra runners Aaron Shimmons and Ricki Wynne.</p>
                         
@@ -4015,7 +4273,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="business trail ultra english ">
+    <li class="podcast-loop__item" data-category="business trail ultra english " data-podcast-title="Creators Cooldown" data-podcast-url="/creators-cooldown/" data-rss-feed="https://anchor.fm/s/101e74634/podcast/rss">
         <article aria-labelledby="podcast-title-62">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/creators-cooldown/" aria-label="Creators Cooldown — view podcast page">
@@ -4027,6 +4285,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/creators-cooldown/" aria-labelledby="podcast-title-62">
                             <h2 class="podcast-loop__item__title" id="podcast-title-62">Creators Cooldown</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Creators Cooldown to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Host Jeff Pelletier speaks to some of the top creators of running related content, from filmmakers and photographers, to writers and podcast hosts.</p>
                         
@@ -4072,7 +4334,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="road track english ">
+    <li class="podcast-loop__item" data-category="road track english " data-podcast-title="Inside Running Podcast" data-podcast-url="/inside-running-podcast/" data-rss-feed="https://feed.podbean.com/insiderunningpodcast/feed.xml">
         <article aria-labelledby="podcast-title-63">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/inside-running-podcast/" aria-label="Inside Running Podcast — view podcast page">
@@ -4084,6 +4346,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/inside-running-podcast/" aria-labelledby="podcast-title-63">
                             <h2 class="podcast-loop__item__title" id="podcast-title-63">Inside Running Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add Inside Running Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Australian road and track podcast with Brady Threlfall, Julian Spence and Bradley Croker. </p>
                         
@@ -4127,7 +4393,7 @@
         </article>
     </li>
     
-    <li class="podcast-loop__item" data-category="ultra trail business english ">
+    <li class="podcast-loop__item" data-category="ultra trail business english " data-podcast-title="The Freetrail Podcast" data-podcast-url="/the-freetrail-podcast/" data-rss-feed="https://rss.libsyn.com/shows/235580/destinations/1746794.xml">
         <article aria-labelledby="podcast-title-64">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="/the-freetrail-podcast/" aria-label="The Freetrail Podcast — view podcast page">
@@ -4139,6 +4405,10 @@
                         <a class="podcast-loop__item__teaser-link" href="/the-freetrail-podcast/" aria-labelledby="podcast-title-64">
                             <h2 class="podcast-loop__item__title" id="podcast-title-64">The Freetrail Podcast</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite" data-opml-favorite aria-pressed="false" aria-label="Add The Freetrail Podcast to OPML favorites" title="Add to OPML favorites">
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>Add to OPML favorites</span>
+                        </button>
                         
                         <p class="podcast-loop__item__description">Professional ultrarunner, Dylan Bowman, brings conversations with a wide-ranging cohort of guests, covering ultrarunning, sports, business, and the outdoor industry.</p>
                         
@@ -4198,7 +4468,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-19T07:53:44Z">2026-06-19 07:53 UTC</time>
+      <time datetime="2026-06-19T09:33:04Z">2026-06-19 09:33 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

@@ -11,6 +11,7 @@ var isTouchDevice = function () {
 };
 
 var LANG_FILTER_STORAGE_KEY = 'brp-language-filter';
+var OPML_FAVORITES_STORAGE_KEY = 'brp-opml-favorites';
 
 function init() {}
 
@@ -101,6 +102,309 @@ function filterListItems() {
     return Array.prototype.slice.call(document.querySelectorAll(getFilterConfig().itemSelector));
 }
 
+function getOpmlPodcastFromItem(li) {
+    var rssFeed = li ? (li.getAttribute('data-rss-feed') || '').trim() : '';
+    if (!rssFeed) {
+        return null;
+    }
+
+    return {
+        title: (li.getAttribute('data-podcast-title') || '').trim(),
+        rssFeed: rssFeed,
+        url: (li.getAttribute('data-podcast-url') || '').trim()
+    };
+}
+
+function escapeOpml(value) {
+    return String(value || '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&apos;');
+}
+
+function absolutePodcastUrl(url) {
+    if (!url) {
+        return '';
+    }
+
+    try {
+        return new URL(url, window.location.origin).href;
+    } catch (_e) {
+        return url;
+    }
+}
+
+function buildOpml(podcasts) {
+    var createdAt = new Date().toUTCString();
+    var title = 'Best Running Podcasts export';
+    var lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<opml version="2.0">',
+        '  <head>',
+        '    <title>' + escapeOpml(title) + '</title>',
+        '    <dateCreated>' + escapeOpml(createdAt) + '</dateCreated>',
+        '  </head>',
+        '  <body>'
+    ];
+
+    podcasts.forEach(function (podcast) {
+        var text = podcast.title || podcast.rssFeed;
+        var htmlUrl = absolutePodcastUrl(podcast.url);
+        var attrs =
+            ' text="' +
+            escapeOpml(text) +
+            '" title="' +
+            escapeOpml(text) +
+            '" type="rss" xmlUrl="' +
+            escapeOpml(podcast.rssFeed) +
+            '"';
+
+        if (htmlUrl) {
+            attrs += ' htmlUrl="' + escapeOpml(htmlUrl) + '"';
+        }
+
+        lines.push('    <outline' + attrs + ' />');
+    });
+
+    lines.push('  </body>', '</opml>', '');
+    return lines.join('\n');
+}
+
+function downloadTextFile(filename, text, mimeType) {
+    var blob = new Blob([text], { type: mimeType });
+    var url = URL.createObjectURL(blob);
+    var link = document.createElement('a');
+
+    link.href = url;
+    link.download = filename;
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    window.setTimeout(function () {
+        URL.revokeObjectURL(url);
+    }, 0);
+}
+
+function getOpmlFavoriteId(li) {
+    return li ? (li.getAttribute('data-podcast-url') || li.getAttribute('data-podcast-title') || '').trim() : '';
+}
+
+function readOpmlFavoriteIds() {
+    try {
+        var raw = localStorage.getItem(OPML_FAVORITES_STORAGE_KEY);
+        var parsed = raw ? JSON.parse(raw) : [];
+        return Array.isArray(parsed) ? parsed.filter(Boolean) : [];
+    } catch (_e) {
+        return [];
+    }
+}
+
+function writeOpmlFavoriteIds(ids) {
+    try {
+        localStorage.setItem(OPML_FAVORITES_STORAGE_KEY, JSON.stringify(ids));
+    } catch (_e) {
+        /* ignore */
+    }
+}
+
+function getOpmlFavoriteItems() {
+    var favoriteIds = readOpmlFavoriteIds();
+    return favoriteIds
+        .map(function (id) {
+            return filterListItems().find(function (li) {
+                return getOpmlFavoriteId(li) === id;
+            });
+        })
+        .filter(function (li) {
+            return !!getOpmlPodcastFromItem(li);
+        });
+}
+
+function getOpmlFavoritePodcasts() {
+    return getOpmlFavoriteItems().map(getOpmlPodcastFromItem).filter(Boolean);
+}
+
+function saveCurrentOpmlFavorites() {
+    var ids = filterListItems()
+        .filter(function (li) {
+            return li.classList.contains('is-opml-favorite') && !!getOpmlPodcastFromItem(li);
+        })
+        .map(getOpmlFavoriteId);
+
+    writeOpmlFavoriteIds(ids);
+}
+
+function setOpmlFavorite(li, favorited) {
+    var btn = li ? li.querySelector('[data-opml-favorite]') : null;
+    var podcast = getOpmlPodcastFromItem(li);
+    if (!li || !btn || !podcast || btn.disabled) {
+        return;
+    }
+
+    li.classList.toggle('is-opml-favorite', favorited);
+    btn.setAttribute('aria-pressed', favorited ? 'true' : 'false');
+    btn.setAttribute(
+        'aria-label',
+        (favorited ? 'Remove ' : 'Add ') + podcast.title + (favorited ? ' from' : ' to') + ' OPML favorites'
+    );
+    btn.setAttribute('title', favorited ? 'Remove from OPML favorites' : 'Add to OPML favorites');
+
+    var star = btn.querySelector('.podcast-loop__favorite-star');
+    if (star) {
+        star.textContent = favorited ? '★' : '☆';
+    }
+    var text = btn.querySelector('[data-opml-favorite-text]');
+    if (text) {
+        text.textContent = favorited ? 'Remove from OPML favorites' : 'Add to OPML favorites';
+    }
+}
+
+function renderOpmlFavoritesList(podcasts) {
+    var list = document.querySelector('[data-opml-favorites-list]');
+    var empty = document.querySelector('[data-opml-favorites-empty]');
+    if (!list) {
+        return;
+    }
+
+    list.innerHTML = '';
+    list.hidden = podcasts.length === 0;
+    if (empty) {
+        empty.hidden = podcasts.length > 0;
+    }
+
+    podcasts.forEach(function (podcast) {
+        var li = document.createElement('li');
+        var title = document.createElement('span');
+        var remove = document.createElement('button');
+
+        li.className = 'filter__opml-list-item';
+        title.textContent = podcast.title || podcast.rssFeed;
+        remove.type = 'button';
+        remove.className = 'filter__opml-remove';
+        remove.setAttribute('data-opml-remove', podcast.url);
+        remove.setAttribute('aria-label', 'Remove ' + title.textContent + ' from OPML favorites');
+        remove.textContent = 'x';
+
+        li.appendChild(title);
+        li.appendChild(remove);
+        list.appendChild(li);
+    });
+}
+
+function updateOpmlFavoritesUi() {
+    var podcasts = getOpmlFavoritePodcasts();
+    var panel = document.querySelector('[data-opml-favorites]');
+    var exportBtn = document.querySelector('[data-opml-export]');
+    var clearBtn = document.querySelector('[data-opml-clear]');
+    var countEl = document.querySelector('[data-opml-favorites-count]');
+    var count = podcasts.length;
+    var hasFavorites = count > 0;
+
+    if (panel) {
+        panel.hidden = !hasFavorites;
+    }
+    if (countEl) {
+        countEl.textContent = String(count);
+    }
+    if (exportBtn) {
+        exportBtn.disabled = !hasFavorites;
+        exportBtn.setAttribute('aria-disabled', hasFavorites ? 'false' : 'true');
+        exportBtn.setAttribute(
+            'title',
+            hasFavorites
+                ? 'Export ' + count + ' favorite podcast' + (count === 1 ? '' : 's') + ' as OPML'
+                : 'Star at least one podcast to export'
+        );
+    }
+    if (clearBtn) {
+        clearBtn.disabled = !hasFavorites;
+        clearBtn.setAttribute('aria-disabled', hasFavorites ? 'false' : 'true');
+    }
+
+    renderOpmlFavoritesList(podcasts);
+}
+
+function syncOpmlFavoritesFromStorage() {
+    var favoriteIds = readOpmlFavoriteIds();
+    filterListItems().forEach(function (li) {
+        setOpmlFavorite(li, favoriteIds.indexOf(getOpmlFavoriteId(li)) !== -1);
+    });
+    saveCurrentOpmlFavorites();
+    updateOpmlFavoritesUi();
+}
+
+function toggleOpmlFavorite(li) {
+    if (!getOpmlPodcastFromItem(li)) {
+        return;
+    }
+
+    setOpmlFavorite(li, !li.classList.contains('is-opml-favorite'));
+    saveCurrentOpmlFavorites();
+    updateOpmlFavoritesUi();
+}
+
+function removeOpmlFavoriteById(id) {
+    filterListItems().forEach(function (li) {
+        if (getOpmlFavoriteId(li) === id) {
+            setOpmlFavorite(li, false);
+        }
+    });
+    saveCurrentOpmlFavorites();
+    updateOpmlFavoritesUi();
+}
+
+function clearOpmlFavorites() {
+    filterListItems().forEach(function (li) {
+        setOpmlFavorite(li, false);
+    });
+    saveCurrentOpmlFavorites();
+    updateOpmlFavoritesUi();
+}
+
+function exportFavoritePodcastsAsOpml() {
+    var podcasts = getOpmlFavoritePodcasts();
+    if (!podcasts.length) {
+        updateOpmlFavoritesUi();
+        return;
+    }
+
+    downloadTextFile(
+        'best-running-podcasts.opml',
+        buildOpml(podcasts),
+        'text/x-opml;charset=utf-8'
+    );
+}
+
+function wireOpmlExport() {
+    if (!document.querySelector('[data-opml-favorites]')) {
+        return;
+    }
+
+    document.querySelector('[data-opml-clear]').addEventListener('click', clearOpmlFavorites);
+    document.querySelector('[data-opml-export]').addEventListener('click', exportFavoritePodcastsAsOpml);
+
+    document.addEventListener('click', function (e) {
+        var target = e.target;
+        var favoriteBtn = target ? target.closest('[data-opml-favorite]') : null;
+        var removeBtn = target ? target.closest('[data-opml-remove]') : null;
+
+        if (favoriteBtn) {
+            toggleOpmlFavorite(favoriteBtn.closest('.podcast-loop__item'));
+            return;
+        }
+
+        if (removeBtn) {
+            removeOpmlFavoriteById(removeBtn.getAttribute('data-opml-remove'));
+        }
+    });
+
+    syncOpmlFavoritesFromStorage();
+}
+
 function pluralFilterNoun(noun, count) {
     if (count === 1) {
         return noun;
@@ -164,6 +468,11 @@ function reorderVisiblePodcastsWithFeaturedFirst() {
 
 function setFilterItemVisible(li, visible) {
     li.style.display = visible ? '' : 'none';
+}
+
+function itemMatchesOpmlFavorites(li, favoriteIds) {
+    var url = li ? (li.getAttribute('data-podcast-url') || '').trim() : '';
+    return !!url && favoriteIds.indexOf(url) !== -1;
 }
 
 /** True when element is displayed (respects inline display:none from filtering). */
@@ -327,9 +636,14 @@ function applyDirectoryFilter() {
     var config = getFilterConfig();
     var allItems = filterListItems();
     var selector = '';
+    var filterFavorites = false;
 
     var categoryInputs = document.querySelectorAll('input[name="category"]:checked');
     for (var i = 0; i < categoryInputs.length; i++) {
+        if (categoryInputs[i].hasAttribute('data-filter-favorites')) {
+            filterFavorites = true;
+            continue;
+        }
         var id = categoryInputs[i].id;
         if (id) {
             selector += "[data-category~='" + escapeAttrSel(id) + "']";
@@ -344,7 +658,7 @@ function applyDirectoryFilter() {
 
     var resetBtns = document.querySelectorAll('.filter__reset');
 
-    if (!selector) {
+    if (!selector && !filterFavorites) {
         allItems.forEach(function (li) {
             setFilterItemVisible(li, true);
         });
@@ -354,18 +668,24 @@ function applyDirectoryFilter() {
             btn.setAttribute('aria-pressed', 'true');
         });
     } else {
+        var favoriteIds = filterFavorites ? readOpmlFavoriteIds() : [];
         allItems.forEach(function (li) {
             setFilterItemVisible(li, false);
         });
 
-        try {
-            var matches = document.querySelectorAll(config.itemSelector + selector);
-            for (var j = 0; j < matches.length; j++) {
-                setFilterItemVisible(matches[j], true);
+        allItems.forEach(function (li) {
+            var matchesSelector = !selector;
+            if (selector) {
+                try {
+                    matchesSelector = li.matches(selector);
+                } catch (_e) {
+                    matchesSelector = false;
+                }
             }
-        } catch (_e) {
-            /* malformed selector fallback: show nothing filtered */
-        }
+
+            var matchesFavorites = !filterFavorites || itemMatchesOpmlFavorites(li, favoriteIds);
+            setFilterItemVisible(li, matchesSelector && matchesFavorites);
+        });
 
         if (getPodcastLoop()) {
             reorderVisiblePodcastsWithFeaturedFirst();
@@ -392,6 +712,7 @@ function applyDirectoryFilter() {
     }
 
     updateFilterResultsCount();
+    updateOpmlFavoritesUi();
 }
 
 function resetAllFilters() {
@@ -420,6 +741,7 @@ function resetAllFilters() {
     }
 
     updateFilterResultsCount();
+    updateOpmlFavoritesUi();
 }
 
 function setInitialGridModeByViewport() {
@@ -493,6 +815,7 @@ function wireFilterAndGrid() {
     syncGridAria();
     cachePodcastLoopOrder();
     wireFilterCollapse();
+    wireOpmlExport();
     initLanguageFilterPreference();
 
     document.addEventListener('change', function (e) {

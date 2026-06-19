@@ -771,22 +771,51 @@
       showTransport();
     }
 
+    function imagePathname(url) {
+      if (!url) return '';
+      try {
+        return new URL(url, window.location.href).pathname;
+      } catch (e) {
+        return String(url).split(/[?#]/)[0];
+      }
+    }
+
+    function localWebpCandidate(url) {
+      var value = (url || '').trim();
+      var path = imagePathname(value);
+      if (!value || !path) return '';
+      if (/\.webp$/i.test(path)) return value;
+      if (/^[a-z][a-z0-9+.-]*:\/\//i.test(value)) return '';
+      if (!/\.(jpe?g|png)$/i.test(path)) return '';
+      return value.replace(/\.(jpe?g|png)(?=([?#]|$))/i, '.webp');
+    }
+
+    function updatePictureSource(url) {
+      if (!art) return;
+      var picture = art.closest('picture');
+      if (!picture) return;
+      var source = picture.querySelector('source');
+      if (!source) return;
+
+      var srcset = localWebpCandidate(url);
+      if (srcset) {
+        source.setAttribute('type', 'image/webp');
+        source.setAttribute('srcset', srcset);
+      } else {
+        source.removeAttribute('srcset');
+      }
+    }
+
     function updateArt(url) {
       if (!art || !artWrap) return;
-      var fallback = (artWrap.getAttribute('data-default-cover') || '').trim();
-      var effective = (url || '').trim() || fallback;
+      var effective = (url || '').trim();
       if (effective) {
+        updatePictureSource(effective);
         art.src = effective;
         art.removeAttribute('hidden');
         artWrap.classList.remove('latest-episodes__player-art-wrap--empty');
-        var picture = art.closest('picture');
-        if (picture) {
-          var source = picture.querySelector('source');
-          if (source && /\.(jpe?g|png)$/i.test(effective)) {
-            source.srcset = effective.replace(/\.(jpe?g|png)$/i, '.webp');
-          }
-        }
       } else {
+        updatePictureSource('');
         art.removeAttribute('src');
         art.setAttribute('hidden', '');
         artWrap.classList.add('latest-episodes__player-art-wrap--empty');

@@ -1,16 +1,18 @@
 {%- assign deck_cover = include.deck_cover | default: "" -%}
+{%- assign deck_default_cover = "" -%}
+{%- if deck_cover != "" -%}
+  {%- if deck_cover contains '://' -%}
+    {%- assign deck_default_cover = deck_cover -%}
+  {%- else -%}
+    {%- assign deck_default_cover = deck_cover | relative_url -%}
+  {%- endif -%}
+{%- endif -%}
 <div class="latest-episodes__player-shell">
   <canvas class="latest-episodes__player-waves" data-player-waves aria-hidden="true"></canvas>
   <div
     class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
     data-player-art-wrap
-    {% if deck_cover != "" %}
-      {% if deck_cover contains '://' %}
-    data-default-cover="{{ deck_cover | escape }}"
-      {% else %}
-    data-default-cover="{{ deck_cover | relative_url | escape }}"
-      {% endif %}
-    {% endif %}
+    {% if deck_default_cover != "" %}data-default-cover="{{ deck_default_cover | escape }}"{% endif %}
   >
     {%- if deck_cover != "" -%}
     {%- if deck_cover contains '://' -%}

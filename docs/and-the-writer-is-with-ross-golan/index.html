@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://bestrunningpodcasts.com/media/andthewriteris.jpeg">
 <meta property="og:image:secure_url" content="https://bestrunningpodcasts.com/media/andthewriteris.jpeg">
 <meta property="og:image:alt" content="And The Writer Is...with Ross Golan podcast cover art"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:width" content="600">
-<meta property="og:image:height" content="600"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-05-31T00:00:00+00:00"><!-- Twitter (X) Card -->
+<meta property="og:image:height" content="600"><meta property="og:locale" content="en_US"><meta property="article:published_time" content="2026-05-31T00:00:00+02:00"><!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="And The Writer Is...with Ross Golan | The Best Running Podcasts 2026">
 <meta name="twitter:description" content="Every week, we sit down with an acclaimed and venerable songwriter to intimately discuss what happens behind closed doors in the music industry. There are millions of singers, thousands of artists, and only 40 top songs per genre at a time... this podcast is about the people who make them. Produc...">
@@ -146,11 +146,7 @@
   <div
     class="latest-episodes__player-art-wrap"
     data-player-art-wrap
-    
-      
     data-default-cover="/media/andthewriteris.jpeg"
-      
-    
   ><picture><source type="image/webp" srcset="/media/andthewriteris.webp" /><img src="/media/andthewriteris.jpeg" alt="" class="latest-episodes__player-art" data-player-art decoding="async" width="96" height="96" loading="lazy" /></picture></div>
   <div class="latest-episodes__player-main">
     <p class="latest-episodes__now-playing latest-episodes__now-playing--idle" data-now-playing>Choose an episode below to start listening.</p>
@@ -1191,22 +1187,51 @@
       showTransport();
     }
 
+    function imagePathname(url) {
+      if (!url) return '';
+      try {
+        return new URL(url, window.location.href).pathname;
+      } catch (e) {
+        return String(url).split(/[?#]/)[0];
+      }
+    }
+
+    function localWebpCandidate(url) {
+      var value = (url || '').trim();
+      var path = imagePathname(value);
+      if (!value || !path) return '';
+      if (/\.webp$/i.test(path)) return value;
+      if (/^[a-z][a-z0-9+.-]*:\/\//i.test(value)) return '';
+      if (!/\.(jpe?g|png)$/i.test(path)) return '';
+      return value.replace(/\.(jpe?g|png)(?=([?#]|$))/i, '.webp');
+    }
+
+    function updatePictureSource(url) {
+      if (!art) return;
+      var picture = art.closest('picture');
+      if (!picture) return;
+      var source = picture.querySelector('source');
+      if (!source) return;
+
+      var srcset = localWebpCandidate(url);
+      if (srcset) {
+        source.setAttribute('type', 'image/webp');
+        source.setAttribute('srcset', srcset);
+      } else {
+        source.removeAttribute('srcset');
+      }
+    }
+
     function updateArt(url) {
       if (!art || !artWrap) return;
-      var fallback = (artWrap.getAttribute('data-default-cover') || '').trim();
-      var effective = (url || '').trim() || fallback;
+      var effective = (url || '').trim();
       if (effective) {
+        updatePictureSource(effective);
         art.src = effective;
         art.removeAttribute('hidden');
         artWrap.classList.remove('latest-episodes__player-art-wrap--empty');
-        var picture = art.closest('picture');
-        if (picture) {
-          var source = picture.querySelector('source');
-          if (source && /\.(jpe?g|png)$/i.test(effective)) {
-            source.srcset = effective.replace(/\.(jpe?g|png)$/i, '.webp');
-          }
-        }
       } else {
+        updatePictureSource('');
         art.removeAttribute('src');
         art.setAttribute('hidden', '');
         artWrap.classList.add('latest-episodes__player-art-wrap--empty');
@@ -1588,7 +1613,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-19T07:53:44Z">2026-06-19 07:53 UTC</time>
+      <time datetime="2026-06-19T09:33:04Z">2026-06-19 09:33 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

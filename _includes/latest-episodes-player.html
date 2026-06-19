@@ -36,6 +36,7 @@
     <li
       class="latest-episodes__item"
       {% if _filter_category != '' %}data-category="{{ _filter_category }}"{% elsif _podcast_doc %}data-category="{% for tag in _podcast_doc.tags %}{{ tag }} {% endfor %}{% for language in _podcast_doc.language %}{{ language }} {% endfor %}"{% endif %}
+      {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
     >
       <div class="latest-episodes__episode-stack">
         {%- if episode.cover_image and episode.cover_image != "" -%}

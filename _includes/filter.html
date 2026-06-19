@@ -5,6 +5,11 @@
 {%- assign _filter_title = include.title | default: 'Find a podcast' -%}
 {%- assign _filter_noun = include.noun | default: 'podcast' -%}
 {%- assign _filter_item = include.filter_item | default: '.podcast-loop__item:not(.no-podcast-found)' -%}
+{%- assign _show_opml_favorites = include.show_opml_favorites -%}
+{%- if _show_opml_favorites == nil -%}
+  {%- assign _show_opml_favorites = true -%}
+{%- endif -%}
+{%- assign _show_favorites_filter = include.show_favorites_filter | default: false -%}
 {%- if include.total_count -%}
   {%- assign directory_count = include.total_count -%}
 {%- else -%}
@@ -51,6 +56,12 @@
                         <span class="filter__chip-text">All</span>
                         <span class="filter__chip-count">{{ directory_count }}</span>
                     </button>
+                    {%- if _show_favorites_filter -%}
+                    <label class="filter__chip filter__chip--favorites">
+                        <input type="checkbox" name="category" id="favorites" value="favorites" data-filter-favorites />
+                        <span class="filter__chip-text">Favorites</span>
+                    </label>
+                    {%- endif -%}
                     {% for tag in site_tags %}
                     {% if tag == 'uncategorized' %}{% continue %}{% endif %}
                     {% assign tag_data = site.data.tags[tag] %}
@@ -102,4 +113,24 @@
             </div>
         </div>
     </div>
+
+    {%- if _show_opml_favorites -%}
+    <div class="filter__opml-panel" data-opml-favorites hidden>
+        <div class="filter__opml-header">
+            <div>
+                <h3 class="filter__opml-title">Your favorites</h3>
+                <p class="filter__opml-copy">Star podcasts to build an OPML file you can import elsewhere.</p>
+            </div>
+            <div class="filter__opml-actions">
+                <button type="button" class="filter__button filter__button--primary" data-opml-export disabled>Export OPML</button>
+                <button type="button" class="filter__button" data-opml-clear disabled>Clear favorites</button>
+            </div>
+        </div>
+        <p class="filter__opml-status" aria-live="polite">
+            <span data-opml-favorites-count>0</span> favorites
+        </p>
+        <p class="filter__opml-empty" data-opml-favorites-empty>Use the star on any podcast card to add it here.</p>
+        <ul class="filter__opml-list" data-opml-favorites-list></ul>
+    </div>
+    {%- endif -%}
 </section>

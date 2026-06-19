@@ -20,7 +20,7 @@
 <meta property="og:image:alt" content="How Instagram Became the Center of the Universe — The Colin and Samir Show episode artwork"><meta property="og:locale" content="en_US"><link rel="alternate" type="audio/mpeg" href="https://traffic.megaphone.fm/LUHUC4825309800.mp3?updated=1763619650" title="How Instagram Became the Center of the Universe">
 <meta property="og:audio" content="https://traffic.megaphone.fm/LUHUC4825309800.mp3?updated=1763619650">
 <meta property="og:audio:secure_url" content="https://traffic.megaphone.fm/LUHUC4825309800.mp3?updated=1763619650">
-<meta property="og:audio:type" content="audio/mpeg"><link rel="alternate" type="application/rss+xml" title="The Colin and Samir Show podcast feed" href="https://feeds.megaphone.fm/LI6529969937"><meta property="article:published_time" content="2025-11-19T11:00:00+00:00"><meta property="article:section" content="The Colin and Samir Show">
+<meta property="og:audio:type" content="audio/mpeg"><link rel="alternate" type="application/rss+xml" title="The Colin and Samir Show podcast feed" href="https://feeds.megaphone.fm/LI6529969937"><meta property="article:published_time" content="2025-11-19T12:00:00+01:00"><meta property="article:section" content="The Colin and Samir Show">
 <!-- Twitter (X) Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="How Instagram Became the Center of the Universe | The Colin and Samir Show | The Best Running Podcasts 2026">
@@ -164,11 +164,7 @@
   <div
     class="latest-episodes__player-art-wrap"
     data-player-art-wrap
-    
-      
     data-default-cover="https://megaphone.imgix.net/podcasts/65c648b0-c4e2-11f0-a1ac-3b7cf1da8f58/image/67f5133a27d6d8771c931bdebcd6025d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-      
-    
   ><img
       class="latest-episodes__player-art"
       data-player-art
@@ -1038,22 +1034,51 @@
       showTransport();
     }
 
+    function imagePathname(url) {
+      if (!url) return '';
+      try {
+        return new URL(url, window.location.href).pathname;
+      } catch (e) {
+        return String(url).split(/[?#]/)[0];
+      }
+    }
+
+    function localWebpCandidate(url) {
+      var value = (url || '').trim();
+      var path = imagePathname(value);
+      if (!value || !path) return '';
+      if (/\.webp$/i.test(path)) return value;
+      if (/^[a-z][a-z0-9+.-]*:\/\//i.test(value)) return '';
+      if (!/\.(jpe?g|png)$/i.test(path)) return '';
+      return value.replace(/\.(jpe?g|png)(?=([?#]|$))/i, '.webp');
+    }
+
+    function updatePictureSource(url) {
+      if (!art) return;
+      var picture = art.closest('picture');
+      if (!picture) return;
+      var source = picture.querySelector('source');
+      if (!source) return;
+
+      var srcset = localWebpCandidate(url);
+      if (srcset) {
+        source.setAttribute('type', 'image/webp');
+        source.setAttribute('srcset', srcset);
+      } else {
+        source.removeAttribute('srcset');
+      }
+    }
+
     function updateArt(url) {
       if (!art || !artWrap) return;
-      var fallback = (artWrap.getAttribute('data-default-cover') || '').trim();
-      var effective = (url || '').trim() || fallback;
+      var effective = (url || '').trim();
       if (effective) {
+        updatePictureSource(effective);
         art.src = effective;
         art.removeAttribute('hidden');
         artWrap.classList.remove('latest-episodes__player-art-wrap--empty');
-        var picture = art.closest('picture');
-        if (picture) {
-          var source = picture.querySelector('source');
-          if (source && /\.(jpe?g|png)$/i.test(effective)) {
-            source.srcset = effective.replace(/\.(jpe?g|png)$/i, '.webp');
-          }
-        }
       } else {
+        updatePictureSource('');
         art.removeAttribute('src');
         art.setAttribute('hidden', '');
         artWrap.classList.add('latest-episodes__player-art-wrap--empty');
@@ -1447,7 +1472,7 @@
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-19T07:53:44Z">2026-06-19 07:53 UTC</time>
+      <time datetime="2026-06-19T09:33:04Z">2026-06-19 09:33 UTC</time>
     </p></footer>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>

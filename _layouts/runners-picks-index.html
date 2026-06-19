@@ -24,9 +24,9 @@
 			{% assign sorted_picks = site.runner_picks | sort: 'sort_order' %}
 			{% include runners-picks-nav.html runners=sorted_picks high_priority=true %}
 			<div class="runners-picks__grid">
-				{% for runner in sorted_picks %}
-					{% include runner-pick-card.html runner=runner high_priority=forloop.first %}
-				{% endfor %}
+				{% for runner in sorted_picks -%}
+				{% include runner-pick-card.html runner=runner high_priority=forloop.first %}
+				{%- endfor %}
 			</div>
 
 			<footer class="post-article__footer">

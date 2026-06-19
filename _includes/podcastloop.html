@@ -8,7 +8,7 @@
     </li>
 
     {% for podcast in podcasts %}
-    <li class="podcast-loop__item{% if podcast.featured == true or podcast.featured == 'true' %} podcast-loop__item--featured{% endif %}"{% if podcast.featured == true or podcast.featured == 'true' %} data-featured="true"{% endif %} data-category="{% for tag in podcast.tags %}{{ tag }} {% endfor %}{% for language in podcast.language %}{{ language }} {% endfor %}">
+    <li class="podcast-loop__item{% if podcast.featured == true or podcast.featured == 'true' %} podcast-loop__item--featured{% endif %}"{% if podcast.featured == true or podcast.featured == 'true' %} data-featured="true"{% endif %} data-category="{% for tag in podcast.tags %}{{ tag }} {% endfor %}{% for language in podcast.language %}{{ language }} {% endfor %}" data-podcast-title="{{ podcast.title | escape }}" data-podcast-url="{{ podcast.url | relative_url | escape }}"{% if podcast.rss_feed %} data-rss-feed="{{ podcast.rss_feed | escape }}"{% endif %}>
         <article aria-labelledby="podcast-title-{{ forloop.index }}">
             <div class="podcast-loop__item__list-shell">
                 <a class="podcast-loop__item__list-cover" href="{{ podcast.url | relative_url }}" aria-label="{{ podcast.title | escape }} — view podcast page">
@@ -52,6 +52,10 @@
                         <a class="podcast-loop__item__teaser-link" href="{{ podcast.url | relative_url }}" aria-labelledby="podcast-title-{{ forloop.index }}">
                             <h2 class="podcast-loop__item__title" id="podcast-title-{{ forloop.index }}">{{ podcast.title }}</h2>
                         </a>
+                        <button type="button" class="podcast-loop__favorite{% unless podcast.rss_feed %} podcast-loop__favorite--disabled{% endunless %}" data-opml-favorite aria-pressed="false" aria-label="{% if podcast.rss_feed %}Add {{ podcast.title | escape }} to OPML favorites{% else %}{{ podcast.title | escape }} cannot be exported because it has no RSS feed{% endif %}" title="{% if podcast.rss_feed %}Add to OPML favorites{% else %}No RSS feed available{% endif %}"{% unless podcast.rss_feed %} disabled{% endunless %}>
+                            <span class="podcast-loop__favorite-star" aria-hidden="true">☆</span>
+                            <span class="visuallyhidden" data-opml-favorite-text>{% if podcast.rss_feed %}Add to OPML favorites{% else %}No RSS feed available{% endif %}</span>
+                        </button>
                         {% if podcast.description %}
                         <p class="podcast-loop__item__description">{{ podcast.description }}</p>
                         {% endif %}
