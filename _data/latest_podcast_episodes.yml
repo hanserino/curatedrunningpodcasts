@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-20T03:09:13Z'
+generated_at: '2026-06-20T05:32:45Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Episode 621: Summer Running'
+  episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
+  audio_url: https://mcdn.podbean.com/mf/web/zef352gn2xx4hyrg/2_clips_Edit_40_8flk3.mp3
+  published_at: '2026-06-19T23:32:33-05:00'
+  episode_key: episode-621-summer-running
+  episode_slug: episode-621-summer-running
+  episode_page_url: "/the-running-public/episode-621-summer-running/"
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast/"
   cover_image: "/media/freetrail2.jpeg"
@@ -193,18 +205,6 @@ items:
   episode_key: ep-79-who-is-cade-michael
   episode_slug: ep-79-who-is-cade-michael
   episode_page_url: "/the-boulder-boys/ep-79-who-is-cade-michael/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
-  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
-  audio_url: https://mcdn.podbean.com/mf/web/wmf5xngu6z67rk2j/2_clips_Edit_39_ajkd4.mp3
-  published_at: '2026-06-17T11:00:41-05:00'
-  episode_key: training-tuesday-how-to-execute-an-x-day-workout
-  episode_slug: training-tuesday-how-to-execute-an-x-day-workout
-  episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty/"
   cover_image: "/media/distancetoempty.jpeg"
@@ -3322,6 +3322,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-24
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Episode 621: Summer Running'
+    episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
+    audio_url: https://mcdn.podbean.com/mf/web/zef352gn2xx4hyrg/2_clips_Edit_40_8flk3.mp3
+    published_at: '2026-06-19T23:32:33-05:00'
+    description_html: "<p>When should you suck it up and run in the heat? When should you avoid running in the heat? Do your race goals impact your decision? What if you run for fun / mental health?</p>"
+    description_plain: When should you suck it up and run in the heat? When should you avoid running in the heat? Do your race goals impact your decision? What if you run for fun / mental health?
+    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Copy_of_Untitled_Design7zs7z.png
+    episode_uid: therunningpublic-podbean-com-03c831ae-4404-3d38-bb00-b3c085ad6cfb
+    episode_slug: episode-621-summer-running
+    episode_key: episode-621-summer-running
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/episode-621-summer-running/"
   - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
     audio_url: https://mcdn.podbean.com/mf/web/wmf5xngu6z67rk2j/2_clips_Edit_39_ajkd4.mp3
@@ -3332,7 +3344,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
     episode_slug: training-tuesday-how-to-execute-an-x-day-workout
     episode_key: training-tuesday-how-to-execute-an-x-day-workout
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
@@ -3344,7 +3356,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3356,7 +3368,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3368,7 +3380,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3380,7 +3392,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3392,7 +3404,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3404,7 +3416,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -3416,7 +3428,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -3428,7 +3440,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -3440,7 +3452,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -3452,7 +3464,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -3464,7 +3476,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -3476,7 +3488,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -3488,7 +3500,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -3500,7 +3512,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -3512,7 +3524,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   - episode_title: 'Episode 604: Talkin’ Shop!'
     episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
@@ -3524,7 +3536,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
     episode_slug: episode-604-talkin-shop
     episode_key: episode-604-talkin-shop
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/episode-604-talkin-shop/"
   - episode_title: 'Training Tuesday: Kirk’s Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-qa-session/
@@ -3536,7 +3548,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cf9144dc-cae7-3c8d-9465-432883738b81
     episode_slug: training-tuesday-kirk-s-q-a-session
     episode_key: training-tuesday-kirk-s-q-a-session
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-q-a-session/"
   - episode_title: 'Episode 602: Jake Prusha'
     episode_url: https://therunningpublic.podbean.com/e/episode-602-jake-prusha/
@@ -3548,7 +3560,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d9607426-5db4-3104-88b7-85968914ae57
     episode_slug: episode-602-jake-prusha
     episode_key: episode-602-jake-prusha
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/episode-602-jake-prusha/"
   - episode_title: 'Episode 601: Answering AI Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-601-answering-ai-questions/
@@ -3560,7 +3572,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-69a0b749-5401-31da-9725-25f1758ba30f
     episode_slug: episode-601-answering-ai-questions
     episode_key: episode-601-answering-ai-questions
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
   - episode_title: 'Training Tuesday: Race Prep Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-race-prep-workouts/
@@ -3572,7 +3584,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-e06e2fa5-3f5c-3856-8858-6fed172d2041
     episode_slug: training-tuesday-race-prep-workouts
     episode_key: training-tuesday-race-prep-workouts
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/training-tuesday-race-prep-workouts/"
   - episode_title: Our 600th Episode!
     episode_url: https://therunningpublic.podbean.com/e/our-600th-episode/
@@ -3584,7 +3596,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-fed56e2a-8f3d-3d53-88b6-0918852668c5
     episode_slug: our-600th-episode
     episode_key: our-600th-episode
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/our-600th-episode/"
   - episode_title: 'Training Tuesday: “X Factor” Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-x-factor-workouts/
@@ -3596,7 +3608,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-c938ecc3-1a00-332f-ba66-4c07f7da5382
     episode_slug: training-tuesday-x-factor-workouts
     episode_key: training-tuesday-x-factor-workouts
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/training-tuesday-x-factor-workouts/"
   - episode_title: 'Episode 598: Our Best & Worst Race Decisions'
     episode_url: https://therunningpublic.podbean.com/e/episode-598-our-best-worst-race-decisions/
@@ -3608,20 +3620,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-391f0d2c-7cc1-3c6f-9d9d-c98d3ad7eb17
     episode_slug: episode-598-our-best-worst-race-decisions
     episode_key: episode-598-our-best-worst-race-decisions
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/episode-598-our-best-worst-race-decisions/"
-  - episode_title: 'Training Tuesday: Talking Training!'
-    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-talking-training/
-    audio_url: https://mcdn.podbean.com/mf/web/iybsyrcrx8tx9k3p/2_clips_Edit_22_am8o5.mp3
-    published_at: '2026-03-11T21:24:33-05:00'
-    description_html: "<p>Today is a good ole fashioned training chat! We cover what we’re doing in our own training, some trends with the athletes we work with, some race updates, and plenty of miscellaneous rabbit holes.</p>"
-    description_plain: Today is a good ole fashioned training chat! We cover what we’re doing in our own training, some trends with the athletes we work with, some race updates, and plenty of miscellaneous rabbit holes.
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Listener_Submitted_Q_Aa2fzw.png
-    episode_uid: therunningpublic-podbean-com-cca69a74-dc58-3ed0-b842-623c631aed6f
-    episode_slug: training-tuesday-talking-training
-    episode_key: training-tuesday-talking-training
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/training-tuesday-talking-training/"
+    episode_page_url: "/the-running-public/episode-598-our-best-worst-race-decisions/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
@@ -18887,6 +18887,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/fotballens-mektigste-derfor-stormer-det-rundt-ham/"
   https://sr-restored.se/rss/2071: &63
+  - episode_title: Helena Bergström
+    episode_url: https://www.sverigesradio.se/avsnitt/2815462
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_helena_bergstrom_podd_20260616_1515388871.mp3
+    published_at: '2026-06-20T11:00:00Z'
+    description_html: <p>Skådespelaren om när livet stannade upp och allt blev på djupaste allvar.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Skådespelaren om när livet stannade upp och allt blev på djupaste allvar. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815462
+    episode_slug: helena-bergstrom
+    episode_key: helena-bergstrom
+    legacy_unicode_slug: helena-bergström
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/sommar__vinter_i_p1_hor_arets_sommarpratare_presen_20260609_1503236205.mp3
@@ -18898,7 +18911,7 @@ episodes_by_feed:
     episode_slug: hor-arets-sommarpratare-presenteras
     episode_key: hor-arets-sommarpratare-presenteras
     legacy_unicode_slug: hör-årets-sommarpratare-presenteras
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
@@ -18911,7 +18924,7 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   - episode_title: Camilla Lif
     episode_url: https://www.sverigesradio.se/avsnitt/2700899
@@ -18923,7 +18936,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700899
     episode_slug: camilla-lif
     episode_key: camilla-lif
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
   - episode_title: Claes Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700884
@@ -18935,7 +18948,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700884
     episode_slug: claes-eriksson
     episode_key: claes-eriksson
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
   - episode_title: Dilsa Demirbag-Sten
     episode_url: https://www.sverigesradio.se/avsnitt/2700859
@@ -18947,7 +18960,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700859
     episode_slug: dilsa-demirbag-sten
     episode_key: dilsa-demirbag-sten
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/dilsa-demirbag-sten/"
   - episode_title: Ulf Ellervik
     episode_url: https://www.sverigesradio.se/avsnitt/2700835
@@ -18959,7 +18972,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700835
     episode_slug: ulf-ellervik
     episode_key: ulf-ellervik
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/ulf-ellervik/"
   - episode_title: Denise Rudberg
     episode_url: https://www.sverigesradio.se/avsnitt/2700813
@@ -18971,7 +18984,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700813
     episode_slug: denise-rudberg
     episode_key: denise-rudberg
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/denise-rudberg/"
   - episode_title: Bert Sundström
     episode_url: https://www.sverigesradio.se/avsnitt/2700802
@@ -18984,7 +18997,7 @@ episodes_by_feed:
     episode_slug: bert-sundstrom
     episode_key: bert-sundstrom
     legacy_unicode_slug: bert-sundström
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/bert-sundstrom/"
   - episode_title: Linnea Henriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700790
@@ -18996,7 +19009,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700790
     episode_slug: linnea-henriksson
     episode_key: linnea-henriksson
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/linnea-henriksson/"
   - episode_title: Thomas Bodström
     episode_url: https://www.sverigesradio.se/avsnitt/2700772
@@ -19009,7 +19022,7 @@ episodes_by_feed:
     episode_slug: thomas-bodstrom
     episode_key: thomas-bodstrom
     legacy_unicode_slug: thomas-bodström
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/thomas-bodstrom/"
   - episode_title: Vintervärdarna 2025 presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2705958
@@ -19022,7 +19035,7 @@ episodes_by_feed:
     episode_slug: vintervardarna-2025-presenteras
     episode_key: vintervardarna-2025-presenteras
     legacy_unicode_slug: vintervärdarna-2025-presenteras
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/vintervardarna-2025-presenteras/"
   - episode_title: Roland Pöntinen
     episode_url: https://www.sverigesradio.se/avsnitt/2579000
@@ -19035,7 +19048,7 @@ episodes_by_feed:
     episode_slug: roland-pontinen
     episode_key: roland-pontinen
     legacy_unicode_slug: roland-pöntinen
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/roland-pontinen/"
   - episode_title: Ella Carlsson
     episode_url: https://www.sverigesradio.se/avsnitt/2578999
@@ -19047,7 +19060,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578999
     episode_slug: ella-carlsson
     episode_key: ella-carlsson
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/ella-carlsson/"
   - episode_title: Aya Kanbar
     episode_url: https://www.sverigesradio.se/avsnitt/2578998
@@ -19059,7 +19072,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578998
     episode_slug: aya-kanbar
     episode_key: aya-kanbar
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/aya-kanbar/"
   - episode_title: Isabelle Haak
     episode_url: https://www.sverigesradio.se/avsnitt/2578997
@@ -19071,7 +19084,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578997
     episode_slug: isabelle-haak
     episode_key: isabelle-haak
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/isabelle-haak/"
   - episode_title: Mikael Wiehe
     episode_url: https://www.sverigesradio.se/avsnitt/2578996
@@ -19083,7 +19096,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578996
     episode_slug: mikael-wiehe
     episode_key: mikael-wiehe
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/mikael-wiehe/"
   - episode_title: Fråga Värden – Clas Svahn
     episode_url: https://www.sverigesradio.se/avsnitt/2621861
@@ -19096,7 +19109,7 @@ episodes_by_feed:
     episode_slug: fraga-varden-clas-svahn
     episode_key: fraga-varden-clas-svahn
     legacy_unicode_slug: fråga-värden-clas-svahn
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/fraga-varden-clas-svahn/"
   - episode_title: Clas Svahn
     episode_url: https://www.sverigesradio.se/avsnitt/2578995
@@ -19108,7 +19121,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578995
     episode_slug: clas-svahn
     episode_key: clas-svahn
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/clas-svahn/"
   - episode_title: Lotta Klemming
     episode_url: https://www.sverigesradio.se/avsnitt/2578994
@@ -19120,7 +19133,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578994
     episode_slug: lotta-klemming
     episode_key: lotta-klemming
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/lotta-klemming/"
   - episode_title: Britt Ekland
     episode_url: https://www.sverigesradio.se/avsnitt/2578993
@@ -19132,7 +19145,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578993
     episode_slug: britt-ekland
     episode_key: britt-ekland
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/britt-ekland/"
   - episode_title: Jonna Sundling
     episode_url: https://www.sverigesradio.se/avsnitt/2578992
@@ -19144,7 +19157,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578992
     episode_slug: jonna-sundling
     episode_key: jonna-sundling
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/jonna-sundling/"
   - episode_title: Per Persson
     episode_url: https://www.sverigesradio.se/avsnitt/2578991
@@ -19156,7 +19169,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578991
     episode_slug: per-persson
     episode_key: per-persson
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/per-persson/"
   - episode_title: Julia Ravanis
     episode_url: https://www.sverigesradio.se/avsnitt/2578990
@@ -19168,7 +19181,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578990
     episode_slug: julia-ravanis
     episode_key: julia-ravanis
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/julia-ravanis/"
   - episode_title: Malin Ackermann
     episode_url: https://www.sverigesradio.se/avsnitt/2578989
@@ -19180,20 +19193,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578989
     episode_slug: malin-ackermann
     episode_key: malin-ackermann
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/malin-ackermann/"
-  - episode_title: Bo Ekman
-    episode_url: https://www.sverigesradio.se/avsnitt/2578987
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/07/sommar__vinter_i_p1_bo_ekman_20250821_1600142599.mp3
-    published_at: '2025-08-05T11:00:00Z'
-    description_html: <p>Näringslivsprofilen om hur vi människor ska kunna leva tillsammans med naturen.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Näringslivsprofilen om hur vi människor ska kunna leva tillsammans med naturen. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/d0cb53bf-f4ec-42aa-b1bc-4c027bac00cd.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2578987
-    episode_slug: bo-ekman
-    episode_key: bo-ekman
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/bo-ekman/"
+    episode_page_url: "/sommar-vinter-i-p1/malin-ackermann/"
   https://feeds.megaphone.fm/90gramosmethub: &64
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
