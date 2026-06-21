@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-21T09:18:55Z'
+generated_at: '2026-06-21T11:07:16Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running/"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  filter_category: ultra trail english
+  episode_title: 'SDW100 and 50km Debrief: Tales from the Sharp End of the 2026 Race for the Ages'
+  episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a36cb629008360d11942967.mp3
+  published_at: '2026-06-21T10:05:00+00:00'
+  episode_key: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+  episode_slug: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+  episode_page_url: "/centurion-running/sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages/"
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast/"
   cover_image: "/media/freetrail2.jpeg"
@@ -169,18 +181,6 @@ items:
   episode_key: ep141-midnight-sun-marathon
   episode_slug: ep141-midnight-sun-marathon
   episode_page_url: "/breaking-marathon-limits/ep141-midnight-sun-marathon/"
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running/"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  filter_category: ultra trail english
-  episode_title: 'Weekly News Ep. 41: SDW50km and 100 RD Recap'
-  episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-41-sdw50km-and-100-rd-recap
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a3418e2b1f26d257ea84446.m4a
-  published_at: '2026-06-18T16:14:13+00:00'
-  episode_key: weekly-news-ep-41-sdw50km-and-100-rd-recap
-  episode_slug: weekly-news-ep-41-sdw50km-and-100-rd-recap
-  episode_page_url: "/centurion-running/weekly-news-ep-41-sdw50km-and-100-rd-recap/"
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack/"
   cover_image: "/media/singletracknew.jpeg"
@@ -2129,6 +2129,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fokk-asfalt/obt-2025-portrett-9-birgitte-nyblin-austgulen/"
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'SDW100 and 50km Debrief: Tales from the Sharp End of the 2026 Race for the Ages'
+    episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a36cb629008360d11942967.mp3
+    published_at: '2026-06-21T10:05:00+00:00'
+    description_html: '<p>In this episode Julia Davis, Robbie Britton and James Elson go over the results from the 2026 SDW100 and 50km. Four course records, the British Trail Running Championships, World Trail Majors - it was a race for the ages.</p><p><a href="https://www.centurionrunning.com/reports" target="_blank">Visit the race reports area on the website here</a> for the full race reports, images and videos.</p><p><a href="https://www.centurionultrarunningstore.com/discount/PODCAST10?redirect=%2Fcollections%2Frrp" target="_blank">Visit the store here and enter code PODCAST10</a> for 10% off all RRP items</p><p>Find our show partners Precision Fuel and Hydration Planner here: <a href="https://www.precisionhydration.com/planner/" target="_blank">https://www.precisionhydration.com/planner/</a></p><p>Visit the PF&amp;H collection at our store here: <a href="https://www.centurionultrarunningstore.com/collections/precision-hydration" target="_blank">https://www.centurionultrarunningstore.com/collections/precision-hydration</a></p>'
+    description_plain: 'In this episode Julia Davis, Robbie Britton and James Elson go over the results from the 2026 SDW100 and 50km. Four course records, the British Trail Running Championships, World Trail Majors - it was a race for the ages. Visit the race reports area on the website here for the full race reports, images and videos. Visit the store here and enter code PODCAST10 for 10% off all RRP items Find our show partners Precision Fuel and Hydration Planner here: https://www.precisionhydration.com/planner/ Visit the PF&amp;H collection at our store here: https://www.centurionultrarunningstore.com/collections/precision-hydration'
+    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1781975996/iievbvl0iar2juwltat8.jpg
+    episode_uid: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+    episode_slug: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+    episode_key: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/centurion-running/sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages/"
   - episode_title: 'Weekly News Ep. 41: SDW50km and 100 RD Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-41-sdw50km-and-100-rd-recap
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a3418e2b1f26d257ea84446.m4a
@@ -2139,7 +2151,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-41-sdw50km-and-100-rd-recap
     episode_slug: weekly-news-ep-41-sdw50km-and-100-rd-recap
     episode_key: weekly-news-ep-41-sdw50km-and-100-rd-recap
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/centurion-running/weekly-news-ep-41-sdw50km-and-100-rd-recap/"
   - episode_title: 'SDW100 2026 Post-Race: Interview with Womens Champion Sarah Webster'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
@@ -2151,7 +2163,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
     episode_slug: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
     episode_key: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/centurion-running/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster/"
   - episode_title: 'SDW100 and 50km 2026 Race Previews: Who will take the crowns this weekend!'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
@@ -2163,7 +2175,7 @@ episodes_by_feed:
     episode_uid: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     episode_slug: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     episode_key: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/centurion-running/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Nicole Funnell'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-nicole-funnell
@@ -2175,7 +2187,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-nicole-funnell
     episode_slug: sdw50km-2026-pre-race-interviews-nicole-funnell
     episode_key: sdw50km-2026-pre-race-interviews-nicole-funnell
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-nicole-funnell/"
   - episode_title: 'Weekly News Ep. 40 & Race Review: Comrades'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-40-and-race-review-comrades
@@ -2187,7 +2199,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-40-and-race-review-comrades
     episode_slug: weekly-news-ep-40-race-review-comrades
     episode_key: weekly-news-ep-40-race-review-comrades
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/centurion-running/weekly-news-ep-40-race-review-comrades/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-autumn-100-champion
@@ -2199,7 +2211,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-aut
     episode_slug: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
     episode_key: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
   - episode_title: 'SDW100 Pre-Race Interviews: Robyn Cassidy. Lakeland 100 and Dragons Back Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
@@ -2211,7 +2223,7 @@ episodes_by_feed:
     episode_uid: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_slug: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_key: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/centurion-running/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
@@ -2223,7 +2235,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-
     episode_slug: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
     episode_key: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
@@ -2235,7 +2247,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_slug: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_key: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
@@ -2247,7 +2259,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_slug: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_key: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder/"
   - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
@@ -2259,7 +2271,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
     episode_slug: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
     episode_key: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/centurion-running/weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news/"
   - episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
@@ -2271,7 +2283,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_slug: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_key: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/centurion-running/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice/"
   - episode_title: 'Weekly News Ep.38: North Downs Way 50 Recap | UTS |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-downs-way-50-recap-or-uts-or
@@ -2283,7 +2295,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep38-north-downs-way-50-recap-or-uts-or
     episode_slug: weekly-news-ep-38-north-downs-way-50-recap-uts
     episode_key: weekly-news-ep-38-north-downs-way-50-recap-uts
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/centurion-running/weekly-news-ep-38-north-downs-way-50-recap-uts/"
   - episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
@@ -2295,7 +2307,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep37-north-downs-way-50-preview
     episode_slug: weekly-news-ep-37-north-downs-way-50-preview
     episode_key: weekly-news-ep-37-north-downs-way-50-preview
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
   - episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
     episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
@@ -2307,7 +2319,7 @@ episodes_by_feed:
     episode_uid: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_slug: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_key: interview-martin-stone-mountain-fell-and-ultrarunning-records
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/centurion-running/interview-martin-stone-mountain-fell-and-ultrarunning-records/"
   - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
@@ -2319,7 +2331,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-imo-boddy
     episode_slug: centurion-coaching-podcast-imo-boddy
     episode_key: centurion-coaching-podcast-imo-boddy
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/centurion-running/centurion-coaching-podcast-imo-boddy/"
   - episode_title: Thames Path 100 2026 Results and Recap
     episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
@@ -2331,7 +2343,7 @@ episodes_by_feed:
     episode_uid: thames-path-100-2026-results-and-recap
     episode_slug: thames-path-100-2026-results-and-recap
     episode_key: thames-path-100-2026-results-and-recap
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/centurion-running/thames-path-100-2026-results-and-recap/"
   - episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
     episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
@@ -2343,7 +2355,7 @@ episodes_by_feed:
     episode_uid: mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
     episode_slug: mt-fuji-100-report-with-robbie-britton-miut-canyons
     episode_key: mt-fuji-100-report-with-robbie-britton-miut-canyons
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/centurion-running/mt-fuji-100-report-with-robbie-britton-miut-canyons/"
   - episode_title: 'Weekly News Ep. 35: TP100 Preview | Fellsman | London Marathon | 3 Peaks | DOTH |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
@@ -2355,7 +2367,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-35-tp100-preview-or-fellsman-or-london-marathon-or-3-peaks-or-doth-or
     episode_slug: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
     episode_key: weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/centurion-running/weekly-news-ep-35-tp100-preview-fellsman-london-marathon-3-peaks-doth/"
   - episode_title: 'Weekly News Ep. 34: Northern Traverse | Dragons Back | Mt Fuji 100 | MIUT | So Many Races |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
@@ -2367,7 +2379,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-34-northern-traverse-or-dragons-back-or-mt-fuji-100-or-miut-or-so-many-races-or
     episode_slug: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
     episode_key: weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/centurion-running/weekly-news-ep-34-northern-traverse-dragons-back-mt-fuji-100-miut-so-many-races/"
   - episode_title: 'Weekly Ep. 33: British Trail Champs | MDS | Lake Sonoma |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
@@ -2379,7 +2391,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-33-british-trail-champs-or-mds-or-lake-sonoma-or
     episode_slug: weekly-ep-33-british-trail-champs-mds-lake-sonoma
     episode_key: weekly-ep-33-british-trail-champs-mds-lake-sonoma
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/centurion-running/weekly-ep-33-british-trail-champs-mds-lake-sonoma/"
   - episode_title: South Downs Way 50 2026 Results & Recap
     episode_url: https://www.centurionrunning.com/podcast/south-downs-way-50-2026-results-and-recap
@@ -2391,7 +2403,7 @@ episodes_by_feed:
     episode_uid: south-downs-way-50-2026-results-and-recap
     episode_slug: south-downs-way-50-2026-results-recap
     episode_key: south-downs-way-50-2026-results-recap
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/centurion-running/south-downs-way-50-2026-results-recap/"
   - episode_title: 'Weekly Ep. 32: SDW50 Preview | MDS | British Trail Champs |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
@@ -2403,7 +2415,7 @@ episodes_by_feed:
     episode_uid: weekly-ep-32-sdw50-preview-or-mds-or-british-trail-champs-or
     episode_slug: weekly-ep-32-sdw50-preview-mds-british-trail-champs
     episode_key: weekly-ep-32-sdw50-preview-mds-british-trail-champs
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/centurion-running/weekly-ep-32-sdw50-preview-mds-british-trail-champs/"
   - episode_title: 'Weekly Ep.31: Sea to Sea 300km Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-ep31-sea-to-sea-300km-recap
@@ -2415,20 +2427,8 @@ episodes_by_feed:
     episode_uid: weekly-ep31-sea-to-sea-300km-recap
     episode_slug: weekly-ep-31-sea-to-sea-300km-recap
     episode_key: weekly-ep-31-sea-to-sea-300km-recap
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/centurion-running/weekly-ep-31-sea-to-sea-300km-recap/"
-  - episode_title: 'Weekly Ep.30 : ACP100km | Sea to Sea 300km | Community Traverse |'
-    episode_url: https://www.centurionrunning.com/podcast/weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69c2adadf2c10e290e44fe55.mp3
-    published_at: '2026-03-24T15:35:12+00:00'
-    description_html: "<p>This weekly news episode covers all the latest news from Centurion Running inluding a look ahead to Sea to Sea 300k this weekend. Takes a peak behind the reality curtain of some of the upsides and downsides to the Community Traverse being organised separately to but over the same time frame. As well as a look back to last weekends ACP British 100km Championships results.</p>"
-    description_plain: This weekly news episode covers all the latest news from Centurion Running inluding a look ahead to Sea to Sea 300k this weekend. Takes a peak behind the reality curtain of some of the upsides and downsides to the Community Traverse being organised separately to but over the same time frame. As well as a look back to last weekends ACP British 100km Championships results.
-    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1774366133/qsjk483m3slijyttzfgw.jpg
-    episode_uid: weekly-ep30-acp100km-or-sea-to-sea-300km-or-community-traverse-or
-    episode_slug: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
-    episode_key: weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse
     legacy_numbered_slug: episode-25
-    episode_page_url: "/centurion-running/weekly-ep-30-acp100km-sea-to-sea-300km-community-traverse/"
+    episode_page_url: "/centurion-running/weekly-ep-31-sea-to-sea-300km-recap/"
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Zach Miller on Punching His Golden Ticket, Training Curiosity, and Racing Western States
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/zach_miller_on_punching_his_golden_ticket_training_curiosity_and_racing_western_states
@@ -26317,6 +26317,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/715-hot-utan-ansikte/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &89
+  - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a37ba7b4a187774acb2d6cd/media.mp3
+    published_at: '2026-06-21T10:18:34+00:00'
+    description_html: "<p>Dagens avsnitt tar avstamp i Francos död 1975, ”La Transición” och det baskiska självstyret.</p><p><em>Detta är urklipp från avsnitten </em>20. Real Sociedad 1980/81<em>. För att få hela berättelsen. Lyssna på avsnitten i sin helhet.</em></p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
+    description_plain: Dagens avsnitt tar avstamp i Francos död 1975, ”La Transición” och det baskiska självstyret. Detta är urklipp från avsnitten 20. Real Sociedad 1980/81 . För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a37ba7b4a187774acb2d6cd
+    episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
+    episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
+    legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
   - episode_title: 'Matchdag 10: Marco Van Bastens kamp för VM 1994'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-10-marco-van-bastens-kamp-for-vm-1994
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3658ac4a2a3be0f4851b5c/media.mp3
@@ -26328,7 +26341,7 @@ episodes_by_feed:
     episode_slug: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     episode_key: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     legacy_unicode_slug: matchdag-10-marco-van-bastens-kamp-för-vm-1994
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-10-marco-van-bastens-kamp-for-vm-1994/"
   - episode_title: 'Matchdag 9: NASL - Den första amerikanska proffsligan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-9-nasl-den-forsta-amerikanska-proffsligan
@@ -26341,7 +26354,7 @@ episodes_by_feed:
     episode_slug: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     episode_key: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     legacy_unicode_slug: matchdag-9-nasl-den-första-amerikanska-proffsligan
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/matchdag-9-nasl-den-forsta-amerikanska-proffsligan/"
   - episode_title: 'Matchdag 8: Zemans fritänkande uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-8-zemans-fritankande-uppvaxt
@@ -26354,7 +26367,7 @@ episodes_by_feed:
     episode_slug: matchdag-8-zemans-fritankande-uppvaxt
     episode_key: matchdag-8-zemans-fritankande-uppvaxt
     legacy_unicode_slug: matchdag-8-zemans-fritänkande-uppväxt
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/matchdag-8-zemans-fritankande-uppvaxt/"
   - episode_title: 'Matchdag 7: Blažević, Boban och Modric'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-7-blaevi-boban-och-modric
@@ -26367,7 +26380,7 @@ episodes_by_feed:
     episode_slug: matchdag-7-blazevic-boban-och-modric
     episode_key: matchdag-7-blazevic-boban-och-modric
     legacy_unicode_slug: matchdag-7-blažević-boban-och-modric
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-7-blazevic-boban-och-modric/"
   - episode_title: 'Matchdag 6: Zidane och politiken'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-6-zidane-och-politiken
@@ -26379,7 +26392,7 @@ episodes_by_feed:
     episode_uid: 6a2fe8fccd02369494f0ac46
     episode_slug: matchdag-6-zidane-och-politiken
     episode_key: matchdag-6-zidane-och-politiken
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-6-zidane-och-politiken/"
   - episode_title: 'Matchdag 5: Sverige - Bulgarien 2004'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-5-sverige-bulgarien-2004
@@ -26391,7 +26404,7 @@ episodes_by_feed:
     episode_uid: 6a2f0504252d86e846043884
     episode_slug: matchdag-5-sverige-bulgarien-2004
     episode_key: matchdag-5-sverige-bulgarien-2004
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
   - episode_title: 'Matchdag 4: Historiens tråkigaste VM-final'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-4-historiens-trakigaste-vm-final
@@ -26404,7 +26417,7 @@ episodes_by_feed:
     episode_slug: matchdag-4-historiens-trakigaste-vm-final
     episode_key: matchdag-4-historiens-trakigaste-vm-final
     legacy_unicode_slug: matchdag-4-historiens-tråkigaste-vm-final
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/matchdag-4-historiens-trakigaste-vm-final/"
   - episode_title: 'Matchdag 3: Adidas, kommersialiseringen och VM-floppen 1978'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
@@ -26416,7 +26429,7 @@ episodes_by_feed:
     episode_uid: 6a2bf993e6540bec0f9db0ab
     episode_slug: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
     episode_key: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978/"
   - episode_title: 'Matchdag 2: Berättelsen om Edin Džeko'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-2-berattelsen-om
@@ -26429,7 +26442,7 @@ episodes_by_feed:
     episode_slug: matchdag-2-berattelsen-om-edin-dzeko
     episode_key: matchdag-2-berattelsen-om-edin-dzeko
     legacy_unicode_slug: matchdag-2-berättelsen-om-edin-džeko
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-2-berattelsen-om-edin-dzeko/"
   - episode_title: 'Matchdag 1:  Juárez Vs Sinaloa'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-1-juarez-vs-sinaloa
@@ -26442,7 +26455,7 @@ episodes_by_feed:
     episode_slug: matchdag-1-juarez-vs-sinaloa
     episode_key: matchdag-1-juarez-vs-sinaloa
     legacy_unicode_slug: matchdag-1-juárez-vs-sinaloa
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-1-juarez-vs-sinaloa/"
   - episode_title: 290. Ruhr 2022/23
     episode_url: https://pod.space/whenwewerekings/290-ruhr-2022-23
@@ -26454,7 +26467,7 @@ episodes_by_feed:
     episode_uid: 4be36fabd91187d9a67c5b4f64aafe84
     episode_slug: 290-ruhr-2022-23
     episode_key: 290-ruhr-2022-23
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/290-ruhr-2022-23/"
   - episode_title: 289. Inter 2009/10 (3/3)
     episode_url: https://pod.space/whenwewerekings/289-inter-2009-10-3-3
@@ -26466,7 +26479,7 @@ episodes_by_feed:
     episode_uid: 9475b7f4ac14711984fb52fd3cbaa35b
     episode_slug: 289-inter-2009-10-3-3
     episode_key: 289-inter-2009-10-3-3
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/289-inter-2009-10-3-3/"
   - episode_title: "(Kortversion) 288. Inter 2009/10 (2/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-288-inter-2009-10-2-3
@@ -26478,7 +26491,7 @@ episodes_by_feed:
     episode_uid: 5be1021af64278647bd731d65391733e
     episode_slug: kortversion-288-inter-2009-10-2-3
     episode_key: kortversion-288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/kortversion-288-inter-2009-10-2-3/"
   - episode_title: 288. Inter 2009/10 (2/3)
     episode_url: https://pod.space/whenwewerekings/288-inter-2009-10-2-3
@@ -26490,7 +26503,7 @@ episodes_by_feed:
     episode_uid: 01b548ca2606ba99f4d908125a27b230
     episode_slug: 288-inter-2009-10-2-3
     episode_key: 288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/288-inter-2009-10-2-3/"
   - episode_title: "(Kortversion) 287. Inter 2009/10 (1/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-287-inter-2009-10-1-3
@@ -26502,7 +26515,7 @@ episodes_by_feed:
     episode_uid: 11f73fb86b79d95a571fe2458b9b5df8
     episode_slug: kortversion-287-inter-2009-10-1-3
     episode_key: kortversion-287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/kortversion-287-inter-2009-10-1-3/"
   - episode_title: 287. Inter 2009/10 (1/3)
     episode_url: https://pod.space/whenwewerekings/287-inter-2009-10-1-3
@@ -26514,7 +26527,7 @@ episodes_by_feed:
     episode_uid: ffbebd7b477007311211435aa176a93c
     episode_slug: 287-inter-2009-10-1-3
     episode_key: 287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/287-inter-2009-10-1-3/"
   - episode_title: "(Kortversion) 286. Sverige 2004 (2/2)"
     episode_url: https://pod.space/whenwewerekings/kortversion-286-sverige-2004-2-2
@@ -26526,7 +26539,7 @@ episodes_by_feed:
     episode_uid: 6793b573cfac08ab6a4d9cc347702445
     episode_slug: kortversion-286-sverige-2004-2-2
     episode_key: kortversion-286-sverige-2004-2-2
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/kortversion-286-sverige-2004-2-2/"
   - episode_title: 286. Sverige 2004 (2/2)
     episode_url: https://pod.space/whenwewerekings/286-sverige-2004-2-2
@@ -26538,7 +26551,7 @@ episodes_by_feed:
     episode_uid: 1a38ce4523442f3d1e8f23fc7d301838
     episode_slug: 286-sverige-2004-2-2
     episode_key: 286-sverige-2004-2-2
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/286-sverige-2004-2-2/"
   - episode_title: "(Kortavsnitt) 285. Sverige 2004 (1/2)"
     episode_url: https://pod.space/whenwewerekings/kortavsnitt-285-sverige-2004
@@ -26550,7 +26563,7 @@ episodes_by_feed:
     episode_uid: 186a4935098a5092f395f8841b90256f
     episode_slug: kortavsnitt-285-sverige-2004-1-2
     episode_key: kortavsnitt-285-sverige-2004-1-2
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/kortavsnitt-285-sverige-2004-1-2/"
   - episode_title: 285. Sverige 2004 (1/2)
     episode_url: https://pod.space/whenwewerekings/285-sverige-2004-1-2
@@ -26562,7 +26575,7 @@ episodes_by_feed:
     episode_uid: 882b01d0285a00364090105b876df903
     episode_slug: 285-sverige-2004-1-2
     episode_key: 285-sverige-2004-1-2
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/285-sverige-2004-1-2/"
   - episode_title: 284. Jesús Navas (2/2)
     episode_url: https://pod.space/whenwewerekings/284-jesus-navas-2-2
@@ -26575,7 +26588,7 @@ episodes_by_feed:
     episode_slug: 284-jesus-navas-2-2
     episode_key: 284-jesus-navas-2-2
     legacy_unicode_slug: 284-jesús-navas-2-2
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/284-jesus-navas-2-2/"
   - episode_title: "(Kortavsnitt) 283. Jesús Navas (1/2)"
     episode_url: https://pod.space/whenwewerekings/kortavsnitt-283-jesus-navas-1-2
@@ -26588,7 +26601,7 @@ episodes_by_feed:
     episode_slug: kortavsnitt-283-jesus-navas-1-2
     episode_key: kortavsnitt-283-jesus-navas-1-2
     legacy_unicode_slug: kortavsnitt-283-jesús-navas-1-2
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/kortavsnitt-283-jesus-navas-1-2/"
   - episode_title: 283. Jesús Navas (1/2)
     episode_url: https://pod.space/whenwewerekings/283-jesus-navas-1-2
@@ -26601,7 +26614,7 @@ episodes_by_feed:
     episode_slug: 283-jesus-navas-1-2
     episode_key: 283-jesus-navas-1-2
     legacy_unicode_slug: 283-jesús-navas-1-2
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/283-jesus-navas-1-2/"
   - episode_title: 282. Adriano (2/2)
     episode_url: https://pod.space/whenwewerekings/282-adriano-2-2
@@ -26613,20 +26626,8 @@ episodes_by_feed:
     episode_uid: 2be6a81976b7b1a87b903f1b6d0fc58f
     episode_slug: 282-adriano-2-2
     episode_key: 282-adriano-2-2
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/282-adriano-2-2/"
-  - episode_title: "(Kortversion) 281. Adriano (1/2)"
-    episode_url: https://pod.space/whenwewerekings/kortversion-281-adriano-1-2
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/991cbd5455997e8e23730657956bc18c/media.mp3
-    published_at: '2025-01-24T08:54:20+00:00'
-    description_html: "<div>Stark som en oxe, snabb som en gasell, utrustad med brasiliansk futsalteknik och toppfotbollens hårdaste skott. Vad skulle någonsin kunna stoppa Adriano? En kula i huvudet, avlossad mer än tio år tidigare.</div><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: Stark som en oxe, snabb som en gasell, utrustad med brasiliansk futsalteknik och toppfotbollens hårdaste skott. Vad skulle någonsin kunna stoppa Adriano? En kula i huvudet, avlossad mer än tio år tidigare. Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: 991cbd5455997e8e23730657956bc18c
-    episode_slug: kortversion-281-adriano-1-2
-    episode_key: kortversion-281-adriano-1-2
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/kortversion-281-adriano-1-2/"
+    episode_page_url: "/when-we-were-kings/282-adriano-2-2/"
   https://api.substack.com/feed/podcast/10845.rss: &90
   - episode_title: The hidden pattern behind successful products | Mark Pincus (founder of Zynga)
     episode_url: https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful
