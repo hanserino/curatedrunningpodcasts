@@ -10,7 +10,6 @@ var isTouchDevice = function () {
     );
 };
 
-var LANG_FILTER_STORAGE_KEY = 'brp-language-filter';
 var OPML_FAVORITES_STORAGE_KEY = 'brp-opml-favorites';
 
 function init() {}
@@ -487,34 +486,6 @@ function escapeAttrSel(value) {
     return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-function browserPrefersEnglish() {
-    var langs =
-        navigator.languages && navigator.languages.length
-            ? Array.prototype.slice.call(navigator.languages)
-            : [navigator.language || ''];
-
-    return langs.some(function (lang) {
-        return /^en(-|$)/i.test(String(lang).trim());
-    });
-}
-
-function readStoredLanguageFilter() {
-    try {
-        var stored = sessionStorage.getItem(LANG_FILTER_STORAGE_KEY);
-        return stored === null ? null : stored;
-    } catch (_e) {
-        return null;
-    }
-}
-
-function writeStoredLanguageFilter(value) {
-    try {
-        sessionStorage.setItem(LANG_FILTER_STORAGE_KEY, value);
-    } catch (_e) {
-        /* ignore */
-    }
-}
-
 function setLanguageFilterValue(value) {
     var langAll = document.getElementById('lang-all');
     var radios = document.querySelectorAll('input[name="language_filter"]');
@@ -530,22 +501,6 @@ function setLanguageFilterValue(value) {
 
     if (!matched && langAll) {
         langAll.checked = true;
-    }
-}
-
-function initLanguageFilterPreference() {
-    if (!document.getElementById('lang-english')) {
-        return;
-    }
-
-    var stored = readStoredLanguageFilter();
-    if (stored !== null) {
-        setLanguageFilterValue(stored);
-        return;
-    }
-
-    if (browserPrefersEnglish()) {
-        setLanguageFilterValue('english');
     }
 }
 
@@ -721,7 +676,6 @@ function resetAllFilters() {
     });
 
     setLanguageFilterValue('');
-    writeStoredLanguageFilter('');
 
     filterListItems().forEach(function (li) {
         setFilterItemVisible(li, true);
@@ -816,7 +770,6 @@ function wireFilterAndGrid() {
     cachePodcastLoopOrder();
     wireFilterCollapse();
     wireOpmlExport();
-    initLanguageFilterPreference();
 
     document.addEventListener('change', function (e) {
         var target = e.target;
@@ -827,7 +780,6 @@ function wireFilterAndGrid() {
             applyDirectoryFilter();
         }
         if (target.name === 'language_filter') {
-            writeStoredLanguageFilter(target.value);
             applyDirectoryFilter();
         }
     });
