@@ -61,6 +61,39 @@ function wireHeaderNav() {
     });
 }
 
+function pathFromUrl(value) {
+    try {
+        return new URL(value, window.location.origin).pathname;
+    } catch (e) {
+        return '';
+    }
+}
+
+function normalizedPath(path) {
+    var cleaned = path || '/';
+    if (cleaned.length > 1) {
+        cleaned = cleaned.replace(/\/+$/, '');
+    }
+    return cleaned || '/';
+}
+
+function wireContextualReturnLinks() {
+    if (!document.body.classList.contains('post-page--podcast')) {
+        return;
+    }
+
+    var referrerPath = normalizedPath(pathFromUrl(document.referrer));
+    if (referrerPath !== '/unrelated') {
+        return;
+    }
+
+    document.querySelectorAll('[data-contextual-return-link]').forEach(function (link) {
+        link.setAttribute('href', '/unrelated/');
+        link.removeAttribute('rel');
+        link.textContent = '← Unrelated to running';
+    });
+}
+
 function syncGridAria() {
     var isGrid = document.body.getAttribute('data-box-grid') === 'true';
     var el = document.getElementById('grid-switch');
@@ -803,6 +836,7 @@ function wireFilterAndGrid() {
 function wireDomReady() {
     wireFilterAndGrid();
     wireHeaderNav();
+    wireContextualReturnLinks();
 }
 
 if (document.readyState === 'loading') {

@@ -10,6 +10,10 @@
   {%- assign _show_opml_favorites = true -%}
 {%- endif -%}
 {%- assign _show_favorites_filter = include.show_favorites_filter | default: false -%}
+{%- assign _show_category_filters = include.show_category_filters -%}
+{%- if _show_category_filters == nil -%}
+  {%- assign _show_category_filters = true -%}
+{%- endif -%}
 {%- if include.total_count -%}
   {%- assign directory_count = include.total_count -%}
 {%- else -%}
@@ -48,6 +52,7 @@
     </div>
 
     <div id="filter-body" class="filter__body" hidden>
+        {%- if _show_category_filters -%}
         <div class="filter__row filter__row--category">
             <p class="filter__row-label" id="filter-category-label">Category</p>
             <div class="filter__scroll">
@@ -74,6 +79,7 @@
                 </div>
             </div>
         </div>
+        {%- endif -%}
 
         <div class="filter__row filter__row--language">
             <p class="filter__row-label" id="filter-language-label">Language</p>

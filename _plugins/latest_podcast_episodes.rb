@@ -347,6 +347,50 @@ module LatestPodcastEpisodes
     end
   end
 
+  def latest_episode_row_for_doc(doc, episodes)
+    latest_episode_meta = Array(episodes).find { |episode| episode.is_a?(Hash) }
+    return nil unless latest_episode_meta
+
+    audio_url = latest_episode_meta["audio_url"].to_s.strip
+    title = latest_episode_meta["episode_title"].to_s.strip
+    return nil if audio_url.empty? || title.empty?
+
+    {
+      "podcast_title" => doc.data["title"],
+      "podcast_page_url" => doc.url,
+      "cover_image" => doc.data["cover_image"].to_s.strip,
+      "feed_url" => doc.data["rss_feed"].to_s.strip,
+      "filter_category" => filter_category_for_doc(doc),
+      "episode_title" => title,
+      "episode_url" => latest_episode_meta["episode_url"].to_s.strip,
+      "audio_url" => audio_url,
+      "published_at" => latest_episode_meta["published_at"],
+      "episode_key" => latest_episode_meta["episode_slug"],
+      "episode_slug" => latest_episode_meta["episode_slug"],
+      "episode_page_url" => latest_episode_meta["episode_page_url"]
+    }
+  end
+
+  def non_running_items_for_site(site, episodes_by_feed)
+    return [] unless episodes_by_feed.is_a?(Hash)
+
+    podcast_posts_with_feed(site)
+      .select { |doc| doc.data["not_running_related"] == true }
+      .map do |doc|
+        feed_key = normalize_feed_key(doc.data["rss_feed"])
+        latest_episode_row_for_doc(doc, episodes_by_feed[feed_key])
+      end
+      .compact
+      .sort_by do |item|
+        begin
+          Time.parse(item["published_at"].to_s)
+        rescue ArgumentError, TypeError
+          Time.at(0)
+        end
+      end
+      .reverse
+  end
+
   # ASCII-only URL segments: transliterate æ→ae, ø→o, å→a, é→e, etc. (I18n + Jekyll "latin" mode).
   def slugify_segment(text, mode: "latin")
     return "" if text.to_s.strip.empty?
@@ -572,6 +616,10 @@ def build_latest_podcast_episodes_data(site)
           merged["episodes_by_feed"]
         )
       end
+      merged["non_running_items"] = LatestPodcastEpisodes.non_running_items_for_site(
+        site,
+        merged["episodes_by_feed"]
+      )
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
       Jekyll.logger.info(
@@ -682,6 +730,7 @@ def build_latest_podcast_episodes_data(site)
   payload = {
     "generated_at" => Time.now.utc.iso8601,
     "items" => sorted,
+    "non_running_items" => LatestPodcastEpisodes.non_running_items_for_site(site, episodes_by_feed),
     "episodes_by_feed" => episodes_by_feed,
     "errors" => errors
   }
@@ -701,6 +750,7 @@ def build_latest_podcast_episodes_data(site)
       "cache_fallback" => true,
       "fetch_errors" => errors,
       "items" => cached["items"],
+      "non_running_items" => LatestPodcastEpisodes.non_running_items_for_site(site, cached["episodes_by_feed"]),
       "episodes_by_feed" => cached["episodes_by_feed"] || {},
       "errors" => cached["errors"] || []
     )
@@ -714,7 +764,8 @@ def build_latest_podcast_episodes_data(site)
     kept = prior_snapshot.merge(
       "generated_at" => Time.now.utc.iso8601,
       "committed_fallback" => true,
-      "fetch_errors" => errors
+      "fetch_errors" => errors,
+      "non_running_items" => LatestPodcastEpisodes.non_running_items_for_site(site, prior_snapshot["episodes_by_feed"])
     )
     LatestPodcastEpisodes.ensure_feed_episodes_list!(kept)
     site.data["latest_podcast_episodes"] = kept

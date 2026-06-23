@@ -1,5 +1,5 @@
 {%- assign feed_data = site.data.latest_podcast_episodes -%}
-{%- assign items = feed_data.items | default: empty -%}
+{%- assign items = include.items | default: feed_data.items | default: empty -%}
 {%- assign section_id = include.section_id | default: "latest-episodes-player" -%}
 {%- assign heading = include.heading | default: "Latest Episodes" -%}
 {%- assign max_items = include.limit | default: 25 -%}

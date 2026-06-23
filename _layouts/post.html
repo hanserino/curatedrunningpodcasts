@@ -60,7 +60,11 @@
 			<section class="post-page__body" aria-label="Podcast details">
 				<div class="post-article__content">
 					{% if page.rss_feed and page.rss_feed != '' %}
-					{% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=10 %}
+					{%- assign podcast_archive_url = "" -%}
+					{%- if site.podcast_episode_pages_enabled -%}
+					{%- assign podcast_archive_url = page.url | append: "episodes/" -%}
+					{%- endif -%}
+					{% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=10 archive_url=podcast_archive_url %}
 					{% endif %}
 				</div>
 			</section>
@@ -76,7 +80,7 @@
 			</div>
 			{%- endif -%}
 			<footer class="post-article__footer">
-				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home" data-contextual-return-link>← Back to the podcast directory</a></p>
 			</footer>
 		</article>
 	</main>

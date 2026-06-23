@@ -12,6 +12,7 @@
 {%- assign section_id = include.section_id | default: "podcast-feed-player" -%}
 {%- assign heading = include.heading | default: "Latest Episodes From This Podcast" -%}
 {%- assign max_items = include.limit | default: 10 -%}
+{%- assign archive_url = include.archive_url | default: "" | strip -%}
 {%- assign show_cover = include.cover_image | default: "" | strip -%}
 {%- assign deck_cover = show_cover -%}
 {%- if deck_cover == "" and feed_data.items -%}
@@ -58,6 +59,11 @@
     </li>
     {%- endfor -%}
   </ol>
+  {%- if archive_url != "" and episodes.size > max_items -%}
+  <p class="latest-episodes__archive-link">
+    <a href="{{ archive_url | relative_url }}">View all {{ episodes.size }} indexed episodes</a>
+  </p>
+  {%- endif -%}
   {%- else -%}
   <p class="latest-episodes__unavailable">
     Feed is currently unavailable for this podcast. Try again later or open the

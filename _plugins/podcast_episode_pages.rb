@@ -136,11 +136,57 @@ class PodcastEpisodePage < Jekyll::Page
   attr_reader :redirect_paths
 end
 
+class PodcastEpisodeArchivePage < Jekyll::Page
+  def initialize(site, base, podcast_doc, episodes)
+    @site = site
+    @base = base
+    podcast_slug = podcast_doc.data["slug"].to_s
+    @dir = File.join(podcast_slug, "episodes")
+    @name = "index.html"
+
+    podcast_title = podcast_doc.data["title"].to_s.strip
+
+    self.data = {
+      "layout" => "podcast-episode-archive",
+      "category" => "podcast_episode_archive",
+      "sitemap" => podcast_doc.data["not_running_related"] != true,
+      "title" => "#{podcast_title} episode archive",
+      "seo_description" => "Browse recent episodes from #{podcast_title} on Best Running Podcasts.",
+      "podcast_title" => podcast_doc.data["title"],
+      "podcast_url" => podcast_doc.url,
+      "podcast_slug" => podcast_slug,
+      "rss_feed" => podcast_doc.data["rss_feed"],
+      "tags" => podcast_doc.data["tags"],
+      "language" => podcast_doc.data["language"],
+      "episodes" => episodes,
+      "permalink" => "/#{podcast_slug}/episodes/"
+    }
+    process(@name)
+  end
+end
+
 class PodcastEpisodePagesGenerator < Jekyll::Generator
   safe true
   priority :low
 
+  def generate_episode_pages?
+    return false if ENV["SKIP_EPISODE_PAGES"].to_s == "1"
+    return true if ENV["GENERATE_EPISODE_PAGES"].to_s == "1"
+
+    Jekyll.env == "production"
+  end
+
   def generate(site)
+    enabled = generate_episode_pages?
+    site.config["podcast_episode_pages_enabled"] = enabled
+    unless enabled
+      Jekyll.logger.info(
+        "PodcastEpisodePages:",
+        "Skipped episode and archive pages for local build. Use GENERATE_EPISODE_PAGES=1 to enable."
+      )
+      return
+    end
+
     feed_data = site.data["latest_podcast_episodes"]
     return unless feed_data.is_a?(Hash)
 
@@ -173,6 +219,8 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
         Array(episodes).select { |e| e.is_a?(Hash) },
         podcast_slug: podcast_slug
       )
+
+      site.pages << PodcastEpisodeArchivePage.new(site, site.source, podcast_doc, with_slugs) unless with_slugs.empty?
 
       with_slugs.each do |raw_episode|
         audio = raw_episode["audio_url"].to_s.strip

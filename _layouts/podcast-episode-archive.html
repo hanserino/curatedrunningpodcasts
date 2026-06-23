@@ -1,0 +1,48 @@
+{%- assign page_lang = site.lang | default: 'en' -%}
+{%- if page.language and page.language.size > 0 -%}
+  {%- assign _archive_language = page.language | first -%}
+  {%- capture page_lang -%}{% include language-bcp47.liquid lang=_archive_language %}{%- endcapture -%}
+  {%- assign page_lang = page_lang | strip -%}
+{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ page_lang }}">
+<head>
+	{% include head.html %}
+</head>
+<body class="post-page post-page--podcast post-page--episode-archive" data-box-grid="true">
+	{% include skip-link.html %}
+	<main id="main-content">
+		<article class="post-article post-article--episode-archive">
+			<header class="post-page__intro post-page__intro--compact">
+				<div class="post-page__intro-bar">
+					<p class="post-page__back"><a href="{{ page.podcast_url | relative_url }}">← {{ page.podcast_title }}</a></p>
+					{% include main-nav.html %}
+				</div>
+				<p class="post-page__kicker">Episode archive</p>
+				<h1 class="post-article__title">{{ page.podcast_title }} episodes</h1>
+				<p class="post-article__lede">Browse the latest {{ page.episodes.size }} episodes we have indexed for this podcast.</p>
+			</header>
+
+			<section class="episode-archive" aria-labelledby="episode-archive-title">
+				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2>
+				{%- if page.episodes and page.episodes.size > 0 -%}
+				<ol class="episode-archive__list">
+					{%- for episode in page.episodes -%}
+					{%- assign published_label = episode.published_at | date: "%B %-d, %Y" -%}
+					<li class="episode-archive__item">
+						{% include episode-page-link.html episode=episode podcast_slug=page.podcast_slug class="episode-archive__link" %}
+						{%- if published_label != "" -%}
+						<time class="episode-archive__date" datetime="{{ episode.published_at }}">{{ published_label }}</time>
+						{%- endif -%}
+					</li>
+					{%- endfor -%}
+				</ol>
+				{%- else -%}
+				<p class="episode-archive__empty">No indexed episodes are available for this podcast yet.</p>
+				{%- endif -%}
+			</section>
+		</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>

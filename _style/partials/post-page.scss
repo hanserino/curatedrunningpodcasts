@@ -203,6 +203,29 @@
             @include brutal-surface;
         }
 
+        .latest-episodes__archive-link {
+            margin: 1rem 0 0;
+
+            a {
+                display: inline-flex;
+                align-items: center;
+                padding: 0.5rem 0.8rem;
+                border-radius: $radius-sm;
+                font-weight: 800;
+                color: $color-ink;
+                background: $color-speed;
+                border: $border-heavy;
+                box-shadow: $shadow-brutal-sm;
+                text-decoration: none;
+
+                &:hover,
+                &:focus-visible {
+                    transform: translate(-1px, -1px);
+                    box-shadow: $shadow-brutal;
+                }
+            }
+        }
+
         .post-article__footer {
             margin-top: 2rem;
             padding-top: 1.25rem;
@@ -221,6 +244,63 @@
         &[aria-current="page"] {
             border-bottom-color: $color-speed;
         }
+    }
+}
+
+.post-page--episode-archive {
+    .post-article--episode-archive {
+        padding: 0 1rem 2rem;
+        max-width: none;
+    }
+}
+
+.episode-archive {
+    padding: 1rem 1rem 1.2rem;
+    @include brutal-surface;
+
+    &__title {
+        margin: 0 0 0.85rem;
+        font-family: $font-display;
+        font-size: clamp(1.35rem, 3vw, 1.8rem);
+        line-height: 1.1;
+    }
+
+    &__list {
+        display: grid;
+        gap: 0.65rem;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+        display: grid;
+        gap: 0.25rem;
+        padding: 0.75rem 0;
+        border-bottom: $border-width solid rgba($color-ink, 0.14);
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    &__link {
+        font-weight: 800;
+        line-height: 1.25;
+        color: $color-ink;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+
+        &:hover,
+        &:focus-visible {
+            background: $color-lane;
+        }
+    }
+
+    &__date,
+    &__empty {
+        font-size: 0.9rem;
+        color: $color-muted;
     }
 }
 

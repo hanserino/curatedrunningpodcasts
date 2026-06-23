@@ -55,7 +55,11 @@
 <title>{{ seo_page_title | xml_escape }}</title>
 <meta name="description" content="{{ seo_desc | xml_escape }}">
 <meta name="author" content="{{ site.author.name | default: site.author_name | default: 'Hans Kristian Smedsrød' | xml_escape }}">
+{%- if page.noindex -%}
+<meta name="robots" content="noindex, nofollow">
+{%- else -%}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+{%- endif -%}
 <meta name="application-name" content="{{ site_name | xml_escape }}">
 {%- include head-meta-og.liquid -%}
 

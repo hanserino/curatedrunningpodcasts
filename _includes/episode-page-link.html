@@ -4,8 +4,12 @@
 {%- endcomment -%}
 {%- assign _episode = include.episode -%}
 {%- assign _class = include.class | default: '' -%}
-{%- assign _ep_path = _episode.episode_page_url | default: '' | strip -%}
-{%- if _ep_path == '' -%}
+{%- assign _episode_pages_enabled = site.podcast_episode_pages_enabled -%}
+{%- assign _ep_path = '' -%}
+{%- unless _episode_pages_enabled == false -%}
+  {%- assign _ep_path = _episode.episode_page_url | default: '' | strip -%}
+{%- endunless -%}
+{%- if _ep_path == '' and _episode_pages_enabled != false -%}
   {%- assign _key = _episode.episode_slug | default: _episode.episode_key | default: '' | strip -%}
   {%- unless _episode.episode_page_url -%}
     {%- assign _key = _episode.episode_title | slugify -%}
