@@ -13,7 +13,9 @@ picks:
     quote: "Professor Ross Tucker is extremely good at simplifying complicated
       science so my stupid brain can understand it. "
   - pick_source: site
-    directory_slug: 2023-10-31-singletrack
+    directory_slug: 2026-06-22--md-4
+    quote: The OG climbing podcast. The host, Chris Kalous, has skin in the game and
+      is a master at picking the right guests and getting the best out of them.
   - pick_source: site
     directory_slug: 2023-11-01-ten-junk-miles
     quote: "The host, Scotty Kummer, is really good at longform deep conversations.
