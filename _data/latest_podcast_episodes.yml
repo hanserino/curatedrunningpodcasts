@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-23T05:23:45Z'
+generated_at: '2026-06-23T07:17:24Z'
 items:
+- podcast_title: Trail Society
+  podcast_page_url: "/trail-society/"
+  cover_image: "/media/trailsocietypodcast.jpeg"
+  feed_url: https://feeds.captivate.fm/trail-society/
+  filter_category: trail ultra english
+  episode_title: 'Episode 139: Revisiting the pursuit of excellence with Western States champ Abby Hall'
+  episode_url: https://trail-society.captivate.fm
+  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/ce9c32d4-24e8-4864-9d2e-07f8efcb17e6.mp3
+  published_at: '2026-06-23T03:15:00-04:00'
+  episode_key: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
+  episode_slug: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
+  episode_page_url: "/trail-society/episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall/"
+- podcast_title: Singletrack
+  podcast_page_url: "/singletrack/"
+  cover_image: "/media/singletracknew.jpeg"
+  feed_url: https://rss.buzzsprout.com/1794638.rss
+  filter_category: ultra trail business english
+  episode_title: Lotti Brinks | 2026 Western States 100 Pre-Race Interview
+  episode_url: ''
+  audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19388634-lotti-brinks-2026-western-states-100-pre-race-interview.mp3
+  published_at: '2026-06-22T23:00:00-06:00'
+  episode_key: lotti-brinks-2026-western-states-100-pre-race-interview
+  episode_slug: lotti-brinks-2026-western-states-100-pre-race-interview
+  episode_page_url: "/singletrack/lotti-brinks-2026-western-states-100-pre-race-interview/"
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub/"
   cover_image: "/media/subhubpodcast.jpeg"
@@ -49,18 +73,6 @@ items:
   episode_key: 325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview
   episode_slug: 325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview
   episode_page_url: "/life-in-stride/325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview/"
-- podcast_title: Singletrack
-  podcast_page_url: "/singletrack/"
-  cover_image: "/media/singletracknew.jpeg"
-  feed_url: https://rss.buzzsprout.com/1794638.rss
-  filter_category: ultra trail business english
-  episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
-  episode_url: ''
-  audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19382061-hans-troyer-2026-western-states-100-pre-race-interview.mp3
-  published_at: '2026-06-22T11:00:00-06:00'
-  episode_key: hans-troyer-2026-western-states-100-pre-race-interview
-  episode_slug: hans-troyer-2026-western-states-100-pre-race-interview
-  episode_page_url: "/singletrack/hans-troyer-2026-western-states-100-pre-race-interview/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -361,18 +373,6 @@ items:
   episode_key: hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete
   episode_slug: hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete
   episode_page_url: "/the-buzz/hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete/"
-- podcast_title: Trail Society
-  podcast_page_url: "/trail-society/"
-  cover_image: "/media/trailsocietypodcast.jpeg"
-  feed_url: https://feeds.captivate.fm/trail-society/
-  filter_category: trail ultra english
-  episode_title: 'Episode 138: Lessons (for running & life) from the Unbound 200-mile gravel race'
-  episode_url: https://trail-society.captivate.fm
-  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/f7dc44e9-b67a-40ff-83e8-fecc823684e1.mp3
-  published_at: '2026-06-16T03:15:00-04:00'
-  episode_key: episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race
-  episode_slug: episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race
-  episode_page_url: "/trail-society/episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race/"
 - podcast_title: Long Run Labs
   podcast_page_url: "/long-run-labs/"
   cover_image: "/media/longrunlabs.jpeg"
@@ -3925,6 +3925,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/take-off-your-shoes/take-off-your-shoes-eric-lipuma/"
   https://feeds.captivate.fm/trail-society/: &12
+  - episode_title: 'Episode 139: Revisiting the pursuit of excellence with Western States champ Abby Hall'
+    episode_url: https://trail-society.captivate.fm
+    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/ce9c32d4-24e8-4864-9d2e-07f8efcb17e6.mp3
+    published_at: '2026-06-23T03:15:00-04:00'
+    description_html: "<p>This week, ahead of Western States this weekend, we're revisiting and re-airing our conversation with last year's champion Abby Hall — about growth, grit, and what it means to chase excellence over a long period of time.</p><p>They talk about:</p><ul><li>Abby's evolution through a decade in the sport</li><li>How she found her footing in ultras and her relationship with the 100-mile distance</li><li>And, of course, the long road and many setbacks before last year's win</li></ul><p>What does it mean to care deeply, race boldly, and keep showing up? There's a vulnerability to racing at the highest level and a tension women often face between being competitive and being perceived as too much.</p><p>Follow Us:</p><p>FeistyFest Details and Registration: https://feisty.co/events/feisty-fest/</p><p>@feisty_media</p><p>@trail.society</p><p>Support our Partners:</p><p>Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com</p><p>Use code TRAILSOCIETY for 15% off any Vacation Races event at https://www.vacationraces.com</p><p>Good Ranchers: Subscribe and get $25 off your first order with the code IRON at goodranchers.com</p><p>rabbit: Visit https://www.runinrabbit.com/ use code: JUNEBUNNY10 for 10% off.</p><p>Mentioned in this episode:</p><p><strong>TifosiJune</strong></p><p>Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com</p><p><strong>Vaction Races</strong></p><p>Use code TRAILSOCIETY for 15% off any Vacation Races event at https://www.vacationraces.com</p>"
+    description_plain: 'This week, ahead of Western States this weekend, we''re revisiting and re-airing our conversation with last year''s champion Abby Hall — about growth, grit, and what it means to chase excellence over a long period of time. They talk about: Abby''s evolution through a decade in the sport How she found her footing in ultras and her relationship with the 100-mile distance And, of course, the long road and many setbacks before last year''s win What does it mean to care deeply, race boldly, and keep showing up? There''s a vulnerability to racing at the highest level and a tension women often face between being competitive and being perceived as too much. Follow Us: FeistyFest Details and Registration: https://feisty.co/events/feisty-fest/ @feisty_media @trail.society Support our Partners: Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com Use code TRAILSOCIETY for 15% off any Vacation Races event at https://www.vacationraces.com Good Ranchers: Subscribe and get $25 off your first order with the code IRON at goodranchers.com rabbit: Visit https://www.runinrabbit.com/ use code: JUNEBUNNY10 for 10% off. Mentioned in this episode: TifosiJune Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com Vaction Races Use code TRAILSOCIETY for 15% off any Vacation Races event at https://www.vacationraces.com'
+    episode_image_url: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
+    episode_uid: ce9c32d4-24e8-4864-9d2e-07f8efcb17e6
+    episode_slug: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
+    episode_key: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/trail-society/episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall/"
   - episode_title: 'Episode 138: Lessons (for running & life) from the Unbound 200-mile gravel race'
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/f7dc44e9-b67a-40ff-83e8-fecc823684e1.mp3
@@ -3935,7 +3947,7 @@ episodes_by_feed:
     episode_uid: f7dc44e9-b67a-40ff-83e8-fecc823684e1
     episode_slug: episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race
     episode_key: episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/trail-society/episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race/"
   - episode_title: 'Episode 137: Women’s sports are good business with Kate Veronneau'
     episode_url: https://trail-society.captivate.fm
@@ -3947,7 +3959,7 @@ episodes_by_feed:
     episode_uid: 32e85237-9d03-44f4-98e5-fb20d67a479d
     episode_slug: episode-137-women-s-sports-are-good-business-with-kate-veronneau
     episode_key: episode-137-women-s-sports-are-good-business-with-kate-veronneau
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/trail-society/episode-137-women-s-sports-are-good-business-with-kate-veronneau/"
   - episode_title: 'Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine'
     episode_url: https://trail-society.captivate.fm
@@ -3959,7 +3971,7 @@ episodes_by_feed:
     episode_uid: 509a42c8-a997-4d7c-8f66-2c7db8aca8b1
     episode_slug: episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine
     episode_key: episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/trail-society/episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine/"
   - episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
     episode_url: https://trail-society.captivate.fm
@@ -3971,7 +3983,7 @@ episodes_by_feed:
     episode_uid: 5634ad72-3cdf-497a-af77-e0924c1cb1d2
     episode_slug: episode-135-it-s-cool-to-care-with-dani-moreno
     episode_key: episode-135-it-s-cool-to-care-with-dani-moreno
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/trail-society/episode-135-it-s-cool-to-care-with-dani-moreno/"
   - episode_title: 'Episode 134: How to build your injury toolkit'
     episode_url: https://trail-society.captivate.fm
@@ -3983,7 +3995,7 @@ episodes_by_feed:
     episode_uid: 21c0e9b9-849b-4859-8db9-dba65afb4795
     episode_slug: episode-134-how-to-build-your-injury-toolkit
     episode_key: episode-134-how-to-build-your-injury-toolkit
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/trail-society/episode-134-how-to-build-your-injury-toolkit/"
   - episode_title: 'Episode 133: Why staying curious keeps Jenny Quilty racing fast'
     episode_url: https://trail-society.captivate.fm
@@ -3995,7 +4007,7 @@ episodes_by_feed:
     episode_uid: e929e4dd-fbae-4476-99e6-3b9b970fa4ea
     episode_slug: episode-133-why-staying-curious-keeps-jenny-quilty-racing-fast
     episode_key: episode-133-why-staying-curious-keeps-jenny-quilty-racing-fast
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/trail-society/episode-133-why-staying-curious-keeps-jenny-quilty-racing-fast/"
   - episode_title: 'Episode 132: Solving the hot weather hydration and fueling puzzle'
     episode_url: https://trail-society.captivate.fm
@@ -4007,7 +4019,7 @@ episodes_by_feed:
     episode_uid: 577fb5ba-dd17-4b11-a894-a529feae1dd1
     episode_slug: episode-132-solving-the-hot-weather-hydration-and-fueling-puzzle
     episode_key: episode-132-solving-the-hot-weather-hydration-and-fueling-puzzle
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/trail-society/episode-132-solving-the-hot-weather-hydration-and-fueling-puzzle/"
   - episode_title: 'Episode 131: How to rebuild when everything changes with Lizzy Fowler'
     episode_url: https://trail-society.captivate.fm
@@ -4019,7 +4031,7 @@ episodes_by_feed:
     episode_uid: 4ca83211-6c35-4396-ae39-90b33c658b5b
     episode_slug: episode-131-how-to-rebuild-when-everything-changes-with-lizzy-fowler
     episode_key: episode-131-how-to-rebuild-when-everything-changes-with-lizzy-fowler
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/trail-society/episode-131-how-to-rebuild-when-everything-changes-with-lizzy-fowler/"
   - episode_title: 'Episode 130: Self-belief is a super power'
     episode_url: https://trail-society.captivate.fm
@@ -4031,7 +4043,7 @@ episodes_by_feed:
     episode_uid: 5a865b83-491a-487f-82a1-f7ab7321e6a6
     episode_slug: episode-130-self-belief-is-a-super-power
     episode_key: episode-130-self-belief-is-a-super-power
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/trail-society/episode-130-self-belief-is-a-super-power/"
   - episode_title: 'Episode 129: The science of cognitive fatigue in running'
     episode_url: https://trail-society.captivate.fm
@@ -4043,7 +4055,7 @@ episodes_by_feed:
     episode_uid: a9529671-91b2-4704-8a43-6a7706a00e4c
     episode_slug: episode-129-the-science-of-cognitive-fatigue-in-running
     episode_key: episode-129-the-science-of-cognitive-fatigue-in-running
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/trail-society/episode-129-the-science-of-cognitive-fatigue-in-running/"
   - episode_title: 'Episode 128: Is it fatigue or is it anemia?'
     episode_url: https://trail-society.captivate.fm
@@ -4055,7 +4067,7 @@ episodes_by_feed:
     episode_uid: 341c542e-392f-48f4-9087-fd100afe2f0d
     episode_slug: episode-128-is-it-fatigue-or-is-it-anemia
     episode_key: episode-128-is-it-fatigue-or-is-it-anemia
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/trail-society/episode-128-is-it-fatigue-or-is-it-anemia/"
   - episode_title: 'Episode 127: Strong As a Mother with Jess Dorrington and Shannon Rowbury'
     episode_url: https://trail-society.captivate.fm
@@ -4067,7 +4079,7 @@ episodes_by_feed:
     episode_uid: e7c91491-de4e-4200-a2a4-b661cdf3d767
     episode_slug: episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury
     episode_key: episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/trail-society/episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury/"
   - episode_title: 'Episode 126: Jane Maus'' Mountain Training Mindset - From the Grand Teton FKT to Black Canyon 50K Champion'
     episode_url: https://trail-society.captivate.fm
@@ -4079,7 +4091,7 @@ episodes_by_feed:
     episode_uid: 24f6c137-8b7e-4011-9983-6234a9520392
     episode_slug: episode-126-jane-maus-mountain-training-mindset-from-the-grand-teton-fkt-to-black-canyon-50k-champion
     episode_key: episode-126-jane-maus-mountain-training-mindset-from-the-grand-teton-fkt-to-black-canyon-50k-champion
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/trail-society/episode-126-jane-maus-mountain-training-mindset-from-the-grand-teton-fkt-to-black-canyon-50k-champion/"
   - episode_title: 'Episode 125: Why do some athletes choke on the world''s biggest stage?'
     episode_url: https://trail-society.captivate.fm
@@ -4091,7 +4103,7 @@ episodes_by_feed:
     episode_uid: ab95bb26-2bf8-4236-a78c-eecda190eaee
     episode_slug: episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage
     episode_key: episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/trail-society/episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage/"
   - episode_title: 'Episode 124: Dani Aravich went from Division I runner to Paralympic biathlete'
     episode_url: https://trail-society.captivate.fm
@@ -4103,7 +4115,7 @@ episodes_by_feed:
     episode_uid: 7d7ae9e1-3573-4545-902b-aa1636c771ff
     episode_slug: episode-124-dani-aravich-went-from-division-i-runner-to-paralympic-biathlete
     episode_key: episode-124-dani-aravich-went-from-division-i-runner-to-paralympic-biathlete
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/trail-society/episode-124-dani-aravich-went-from-division-i-runner-to-paralympic-biathlete/"
   - episode_title: 'Episode 123: Are female athletes more injury-prone? Here''s what the research says'
     episode_url: https://trail-society.captivate.fm
@@ -4115,7 +4127,7 @@ episodes_by_feed:
     episode_uid: 912b36f5-0242-4fb7-b1af-5d726c874530
     episode_slug: episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says
     episode_key: episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/trail-society/episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says/"
   - episode_title: 'Episode 122: Trail Running is Political: Immigration, ICE & the Responsibility of Our Sport with Carolina Rubio-MacWright'
     episode_url: https://trail-society.captivate.fm
@@ -4127,7 +4139,7 @@ episodes_by_feed:
     episode_uid: 67a969c2-f076-47f4-9b14-aaf26aea90fd
     episode_slug: episode-122-trail-running-is-political-immigration-ice-the-responsibility-of-our-sport-with-carolina-rubio-macwright
     episode_key: episode-122-trail-running-is-political-immigration-ice-the-responsibility-of-our-sport-with-carolina-rubio-macwright
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/trail-society/episode-122-trail-running-is-political-immigration-ice-the-responsibility-of-our-sport-with-carolina-rubio-macwright/"
   - episode_title: 'Episode 121: Stress, the science of cortisol, and updates on the Female Athlete Triad'
     episode_url: https://trail-society.captivate.fm
@@ -4139,7 +4151,7 @@ episodes_by_feed:
     episode_uid: 95fc0749-eeb8-4a68-b058-97376384eb02
     episode_slug: episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad
     episode_key: episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/trail-society/episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad/"
   - episode_title: 'Episode 120: Sabrina Stanley is back racing after cancer'
     episode_url: https://trail-society.captivate.fm
@@ -4151,7 +4163,7 @@ episodes_by_feed:
     episode_uid: 5f167e38-323c-4083-b510-60e4fbe7e5d0
     episode_slug: episode-120-sabrina-stanley-is-back-racing-after-cancer
     episode_key: episode-120-sabrina-stanley-is-back-racing-after-cancer
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/trail-society/episode-120-sabrina-stanley-is-back-racing-after-cancer/"
   - episode_title: 'Episode 119: Stress is stress: Why training load isn''t just about training'
     episode_url: https://trail-society.captivate.fm
@@ -4163,7 +4175,7 @@ episodes_by_feed:
     episode_uid: ff6adf0d-5030-4359-ad66-7f86488b1562
     episode_slug: episode-119-stress-is-stress-why-training-load-isn-t-just-about-training
     episode_key: episode-119-stress-is-stress-why-training-load-isn-t-just-about-training
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/trail-society/episode-119-stress-is-stress-why-training-load-isn-t-just-about-training/"
   - episode_title: The Science of Your Nervous System and How to Respond to Stress, Trauma, and the State of the World
     episode_url: https://trail-society.captivate.fm
@@ -4175,7 +4187,7 @@ episodes_by_feed:
     episode_uid: daf7fdb0-83d2-4521-ab28-2b905d0986d6
     episode_slug: the-science-of-your-nervous-system-and-how-to-respond-to-stress-trauma-and-the-state-of-the-world
     episode_key: the-science-of-your-nervous-system-and-how-to-respond-to-stress-trauma-and-the-state-of-the-world
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/trail-society/the-science-of-your-nervous-system-and-how-to-respond-to-stress-trauma-and-the-state-of-the-world/"
   - episode_title: 'Episode 118: Chronic pain, endometriosis, and major surgery: How Olivia Amber became the first woman to establish a time on Norman''s 13'
     episode_url: https://trail-society.captivate.fm
@@ -4187,7 +4199,7 @@ episodes_by_feed:
     episode_uid: 68348de4-a91a-4f30-8826-b3cbc73ff778
     episode_slug: episode-118-chronic-pain-endometriosis-and-major-surgery-how-olivia-amber-became-the-first-woman-to-establish-a-time-on-
     episode_key: episode-118-chronic-pain-endometriosis-and-major-surgery-how-olivia-amber-became-the-first-woman-to-establish-a-time-on-
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/trail-society/episode-118-chronic-pain-endometriosis-and-major-surgery-how-olivia-amber-became-the-first-woman-to-establish-a-time-on-/"
   - episode_title: 'Episode 117: Western States Winner Abby Hall and the Freedom of Owning Ambition'
     episode_url: https://trail-society.captivate.fm
@@ -4199,7 +4211,7 @@ episodes_by_feed:
     episode_uid: 8495b70a-3842-4b57-939c-bb05e92ac542
     episode_slug: episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition
     episode_key: episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/trail-society/episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition/"
   - episode_title: 'Episode 116: Reflecting on 2025, ReFUEL study updates, and Looking Ahead'
     episode_url: https://trail-society.captivate.fm
@@ -4211,20 +4223,8 @@ episodes_by_feed:
     episode_uid: ae1b1e10-0d64-4922-9e18-0834e30de5ee
     episode_slug: episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead
     episode_key: episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/trail-society/episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead/"
-  - episode_title: 'Episode 115. The Science of Resilience: Why Environment Matters More Than Toughness'
-    episode_url: https://trail-society.captivate.fm
-    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/3a8f02ec-05c2-40ef-b919-bc932f5ee87e.mp3
-    published_at: '2025-12-16T13:06:00-04:00'
-    description_html: <p dir="ltr">Episode 115 is a winter roundtable with Corrine Malcolm, Keely Henninger, and Hillary Allen that explores how resilience in endurance sport is built not in isolation, but through people, culture, and environment. We open by checking in on winter training realities across snow, mud, rain, and darkness, and how community helps athletes keep showing up during the hardest part of the year. The episode also covers standout performances from CIM, including a historic day for women chasing the Olympic Trials standard, updates in women's sport science and leadership, and notable moments across trail, road, and skimo.</p><p dir="ltr">At the heart of the episode is a deep dive into new research by Chen et al. (2024), which challenges the idea that resilience is an innate trait. Instead, the study shows how grateful team climates foster individual gratitude and long-term psychological resilience. Hillary breaks down the science behind coaching environment, gratitude, and burnout prevention, connecting it to real-world trail running experiences. Together, the hosts reflect on where resilience actually comes from, how grit is often confused with adaptation, and what coaches, teammates, and communities can do to create environments where athletes grow braver rather than smaller. The episode closes with Society Slam listener questions and examples of organizations doing it right when it comes to supporting athletes through pregnancy, setbacks, and long-term participation in sport.</p><p dir="ltr">A huge shoutout to our sponsor rabbit! Check them out at www.<a href="http://runninrabbit.com">runninrabbit.com</a> with code HOPPYHOLIDAYS for 10% off in December!!</p>
-    description_plain: Episode 115 is a winter roundtable with Corrine Malcolm, Keely Henninger, and Hillary Allen that explores how resilience in endurance sport is built not in isolation, but through people, culture, and environment. We open by checking in on winter training realities across snow, mud, rain, and darkness, and how community helps athletes keep showing up during the hardest part of the year. The episode also covers standout performances from CIM, including a historic day for women chasing the Olympic Trials standard, updates in women's sport science and leadership, and notable moments across trail, road, and skimo. At the heart of the episode is a deep dive into new research by Chen et al. (2024), which challenges the idea that resilience is an innate trait. Instead, the study shows how grateful team climates foster individual gratitude and long-term psychological resilience. Hillary breaks down the science behind coaching environment, gratitude, and burnout prevention, connecting it to real-world trail running experiences. Together, the hosts reflect on where resilience actually comes from, how grit is often confused with adaptation, and what coaches, teammates, and communities can do to create environments where athletes grow braver rather than smaller. The episode closes with Society Slam listener questions and examples of organizations doing it right when it comes to supporting athletes through pregnancy, setbacks, and long-term participation in sport. A huge shoutout to our sponsor rabbit! Check them out at www. runninrabbit.com with code HOPPYHOLIDAYS for 10% off in December!!
-    episode_image_url: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
-    episode_uid: 031c82f4-f44d-4c80-a688-c6ac17f1d650
-    episode_slug: episode-115-the-science-of-resilience-why-environment-matters-more-than-toughness
-    episode_key: episode-115-the-science-of-resilience-why-environment-matters-more-than-toughness
     legacy_numbered_slug: episode-25
-    episode_page_url: "/trail-society/episode-115-the-science-of-resilience-why-environment-matters-more-than-toughness/"
+    episode_page_url: "/trail-society/episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead/"
   https://rss.buzzsprout.com/299975.rss: &13
   - episode_title: 'Rasmus på Loffen: Løpsrapprort fra Sommernattsløpet 5km'
     episode_url: ''
@@ -5773,6 +5773,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/science-of-ultra/inigo-mujika-phd-on-tapering/"
   https://rss.buzzsprout.com/1794638.rss: &18
+  - episode_title: Lotti Brinks | 2026 Western States 100 Pre-Race Interview
+    episode_url: ''
+    audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19388634-lotti-brinks-2026-western-states-100-pre-race-interview.mp3
+    published_at: '2026-06-22T23:00:00-06:00'
+    description_html: '<p>Simply put, Lotti Brinks is one of the best ultrarunners in the sport right now.  Over the last 2 years, she’s secured multiple top 10s at CCC, wins at Way Too Cool and Desert Rats, and a course record at the Gorge Waterfalls 100K this past spring that heralded her arrival into the upper echelon of the sport.  This is her second time at Western States. She was here in 2024, placing 14th in 18:53. But many expect her to be a podium contender in 2026.  Since this is our first ever interview with Lotti on Singletrack, we use the opportunity to learn more about her: her background, what motivates her pursuit of excellence in the ultra world, being coached by the great Tyler Green, and her race-day goals.</p><p><b>Partners:</b></p><ul><li><a href=''https://www.precisionhydration.com/planner/?utm_source=partner&amp;utm_medium=podcast&amp;utm_campaign=singletrack''>Precision Fuel and Hydration</a> - use code SINGLETRACK at checkout for 15% off your next order</li><li><a href=''https://nordarun.com/''>Norda </a>- check out the 005: the lightest, fastest, most stable trail racing shoe ever made</li><li><a href=''https://raideresearch.com/singletrack''>Raide</a> - Making equipment for efficient human-powered movement in the mountains</li></ul><p><a rel="payment" href="https://www.patreon.com/runsingletrack">Support the show</a></p>'
+    description_plain: 'Simply put, Lotti Brinks is one of the best ultrarunners in the sport right now. Over the last 2 years, she’s secured multiple top 10s at CCC, wins at Way Too Cool and Desert Rats, and a course record at the Gorge Waterfalls 100K this past spring that heralded her arrival into the upper echelon of the sport. This is her second time at Western States. She was here in 2024, placing 14th in 18:53. But many expect her to be a podium contender in 2026. Since this is our first ever interview with Lotti on Singletrack, we use the opportunity to learn more about her: her background, what motivates her pursuit of excellence in the ultra world, being coached by the great Tyler Green, and her race-day goals. Partners: Precision Fuel and Hydration - use code SINGLETRACK at checkout for 15% off your next order Norda - check out the 005: the lightest, fastest, most stable trail racing shoe ever made Raide - Making equipment for efficient human-powered movement in the mountains Support the show'
+    episode_image_url: ''
+    episode_uid: buzzsprout-19388634
+    episode_slug: lotti-brinks-2026-western-states-100-pre-race-interview
+    episode_key: lotti-brinks-2026-western-states-100-pre-race-interview
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/singletrack/lotti-brinks-2026-western-states-100-pre-race-interview/"
   - episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19382061-hans-troyer-2026-western-states-100-pre-race-interview.mp3
@@ -5783,7 +5795,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19382061
     episode_slug: hans-troyer-2026-western-states-100-pre-race-interview
     episode_key: hans-troyer-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/singletrack/hans-troyer-2026-western-states-100-pre-race-interview/"
   - episode_title: Western States, Anti-Doping Efforts, and European vs American Trail Media with Francesco Puppi (Sunday Conversation)
     episode_url: ''
@@ -5795,7 +5807,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19365254
     episode_slug: western-states-anti-doping-efforts-and-european-vs-american-trail-media-with-francesco-puppi-sunday-conversation
     episode_key: western-states-anti-doping-efforts-and-european-vs-american-trail-media-with-francesco-puppi-sunday-conversation
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/singletrack/western-states-anti-doping-efforts-and-european-vs-american-trail-media-with-francesco-puppi-sunday-conversation/"
   - episode_title: 'Tom Evans Wild Treadmill Workout, Western States Sleeper Picks + Ski Brands Taking Over Trail? (Long Run Archives #40)'
     episode_url: ''
@@ -5807,7 +5819,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19352825
     episode_slug: tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40
     episode_key: tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/singletrack/tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40/"
   - episode_title: Gerda Steyn's "Comfortable" Comrades Win, New Tahoe 200 Course Record + Tudor's Luxury Trail Play (Singletrack News)
     episode_url: ''
@@ -5819,7 +5831,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19346892
     episode_slug: gerda-steyn-s-comfortable-comrades-win-new-tahoe-200-course-record-tudor-s-luxury-trail-play-singletrack-news
     episode_key: gerda-steyn-s-comfortable-comrades-win-new-tahoe-200-course-record-tudor-s-luxury-trail-play-singletrack-news
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/singletrack/gerda-steyn-s-comfortable-comrades-win-new-tahoe-200-course-record-tudor-s-luxury-trail-play-singletrack-news/"
   - episode_title: Killian's Injury Experiment, Cocodona Lottery Analysis + Versteeg Leaving Satisfy? (Singletrack News)
     episode_url: ''
@@ -5831,7 +5843,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19310491
     episode_slug: killian-s-injury-experiment-cocodona-lottery-analysis-versteeg-leaving-satisfy-singletrack-news
     episode_key: killian-s-injury-experiment-cocodona-lottery-analysis-versteeg-leaving-satisfy-singletrack-news
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/singletrack/killian-s-injury-experiment-cocodona-lottery-analysis-versteeg-leaving-satisfy-singletrack-news/"
   - episode_title: Kilian Korth Injury Update, Rachel Entrekin's New Deal, Sage vs Cam Goes to USADA (Singletrack News)
     episode_url: ''
@@ -5843,7 +5855,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19236963
     episode_slug: kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news
     episode_key: kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/singletrack/kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news/"
   - episode_title: 'Dirtbag Dreams: A History of Mountain, Ultra and Trail Running with Carl Morris (Sunday Conversation)'
     episode_url: ''
@@ -5855,7 +5867,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19228164
     episode_slug: dirtbag-dreams-a-history-of-mountain-ultra-and-trail-running-with-carl-morris-sunday-conversation
     episode_key: dirtbag-dreams-a-history-of-mountain-ultra-and-trail-running-with-carl-morris-sunday-conversation
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/singletrack/dirtbag-dreams-a-history-of-mountain-ultra-and-trail-running-with-carl-morris-sunday-conversation/"
   - episode_title: Tove's Zegama Statement, Snowdonia and Rothrock Results, + Tahoe 200's Big Return (Singletrack News)
     episode_url: ''
@@ -5867,7 +5879,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19193719
     episode_slug: tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news
     episode_key: tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/singletrack/tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news/"
   - episode_title: Rachel Entrekin | 2026 Cocodona 250 Post-Race Interview
     episode_url: ''
@@ -5879,7 +5891,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19160809
     episode_slug: rachel-entrekin-2026-cocodona-250-post-race-interview
     episode_key: rachel-entrekin-2026-cocodona-250-post-race-interview
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/singletrack/rachel-entrekin-2026-cocodona-250-post-race-interview/"
   - episode_title: Kilian Korth | 2026 Cocodona 250 Post-Race Interview
     episode_url: ''
@@ -5891,7 +5903,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19160294
     episode_slug: kilian-korth-2026-cocodona-250-post-race-interview
     episode_key: kilian-korth-2026-cocodona-250-post-race-interview
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/singletrack/kilian-korth-2026-cocodona-250-post-race-interview/"
   - episode_title: Final Cocodona Thoughts, Transvulcania Recap, Western States Updates (Singletrack News)
     episode_url: ''
@@ -5903,7 +5915,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19155479
     episode_slug: final-cocodona-thoughts-transvulcania-recap-western-states-updates-singletrack-news
     episode_key: final-cocodona-thoughts-transvulcania-recap-western-states-updates-singletrack-news
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/singletrack/final-cocodona-thoughts-transvulcania-recap-western-states-updates-singletrack-news/"
   - episode_title: 2026 Cocodona 250 Recap | Race Analysis, Takeaways, Top Performances
     episode_url: ''
@@ -5915,7 +5927,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19141259
     episode_slug: 2026-cocodona-250-recap-race-analysis-takeaways-top-performances
     episode_key: 2026-cocodona-250-recap-race-analysis-takeaways-top-performances
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/singletrack/2026-cocodona-250-recap-race-analysis-takeaways-top-performances/"
   - episode_title: Aravaipa Buys Ultra Adventures, 2027 Golden Ticket Schedule, Dirtbag Dreams, John Cappis Tribute (Singletrack News)
     episode_url: ''
@@ -5927,7 +5939,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19119356
     episode_slug: aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news
     episode_key: aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/singletrack/aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news/"
   - episode_title: 'Jim Walmsley''s Back. Is He The Favorite? Our 2026 Western States Power Rankings (Long Run Archives #39)'
     episode_url: ''
@@ -5939,7 +5951,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19112353
     episode_slug: jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39
     episode_key: jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/singletrack/jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39/"
   - episode_title: 2026 Cocodona 250 Preview | Analysis, Storylines, Predictions
     episode_url: ''
@@ -5951,7 +5963,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19088230
     episode_slug: 2026-cocodona-250-preview-analysis-storylines-predictions
     episode_key: 2026-cocodona-250-preview-analysis-storylines-predictions
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/singletrack/2026-cocodona-250-preview-analysis-storylines-predictions/"
   - episode_title: Canyons 100K Recap + Western States Implications (Singletrack News)
     episode_url: ''
@@ -5963,7 +5975,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19081298
     episode_slug: canyons-100k-recap-western-states-implications-singletrack-news
     episode_key: canyons-100k-recap-western-states-implications-singletrack-news
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/singletrack/canyons-100k-recap-western-states-implications-singletrack-news/"
   - episode_title: 'Supershoe Debates, Athlete Pipeline Wars, and ACG’s Trail Reception (Long Run Archives #38)'
     episode_url: ''
@@ -5975,7 +5987,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19072806
     episode_slug: supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38
     episode_key: supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/singletrack/supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38/"
   - episode_title: 'Max Jolliffe: Cocodona 250 Game Plan, Full-Time Pro Life, and a New Travel Show'
     episode_url: ''
@@ -5987,7 +5999,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19050465
     episode_slug: max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show
     episode_key: max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/singletrack/max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show/"
   - episode_title: Blanchard Leaves Salomon, Madeira Preview + Molly Seidel Satisfy Announcement (Singletrack News)
     episode_url: ''
@@ -5999,7 +6011,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19043923
     episode_slug: blanchard-leaves-salomon-madeira-preview-molly-seidel-satisfy-announcement-singletrack-news
     episode_key: blanchard-leaves-salomon-madeira-preview-molly-seidel-satisfy-announcement-singletrack-news
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/singletrack/blanchard-leaves-salomon-madeira-preview-molly-seidel-satisfy-announcement-singletrack-news/"
   - episode_title: 2026 Canyons 100K Preview | Analysis, Storylines, Predictions
     episode_url: ''
@@ -6011,7 +6023,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19027925
     episode_slug: 2026-canyons-100k-preview-analysis-storylines-predictions
     episode_key: 2026-canyons-100k-preview-analysis-storylines-predictions
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/singletrack/2026-canyons-100k-preview-analysis-storylines-predictions/"
   - episode_title: 'Courtney Dauwalter: Chianti Pivot, Marathon Lessons + Cocodona Redemption'
     episode_url: ''
@@ -6023,7 +6035,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19026550
     episode_slug: courtney-dauwalter-chianti-pivot-marathon-lessons-cocodona-redemption
     episode_key: courtney-dauwalter-chianti-pivot-marathon-lessons-cocodona-redemption
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/singletrack/courtney-dauwalter-chianti-pivot-marathon-lessons-cocodona-redemption/"
   - episode_title: Gorge, Sonoma, Desert Rats + Mike Egan's 110 Mile Wheelchair Run at BPN Backyard (Singletrack News)
     episode_url: ''
@@ -6035,7 +6047,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19003759
     episode_slug: gorge-sonoma-desert-rats-mike-egan-s-110-mile-wheelchair-run-at-bpn-backyard-singletrack-news
     episode_key: gorge-sonoma-desert-rats-mike-egan-s-110-mile-wheelchair-run-at-bpn-backyard-singletrack-news
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/singletrack/gorge-sonoma-desert-rats-mike-egan-s-110-mile-wheelchair-run-at-bpn-backyard-singletrack-news/"
   - episode_title: 'Christian Meier on Salomon''s Next Gen Program: Building the Pipeline That Could Change Elite Trail Running (Sunday Conversation)'
     episode_url: ''
@@ -6047,7 +6059,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18992993
     episode_slug: christian-meier-on-salomon-s-next-gen-program-building-the-pipeline-that-could-change-elite-trail-running-sunday-convers
     episode_key: christian-meier-on-salomon-s-next-gen-program-building-the-pipeline-that-could-change-elite-trail-running-sunday-convers
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/singletrack/christian-meier-on-salomon-s-next-gen-program-building-the-pipeline-that-could-change-elite-trail-running-sunday-convers/"
   - episode_title: 340 Mile Speed Project Record, Salomon Next Gen, + Pro Trail Runner Salary Data (Singletrack News)
     episode_url: ''
@@ -6059,20 +6071,8 @@ episodes_by_feed:
     episode_uid: buzzsprout-18970144
     episode_slug: 340-mile-speed-project-record-salomon-next-gen-pro-trail-runner-salary-data-singletrack-news
     episode_key: 340-mile-speed-project-record-salomon-next-gen-pro-trail-runner-salary-data-singletrack-news
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/singletrack/340-mile-speed-project-record-salomon-next-gen-pro-trail-runner-salary-data-singletrack-news/"
-  - episode_title: Bugs Cancel a Race, Cocodona 250 Lottery System + Emma Bates Dropped While Pregnant? (Singletrack News)
-    episode_url: ''
-    audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/18928425-bugs-cancel-a-race-cocodona-250-lottery-system-emma-bates-dropped-while-pregnant-singletrack-news.mp3
-    published_at: '2026-03-30T00:00:00-06:00'
-    description_html: '<p>This week on Singletrack News, Finn Melanson and Alyssa Clark cover one of the wildest race cancellations in recent memory, a brewing sponsorship controversy, a landmark change at one of ultra running&apos;s most iconic events, and a full roundup of results from Crown King, Buffalo Stampede, and the Arizona Monster 300.</p><p><b>Timestamps: </b></p><ul><li>02:54 Antelope Island Buffalo Run Cancellation</li><li>05:51 Trailhouse Announces New Head Coach</li><li>08:59 Emma Bates Controversy</li><li>11:40 Cocodona 250 Lottery System</li><li>14:46 Trail Super Shoe Power Rankings</li><li>17:43 Crown King, Buffalo Stampede Race Results</li><li>20:42 London Marathon Two-Day Format</li><li>23:40 UTMB Parenthood Policy</li><li>26:21 Content Finds of the Week</li></ul><p><b>Partners:</b></p><ul><li><a href=''https://www.precisionhydration.com/planner/?utm_source=partner&amp;utm_medium=podcast&amp;utm_campaign=singletrack''>Precision Fuel and Hydration</a> - use code SINGLETRACK at checkout for 15% off your next order</li><li><a href=''https://nordarun.com/''>Norda </a>- check out the 005: the lightest, fastest, most stable trail racing shoe ever made</li><li><a href=''https://raideresearch.com/singletrack''>Raide</a> - Making equipment for efficient human-powered movement in the mountains</li><li><a href=''https://janji.com/pages/singletrack''>Janji</a> - premium trail running apparel</li></ul><p><a rel="payment" href="https://www.patreon.com/runsingletrack">Support the show</a></p>'
-    description_plain: 'This week on Singletrack News, Finn Melanson and Alyssa Clark cover one of the wildest race cancellations in recent memory, a brewing sponsorship controversy, a landmark change at one of ultra running&apos;s most iconic events, and a full roundup of results from Crown King, Buffalo Stampede, and the Arizona Monster 300. Timestamps: 02:54 Antelope Island Buffalo Run Cancellation 05:51 Trailhouse Announces New Head Coach 08:59 Emma Bates Controversy 11:40 Cocodona 250 Lottery System 14:46 Trail Super Shoe Power Rankings 17:43 Crown King, Buffalo Stampede Race Results 20:42 London Marathon Two-Day Format 23:40 UTMB Parenthood Policy 26:21 Content Finds of the Week Partners: Precision Fuel and Hydration - use code SINGLETRACK at checkout for 15% off your next order Norda - check out the 005: the lightest, fastest, most stable trail racing shoe ever made Raide - Making equipment for efficient human-powered movement in the mountains Janji - premium trail running apparel Support the show'
-    episode_image_url: ''
-    episode_uid: buzzsprout-18928425
-    episode_slug: bugs-cancel-a-race-cocodona-250-lottery-system-emma-bates-dropped-while-pregnant-singletrack-news
-    episode_key: bugs-cancel-a-race-cocodona-250-lottery-system-emma-bates-dropped-while-pregnant-singletrack-news
     legacy_numbered_slug: episode-25
-    episode_page_url: "/singletrack/bugs-cancel-a-race-cocodona-250-lottery-system-emma-bates-dropped-while-pregnant-singletrack-news/"
+    episode_page_url: "/singletrack/340-mile-speed-project-record-salomon-next-gen-pro-trail-runner-salary-data-singletrack-news/"
   https://anchor.fm/s/9abbbe4/podcast/rss: &19
   - episode_title: 315. How Lower Carb Arguments Miss The Mark, Answering Bicarb Questions, Overload Weeks, and Heat Training!
     episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/315--How-Lower-Carb-Arguments-Miss-The-Mark--Answering-Bicarb-Questions--Overload-Weeks--and-Heat-Training-e3ksh8n
@@ -18760,6 +18760,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/huberman-lab/how-hormones-shape-sexual-orientation-behavior-dr-marc-breedlove/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &62
+  - episode_title: 'Katastrofebrannen i LA: Sto en 29-åring bak?'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/1af4468c-5041-4c2a-b446-8c50417c2afe_1_ID192MP3.mp3
+    published_at: '2026-06-23T05:59:00+02:00'
+    description_html: Én mann er tiltalt for å ha startet branninfernoet i 2025 som i tok livet av flere mennesker.
+    description_plain: Én mann er tiltalt for å ha startet branninfernoet i 2025 som i tok livet av flere mennesker.
+    episode_image_url: https://gfx.nrk.no/0Is0UetxW_zYbjtIXyU1Ogs2mfQiLl5MObmSoXjPG0JQ.jpg
+    episode_uid: 1af4468c-5041-4c2a-b446-8c50417c2afe-1-id192mp3-mp3
+    episode_slug: katastrofebrannen-i-la-sto-en-29-aring-bak
+    episode_key: katastrofebrannen-i-la-sto-en-29-aring-bak
+    legacy_unicode_slug: katastrofebrannen-i-la-sto-en-29-åring-bak
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/oppdatert/katastrofebrannen-i-la-sto-en-29-aring-bak/"
   - episode_title: 'Dobbeltdrap i Sverige: Er nordmannen torpedo?'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/8a7b8710-2770-41d0-bb87-10277091d022_1_ID192MP3.mp3
@@ -18770,7 +18783,7 @@ episodes_by_feed:
     episode_uid: 8a7b8710-2770-41d0-bb87-10277091d022-1-id192mp3-mp3
     episode_slug: dobbeltdrap-i-sverige-er-nordmannen-torpedo
     episode_key: dobbeltdrap-i-sverige-er-nordmannen-torpedo
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/oppdatert/dobbeltdrap-i-sverige-er-nordmannen-torpedo/"
   - episode_title: 'Fra kontrovers til suksess: Er dette sommerens stjerne?'
     episode_url: ''
@@ -18782,7 +18795,7 @@ episodes_by_feed:
     episode_uid: 66aa0d8a-5213-4c73-aa0d-8a52135c73a1-1-id192mp3-mp3
     episode_slug: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
     episode_key: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/oppdatert/fra-kontrovers-til-suksess-er-dette-sommerens-stjerne/"
   - episode_title: 'Dop, damer og hatkrim-anklager: Et bevisst spill?'
     episode_url: ''
@@ -18794,7 +18807,7 @@ episodes_by_feed:
     episode_uid: 4f099b7a-c8ac-4368-899b-7ac8ac036847-1-id192mp3-mp3
     episode_slug: dop-damer-og-hatkrim-anklager-et-bevisst-spill
     episode_key: dop-damer-og-hatkrim-anklager-et-bevisst-spill
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/oppdatert/dop-damer-og-hatkrim-anklager-et-bevisst-spill/"
   - episode_title: 'Narkokartellenes jerngrep: Likene i VM-byen'
     episode_url: ''
@@ -18806,7 +18819,7 @@ episodes_by_feed:
     episode_uid: b06f72e5-c62e-485a-af72-e5c62e085adf-1-id192mp3-mp3
     episode_slug: narkokartellenes-jerngrep-likene-i-vm-byen
     episode_key: narkokartellenes-jerngrep-likene-i-vm-byen
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/oppdatert/narkokartellenes-jerngrep-likene-i-vm-byen/"
   - episode_title: 'Dom i Høiby-saken: Hva skjer videre?'
     episode_url: ''
@@ -18819,7 +18832,7 @@ episodes_by_feed:
     episode_slug: dom-i-hoiby-saken-hva-skjer-videre
     episode_key: dom-i-hoiby-saken-hva-skjer-videre
     legacy_unicode_slug: dom-i-høiby-saken-hva-skjer-videre
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/oppdatert/dom-i-hoiby-saken-hva-skjer-videre/"
   - episode_title: 'Nowak-drapet: Derfor koker Storbritannia'
     episode_url: ''
@@ -18831,7 +18844,7 @@ episodes_by_feed:
     episode_uid: fb7f3d2f-cb8c-403f-bf3d-2fcb8cd03f25-1-id192mp3-mp3
     episode_slug: nowak-drapet-derfor-koker-storbritannia
     episode_key: nowak-drapet-derfor-koker-storbritannia
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/oppdatert/nowak-drapet-derfor-koker-storbritannia/"
   - episode_title: '18-åringen drepte Tamima: Inspirert av Hitler'
     episode_url: ''
@@ -18844,7 +18857,7 @@ episodes_by_feed:
     episode_slug: 18-aringen-drepte-tamima-inspirert-av-hitler
     episode_key: 18-aringen-drepte-tamima-inspirert-av-hitler
     legacy_unicode_slug: 18-åringen-drepte-tamima-inspirert-av-hitler
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/oppdatert/18-aringen-drepte-tamima-inspirert-av-hitler/"
   - episode_title: "«Internett-politiet» Jørgen: Skurk eller helt?"
     episode_url: ''
@@ -18857,7 +18870,7 @@ episodes_by_feed:
     episode_slug: internett-politiet-jorgen-skurk-eller-helt
     episode_key: internett-politiet-jorgen-skurk-eller-helt
     legacy_unicode_slug: internett-politiet-jørgen-skurk-eller-helt
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/oppdatert/internett-politiet-jorgen-skurk-eller-helt/"
   - episode_title: Livet til Helene rakna - å leve sakte endra alt
     episode_url: ''
@@ -18870,20 +18883,8 @@ episodes_by_feed:
     episode_slug: livet-til-helene-rakna-a-leve-sakte-endra-alt
     episode_key: livet-til-helene-rakna-a-leve-sakte-endra-alt
     legacy_unicode_slug: livet-til-helene-rakna-å-leve-sakte-endra-alt
-    legacy_numbered_slug: episode-09
-    episode_page_url: "/oppdatert/livet-til-helene-rakna-a-leve-sakte-endra-alt/"
-  - episode_title: 'Bor ulovlig i Norge: Lyver han til myndighetene?'
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/9d380fbc-fe22-4946-b80f-bcfe2229468e_1_ID192MP3.mp3
-    published_at: '2026-06-09T06:00:00+02:00'
-    description_html: Myndighetene vil kaste Suel Kassembo ut av landet. Samtidig kjemper folk for at han skal få bli.
-    description_plain: Myndighetene vil kaste Suel Kassembo ut av landet. Samtidig kjemper folk for at han skal få bli.
-    episode_image_url: https://gfx.nrk.no/eiXaU-qHb-vulOVc_6RPOQ1ppZGnEsxigTKpAkxqyIzA.jpg
-    episode_uid: 9d380fbc-fe22-4946-b80f-bcfe2229468e-1-id192mp3-mp3
-    episode_slug: bor-ulovlig-i-norge-lyver-han-til-myndighetene
-    episode_key: bor-ulovlig-i-norge-lyver-han-til-myndighetene
     legacy_numbered_slug: episode-10
-    episode_page_url: "/oppdatert/bor-ulovlig-i-norge-lyver-han-til-myndighetene/"
+    episode_page_url: "/oppdatert/livet-til-helene-rakna-a-leve-sakte-endra-alt/"
   https://sr-restored.se/rss/2071: &63
   - episode_title: Amanda Romare
     episode_url: https://www.sverigesradio.se/avsnitt/2815465
