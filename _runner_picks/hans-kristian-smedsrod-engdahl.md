@@ -2,7 +2,7 @@
 name: Hans Kristian Smedsrød Engdahl
 role: Host of Føkk Asfalt
 photo: /media/runner-picks/hanskristiansmedsrodengdahl.jpg
-bio: "Former pro trail runner, now podcast host of Føkk Asfalt and creator of
+bio: "Former pro trail runner, now podcast host of FØKK ASFALT and creator of
   the documentary film The Romsdal Method, documenting the ultra trail running
   community in Romsdal, Norway. "
 instagram_handle: hanserino
