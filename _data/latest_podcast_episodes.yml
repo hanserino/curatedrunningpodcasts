@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-23T03:09:23Z'
+generated_at: '2026-06-23T05:23:45Z'
 items:
+- podcast_title: The Sub Hub
+  podcast_page_url: "/the-sub-hub/"
+  cover_image: "/media/subhubpodcast.jpeg"
+  feed_url: https://anchor.fm/s/db96fa60/podcast/rss
+  filter_category: trail subultra english
+  episode_title: 2026 Broken Arrow Recap | Dani’s 46K Victory & Weekend Highlights
+  episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-Recap--Danis-46K-Victory--Weekend-Highlights-e3l5hut
+  audio_url: https://anchor.fm/s/db96fa60/podcast/play/121865629/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F426657187-44100-2-db6e63f8e901d.m4a
+  published_at: '2026-06-23T04:58:47+00:00'
+  episode_key: 2026-broken-arrow-recap-dani-s-46k-victory-weekend-highlights
+  episode_slug: 2026-broken-arrow-recap-dani-s-46k-victory-weekend-highlights
+  episode_page_url: "/the-sub-hub/2026-broken-arrow-recap-dani-s-46k-victory-weekend-highlights/"
+- podcast_title: Breaking Marathon Limits
+  podcast_page_url: "/breaking-marathon-limits/"
+  cover_image: "/media/bml.jpeg"
+  feed_url: https://rss.buzzsprout.com/299975.rss
+  filter_category: track road trail norwegian
+  episode_title: 'Rasmus på Loffen: Løpsrapprort fra Sommernattsløpet 5km'
+  episode_url: ''
+  audio_url: https://www.buzzsprout.com/299975/episodes/19388371-rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km.mp3
+  published_at: '2026-06-23T06:00:00+02:00'
+  episode_key: rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km
+  episode_slug: rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km
+  episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km/"
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast/"
   cover_image: "/media/freetrail2.jpeg"
@@ -205,18 +229,6 @@ items:
   episode_key: ep-786-everything-you-need-to-know-before-western-states
   episode_slug: ep-786-everything-you-need-to-know-before-western-states
   episode_page_url: "/trail-runner-nation/ep-786-everything-you-need-to-know-before-western-states/"
-- podcast_title: Breaking Marathon Limits
-  podcast_page_url: "/breaking-marathon-limits/"
-  cover_image: "/media/bml.jpeg"
-  feed_url: https://rss.buzzsprout.com/299975.rss
-  filter_category: track road trail norwegian
-  episode_title: EP141 - Midnight Sun Marathon
-  episode_url: ''
-  audio_url: https://www.buzzsprout.com/299975/episodes/19362928-ep141-midnight-sun-marathon.mp3
-  published_at: '2026-06-19T00:00:00+02:00'
-  episode_key: ep141-midnight-sun-marathon
-  episode_slug: ep141-midnight-sun-marathon
-  episode_page_url: "/breaking-marathon-limits/ep141-midnight-sun-marathon/"
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
   cover_image: "/media/coffeeclub.jpeg"
@@ -409,18 +421,6 @@ items:
   episode_key: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
   episode_slug: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
   episode_page_url: "/human-performance-outliers/run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon/"
-- podcast_title: The Sub Hub
-  podcast_page_url: "/the-sub-hub/"
-  cover_image: "/media/subhubpodcast.jpeg"
-  feed_url: https://anchor.fm/s/db96fa60/podcast/rss
-  filter_category: trail subultra english
-  episode_title: 2026 Broken Arrow 23K Preview
-  episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-23K-Preview-e3km2hp
-  audio_url: https://anchor.fm/s/db96fa60/podcast/play/121358329/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-11%2F425980015-44100-2-8968cdf1b7562.mp3
-  published_at: '2026-06-14T18:15:00+00:00'
-  episode_key: 2026-broken-arrow-23k-preview
-  episode_slug: 2026-broken-arrow-23k-preview
-  episode_page_url: "/the-sub-hub/2026-broken-arrow-23k-preview/"
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete/"
   cover_image: "/media/uphillathlete.jpeg"
@@ -4226,6 +4226,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/trail-society/episode-115-the-science-of-resilience-why-environment-matters-more-than-toughness/"
   https://rss.buzzsprout.com/299975.rss: &13
+  - episode_title: 'Rasmus på Loffen: Løpsrapprort fra Sommernattsløpet 5km'
+    episode_url: ''
+    audio_url: https://www.buzzsprout.com/299975/episodes/19388371-rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km.mp3
+    published_at: '2026-06-23T06:00:00+02:00'
+    description_html: "<p>Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. I denne episoden oppsummerer gutta Sommernattsløpet 5km - en løpsopplevelse med oppturer, nedturer og absurde situasjoner!</p><p>Husk stigningsløp og solkrem! Vi anbefaler solkremen fra <b>Værbitt</b>, som i juni kom på pallen i Forbrukerrådets test av solkremer. Værbitt får du kjøpt blant annet på værbitt.no, hos Oda og Farmasiet. #Reklame for en norsk startup, med ønske om å unngå solforbrenning og redusere risikoen for hudkreft!\U0001F64F</p><p>Treningsplanen til Rasmus<b></b>finner du på <b>BML Patreon:</b> https://www.patreon.com/breakingmarathonlimits/posts/rasmus-wolds-for-160693459</p><p>Takk til våre samarbeidspartnere Comfyballs, Kiprun og SAYSKY.</p><ul><li><b>Comfyballs </b>får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no.</li><li><b>Kiprun:</b> Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko!</li><li><b>SAYSKY</b> får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;.</li></ul><p><a rel=\"payment\" href=\"https://www.patreon.com/breakingmarathonlimits\">Support the show</a></p><p><b>Kontakt Breaking Marathon Limits</b></p><p>Følg oss her: <a href='https://www.instagram.com/breakingmarathonlimits/'>Instagram</a> | <a href='https://www.facebook.com/breakingmarathonlimits/'>Facebook</a> | <a href='https://www.youtube.com/channel/UCCoiOBmSTuCUTKIdmlpie0g'>Youtube</a> | <a href='https://www.patreon.com/breakingmarathonlimits'>Patreon</a> Andre hendvendelser kan sendes til <a href='mailto:Breakingmarathonlimits@gmail.com'>Breakingmarathonlimits@gmail.com</a> Bli en Patreon: <a href='https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator'>https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator</a></p>"
+    description_plain: "Rasmus på loffen er en podcastserie fra BML, der vi følger sportsidioten Rasmus Wold, som er relativt ny i løpegamet. I denne episoden oppsummerer gutta Sommernattsløpet 5km - en løpsopplevelse med oppturer, nedturer og absurde situasjoner! Husk stigningsløp og solkrem! Vi anbefaler solkremen fra Værbitt , som i juni kom på pallen i Forbrukerrådets test av solkremer. Værbitt får du kjøpt blant annet på værbitt.no, hos Oda og Farmasiet. #Reklame for en norsk startup, med ønske om å unngå solforbrenning og redusere risikoen for hudkreft!\U0001F64F Treningsplanen til Rasmus finner du på BML Patreon: https://www.patreon.com/breakingmarathonlimits/posts/rasmus-wolds-for-160693459 Takk til våre samarbeidspartnere Comfyballs, Kiprun og SAYSKY. Comfyballs får du på Comfyballs.no. BML kan sterkt anbefale undertøyet til løping og en ellers aktiv hverdag! Nå som gateløpssesongen er her vil vi sterk anbefale å sjekke ut nyheten Performance Superlight, som er et rent konkurranseprodukt med enda tynnere stoff! Bruk koden BML15 for 15 % rabatt på comfyballs.no. Kiprun: Det franske skomerket er endelig tilgjengelig i norske butikker og har fått en fantastisk mottakelse! Besøk din foretrukne forhandler av løpesko for å teste Kipruns daily trainere, super trainere, konkurransesko og terrengsko! SAYSKY får du hos norske forhandlere som har fokus på løping. SAYSKY baserer seg på klassisk, skandinavisk design, krydret med særegne print og sesongfarger, der høy kvalitet og funksjonalitet trumfer alt! Vi kaller det &quot;fashionable fast!&quot;. Support the show Kontakt Breaking Marathon Limits Følg oss her: Instagram | Facebook | Youtube | Patreon Andre hendvendelser kan sendes til Breakingmarathonlimits@gmail.com Bli en Patreon: https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator"
+    episode_image_url: ''
+    episode_uid: buzzsprout-19388371
+    episode_slug: rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km
+    episode_key: rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km
+    legacy_unicode_slug: rasmus-på-loffen-løpsrapprort-fra-sommernattsløpet-5km
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km/"
   - episode_title: EP141 - Midnight Sun Marathon
     episode_url: ''
     audio_url: https://www.buzzsprout.com/299975/episodes/19362928-ep141-midnight-sun-marathon.mp3
@@ -4236,7 +4249,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19362928
     episode_slug: ep141-midnight-sun-marathon
     episode_key: ep141-midnight-sun-marathon
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/breaking-marathon-limits/ep141-midnight-sun-marathon/"
   - episode_title: 'Rasmus på Loffen: Veien til København Halvmaraton'
     episode_url: ''
@@ -4249,7 +4262,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-veien-til-kobenhavn-halvmaraton
     episode_key: rasmus-pa-loffen-veien-til-kobenhavn-halvmaraton
     legacy_unicode_slug: rasmus-på-loffen-veien-til-københavn-halvmaraton
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-veien-til-kobenhavn-halvmaraton/"
   - episode_title: 'BML hjelper deg: FlexBeam - bærbar rødlysterapi'
     episode_url: ''
@@ -4262,7 +4275,7 @@ episodes_by_feed:
     episode_slug: bml-hjelper-deg-flexbeam-baerbar-rodlysterapi
     episode_key: bml-hjelper-deg-flexbeam-baerbar-rodlysterapi
     legacy_unicode_slug: bml-hjelper-deg-flexbeam-bærbar-rødlysterapi
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/breaking-marathon-limits/bml-hjelper-deg-flexbeam-baerbar-rodlysterapi/"
   - episode_title: EP140 - Bislett Games
     episode_url: ''
@@ -4274,7 +4287,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19332802
     episode_slug: ep140-bislett-games
     episode_key: ep140-bislett-games
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/breaking-marathon-limits/ep140-bislett-games/"
   - episode_title: 'Rasmus på Loffen: PB but no sigar!'
     episode_url: ''
@@ -4287,7 +4300,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-pb-but-no-sigar
     episode_key: rasmus-pa-loffen-pb-but-no-sigar
     legacy_unicode_slug: rasmus-på-loffen-pb-but-no-sigar
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-pb-but-no-sigar/"
   - episode_title: EP139 - Bak hver opptur ligger en nedtur som ikke fikk siste ord!
     episode_url: ''
@@ -4299,7 +4312,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19294816
     episode_slug: ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord
     episode_key: ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/breaking-marathon-limits/ep139-bak-hver-opptur-ligger-en-nedtur-som-ikke-fikk-siste-ord/"
   - episode_title: 'Rasmus på Loffen: To halvmaratonøkter og klar for The Arctic Run!'
     episode_url: ''
@@ -4312,7 +4325,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run
     episode_key: rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run
     legacy_unicode_slug: rasmus-på-loffen-to-halvmaratonøkter-og-klar-for-the-arctic-run
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-to-halvmaratonokter-og-klar-for-the-arctic-run/"
   - episode_title: EP138 - Dødsmarsjen på Simostranda
     episode_url: ''
@@ -4325,7 +4338,7 @@ episodes_by_feed:
     episode_slug: ep138-dodsmarsjen-pa-simostranda
     episode_key: ep138-dodsmarsjen-pa-simostranda
     legacy_unicode_slug: ep138-dødsmarsjen-på-simostranda
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/breaking-marathon-limits/ep138-dodsmarsjen-pa-simostranda/"
   - episode_title: 'Rasmus på Loffen: 39.56!'
     episode_url: ''
@@ -4338,7 +4351,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-39-56
     episode_key: rasmus-pa-loffen-39-56
     legacy_unicode_slug: rasmus-på-loffen-39-56
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-39-56/"
   - episode_title: EP137 -  Vi trives best ute blant folket
     episode_url: ''
@@ -4350,7 +4363,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19218687
     episode_slug: ep137-vi-trives-best-ute-blant-folket
     episode_key: ep137-vi-trives-best-ute-blant-folket
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/breaking-marathon-limits/ep137-vi-trives-best-ute-blant-folket/"
   - episode_title: 'Rasmus på Loffen 5.0 #4: Sub 40 på Bjørndalenmila!'
     episode_url: ''
@@ -4363,7 +4376,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-4-sub-40-pa-bjorndalenmila
     episode_key: rasmus-pa-loffen-5-0-4-sub-40-pa-bjorndalenmila
     legacy_unicode_slug: rasmus-på-loffen-5-0-4-sub-40-på-bjørndalenmila
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-4-sub-40-pa-bjorndalenmila/"
   - episode_title: EP136 - Konkurransesesong
     episode_url: ''
@@ -4375,7 +4388,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19175555
     episode_slug: ep136-konkurransesesong
     episode_key: ep136-konkurransesesong
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/breaking-marathon-limits/ep136-konkurransesesong/"
   - episode_title: 'Rasmus på Loffen 5.0 #3: Recap fra Holmenkollstafetten og perseforsøk på 3000m!'
     episode_url: ''
@@ -4388,7 +4401,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m
     episode_key: rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m
     legacy_unicode_slug: rasmus-på-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsøk-på-3000m
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-3-recap-fra-holmenkollstafetten-og-perseforsok-pa-3000m/"
   - episode_title: EP135 - To stk i kraftig stigning!
     episode_url: ''
@@ -4400,7 +4413,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19139292
     episode_slug: ep135-to-stk-i-kraftig-stigning
     episode_key: ep135-to-stk-i-kraftig-stigning
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/breaking-marathon-limits/ep135-to-stk-i-kraftig-stigning/"
   - episode_title: 'Rasmus på Loffen 5.0 #2: Full kroppsanalyse med huslegen i BML, Audun!'
     episode_url: ''
@@ -4413,7 +4426,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun
     episode_key: rasmus-pa-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun
     legacy_unicode_slug: rasmus-på-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-2-full-kroppsanalyse-med-huslegen-i-bml-audun/"
   - episode_title: EP134 - 1:59:30
     episode_url: ''
@@ -4425,7 +4438,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19095771
     episode_slug: ep134-1-59-30
     episode_key: ep134-1-59-30
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/breaking-marathon-limits/ep134-1-59-30/"
   - episode_title: 'Rasmus på Loffen 5.0 #1: Same shit, different wrapping!'
     episode_url: ''
@@ -4438,7 +4451,7 @@ episodes_by_feed:
     episode_slug: rasmus-pa-loffen-5-0-1-same-shit-different-wrapping
     episode_key: rasmus-pa-loffen-5-0-1-same-shit-different-wrapping
     legacy_unicode_slug: rasmus-på-loffen-5-0-1-same-shit-different-wrapping
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-5-0-1-same-shit-different-wrapping/"
   - episode_title: 'Breaking Boston #10: Løpsrapport fra Boston Maraton'
     episode_url: ''
@@ -4451,7 +4464,7 @@ episodes_by_feed:
     episode_slug: breaking-boston-10-lopsrapport-fra-boston-maraton
     episode_key: breaking-boston-10-lopsrapport-fra-boston-maraton
     legacy_unicode_slug: breaking-boston-10-løpsrapport-fra-boston-maraton
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/breaking-marathon-limits/breaking-boston-10-lopsrapport-fra-boston-maraton/"
   - episode_title: EP133 - Kraftig stigning!
     episode_url: ''
@@ -4463,7 +4476,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19061103
     episode_slug: ep133-kraftig-stigning
     episode_key: ep133-kraftig-stigning
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/breaking-marathon-limits/ep133-kraftig-stigning/"
   - episode_title: "”I Grøgaards hule” med Martin Myrvold"
     episode_url: ''
@@ -4476,7 +4489,7 @@ episodes_by_feed:
     episode_slug: i-grogaards-hule-med-martin-myrvold
     episode_key: i-grogaards-hule-med-martin-myrvold
     legacy_unicode_slug: i-grøgaards-hule-med-martin-myrvold
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/breaking-marathon-limits/i-grogaards-hule-med-martin-myrvold/"
   - episode_title: EP132 - Bjørndalen er tilbake!
     episode_url: ''
@@ -4489,7 +4502,7 @@ episodes_by_feed:
     episode_slug: ep132-bjorndalen-er-tilbake
     episode_key: ep132-bjorndalen-er-tilbake
     legacy_unicode_slug: ep132-bjørndalen-er-tilbake
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/breaking-marathon-limits/ep132-bjorndalen-er-tilbake/"
   - episode_title: 'Breaking Boston #9: Løpsrapport fra Drammen 10k og løpsplan i Boston Maraton'
     episode_url: ''
@@ -4502,7 +4515,7 @@ episodes_by_feed:
     episode_slug: breaking-boston-9-lopsrapport-fra-drammen-10k-og-lopsplan-i-boston-maraton
     episode_key: breaking-boston-9-lopsrapport-fra-drammen-10k-og-lopsplan-i-boston-maraton
     legacy_unicode_slug: breaking-boston-9-løpsrapport-fra-drammen-10k-og-løpsplan-i-boston-maraton
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/breaking-marathon-limits/breaking-boston-9-lopsrapport-fra-drammen-10k-og-lopsplan-i-boston-maraton/"
   - episode_title: EP131 - Drammen 10km
     episode_url: ''
@@ -4514,7 +4527,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18990240
     episode_slug: ep131-drammen-10km
     episode_key: ep131-drammen-10km
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/breaking-marathon-limits/ep131-drammen-10km/"
   - episode_title: 'Breaking Boston #8: Siste langtur!'
     episode_url: ''
@@ -4526,21 +4539,8 @@ episodes_by_feed:
     episode_uid: buzzsprout-18978212
     episode_slug: breaking-boston-8-siste-langtur
     episode_key: breaking-boston-8-siste-langtur
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/breaking-marathon-limits/breaking-boston-8-siste-langtur/"
-  - episode_title: EP130 - Påskespesial
-    episode_url: ''
-    audio_url: https://www.buzzsprout.com/299975/episodes/18948992-ep130-paskespesial.mp3
-    published_at: '2026-04-03T00:00:00+02:00'
-    description_html: '<p>Velkommen til episode 130! Dette er en påskespesial – med sending fra både Harstad og Oslo.</p><p>2. Sindre: status på trening</p><ul><li>Uke 2 etter Chianti</li><li>Samarbeidspartnere: Hoka / Anton Sport</li></ul><p><b>BML fly til Valencia</b></p><ul><li><a href=''https://bmlcharter.no/''>https://bmlcharter.no/</a></li><li>9 plasser igjen på fly nummer 2, Blir ikke satt opp fly nummer 3</li></ul><p>3. Kristian – Status</p><ul><li>Må stå over Boston Marathon</li><li>Inne i uke 4 med grei trening etter sykdom</li><li>Går fortsatt en del i trappa</li></ul><p><b>Plan fremover:</b></p><ul><li>Drammen 10 km om 10 dager</li><li>Dobbeløkt i går utgikk pga. storm</li><li>Ny dobbeløkt inne torsdag</li><li>Siste baneøkt på lørdag</li><li>Simostranda 10 km – 23. mai</li></ul><p>4. News &amp; Northcom</p><ul><li>Northcom + Storm</li><li>Plan om å kjøre både Vlaanderen og Paris-Roubaix<ul><li>Ekstremt sterkt for sesong 1</li></ul></li><li>Sterkt felt til helgens løp i Lille (5 km og 10 km)</li></ul><p>5. Ukas økt</p><p><b>10 x 3 min “on” / 1 min jogg</b></p><ul><li>Kort om Ecotrail</li></ul><p>6. Samarbeidsreklame</p><p><b>Fornyet tillit fra samarbeidspartnere</b></p><ul><li><b>Combyballs</b><ul><li>Kode: BML15</li><li>Grøgaard innom med 6 nye pakker</li></ul></li><li><b>Timik</b><ul><li>Tilgjengelig hele uken før Drammen 10 km</li><li>Lokasjoner:<ul><li>Anton Sport Torggata (Oslo)</li><li>Gulskogen (Drammen)</li></ul></li></ul></li><li><b>Maurten</b><ul><li>Kode: BML15</li></ul></li><li><b>Strava</b><ul><li>Kode: BML20</li></ul></li></ul><p>7. Påmelding – Bjørndalenmila</p><ul><li>Påmelding: <a href=''https://signup.eqtiming.com/?Event=bjorndalenmila''>https://signup.eqtiming.com/?Event=bjorndalenmila</a></li><li>Hjemmeside: <a href=''https://www.bjorndalenmila.no/''>https://www.bjorndalenmila.no/</a></li><li>Maks 1000 startnummer</li><li>Over 100 allerede solgt</li></ul><p><a rel="payment" href="https://www.patreon.com/breakingmarathonlimits">Support the show</a></p><p><b>Kontakt Breaking Marathon Limits</b></p><p>Følg oss her: <a href=''https://www.instagram.com/breakingmarathonlimits/''>Instagram</a> | <a href=''https://www.facebook.com/breakingmarathonlimits/''>Facebook</a> | <a href=''https://www.youtube.com/channel/UCCoiOBmSTuCUTKIdmlpie0g''>Youtube</a> | <a href=''https://www.patreon.com/breakingmarathonlimits''>Patreon</a> Andre hendvendelser kan sendes til <a href=''mailto:Breakingmarathonlimits@gmail.com''>Breakingmarathonlimits@gmail.com</a> Bli en Patreon: <a href=''https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator''>https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator</a></p>'
-    description_plain: 'Velkommen til episode 130! Dette er en påskespesial – med sending fra både Harstad og Oslo. 2. Sindre: status på trening Uke 2 etter Chianti Samarbeidspartnere: Hoka / Anton Sport BML fly til Valencia https://bmlcharter.no/ 9 plasser igjen på fly nummer 2, Blir ikke satt opp fly nummer 3 3. Kristian – Status Må stå over Boston Marathon Inne i uke 4 med grei trening etter sykdom Går fortsatt en del i trappa Plan fremover: Drammen 10 km om 10 dager Dobbeløkt i går utgikk pga. storm Ny dobbeløkt inne torsdag Siste baneøkt på lørdag Simostranda 10 km – 23. mai 4. News &amp; Northcom Northcom + Storm Plan om å kjøre både Vlaanderen og Paris-Roubaix Ekstremt sterkt for sesong 1 Sterkt felt til helgens løp i Lille (5 km og 10 km) 5. Ukas økt 10 x 3 min “on” / 1 min jogg Kort om Ecotrail 6. Samarbeidsreklame Fornyet tillit fra samarbeidspartnere Combyballs Kode: BML15 Grøgaard innom med 6 nye pakker Timik Tilgjengelig hele uken før Drammen 10 km Lokasjoner: Anton Sport Torggata (Oslo) Gulskogen (Drammen) Maurten Kode: BML15 Strava Kode: BML20 7. Påmelding – Bjørndalenmila Påmelding: https://signup.eqtiming.com/?Event=bjorndalenmila Hjemmeside: https://www.bjorndalenmila.no/ Maks 1000 startnummer Over 100 allerede solgt Support the show Kontakt Breaking Marathon Limits Følg oss her: Instagram | Facebook | Youtube | Patreon Andre hendvendelser kan sendes til Breakingmarathonlimits@gmail.com Bli en Patreon: https://www.patreon.com/breakingmarathonlimits?utm_campaign=creatorshare_creator'
-    episode_image_url: ''
-    episode_uid: buzzsprout-18948992
-    episode_slug: ep130-paskespesial
-    episode_key: ep130-paskespesial
-    legacy_unicode_slug: ep130-påskespesial
     legacy_numbered_slug: episode-25
-    episode_page_url: "/breaking-marathon-limits/ep130-paskespesial/"
+    episode_page_url: "/breaking-marathon-limits/breaking-boston-8-siste-langtur/"
   https://rss.libsyn.com/shows/456963/destinations/3847590.xml: &14
   - episode_title: 'AJW Unplugged: The 2026 Western States Episode'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ajw-unplugged-the-2026-western-states-episode
@@ -10737,6 +10737,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/uphill-athlete/the-yosemite-triple-with-laura-pineau/"
   https://anchor.fm/s/db96fa60/podcast/rss: &36
+  - episode_title: 2026 Broken Arrow Recap | Dani’s 46K Victory & Weekend Highlights
+    episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-Recap--Danis-46K-Victory--Weekend-Highlights-e3l5hut
+    audio_url: https://anchor.fm/s/db96fa60/podcast/play/121865629/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F426657187-44100-2-db6e63f8e901d.m4a
+    published_at: '2026-06-23T04:58:47+00:00'
+    description_html: "<p>Join us as we dive into a weekend full of adrenaline, grit, and remarkable athleticism from the Broken Arrow event to TrailCon.</p><p>Timestamps: 00:00 - Welcome and weekend overview at TrailCon and Broken Arrow 01:00 - Dani Moreno’s journey to victory amid pre-race chaos 03:10 - Race tactics: How race strategy shifted with challenging conditions 05:20 - Deep dive into the women&#39;s 46K: Key moves and standout performances 09:55 - Men&#39;s Vertical Kilometer: Patrick Gibnano’s dominance and surprising performances 12:15 - The fast and furious ascent race: Anna’s early lead and final push 14:30 - Controversial moves: Penalties, impeding, and race etiquette in trail racing 16:00 - Live streaming insights: covering the action from start to finish 18:10 - How athletes prepared for mountain challenges and weather impacts 20:00 - Looking ahead: Upcoming races, athlete highlights, and how to follow them</p>"
+    description_plain: 'Join us as we dive into a weekend full of adrenaline, grit, and remarkable athleticism from the Broken Arrow event to TrailCon. Timestamps: 00:00 - Welcome and weekend overview at TrailCon and Broken Arrow 01:00 - Dani Moreno’s journey to victory amid pre-race chaos 03:10 - Race tactics: How race strategy shifted with challenging conditions 05:20 - Deep dive into the women&#39;s 46K: Key moves and standout performances 09:55 - Men&#39;s Vertical Kilometer: Patrick Gibnano’s dominance and surprising performances 12:15 - The fast and furious ascent race: Anna’s early lead and final push 14:30 - Controversial moves: Penalties, impeding, and race etiquette in trail racing 16:00 - Live streaming insights: covering the action from start to finish 18:10 - How athletes prepared for mountain challenges and weather impacts 20:00 - Looking ahead: Upcoming races, athlete highlights, and how to follow them'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
+    episode_uid: 56640b5d-ba27-465d-94a3-777f4f6b7256
+    episode_slug: 2026-broken-arrow-recap-dani-s-46k-victory-weekend-highlights
+    episode_key: 2026-broken-arrow-recap-dani-s-46k-victory-weekend-highlights
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-sub-hub/2026-broken-arrow-recap-dani-s-46k-victory-weekend-highlights/"
   - episode_title: 2026 Broken Arrow 23K Preview
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-23K-Preview-e3km2hp
     audio_url: https://anchor.fm/s/db96fa60/podcast/play/121358329/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-11%2F425980015-44100-2-8968cdf1b7562.mp3
@@ -10747,7 +10759,7 @@ episodes_by_feed:
     episode_uid: b579c91e-5d82-449e-9cf3-3212d48bfe3f
     episode_slug: 2026-broken-arrow-23k-preview
     episode_key: 2026-broken-arrow-23k-preview
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-sub-hub/2026-broken-arrow-23k-preview/"
   - episode_title: 2026 Broken Arrow 46K Preview with Jennifer Lichter of Nike ACG
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-46K-Preview-with-Jennifer-Lichter-of-Nike-ACG-e3km24a
@@ -10759,7 +10771,7 @@ episodes_by_feed:
     episode_uid: 5f98833f-6ba5-434e-9bd4-8788e52d7b60
     episode_slug: 2026-broken-arrow-46k-preview-with-jennifer-lichter-of-nike-acg
     episode_key: 2026-broken-arrow-46k-preview-with-jennifer-lichter-of-nike-acg
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-sub-hub/2026-broken-arrow-46k-preview-with-jennifer-lichter-of-nike-acg/"
   - episode_title: 2026 Broken Arrow Ascent Preview
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-Ascent-Preview-e3kifmf
@@ -10771,7 +10783,7 @@ episodes_by_feed:
     episode_uid: c5ef7b9a-f7e5-4881-b91d-1e28aad1ccfc
     episode_slug: 2026-broken-arrow-ascent-preview
     episode_key: 2026-broken-arrow-ascent-preview
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-sub-hub/2026-broken-arrow-ascent-preview/"
   - episode_title: 2026 USATF Mountain Classic Championship - Sunapee Scramble Preview
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-USATF-Mountain-Classic-Championship---Sunapee-Scramble-Preview-e3kc00n
@@ -10783,7 +10795,7 @@ episodes_by_feed:
     episode_uid: c7aa1c5e-a9ed-4560-b2f0-5bbc4b321da9
     episode_slug: 2026-usatf-mountain-classic-championship-sunapee-scramble-preview
     episode_key: 2026-usatf-mountain-classic-championship-sunapee-scramble-preview
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-sub-hub/2026-usatf-mountain-classic-championship-sunapee-scramble-preview/"
   - episode_title: Petter Engdahl on Versatility in Trail Running
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Petter-Engdahl-on-Versatility-in-Trail-Running-e3k1r5q
@@ -10795,7 +10807,7 @@ episodes_by_feed:
     episode_uid: 90d9598f-a031-4b09-b840-4363354570a9
     episode_slug: petter-engdahl-on-versatility-in-trail-running
     episode_key: petter-engdahl-on-versatility-in-trail-running
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-sub-hub/petter-engdahl-on-versatility-in-trail-running/"
   - episode_title: HISTORIC Zegama! + Early Ledro Sky Trentino
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/HISTORIC-Zegama---Early-Ledro-Sky-Trentino-e3jn40s
@@ -10807,7 +10819,7 @@ episodes_by_feed:
     episode_uid: 75174351-14fc-458c-96b0-0aa0ced8adb7
     episode_slug: historic-zegama-early-ledro-sky-trentino
     episode_key: historic-zegama-early-ledro-sky-trentino
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-sub-hub/historic-zegama-early-ledro-sky-trentino/"
   - episode_title: Zegama Preview + The Rise of Courtney Coppinger
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Zegama-Preview--The-Rise-of-Courtney-Coppinger-e3jbann
@@ -10819,7 +10831,7 @@ episodes_by_feed:
     episode_uid: 84485ba9-be5d-4f30-b3b8-c57f52f4da92
     episode_slug: zegama-preview-the-rise-of-courtney-coppinger
     episode_key: zegama-preview-the-rise-of-courtney-coppinger
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-sub-hub/zegama-preview-the-rise-of-courtney-coppinger/"
   - episode_title: 'Makena Morley Is All In: New Coach, Missoula Move & Canyons 50K Course Record'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Makena-Morley-Is-All-In-New-Coach--Missoula-Move--Canyons-50K-Course-Record-e3j2kg7
@@ -10831,7 +10843,7 @@ episodes_by_feed:
     episode_uid: 69ef7c6e-692d-4b43-931a-02a36eb3ed5a
     episode_slug: makena-morley-is-all-in-new-coach-missoula-move-canyons-50k-course-record
     episode_key: makena-morley-is-all-in-new-coach-missoula-move-canyons-50k-course-record
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-sub-hub/makena-morley-is-all-in-new-coach-missoula-move-canyons-50k-course-record/"
   - episode_title: "Trail Tales - Catching Up on Life and the Plethora of Results from Gorge Waterfalls, Canyons, MIUT, Fuji Trail and WMRA! \U0001F62E‍\U0001F4A8"
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Trail-Tales---Catching-Up-on-Life-and-the-Plethora-of-Results-from-Gorge-Waterfalls--Canyons--MIUT--Fuji-Trail-and-WMRA-e3inf5q
@@ -10843,7 +10855,7 @@ episodes_by_feed:
     episode_uid: a186f27f-fa67-4df9-acf8-4e94c0479a8d
     episode_slug: trail-tales-catching-up-on-life-and-the-plethora-of-results-from-gorge-waterfalls-canyons-miut-fuji-trail-and-wmra
     episode_key: trail-tales-catching-up-on-life-and-the-plethora-of-results-from-gorge-waterfalls-canyons-miut-fuji-trail-and-wmra
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-sub-hub/trail-tales-catching-up-on-life-and-the-plethora-of-results-from-gorge-waterfalls-canyons-miut-fuji-trail-and-wmra/"
   - episode_title: Life Is Chaos, But We Still Made Our Canyons 50K Picks
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Life-Is-Chaos--But-We-Still-Made-Our-Canyons-50K-Picks-e3id0p3
@@ -10855,7 +10867,7 @@ episodes_by_feed:
     episode_uid: 0c43bca0-85fc-4c17-9479-274552f173cd
     episode_slug: life-is-chaos-but-we-still-made-our-canyons-50k-picks
     episode_key: life-is-chaos-but-we-still-made-our-canyons-50k-picks
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-sub-hub/life-is-chaos-but-we-still-made-our-canyons-50k-picks/"
   - episode_title: 'Norwegian Short Trail Star to Watch in 2026: The Rise of Ida Amelie Robsahm'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Norwegian-Short-Trail-Star-to-Watch-in-2026-The-Rise-of-Ida-Amelie-Robsahm-e3hdf2e
@@ -10867,7 +10879,7 @@ episodes_by_feed:
     episode_uid: dc8df364-ea36-45ab-9d7a-a49efdc0c265
     episode_slug: norwegian-short-trail-star-to-watch-in-2026-the-rise-of-ida-amelie-robsahm
     episode_key: norwegian-short-trail-star-to-watch-in-2026-the-rise-of-ida-amelie-robsahm
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-sub-hub/norwegian-short-trail-star-to-watch-in-2026-the-rise-of-ida-amelie-robsahm/"
   - episode_title: 'Trail Tales: The Short Trail Races We’re Most Excited for in 2026 + Comeback Updates & TERREX Camp'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Trail-Tales-The-Short-Trail-Races-Were-Most-Excited-for-in-2026--Comeback-Updates--TERREX-Camp-e3gnf8e
@@ -10879,7 +10891,7 @@ episodes_by_feed:
     episode_uid: d27fd293-eb86-4106-b6ae-83d05d0bfa1c
     episode_slug: trail-tales-the-short-trail-races-we-re-most-excited-for-in-2026-comeback-updates-terrex-camp
     episode_key: trail-tales-the-short-trail-races-we-re-most-excited-for-in-2026-comeback-updates-terrex-camp
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-sub-hub/trail-tales-the-short-trail-races-we-re-most-excited-for-in-2026-comeback-updates-terrex-camp/"
   - episode_title: "2x World Champion Grayson Murphy New Sponsorship Announcement\U0001F45F"
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2x-World-Champion-Grayson-Murphy-New-Sponsorship-Announcement-e3g4lrk
@@ -10891,7 +10903,7 @@ episodes_by_feed:
     episode_uid: b9f078cc-b5ff-42cc-b3fd-a5315ea0f96c
     episode_slug: 2x-world-champion-grayson-murphy-new-sponsorship-announcement
     episode_key: 2x-world-champion-grayson-murphy-new-sponsorship-announcement
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-sub-hub/2x-world-champion-grayson-murphy-new-sponsorship-announcement/"
   - episode_title: Cirque Series Announces Two New Races!!
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Cirque-Series-Announces-Two-New-Races-e3g0fif
@@ -10903,7 +10915,7 @@ episodes_by_feed:
     episode_uid: 68b87867-3e0e-4297-960e-16f54bd1d21b
     episode_slug: cirque-series-announces-two-new-races
     episode_key: cirque-series-announces-two-new-races
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-sub-hub/cirque-series-announces-two-new-races/"
   - episode_title: 'Smarter Hydration, Stronger Racing: Inside Hdrop with Founder Adria Abella'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Smarter-Hydration--Stronger-Racing-Inside-Hdrop-with-Founder-Adria-Abella-e3fgl00
@@ -10915,7 +10927,7 @@ episodes_by_feed:
     episode_uid: 8f3b2827-d60b-475f-b7f9-759a0320b00c
     episode_slug: smarter-hydration-stronger-racing-inside-hdrop-with-founder-adria-abella
     episode_key: smarter-hydration-stronger-racing-inside-hdrop-with-founder-adria-abella
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-sub-hub/smarter-hydration-stronger-racing-inside-hdrop-with-founder-adria-abella/"
   - episode_title: Trail Tales - Emkay and Dani Injury Updates, first reactions to 2026 GTWS calendar, BC 50k + Tarawera 50k Race Previews, and more
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Trail-Tales---Emkay-and-Dani-Injury-Updates--first-reactions-to-2026-GTWS-calendar--BC-50k--Tarawera-50k-Race-Previews--and-more-e3evu4c
@@ -10927,7 +10939,7 @@ episodes_by_feed:
     episode_uid: 2a6d2d41-c9f0-479e-96d6-05465bf148ea
     episode_slug: trail-tales-emkay-and-dani-injury-updates-first-reactions-to-2026-gtws-calendar-bc-50k-tarawera-50k-race-previews-and-mo
     episode_key: trail-tales-emkay-and-dani-injury-updates-first-reactions-to-2026-gtws-calendar-bc-50k-tarawera-50k-race-previews-and-mo
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-sub-hub/trail-tales-emkay-and-dani-injury-updates-first-reactions-to-2026-gtws-calendar-bc-50k-tarawera-50k-race-previews-and-mo/"
   - episode_title: "Canada's National Champion Élisa Morin Signs with the Brooks Trail Team\U0001F525"
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Canadas-National-Champion-lisa-Morin-Signs-with-the-Brooks-Trail-Team-e3ejehp
@@ -10940,7 +10952,7 @@ episodes_by_feed:
     episode_slug: canada-s-national-champion-elisa-morin-signs-with-the-brooks-trail-team
     episode_key: canada-s-national-champion-elisa-morin-signs-with-the-brooks-trail-team
     legacy_unicode_slug: canada-s-national-champion-élisa-morin-signs-with-the-brooks-trail-team
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-sub-hub/canada-s-national-champion-elisa-morin-signs-with-the-brooks-trail-team/"
   - episode_title: 'Cam Smith: The Uphill Specialist Who Made the Olympics - Skimo, Injury Comeback, and 2026 goals'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Cam-Smith-The-Uphill-Specialist-Who-Made-the-Olympics---Skimo--Injury-Comeback--and-2026-goals-e3ebb08
@@ -10952,7 +10964,7 @@ episodes_by_feed:
     episode_uid: c8cd9c3f-f375-4fc5-bdc1-5e335eb83624
     episode_slug: cam-smith-the-uphill-specialist-who-made-the-olympics-skimo-injury-comeback-and-2026-goals
     episode_key: cam-smith-the-uphill-specialist-who-made-the-olympics-skimo-injury-comeback-and-2026-goals
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-sub-hub/cam-smith-the-uphill-specialist-who-made-the-olympics-skimo-injury-comeback-and-2026-goals/"
   - episode_title: 'From Mountain Running Star to Olympian: Anna Gibson’s Wild Path to Team USA'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/From-Mountain-Running-Star-to-Olympian-Anna-Gibsons-Wild-Path-to-Team-USA-e3ebbd7
@@ -10964,7 +10976,7 @@ episodes_by_feed:
     episode_uid: e604d62f-7662-49f7-87a9-1feba5f286f4
     episode_slug: from-mountain-running-star-to-olympian-anna-gibson-s-wild-path-to-team-usa
     episode_key: from-mountain-running-star-to-olympian-anna-gibson-s-wild-path-to-team-usa
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-sub-hub/from-mountain-running-star-to-olympian-anna-gibson-s-wild-path-to-team-usa/"
   - episode_title: The Hottest Team in Short Trail with Jordan Hamm
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/The-Hottest-Team-in-Short-Trail-with-Jordan-Hamm-e3dssk9
@@ -10976,7 +10988,7 @@ episodes_by_feed:
     episode_uid: adac472e-4bb1-4d72-9269-90e34423be0a
     episode_slug: the-hottest-team-in-short-trail-with-jordan-hamm
     episode_key: the-hottest-team-in-short-trail-with-jordan-hamm
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-sub-hub/the-hottest-team-in-short-trail-with-jordan-hamm/"
   - episode_title: 'Naomi Lang: Scotland’s Next Trail Running Star | Bronze Medals, Breakout Wins & What’s Next'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Naomi-Lang-Scotlands-Next-Trail-Running-Star--Bronze-Medals--Breakout-Wins--Whats-Next-e3dm42t
@@ -10988,7 +11000,7 @@ episodes_by_feed:
     episode_uid: 3fdec093-88e4-4be2-af28-ddd3c9d751fc
     episode_slug: naomi-lang-scotland-s-next-trail-running-star-bronze-medals-breakout-wins-what-s-next
     episode_key: naomi-lang-scotland-s-next-trail-running-star-bronze-medals-breakout-wins-what-s-next
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-sub-hub/naomi-lang-scotland-s-next-trail-running-star-bronze-medals-breakout-wins-what-s-next/"
   - episode_title: Sub Hub Welcomes You to 2026!
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/Sub-Hub-Welcomes-You-to-2026-e3dcn65
@@ -11000,7 +11012,7 @@ episodes_by_feed:
     episode_uid: 91aa1bb6-ff02-4aa0-ba4a-3f91ce907397
     episode_slug: sub-hub-welcomes-you-to-2026
     episode_key: sub-hub-welcomes-you-to-2026
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-sub-hub/sub-hub-welcomes-you-to-2026/"
   - episode_title: '2025 Sub Hub Top Pick: Sara Alonso'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Sara-Alonso-e3ciko1
@@ -11012,7 +11024,7 @@ episodes_by_feed:
     episode_uid: 70fd06d7-119c-4860-bb69-7866090aa118
     episode_slug: 2025-sub-hub-top-pick-sara-alonso
     episode_key: 2025-sub-hub-top-pick-sara-alonso
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-sub-hub/2025-sub-hub-top-pick-sara-alonso/"
   - episode_title: '2025 Sub Hub Top Pick: Frédéric Tranchand'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Frdric-Tranchand-e3c9of1
@@ -11025,20 +11037,8 @@ episodes_by_feed:
     episode_slug: 2025-sub-hub-top-pick-frederic-tranchand
     episode_key: 2025-sub-hub-top-pick-frederic-tranchand
     legacy_unicode_slug: 2025-sub-hub-top-pick-frédéric-tranchand
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-sub-hub/2025-sub-hub-top-pick-frederic-tranchand/"
-  - episode_title: '2025 Sub Hub Top Pick: Madalina Florea'
-    episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2025-Sub-Hub-Top-Pick-Madalina-Florea-e3c9ok9
-    audio_url: https://anchor.fm/s/db96fa60/podcast/play/112566345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-11-13%2F414299592-44100-2-b801367b993d6.mp3
-    published_at: '2025-12-15T07:00:00+00:00'
-    description_html: '<p>We sit down with some of our favorite athletes of the year! Make sure to check out our full episode <a href="https://open.spotify.com/episode/3fro71t97tULaV7kBfunOC?si=laL71MMTRjyhOAwsmq9afA&pi=0COINH2cSSWMK&t=6" target="_blank" rel="noopener noreferer">The Sub Hub&#39;s Picks</a> to hear about our top 10 athletes of the year.</p><p>Please enjoy our episode with the overall Golden Trail World Series winner Madalina Florea!</p><p>Follow us:</p><p>Instagram:<a href="https://www.instagram.com/emkaysulli/">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ @emkaysulli ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a>|<a href="https://www.instagram.com/dan_yell_a/">⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠@dan_yell_a⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Podcast:<a href="https://www.instagram.com/the_subhub_pod/">⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠@the_subhub_pod⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Episode Sponsors:</p><p>Neversecond: Use code SUBHUB25 for 25% off your purchase--<a href="https://never2.com/">⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠never2.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p><a href="https://wildstridespaper.com/collections/wild-strides-paper-co-x-the-sub-hub-podcast">⁠⁠⁠⁠Wild Strides Paper Co⁠⁠⁠⁠</a> - Use code SUBHUB15 for 15% off our collab sicker pack</p><p>Beekeepers Natural: Use code SUBHUB20 for 20% off your purchase--<a href="https://www.beekeepersnaturals.com/collections/all?nbt=nb%3Aadwords%3Ag%3A21446614473%3A165191162835%3A613710337573&nb_adtype=&nb_kwd=beekeepers%20naturals&nb_ti=kwd-669327876433&nb_mi=&nb_pc=&nb_pi=&nb_ppi=&nb_placement=&nb_li_ms=&nb_lp_ms=&nb_fii=&nb_ap=&nb_mt=e&gad_source=1&gclid=CjwKCAiA8Lu9BhA8EiwAag16byAn7iMIdEEpDuv52izjF2oHNlq0_mNYiCrS2gXmjiACvXAQrfLyixoC5h4QAvD_BwE">⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.beekeepersnaturals.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Pit Viper:<a href="https://www.pitviper.com/?link=EmKayRUNS%20%E2%81%A0">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Click this link for 20% off at checkout</a></p>'
-    description_plain: 'We sit down with some of our favorite athletes of the year! Make sure to check out our full episode The Sub Hub&#39;s Picks to hear about our top 10 athletes of the year. Please enjoy our episode with the overall Golden Trail World Series winner Madalina Florea! Follow us: Instagram: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ @emkaysulli ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ | ⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠@dan_yell_a⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Podcast: ⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠@the_subhub_pod⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Episode Sponsors: Neversecond: Use code SUBHUB25 for 25% off your purchase-- ⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠never2.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠Wild Strides Paper Co⁠⁠⁠⁠ - Use code SUBHUB15 for 15% off our collab sicker pack Beekeepers Natural: Use code SUBHUB20 for 20% off your purchase-- ⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.beekeepersnaturals.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Pit Viper: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠Click this link for 20% off at checkout'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/36741048/36741048-1677694650505-c697fb9adfa2f.jpg
-    episode_uid: e692f4ea-a1c4-47d6-a8a1-240d7687432c
-    episode_slug: 2025-sub-hub-top-pick-madalina-florea
-    episode_key: 2025-sub-hub-top-pick-madalina-florea
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-sub-hub/2025-sub-hub-top-pick-madalina-florea/"
+    episode_page_url: "/the-sub-hub/2025-sub-hub-top-pick-frederic-tranchand/"
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &37
   - episode_title: "[EXTRAIT] 100 000 mètres de dénivelé positif, un défi stratosphérique - avec Benjamin Mougel"
     episode_url: https://courseepique.fr/
@@ -18103,6 +18103,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/tesla-gives-up-on-model-s-x/"
   https://podcast.stream.schibsted.media/ap/100194: &60
+  - episode_title: 'Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt'
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/bekzf7fl55qhbgr4hskq3/podcast_128.mp3
+    published_at: '2026-06-23T04:42:42+00:00'
+    description_html: En innbytter ble VM-helt og lagkaptein Ødegaard har våknet. I denne ekstraepisoden av Kort Forklart får du høydepunktene fra nattens seier mot Senegal.
+    description_plain: En innbytter ble VM-helt og lagkaptein Ødegaard har våknet. I denne ekstraepisoden av Kort Forklart får du høydepunktene fra nattens seier mot Senegal.
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/17f29bd31aa8c04bfaf4defe120b2cb0.jpg?t%5B%5D=1440q80
+    episode_uid: ap-139530
+    episode_slug: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
+    episode_key: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
+    legacy_unicode_slug: kort-forklart-fotballspesial-tror-ikke-han-så-for-seg-å-bli-vm-helt
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt/"
   - episode_title: 'God søvn: Det nye klasseprivilegiet'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/qbuqk7zj3qdelc2rcjk2t/podcast_128.mp3
@@ -18114,7 +18127,7 @@ episodes_by_feed:
     episode_slug: god-sovn-det-nye-klasseprivilegiet
     episode_key: god-sovn-det-nye-klasseprivilegiet
     legacy_unicode_slug: god-søvn-det-nye-klasseprivilegiet
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/god-sovn-det-nye-klasseprivilegiet/"
   - episode_title: 'Kort Forklart: Ingen dukket opp til fredsmøtet, og kritikken øker mot Trump'
     episode_url: ''
@@ -18127,7 +18140,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump
     episode_key: kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump
     legacy_unicode_slug: kort-forklart-ingen-dukket-opp-til-fredsmøtet-og-kritikken-øker-mot-trump
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump/"
   - episode_title: 'Alien-files: Har USA trodd på romvesener i 50 år?'
     episode_url: ''
@@ -18143,7 +18156,7 @@ episodes_by_feed:
     episode_slug: alien-files-har-usa-trodd-pa-romvesener-i-50-ar
     episode_key: alien-files-har-usa-trodd-pa-romvesener-i-50-ar
     legacy_unicode_slug: alien-files-har-usa-trodd-på-romvesener-i-50-år
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/alien-files-har-usa-trodd-pa-romvesener-i-50-ar/"
   - episode_title: 'Kort Forklart: Ukraina slår tilbake. Nå kan krigen være i ferd med å snu.'
     episode_url: ''
@@ -18156,7 +18169,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu
     episode_key: kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu
     legacy_unicode_slug: kort-forklart-ukraina-slår-tilbake-nå-kan-krigen-være-i-ferd-med-å-snu
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu/"
   - episode_title: Han er rikere enn halve verden – hva betyr det for oss?
     episode_url: ''
@@ -18168,7 +18181,7 @@ episodes_by_feed:
     episode_uid: ap-139463
     episode_slug: han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss
     episode_key: han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss/"
   - episode_title: 'Kort Forklart: Kronprinsessen har fått nye lunger. Nå venter flere avgjørende uker.'
     episode_url: ''
@@ -18181,7 +18194,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker
     episode_key: kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker
     legacy_unicode_slug: kort-forklart-kronprinsessen-har-fått-nye-lunger-nå-venter-flere-avgjørende-uker
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker/"
   - episode_title: Knivangrepet i Belfast skapte opptøyer. Nå vil nytt parti ha dødsstraff.
     episode_url: ''
@@ -18194,7 +18207,7 @@ episodes_by_feed:
     episode_slug: knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff
     episode_key: knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff
     legacy_unicode_slug: knivangrepet-i-belfast-skapte-opptøyer-nå-vil-nytt-parti-ha-dødsstraff
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff/"
   - episode_title: 'Kort Forklart fotballspesial: – Det er lov å drømme nå'
     episode_url: ''
@@ -18207,7 +18220,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-det-er-lov-a-dromme-na
     episode_key: kort-forklart-fotballspesial-det-er-lov-a-dromme-na
     legacy_unicode_slug: kort-forklart-fotballspesial-det-er-lov-å-drømme-nå
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/kort-forklart-fotballspesial-det-er-lov-a-dromme-na/"
   - episode_title: 'Kort Forklart: Trump har sagt det nesten 40 ganger før. Er avtalen nær nå?'
     episode_url: ''
@@ -18220,7 +18233,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na
     episode_key: kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na
     legacy_unicode_slug: kort-forklart-trump-har-sagt-det-nesten-40-ganger-før-er-avtalen-nær-nå
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na/"
   - episode_title: 'Mishandling, rus og voldtekt: Dette felte Høiby'
     episode_url: ''
@@ -18236,7 +18249,7 @@ episodes_by_feed:
     episode_slug: mishandling-rus-og-voldtekt-dette-felte-hoiby
     episode_key: mishandling-rus-og-voldtekt-dette-felte-hoiby
     legacy_unicode_slug: mishandling-rus-og-voldtekt-dette-felte-høiby
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/mishandling-rus-og-voldtekt-dette-felte-hoiby/"
   - episode_title: 'Kort Forklart: Dette er dommen mot Marius Borg Høiby'
     episode_url: ''
@@ -18249,7 +18262,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-dette-er-dommen-mot-marius-borg-hoiby
     episode_key: kort-forklart-dette-er-dommen-mot-marius-borg-hoiby
     legacy_unicode_slug: kort-forklart-dette-er-dommen-mot-marius-borg-høiby
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/kort-forklart-dette-er-dommen-mot-marius-borg-hoiby/"
   - episode_title: VM-optimismen når nye høyder. Blir vi skuffa?
     episode_url: ''
@@ -18265,7 +18278,7 @@ episodes_by_feed:
     episode_slug: vm-optimismen-nar-nye-hoyder-blir-vi-skuffa
     episode_key: vm-optimismen-nar-nye-hoyder-blir-vi-skuffa
     legacy_unicode_slug: vm-optimismen-når-nye-høyder-blir-vi-skuffa
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/vm-optimismen-nar-nye-hoyder-blir-vi-skuffa/"
   - episode_title: 'Kort Forklart: I dag er Elons Musks SpaceX på børs. – Det er helt vilt'
     episode_url: ''
@@ -18278,7 +18291,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt
     episode_key: kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt
     legacy_unicode_slug: kort-forklart-i-dag-er-elons-musks-spacex-på-børs-det-er-helt-vilt
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt/"
   - episode_title: Økonomisk opptur i et av verdens verste regimer
     episode_url: ''
@@ -18294,7 +18307,7 @@ episodes_by_feed:
     episode_slug: okonomisk-opptur-i-et-av-verdens-verste-regimer
     episode_key: okonomisk-opptur-i-et-av-verdens-verste-regimer
     legacy_unicode_slug: økonomisk-opptur-i-et-av-verdens-verste-regimer
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/okonomisk-opptur-i-et-av-verdens-verste-regimer/"
   - episode_title: 'Kort Forklart: Norsk 19-åring i Foxtrot-sak i England: – Overbevist om at de ville drepe meg'
     episode_url: ''
@@ -18307,7 +18320,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg
     episode_key: kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg
     legacy_unicode_slug: kort-forklart-norsk-19-åring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg/"
   - episode_title: 'ICE, Iran-krig og skyhøye priser: Slik blir fotball-VM i USA'
     episode_url: ''
@@ -18323,7 +18336,7 @@ episodes_by_feed:
     episode_slug: ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa
     episode_key: ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa
     legacy_unicode_slug: ice-iran-krig-og-skyhøye-priser-slik-blir-fotball-vm-i-usa
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa/"
   - episode_title: 'Kort Forklart: Folk er rasende i Storbritannia: – Dommedagsaktig'
     episode_url: ''
@@ -18335,7 +18348,7 @@ episodes_by_feed:
     episode_uid: ap-139328
     episode_slug: kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig
     episode_key: kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig/"
   - episode_title: 'Økt polarisering: To leirer som i økende grad er uenige om alt'
     episode_url: ''
@@ -18348,7 +18361,7 @@ episodes_by_feed:
     episode_slug: okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt
     episode_key: okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt
     legacy_unicode_slug: økt-polarisering-to-leirer-som-i-økende-grad-er-uenige-om-alt
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt/"
   - episode_title: 'Kort Forklart: Dette fikk retten til å si ja til Høiby'
     episode_url: ''
@@ -18361,7 +18374,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby
     episode_key: kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby
     legacy_unicode_slug: kort-forklart-dette-fikk-retten-til-å-si-ja-til-høiby
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby/"
   - episode_title: Økningen i IQ har snudd. Blir vi dummere og dummere?
     episode_url: ''
@@ -18377,7 +18390,7 @@ episodes_by_feed:
     episode_slug: okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
     episode_key: okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
     legacy_unicode_slug: økningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere/"
   - episode_title: 'Kort Forklart: Vil retten tro på at Tamimas drapsmann har endret seg?'
     episode_url: ''
@@ -18390,7 +18403,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg
     episode_key: kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg
     legacy_unicode_slug: kort-forklart-vil-retten-tro-på-at-tamimas-drapsmann-har-endret-seg
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg/"
   - episode_title: Dette venter Mette-Marit nå
     episode_url: ''
@@ -18406,7 +18419,7 @@ episodes_by_feed:
     episode_slug: dette-venter-mette-marit-na
     episode_key: dette-venter-mette-marit-na
     legacy_unicode_slug: dette-venter-mette-marit-nå
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/dette-venter-mette-marit-na/"
   - episode_title: 'Annonsørinnhold fra Helsedirektoratet: Du trenger ikke bære dette alene'
     episode_url: ''
@@ -18428,7 +18441,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene
     episode_key: annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene
     legacy_unicode_slug: annonsørinnhold-fra-helsedirektoratet-du-trenger-ikke-bære-dette-alene
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene/"
   - episode_title: 'Kort Forklart: Kronprinsessen på transplantasjonsliste: – En operasjon med stor risiko'
     episode_url: ''
@@ -18441,24 +18454,8 @@ episodes_by_feed:
     episode_slug: kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko
     episode_key: kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko
     legacy_unicode_slug: kort-forklart-kronprinsessen-på-transplantasjonsliste-en-operasjon-med-stor-risiko
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko/"
-  - episode_title: 'Konspirasjonsteorier og barnevern: Hva skjedde da Shada døde?'
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/1nhgqf4yck0yrbn1yipoy/podcast_128.mp3
-    published_at: '2026-06-05T03:00:05+00:00'
-    description_html: |-
-      Shada (16) ble funnet død. Selvmord, mente myndighetene. Men en lege mente å kunne bevise at hun var drept - i barnevernet. Og på nettet tok ryktene av. Så tok VG og Faktisk.no saken. Med VG-journalist Marie Golimo Kingsrød og Aftenposten-kommentator Christina Pletten. VGs podkast "De sier hun ble drept" finner du i Podme-appen.
-
-      Foto: Marie Golimo Kingsrød, VG
-    description_plain: 'Shada (16) ble funnet død. Selvmord, mente myndighetene. Men en lege mente å kunne bevise at hun var drept - i barnevernet. Og på nettet tok ryktene av. Så tok VG og Faktisk.no saken. Med VG-journalist Marie Golimo Kingsrød og Aftenposten-kommentator Christina Pletten. VGs podkast "De sier hun ble drept" finner du i Podme-appen. Foto: Marie Golimo Kingsrød, VG'
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/e2fc7a0305f6e2642d331db040d555d6.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139221
-    episode_slug: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode
-    episode_key: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode
-    legacy_unicode_slug: konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-døde
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/konspirasjonsteorier-og-barnevern-hva-skjedde-da-shada-dode/"
+    episode_page_url: "/forklart/kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko/"
   https://feeds.megaphone.fm/hubermanlab: &61
   - episode_title: Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick
     episode_url: https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick
@@ -18888,6 +18885,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/bor-ulovlig-i-norge-lyver-han-til-myndighetene/"
   https://sr-restored.se/rss/2071: &63
+  - episode_title: Amanda Romare
+    episode_url: https://www.sverigesradio.se/avsnitt/2815465
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_amanda_romare_podd_20260618_1429326974.mp3
+    published_at: '2026-06-23T11:00:00Z'
+    description_html: <p>Författaren om att plocka potatis, undvika döden och hitta sin plats på jorden.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Författaren om att plocka potatis, undvika döden och hitta sin plats på jorden. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815465
+    episode_slug: amanda-romare
+    episode_key: amanda-romare
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/amanda-romare/"
   - episode_title: Martin Kragh
     episode_url: https://www.sverigesradio.se/avsnitt/2815464
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_martin_kragh_p_20260617_1149035253.mp3
@@ -18898,7 +18907,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815464
     episode_slug: martin-kragh
     episode_key: martin-kragh
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/martin-kragh/"
   - episode_title: Sebastian Ingrosso
     episode_url: https://www.sverigesradio.se/avsnitt/2815463
@@ -18910,7 +18919,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815463
     episode_slug: sebastian-ingrosso
     episode_key: sebastian-ingrosso
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/sebastian-ingrosso/"
   - episode_title: Helena Bergström
     episode_url: https://www.sverigesradio.se/avsnitt/2815462
@@ -18923,7 +18932,7 @@ episodes_by_feed:
     episode_slug: helena-bergstrom
     episode_key: helena-bergstrom
     legacy_unicode_slug: helena-bergström
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
@@ -18936,7 +18945,7 @@ episodes_by_feed:
     episode_slug: hor-arets-sommarpratare-presenteras
     episode_key: hor-arets-sommarpratare-presenteras
     legacy_unicode_slug: hör-årets-sommarpratare-presenteras
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
@@ -18949,7 +18958,7 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   - episode_title: Camilla Lif
     episode_url: https://www.sverigesradio.se/avsnitt/2700899
@@ -18961,7 +18970,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700899
     episode_slug: camilla-lif
     episode_key: camilla-lif
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
   - episode_title: Claes Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700884
@@ -18973,7 +18982,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700884
     episode_slug: claes-eriksson
     episode_key: claes-eriksson
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
   - episode_title: Dilsa Demirbag-Sten
     episode_url: https://www.sverigesradio.se/avsnitt/2700859
@@ -18985,7 +18994,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700859
     episode_slug: dilsa-demirbag-sten
     episode_key: dilsa-demirbag-sten
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/dilsa-demirbag-sten/"
   - episode_title: Ulf Ellervik
     episode_url: https://www.sverigesradio.se/avsnitt/2700835
@@ -18997,7 +19006,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700835
     episode_slug: ulf-ellervik
     episode_key: ulf-ellervik
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/ulf-ellervik/"
   - episode_title: Denise Rudberg
     episode_url: https://www.sverigesradio.se/avsnitt/2700813
@@ -19009,7 +19018,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700813
     episode_slug: denise-rudberg
     episode_key: denise-rudberg
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/denise-rudberg/"
   - episode_title: Bert Sundström
     episode_url: https://www.sverigesradio.se/avsnitt/2700802
@@ -19022,7 +19031,7 @@ episodes_by_feed:
     episode_slug: bert-sundstrom
     episode_key: bert-sundstrom
     legacy_unicode_slug: bert-sundström
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/bert-sundstrom/"
   - episode_title: Linnea Henriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700790
@@ -19034,7 +19043,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700790
     episode_slug: linnea-henriksson
     episode_key: linnea-henriksson
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/linnea-henriksson/"
   - episode_title: Thomas Bodström
     episode_url: https://www.sverigesradio.se/avsnitt/2700772
@@ -19047,7 +19056,7 @@ episodes_by_feed:
     episode_slug: thomas-bodstrom
     episode_key: thomas-bodstrom
     legacy_unicode_slug: thomas-bodström
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/thomas-bodstrom/"
   - episode_title: Vintervärdarna 2025 presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2705958
@@ -19060,7 +19069,7 @@ episodes_by_feed:
     episode_slug: vintervardarna-2025-presenteras
     episode_key: vintervardarna-2025-presenteras
     legacy_unicode_slug: vintervärdarna-2025-presenteras
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/vintervardarna-2025-presenteras/"
   - episode_title: Roland Pöntinen
     episode_url: https://www.sverigesradio.se/avsnitt/2579000
@@ -19073,7 +19082,7 @@ episodes_by_feed:
     episode_slug: roland-pontinen
     episode_key: roland-pontinen
     legacy_unicode_slug: roland-pöntinen
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/roland-pontinen/"
   - episode_title: Ella Carlsson
     episode_url: https://www.sverigesradio.se/avsnitt/2578999
@@ -19085,7 +19094,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578999
     episode_slug: ella-carlsson
     episode_key: ella-carlsson
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/ella-carlsson/"
   - episode_title: Aya Kanbar
     episode_url: https://www.sverigesradio.se/avsnitt/2578998
@@ -19097,7 +19106,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578998
     episode_slug: aya-kanbar
     episode_key: aya-kanbar
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/aya-kanbar/"
   - episode_title: Isabelle Haak
     episode_url: https://www.sverigesradio.se/avsnitt/2578997
@@ -19109,7 +19118,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578997
     episode_slug: isabelle-haak
     episode_key: isabelle-haak
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/isabelle-haak/"
   - episode_title: Mikael Wiehe
     episode_url: https://www.sverigesradio.se/avsnitt/2578996
@@ -19121,7 +19130,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578996
     episode_slug: mikael-wiehe
     episode_key: mikael-wiehe
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/mikael-wiehe/"
   - episode_title: Fråga Värden – Clas Svahn
     episode_url: https://www.sverigesradio.se/avsnitt/2621861
@@ -19134,7 +19143,7 @@ episodes_by_feed:
     episode_slug: fraga-varden-clas-svahn
     episode_key: fraga-varden-clas-svahn
     legacy_unicode_slug: fråga-värden-clas-svahn
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/fraga-varden-clas-svahn/"
   - episode_title: Clas Svahn
     episode_url: https://www.sverigesradio.se/avsnitt/2578995
@@ -19146,7 +19155,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578995
     episode_slug: clas-svahn
     episode_key: clas-svahn
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/clas-svahn/"
   - episode_title: Lotta Klemming
     episode_url: https://www.sverigesradio.se/avsnitt/2578994
@@ -19158,7 +19167,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578994
     episode_slug: lotta-klemming
     episode_key: lotta-klemming
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/lotta-klemming/"
   - episode_title: Britt Ekland
     episode_url: https://www.sverigesradio.se/avsnitt/2578993
@@ -19170,7 +19179,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578993
     episode_slug: britt-ekland
     episode_key: britt-ekland
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/britt-ekland/"
   - episode_title: Jonna Sundling
     episode_url: https://www.sverigesradio.se/avsnitt/2578992
@@ -19182,20 +19191,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578992
     episode_slug: jonna-sundling
     episode_key: jonna-sundling
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/jonna-sundling/"
-  - episode_title: Per Persson
-    episode_url: https://www.sverigesradio.se/avsnitt/2578991
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/08/sommar__vinter_i_p1_per_persson_20250821_1554095795.mp3
-    published_at: '2025-08-08T11:00:00Z'
-    description_html: <p>Sångaren och basisten i Perssons Pack om livet som rockmusiker.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Sångaren och basisten i Perssons Pack om livet som rockmusiker. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/3f933351-448d-4c26-9bd4-fda537d62086.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2578991
-    episode_slug: per-persson
-    episode_key: per-persson
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/per-persson/"
+    episode_page_url: "/sommar-vinter-i-p1/jonna-sundling/"
   https://feeds.megaphone.fm/90gramosmethub: &64
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -27346,7 +27343,7 @@ episodes_by_feed:
     episode_page_url: "/smosh-reads-reddit-stories/confessions-of-a-redditor-reading-reddit-stories/"
   - episode_title: Raise The Red Flag | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8901367
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8901367.mp3?modified=1778283684&sid=5148149&source=rss
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8901367.mp3?modified=1782191220&sid=5148149&source=rss
     published_at: '2026-05-09T17:00:00+00:00'
     description_html: '<div><p>When will we learn to listen to the red flags?? Go to <a href="https://www.Zocdoc.com/PITREDDIT">https://www.Zocdoc.com/PITREDDIT</a> to find and instantly book a top-rated doctor today.</p><p>0:00 Intro 2:18 My bf told me snacking on cheese balls is a deal breaker <a href="https://www.reddit.com/r/relationship_advice/comments/1dtaegt/my_24f_boyfriend_25m_told_me_that_snacking_on/">https://www.reddit.com/r/relationship_advice/comments/1dtaegt/my_24f_boyfriend_25m_told_me_that_snacking_on/</a> 11:13 Sponsor 12:46 Back to the cheese story  22:49 I quit without notice over fake job postings <a href="https://www.reddit.com/r/AmItheAsshole/comments/r8r8vd/aita_for_quitting_without_notice_over_fake_job/">https://www.reddit.com/r/AmItheAsshole/comments/r8r8vd/aita_for_quitting_without_notice_over_fake_job/</a> 30:20 Gf snooped through my Reddit and wants me to change my advice <a href="https://www.reddit.com/r/relationship_advice/comments/qeycv7/gf_23_snooped_through_my_m22_reddit_account_and/">https://www.reddit.com/r/relationship_advice/comments/qeycv7/gf_23_snooped_through_my_m22_reddit_account_and/</a> 45:26 I refuse to get rid of a painting my friend gave me <a href="https://www.reddit.com/r/AmItheAsshole/comments/nf9068/aita_for_refusing_to_get_rid_of_a_painting_my/">https://www.reddit.com/r/AmItheAsshole/comments/nf9068/aita_for_refusing_to_get_rid_of_a_painting_my/</a> 55:15 MIL thinks I''m a witch because I dressed as one for Halloween <a href="https://www.reddit.com/r/TwoHotTakes/comments/1gf3cum/motherinlaw_thinks_i_am_a_witch_because_i_dressed/">https://www.reddit.com/r/TwoHotTakes/comments/1gf3cum/motherinlaw_thinks_i_am_a_witch_because_i_dressed/</a></p><p>WEAR OUR JOKES: <a href="https://smosh.com">https://smosh.com</a></p><p>WHO YOU HEAR Courtney Miller // <a href="https://www.instagram.com/co_mill/">https://www.instagram.com/co_mill/</a> Shayne Topp // <a href="https://www.instagram.com/shaynetopp/">https://www.instagram.com/shaynetopp/</a> Trevor Evarts // <a href="https://www.instagram.com/trevorevarts/">https://www.instagram.com/trevorevarts/</a></p><p>WHO YOU DON’T HEAR (usually) Director: Marcus Munguia Editor: Patrick Horba Channel Director, Pit: Emily Rose Jacobson Producer, Pit: Bailey Petracek Associate Producer, Pit: Marcus Munguia Production Designer: Cassie Vance Art Director: Erin Kuschner, Josie Bellerby Assistant Art Director: Courtney Chapman Prop Master: Abigail Schmidt Stage Manager: Alex Aguilar Director of Photography: Brennan Iketani Videographer: Eric Wann, James Hull Assistant Director: Jonathan Hyon Executive Vice President of Production: Amanda Barnes Director of Production: Alexcina Figueroa Production Manager: Jonathan Hyon, Tyler M. Kennedy Production Coordinator: Oliver Wehlander, Zianne Hoover Production Assistant: Caroline Smith Director of Post Production: Luke Baker DIT/Lead AE: Matt Duran DIT/AE: Beni Kimuene Post Production Coordinator: Ariana Martinez Director of IT: Tim Baker IT &amp; Equipment Coordinator: Lopati Ho Chee Sound Editor: Gareth Hird Director of Design: Ness Cardano Senior Motion &amp; Branding Designer: Christie Hauck Senior Graphic Designer: Jay Bills Graphic Designer: Monica Ravitch Director of Channel Operations: Lizzy Jones Channel Operations Manager: Audrey Carganilla Channel Operations Coordinator: Sabrina Lieberman Director of Social Media: Erica Noboa Social Media Associate Producer: Peter Ditzler Social Media Manager: Kim Wilborn Social Media Coordinator: Margaux Bernales Social Editor: Vida Robbins Merchandising Manager: Mallory Myers Brand Partnership Manager: Chloe Mays Brand Partnerships Coordinating Producer: Liz Kummer Operations Manager: Marshall Pease Financial Operations Specialist: Natalie Lewis Talent Coordinator: Danielle Moses People &amp; Culture Manager: Katie Fink People &amp; Culture Coordinator: Hannah Merritt Front Office Assistant: Sara Faltersack CEO: Alessandra Catanese Executive Producers: Anthony Padilla, Ian Hecox EVP of Programming &amp; Development: Kiana Parker Associate Producer, Special Projects: Rachel Collis Executive Assistant: Katelyn Hempstead</p><p>OTHER SMOSHES: Smosh: <a href="https://smo.sh/Sub2Smosh">https://smo.sh/Sub2Smosh</a> Smosh Games: <a href="https://smo.sh/Sub2SmoshGames">https://smo.sh/Sub2SmoshGames</a> SmoshCast: <a href="https://smo.sh/Sub2SmoshCast">https://smo.sh/Sub2SmoshCast</a> Smosh Alike: <a href="https://bit.ly/SubToSmoshAlike">https://bit.ly/SubToSmoshAlike</a></p><p>FOLLOW US: TikTok: <a href="https://smo.sh/TikTok">https://smo.sh/TikTok</a> Instagram: <a href="https://instagram.com/smosh">https://instagram.com/smosh</a> Facebook: <a href="https://facebook.com/smosh">https://facebook.com/smosh</a></p></div>'
     description_plain: 'When will we learn to listen to the red flags?? Go to https://www.Zocdoc.com/PITREDDIT to find and instantly book a top-rated doctor today. 0:00 Intro 2:18 My bf told me snacking on cheese balls is a deal breaker https://www.reddit.com/r/relationship_advice/comments/1dtaegt/my_24f_boyfriend_25m_told_me_that_snacking_on/ 11:13 Sponsor 12:46 Back to the cheese story 22:49 I quit without notice over fake job postings https://www.reddit.com/r/AmItheAsshole/comments/r8r8vd/aita_for_quitting_without_notice_over_fake_job/ 30:20 Gf snooped through my Reddit and wants me to change my advice https://www.reddit.com/r/relationship_advice/comments/qeycv7/gf_23_snooped_through_my_m22_reddit_account_and/ 45:26 I refuse to get rid of a painting my friend gave me https://www.reddit.com/r/AmItheAsshole/comments/nf9068/aita_for_refusing_to_get_rid_of_a_painting_my/ 55:15 MIL thinks I''m a witch because I dressed as one for Halloween https://www.reddit.com/r/TwoHotTakes/comments/1gf3cum/motherinlaw_thinks_i_am_a_witch_because_i_dressed/ WEAR OUR JOKES: https://smosh.com WHO YOU HEAR Courtney Miller // https://www.instagram.com/co_mill/ Shayne Topp // https://www.instagram.com/shaynetopp/ Trevor Evarts // https://www.instagram.com/trevorevarts/ WHO YOU DON’T HEAR (usually) Director: Marcus Munguia Editor: Patrick Horba Channel Director, Pit: Emily Rose Jacobson Producer, Pit: Bailey Petracek Associate Producer, Pit: Marcus Munguia Production Designer: Cassie Vance Art Director: Erin Kuschner, Josie Bellerby Assistant Art Director: Courtney Chapman Prop Master: Abigail Schmidt Stage Manager: Alex Aguilar Director of Photography: Brennan Iketani Videographer: Eric Wann, James Hull Assistant Director: Jonathan Hyon Executive Vice President of Production: Amanda Barnes Director of Production: Alexcina Figueroa Production Manager: Jonathan Hyon, Tyler M. Kennedy Production Coordinator: Oliver Wehlander, Zianne Hoover Production Assistant: Caroline Smith Director of Post Production: Luke Baker DIT/Lead AE: Matt Duran DIT/AE: Beni Kimuene Post Production Coordinator: Ariana Martinez Director of IT: Tim Baker IT &amp; Equipment Coordinator: Lopati Ho Chee Sound Editor: Gareth Hird Director of Design: Ness Cardano Senior Motion &amp; Branding Designer: Christie Hauck Senior Graphic Designer: Jay Bills Graphic Designer: Monica Ravitch Director of Channel Operations: Lizzy Jones Channel Operations Manager: Audrey Carganilla Channel Operations Coordinator: Sabrina Lieberman Director of Social Media: Erica Noboa Social Media Associate Producer: Peter Ditzler Social Media Manager: Kim Wilborn Social Media Coordinator: Margaux Bernales Social Editor: Vida Robbins Merchandising Manager: Mallory Myers Brand Partnership Manager: Chloe Mays Brand Partnerships Coordinating Producer: Liz Kummer Operations Manager: Marshall Pease Financial Operations Specialist: Natalie Lewis Talent Coordinator: Danielle Moses People &amp; Culture Manager: Katie Fink People &amp; Culture Coordinator: Hannah Merritt Front Office Assistant: Sara Faltersack CEO: Alessandra Catanese Executive Producers: Anthony Padilla, Ian Hecox EVP of Programming &amp; Development: Kiana Parker Associate Producer, Special Projects: Rachel Collis Executive Assistant: Katelyn Hempstead OTHER SMOSHES: Smosh: https://smo.sh/Sub2Smosh Smosh Games: https://smo.sh/Sub2SmoshGames SmoshCast: https://smo.sh/Sub2SmoshCast Smosh Alike: https://bit.ly/SubToSmoshAlike FOLLOW US: TikTok: https://smo.sh/TikTok Instagram: https://instagram.com/smosh Facebook: https://facebook.com/smosh'
