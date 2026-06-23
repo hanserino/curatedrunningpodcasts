@@ -11,8 +11,7 @@
   <canvas class="latest-episodes__player-waves" data-player-waves aria-hidden="true"></canvas>
   <div
     class="latest-episodes__player-art-wrap{% if deck_cover == "" %} latest-episodes__player-art-wrap--empty{% endif %}"
-    data-player-art-wrap
-    {% if deck_default_cover != "" %}data-default-cover="{{ deck_default_cover | escape }}"{% endif %}
+    data-player-art-wrap{% if deck_default_cover != "" %} data-default-cover="{{ deck_default_cover | escape }}"{% endif %}
   >
     {%- if deck_cover != "" -%}
     {%- if deck_cover contains '://' -%}
