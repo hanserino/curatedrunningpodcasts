@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-23T18:45:05Z'
+generated_at: '2026-06-23T19:40:01Z'
 items:
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast/"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  filter_category: ultra trail business english
+  episode_title: Kilian Jornet | Western States 100 Pre-Race Interview 2026
+  episode_url: https://thewellwithdylanbowman.libsyn.com/kilian-jornet-western-states-100-pre-race-interview-2026
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Kilian_Jornet__Western_States_100_Pre-Race_Interview_2026.mp3?dest-id=1746794
+  published_at: '2026-06-23T19:15:00+00:00'
+  episode_key: kilian-jornet-western-states-100-pre-race-interview-2026
+  episode_slug: kilian-jornet-western-states-100-pre-race-interview-2026
+  episode_page_url: "/the-freetrail-podcast/kilian-jornet-western-states-100-pre-race-interview-2026/"
+- podcast_title: Uphill Athlete
+  podcast_page_url: "/uphill-athlete/"
+  cover_image: "/media/uphillathlete.jpeg"
+  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
+  filter_category: trail ultra skyrunning english
+  episode_title: 'The Evolution of Testing: Continuous AeT'
+  episode_url: https://zencastr.com/z/3teOJy2n
+  audio_url: https://redirect.zencastr.com/r/episode/6a3ac11a6b8f566a017295cc/size/66509980/video-files/635358be4592c880860238fe/c39c6557-24d1-491e-9d26-f5b7c21c5561.mp4
+  published_at: '2026-06-23T19:00:00+00:00'
+  episode_key: the-evolution-of-testing-continuous-aet
+  episode_slug: the-evolution-of-testing-continuous-aet
+  episode_page_url: "/uphill-athlete/the-evolution-of-testing-continuous-aet/"
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast/"
   cover_image: "/media/insiderunning.jpeg"
@@ -133,18 +157,6 @@ items:
   episode_key: rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km
   episode_slug: rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km
   episode_page_url: "/breaking-marathon-limits/rasmus-pa-loffen-lopsrapprort-fra-sommernattslopet-5km/"
-- podcast_title: The Freetrail Podcast
-  podcast_page_url: "/the-freetrail-podcast/"
-  cover_image: "/media/freetrail2.jpeg"
-  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  filter_category: ultra trail business english
-  episode_title: Marianne Hogan | Western States 100 Pre-Race Interview 2026
-  episode_url: https://thewellwithdylanbowman.libsyn.com/marianne-hogan-western-states-100-pre-race-interview-2026
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Marianne_Hogan.mp3?dest-id=1746794
-  published_at: '2026-06-22T23:55:00+00:00'
-  episode_key: marianne-hogan-western-states-100-pre-race-interview-2026
-  episode_slug: marianne-hogan-western-states-100-pre-race-interview-2026
-  episode_page_url: "/the-freetrail-podcast/marianne-hogan-western-states-100-pre-race-interview-2026/"
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
   cover_image: "/media/lifeinstride.jpeg"
@@ -481,18 +493,6 @@ items:
   episode_key: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
   episode_slug: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
   episode_page_url: "/human-performance-outliers/run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon/"
-- podcast_title: Uphill Athlete
-  podcast_page_url: "/uphill-athlete/"
-  cover_image: "/media/uphillathlete.jpeg"
-  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
-  filter_category: trail ultra skyrunning english
-  episode_title: Building the Aerobic Engine with Dr. Øyvind Sandbakk
-  episode_url: https://zencastr.com/z/CE8BWuuq
-  audio_url: https://redirect.zencastr.com/r/episode/6a2756fa645604f9a5ece6f1/size/85591996/video-files/635358be4592c880860238fe/2834bdbe-c52a-4111-878a-cdcff1c60c23.mp4
-  published_at: '2026-06-09T19:00:00+00:00'
-  episode_key: building-the-aerobic-engine-with-dr-oyvind-sandbakk
-  episode_slug: building-the-aerobic-engine-with-dr-oyvind-sandbakk
-  episode_page_url: "/uphill-athlete/building-the-aerobic-engine-with-dr-oyvind-sandbakk/"
 - podcast_title: Føkk Asfalt
   podcast_page_url: "/fokk-asfalt/"
   cover_image: "/media/fokk-asfalt-logo.webp"
@@ -1168,6 +1168,18 @@ non_running_items:
   episode_page_url: "/one-percent-better/8-years-of-one-percent-better/"
 episodes_by_feed:
   https://rss.libsyn.com/shows/235580/destinations/1746794.xml: &1
+  - episode_title: Kilian Jornet | Western States 100 Pre-Race Interview 2026
+    episode_url: https://thewellwithdylanbowman.libsyn.com/kilian-jornet-western-states-100-pre-race-interview-2026
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Kilian_Jornet__Western_States_100_Pre-Race_Interview_2026.mp3?dest-id=1746794
+    published_at: '2026-06-23T19:15:00+00:00'
+    description_html: 'Kilian Jornet Interview | 2026 Western States Race Week Coverage <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Welcome to Freetrail''s coverage of the 2026 Western States 100 hosted in collaboration with the Western States race!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">In this interview, we sit down with Kilian Jornet.</p> Freetrail''s Western States Schedule <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Monday, June 22, 2026 at 10:00 AM PT The Top 10 Storylines of the 2026 Western States 100</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Tuesday, June 23, 2026 at 3:00 PM PT Western States Preview Show</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Wednesday, June 24, 2026 at 3:00 PM PT Western States Champions Show featuring Katie Schide, Caleb Olson, Nikki Kimball, and Clare Gallagher</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Thursday, June 25, 2026 at 3:30 PM PT Western States Final Thoughts & Predictions</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Saturday, June 27, 2026 at 4:00 AM PT Tune into the live broadcast: <a href= "https://www.youtube.com/@WesternStates">https://www.youtube.com/@WesternStates</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Sunday, June 28, 2026 at 3:00 PM PT Western States Instant Recap Show</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Starting on June 19th, we''ll be hosting interviews with top personalities and athletes leading into race weekend, including Abby Hall, Kilian Jornet, Molly Seidel, Tommie Runz, a press conference with Jim Walmsley, and much more.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to stay up to date and ensure you don''t miss a thing!</p> Presented by HOKA <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Our Western States coverage is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Check out the latest and greatest from HOKA, the Rocket X Trail — speed-tuned performance for the most runnable terrain and built for trails like Western States.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Learn more and shop here: <a href= "https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2"> https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2</a></p> Additional Race Week Information <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Full Freetrail Schedule: <a href="https://freetrail.com/">https://freetrail.com/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Additional Events & Activations: <a href= "https://freetrailwserlivecoverage.splashthat.com/">https://freetrailwserlivecoverage.splashthat.com/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Official Western States Race Week Agenda: <a href= "https://www.wser.org/race-week-agenda/">https://www.wser.org/race-week-agenda/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">HOKA''s Full Western States Schedule: <a href= "https://2026westernstateshokahub.splashthat.com/">https://2026westernstateshokahub.splashthat.com/</a></p> Freetrail Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Website | <a href= "https://freetrail.com/">https://freetrail.com/</a> Freetrail Pro | <a href= "https://freetrail.com/pro/">https://freetrail.com/pro/</a> Patreon | <a href= "https://www.patreon.com/dylanbowman">https://www.patreon.com/dylanbowman</a> Instagram | <a href= "https://www.instagram.com/runfreetrail/">https://www.instagram.com/runfreetrail/</a> YouTube | <a href= "https://www.youtube.com/@freetrail">https://www.youtube.com/@freetrail</a> Freetrail Experts | <a href= "https://freetrail.com/experts/">https://freetrail.com/experts/</a></p> Dylan Bowman <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Instagram | <a href= "https://www.instagram.com/dylanbo/">https://www.instagram.com/dylanbo/</a> Twitter/X | <a href= "https://twitter.com/dylanbo">https://twitter.com/dylanbo</a> LinkedIn | <a href= "https://www.linkedin.com/in/dylan-bowman-06174380/">https://www.linkedin.com/in/dylan-bowman-06174380/</a></p>'
+    description_plain: 'Kilian Jornet Interview | 2026 Western States Race Week Coverage Welcome to Freetrail''s coverage of the 2026 Western States 100 hosted in collaboration with the Western States race! In this interview, we sit down with Kilian Jornet. Freetrail''s Western States Schedule • Monday, June 22, 2026 at 10:00 AM PT The Top 10 Storylines of the 2026 Western States 100 • Tuesday, June 23, 2026 at 3:00 PM PT Western States Preview Show • Wednesday, June 24, 2026 at 3:00 PM PT Western States Champions Show featuring Katie Schide, Caleb Olson, Nikki Kimball, and Clare Gallagher • Thursday, June 25, 2026 at 3:30 PM PT Western States Final Thoughts & Predictions • Saturday, June 27, 2026 at 4:00 AM PT Tune into the live broadcast: https://www.youtube.com/@WesternStates • Sunday, June 28, 2026 at 3:00 PM PT Western States Instant Recap Show Starting on June 19th, we''ll be hosting interviews with top personalities and athletes leading into race weekend, including Abby Hall, Kilian Jornet, Molly Seidel, Tommie Runz, a press conference with Jim Walmsley, and much more. Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to stay up to date and ensure you don''t miss a thing! Presented by HOKA Our Western States coverage is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail! Check out the latest and greatest from HOKA, the Rocket X Trail — speed-tuned performance for the most runnable terrain and built for trails like Western States. Learn more and shop here: https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2 Additional Race Week Information Full Freetrail Schedule: https://freetrail.com/ Additional Events & Activations: https://freetrailwserlivecoverage.splashthat.com/ Official Western States Race Week Agenda: https://www.wser.org/race-week-agenda/ HOKA''s Full Western States Schedule: https://2026westernstateshokahub.splashthat.com/ Freetrail Links Website | https://freetrail.com/ Freetrail Pro | https://freetrail.com/pro/ Patreon | https://www.patreon.com/dylanbowman Instagram | https://www.instagram.com/runfreetrail/ YouTube | https://www.youtube.com/@freetrail Freetrail Experts | https://freetrail.com/experts/ Dylan Bowman Instagram | https://www.instagram.com/dylanbo/ Twitter/X | https://twitter.com/dylanbo LinkedIn | https://www.linkedin.com/in/dylan-bowman-06174380/'
+    episode_image_url: https://static.libsyn.com/p/assets/f/3/c/9/f3c9b6359ffbb81316c3140a3186d450/Untitled_-_September_15_2025_at_14.13.052-60_6.png
+    episode_uid: eb44a032-e12d-48d4-9592-94bf126be54a
+    episode_slug: kilian-jornet-western-states-100-pre-race-interview-2026
+    episode_key: kilian-jornet-western-states-100-pre-race-interview-2026
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-freetrail-podcast/kilian-jornet-western-states-100-pre-race-interview-2026/"
   - episode_title: Marianne Hogan | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/marianne-hogan-western-states-100-pre-race-interview-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Marianne_Hogan.mp3?dest-id=1746794
@@ -1178,7 +1190,7 @@ episodes_by_feed:
     episode_uid: a76a2507-61bd-4980-bc35-f9950cc0235b
     episode_slug: marianne-hogan-western-states-100-pre-race-interview-2026
     episode_key: marianne-hogan-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-freetrail-podcast/marianne-hogan-western-states-100-pre-race-interview-2026/"
   - episode_title: Molly Seidel | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/molly-seidel-western-states-100-pre-race-interview-2026
@@ -1190,7 +1202,7 @@ episodes_by_feed:
     episode_uid: 3e197f40-7624-475a-90e9-504bb53cc929
     episode_slug: molly-seidel-western-states-100-pre-race-interview-2026
     episode_key: molly-seidel-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-freetrail-podcast/molly-seidel-western-states-100-pre-race-interview-2026/"
   - episode_title: Western States 100 Top 10 Storylines Show | 2026 Race Week Coverage
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-top-10-storylines-show-2026-race-week-coverage
@@ -1202,7 +1214,7 @@ episodes_by_feed:
     episode_uid: 6d653f73-7273-4a82-b96e-9fd52b84b9e0
     episode_slug: western-states-100-top-10-storylines-show-2026-race-week-coverage
     episode_key: western-states-100-top-10-storylines-show-2026-race-week-coverage
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-freetrail-podcast/western-states-100-top-10-storylines-show-2026-race-week-coverage/"
   - episode_title: Abby Hall | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/abby-hall-western-states-100-pre-race-interview-2026
@@ -1214,7 +1226,7 @@ episodes_by_feed:
     episode_uid: 22498cae-76ea-47c8-83f6-2ab7f522ebbc
     episode_slug: abby-hall-western-states-100-pre-race-interview-2026
     episode_key: abby-hall-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-freetrail-podcast/abby-hall-western-states-100-pre-race-interview-2026/"
   - episode_title: Broken Arrow 23k Recap & Champion Interviews
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-23k-recap-champion-interviews
@@ -1226,7 +1238,7 @@ episodes_by_feed:
     episode_uid: 342bcedb-1165-4486-8675-3ce5e5f4cc75
     episode_slug: broken-arrow-23k-recap-champion-interviews
     episode_key: broken-arrow-23k-recap-champion-interviews
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-freetrail-podcast/broken-arrow-23k-recap-champion-interviews/"
   - episode_title: Vincent Bouillard | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/vincent-bouillard-2026-western-states-pre-race-interview
@@ -1238,7 +1250,7 @@ episodes_by_feed:
     episode_uid: 11e674d0-b795-40f4-b3e4-fd2697475767
     episode_slug: vincent-bouillard-2026-western-states-pre-race-interview
     episode_key: vincent-bouillard-2026-western-states-pre-race-interview
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-2026-western-states-pre-race-interview/"
   - episode_title: Jeff Mogavero | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/jeff-mogavero-2026-western-states-pre-race-interview
@@ -1250,7 +1262,7 @@ episodes_by_feed:
     episode_uid: 799f1954-4b17-49e2-be41-c837ce8fd456
     episode_slug: jeff-mogavero-2026-western-states-pre-race-interview
     episode_key: jeff-mogavero-2026-western-states-pre-race-interview
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-freetrail-podcast/jeff-mogavero-2026-western-states-pre-race-interview/"
   - episode_title: Broken Arrow 46k Recap, Champion Interviews & 26k Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-46k-recap-champion-interviews-26k-preview
@@ -1262,7 +1274,7 @@ episodes_by_feed:
     episode_uid: f555accc-39aa-4407-84cf-c458fee7762f
     episode_slug: broken-arrow-46k-recap-champion-interviews-26k-preview
     episode_key: broken-arrow-46k-recap-champion-interviews-26k-preview
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-freetrail-podcast/broken-arrow-46k-recap-champion-interviews-26k-preview/"
   - episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/hans-troyer-2026-western-states-100-pre-race-interview
@@ -1274,7 +1286,7 @@ episodes_by_feed:
     episode_uid: 7ecf86b9-8702-443d-9ab4-c996736c58ca
     episode_slug: hans-troyer-2026-western-states-100-pre-race-interview
     episode_key: hans-troyer-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-freetrail-podcast/hans-troyer-2026-western-states-100-pre-race-interview/"
   - episode_title: Francesco Puppi | 2026 Western States 100 Pre-race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/francesco-puppi-2026-western-states-100-pre-race-interview
@@ -1286,7 +1298,7 @@ episodes_by_feed:
     episode_uid: 76717c49-6c74-44f8-ad0d-fd66555a8e60
     episode_slug: francesco-puppi-2026-western-states-100-pre-race-interview
     episode_key: francesco-puppi-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-freetrail-podcast/francesco-puppi-2026-western-states-100-pre-race-interview/"
   - episode_title: Adam Peterman | 2026 Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/adam-peterman-2026-western-states-100-pre-race-interview
@@ -1298,7 +1310,7 @@ episodes_by_feed:
     episode_uid: 4faaccf5-8159-443d-af66-8109d163e888
     episode_slug: adam-peterman-2026-western-states-100-pre-race-interview
     episode_key: adam-peterman-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-freetrail-podcast/adam-peterman-2026-western-states-100-pre-race-interview/"
   - episode_title: Broken Arrow VK Recap, Anna Gibson Champion Interview & 46k Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
@@ -1310,7 +1322,7 @@ episodes_by_feed:
     episode_uid: 44223b43-bd6b-43be-9b70-2739f49a9c98
     episode_slug: broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
     episode_key: broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-freetrail-podcast/broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview/"
   - episode_title: Top 10 Storylines of the 2026 Broken Arrow Skyrace
     episode_url: https://thewellwithdylanbowman.libsyn.com/top-10-storylines-of-the-2026-broken-arrow-skyrace
@@ -1322,7 +1334,7 @@ episodes_by_feed:
     episode_uid: bbfcef1a-a7a6-4a22-9595-2b01245d4a66
     episode_slug: top-10-storylines-of-the-2026-broken-arrow-skyrace
     episode_key: top-10-storylines-of-the-2026-broken-arrow-skyrace
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-freetrail-podcast/top-10-storylines-of-the-2026-broken-arrow-skyrace/"
   - episode_title: Canyon Woodward's Unconventional Path | Learning by Doing, Community Organizing, & Humanity's Interdependence
     episode_url: https://thewellwithdylanbowman.libsyn.com/canyon-woodwards-unconventional-path-learning-by-doing-community-organizing-humanitys-interdependence
@@ -1334,7 +1346,7 @@ episodes_by_feed:
     episode_uid: c57d41bc-6c64-4fb3-a929-6775bea3b9f1
     episode_slug: canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence
     episode_key: canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-freetrail-podcast/canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence/"
   - episode_title: Freetrail x Boulder Boys | Western States Banter, Canyon Woodward x Patagonia, Sunapee & Euro Champs Recap, + Industry News
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news
@@ -1346,7 +1358,7 @@ episodes_by_feed:
     episode_uid: ffa7a7cf-d134-4dbd-b8a8-e74773a0e79e
     episode_slug: freetrail-x-boulder-boys-western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news
     episode_key: freetrail-x-boulder-boys-western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-freetrail-podcast/freetrail-x-boulder-boys-western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news/"
   - episode_title: Tyler Andrews Everest FKT Interview, Kilian's Zegama Report, Mogavero's WS Block & OCC Course Change
     episode_url: https://thewellwithdylanbowman.libsyn.com/tyler-andrews-everest-fkt-interview-kilians-zegama-report-mogaveros-ws-block-occ-course-change
@@ -1358,7 +1370,7 @@ episodes_by_feed:
     episode_uid: a1d6fb07-806d-47ea-9151-854a2f001130
     episode_slug: tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change
     episode_key: tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-freetrail-podcast/tyler-andrews-everest-fkt-interview-kilian-s-zegama-report-mogavero-s-ws-block-occ-course-change/"
   - episode_title: Emelie Forsberg's Second Act | Motherhood, Mountains, & Reprioritizing Elite Competition
     episode_url: https://thewellwithdylanbowman.libsyn.com/emelie-forsbergs-second-act-motherhood-mountains-reprioritizing-elite-competition
@@ -1370,7 +1382,7 @@ episodes_by_feed:
     episode_uid: b3685501-7221-4a4c-92b7-d97512a7d5fa
     episode_slug: emelie-forsberg-s-second-act-motherhood-mountains-reprioritizing-elite-competition
     episode_key: emelie-forsberg-s-second-act-motherhood-mountains-reprioritizing-elite-competition
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-freetrail-podcast/emelie-forsberg-s-second-act-motherhood-mountains-reprioritizing-elite-competition/"
   - episode_title: Taylor Stack Interview, Elhousine's Dominance, Golden Trail Recap, & Remembering John Cappis
     episode_url: https://thewellwithdylanbowman.libsyn.com/taylor-stack-interview-elhousines-dominance-golden-trail-recap-remembering-john-cappis
@@ -1382,7 +1394,7 @@ episodes_by_feed:
     episode_uid: 897ea1bf-1105-4a64-9a06-373d9e677f39
     episode_slug: taylor-stack-interview-elhousine-s-dominance-golden-trail-recap-remembering-john-cappis
     episode_key: taylor-stack-interview-elhousine-s-dominance-golden-trail-recap-remembering-john-cappis
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-freetrail-podcast/taylor-stack-interview-elhousine-s-dominance-golden-trail-recap-remembering-john-cappis/"
   - episode_title: David Sinclair Interview, Cocodona Viewership Stats, & the State of Trail Race Live Streaming
     episode_url: https://thewellwithdylanbowman.libsyn.com/david-sinclairs-transvulcania-victory-cocodona-viewership-numbers-the-state-of-live-streaming
@@ -1394,7 +1406,7 @@ episodes_by_feed:
     episode_uid: f13f98bc-c872-459f-ad59-c8200210d878
     episode_slug: david-sinclair-interview-cocodona-viewership-stats-the-state-of-trail-race-live-streaming
     episode_key: david-sinclair-interview-cocodona-viewership-stats-the-state-of-trail-race-live-streaming
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-freetrail-podcast/david-sinclair-interview-cocodona-viewership-stats-the-state-of-trail-race-live-streaming/"
   - episode_title: Zegama Recap, Tove's Dominance, Western States Crunch Time, Industry News & Race Results
     episode_url: https://thewellwithdylanbowman.libsyn.com/zegama-recap-toves-dominance-western-states-crunch-time-industry-news-race-results
@@ -1406,7 +1418,7 @@ episodes_by_feed:
     episode_uid: 1e56157c-1888-435d-88f9-2a76b2fdb248
     episode_slug: zegama-recap-tove-s-dominance-western-states-crunch-time-industry-news-race-results
     episode_key: zegama-recap-tove-s-dominance-western-states-crunch-time-industry-news-race-results
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-freetrail-podcast/zegama-recap-tove-s-dominance-western-states-crunch-time-industry-news-race-results/"
   - episode_title: Rest Day | Transvulcania Recap, Zegama Preview, Golden Ticket Competitiveness, & Trail Grails
     episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-transvulcania-recap-zegama-preview-golden-ticket-competitiveness-trail-grails
@@ -1418,7 +1430,7 @@ episodes_by_feed:
     episode_uid: 27725c18-dbd1-4e96-a162-aff55a05faa4
     episode_slug: rest-day-transvulcania-recap-zegama-preview-golden-ticket-competitiveness-trail-grails
     episode_key: rest-day-transvulcania-recap-zegama-preview-golden-ticket-competitiveness-trail-grails
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-freetrail-podcast/rest-day-transvulcania-recap-zegama-preview-golden-ticket-competitiveness-trail-grails/"
   - episode_title: Rest Day | Rachel Entrekin Interview & Cocodona 250 Recap
     episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-rachel-entrekin-interview-cocodona-250-recap
@@ -1430,7 +1442,7 @@ episodes_by_feed:
     episode_uid: 022d58de-c624-4a63-8a50-a0e18035154b
     episode_slug: rest-day-rachel-entrekin-interview-cocodona-250-recap
     episode_key: rest-day-rachel-entrekin-interview-cocodona-250-recap
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-freetrail-podcast/rest-day-rachel-entrekin-interview-cocodona-250-recap/"
   - episode_title: Rest Day Live | Jim Walmsley Interview, Golden Ticket Schedule, & Transvulcania Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-live-jim-walmsley-interview-golden-ticket-schedule-transvulcania-preview
@@ -1442,7 +1454,7 @@ episodes_by_feed:
     episode_uid: '08dc2e6e-67f9-4e7d-b542-db0e50a1f8ae'
     episode_slug: rest-day-live-jim-walmsley-interview-golden-ticket-schedule-transvulcania-preview
     episode_key: rest-day-live-jim-walmsley-interview-golden-ticket-schedule-transvulcania-preview
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-freetrail-podcast/rest-day-live-jim-walmsley-interview-golden-ticket-schedule-transvulcania-preview/"
   - episode_title: Cocodona 250 Preview Show with Dan Green | Trailgating
     episode_url: https://thewellwithdylanbowman.libsyn.com/cocodona-250-preview-show-with-dan-green-trailgating
@@ -1454,20 +1466,8 @@ episodes_by_feed:
     episode_uid: 1604b795-addf-4387-b4fb-b185d6b6f1d3
     episode_slug: cocodona-250-preview-show-with-dan-green-trailgating
     episode_key: cocodona-250-preview-show-with-dan-green-trailgating
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-freetrail-podcast/cocodona-250-preview-show-with-dan-green-trailgating/"
-  - episode_title: Rest Day Live | Canyons Final Thoughts, Western States Hype, MIUT + FUJI Results, & Industry News
-    episode_url: https://thewellwithdylanbowman.libsyn.com/rest-day-live-canyons-final-thoughts-western-states-hype-miut-fuji-results-industry-news
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/RDL_0427.mp3?dest-id=1746794
-    published_at: '2026-04-28T11:30:00+00:00'
-    description_html: '<p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="32" data-end="167">Rest Day Live is back tonight to with Tim Tollefson in the co-host chair. It was a busy weekend of racing and we have a lot to discuss.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="174" data-end="189">Run of Show</p><ul style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="190" data-end="480"><li data-section-id="xjdrc4" data-start="190" data-end="244">BREAKING NEWS: TrailCon Keynote & Freetrail Update</li><li data-section-id="hnmurn" data-start="245" data-end="309">Tim''s Takes: Canyons Final Thoughts & Marathon World Records</li><li data-section-id="16jgf31" data-start="310" data-end="340">Final Western States Lists</li><li data-section-id="1tie4rg" data-start="341" data-end="392">Madeira Island Ultra Trail Results & Storylines</li><li data-section-id="1ss47m5" data-start="393" data-end="426">Mt. FUJI Results & Storylines</li><li data-section-id="1gj0d22" data-start="427" data-end="452">Industry News Roundup</li><li data-section-id="fky41t" data-start="453" data-end="480">Strava File of the Week</li></ul><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="482" data-end="513">Bonus Miles (Freetrail Pro)</p><ul style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="514" data-end="569"><li data-section-id="1gnvmrn" data-start="514" data-end="569">Miller vs. Hawks 2 (Join Freetrail Pro to access)</li></ul><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="576" data-end="632">We''ll be LIVE on YouTube every Monday starting at 5pm PT tonight.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="639" data-end="660">Links & Resources</p><ul style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="661" data-end="866"><li data-section-id="s9m5j6" data-start="661" data-end="749">SUBSCRIBE TO FREETRAIL''S NEWSLETTER - <a class="decorated-link" href="https://mailing.freetrail.com/newslettersignup" target="_new" rel="noopener" data-start="701" data-end= "747">https://mailing.freetrail.com/newslettersignup</a></li><li data-section-id="14s4y5y" data-start="750" data-end="800">JOIN FREETRAIL PRO - <a class="decorated-link" href= "https://freetrail.com/pro" target="_new" rel="noopener" data-start="773" data-end="798">https://freetrail.com/pro</a></li><li data-section-id="1cd1vb0" data-start="801" data-end="866">REGISTER FOR TRAILCON - <a class="decorated-link" href= "https://trailconference.com/register/" target="_new" rel= "noopener" data-start="827" data-end= "864">https://trailconference.com/register/</a></li></ul><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="873" data-end="885">Sponsors</p><ul style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="886" data-end="1368"><li data-section-id="mswad" data-start="886" data-end="990">Use code FREETRAIL25 for 25% off your first order of NEVERSECOND nutrition at <a class="decorated-link" href= "https://www.never2.com/" target="_new" rel="noopener" data-start= "966" data-end="988">https://www.never2.com</a></li><li data-section-id="1lvax17" data-start="991" data-end="1117">Check out the Capilene Cool Sun Hoodie from Patagonia <a class= "decorated-link" href= "https://www.patagonia.com/shop/favorites/capilene-cool-tech-tees/sun" target="_new" rel="noopener" data-start="1047" data-end= "1115">https://www.patagonia.com/shop/favorites/capilene-cool-tech-tees/sun</a></li><li data-section-id="egl9a9" data-start="1118" data-end="1223">Clearlight Sauna: Use code FREETRAIL for an extra discount with purchase at <a class="decorated-link" href= "https://healwithheat.com/" target="_new" rel="noopener" data-start="1196" data-end= "1221">https://healwithheat.com/</a></li><li data-section-id="1d581xo" data-start="1224" data-end="1368">Use this link for 30% off Ketone-IQ - <a class="decorated-link" href= "https://ketone.com/pages/dylan-bowman?utm_source=partners&utm_medium=referral&utm_campaign=FREETRAIL30" target="_new" rel="noopener" data-start="1264" data-end= "1366">https://ketone.com/pages/dylan-bowman?utm_source=partners&utm_medium=referral&utm_campaign=FREETRAIL30</a></li></ul><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="1375" data-end="1394">Freetrail Links</p><ul style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="1395" data-end="1730"><li data-section-id="1qwx73c" data-start="1395" data-end="1431">Website | <a class="decorated-link" href="https://freetrail.com/" target="_new" rel="noopener" data-start="1407" data-end= "1429">https://freetrail.com/</a></li><li data-section-id="bpca7l" data-start="1432" data-end="1488">Freetrail Pro | <a class="decorated-link" href= "https://freetrail.com/freetrail-pro/" target="_new" rel="noopener" data-start="1450" data-end= "1486">https://freetrail.com/freetrail-pro/</a></li><li data-section-id="7l5b3u" data-start="1489" data-end="1538">Patreon | <a class="decorated-link" href= "https://www.patreon.com/dylanbowman" target="_new" rel="noopener" data-start="1501" data-end= "1536">https://www.patreon.com/dylanbowman</a></li><li data-section-id="7zkde4" data-start="1539" data-end="1594">Instagram | <a class="decorated-link" href= "https://www.instagram.com/runfreetrail/" target="_new" rel= "noopener" data-start="1553" data-end= "1592">https://www.instagram.com/runfreetrail/</a></li><li data-section-id="m1l3br" data-start="1595" data-end="1665">YouTube | <a class="decorated-link" href= "https://www.youtube.com/channel/UC8MKI1xB8YMchI1764zJXHg" target= "_new" rel="noopener" data-start="1607" data-end= "1663">https://www.youtube.com/channel/UC8MKI1xB8YMchI1764zJXHg</a></li><li data-section-id="10mwxd" data-start="1666" data-end="1730">Freetrail Experts | <a class="decorated-link" href= "https://freetrail.com/freetrail-experts/" target="_new" rel= "noopener" data-start="1688" data-end= "1728">https://freetrail.com/freetrail-experts/</a></li></ul><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="1737" data-end="1752">Dylan Links</p><ul style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;" data-start="1753" data-end="1960" data-is-last-node="" data-is-only-node=""><li data-section-id="uq1gm8" data-start="1753" data-end="1803">Instagram | <a class="decorated-link" href= "https://www.instagram.com/dylanbo/" target="_new" rel="noopener" data-start="1767" data-end= "1801">https://www.instagram.com/dylanbo/</a></li><li data-section-id="h69guu" data-start="1804" data-end="1845">Twitter | <a class="decorated-link" href= "https://twitter.com/dylanbo" target="_new" rel="noopener" data-start="1816" data-end= "1843">https://twitter.com/dylanbo</a></li><li data-section-id="pkgwoi" data-start="1846" data-end="1911">LinkedIn | <a class="decorated-link" href= "https://www.linkedin.com/in/dylan-bowman-06174380/" target="_new" rel="noopener" data-start="1859" data-end= "1909">https://www.linkedin.com/in/dylan-bowman-06174380/</a></li><li data-section-id="13rdjj0" data-start="1912" data-end="1960" data-is-last-node="">Strava | <a class="decorated-link" href= "https://www.strava.com/pros/1596921" target="_new" rel="noopener" data-start="1923" data-end= "1958">https://www.strava.com/pros/1596921</a></li></ul>'
-    description_plain: 'Rest Day Live is back tonight to with Tim Tollefson in the co-host chair. It was a busy weekend of racing and we have a lot to discuss. Run of Show BREAKING NEWS: TrailCon Keynote & Freetrail Update Tim''s Takes: Canyons Final Thoughts & Marathon World Records Final Western States Lists Madeira Island Ultra Trail Results & Storylines Mt. FUJI Results & Storylines Industry News Roundup Strava File of the Week Bonus Miles (Freetrail Pro) Miller vs. Hawks 2 (Join Freetrail Pro to access) We''ll be LIVE on YouTube every Monday starting at 5pm PT tonight. Links & Resources SUBSCRIBE TO FREETRAIL''S NEWSLETTER - https://mailing.freetrail.com/newslettersignup JOIN FREETRAIL PRO - https://freetrail.com/pro REGISTER FOR TRAILCON - https://trailconference.com/register/ Sponsors Use code FREETRAIL25 for 25% off your first order of NEVERSECOND nutrition at https://www.never2.com Check out the Capilene Cool Sun Hoodie from Patagonia https://www.patagonia.com/shop/favorites/capilene-cool-tech-tees/sun Clearlight Sauna: Use code FREETRAIL for an extra discount with purchase at https://healwithheat.com/ Use this link for 30% off Ketone-IQ - https://ketone.com/pages/dylan-bowman?utm_source=partners&utm_medium=referral&utm_campaign=FREETRAIL30 Freetrail Links Website | https://freetrail.com/ Freetrail Pro | https://freetrail.com/freetrail-pro/ Patreon | https://www.patreon.com/dylanbowman Instagram | https://www.instagram.com/runfreetrail/ YouTube | https://www.youtube.com/channel/UC8MKI1xB8YMchI1764zJXHg Freetrail Experts | https://freetrail.com/freetrail-experts/ Dylan Links Instagram | https://www.instagram.com/dylanbo/ Twitter | https://twitter.com/dylanbo LinkedIn | https://www.linkedin.com/in/dylan-bowman-06174380/ Strava | https://www.strava.com/pros/1596921'
-    episode_image_url: ''
-    episode_uid: 139599c6-c699-4c90-aad4-7d7d8816f18f
-    episode_slug: rest-day-live-canyons-final-thoughts-western-states-hype-miut-fuji-results-industry-news
-    episode_key: rest-day-live-canyons-final-thoughts-western-states-hype-miut-fuji-results-industry-news
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-freetrail-podcast/rest-day-live-canyons-final-thoughts-western-states-hype-miut-fuji-results-industry-news/"
+    episode_page_url: "/the-freetrail-podcast/cocodona-250-preview-show-with-dan-green-trailgating/"
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
   - episode_title: '451: Commonwealth Games Team Announcement | NSW XC Championships | Ostrava & Hengelo'
     episode_url: https://insiderunningpodcast.podbean.com/e/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/
@@ -10892,6 +10892,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/spring-snyggt/318-nyarsgalan-2025/"
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &35
+  - episode_title: 'The Evolution of Testing: Continuous AeT'
+    episode_url: https://zencastr.com/z/3teOJy2n
+    audio_url: https://redirect.zencastr.com/r/episode/6a3ac11a6b8f566a017295cc/size/66509980/video-files/635358be4592c880860238fe/c39c6557-24d1-491e-9d26-f5b7c21c5561.mp4
+    published_at: '2026-06-23T19:00:00+00:00'
+    description_html: '<p>Steve House and Will Zittlau pull back the curtain on Continuous Aerobic Threshold, a new feature inside Uphill Athlete''s Training Groups dashboard that automatically calculates an athlete''s AeT each week using a four-week moving average of their training data — no field test required. Steve explains the core problem: athletes can do the work consistently and still be uncertain whether they trained at the right intensity, because a missed AeT quietly shifts aerobic sessions into glycolytic territory and derails the adaptation they were after. To validate the algorithm, Steve blind-scored 65 athlete files by hand and found the tool lands within an average of 0.1 beats of his coaching judgment — though that average masks a wider spread, with 62% of athletes falling within five beats and outliers as far as 17 beats off, a gap the team attributes largely to data quality. The episode is candid about where the tool still falls short and what they''re doing to close it: improving filtering (wrist-based HR and mountain bike data are particularly noisy), building data-hygiene habits in the community, and targeting 99% of athletes within five beats of coach-level accuracy by year''s end.  <em><strong>And join us Tuesday, June 30th</strong></em><strong>YouTube Livestream: Continuous Aerobic Threshold Monitoring and Training Zones</strong> Join Steve House and Will Zittlau for a live walkthrough of the Uphill Athlete Training Dashboard that is available to our Training Groups Athletes. Learn about continuous heart rate monitoring and how you can set your training zones with confidence. If you''ve ever wondered whether your training zones are right, this is a discussion you won''t want to miss. <a href="https://youtube.com/live/Z2sbLk5CHiA"><strong>REGISTER &gt;&gt;</strong></a></p>'
+    description_plain: 'Steve House and Will Zittlau pull back the curtain on Continuous Aerobic Threshold, a new feature inside Uphill Athlete''s Training Groups dashboard that automatically calculates an athlete''s AeT each week using a four-week moving average of their training data — no field test required. Steve explains the core problem: athletes can do the work consistently and still be uncertain whether they trained at the right intensity, because a missed AeT quietly shifts aerobic sessions into glycolytic territory and derails the adaptation they were after. To validate the algorithm, Steve blind-scored 65 athlete files by hand and found the tool lands within an average of 0.1 beats of his coaching judgment — though that average masks a wider spread, with 62% of athletes falling within five beats and outliers as far as 17 beats off, a gap the team attributes largely to data quality. The episode is candid about where the tool still falls short and what they''re doing to close it: improving filtering (wrist-based HR and mountain bike data are particularly noisy), building data-hygiene habits in the community, and targeting 99% of athletes within five beats of coach-level accuracy by year''s end. And join us Tuesday, June 30th YouTube Livestream: Continuous Aerobic Threshold Monitoring and Training Zones Join Steve House and Will Zittlau for a live walkthrough of the Uphill Athlete Training Dashboard that is available to our Training Groups Athletes. Learn about continuous heart rate monitoring and how you can set your training zones with confidence. If you''ve ever wondered whether your training zones are right, this is a discussion you won''t want to miss. REGISTER &gt;&gt;'
+    episode_image_url: https://media.zencastr.com/image-files/635358be4592c880860238fe/b5a45a7a-d8b4-4be2-8f7d-865a8d756dfd.jpg
+    episode_uid: f13f7d1f-e0a6-42b7-8da4-f1ef68290fc0
+    episode_slug: the-evolution-of-testing-continuous-aet
+    episode_key: the-evolution-of-testing-continuous-aet
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/uphill-athlete/the-evolution-of-testing-continuous-aet/"
   - episode_title: Building the Aerobic Engine with Dr. Øyvind Sandbakk
     episode_url: https://zencastr.com/z/CE8BWuuq
     audio_url: https://redirect.zencastr.com/r/episode/6a2756fa645604f9a5ece6f1/size/85591996/video-files/635358be4592c880860238fe/2834bdbe-c52a-4111-878a-cdcff1c60c23.mp4
@@ -10903,7 +10915,7 @@ episodes_by_feed:
     episode_slug: building-the-aerobic-engine-with-dr-oyvind-sandbakk
     episode_key: building-the-aerobic-engine-with-dr-oyvind-sandbakk
     legacy_unicode_slug: building-the-aerobic-engine-with-dr-øyvind-sandbakk
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/uphill-athlete/building-the-aerobic-engine-with-dr-oyvind-sandbakk/"
   - episode_title: 'Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)'
     episode_url: https://zencastr.com/z/j3OHYiVS
@@ -10915,7 +10927,7 @@ episodes_by_feed:
     episode_uid: 8e5049fd-91a7-4c61-ba5f-a4a77ba5bec3
     episode_slug: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
     episode_key: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay/"
   - episode_title: The Four Inputs that Determine Your Progress
     episode_url: https://zencastr.com/z/Ypw8aclS
@@ -10927,7 +10939,7 @@ episodes_by_feed:
     episode_uid: db276c04-8436-49d1-a9f0-5b7ba2f1ccad
     episode_slug: the-four-inputs-that-determine-your-progress
     episode_key: the-four-inputs-that-determine-your-progress
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/uphill-athlete/the-four-inputs-that-determine-your-progress/"
   - episode_title: Muscular Endurance Training with Uphill Athlete Coaches
     episode_url: https://zencastr.com/z/_mCbGJX0
@@ -10939,7 +10951,7 @@ episodes_by_feed:
     episode_uid: 05341ded-0fdd-494f-969b-bd8c04c33392
     episode_slug: muscular-endurance-training-with-uphill-athlete-coaches
     episode_key: muscular-endurance-training-with-uphill-athlete-coaches
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/uphill-athlete/muscular-endurance-training-with-uphill-athlete-coaches/"
   - episode_title: 'Voice of the Mountains: Season Two Recap'
     episode_url: https://zencastr.com/z/PbWFmrHu
@@ -10951,7 +10963,7 @@ episodes_by_feed:
     episode_uid: 32c04b8d-1775-4237-a74a-3625332d89c3
     episode_slug: voice-of-the-mountains-season-two-recap
     episode_key: voice-of-the-mountains-season-two-recap
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-season-two-recap/"
   - episode_title: Making Sense of the Data with Dr. Marco Altini
     episode_url: https://zencastr.com/z/a113SzsF
@@ -10963,7 +10975,7 @@ episodes_by_feed:
     episode_uid: 2cf82139-5904-477b-925c-a40536d681c2
     episode_slug: making-sense-of-the-data-with-dr-marco-altini
     episode_key: making-sense-of-the-data-with-dr-marco-altini
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/uphill-athlete/making-sense-of-the-data-with-dr-marco-altini/"
   - episode_title: 'Voice of the Mountains: Success is Not the Summit with Peter Metcalf (Director''s Cut)'
     episode_url: https://zencastr.com/z/V716voug
@@ -10975,7 +10987,7 @@ episodes_by_feed:
     episode_uid: 6cda18aa-e5b9-40e6-b73e-f544c9414149
     episode_slug: voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut
     episode_key: voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut/"
   - episode_title: Understanding the Female Athlete
     episode_url: https://zencastr.com/z/QEvHUgqW
@@ -10987,7 +10999,7 @@ episodes_by_feed:
     episode_uid: 11a58f28-b3bc-448a-9d85-167b18777738
     episode_slug: understanding-the-female-athlete
     episode_key: understanding-the-female-athlete
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/uphill-athlete/understanding-the-female-athlete/"
   - episode_title: Strength for the Female Athlete
     episode_url: https://zencastr.com/z/stSN2Xrh
@@ -10999,7 +11011,7 @@ episodes_by_feed:
     episode_uid: f7c749f1-7040-4dc1-9055-53b45fb4f32f
     episode_slug: strength-for-the-female-athlete
     episode_key: strength-for-the-female-athlete
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/uphill-athlete/strength-for-the-female-athlete/"
   - episode_title: 'Voice of the Mountains: The Measure of Permission with Dr. Christine Theodorovics'
     episode_url: https://zencastr.com/z/rTIdzn_1
@@ -11011,7 +11023,7 @@ episodes_by_feed:
     episode_uid: 29b0b91f-73a6-4579-ae8c-6a167c016f39
     episode_slug: voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics
     episode_key: voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics/"
   - episode_title: Gas Exchange and Altitude Acclimatization with Dr Patrycja Jonetzko
     episode_url: https://zencastr.com/z/qkyAHOpP
@@ -11023,7 +11035,7 @@ episodes_by_feed:
     episode_uid: 30d07596-4edd-4f45-88b3-2f8e504ef0b6
     episode_slug: gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko
     episode_key: gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/uphill-athlete/gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko/"
   - episode_title: 'Voice of the Mountains: The Responsibility to Remain with Mark Twight (part two)'
     episode_url: https://zencastr.com/z/AUdtWUxw
@@ -11035,7 +11047,7 @@ episodes_by_feed:
     episode_uid: b6f7dfbf-4b56-4ee7-9f0b-148a4a6c6e45
     episode_slug: voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two
     episode_key: voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two/"
   - episode_title: 'Voice of the Mountains: The Hunger for Redemption with Mark Twight (part one)'
     episode_url: https://zencastr.com/z/bfVFcKtP
@@ -11047,7 +11059,7 @@ episodes_by_feed:
     episode_uid: fbe98393-bc65-4148-93bb-feaac08b8d37
     episode_slug: voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one
     episode_key: voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one/"
   - episode_title: '2026 Uphill Athlete Coaches: Goal Setting Summit'
     episode_url: https://zencastr.com/z/mDvPeta2
@@ -11059,7 +11071,7 @@ episodes_by_feed:
     episode_uid: b3d9a827-aac9-4777-9dd8-be72140648b2
     episode_slug: 2026-uphill-athlete-coaches-goal-setting-summit
     episode_key: 2026-uphill-athlete-coaches-goal-setting-summit
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/uphill-athlete/2026-uphill-athlete-coaches-goal-setting-summit/"
   - episode_title: 'Voice of the Mountains: Brilliance is Abundant with John Winsor'
     episode_url: https://zencastr.com/z/97sPck9A
@@ -11071,7 +11083,7 @@ episodes_by_feed:
     episode_uid: 5436e5d4-c5cf-4c19-9a43-317a7ed5743c
     episode_slug: voice-of-the-mountains-brilliance-is-abundant-with-john-winsor
     episode_key: voice-of-the-mountains-brilliance-is-abundant-with-john-winsor
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-brilliance-is-abundant-with-john-winsor/"
   - episode_title: 2025 Trail and Mountain Running Highlights with Gabe Joyes
     episode_url: https://zencastr.com/z/qPNkv2Ao
@@ -11083,7 +11095,7 @@ episodes_by_feed:
     episode_uid: fef125b2-2ebf-4c4d-83d7-021c4a441201
     episode_slug: 2025-trail-and-mountain-running-highlights-with-gabe-joyes
     episode_key: 2025-trail-and-mountain-running-highlights-with-gabe-joyes
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/uphill-athlete/2025-trail-and-mountain-running-highlights-with-gabe-joyes/"
   - episode_title: The Life Between Climbs with Scott Backes
     episode_url: https://zencastr.com/z/Ld--jcBg
@@ -11095,7 +11107,7 @@ episodes_by_feed:
     episode_uid: f9c35acf-00bb-4872-824d-01f05786cc32
     episode_slug: the-life-between-climbs-with-scott-backes
     episode_key: the-life-between-climbs-with-scott-backes
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/uphill-athlete/the-life-between-climbs-with-scott-backes/"
   - episode_title: 'Voice of the Mountains: The Geography of Risk with Kyle Lefkoff'
     episode_url: https://zencastr.com/z/_J2JnXxe
@@ -11107,7 +11119,7 @@ episodes_by_feed:
     episode_uid: 23b02a3a-44a2-4f5c-a4c8-b3c7f9abcef4
     episode_slug: voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff
     episode_key: voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff/"
   - episode_title: 'Nutrition Tips for Athletes: Holiday Edition - Replay'
     episode_url: https://zencastr.com/z/PDI0phcw
@@ -11119,7 +11131,7 @@ episodes_by_feed:
     episode_uid: 84d7d820-7f2c-4f2a-839f-fa2653e44c41
     episode_slug: nutrition-tips-for-athletes-holiday-edition-replay
     episode_key: nutrition-tips-for-athletes-holiday-edition-replay
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/uphill-athlete/nutrition-tips-for-athletes-holiday-edition-replay/"
   - episode_title: 'Supplements: How to Choose Safe and Effective Products'
     episode_url: https://zencastr.com/z/NZvBA3A7
@@ -11131,7 +11143,7 @@ episodes_by_feed:
     episode_uid: daa8fbab-6d3d-4fea-8365-ebfdce3fb760
     episode_slug: supplements-how-to-choose-safe-and-effective-products
     episode_key: supplements-how-to-choose-safe-and-effective-products
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/uphill-athlete/supplements-how-to-choose-safe-and-effective-products/"
   - episode_title: 'Voice of the Mountains: The Poetry of the Long Game with Randy Leavitt'
     episode_url: https://zencastr.com/z/E6ZrCs5d
@@ -11143,7 +11155,7 @@ episodes_by_feed:
     episode_uid: a908dc3a-bc6e-4e65-a20d-c7186eadbc75
     episode_slug: voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt
     episode_key: voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt/"
   - episode_title: Should Endurance Athletes Use Supplements?
     episode_url: https://zencastr.com/z/dDzkrqOE
@@ -11155,7 +11167,7 @@ episodes_by_feed:
     episode_uid: eddcd688-f2b8-419b-97d8-020c2342fb68
     episode_slug: should-endurance-athletes-use-supplements
     episode_key: should-endurance-athletes-use-supplements
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/uphill-athlete/should-endurance-athletes-use-supplements/"
   - episode_title: The Joy of Ski Training with Ben Morley
     episode_url: https://zencastr.com/z/4eqW36RP
@@ -11167,7 +11179,7 @@ episodes_by_feed:
     episode_uid: 757b0661-cc9f-4389-b9a5-2ad9ebebf84b
     episode_slug: the-joy-of-ski-training-with-ben-morley
     episode_key: the-joy-of-ski-training-with-ben-morley
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/uphill-athlete/the-joy-of-ski-training-with-ben-morley/"
   - episode_title: 'Voice of the Mountains: To See the Moment with Greg Penner'
     episode_url: https://zencastr.com/z/0kk7k4e7
@@ -11179,20 +11191,8 @@ episodes_by_feed:
     episode_uid: 41c8bfed-214e-42ef-851a-0300740df0ee
     episode_slug: voice-of-the-mountains-to-see-the-moment-with-greg-penner
     episode_key: voice-of-the-mountains-to-see-the-moment-with-greg-penner
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/uphill-athlete/voice-of-the-mountains-to-see-the-moment-with-greg-penner/"
-  - episode_title: The Yosemite Triple with Laura Pineau
-    episode_url: https://zencastr.com/z/kKgswkcE
-    audio_url: https://redirect.zencastr.com/r/episode/68c9c591e21effcc9e5a5666/size/1160529501/video-files/635358be4592c880860238fe/d00167d3-6b98-43b5-9f3c-33b2df6188ba.mp4
-    published_at: '2025-09-23T11:00:00+00:00'
-    description_html: '<p>In this episode of the Uphill Athlete Podcast, host Alyssa Clark talks with climber Laura Pineau, fresh off becoming the first woman, alongside Kate Kelleghan, to complete the Yosemite Triple Crown in under 24 hours. Laura shares the story behind her nickname “Mademoiselle Fissure” and how a passion for crack climbing transformed her career. She reflects on her path from deep water soloing in France to big walls in Yosemite, highlighting the mentors who shaped her journey. The conversation dives into her training, mindset, and the importance of nutrition, hydration, and strategy for long endurance climbs. Listeners will be inspired by Laura’s humility, love of learning, and insights on tackling seemingly impossible challenges.</p><p>You can follow Laura''s adventures on instagram @laurapineau</p><p>If you''d like to check out our special offer for podcast listeners visit: <a href="http://uphillathlete.com/letsgo">uphillathlete.com/letsgo</a></p><p>You can also write to us at coach@uphillathlete.com</p>'
-    description_plain: 'In this episode of the Uphill Athlete Podcast, host Alyssa Clark talks with climber Laura Pineau, fresh off becoming the first woman, alongside Kate Kelleghan, to complete the Yosemite Triple Crown in under 24 hours. Laura shares the story behind her nickname “Mademoiselle Fissure” and how a passion for crack climbing transformed her career. She reflects on her path from deep water soloing in France to big walls in Yosemite, highlighting the mentors who shaped her journey. The conversation dives into her training, mindset, and the importance of nutrition, hydration, and strategy for long endurance climbs. Listeners will be inspired by Laura’s humility, love of learning, and insights on tackling seemingly impossible challenges. You can follow Laura''s adventures on instagram @laurapineau If you''d like to check out our special offer for podcast listeners visit: uphillathlete.com/letsgo You can also write to us at coach@uphillathlete.com'
-    episode_image_url: https://media.zencastr.com/image-files/635358be4592c880860238fe/81dfa5ee-897e-43b9-a51c-2b6b4e4bb1cd.jpg
-    episode_uid: 2c016e9c-61bb-437a-95c7-a07fae6f0316
-    episode_slug: the-yosemite-triple-with-laura-pineau
-    episode_key: the-yosemite-triple-with-laura-pineau
     legacy_numbered_slug: episode-25
-    episode_page_url: "/uphill-athlete/the-yosemite-triple-with-laura-pineau/"
+    episode_page_url: "/uphill-athlete/voice-of-the-mountains-to-see-the-moment-with-greg-penner/"
   https://anchor.fm/s/db96fa60/podcast/rss: &36
   - episode_title: 2026 Broken Arrow Recap | Dani’s 46K Victory & Weekend Highlights
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/2026-Broken-Arrow-Recap--Danis-46K-Victory--Weekend-Highlights-e3l5hut
