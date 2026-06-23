@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-23T08:28:18Z'
+generated_at: '2026-06-23T08:42:18Z'
 items:
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society/"
@@ -265,6 +265,30 @@ items:
   episode_key: ep-786-everything-you-need-to-know-before-western-states
   episode_slug: ep-786-everything-you-need-to-know-before-western-states
   episode_page_url: "/trail-runner-nation/ep-786-everything-you-need-to-know-before-western-states/"
+- podcast_title: Territorio Trail
+  podcast_page_url: "/territorio-trail/"
+  cover_image: "/media/territorio-trail.jpeg"
+  feed_url: https://feeds.feedburner.com/ivoox/qssg
+  filter_category: trail spanish
+  episode_title: Sweet Home Alabama. Dentro de Mount to Coast, así es el training camp de un equipo élite
+  episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
+  audio_url: https://media.aragonradio.es/2026/06/20260618_08-22_sweet-home-alabama_-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite.mp3?utm_source=applepodcasts
+  published_at: '2026-06-18T22:00:00+02:00'
+  episode_key: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
+  episode_slug: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
+  episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite/"
+- podcast_title: Singletrack With Mathias Eichler
+  podcast_page_url: "/singletrack-with-mathias-eichler/"
+  cover_image: "/media/singletrack-eichler.jpeg"
+  feed_url: https://rss.libsyn.com/shows/355028/destinations/2901566.xml
+  filter_category: trail english
+  episode_title: '348: ''It Has to Make Sense'', with Zach Hauer'
+  episode_url: https://singletrack.fm/ep348/
+  audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack348.mp3?dest-id=2901566
+  published_at: '2026-06-18T19:24:00+00:00'
+  episode_key: 348-it-has-to-make-sense-with-zach-hauer
+  episode_slug: 348-it-has-to-make-sense-with-zach-hauer
+  episode_page_url: "/singletrack-with-mathias-eichler/348-it-has-to-make-sense-with-zach-hauer/"
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
   cover_image: "/media/coffeeclub.jpeg"
@@ -26340,6 +26364,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/715-hot-utan-ansikte/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &89
+  - episode_title: 'Matchdag 13: Den ghananska hardcore-coachen Herbert Addo'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3a43ee00998a7fc8913318/media.mp3
+    published_at: '2026-06-23T08:29:34+00:00'
+    description_html: "<p>AIK gjort 25 mål på 26 matcher och med det var dom sämst i serien, men vann SM-guld ändå. Men det finns andra som är värre! Och på tal om värre. Vi skickar med ett bedrövligt Håkan-quiz på temat också.</p><p><em>Detta är ett urklipp från avsnitten </em>274. AIK 1998/99 (2/3).<em> För att få hela berättelsen. Lyssna på avsnitten i sin helhet.</em></p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
+    description_plain: AIK gjort 25 mål på 26 matcher och med det var dom sämst i serien, men vann SM-guld ändå. Men det finns andra som är värre! Och på tal om värre. Vi skickar med ett bedrövligt Håkan-quiz på temat också. Detta är ett urklipp från avsnitten 274. AIK 1998/99 (2/3). För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a3a43ee00998a7fc8913318
+    episode_slug: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
+    episode_key: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/"
   - episode_title: 'Matchdag 12: USA:s invasion  av Irak 2003 och Uday Hussein'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-12-usas-invasion-av-irak-2003-och-uday-hussein
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3933089c43d66bc008df81/media.mp3
@@ -26350,7 +26386,7 @@ episodes_by_feed:
     episode_uid: 6a3933089c43d66bc008df81
     episode_slug: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
     episode_key: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
   - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
@@ -26363,7 +26399,7 @@ episodes_by_feed:
     episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
   - episode_title: 'Matchdag 10: Marco Van Bastens kamp för VM 1994'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-10-marco-van-bastens-kamp-for-vm-1994
@@ -26376,7 +26412,7 @@ episodes_by_feed:
     episode_slug: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     episode_key: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     legacy_unicode_slug: matchdag-10-marco-van-bastens-kamp-för-vm-1994
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/matchdag-10-marco-van-bastens-kamp-for-vm-1994/"
   - episode_title: 'Matchdag 9: NASL - Den första amerikanska proffsligan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-9-nasl-den-forsta-amerikanska-proffsligan
@@ -26389,7 +26425,7 @@ episodes_by_feed:
     episode_slug: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     episode_key: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     legacy_unicode_slug: matchdag-9-nasl-den-första-amerikanska-proffsligan
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-9-nasl-den-forsta-amerikanska-proffsligan/"
   - episode_title: 'Matchdag 8: Zemans fritänkande uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-8-zemans-fritankande-uppvaxt
@@ -26402,7 +26438,7 @@ episodes_by_feed:
     episode_slug: matchdag-8-zemans-fritankande-uppvaxt
     episode_key: matchdag-8-zemans-fritankande-uppvaxt
     legacy_unicode_slug: matchdag-8-zemans-fritänkande-uppväxt
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-8-zemans-fritankande-uppvaxt/"
   - episode_title: 'Matchdag 7: Blažević, Boban och Modric'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-7-blaevi-boban-och-modric
@@ -26415,7 +26451,7 @@ episodes_by_feed:
     episode_slug: matchdag-7-blazevic-boban-och-modric
     episode_key: matchdag-7-blazevic-boban-och-modric
     legacy_unicode_slug: matchdag-7-blažević-boban-och-modric
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-7-blazevic-boban-och-modric/"
   - episode_title: 'Matchdag 6: Zidane och politiken'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-6-zidane-och-politiken
@@ -26427,7 +26463,7 @@ episodes_by_feed:
     episode_uid: 6a2fe8fccd02369494f0ac46
     episode_slug: matchdag-6-zidane-och-politiken
     episode_key: matchdag-6-zidane-och-politiken
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/matchdag-6-zidane-och-politiken/"
   - episode_title: 'Matchdag 5: Sverige - Bulgarien 2004'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-5-sverige-bulgarien-2004
@@ -26439,7 +26475,7 @@ episodes_by_feed:
     episode_uid: 6a2f0504252d86e846043884
     episode_slug: matchdag-5-sverige-bulgarien-2004
     episode_key: matchdag-5-sverige-bulgarien-2004
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
   - episode_title: 'Matchdag 4: Historiens tråkigaste VM-final'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-4-historiens-trakigaste-vm-final
@@ -26452,7 +26488,7 @@ episodes_by_feed:
     episode_slug: matchdag-4-historiens-trakigaste-vm-final
     episode_key: matchdag-4-historiens-trakigaste-vm-final
     legacy_unicode_slug: matchdag-4-historiens-tråkigaste-vm-final
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-4-historiens-trakigaste-vm-final/"
   - episode_title: 'Matchdag 3: Adidas, kommersialiseringen och VM-floppen 1978'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
@@ -26464,7 +26500,7 @@ episodes_by_feed:
     episode_uid: 6a2bf993e6540bec0f9db0ab
     episode_slug: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
     episode_key: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978/"
   - episode_title: 'Matchdag 2: Berättelsen om Edin Džeko'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-2-berattelsen-om
@@ -26477,7 +26513,7 @@ episodes_by_feed:
     episode_slug: matchdag-2-berattelsen-om-edin-dzeko
     episode_key: matchdag-2-berattelsen-om-edin-dzeko
     legacy_unicode_slug: matchdag-2-berättelsen-om-edin-džeko
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/matchdag-2-berattelsen-om-edin-dzeko/"
   - episode_title: 'Matchdag 1:  Juárez Vs Sinaloa'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-1-juarez-vs-sinaloa
@@ -26490,7 +26526,7 @@ episodes_by_feed:
     episode_slug: matchdag-1-juarez-vs-sinaloa
     episode_key: matchdag-1-juarez-vs-sinaloa
     legacy_unicode_slug: matchdag-1-juárez-vs-sinaloa
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/matchdag-1-juarez-vs-sinaloa/"
   - episode_title: 290. Ruhr 2022/23
     episode_url: https://pod.space/whenwewerekings/290-ruhr-2022-23
@@ -26502,7 +26538,7 @@ episodes_by_feed:
     episode_uid: 4be36fabd91187d9a67c5b4f64aafe84
     episode_slug: 290-ruhr-2022-23
     episode_key: 290-ruhr-2022-23
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/290-ruhr-2022-23/"
   - episode_title: 289. Inter 2009/10 (3/3)
     episode_url: https://pod.space/whenwewerekings/289-inter-2009-10-3-3
@@ -26514,7 +26550,7 @@ episodes_by_feed:
     episode_uid: 9475b7f4ac14711984fb52fd3cbaa35b
     episode_slug: 289-inter-2009-10-3-3
     episode_key: 289-inter-2009-10-3-3
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/289-inter-2009-10-3-3/"
   - episode_title: "(Kortversion) 288. Inter 2009/10 (2/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-288-inter-2009-10-2-3
@@ -26526,7 +26562,7 @@ episodes_by_feed:
     episode_uid: 5be1021af64278647bd731d65391733e
     episode_slug: kortversion-288-inter-2009-10-2-3
     episode_key: kortversion-288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/kortversion-288-inter-2009-10-2-3/"
   - episode_title: 288. Inter 2009/10 (2/3)
     episode_url: https://pod.space/whenwewerekings/288-inter-2009-10-2-3
@@ -26538,7 +26574,7 @@ episodes_by_feed:
     episode_uid: 01b548ca2606ba99f4d908125a27b230
     episode_slug: 288-inter-2009-10-2-3
     episode_key: 288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/288-inter-2009-10-2-3/"
   - episode_title: "(Kortversion) 287. Inter 2009/10 (1/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-287-inter-2009-10-1-3
@@ -26550,7 +26586,7 @@ episodes_by_feed:
     episode_uid: 11f73fb86b79d95a571fe2458b9b5df8
     episode_slug: kortversion-287-inter-2009-10-1-3
     episode_key: kortversion-287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/kortversion-287-inter-2009-10-1-3/"
   - episode_title: 287. Inter 2009/10 (1/3)
     episode_url: https://pod.space/whenwewerekings/287-inter-2009-10-1-3
@@ -26562,7 +26598,7 @@ episodes_by_feed:
     episode_uid: ffbebd7b477007311211435aa176a93c
     episode_slug: 287-inter-2009-10-1-3
     episode_key: 287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/287-inter-2009-10-1-3/"
   - episode_title: "(Kortversion) 286. Sverige 2004 (2/2)"
     episode_url: https://pod.space/whenwewerekings/kortversion-286-sverige-2004-2-2
@@ -26574,7 +26610,7 @@ episodes_by_feed:
     episode_uid: 6793b573cfac08ab6a4d9cc347702445
     episode_slug: kortversion-286-sverige-2004-2-2
     episode_key: kortversion-286-sverige-2004-2-2
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/kortversion-286-sverige-2004-2-2/"
   - episode_title: 286. Sverige 2004 (2/2)
     episode_url: https://pod.space/whenwewerekings/286-sverige-2004-2-2
@@ -26586,7 +26622,7 @@ episodes_by_feed:
     episode_uid: 1a38ce4523442f3d1e8f23fc7d301838
     episode_slug: 286-sverige-2004-2-2
     episode_key: 286-sverige-2004-2-2
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/286-sverige-2004-2-2/"
   - episode_title: "(Kortavsnitt) 285. Sverige 2004 (1/2)"
     episode_url: https://pod.space/whenwewerekings/kortavsnitt-285-sverige-2004
@@ -26598,7 +26634,7 @@ episodes_by_feed:
     episode_uid: 186a4935098a5092f395f8841b90256f
     episode_slug: kortavsnitt-285-sverige-2004-1-2
     episode_key: kortavsnitt-285-sverige-2004-1-2
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/kortavsnitt-285-sverige-2004-1-2/"
   - episode_title: 285. Sverige 2004 (1/2)
     episode_url: https://pod.space/whenwewerekings/285-sverige-2004-1-2
@@ -26610,7 +26646,7 @@ episodes_by_feed:
     episode_uid: 882b01d0285a00364090105b876df903
     episode_slug: 285-sverige-2004-1-2
     episode_key: 285-sverige-2004-1-2
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/285-sverige-2004-1-2/"
   - episode_title: 284. Jesús Navas (2/2)
     episode_url: https://pod.space/whenwewerekings/284-jesus-navas-2-2
@@ -26623,7 +26659,7 @@ episodes_by_feed:
     episode_slug: 284-jesus-navas-2-2
     episode_key: 284-jesus-navas-2-2
     legacy_unicode_slug: 284-jesús-navas-2-2
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/284-jesus-navas-2-2/"
   - episode_title: "(Kortavsnitt) 283. Jesús Navas (1/2)"
     episode_url: https://pod.space/whenwewerekings/kortavsnitt-283-jesus-navas-1-2
@@ -26636,21 +26672,8 @@ episodes_by_feed:
     episode_slug: kortavsnitt-283-jesus-navas-1-2
     episode_key: kortavsnitt-283-jesus-navas-1-2
     legacy_unicode_slug: kortavsnitt-283-jesús-navas-1-2
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/kortavsnitt-283-jesus-navas-1-2/"
-  - episode_title: 283. Jesús Navas (1/2)
-    episode_url: https://pod.space/whenwewerekings/283-jesus-navas-1-2
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/9d67f04d330a4f46bd621d3f1ca3c14b/media.mp3
-    published_at: '2025-02-04T23:12:22+00:00'
-    description_html: "<div>38 år gammal vann han EM igen, 39 år gammal övervann han sin kropp för att hjälpa sin klubb - utan lön. Den 30 december fyllde 45 000 människor Sánchez Pizjuán enbart för att säga hejdå till den största lilla spelaren de någonsin sett.</div><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: 38 år gammal vann han EM igen, 39 år gammal övervann han sin kropp för att hjälpa sin klubb - utan lön. Den 30 december fyllde 45 000 människor Sánchez Pizjuán enbart för att säga hejdå till den största lilla spelaren de någonsin sett. Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: 9d67f04d330a4f46bd621d3f1ca3c14b
-    episode_slug: 283-jesus-navas-1-2
-    episode_key: 283-jesus-navas-1-2
-    legacy_unicode_slug: 283-jesús-navas-1-2
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/283-jesus-navas-1-2/"
+    episode_page_url: "/when-we-were-kings/kortavsnitt-283-jesus-navas-1-2/"
   https://api.substack.com/feed/podcast/10845.rss: &90
   - episode_title: The hidden pattern behind successful products | Mark Pincus (founder of Zynga)
     episode_url: https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful
@@ -28218,7 +28241,621 @@ episodes_by_feed:
     legacy_unicode_slug: mathieu-lezeau-ma-tribuu-de-zéro-à-la-diagonale-des-fous-en-10-mois-puis-cap-sur-le-marathon-des-sables
     legacy_numbered_slug: episode-25
     episode_page_url: "/la-bande-a-d/mathieu-lezeau-ma-tribuu-de-zero-a-la-diagonale-des-fous-en-10-mois-puis-cap-sur-le-marathon-des-sables/"
-  https://anchor.fm/s/8a22cb0/podcast/rss: &96
+  https://rss.libsyn.com/shows/355028/destinations/2901566.xml: &96
+  - episode_title: '348: ''It Has to Make Sense'', with Zach Hauer'
+    episode_url: https://singletrack.fm/ep348/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack348.mp3?dest-id=2901566
+    published_at: '2026-06-18T19:24:00+00:00'
+    description_html: '<p class="wp-block-paragraph">Just ahead of "Tahoe Week", where we''ll meet in person, I chat with Open Fuel co-founder Zach Hauer about marketing an outdoor brand in today''s business and media landscape. We chat about AI, ROI, high carb slushies, plogging and how in the end this all has to make sense.</p>  LINKS <ul class="wp-block-list"><li>TrailCon Plog: <a href= "https://www.strava.com/clubs/1417963/group_events/3500273826966220794/"> Open Fuel + Dera</a><a href="https://openfuel.co/">Open Fuel</a></li><li>Open Fuel on <a href= "https://www.instagram.com/openfuel/">Instagram</a></li><li>Zach Hauer on<a href= "https://www.instagram.com/zachhauer/">Instagram <p>Get more:</p><ul><li>Singletrack.fm</li><li>Rock Candy Running</li><li>Trail Running Film Festival</li></ul><p>Brought to you by Electric Cable Car - your trail and mountain news!</p></a></li></ul>'
+    description_plain: 'Just ahead of "Tahoe Week", where we''ll meet in person, I chat with Open Fuel co-founder Zach Hauer about marketing an outdoor brand in today''s business and media landscape. We chat about AI, ROI, high carb slushies, plogging and how in the end this all has to make sense. LINKS TrailCon Plog: Open Fuel + Dera Open Fuel Open Fuel on Instagram Zach Hauer on Instagram Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: d7e7aae0-76fd-466c-b1a3-3015c3d56c45
+    episode_slug: 348-it-has-to-make-sense-with-zach-hauer
+    episode_key: 348-it-has-to-make-sense-with-zach-hauer
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/singletrack-with-mathias-eichler/348-it-has-to-make-sense-with-zach-hauer/"
+  - episode_title: '347: ''Live on Course, But Better'', with Josh Rosenthal'
+    episode_url: https://singletrack.fm/ep347/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack347.mp3?dest-id=2901566
+    published_at: '2026-06-05T22:30:00+00:00'
+    description_html: <p class="wp-block-paragraph">Josh joins me on Singletrack to talk about the future of trail race reporting and the fascination of livestreams. He's built a prototype (Live on Trail) that mimics a massive dashboard displaying various 'on course' information streams with the hope of making the on-screen talents more knowledgeable and the viewing experience more enjoyable. What I love about this effort – vibe-coded and all – is that it goes beyond "hey I have an opinion" and actually "throwing something against the wall". Let's see if it sticks.</p><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>  LINKS <ul class="wp-block-list"><li>Josh's <a href= "https://www.borderlands.cc/tag/cocodona-aftermath/">articles</a> on Borderlands</li><li><a href= "https://wearetrailmix.substack.com/p/the-man-trying-to-make-ultra-running"> Trailmix</a> on 'Live on Trail'</li></ul>
+    description_plain: 'Josh joins me on Singletrack to talk about the future of trail race reporting and the fascination of livestreams. He''s built a prototype (Live on Trail) that mimics a massive dashboard displaying various ''on course'' information streams with the hope of making the on-screen talents more knowledgeable and the viewing experience more enjoyable. What I love about this effort – vibe-coded and all – is that it goes beyond "hey I have an opinion" and actually "throwing something against the wall". Let''s see if it sticks. Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news! LINKS Josh''s articles on Borderlands Trailmix on ''Live on Trail'''
+    episode_image_url: ''
+    episode_uid: 01da05b3-290b-4322-b240-e97b49b08c6c
+    episode_slug: 347-live-on-course-but-better-with-josh-rosenthal
+    episode_key: 347-live-on-course-but-better-with-josh-rosenthal
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/singletrack-with-mathias-eichler/347-live-on-course-but-better-with-josh-rosenthal/"
+  - episode_title: '346: ''The Relatable Athlete'', with Coree Woltering'
+    episode_url: https://singletrack.fm/ep346/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack346.mp3?dest-id=2901566
+    published_at: '2026-05-15T00:32:00+00:00'
+    description_html: <p>Coree Woltering joins Singletrack this week to chat about his approach to running trails, and racing short and long distances. This year his goals include Western States, Beast of Big Creek, and Fat Dog 120. We discuss his role as Merrell US trail team manager and the upcoming relaunch of the Skyrunner World Series to the US, the US National Series, and Merrell's plan as title sponsor of these series. See you at <a href= "https://beastofbigcreek.com/">Beast</a> in August!</p>  LINKS <ul class="wp-block-list"><li>Coree Woltering on <a href= "https://www.instagram.com/coreewoltering/">Instagram</a></li><li>Coree Woltering on <a href= "https://www.strava.com/pros/307920">Strava</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Coree Woltering joins Singletrack this week to chat about his approach to running trails, and racing short and long distances. This year his goals include Western States, Beast of Big Creek, and Fat Dog 120. We discuss his role as Merrell US trail team manager and the upcoming relaunch of the Skyrunner World Series to the US, the US National Series, and Merrell''s plan as title sponsor of these series. See you at Beast in August! LINKS Coree Woltering on Instagram Coree Woltering on Strava Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 963db82c-72b4-4dfd-9a1e-abcc10d35ab2
+    episode_slug: 346-the-relatable-athlete-with-coree-woltering
+    episode_key: 346-the-relatable-athlete-with-coree-woltering
+    legacy_numbered_slug: episode-03
+    episode_page_url: "/singletrack-with-mathias-eichler/346-the-relatable-athlete-with-coree-woltering/"
+  - episode_title: '345: ''Our Sport is a Soul Sport'', with James Lauriello'
+    episode_url: https://singletrack.fm/ep345/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack345.mp3?dest-id=2901566
+    published_at: '2026-05-01T03:50:00+00:00'
+    description_html: <p>James Lauriello joins me on a tour de force through the entire world of trail running. We chat about ultra vs. short trail and the role our trail media plays. We ponder what the arrival of ACG means and how the established brands in the trail space are going to respond. And finally we look ahead at the (re-)launch of the US Skyrunner National Series coming this summer.</p> LINKS <ul><li>James Lauriello <a href= "https://www.instagram.com/jameslauriello/">on Instagram</a></li><li><a href= "https://podcasts.apple.com/us/podcast/the-steep-stuff-podcast/id1736139061"> The Steep Stuff Podcast</a></li><li>The Steep Stuff Podcast <a href= "https://www.instagram.com/steepstuff_pod/">on Instagram</a></li><li><a href="https://www.usa-skyrunnerseries.com/">US Skyrunner National Series</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'James Lauriello joins me on a tour de force through the entire world of trail running. We chat about ultra vs. short trail and the role our trail media plays. We ponder what the arrival of ACG means and how the established brands in the trail space are going to respond. And finally we look ahead at the (re-)launch of the US Skyrunner National Series coming this summer. LINKS James Lauriello on Instagram The Steep Stuff Podcast The Steep Stuff Podcast on Instagram US Skyrunner National Series Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 941b64ea-01ec-40cc-9697-ee5322442688
+    episode_slug: 345-our-sport-is-a-soul-sport-with-james-lauriello
+    episode_key: 345-our-sport-is-a-soul-sport-with-james-lauriello
+    legacy_numbered_slug: episode-04
+    episode_page_url: "/singletrack-with-mathias-eichler/345-our-sport-is-a-soul-sport-with-james-lauriello/"
+  - episode_title: '344: ''We Sold Out the Rio'', with Adam Lee'
+    episode_url: https://singletrack.fm/ep344/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack344.mp3?dest-id=2901566
+    published_at: '2026-04-01T03:27:00+00:00'
+    description_html: '<p>Adam Lee stops by Singletrack just a couple of days ahead of hosting his first of several TRFF show in 2026. Adam and his team sold out the Rio in Vancouver, BC and we chat about what his unique approach to hosting and marketing TRFF in his community. Also, Adam''s next race on his calendar: The Fat Dog 120… that''s like almost 200 kilometers!</p>  LINKS <ul class="wp-block-list"><li><a href="https://communitytrailrunning.substack.com/">Community Trail Running</a></li><li><a href="https://trailfilmfest.com/">Trail Running Film Festival</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'Adam Lee stops by Singletrack just a couple of days ahead of hosting his first of several TRFF show in 2026. Adam and his team sold out the Rio in Vancouver, BC and we chat about what his unique approach to hosting and marketing TRFF in his community. Also, Adam''s next race on his calendar: The Fat Dog 120… that''s like almost 200 kilometers! LINKS Community Trail Running Trail Running Film Festival Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 22c86645-88a9-414c-bcfd-48159cf67d84
+    episode_slug: 344-we-sold-out-the-rio-with-adam-lee
+    episode_key: 344-we-sold-out-the-rio-with-adam-lee
+    legacy_numbered_slug: episode-05
+    episode_page_url: "/singletrack-with-mathias-eichler/344-we-sold-out-the-rio-with-adam-lee/"
+  - episode_title: '343: ''For That Finish Line Moment'', with Renee Janssen'
+    episode_url: https://singletrack.fm/ep343/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack343.mp3?dest-id=2901566
+    published_at: '2026-03-26T20:17:00+00:00'
+    description_html: <p>Go Beyond Racing, one of Pacific Northwest longest running and most reputable trail racing organizations just went through a major brand refresh and co-owner Renee Janssen is here to share the backstory. We dive into the origins of Go Beyond and Renee's motivation to leave her corporate cubicle to take on race directing full time alongside her husband Todd.</p><p>We also chat about the important work of the Trail Mix Fund a nonprofit the two founded during the COVID pandemic which is aimed to bring more diversity to our trail running community.</p><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Go Beyond Racing, one of Pacific Northwest longest running and most reputable trail racing organizations just went through a major brand refresh and co-owner Renee Janssen is here to share the backstory. We dive into the origins of Go Beyond and Renee''s motivation to leave her corporate cubicle to take on race directing full time alongside her husband Todd. We also chat about the important work of the Trail Mix Fund a nonprofit the two founded during the COVID pandemic which is aimed to bring more diversity to our trail running community. Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: ba295379-f473-4694-b775-18b695980bbe
+    episode_slug: 343-for-that-finish-line-moment-with-renee-janssen
+    episode_key: 343-for-that-finish-line-moment-with-renee-janssen
+    legacy_numbered_slug: episode-06
+    episode_page_url: "/singletrack-with-mathias-eichler/343-for-that-finish-line-moment-with-renee-janssen/"
+  - episode_title: '342: ''Crowdfunding Prize Purses'', with Krissi Polentz'
+    episode_url: https://singletrack.fm/ep342/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack342.mp3?dest-id=2901566
+    published_at: '2026-02-14T02:06:00+00:00'
+    description_html: '<p>On the eve of one of America''s largest ultra trail race, the Black Canyon Ultras, Mountain Outpost announces another new initiative: ''Race Purse''- a crowdfunding platform for prize purses for elite runners. In recent months Black Canyon, and Aravaipa have gotten under increased scrutiny for not offering any prize money at all. This new project, seemingly outsourcing the solution created lots of chatter online and Krissi is joining me to try to make sense of it all.</p>  LINKS <ul class="wp-block-list"><li>Krissi on <a href= "https://singletrack.fm/guest/krissi-polentz/">Singletrack</a></li><li>Krissi on <a href= "https://www.instagram.com/therunetarian/">Instagram</a></li><li><a href="https://www.racepurse.com/">Race Purse</a> by Mountain Outpost</li><li>On Electric Cable Car: <a href= "https://electriccablecar.com/black-canyon-ultras-prize-money/">Black Canyon Ultras Prize Money</a></li><li>On Electric Cable Car: <a href= "https://electriccablecar.com/jamil-coury-is-the-most-powerful-person-in-trail-running/"> Jamil Coury is the most powerful person in Trail Running</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'On the eve of one of America''s largest ultra trail race, the Black Canyon Ultras, Mountain Outpost announces another new initiative: ''Race Purse''- a crowdfunding platform for prize purses for elite runners. In recent months Black Canyon, and Aravaipa have gotten under increased scrutiny for not offering any prize money at all. This new project, seemingly outsourcing the solution created lots of chatter online and Krissi is joining me to try to make sense of it all. LINKS Krissi on Singletrack Krissi on Instagram Race Purse by Mountain Outpost On Electric Cable Car: Black Canyon Ultras Prize Money On Electric Cable Car: Jamil Coury is the most powerful person in Trail Running Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 4270895b-78c3-47a0-bc28-14e29b301bec
+    episode_slug: 342-crowdfunding-prize-purses-with-krissi-polentz
+    episode_key: 342-crowdfunding-prize-purses-with-krissi-polentz
+    legacy_numbered_slug: episode-07
+    episode_page_url: "/singletrack-with-mathias-eichler/342-crowdfunding-prize-purses-with-krissi-polentz/"
+  - episode_title: '341: ''Race Director Stringbean'', with Joe McConaughy'
+    episode_url: https://singletrack.fm/ep341/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack341.mp3?dest-id=2901566
+    published_at: '2026-02-05T02:45:00+00:00'
+    description_html: '<p>Joe McConaughy has achieved a lot in his life already, but this year he''s going to embark on two new and daunting adventures : fatherhood and race directing. I don''t know which one''s harder, but we chat about both and a lot more on this episode of Singletrack.</p>  LINKS <ul class="wp-block-list"><li>Joe''s coaching <a href= "https://thestringbean.co/">website</a></li><li>Joe <a href="https://www.instagram.com/austcorb/">on Instagram</a></li><li><a href="https://singletrack.fm/pnwyouttrailproject.com">Youth Trail Project</a></li><li><a href="https://vertrunningseries.com/">Vert Running Series</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'Joe McConaughy has achieved a lot in his life already, but this year he''s going to embark on two new and daunting adventures : fatherhood and race directing. I don''t know which one''s harder, but we chat about both and a lot more on this episode of Singletrack. LINKS Joe''s coaching website Joe on Instagram Youth Trail Project Vert Running Series Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 21af9b24-291a-4ab8-8b7b-d4d61d9bb8fc
+    episode_slug: 341-race-director-stringbean-with-joe-mcconaughy
+    episode_key: 341-race-director-stringbean-with-joe-mcconaughy
+    legacy_numbered_slug: episode-08
+    episode_page_url: "/singletrack-with-mathias-eichler/341-race-director-stringbean-with-joe-mcconaughy/"
+  - episode_title: '340: ''Shooting From The Hip'', with Austin Corbett'
+    episode_url: https://singletrack.fm/ep340/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack340.mp3?dest-id=2901566
+    published_at: '2026-01-23T20:48:00+00:00'
+    description_html: <p>Austin is taking the big leap into self-employment and joins me on Singletrack to chat about his new business Point to Point Photography. As a trained photographer with years of experience making connections in the outdoor industry Austin is ready to step behind the lens and share his vision of running on trails in wild places with the world.</p>  LINKS <ul class="wp-block-list"><li>Austin <a href="https://www.instagram.com/austcorb/">on Instagram</a></li><li><a href="https://pointtopointphoto.com/">Point to Point Photography</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Austin is taking the big leap into self-employment and joins me on Singletrack to chat about his new business Point to Point Photography. As a trained photographer with years of experience making connections in the outdoor industry Austin is ready to step behind the lens and share his vision of running on trails in wild places with the world. LINKS Austin on Instagram Point to Point Photography Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: ce338b9d-c340-43a0-a0d8-40b69d5b5312
+    episode_slug: 340-shooting-from-the-hip-with-austin-corbett
+    episode_key: 340-shooting-from-the-hip-with-austin-corbett
+    legacy_numbered_slug: episode-09
+    episode_page_url: "/singletrack-with-mathias-eichler/340-shooting-from-the-hip-with-austin-corbett/"
+  - episode_title: '339: ''The Most Beautiful Expression of Human Movement'', with Ryan Kerrigan'
+    episode_url: https://singletrack.fm/ep339/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack339.mp3?dest-id=2901566
+    published_at: '2026-01-13T22:24:00+00:00'
+    description_html: <p>This week we're opening the much anticipated registration for Beast of Big Creek. Who better to help me launch all this than the person who reached out first when I wanted to get Beast on the radar of The International Skyrunning Federation. Ryan Kerrigan is the executive director of Skyrunning USA and on Singletrack we chat about the history of skyrunning and the process it took to bring the Skyrunner World Seriers back to the US. 2026 will be an exciting time in short and steep trail racing.</p>  LINKS <ul class="wp-block-list"><li><a href="https://beastofbigcreek.com/">Beast of Big Creek</a></li><li><a href="https://www.skyrunningusa.com/">Skyrunning USA</a></li><li><a href="https://www.skyrunning.com/">International Skyrunning Federation</a></li><li><a href="https://www.skyrunnerworldseries.com/">Skyrunner World Series</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'This week we''re opening the much anticipated registration for Beast of Big Creek. Who better to help me launch all this than the person who reached out first when I wanted to get Beast on the radar of The International Skyrunning Federation. Ryan Kerrigan is the executive director of Skyrunning USA and on Singletrack we chat about the history of skyrunning and the process it took to bring the Skyrunner World Seriers back to the US. 2026 will be an exciting time in short and steep trail racing. LINKS Beast of Big Creek Skyrunning USA International Skyrunning Federation Skyrunner World Series Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 4e19c5ee-66c2-46e1-9821-f562ce088f94
+    episode_slug: 339-the-most-beautiful-expression-of-human-movement-with-ryan-kerrigan
+    episode_key: 339-the-most-beautiful-expression-of-human-movement-with-ryan-kerrigan
+    legacy_numbered_slug: episode-10
+    episode_page_url: "/singletrack-with-mathias-eichler/339-the-most-beautiful-expression-of-human-movement-with-ryan-kerrigan/"
+  - episode_title: '338: ''It''s a Trip'', with Nicholas Triolo'
+    episode_url: https://singletrack.fm/ep338/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack338.mp3?dest-id=2901566
+    published_at: '2026-01-08T23:52:00+00:00'
+    description_html: '<p>Nicholas Triolo wrote my favorite book of 2025: ''<a href= "https://milkweed.org/book/the-way-around">The Way Around</a>'' and he''s back on Singletrack to chat about it. We discuss the process of writing, the inspiration for the stories, and what a great travel books are meant to do for the reader. You''ll think different about that loop in the woods next time you head out on your run, I promise.</p>  LINKS <ul class="wp-block-list"><li>Nicholas''s <a href= "https://nicholastriolo.net/">website</a></li><li>Nicholas''s <a href= "https://jasminedialogues.substack.com/">blog</a></li><li>Nicholas''s book ''<a href= "https://milkweed.org/book/the-way-around">The Way Around</a>''</li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'Nicholas Triolo wrote my favorite book of 2025: '' The Way Around '' and he''s back on Singletrack to chat about it. We discuss the process of writing, the inspiration for the stories, and what a great travel books are meant to do for the reader. You''ll think different about that loop in the woods next time you head out on your run, I promise. LINKS Nicholas''s website Nicholas''s blog Nicholas''s book '' The Way Around '' Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 429b2574-a1ac-4db2-86c4-e143d58128ad
+    episode_slug: 338-it-s-a-trip-with-nicholas-triolo
+    episode_key: 338-it-s-a-trip-with-nicholas-triolo
+    legacy_numbered_slug: episode-11
+    episode_page_url: "/singletrack-with-mathias-eichler/338-it-s-a-trip-with-nicholas-triolo/"
+  - episode_title: '337: ''Running Into 2026'', with Alex Bond'
+    episode_url: https://singletrack.fm/ep337
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack337.mp3?dest-id=2901566
+    published_at: '2026-01-03T01:30:00+00:00'
+    description_html: <p>Alex Bond joins Singletrack for one last hurrah of 2025 - and yes, I am fully aware that I'm posting this already in 2026. So, a first hurrah of 2026. We're chatting about the world of trail and mountain running over the past year and looking ahead and the new one. Hope it will be a happy one for y'all!</p> LINKS <ul class="wp-block-list"><li>Alex Bond <a href="https://www.strava.com/athletes/9608871">on Strava</a></li><li>RE/Run 2025 <a href= "https://electriccablecar.com/rerun-2025/">on Electric Cable Car</a></li></ul><p>Get more:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Alex Bond joins Singletrack for one last hurrah of 2025 - and yes, I am fully aware that I''m posting this already in 2026. So, a first hurrah of 2026. We''re chatting about the world of trail and mountain running over the past year and looking ahead and the new one. Hope it will be a happy one for y''all! LINKS Alex Bond on Strava RE/Run 2025 on Electric Cable Car Get more: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: c55ed142-56c9-4380-9edc-ccfccfe4f040
+    episode_slug: 337-running-into-2026-with-alex-bond
+    episode_key: 337-running-into-2026-with-alex-bond
+    legacy_numbered_slug: episode-12
+    episode_page_url: "/singletrack-with-mathias-eichler/337-running-into-2026-with-alex-bond/"
+  - episode_title: '336: ''Running Back The Year 2025'', with Krissi Polentz'
+    episode_url: https://singletrack.fm/ep336/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack336.mp3?dest-id=2901566
+    published_at: '2025-12-24T00:22:00+00:00'
+    description_html: '<p>It''s the end of 2025 and I''m joined by special guest Krissi Polentz to chat about this past year in trail running. What stood out? What were the big stories and big misses that shaped out sport and culture? We''re taking a look at the players that speak, the businesses that spend money, and the movers that have shape our sport this past year. And of course, we''re making some predictions for what this all will mean for the coming one. Happy Holidays and thanks for being part of the ride.</p>  LINKS <ul class="wp-block-list"><li>Krissi''s website: <a href="https://www.therunetarian.com/">The Runetarian</a></li><li>Krissi on <a href= "https://www.instagram.com/therunetarian/">Instagram</a></li><li>Cover photo by <a href="https://www.shitinthewoods.co/">Mike McMonagle</a></li></ul><p>Connect:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href="https://rockcandyrunning.com">Rock Candy Running</a></li><li><a href="https://trailfilmfest.com">Trail Running Film Festival</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'It''s the end of 2025 and I''m joined by special guest Krissi Polentz to chat about this past year in trail running. What stood out? What were the big stories and big misses that shaped out sport and culture? We''re taking a look at the players that speak, the businesses that spend money, and the movers that have shape our sport this past year. And of course, we''re making some predictions for what this all will mean for the coming one. Happy Holidays and thanks for being part of the ride. LINKS Krissi''s website: The Runetarian Krissi on Instagram Cover photo by Mike McMonagle Connect: Singletrack.fm Rock Candy Running Trail Running Film Festival Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 100669e1-afd7-4b1b-a488-c4cd89c49d8d
+    episode_slug: 336-running-back-the-year-2025-with-krissi-polentz
+    episode_key: 336-running-back-the-year-2025-with-krissi-polentz
+    legacy_numbered_slug: episode-13
+    episode_page_url: "/singletrack-with-mathias-eichler/336-running-back-the-year-2025-with-krissi-polentz/"
+  - episode_title: '335: ''I Think I just Need To Run'', with Morgan Powell'
+    episode_url: https://singletrack.fm/ep335/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack335.mp3?dest-id=2901566
+    published_at: '2025-12-01T00:51:00+00:00'
+    description_html: '<p>Very special guest Morgan Powell joins Singletrack to help me unveil the poster art for the Trail Running Film Festival''s Global Tour 2026. We chat about the inspiration behind the artwork and get to know Morgen, the artist and athlete behind it all.</p>  LINKS <ul class="wp-block-list"><li>Morgan Powell''s design studio: <a href= "https://www.unthaw.co/">Unthaw.co</a></li></ul><p>More of Singletrack on <a href= "https://singletrack.fm/">Singletrack.fm</a>.</p><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your daily source for all things trail running and mountain culture.</p>'
+    description_plain: 'Very special guest Morgan Powell joins Singletrack to help me unveil the poster art for the Trail Running Film Festival''s Global Tour 2026. We chat about the inspiration behind the artwork and get to know Morgen, the artist and athlete behind it all. LINKS Morgan Powell''s design studio: Unthaw.co More of Singletrack on Singletrack.fm . Brought to you by Electric Cable Car - your daily source for all things trail running and mountain culture.'
+    episode_image_url: ''
+    episode_uid: 4d900204-fdb7-4b06-bbcc-f0a459288095
+    episode_slug: 335-i-think-i-just-need-to-run-with-morgan-powell
+    episode_key: 335-i-think-i-just-need-to-run-with-morgan-powell
+    legacy_numbered_slug: episode-14
+    episode_page_url: "/singletrack-with-mathias-eichler/335-i-think-i-just-need-to-run-with-morgan-powell/"
+  - episode_title: '334: ''And Then The White House Calls'', with Alex Rienzie'
+    episode_url: https://singletrack.fm/ep334/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack334.mp3?dest-id=2901566
+    published_at: '2025-11-24T20:34:00+00:00'
+    description_html: <p>Almost exactly a year after Alex Rienzie first chatted with me on Singletrack he's back with an update on the legal case that kept the trail running community on perpetual whiplash for the entire year of 2025. Now with a full pardon in hand, Alex can share what really went down behind the scenes of Michelino Sunseri's FKT run on the Grand Teton. This is a story that takes us way beyond the mountains and the trails and into court rooms and board rooms and yes, all the way to the White House. What a bonkers story that makes one feel like up is down and down is up.</p>  LINKS <ul class="wp-block-list"><li><a href="https://racinggrandteton.com/">Racing Grand Teton</a> – the film</li><li>Alex Rienzie <a href= "https://www.instagram.com/alexrienzie/">on Instagram</a></li><li>Alex Rienzie <a href= "https://singletrack.fm/guest/alex-rienzie/">on Singletrack</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Almost exactly a year after Alex Rienzie first chatted with me on Singletrack he''s back with an update on the legal case that kept the trail running community on perpetual whiplash for the entire year of 2025. Now with a full pardon in hand, Alex can share what really went down behind the scenes of Michelino Sunseri''s FKT run on the Grand Teton. This is a story that takes us way beyond the mountains and the trails and into court rooms and board rooms and yes, all the way to the White House. What a bonkers story that makes one feel like up is down and down is up. LINKS Racing Grand Teton – the film Alex Rienzie on Instagram Alex Rienzie on Singletrack Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 63c2a57a-01ee-41cd-adc0-3d8d5e068dde
+    episode_slug: 334-and-then-the-white-house-calls-with-alex-rienzie
+    episode_key: 334-and-then-the-white-house-calls-with-alex-rienzie
+    legacy_numbered_slug: episode-15
+    episode_page_url: "/singletrack-with-mathias-eichler/334-and-then-the-white-house-calls-with-alex-rienzie/"
+  - episode_title: '333: ''Will 128 Tickets Be Enough?'' With Steve Auch'
+    episode_url: https://singletrack.fm/ep333/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack333.mp3?dest-id=2901566
+    published_at: '2025-11-20T21:20:00+00:00'
+    description_html: <p>Steve joins the show from Bavaria, Germany and we're taking about the sentiment and response in the German trail running community after the announcement from a couple of weeks ago that Zugspitz Ultra Trail would join the UTMB World Series. Steve shares his personal history with the event and his thoughts and concerns about the future of this beloved annual gathering in Garmisch-Partenkirchen. We also chat about his race City & Trail in Alpenstadt on 16. May 2026. An event that previously was a stop of the German National Series of the Golden Trail Series. But even after losing that partnership the event is still growing, and is still attracting top runners from the region. And finally as it is timely we talk about Steve's long held dream to run Western States. With 128 tickets in the lottery, is it his turn this year?</p>  LINKS <ul class="wp-block-list"><li>Steve's comments on Zugspitz <a href= "https://www.youtube.com/watch?v=BhMvSHSZPgE&t=943s">on Youtube</a></li><li><a href="https://cityundtrail.de/">City und Trail 2026</a></li><li>Steve <a href="https://singletrack.fm/guest/steve-auch/">on Singletrack</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Steve joins the show from Bavaria, Germany and we''re taking about the sentiment and response in the German trail running community after the announcement from a couple of weeks ago that Zugspitz Ultra Trail would join the UTMB World Series. Steve shares his personal history with the event and his thoughts and concerns about the future of this beloved annual gathering in Garmisch-Partenkirchen. We also chat about his race City & Trail in Alpenstadt on 16. May 2026. An event that previously was a stop of the German National Series of the Golden Trail Series. But even after losing that partnership the event is still growing, and is still attracting top runners from the region. And finally as it is timely we talk about Steve''s long held dream to run Western States. With 128 tickets in the lottery, is it his turn this year? LINKS Steve''s comments on Zugspitz on Youtube City und Trail 2026 Steve on Singletrack Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: bb13da76-9ac5-473f-b84b-27848feaa174
+    episode_slug: 333-will-128-tickets-be-enough-with-steve-auch
+    episode_key: 333-will-128-tickets-be-enough-with-steve-auch
+    legacy_numbered_slug: episode-16
+    episode_page_url: "/singletrack-with-mathias-eichler/333-will-128-tickets-be-enough-with-steve-auch/"
+  - episode_title: '332: ''Run All Day, Run All Night'', with Jan Vleck'
+    episode_url: https://singletrack.fm/ep332/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack332.mp3?dest-id=2901566
+    published_at: '2025-07-31T23:27:00+00:00'
+    description_html: <p>When my friend and almost neighbor ran Western States this past month I knew I had bring the podcast back out of hibernation and have him on the show. Here's my chat with Jan Vleck from Olympia Washington, one of the oldest runners to have ever finished Western States. This one's special.</p>  LINKS <ul class="wp-block-list"><li>Jan <a href="https://www.strava.com/athletes/26356215">on Strava</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'When my friend and almost neighbor ran Western States this past month I knew I had bring the podcast back out of hibernation and have him on the show. Here''s my chat with Jan Vleck from Olympia Washington, one of the oldest runners to have ever finished Western States. This one''s special. LINKS Jan on Strava Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: d4f18be1-d511-4294-b892-aefa56b8c5da
+    episode_slug: 332-run-all-day-run-all-night-with-jan-vleck
+    episode_key: 332-run-all-day-run-all-night-with-jan-vleck
+    legacy_numbered_slug: episode-17
+    episode_page_url: "/singletrack-with-mathias-eichler/332-run-all-day-run-all-night-with-jan-vleck/"
+  - episode_title: '331: ''Big in Japan'', with Marcel Höche'
+    episode_url: https://singletrack.fm/ep331/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack331.mp3?dest-id=2901566
+    published_at: '2025-05-02T21:01:00+00:00'
+    description_html: '<p>Marcel Höche is back on the show and he''s calling in from Japan with an update on his never ending racing season. We talk what races he''s ran in between finishing is masters degree and he gives us an behind the scenes look at his exciting new business venture: Sunn Nutrition, a brand new high carb drink mix.</p>  LINKS <ul class="wp-block-list"><li>Marcel <a href="https://singletrack.fm/guest/marcel-hoche/">on Singletrack</a></li><li>Marcel Höche <a href="https://www.instagram.com/macy_pacy/">on Instagram</a></li><li><a href="https://sunnnutrition.de/">SUNN. Nutrition</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'Marcel Höche is back on the show and he''s calling in from Japan with an update on his never ending racing season. We talk what races he''s ran in between finishing is masters degree and he gives us an behind the scenes look at his exciting new business venture: Sunn Nutrition, a brand new high carb drink mix. LINKS Marcel on Singletrack Marcel Höche on Instagram SUNN. Nutrition Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 9c50eb6e-24e9-44df-a1e0-2aa6019e3aaf
+    episode_slug: 331-big-in-japan-with-marcel-hoche
+    episode_key: 331-big-in-japan-with-marcel-hoche
+    legacy_unicode_slug: 331-big-in-japan-with-marcel-höche
+    legacy_numbered_slug: episode-18
+    episode_page_url: "/singletrack-with-mathias-eichler/331-big-in-japan-with-marcel-hoche/"
+  - episode_title: '330: ''Where Did (and Does) the Livestream Go?'', with Jeff Pelletier'
+    episode_url: https://singletrack.fm/ep330/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack330.mp3?dest-id=2901566
+    published_at: '2025-04-25T20:59:00+00:00'
+    description_html: <p>This weekend is a massive weekend of trail racing with several high profile events all over the world. The Canyons Endurance Runs by UTMB is happening in Auburn, California, and unlike last year, there's no livestream. I sit down with Jeff Pelletier, king of trail storytelling to discuss the history and the challenges for current version of livestreams and we talk about some ideas on how to move forward. If you're missing sitting the livestream this week, put this conversation in your ears and head out on run.</p>  LINKS <ul class="wp-block-list"><li>Jeff Pelletier's <a href= "https://jeffpelletier.com/">website</a></li><li>Jeff Pelletier on <a href= "https://www.instagram.com/jpelletier/">Instagram</a></li><li>Jeff Pelletier on <a href= "https://www.youtube.com/@jeffpelletier">Youtube</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'This weekend is a massive weekend of trail racing with several high profile events all over the world. The Canyons Endurance Runs by UTMB is happening in Auburn, California, and unlike last year, there''s no livestream. I sit down with Jeff Pelletier, king of trail storytelling to discuss the history and the challenges for current version of livestreams and we talk about some ideas on how to move forward. If you''re missing sitting the livestream this week, put this conversation in your ears and head out on run. LINKS Jeff Pelletier''s website Jeff Pelletier on Instagram Jeff Pelletier on Youtube Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 65326573-f1d3-4704-96e2-f55b92950c36
+    episode_slug: 330-where-did-and-does-the-livestream-go-with-jeff-pelletier
+    episode_key: 330-where-did-and-does-the-livestream-go-with-jeff-pelletier
+    legacy_numbered_slug: episode-19
+    episode_page_url: "/singletrack-with-mathias-eichler/330-where-did-and-does-the-livestream-go-with-jeff-pelletier/"
+  - episode_title: '329: ''Through the Lows to the Highs'', with Michael Eaton'
+    episode_url: https://singletrack.fm/ep329/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack329.mp3?dest-id=2901566
+    published_at: '2025-02-28T22:12:00+00:00'
+    description_html: <p>Michael Eaton, Brooks Trailhead store manager and host of the Trail Running Film Festival in Seattle joins me to share his person running journey from cross country in his youth back in Kentucky to this year's training block for OCC in Chamonix. We chat about the challenges of life, the highs and lows that come with that, and the peace that can be found in the dedication to a daily training regiment. Michael also shares some details about the Seattle show of the Trail Running Film Festival. Get your tickets!</p>  LINKS <ul class="wp-block-list"><li><a href= "https://trailfilmfest.com/event/seattle-washington/">TRFF in Seattle</a></li><li><a href= "https://www.brooksrunning.com/en_us/brooks-trailhead/">Brooks Trailhead</a></li><li>Michael Eaton <a href= "https://www.instagram.com/bigcountryeaton/">on Instagram</a></li><li>Michael Eaton <a href= "https://www.strava.com/athletes/3496685">on Strava</a></li><li>Brooks Trailhead <a href= "https://www.instagram.com/brookstrailhead/">on Instagram</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Michael Eaton, Brooks Trailhead store manager and host of the Trail Running Film Festival in Seattle joins me to share his person running journey from cross country in his youth back in Kentucky to this year''s training block for OCC in Chamonix. We chat about the challenges of life, the highs and lows that come with that, and the peace that can be found in the dedication to a daily training regiment. Michael also shares some details about the Seattle show of the Trail Running Film Festival. Get your tickets! LINKS TRFF in Seattle Brooks Trailhead Michael Eaton on Instagram Michael Eaton on Strava Brooks Trailhead on Instagram Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: a448deb8-4658-4197-aaa4-fcad2bd222a8
+    episode_slug: 329-through-the-lows-to-the-highs-with-michael-eaton
+    episode_key: 329-through-the-lows-to-the-highs-with-michael-eaton
+    legacy_numbered_slug: episode-20
+    episode_page_url: "/singletrack-with-mathias-eichler/329-through-the-lows-to-the-highs-with-michael-eaton/"
+  - episode_title: '328: ''Beast Joins the Vert Running Series'', with Scott Sowle'
+    episode_url: https://singletrack.fm/ep328/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack328.mp3?dest-id=2901566
+    published_at: '2025-02-18T22:36:00+00:00'
+    description_html: <p>Exciting announcement incoming! Rock Candy Running's Beast of Big Creek joins the Vert Running Series for the 2025 season. Scott Sowle is on the show to share the news and give us the details. Let the racing season in the PNW kick off!</p>  LINKS <ul class="wp-block-list"><li><a href="http://beastofbigcreek.com/">Beast of Big Creek</a></li><li><a href= "https://mountainrunningraces.com/vert-running-series/">Vert Running Series</a></li><li>Scott Sowle <a href= "https://singletrack.fm/guest/scott-sowle/">on Singletrack</a><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p></li></ul>
+    description_plain: 'Exciting announcement incoming! Rock Candy Running''s Beast of Big Creek joins the Vert Running Series for the 2025 season. Scott Sowle is on the show to share the news and give us the details. Let the racing season in the PNW kick off! LINKS Beast of Big Creek Vert Running Series Scott Sowle on Singletrack Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 985f1f3b-35f0-4d35-9697-ae1a01a86856
+    episode_slug: 328-beast-joins-the-vert-running-series-with-scott-sowle
+    episode_key: 328-beast-joins-the-vert-running-series-with-scott-sowle
+    legacy_numbered_slug: episode-21
+    episode_page_url: "/singletrack-with-mathias-eichler/328-beast-joins-the-vert-running-series-with-scott-sowle/"
+  - episode_title: '327: ''We''re Just Outsiders'', with Alex Bond'
+    episode_url: https://singletrack.fm/ep327/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack327.mp3?dest-id=2901566
+    published_at: '2025-02-13T01:36:00+00:00'
+    description_html: <p>Friend of the show Alex Bond is back and we're chatting about the fate of Outside. The company formerly known as America's best outdoor magazine and now just a shell of itself with lots and lots of tech under the hood. The news about the latest rounds of layoffs paired with the news they are buying another technology provider puzzles us and Alex and I are here to chat about it. This is a requiem of sort.</p> LINKS <ul class="wp-block-list"><li><a href="https://electriccablecar.com/outside-is-done/">Outside is Done?</a></li><li><a href= "https://electriccablecar.com/outside-buys-more-tech/">Outside Buys More Tech</a></li><li>Alex Bond <a href="https://singletrack.fm/guest/alex-bond/">on Singletrack</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'Friend of the show Alex Bond is back and we''re chatting about the fate of Outside. The company formerly known as America''s best outdoor magazine and now just a shell of itself with lots and lots of tech under the hood. The news about the latest rounds of layoffs paired with the news they are buying another technology provider puzzles us and Alex and I are here to chat about it. This is a requiem of sort. LINKS Outside is Done? Outside Buys More Tech Alex Bond on Singletrack Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 2f1a0335-3c07-416c-8e25-29b0bf3b5c7e
+    episode_slug: 327-we-re-just-outsiders-with-alex-bond
+    episode_key: 327-we-re-just-outsiders-with-alex-bond
+    legacy_numbered_slug: episode-22
+    episode_page_url: "/singletrack-with-mathias-eichler/327-we-re-just-outsiders-with-alex-bond/"
+  - episode_title: '326: ''The Race That Has No End'', with Sam Harvey and Harvey Lewis'
+    episode_url: https://singletrack.fm/ep326/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack326.mp3?dest-id=2901566
+    published_at: '2025-02-07T19:14:00+00:00'
+    description_html: '<p>This special episode was made possible through the amazing support from Tailwind Nutrition. Maggie Guterl is back as Singletrack co-host on this second episode of a two-part series dedicated to the wonderful, crazy, and often endlessly long world of Backyard Ultras. This week we chat with Sam Harvey and Harvey Lewis. We take a deeper look at the motivations, strategies and principles that can bring you success at this race format that''s growing in popularity all over the world. Talking to these champions of the sport I find myself in awe of what humans are able to achieve… and I find myself scanning UltraSignup for the nearest Backyard Ultra event.</p><p>Thank you <a href="https://tailwindnutrition.com/">Tailwind</a> for partnering with Singletrack to share the stories of these incredible people of our sport.</p>  LINKS <ul class="wp-block-list"><li>Sam Harvey''s <a href= "https://www.samharveyultra.com/">website</a></li><li>Sam Harvey <a href= "https://www.instagram.com/samharvey_cloudlander/">on Instagram</a></li><li>Harvey Lewis <a href= "https://www.instagram.com/harveylewisultrarunner/">on Instagram</a></li><li>Living Ultra with Harvey and Kelly <a href= "https://www.youtube.com/@HarveyandKelly">on Youtube</a></li><li><a href="https://www.runup4water.com/">RunUp4Water – Kilimanjaro</a></li><li><a href="https://backyardultra.com/">Backyard Ultra</a></li><li><a href="https://tailwindnutrition.com/">Tailwind Nutrition</a></li><li>Part 1: ''<a href= "https://singletrack.fm/ep325/">Believe in What''s Possible''</a>, with Fiona Hayvice and Courtney Dauwalter</li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>'
+    description_plain: 'This special episode was made possible through the amazing support from Tailwind Nutrition. Maggie Guterl is back as Singletrack co-host on this second episode of a two-part series dedicated to the wonderful, crazy, and often endlessly long world of Backyard Ultras. This week we chat with Sam Harvey and Harvey Lewis. We take a deeper look at the motivations, strategies and principles that can bring you success at this race format that''s growing in popularity all over the world. Talking to these champions of the sport I find myself in awe of what humans are able to achieve… and I find myself scanning UltraSignup for the nearest Backyard Ultra event. Thank you Tailwind for partnering with Singletrack to share the stories of these incredible people of our sport. LINKS Sam Harvey''s website Sam Harvey on Instagram Harvey Lewis on Instagram Living Ultra with Harvey and Kelly on Youtube RunUp4Water – Kilimanjaro Backyard Ultra Tailwind Nutrition Part 1: '' Believe in What''s Possible'' , with Fiona Hayvice and Courtney Dauwalter Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: d972dba8-0aea-4d71-947c-37ab3190a8ac
+    episode_slug: 326-the-race-that-has-no-end-with-sam-harvey-and-harvey-lewis
+    episode_key: 326-the-race-that-has-no-end-with-sam-harvey-and-harvey-lewis
+    legacy_numbered_slug: episode-23
+    episode_page_url: "/singletrack-with-mathias-eichler/326-the-race-that-has-no-end-with-sam-harvey-and-harvey-lewis/"
+  - episode_title: '325: ''Believe in What''s Possible'', with Fiona Hayvice and Courtney Dauwalter'
+    episode_url: https://singletrack.fm/ep325/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack325.mp3?dest-id=2901566
+    published_at: '2025-01-29T04:40:00+00:00'
+    description_html: <p>This special episode was made possible through the amazing support from Tailwind Nutrition. Maggie Guterl joins Singletrack as co-host on this first episode of a very special two-part series dedicated to the wonderful, crazy, and often endlessly long world of Backyard Ultras. We bring two champions of the sport, Courtney Dauwalter and Fiona Hayvice to the mic to share insights, strategies, and laughter on how to approach these events, how to master them, and most of all how to have fun at them. Backyard Ultras are popping up everywhere, maybe even nearby where you live, or dare I say, maybe in your backyard?</p><p>Thank you <a href="https://tailwindnutrition.com/">Tailwind</a> for partnering with Singletrack to share the stories of these incredible voices of our sport.</p>  LINKS <ul class="wp-block-list"><li>Fiona Hayvice <a href= "https://www.instagram.com/fionahayvice/">on Instagram</a></li><li>Courtney Dauwalter <a href= "https://www.instagram.com/courtneydauwalter/">on Instagram</a></li><li>M.A.S.H. Backyard Ultra <a href= "https://www.instagram.com/mashbackyardultra">on Instagram</a></li><li><a href="https://backyardultra.com/">Backyard Ultra</a></li><li><a href="https://tailwindnutrition.com/">Tailwind Nutrition</a></li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'This special episode was made possible through the amazing support from Tailwind Nutrition. Maggie Guterl joins Singletrack as co-host on this first episode of a very special two-part series dedicated to the wonderful, crazy, and often endlessly long world of Backyard Ultras. We bring two champions of the sport, Courtney Dauwalter and Fiona Hayvice to the mic to share insights, strategies, and laughter on how to approach these events, how to master them, and most of all how to have fun at them. Backyard Ultras are popping up everywhere, maybe even nearby where you live, or dare I say, maybe in your backyard? Thank you Tailwind for partnering with Singletrack to share the stories of these incredible voices of our sport. LINKS Fiona Hayvice on Instagram Courtney Dauwalter on Instagram M.A.S.H. Backyard Ultra on Instagram Backyard Ultra Tailwind Nutrition Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 34ac0495-c8be-4011-a271-703aec61b459
+    episode_slug: 325-believe-in-what-s-possible-with-fiona-hayvice-and-courtney-dauwalter
+    episode_key: 325-believe-in-what-s-possible-with-fiona-hayvice-and-courtney-dauwalter
+    legacy_numbered_slug: episode-24
+    episode_page_url: "/singletrack-with-mathias-eichler/325-believe-in-what-s-possible-with-fiona-hayvice-and-courtney-dauwalter/"
+  - episode_title: '324: ''The New Generation is Different'', with Francesco Puppi'
+    episode_url: https://singletrack.fm/ep324/
+    audio_url: https://traffic.libsyn.com/secure/sngltrck/singletrack324.mp3?dest-id=2901566
+    published_at: '2025-01-15T03:37:00+00:00'
+    description_html: <p>It's the first episode of 2025 and Francesco Puppi, who needs no introduction, joins me for a candid conversation about the state of the trail running media and it's influence on our sport. We also talk about the message behind Nike's ad for the Olympic Games and how a new generation of athletes are redefining what participating and winning in a sport really means. People like Francesco are why our sport is so incredible special. What a way to kick off the new year!</p>  LINKS <ul class="wp-block-list"><li>Francesco Puppi on <a href= "https://www.instagram.com/francesco.puppi/">Instagram</a></li><li>Francesco Puppi's <a href= "https://francescopuppi.it/">website</a></li><li>That Nike Ad '<a href= "https://about.nike.com/en/newsroom/releases/winning-isnt-for-everyone-campaign">Winning isn't for Everyone</a>'</li></ul><p>Connect with Singletrack on:</p><ul><li><a href="https://singletrack.fm/">Singletrack.fm</a></li><li><a href= "https://www.instagram.com/electric.cable.car">Instagram</a></li></ul><p>Brought to you by <a href= "https://electriccablecar.com/">Electric Cable Car</a> - your trail and mountain news!</p>
+    description_plain: 'It''s the first episode of 2025 and Francesco Puppi, who needs no introduction, joins me for a candid conversation about the state of the trail running media and it''s influence on our sport. We also talk about the message behind Nike''s ad for the Olympic Games and how a new generation of athletes are redefining what participating and winning in a sport really means. People like Francesco are why our sport is so incredible special. What a way to kick off the new year! LINKS Francesco Puppi on Instagram Francesco Puppi''s website That Nike Ad '' Winning isn''t for Everyone '' Connect with Singletrack on: Singletrack.fm Instagram Brought to you by Electric Cable Car - your trail and mountain news!'
+    episode_image_url: ''
+    episode_uid: 03d0b560-ae8b-4c25-8862-dfe37489879f
+    episode_slug: 324-the-new-generation-is-different-with-francesco-puppi
+    episode_key: 324-the-new-generation-is-different-with-francesco-puppi
+    legacy_numbered_slug: episode-25
+    episode_page_url: "/singletrack-with-mathias-eichler/324-the-new-generation-is-different-with-francesco-puppi/"
+  https://feeds.feedburner.com/ivoox/qssg: &97
+  - episode_title: Sweet Home Alabama. Dentro de Mount to Coast, así es el training camp de un equipo élite
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
+    audio_url: https://media.aragonradio.es/2026/06/20260618_08-22_sweet-home-alabama_-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite.mp3?utm_source=applepodcasts
+    published_at: '2026-06-18T22:00:00+02:00'
+    description_html: "<p>La Vila, el proyecto personal de Ragna Debats y Pere Aurell, acogi&oacute; el training camp de Mount to Coast, unas jonadas de team building con el objetivo de fortalecer lazos y crear sentimiento de equipo adem&aacute;s de sesiones de entrenamiento variado y otras de nutrici&oacute;n y recuperaci&oacute;n. En Sweet Home Alabama conocemos c&oacute;mo es el training camp de un equipo &eacute;lite con Nikita Solovuck, Ragna Debats y Mario Olmedo.</p>"
+    description_plain: La Vila, el proyecto personal de Ragna Debats y Pere Aurell, acogi&oacute; el training camp de Mount to Coast, unas jonadas de team building con el objetivo de fortalecer lazos y crear sentimiento de equipo adem&aacute;s de sesiones de entrenamiento variado y otras de nutrici&oacute;n y recuperaci&oacute;n. En Sweet Home Alabama conocemos c&oacute;mo es el training camp de un equipo &eacute;lite con Nikita Solovuck, Ragna Debats y Mario Olmedo.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260618-08-22-sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un
+    episode_slug: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
+    episode_key: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
+    legacy_unicode_slug: sweet-home-alabama-dentro-de-mount-to-coast-así-es-el-training-camp-de-un-equipo-élite
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite/"
+  - episode_title: TERRITORIO TRAIL 08X42 Contando los días para Western States 100
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x42-contando-los-dias-para-western-states-100
+    audio_url: https://media.aragonradio.es/2026/06/20260617_21-59_territorio-trail-08x42-contando-los-dias-para-western-states-100.mp3?utm_source=applepodcasts
+    published_at: '2026-06-17T22:00:00+02:00'
+    description_html: "<p>En la emisi&oacute;n de esta semana de Territorio Trail Ra&uacute;l Garc&iacute;a Cast&aacute;n nos acerca un nuevo volumen de sus autorretrotes, en esta ocasi&oacute;n con Pere Aurell como protagonista. Beatriz Parr&oacute;n repasa su excepcional 2026 hasta el momento, una temporada en la que destacan sus resultados en Transvulcania y Swiss Canyon Trail by Kailas FUGA. Abrimos nuestra ventana mensual al Valle de Tena y finalizamos con un Gerard Morales que cuenta ya los d&iacute;as para su Western States 100.</p>"
+    description_plain: En la emisi&oacute;n de esta semana de Territorio Trail Ra&uacute;l Garc&iacute;a Cast&aacute;n nos acerca un nuevo volumen de sus autorretrotes, en esta ocasi&oacute;n con Pere Aurell como protagonista. Beatriz Parr&oacute;n repasa su excepcional 2026 hasta el momento, una temporada en la que destacan sus resultados en Transvulcania y Swiss Canyon Trail by Kailas FUGA. Abrimos nuestra ventana mensual al Valle de Tena y finalizamos con un Gerard Morales que cuenta ya los d&iacute;as para su Western States 100.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260617-21-59-territorio-trail-08x42-contando-los-dias-para-western-states-100-mp3
+    episode_slug: territorio-trail-08x42-contando-los-dias-para-western-states-100
+    episode_key: territorio-trail-08x42-contando-los-dias-para-western-states-100
+    legacy_unicode_slug: territorio-trail-08x42-contando-los-días-para-western-states-100
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/territorio-trail/territorio-trail-08x42-contando-los-dias-para-western-states-100/"
+  - episode_title: Sweet Home Alabama. El análisis del Campeonato de Europa de trail running
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
+    audio_url: https://media.aragonradio.es/2026/06/20260611_08-31_sweet-home-alabama_-el-analisis-del-campeonato-de-europa-de-trail-running.mp3?utm_source=applepodcasts
+    published_at: '2026-06-11T22:00:00+02:00'
+    description_html: "<p>Espa&ntilde;a firm&oacute; un Campeonato de Europa Off&#8209;Road 2026 sobresaliente, consolid&aacute;ndose como una de las grandes potencias del continente. El oro hist&oacute;rico de Jan Torrella y la plata de Mar&iacute;a La Chica marcaron el punto culminante de un campeonato en el que tambi&eacute;n brillaron el bronce sub&#8209;20 de Sof&iacute;a Rubio y una actuaci&oacute;n coral que permiti&oacute; sumar nueve medallas en total, tres individuales y seis por equipos. El equipo femenino absoluto roz&oacute; el oro en una batalla decidida por detalles, llev&aacute;ndose una plata que sabe a triunfo, mientras que el conjunto masculino logr&oacute; un valioso bronce en un recorrido t&eacute;cnico y exigente en Kamnik. M&aacute;s all&aacute; del Up&amp;Down, Espa&ntilde;a mostr&oacute; profundidad y talento en todas las categor&iacute;as: el equipo femenino sub&#8209;20 a&ntilde;adi&oacute; otra plata, el masculino absoluto volvi&oacute; al podio y la regularidad del grupo dej&oacute; 15 puestos de finalista, confirmando que el proyecto #Espa&ntilde;aAtletismo vive uno de sus momentos m&aacute;s s&oacute;lidos. Un campeonato notable, competitivo y con nombres propios que analizamos a fondo en Sweet Home Alabama junto a Albert Torrent.</p>"
+    description_plain: 'Espa&ntilde;a firm&oacute; un Campeonato de Europa Off&#8209;Road 2026 sobresaliente, consolid&aacute;ndose como una de las grandes potencias del continente. El oro hist&oacute;rico de Jan Torrella y la plata de Mar&iacute;a La Chica marcaron el punto culminante de un campeonato en el que tambi&eacute;n brillaron el bronce sub&#8209;20 de Sof&iacute;a Rubio y una actuaci&oacute;n coral que permiti&oacute; sumar nueve medallas en total, tres individuales y seis por equipos. El equipo femenino absoluto roz&oacute; el oro en una batalla decidida por detalles, llev&aacute;ndose una plata que sabe a triunfo, mientras que el conjunto masculino logr&oacute; un valioso bronce en un recorrido t&eacute;cnico y exigente en Kamnik. M&aacute;s all&aacute; del Up&amp;Down, Espa&ntilde;a mostr&oacute; profundidad y talento en todas las categor&iacute;as: el equipo femenino sub&#8209;20 a&ntilde;adi&oacute; otra plata, el masculino absoluto volvi&oacute; al podio y la regularidad del grupo dej&oacute; 15 puestos de finalista, confirmando que el proyecto #Espa&ntilde;aAtletismo vive uno de sus momentos m&aacute;s s&oacute;lidos. Un campeonato notable, competitivo y con nombres propios que analizamos a fondo en Sweet Home Alabama junto a Albert Torrent.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260611-08-31-sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running-
+    episode_slug: sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
+    episode_key: sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
+    legacy_unicode_slug: sweet-home-alabama-el-análisis-del-campeonato-de-europa-de-trail-running
+    legacy_numbered_slug: episode-03
+    episode_page_url: "/territorio-trail/sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running/"
+  - episode_title: TERRITORIO TRAIL 08X41 Apuesta doble en Badwater 135
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x41-apuesta-doble-en-badwater-135
+    audio_url: https://media.aragonradio.es/2026/06/20260610_21-34_territorio-trail-08x41-apuesta-doble-en-badwater-135.mp3?utm_source=applepodcasts
+    published_at: '2026-06-10T21:45:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail Iv&aacute;n Penalba y Carmen P&eacute;rez nos avanzan el estado de su preparaci&oacute;n ante la Badwater 135 del pr&oacute;ximo julio, que en esta ocasi&oacute;n afrontar&aacute;n en equipo. Ra&uacute;l Garc&iacute;a Cast&aacute;n regresa a los micr&oacute;fonos para seguir contando la historia del trail en Espa&ntilde;a en Autorretrotes. Presentamos el Fuga Mountain Club, la comunidad de corredores y corredoras que crece temporada tras temporada, realizamos la previa del Gran Marat&oacute;n Monta&ntilde;as de Benasque y finalizamos en Alqu&eacute;zar con la actualidad del Ultra Trail Guara Somontano.</p>"
+    description_plain: Esta semana en Territorio Trail Iv&aacute;n Penalba y Carmen P&eacute;rez nos avanzan el estado de su preparaci&oacute;n ante la Badwater 135 del pr&oacute;ximo julio, que en esta ocasi&oacute;n afrontar&aacute;n en equipo. Ra&uacute;l Garc&iacute;a Cast&aacute;n regresa a los micr&oacute;fonos para seguir contando la historia del trail en Espa&ntilde;a en Autorretrotes. Presentamos el Fuga Mountain Club, la comunidad de corredores y corredoras que crece temporada tras temporada, realizamos la previa del Gran Marat&oacute;n Monta&ntilde;as de Benasque y finalizamos en Alqu&eacute;zar con la actualidad del Ultra Trail Guara Somontano.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260610-21-34-territorio-trail-08x41-apuesta-doble-en-badwater-135-mp3
+    episode_slug: territorio-trail-08x41-apuesta-doble-en-badwater-135
+    episode_key: territorio-trail-08x41-apuesta-doble-en-badwater-135
+    legacy_numbered_slug: episode-04
+    episode_page_url: "/territorio-trail/territorio-trail-08x41-apuesta-doble-en-badwater-135/"
+  - episode_title: Sweet Home Alabama. La WOP Challenge de Territorio Trail
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-la-wop-challenge-de-territorio-trail
+    audio_url: https://media.aragonradio.es/2026/06/20260604_07-50_sweet-home-alabama_-la-wop-challenge-de-territorio-trail.mp3?utm_source=applepodcasts
+    published_at: '2026-06-04T22:00:00+02:00'
+    description_html: "<p>Participar en la WOP Challenge Zaragoza ha sido, para un equipo de Territorio Trail Media con Trangoworld y Salomon, algo m&aacute;s que participar en un evento solidario: ha sido reconocerse en aquello que siempre ha movido al proyecto desde sus inicios. Caminar y correr por una causa que trasciende el deporte conecta con la esencia del trail como territorio de comunidad, de compromiso y de historias que merecen ser contadas. La WOP Challenge no solo te pone en movimiento; te recuerda por qu&eacute; lo haces, qu&eacute; te une al resto del equipo y qu&eacute; significa formar parte de un medio que vive el deporte desde dentro, no como espectadores sino como parte activa del camino. En ese sentido, la experiencia se convierte en un recordatorio de identidad: de c&oacute;mo Territorio Trail Media entiende el deporte como un espacio donde la solidaridad y la resistencia van de la mano, donde cada kil&oacute;metro suma para algo m&aacute;s grande que uno mismo. Repasamos la WOP Challenge de Territorio Trail con Laura P&eacute;rez y Rafa Naud&iacute;n.</p>"
+    description_plain: 'Participar en la WOP Challenge Zaragoza ha sido, para un equipo de Territorio Trail Media con Trangoworld y Salomon, algo m&aacute;s que participar en un evento solidario: ha sido reconocerse en aquello que siempre ha movido al proyecto desde sus inicios. Caminar y correr por una causa que trasciende el deporte conecta con la esencia del trail como territorio de comunidad, de compromiso y de historias que merecen ser contadas. La WOP Challenge no solo te pone en movimiento; te recuerda por qu&eacute; lo haces, qu&eacute; te une al resto del equipo y qu&eacute; significa formar parte de un medio que vive el deporte desde dentro, no como espectadores sino como parte activa del camino. En ese sentido, la experiencia se convierte en un recordatorio de identidad: de c&oacute;mo Territorio Trail Media entiende el deporte como un espacio donde la solidaridad y la resistencia van de la mano, donde cada kil&oacute;metro suma para algo m&aacute;s grande que uno mismo. Repasamos la WOP Challenge de Territorio Trail con Laura P&eacute;rez y Rafa Naud&iacute;n.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260604-07-50-sweet-home-alabama-la-wop-challenge-de-territorio-trail-mp3
+    episode_slug: sweet-home-alabama-la-wop-challenge-de-territorio-trail
+    episode_key: sweet-home-alabama-la-wop-challenge-de-territorio-trail
+    legacy_numbered_slug: episode-05
+    episode_page_url: "/territorio-trail/sweet-home-alabama-la-wop-challenge-de-territorio-trail/"
+  - episode_title: TERRITORIO TRAIL 08X40 Entrenar a la élite del trailrunning
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
+    audio_url: https://media.aragonradio.es/2026/06/20260603_22-04_territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning.mp3?utm_source=applepodcasts
+    published_at: '2026-06-03T22:04:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail Agust&iacute;n Luj&aacute;n explica c&oacute;mo es entrenar a corredores TOP y de qu&eacute; forma transmite su propia experiencia en la &eacute;lite del trail. Azara Garc&iacute;a resume su participaci&oacute;n en la Swiss Canyon Trail by Kailas Fugas, Nikola Matkova comparte sus sensaciones tras un excepcional inicio de temporada, Rosa Lara comparte c&oacute;mo est&aacute;n siendo sus primeros meses de embarazo y de qu&eacute; forma ha tenido que modificar su temporada y finalizamos con los detalles del Fuga Gran Trail Pe&ntilde;alara que empieza ya a descontar d&iacute;as.</p>"
+    description_plain: Esta semana en Territorio Trail Agust&iacute;n Luj&aacute;n explica c&oacute;mo es entrenar a corredores TOP y de qu&eacute; forma transmite su propia experiencia en la &eacute;lite del trail. Azara Garc&iacute;a resume su participaci&oacute;n en la Swiss Canyon Trail by Kailas Fugas, Nikola Matkova comparte sus sensaciones tras un excepcional inicio de temporada, Rosa Lara comparte c&oacute;mo est&aacute;n siendo sus primeros meses de embarazo y de qu&eacute; forma ha tenido que modificar su temporada y finalizamos con los detalles del Fuga Gran Trail Pe&ntilde;alara que empieza ya a descontar d&iacute;as.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260603-22-04-territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning-mp3
+    episode_slug: territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
+    episode_key: territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
+    legacy_unicode_slug: territorio-trail-08x40-entrenar-a-la-élite-del-trailrunning
+    legacy_numbered_slug: episode-06
+    episode_page_url: "/territorio-trail/territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning/"
+  - episode_title: Sweet Home Alabama. Ultra Trail Torla‑Ordesa, la esencia de Ordesa en un ultratrail
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
+    audio_url: https://media.aragonradio.es/2026/05/20260528_07-33_sweet-home-alabama_-ultra-trail-torlaordesa-la-esencia-de-ordesa-en-un-ultratrail.mp3?utm_source=applepodcasts
+    published_at: '2026-05-28T22:00:00+02:00'
+    description_html: "<p>El Ultra Trail Torla&#8209;Ordesa es, desde hace a&ntilde;os, una de las citas m&aacute;s emblem&aacute;ticas del Pirineo aragon&eacute;s: un evento que naci&oacute; para mostrar la belleza del Parque Nacional de Ordesa y Monte Perdido y que hoy re&uacute;ne a corredores de todos los niveles en un entorno que combina historia, t&eacute;cnica y naturaleza salvaje. Sus recorridos &mdash;desde la Ultra de Tende&ntilde;era hasta la Vuelta al Cebollar, pasando por el KV Ara&ntilde;onera o la popular Os Foratos de Lomenas&mdash; dibujan un mapa perfecto del valle: hayedos, ibones, crestas alpinas y senderos que han visto crecer al trail running en Arag&oacute;n. La prueba mantiene intacto su esp&iacute;ritu: abrir Ordesa al corredor y convertir cada edici&oacute;n en un homenaje al territorio. La carrera ha consolidado una alianza natural con Trangoworld, marca aragonesa de referencia en monta&ntilde;a y aventura. Su patrocinio no es solo un apoyo econ&oacute;mico: es una declaraci&oacute;n de identidad. Trangoworld ha integrado la UTTO dentro de su calendario de pruebas ic&oacute;nicas &mdash;junto al Gran Trail Trangoworld Aneto&#8209;Posets o la Sierras del Bandolero&mdash; y ha contribuido a reforzar la imagen de Torla&#8209;Ordesa como destino de trail running de primer nivel. El Ultra Trail Torla&#8209;Ordesa es protagonista en Sweet Home Alabama con Elena Valbuena, Marketing Manager de Trangoworld, Emilio Mompel, CEO de la marca aragonesa, y Sergio Hern&aacute;ndez, miembro del Equipo Trangoworld 2026.</p>"
+    description_plain: 'El Ultra Trail Torla&#8209;Ordesa es, desde hace a&ntilde;os, una de las citas m&aacute;s emblem&aacute;ticas del Pirineo aragon&eacute;s: un evento que naci&oacute; para mostrar la belleza del Parque Nacional de Ordesa y Monte Perdido y que hoy re&uacute;ne a corredores de todos los niveles en un entorno que combina historia, t&eacute;cnica y naturaleza salvaje. Sus recorridos &mdash;desde la Ultra de Tende&ntilde;era hasta la Vuelta al Cebollar, pasando por el KV Ara&ntilde;onera o la popular Os Foratos de Lomenas&mdash; dibujan un mapa perfecto del valle: hayedos, ibones, crestas alpinas y senderos que han visto crecer al trail running en Arag&oacute;n. La prueba mantiene intacto su esp&iacute;ritu: abrir Ordesa al corredor y convertir cada edici&oacute;n en un homenaje al territorio. La carrera ha consolidado una alianza natural con Trangoworld, marca aragonesa de referencia en monta&ntilde;a y aventura. Su patrocinio no es solo un apoyo econ&oacute;mico: es una declaraci&oacute;n de identidad. Trangoworld ha integrado la UTTO dentro de su calendario de pruebas ic&oacute;nicas &mdash;junto al Gran Trail Trangoworld Aneto&#8209;Posets o la Sierras del Bandolero&mdash; y ha contribuido a reforzar la imagen de Torla&#8209;Ordesa como destino de trail running de primer nivel. El Ultra Trail Torla&#8209;Ordesa es protagonista en Sweet Home Alabama con Elena Valbuena, Marketing Manager de Trangoworld, Emilio Mompel, CEO de la marca aragonesa, y Sergio Hern&aacute;ndez, miembro del Equipo Trangoworld 2026.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260528-07-33-sweet-home-alabama-ultra-trail-torlaordesa-la-esencia-de-ordesa-en-un-ult
+    episode_slug: sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
+    episode_key: sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
+    legacy_numbered_slug: episode-07
+    episode_page_url: "/territorio-trail/sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail/"
+  - episode_title: TERRITORIO TRAIL 08X39 Swiss Canyon Trail by Kailas Fuga, el emblemático ultratrail para descubrir el Jura
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
+    audio_url: https://media.aragonradio.es/2026/05/20260527_20-15_territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura.mp3?utm_source=applepodcasts
+    published_at: '2026-05-27T22:00:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail descubrimos el Swiss Canyon Trail by Kailas Fuga, una prueba nacida en 1994 que ya es un emblema del Jura suizo, que se celebra este fin de semana y en la que participar&aacute; Azara Garc&iacute;a, que comparte sus motivaciones para estar en la l&iacute;nea de salida. Realizamos la previa completa de la WOP Challenge Zaragoza, la prueba solidaria en la que participar&aacute; un equipo de Territorio Trail Media. Avanzamos todas las novedades de un Marat&oacute; dels Dements para el que ofrecemos la oportunidad de participar sorteando un dorsal, presentamos el circuito de tres pruebas de trailrunning de Fartleck Sport  y finalizamos con una de las cl&aacute;sicas del calendario aragon&eacute;s, la Carrera Boca del Infierno.</p>"
+    description_plain: Esta semana en Territorio Trail descubrimos el Swiss Canyon Trail by Kailas Fuga, una prueba nacida en 1994 que ya es un emblema del Jura suizo, que se celebra este fin de semana y en la que participar&aacute; Azara Garc&iacute;a, que comparte sus motivaciones para estar en la l&iacute;nea de salida. Realizamos la previa completa de la WOP Challenge Zaragoza, la prueba solidaria en la que participar&aacute; un equipo de Territorio Trail Media. Avanzamos todas las novedades de un Marat&oacute; dels Dements para el que ofrecemos la oportunidad de participar sorteando un dorsal, presentamos el circuito de tres pruebas de trailrunning de Fartleck Sport y finalizamos con una de las cl&aacute;sicas del calendario aragon&eacute;s, la Carrera Boca del Infierno.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260527-20-15-territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-u
+    episode_slug: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
+    episode_key: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
+    legacy_unicode_slug: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblemático-ultratrail-para-descubrir-el-jura
+    legacy_numbered_slug: episode-08
+    episode_page_url: "/territorio-trail/territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura/"
+  - episode_title: Sweet Home Alabama. Mujeres y ultratrail, cuando la carrera supera lo razonable, ellas pueden ser mejores
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
+    audio_url: https://media.aragonradio.es/2026/05/20260521_08-46_sweet-home-alabama_-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores.mp3?utm_source=applepodcasts
+    published_at: '2026-05-21T22:00:00+02:00'
+    description_html: "<p>Las mujeres han demostrado un rendimiento excepcional en el ultratrail, especialmente en distancias largas donde la gesti&oacute;n del esfuerzo, la eficiencia energ&eacute;tica y la estabilidad emocional pesan m&aacute;s que la velocidad pura. En pruebas de m&aacute;s de 200 millas, los datos muestran que muchas corredoras mantienen ritmos m&aacute;s constantes, duermen menos y toleran mejor la fatiga acumulada, lo que les permite competir &mdash;y a veces dominar&mdash; en la clasificaci&oacute;n absoluta. Casos como Courtney Dauwalter en Moab 240 o Rachel Entrekin en Cocodona 250 no son anomal&iacute;as: son la punta visible de un patr&oacute;n fisiol&oacute;gico y mental que se repite. M&aacute;s all&aacute; de los resultados, el fen&oacute;meno revela una evoluci&oacute;n cultural dentro del ultratrail. Las mujeres no solo est&aacute;n ganando carreras, sino redefiniendo la narrativa del deporte: regularidad frente a explosividad, estrategia frente a impulsividad, resistencia emocional frente al desgaste. En un terreno donde la cabeza manda m&aacute;s que las piernas, las mujeres han demostrado que la frontera entre categor&iacute;as se difumina cuando el reloj supera las 40, 50 o 60 horas de esfuerzo continuo. En Sweet Home Alabama tratamos las claves del rendimiento de las mujeres en el ultratrail con Silvia Puigarnau y Eva Arguedas.</p>"
+    description_plain: 'Las mujeres han demostrado un rendimiento excepcional en el ultratrail, especialmente en distancias largas donde la gesti&oacute;n del esfuerzo, la eficiencia energ&eacute;tica y la estabilidad emocional pesan m&aacute;s que la velocidad pura. En pruebas de m&aacute;s de 200 millas, los datos muestran que muchas corredoras mantienen ritmos m&aacute;s constantes, duermen menos y toleran mejor la fatiga acumulada, lo que les permite competir &mdash;y a veces dominar&mdash; en la clasificaci&oacute;n absoluta. Casos como Courtney Dauwalter en Moab 240 o Rachel Entrekin en Cocodona 250 no son anomal&iacute;as: son la punta visible de un patr&oacute;n fisiol&oacute;gico y mental que se repite. M&aacute;s all&aacute; de los resultados, el fen&oacute;meno revela una evoluci&oacute;n cultural dentro del ultratrail. Las mujeres no solo est&aacute;n ganando carreras, sino redefiniendo la narrativa del deporte: regularidad frente a explosividad, estrategia frente a impulsividad, resistencia emocional frente al desgaste. En un terreno donde la cabeza manda m&aacute;s que las piernas, las mujeres han demostrado que la frontera entre categor&iacute;as se difumina cuando el reloj supera las 40, 50 o 60 horas de esfuerzo continuo. En Sweet Home Alabama tratamos las claves del rendimiento de las mujeres en el ultratrail con Silvia Puigarnau y Eva Arguedas.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260521-08-46-sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razon
+    episode_slug: sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
+    episode_key: sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
+    legacy_numbered_slug: episode-09
+    episode_page_url: "/territorio-trail/sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores/"
+  - episode_title: TERRITORIO TRAIL 08X38 Un mes para la Western States 100 más esperada
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
+    audio_url: https://media.aragonradio.es/2026/05/20260520_21-48_territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada.mp3?utm_source=applepodcasts
+    published_at: '2026-05-20T22:00:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail analizamos los nombres m&aacute;s destacadados, adem&aacute;s de nuestro Gerard Morales, que estar&aacute;n en la l&iacute;nea de salida de la Western States 100 a un mes de su celebraci&oacute;n, presentamos la nueva APP de nutrici&oacute;n de Chema Arguedas con c&aacute;lculos en tiempo real. A un mes de su celebraci&oacute;n avanzamos los detalles del Sesaf&iacute;o Somiedo 2026 y finalizamos hablando de Hike &amp; Fly en el Valle de Tena y con la secci&oacute;n de entrenamiento de Gema Quiroga.</p>"
+    description_plain: Esta semana en Territorio Trail analizamos los nombres m&aacute;s destacadados, adem&aacute;s de nuestro Gerard Morales, que estar&aacute;n en la l&iacute;nea de salida de la Western States 100 a un mes de su celebraci&oacute;n, presentamos la nueva APP de nutrici&oacute;n de Chema Arguedas con c&aacute;lculos en tiempo real. A un mes de su celebraci&oacute;n avanzamos los detalles del Sesaf&iacute;o Somiedo 2026 y finalizamos hablando de Hike &amp; Fly en el Valle de Tena y con la secci&oacute;n de entrenamiento de Gema Quiroga.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260520-21-48-territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada-mp3
+    episode_slug: territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
+    episode_key: territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
+    legacy_unicode_slug: territorio-trail-08x38-un-mes-para-la-western-states-100-más-esperada
+    legacy_numbered_slug: episode-10
+    episode_page_url: "/territorio-trail/territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada/"
+  - episode_title: Sweet Home Alabama. Corredora, la película que plasma la presión competitiva, la salud mental y la obsesión por el rendimiento
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rend
+    audio_url: https://media.aragonradio.es/2026/05/20260514_07-46_sweet-home-alabama_-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimiento.mp3?utm_source=applepodcasts
+    published_at: '2026-05-14T22:00:00+02:00'
+    description_html: <p>Sweet Home Alabama. Corredora, la pel&iacute;cula que plasma la presi&oacute;n competitiva, la salud mental y la obsesi&oacute;n por el rendimientoCorredora es la brillante &oacute;pera prima de Laura Garc&iacute;a Alonso. La pel&iacute;cula, que se estrena el 29 de mayo tras su paso por el Festival de M&aacute;laga, sigue a una atleta de fondo que, en plena preparaci&oacute;n para una competici&oacute;n decisiva, comienza a enfrentarse a una serie de obst&aacute;culos que ponen en duda su capacidad para continuar. A medida que avanza la trama, la pel&iacute;cula explora temas como la presi&oacute;n competitiva, la salud mental y la obsesi&oacute;n por el rendimiento, construyendo un retrato complejo del mundo del deporte de &eacute;lite. Un retrato emp&aacute;tico de la salud mental y la autoexigencia y de una lesi&oacute;n invisible. En el deporte, una lesi&oacute;n f&iacute;sica convencional acaba con la carrera de un deportista, pero la ps&iacute;quica es algo muy complejo de asimilar. Laura Garc&iacute;a Alonso presenta "Corredora" en Sweet Home Alabama de Territorio Trail y comparte las claves de la pel&iacute;cula y las motivaciones que le llevarona poner en marcha el proyecto. Un programa en el que tambi&eacute;n nos acompa&ntilde;a nuestro psic&oacute;logo colaborador habitual, Rub&eacute;n Sarvis&eacute;.</p>
+    description_plain: Sweet Home Alabama. Corredora, la pel&iacute;cula que plasma la presi&oacute;n competitiva, la salud mental y la obsesi&oacute;n por el rendimientoCorredora es la brillante &oacute;pera prima de Laura Garc&iacute;a Alonso. La pel&iacute;cula, que se estrena el 29 de mayo tras su paso por el Festival de M&aacute;laga, sigue a una atleta de fondo que, en plena preparaci&oacute;n para una competici&oacute;n decisiva, comienza a enfrentarse a una serie de obst&aacute;culos que ponen en duda su capacidad para continuar. A medida que avanza la trama, la pel&iacute;cula explora temas como la presi&oacute;n competitiva, la salud mental y la obsesi&oacute;n por el rendimiento, construyendo un retrato complejo del mundo del deporte de &eacute;lite. Un retrato emp&aacute;tico de la salud mental y la autoexigencia y de una lesi&oacute;n invisible. En el deporte, una lesi&oacute;n f&iacute;sica convencional acaba con la carrera de un deportista, pero la ps&iacute;quica es algo muy complejo de asimilar. Laura Garc&iacute;a Alonso presenta "Corredora" en Sweet Home Alabama de Territorio Trail y comparte las claves de la pel&iacute;cula y las motivaciones que le llevarona poner en marcha el proyecto. Un programa en el que tambi&eacute;n nos acompa&ntilde;a nuestro psic&oacute;logo colaborador habitual, Rub&eacute;n Sarvis&eacute;.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260514-07-46-sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiv
+    episode_slug: sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie
+    episode_key: sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie
+    legacy_unicode_slug: sweet-home-alabama-corredora-la-película-que-plasma-la-presión-competitiva-la-salud-mental-y-la-obsesión-por-el-rendimie
+    legacy_numbered_slug: episode-11
+    episode_page_url: "/territorio-trail/sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie/"
+  - episode_title: TERRITORIO TRAIL 08X37 La Zegama Aizkorri que puede encumbrar a Tove Alexandersson
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
+    audio_url: https://media.aragonradio.es/2026/05/20260513_22-09_territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson.mp3?utm_source=applepodcasts
+    published_at: '2026-05-13T22:09:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail realizamos la previa completa de la Zegama Aizkorri, con los principales favoritos y favoritas y nos focalizamos con Biel Rafols en Tove Alexandersson y sus posibilidades de hacer saltar la banca en la prueba. Lucas A&iacute;sa comparte su experiencia en la Perimetrail de Arguis, resumimos la Domusa Teknik 40 MLK, Carlos Ultrarun presenta la agenda de Zitoway para esta temporada y finalizamos con la secci&oacute;n Brit Trail y la actualidad del trail running en Gran Breta&ntilde;a.</p>"
+    description_plain: Esta semana en Territorio Trail realizamos la previa completa de la Zegama Aizkorri, con los principales favoritos y favoritas y nos focalizamos con Biel Rafols en Tove Alexandersson y sus posibilidades de hacer saltar la banca en la prueba. Lucas A&iacute;sa comparte su experiencia en la Perimetrail de Arguis, resumimos la Domusa Teknik 40 MLK, Carlos Ultrarun presenta la agenda de Zitoway para esta temporada y finalizamos con la secci&oacute;n Brit Trail y la actualidad del trail running en Gran Breta&ntilde;a.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260513-22-09-territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alex
+    episode_slug: territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
+    episode_key: territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
+    legacy_numbered_slug: episode-12
+    episode_page_url: "/territorio-trail/territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson/"
+  - episode_title: Sweet Home Alabama. ¿Dónde está el límite de Oriol Antolí?
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
+    audio_url: https://media.aragonradio.es/2026/05/20260507_07-33_sweet-home-alabama_-donde-esta-el-limite-de-oriol-antoli.mp3?utm_source=applepodcasts
+    published_at: '2026-05-07T22:00:00+02:00'
+    description_html: "<p>Lo ha vuelto a hacer. Oriol Antol&iacute;, una vez m&aacute;s, ha superado todos los l&iacute;mites, los mismos que &eacute;l mismo impone en cada participaci&oacute;n en una Backyard. Lo hizo en el mundial de 2023, marc&oacute; un registro casi insuperable en la Backyard Ultra Dead Cow Gully australiana, lo mejor&oacute; en el mundial del 2025 y ahora, en la Belgium Legends Backyard Ultra lo ha destrozado y se ha pasado definitivamente el juego. 113 vueltas, 757,74 kil&oacute;metros y m&aacute;s de 90 horas en movimiento son las cifras con los que vuelve a entrar en la historia. Lo que ocurri&oacute; en Retie no es solo un r&eacute;cord. Es un punto de inflexi&oacute;n. Es una gesta que quedar&aacute; en la memoria colectiva de este deporte y deja una imagen que resume su esencia: la de un corredor que, despu&eacute;s de 758 kil&oacute;metros, se sienta, sonr&iacute;e&hellip; y parece estar pensando en la siguiente vuelta. Oriol Antol&iacute; resume en Sweet Home Alabama su partipaci&oacute;n, explica su mejora constante en la distancia, la adaptaci&oacute;n y estrategia a la prueba y c&oacute;mo es la relaci&oacute;n con sus rivales, en un programa en el que tambi&eacute;n interviene Nikita Solovykh, Marketing Manager de Mount to Coast, la marca de zapatillas que utiliza Oriol.</p>"
+    description_plain: 'Lo ha vuelto a hacer. Oriol Antol&iacute;, una vez m&aacute;s, ha superado todos los l&iacute;mites, los mismos que &eacute;l mismo impone en cada participaci&oacute;n en una Backyard. Lo hizo en el mundial de 2023, marc&oacute; un registro casi insuperable en la Backyard Ultra Dead Cow Gully australiana, lo mejor&oacute; en el mundial del 2025 y ahora, en la Belgium Legends Backyard Ultra lo ha destrozado y se ha pasado definitivamente el juego. 113 vueltas, 757,74 kil&oacute;metros y m&aacute;s de 90 horas en movimiento son las cifras con los que vuelve a entrar en la historia. Lo que ocurri&oacute; en Retie no es solo un r&eacute;cord. Es un punto de inflexi&oacute;n. Es una gesta que quedar&aacute; en la memoria colectiva de este deporte y deja una imagen que resume su esencia: la de un corredor que, despu&eacute;s de 758 kil&oacute;metros, se sienta, sonr&iacute;e&hellip; y parece estar pensando en la siguiente vuelta. Oriol Antol&iacute; resume en Sweet Home Alabama su partipaci&oacute;n, explica su mejora constante en la distancia, la adaptaci&oacute;n y estrategia a la prueba y c&oacute;mo es la relaci&oacute;n con sus rivales, en un programa en el que tambi&eacute;n interviene Nikita Solovykh, Marketing Manager de Mount to Coast, la marca de zapatillas que utiliza Oriol.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260507-07-33-sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli-mp3
+    episode_slug: sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
+    episode_key: sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
+    legacy_unicode_slug: sweet-home-alabama-dónde-está-el-límite-de-oriol-antolí
+    legacy_numbered_slug: episode-13
+    episode_page_url: "/territorio-trail/sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli/"
+  - episode_title: TERRITORIO TRAIL 08X36 El imparable ascenso de la Domusa Teknik 40 MLK
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
+    audio_url: https://media.aragonradio.es/2026/05/20260506_21-50_territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk.mp3?utm_source=applepodcasts
+    published_at: '2026-05-06T22:00:00+02:00'
+    description_html: "<p>En emisi&oacute;n de esta semana de Territorio Trail nos desplazamos a Azpeitia para la previa de la Domusa Teknik 40 MLK, analizando un imparable ascenso que la ha llevado a convertirse en una de las mejores pruebas del calendario en s&oacute;lo cinco a&ntilde;os. Presentamos la Marcha de los Tres Ibones, que regresa en junio como un referente del Pirineo. Lucas A&iacute;sa comparte sus sensaciones antes de enfrentarse a la Perimetrail de Arguis, la 3 Cims de Villafames es la protagonista de nuestras Peque&ntilde;as Grandes Carreras y finalizamos con el resumen del Trail Menorca Cam&iacute; de Cavalls</p>"
+    description_plain: En emisi&oacute;n de esta semana de Territorio Trail nos desplazamos a Azpeitia para la previa de la Domusa Teknik 40 MLK, analizando un imparable ascenso que la ha llevado a convertirse en una de las mejores pruebas del calendario en s&oacute;lo cinco a&ntilde;os. Presentamos la Marcha de los Tres Ibones, que regresa en junio como un referente del Pirineo. Lucas A&iacute;sa comparte sus sensaciones antes de enfrentarse a la Perimetrail de Arguis, la 3 Cims de Villafames es la protagonista de nuestras Peque&ntilde;as Grandes Carreras y finalizamos con el resumen del Trail Menorca Cam&iacute; de Cavalls
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-05-20260506-21-50-territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk-mp
+    episode_slug: territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
+    episode_key: territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
+    legacy_numbered_slug: episode-14
+    episode_page_url: "/territorio-trail/territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk/"
+  - episode_title: Sweet Home Alabama. El fulgurante inicio de temporada del Equipo Trangoworld
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
+    audio_url: https://media.aragonradio.es/2026/04/20260430_07-53_sweet-home-alabama_-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld.mp3?utm_source=applepodcasts
+    published_at: '2026-04-30T22:00:00+02:00'
+    description_html: "<p>Trangoworld comenz&oacute; el 2026 reforzando su apuesta por el trailrunning. Un proyecto s&oacute;lido que mezcla experiencia y juventud  que busca, m&aacute;s all&aacute; de la imagen de marca, tambi&eacute;n resultados y podios. La filosof&iacute;a sigue siendo clara: explorar, competir y disfrutar pero a la vez luchar con las mejores y los mejores del panorama nacional e internacional, con presencia en las pruebas m&aacute;s importantes del calendario. Formado por David Prades, Ra&uacute;l Garc&iacute;a-Cast&aacute;n, Aitor Pulgar&iacute;n, Elena Pueyo, Ivan Calv&oacute;, Mariona &Agrave;vila, Oriol Saborit, Patricia Villanueva y Sergio Hern&aacute;ndez, os resultados en esta primera parte de la temporada est&aacute;n refrendado el proyecto. En Sweet Home Alabama analizamos el fulgurante inicio de temporada del Equipo Trangoworld con Elena Valbuena, Marketing Manager de Trangowold, y dos de sus componentes, que vienen ya de cosechar triunfos en este 2026, Aitor Pulgar&iacute;n e Iv&aacute;n Calv&oacute;.</p>"
+    description_plain: 'Trangoworld comenz&oacute; el 2026 reforzando su apuesta por el trailrunning. Un proyecto s&oacute;lido que mezcla experiencia y juventud que busca, m&aacute;s all&aacute; de la imagen de marca, tambi&eacute;n resultados y podios. La filosof&iacute;a sigue siendo clara: explorar, competir y disfrutar pero a la vez luchar con las mejores y los mejores del panorama nacional e internacional, con presencia en las pruebas m&aacute;s importantes del calendario. Formado por David Prades, Ra&uacute;l Garc&iacute;a-Cast&aacute;n, Aitor Pulgar&iacute;n, Elena Pueyo, Ivan Calv&oacute;, Mariona &Agrave;vila, Oriol Saborit, Patricia Villanueva y Sergio Hern&aacute;ndez, os resultados en esta primera parte de la temporada est&aacute;n refrendado el proyecto. En Sweet Home Alabama analizamos el fulgurante inicio de temporada del Equipo Trangoworld con Elena Valbuena, Marketing Manager de Trangowold, y dos de sus componentes, que vienen ya de cosechar triunfos en este 2026, Aitor Pulgar&iacute;n e Iv&aacute;n Calv&oacute;.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260430-07-53-sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangowor
+    episode_slug: sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
+    episode_key: sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
+    legacy_numbered_slug: episode-15
+    episode_page_url: "/territorio-trail/sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld/"
+  - episode_title: TERRITORIO TRAIL 08X35 Todo lo que siempre quisiste saber para cuidar tus bastones de trail
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
+    audio_url: https://media.aragonradio.es/2026/04/20260429_21-56_territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail.mp3?utm_source=applepodcasts
+    published_at: '2026-04-29T21:45:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail te compartimos las claves para un correcto cuidado de los bastones de trail con Luis Fortun, responsable de producto de Leki en Espa&ntilde;a. Realizamos la previa completa del Trail Menorca Cam&igrave; de Cavalls, la gran cita del fin de semana. La secci&oacute;n Peque&ntilde;as Grandes Carreras est&aacute; dedicada a la Tastavins Trail, volvemos a Benasque para conocer las &uacute;ltimas novedades del Gran Marat&oacute;n Monta&ntilde;as de Benasque y finalizamos comenzando la cuenta atr&aacute;s de la WOP Challenge Zaragoza, para la que falta un mes.</p>"
+    description_plain: Esta semana en Territorio Trail te compartimos las claves para un correcto cuidado de los bastones de trail con Luis Fortun, responsable de producto de Leki en Espa&ntilde;a. Realizamos la previa completa del Trail Menorca Cam&igrave; de Cavalls, la gran cita del fin de semana. La secci&oacute;n Peque&ntilde;as Grandes Carreras est&aacute; dedicada a la Tastavins Trail, volvemos a Benasque para conocer las &uacute;ltimas novedades del Gran Marat&oacute;n Monta&ntilde;as de Benasque y finalizamos comenzando la cuenta atr&aacute;s de la WOP Challenge Zaragoza, para la que falta un mes.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260429-21-56-territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus
+    episode_slug: territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
+    episode_key: territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
+    legacy_numbered_slug: episode-16
+    episode_page_url: "/territorio-trail/territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail/"
+  - episode_title: Sweet Home Alabama. Dentro de Puerto Vallarta by UTMB
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
+    audio_url: https://media.aragonradio.es/2026/04/20260421_07-56_sweet-home-alabama_-dentro-de-puerto-vallarta-by-utmb.mp3?utm_source=applepodcasts
+    published_at: '2026-04-23T22:00:00+02:00'
+    description_html: "<p>Puerto Vallarta by UTMB se ha consolidado como la gran cita del trail running en el Pac&iacute;fico mexicano, un punto donde la Sierra Madre Occidental se precipita hacia el oc&eacute;ano y crea un escenario &uacute;nico para correr. La edici&oacute;n 2026 reuni&oacute; a m&aacute;s de 1.800 corredores en sus cinco distancias que atraviesan selva tropical, plantaciones de agave, pueblos y crestas h&uacute;medas antes de desembocar en la meta del Malec&oacute;n, uno de los finales m&aacute;s ic&oacute;nicos del circuito UTMB&reg; World Series. Una edici&oacute;n que vivimos en primera persona con nuestros compa&ntilde;eros Neisa Condemaita y Andrew Arbuckle, desplazados a Mexico, y que resumimos con todo detalle en Sweet Home Alabama.</p>"
+    description_plain: Puerto Vallarta by UTMB se ha consolidado como la gran cita del trail running en el Pac&iacute;fico mexicano, un punto donde la Sierra Madre Occidental se precipita hacia el oc&eacute;ano y crea un escenario &uacute;nico para correr. La edici&oacute;n 2026 reuni&oacute; a m&aacute;s de 1.800 corredores en sus cinco distancias que atraviesan selva tropical, plantaciones de agave, pueblos y crestas h&uacute;medas antes de desembocar en la meta del Malec&oacute;n, uno de los finales m&aacute;s ic&oacute;nicos del circuito UTMB&reg; World Series. Una edici&oacute;n que vivimos en primera persona con nuestros compa&ntilde;eros Neisa Condemaita y Andrew Arbuckle, desplazados a Mexico, y que resumimos con todo detalle en Sweet Home Alabama.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260421-07-56-sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb-mp3
+    episode_slug: sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
+    episode_key: sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
+    legacy_numbered_slug: episode-17
+    episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb/"
+  - episode_title: TERRITORIO TRAIL 08X34 MT. Fuji 100, la historia de un icono mundial en el ultratrail
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
+    audio_url: https://media.aragonradio.es/2026/04/20260422_16-35_territorio-trail-08x34-mt_-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail.mp3?utm_source=applepodcasts
+    published_at: '2026-04-22T21:30:00+02:00'
+    description_html: "<p>La historia de la Mt. Fuji 100, uno de los ultratrails m&aacute;s ic&oacute;nicos del mundo, el primer Congreso de Trail Running que se organiza en Uruguay, la presentaci&oacute;n del Merrell Hiking Club, una plataforma que rompe las barreras de las mujeres al aire libre, la agenda de actividades en el Valle de Tena y Panticosa y las motivaciones de Manu Vilaseca para volver a Cocodona 250 son los temas de la emisi&oacute;n de esta semana de Territorio Trail.</p>"
+    description_plain: La historia de la Mt. Fuji 100, uno de los ultratrails m&aacute;s ic&oacute;nicos del mundo, el primer Congreso de Trail Running que se organiza en Uruguay, la presentaci&oacute;n del Merrell Hiking Club, una plataforma que rompe las barreras de las mujeres al aire libre, la agenda de actividades en el Valle de Tena y Panticosa y las motivaciones de Manu Vilaseca para volver a Cocodona 250 son los temas de la emisi&oacute;n de esta semana de Territorio Trail.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260422-16-35-territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-
+    episode_slug: territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
+    episode_key: territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
+    legacy_numbered_slug: episode-18
+    episode_page_url: "/territorio-trail/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail/"
+  - episode_title: Territorio Skyrunner World Series. Un inicio de temporada apasionante
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
+    audio_url: https://media.aragonradio.es/2026/04/20260416_08-25_territorio-skyrunner-world-series_-un-inicio-de-temporada-apasionante.mp3?utm_source=applepodcasts
+    published_at: '2026-04-16T22:00:00+02:00'
+    description_html: "<p>El inicio de las Merrell Skyrunner World Series 2026 ha respondido a las expectativas generadas. Tras cuatro pruebas disputadas (Cuatro Refugios, Andes Mountain, Acantilados del Norte y Calamorro) las favoritas y favoritos al triunfo final comienzan a aparecer en las primeras posiciones con la irrupci&oacute;n, victoria incluida en las dos &uacute;ltimas pruebas, de Sara Alonso y Manuel Merillas. En el Territorio Skyrunner World Series de abril analizamos este inicio de temporada, repasamos los nombres m&aacute;s destacados, avanzamos nuestras predicciones para el resto de la temporada y ponemos el foco en la presencia de &eacute;lites y el desarrollo del circuito, todo con la presencia del Jos&eacute; Luis G&oacute;mez, organizador del Marat&oacute; dels Dements, la Skymaster de las Merrell Skyrunner World Series 2026.</p>"
+    description_plain: El inicio de las Merrell Skyrunner World Series 2026 ha respondido a las expectativas generadas. Tras cuatro pruebas disputadas (Cuatro Refugios, Andes Mountain, Acantilados del Norte y Calamorro) las favoritas y favoritos al triunfo final comienzan a aparecer en las primeras posiciones con la irrupci&oacute;n, victoria incluida en las dos &uacute;ltimas pruebas, de Sara Alonso y Manuel Merillas. En el Territorio Skyrunner World Series de abril analizamos este inicio de temporada, repasamos los nombres m&aacute;s destacados, avanzamos nuestras predicciones para el resto de la temporada y ponemos el foco en la presencia de &eacute;lites y el desarrollo del circuito, todo con la presencia del Jos&eacute; Luis G&oacute;mez, organizador del Marat&oacute; dels Dements, la Skymaster de las Merrell Skyrunner World Series 2026.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260416-08-25-territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante-mp3
+    episode_slug: territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
+    episode_key: territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
+    legacy_numbered_slug: episode-19
+    episode_page_url: "/territorio-trail/territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante/"
+  - episode_title: TERRITORIO TRAIL 08X33 Puerto Vallarta by UTMB, México se consolida en el mapa mundial del ultratrail
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x32-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail
+    audio_url: https://media.aragonradio.es/2026/04/20260415_22-00_territorio-trail-08x32-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail.mp3?utm_source=applepodcasts
+    published_at: '2026-04-15T22:00:00+02:00'
+    description_html: "<p>Esta semana en Territorio Trail realizamos la previa de Puerto Vallarta by UTMB que, tras su traslado de fechas, se disputa este fin de semana. Llega el segundo cap&iacute;tulo de los Aurretrotes de Ra&uacute;l Garc&iacute;a Cast&aacute;n, hoy con Kiko Soler como protagonista. Resumimos un Marat&oacute;n de Zaragoza que pasar&aacute; a la historia como el m&aacute;s duro de todas sus ediciones. Compartimos las claves para afrontar con garant&iacute;as el Trail Menorca Cam&iacute; de Cavalls y finalizamos continuando nuestro camino a la Western States 100 con Gerard Morales.</p>"
+    description_plain: Esta semana en Territorio Trail realizamos la previa de Puerto Vallarta by UTMB que, tras su traslado de fechas, se disputa este fin de semana. Llega el segundo cap&iacute;tulo de los Aurretrotes de Ra&uacute;l Garc&iacute;a Cast&aacute;n, hoy con Kiko Soler como protagonista. Resumimos un Marat&oacute;n de Zaragoza que pasar&aacute; a la historia como el m&aacute;s duro de todas sus ediciones. Compartimos las claves para afrontar con garant&iacute;as el Trail Menorca Cam&iacute; de Cavalls y finalizamos continuando nuestro camino a la Western States 100 con Gerard Morales.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260415-22-00-territorio-trail-08x32-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-
+    episode_slug: territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail
+    episode_key: territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail
+    legacy_unicode_slug: territorio-trail-08x33-puerto-vallarta-by-utmb-méxico-se-consolida-en-el-mapa-mundial-del-ultratrail
+    legacy_numbered_slug: episode-20
+    episode_page_url: "/territorio-trail/territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail/"
+  - episode_title: Sweet Home Alabama. Dentro del Marathon des Sables
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-del-marathon-des-sables
+    audio_url: https://media.aragonradio.es/2026/04/20260409_07-48_sweet-home-alabama_-dentro-del-marathon-des-sables.mp3?utm_source=applepodcasts
+    published_at: '2026-04-09T22:00:00+02:00'
+    description_html: "<p>Una mirada al Marathon des Sables desde el propio campamento de la carrera y el an&aacute;lisis de la edici&oacute;n 40 aniversario de la prueba, desde el dominio de los El Morabity en categor&iacute;a masculina al asalto al triunfo de Maryline Nakache en femenina y la adaptaci&oacute;n de &eacute;lites como Pommeret, Sandes o Linden a una prueba por etapas en el desierto. Xavi Nunes comparte las claves de un Marathon des Sables que contin&uacute;a siendo la gran aventura del mundo del ultratrail en Sweet Home Alabama.</p>"
+    description_plain: Una mirada al Marathon des Sables desde el propio campamento de la carrera y el an&aacute;lisis de la edici&oacute;n 40 aniversario de la prueba, desde el dominio de los El Morabity en categor&iacute;a masculina al asalto al triunfo de Maryline Nakache en femenina y la adaptaci&oacute;n de &eacute;lites como Pommeret, Sandes o Linden a una prueba por etapas en el desierto. Xavi Nunes comparte las claves de un Marathon des Sables que contin&uacute;a siendo la gran aventura del mundo del ultratrail en Sweet Home Alabama.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260409-07-48-sweet-home-alabama-dentro-del-marathon-des-sables-mp3
+    episode_slug: sweet-home-alabama-dentro-del-marathon-des-sables
+    episode_key: sweet-home-alabama-dentro-del-marathon-des-sables
+    legacy_numbered_slug: episode-21
+    episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-del-marathon-des-sables/"
+  - episode_title: TERRITORIO TRAIL 08X32 Ser speaker por el mundo
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x32-ser-speaker-por-el-mundo
+    audio_url: https://media.aragonradio.es/2026/04/20260408_21-51_territorio-trail-08x32-ser-speaker-por-el-mundo.mp3?utm_source=applepodcasts
+    published_at: '2026-04-08T22:00:00+02:00'
+    description_html: "<p>En la emisi&oacute;n de esta semana de Territorio Trail To&ntilde;&iacute;n Laguarta explica c&oacute;mo es ser speaker fuera de nuestras fronteras y su camino hasta consolidarse como una de las voces de referencia en nuestro idioma. Realizamos la previa de la Calamorro Skyrace, quinta prueba de las Merrell Skyrunner World Series 2026, hablamos de la segunda edici&oacute;n de la Haritzen Mendi Lasterketa de Tafalla y dedicamos la segunda parte del programa a la previa completa del Marat&oacute;n de Zaragoza.</p>"
+    description_plain: En la emisi&oacute;n de esta semana de Territorio Trail To&ntilde;&iacute;n Laguarta explica c&oacute;mo es ser speaker fuera de nuestras fronteras y su camino hasta consolidarse como una de las voces de referencia en nuestro idioma. Realizamos la previa de la Calamorro Skyrace, quinta prueba de las Merrell Skyrunner World Series 2026, hablamos de la segunda edici&oacute;n de la Haritzen Mendi Lasterketa de Tafalla y dedicamos la segunda parte del programa a la previa completa del Marat&oacute;n de Zaragoza.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260408-21-51-territorio-trail-08x32-ser-speaker-por-el-mundo-mp3
+    episode_slug: territorio-trail-08x32-ser-speaker-por-el-mundo
+    episode_key: territorio-trail-08x32-ser-speaker-por-el-mundo
+    legacy_numbered_slug: episode-22
+    episode_page_url: "/territorio-trail/territorio-trail-08x32-ser-speaker-por-el-mundo/"
+  - episode_title: Sweet Home Alabama. Cuando un entrenamiento en Strava descubrió la posición del buque insignia de la Marina Francesa
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa
+    audio_url: https://media.aragonradio.es/2026/04/20260331_13-51_sweet-home-alabama_-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa.mp3?utm_source=applepodcasts
+    published_at: '2026-04-02T22:00:00+02:00'
+    description_html: "<p>Un militar &mdash;o varios, seg&uacute;n las versiones&mdash; decidi&oacute; registrar su entrenamiento a bordo del portaaviones. Nada raro: correr por cubierta es casi una tradici&oacute;n no escrita en cualquier barco grande. El problema es que Strava, tan eficiente como siempre, dibuj&oacute; el recorrido con precisi&oacute;n quir&uacute;rgica. En un mundo donde los ej&eacute;rcitos invierten millones en sigilo, contramedidas y protocolos, un simple entrenamiento puede convertirse en un agujero de seguridad monumental. Adriano Mart&iacute;n, Subteniente de la Escuela Militar de Alta Monta&ntilde;a, se embarca en el USS Alabama y comparte su opini&oacute;n sobre el incidente repasado algunas otras an&eacute;cdotas relacionadas con la exposici&oacute;n en redes y el ej&eacute;rcito.</p>"
+    description_plain: 'Un militar &mdash;o varios, seg&uacute;n las versiones&mdash; decidi&oacute; registrar su entrenamiento a bordo del portaaviones. Nada raro: correr por cubierta es casi una tradici&oacute;n no escrita en cualquier barco grande. El problema es que Strava, tan eficiente como siempre, dibuj&oacute; el recorrido con precisi&oacute;n quir&uacute;rgica. En un mundo donde los ej&eacute;rcitos invierten millones en sigilo, contramedidas y protocolos, un simple entrenamiento puede convertirse en un agujero de seguridad monumental. Adriano Mart&iacute;n, Subteniente de la Escuela Militar de Alta Monta&ntilde;a, se embarca en el USS Alabama y comparte su opini&oacute;n sobre el incidente repasado algunas otras an&eacute;cdotas relacionadas con la exposici&oacute;n en redes y el ej&eacute;rcito.'
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260331-13-51-sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicio
+    episode_slug: sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa
+    episode_key: sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa
+    legacy_unicode_slug: sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrió-la-posición-del-buque-insignia-de-la-marina-francesa
+    legacy_numbered_slug: episode-23
+    episode_page_url: "/territorio-trail/sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa/"
+  - episode_title: TERRITORIO TRAIL 08X31 El mejor Marathon des Sables de la historia
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x31-el-mejor-marathon-des-sables-de-la-historia
+    audio_url: https://media.aragonradio.es/2026/04/20260330_21-55_territorio-trail-08x31-el-mejor-marathon-des-sables-de-la-historia.mp3?utm_source=applepodcasts
+    published_at: '2026-04-01T21:30:00+02:00'
+    description_html: "<p>En la emisi&oacute;n de esta semana de Territorio Trail realizamos la previa completa del Marathon des Sables, que llega a su edici&oacute;n 40 aniversario con una de las mejores participaciones &eacute;lites de su historia. En la secci&oacute;n BritTrail Antonio Codina comparte todos los detalles sobre el cese de actividad de Ourea Events y c&oacute;mo ha afectado a la comunidad trailrunner brit&aacute;nica. Desvelamos todo lo que nos espera en la edici&oacute;n 2026 del Ultra Trail Guara Somontano, volvemos a Benasque para un Gran Marat&oacute;n Monta&ntilde;as de Benasque que ya se acerca a su fecha de celebraci&oacute;n y finalizamos con una experiencia personal en la Nimes Urban Trail.</p>"
+    description_plain: En la emisi&oacute;n de esta semana de Territorio Trail realizamos la previa completa del Marathon des Sables, que llega a su edici&oacute;n 40 aniversario con una de las mejores participaciones &eacute;lites de su historia. En la secci&oacute;n BritTrail Antonio Codina comparte todos los detalles sobre el cese de actividad de Ourea Events y c&oacute;mo ha afectado a la comunidad trailrunner brit&aacute;nica. Desvelamos todo lo que nos espera en la edici&oacute;n 2026 del Ultra Trail Guara Somontano, volvemos a Benasque para un Gran Marat&oacute;n Monta&ntilde;as de Benasque que ya se acerca a su fecha de celebraci&oacute;n y finalizamos con una experiencia personal en la Nimes Urban Trail.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-04-20260330-21-55-territorio-trail-08x31-el-mejor-marathon-des-sables-de-la-historia-mp3
+    episode_slug: territorio-trail-08x31-el-mejor-marathon-des-sables-de-la-historia
+    episode_key: territorio-trail-08x31-el-mejor-marathon-des-sables-de-la-historia
+    legacy_numbered_slug: episode-24
+    episode_page_url: "/territorio-trail/territorio-trail-08x31-el-mejor-marathon-des-sables-de-la-historia/"
+  - episode_title: Sweet Home Alabama. Alex Txikon y la Semana de la Montaña de Trangoworld en el Mendietxe Museoa
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-alex-txikon-y-la-semana-de-la-montana-de-trangoworld-en-el-mendietxe-museoa
+    audio_url: https://media.aragonradio.es/2026/03/20260326_07-33_sweet-home-alabama_-alex-txikon-y-la-semana-de-la-montana-de-trangoworld-en-el-mendietxe-museoa.mp3?utm_source=applepodcasts
+    published_at: '2026-03-26T22:00:00+01:00'
+    description_html: "<p>Del 18 al 21 de marzo el Mendietxe Museoa de Azpeitia acogi&oacute; la Semana Trangoworld, una propuesta que ha conectado distintas disciplinas de monta&ntilde;a desde una perspectiva t&eacute;cnica y experiencial. Trangoworld ha apostado por generar un entorno de intercambio real entre deportistas y aficionados avanzados, combinando cine de expedici&oacute;n, an&aacute;lisis t&eacute;cnico y experiencias personales. El espacio, impulsado por Alex Txikon como punto de encuentro para el monta&ntilde;ismo global, ha sido el escenario de cuatro enriquecedoras jornadas en las que el propio alpinista ha ejercido como conductor y moderador.</p>"
+    description_plain: Del 18 al 21 de marzo el Mendietxe Museoa de Azpeitia acogi&oacute; la Semana Trangoworld, una propuesta que ha conectado distintas disciplinas de monta&ntilde;a desde una perspectiva t&eacute;cnica y experiencial. Trangoworld ha apostado por generar un entorno de intercambio real entre deportistas y aficionados avanzados, combinando cine de expedici&oacute;n, an&aacute;lisis t&eacute;cnico y experiencias personales. El espacio, impulsado por Alex Txikon como punto de encuentro para el monta&ntilde;ismo global, ha sido el escenario de cuatro enriquecedoras jornadas en las que el propio alpinista ha ejercido como conductor y moderador.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-03-20260326-07-33-sweet-home-alabama-alex-txikon-y-la-semana-de-la-montana-de-trangoworld-e
+    episode_slug: sweet-home-alabama-alex-txikon-y-la-semana-de-la-montana-de-trangoworld-en-el-mendietxe-museoa
+    episode_key: sweet-home-alabama-alex-txikon-y-la-semana-de-la-montana-de-trangoworld-en-el-mendietxe-museoa
+    legacy_unicode_slug: sweet-home-alabama-alex-txikon-y-la-semana-de-la-montaña-de-trangoworld-en-el-mendietxe-museoa
+    legacy_numbered_slug: episode-25
+    episode_page_url: "/territorio-trail/sweet-home-alabama-alex-txikon-y-la-semana-de-la-montana-de-trangoworld-en-el-mendietxe-museoa/"
+  https://anchor.fm/s/8a22cb0/podcast/rss: &98
   - episode_title: Running To Win
     episode_url: https://podcasters.spotify.com/pod/show/runfree/episodes/Running-To-Win-e3iaqij
     audio_url: https://anchor.fm/s/8a22cb0/podcast/play/118892563/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-23%2F422654098-44100-2-cb3e31ed7e7aa.mp3
@@ -28726,5 +29363,9 @@ feed_episodes_list:
   episodes: *94
 - feed_key: https://feed.ausha.co/egpw5hzzonq3
   episodes: *95
-- feed_key: https://anchor.fm/s/8a22cb0/podcast/rss
+- feed_key: https://rss.libsyn.com/shows/355028/destinations/2901566.xml
   episodes: *96
+- feed_key: https://feeds.feedburner.com/ivoox/qssg
+  episodes: *97
+- feed_key: https://anchor.fm/s/8a22cb0/podcast/rss
+  episodes: *98
