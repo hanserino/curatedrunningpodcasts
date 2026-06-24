@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-24T15:00:33Z'
+generated_at: '2026-06-24T15:53:26Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
+  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
+  audio_url: https://mcdn.podbean.com/mf/web/mr3t8fn8cjir9xk9/2_clips_Edit_41_9nz67.mp3
+  published_at: '2026-06-24T10:38:24-05:00'
+  episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
+  episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
+  episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
+- podcast_title: Human Performance Outliers
+  podcast_page_url: "/human-performance-outliers/"
+  cover_image: "/media/humanperformanceoutliers.jpeg"
+  feed_url: https://rss.libsyn.com/shows/118682/destinations/685773.xml
+  filter_category: ultra english
+  episode_title: 'Episode 492: My Blood Clot Diagnosis'
+  episode_url: https://humanperformanceoutliers.libsyn.com/episode-492-my-blood-clot-diagnosis
+  audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.492_DVT_audio.mp3?dest-id=685773
+  published_at: '2026-06-24T15:18:41+00:00'
+  episode_key: episode-492-my-blood-clot-diagnosis
+  episode_slug: episode-492-my-blood-clot-diagnosis
+  episode_page_url: "/human-performance-outliers/episode-492-my-blood-clot-diagnosis/"
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast/"
   cover_image: "/media/freetrail2.jpeg"
@@ -289,18 +313,6 @@ items:
   episode_key: ajw-unplugged-the-2026-western-states-episode
   episode_slug: ajw-unplugged-the-2026-western-states-episode
   episode_page_url: "/crack-a-brew-with-ajw/ajw-unplugged-the-2026-western-states-episode/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Episode 621: Summer Running'
-  episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
-  audio_url: https://mcdn.podbean.com/mf/web/zef352gn2xx4hyrg/2_clips_Edit_40_8flk3.mp3
-  published_at: '2026-06-19T23:32:33-05:00'
-  episode_key: episode-621-summer-running
-  episode_slug: episode-621-summer-running
-  episode_page_url: "/the-running-public/episode-621-summer-running/"
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong/"
   cover_image: "/media/choosestrongpodcast.jpeg"
@@ -481,18 +493,6 @@ items:
   episode_key: this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak
   episode_slug: this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak
   episode_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak/"
-- podcast_title: Human Performance Outliers
-  podcast_page_url: "/human-performance-outliers/"
-  cover_image: "/media/humanperformanceoutliers.jpeg"
-  feed_url: https://rss.libsyn.com/shows/118682/destinations/685773.xml
-  filter_category: ultra english
-  episode_title: Run The News | Enhanced Games Failure? Fuel Abundance Signaling, Comrades Marathon
-  episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
-  audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/4._Enhanced_Games_Failure_Fuel_Abundance_Comrades.mp3?dest-id=685773
-  published_at: '2026-06-15T16:53:39+00:00'
-  episode_key: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
-  episode_slug: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
-  episode_page_url: "/human-performance-outliers/run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon/"
 - podcast_title: Føkk Asfalt
   podcast_page_url: "/fokk-asfalt/"
   cover_image: "/media/fokk-asfalt-logo.webp"
@@ -3779,6 +3779,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-24
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
+    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
+    audio_url: https://mcdn.podbean.com/mf/web/mr3t8fn8cjir9xk9/2_clips_Edit_41_9nz67.mp3
+    published_at: '2026-06-24T10:38:24-05:00'
+    description_html: "<p>Kirk has been testing out shoes in preparation for his upcoming 50k and Brakken has been blown away by the rapid improvement of Hyrox athletes.</p>"
+    description_plain: Kirk has been testing out shoes in preparation for his upcoming 50k and Brakken has been blown away by the rapid improvement of Hyrox athletes.
+    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Untitled_Design6x9g8.png
+    episode_uid: therunningpublic-podbean-com-d7aa37b9-ce81-3082-beed-e87fc31fa3d1
+    episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
+    episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
   - episode_title: 'Episode 621: Summer Running'
     episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
     audio_url: https://mcdn.podbean.com/mf/web/zef352gn2xx4hyrg/2_clips_Edit_40_8flk3.mp3
@@ -3789,7 +3801,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-03c831ae-4404-3d38-bb00-b3c085ad6cfb
     episode_slug: episode-621-summer-running
     episode_key: episode-621-summer-running
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/episode-621-summer-running/"
   - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
@@ -3801,7 +3813,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
     episode_slug: training-tuesday-how-to-execute-an-x-day-workout
     episode_key: training-tuesday-how-to-execute-an-x-day-workout
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
@@ -3813,7 +3825,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3825,7 +3837,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3837,7 +3849,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3849,7 +3861,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3861,7 +3873,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3873,7 +3885,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -3885,7 +3897,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -3897,7 +3909,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -3909,7 +3921,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -3921,7 +3933,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -3933,7 +3945,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -3945,7 +3957,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -3957,7 +3969,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -3969,7 +3981,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -3981,7 +3993,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   - episode_title: 'Episode 604: Talkin’ Shop!'
     episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
@@ -3993,7 +4005,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
     episode_slug: episode-604-talkin-shop
     episode_key: episode-604-talkin-shop
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/episode-604-talkin-shop/"
   - episode_title: 'Training Tuesday: Kirk’s Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-qa-session/
@@ -4005,7 +4017,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cf9144dc-cae7-3c8d-9465-432883738b81
     episode_slug: training-tuesday-kirk-s-q-a-session
     episode_key: training-tuesday-kirk-s-q-a-session
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-q-a-session/"
   - episode_title: 'Episode 602: Jake Prusha'
     episode_url: https://therunningpublic.podbean.com/e/episode-602-jake-prusha/
@@ -4017,7 +4029,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d9607426-5db4-3104-88b7-85968914ae57
     episode_slug: episode-602-jake-prusha
     episode_key: episode-602-jake-prusha
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/episode-602-jake-prusha/"
   - episode_title: 'Episode 601: Answering AI Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-601-answering-ai-questions/
@@ -4029,7 +4041,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-69a0b749-5401-31da-9725-25f1758ba30f
     episode_slug: episode-601-answering-ai-questions
     episode_key: episode-601-answering-ai-questions
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
   - episode_title: 'Training Tuesday: Race Prep Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-race-prep-workouts/
@@ -4041,7 +4053,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-e06e2fa5-3f5c-3856-8858-6fed172d2041
     episode_slug: training-tuesday-race-prep-workouts
     episode_key: training-tuesday-race-prep-workouts
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/training-tuesday-race-prep-workouts/"
   - episode_title: Our 600th Episode!
     episode_url: https://therunningpublic.podbean.com/e/our-600th-episode/
@@ -4053,7 +4065,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-fed56e2a-8f3d-3d53-88b6-0918852668c5
     episode_slug: our-600th-episode
     episode_key: our-600th-episode
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/our-600th-episode/"
   - episode_title: 'Training Tuesday: “X Factor” Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-x-factor-workouts/
@@ -4065,20 +4077,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-c938ecc3-1a00-332f-ba66-4c07f7da5382
     episode_slug: training-tuesday-x-factor-workouts
     episode_key: training-tuesday-x-factor-workouts
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/training-tuesday-x-factor-workouts/"
-  - episode_title: 'Episode 598: Our Best & Worst Race Decisions'
-    episode_url: https://therunningpublic.podbean.com/e/episode-598-our-best-worst-race-decisions/
-    audio_url: https://mcdn.podbean.com/mf/web/h6vnmickz9e4tsmp/2_clips_Edit_23_b0qj9.mp3
-    published_at: '2026-03-13T21:35:22-05:00'
-    description_html: "<p>Today we discuss the best and worst race choices we’ve ever made when it comes to fuel, shoes, gear, and mid-race decisions</p>"
-    description_plain: Today we discuss the best and worst race choices we’ve ever made when it comes to fuel, shoes, gear, and mid-race decisions
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Listener_Submitted_Q_Abm120.png
-    episode_uid: therunningpublic-podbean-com-391f0d2c-7cc1-3c6f-9d9d-c98d3ad7eb17
-    episode_slug: episode-598-our-best-worst-race-decisions
-    episode_key: episode-598-our-best-worst-race-decisions
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/episode-598-our-best-worst-race-decisions/"
+    episode_page_url: "/the-running-public/training-tuesday-x-factor-workouts/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Rachel Entrekin'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Rachel-Entrekin-e3ii0ln
@@ -25830,6 +25830,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/find-your-everest/backyard-asturias-entrenar-con-nieve-entrenamiento-trail-find-your-everest-podcast-by-javi-ordieres/"
   https://rss.libsyn.com/shows/118682/destinations/685773.xml: &86
+  - episode_title: 'Episode 492: My Blood Clot Diagnosis'
+    episode_url: https://humanperformanceoutliers.libsyn.com/episode-492-my-blood-clot-diagnosis
+    audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.492_DVT_audio.mp3?dest-id=685773
+    published_at: '2026-06-24T15:18:41+00:00'
+    description_html: '<p dir="ltr">I was recently diagnosed with deep vein thrombosis (DVT) or a blood clot. I was traveling for a race when symptoms presented. This is a timeline of the events that led to me getting checked and confirmed. DVT is a situation where if you don''t act soon, it can get very bad. Getting checked when symptoms present is very important, and I hope to highlight that with my story.</p><p dir="ltr">Episode Sponsors:</p><p dir="ltr">ProBio: <a href= "https://www.probionutrition.com/endurance">probionutrition.com/endurance</a> Code: Endurance (20% Off)</p><p dir="ltr">LMNT: <a href= "http://drinklmnt.com/HPO">drinkLMNT.com/HPO</a> (free sample pack with purchase)</p><p dir="ltr">deltaG: <a href= "https://www.deltagketones.com/BITTER20">deltagketones.com</a> Code: BITTER20 (20% Off)</p><p dir="ltr">True Nutrition: <a href= "https://truenutrition.com/hpo">truenutrition.com/hpo</a> Code: HPO (20% Off)</p><p dir="ltr">Podcast Details:</p><p dir="ltr">Support HPO: <a href= "https://zachbitter.com/hposponsors">zachbitter.com/hposponsors</a></p><p dir="ltr">HPO Website: <a href= "https://zachbitter.com/hpo">zachbitter.com/hpo</a></p><p dir="ltr">Zach''s Coaching: <a href= "https://zachbitter.com/coaching">zachbitter.com/coaching</a></p><p dir="ltr">Zach''s Journal: <a href= "https://substack.com/@zachbitter">substack.com/@zachbitter</a></p><p dir="ltr">Find Zach: <a href= "https://zachbitter.com">zachbitter.com</a> | IG: <a href= "https://www.instagram.com/zachbitter/">@zachbitter</a> | X: <a href="https://twitter.com/zbitter">@zbitter</a> | FB: <a href= "https://www.facebook.com/zbitter">Zach Bitter</a> | Strava: <a href="https://www.strava.com/pros/5255567">Zach Bitter</a></p>'
+    description_plain: 'I was recently diagnosed with deep vein thrombosis (DVT) or a blood clot. I was traveling for a race when symptoms presented. This is a timeline of the events that led to me getting checked and confirmed. DVT is a situation where if you don''t act soon, it can get very bad. Getting checked when symptoms present is very important, and I hope to highlight that with my story. Episode Sponsors: ProBio: probionutrition.com/endurance Code: Endurance (20% Off) LMNT: drinkLMNT.com/HPO (free sample pack with purchase) deltaG: deltagketones.com Code: BITTER20 (20% Off) True Nutrition: truenutrition.com/hpo Code: HPO (20% Off) Podcast Details: Support HPO: zachbitter.com/hposponsors HPO Website: zachbitter.com/hpo Zach''s Coaching: zachbitter.com/coaching Zach''s Journal: substack.com/@zachbitter Find Zach: zachbitter.com | IG: @zachbitter | X: @zbitter | FB: Zach Bitter | Strava: Zach Bitter'
+    episode_image_url: https://static.libsyn.com/p/assets/5/a/4/e/5a4e9a0f3c0579a116c3140a3186d450/iTunes_Thumbnail.png
+    episode_uid: 5cd136ef-e3b1-4785-a8af-f0475955ec80
+    episode_slug: episode-492-my-blood-clot-diagnosis
+    episode_key: episode-492-my-blood-clot-diagnosis
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/human-performance-outliers/episode-492-my-blood-clot-diagnosis/"
   - episode_title: Run The News | Enhanced Games Failure? Fuel Abundance Signaling, Comrades Marathon
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
     audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/4._Enhanced_Games_Failure_Fuel_Abundance_Comrades.mp3?dest-id=685773
@@ -25840,7 +25852,7 @@ episodes_by_feed:
     episode_uid: f5e95ccd-a638-44b7-8390-e84d95a58bd8
     episode_slug: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
     episode_key: run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/human-performance-outliers/run-the-news-enhanced-games-failure-fuel-abundance-signaling-comrades-marathon/"
   - episode_title: 'Episode 491: The Art Of Ultrarunning | Ian Sharman'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-491-the-art-of-ultrarunning-ian-sharman
@@ -25852,7 +25864,7 @@ episodes_by_feed:
     episode_uid: 6d5ec844-71c7-4216-a868-7f9cb97efe2f
     episode_slug: episode-491-the-art-of-ultrarunning-ian-sharman
     episode_key: episode-491-the-art-of-ultrarunning-ian-sharman
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/human-performance-outliers/episode-491-the-art-of-ultrarunning-ian-sharman/"
   - episode_title: 'Episode 490: Multiday Ultramarathon Performance Insights | Kevin Goldberg'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-490-multiday-ultramarathon-performance-insights-keven-goldberg
@@ -25864,7 +25876,7 @@ episodes_by_feed:
     episode_uid: 85a65f6a-b528-45ab-9af9-b2772cd080a9
     episode_slug: episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg
     episode_key: episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/human-performance-outliers/episode-490-multiday-ultramarathon-performance-insights-kevin-goldberg/"
   - episode_title: 'Episode 489: Walmsley Deserves WSER Entry & Policing Non-Professionals | Brian Peterson'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson
@@ -25876,7 +25888,7 @@ episodes_by_feed:
     episode_uid: 7e4e57de-0f7e-45d2-b5b2-08021e6768cc
     episode_slug: episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson
     episode_key: episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/human-performance-outliers/episode-489-walmsley-deserves-wser-entry-policing-non-professionals-brian-peterson/"
   - episode_title: 'Episode 488: Ultramarathon Problem Solving | Kilian Korth'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-488-ultramarathon-problem-solving-kilian-korth
@@ -25888,7 +25900,7 @@ episodes_by_feed:
     episode_uid: 99650dfe-727c-4cd0-80e3-36e01bc1c6c5
     episode_slug: episode-488-ultramarathon-problem-solving-kilian-korth
     episode_key: episode-488-ultramarathon-problem-solving-kilian-korth
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/human-performance-outliers/episode-488-ultramarathon-problem-solving-kilian-korth/"
   - episode_title: Run The News | Is Fair Sport Fantasy?
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-is-fair-sport-fantasy
@@ -25900,7 +25912,7 @@ episodes_by_feed:
     episode_uid: ba848af3-73e4-44f1-89a1-d4e0520abf96
     episode_slug: run-the-news-is-fair-sport-fantasy
     episode_key: run-the-news-is-fair-sport-fantasy
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/human-performance-outliers/run-the-news-is-fair-sport-fantasy/"
   - episode_title: 'Episode 487: Rachel Entrekin | Cocodona 250 Course Record'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-487-rachel-entrekin-cocodona-250-course-record-0
@@ -25912,7 +25924,7 @@ episodes_by_feed:
     episode_uid: bdfc3e0a-0dfd-4238-b138-13c6f2b89902
     episode_slug: episode-487-rachel-entrekin-cocodona-250-course-record
     episode_key: episode-487-rachel-entrekin-cocodona-250-course-record
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/human-performance-outliers/episode-487-rachel-entrekin-cocodona-250-course-record/"
   - episode_title: Run The News | Cocodona 250 Leveled Up
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-cocodona-250-leveled-up
@@ -25924,7 +25936,7 @@ episodes_by_feed:
     episode_uid: 5f1394a0-f4ee-4226-a0b7-217a8e2a7e7c
     episode_slug: run-the-news-cocodona-250-leveled-up
     episode_key: run-the-news-cocodona-250-leveled-up
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/human-performance-outliers/run-the-news-cocodona-250-leveled-up/"
   - episode_title: 'Episode 486: Inside The Pro Running World | Jacob Thomson'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-486-inside-the-pro-running-world-jacob-thomson
@@ -25936,7 +25948,7 @@ episodes_by_feed:
     episode_uid: d40bba64-a8c8-44d8-9c17-cb0689b4b3ed
     episode_slug: episode-486-inside-the-pro-running-world-jacob-thomson
     episode_key: episode-486-inside-the-pro-running-world-jacob-thomson
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/human-performance-outliers/episode-486-inside-the-pro-running-world-jacob-thomson/"
   - episode_title: Run The News | Super Shoes, Carbs, & Doping
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-super-shoes-carbs-doping
@@ -25948,7 +25960,7 @@ episodes_by_feed:
     episode_uid: d1a5f532-3dc5-4aa3-bc66-a3c84cea3f8e
     episode_slug: run-the-news-super-shoes-carbs-doping
     episode_key: run-the-news-super-shoes-carbs-doping
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/human-performance-outliers/run-the-news-super-shoes-carbs-doping/"
   - episode_title: 'Episode 485: Long Term Running Improvement | Brant Stachel'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-485-long-term-running-improvement-brant-stachel
@@ -25960,7 +25972,7 @@ episodes_by_feed:
     episode_uid: 3e73036c-45d7-4a4a-9734-354d124c8050
     episode_slug: episode-485-long-term-running-improvement-brant-stachel
     episode_key: episode-485-long-term-running-improvement-brant-stachel
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/human-performance-outliers/episode-485-long-term-running-improvement-brant-stachel/"
   - episode_title: 'Episode 484: Influencers v. Athletes | Tommy Lewis'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-484-influencers-v-athletes-tommy-lewis
@@ -25972,7 +25984,7 @@ episodes_by_feed:
     episode_uid: 5fe41282-0af3-4af6-991f-a1830076566a
     episode_slug: episode-484-influencers-v-athletes-tommy-lewis
     episode_key: episode-484-influencers-v-athletes-tommy-lewis
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/human-performance-outliers/episode-484-influencers-v-athletes-tommy-lewis/"
   - episode_title: 'Episode 483: Arizona Monster 300 Course Record | Mike McKnight'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-483-arizona-monster-300-course-record-mike-mcknight
@@ -25984,7 +25996,7 @@ episodes_by_feed:
     episode_uid: f8364fa4-d5f6-430b-8e36-a6823d7e869c
     episode_slug: episode-483-arizona-monster-300-course-record-mike-mcknight
     episode_key: episode-483-arizona-monster-300-course-record-mike-mcknight
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/human-performance-outliers/episode-483-arizona-monster-300-course-record-mike-mcknight/"
   - episode_title: 'Episode 482: What Performance Fueling Shows Us | Dr. James DiNicolantonio'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio
@@ -25996,7 +26008,7 @@ episodes_by_feed:
     episode_uid: ce4c13f5-e899-4cb8-ade7-28d709df458a
     episode_slug: episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio
     episode_key: episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/human-performance-outliers/episode-482-what-performance-fueling-shows-us-dr-james-dinicolantonio/"
   - episode_title: 'Episode 481: Multi-day & Backyard Ultras | Mark Dowdle'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-481-multi-day-backyard-ultras-mark-dowdle
@@ -26008,7 +26020,7 @@ episodes_by_feed:
     episode_uid: 7c9a13e6-dfd9-4f07-8abf-06524ff15c08
     episode_slug: episode-481-multi-day-backyard-ultras-mark-dowdle
     episode_key: episode-481-multi-day-backyard-ultras-mark-dowdle
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/human-performance-outliers/episode-481-multi-day-backyard-ultras-mark-dowdle/"
   - episode_title: 'Episode 480: Has Endurance Fueling Bonked?'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-480-has-endurance-fueling-bonked
@@ -26020,7 +26032,7 @@ episodes_by_feed:
     episode_uid: d6349c52-6ce0-40ab-8d84-305991a42188
     episode_slug: episode-480-has-endurance-fueling-bonked
     episode_key: episode-480-has-endurance-fueling-bonked
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/human-performance-outliers/episode-480-has-endurance-fueling-bonked/"
   - episode_title: 'Episode 479: Is Low Carb Performance Misplaced? | Jonah Rosner'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-479-is-low-carb-performance-misplaced-jonah-rosner
@@ -26032,7 +26044,7 @@ episodes_by_feed:
     episode_uid: 2732bc3c-93b8-424b-be51-570563796668
     episode_slug: episode-479-is-low-carb-performance-misplaced-jonah-rosner
     episode_key: episode-479-is-low-carb-performance-misplaced-jonah-rosner
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/human-performance-outliers/episode-479-is-low-carb-performance-misplaced-jonah-rosner/"
   - episode_title: 'Episode 478: 100 Mile Record Redemption | Raj Pannu'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-478-100-mile-record-redemption-raj-paunnu
@@ -26044,7 +26056,7 @@ episodes_by_feed:
     episode_uid: 26a5c3a0-a23c-4bd9-a9ec-646e835ee8c1
     episode_slug: episode-478-100-mile-record-redemption-raj-pannu
     episode_key: episode-478-100-mile-record-redemption-raj-pannu
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/human-performance-outliers/episode-478-100-mile-record-redemption-raj-pannu/"
   - episode_title: 'Episode 477: Cocodona 250 Ultra Champ | Rachel Entrekin'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-477-cocodona-250-ultra-champ-rachel-entrekin
@@ -26056,7 +26068,7 @@ episodes_by_feed:
     episode_uid: bf487189-e254-4989-81d7-5c5ac2354121
     episode_slug: episode-477-cocodona-250-ultra-champ-rachel-entrekin
     episode_key: episode-477-cocodona-250-ultra-champ-rachel-entrekin
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/human-performance-outliers/episode-477-cocodona-250-ultra-champ-rachel-entrekin/"
   - episode_title: 'Episode 476: Carbohydrate Fueling Strategies For Runners | Claire Shorenstein'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-476-high-carb-fueling-for-runners-claire-shorenstein
@@ -26068,7 +26080,7 @@ episodes_by_feed:
     episode_uid: 8da46261-2512-47b2-9d0b-764ed22da91d
     episode_slug: episode-476-carbohydrate-fueling-strategies-for-runners-claire-shorenstein
     episode_key: episode-476-carbohydrate-fueling-strategies-for-runners-claire-shorenstein
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/human-performance-outliers/episode-476-carbohydrate-fueling-strategies-for-runners-claire-shorenstein/"
   - episode_title: 'Episode 475: Are Multiday Ultramarathons Soft?'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-475-are-multiday-ultramarathons-soft
@@ -26080,7 +26092,7 @@ episodes_by_feed:
     episode_uid: 95e60c3f-680b-4673-bc43-d054387bcbd3
     episode_slug: episode-475-are-multiday-ultramarathons-soft
     episode_key: episode-475-are-multiday-ultramarathons-soft
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/human-performance-outliers/episode-475-are-multiday-ultramarathons-soft/"
   - episode_title: 'Episode 474: 3:58 Mile to Ultra | Everett Smulders'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-474-358-mile-to-ultra-everett-smulders
@@ -26092,7 +26104,7 @@ episodes_by_feed:
     episode_uid: 1a716393-01e6-42ec-9b93-bcf6baa4dd68
     episode_slug: episode-474-3-58-mile-to-ultra-everett-smulders
     episode_key: episode-474-3-58-mile-to-ultra-everett-smulders
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/human-performance-outliers/episode-474-3-58-mile-to-ultra-everett-smulders/"
   - episode_title: 'Episode 473: The Trial of Miles Chasing Olympic Trials Marathon Peter Bromka'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka
@@ -26104,7 +26116,7 @@ episodes_by_feed:
     episode_uid: 7db30539-6132-416a-9a09-6f6cc9fb60bc
     episode_slug: episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka
     episode_key: episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/human-performance-outliers/episode-473-the-trial-of-miles-chasing-olympic-trials-marathon-peter-bromka/"
   - episode_title: 'Episode 472: Brad Stulberg The Pursuit of Excellence'
     episode_url: https://humanperformanceoutliers.libsyn.com/episode-472-brad-stulberg-the-pursuit-of-excellence
@@ -26116,20 +26128,8 @@ episodes_by_feed:
     episode_uid: f06c5bdb-c67d-44b6-8f3e-c64cbb605fc7
     episode_slug: episode-472-brad-stulberg-the-pursuit-of-excellence
     episode_key: episode-472-brad-stulberg-the-pursuit-of-excellence
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/human-performance-outliers/episode-472-brad-stulberg-the-pursuit-of-excellence/"
-  - episode_title: 'Episode 471: Rory Linkletter | Sub-60 Half Marathon & Marathon Training Evolution'
-    episode_url: https://humanperformanceoutliers.libsyn.com/episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution
-    audio_url: https://pdcn.co/e/pscrb.fm/rss/p/traffic.libsyn.com/secure/humanperformanceoutliers/Ep.471_RoryLinkletter_audio_complete.mp3?dest-id=685773
-    published_at: '2026-01-16T11:00:00+00:00'
-    description_html: '<p dir="ltr">Elite marathoner Rory Linkletter discusses his historic sub-60 half marathon at Houston, training philosophy changes, and preparation for upcoming races. Rory is coming off a big year, where he placed sixth at Boston in 2:07:02, second at Ottawa in 2:08:31 (winner recently provisionally suspended for doping), ninth at Chicago in 2:06:49.</p><p dir="ltr">Rory: <a href= "https://worldathletics.org/athletes/canada/rory-linkletter-14617088"> World Athletics Profile</a> - IG: <a href= "https://www.instagram.com/rory_linkletter">@rory_linkletter</a> - X: <a href="https://twitter.com/ThePapaLinks">@ThePapaLinks</a> YT: <a href= "https://www.youtube.com/@LinkletterRory">@LinkletterRory</a></p><p dir="ltr"><a href= "https://zachbitter.com/endurance-training-series">Endurance Training Simplified Series</a></p><p dir="ltr">ProBio: <a href= "https://www.probionutrition.com/endurance">probionutrition.com/endurance</a> Code: Endurance (20% Off)</p><p dir="ltr">LMNT: <a href= "http://drinklmnt.com/HPO">drinkLMNT.com/HPO</a> (free sample pack with purchase)</p><p dir="ltr">deltaG: <a href= "https://www.deltagketones.com/">deltagketones.com</a> Code: BITTER20 (20% Off)</p><p dir="ltr">Training Peaks: <a href= "http://trainingpeaks.com/hpopodcast">trainingpeaks.com/hpopodcast</a> (free 14-day trial)</p><p dir="ltr">Support HPO: <a href= "https://zachbitter.com/hposponsors">zachbitter.com/hposponsors</a></p><p dir="ltr">HPO Website: <a href= "https://zachbitter.com/hpo">zachbitter.com/hpo</a></p><p dir="ltr">Zach''s Coaching: <a href= "https://zachbitter.com/coaching">zachbitter.com/coaching</a></p><p dir="ltr">Zach''s Journal: <a href= "https://substack.com/@zachbitter">substack.com/@zachbitter</a></p><p dir="ltr">Find Zach: <a href= "https://zachbitter.com">zachbitter.com</a> | IG: <a href= "https://www.instagram.com/zachbitter/">@zachbitter</a> | X: <a href="https://twitter.com/zbitter">@zbitter</a> | FB: <a href= "https://www.facebook.com/zbitter">Zach Bitter</a> | Strava: <a href="https://www.strava.com/pros/5255567">Zach Bitter</a></p>'
-    description_plain: 'Elite marathoner Rory Linkletter discusses his historic sub-60 half marathon at Houston, training philosophy changes, and preparation for upcoming races. Rory is coming off a big year, where he placed sixth at Boston in 2:07:02, second at Ottawa in 2:08:31 (winner recently provisionally suspended for doping), ninth at Chicago in 2:06:49. Rory: World Athletics Profile - IG: @rory_linkletter - X: @ThePapaLinks YT: @LinkletterRory Endurance Training Simplified Series ProBio: probionutrition.com/endurance Code: Endurance (20% Off) LMNT: drinkLMNT.com/HPO (free sample pack with purchase) deltaG: deltagketones.com Code: BITTER20 (20% Off) Training Peaks: trainingpeaks.com/hpopodcast (free 14-day trial) Support HPO: zachbitter.com/hposponsors HPO Website: zachbitter.com/hpo Zach''s Coaching: zachbitter.com/coaching Zach''s Journal: substack.com/@zachbitter Find Zach: zachbitter.com | IG: @zachbitter | X: @zbitter | FB: Zach Bitter | Strava: Zach Bitter'
-    episode_image_url: https://static.libsyn.com/p/assets/2/4/2/e/242e77ed331d281d16c3140a3186d450/iTunes_Thumbnail.png
-    episode_uid: bef23b14-8451-4e72-a691-5aeea3048d31
-    episode_slug: episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution
-    episode_key: episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution
     legacy_numbered_slug: episode-25
-    episode_page_url: "/human-performance-outliers/episode-471-rory-linkletter-sub-60-half-marathon-marathon-training-evolution/"
+    episode_page_url: "/human-performance-outliers/episode-472-brad-stulberg-the-pursuit-of-excellence/"
   https://feeds.megaphone.fm/pom8075949892: &87
   - episode_title: 'Jamieson Hatt: Ice Age Trail -#287'
     episode_url: https://fastestknowntime.com
@@ -29983,9 +29983,6 @@ errors:
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
-- podcast: Lex Fridman Podcast
-  rss_feed: https://lexfridman.com/feed/podcast/
-  error: 'OpenURI::HTTPError: 500 Internal Server Error'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
   error: Latest episode has no enclosure URL
