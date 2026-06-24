@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-24T21:34:54Z'
+generated_at: '2026-06-24T22:32:03Z'
 items:
 - podcast_title: Territorio Trail
   podcast_page_url: "/territorio-trail/"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: The Colin and Samir Show
+  podcast_page_url: "/the-colin-and-samir-show/"
+  cover_image: "/media/colinandsamirshow.jpeg"
+  feed_url: https://feeds.megaphone.fm/LI6529969937
+  filter_category: uncategorized english
+  episode_title: 'CANNES DAY 3: The Art of Standing Out: Pablo Rochat, Sir John Hegarty & E.L.F Beauty'
+  episode_url: ''
+  audio_url: https://traffic.megaphone.fm/LUHUC8709240246.mp3
+  published_at: '2026-06-24T22:16:00Z'
+  episode_key: cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty
+  episode_slug: cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty
+  episode_page_url: "/the-colin-and-samir-show/cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty/"
 - podcast_title: The Lonely Island and Seth Meyers Podcast
   podcast_page_url: "/the-lonely-island-and-seth-meyers-podcast/"
   cover_image: "/media/lonelyisland.jpeg"
@@ -866,18 +878,6 @@ non_running_items:
   episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
   episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
   episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
-- podcast_title: The Colin and Samir Show
-  podcast_page_url: "/the-colin-and-samir-show/"
-  cover_image: "/media/colinandsamirshow.jpeg"
-  feed_url: https://feeds.megaphone.fm/LI6529969937
-  filter_category: uncategorized english
-  episode_title: 'CANNES DAY 2: Instagram vs. YouTube: The Battle for the Living Room'
-  episode_url: ''
-  audio_url: https://traffic.megaphone.fm/LUHUC4609145262.mp3
-  published_at: '2026-06-23T17:43:00Z'
-  episode_key: cannes-day-2-instagram-vs-youtube-the-battle-for-the-living-room
-  episode_slug: cannes-day-2-instagram-vs-youtube-the-battle-for-the-living-room
-  episode_page_url: "/the-colin-and-samir-show/cannes-day-2-instagram-vs-youtube-the-battle-for-the-living-room/"
 - podcast_title: And The Writer Is...with Ross Golan
   podcast_page_url: "/and-the-writer-is-with-ross-golan/"
   cover_image: "/media/andthewriteris.jpeg"
@@ -23701,6 +23701,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/team-macody-podcast/uke-3-arbeidsleir-i-arguineguin/"
   https://feeds.megaphone.fm/li6529969937: &77
+  - episode_title: 'CANNES DAY 3: The Art of Standing Out: Pablo Rochat, Sir John Hegarty & E.L.F Beauty'
+    episode_url: ''
+    audio_url: https://traffic.megaphone.fm/LUHUC8709240246.mp3
+    published_at: '2026-06-24T22:16:00Z'
+    description_html: '<p>We are live from the LinkedIn Lounge for Day 3 of Cannes Lions. Today, we sit down with creative director Pablo Rochat, industry legend Sir John Hegarty, and e.l.f. Beauty President Kory Marchisotto to discuss the shifting dynamics of storytelling. Discover why the best brands act like entertainment studios, how to manage community feedback during high-risk campaigns, and the ultimate rule of effective advertising: tell the truth.</p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>'
+    description_plain: 'We are live from the LinkedIn Lounge for Day 3 of Cannes Lions. Today, we sit down with creative director Pablo Rochat, industry legend Sir John Hegarty, and e.l.f. Beauty President Kory Marchisotto to discuss the shifting dynamics of storytelling. Discover why the best brands act like entertainment studios, how to manage community feedback during high-risk campaigns, and the ultimate rule of effective advertising: tell the truth. Learn more about your ad choices. Visit megaphone.fm/adchoices'
+    episode_image_url: ''
+    episode_uid: 612fcd92-701a-11f1-9088-fbdd62239849
+    episode_slug: cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty
+    episode_key: cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-colin-and-samir-show/cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty/"
   - episode_title: 'CANNES DAY 2: Instagram vs. YouTube: The Battle for the Living Room'
     episode_url: ''
     audio_url: https://traffic.megaphone.fm/LUHUC4609145262.mp3
@@ -23711,7 +23723,7 @@ episodes_by_feed:
     episode_uid: e281f19a-6f2a-11f1-ab75-2b40ca54c018
     episode_slug: cannes-day-2-instagram-vs-youtube-the-battle-for-the-living-room
     episode_key: cannes-day-2-instagram-vs-youtube-the-battle-for-the-living-room
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-colin-and-samir-show/cannes-day-2-instagram-vs-youtube-the-battle-for-the-living-room/"
   - episode_title: 'CANNES DAY 1: Anthpo, Ramp, and The Best Ads of the Year'
     episode_url: ''
@@ -23723,7 +23735,7 @@ episodes_by_feed:
     episode_uid: 79903648-6e84-11f1-86db-d3fcd1d246cf
     episode_slug: cannes-day-1-anthpo-ramp-and-the-best-ads-of-the-year
     episode_key: cannes-day-1-anthpo-ramp-and-the-best-ads-of-the-year
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-colin-and-samir-show/cannes-day-1-anthpo-ramp-and-the-best-ads-of-the-year/"
   - episode_title: Markiplier Breaks Down His $50M Movie Live
     episode_url: ''
@@ -23737,7 +23749,7 @@ episodes_by_feed:
     episode_uid: a8a0e492-65d2-11f1-95b3-23b8a936a4d9
     episode_slug: markiplier-breaks-down-his-50m-movie-live
     episode_key: markiplier-breaks-down-his-50m-movie-live
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-colin-and-samir-show/markiplier-breaks-down-his-50m-movie-live/"
   - episode_title: 'Emergency Pod: The YouTube Kids are taking over Hollywood'
     episode_url: ''
@@ -23749,7 +23761,7 @@ episodes_by_feed:
     episode_uid: 1b5aaf08-6101-11f1-bb6c-03dc625e1a3a
     episode_slug: emergency-pod-the-youtube-kids-are-taking-over-hollywood
     episode_key: emergency-pod-the-youtube-kids-are-taking-over-hollywood
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-colin-and-samir-show/emergency-pod-the-youtube-kids-are-taking-over-hollywood/"
   - episode_title: 'Kareem Rahma: How SubwayTakes Became the New Late Night'
     episode_url: ''
@@ -23761,7 +23773,7 @@ episodes_by_feed:
     episode_uid: 784c8612-5f6e-11f1-bc6a-bb4a9b3318b7
     episode_slug: kareem-rahma-how-subwaytakes-became-the-new-late-night
     episode_key: kareem-rahma-how-subwaytakes-became-the-new-late-night
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-colin-and-samir-show/kareem-rahma-how-subwaytakes-became-the-new-late-night/"
   - episode_title: Why every creator is making a show
     episode_url: ''
@@ -23773,7 +23785,7 @@ episodes_by_feed:
     episode_uid: 29a27b46-5458-11f1-a933-5bcb69db5f46
     episode_slug: why-every-creator-is-making-a-show
     episode_key: why-every-creator-is-making-a-show
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-colin-and-samir-show/why-every-creator-is-making-a-show/"
   - episode_title: Mark Rober's $60 Million Dollar Experiment
     episode_url: ''
@@ -23785,7 +23797,7 @@ episodes_by_feed:
     episode_uid: 368013a8-4e88-11f1-95f9-df83b4a43a56
     episode_slug: mark-rober-s-60-million-dollar-experiment
     episode_key: mark-rober-s-60-million-dollar-experiment
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-colin-and-samir-show/mark-rober-s-60-million-dollar-experiment/"
   - episode_title: Yes Theory and the Art of Making People Care
     episode_url: ''
@@ -23797,7 +23809,7 @@ episodes_by_feed:
     episode_uid: 68366ee6-3e12-11f1-8aff-23ef729e6764
     episode_slug: yes-theory-and-the-art-of-making-people-care
     episode_key: yes-theory-and-the-art-of-making-people-care
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-colin-and-samir-show/yes-theory-and-the-art-of-making-people-care/"
   - episode_title: Why Sam Altman Spent $100M on 10,000 Viewers
     episode_url: ''
@@ -23809,7 +23821,7 @@ episodes_by_feed:
     episode_uid: eab333f6-3898-11f1-99e1-4b8574bf27f6
     episode_slug: why-sam-altman-spent-100m-on-10-000-viewers
     episode_key: why-sam-altman-spent-100m-on-10-000-viewers
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-colin-and-samir-show/why-sam-altman-spent-100m-on-10-000-viewers/"
   - episode_title: 3 Trends Reshaping the Creator Economy in 2026
     episode_url: ''
@@ -23821,7 +23833,7 @@ episodes_by_feed:
     episode_uid: 97ca1790-2d8f-11f1-b7c6-735b1fbf462d
     episode_slug: 3-trends-reshaping-the-creator-economy-in-2026
     episode_key: 3-trends-reshaping-the-creator-economy-in-2026
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-colin-and-samir-show/3-trends-reshaping-the-creator-economy-in-2026/"
   - episode_title: YouTube, Meta and the case of the Infinite Scroll
     episode_url: ''
@@ -23833,7 +23845,7 @@ episodes_by_feed:
     episode_uid: 5cc916ac-28d3-11f1-a688-e71ff488ac67
     episode_slug: youtube-meta-and-the-case-of-the-infinite-scroll
     episode_key: youtube-meta-and-the-case-of-the-infinite-scroll
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-colin-and-samir-show/youtube-meta-and-the-case-of-the-infinite-scroll/"
   - episode_title: 'He Built an AI Podcast and It Became the #1 Show.'
     episode_url: ''
@@ -23845,7 +23857,7 @@ episodes_by_feed:
     episode_uid: c670f36a-2282-11f1-80fa-7b076117efb4
     episode_slug: he-built-an-ai-podcast-and-it-became-the-1-show
     episode_key: he-built-an-ai-podcast-and-it-became-the-1-show
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-colin-and-samir-show/he-built-an-ai-podcast-and-it-became-the-1-show/"
   - episode_title: Who Is Actually Making Money in the Creator Economy?
     episode_url: ''
@@ -23857,7 +23869,7 @@ episodes_by_feed:
     episode_uid: 71d3ceb0-1cfe-11f1-85c3-d73fb3622678
     episode_slug: who-is-actually-making-money-in-the-creator-economy
     episode_key: who-is-actually-making-money-in-the-creator-economy
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-colin-and-samir-show/who-is-actually-making-money-in-the-creator-economy/"
   - episode_title: How Markiplier’s $50M Movie Changed Hollywood Forever
     episode_url: ''
@@ -23869,7 +23881,7 @@ episodes_by_feed:
     episode_uid: cda1cc4c-12a4-11f1-bffe-7b6be22398b9
     episode_slug: how-markiplier-s-50m-movie-changed-hollywood-forever
     episode_key: how-markiplier-s-50m-movie-changed-hollywood-forever
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-colin-and-samir-show/how-markiplier-s-50m-movie-changed-hollywood-forever/"
   - episode_title: AI Slop and the End of the 'Human' Internet
     episode_url: ''
@@ -23881,7 +23893,7 @@ episodes_by_feed:
     episode_uid: 88a0edca-0c74-11f1-a035-7f07f332670a
     episode_slug: ai-slop-and-the-end-of-the-human-internet
     episode_key: ai-slop-and-the-end-of-the-human-internet
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-colin-and-samir-show/ai-slop-and-the-end-of-the-human-internet/"
   - episode_title: Inside Jordan Matter’s Netflix Deal, and what it signals for YouTubers
     episode_url: ''
@@ -23893,7 +23905,7 @@ episodes_by_feed:
     episode_uid: df91ddea-0195-11f1-8bd4-9f980bd4a61f
     episode_slug: inside-jordan-matter-s-netflix-deal-and-what-it-signals-for-youtubers
     episode_key: inside-jordan-matter-s-netflix-deal-and-what-it-signals-for-youtubers
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-colin-and-samir-show/inside-jordan-matter-s-netflix-deal-and-what-it-signals-for-youtubers/"
   - episode_title: How TBPN Built the Luxury Brand of the Creator Economy
     episode_url: ''
@@ -23905,7 +23917,7 @@ episodes_by_feed:
     episode_uid: bbd97de4-fbce-11f0-93d8-1fe96f1c7d4b
     episode_slug: how-tbpn-built-the-luxury-brand-of-the-creator-economy
     episode_key: how-tbpn-built-the-luxury-brand-of-the-creator-economy
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-colin-and-samir-show/how-tbpn-built-the-luxury-brand-of-the-creator-economy/"
   - episode_title: The Art of Reinvention on YouTube - ft Speeed
     episode_url: ''
@@ -23917,7 +23929,7 @@ episodes_by_feed:
     episode_uid: ae4c18f8-f68d-11f0-ab7e-8fb2da92f5c2
     episode_slug: the-art-of-reinvention-on-youtube-ft-speeed
     episode_key: the-art-of-reinvention-on-youtube-ft-speeed
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-colin-and-samir-show/the-art-of-reinvention-on-youtube-ft-speeed/"
   - episode_title: The Creator Economy’s Abundance Crisis
     episode_url: ''
@@ -23929,7 +23941,7 @@ episodes_by_feed:
     episode_uid: b42cfc20-ebf1-11f0-a37c-dfb8a75eae24
     episode_slug: the-creator-economy-s-abundance-crisis
     episode_key: the-creator-economy-s-abundance-crisis
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-colin-and-samir-show/the-creator-economy-s-abundance-crisis/"
   - episode_title: Our 2026 Creator Economy Predictions
     episode_url: ''
@@ -23941,7 +23953,7 @@ episodes_by_feed:
     episode_uid: 1a68c5ae-e603-11f0-8c3f-1bc26c358b3a
     episode_slug: our-2026-creator-economy-predictions
     episode_key: our-2026-creator-economy-predictions
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-colin-and-samir-show/our-2026-creator-economy-predictions/"
   - episode_title: Instagram on TV, YouTubers on Netflix, Disney on AI
     episode_url: ''
@@ -23953,7 +23965,7 @@ episodes_by_feed:
     episode_uid: '06642872-db8c-11f0-b736-1f8e107f5569'
     episode_slug: instagram-on-tv-youtubers-on-netflix-disney-on-ai
     episode_key: instagram-on-tv-youtubers-on-netflix-disney-on-ai
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-colin-and-samir-show/instagram-on-tv-youtubers-on-netflix-disney-on-ai/"
   - episode_title: Gambling, Creators, and the Future of Trust Online
     episode_url: ''
@@ -23965,7 +23977,7 @@ episodes_by_feed:
     episode_uid: f21b0c58-d593-11f0-8a03-83442467c159
     episode_slug: gambling-creators-and-the-future-of-trust-online
     episode_key: gambling-creators-and-the-future-of-trust-online
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-colin-and-samir-show/gambling-creators-and-the-future-of-trust-online/"
   - episode_title: Why the Future of Creator Businesses Is Offline
     episode_url: ''
@@ -23977,7 +23989,7 @@ episodes_by_feed:
     episode_uid: c4af5ef4-d043-11f0-924d-3b236de2c31a
     episode_slug: why-the-future-of-creator-businesses-is-offline
     episode_key: why-the-future-of-creator-businesses-is-offline
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-colin-and-samir-show/why-the-future-of-creator-businesses-is-offline/"
   - episode_title: Why Netflix Is Stealing Podcasts from YouTube
     episode_url: ''
@@ -23989,20 +24001,8 @@ episodes_by_feed:
     episode_uid: 2880fbbc-ca82-11f0-91ca-4b66507f485b
     episode_slug: why-netflix-is-stealing-podcasts-from-youtube
     episode_key: why-netflix-is-stealing-podcasts-from-youtube
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-colin-and-samir-show/why-netflix-is-stealing-podcasts-from-youtube/"
-  - episode_title: How Instagram Became the Center of the Universe
-    episode_url: ''
-    audio_url: https://traffic.megaphone.fm/LUHUC4825309800.mp3?updated=1763619650
-    published_at: '2025-11-19T11:00:00Z'
-    description_html: <p>Today on The Colin and Samir Show we break down how Instagram became the center of the creator universe in 2025.</p><p>We explain why Instagram is now the first app people open, how it “owns the phone screen,” and why the DM has become the most powerful way to share and grow. We also talk through revenue on Instagram and what we're seeing on the platform.</p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>
-    description_plain: Today on The Colin and Samir Show we break down how Instagram became the center of the creator universe in 2025. We explain why Instagram is now the first app people open, how it “owns the phone screen,” and why the DM has become the most powerful way to share and grow. We also talk through revenue on Instagram and what we're seeing on the platform. Learn more about your ad choices. Visit megaphone.fm/adchoices
-    episode_image_url: https://megaphone.imgix.net/podcasts/65c648b0-c4e2-11f0-a1ac-3b7cf1da8f58/image/67f5133a27d6d8771c931bdebcd6025d.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
-    episode_uid: 65c648b0-c4e2-11f0-a1ac-3b7cf1da8f58
-    episode_slug: how-instagram-became-the-center-of-the-universe
-    episode_key: how-instagram-became-the-center-of-the-universe
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-colin-and-samir-show/how-instagram-became-the-center-of-the-universe/"
+    episode_page_url: "/the-colin-and-samir-show/why-netflix-is-stealing-podcasts-from-youtube/"
   https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &78
   - episode_title: 'Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!'
     episode_url: ''
