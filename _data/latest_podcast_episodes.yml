@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-24T22:32:03Z'
+generated_at: '2026-06-24T23:29:33Z'
 items:
+- podcast_title: Singletrack
+  podcast_page_url: "/singletrack/"
+  cover_image: "/media/singletracknew.jpeg"
+  feed_url: https://rss.buzzsprout.com/1794638.rss
+  filter_category: ultra trail business english
+  episode_title: Zach Miller | 2026 Western States 100 Pre-Race Interview
+  episode_url: ''
+  audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19398917-zach-miller-2026-western-states-100-pre-race-interview.mp3
+  published_at: '2026-06-24T17:00:00-06:00'
+  episode_key: zach-miller-2026-western-states-100-pre-race-interview
+  episode_slug: zach-miller-2026-western-states-100-pre-race-interview
+  episode_page_url: "/singletrack/zach-miller-2026-western-states-100-pre-race-interview/"
 - podcast_title: Territorio Trail
   podcast_page_url: "/territorio-trail/"
   cover_image: "/media/territorio-trail.jpeg"
@@ -13,18 +25,6 @@ items:
   episode_key: territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
   episode_slug: territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
   episode_page_url: "/territorio-trail/territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando/"
-- podcast_title: Singletrack
-  podcast_page_url: "/singletrack/"
-  cover_image: "/media/singletracknew.jpeg"
-  feed_url: https://rss.buzzsprout.com/1794638.rss
-  filter_category: ultra trail business english
-  episode_title: Tara Dower | 2026 Western States 100 Pre-Race Interview
-  episode_url: ''
-  audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19398081-tara-dower-2026-western-states-100-pre-race-interview.mp3
-  published_at: '2026-06-24T14:00:00-06:00'
-  episode_key: tara-dower-2026-western-states-100-pre-race-interview
-  episode_slug: tara-dower-2026-western-states-100-pre-race-interview
-  episode_page_url: "/singletrack/tara-dower-2026-western-states-100-pre-race-interview/"
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast/"
   cover_image: "/media/freetrail2.jpeg"
@@ -6230,6 +6230,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/science-of-ultra/inigo-mujika-phd-on-tapering/"
   https://rss.buzzsprout.com/1794638.rss: &18
+  - episode_title: Zach Miller | 2026 Western States 100 Pre-Race Interview
+    episode_url: ''
+    audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19398917-zach-miller-2026-western-states-100-pre-race-interview.mp3
+    published_at: '2026-06-24T17:00:00-06:00'
+    description_html: '<p>Zach Miller is one of the greatest, most entertaining, and most thoughtful runners of his generation. It&apos;s a treat to have him in the studio ahead of Western States, a race he has patiently waited to run for over a decade.</p><p>Miller is coming off a memorable 2nd place golden ticket performance at the Canyons 100K, a race where he reunited with Hayden Hawks for yet another classic duel in their storied rivalry, which dates back to the 2016 TNF 50 in San Francisco.</p><p>We also catch up with Zach on other topics, including his regular IRunFar column, his trusty North Face hat, and his reflections on this stage of his career as a professional ultra-trail runner.</p><p><b>Partners:</b></p><ul><li><a href=''https://www.precisionhydration.com/planner/?utm_source=partner&amp;utm_medium=podcast&amp;utm_campaign=singletrack''>Precision Fuel and Hydration</a> - use code SINGLETRACK at checkout for 15% off your next order</li><li><a href=''https://nordarun.com/''>Norda </a>- check out the 005: the lightest, fastest, most stable trail racing shoe ever made</li><li><a href=''https://raideresearch.com/singletrack''>Raide</a> - Making equipment for efficient human-powered movement in the mountains</li></ul><p><a rel="payment" href="https://www.patreon.com/runsingletrack">Support the show</a></p>'
+    description_plain: 'Zach Miller is one of the greatest, most entertaining, and most thoughtful runners of his generation. It&apos;s a treat to have him in the studio ahead of Western States, a race he has patiently waited to run for over a decade. Miller is coming off a memorable 2nd place golden ticket performance at the Canyons 100K, a race where he reunited with Hayden Hawks for yet another classic duel in their storied rivalry, which dates back to the 2016 TNF 50 in San Francisco. We also catch up with Zach on other topics, including his regular IRunFar column, his trusty North Face hat, and his reflections on this stage of his career as a professional ultra-trail runner. Partners: Precision Fuel and Hydration - use code SINGLETRACK at checkout for 15% off your next order Norda - check out the 005: the lightest, fastest, most stable trail racing shoe ever made Raide - Making equipment for efficient human-powered movement in the mountains Support the show'
+    episode_image_url: ''
+    episode_uid: buzzsprout-19398917
+    episode_slug: zach-miller-2026-western-states-100-pre-race-interview
+    episode_key: zach-miller-2026-western-states-100-pre-race-interview
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/singletrack/zach-miller-2026-western-states-100-pre-race-interview/"
   - episode_title: Tara Dower | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19398081-tara-dower-2026-western-states-100-pre-race-interview.mp3
@@ -6240,7 +6252,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19398081
     episode_slug: tara-dower-2026-western-states-100-pre-race-interview
     episode_key: tara-dower-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/singletrack/tara-dower-2026-western-states-100-pre-race-interview/"
   - episode_title: Jennifer Lichter | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
@@ -6252,7 +6264,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19394242
     episode_slug: jennifer-lichter-2026-western-states-100-pre-race-interview
     episode_key: jennifer-lichter-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/singletrack/jennifer-lichter-2026-western-states-100-pre-race-interview/"
   - episode_title: 2026 Western States 100 Women's Field Preview | Analysis, Storylines, Predictions
     episode_url: ''
@@ -6264,7 +6276,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19393642
     episode_slug: 2026-western-states-100-women-s-field-preview-analysis-storylines-predictions
     episode_key: 2026-western-states-100-women-s-field-preview-analysis-storylines-predictions
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/singletrack/2026-western-states-100-women-s-field-preview-analysis-storylines-predictions/"
   - episode_title: Kilian Jornet | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
@@ -6276,7 +6288,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19392962
     episode_slug: kilian-jornet-2026-western-states-100-pre-race-interview
     episode_key: kilian-jornet-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/singletrack/kilian-jornet-2026-western-states-100-pre-race-interview/"
   - episode_title: Scott Jurek on the Golden Age of Ultra, Dean Potter and The Dark Wizard, 200-Milers, and the Odds of a Sub-14 at Western States (Sunday Conversation)
     episode_url: ''
@@ -6288,7 +6300,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19388589
     episode_slug: scott-jurek-on-the-golden-age-of-ultra-dean-potter-and-the-dark-wizard-200-milers-and-the-odds-of-a-sub-14-at-western-st
     episode_key: scott-jurek-on-the-golden-age-of-ultra-dean-potter-and-the-dark-wizard-200-milers-and-the-odds-of-a-sub-14-at-western-st
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/singletrack/scott-jurek-on-the-golden-age-of-ultra-dean-potter-and-the-dark-wizard-200-milers-and-the-odds-of-a-sub-14-at-western-st/"
   - episode_title: 2026 Western States 100 Final Power Rankings
     episode_url: ''
@@ -6300,7 +6312,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19388600
     episode_slug: 2026-western-states-100-final-power-rankings
     episode_key: 2026-western-states-100-final-power-rankings
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/singletrack/2026-western-states-100-final-power-rankings/"
   - episode_title: Lotti Brinks | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
@@ -6312,7 +6324,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19388634
     episode_slug: lotti-brinks-2026-western-states-100-pre-race-interview
     episode_key: lotti-brinks-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/singletrack/lotti-brinks-2026-western-states-100-pre-race-interview/"
   - episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
@@ -6324,7 +6336,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19382061
     episode_slug: hans-troyer-2026-western-states-100-pre-race-interview
     episode_key: hans-troyer-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/singletrack/hans-troyer-2026-western-states-100-pre-race-interview/"
   - episode_title: Western States, Anti-Doping Efforts, and European vs American Trail Media with Francesco Puppi (Sunday Conversation)
     episode_url: ''
@@ -6336,7 +6348,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19365254
     episode_slug: western-states-anti-doping-efforts-and-european-vs-american-trail-media-with-francesco-puppi-sunday-conversation
     episode_key: western-states-anti-doping-efforts-and-european-vs-american-trail-media-with-francesco-puppi-sunday-conversation
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/singletrack/western-states-anti-doping-efforts-and-european-vs-american-trail-media-with-francesco-puppi-sunday-conversation/"
   - episode_title: 'Tom Evans Wild Treadmill Workout, Western States Sleeper Picks + Ski Brands Taking Over Trail? (Long Run Archives #40)'
     episode_url: ''
@@ -6348,7 +6360,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19352825
     episode_slug: tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40
     episode_key: tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/singletrack/tom-evans-wild-treadmill-workout-western-states-sleeper-picks-ski-brands-taking-over-trail-long-run-archives-40/"
   - episode_title: Gerda Steyn's "Comfortable" Comrades Win, New Tahoe 200 Course Record + Tudor's Luxury Trail Play (Singletrack News)
     episode_url: ''
@@ -6360,7 +6372,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19346892
     episode_slug: gerda-steyn-s-comfortable-comrades-win-new-tahoe-200-course-record-tudor-s-luxury-trail-play-singletrack-news
     episode_key: gerda-steyn-s-comfortable-comrades-win-new-tahoe-200-course-record-tudor-s-luxury-trail-play-singletrack-news
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/singletrack/gerda-steyn-s-comfortable-comrades-win-new-tahoe-200-course-record-tudor-s-luxury-trail-play-singletrack-news/"
   - episode_title: Killian's Injury Experiment, Cocodona Lottery Analysis + Versteeg Leaving Satisfy? (Singletrack News)
     episode_url: ''
@@ -6372,7 +6384,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19310491
     episode_slug: killian-s-injury-experiment-cocodona-lottery-analysis-versteeg-leaving-satisfy-singletrack-news
     episode_key: killian-s-injury-experiment-cocodona-lottery-analysis-versteeg-leaving-satisfy-singletrack-news
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/singletrack/killian-s-injury-experiment-cocodona-lottery-analysis-versteeg-leaving-satisfy-singletrack-news/"
   - episode_title: Kilian Korth Injury Update, Rachel Entrekin's New Deal, Sage vs Cam Goes to USADA (Singletrack News)
     episode_url: ''
@@ -6384,7 +6396,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19236963
     episode_slug: kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news
     episode_key: kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/singletrack/kilian-korth-injury-update-rachel-entrekin-s-new-deal-sage-vs-cam-goes-to-usada-singletrack-news/"
   - episode_title: 'Dirtbag Dreams: A History of Mountain, Ultra and Trail Running with Carl Morris (Sunday Conversation)'
     episode_url: ''
@@ -6396,7 +6408,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19228164
     episode_slug: dirtbag-dreams-a-history-of-mountain-ultra-and-trail-running-with-carl-morris-sunday-conversation
     episode_key: dirtbag-dreams-a-history-of-mountain-ultra-and-trail-running-with-carl-morris-sunday-conversation
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/singletrack/dirtbag-dreams-a-history-of-mountain-ultra-and-trail-running-with-carl-morris-sunday-conversation/"
   - episode_title: Tove's Zegama Statement, Snowdonia and Rothrock Results, + Tahoe 200's Big Return (Singletrack News)
     episode_url: ''
@@ -6408,7 +6420,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19193719
     episode_slug: tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news
     episode_key: tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/singletrack/tove-s-zegama-statement-snowdonia-and-rothrock-results-tahoe-200-s-big-return-singletrack-news/"
   - episode_title: Rachel Entrekin | 2026 Cocodona 250 Post-Race Interview
     episode_url: ''
@@ -6420,7 +6432,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19160809
     episode_slug: rachel-entrekin-2026-cocodona-250-post-race-interview
     episode_key: rachel-entrekin-2026-cocodona-250-post-race-interview
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/singletrack/rachel-entrekin-2026-cocodona-250-post-race-interview/"
   - episode_title: Kilian Korth | 2026 Cocodona 250 Post-Race Interview
     episode_url: ''
@@ -6432,7 +6444,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19160294
     episode_slug: kilian-korth-2026-cocodona-250-post-race-interview
     episode_key: kilian-korth-2026-cocodona-250-post-race-interview
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/singletrack/kilian-korth-2026-cocodona-250-post-race-interview/"
   - episode_title: Final Cocodona Thoughts, Transvulcania Recap, Western States Updates (Singletrack News)
     episode_url: ''
@@ -6444,7 +6456,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19155479
     episode_slug: final-cocodona-thoughts-transvulcania-recap-western-states-updates-singletrack-news
     episode_key: final-cocodona-thoughts-transvulcania-recap-western-states-updates-singletrack-news
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/singletrack/final-cocodona-thoughts-transvulcania-recap-western-states-updates-singletrack-news/"
   - episode_title: 2026 Cocodona 250 Recap | Race Analysis, Takeaways, Top Performances
     episode_url: ''
@@ -6456,7 +6468,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19141259
     episode_slug: 2026-cocodona-250-recap-race-analysis-takeaways-top-performances
     episode_key: 2026-cocodona-250-recap-race-analysis-takeaways-top-performances
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/singletrack/2026-cocodona-250-recap-race-analysis-takeaways-top-performances/"
   - episode_title: Aravaipa Buys Ultra Adventures, 2027 Golden Ticket Schedule, Dirtbag Dreams, John Cappis Tribute (Singletrack News)
     episode_url: ''
@@ -6468,7 +6480,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19119356
     episode_slug: aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news
     episode_key: aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/singletrack/aravaipa-buys-ultra-adventures-2027-golden-ticket-schedule-dirtbag-dreams-john-cappis-tribute-singletrack-news/"
   - episode_title: 'Jim Walmsley''s Back. Is He The Favorite? Our 2026 Western States Power Rankings (Long Run Archives #39)'
     episode_url: ''
@@ -6480,7 +6492,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19112353
     episode_slug: jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39
     episode_key: jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/singletrack/jim-walmsley-s-back-is-he-the-favorite-our-2026-western-states-power-rankings-long-run-archives-39/"
   - episode_title: 2026 Cocodona 250 Preview | Analysis, Storylines, Predictions
     episode_url: ''
@@ -6492,7 +6504,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19088230
     episode_slug: 2026-cocodona-250-preview-analysis-storylines-predictions
     episode_key: 2026-cocodona-250-preview-analysis-storylines-predictions
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/singletrack/2026-cocodona-250-preview-analysis-storylines-predictions/"
   - episode_title: Canyons 100K Recap + Western States Implications (Singletrack News)
     episode_url: ''
@@ -6504,7 +6516,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19081298
     episode_slug: canyons-100k-recap-western-states-implications-singletrack-news
     episode_key: canyons-100k-recap-western-states-implications-singletrack-news
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/singletrack/canyons-100k-recap-western-states-implications-singletrack-news/"
   - episode_title: 'Supershoe Debates, Athlete Pipeline Wars, and ACG’s Trail Reception (Long Run Archives #38)'
     episode_url: ''
@@ -6516,20 +6528,8 @@ episodes_by_feed:
     episode_uid: buzzsprout-19072806
     episode_slug: supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38
     episode_key: supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/singletrack/supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38/"
-  - episode_title: 'Max Jolliffe: Cocodona 250 Game Plan, Full-Time Pro Life, and a New Travel Show'
-    episode_url: ''
-    audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19050465-max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show.mp3
-    published_at: '2026-04-21T00:00:00-06:00'
-    description_html: '<p>Max Jolliffe joins the podcast for his third appearance, two weeks out from his return to Cocodona 250. After dropping at mile 238 in 2025 with cellulitis, Max is back for redemption, and this time he&apos;s doing it as a full-time professional athlete after leaving Hurley in November following nearly 15 years at the company.</p><p>We get into his training block, gear and nutrition strategies, and an upcoming week of course recon out of Mike Versteeg&apos;s place in Prescott. Max also walks through his experience at the BPN Backyard Ultra in the Texas hill country and makes the case for why the backyard format deserves more attention from the sport&apos;s top names.</p><p>Other topics:</p><ul><li>How 15 years in graphic design and apparel at Hurley shapes the value he brings to brand partners beyond race results</li><li>Why race merch across the sport is a missed opportunity and what needs to change</li><li>His new travel show concept, Weekend Training Camp, and the Salt Lake City pilot he&apos;s editing now</li><li>When he stopped idolizing effortless talent and started respecting visible work, and how that shift rewired what he looks for in athletes</li><li>Why he doesn&apos;t actually love racing and what draws him to multi-day events and backyard ultras instead</li><li>Time goal for Cocodona, day-one pacing philosophy, and why he&apos;s staying off the front early</li><li>Prize money at 200s and why the math might need to change</li></ul><p><b>Partners:</b></p><ul><li><a href=''https://www.precisionhydration.com/planner/?utm_source=partner&amp;utm_medium=podcast&amp;utm_campaign=singletrack''>Precision Fuel and Hydration</a> - use code SINGLETRACK at checkout for 15% off your next order</li><li><a href=''https://nordarun.com/''>Norda </a>- check out the 005: the lightest, fastest, most stable trail racing shoe ever made</li><li><a href=''https://raideresearch.com/singletrack''>Raide</a> - Making equipment for efficient human-powered movement in the mountains</li><li><a href=''https://janji.com/pages/singletrack''>Janji</a> - premium trail running apparel</li><li><a href=''https://kodiakcakes.com/?utm_source=SingleTrack&amp;utm_medium=Awareness''>Kodiak Cakes</a> - my favorite oatmeal and pancakes</li></ul><p><a rel="payment" href="https://www.patreon.com/runsingletrack">Support the show</a></p>'
-    description_plain: 'Max Jolliffe joins the podcast for his third appearance, two weeks out from his return to Cocodona 250. After dropping at mile 238 in 2025 with cellulitis, Max is back for redemption, and this time he&apos;s doing it as a full-time professional athlete after leaving Hurley in November following nearly 15 years at the company. We get into his training block, gear and nutrition strategies, and an upcoming week of course recon out of Mike Versteeg&apos;s place in Prescott. Max also walks through his experience at the BPN Backyard Ultra in the Texas hill country and makes the case for why the backyard format deserves more attention from the sport&apos;s top names. Other topics: How 15 years in graphic design and apparel at Hurley shapes the value he brings to brand partners beyond race results Why race merch across the sport is a missed opportunity and what needs to change His new travel show concept, Weekend Training Camp, and the Salt Lake City pilot he&apos;s editing now When he stopped idolizing effortless talent and started respecting visible work, and how that shift rewired what he looks for in athletes Why he doesn&apos;t actually love racing and what draws him to multi-day events and backyard ultras instead Time goal for Cocodona, day-one pacing philosophy, and why he&apos;s staying off the front early Prize money at 200s and why the math might need to change Partners: Precision Fuel and Hydration - use code SINGLETRACK at checkout for 15% off your next order Norda - check out the 005: the lightest, fastest, most stable trail racing shoe ever made Raide - Making equipment for efficient human-powered movement in the mountains Janji - premium trail running apparel Kodiak Cakes - my favorite oatmeal and pancakes Support the show'
-    episode_image_url: ''
-    episode_uid: buzzsprout-19050465
-    episode_slug: max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show
-    episode_key: max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show
     legacy_numbered_slug: episode-25
-    episode_page_url: "/singletrack/max-jolliffe-cocodona-250-game-plan-full-time-pro-life-and-a-new-travel-show/"
+    episode_page_url: "/singletrack/supershoe-debates-athlete-pipeline-wars-and-acg-s-trail-reception-long-run-archives-38/"
   https://anchor.fm/s/9abbbe4/podcast/rss: &19
   - episode_title: 316. Why Western States 100 Records Are Getting Smashed, Z1 v. Z2 Training, AI Coaching News, and Competitiveness v. Ego!
     episode_url: https://podcasters.spotify.com/pod/show/someworkallplay/episodes/316--Why-Western-States-100-Records-Are-Getting-Smashed--Z1-v--Z2-Training--AI-Coaching-News--and-Competitiveness-v--Ego-e3l5vsk
