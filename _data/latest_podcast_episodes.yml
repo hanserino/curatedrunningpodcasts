@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-25T09:09:15Z'
+generated_at: '2026-06-25T11:01:01Z'
 items:
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack/"
@@ -770,6 +770,18 @@ non_running_items:
   episode_key: jonas-gren
   episode_slug: jonas-gren
   episode_page_url: "/sommar-vinter-i-p1/jonas-gren/"
+- podcast_title: When We Were Kings
+  podcast_page_url: "/when-we-were-kings/"
+  cover_image: "/media/whenwewerekings.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
+  filter_category: uncategorized swedish
+  episode_title: 'Matchdag 15: Operation Ökenstorm och Eriks kärlek till För-EM 1991'
+  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em
+  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3cf15ffa372a995a7d9d82/media.mp3
+  published_at: '2026-06-25T09:14:07+00:00'
+  episode_key: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
+  episode_slug: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
+  episode_page_url: "/when-we-were-kings/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991/"
 - podcast_title: Pablo Torre Finds Out
   podcast_page_url: "/pablo-torre-finds-out/"
   cover_image: "/media/pablotorre.jpeg"
@@ -950,18 +962,6 @@ non_running_items:
   episode_key: norman-gravel-artists-and-hairography
   episode_slug: norman-gravel-artists-and-hairography
   episode_page_url: "/talking-over-you/norman-gravel-artists-and-hairography/"
-- podcast_title: When We Were Kings
-  podcast_page_url: "/when-we-were-kings/"
-  cover_image: "/media/whenwewerekings.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
-  filter_category: uncategorized swedish
-  episode_title: 'Matchdag 14: När Djurgården scoutade i DR Kongo'
-  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
-  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3abcdc95244c4a61092212/media.mp3
-  published_at: '2026-06-23T22:00:00+00:00'
-  episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
-  episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
-  episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
 - podcast_title: And The Writer Is...with Ross Golan
   podcast_page_url: "/and-the-writer-is-with-ross-golan/"
   cover_image: "/media/andthewriteris.jpeg"
@@ -27084,6 +27084,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/715-hot-utan-ansikte/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &90
+  - episode_title: 'Matchdag 15: Operation Ökenstorm och Eriks kärlek till För-EM 1991'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3cf15ffa372a995a7d9d82/media.mp3
+    published_at: '2026-06-25T09:14:07+00:00'
+    description_html: Tommy Svensson tar över landslaget och ska ner till Tunisien och spela träningsmatch. Men så blir det inte! Det blir Tipshallen i Växjö istället och, till Eriks stora glädje, För-EM i Stockholm.<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: Tommy Svensson tar över landslaget och ska ner till Tunisien och spela träningsmatch. Men så blir det inte! Det blir Tipshallen i Växjö istället och, till Eriks stora glädje, För-EM i Stockholm. Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a3cf15ffa372a995a7d9d82
+    episode_slug: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
+    episode_key: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
+    legacy_unicode_slug: matchdag-15-operation-ökenstorm-och-eriks-kärlek-till-för-em-1991
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991/"
   - episode_title: 'Matchdag 14: När Djurgården scoutade i DR Kongo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3abcdc95244c4a61092212/media.mp3
@@ -27095,7 +27108,7 @@ episodes_by_feed:
     episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     legacy_unicode_slug: matchdag-14-när-djurgården-scoutade-i-dr-kongo
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
   - episode_title: 'Matchdag 13: Den ghananska hardcore-coachen Herbert Addo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
@@ -27107,7 +27120,7 @@ episodes_by_feed:
     episode_uid: 6a3a43ee00998a7fc8913318
     episode_slug: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
     episode_key: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/"
   - episode_title: 'Matchdag 12: USA:s invasion  av Irak 2003 och Uday Hussein'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-12-usas-invasion-av-irak-2003-och-uday-hussein
@@ -27119,7 +27132,7 @@ episodes_by_feed:
     episode_uid: 6a3933089c43d66bc008df81
     episode_slug: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
     episode_key: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
   - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
@@ -27132,7 +27145,7 @@ episodes_by_feed:
     episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
   - episode_title: 'Matchdag 10: Marco Van Bastens kamp för VM 1994'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-10-marco-van-bastens-kamp-for-vm-1994
@@ -27145,7 +27158,7 @@ episodes_by_feed:
     episode_slug: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     episode_key: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     legacy_unicode_slug: matchdag-10-marco-van-bastens-kamp-för-vm-1994
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-10-marco-van-bastens-kamp-for-vm-1994/"
   - episode_title: 'Matchdag 9: NASL - Den första amerikanska proffsligan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-9-nasl-den-forsta-amerikanska-proffsligan
@@ -27158,7 +27171,7 @@ episodes_by_feed:
     episode_slug: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     episode_key: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     legacy_unicode_slug: matchdag-9-nasl-den-första-amerikanska-proffsligan
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-9-nasl-den-forsta-amerikanska-proffsligan/"
   - episode_title: 'Matchdag 8: Zemans fritänkande uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-8-zemans-fritankande-uppvaxt
@@ -27171,7 +27184,7 @@ episodes_by_feed:
     episode_slug: matchdag-8-zemans-fritankande-uppvaxt
     episode_key: matchdag-8-zemans-fritankande-uppvaxt
     legacy_unicode_slug: matchdag-8-zemans-fritänkande-uppväxt
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/matchdag-8-zemans-fritankande-uppvaxt/"
   - episode_title: 'Matchdag 7: Blažević, Boban och Modric'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-7-blaevi-boban-och-modric
@@ -27184,7 +27197,7 @@ episodes_by_feed:
     episode_slug: matchdag-7-blazevic-boban-och-modric
     episode_key: matchdag-7-blazevic-boban-och-modric
     legacy_unicode_slug: matchdag-7-blažević-boban-och-modric
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-7-blazevic-boban-och-modric/"
   - episode_title: 'Matchdag 6: Zidane och politiken'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-6-zidane-och-politiken
@@ -27196,7 +27209,7 @@ episodes_by_feed:
     episode_uid: 6a2fe8fccd02369494f0ac46
     episode_slug: matchdag-6-zidane-och-politiken
     episode_key: matchdag-6-zidane-och-politiken
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-6-zidane-och-politiken/"
   - episode_title: 'Matchdag 5: Sverige - Bulgarien 2004'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-5-sverige-bulgarien-2004
@@ -27208,7 +27221,7 @@ episodes_by_feed:
     episode_uid: 6a2f0504252d86e846043884
     episode_slug: matchdag-5-sverige-bulgarien-2004
     episode_key: matchdag-5-sverige-bulgarien-2004
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
   - episode_title: 'Matchdag 4: Historiens tråkigaste VM-final'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-4-historiens-trakigaste-vm-final
@@ -27221,7 +27234,7 @@ episodes_by_feed:
     episode_slug: matchdag-4-historiens-trakigaste-vm-final
     episode_key: matchdag-4-historiens-trakigaste-vm-final
     legacy_unicode_slug: matchdag-4-historiens-tråkigaste-vm-final
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/matchdag-4-historiens-trakigaste-vm-final/"
   - episode_title: 'Matchdag 3: Adidas, kommersialiseringen och VM-floppen 1978'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
@@ -27233,7 +27246,7 @@ episodes_by_feed:
     episode_uid: 6a2bf993e6540bec0f9db0ab
     episode_slug: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
     episode_key: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978/"
   - episode_title: 'Matchdag 2: Berättelsen om Edin Džeko'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-2-berattelsen-om
@@ -27246,7 +27259,7 @@ episodes_by_feed:
     episode_slug: matchdag-2-berattelsen-om-edin-dzeko
     episode_key: matchdag-2-berattelsen-om-edin-dzeko
     legacy_unicode_slug: matchdag-2-berättelsen-om-edin-džeko
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/matchdag-2-berattelsen-om-edin-dzeko/"
   - episode_title: 'Matchdag 1:  Juárez Vs Sinaloa'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-1-juarez-vs-sinaloa
@@ -27259,7 +27272,7 @@ episodes_by_feed:
     episode_slug: matchdag-1-juarez-vs-sinaloa
     episode_key: matchdag-1-juarez-vs-sinaloa
     legacy_unicode_slug: matchdag-1-juárez-vs-sinaloa
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/matchdag-1-juarez-vs-sinaloa/"
   - episode_title: 290. Ruhr 2022/23
     episode_url: https://pod.space/whenwewerekings/290-ruhr-2022-23
@@ -27271,7 +27284,7 @@ episodes_by_feed:
     episode_uid: 4be36fabd91187d9a67c5b4f64aafe84
     episode_slug: 290-ruhr-2022-23
     episode_key: 290-ruhr-2022-23
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/290-ruhr-2022-23/"
   - episode_title: 289. Inter 2009/10 (3/3)
     episode_url: https://pod.space/whenwewerekings/289-inter-2009-10-3-3
@@ -27283,7 +27296,7 @@ episodes_by_feed:
     episode_uid: 9475b7f4ac14711984fb52fd3cbaa35b
     episode_slug: 289-inter-2009-10-3-3
     episode_key: 289-inter-2009-10-3-3
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/289-inter-2009-10-3-3/"
   - episode_title: "(Kortversion) 288. Inter 2009/10 (2/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-288-inter-2009-10-2-3
@@ -27295,7 +27308,7 @@ episodes_by_feed:
     episode_uid: 5be1021af64278647bd731d65391733e
     episode_slug: kortversion-288-inter-2009-10-2-3
     episode_key: kortversion-288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/kortversion-288-inter-2009-10-2-3/"
   - episode_title: 288. Inter 2009/10 (2/3)
     episode_url: https://pod.space/whenwewerekings/288-inter-2009-10-2-3
@@ -27307,7 +27320,7 @@ episodes_by_feed:
     episode_uid: 01b548ca2606ba99f4d908125a27b230
     episode_slug: 288-inter-2009-10-2-3
     episode_key: 288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/288-inter-2009-10-2-3/"
   - episode_title: "(Kortversion) 287. Inter 2009/10 (1/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-287-inter-2009-10-1-3
@@ -27319,7 +27332,7 @@ episodes_by_feed:
     episode_uid: 11f73fb86b79d95a571fe2458b9b5df8
     episode_slug: kortversion-287-inter-2009-10-1-3
     episode_key: kortversion-287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/kortversion-287-inter-2009-10-1-3/"
   - episode_title: 287. Inter 2009/10 (1/3)
     episode_url: https://pod.space/whenwewerekings/287-inter-2009-10-1-3
@@ -27331,7 +27344,7 @@ episodes_by_feed:
     episode_uid: ffbebd7b477007311211435aa176a93c
     episode_slug: 287-inter-2009-10-1-3
     episode_key: 287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/287-inter-2009-10-1-3/"
   - episode_title: "(Kortversion) 286. Sverige 2004 (2/2)"
     episode_url: https://pod.space/whenwewerekings/kortversion-286-sverige-2004-2-2
@@ -27343,7 +27356,7 @@ episodes_by_feed:
     episode_uid: 6793b573cfac08ab6a4d9cc347702445
     episode_slug: kortversion-286-sverige-2004-2-2
     episode_key: kortversion-286-sverige-2004-2-2
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/kortversion-286-sverige-2004-2-2/"
   - episode_title: 286. Sverige 2004 (2/2)
     episode_url: https://pod.space/whenwewerekings/286-sverige-2004-2-2
@@ -27355,7 +27368,7 @@ episodes_by_feed:
     episode_uid: 1a38ce4523442f3d1e8f23fc7d301838
     episode_slug: 286-sverige-2004-2-2
     episode_key: 286-sverige-2004-2-2
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/286-sverige-2004-2-2/"
   - episode_title: "(Kortavsnitt) 285. Sverige 2004 (1/2)"
     episode_url: https://pod.space/whenwewerekings/kortavsnitt-285-sverige-2004
@@ -27367,7 +27380,7 @@ episodes_by_feed:
     episode_uid: 186a4935098a5092f395f8841b90256f
     episode_slug: kortavsnitt-285-sverige-2004-1-2
     episode_key: kortavsnitt-285-sverige-2004-1-2
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/kortavsnitt-285-sverige-2004-1-2/"
   - episode_title: 285. Sverige 2004 (1/2)
     episode_url: https://pod.space/whenwewerekings/285-sverige-2004-1-2
@@ -27379,21 +27392,8 @@ episodes_by_feed:
     episode_uid: 882b01d0285a00364090105b876df903
     episode_slug: 285-sverige-2004-1-2
     episode_key: 285-sverige-2004-1-2
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/285-sverige-2004-1-2/"
-  - episode_title: 284. Jesús Navas (2/2)
-    episode_url: https://pod.space/whenwewerekings/284-jesus-navas-2-2
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/d0ed2eca04f4721ae33e65100c0953e6/media.mp3
-    published_at: '2025-02-11T23:01:00+00:00'
-    description_html: "<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: d0ed2eca04f4721ae33e65100c0953e6
-    episode_slug: 284-jesus-navas-2-2
-    episode_key: 284-jesus-navas-2-2
-    legacy_unicode_slug: 284-jesús-navas-2-2
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/284-jesus-navas-2-2/"
+    episode_page_url: "/when-we-were-kings/285-sverige-2004-1-2/"
   https://api.substack.com/feed/podcast/10845.rss: &91
   - episode_title: What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)
     episode_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
@@ -30003,6 +30003,9 @@ errors:
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
+- podcast: Lex Fridman Podcast
+  rss_feed: https://lexfridman.com/feed/podcast/
+  error: 'Net::OpenTimeout: Net::OpenTimeout'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
   error: Latest episode has no enclosure URL
