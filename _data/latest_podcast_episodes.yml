@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-26T18:40:20Z'
+generated_at: '2026-06-26T19:37:04Z'
 items:
+- podcast_title: Crack A Brew With AJW
+  podcast_page_url: "/crack-a-brew-with-ajw/"
+  cover_image: "/media/crackabrew.jpeg"
+  feed_url: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
+  filter_category: trail ultra english
+  episode_title: Mo Livermore and Shannon Weil - A Western States History Lesson
+  episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/mo-livermore-and-shannon-weil-a-western-states-history-lesson
+  audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Mo__Shannon.mp3?dest-id=3847590
+  published_at: '2026-06-26T19:15:00+00:00'
+  episode_key: mo-livermore-and-shannon-weil-a-western-states-history-lesson
+  episode_slug: mo-livermore-and-shannon-weil-a-western-states-history-lesson
+  episode_page_url: "/crack-a-brew-with-ajw/mo-livermore-and-shannon-weil-a-western-states-history-lesson/"
 - podcast_title: Human Performance Outliers
   podcast_page_url: "/human-performance-outliers/"
   cover_image: "/media/humanperformanceoutliers.jpeg"
@@ -85,18 +97,6 @@ items:
   episode_key: comment-savoir-si-vous-progressez-vraiment-2-2
   episode_slug: comment-savoir-si-vous-progressez-vraiment-2-2
   episode_page_url: "/dans-la-t-te-d-un-coureur/comment-savoir-si-vous-progressez-vraiment-2-2/"
-- podcast_title: Crack A Brew With AJW
-  podcast_page_url: "/crack-a-brew-with-ajw/"
-  cover_image: "/media/crackabrew.jpeg"
-  feed_url: https://rss.libsyn.com/shows/456963/destinations/3847590.xml
-  filter_category: trail ultra english
-  episode_title: Ann Trason - Her Legacy at Western States and Thoughts for the Future Ann
-  episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann
-  audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Ann_Tracen_1.mp3?dest-id=3847590
-  published_at: '2026-06-25T22:25:00+00:00'
-  episode_key: ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann
-  episode_slug: ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann
-  episode_page_url: "/crack-a-brew-with-ajw/ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann/"
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack/"
   cover_image: "/media/singletracknew.jpeg"
@@ -4999,6 +4999,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/breaking-marathon-limits/ep131-drammen-10km/"
   https://rss.libsyn.com/shows/456963/destinations/3847590.xml: &14
+  - episode_title: Mo Livermore and Shannon Weil - A Western States History Lesson
+    episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/mo-livermore-and-shannon-weil-a-western-states-history-lesson
+    audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Mo__Shannon.mp3?dest-id=3847590
+    published_at: '2026-06-26T19:15:00+00:00'
+    description_html: "<p>In this episode AJW cracks a brew with Western States 100 co-founders Mo Livermore and Shannon Weil to re-live the origins of the race, provide details on some of the key characters in the history of the race, and provide some insight as to why, all these years later, they still have passion and devotion to this incredible event.</p>"
+    description_plain: In this episode AJW cracks a brew with Western States 100 co-founders Mo Livermore and Shannon Weil to re-live the origins of the race, provide details on some of the key characters in the history of the race, and provide some insight as to why, all these years later, they still have passion and devotion to this incredible event.
+    episode_image_url: https://static.libsyn.com/p/assets/a/e/1/a/ae1acf69cd51305216c3140a3186d450/CAB_Mo_Shannon.png
+    episode_uid: 6a8a72d7-1dbe-4bed-b286-0eb5fba20546
+    episode_slug: mo-livermore-and-shannon-weil-a-western-states-history-lesson
+    episode_key: mo-livermore-and-shannon-weil-a-western-states-history-lesson
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/crack-a-brew-with-ajw/mo-livermore-and-shannon-weil-a-western-states-history-lesson/"
   - episode_title: Ann Trason - Her Legacy at Western States and Thoughts for the Future Ann
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann
     audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/CAB_Ann_Tracen_1.mp3?dest-id=3847590
@@ -5009,7 +5021,7 @@ episodes_by_feed:
     episode_uid: 8532e42c-0807-426b-98b9-5c0a50482a04
     episode_slug: ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann
     episode_key: ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/crack-a-brew-with-ajw/ann-trason-her-legacy-at-western-states-and-thoughts-for-the-future-ann/"
   - episode_title: 'AJW Unplugged: The 2026 Western States Episode'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ajw-unplugged-the-2026-western-states-episode
@@ -5021,7 +5033,7 @@ episodes_by_feed:
     episode_uid: 6efa1d03-4d3f-4953-bc42-654e6d09de5b
     episode_slug: ajw-unplugged-the-2026-western-states-episode
     episode_key: ajw-unplugged-the-2026-western-states-episode
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/crack-a-brew-with-ajw/ajw-unplugged-the-2026-western-states-episode/"
   - episode_title: 'Brian Morrison: Heartbreak at the 2006 Western States 100 and the 20 Year Healing Process'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
@@ -5033,7 +5045,7 @@ episodes_by_feed:
     episode_uid: 4b3ffd14-3855-4c75-8143-0c579d2accd9
     episode_slug: brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
     episode_key: brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/crack-a-brew-with-ajw/brian-morrison-heartbreak-at-the-2006-western-states-100-and-the-20-year-healing-process/"
   - episode_title: Zach Miller - Western States Training, 12 Years Between Golden Tickets and A Run Down Memory Lane
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/zach-miller-western-states-training-12-years-between-golden-tickets-and-a-run-down-memory-lane
@@ -5045,7 +5057,7 @@ episodes_by_feed:
     episode_uid: 85b7440e-a8bf-4314-b3f7-241ec4f35f97
     episode_slug: zach-miller-western-states-training-12-years-between-golden-tickets-and-a-run-down-memory-lane
     episode_key: zach-miller-western-states-training-12-years-between-golden-tickets-and-a-run-down-memory-lane
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/crack-a-brew-with-ajw/zach-miller-western-states-training-12-years-between-golden-tickets-and-a-run-down-memory-lane/"
   - episode_title: 'Jeff Mogavero:  East Coast Upbringing, Discovering a Love of the Trails, and the 2026 Western States 100'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100
@@ -5057,7 +5069,7 @@ episodes_by_feed:
     episode_uid: 2bee6148-7432-4b9d-b339-1edb0e447dd7
     episode_slug: jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100
     episode_key: jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/crack-a-brew-with-ajw/jeff-mogavero-east-coast-upbringing-discovering-a-love-of-the-trails-and-the-2026-western-states-100/"
   - episode_title: 'Hannah Allgood: Training, Racing and Her Return to Western States'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/hannah-allgood-training-racing-and-her-return-to-western-states
@@ -5069,7 +5081,7 @@ episodes_by_feed:
     episode_uid: 75ab5a32-9a2a-4454-b180-3d09982c3921
     episode_slug: hannah-allgood-training-racing-and-her-return-to-western-states
     episode_key: hannah-allgood-training-racing-and-her-return-to-western-states
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/crack-a-brew-with-ajw/hannah-allgood-training-racing-and-her-return-to-western-states/"
   - episode_title: 'Holly Ranson: Golden Ticket Chase, Australian Trail Running Scene, and Hopes and Dreams Going into Western States.'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/holly-ranson-golden-ticket-chase-australian-trail-running-scene-and-hopes-and-dreams-going-into-western-states
@@ -5081,7 +5093,7 @@ episodes_by_feed:
     episode_uid: 8d29c094-1d18-42b5-8fe2-7eb2960382cd
     episode_slug: holly-ranson-golden-ticket-chase-australian-trail-running-scene-and-hopes-and-dreams-going-into-western-states
     episode_key: holly-ranson-golden-ticket-chase-australian-trail-running-scene-and-hopes-and-dreams-going-into-western-states
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/crack-a-brew-with-ajw/holly-ranson-golden-ticket-chase-australian-trail-running-scene-and-hopes-and-dreams-going-into-western-states/"
   - episode_title: 'AJW Unplugged: History and Reflection on the Golden Ticket Series, Cocodona Thoughts and Predictions, and a Personal Update'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ajw-unplugged-history-and-reflection-on-the-golden-ticket-series-cocodona-thoughts-and-predictions-and-a-personal-update
@@ -5093,7 +5105,7 @@ episodes_by_feed:
     episode_uid: 0bfc42be-9f0c-43ff-87df-ce01d42c8ff1
     episode_slug: ajw-unplugged-history-and-reflection-on-the-golden-ticket-series-cocodona-thoughts-and-predictions-and-a-personal-update
     episode_key: ajw-unplugged-history-and-reflection-on-the-golden-ticket-series-cocodona-thoughts-and-predictions-and-a-personal-update
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/crack-a-brew-with-ajw/ajw-unplugged-history-and-reflection-on-the-golden-ticket-series-cocodona-thoughts-and-predictions-and-a-personal-update/"
   - episode_title: 'Sarah Lavender Smith:  Running into Middle Age, Balancing Running and Life and Turning the Mic on AJW'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/sarah-lavender-smith-running-into-middle-age-balancing-running-and-life-and-turning-the-mic-on-ajw
@@ -5105,7 +5117,7 @@ episodes_by_feed:
     episode_uid: 1f0099d8-e796-48fd-8e43-43b1d5e21f62
     episode_slug: sarah-lavender-smith-running-into-middle-age-balancing-running-and-life-and-turning-the-mic-on-ajw
     episode_key: sarah-lavender-smith-running-into-middle-age-balancing-running-and-life-and-turning-the-mic-on-ajw
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/crack-a-brew-with-ajw/sarah-lavender-smith-running-into-middle-age-balancing-running-and-life-and-turning-the-mic-on-ajw/"
   - episode_title: 'Jacob Banta:  Golden Tickets, Western States, and Balancing Life on Both Sides of the Lens'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/jacob-banta-golden-tickets-western-states-and-balancing-life-on-both-sides-of-the-lens
@@ -5117,7 +5129,7 @@ episodes_by_feed:
     episode_uid: d8d044e0-f2b7-4ce2-aebc-fe1a35f8f982
     episode_slug: jacob-banta-golden-tickets-western-states-and-balancing-life-on-both-sides-of-the-lens
     episode_key: jacob-banta-golden-tickets-western-states-and-balancing-life-on-both-sides-of-the-lens
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/crack-a-brew-with-ajw/jacob-banta-golden-tickets-western-states-and-balancing-life-on-both-sides-of-the-lens/"
   - episode_title: 'Meg Eckert: Six Day World Record, Cocodona 250 and Balancing Long Trail Races with Longer Fixed Time Events.'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/meg-eckert-six-day-world-record-cocodona-250-and-balancing-long-trail-races-with-longer-fixed-time-events
@@ -5129,7 +5141,7 @@ episodes_by_feed:
     episode_uid: 2a73a9b2-8af1-485c-86a8-ebaeff01ec5c
     episode_slug: meg-eckert-six-day-world-record-cocodona-250-and-balancing-long-trail-races-with-longer-fixed-time-events
     episode_key: meg-eckert-six-day-world-record-cocodona-250-and-balancing-long-trail-races-with-longer-fixed-time-events
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/crack-a-brew-with-ajw/meg-eckert-six-day-world-record-cocodona-250-and-balancing-long-trail-races-with-longer-fixed-time-events/"
   - episode_title: Canyon Woodward - Unique Childhood, Grassroots Organizing and the Western States 100
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/canyon-woodward-unique-childhood-grassroots-organizing-and-the-western-states-100
@@ -5141,7 +5153,7 @@ episodes_by_feed:
     episode_uid: f43cf70d-eefc-4a3f-9373-839f01045092
     episode_slug: canyon-woodward-unique-childhood-grassroots-organizing-and-the-western-states-100
     episode_key: canyon-woodward-unique-childhood-grassroots-organizing-and-the-western-states-100
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/crack-a-brew-with-ajw/canyon-woodward-unique-childhood-grassroots-organizing-and-the-western-states-100/"
   - episode_title: Imogen Ainsworth - Her Athletic Upbringing, the Leadville 100, and Plans for 2026
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/imogen-ainsworth-her-athletic-upbringing-the-leadville-100-and-plans-for-2026
@@ -5153,7 +5165,7 @@ episodes_by_feed:
     episode_uid: a7a8efb3-dd73-45e7-8a5d-6f03b79d3f34
     episode_slug: imogen-ainsworth-her-athletic-upbringing-the-leadville-100-and-plans-for-2026
     episode_key: imogen-ainsworth-her-athletic-upbringing-the-leadville-100-and-plans-for-2026
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/crack-a-brew-with-ajw/imogen-ainsworth-her-athletic-upbringing-the-leadville-100-and-plans-for-2026/"
   - episode_title: Anne Flower - Chasing Down Ann Trason, World Records and Western States Dreams
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/anne-flower-chasing-down-ann-trason-world-records-and-western-states-dreams
@@ -5165,7 +5177,7 @@ episodes_by_feed:
     episode_uid: d470be34-b9d2-489b-a4ba-71a061a51b9b
     episode_slug: anne-flower-chasing-down-ann-trason-world-records-and-western-states-dreams
     episode_key: anne-flower-chasing-down-ann-trason-world-records-and-western-states-dreams
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/crack-a-brew-with-ajw/anne-flower-chasing-down-ann-trason-world-records-and-western-states-dreams/"
   - episode_title: Will Murray - Teaching, Running, and Remaining Calm in the Midst of the Chaos
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/will-murray-teaching-running-and-remaining-calm-in-the-midst-of-the-chaos
@@ -5177,7 +5189,7 @@ episodes_by_feed:
     episode_uid: ce69ec09-e3ac-4b24-89f2-1b824317b853
     episode_slug: will-murray-teaching-running-and-remaining-calm-in-the-midst-of-the-chaos
     episode_key: will-murray-teaching-running-and-remaining-calm-in-the-midst-of-the-chaos
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/crack-a-brew-with-ajw/will-murray-teaching-running-and-remaining-calm-in-the-midst-of-the-chaos/"
   - episode_title: 'AJW Unplugged:  2025 Predictions, Three Wishes for 2026, a Book Review, and a Personal Update.'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/ajw-unplugged-2025-predictions-three-wishes-for-2026-a-book-review-and-a-personal-update
@@ -5189,7 +5201,7 @@ episodes_by_feed:
     episode_uid: 7d94e942-67d8-44b3-98db-530b6185e482
     episode_slug: ajw-unplugged-2025-predictions-three-wishes-for-2026-a-book-review-and-a-personal-update
     episode_key: ajw-unplugged-2025-predictions-three-wishes-for-2026-a-book-review-and-a-personal-update
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/crack-a-brew-with-ajw/ajw-unplugged-2025-predictions-three-wishes-for-2026-a-book-review-and-a-personal-update/"
   - episode_title: 'Finn Melanson:  Special Year End Episode with Ultrarunner of the Year and other tributes'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/finn-melanson-special-year-end-episode-with-ultrarunner-of-the-year-and-other-tributes-1
@@ -5201,7 +5213,7 @@ episodes_by_feed:
     episode_uid: 7598b507-2d3c-45e4-af3b-511dbee139eb
     episode_slug: finn-melanson-special-year-end-episode-with-ultrarunner-of-the-year-and-other-tributes
     episode_key: finn-melanson-special-year-end-episode-with-ultrarunner-of-the-year-and-other-tributes
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/crack-a-brew-with-ajw/finn-melanson-special-year-end-episode-with-ultrarunner-of-the-year-and-other-tributes/"
   - episode_title: 'Annie Hughes: Running Super Long From a Young Age, Returning from Injury, and Thoughts About Longevity in Ultrarunning'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/annie-hughes-running-super-long-from-a-young-age-returning-from-injury-and-thoughts-about-longevity-in-ultrarunning
@@ -5213,7 +5225,7 @@ episodes_by_feed:
     episode_uid: 22722420-7823-4c11-bc69-e68981b61b01
     episode_slug: annie-hughes-running-super-long-from-a-young-age-returning-from-injury-and-thoughts-about-longevity-in-ultrarunning
     episode_key: annie-hughes-running-super-long-from-a-young-age-returning-from-injury-and-thoughts-about-longevity-in-ultrarunning
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/crack-a-brew-with-ajw/annie-hughes-running-super-long-from-a-young-age-returning-from-injury-and-thoughts-about-longevity-in-ultrarunning/"
   - episode_title: 'Caleb Olson:  Training and Racing With a Young Family, Western States, and the Million Feet Challenge'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/caleb-olson-training-and-racing-with-a-young-family-western-states-and-the-million-feet-challenge
@@ -5225,7 +5237,7 @@ episodes_by_feed:
     episode_uid: d9a85ff6-941d-4ada-b05d-bc0628fbfccb
     episode_slug: caleb-olson-training-and-racing-with-a-young-family-western-states-and-the-million-feet-challenge
     episode_key: caleb-olson-training-and-racing-with-a-young-family-western-states-and-the-million-feet-challenge
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/crack-a-brew-with-ajw/caleb-olson-training-and-racing-with-a-young-family-western-states-and-the-million-feet-challenge/"
   - episode_title: 'Lila Gaudrault:  Running the Rugged Beast Coast Trails, Balancing Running and Work, and Her Thoughts Ahead of Her First Time at the Cocodona 250'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/lila-gaudrault-running-the-rugged-beast-coast-trails-balancing-running-and-work-and-her-thoughts-ahead-of-her-first-time-at-the-cocodona-250
@@ -5237,7 +5249,7 @@ episodes_by_feed:
     episode_uid: f48c650b-c757-4975-b143-03b7f288ea42
     episode_slug: lila-gaudrault-running-the-rugged-beast-coast-trails-balancing-running-and-work-and-her-thoughts-ahead-of-her-first-time
     episode_key: lila-gaudrault-running-the-rugged-beast-coast-trails-balancing-running-and-work-and-her-thoughts-ahead-of-her-first-time
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/crack-a-brew-with-ajw/lila-gaudrault-running-the-rugged-beast-coast-trails-balancing-running-and-work-and-her-thoughts-ahead-of-her-first-time/"
   - episode_title: 'Cody Poskin:  Running with Joy, Seeking Adventure, and Racing in China'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/cody-poskin-running-with-joy-seeking-adventure-and-racing-in-china
@@ -5249,7 +5261,7 @@ episodes_by_feed:
     episode_uid: b33a5013-b478-42ca-865c-457033cd4517
     episode_slug: cody-poskin-running-with-joy-seeking-adventure-and-racing-in-china
     episode_key: cody-poskin-running-with-joy-seeking-adventure-and-racing-in-china
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/crack-a-brew-with-ajw/cody-poskin-running-with-joy-seeking-adventure-and-racing-in-china/"
   - episode_title: 'Hans Troyer:  Overcoming Rhabdo, Western States and His Upcoming Race at the JFK50'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/hans-troyer-overcoming-rhabdo-western-states-and-his-upcoming-race-at-the-jfk50
@@ -5261,7 +5273,7 @@ episodes_by_feed:
     episode_uid: 7d082612-252b-4949-9c8a-07b11f857699
     episode_slug: hans-troyer-overcoming-rhabdo-western-states-and-his-upcoming-race-at-the-jfk50
     episode_key: hans-troyer-overcoming-rhabdo-western-states-and-his-upcoming-race-at-the-jfk50
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/crack-a-brew-with-ajw/hans-troyer-overcoming-rhabdo-western-states-and-his-upcoming-race-at-the-jfk50/"
   - episode_title: 'Kaylee Frederick:  Running ultras as a teenager, finding her groove, and shocking the world at the World 24 hour Championships'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/kaylee-frederick-running-ultras-as-a-teenager-finding-her-groove-and-shocking-the-world-at-the-world-24-hour-championships
@@ -5273,7 +5285,7 @@ episodes_by_feed:
     episode_uid: 03f7ad23-54da-4385-8de8-a7e3a307c6dd
     episode_slug: kaylee-frederick-running-ultras-as-a-teenager-finding-her-groove-and-shocking-the-world-at-the-world-24-hour-championshi
     episode_key: kaylee-frederick-running-ultras-as-a-teenager-finding-her-groove-and-shocking-the-world-at-the-world-24-hour-championshi
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/crack-a-brew-with-ajw/kaylee-frederick-running-ultras-as-a-teenager-finding-her-groove-and-shocking-the-world-at-the-world-24-hour-championshi/"
   - episode_title: 'Andy and Shelly Jones-Wilkins:  Javelina, Western States, and Sustaining a Healthy Relationship Through Three Decades of Ultrarunning'
     episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/andy-and-shelly-jones-wilkins-javelina-western-states-and-sustaining-a-healthy-relationship-through-three-decades-of-ultrarunning
@@ -5285,20 +5297,8 @@ episodes_by_feed:
     episode_uid: 92d22c67-0a51-4d3f-a836-58323325d0cb
     episode_slug: andy-and-shelly-jones-wilkins-javelina-western-states-and-sustaining-a-healthy-relationship-through-three-decades-of-ult
     episode_key: andy-and-shelly-jones-wilkins-javelina-western-states-and-sustaining-a-healthy-relationship-through-three-decades-of-ult
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/crack-a-brew-with-ajw/andy-and-shelly-jones-wilkins-javelina-western-states-and-sustaining-a-healthy-relationship-through-three-decades-of-ult/"
-  - episode_title: 'Zach and Nicole Bitter: The Twists and Turns of Sharing a Life of Running'
-    episode_url: https://7caeba47-d0c9-47b9-aea3-831f4715bcf1.libsyn.com/zach-and-nicole-bitter-the-twists-and-turns-of-sharing-a-life-of-running
-    audio_url: https://traffic.libsyn.com/secure/7caeba47-d0c9-47b9-aea3-831f4715bcf1/Crack_a_brew_w_Zach__Nicole.mp3?dest-id=3847590
-    published_at: '2025-10-18T08:00:00+00:00'
-    description_html: In this episode AJW cracks a brew with veteran ultrarunners Zach and Nicole Bitter. In their wide ranging conversation they discuss the trials and tribulations of sharing a life of running and some of their fondest memories of supporting one another in some of the sport's most competitive events. Follow Zach on Instagram <a href= "https://www.instagram.com/zachbitter/?hl=en" target="_blank" rel= "noopener">@zachbitter</a> Follow Nicole on Instagram <a href= "https://www.instagram.com/nkbitter/?hl=en" target="_blank" rel= "noopener">@nkbitter</a>
-    description_plain: In this episode AJW cracks a brew with veteran ultrarunners Zach and Nicole Bitter. In their wide ranging conversation they discuss the trials and tribulations of sharing a life of running and some of their fondest memories of supporting one another in some of the sport's most competitive events. Follow Zach on Instagram @zachbitter Follow Nicole on Instagram @nkbitter
-    episode_image_url: https://static.libsyn.com/p/assets/f/3/0/e/f30e02562e038a38d959afa2a1bf1c87/Crack_a_Brew_w_Zach__Nicole.png
-    episode_uid: 1ce636da-db12-4399-83b9-54efb16abffc
-    episode_slug: zach-and-nicole-bitter-the-twists-and-turns-of-sharing-a-life-of-running
-    episode_key: zach-and-nicole-bitter-the-twists-and-turns-of-sharing-a-life-of-running
     legacy_numbered_slug: episode-25
-    episode_page_url: "/crack-a-brew-with-ajw/zach-and-nicole-bitter-the-twists-and-turns-of-sharing-a-life-of-running/"
+    episode_page_url: "/crack-a-brew-with-ajw/andy-and-shelly-jones-wilkins-javelina-western-states-and-sustaining-a-healthy-relationship-through-three-decades-of-ult/"
   https://rss.buzzsprout.com/765419.rss: &15
   - episode_title: Koop AI, Unboxed
     episode_url: ''
