@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-26T13:45:04Z'
+generated_at: '2026-06-26T14:58:39Z'
 items:
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast/"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  filter_category: ultra trail business english
+  episode_title: Tommie Runz | Western States 100 Pre-Race Interview
+  episode_url: https://thewellwithdylanbowman.libsyn.com/tommie-runz-western-states-100-pre-race-interview
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tommie_pre_race26.mp3?dest-id=1746794
+  published_at: '2026-06-26T14:13:00+00:00'
+  episode_key: tommie-runz-western-states-100-pre-race-interview
+  episode_slug: tommie-runz-western-states-100-pre-race-interview
+  episode_page_url: "/the-freetrail-podcast/tommie-runz-western-states-100-pre-race-interview/"
+- podcast_title: The Extramilest Show
+  podcast_page_url: "/the-extramilest-show/"
+  cover_image: "/media/theextramilestshow236.jpg"
+  feed_url: https://rss.libsyn.com/shows/104231/destinations/557444.xml
+  filter_category: trail ultra english
+  episode_title: "#131: From 3:40 to a 2:21 marathon at age 43. Ian Sharman's lessons from 250 marathons and ultras."
+  episode_url: https://florisgierman.libsyn.com/131-from-340-to-a-221-marathon-at-age-43-ian-sharmans-lessons-from-250-marathons-and-ultras
+  audio_url: https://traffic.libsyn.com/secure/florisgierman/Ian_-_Audio_Podcast.mp3?dest-id=557444
+  published_at: '2026-06-26T13:10:00+00:00'
+  episode_key: 131-from-3-40-to-a-2-21-marathon-at-age-43-ian-sharman-s-lessons-from-250-marathons-and-ultras
+  episode_slug: 131-from-3-40-to-a-2-21-marathon-at-age-43-ian-sharman-s-lessons-from-250-marathons-and-ultras
+  episode_page_url: "/the-extramilest-show/131-from-3-40-to-a-2-21-marathon-at-age-43-ian-sharman-s-lessons-from-250-marathons-and-ultras/"
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run/"
   cover_image: "/media/forthelongrun.jpeg"
@@ -49,18 +73,6 @@ items:
   episode_key: comment-savoir-si-vous-progressez-vraiment-2-2
   episode_slug: comment-savoir-si-vous-progressez-vraiment-2-2
   episode_page_url: "/dans-la-t-te-d-un-coureur/comment-savoir-si-vous-progressez-vraiment-2-2/"
-- podcast_title: The Freetrail Podcast
-  podcast_page_url: "/the-freetrail-podcast/"
-  cover_image: "/media/freetrail2.jpeg"
-  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  filter_category: ultra trail business english
-  episode_title: Western States 100 Final Thoughts & Predictions Show
-  episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-final-thoughts-predictions-show
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Western_States_100_Final_Thoughts__Predictions_Show.mp3?dest-id=1746794
-  published_at: '2026-06-26T00:46:00+00:00'
-  episode_key: western-states-100-final-thoughts-predictions-show
-  episode_slug: western-states-100-final-thoughts-predictions-show
-  episode_page_url: "/the-freetrail-podcast/western-states-100-final-thoughts-predictions-show/"
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw/"
   cover_image: "/media/crackabrew.jpeg"
@@ -409,18 +421,6 @@ items:
   episode_key: jamieson-hatt-ice-age-trail-287
   episode_slug: jamieson-hatt-ice-age-trail-287
   episode_page_url: "/fkt-podcast/jamieson-hatt-ice-age-trail-287/"
-- podcast_title: The Extramilest Show
-  podcast_page_url: "/the-extramilest-show/"
-  cover_image: "/media/theextramilestshow236.jpg"
-  feed_url: https://rss.libsyn.com/shows/104231/destinations/557444.xml
-  filter_category: trail ultra english
-  episode_title: "#130: Molly Seidel's Advice to Improve Your Running"
-  episode_url: https://florisgierman.libsyn.com/130-molly-seidels-advice-to-improve-your-running
-  audio_url: https://traffic.libsyn.com/secure/florisgierman/Molly_Seidels_Advice_to_Improve_Your_Running.mp3?dest-id=557444
-  published_at: '2026-06-19T13:20:00+00:00'
-  episode_key: 130-molly-seidel-s-advice-to-improve-your-running
-  episode_slug: 130-molly-seidel-s-advice-to-improve-your-running
-  episode_page_url: "/the-extramilest-show/130-molly-seidel-s-advice-to-improve-your-running/"
 - podcast_title: Singletrack With Mathias Eichler
   podcast_page_url: "/singletrack-with-mathias-eichler/"
   cover_image: "/media/singletrack-eichler.jpeg"
@@ -1168,6 +1168,18 @@ non_running_items:
   episode_page_url: "/one-percent-better/8-years-of-one-percent-better/"
 episodes_by_feed:
   https://rss.libsyn.com/shows/235580/destinations/1746794.xml: &1
+  - episode_title: Tommie Runz | Western States 100 Pre-Race Interview
+    episode_url: https://thewellwithdylanbowman.libsyn.com/tommie-runz-western-states-100-pre-race-interview
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tommie_pre_race26.mp3?dest-id=1746794
+    published_at: '2026-06-26T14:13:00+00:00'
+    description_html: '<p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Welcome to Freetrail''s coverage of the 2026 Western States 100 hosted in collaboration with the Western States race!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">In this interview, we sit down with Tommie Runz.</p> Freetrail''s Western States Schedule <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Monday, June 22, 2026 at 10:00am PT – The Top 10 Storylines of the 2026 Western States 100 • Tuesday, June 23, 2026 at 3:00pm PT – Western States Preview Show • Wednesday, June 24, 2026 at 3:00pm PT – Western States Champions Show featuring Katie Schide, Caleb Olson, Nikki Kimball, and Clare Gallagher • Thursday, June 25, 2026 at 3:30pm PT – Western States Final Thoughts & Predictions • Saturday, June 27, 2026 at 4:00am PT – Tune into the live broadcast: <a href= "https://www.youtube.com/@WesternStates">https://www.youtube.com/@WesternStates</a> • Sunday, June 28, 2026 at 3:00pm PT – Western States Instant Recap Show</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Starting on June 19th, we''ll be hosting interviews with top personalities and athletes leading into race weekend including Abby Hall, Kilian Jornet, Molly Seidel, Tommie Runz, a press conference with Jim Walmsley, and much more.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to stay up to date and not miss a thing!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Our Western States coverage is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">You can view our full Western States race week schedule, including additional events and activations, at:</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Freetrail: <a href= "https://freetrail.com/">https://freetrail.com/</a> Race Week Hub: <a href= "https://freetrailwserlivecoverage.splashthat.com/">https://freetrailwserlivecoverage.splashthat.com/</a> Official WSER Agenda: <a href= "https://www.wser.org/race-week-agenda/">https://www.wser.org/race-week-agenda/</a> HOKA Race Week Hub: <a href= "https://2026westernstateshokahub.splashthat.com/">https://2026westernstateshokahub.splashthat.com/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to check out the latest and greatest from HOKA, the Rocket X Trail—speed-tuned performance for the most runnable terrain and built for trails like Western States.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Learn more and shop here: <a href= "https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2"> https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2</a></p> Freetrail Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Website | <a href= "https://freetrail.com/">https://freetrail.com/</a> Freetrail Pro | <a href= "https://freetrail.com/pro/">https://freetrail.com/pro/</a> Patreon | <a href= "https://www.patreon.com/dylanbowman">https://www.patreon.com/dylanbowman</a> Instagram | <a href= "https://www.instagram.com/runfreetrail/">https://www.instagram.com/runfreetrail/</a> YouTube | <a href= "https://www.youtube.com/@freetrail">https://www.youtube.com/@freetrail</a> Freetrail Experts | <a href= "https://freetrail.com/experts/">https://freetrail.com/experts/</a></p> Dylan Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Instagram | <a href= "https://www.instagram.com/dylanbo/">https://www.instagram.com/dylanbo/</a> Twitter/X | <a href= "https://twitter.com/dylanbo">https://twitter.com/dylanbo</a> LinkedIn | <a href= "https://www.linkedin.com/in/dylan-bowman-06174380/">https://www.linkedin.com/in/dylan-bowman-06174380/</a></p>'
+    description_plain: 'Welcome to Freetrail''s coverage of the 2026 Western States 100 hosted in collaboration with the Western States race! In this interview, we sit down with Tommie Runz. Freetrail''s Western States Schedule • Monday, June 22, 2026 at 10:00am PT – The Top 10 Storylines of the 2026 Western States 100 • Tuesday, June 23, 2026 at 3:00pm PT – Western States Preview Show • Wednesday, June 24, 2026 at 3:00pm PT – Western States Champions Show featuring Katie Schide, Caleb Olson, Nikki Kimball, and Clare Gallagher • Thursday, June 25, 2026 at 3:30pm PT – Western States Final Thoughts & Predictions • Saturday, June 27, 2026 at 4:00am PT – Tune into the live broadcast: https://www.youtube.com/@WesternStates • Sunday, June 28, 2026 at 3:00pm PT – Western States Instant Recap Show Starting on June 19th, we''ll be hosting interviews with top personalities and athletes leading into race weekend including Abby Hall, Kilian Jornet, Molly Seidel, Tommie Runz, a press conference with Jim Walmsley, and much more. Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to stay up to date and not miss a thing! Our Western States coverage is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail. You can view our full Western States race week schedule, including additional events and activations, at: Freetrail: https://freetrail.com/ Race Week Hub: https://freetrailwserlivecoverage.splashthat.com/ Official WSER Agenda: https://www.wser.org/race-week-agenda/ HOKA Race Week Hub: https://2026westernstateshokahub.splashthat.com/ Make sure to check out the latest and greatest from HOKA, the Rocket X Trail—speed-tuned performance for the most runnable terrain and built for trails like Western States. Learn more and shop here: https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2 Freetrail Links Website | https://freetrail.com/ Freetrail Pro | https://freetrail.com/pro/ Patreon | https://www.patreon.com/dylanbowman Instagram | https://www.instagram.com/runfreetrail/ YouTube | https://www.youtube.com/@freetrail Freetrail Experts | https://freetrail.com/experts/ Dylan Links Instagram | https://www.instagram.com/dylanbo/ Twitter/X | https://twitter.com/dylanbo LinkedIn | https://www.linkedin.com/in/dylan-bowman-06174380/'
+    episode_image_url: https://static.libsyn.com/p/assets/e/3/6/1/e361a1840f80a07916c3140a3186d450/Untitled_-_September_15_2025_at_14.13.052-61_1.png
+    episode_uid: be2c43dc-594d-4126-966d-af635db14a2e
+    episode_slug: tommie-runz-western-states-100-pre-race-interview
+    episode_key: tommie-runz-western-states-100-pre-race-interview
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-freetrail-podcast/tommie-runz-western-states-100-pre-race-interview/"
   - episode_title: Western States 100 Final Thoughts & Predictions Show
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-final-thoughts-predictions-show
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Western_States_100_Final_Thoughts__Predictions_Show.mp3?dest-id=1746794
@@ -1178,7 +1190,7 @@ episodes_by_feed:
     episode_uid: a9680ca2-9dbb-4150-bd83-b7344062f533
     episode_slug: western-states-100-final-thoughts-predictions-show
     episode_key: western-states-100-final-thoughts-predictions-show
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-freetrail-podcast/western-states-100-final-thoughts-predictions-show/"
   - episode_title: Jim Walmsley | Western States 100 Press Conference
     episode_url: https://thewellwithdylanbowman.libsyn.com/jim-walmsley-western-states-100-press-conference
@@ -1190,7 +1202,7 @@ episodes_by_feed:
     episode_uid: cc5593d4-f3ed-4075-87f8-cd78889c5829
     episode_slug: jim-walmsley-western-states-100-press-conference
     episode_key: jim-walmsley-western-states-100-press-conference
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-freetrail-podcast/jim-walmsley-western-states-100-press-conference/"
   - episode_title: Western States 100 Champions Show | Katie Schide, Caleb Olson, Nikki Kimball, & Clare Gallagher
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher
@@ -1202,7 +1214,7 @@ episodes_by_feed:
     episode_uid: 91082003-67f6-41ef-8645-bf08cf9cf2e6
     episode_slug: western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher
     episode_key: western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-freetrail-podcast/western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher/"
   - episode_title: Zach Miller | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/zach-miller-western-states-100-pre-race-interview-2026
@@ -1214,7 +1226,7 @@ episodes_by_feed:
     episode_uid: 4c8efcbf-1831-4dd8-8d40-3eb8f9b10d60
     episode_slug: zach-miller-western-states-100-pre-race-interview-2026
     episode_key: zach-miller-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-freetrail-podcast/zach-miller-western-states-100-pre-race-interview-2026/"
   - episode_title: Hayden Hawks | Western States Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/hayden-hawks-western-states-pre-race-interview-2026
@@ -1226,7 +1238,7 @@ episodes_by_feed:
     episode_uid: 47e336b4-688b-476a-85fe-5f7b55b08088
     episode_slug: hayden-hawks-western-states-pre-race-interview-2026
     episode_key: hayden-hawks-western-states-pre-race-interview-2026
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-freetrail-podcast/hayden-hawks-western-states-pre-race-interview-2026/"
   - episode_title: Tara Dower | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/tara-dower-western-states-100-pre-race-interview-2026
@@ -1238,7 +1250,7 @@ episodes_by_feed:
     episode_uid: 763f2268-4dd9-4dee-b21e-639baf48c30f
     episode_slug: tara-dower-western-states-100-pre-race-interview-2026
     episode_key: tara-dower-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-freetrail-podcast/tara-dower-western-states-100-pre-race-interview-2026/"
   - episode_title: Riley Brady | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/riley-brady-western-states-100-pre-race-interview-2026
@@ -1250,7 +1262,7 @@ episodes_by_feed:
     episode_uid: c52edad8-b806-4ddb-ac53-e8571a22fd8e
     episode_slug: riley-brady-western-states-100-pre-race-interview-2026
     episode_key: riley-brady-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-freetrail-podcast/riley-brady-western-states-100-pre-race-interview-2026/"
   - episode_title: Hannah Allgood | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/hannah-allgood-western-states-100-pre-race-interview-2026
@@ -1262,7 +1274,7 @@ episodes_by_feed:
     episode_uid: 13c57f51-f3ea-436e-a0bd-fdce9e029324
     episode_slug: hannah-allgood-western-states-100-pre-race-interview-2026
     episode_key: hannah-allgood-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-freetrail-podcast/hannah-allgood-western-states-100-pre-race-interview-2026/"
   - episode_title: Western States 100 Preview Show | Course, Conditions, and Contenders
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-preview-show-course-conditions-and-contenders
@@ -1274,7 +1286,7 @@ episodes_by_feed:
     episode_uid: fb1c7d0f-302e-482d-88cf-eae8758549f3
     episode_slug: western-states-100-preview-show-course-conditions-and-contenders
     episode_key: western-states-100-preview-show-course-conditions-and-contenders
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-freetrail-podcast/western-states-100-preview-show-course-conditions-and-contenders/"
   - episode_title: Kilian Jornet | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/kilian-jornet-western-states-100-pre-race-interview-2026
@@ -1286,7 +1298,7 @@ episodes_by_feed:
     episode_uid: eb44a032-e12d-48d4-9592-94bf126be54a
     episode_slug: kilian-jornet-western-states-100-pre-race-interview-2026
     episode_key: kilian-jornet-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-freetrail-podcast/kilian-jornet-western-states-100-pre-race-interview-2026/"
   - episode_title: Marianne Hogan | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/marianne-hogan-western-states-100-pre-race-interview-2026
@@ -1298,7 +1310,7 @@ episodes_by_feed:
     episode_uid: a76a2507-61bd-4980-bc35-f9950cc0235b
     episode_slug: marianne-hogan-western-states-100-pre-race-interview-2026
     episode_key: marianne-hogan-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-freetrail-podcast/marianne-hogan-western-states-100-pre-race-interview-2026/"
   - episode_title: Molly Seidel | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/molly-seidel-western-states-100-pre-race-interview-2026
@@ -1310,7 +1322,7 @@ episodes_by_feed:
     episode_uid: 3e197f40-7624-475a-90e9-504bb53cc929
     episode_slug: molly-seidel-western-states-100-pre-race-interview-2026
     episode_key: molly-seidel-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-freetrail-podcast/molly-seidel-western-states-100-pre-race-interview-2026/"
   - episode_title: Western States 100 Top 10 Storylines Show | 2026 Race Week Coverage
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-top-10-storylines-show-2026-race-week-coverage
@@ -1322,7 +1334,7 @@ episodes_by_feed:
     episode_uid: 6d653f73-7273-4a82-b96e-9fd52b84b9e0
     episode_slug: western-states-100-top-10-storylines-show-2026-race-week-coverage
     episode_key: western-states-100-top-10-storylines-show-2026-race-week-coverage
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-freetrail-podcast/western-states-100-top-10-storylines-show-2026-race-week-coverage/"
   - episode_title: Abby Hall | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/abby-hall-western-states-100-pre-race-interview-2026
@@ -1334,7 +1346,7 @@ episodes_by_feed:
     episode_uid: 22498cae-76ea-47c8-83f6-2ab7f522ebbc
     episode_slug: abby-hall-western-states-100-pre-race-interview-2026
     episode_key: abby-hall-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-freetrail-podcast/abby-hall-western-states-100-pre-race-interview-2026/"
   - episode_title: Broken Arrow 23k Recap & Champion Interviews
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-23k-recap-champion-interviews
@@ -1346,7 +1358,7 @@ episodes_by_feed:
     episode_uid: 342bcedb-1165-4486-8675-3ce5e5f4cc75
     episode_slug: broken-arrow-23k-recap-champion-interviews
     episode_key: broken-arrow-23k-recap-champion-interviews
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-freetrail-podcast/broken-arrow-23k-recap-champion-interviews/"
   - episode_title: Vincent Bouillard | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/vincent-bouillard-2026-western-states-pre-race-interview
@@ -1358,7 +1370,7 @@ episodes_by_feed:
     episode_uid: 11e674d0-b795-40f4-b3e4-fd2697475767
     episode_slug: vincent-bouillard-2026-western-states-pre-race-interview
     episode_key: vincent-bouillard-2026-western-states-pre-race-interview
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-2026-western-states-pre-race-interview/"
   - episode_title: Jeff Mogavero | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/jeff-mogavero-2026-western-states-pre-race-interview
@@ -1370,7 +1382,7 @@ episodes_by_feed:
     episode_uid: 799f1954-4b17-49e2-be41-c837ce8fd456
     episode_slug: jeff-mogavero-2026-western-states-pre-race-interview
     episode_key: jeff-mogavero-2026-western-states-pre-race-interview
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-freetrail-podcast/jeff-mogavero-2026-western-states-pre-race-interview/"
   - episode_title: Broken Arrow 46k Recap, Champion Interviews & 26k Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-46k-recap-champion-interviews-26k-preview
@@ -1382,7 +1394,7 @@ episodes_by_feed:
     episode_uid: f555accc-39aa-4407-84cf-c458fee7762f
     episode_slug: broken-arrow-46k-recap-champion-interviews-26k-preview
     episode_key: broken-arrow-46k-recap-champion-interviews-26k-preview
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-freetrail-podcast/broken-arrow-46k-recap-champion-interviews-26k-preview/"
   - episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/hans-troyer-2026-western-states-100-pre-race-interview
@@ -1394,7 +1406,7 @@ episodes_by_feed:
     episode_uid: 7ecf86b9-8702-443d-9ab4-c996736c58ca
     episode_slug: hans-troyer-2026-western-states-100-pre-race-interview
     episode_key: hans-troyer-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-freetrail-podcast/hans-troyer-2026-western-states-100-pre-race-interview/"
   - episode_title: Francesco Puppi | 2026 Western States 100 Pre-race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/francesco-puppi-2026-western-states-100-pre-race-interview
@@ -1406,7 +1418,7 @@ episodes_by_feed:
     episode_uid: 76717c49-6c74-44f8-ad0d-fd66555a8e60
     episode_slug: francesco-puppi-2026-western-states-100-pre-race-interview
     episode_key: francesco-puppi-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-freetrail-podcast/francesco-puppi-2026-western-states-100-pre-race-interview/"
   - episode_title: Adam Peterman | 2026 Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/adam-peterman-2026-western-states-100-pre-race-interview
@@ -1418,7 +1430,7 @@ episodes_by_feed:
     episode_uid: 4faaccf5-8159-443d-af66-8109d163e888
     episode_slug: adam-peterman-2026-western-states-100-pre-race-interview
     episode_key: adam-peterman-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-freetrail-podcast/adam-peterman-2026-western-states-100-pre-race-interview/"
   - episode_title: Broken Arrow VK Recap, Anna Gibson Champion Interview & 46k Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
@@ -1430,7 +1442,7 @@ episodes_by_feed:
     episode_uid: 44223b43-bd6b-43be-9b70-2739f49a9c98
     episode_slug: broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
     episode_key: broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-freetrail-podcast/broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview/"
   - episode_title: Top 10 Storylines of the 2026 Broken Arrow Skyrace
     episode_url: https://thewellwithdylanbowman.libsyn.com/top-10-storylines-of-the-2026-broken-arrow-skyrace
@@ -1442,7 +1454,7 @@ episodes_by_feed:
     episode_uid: bbfcef1a-a7a6-4a22-9595-2b01245d4a66
     episode_slug: top-10-storylines-of-the-2026-broken-arrow-skyrace
     episode_key: top-10-storylines-of-the-2026-broken-arrow-skyrace
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-freetrail-podcast/top-10-storylines-of-the-2026-broken-arrow-skyrace/"
   - episode_title: Canyon Woodward's Unconventional Path | Learning by Doing, Community Organizing, & Humanity's Interdependence
     episode_url: https://thewellwithdylanbowman.libsyn.com/canyon-woodwards-unconventional-path-learning-by-doing-community-organizing-humanitys-interdependence
@@ -1454,20 +1466,8 @@ episodes_by_feed:
     episode_uid: c57d41bc-6c64-4fb3-a929-6775bea3b9f1
     episode_slug: canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence
     episode_key: canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-freetrail-podcast/canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence/"
-  - episode_title: Freetrail x Boulder Boys | Western States Banter, Canyon Woodward x Patagonia, Sunapee & Euro Champs Recap, + Industry News
-    episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Western_States_Banter_Canyon_Woodward_x_Patagonia_Sunapee__Euro_Champs_Recap__Industry_News.mp3?dest-id=1746794
-    published_at: '2026-06-09T14:38:00+00:00'
-    description_html: '<p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Rest Day Live is back tonight with a Freetrail x Boulder Boys mashup! Seth Ruhling and Adam Merry will co-host as we rip through a fun docket:</p><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href="https://www.youtube.com/live/zxUF-k4DCN0?t=190s" target="" aria-label="3 minutes, 10 seconds">03:10</a> - Western States Banter: Seth withdrawing from the race, insider perspective on the field, Kilian affirming his participation, training in Flagstaff, etc. <a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/live/zxUF-k4DCN0?t=2557s" target="" aria-label="42 minutes, 37 seconds">42:37</a> - Canyon Woodward Signs with Patagonia <a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/live/zxUF-k4DCN0?t=2893s" target="" aria-label="48 minutes, 13 seconds">48:13</a> - Sunapee Scramble Recap <a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/live/zxUF-k4DCN0?t=3210s" target="" aria-label="53 minutes, 30 seconds">53:30</a> - European Championships Recap <a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/live/zxUF-k4DCN0?t=3660s" target="" aria-label="1 hour, 1 minute">1:01:00</a> - Industry News Roundup: Cocodona lottery & 50-mile relay idea, Rory Linkletter racing Broken Arrow <a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/live/zxUF-k4DCN0?t=4370s" target="" aria-label="1 hour, 12 minutes, 50 seconds">1:12:50</a> - Strava File of the Week <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">We''ll be LIVE on YouTube starting at 5pm PT tonight.</p> Freetrail Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">SUBSCRIBE TO FREETRAIL''S NEWSLETTER <a href= "https://mailing.freetrail.com/newslettersignup">https://mailing.freetrail.com/newslettersignup</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">JOIN FREETRAIL PRO <a href= "https://freetrail.com/pro">https://freetrail.com/pro</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">REGISTER FOR TRAILCON <a href= "https://trailconference.com/register/">https://trailconference.com/register/</a></p> Sponsors <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Use code FREETRAIL25 for 25% off your first order of NEVERSECOND nutrition <a href="https://www.never2.com/">https://www.never2.com</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Check out the Capilene Cool Sun Hoodie from Patagonia <a href= "https://www.patagonia.com/shop/favorites/capilene-cool-tech-tees/sun"> https://www.patagonia.com/shop/favorites/capilene-cool-tech-tees/sun</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Use this link for 30% off Ketone-IQ <a href= "https://ketone.com/pages/dylan-bowman?utm_source=partners&utm_medium=referral&utm_campaign=FREETRAIL30"> https://ketone.com/pages/dylan-bowman?utm_source=partners&utm_medium=referral&utm_campaign=FREETRAIL30</a></p> Freetrail Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Website | <a href= "https://freetrail.com/">https://freetrail.com/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Freetrail Pro | <a href= "https://freetrail.com/freetrail-pro/">https://freetrail.com/freetrail-pro/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Patreon | <a href= "https://www.patreon.com/dylanbowman">https://www.patreon.com/dylanbowman</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Instagram | <a href= "https://www.instagram.com/runfreetrail/">https://www.instagram.com/runfreetrail/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">YouTube | <a href= "https://www.youtube.com/channel/UC8MKI1xB8YMchI1764zJXHg">https://www.youtube.com/channel/UC8MKI1xB8YMchI1764zJXHg</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Freetrail Experts | <a href= "https://freetrail.com/freetrail-experts/">https://freetrail.com/freetrail-experts/</a></p> Dylan Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Instagram | <a href= "https://www.instagram.com/dylanbo/">https://www.instagram.com/dylanbo/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Twitter | <a href= "https://twitter.com/dylanbo">https://twitter.com/dylanbo</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">LinkedIn | <a href= "https://www.linkedin.com/in/dylan-bowman-06174380/">https://www.linkedin.com/in/dylan-bowman-06174380/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Strava | <a href= "https://www.strava.com/pros/1596921">https://www.strava.com/pros/1596921</a></p>'
-    description_plain: 'Rest Day Live is back tonight with a Freetrail x Boulder Boys mashup! Seth Ruhling and Adam Merry will co-host as we rip through a fun docket: 03:10 - Western States Banter: Seth withdrawing from the race, insider perspective on the field, Kilian affirming his participation, training in Flagstaff, etc. 42:37 - Canyon Woodward Signs with Patagonia 48:13 - Sunapee Scramble Recap 53:30 - European Championships Recap 1:01:00 - Industry News Roundup: Cocodona lottery & 50-mile relay idea, Rory Linkletter racing Broken Arrow 1:12:50 - Strava File of the Week We''ll be LIVE on YouTube starting at 5pm PT tonight. Freetrail Links SUBSCRIBE TO FREETRAIL''S NEWSLETTER https://mailing.freetrail.com/newslettersignup JOIN FREETRAIL PRO https://freetrail.com/pro REGISTER FOR TRAILCON https://trailconference.com/register/ Sponsors Use code FREETRAIL25 for 25% off your first order of NEVERSECOND nutrition https://www.never2.com Check out the Capilene Cool Sun Hoodie from Patagonia https://www.patagonia.com/shop/favorites/capilene-cool-tech-tees/sun Use this link for 30% off Ketone-IQ https://ketone.com/pages/dylan-bowman?utm_source=partners&utm_medium=referral&utm_campaign=FREETRAIL30 Freetrail Links Website | https://freetrail.com/ Freetrail Pro | https://freetrail.com/freetrail-pro/ Patreon | https://www.patreon.com/dylanbowman Instagram | https://www.instagram.com/runfreetrail/ YouTube | https://www.youtube.com/channel/UC8MKI1xB8YMchI1764zJXHg Freetrail Experts | https://freetrail.com/freetrail-experts/ Dylan Links Instagram | https://www.instagram.com/dylanbo/ Twitter | https://twitter.com/dylanbo LinkedIn | https://www.linkedin.com/in/dylan-bowman-06174380/ Strava | https://www.strava.com/pros/1596921'
-    episode_image_url: https://static.libsyn.com/p/assets/7/2/5/f/725f8f0a07fa0dba16c3140a3186d450/Freetrail_Pod_Art_-_Artboard_8-4-20260609-cmtpll0q8s.png
-    episode_uid: ffa7a7cf-d134-4dbd-b8a8-e74773a0e79e
-    episode_slug: freetrail-x-boulder-boys-western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news
-    episode_key: freetrail-x-boulder-boys-western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-freetrail-podcast/freetrail-x-boulder-boys-western-states-banter-canyon-woodward-x-patagonia-sunapee-euro-champs-recap-industry-news/"
+    episode_page_url: "/the-freetrail-podcast/canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence/"
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
   - episode_title: '451: Commonwealth Games Team Announcement | NSW XC Championships | Ostrava & Hengelo'
     episode_url: https://insiderunningpodcast.podbean.com/e/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/
@@ -8639,6 +8639,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/running-long-a-trail-ultra-running-talk/161-voices-from-the-vert-run-community-adina-crawford-trail-running-and-diversity-changing-the-narrative-and-a-memorable/"
   https://rss.libsyn.com/shows/104231/destinations/557444.xml: &26
+  - episode_title: "#131: From 3:40 to a 2:21 marathon at age 43. Ian Sharman's lessons from 250 marathons and ultras."
+    episode_url: https://florisgierman.libsyn.com/131-from-340-to-a-221-marathon-at-age-43-ian-sharmans-lessons-from-250-marathons-and-ultras
+    audio_url: https://traffic.libsyn.com/secure/florisgierman/Ian_-_Audio_Podcast.mp3?dest-id=557444
+    published_at: '2026-06-26T13:10:00+00:00'
+    description_html: '<p>Thanks to Precision Fuel & Hydration for sponsoring this video! Get 15% off your first order at: <a href= "http://visit.pfandh.com/extramilestshow">http://visit.pfandh.com/extramilestshow</a></p><p>Ian Sharman improved his marathon time from a 3:40 to a 2:21 at age 43. He has completed over 250 marathons and ultramarathons. He shares the simple training shifts for his biggest breakthroughs and the mindset behind long-term improvement.</p><p><a href="https://www.youtube.com/watch?v=9iMO_lsLf80">Watch the full video on YouTube</a></p><p>Topics covered:</p><ul><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href="https://www.youtube.com/watch?v=9iMO_lsLf80" target="" aria-label="0 seconds">00:00</a> — Ian Sharman''s biggest running lessons</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=115s" target="" aria-label="1 minute, 55 seconds">01:55</a> — Precision Fuel & Hydration Sponsor</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=167s" target="" aria-label="2 minutes, 47 seconds">02:47</a> — Consistency beats heroic workouts</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=571s" target="" aria-label="9 minutes, 31 seconds">09:31</a> — Why runners struggle with consistency</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=686s" target="" aria-label="11 minutes, 26 seconds">11:26</a> — Flexibility vs rigid training plans</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=765s" target="" aria-label="12 minutes, 45 seconds">12:45</a> — Should you make up missed runs?</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=957s" target="" aria-label="15 minutes, 57 seconds">15:57</a> — PB Running Coaching Program</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=986s" target="" aria-label="16 minutes, 26 seconds">16:26</a> — Balancing running with family & life</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=1164s" target="" aria-label="19 minutes, 24 seconds">19:24</a> — The purpose behind every run</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=1328s" target="" aria-label="22 minutes, 8 seconds">22:08</a> — Ian''s 2 :32 marathon breakthrough</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=1540s" target="" aria-label="25 minutes, 40 seconds">25:40</a> — What is flow running?</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=1862s" target="" aria-label="31 minutes, 2 seconds">31:02</a> — The three phases of every race</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=2207s" target="" aria-label="36 minutes, 47 seconds">36:47</a> — The power of hiking in ultrarunning</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=2584s" target="" aria-label="43 minutes, 4 seconds">43:04</a> — Why your slowest mile matters most</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=2739s" target="" aria-label="45 minutes, 39 seconds">45:39</a> — Ian''s biggest race mistakes & Boston 2018</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=3104s" target="" aria-label="51 minutes, 44 seconds">51:44</a> — How aging changes your training</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=3405s" target="" aria-label="56 minutes, 45 seconds">56:45</a> — Do you really need long training runs?</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=3775s" target="" aria-label="1 hour, 2 minutes, 55 seconds">1:02:55</a> — Road runner''s guide to trail running</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=4095s" target="" aria-label="1 hour, 8 minutes, 15 seconds">1:08:15</a> — Pain vs suffering</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=4629s" target="" aria-label="1 hour, 17 minutes, 9 seconds">1:17:09</a> — What 100 miles does to your body</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=4795s" target="" aria-label="1 hour, 19 minutes, 55 seconds">1:19:55</a> — Heat training for ultrarunners</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=5062s" target="" aria-label="1 hour, 24 minutes, 22 seconds">1:24:22</a> — The core message of The Art of Ultrarunning</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=5137s" target="" aria-label="1 hour, 25 minutes, 37 seconds">1:25:37</a> — Where to find Ian Sharman and his book</li><li><a class= "ytAttributedStringLink ytAttributedStringLinkCallToActionColor" tabindex="0" href= "https://www.youtube.com/watch?v=9iMO_lsLf80&t=5278s" target="" aria-label="1 hour, 27 minutes, 58 seconds">1:27:58</a> — Closing thoughts</li></ul><p dir="ltr">Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an Amazon Associate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way.</p><p dir="ltr">FIND IAN SHARMAN:</p><p dir="ltr">► WEBSITE: <a href= "https://www.sharmanultra.com/">https://www.sharmanultra.com</a></p><p dir="ltr">► INSTAGRAM: <a href= "https://www.instagram.com/sharmanian/">https://www.instagram.com/sharmanian</a></p><p dir="ltr">► FACEBOOK: <a href= "https://www.facebook.com/sharmanian/">https://www.facebook.com/sharmanian</a></p><p dir="ltr">► X: <a href= "https://x.com/sharmanian/">https://x.com/sharmanian</a></p><p dir="ltr">LINKS & TOOLS MENTIONED</p><p dir="ltr">► My Personal Best Running Coaching Program: <a href= "https://www.pbprogram.com/">https://www.pbprogram.com</a></p><p dir="ltr">► Precision Fuel and Hydration (Get 15% off your first order): <a href= "https://visit.pfandh.com/extramilestshow">https://visit.pfandh.com/extramilestshow</a></p><p dir="ltr">► Buy my new book Running Breakthroughs: <a href= "https://geni.us/running-breakthroughs">https://geni.us/running-breakthroughs</a></p><p dir="ltr">► The Art of Ultrarunning book: <a href= "https://amzn.to/4vsNV97">https://amzn.to/4vsNV97</a></p><p dir="ltr">YOU CAN FIND ME, FLORIS GIERMAN HERE:</p><p dir="ltr">► Podcast: <a href= "https://extramilest.com/podcast">https://extramilest.com/podcast</a></p><p dir="ltr">► Strava: <a href= "https://www.strava.com/athletes/1329785">https://www.strava.com/athletes/1329785</a></p><p dir="ltr">► Instagram: <a href= "https://www.instagram.com/florisgierman">https://www.instagram.com/florisgierman</a></p><p dir="ltr">► Extramilest Website: <a href= "https://extramilest.com">https://extramilest.com</a></p><p dir="ltr">► Path Projects Website: <a href= "https://pathprojects.com">https://pathprojects.com</a></p><p dir="ltr">ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete. More info about our running coaching program can be found at <a href= "https://www.skool.com/personalbest">https://www.skool.com/personalbest</a>.</p><p dir="ltr">Subscribe and hit the bell to see new videos: <a href= "https://bit.ly/Flo-YT">https://bit.ly/Flo-YT</a></p><p dir="ltr">#Ultrarunning #MarathonTraining #TrailRunning #RunningTips</p>'
+    description_plain: 'Thanks to Precision Fuel & Hydration for sponsoring this video! Get 15% off your first order at: http://visit.pfandh.com/extramilestshow Ian Sharman improved his marathon time from a 3:40 to a 2:21 at age 43. He has completed over 250 marathons and ultramarathons. He shares the simple training shifts for his biggest breakthroughs and the mindset behind long-term improvement. Watch the full video on YouTube Topics covered: 00:00 — Ian Sharman''s biggest running lessons 01:55 — Precision Fuel & Hydration Sponsor 02:47 — Consistency beats heroic workouts 09:31 — Why runners struggle with consistency 11:26 — Flexibility vs rigid training plans 12:45 — Should you make up missed runs? 15:57 — PB Running Coaching Program 16:26 — Balancing running with family & life 19:24 — The purpose behind every run 22:08 — Ian''s 2 :32 marathon breakthrough 25:40 — What is flow running? 31:02 — The three phases of every race 36:47 — The power of hiking in ultrarunning 43:04 — Why your slowest mile matters most 45:39 — Ian''s biggest race mistakes & Boston 2018 51:44 — How aging changes your training 56:45 — Do you really need long training runs? 1:02:55 — Road runner''s guide to trail running 1:08:15 — Pain vs suffering 1:17:09 — What 100 miles does to your body 1:19:55 — Heat training for ultrarunners 1:24:22 — The core message of The Art of Ultrarunning 1:25:37 — Where to find Ian Sharman and his book 1:27:58 — Closing thoughts Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an Amazon Associate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way. FIND IAN SHARMAN: ► WEBSITE: https://www.sharmanultra.com ► INSTAGRAM: https://www.instagram.com/sharmanian ► FACEBOOK: https://www.facebook.com/sharmanian ► X: https://x.com/sharmanian LINKS & TOOLS MENTIONED ► My Personal Best Running Coaching Program: https://www.pbprogram.com ► Precision Fuel and Hydration (Get 15% off your first order): https://visit.pfandh.com/extramilestshow ► Buy my new book Running Breakthroughs: https://geni.us/running-breakthroughs ► The Art of Ultrarunning book: https://amzn.to/4vsNV97 YOU CAN FIND ME, FLORIS GIERMAN HERE: ► Podcast: https://extramilest.com/podcast ► Strava: https://www.strava.com/athletes/1329785 ► Instagram: https://www.instagram.com/florisgierman ► Extramilest Website: https://extramilest.com ► Path Projects Website: https://pathprojects.com ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete. More info about our running coaching program can be found at https://www.skool.com/personalbest . Subscribe and hit the bell to see new videos: https://bit.ly/Flo-YT #Ultrarunning #MarathonTraining #TrailRunning #RunningTips'
+    episode_image_url: ''
+    episode_uid: 79857253-37ca-422b-999e-b868d26aef10
+    episode_slug: 131-from-3-40-to-a-2-21-marathon-at-age-43-ian-sharman-s-lessons-from-250-marathons-and-ultras
+    episode_key: 131-from-3-40-to-a-2-21-marathon-at-age-43-ian-sharman-s-lessons-from-250-marathons-and-ultras
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-extramilest-show/131-from-3-40-to-a-2-21-marathon-at-age-43-ian-sharman-s-lessons-from-250-marathons-and-ultras/"
   - episode_title: "#130: Molly Seidel's Advice to Improve Your Running"
     episode_url: https://florisgierman.libsyn.com/130-molly-seidels-advice-to-improve-your-running
     audio_url: https://traffic.libsyn.com/secure/florisgierman/Molly_Seidels_Advice_to_Improve_Your_Running.mp3?dest-id=557444
@@ -8649,7 +8661,7 @@ episodes_by_feed:
     episode_uid: d4023e85-122d-4a8d-b2e3-77e091362722
     episode_slug: 130-molly-seidel-s-advice-to-improve-your-running
     episode_key: 130-molly-seidel-s-advice-to-improve-your-running
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-extramilest-show/130-molly-seidel-s-advice-to-improve-your-running/"
   - episode_title: "#129: From Complete Beginner at age 42 to Sub-2 Hour Half Marathon at age 48"
     episode_url: https://florisgierman.libsyn.com/129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
@@ -8661,7 +8673,7 @@ episodes_by_feed:
     episode_uid: 2a6c5096-204d-45d6-bf15-384b05d03be4
     episode_slug: 129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
     episode_key: 129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-extramilest-show/129-from-complete-beginner-at-age-42-to-sub-2-hour-half-marathon-at-age-48/"
   - episode_title: "#128: How to Overcome Race Nerves and Anxiety with Jude Brewer"
     episode_url: https://florisgierman.libsyn.com/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
@@ -8673,7 +8685,7 @@ episodes_by_feed:
     episode_uid: 53524014-810f-4aae-97f9-b4b969231353
     episode_slug: 128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
     episode_key: 128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-extramilest-show/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer/"
   - episode_title: "#127: Jakob Ingebrigtsen's Advice to Run Faster, For Non-Elites"
     episode_url: https://florisgierman.libsyn.com/127-jakob-ingebrigtsens-advice-to-run-faster-for-non-elites
@@ -8685,7 +8697,7 @@ episodes_by_feed:
     episode_uid: e190dfb9-7395-40d2-a261-cf9aa1c8d6d2
     episode_slug: 127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites
     episode_key: 127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-extramilest-show/127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites/"
   - episode_title: "#126: Coach's Advice to Run & Recover Faster For Recreational Runners"
     episode_url: https://florisgierman.libsyn.com/126-coachs-advice-to-run-recover-faster-for-recreational-runners
@@ -8697,7 +8709,7 @@ episodes_by_feed:
     episode_uid: 148cdb67-0864-43bf-9f23-18ff5c00286c
     episode_slug: 126-coach-s-advice-to-run-recover-faster-for-recreational-runners
     episode_key: 126-coach-s-advice-to-run-recover-faster-for-recreational-runners
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-extramilest-show/126-coach-s-advice-to-run-recover-faster-for-recreational-runners/"
   - episode_title: "#125: Sara Hall's Advice For Non-Elite Runners"
     episode_url: https://florisgierman.libsyn.com/125-sara-halls-advice-for-non-elite-runners
@@ -8709,7 +8721,7 @@ episodes_by_feed:
     episode_uid: 0a2d0889-fab0-427b-9d9d-2eb8c50612ce
     episode_slug: 125-sara-hall-s-advice-for-non-elite-runners
     episode_key: 125-sara-hall-s-advice-for-non-elite-runners
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-extramilest-show/125-sara-hall-s-advice-for-non-elite-runners/"
   - episode_title: "#124: Ryan Hall 2.0 on Strength Training For Runners, Lifting Heavy & Trail Running"
     episode_url: https://florisgierman.libsyn.com/124-ryan-hall-20-on-strength-training-for-runners-lifting-heavy-trail-running
@@ -8721,7 +8733,7 @@ episodes_by_feed:
     episode_uid: c064b0fc-a29a-463b-a30f-25db03f31425
     episode_slug: 124-ryan-hall-2-0-on-strength-training-for-runners-lifting-heavy-trail-running
     episode_key: 124-ryan-hall-2-0-on-strength-training-for-runners-lifting-heavy-trail-running
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-extramilest-show/124-ryan-hall-2-0-on-strength-training-for-runners-lifting-heavy-trail-running/"
   - episode_title: "#123: Why Most Runners Quit Too Early (Not What You Think) | Kerry Ward"
     episode_url: https://florisgierman.libsyn.com/123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward
@@ -8733,7 +8745,7 @@ episodes_by_feed:
     episode_uid: 11069c4d-e62f-4433-a973-ef077840f2a0
     episode_slug: 123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward
     episode_key: 123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-extramilest-show/123-why-most-runners-quit-too-early-not-what-you-think-kerry-ward/"
   - episode_title: "#122: You're Doing Zone 2 Wrong (Even If You Think You're Not) | Scott Johnston Round 2"
     episode_url: https://florisgierman.libsyn.com/122-youre-doing-zone-2-wrong-even-if-you-think-youre-not-scott-johnston-round-2
@@ -8745,7 +8757,7 @@ episodes_by_feed:
     episode_uid: 231824f8-2531-453b-b003-9d3c97bedc9d
     episode_slug: 122-you-re-doing-zone-2-wrong-even-if-you-think-you-re-not-scott-johnston-round-2
     episode_key: 122-you-re-doing-zone-2-wrong-even-if-you-think-you-re-not-scott-johnston-round-2
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-extramilest-show/122-you-re-doing-zone-2-wrong-even-if-you-think-you-re-not-scott-johnston-round-2/"
   - episode_title: "#121: How to Build an Unstoppable Aerobic Engine (Even If Starting From Zero) | Scott Johnston"
     episode_url: https://florisgierman.libsyn.com/121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston
@@ -8757,7 +8769,7 @@ episodes_by_feed:
     episode_uid: bc2cbe5e-90ad-4b29-ad77-b361ad0674b4
     episode_slug: 121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston
     episode_key: 121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-extramilest-show/121-how-to-build-an-unstoppable-aerobic-engine-even-if-starting-from-zero-scott-johnston/"
   - episode_title: "#120: Stress Is Killing Your Running (The Relax Fix You're Missing) with Dr Kasim Al-Mashat"
     episode_url: https://florisgierman.libsyn.com/120-stress-is-killing-your-running-the-relax-fix-youre-missing-with-dr-kasim-al-mashat
@@ -8769,7 +8781,7 @@ episodes_by_feed:
     episode_uid: 23dd984d-7034-48f1-b25f-6254263ef36a
     episode_slug: 120-stress-is-killing-your-running-the-relax-fix-you-re-missing-with-dr-kasim-al-mashat
     episode_key: 120-stress-is-killing-your-running-the-relax-fix-you-re-missing-with-dr-kasim-al-mashat
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-extramilest-show/120-stress-is-killing-your-running-the-relax-fix-you-re-missing-with-dr-kasim-al-mashat/"
   - episode_title: "#119: When Things Get Hard, Say This (It Works in Any Race) with Jeff Pelletier"
     episode_url: https://florisgierman.libsyn.com/119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier
@@ -8781,7 +8793,7 @@ episodes_by_feed:
     episode_uid: 6d78884d-2b7c-41a8-b85b-9b215e14a050
     episode_slug: 119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier
     episode_key: 119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-extramilest-show/119-when-things-get-hard-say-this-it-works-in-any-race-with-jeff-pelletier/"
   - episode_title: "#118: From Couch to 5K To 3:52 Marathon at 56 with Susan Bayes"
     episode_url: https://florisgierman.libsyn.com/118-from-couch-to-5k-to-352-marathon-at-56-with-susan-bayes
@@ -8793,7 +8805,7 @@ episodes_by_feed:
     episode_uid: 63a293b0-4caa-42b6-93a6-6bc559c206f4
     episode_slug: 118-from-couch-to-5k-to-3-52-marathon-at-56-with-susan-bayes
     episode_key: 118-from-couch-to-5k-to-3-52-marathon-at-56-with-susan-bayes
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-extramilest-show/118-from-couch-to-5k-to-3-52-marathon-at-56-with-susan-bayes/"
   - episode_title: Your Performance Is Dropping? Here's Why | Dr Phil Maffetone
     episode_url: https://florisgierman.libsyn.com/your-performance-is-dropping-heres-why-dr-phil-maffetone
@@ -8805,7 +8817,7 @@ episodes_by_feed:
     episode_uid: f4b8ed2e-4c44-4b61-b557-735afbe04df1
     episode_slug: your-performance-is-dropping-here-s-why-dr-phil-maffetone
     episode_key: your-performance-is-dropping-here-s-why-dr-phil-maffetone
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-extramilest-show/your-performance-is-dropping-here-s-why-dr-phil-maffetone/"
   - episode_title: "#116: Running & Life Breakthroughs: What 20,000 Miles & 100+ Interviews Taught Me"
     episode_url: https://florisgierman.libsyn.com/116-running-life-breakthroughs-what-20000-miles-100-interviews-taught-me
@@ -8817,7 +8829,7 @@ episodes_by_feed:
     episode_uid: 8c5a6276-981c-4bee-8ded-dd2009e3059d
     episode_slug: 116-running-life-breakthroughs-what-20-000-miles-100-interviews-taught-me
     episode_key: 116-running-life-breakthroughs-what-20-000-miles-100-interviews-taught-me
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-extramilest-show/116-running-life-breakthroughs-what-20-000-miles-100-interviews-taught-me/"
   - episode_title: "#115: From Overweight to 19 Marathons in 4 Years (Age 50-54) with Chris Neil"
     episode_url: https://florisgierman.libsyn.com/115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil
@@ -8829,7 +8841,7 @@ episodes_by_feed:
     episode_uid: 628b3fca-8269-4280-9b88-a5d427934f80
     episode_slug: 115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil
     episode_key: 115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-extramilest-show/115-from-overweight-to-19-marathons-in-4-years-age-50-54-with-chris-neil/"
   - episode_title: "#114: Unstuck Your Running With Lawrence van Lingen (Round 2)"
     episode_url: https://florisgierman.libsyn.com/114-unstuck-your-running-with-lawrence-van-lingen-round-2
@@ -8841,7 +8853,7 @@ episodes_by_feed:
     episode_uid: 793aff53-a26e-4b78-a855-d8367240992c
     episode_slug: 114-unstuck-your-running-with-lawrence-van-lingen-round-2
     episode_key: 114-unstuck-your-running-with-lawrence-van-lingen-round-2
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-extramilest-show/114-unstuck-your-running-with-lawrence-van-lingen-round-2/"
   - episode_title: "#113: How to Finish Every Race Strong | Marathon Tips from My Sister's First Marathon"
     episode_url: https://florisgierman.libsyn.com/113-how-to-finish-every-race-strong-marathon-tips-from-my-sisters-first-marathon
@@ -8853,7 +8865,7 @@ episodes_by_feed:
     episode_uid: '0187f30a-0d94-4b15-b9ba-920a58451315'
     episode_slug: 113-how-to-finish-every-race-strong-marathon-tips-from-my-sister-s-first-marathon
     episode_key: 113-how-to-finish-every-race-strong-marathon-tips-from-my-sister-s-first-marathon
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-extramilest-show/113-how-to-finish-every-race-strong-marathon-tips-from-my-sister-s-first-marathon/"
   - episode_title: "#112: How to Find Your Ideal Heart Rate Zones (Step-by-Step Guide)"
     episode_url: https://florisgierman.libsyn.com/112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide
@@ -8865,7 +8877,7 @@ episodes_by_feed:
     episode_uid: 36be1e85-0afa-4093-90e8-7d1184d5964e
     episode_slug: 112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide
     episode_key: 112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-extramilest-show/112-how-to-find-your-ideal-heart-rate-zones-step-by-step-guide/"
   - episode_title: "#111: Pushing Limits in Running, Adventure & Business with COROS CEO Lewis Wu"
     episode_url: https://florisgierman.libsyn.com/111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu
@@ -8877,7 +8889,7 @@ episodes_by_feed:
     episode_uid: 9db38648-3843-4fa6-ad6a-207c0a64e830
     episode_slug: 111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu
     episode_key: 111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-extramilest-show/111-pushing-limits-in-running-adventure-business-with-coros-ceo-lewis-wu/"
   - episode_title: "#109: Can You Really Run Faster Than You Think?"
     episode_url: https://florisgierman.libsyn.com/109-can-you-really-run-faster-than-you-think
@@ -8889,7 +8901,7 @@ episodes_by_feed:
     episode_uid: 4ad0d255-692c-4426-8d53-8caf3ce0b664
     episode_slug: 109-can-you-really-run-faster-than-you-think
     episode_key: 109-can-you-really-run-faster-than-you-think
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-extramilest-show/109-can-you-really-run-faster-than-you-think/"
   - episode_title: "#107: Injury-Free Running: Rehab & Prevention with Jay Dicharry"
     episode_url: https://florisgierman.libsyn.com/107-injury-free-running-rehab-prevention-with-jay-dicharry
@@ -8901,7 +8913,7 @@ episodes_by_feed:
     episode_uid: 5a66bb15-5135-48a9-aa2e-13c23a9afc5e
     episode_slug: 107-injury-free-running-rehab-prevention-with-jay-dicharry
     episode_key: 107-injury-free-running-rehab-prevention-with-jay-dicharry
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-extramilest-show/107-injury-free-running-rehab-prevention-with-jay-dicharry/"
   - episode_title: "#106: Running After 40: Lessons To Improve At Any Age, with Sean Lee"
     episode_url: https://florisgierman.libsyn.com/106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee
@@ -8913,7 +8925,7 @@ episodes_by_feed:
     episode_uid: d114112f-f2e0-405c-8a1e-d9dc262accf6
     episode_slug: 106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee
     episode_key: 106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-extramilest-show/106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee/"
   - episode_title: "#105: From Couch & Overweight to Running Marathons in Her 50's, with Ayako Fackenthal"
     episode_url: https://florisgierman.libsyn.com/105-from-couch-overweight-to-running-marathons-in-her-50s-with-ayako-fackenthal
@@ -8925,20 +8937,8 @@ episodes_by_feed:
     episode_uid: e66fcec3-98a1-4b38-ba12-c2073b3aa817
     episode_slug: 105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal
     episode_key: 105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-extramilest-show/105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal/"
-  - episode_title: "#104: How Changing Your Mindset Helps Crush Your Runs | With Alex Hutchinson"
-    episode_url: https://florisgierman.libsyn.com/how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson
-    audio_url: https://traffic.libsyn.com/secure/florisgierman/Train-Your-Mind-With-Alex-Hutchinson.mp3?dest-id=557444
-    published_at: '2025-07-18T04:32:00+00:00'
-    description_html: '<p>Author and endurance expert Alex Hutchinson discusses the mental side of running, the power of exploration, and what it really means to train smart. From controlling our inner dialog to embracing discomfort, we dive into practical tips to become a stronger, more resilient athlete.</p><p>Thanks to Function Health for sponsoring this video! Visit <a href= "https://www.functionhealth.com/FLORIS">https://www.functionhealth.com/FLORIS</a> and use gift code FLORIS100. The first 1000 users to use my code get a $100 credit towards their membership!</p><p>Learn more about the Personal Best Running Coaching Program at <a href= "https://www.pbprogram.com/">https://www.pbprogram.com/</a></p><p>Watch this full video on YouTube: <a href= "https://www.youtube.com/watch?v=J7Mn9J30bGA">https://youtu.be/6iQZ_CnjYnU</a></p><p>CHAPTERS:</p><ul><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href="https://www.youtube.com/watch?v=6iQZ_CnjYnU" target="">0:00</a> – Meet journalist and author Alex Hutchinson</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=54s" target= "">0:54</a> – Introduction: Mind over body, embracing discomfort</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=86s" target= "">1:26</a> – Function Health Sponsorship</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=163s" target= "">2:43</a> – Badwater 135 marathon experience</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=255s" target= "">4:15</a> – Fear of unknown and growth</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=392s" target= "">6:32</a> – Set bold but realistic goals</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=615s" target= "">10:15</a> – When training feels repetitive</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=933s" target= "">15:33</a> – Trail running and unpredictability</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=1313s" target= "">21:53</a> – Endurance misconceptions for runners</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=1487s" target= "">24:47</a> – Zone 4/5 leads to burnout</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=1637s" target= "">27:17</a> – High-intensity training and marathon prep</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=1880s" target= "">31:20</a> – Mental strategies for tough efforts</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=2114s" target= "">35:14</a> – Challenges of starting Zone 2</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=2292s" target= "">38:12</a> – How to explore without risk</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=2564s" target= "">42:44</a> – From skateboarding to running adventures</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=2797s" target= "">46:37</a> – Unique races and trail conference insights</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=3038s" target= "">50:38</a> – Involving friends or kids in outdoor adventure</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=3228s" target= "">53:48</a> – Advice to Alex''s younger self</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=3489s" target= "">58:09</a> – Preparation vs. discovery in running</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=3686s" target= "">1:01:26</a> – Where to find Alex</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=3759s" target= "">1:02:39</a> –How to become a stronger, healthier, happier athlete</li><li><a class= "yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color" tabindex="0" href= "https://www.youtube.com/watch?v=6iQZ_CnjYnU&t=3813s" target= "">1:03:33</a> – Top travel recommendation for your running adventure</li></ul><p>FIND ALEX HUTCHINSON:</p><p>► Website: <a href= "https://www.alexhutchinson.net/">https://www.alexhutchinson.net/</a></p><p>► Instagram: <a href= "https://www.instagram.com/sweat_science">https://www.instagram.com/sweat_science</a> /</p><p>► Thread: <a href= "https://www.threads.com/@sweat_science">https://www.threads.com/@sweat_science</a></p><p>► X: <a href= "https://x.com/sweatscience/">https://x.com/sweatscience/</a></p><p>► Facebook: <a href= "https://www.facebook.com/sweatscience">https://www.facebook.com/sweatscience</a></p><p>► LinkedIn: <a href= "https://www.linkedin.com/in/alex-hutchinson-048a79a/">https://www.linkedin.com/in/alex-hutchinson-048a79a/</a></p><p>LINKS & TOOLS MENTIONED</p><p>► Function Health: <a href= "https://www.functionhealth.com/FLORIS">https://www.functionhealth.com/FLORIS</a></p><p>► Books by Alex Hutchinson: <a href= "https://www.alexhutchinson.net/">https://www.alexhutchinson.net/</a></p><p>► Explorer''s Gene Book: <a href= "https://amzn.to/3TN5PCq">https://amzn.to/3TN5PCq</a></p><p>► Endure Book: <a href= "https://amzn.to/44YpLaF">https://amzn.to/44YpLaF</a></p><p>► Which comes first, cardio or weights book: <a href= "https://amzn.to/3UgBPyP">https://amzn.to/3UgBPyP</a></p><p>YOU CAN FIND ME, COACH FLORIS GIERMAN HERE:</p><p>► Our Personal Best Coaching Program: <a href= "https://www.pbprogram.com/">https://www.pbprogram.com/</a></p><p>► Free Weekly Running Newsletter: <a href= "https://extramilest.com/subscribe">https://extramilest.com/subscribe</a></p><p>► YouTube: <a href= "https://www.youtube.com/florisgierman">https://www.youtube.com/florisgierman</a></p><p>► Strava: <a href= "https://www.strava.com/athletes/1329785">https://www.strava.com/athletes/1329785</a></p><p>► Instagram: <a href= "https://www.instagram.com/florisgierman">https://www.instagram.com/florisgierman</a></p><p>► Extramilest: <a href= "https://extramilest.com/">https://extramilest.com/</a></p><p>► Path Projects: <a href= "https://pathprojects.com/flo">https://pathprojects.com/flo</a></p><p>► Podcast: <a href= "https://extramilest.com/podcast/">https://extramilest.com/podcast/</a></p><p>Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an affiliate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way.</p><p>ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete.</p><p>More info about our Personal Best Running Coaching Program can be found at <a href= "https://www.pbprogram.com/">https://www.pbprogram.com</a>.</p><p>SUBSCRIBE and hit the bell to see new videos: <a href= "https://bit.ly/Flo-YT">https://bit.ly/Flo-YT</a></p>'
-    description_plain: 'Author and endurance expert Alex Hutchinson discusses the mental side of running, the power of exploration, and what it really means to train smart. From controlling our inner dialog to embracing discomfort, we dive into practical tips to become a stronger, more resilient athlete. Thanks to Function Health for sponsoring this video! Visit https://www.functionhealth.com/FLORIS and use gift code FLORIS100. The first 1000 users to use my code get a $100 credit towards their membership! Learn more about the Personal Best Running Coaching Program at https://www.pbprogram.com/ Watch this full video on YouTube: https://youtu.be/6iQZ_CnjYnU CHAPTERS: 0:00 – Meet journalist and author Alex Hutchinson 0:54 – Introduction: Mind over body, embracing discomfort 1:26 – Function Health Sponsorship 2:43 – Badwater 135 marathon experience 4:15 – Fear of unknown and growth 6:32 – Set bold but realistic goals 10:15 – When training feels repetitive 15:33 – Trail running and unpredictability 21:53 – Endurance misconceptions for runners 24:47 – Zone 4/5 leads to burnout 27:17 – High-intensity training and marathon prep 31:20 – Mental strategies for tough efforts 35:14 – Challenges of starting Zone 2 38:12 – How to explore without risk 42:44 – From skateboarding to running adventures 46:37 – Unique races and trail conference insights 50:38 – Involving friends or kids in outdoor adventure 53:48 – Advice to Alex''s younger self 58:09 – Preparation vs. discovery in running 1:01:26 – Where to find Alex 1:02:39 –How to become a stronger, healthier, happier athlete 1:03:33 – Top travel recommendation for your running adventure FIND ALEX HUTCHINSON: ► Website: https://www.alexhutchinson.net/ ► Instagram: https://www.instagram.com/sweat_science / ► Thread: https://www.threads.com/@sweat_science ► X: https://x.com/sweatscience/ ► Facebook: https://www.facebook.com/sweatscience ► LinkedIn: https://www.linkedin.com/in/alex-hutchinson-048a79a/ LINKS & TOOLS MENTIONED ► Function Health: https://www.functionhealth.com/FLORIS ► Books by Alex Hutchinson: https://www.alexhutchinson.net/ ► Explorer''s Gene Book: https://amzn.to/3TN5PCq ► Endure Book: https://amzn.to/44YpLaF ► Which comes first, cardio or weights book: https://amzn.to/3UgBPyP YOU CAN FIND ME, COACH FLORIS GIERMAN HERE: ► Our Personal Best Coaching Program: https://www.pbprogram.com/ ► Free Weekly Running Newsletter: https://extramilest.com/subscribe ► YouTube: https://www.youtube.com/florisgierman ► Strava: https://www.strava.com/athletes/1329785 ► Instagram: https://www.instagram.com/florisgierman ► Extramilest: https://extramilest.com/ ► Path Projects: https://pathprojects.com/flo ► Podcast: https://extramilest.com/podcast/ Affiliate Disclosure: I may earn commissions if you purchase items via my affiliate links. "As an affiliate I earn from qualifying purchases." Affiliate links do not increase cost to you. Also, you do not need to use these links. You can also search for these same items in Amazon or on any search engine/shopping site of your choice and buy/research them that way. ABOUT THE EXTRAMILEST SHOW: A podcast and YouTube channel where host Floris Gierman interviews world class athletes, coaches and health experts on the topic of how to become a stronger, healthier and happier athlete. More info about our Personal Best Running Coaching Program can be found at https://www.pbprogram.com . SUBSCRIBE and hit the bell to see new videos: https://bit.ly/Flo-YT'
-    episode_image_url: ''
-    episode_uid: a1122f8b-f620-4745-8a6f-63e6b1d791c6
-    episode_slug: 104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson
-    episode_key: 104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-extramilest-show/104-how-changing-your-mindset-helps-crush-your-runs-with-alex-hutchinson/"
+    episode_page_url: "/the-extramilest-show/105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal/"
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &27
   - episode_title: 'Re-Release: The Art and Science of the Perfect Football Penalty'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/re-release-the-art-and-science-of-the-perfect-football-penal
