@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-26T19:37:04Z'
+generated_at: '2026-06-26T20:38:28Z'
 items:
+- podcast_title: COFFEECLUB
+  podcast_page_url: "/coffeeclub/"
+  cover_image: "/media/coffeeclub.jpeg"
+  feed_url: https://media.rss.com/coffeeclub/feed.xml
+  filter_category: track road english
+  episode_title: 'Seth Ruhling Opens Up: High Carb Imposters, Zone 2 Threshold, & Western States Drama'
+  episode_url: https://rss.com/podcasts/coffeeclub/2946299
+  audio_url: https://content.rss.com/episodes/81443/2946299/coffeeclub/2026_06_26_20_30_59_e6db0bcf-ea0a-4476-a61d-e6c8d392d133.mp3
+  published_at: '2026-06-26T20:33:19+00:00'
+  episode_key: seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama
+  episode_slug: seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama
+  episode_page_url: "/coffeeclub/seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama/"
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast/"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  filter_category: road track english
+  episode_title: Shoe Geeks - June/July 2026
+  episode_url: https://insiderunningpodcast.podbean.com/e/shoe-geeks-junejuly-2026/
+  audio_url: https://mcdn.podbean.com/mf/web/vqque2dtva45icgb/Shoe_Geeks_itunesaogl5.mp3
+  published_at: '2026-06-27T05:51:00+10:00'
+  episode_key: shoe-geeks-june-july-2026
+  episode_slug: shoe-geeks-june-july-2026
+  episode_page_url: "/inside-running-podcast/shoe-geeks-june-july-2026/"
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw/"
   cover_image: "/media/crackabrew.jpeg"
@@ -277,18 +301,6 @@ items:
   episode_key: the-evolution-of-testing-continuous-aet
   episode_slug: the-evolution-of-testing-continuous-aet
   episode_page_url: "/uphill-athlete/the-evolution-of-testing-continuous-aet/"
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast/"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  filter_category: road track english
-  episode_title: '451: Commonwealth Games Team Announcement | NSW XC Championships | Ostrava & Hengelo'
-  episode_url: https://insiderunningpodcast.podbean.com/e/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/
-  audio_url: https://mcdn.podbean.com/mf/web/zz8ustf8vipsxsvw/Ep_451_-_23_6_2026_634_amaffp4.mp3
-  published_at: '2026-06-24T04:00:00+10:00'
-  episode_key: 451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo
-  episode_slug: 451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo
-  episode_page_url: "/inside-running-podcast/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/"
 - podcast_title: Team Macody Podcast
   podcast_page_url: "/team-macody-podcast/"
   cover_image: "/media/teammacody.jpeg"
@@ -433,18 +445,6 @@ items:
   episode_key: 348-it-has-to-make-sense-with-zach-hauer
   episode_slug: 348-it-has-to-make-sense-with-zach-hauer
   episode_page_url: "/singletrack-with-mathias-eichler/348-it-has-to-make-sense-with-zach-hauer/"
-- podcast_title: COFFEECLUB
-  podcast_page_url: "/coffeeclub/"
-  cover_image: "/media/coffeeclub.jpeg"
-  feed_url: https://media.rss.com/coffeeclub/feed.xml
-  filter_category: track road english
-  episode_title: The Secret Genius of Marco Langon
-  episode_url: https://rss.com/podcasts/coffeeclub/2924234
-  audio_url: https://content.rss.com/episodes/81443/2924234/coffeeclub/2026_06_18_02_55_16_e256a6bf-6094-4625-801e-9ccd86b08e02.mp3
-  published_at: '2026-06-18T04:56:09+00:00'
-  episode_key: the-secret-genius-of-marco-langon
-  episode_slug: the-secret-genius-of-marco-langon
-  episode_page_url: "/coffeeclub/the-secret-genius-of-marco-langon/"
 - podcast_title: The Boulder Boys
   podcast_page_url: "/the-boulder-boys/"
   cover_image: "/media/boulderboys.jpeg"
@@ -1469,6 +1469,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-freetrail-podcast/canyon-woodward-s-unconventional-path-learning-by-doing-community-organizing-humanity-s-interdependence/"
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
+  - episode_title: Shoe Geeks - June/July 2026
+    episode_url: https://insiderunningpodcast.podbean.com/e/shoe-geeks-junejuly-2026/
+    audio_url: https://mcdn.podbean.com/mf/web/vqque2dtva45icgb/Shoe_Geeks_itunesaogl5.mp3
+    published_at: '2026-06-27T05:51:00+10:00'
+    description_html: '<p>Andy Buchanan, Olympian and Australian men''s marathon record holder, says the Run Port Douglas Half Marathon course is the best in the world! Run Port Douglas is the perfect excuse to escape the cold and head to paradise for a run you''ll never forget on Saturday, 5 September. Enter now at <a href=''http://www.runportdouglas.com.au/''>www.runportdouglas.com.au</a></p><p>In this latest episode, The Shoe Geeks of Moose, Thomas Do Canto and</p><p>Michael Nitschke chat up and talk all things in the latest running shoes.</p><p>Learn more about Nitta: <a href=''https://www.sparc.com.au/''>https://www.sparc.com.au/staff/michael-nitschkehttps://www.sparc.com.au/</a></p><p>Learn more about Tom: https://www.pinnaclesportspodiatry.com.au/about/</p><p class="p1">Patreon Link: <a href=''https://www.patreon.com/insiderunningpodcast''>https://www.patreon.com/insiderunningpodcast</a></p><p class="p1">Opening and Closing Music is Undercover of my Skin by Benny Walker. <a href=''http://www.bennywalkermusic.com/''>www.bennywalkermusic.com</a></p><p class="p1">Join the conversation at: <a href=''https://www.facebook.com/insiderunningpodcast/''>https://www.facebook.com/insiderunningpodcast/</a> or follow us on Instagram: @insiderunningpodcast</p>'
+    description_plain: 'Andy Buchanan, Olympian and Australian men''s marathon record holder, says the Run Port Douglas Half Marathon course is the best in the world! Run Port Douglas is the perfect excuse to escape the cold and head to paradise for a run you''ll never forget on Saturday, 5 September. Enter now at www.runportdouglas.com.au In this latest episode, The Shoe Geeks of Moose, Thomas Do Canto and Michael Nitschke chat up and talk all things in the latest running shoes. Learn more about Nitta: https://www.sparc.com.au/staff/michael-nitschkehttps://www.sparc.com.au/ Learn more about Tom: https://www.pinnaclesportspodiatry.com.au/about/ Patreon Link: https://www.patreon.com/insiderunningpodcast Opening and Closing Music is Undercover of my Skin by Benny Walker. www.bennywalkermusic.com Join the conversation at: https://www.facebook.com/insiderunningpodcast/ or follow us on Instagram: @insiderunningpodcast'
+    episode_image_url: ''
+    episode_uid: insiderunningpodcast-podbean-com-dd5de575-dc1f-3a6c-a438-f4ca9eaa4e86
+    episode_slug: shoe-geeks-june-july-2026
+    episode_key: shoe-geeks-june-july-2026
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/inside-running-podcast/shoe-geeks-june-july-2026/"
   - episode_title: '451: Commonwealth Games Team Announcement | NSW XC Championships | Ostrava & Hengelo'
     episode_url: https://insiderunningpodcast.podbean.com/e/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/
     audio_url: https://mcdn.podbean.com/mf/web/zz8ustf8vipsxsvw/Ep_451_-_23_6_2026_634_amaffp4.mp3
@@ -1479,7 +1491,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-ecbe855a-031b-3072-b2b6-92e5b5a870d7
     episode_slug: 451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo
     episode_key: 451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/inside-running-podcast/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/"
   - episode_title: 'Interview: Jess Stenson'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-jess-stenson/
@@ -1491,7 +1503,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-d78ddfab-aaeb-37af-b23a-529168dcb520
     episode_slug: interview-jess-stenson
     episode_key: interview-jess-stenson
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/inside-running-podcast/interview-jess-stenson/"
   - episode_title: '450: Oslo Diamond League | LA Grand Prix | Cruden Farm'
     episode_url: https://insiderunningpodcast.podbean.com/e/450-oslo-diamond-league-la-grand-prix-cruden-farm/
@@ -1503,7 +1515,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7b26ace9-6be4-3f70-bb0b-a43f87323529
     episode_slug: 450-oslo-diamond-league-la-grand-prix-cruden-farm
     episode_key: 450-oslo-diamond-league-la-grand-prix-cruden-farm
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/inside-running-podcast/450-oslo-diamond-league-la-grand-prix-cruden-farm/"
   - episode_title: 'Interview: Andy Buchanan'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-andy-buchanan/
@@ -1515,7 +1527,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-d09c9684-44ac-3ef9-bd4c-08c0a8520a89
     episode_slug: interview-andy-buchanan
     episode_key: interview-andy-buchanan
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/inside-running-podcast/interview-andy-buchanan/"
   - episode_title: '449: Rome & Stockholm Diamond League | Brisbane Marathon | Mackay Marina Fun Run'
     episode_url: https://insiderunningpodcast.podbean.com/e/449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run/
@@ -1527,7 +1539,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-8714a587-2469-306e-a492-5de534767cfa
     episode_slug: 449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run
     episode_key: 449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/inside-running-podcast/449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run/"
   - episode_title: 'Interview: Ed Marks'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-ed-marks/
@@ -1539,7 +1551,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7b612fa0-1416-39a7-be83-5d67ccf50298
     episode_slug: interview-ed-marks
     episode_key: interview-ed-marks
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/inside-running-podcast/interview-ed-marks/"
   - episode_title: '448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR'
     episode_url: https://insiderunningpodcast.podbean.com/e/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/
@@ -1551,7 +1563,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-5563461a-52ae-332e-ba68-70159b47ae41
     episode_slug: 448-launceston-running-festival-rabat-diamond-league-bendigo-xcr
     episode_key: 448-launceston-running-festival-rabat-diamond-league-bendigo-xcr
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/inside-running-podcast/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/"
   - episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
     episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
@@ -1563,7 +1575,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-10fb7cd9-613a-31cc-85d9-b8fca6b26fb9
     episode_slug: 447-xiamen-diamond-league-la-track-fest-cape-town-marathon
     episode_key: 447-xiamen-diamond-league-la-track-fest-cape-town-marathon
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/inside-running-podcast/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/"
   - episode_title: 'Interview: Evan Jager'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
@@ -1575,7 +1587,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-1e60c640-4a1e-3cd0-88bd-fa8b37bc417a
     episode_slug: interview-evan-jager
     episode_key: interview-evan-jager
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/inside-running-podcast/interview-evan-jager/"
   - episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
     episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
@@ -1587,7 +1599,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-067ad685-abce-3408-b440-c70572a9c3ab
     episode_slug: 446-shanghai-diamond-league-sydney-10-jells-park-relays
     episode_key: 446-shanghai-diamond-league-sydney-10-jells-park-relays
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/inside-running-podcast/446-shanghai-diamond-league-sydney-10-jells-park-relays/"
   - episode_title: 'Interview: Conner Mantz'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
@@ -1599,7 +1611,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-b9809831-8f66-3914-bbd6-c906869f2931
     episode_slug: interview-conner-mantz
     episode_key: interview-conner-mantz
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/inside-running-podcast/interview-conner-mantz/"
   - episode_title: '445: Lakeside:5 | Shanghai Diamond League Preview | Staying Motivated'
     episode_url: https://insiderunningpodcast.podbean.com/e/445-lakeside5-shanghai-diamond-league-preview-staying-motivated/
@@ -1611,7 +1623,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-ccbd12c7-f249-3112-948b-70ea2b37f01b
     episode_slug: 445-lakeside-5-shanghai-diamond-league-preview-staying-motivated
     episode_key: 445-lakeside-5-shanghai-diamond-league-preview-staying-motivated
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/inside-running-podcast/445-lakeside-5-shanghai-diamond-league-preview-staying-motivated/"
   - episode_title: Ellie Pashley on Winning the Ballarat Marathon
     episode_url: https://insiderunningpodcast.podbean.com/e/ellie-pashley-on-winning-the-ballarat-marathon/
@@ -1623,7 +1635,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-edfa0dc6-39d2-36d0-b3fc-5b931141c70d
     episode_slug: ellie-pashley-on-winning-the-ballarat-marathon
     episode_key: ellie-pashley-on-winning-the-ballarat-marathon
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/inside-running-podcast/ellie-pashley-on-winning-the-ballarat-marathon/"
   - episode_title: '444: Sydney Half | Adelaide Marathon | The Ideal Warm Up'
     episode_url: https://insiderunningpodcast.podbean.com/e/444-sydney-half-adelaide-marathon-the-ideal-warm-up/
@@ -1635,7 +1647,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-a4a332a4-4290-3ca8-b5fb-2044f7f747f2
     episode_slug: 444-sydney-half-adelaide-marathon-the-ideal-warm-up
     episode_key: 444-sydney-half-adelaide-marathon-the-ideal-warm-up
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/inside-running-podcast/444-sydney-half-adelaide-marathon-the-ideal-warm-up/"
   - episode_title: 'Interview: Seth O''Donnell'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-seth-odonnell/
@@ -1647,7 +1659,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7099510d-ef1f-3cda-85d8-5a3a3d61e439
     episode_slug: interview-seth-o-donnell
     episode_key: interview-seth-o-donnell
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/inside-running-podcast/interview-seth-o-donnell/"
   - episode_title: 'Interview: Alfie Manthorpe'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-alfie-manthorpe/
@@ -1659,7 +1671,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-2962838a-4647-3177-adc5-31271949d528
     episode_slug: interview-alfie-manthorpe
     episode_key: interview-alfie-manthorpe
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/inside-running-podcast/interview-alfie-manthorpe/"
   - episode_title: 'Interview: Izzi Batt-Doyle'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-izzi-batt-doyle/
@@ -1671,7 +1683,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-9e412362-3d2b-3cc7-ae11-b0fe5449a86f
     episode_slug: interview-izzi-batt-doyle
     episode_key: interview-izzi-batt-doyle
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/inside-running-podcast/interview-izzi-batt-doyle/"
   - episode_title: '443: Ballarat, Boston & London Marathons | Run The Tan'
     episode_url: https://insiderunningpodcast.podbean.com/e/443-ballarat-boston-london-marathons-run-the-tan/
@@ -1683,7 +1695,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-b5ab25ef-569a-3a76-9ea7-fc65f7a51c02
     episode_slug: 443-ballarat-boston-london-marathons-run-the-tan
     episode_key: 443-ballarat-boston-london-marathons-run-the-tan
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/inside-running-podcast/443-ballarat-boston-london-marathons-run-the-tan/"
   - episode_title: Road to Somewhere Ep 9 featuring Phil from MeteoPace
     episode_url: https://insiderunningpodcast.podbean.com/e/road-to-somewhere-ep-9-featuring-phil-from-meteopace/
@@ -1695,7 +1707,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-64395bb0-9eda-3db9-9882-28e6388c8238
     episode_slug: road-to-somewhere-ep-9-featuring-phil-from-meteopace
     episode_key: road-to-somewhere-ep-9-featuring-phil-from-meteopace
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/inside-running-podcast/road-to-somewhere-ep-9-featuring-phil-from-meteopace/"
   - episode_title: '442: Cam Myers | Run Wollongong 5K | World Athletics blocks Turkiye transfers'
     episode_url: https://insiderunningpodcast.podbean.com/e/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/
@@ -1707,7 +1719,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-62da5c65-8d93-31eb-9266-cdcebaba4997
     episode_slug: 442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers
     episode_key: 442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/inside-running-podcast/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/"
   - episode_title: '441: National Track & Field Championships | Canberra Marathon | One Running Kit Review'
     episode_url: https://insiderunningpodcast.podbean.com/e/441-national-track-field-championships-canberra-marathon-one-running-kit-review/
@@ -1719,7 +1731,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-52077f79-67bc-3fa0-b3ff-823b593bcf8f
     episode_slug: 441-national-track-field-championships-canberra-marathon-one-running-kit-review
     episode_key: 441-national-track-field-championships-canberra-marathon-one-running-kit-review
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/inside-running-podcast/441-national-track-field-championships-canberra-marathon-one-running-kit-review/"
   - episode_title: '440: Urban Traile de Lille | Vic Milers Club | Herb Hedemann'
     episode_url: https://insiderunningpodcast.podbean.com/e/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/
@@ -1731,7 +1743,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-30d3d4ed-c3cf-3037-99e6-021d09771d3f
     episode_slug: 440-urban-traile-de-lille-vic-milers-club-herb-hedemann
     episode_key: 440-urban-traile-de-lille-vic-milers-club-herb-hedemann
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/inside-running-podcast/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/"
   - episode_title: 'Interview: Andy Blow (CEO and Founder of Precision Fuel and Hydration)'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-any-blow-ceo-and-founder-of-precision-fuel-and-hydration/
@@ -1743,7 +1755,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-9849ebf0-dd6a-365e-b0f8-723902dbb838
     episode_slug: interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration
     episode_key: interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/inside-running-podcast/interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration/"
   - episode_title: '439: Maurie Plant Meet | The Ten | Run for the Kids'
     episode_url: https://insiderunningpodcast.podbean.com/e/439-maurie-plant-meet-the-ten-run-for-the-kids/
@@ -1755,20 +1767,8 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-6f97da96-445f-32e0-8f85-8ccae5c574cc
     episode_slug: 439-maurie-plant-meet-the-ten-run-for-the-kids
     episode_key: 439-maurie-plant-meet-the-ten-run-for-the-kids
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/inside-running-podcast/439-maurie-plant-meet-the-ten-run-for-the-kids/"
-  - episode_title: '438: Indoor World Championships | NSW & Vic State Championships | Maurie Plant Preview'
-    episode_url: https://insiderunningpodcast.podbean.com/e/438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview/
-    audio_url: https://mcdn.podbean.com/mf/web/msegcuchg52zaew2/Ep_438_iTunesb60ok.mp3
-    published_at: '2026-03-25T06:00:00+11:00'
-    description_html: "<p dir=\"ltr\">438: Indoor World Championships | NSW &amp; Vic State Championships | Maurie Plant Preview</p><p dir=\"ltr\">This episode is brought to you by SAYSKY. The Spring/Summer 26 collection is inspired by the unspoken poetry of running. Shop the full range at <a href='http://saysky.com/'>saysky.com</a>, where you can also score 15% off with our exclusive discount code using the code IRP15 at checkout.</p><p dir=\"ltr\">Brad sidesteps a snake at Mulligans and still maintains a pro routine. \nJulian gets home to Anglesea via the most confusing bike track in Australia. \nBrady takes in the lessons of the latest guest interview, then still weighs up racing options.</p><p dir=\"ltr\">This week's running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit <a href='http://precisionhydration.com/'>precisionhydration.com</a> and get your numbers.</p><p dir=\"ltr\">Jess Hull third in 3000m in 8:58.16, with Nadia Battocletti winning the gold medal and Emily Mackay just eclipsing Jess for silver in 8:58.12, Linden Hall running 9:04.83. Josh Kerr won the 3000m in 7:35.56, outkicking Cole Hocker and Yann Schrub to the line. \nAdam Spencer won the bronze medal in the 1500m in 3:40.26, with Mariano Garcia of Spain winning in 3:39.63 and outdoor world champion Isaac Nader of Portugal in second. \nJess Hull won another medal with a silver in the 1500m in an area record 3:59.45, with Georgia Hunter-Bell winning gold in 3:58.53, Nikki Hiltz in third \nHayley Kitching came fifth in her debut championship running 2:00.50 in the 800m, Keely Hodgkinson dominated in a Championship Record of 1:55.30.</p><p dir=\"ltr\">Peter Bol fourth in the 800 final in an area record of 1:45.14, while US teen phenom Cooper Lutkenhaus won in 1:44.24. \n<a href='https://worldathletics.org/competitions/world-athletics-indoor-championships/kujawypomorze26/results'>World Athletics Results</a></p><p dir=\"ltr\">Jaylah Hancock-Cameron won both the 800m and 1500m titles at the NSW Track and Field Championships. \nObssa Youssouf won the Men’s 800 while Isaac Shaw won the Men’s 1500m. \n<a href='https://athleticsnsw.anet.live/meets/63894'>Results</a></p><p dir=\"ltr\">Caitlin Mcquicken-Bell and Alex Hanigan won the 800m titles at the Vic State Track and Field Championships, with Mia Roux and Evander Scott winning the 1500m titles. \n<a href='https://athsvic.resultshub.com.au/'>AthsVic Results Hub</a></p><p dir=\"ltr\">The boys talk about listening on the run with the Shokz range.</p><p>Use IRPPRO for exclusive 15AUD discount of the all-new OpenFit Pro. <a href='https://shokz.com.au/pages/openfit-pro?utm_source=andrea_irp&amp;utm_medium=podcast'>Shop Here </a> \nUse IRP15 for other classic models  <a href='http://www.shokz.com'>Shop Here</a></p><p dir=\"ltr\">Whispers big name for Great Ocean Road, a big name makes a big brand switch. \nMoose gets on The Loose over side group-chats, cycling groups abusing runners, while defending the merits and benefits of group long runs.</p><p dir=\"ltr\">This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. When you max out single runs on six days a week, should you add doubles to save the rest day or run everyday of the week?</p><p dir=\"ltr\">Visit<a href='http://precisionhydration.com/'> precisionhydration.com</a> for more info on hydration and fuelling products and research, and use the discount code given in the episode.</p><p dir=\"ltr\">The show wraps up as the boys go through the <a href='https://meets.rosterathletics.com/public/competitions/details/about?id=27236'>start lists for the Maurie Plant Meet</a>, and whether records could fall Berlin Half or at The Ten Sound Running Meet.</p><p class=\"p1\">Patreon Link: <a href='https://www.patreon.com/insiderunningpodcast'>https://www.patreon.com/insiderunningpodcast</a></p><p class=\"p1\">Opening and Closing Music is Undercover of my Skin by Benny Walker. <a href='http://www.bennywalkermusic.com/'>www.bennywalkermusic.com</a></p><p class=\"p1\">Join the conversation at: <a href='https://www.facebook.com/insiderunningpodcast/'>https://www.facebook.com/insiderunningpodcast/</a></p>"
-    description_plain: '438: Indoor World Championships | NSW &amp; Vic State Championships | Maurie Plant Preview This episode is brought to you by SAYSKY. The Spring/Summer 26 collection is inspired by the unspoken poetry of running. Shop the full range at saysky.com , where you can also score 15% off with our exclusive discount code using the code IRP15 at checkout. Brad sidesteps a snake at Mulligans and still maintains a pro routine. Julian gets home to Anglesea via the most confusing bike track in Australia. Brady takes in the lessons of the latest guest interview, then still weighs up racing options. This week''s running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit precisionhydration.com and get your numbers. Jess Hull third in 3000m in 8:58.16, with Nadia Battocletti winning the gold medal and Emily Mackay just eclipsing Jess for silver in 8:58.12, Linden Hall running 9:04.83. Josh Kerr won the 3000m in 7:35.56, outkicking Cole Hocker and Yann Schrub to the line. Adam Spencer won the bronze medal in the 1500m in 3:40.26, with Mariano Garcia of Spain winning in 3:39.63 and outdoor world champion Isaac Nader of Portugal in second. Jess Hull won another medal with a silver in the 1500m in an area record 3:59.45, with Georgia Hunter-Bell winning gold in 3:58.53, Nikki Hiltz in third Hayley Kitching came fifth in her debut championship running 2:00.50 in the 800m, Keely Hodgkinson dominated in a Championship Record of 1:55.30. Peter Bol fourth in the 800 final in an area record of 1:45.14, while US teen phenom Cooper Lutkenhaus won in 1:44.24. World Athletics Results Jaylah Hancock-Cameron won both the 800m and 1500m titles at the NSW Track and Field Championships. Obssa Youssouf won the Men’s 800 while Isaac Shaw won the Men’s 1500m. Results Caitlin Mcquicken-Bell and Alex Hanigan won the 800m titles at the Vic State Track and Field Championships, with Mia Roux and Evander Scott winning the 1500m titles. AthsVic Results Hub The boys talk about listening on the run with the Shokz range. Use IRPPRO for exclusive 15AUD discount of the all-new OpenFit Pro. Shop Here Use IRP15 for other classic models Shop Here Whispers big name for Great Ocean Road, a big name makes a big brand switch. Moose gets on The Loose over side group-chats, cycling groups abusing runners, while defending the merits and benefits of group long runs. This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. When you max out single runs on six days a week, should you add doubles to save the rest day or run everyday of the week? Visit precisionhydration.com for more info on hydration and fuelling products and research, and use the discount code given in the episode. The show wraps up as the boys go through the start lists for the Maurie Plant Meet , and whether records could fall Berlin Half or at The Ten Sound Running Meet. Patreon Link: https://www.patreon.com/insiderunningpodcast Opening and Closing Music is Undercover of my Skin by Benny Walker. www.bennywalkermusic.com Join the conversation at: https://www.facebook.com/insiderunningpodcast/'
-    episode_image_url: ''
-    episode_uid: insiderunningpodcast-podbean-com-d685ff15-09e7-39cd-86d2-e3ced65fc5d7
-    episode_slug: 438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview
-    episode_key: 438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview
     legacy_numbered_slug: episode-25
-    episode_page_url: "/inside-running-podcast/438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview/"
+    episode_page_url: "/inside-running-podcast/439-maurie-plant-meet-the-ten-run-for-the-kids/"
   https://anchor.fm/s/101e74634/podcast/rss: &3
   - episode_title: The Story Behind Salomon TV, with Dean Leslie
     episode_url: https://podcasters.spotify.com/pod/show/jeff-pelletier5/episodes/The-Story-Behind-Salomon-TV--with-Dean-Leslie-e3iagci
@@ -12439,6 +12439,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-boulder-boys/ep-55-podium-in-chamonix-utmb-recap/"
   https://media.rss.com/coffeeclub/feed.xml: &40
+  - episode_title: 'Seth Ruhling Opens Up: High Carb Imposters, Zone 2 Threshold, & Western States Drama'
+    episode_url: https://rss.com/podcasts/coffeeclub/2946299
+    audio_url: https://content.rss.com/episodes/81443/2946299/coffeeclub/2026_06_26_20_30_59_e6db0bcf-ea0a-4476-a61d-e6c8d392d133.mp3
+    published_at: '2026-06-26T20:33:19+00:00'
+    description_html: '<p>We are joined by trail star Seth Ruhling to preview the Western States 100, debating Jim Walmsley''s sponsor entry, Killian Jornet on a torn meniscus, and the gastrointestinal perils of high-carb fueling. The crew also untangles the confusing science behind Zone 2 versus threshold training and recaps recent World Cup matches.</p><p>This episode was sponsored by Stryd!</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.stryd.live/coffeeclub">https://www.stryd.live/coffeeclub</a></p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/strydrunning/?hl=en">https://www.instagram.com/strydrunning/?hl=en</a></p><p>The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club and On.</p><p>Thumbnail Photography by Asa Fletcher: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/asa.fletch/?hl=en">https://www.instagram.com/asa.fletch/?hl=en</a></p><p>Special Guest:</p><p>Seth Ruhling <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/sethruhling/">https://www.instagram.com/sethruhling/</a></p><p>Follow us here:</p><p>Instagram: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/coffeeclubpod/">https://www.instagram.com/coffeeclubpod/</a></p><p>George Beamish: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/georgebeamish/">https://www.instagram.com/georgebeamish/</a></p><p>Morgan McDonald: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/morganmcdonald__/">https://www.instagram.com/morganmcdonald__/</a></p><p>Olli Hoare: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ollihoare/">https://www.instagram.com/ollihoare/</a></p><p>Tom Wang: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/womtang/">https://www.instagram.com/womtang/</a></p><p>Coffee Club Merch: <a target="_blank" rel="noopener noreferrer nofollow" href="https://coffeeclubpod.com">https://coffeeclubpod.com</a></p><p>Morgan''s discord: <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/uaCSeHDpgs">https://discord.gg/uaCSeHDpgs</a></p><p>Morgan''s YouTube: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@MorganMcDonaldisaloser">https://www.youtube.com/@MorganMcDonaldisaloser</a></p><p>Intro Artwork by The Orange Runner: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/theorangerunner/">https://www.instagram.com/theorangerunner/</a></p><p>Intro Music by Nick Harris: <a target="_blank" rel="noopener noreferrer nofollow" href="https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi">https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi</a></p>'
+    description_plain: 'We are joined by trail star Seth Ruhling to preview the Western States 100, debating Jim Walmsley''s sponsor entry, Killian Jornet on a torn meniscus, and the gastrointestinal perils of high-carb fueling. The crew also untangles the confusing science behind Zone 2 versus threshold training and recaps recent World Cup matches. This episode was sponsored by Stryd! https://www.stryd.live/coffeeclub https://www.instagram.com/strydrunning/?hl=en The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club and On. Thumbnail Photography by Asa Fletcher: https://www.instagram.com/asa.fletch/?hl=en Special Guest: Seth Ruhling https://www.instagram.com/sethruhling/ Follow us here: Instagram: https://www.instagram.com/coffeeclubpod/ George Beamish: https://www.instagram.com/georgebeamish/ Morgan McDonald: https://www.instagram.com/morganmcdonald__/ Olli Hoare: https://www.instagram.com/ollihoare/ Tom Wang: https://www.instagram.com/womtang/ Coffee Club Merch: https://coffeeclubpod.com Morgan''s discord: https://discord.gg/uaCSeHDpgs Morgan''s YouTube: https://www.youtube.com/@MorganMcDonaldisaloser Intro Artwork by The Orange Runner: https://www.instagram.com/theorangerunner/ Intro Music by Nick Harris: https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi'
+    episode_image_url: https://media.rss.com/coffeeclub/ep_cover_20260626_080607_0b625192c0a94728bb84d14ee62b6f97.jpg
+    episode_uid: ae3dad0a-bc64-424c-b9d1-1b9137b3518b
+    episode_slug: seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama
+    episode_key: seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/coffeeclub/seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama/"
   - episode_title: The Secret Genius of Marco Langon
     episode_url: https://rss.com/podcasts/coffeeclub/2924234
     audio_url: https://content.rss.com/episodes/81443/2924234/coffeeclub/2026_06_18_02_55_16_e256a6bf-6094-4625-801e-9ccd86b08e02.mp3
@@ -12449,7 +12461,7 @@ episodes_by_feed:
     episode_uid: 9e762cc1-0767-4671-ae4c-f2b7ac80b6e6
     episode_slug: the-secret-genius-of-marco-langon
     episode_key: the-secret-genius-of-marco-langon
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/coffeeclub/the-secret-genius-of-marco-langon/"
   - episode_title: Is Cooper Lutkenhaus already the GOAT?
     episode_url: https://rss.com/podcasts/coffeeclub/2909000
@@ -12461,7 +12473,7 @@ episodes_by_feed:
     episode_uid: 155e8e45-1b50-4098-a4ac-ad225bb1cdbd
     episode_slug: is-cooper-lutkenhaus-already-the-goat
     episode_key: is-cooper-lutkenhaus-already-the-goat
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/coffeeclub/is-cooper-lutkenhaus-already-the-goat/"
   - episode_title: What Really Happened to George Beamish in the Rabat Diamond League?
     episode_url: https://rss.com/podcasts/coffeeclub/2890839
@@ -12473,7 +12485,7 @@ episodes_by_feed:
     episode_uid: ddeef96e-9156-4d29-82f4-b698fd568c2c
     episode_slug: what-really-happened-to-george-beamish-in-the-rabat-diamond-league
     episode_key: what-really-happened-to-george-beamish-in-the-rabat-diamond-league
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/coffeeclub/what-really-happened-to-george-beamish-in-the-rabat-diamond-league/"
   - episode_title: Fake Records & Impossible Standards
     episode_url: https://rss.com/podcasts/coffeeclub/2869124
@@ -12485,7 +12497,7 @@ episodes_by_feed:
     episode_uid: ac0205a0-fb68-4f95-8e23-0f7e3acba323
     episode_slug: fake-records-impossible-standards
     episode_key: fake-records-impossible-standards
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/coffeeclub/fake-records-impossible-standards/"
   - episode_title: The Problem with Running Influencers, Doping, and NIL Money
     episode_url: https://rss.com/podcasts/coffeeclub/2846328
@@ -12497,7 +12509,7 @@ episodes_by_feed:
     episode_uid: 4bdb6c9b-7f5d-45c1-a65e-b5ecdb8c8b76
     episode_slug: the-problem-with-running-influencers-doping-and-nil-money
     episode_key: the-problem-with-running-influencers-doping-and-nil-money
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/coffeeclub/the-problem-with-running-influencers-doping-and-nil-money/"
   - episode_title: What's happened to Jakob Ingebrigtsen?
     episode_url: https://rss.com/podcasts/coffeeclub/2828676
@@ -12509,7 +12521,7 @@ episodes_by_feed:
     episode_uid: 273fcdf1-2744-4201-97f8-f3cc36263c9e
     episode_slug: what-s-happened-to-jakob-ingebrigtsen
     episode_key: what-s-happened-to-jakob-ingebrigtsen
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/coffeeclub/what-s-happened-to-jakob-ingebrigtsen/"
   - episode_title: Why Rory Linkletter did Triples, Uphill Tempos, and Double Threshold to run 2:06 at Boston...
     episode_url: https://rss.com/podcasts/coffeeclub/2802690
@@ -12521,7 +12533,7 @@ episodes_by_feed:
     episode_uid: 7d6e8e01-38a4-40b8-a106-205af3214221
     episode_slug: why-rory-linkletter-did-triples-uphill-tempos-and-double-threshold-to-run-2-06-at-boston
     episode_key: why-rory-linkletter-did-triples-uphill-tempos-and-double-threshold-to-run-2-06-at-boston
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/coffeeclub/why-rory-linkletter-did-triples-uphill-tempos-and-double-threshold-to-run-2-06-at-boston/"
   - episode_title: Do Marathon Records Even Matter Anymore?
     episode_url: https://rss.com/podcasts/coffeeclub/2782130
@@ -12533,7 +12545,7 @@ episodes_by_feed:
     episode_uid: 259a0167-5a91-44df-b1f5-ef6c3e8b1a91
     episode_slug: do-marathon-records-even-matter-anymore
     episode_key: do-marathon-records-even-matter-anymore
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/coffeeclub/do-marathon-records-even-matter-anymore/"
   - episode_title: The CRAZIEST Boston Marathon Ever (2:01 Pace!)
     episode_url: https://rss.com/podcasts/coffeeclub/2761226
@@ -12545,7 +12557,7 @@ episodes_by_feed:
     episode_uid: 3aa86243-5010-4ef4-9c01-bf0b0de32ce7
     episode_slug: the-craziest-boston-marathon-ever-2-01-pace
     episode_key: the-craziest-boston-marathon-ever-2-01-pace
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/coffeeclub/the-craziest-boston-marathon-ever-2-01-pace/"
   - episode_title: What actually happened at our National Championships? + Boston Marathon Preview
     episode_url: https://rss.com/podcasts/coffeeclub/2744150
@@ -12557,7 +12569,7 @@ episodes_by_feed:
     episode_uid: 6ce398fd-beff-4fe8-9380-ae9e95bd4fa2
     episode_slug: what-actually-happened-at-our-national-championships-boston-marathon-preview
     episode_key: what-actually-happened-at-our-national-championships-boston-marathon-preview
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/coffeeclub/what-actually-happened-at-our-national-championships-boston-marathon-preview/"
   - episode_title: How many miles per week do we run? + Our National Champs Preview
     episode_url: https://rss.com/podcasts/coffeeclub/2716723
@@ -12569,7 +12581,7 @@ episodes_by_feed:
     episode_uid: 3b76a8db-3012-4fa4-b2be-7db656c0b15e
     episode_slug: how-many-miles-per-week-do-we-run-our-national-champs-preview
     episode_key: how-many-miles-per-week-do-we-run-our-national-champs-preview
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/coffeeclub/how-many-miles-per-week-do-we-run-our-national-champs-preview/"
   - episode_title: What actually happened at Worlds/Maurie Plant/The TEN?
     episode_url: https://rss.com/podcasts/coffeeclub/2681907
@@ -12581,7 +12593,7 @@ episodes_by_feed:
     episode_uid: 16133942-629c-416a-9a5e-e4e137a49edd
     episode_slug: what-actually-happened-at-worlds-maurie-plant-the-ten
     episode_key: what-actually-happened-at-worlds-maurie-plant-the-ten
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/coffeeclub/what-actually-happened-at-worlds-maurie-plant-the-ten/"
   - episode_title: What you didn't know about Rocky Hansen... (NCAA & USA XC Runner Up, 13:07 5k)
     episode_url: https://rss.com/podcasts/coffeeclub/2646197
@@ -12593,7 +12605,7 @@ episodes_by_feed:
     episode_uid: 74637b4f-24c6-4ea7-b246-b0a9868620b1
     episode_slug: what-you-didn-t-know-about-rocky-hansen-ncaa-usa-xc-runner-up-13-07-5k
     episode_key: what-you-didn-t-know-about-rocky-hansen-ncaa-usa-xc-runner-up-13-07-5k
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/coffeeclub/what-you-didn-t-know-about-rocky-hansen-ncaa-usa-xc-runner-up-13-07-5k/"
   - episode_title: Grant Fisher is moving up in distance...
     episode_url: https://rss.com/podcasts/coffeeclub/2616649
@@ -12605,7 +12617,7 @@ episodes_by_feed:
     episode_uid: fb65cce9-4791-4d25-969e-914149a3a8b1
     episode_slug: grant-fisher-is-moving-up-in-distance
     episode_key: grant-fisher-is-moving-up-in-distance
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/coffeeclub/grant-fisher-is-moving-up-in-distance/"
   - episode_title: What the heck happened at the Atlanta Half?! + USA INDOORS FINISH
     episode_url: https://rss.com/podcasts/coffeeclub/2604603
@@ -12617,7 +12629,7 @@ episodes_by_feed:
     episode_uid: 06ad97bf-3c2a-4e13-ba55-cbf98be75074
     episode_slug: what-the-heck-happened-at-the-atlanta-half-usa-indoors-finish
     episode_key: what-the-heck-happened-at-the-atlanta-half-usa-indoors-finish
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/coffeeclub/what-the-heck-happened-at-the-atlanta-half-usa-indoors-finish/"
   - episode_title: Surviving the FLU as a Runner, Morgan's Aerobic Experiment, & Why You Should Train Slower
     episode_url: https://rss.com/podcasts/coffeeclub/2582026
@@ -12629,7 +12641,7 @@ episodes_by_feed:
     episode_uid: 7add2cfd-3a6e-452d-952b-f4dbf569cacf
     episode_slug: surviving-the-flu-as-a-runner-morgan-s-aerobic-experiment-why-you-should-train-slower
     episode_key: surviving-the-flu-as-a-runner-morgan-s-aerobic-experiment-why-you-should-train-slower
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/coffeeclub/surviving-the-flu-as-a-runner-morgan-s-aerobic-experiment-why-you-should-train-slower/"
   - episode_title: The Fastest Teenage Miler of All Time (feat. Sam Ruthe & Sam Tanner)
     episode_url: https://rss.com/podcasts/coffeeclub/2563729
@@ -12641,7 +12653,7 @@ episodes_by_feed:
     episode_uid: 18ba573d-b3f9-4361-b808-7b37fd03c4c9
     episode_slug: the-fastest-teenage-miler-of-all-time-feat-sam-ruthe-sam-tanner
     episode_key: the-fastest-teenage-miler-of-all-time-feat-sam-ruthe-sam-tanner
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/coffeeclub/the-fastest-teenage-miler-of-all-time-feat-sam-ruthe-sam-tanner/"
   - episode_title: What happened at the Millrose Games? + SAM "THE TRUTH" RUTHE'S 3:48 MILE
     episode_url: https://rss.com/podcasts/coffeeclub/2524261
@@ -12653,7 +12665,7 @@ episodes_by_feed:
     episode_uid: 13a9cdcd-5b8e-4496-b250-0d7b91f6a4e6
     episode_slug: what-happened-at-the-millrose-games-sam-the-truth-ruthe-s-3-48-mile
     episode_key: what-happened-at-the-millrose-games-sam-the-truth-ruthe-s-3-48-mile
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/coffeeclub/what-happened-at-the-millrose-games-sam-the-truth-ruthe-s-3-48-mile/"
   - episode_title: WE'RE GOING TO THE MILLROSE GAMES
     episode_url: https://rss.com/podcasts/coffeeclub/2504722
@@ -12665,7 +12677,7 @@ episodes_by_feed:
     episode_uid: 036b4b70-df83-4656-b32f-4a88ceec7c43
     episode_slug: we-re-going-to-the-millrose-games
     episode_key: we-re-going-to-the-millrose-games
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/coffeeclub/we-re-going-to-the-millrose-games/"
   - episode_title: 'Ryan & Patrick: Our New Teammates (SUB-60 HALF MARATHONERS!!!!)'
     episode_url: https://rss.com/podcasts/coffeeclub/2481447
@@ -12677,7 +12689,7 @@ episodes_by_feed:
     episode_uid: 02d600b1-a389-497c-b8a4-f2217401ebfb
     episode_slug: ryan-patrick-our-new-teammates-sub-60-half-marathoners
     episode_key: ryan-patrick-our-new-teammates-sub-60-half-marathoners
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/coffeeclub/ryan-patrick-our-new-teammates-sub-60-half-marathoners/"
   - episode_title: OLLI HOARE IS A WORLD CHAMPION
     episode_url: https://rss.com/podcasts/coffeeclub/2462285
@@ -12689,7 +12701,7 @@ episodes_by_feed:
     episode_uid: a14aadc4-42b5-496a-845d-662b6c5abb4b
     episode_slug: olli-hoare-is-a-world-champion
     episode_key: olli-hoare-is-a-world-champion
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/coffeeclub/olli-hoare-is-a-world-champion/"
   - episode_title: 'Running in 2026: AI Coaching, Strava, Creatine, Cold Plunges, NCAA Bans + WORLD XC CHAMPS!'
     episode_url: https://rss.com/podcasts/coffeeclub/2439714
@@ -12701,7 +12713,7 @@ episodes_by_feed:
     episode_uid: 84c59771-ea9f-4e13-bbdf-63d4ee4b0e84
     episode_slug: running-in-2026-ai-coaching-strava-creatine-cold-plunges-ncaa-bans-world-xc-champs
     episode_key: running-in-2026-ai-coaching-strava-creatine-cold-plunges-ncaa-bans-world-xc-champs
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/coffeeclub/running-in-2026-ai-coaching-strava-creatine-cold-plunges-ncaa-bans-world-xc-champs/"
   - episode_title: The 1500m World Record will be BROKEN in 2026
     episode_url: https://rss.com/podcasts/coffeeclub/2410262
@@ -12713,7 +12725,7 @@ episodes_by_feed:
     episode_uid: 522ec26d-c070-4647-afc6-778e7338a09a
     episode_slug: the-1500m-world-record-will-be-broken-in-2026
     episode_key: the-1500m-world-record-will-be-broken-in-2026
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/coffeeclub/the-1500m-world-record-will-be-broken-in-2026/"
   - episode_title: 'The Bankruptcy Files: what we heard & what we know'
     episode_url: https://rss.com/podcasts/coffeeclub/2397840
@@ -12725,20 +12737,8 @@ episodes_by_feed:
     episode_uid: 295d8e5e-c7c7-4c93-a74d-d6baca373bce
     episode_slug: the-bankruptcy-files-what-we-heard-what-we-know
     episode_key: the-bankruptcy-files-what-we-heard-what-we-know
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/coffeeclub/the-bankruptcy-files-what-we-heard-what-we-know/"
-  - episode_title: 'RACE WEEK: USA XC, Morgan''s Half, Alex Yee''s 2:06 & The Merrie Mile'
-    episode_url: https://rss.com/podcasts/coffeeclub/2384751
-    audio_url: https://content.rss.com/episodes/81443/2384751/coffeeclub/2025_12_11_20_57_57_ad2a9f53-2242-47f0-a3bd-cbf662112059.mp3
-    published_at: '2025-12-11T20:58:15+00:00'
-    description_html: '<p>The Holiday Jumper</p><p><a target="_blank" rel="noopener noreferrer nofollow" href="https://coffeeclubpod.com/products/the-holiday-jumper">https://coffeeclubpod.com/products/the-holiday-jumper</a></p><p>Dont waste the indoor season!! Heat train with CORE:</p><p>CORE 1 50% OFF: <a target="_blank" rel="noopener noreferrer nofollow" href="https://corebodytemp.com/collections/products/products/core?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4">https://corebodytemp.com/collections/products/products/core?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4</a></p><p>CORE 2 20% OFF: <a target="_blank" rel="noopener noreferrer nofollow" href="https://corebodytemp.com/collections/products/products/core2?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4">https://corebodytemp.com/collections/products/products/core2?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4</a></p><p>Heat Training Guide: <a target="_blank" rel="noopener noreferrer nofollow" href="https://help.corebodytemp.com/en/articles/12683303-indoor-heat-training-plan-for-runners?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4">https://help.corebodytemp.com/en/articles/12683303-indoor-heat-training-plan-for-runners?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4</a></p><p><strong>If you enjoyed this episode, please consider leaving us a 5 star review! </strong>It helps the pod a lot, and most importantly it helps Gus.</p><p>The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club.</p><p><strong>Follow us here:</strong></p><p>Instagram: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/coffeeclub.pod/">https://www.instagram.com/coffeeclubpod/</a></p><p>George Beamish: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/georgebeamish/">https://www.instagram.com/georgebeamish/</a></p><p>Morgan McDonald: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/morganmcdonald__/">https://www.instagram.com/morganmcdonald__/</a></p><p>Olli Hoare: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ollihoare/">https://www.instagram.com/ollihoare/</a></p><p>Tom Wang: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ollihoare/">https://www.instagram.com/womtang/</a></p><p>Coffee Club Merch: <a target="_blank" rel="noopener noreferrer nofollow" href="https://coffeeclubpod.com">https://coffeeclubpod.com</a></p><p>Morgan''s discord: <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/uaCSeHDpgs">https://discord.gg/uaCSeHDpgs</a></p><p>Morgan''s YouTube: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@MorganMcDonaldisaloser">https://www.youtube.com/@MorganMcDonaldisaloser</a></p><p>Intro Artwork by The Orange Runner: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/theorangerunner/">https://www.instagram.com/theorangerunner/</a></p><p>Intro Music by Nick Harris: <a target="_blank" rel="noopener noreferrer nofollow" href="https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi">https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi</a></p>'
-    description_plain: 'The Holiday Jumper https://coffeeclubpod.com/products/the-holiday-jumper Dont waste the indoor season!! Heat train with CORE: CORE 1 50% OFF: https://corebodytemp.com/collections/products/products/core?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4 CORE 2 20% OFF: https://corebodytemp.com/collections/products/products/core2?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4 Heat Training Guide: https://help.corebodytemp.com/en/articles/12683303-indoor-heat-training-plan-for-runners?utm_source=coffeeclub&amp;utm_medium=referral&amp;utm_campaign=Q4 If you enjoyed this episode, please consider leaving us a 5 star review! It helps the pod a lot, and most importantly it helps Gus. The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club. Follow us here: Instagram: https://www.instagram.com/coffeeclubpod/ George Beamish: https://www.instagram.com/georgebeamish/ Morgan McDonald: https://www.instagram.com/morganmcdonald__/ Olli Hoare: https://www.instagram.com/ollihoare/ Tom Wang: https://www.instagram.com/womtang/ Coffee Club Merch: https://coffeeclubpod.com Morgan''s discord: https://discord.gg/uaCSeHDpgs Morgan''s YouTube: https://www.youtube.com/@MorganMcDonaldisaloser Intro Artwork by The Orange Runner: https://www.instagram.com/theorangerunner/ Intro Music by Nick Harris: https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi'
-    episode_image_url: https://media.rss.com/coffeeclub/ep_cover_20251211_081215_8b534a728d30bf33356f6316cf4e179f.png
-    episode_uid: 58b1c534-4c58-40e5-a8e3-fe5ca195f90c
-    episode_slug: race-week-usa-xc-morgan-s-half-alex-yee-s-2-06-the-merrie-mile
-    episode_key: race-week-usa-xc-morgan-s-half-alex-yee-s-2-06-the-merrie-mile
     legacy_numbered_slug: episode-25
-    episode_page_url: "/coffeeclub/race-week-usa-xc-morgan-s-half-alex-yee-s-2-06-the-merrie-mile/"
+    episode_page_url: "/coffeeclub/the-bankruptcy-files-what-we-heard-what-we-know/"
   https://anchor.fm/s/fb539bd8/podcast/rss: &41
   - episode_title: UTS 50K Debrief, "Training Races", Poles & The Sugar Experiment
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/UTS-50K-Debrief--Training-Races--Poles--The-Sugar-Experiment-e3k516a
