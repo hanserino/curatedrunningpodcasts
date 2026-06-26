@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-26T12:45:53Z'
+generated_at: '2026-06-26T13:45:04Z'
 items:
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run/"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Forklart
+  podcast_page_url: "/forklart/"
+  cover_image: "/media/forklart.jpeg"
+  feed_url: https://podcast.stream.schibsted.media/ap/100194
+  filter_category: uncategorized norwegian
+  episode_title: 'Kort Forklart: Rød alarm i London, og spiller Haaland i kveld?'
+  episode_url: ''
+  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/zyl9uk1i7zyhxddgcc1sb/podcast_128.mp3
+  published_at: '2026-06-26T13:02:05+00:00'
+  episode_key: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
+  episode_slug: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
+  episode_page_url: "/forklart/kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -926,18 +938,6 @@ non_running_items:
   episode_key: ny-de-samiska-barnen-pa-tvangsinternaten
   episode_slug: ny-de-samiska-barnen-pa-tvangsinternaten
   episode_page_url: "/p3-dokumentar/ny-de-samiska-barnen-pa-tvangsinternaten/"
-- podcast_title: Forklart
-  podcast_page_url: "/forklart/"
-  cover_image: "/media/forklart.jpeg"
-  feed_url: https://podcast.stream.schibsted.media/ap/100194
-  filter_category: uncategorized norwegian
-  episode_title: Synes du pride tar for stor plass? Nesten halve Norge er enig med deg.
-  episode_url: ''
-  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/1beszzdxzsa2qte2dv7nn/podcast_128.mp3
-  published_at: '2026-06-25T03:00:03+00:00'
-  episode_key: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
-  episode_slug: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
-  episode_page_url: "/forklart/synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg/"
 - podcast_title: The Colin and Samir Show
   podcast_page_url: "/the-colin-and-samir-show/"
   cover_image: "/media/colinandsamirshow.jpeg"
@@ -18881,6 +18881,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/does-marques-hate-oneplus/"
   https://podcast.stream.schibsted.media/ap/100194: &61
+  - episode_title: 'Kort Forklart: Rød alarm i London, og spiller Haaland i kveld?'
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/zyl9uk1i7zyhxddgcc1sb/podcast_128.mp3
+    published_at: '2026-06-26T13:02:05+00:00'
+    description_html: For første gang i historien er det sendt ut rødt varsel om ekstrem hete tre dager på rad i London, og i Paris er pride-paraden avlyst. Vi oppsummerer nyhetene for deg, i dag også om Norges lagoppstilling mot Frankrike.
+    description_plain: For første gang i historien er det sendt ut rødt varsel om ekstrem hete tre dager på rad i London, og i Paris er pride-paraden avlyst. Vi oppsummerer nyhetene for deg, i dag også om Norges lagoppstilling mot Frankrike.
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/b2d346c38f06e6bf3c29c4f6ad5aed05.jpg?t%5B%5D=1440q80
+    episode_uid: ap-139603
+    episode_slug: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
+    episode_key: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
+    legacy_unicode_slug: kort-forklart-rød-alarm-i-london-og-spiller-haaland-i-kveld
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld/"
   - episode_title: Synes du pride tar for stor plass? Nesten halve Norge er enig med deg.
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/1beszzdxzsa2qte2dv7nn/podcast_128.mp3
@@ -18894,7 +18907,7 @@ episodes_by_feed:
     episode_uid: ap-139562
     episode_slug: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
     episode_key: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg/"
   - episode_title: 'Kort Forklart: Du kan få lavere skatt - men noe blir også dyrere'
     episode_url: ''
@@ -18907,7 +18920,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere
     episode_key: kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere
     legacy_unicode_slug: kort-forklart-du-kan-få-lavere-skatt-men-noe-blir-også-dyrere
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere/"
   - episode_title: 'Kort Forklart: Derfor skiller denne hetebølgen seg ut'
     episode_url: ''
@@ -18920,7 +18933,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut
     episode_key: kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut
     legacy_unicode_slug: kort-forklart-derfor-skiller-denne-hetebølgen-seg-ut
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut/"
   - episode_title: 'Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt'
     episode_url: ''
@@ -18933,7 +18946,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
     episode_key: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
     legacy_unicode_slug: kort-forklart-fotballspesial-tror-ikke-han-så-for-seg-å-bli-vm-helt
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt/"
   - episode_title: 'God søvn: Det nye klasseprivilegiet'
     episode_url: ''
@@ -18946,7 +18959,7 @@ episodes_by_feed:
     episode_slug: god-sovn-det-nye-klasseprivilegiet
     episode_key: god-sovn-det-nye-klasseprivilegiet
     legacy_unicode_slug: god-søvn-det-nye-klasseprivilegiet
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/god-sovn-det-nye-klasseprivilegiet/"
   - episode_title: 'Kort Forklart: Ingen dukket opp til fredsmøtet, og kritikken øker mot Trump'
     episode_url: ''
@@ -18959,7 +18972,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump
     episode_key: kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump
     legacy_unicode_slug: kort-forklart-ingen-dukket-opp-til-fredsmøtet-og-kritikken-øker-mot-trump
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump/"
   - episode_title: 'Alien-files: Har USA trodd på romvesener i 50 år?'
     episode_url: ''
@@ -18975,7 +18988,7 @@ episodes_by_feed:
     episode_slug: alien-files-har-usa-trodd-pa-romvesener-i-50-ar
     episode_key: alien-files-har-usa-trodd-pa-romvesener-i-50-ar
     legacy_unicode_slug: alien-files-har-usa-trodd-på-romvesener-i-50-år
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/alien-files-har-usa-trodd-pa-romvesener-i-50-ar/"
   - episode_title: 'Kort Forklart: Ukraina slår tilbake. Nå kan krigen være i ferd med å snu.'
     episode_url: ''
@@ -18988,7 +19001,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu
     episode_key: kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu
     legacy_unicode_slug: kort-forklart-ukraina-slår-tilbake-nå-kan-krigen-være-i-ferd-med-å-snu
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu/"
   - episode_title: Han er rikere enn halve verden – hva betyr det for oss?
     episode_url: ''
@@ -19000,7 +19013,7 @@ episodes_by_feed:
     episode_uid: ap-139463
     episode_slug: han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss
     episode_key: han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss/"
   - episode_title: 'Kort Forklart: Kronprinsessen har fått nye lunger. Nå venter flere avgjørende uker.'
     episode_url: ''
@@ -19013,7 +19026,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker
     episode_key: kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker
     legacy_unicode_slug: kort-forklart-kronprinsessen-har-fått-nye-lunger-nå-venter-flere-avgjørende-uker
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker/"
   - episode_title: Knivangrepet i Belfast skapte opptøyer. Nå vil nytt parti ha dødsstraff.
     episode_url: ''
@@ -19026,7 +19039,7 @@ episodes_by_feed:
     episode_slug: knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff
     episode_key: knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff
     legacy_unicode_slug: knivangrepet-i-belfast-skapte-opptøyer-nå-vil-nytt-parti-ha-dødsstraff
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff/"
   - episode_title: 'Kort Forklart fotballspesial: – Det er lov å drømme nå'
     episode_url: ''
@@ -19039,7 +19052,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-det-er-lov-a-dromme-na
     episode_key: kort-forklart-fotballspesial-det-er-lov-a-dromme-na
     legacy_unicode_slug: kort-forklart-fotballspesial-det-er-lov-å-drømme-nå
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/kort-forklart-fotballspesial-det-er-lov-a-dromme-na/"
   - episode_title: 'Kort Forklart: Trump har sagt det nesten 40 ganger før. Er avtalen nær nå?'
     episode_url: ''
@@ -19052,7 +19065,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na
     episode_key: kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na
     legacy_unicode_slug: kort-forklart-trump-har-sagt-det-nesten-40-ganger-før-er-avtalen-nær-nå
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na/"
   - episode_title: 'Mishandling, rus og voldtekt: Dette felte Høiby'
     episode_url: ''
@@ -19068,7 +19081,7 @@ episodes_by_feed:
     episode_slug: mishandling-rus-og-voldtekt-dette-felte-hoiby
     episode_key: mishandling-rus-og-voldtekt-dette-felte-hoiby
     legacy_unicode_slug: mishandling-rus-og-voldtekt-dette-felte-høiby
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/mishandling-rus-og-voldtekt-dette-felte-hoiby/"
   - episode_title: 'Kort Forklart: Dette er dommen mot Marius Borg Høiby'
     episode_url: ''
@@ -19081,7 +19094,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-dette-er-dommen-mot-marius-borg-hoiby
     episode_key: kort-forklart-dette-er-dommen-mot-marius-borg-hoiby
     legacy_unicode_slug: kort-forklart-dette-er-dommen-mot-marius-borg-høiby
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/kort-forklart-dette-er-dommen-mot-marius-borg-hoiby/"
   - episode_title: VM-optimismen når nye høyder. Blir vi skuffa?
     episode_url: ''
@@ -19097,7 +19110,7 @@ episodes_by_feed:
     episode_slug: vm-optimismen-nar-nye-hoyder-blir-vi-skuffa
     episode_key: vm-optimismen-nar-nye-hoyder-blir-vi-skuffa
     legacy_unicode_slug: vm-optimismen-når-nye-høyder-blir-vi-skuffa
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/vm-optimismen-nar-nye-hoyder-blir-vi-skuffa/"
   - episode_title: 'Kort Forklart: I dag er Elons Musks SpaceX på børs. – Det er helt vilt'
     episode_url: ''
@@ -19110,7 +19123,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt
     episode_key: kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt
     legacy_unicode_slug: kort-forklart-i-dag-er-elons-musks-spacex-på-børs-det-er-helt-vilt
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt/"
   - episode_title: Økonomisk opptur i et av verdens verste regimer
     episode_url: ''
@@ -19126,7 +19139,7 @@ episodes_by_feed:
     episode_slug: okonomisk-opptur-i-et-av-verdens-verste-regimer
     episode_key: okonomisk-opptur-i-et-av-verdens-verste-regimer
     legacy_unicode_slug: økonomisk-opptur-i-et-av-verdens-verste-regimer
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/okonomisk-opptur-i-et-av-verdens-verste-regimer/"
   - episode_title: 'Kort Forklart: Norsk 19-åring i Foxtrot-sak i England: – Overbevist om at de ville drepe meg'
     episode_url: ''
@@ -19139,7 +19152,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg
     episode_key: kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg
     legacy_unicode_slug: kort-forklart-norsk-19-åring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg/"
   - episode_title: 'ICE, Iran-krig og skyhøye priser: Slik blir fotball-VM i USA'
     episode_url: ''
@@ -19155,7 +19168,7 @@ episodes_by_feed:
     episode_slug: ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa
     episode_key: ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa
     legacy_unicode_slug: ice-iran-krig-og-skyhøye-priser-slik-blir-fotball-vm-i-usa
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa/"
   - episode_title: 'Kort Forklart: Folk er rasende i Storbritannia: – Dommedagsaktig'
     episode_url: ''
@@ -19167,7 +19180,7 @@ episodes_by_feed:
     episode_uid: ap-139328
     episode_slug: kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig
     episode_key: kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig/"
   - episode_title: 'Økt polarisering: To leirer som i økende grad er uenige om alt'
     episode_url: ''
@@ -19180,7 +19193,7 @@ episodes_by_feed:
     episode_slug: okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt
     episode_key: okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt
     legacy_unicode_slug: økt-polarisering-to-leirer-som-i-økende-grad-er-uenige-om-alt
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt/"
   - episode_title: 'Kort Forklart: Dette fikk retten til å si ja til Høiby'
     episode_url: ''
@@ -19193,7 +19206,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby
     episode_key: kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby
     legacy_unicode_slug: kort-forklart-dette-fikk-retten-til-å-si-ja-til-høiby
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby/"
   - episode_title: Økningen i IQ har snudd. Blir vi dummere og dummere?
     episode_url: ''
@@ -19209,21 +19222,8 @@ episodes_by_feed:
     episode_slug: okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
     episode_key: okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
     legacy_unicode_slug: økningen-i-iq-har-snudd-blir-vi-dummere-og-dummere
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere/"
-  - episode_title: 'Kort Forklart: Vil retten tro på at Tamimas drapsmann har endret seg?'
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/8kdkjiyctn2gejnemegfi/podcast_128.mp3
-    published_at: '2026-06-08T12:54:14+00:00'
-    description_html: 18 år gamle Djordje Wilms sier han angrer på at han drepte Tamima Nibras Juhar. Om retten tror på ham eller ikke, kan bli avgjørende for hvilken straff han får. Vi oppsummerer nyhetene for deg, i dag også om hvor bra Norge egentlig var mot Marokko.
-    description_plain: 18 år gamle Djordje Wilms sier han angrer på at han drepte Tamima Nibras Juhar. Om retten tror på ham eller ikke, kan bli avgjørende for hvilken straff han får. Vi oppsummerer nyhetene for deg, i dag også om hvor bra Norge egentlig var mot Marokko.
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/dbc5873b8cff102edced21229e21e70a.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139289
-    episode_slug: kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg
-    episode_key: kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg
-    legacy_unicode_slug: kort-forklart-vil-retten-tro-på-at-tamimas-drapsmann-har-endret-seg
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg/"
+    episode_page_url: "/forklart/okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere/"
   https://feeds.megaphone.fm/hubermanlab: &62
   - episode_title: 'Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle | Dr. Layne Norton'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton
