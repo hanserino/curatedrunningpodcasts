@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-27T15:31:30Z'
+generated_at: '2026-06-27T16:28:23Z'
 items:
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public/"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: And The Writer Is...with Ross Golan
+  podcast_page_url: "/and-the-writer-is-with-ross-golan/"
+  cover_image: "/media/andthewriteris.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034
+  filter_category: uncategorized english
+  episode_title: And The update Is...AI Lawsuits Are Coming, Clive Davis Remembered & Olivia Rodrigo Makes History
+  episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isai-lawsuits-are-coming-clive-davis-remember
+  audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a3ff0f76b6690f46a462f07/media.mp3
+  published_at: '2026-06-27T15:49:11+00:00'
+  episode_key: and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history
+  episode_slug: and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history
+  episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -1010,18 +1022,6 @@ non_running_items:
   episode_key: norman-gravel-artists-and-hairography
   episode_slug: norman-gravel-artists-and-hairography
   episode_page_url: "/talking-over-you/norman-gravel-artists-and-hairography/"
-- podcast_title: And The Writer Is...with Ross Golan
-  podcast_page_url: "/and-the-writer-is-with-ross-golan/"
-  cover_image: "/media/andthewriteris.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034
-  filter_category: uncategorized english
-  episode_title: 'Ep. 254: Zooey Deschanel | Her Secret Identity + The Journey of She & Him'
-  episode_url: https://shows.acast.com/andthewriteris/episodes/zooey-deschanel-atwi
-  audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a3aab69d1eb16a425ad14ec/media.mp3
-  published_at: '2026-06-23T15:51:05+00:00'
-  episode_key: ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him
-  episode_slug: ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him
-  episode_page_url: "/and-the-writer-is-with-ross-golan/ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -17525,6 +17525,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/second-nature/predictions-for-the-outdoor-industry-in-2026/"
   https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034: &57
+  - episode_title: And The update Is...AI Lawsuits Are Coming, Clive Davis Remembered & Olivia Rodrigo Makes History
+    episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isai-lawsuits-are-coming-clive-davis-remember
+    audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a3ff0f76b6690f46a462f07/media.mp3
+    published_at: '2026-06-27T15:49:11+00:00'
+    description_html: And The Update Is…a weekly beat on the industry .<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: And The Update Is…a weekly beat on the industry . Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/61b76666169562d85de9508f/1782575339414-1a3f87c0-f0d2-476f-82c3-3e40dea89ac7.jpeg
+    episode_uid: 6a3ff0f76b6690f46a462f07
+    episode_slug: and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history
+    episode_key: and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history/"
   - episode_title: 'Ep. 254: Zooey Deschanel | Her Secret Identity + The Journey of She & Him'
     episode_url: https://shows.acast.com/andthewriteris/episodes/zooey-deschanel-atwi
     audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a3aab69d1eb16a425ad14ec/media.mp3
@@ -17535,7 +17547,7 @@ episodes_by_feed:
     episode_uid: 6a3aab69d1eb16a425ad14ec
     episode_slug: ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him
     episode_key: ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him/"
   - episode_title: And The Update Is...Heartbreak In The Writing Community, Chart Toppers & Goats
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isheartbreak-in-the-writing-community-chart-t
@@ -17547,7 +17559,7 @@ episodes_by_feed:
     episode_uid: 6a357f814a187774ac1da2a1
     episode_slug: and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats
     episode_key: and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats/"
   - episode_title: 'Ep. 253: Nessa Barrett on Fame, Music, and Finding Herself in Public'
     episode_url: https://shows.acast.com/andthewriteris/episodes/nessa
@@ -17559,7 +17571,7 @@ episodes_by_feed:
     episode_uid: 6a315c6f780d0f7579b144b0
     episode_slug: ep-253-nessa-barrett-on-fame-music-and-finding-herself-in-public
     episode_key: ep-253-nessa-barrett-on-fame-music-and-finding-herself-in-public
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-253-nessa-barrett-on-fame-music-and-finding-herself-in-public/"
   - episode_title: And The Update Is...Taylor & Drake Make History, AI Makes Headlines
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-istaylor-drake-make-history-ai-makes-headline
@@ -17571,7 +17583,7 @@ episodes_by_feed:
     episode_uid: 6a2ddb430592e825450a0c67
     episode_slug: and-the-update-is-taylor-drake-make-history-ai-makes-headlines
     episode_key: and-the-update-is-taylor-drake-make-history-ai-makes-headlines
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-taylor-drake-make-history-ai-makes-headlines/"
   - episode_title: 'Ep. 252: Lizzo | Rock Bottom, #1, and the Game Nobody Explains'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
@@ -17583,7 +17595,7 @@ episodes_by_feed:
     episode_uid: 6a2763d8ec7c103dca73724e
     episode_slug: ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
     episode_key: ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains/"
   - episode_title: The Realest Conversation About Songwriting In 2026 | Gino The Ghost | Patreon Exclusive
     episode_url: https://shows.acast.com/andthewriteris/episodes/patreon-exclusive-the-realest-conversation-about-songwriting
@@ -17595,7 +17607,7 @@ episodes_by_feed:
     episode_uid: 6a270327ec7c103dca50f3e1
     episode_slug: the-realest-conversation-about-songwriting-in-2026-gino-the-ghost-patreon-exclusive
     episode_key: the-realest-conversation-about-songwriting-in-2026-gino-the-ghost-patreon-exclusive
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/and-the-writer-is-with-ross-golan/the-realest-conversation-about-songwriting-in-2026-gino-the-ghost-patreon-exclusive/"
   - episode_title: And The Update Is…Drake, AI, and a $5.4 Billion Question
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isdrake-ai-and-a-54-billion-question
@@ -17607,7 +17619,7 @@ episodes_by_feed:
     episode_uid: 6a2323754330c50bd346b550
     episode_slug: and-the-update-is-drake-ai-and-a-5-4-billion-question
     episode_key: and-the-update-is-drake-ai-and-a-5-4-billion-question
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-drake-ai-and-a-5-4-billion-question/"
   - episode_title: 'And The Update Is...Universal''s Big Week: AI, TikTok While Drake Dominates'
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isuniversals-big-week-ai-tiktok-while-drake-d
@@ -17619,7 +17631,7 @@ episodes_by_feed:
     episode_uid: 6a19ed0cad55909da6d23211
     episode_slug: and-the-update-is-universal-s-big-week-ai-tiktok-while-drake-dominates
     episode_key: and-the-update-is-universal-s-big-week-ai-tiktok-while-drake-dominates
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-universal-s-big-week-ai-tiktok-while-drake-dominates/"
   - episode_title: 'Ep. 251: Myles Smith | Stargazing, Therapy, and The Secret Cost of Success'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of
@@ -17631,7 +17643,7 @@ episodes_by_feed:
     episode_uid: 6a15c7b68ff41815a885f30f
     episode_slug: ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of-success
     episode_key: ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of-success
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of-success/"
   - episode_title: And The Update Is... AI Covers, Drake’s New Era & Why Michael Jackson Is STILL Charting in 2026
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-is-ai-covers-drakes-new-era-why-michael-jacks
@@ -17643,7 +17655,7 @@ episodes_by_feed:
     episode_uid: 6a10e78f80978431da15ffb0
     episode_slug: and-the-update-is-ai-covers-drake-s-new-era-why-michael-jackson-is-still-charting-in-2026
     episode_key: and-the-update-is-ai-covers-drake-s-new-era-why-michael-jackson-is-still-charting-in-2026
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-ai-covers-drake-s-new-era-why-michael-jackson-is-still-charting-in-2026/"
   - episode_title: 'Ep. 250: Niall Horan | Outlasting Pop''s Biggest Band, "Dinner Party" & More'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-250-niall-horan-outlasting-pops-biggest-band-dinner-party
@@ -17655,7 +17667,7 @@ episodes_by_feed:
     episode_uid: 6a0c8479760dd4444459ade2
     episode_slug: ep-250-niall-horan-outlasting-pop-s-biggest-band-dinner-party-more
     episode_key: ep-250-niall-horan-outlasting-pop-s-biggest-band-dinner-party-more
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-250-niall-horan-outlasting-pop-s-biggest-band-dinner-party-more/"
   - episode_title: And The Update Is...Pop Stars, Lawsuits & Billion-Dollar Moves
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-ispop-stars-lawsuits-billion-dollar-moves
@@ -17667,7 +17679,7 @@ episodes_by_feed:
     episode_uid: 6a075ec4efd1f558b0af1f7f
     episode_slug: and-the-update-is-pop-stars-lawsuits-billion-dollar-moves
     episode_key: and-the-update-is-pop-stars-lawsuits-billion-dollar-moves
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-pop-stars-lawsuits-billion-dollar-moves/"
   - episode_title: 'Rewind: Jack Antonoff | How to Pick the Artists Who''ll Define Your Career'
     episode_url: https://shows.acast.com/andthewriteris/episodes/jack-antonoff-how-to-pick-the-artists-wholl-define-your-care
@@ -17679,7 +17691,7 @@ episodes_by_feed:
     episode_uid: 6a035156a257c57500c749e7
     episode_slug: rewind-jack-antonoff-how-to-pick-the-artists-who-ll-define-your-career
     episode_key: rewind-jack-antonoff-how-to-pick-the-artists-who-ll-define-your-career
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/and-the-writer-is-with-ross-golan/rewind-jack-antonoff-how-to-pick-the-artists-who-ll-define-your-career/"
   - episode_title: 'And The Update Is…May the 4th Be With the Charts: Hits, Headlines & Industry Chaos'
     episode_url: https://shows.acast.com/andthewriteris/episodes/may-the-4th-be-with-the-charts-hits-headlines-industry-chaos
@@ -17691,7 +17703,7 @@ episodes_by_feed:
     episode_uid: 69fe3b542ba0ef2ccaf8db57
     episode_slug: and-the-update-is-may-the-4th-be-with-the-charts-hits-headlines-industry-chaos
     episode_key: and-the-update-is-may-the-4th-be-with-the-charts-hits-headlines-industry-chaos
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-may-the-4th-be-with-the-charts-hits-headlines-industry-chaos/"
   - episode_title: 'Ep. 249: Rick Beato | Songwriters Got Poorer. AI Is Next. So Where Is Music Going?'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where
@@ -17703,7 +17715,7 @@ episodes_by_feed:
     episode_uid: 69fa17f082781c7c457dc19c
     episode_slug: ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where-is-music-going
     episode_key: ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where-is-music-going
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where-is-music-going/"
   - episode_title: And The Update Is...No Fakes Act, Trademark Protection, and Today's ChartToppers
     episode_url: https://shows.acast.com/andthewriteris/episodes/chart-toppers-trademark-protection-and-75000-ai-songs-a-day
@@ -17715,7 +17727,7 @@ episodes_by_feed:
     episode_uid: 69f5fbc38dd960ac615afba3
     episode_slug: and-the-update-is-no-fakes-act-trademark-protection-and-today-s-charttoppers
     episode_key: and-the-update-is-no-fakes-act-trademark-protection-and-today-s-charttoppers
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-no-fakes-act-trademark-protection-and-today-s-charttoppers/"
   - episode_title: 'Ep. 248: Rogét Chahayed | From Pianist to Sicko Mode, Kiss Me More & APT.'
     episode_url: https://shows.acast.com/andthewriteris/episodes/roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
@@ -17728,7 +17740,7 @@ episodes_by_feed:
     episode_slug: ep-248-roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
     episode_key: ep-248-roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
     legacy_unicode_slug: ep-248-rogét-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-248-roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt/"
   - episode_title: And The Update Is...The Charts Are Country. The Industry Is AI. Now What?
     episode_url: https://shows.acast.com/andthewriteris/episodes/the-charts-are-country-the-industry-is-ai-now-what
@@ -17740,7 +17752,7 @@ episodes_by_feed:
     episode_uid: 69ebaead0b4baf3bf2f282e8
     episode_slug: and-the-update-is-the-charts-are-country-the-industry-is-ai-now-what
     episode_key: and-the-update-is-the-charts-are-country-the-industry-is-ai-now-what
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-the-charts-are-country-the-industry-is-ai-now-what/"
   - episode_title: How Dan Nigro Builds Superstars | Ep. 195 | Rewind
     episode_url: https://shows.acast.com/andthewriteris/episodes/rewind-how-dan-nigro-builds-superstars-ep-195
@@ -17752,7 +17764,7 @@ episodes_by_feed:
     episode_uid: 69ea3b41abe143da5bbd4f1c
     episode_slug: how-dan-nigro-builds-superstars-ep-195-rewind
     episode_key: how-dan-nigro-builds-superstars-ep-195-rewind
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/and-the-writer-is-with-ross-golan/how-dan-nigro-builds-superstars-ep-195-rewind/"
   - episode_title: And The Update Is… Live Nation Ruled an Illegal Monopoly, D4VD Arrested for Murder, Udio Pays Up on AI
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd
@@ -17764,7 +17776,7 @@ episodes_by_feed:
     episode_uid: 69e2c7ef6e5b90839a292964
     episode_slug: and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd-arrested-for-murder-udio-pays-up-on-ai
     episode_key: and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd-arrested-for-murder-udio-pays-up-on-ai
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd-arrested-for-murder-udio-pays-up-on-ai/"
   - episode_title: 'Ep. 247: Billy Corgan | How He Built Smashing Pumpkins Into a 30-Million Album Empire'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-247-billy-corgan-how-he-built-smashing-pumpkins-into-a-30
@@ -17776,7 +17788,7 @@ episodes_by_feed:
     episode_uid: 69de66c1ae33864715027e5e
     episode_slug: ep-247-billy-corgan-how-he-built-smashing-pumpkins-into-a-30-million-album-empire
     episode_key: ep-247-billy-corgan-how-he-built-smashing-pumpkins-into-a-30-million-album-empire
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-247-billy-corgan-how-he-built-smashing-pumpkins-into-a-30-million-album-empire/"
   - episode_title: And The Update Is… Rap Lyrics Banned in Court, AI Deals Stalling, and a $64B UMG Bombshell
     episode_url: https://shows.acast.com/andthewriteris/episodes/andtheupdateis
@@ -17788,7 +17800,7 @@ episodes_by_feed:
     episode_uid: 69d954f1fdeddc4b127d5899
     episode_slug: and-the-update-is-rap-lyrics-banned-in-court-ai-deals-stalling-and-a-64b-umg-bombshell
     episode_key: and-the-update-is-rap-lyrics-banned-in-court-ai-deals-stalling-and-a-64b-umg-bombshell
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-rap-lyrics-banned-in-court-ai-deals-stalling-and-a-64b-umg-bombshell/"
   - episode_title: 'Ep. 246: Dermot Kennedy | How an Irish Busker Became a Worldwide Phenomenon'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-246-dermot-kennedy-how-an-irish-busker-became-a-worldwide
@@ -17800,7 +17812,7 @@ episodes_by_feed:
     episode_uid: 69d528a54db71e58bb02fa11
     episode_slug: ep-246-dermot-kennedy-how-an-irish-busker-became-a-worldwide-phenomenon
     episode_key: ep-246-dermot-kennedy-how-an-irish-busker-became-a-worldwide-phenomenon
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-246-dermot-kennedy-how-an-irish-busker-became-a-worldwide-phenomenon/"
   - episode_title: 'Ep. 245: Madison Beer | Becoming Yourself with the World Watching'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-245-madison-beer-becoming-yourself-with-the-world-watchin
@@ -17812,20 +17824,8 @@ episodes_by_feed:
     episode_uid: 69cbed7b03f0e1583066c24a
     episode_slug: ep-245-madison-beer-becoming-yourself-with-the-world-watching
     episode_key: ep-245-madison-beer-becoming-yourself-with-the-world-watching
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/and-the-writer-is-with-ross-golan/ep-245-madison-beer-becoming-yourself-with-the-world-watching/"
-  - episode_title: 'Ep. 244: Melanie Martinez | How to Protect Your Creative Spirit in a Commercial World'
-    episode_url: https://shows.acast.com/andthewriteris/episodes/melanie-martinez-how-to-protect-your-creative-spirit-in-a-co
-    audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/69c2aa4f034bb238fbfd6ddf/media.mp3
-    published_at: '2026-03-24T15:14:23+00:00'
-    description_html: "<p>Today’s world builder builds worlds worldwide to make her own universe! Dark and whimsical meets bubblegum grunge when this artist broke out on the scene to create her own cult following.</p><p>When doors didn’t open, she built her own.</p><p>And The Writer Is……Melanie Martinez!</p><p>In this episode, Melanie opens up about:</p><p>• Materializing ideas and her entire creative process</p><p>• Why she never approached music as a game</p><p>• The reality behind shows like The Voice</p><p>• How she built her identity before the industry caught up</p><p>• Her philosophy on songwriting and the importance of your truth</p><p>• Protecting your creative voice in a commercial system</p><p>• Why being yourself is still the most important advantage</p><p>• And much more…</p><p>Hit the subscribe button and turn on notifications.</p><p>Every week, we go deep with the most interesting creatives in music.</p><p>Follow us on socials: @andthewriteris</p><p>A special thank you to our sponsors…</p><p>Our lead sponsor, NMPA — the National Music Publishing Association. Your support means the world to us.</p><p>And @splice — the best sample library on the market. Period.</p><p>Chapters:</p><p>0:00 Intro</p><p>2:00 The Real Meaning Behind “Disney Princess”</p><p>4:30 Introversion vs Performance</p><p>6:00 The Magic of Creating and Materializing Ideas</p><p>7:45 Her Creative Process — Titles, Concepts, and Staying Inspired</p><p>12:00 The Songs That Defined Her Early Career</p><p>12:48 Growing Up Writing — Her First Songs and Backstory</p><p>16:45 World-Building and Creating a True Artistic Identity</p><p>18:30 Rejection, Independence, and Dollhouse</p><p>20:00 “Blind Dating” in the Music Industry</p><p>24:00 Stage Fright and Early Creative Influences</p><p>26:00 What She’d Tell Her Younger Self</p><p>26:45 Advice for Artists Trying to Break Through</p><p>27:30 Hitchhiking to The Voice — And What It Really Was</p><p>30:00 The Reality of Music Competition Shows</p><p>31:42 NMPA — Our Lead Sponsor This Season</p><p>32:23 Splice</p><p>33:00 Ross on Music Competition TV</p><p>34:00 Performing Live and Managing Nerves</p><p>36:00 Finding Herself Through Dollhouse</p><p>37:20 The Story Behind Dollhouse</p><p>38:00 Fighting for Her Creative Vision</p><p>40:00 Where Her Ideas Come From</p><p>42:00 How She Builds Albums and Story Arcs</p><p>44:20 Writing Honestly Without Overthinking It</p><p>45:00 What Songwriters Get Wrong About Meaning</p><p>49:30 Are You Happy?</p><p>51:30 The Priorities That Changed Everything</p><p>54:00 Final Advice</p><p>55:00 Portals</p><p>57:47 Hades — A Dystopian World</p><p>1:00:20 The Utopian Album to Come</p><p>1:00:51 Her Favorite Songs on the Album</p><p>1:01:50 The Story of “Weight Watchers”</p><p>1:06:00 An Emotional Reflection — Her Message to Others</p><p>1:07:30 Her Inspirations</p><p>1:09:00 Social Media, AI, and Staying Human</p><p>Hosted by Ross Golan</p><p>Produced by Joe London &amp; Jad Saad</p><p>Edited by Jad Saad</p><p>Post-Production VFX by Pratik Karki</p><p>Watercolor Art by Michael White</p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: 'Today’s world builder builds worlds worldwide to make her own universe! Dark and whimsical meets bubblegum grunge when this artist broke out on the scene to create her own cult following. When doors didn’t open, she built her own. And The Writer Is……Melanie Martinez! In this episode, Melanie opens up about: • Materializing ideas and her entire creative process • Why she never approached music as a game • The reality behind shows like The Voice • How she built her identity before the industry caught up • Her philosophy on songwriting and the importance of your truth • Protecting your creative voice in a commercial system • Why being yourself is still the most important advantage • And much more… Hit the subscribe button and turn on notifications. Every week, we go deep with the most interesting creatives in music. Follow us on socials: @andthewriteris A special thank you to our sponsors… Our lead sponsor, NMPA — the National Music Publishing Association. Your support means the world to us. And @splice — the best sample library on the market. Period. Chapters: 0:00 Intro 2:00 The Real Meaning Behind “Disney Princess” 4:30 Introversion vs Performance 6:00 The Magic of Creating and Materializing Ideas 7:45 Her Creative Process — Titles, Concepts, and Staying Inspired 12:00 The Songs That Defined Her Early Career 12:48 Growing Up Writing — Her First Songs and Backstory 16:45 World-Building and Creating a True Artistic Identity 18:30 Rejection, Independence, and Dollhouse 20:00 “Blind Dating” in the Music Industry 24:00 Stage Fright and Early Creative Influences 26:00 What She’d Tell Her Younger Self 26:45 Advice for Artists Trying to Break Through 27:30 Hitchhiking to The Voice — And What It Really Was 30:00 The Reality of Music Competition Shows 31:42 NMPA — Our Lead Sponsor This Season 32:23 Splice 33:00 Ross on Music Competition TV 34:00 Performing Live and Managing Nerves 36:00 Finding Herself Through Dollhouse 37:20 The Story Behind Dollhouse 38:00 Fighting for Her Creative Vision 40:00 Where Her Ideas Come From 42:00 How She Builds Albums and Story Arcs 44:20 Writing Honestly Without Overthinking It 45:00 What Songwriters Get Wrong About Meaning 49:30 Are You Happy? 51:30 The Priorities That Changed Everything 54:00 Final Advice 55:00 Portals 57:47 Hades — A Dystopian World 1:00:20 The Utopian Album to Come 1:00:51 Her Favorite Songs on the Album 1:01:50 The Story of “Weight Watchers” 1:06:00 An Emotional Reflection — Her Message to Others 1:07:30 Her Inspirations 1:09:00 Social Media, AI, and Staying Human Hosted by Ross Golan Produced by Joe London &amp; Jad Saad Edited by Jad Saad Post-Production VFX by Pratik Karki Watercolor Art by Michael White Hosted on Acast. See acast.com/privacy for more information.'
-    episode_image_url: https://assets.pippa.io/shows/61b76666169562d85de9508f/1774365237757-b3a5b01b-1afc-4508-9437-6178aff04825.jpeg
-    episode_uid: 69c2aa4f034bb238fbfd6ddf
-    episode_slug: ep-244-melanie-martinez-how-to-protect-your-creative-spirit-in-a-commercial-world
-    episode_key: ep-244-melanie-martinez-how-to-protect-your-creative-spirit-in-a-commercial-world
     legacy_numbered_slug: episode-25
-    episode_page_url: "/and-the-writer-is-with-ross-golan/ep-244-melanie-martinez-how-to-protect-your-creative-spirit-in-a-commercial-world/"
+    episode_page_url: "/and-the-writer-is-with-ross-golan/ep-245-madison-beer-becoming-yourself-with-the-world-watching/"
   https://anchor.fm/s/bba0468/podcast/rss: &58
   - episode_title: 'Megan Connolly: The WWE Broadcaster Who Qualified for the Olympic Trials'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Megan-Connolly-The-WWE-Broadcaster-Who-Qualified-for-the-Olympic-Trials-e3l9535
