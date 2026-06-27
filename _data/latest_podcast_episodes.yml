@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-27T07:08:00Z'
+generated_at: '2026-06-27T08:58:46Z'
 items:
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public/"
@@ -770,6 +770,30 @@ non_running_items:
   episode_key: alexander-karim
   episode_slug: alexander-karim
   episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
+- podcast_title: When We Were Kings
+  podcast_page_url: "/when-we-were-kings/"
+  cover_image: "/media/whenwewerekings.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
+  filter_category: uncategorized swedish
+  episode_title: 'Matchdag 17: Bokšić, Mihajlović och Arkan'
+  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-17-boki-mihajlovi-och-arkan
+  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3f7df1cb67fc75ea25075f/media.mp3
+  published_at: '2026-06-27T07:38:25+00:00'
+  episode_key: matchdag-17-boksic-mihajlovic-och-arkan
+  episode_slug: matchdag-17-boksic-mihajlovic-och-arkan
+  episode_page_url: "/when-we-were-kings/matchdag-17-boksic-mihajlovic-och-arkan/"
+- podcast_title: Offline with Jon Favreau
+  podcast_page_url: "/offline-with-jon-favreau/"
+  cover_image: "/media/offline.jpeg"
+  feed_url: https://audioboom.com/channels/5166623.rss
+  filter_category: uncategorized english
+  episode_title: What Is A Human For?
+  episode_url: https://audioboom.com/posts/8921564
+  audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8921564.mp3?modified=1782517373&sid=5166623&source=rss
+  published_at: '2026-06-27T07:30:00+00:00'
+  episode_key: what-is-a-human-for
+  episode_slug: what-is-a-human-for
+  episode_page_url: "/offline-with-jon-favreau/what-is-a-human-for/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -830,18 +854,6 @@ non_running_items:
   episode_key: the-steam-machine-is-how-much
   episode_slug: the-steam-machine-is-how-much
   episode_page_url: "/waveform-the-mkbhd-podcast/the-steam-machine-is-how-much/"
-- podcast_title: When We Were Kings
-  podcast_page_url: "/when-we-were-kings/"
-  cover_image: "/media/whenwewerekings.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
-  filter_category: uncategorized swedish
-  episode_title: 'Matchdag 16: ”Kniksen” Jensen och ett bedrövligt Håkan-quiz'
-  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
-  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3e2bf10ad3211686d98d79/media.mp3
-  published_at: '2026-06-26T07:36:17+00:00'
-  episode_key: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
-  episode_slug: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
-  episode_page_url: "/when-we-were-kings/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz/"
 - podcast_title: The Diary Of A CEO
   podcast_page_url: "/the-diary-of-a-ceo/"
   cover_image: "/media/diaryofaceo.jpeg"
@@ -1058,18 +1070,6 @@ non_running_items:
   episode_key: parents-just-don-t-understand-reading-reddit-stories
   episode_slug: parents-just-don-t-understand-reading-reddit-stories
   episode_page_url: "/smosh-reads-reddit-stories/parents-just-don-t-understand-reading-reddit-stories/"
-- podcast_title: Offline with Jon Favreau
-  podcast_page_url: "/offline-with-jon-favreau/"
-  cover_image: "/media/offline.jpeg"
-  feed_url: https://audioboom.com/channels/5166623.rss
-  filter_category: uncategorized english
-  episode_title: Why You Should Love America
-  episode_url: https://audioboom.com/posts/8918402
-  audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8918402.mp3?modified=1781995540&sid=5166623&source=rss
-  published_at: '2026-06-20T07:30:00+00:00'
-  episode_key: why-you-should-love-america
-  episode_slug: why-you-should-love-america
-  episode_page_url: "/offline-with-jon-favreau/why-you-should-love-america/"
 - podcast_title: The Cutting Edge
   podcast_page_url: "/the-cutting-edge/"
   cover_image: "/media/cuttingedgepodcast.jpeg"
@@ -14960,6 +14960,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/normal-gossip/reverse-heist-with-jonquilyn-hill/"
   https://audioboom.com/channels/5166623.rss: &49
+  - episode_title: What Is A Human For?
+    episode_url: https://audioboom.com/posts/8921564
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8921564.mp3?modified=1782517373&sid=5166623&source=rss
+    published_at: '2026-06-27T07:30:00+00:00'
+    description_html: <div><p>AI is creating a crisis of agency where people are becoming paranoid that they’re being manipulated, suckered, and ultimately replaced. Charlie Warzel joins Offline to elaborate on his <em>Atlantic</em> essay, “The Feeling of Control Slipping Away,” which illustrates the myriad ways AI is driving people insane. He and Jon talk about whether human creativity is endangered, if AI is anything more than a corporate black-box, and what it means to be human when a robot can do everything better than you. They also discuss Elon Musk's SpaceX IPO, what its valuation means and Musk's efforts to rewrite DOGE's devastating legacy, as well as his own.</p><p>For a transcript of an episode of Offline<strong>,</strong> please email <a href="mailto:transcripts@crooked.com">transcripts@crooked.com</a>.</p></div>
+    description_plain: AI is creating a crisis of agency where people are becoming paranoid that they’re being manipulated, suckered, and ultimately replaced. Charlie Warzel joins Offline to elaborate on his Atlantic essay, “The Feeling of Control Slipping Away,” which illustrates the myriad ways AI is driving people insane. He and Jon talk about whether human creativity is endangered, if AI is anything more than a corporate black-box, and what it means to be human when a robot can do everything better than you. They also discuss Elon Musk's SpaceX IPO, what its valuation means and Musk's efforts to rewrite DOGE's devastating legacy, as well as his own. For a transcript of an episode of Offline , please email transcripts@crooked.com .
+    episode_image_url: https://audioboom.com/i/43456498.jpg
+    episode_uid: audioboom-019f064b-e7fd-757e-81e8-1912050846c1
+    episode_slug: what-is-a-human-for
+    episode_key: what-is-a-human-for
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/offline-with-jon-favreau/what-is-a-human-for/"
   - episode_title: Why You Should Love America
     episode_url: https://audioboom.com/posts/8918402
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8918402.mp3?modified=1781995540&sid=5166623&source=rss
@@ -14970,7 +14982,7 @@ episodes_by_feed:
     episode_uid: audioboom-019edcbf-5f17-712a-b811-09039951a8e5
     episode_slug: why-you-should-love-america
     episode_key: why-you-should-love-america
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/offline-with-jon-favreau/why-you-should-love-america/"
   - episode_title: Has The Left Finally Figured Out the Internet?
     episode_url: https://audioboom.com/posts/8916122
@@ -14982,7 +14994,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ebd78-69a2-7831-81c4-9f0d52a9eb4e
     episode_slug: has-the-left-finally-figured-out-the-internet
     episode_key: has-the-left-finally-figured-out-the-internet
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/offline-with-jon-favreau/has-the-left-finally-figured-out-the-internet/"
   - episode_title: Is Masculinism Holding MAGA Together?
     episode_url: https://audioboom.com/posts/8913128
@@ -14994,7 +15006,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e9980-cc40-777e-86d2-98ce4ae74563
     episode_slug: is-masculinism-holding-maga-together
     episode_key: is-masculinism-holding-maga-together
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/offline-with-jon-favreau/is-masculinism-holding-maga-together/"
   - episode_title: Chatbots, MDMA, and Finding Love in the Digital Era
     episode_url: https://audioboom.com/posts/8909169
@@ -15006,7 +15018,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e70b8-fc65-75a6-b494-527599c69523
     episode_slug: chatbots-mdma-and-finding-love-in-the-digital-era
     episode_key: chatbots-mdma-and-finding-love-in-the-digital-era
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/offline-with-jon-favreau/chatbots-mdma-and-finding-love-in-the-digital-era/"
   - episode_title: Breaking the Cycle of Political Violence
     episode_url: https://audioboom.com/posts/8907064
@@ -15018,7 +15030,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e5152-0581-770a-a3c3-ff1f578a174e
     episode_slug: breaking-the-cycle-of-political-violence
     episode_key: breaking-the-cycle-of-political-violence
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/offline-with-jon-favreau/breaking-the-cycle-of-political-violence/"
   - episode_title: This Candidacy Is a Test Case for AI Regulation
     episode_url: https://audioboom.com/posts/8904319
@@ -15030,7 +15042,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e2df5-0bf8-7abc-a73b-c9c56cb7336f
     episode_slug: this-candidacy-is-a-test-case-for-ai-regulation
     episode_key: this-candidacy-is-a-test-case-for-ai-regulation
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/offline-with-jon-favreau/this-candidacy-is-a-test-case-for-ai-regulation/"
   - episode_title: Healing Our Broken Brains
     episode_url: https://audioboom.com/posts/8901374
@@ -15042,7 +15054,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e09ba-7902-779e-a6ab-222e194bbf98
     episode_slug: healing-our-broken-brains
     episode_key: healing-our-broken-brains
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/offline-with-jon-favreau/healing-our-broken-brains/"
   - episode_title: How Screens Have Warped Morality
     episode_url: https://audioboom.com/posts/8898202
@@ -15054,7 +15066,7 @@ episodes_by_feed:
     episode_uid: audioboom-019de527-fe81-7dd5-a786-2b5da1151a15
     episode_slug: how-screens-have-warped-morality
     episode_key: how-screens-have-warped-morality
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/offline-with-jon-favreau/how-screens-have-warped-morality/"
   - episode_title: God In The Machine
     episode_url: https://audioboom.com/posts/8895355
@@ -15066,7 +15078,7 @@ episodes_by_feed:
     episode_uid: audioboom-019dc1e3-b280-7816-bef6-6803835d4123
     episode_slug: god-in-the-machine
     episode_key: god-in-the-machine
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/offline-with-jon-favreau/god-in-the-machine/"
   - episode_title: The Revolt of the College Grads
     episode_url: https://audioboom.com/posts/8891568
@@ -15078,7 +15090,7 @@ episodes_by_feed:
     episode_uid: audioboom-019d9d60-f2dd-7410-9926-3979688201c8
     episode_slug: the-revolt-of-the-college-grads
     episode_key: the-revolt-of-the-college-grads
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/offline-with-jon-favreau/the-revolt-of-the-college-grads/"
   - episode_title: Sam Altman's Big Little Lies
     episode_url: https://audioboom.com/posts/8887027
@@ -15090,7 +15102,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-10-posts-8887027
     episode_slug: sam-altman-s-big-little-lies
     episode_key: sam-altman-s-big-little-lies
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/offline-with-jon-favreau/sam-altman-s-big-little-lies/"
   - episode_title: Big Tech's Big Tobacco Moment
     episode_url: https://audioboom.com/posts/8883127
@@ -15102,7 +15114,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-04-posts-8883127
     episode_slug: big-tech-s-big-tobacco-moment
     episode_key: big-tech-s-big-tobacco-moment
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/offline-with-jon-favreau/big-tech-s-big-tobacco-moment/"
   - episode_title: Optimism In Our Age of Anxiety
     episode_url: https://audioboom.com/posts/8879965
@@ -15114,7 +15126,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-27-posts-8879965
     episode_slug: optimism-in-our-age-of-anxiety
     episode_key: optimism-in-our-age-of-anxiety
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/offline-with-jon-favreau/optimism-in-our-age-of-anxiety/"
   - episode_title: What We Lose When We Bet on War
     episode_url: https://audioboom.com/posts/8877722
@@ -15126,7 +15138,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-23-posts-8877722
     episode_slug: what-we-lose-when-we-bet-on-war
     episode_key: what-we-lose-when-we-bet-on-war
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/offline-with-jon-favreau/what-we-lose-when-we-bet-on-war/"
   - episode_title: Trump's Memeification of War
     episode_url: https://audioboom.com/posts/8873936
@@ -15138,7 +15150,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-13-posts-8873936
     episode_slug: trump-s-memeification-of-war
     episode_key: trump-s-memeification-of-war
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/offline-with-jon-favreau/trump-s-memeification-of-war/"
   - episode_title: Endless Slop, Cancer Cures, or Robot Apocalypse? Derek Thompson on Our AI Future
     episode_url: https://audioboom.com/posts/8870909
@@ -15150,7 +15162,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-07-posts-8870909
     episode_slug: endless-slop-cancer-cures-or-robot-apocalypse-derek-thompson-on-our-ai-future
     episode_key: endless-slop-cancer-cures-or-robot-apocalypse-derek-thompson-on-our-ai-future
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/offline-with-jon-favreau/endless-slop-cancer-cures-or-robot-apocalypse-derek-thompson-on-our-ai-future/"
   - episode_title: The Big Tech Critic Trump Is Trying To Deport
     episode_url: https://audioboom.com/posts/8867618
@@ -15162,7 +15174,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-27-posts-8867618
     episode_slug: the-big-tech-critic-trump-is-trying-to-deport
     episode_key: the-big-tech-critic-trump-is-trying-to-deport
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/offline-with-jon-favreau/the-big-tech-critic-trump-is-trying-to-deport/"
   - episode_title: Zuckerberg Takes the Stand, Pete Hegseth vs. AI, and Max-Maxxing with Max Fisher
     episode_url: https://audioboom.com/posts/8864143
@@ -15174,7 +15186,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-21-posts-8864143
     episode_slug: zuckerberg-takes-the-stand-pete-hegseth-vs-ai-and-max-maxxing-with-max-fisher
     episode_key: zuckerberg-takes-the-stand-pete-hegseth-vs-ai-and-max-maxxing-with-max-fisher
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/offline-with-jon-favreau/zuckerberg-takes-the-stand-pete-hegseth-vs-ai-and-max-maxxing-with-max-fisher/"
   - episode_title: The Philosopher Teaching AI to Be Good
     episode_url: https://audioboom.com/posts/8861197
@@ -15186,7 +15198,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-13-posts-8861197
     episode_slug: the-philosopher-teaching-ai-to-be-good
     episode_key: the-philosopher-teaching-ai-to-be-good
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/offline-with-jon-favreau/the-philosopher-teaching-ai-to-be-good/"
   - episode_title: Can Truth Survive the Trump Era?
     episode_url: https://audioboom.com/posts/8858415
@@ -15198,7 +15210,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-07-posts-8858415
     episode_slug: can-truth-survive-the-trump-era
     episode_key: can-truth-survive-the-trump-era
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/offline-with-jon-favreau/can-truth-survive-the-trump-era/"
   - episode_title: Adam Friedland Just Wants to Understand
     episode_url: https://audioboom.com/posts/8855325
@@ -15210,7 +15222,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-01-31-posts-8855325
     episode_slug: adam-friedland-just-wants-to-understand
     episode_key: adam-friedland-just-wants-to-understand
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/offline-with-jon-favreau/adam-friedland-just-wants-to-understand/"
   - episode_title: The Fight to Liberate Minnesota (and America)
     episode_url: https://audioboom.com/posts/8848333
@@ -15222,7 +15234,7 @@ episodes_by_feed:
     episode_uid: b8ff3945-ea7d-4018-9840-a22f68b99577
     episode_slug: the-fight-to-liberate-minnesota-and-america
     episode_key: the-fight-to-liberate-minnesota-and-america
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/offline-with-jon-favreau/the-fight-to-liberate-minnesota-and-america/"
   - episode_title: The Enshittification of the Internet (with Cory Doctorow)
     episode_url: https://audioboom.com/posts/8848334
@@ -15234,7 +15246,7 @@ episodes_by_feed:
     episode_uid: a6cbbb7e-663a-4bf8-bd18-954ee949d98f
     episode_slug: the-enshittification-of-the-internet-with-cory-doctorow
     episode_key: the-enshittification-of-the-internet-with-cory-doctorow
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/offline-with-jon-favreau/the-enshittification-of-the-internet-with-cory-doctorow/"
   - episode_title: ICE Killings and the Death of Shared Reality
     episode_url: https://audioboom.com/posts/8848335
@@ -15246,20 +15258,8 @@ episodes_by_feed:
     episode_uid: fe853b0e-ad89-43c5-8183-492defb6ad18
     episode_slug: ice-killings-and-the-death-of-shared-reality
     episode_key: ice-killings-and-the-death-of-shared-reality
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/offline-with-jon-favreau/ice-killings-and-the-death-of-shared-reality/"
-  - episode_title: What Comes After Trump?
-    episode_url: https://audioboom.com/posts/8848336
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8848336.mp3?modified=1769543142&sid=5166623&source=rss
-    published_at: '2025-12-20T08:05:00+00:00'
-    description_html: What does 21st century authoritarianism look like in the United States? Author and Atlantic staff writer George Packer joins Offline to talk about America’s zombie democracy, who could be the most dangerous MAGA heir, and how Democrats should be fighting for the country. For our last episode of 2025, George and Jon connect the dots between Trump, polarization, oligarchs, AI, social media, Charlie Kirk and more.
-    description_plain: What does 21st century authoritarianism look like in the United States? Author and Atlantic staff writer George Packer joins Offline to talk about America’s zombie democracy, who could be the most dangerous MAGA heir, and how Democrats should be fighting for the country. For our last episode of 2025, George and Jon connect the dots between Trump, polarization, oligarchs, AI, social media, Charlie Kirk and more.
-    episode_image_url: ''
-    episode_uid: 4924de10-b25c-4718-9b95-d8fa331c6716
-    episode_slug: what-comes-after-trump
-    episode_key: what-comes-after-trump
     legacy_numbered_slug: episode-25
-    episode_page_url: "/offline-with-jon-favreau/what-comes-after-trump/"
+    episode_page_url: "/offline-with-jon-favreau/ice-killings-and-the-death-of-shared-reality/"
   https://feeds.megaphone.fm/pom9812562051: &50
   - episode_title: 46. How to Read the Avalanche Forecast with Snow Science Expert Simon Trautman
     episode_url: https://share.transistor.fm/s/21bbff8f
@@ -27080,6 +27080,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/716-extremtontar/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &90
+  - episode_title: 'Matchdag 17: Bokšić, Mihajlović och Arkan'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-17-boki-mihajlovi-och-arkan
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3f7df1cb67fc75ea25075f/media.mp3
+    published_at: '2026-06-27T07:38:25+00:00'
+    description_html: "<em>Detta är ett urklipp från avsnitten 21. Lazio 1999/00. För att få hela berättelsen. Lyssna på avsnitten i sin helhet.</em><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
+    description_plain: Detta är ett urklipp från avsnitten 21. Lazio 1999/00. För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a3f7df1cb67fc75ea25075f
+    episode_slug: matchdag-17-boksic-mihajlovic-och-arkan
+    episode_key: matchdag-17-boksic-mihajlovic-och-arkan
+    legacy_unicode_slug: matchdag-17-bokšić-mihajlović-och-arkan
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/matchdag-17-boksic-mihajlovic-och-arkan/"
   - episode_title: 'Matchdag 16: ”Kniksen” Jensen och ett bedrövligt Håkan-quiz'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3e2bf10ad3211686d98d79/media.mp3
@@ -27091,7 +27104,7 @@ episodes_by_feed:
     episode_slug: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     episode_key: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     legacy_unicode_slug: matchdag-16-kniksen-jensen-och-ett-bedrövligt-håkan-quiz
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz/"
   - episode_title: 'Matchdag 15: Operation Ökenstorm och Eriks kärlek till För-EM 1991'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em
@@ -27104,7 +27117,7 @@ episodes_by_feed:
     episode_slug: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     episode_key: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     legacy_unicode_slug: matchdag-15-operation-ökenstorm-och-eriks-kärlek-till-för-em-1991
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991/"
   - episode_title: 'Matchdag 14: När Djurgården scoutade i DR Kongo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
@@ -27117,7 +27130,7 @@ episodes_by_feed:
     episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     legacy_unicode_slug: matchdag-14-när-djurgården-scoutade-i-dr-kongo
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
   - episode_title: 'Matchdag 13: Den ghananska hardcore-coachen Herbert Addo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
@@ -27129,7 +27142,7 @@ episodes_by_feed:
     episode_uid: 6a3a43ee00998a7fc8913318
     episode_slug: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
     episode_key: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/"
   - episode_title: 'Matchdag 12: USA:s invasion  av Irak 2003 och Uday Hussein'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-12-usas-invasion-av-irak-2003-och-uday-hussein
@@ -27141,7 +27154,7 @@ episodes_by_feed:
     episode_uid: 6a3933089c43d66bc008df81
     episode_slug: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
     episode_key: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
   - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
@@ -27154,7 +27167,7 @@ episodes_by_feed:
     episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
   - episode_title: 'Matchdag 10: Marco Van Bastens kamp för VM 1994'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-10-marco-van-bastens-kamp-for-vm-1994
@@ -27167,7 +27180,7 @@ episodes_by_feed:
     episode_slug: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     episode_key: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     legacy_unicode_slug: matchdag-10-marco-van-bastens-kamp-för-vm-1994
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/matchdag-10-marco-van-bastens-kamp-for-vm-1994/"
   - episode_title: 'Matchdag 9: NASL - Den första amerikanska proffsligan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-9-nasl-den-forsta-amerikanska-proffsligan
@@ -27180,7 +27193,7 @@ episodes_by_feed:
     episode_slug: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     episode_key: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     legacy_unicode_slug: matchdag-9-nasl-den-första-amerikanska-proffsligan
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-9-nasl-den-forsta-amerikanska-proffsligan/"
   - episode_title: 'Matchdag 8: Zemans fritänkande uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-8-zemans-fritankande-uppvaxt
@@ -27193,7 +27206,7 @@ episodes_by_feed:
     episode_slug: matchdag-8-zemans-fritankande-uppvaxt
     episode_key: matchdag-8-zemans-fritankande-uppvaxt
     legacy_unicode_slug: matchdag-8-zemans-fritänkande-uppväxt
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-8-zemans-fritankande-uppvaxt/"
   - episode_title: 'Matchdag 7: Blažević, Boban och Modric'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-7-blaevi-boban-och-modric
@@ -27206,7 +27219,7 @@ episodes_by_feed:
     episode_slug: matchdag-7-blazevic-boban-och-modric
     episode_key: matchdag-7-blazevic-boban-och-modric
     legacy_unicode_slug: matchdag-7-blažević-boban-och-modric
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-7-blazevic-boban-och-modric/"
   - episode_title: 'Matchdag 6: Zidane och politiken'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-6-zidane-och-politiken
@@ -27218,7 +27231,7 @@ episodes_by_feed:
     episode_uid: 6a2fe8fccd02369494f0ac46
     episode_slug: matchdag-6-zidane-och-politiken
     episode_key: matchdag-6-zidane-och-politiken
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/matchdag-6-zidane-och-politiken/"
   - episode_title: 'Matchdag 5: Sverige - Bulgarien 2004'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-5-sverige-bulgarien-2004
@@ -27230,7 +27243,7 @@ episodes_by_feed:
     episode_uid: 6a2f0504252d86e846043884
     episode_slug: matchdag-5-sverige-bulgarien-2004
     episode_key: matchdag-5-sverige-bulgarien-2004
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
   - episode_title: 'Matchdag 4: Historiens tråkigaste VM-final'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-4-historiens-trakigaste-vm-final
@@ -27243,7 +27256,7 @@ episodes_by_feed:
     episode_slug: matchdag-4-historiens-trakigaste-vm-final
     episode_key: matchdag-4-historiens-trakigaste-vm-final
     legacy_unicode_slug: matchdag-4-historiens-tråkigaste-vm-final
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/matchdag-4-historiens-trakigaste-vm-final/"
   - episode_title: 'Matchdag 3: Adidas, kommersialiseringen och VM-floppen 1978'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
@@ -27255,7 +27268,7 @@ episodes_by_feed:
     episode_uid: 6a2bf993e6540bec0f9db0ab
     episode_slug: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
     episode_key: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978/"
   - episode_title: 'Matchdag 2: Berättelsen om Edin Džeko'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-2-berattelsen-om
@@ -27268,7 +27281,7 @@ episodes_by_feed:
     episode_slug: matchdag-2-berattelsen-om-edin-dzeko
     episode_key: matchdag-2-berattelsen-om-edin-dzeko
     legacy_unicode_slug: matchdag-2-berättelsen-om-edin-džeko
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/matchdag-2-berattelsen-om-edin-dzeko/"
   - episode_title: 'Matchdag 1:  Juárez Vs Sinaloa'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-1-juarez-vs-sinaloa
@@ -27281,7 +27294,7 @@ episodes_by_feed:
     episode_slug: matchdag-1-juarez-vs-sinaloa
     episode_key: matchdag-1-juarez-vs-sinaloa
     legacy_unicode_slug: matchdag-1-juárez-vs-sinaloa
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/matchdag-1-juarez-vs-sinaloa/"
   - episode_title: 290. Ruhr 2022/23
     episode_url: https://pod.space/whenwewerekings/290-ruhr-2022-23
@@ -27293,7 +27306,7 @@ episodes_by_feed:
     episode_uid: 4be36fabd91187d9a67c5b4f64aafe84
     episode_slug: 290-ruhr-2022-23
     episode_key: 290-ruhr-2022-23
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/290-ruhr-2022-23/"
   - episode_title: 289. Inter 2009/10 (3/3)
     episode_url: https://pod.space/whenwewerekings/289-inter-2009-10-3-3
@@ -27305,7 +27318,7 @@ episodes_by_feed:
     episode_uid: 9475b7f4ac14711984fb52fd3cbaa35b
     episode_slug: 289-inter-2009-10-3-3
     episode_key: 289-inter-2009-10-3-3
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/289-inter-2009-10-3-3/"
   - episode_title: "(Kortversion) 288. Inter 2009/10 (2/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-288-inter-2009-10-2-3
@@ -27317,7 +27330,7 @@ episodes_by_feed:
     episode_uid: 5be1021af64278647bd731d65391733e
     episode_slug: kortversion-288-inter-2009-10-2-3
     episode_key: kortversion-288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/kortversion-288-inter-2009-10-2-3/"
   - episode_title: 288. Inter 2009/10 (2/3)
     episode_url: https://pod.space/whenwewerekings/288-inter-2009-10-2-3
@@ -27329,7 +27342,7 @@ episodes_by_feed:
     episode_uid: 01b548ca2606ba99f4d908125a27b230
     episode_slug: 288-inter-2009-10-2-3
     episode_key: 288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/288-inter-2009-10-2-3/"
   - episode_title: "(Kortversion) 287. Inter 2009/10 (1/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-287-inter-2009-10-1-3
@@ -27341,7 +27354,7 @@ episodes_by_feed:
     episode_uid: 11f73fb86b79d95a571fe2458b9b5df8
     episode_slug: kortversion-287-inter-2009-10-1-3
     episode_key: kortversion-287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/kortversion-287-inter-2009-10-1-3/"
   - episode_title: 287. Inter 2009/10 (1/3)
     episode_url: https://pod.space/whenwewerekings/287-inter-2009-10-1-3
@@ -27353,7 +27366,7 @@ episodes_by_feed:
     episode_uid: ffbebd7b477007311211435aa176a93c
     episode_slug: 287-inter-2009-10-1-3
     episode_key: 287-inter-2009-10-1-3
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/287-inter-2009-10-1-3/"
   - episode_title: "(Kortversion) 286. Sverige 2004 (2/2)"
     episode_url: https://pod.space/whenwewerekings/kortversion-286-sverige-2004-2-2
@@ -27365,7 +27378,7 @@ episodes_by_feed:
     episode_uid: 6793b573cfac08ab6a4d9cc347702445
     episode_slug: kortversion-286-sverige-2004-2-2
     episode_key: kortversion-286-sverige-2004-2-2
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/kortversion-286-sverige-2004-2-2/"
   - episode_title: 286. Sverige 2004 (2/2)
     episode_url: https://pod.space/whenwewerekings/286-sverige-2004-2-2
@@ -27377,20 +27390,8 @@ episodes_by_feed:
     episode_uid: 1a38ce4523442f3d1e8f23fc7d301838
     episode_slug: 286-sverige-2004-2-2
     episode_key: 286-sverige-2004-2-2
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/286-sverige-2004-2-2/"
-  - episode_title: "(Kortavsnitt) 285. Sverige 2004 (1/2)"
-    episode_url: https://pod.space/whenwewerekings/kortavsnitt-285-sverige-2004
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/186a4935098a5092f395f8841b90256f/media.mp3
-    published_at: '2025-02-20T06:30:00+00:00'
-    description_html: "<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: 186a4935098a5092f395f8841b90256f
-    episode_slug: kortavsnitt-285-sverige-2004-1-2
-    episode_key: kortavsnitt-285-sverige-2004-1-2
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/kortavsnitt-285-sverige-2004-1-2/"
+    episode_page_url: "/when-we-were-kings/286-sverige-2004-2-2/"
   https://api.substack.com/feed/podcast/10845.rss: &91
   - episode_title: What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)
     episode_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
