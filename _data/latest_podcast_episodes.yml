@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-27T20:27:45Z'
+generated_at: '2026-06-27T21:26:58Z'
 items:
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
@@ -337,18 +337,6 @@ items:
   episode_key: 316-why-western-states-100-records-are-getting-smashed-z1-v-z2-training-ai-coaching-news-and-competitiveness-v-ego
   episode_slug: 316-why-western-states-100-records-are-getting-smashed-z1-v-z2-training-ai-coaching-news-and-competitiveness-v-ego
   episode_page_url: "/some-work-all-play/316-why-western-states-100-records-are-getting-smashed-z1-v-z2-training-ai-coaching-news-and-competitiveness-v-ego/"
-- podcast_title: Long Run Labs
-  podcast_page_url: "/long-run-labs/"
-  cover_image: "/media/longrunlabs.jpeg"
-  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
-  filter_category: business english
-  episode_title: Why the Creator Economy Is Just Getting Started and What Investors Are Betting On
-  episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_the_creator_economy_is_just_getting_started_and_what_investors_are_betting_on
-  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019ef3f5-ccdc-7a9a-b516-a261c2041509/019ef3f5-cd98-7678-bc77-476f2a8b609d.mp3
-  published_at: '2026-06-23T10:22:42+00:00'
-  episode_key: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
-  episode_slug: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
-  episode_page_url: "/long-run-labs/why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on/"
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society/"
   cover_image: "/media/trailsocietypodcast.jpeg"
@@ -30004,6 +29992,9 @@ errors:
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
   error: Latest episode has no enclosure URL
+- podcast: Long Run Labs
+  rss_feed: https://anchor.fm/s/1061aabc4/podcast/rss
+  error: 'Errno::ECONNRESET: Connection reset by peer - SSL_connect'
 - podcast: Lenny's Podcast
   rss_feed: https://api.substack.com/feed/podcast/10845.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
