@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-27T01:43:28Z'
+generated_at: '2026-06-27T03:09:10Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Episode 623: Race Anxiety'
+  episode_url: https://therunningpublic.podbean.com/e/episode-623-race-anxiety/
+  audio_url: https://mcdn.podbean.com/mf/web/v2n5vv9gfw2pixqy/2_clips_Edit_42_6lgye.mp3
+  published_at: '2026-06-26T21:54:10-05:00'
+  episode_key: episode-623-race-anxiety
+  episode_slug: episode-623-race-anxiety
+  episode_page_url: "/the-running-public/episode-623-race-anxiety/"
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
   cover_image: "/media/coffeeclub.jpeg"
@@ -241,18 +253,6 @@ items:
   episode_key: ep-787-aging-as-an-athlete-what-climbers-know-about-longevity-that-runners-need
   episode_slug: ep-787-aging-as-an-athlete-what-climbers-know-about-longevity-that-runners-need
   episode_page_url: "/trail-runner-nation/ep-787-aging-as-an-athlete-what-climbers-know-about-longevity-that-runners-need/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
-  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
-  audio_url: https://mcdn.podbean.com/mf/web/mr3t8fn8cjir9xk9/2_clips_Edit_41_9nz67.mp3
-  published_at: '2026-06-24T10:38:24-05:00'
-  episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
-  episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
-  episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -3779,6 +3779,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-24
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Episode 623: Race Anxiety'
+    episode_url: https://therunningpublic.podbean.com/e/episode-623-race-anxiety/
+    audio_url: https://mcdn.podbean.com/mf/web/v2n5vv9gfw2pixqy/2_clips_Edit_42_6lgye.mp3
+    published_at: '2026-06-26T21:54:10-05:00'
+    description_html: "<p>Everyone deals with this! Some runners simply get excited by race nerves while others are crippled by them. Either way, this IS something you can improve!</p>"
+    description_plain: Everyone deals with this! Some runners simply get excited by race nerves while others are crippled by them. Either way, this IS something you can improve!
+    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Untitled_Design89mq8.png
+    episode_uid: therunningpublic-podbean-com-393af6e1-9220-31cb-b19b-7bd84e38fb1e
+    episode_slug: episode-623-race-anxiety
+    episode_key: episode-623-race-anxiety
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/episode-623-race-anxiety/"
   - episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
     audio_url: https://mcdn.podbean.com/mf/web/mr3t8fn8cjir9xk9/2_clips_Edit_41_9nz67.mp3
@@ -3789,7 +3801,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d7aa37b9-ce81-3082-beed-e87fc31fa3d1
     episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
     episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
   - episode_title: 'Episode 621: Summer Running'
     episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
@@ -3801,7 +3813,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-03c831ae-4404-3d38-bb00-b3c085ad6cfb
     episode_slug: episode-621-summer-running
     episode_key: episode-621-summer-running
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/episode-621-summer-running/"
   - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
@@ -3813,7 +3825,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
     episode_slug: training-tuesday-how-to-execute-an-x-day-workout
     episode_key: training-tuesday-how-to-execute-an-x-day-workout
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
@@ -3825,7 +3837,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3837,7 +3849,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3849,7 +3861,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3861,7 +3873,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3873,7 +3885,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3885,7 +3897,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -3897,7 +3909,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -3909,7 +3921,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -3921,7 +3933,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -3933,7 +3945,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -3945,7 +3957,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -3957,7 +3969,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -3969,7 +3981,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -3981,7 +3993,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -3993,7 +4005,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   - episode_title: 'Episode 604: Talkin’ Shop!'
     episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
@@ -4005,7 +4017,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
     episode_slug: episode-604-talkin-shop
     episode_key: episode-604-talkin-shop
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/episode-604-talkin-shop/"
   - episode_title: 'Training Tuesday: Kirk’s Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-qa-session/
@@ -4017,7 +4029,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cf9144dc-cae7-3c8d-9465-432883738b81
     episode_slug: training-tuesday-kirk-s-q-a-session
     episode_key: training-tuesday-kirk-s-q-a-session
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-q-a-session/"
   - episode_title: 'Episode 602: Jake Prusha'
     episode_url: https://therunningpublic.podbean.com/e/episode-602-jake-prusha/
@@ -4029,7 +4041,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d9607426-5db4-3104-88b7-85968914ae57
     episode_slug: episode-602-jake-prusha
     episode_key: episode-602-jake-prusha
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/episode-602-jake-prusha/"
   - episode_title: 'Episode 601: Answering AI Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-601-answering-ai-questions/
@@ -4041,7 +4053,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-69a0b749-5401-31da-9725-25f1758ba30f
     episode_slug: episode-601-answering-ai-questions
     episode_key: episode-601-answering-ai-questions
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
   - episode_title: 'Training Tuesday: Race Prep Workouts'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-race-prep-workouts/
@@ -4053,7 +4065,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-e06e2fa5-3f5c-3856-8858-6fed172d2041
     episode_slug: training-tuesday-race-prep-workouts
     episode_key: training-tuesday-race-prep-workouts
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/training-tuesday-race-prep-workouts/"
   - episode_title: Our 600th Episode!
     episode_url: https://therunningpublic.podbean.com/e/our-600th-episode/
@@ -4065,20 +4077,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-fed56e2a-8f3d-3d53-88b6-0918852668c5
     episode_slug: our-600th-episode
     episode_key: our-600th-episode
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/our-600th-episode/"
-  - episode_title: 'Training Tuesday: “X Factor” Workouts'
-    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-x-factor-workouts/
-    audio_url: https://mcdn.podbean.com/mf/web/k5mq572k3eus2eep/2_clips_Edit_24_7umf8.mp3
-    published_at: '2026-03-18T21:50:40-05:00'
-    description_html: "<p>These aren’t workouts you could build your entire training around. These are the workouts that round out your mental and physical fitness.</p>"
-    description_plain: These aren’t workouts you could build your entire training around. These are the workouts that round out your mental and physical fitness.
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Listener_Submitted_Q_A8rizr.png
-    episode_uid: therunningpublic-podbean-com-c938ecc3-1a00-332f-ba66-4c07f7da5382
-    episode_slug: training-tuesday-x-factor-workouts
-    episode_key: training-tuesday-x-factor-workouts
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/training-tuesday-x-factor-workouts/"
+    episode_page_url: "/the-running-public/our-600th-episode/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Toni McCann'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Toni-McCann-e3l7i9s
