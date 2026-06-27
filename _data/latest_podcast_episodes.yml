@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-27T18:28:46Z'
+generated_at: '2026-06-27T19:34:29Z'
 items:
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
@@ -673,18 +673,6 @@ items:
   episode_key: ep-12-storie
   episode_slug: ep-12-storie
   episode_page_url: "/pionieri/ep-12-storie/"
-- podcast_title: Ultrarunning History
-  podcast_page_url: "/ultrarunning-history-podcast/"
-  cover_image: "/media/ultrarunninghistory.jpg"
-  feed_url: https://ultrarunninghistory.com/feed/podcast/
-  filter_category: ultra english
-  episode_title: '178: Grand Canyon Short Stories – Part Two'
-  episode_url: https://ultrarunninghistory.com/178-grand-canyon-2/?utm_source=rss&utm_medium=rss&utm_campaign=178-grand-canyon-2
-  audio_url: https://media.blubrry.com/crockettdr/ultrarunninghistory.com/wp-content/uploads/2025/06/episode178.mp3
-  published_at: '2025-06-01T23:39:47+00:00'
-  episode_key: 178-grand-canyon-short-stories-part-two
-  episode_slug: 178-grand-canyon-short-stories-part-two
-  episode_page_url: "/ultrarunning-history-podcast/178-grand-canyon-short-stories-part-two/"
 - podcast_title: 90 Gramos
   podcast_page_url: "/90-gramos/"
   cover_image: "/media/90gramos.jpeg"
@@ -29995,6 +29983,9 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/run-free-podcast/jay-s-nutritional-transformation/"
 errors:
+- podcast: Ultrarunning History
+  rss_feed: https://ultrarunninghistory.com/feed/podcast/
+  error: 'Net::OpenTimeout: Failed to open TCP connection to ultrarunninghistory.com:443 (execution expired)'
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
