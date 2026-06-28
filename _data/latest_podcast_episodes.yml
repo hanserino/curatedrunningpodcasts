@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-28T11:38:24Z'
+generated_at: '2026-06-28T12:31:16Z'
 items:
+- podcast_title: Territorio Trail
+  podcast_page_url: "/territorio-trail/"
+  cover_image: "/media/territorio-trail.jpeg"
+  feed_url: https://feeds.feedburner.com/ivoox/qssg
+  filter_category: trail spanish
+  episode_title: Kilómetro y Resultado Western States 100 2026. Parte 3
+  episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-3
+  audio_url: https://media.aragonradio.es/2026/06/20260628_11-29_kilometro-y-resultado-western-states-100-2026_-parte-3.mp3?utm_source=applepodcasts
+  published_at: '2026-06-28T07:30:00+02:00'
+  episode_key: kilometro-y-resultado-western-states-100-2026-parte-3
+  episode_slug: kilometro-y-resultado-western-states-100-2026-parte-3
+  episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-3/"
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur/"
   cover_image: "/media/danslateteeduncoureur.jpeg"
@@ -181,18 +193,6 @@ items:
   episode_key: ep142-lavaredo-50km
   episode_slug: ep142-lavaredo-50km
   episode_page_url: "/breaking-marathon-limits/ep142-lavaredo-50km/"
-- podcast_title: Territorio Trail
-  podcast_page_url: "/territorio-trail/"
-  cover_image: "/media/territorio-trail.jpeg"
-  feed_url: https://feeds.feedburner.com/ivoox/qssg
-  filter_category: trail spanish
-  episode_title: Sweet Home Alabama. Presente y futuro del trail en el Equipo Tragoworld
-  episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
-  audio_url: https://media.aragonradio.es/2026/06/20260625_09-13_sweet-home-alabama_-presente-y-futuro-del-trail-en-el-equipo-tragoworld.mp3?utm_source=applepodcasts
-  published_at: '2026-06-25T22:00:00+02:00'
-  episode_key: sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
-  episode_slug: sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
-  episode_page_url: "/territorio-trail/sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld/"
 - podcast_title: The Real Science Of Sport
   podcast_page_url: "/the-real-science-of-sport/"
   cover_image: "/media/realscienceofsportpod.jpeg"
@@ -29262,6 +29262,45 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/singletrack-with-mathias-eichler/324-the-new-generation-is-different-with-francesco-puppi/"
   https://feeds.feedburner.com/ivoox/qssg: &98
+  - episode_title: Kilómetro y Resultado Western States 100 2026. Parte 3
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-3
+    audio_url: https://media.aragonradio.es/2026/06/20260628_11-29_kilometro-y-resultado-western-states-100-2026_-parte-3.mp3?utm_source=applepodcasts
+    published_at: '2026-06-28T07:30:00+02:00'
+    description_html: "<p>Arag&oacute;n Radio retransmite el regreso de Kilian Jornet a la m&iacute;tica cien millas estadounidense y su esperado duelo con Jim Walmsley. Western States llega con la sensaci&oacute;n de que cualquier cosa puede pasar. Que el duelo que todos esper&aacute;bamos &mdash;Kilian y Jim, Jim y Kilian&mdash; ser&aacute; distinto, m&aacute;s humano, m&aacute;s incierto, m&aacute;s narrativo. Que la rodilla de Kilian puede ser un personaje m&aacute;s. Que el fuego de Jim puede volver a incendiar la carrera. Que los debutantes pueden romperla por delante. Que los veteranos pueden reconstruirla por detr&aacute;s. Que Gerard Morales puede firmar la carrera de su vida. Que Abby Hall opta a un doblete hist&oacute;rico. Que Molly Seidel abre la puerta de lo desconocido. Que Marianne Hogan merece ya la victoria. Que Jennifer Lichter es la gran candidata. Que WS100, como siempre, decidir&aacute; por su cuenta.</p>"
+    description_plain: Arag&oacute;n Radio retransmite el regreso de Kilian Jornet a la m&iacute;tica cien millas estadounidense y su esperado duelo con Jim Walmsley. Western States llega con la sensaci&oacute;n de que cualquier cosa puede pasar. Que el duelo que todos esper&aacute;bamos &mdash;Kilian y Jim, Jim y Kilian&mdash; ser&aacute; distinto, m&aacute;s humano, m&aacute;s incierto, m&aacute;s narrativo. Que la rodilla de Kilian puede ser un personaje m&aacute;s. Que el fuego de Jim puede volver a incendiar la carrera. Que los debutantes pueden romperla por delante. Que los veteranos pueden reconstruirla por detr&aacute;s. Que Gerard Morales puede firmar la carrera de su vida. Que Abby Hall opta a un doblete hist&oacute;rico. Que Molly Seidel abre la puerta de lo desconocido. Que Marianne Hogan merece ya la victoria. Que Jennifer Lichter es la gran candidata. Que WS100, como siempre, decidir&aacute; por su cuenta.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260628-11-29-kilometro-y-resultado-western-states-100-2026-parte-3-mp3
+    episode_slug: kilometro-y-resultado-western-states-100-2026-parte-3
+    episode_key: kilometro-y-resultado-western-states-100-2026-parte-3
+    legacy_unicode_slug: kilómetro-y-resultado-western-states-100-2026-parte-3
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-3/"
+  - episode_title: Kilómetro y Resultado Western States 100 2026. Parte 2
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-2
+    audio_url: https://media.aragonradio.es/2026/06/20260628_11-27_kilometro-y-resultado-western-states-100-2026_-parte-2.mp3?utm_source=applepodcasts
+    published_at: '2026-06-28T07:15:00+02:00'
+    description_html: "<p>Arag&oacute;n Radio retransmite el regreso de Kilian Jornet a la m&iacute;tica cien millas estadounidense y su esperado duelo con Jim Walmsley. Western States llega con la sensaci&oacute;n de que cualquier cosa puede pasar. Que el duelo que todos esper&aacute;bamos &mdash;Kilian y Jim, Jim y Kilian&mdash; ser&aacute; distinto, m&aacute;s humano, m&aacute;s incierto, m&aacute;s narrativo. Que la rodilla de Kilian puede ser un personaje m&aacute;s. Que el fuego de Jim puede volver a incendiar la carrera. Que los debutantes pueden romperla por delante. Que los veteranos pueden reconstruirla por detr&aacute;s. Que Gerard Morales puede firmar la carrera de su vida. Que Abby Hall opta a un doblete hist&oacute;rico. Que Molly Seidel abre la puerta de lo desconocido. Que Marianne Hogan merece ya la victoria. Que Jennifer Lichter es la gran candidata. Que WS100, como siempre, decidir&aacute; por su cuenta.</p>"
+    description_plain: Arag&oacute;n Radio retransmite el regreso de Kilian Jornet a la m&iacute;tica cien millas estadounidense y su esperado duelo con Jim Walmsley. Western States llega con la sensaci&oacute;n de que cualquier cosa puede pasar. Que el duelo que todos esper&aacute;bamos &mdash;Kilian y Jim, Jim y Kilian&mdash; ser&aacute; distinto, m&aacute;s humano, m&aacute;s incierto, m&aacute;s narrativo. Que la rodilla de Kilian puede ser un personaje m&aacute;s. Que el fuego de Jim puede volver a incendiar la carrera. Que los debutantes pueden romperla por delante. Que los veteranos pueden reconstruirla por detr&aacute;s. Que Gerard Morales puede firmar la carrera de su vida. Que Abby Hall opta a un doblete hist&oacute;rico. Que Molly Seidel abre la puerta de lo desconocido. Que Marianne Hogan merece ya la victoria. Que Jennifer Lichter es la gran candidata. Que WS100, como siempre, decidir&aacute; por su cuenta.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260628-11-27-kilometro-y-resultado-western-states-100-2026-parte-2-mp3
+    episode_slug: kilometro-y-resultado-western-states-100-2026-parte-2
+    episode_key: kilometro-y-resultado-western-states-100-2026-parte-2
+    legacy_unicode_slug: kilómetro-y-resultado-western-states-100-2026-parte-2
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-2/"
+  - episode_title: Kilómetro y Resultado Western States 100 2026. Parte 1
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-1
+    audio_url: https://media.aragonradio.es/2026/06/20260628_11-26_kilometro-y-resultado-western-states-100-2026_-parte-1.mp3?utm_source=applepodcasts
+    published_at: '2026-06-28T07:00:00+02:00'
+    description_html: "<p>Arag&oacute;n Radio retransmite el regreso de Kilian Jornet a la m&iacute;tica cien millas estadounidense y su esperado duelo con Jim Walmsley. Western States llega con la sensaci&oacute;n de que cualquier cosa puede pasar. Que el duelo que todos esper&aacute;bamos &mdash;Kilian y Jim, Jim y Kilian&mdash; ser&aacute; distinto, m&aacute;s humano, m&aacute;s incierto, m&aacute;s narrativo. Que la rodilla de Kilian puede ser un personaje m&aacute;s. Que el fuego de Jim puede volver a incendiar la carrera. Que los debutantes pueden romperla por delante. Que los veteranos pueden reconstruirla por detr&aacute;s. Que Gerard Morales puede firmar la carrera de su vida. Que Abby Hall opta a un doblete hist&oacute;rico. Que Molly Seidel abre la puerta de lo desconocido. Que Marianne Hogan merece ya la victoria. Que Jennifer Lichter es la gran candidata. Que WS100, como siempre, decidir&aacute; por su cuenta.</p>"
+    description_plain: Arag&oacute;n Radio retransmite el regreso de Kilian Jornet a la m&iacute;tica cien millas estadounidense y su esperado duelo con Jim Walmsley. Western States llega con la sensaci&oacute;n de que cualquier cosa puede pasar. Que el duelo que todos esper&aacute;bamos &mdash;Kilian y Jim, Jim y Kilian&mdash; ser&aacute; distinto, m&aacute;s humano, m&aacute;s incierto, m&aacute;s narrativo. Que la rodilla de Kilian puede ser un personaje m&aacute;s. Que el fuego de Jim puede volver a incendiar la carrera. Que los debutantes pueden romperla por delante. Que los veteranos pueden reconstruirla por detr&aacute;s. Que Gerard Morales puede firmar la carrera de su vida. Que Abby Hall opta a un doblete hist&oacute;rico. Que Molly Seidel abre la puerta de lo desconocido. Que Marianne Hogan merece ya la victoria. Que Jennifer Lichter es la gran candidata. Que WS100, como siempre, decidir&aacute; por su cuenta.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-06-20260628-11-26-kilometro-y-resultado-western-states-100-2026-parte-1-mp3
+    episode_slug: kilometro-y-resultado-western-states-100-2026-parte-1
+    episode_key: kilometro-y-resultado-western-states-100-2026-parte-1
+    legacy_unicode_slug: kilómetro-y-resultado-western-states-100-2026-parte-1
+    legacy_numbered_slug: episode-03
+    episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-1/"
   - episode_title: Sweet Home Alabama. Presente y futuro del trail en el Equipo Tragoworld
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
     audio_url: https://media.aragonradio.es/2026/06/20260625_09-13_sweet-home-alabama_-presente-y-futuro-del-trail-en-el-equipo-tragoworld.mp3?utm_source=applepodcasts
@@ -29272,7 +29311,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260625-09-13-sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld-mp
     episode_slug: sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
     episode_key: sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-04
     episode_page_url: "/territorio-trail/sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld/"
   - episode_title: TERRITORIO TRAIL 08X43 Todo sobre la Western States 100 2026, el fin de semana que estabas esperando
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
@@ -29284,7 +29323,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260624-22-03-territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-se
     episode_slug: territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
     episode_key: territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-05
     episode_page_url: "/territorio-trail/territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando/"
   - episode_title: Sweet Home Alabama. Dentro de Mount to Coast, así es el training camp de un equipo élite
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
@@ -29297,7 +29336,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
     episode_key: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
     legacy_unicode_slug: sweet-home-alabama-dentro-de-mount-to-coast-así-es-el-training-camp-de-un-equipo-élite
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-06
     episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite/"
   - episode_title: TERRITORIO TRAIL 08X42 Contando los días para Western States 100
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x42-contando-los-dias-para-western-states-100
@@ -29310,7 +29349,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x42-contando-los-dias-para-western-states-100
     episode_key: territorio-trail-08x42-contando-los-dias-para-western-states-100
     legacy_unicode_slug: territorio-trail-08x42-contando-los-días-para-western-states-100
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-07
     episode_page_url: "/territorio-trail/territorio-trail-08x42-contando-los-dias-para-western-states-100/"
   - episode_title: Sweet Home Alabama. El análisis del Campeonato de Europa de trail running
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
@@ -29323,7 +29362,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
     episode_key: sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
     legacy_unicode_slug: sweet-home-alabama-el-análisis-del-campeonato-de-europa-de-trail-running
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-08
     episode_page_url: "/territorio-trail/sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running/"
   - episode_title: TERRITORIO TRAIL 08X41 Apuesta doble en Badwater 135
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x41-apuesta-doble-en-badwater-135
@@ -29335,7 +29374,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260610-21-34-territorio-trail-08x41-apuesta-doble-en-badwater-135-mp3
     episode_slug: territorio-trail-08x41-apuesta-doble-en-badwater-135
     episode_key: territorio-trail-08x41-apuesta-doble-en-badwater-135
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-09
     episode_page_url: "/territorio-trail/territorio-trail-08x41-apuesta-doble-en-badwater-135/"
   - episode_title: Sweet Home Alabama. La WOP Challenge de Territorio Trail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-la-wop-challenge-de-territorio-trail
@@ -29347,7 +29386,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260604-07-50-sweet-home-alabama-la-wop-challenge-de-territorio-trail-mp3
     episode_slug: sweet-home-alabama-la-wop-challenge-de-territorio-trail
     episode_key: sweet-home-alabama-la-wop-challenge-de-territorio-trail
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-10
     episode_page_url: "/territorio-trail/sweet-home-alabama-la-wop-challenge-de-territorio-trail/"
   - episode_title: TERRITORIO TRAIL 08X40 Entrenar a la élite del trailrunning
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
@@ -29360,7 +29399,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
     episode_key: territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
     legacy_unicode_slug: territorio-trail-08x40-entrenar-a-la-élite-del-trailrunning
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-11
     episode_page_url: "/territorio-trail/territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning/"
   - episode_title: Sweet Home Alabama. Ultra Trail Torla‑Ordesa, la esencia de Ordesa en un ultratrail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
@@ -29372,7 +29411,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260528-07-33-sweet-home-alabama-ultra-trail-torlaordesa-la-esencia-de-ordesa-en-un-ult
     episode_slug: sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
     episode_key: sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-12
     episode_page_url: "/territorio-trail/sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail/"
   - episode_title: TERRITORIO TRAIL 08X39 Swiss Canyon Trail by Kailas Fuga, el emblemático ultratrail para descubrir el Jura
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
@@ -29385,7 +29424,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
     episode_key: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
     legacy_unicode_slug: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblemático-ultratrail-para-descubrir-el-jura
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-13
     episode_page_url: "/territorio-trail/territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura/"
   - episode_title: Sweet Home Alabama. Mujeres y ultratrail, cuando la carrera supera lo razonable, ellas pueden ser mejores
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
@@ -29397,7 +29436,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260521-08-46-sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razon
     episode_slug: sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
     episode_key: sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-14
     episode_page_url: "/territorio-trail/sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores/"
   - episode_title: TERRITORIO TRAIL 08X38 Un mes para la Western States 100 más esperada
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
@@ -29410,7 +29449,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
     episode_key: territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
     legacy_unicode_slug: territorio-trail-08x38-un-mes-para-la-western-states-100-más-esperada
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-15
     episode_page_url: "/territorio-trail/territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada/"
   - episode_title: Sweet Home Alabama. Corredora, la película que plasma la presión competitiva, la salud mental y la obsesión por el rendimiento
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rend
@@ -29423,7 +29462,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie
     episode_key: sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie
     legacy_unicode_slug: sweet-home-alabama-corredora-la-película-que-plasma-la-presión-competitiva-la-salud-mental-y-la-obsesión-por-el-rendimie
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-16
     episode_page_url: "/territorio-trail/sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie/"
   - episode_title: TERRITORIO TRAIL 08X37 La Zegama Aizkorri que puede encumbrar a Tove Alexandersson
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
@@ -29435,7 +29474,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260513-22-09-territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alex
     episode_slug: territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
     episode_key: territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-17
     episode_page_url: "/territorio-trail/territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson/"
   - episode_title: Sweet Home Alabama. ¿Dónde está el límite de Oriol Antolí?
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
@@ -29448,7 +29487,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
     episode_key: sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
     legacy_unicode_slug: sweet-home-alabama-dónde-está-el-límite-de-oriol-antolí
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-18
     episode_page_url: "/territorio-trail/sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli/"
   - episode_title: TERRITORIO TRAIL 08X36 El imparable ascenso de la Domusa Teknik 40 MLK
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
@@ -29460,7 +29499,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260506-21-50-territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk-mp
     episode_slug: territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
     episode_key: territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-19
     episode_page_url: "/territorio-trail/territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk/"
   - episode_title: Sweet Home Alabama. El fulgurante inicio de temporada del Equipo Trangoworld
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
@@ -29472,7 +29511,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260430-07-53-sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangowor
     episode_slug: sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
     episode_key: sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-20
     episode_page_url: "/territorio-trail/sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld/"
   - episode_title: TERRITORIO TRAIL 08X35 Todo lo que siempre quisiste saber para cuidar tus bastones de trail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
@@ -29484,7 +29523,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260429-21-56-territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus
     episode_slug: territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
     episode_key: territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-21
     episode_page_url: "/territorio-trail/territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail/"
   - episode_title: Sweet Home Alabama. Dentro de Puerto Vallarta by UTMB
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
@@ -29496,7 +29535,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260421-07-56-sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb-mp3
     episode_slug: sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
     episode_key: sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-22
     episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb/"
   - episode_title: TERRITORIO TRAIL 08X34 MT. Fuji 100, la historia de un icono mundial en el ultratrail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
@@ -29508,7 +29547,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260422-16-35-territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-
     episode_slug: territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
     episode_key: territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-23
     episode_page_url: "/territorio-trail/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail/"
   - episode_title: Territorio Skyrunner World Series. Un inicio de temporada apasionante
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
@@ -29520,7 +29559,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260416-08-25-territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante-mp3
     episode_slug: territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
     episode_key: territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-24
     episode_page_url: "/territorio-trail/territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante/"
   - episode_title: TERRITORIO TRAIL 08X33 Puerto Vallarta by UTMB, México se consolida en el mapa mundial del ultratrail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x32-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail
@@ -29533,45 +29572,8 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail
     episode_key: territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail
     legacy_unicode_slug: territorio-trail-08x33-puerto-vallarta-by-utmb-méxico-se-consolida-en-el-mapa-mundial-del-ultratrail
-    legacy_numbered_slug: episode-22
-    episode_page_url: "/territorio-trail/territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail/"
-  - episode_title: Sweet Home Alabama. Dentro del Marathon des Sables
-    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-del-marathon-des-sables
-    audio_url: https://media.aragonradio.es/2026/04/20260409_07-48_sweet-home-alabama_-dentro-del-marathon-des-sables.mp3?utm_source=applepodcasts
-    published_at: '2026-04-09T22:00:00+02:00'
-    description_html: "<p>Una mirada al Marathon des Sables desde el propio campamento de la carrera y el an&aacute;lisis de la edici&oacute;n 40 aniversario de la prueba, desde el dominio de los El Morabity en categor&iacute;a masculina al asalto al triunfo de Maryline Nakache en femenina y la adaptaci&oacute;n de &eacute;lites como Pommeret, Sandes o Linden a una prueba por etapas en el desierto. Xavi Nunes comparte las claves de un Marathon des Sables que contin&uacute;a siendo la gran aventura del mundo del ultratrail en Sweet Home Alabama.</p>"
-    description_plain: Una mirada al Marathon des Sables desde el propio campamento de la carrera y el an&aacute;lisis de la edici&oacute;n 40 aniversario de la prueba, desde el dominio de los El Morabity en categor&iacute;a masculina al asalto al triunfo de Maryline Nakache en femenina y la adaptaci&oacute;n de &eacute;lites como Pommeret, Sandes o Linden a una prueba por etapas en el desierto. Xavi Nunes comparte las claves de un Marathon des Sables que contin&uacute;a siendo la gran aventura del mundo del ultratrail en Sweet Home Alabama.
-    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
-    episode_uid: 2026-04-20260409-07-48-sweet-home-alabama-dentro-del-marathon-des-sables-mp3
-    episode_slug: sweet-home-alabama-dentro-del-marathon-des-sables
-    episode_key: sweet-home-alabama-dentro-del-marathon-des-sables
-    legacy_numbered_slug: episode-23
-    episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-del-marathon-des-sables/"
-  - episode_title: TERRITORIO TRAIL 08X32 Ser speaker por el mundo
-    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x32-ser-speaker-por-el-mundo
-    audio_url: https://media.aragonradio.es/2026/04/20260408_21-51_territorio-trail-08x32-ser-speaker-por-el-mundo.mp3?utm_source=applepodcasts
-    published_at: '2026-04-08T22:00:00+02:00'
-    description_html: "<p>En la emisi&oacute;n de esta semana de Territorio Trail To&ntilde;&iacute;n Laguarta explica c&oacute;mo es ser speaker fuera de nuestras fronteras y su camino hasta consolidarse como una de las voces de referencia en nuestro idioma. Realizamos la previa de la Calamorro Skyrace, quinta prueba de las Merrell Skyrunner World Series 2026, hablamos de la segunda edici&oacute;n de la Haritzen Mendi Lasterketa de Tafalla y dedicamos la segunda parte del programa a la previa completa del Marat&oacute;n de Zaragoza.</p>"
-    description_plain: En la emisi&oacute;n de esta semana de Territorio Trail To&ntilde;&iacute;n Laguarta explica c&oacute;mo es ser speaker fuera de nuestras fronteras y su camino hasta consolidarse como una de las voces de referencia en nuestro idioma. Realizamos la previa de la Calamorro Skyrace, quinta prueba de las Merrell Skyrunner World Series 2026, hablamos de la segunda edici&oacute;n de la Haritzen Mendi Lasterketa de Tafalla y dedicamos la segunda parte del programa a la previa completa del Marat&oacute;n de Zaragoza.
-    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
-    episode_uid: 2026-04-20260408-21-51-territorio-trail-08x32-ser-speaker-por-el-mundo-mp3
-    episode_slug: territorio-trail-08x32-ser-speaker-por-el-mundo
-    episode_key: territorio-trail-08x32-ser-speaker-por-el-mundo
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/territorio-trail/territorio-trail-08x32-ser-speaker-por-el-mundo/"
-  - episode_title: Sweet Home Alabama. Cuando un entrenamiento en Strava descubrió la posición del buque insignia de la Marina Francesa
-    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa
-    audio_url: https://media.aragonradio.es/2026/04/20260331_13-51_sweet-home-alabama_-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa.mp3?utm_source=applepodcasts
-    published_at: '2026-04-02T22:00:00+02:00'
-    description_html: "<p>Un militar &mdash;o varios, seg&uacute;n las versiones&mdash; decidi&oacute; registrar su entrenamiento a bordo del portaaviones. Nada raro: correr por cubierta es casi una tradici&oacute;n no escrita en cualquier barco grande. El problema es que Strava, tan eficiente como siempre, dibuj&oacute; el recorrido con precisi&oacute;n quir&uacute;rgica. En un mundo donde los ej&eacute;rcitos invierten millones en sigilo, contramedidas y protocolos, un simple entrenamiento puede convertirse en un agujero de seguridad monumental. Adriano Mart&iacute;n, Subteniente de la Escuela Militar de Alta Monta&ntilde;a, se embarca en el USS Alabama y comparte su opini&oacute;n sobre el incidente repasado algunas otras an&eacute;cdotas relacionadas con la exposici&oacute;n en redes y el ej&eacute;rcito.</p>"
-    description_plain: 'Un militar &mdash;o varios, seg&uacute;n las versiones&mdash; decidi&oacute; registrar su entrenamiento a bordo del portaaviones. Nada raro: correr por cubierta es casi una tradici&oacute;n no escrita en cualquier barco grande. El problema es que Strava, tan eficiente como siempre, dibuj&oacute; el recorrido con precisi&oacute;n quir&uacute;rgica. En un mundo donde los ej&eacute;rcitos invierten millones en sigilo, contramedidas y protocolos, un simple entrenamiento puede convertirse en un agujero de seguridad monumental. Adriano Mart&iacute;n, Subteniente de la Escuela Militar de Alta Monta&ntilde;a, se embarca en el USS Alabama y comparte su opini&oacute;n sobre el incidente repasado algunas otras an&eacute;cdotas relacionadas con la exposici&oacute;n en redes y el ej&eacute;rcito.'
-    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
-    episode_uid: 2026-04-20260331-13-51-sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicio
-    episode_slug: sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa
-    episode_key: sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa
-    legacy_unicode_slug: sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrió-la-posición-del-buque-insignia-de-la-marina-francesa
     legacy_numbered_slug: episode-25
-    episode_page_url: "/territorio-trail/sweet-home-alabama-cuando-un-entrenamiento-en-strava-descubrio-la-posicion-del-buque-insignia-de-la-marina-francesa/"
+    episode_page_url: "/territorio-trail/territorio-trail-08x33-puerto-vallarta-by-utmb-mexico-se-consolida-en-el-mapa-mundial-del-ultratrail/"
   https://feeds.blubrry.com/feeds/enormocast.xml: &99
   - episode_title: 'Enormocast 325: Bradley Brooks – Hunting for Clarity'
     episode_url: https://podcast.show/enormocast/episode/153955425/
