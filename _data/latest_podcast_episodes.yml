@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-28T13:36:15Z'
+generated_at: '2026-06-28T14:38:51Z'
 items:
+- podcast_title: Speed Dhiman Radio
+  podcast_page_url: "/speed-dhiman-radio/"
+  cover_image: "/media/speeddhimanradio.jpeg"
+  feed_url: https://anchor.fm/s/fd56e778/podcast/rss
+  filter_category: trail ultra english
+  episode_title: Racing the 90km du Mont Blanc (And my Revamped Un-orginal Training Approach)
+  episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Racing-the-90km-du-Mont-Blanc-And-my-Revamped-Un-orginal-Training-Approach-e3lcij6
+  audio_url: https://anchor.fm/s/fd56e778/podcast/play/122095654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-28%2F244cca33-cae2-b63f-ffed-41e012ffa0a3.mp3
+  published_at: '2026-06-28T12:37:04+00:00'
+  episode_key: racing-the-90km-du-mont-blanc-and-my-revamped-un-orginal-training-approach
+  episode_slug: racing-the-90km-du-mont-blanc-and-my-revamped-un-orginal-training-approach
+  episode_page_url: "/speed-dhiman-radio/racing-the-90km-du-mont-blanc-and-my-revamped-un-orginal-training-approach/"
 - podcast_title: Territorio Trail
   podcast_page_url: "/territorio-trail/"
   cover_image: "/media/territorio-trail.jpeg"
@@ -613,18 +625,6 @@ items:
   episode_key: 185-abby-hall-from-training-to-reality-what-trail-running-actually-feels-like
   episode_slug: 185-abby-hall-from-training-to-reality-what-trail-running-actually-feels-like
   episode_page_url: "/running-long-a-trail-ultra-running-talk/185-abby-hall-from-training-to-reality-what-trail-running-actually-feels-like/"
-- podcast_title: Speed Dhiman Radio
-  podcast_page_url: "/speed-dhiman-radio/"
-  cover_image: "/media/speeddhimanradio.jpeg"
-  feed_url: https://anchor.fm/s/fd56e778/podcast/rss
-  filter_category: trail ultra english
-  episode_title: Submaxxing, Tough Choices, Structure&Analysis
-  episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
-  audio_url: https://anchor.fm/s/fd56e778/podcast/play/116714273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2Fd1b78595-1ed9-ab4c-96ca-fce117c7cc6e.mp3
-  published_at: '2026-03-10T19:58:20+00:00'
-  episode_key: submaxxing-tough-choices-structure-analysis
-  episode_slug: submaxxing-tough-choices-structure-analysis
-  episode_page_url: "/speed-dhiman-radio/submaxxing-tough-choices-structure-analysis/"
 - podcast_title: Historias del Trail
   podcast_page_url: "/historias-del-trail/"
   cover_image: "/media/historiasdeltrail.jpeg"
@@ -3490,6 +3490,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/nobody-asked-us/4-3-houston-and-world-xc-recap-episode/"
   https://anchor.fm/s/fd56e778/podcast/rss: &9
+  - episode_title: Racing the 90km du Mont Blanc (And my Revamped Un-orginal Training Approach)
+    episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Racing-the-90km-du-Mont-Blanc-And-my-Revamped-Un-orginal-Training-Approach-e3lcij6
+    audio_url: https://anchor.fm/s/fd56e778/podcast/play/122095654/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-28%2F244cca33-cae2-b63f-ffed-41e012ffa0a3.mp3
+    published_at: '2026-06-28T12:37:04+00:00'
+    description_html: "<p>Here I recap my race at the 90km du Mont Blanc and layout my training block with lots of side quests and dilemma with regard to preparing ultras. Enjoy.</p>"
+    description_plain: Here I recap my race at the 90km du Mont Blanc and layout my training block with lots of side quests and dilemma with regard to preparing ultras. Enjoy.
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42403310/42403310-1782649902275-ce4073556ad95.jpg
+    episode_uid: d87a55ba-7c00-43f0-85a7-789273df8aa9
+    episode_slug: racing-the-90km-du-mont-blanc-and-my-revamped-un-orginal-training-approach
+    episode_key: racing-the-90km-du-mont-blanc-and-my-revamped-un-orginal-training-approach
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/speed-dhiman-radio/racing-the-90km-du-mont-blanc-and-my-revamped-un-orginal-training-approach/"
   - episode_title: Submaxxing, Tough Choices, Structure&Analysis
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Submaxxing--Tough-Choices--StructureAnalysis-e3g8bb1
     audio_url: https://anchor.fm/s/fd56e778/podcast/play/116714273/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-10%2Fd1b78595-1ed9-ab4c-96ca-fce117c7cc6e.mp3
@@ -3500,7 +3512,7 @@ episodes_by_feed:
     episode_uid: 3cb7fe89-4212-4db2-a903-c06c6c8f9693
     episode_slug: submaxxing-tough-choices-structure-analysis
     episode_key: submaxxing-tough-choices-structure-analysis
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/speed-dhiman-radio/submaxxing-tough-choices-structure-analysis/"
   - episode_title: Row the Boat
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Row-the-Boat-e3f7b1f
@@ -3512,7 +3524,7 @@ episodes_by_feed:
     episode_uid: 1333f042-6c95-4767-84b3-4b94a0b9969d
     episode_slug: row-the-boat
     episode_key: row-the-boat
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/speed-dhiman-radio/row-the-boat/"
   - episode_title: Training diaries, race week, volume stats and routines, doubles/triples, psychology, race calendar, Western-UTMB tantalizing double
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-diaries--race-week--volume-stats-and-routines--doublestriples--psychology--race-calendar--Western-UTMB-tantalizing-double-e3e707r
@@ -3524,7 +3536,7 @@ episodes_by_feed:
     episode_uid: d7f7eba7-b407-438f-90b5-1313fa1d4bce
     episode_slug: training-diaries-race-week-volume-stats-and-routines-doubles-triples-psychology-race-calendar-western-utmb-tantalizing-d
     episode_key: training-diaries-race-week-volume-stats-and-routines-doubles-triples-psychology-race-calendar-western-utmb-tantalizing-d
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/speed-dhiman-radio/training-diaries-race-week-volume-stats-and-routines-doubles-triples-psychology-race-calendar-western-utmb-tantalizing-d/"
   - episode_title: Early mornings, session sequencing, speed and skimo, fear and no fear, journalistic duties, europe v america
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Early-mornings--session-sequencing--speed-and-skimo--fear-and-no-fear--journalistic-duties--europe-v-america-e3di4tf
@@ -3536,7 +3548,7 @@ episodes_by_feed:
     episode_uid: 9b1ace6e-c235-492a-9b2c-7bef6289f728
     episode_slug: early-mornings-session-sequencing-speed-and-skimo-fear-and-no-fear-journalistic-duties-europe-v-america
     episode_key: early-mornings-session-sequencing-speed-and-skimo-fear-and-no-fear-journalistic-duties-europe-v-america
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/speed-dhiman-radio/early-mornings-session-sequencing-speed-and-skimo-fear-and-no-fear-journalistic-duties-europe-v-america/"
   - episode_title: Last One of 2025
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Last-One-of-2025-e3cs2rc
@@ -3548,7 +3560,7 @@ episodes_by_feed:
     episode_uid: a4b84922-391b-4098-84d4-d04e2ba31cd4
     episode_slug: last-one-of-2025
     episode_key: last-one-of-2025
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/speed-dhiman-radio/last-one-of-2025/"
   - episode_title: Q&A Time
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/QA-Time-e38epvp
@@ -3560,7 +3572,7 @@ episodes_by_feed:
     episode_uid: 9bc14218-8f48-4559-aac9-2aa6575336f9
     episode_slug: q-a-time
     episode_key: q-a-time
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/speed-dhiman-radio/q-a-time/"
   - episode_title: Post-UTMB Ruminations
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Post-UTMB-Ruminations-e381md6
@@ -3572,7 +3584,7 @@ episodes_by_feed:
     episode_uid: 72f2da51-102d-4063-8ab9-af386c0a5b63
     episode_slug: post-utmb-ruminations
     episode_key: post-utmb-ruminations
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/speed-dhiman-radio/post-utmb-ruminations/"
   - episode_title: 'Training Breakdown #10 (con Antonio y Miguel)'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-10-con-Antonio-y-Miguel-e377dsi
@@ -3584,7 +3596,7 @@ episodes_by_feed:
     episode_uid: f81dec42-10e0-440c-be9a-fe86fbdf3a79
     episode_slug: training-breakdown-10-con-antonio-y-miguel
     episode_key: training-breakdown-10-con-antonio-y-miguel
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/speed-dhiman-radio/training-breakdown-10-con-antonio-y-miguel/"
   - episode_title: 'Training Breakdown #9'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-9-e36bu0j
@@ -3596,7 +3608,7 @@ episodes_by_feed:
     episode_uid: bcea10b8-4fb9-4c33-8299-8dbab5bf00b7
     episode_slug: training-breakdown-9
     episode_key: training-breakdown-9
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/speed-dhiman-radio/training-breakdown-9/"
   - episode_title: Race Breakdown - LUT 120k
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Race-Breakdown---LUT-120k-e3594eb
@@ -3608,7 +3620,7 @@ episodes_by_feed:
     episode_uid: be5c0ee5-ad17-46a3-b95e-44614f448935
     episode_slug: race-breakdown-lut-120k
     episode_key: race-breakdown-lut-120k
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/speed-dhiman-radio/race-breakdown-lut-120k/"
   - episode_title: 'Training Breakdown #8 (Pre-Lavaredo talk)'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-8-Pre-Lavaredo-talk-e34df1n
@@ -3620,7 +3632,7 @@ episodes_by_feed:
     episode_uid: 14b0de17-50b6-4534-9ac7-303bebe2559a
     episode_slug: training-breakdown-8-pre-lavaredo-talk
     episode_key: training-breakdown-8-pre-lavaredo-talk
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/speed-dhiman-radio/training-breakdown-8-pre-lavaredo-talk/"
   - episode_title: 'Training Breakdown #7'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-7-e333ksm
@@ -3632,7 +3644,7 @@ episodes_by_feed:
     episode_uid: f1823f3f-bbf0-4a93-8692-bb18608ccc71
     episode_slug: training-breakdown-7
     episode_key: training-breakdown-7
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/speed-dhiman-radio/training-breakdown-7/"
   - episode_title: Race Exchange
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Race-Exchange-e3283e7
@@ -3644,7 +3656,7 @@ episodes_by_feed:
     episode_uid: 9ba57ca7-2732-47db-925d-23f01505fd94
     episode_slug: race-exchange
     episode_key: race-exchange
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/speed-dhiman-radio/race-exchange/"
   - episode_title: 'Training Breakdown #6'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-6-e317bgc
@@ -3656,7 +3668,7 @@ episodes_by_feed:
     episode_uid: fcc1129a-072b-49e5-9e88-6c5bc3da8944
     episode_slug: training-breakdown-6
     episode_key: training-breakdown-6
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/speed-dhiman-radio/training-breakdown-6/"
   - episode_title: 'Training Breakdown #5'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-5-e309nrl
@@ -3668,7 +3680,7 @@ episodes_by_feed:
     episode_uid: 173791d3-c2cb-4180-a526-fa6492264749
     episode_slug: training-breakdown-5
     episode_key: training-breakdown-5
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/speed-dhiman-radio/training-breakdown-5/"
   - episode_title: 'Training Breakdown #4'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-4-e2vkjjj
@@ -3680,7 +3692,7 @@ episodes_by_feed:
     episode_uid: 7c64e834-3c17-42b1-ba15-eaf8915b5527
     episode_slug: training-breakdown-4
     episode_key: training-breakdown-4
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/speed-dhiman-radio/training-breakdown-4/"
   - episode_title: 'Training Breakdown #3'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-3-e2uukv0
@@ -3692,7 +3704,7 @@ episodes_by_feed:
     episode_uid: 7475b29a-b60e-4793-a940-2fc7fff64d82
     episode_slug: training-breakdown-3
     episode_key: training-breakdown-3
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/speed-dhiman-radio/training-breakdown-3/"
   - episode_title: 'Training Breakdown #2'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-2-e2u82ah
@@ -3704,7 +3716,7 @@ episodes_by_feed:
     episode_uid: 4def0b18-86f7-4446-affb-34cb4b1b5845
     episode_slug: training-breakdown-2
     episode_key: training-breakdown-2
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/speed-dhiman-radio/training-breakdown-2/"
   - episode_title: 'Training Breakdown #1'
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Breakdown-1-e2td5tm
@@ -3716,7 +3728,7 @@ episodes_by_feed:
     episode_uid: ceb401ec-c4ea-4c95-b927-ff0803e3b5cd
     episode_slug: training-breakdown-1
     episode_key: training-breakdown-1
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/speed-dhiman-radio/training-breakdown-1/"
   - episode_title: Training Principles Unlocked
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Training-Principles-Unlocked-e2t0d6l
@@ -3728,7 +3740,7 @@ episodes_by_feed:
     episode_uid: cf34ceef-fb36-4dd4-beb1-9b175c16bcb1
     episode_slug: training-principles-unlocked
     episode_key: training-principles-unlocked
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/speed-dhiman-radio/training-principles-unlocked/"
   - episode_title: Easier said than done
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Easier-said-than-done-e2s6ur8
@@ -3740,7 +3752,7 @@ episodes_by_feed:
     episode_uid: 385f6fd9-8993-4b7d-b5bb-d1e530baafd4
     episode_slug: easier-said-than-done
     episode_key: easier-said-than-done
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/speed-dhiman-radio/easier-said-than-done/"
   - episode_title: De-Brief w/ Gautier
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/De-Brief-w-Gautier-e2rs3ge
@@ -3752,7 +3764,7 @@ episodes_by_feed:
     episode_uid: e8cabe2a-a6c3-4a68-ae93-3d7c8dad2c84
     episode_slug: de-brief-w-gautier
     episode_key: de-brief-w-gautier
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/speed-dhiman-radio/de-brief-w-gautier/"
   - episode_title: Road Rambling and Season Finale
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Road-Rambling-and-Season-Finale-e2ra61u
@@ -3764,7 +3776,7 @@ episodes_by_feed:
     episode_uid: 4fe54aa6-8422-4f09-a113-4af1a5e868ae
     episode_slug: road-rambling-and-season-finale
     episode_key: road-rambling-and-season-finale
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/speed-dhiman-radio/road-rambling-and-season-finale/"
   - episode_title: AMA Nov 2024
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/AMA-Nov-2024-e2qnp91
@@ -3776,7 +3788,7 @@ episodes_by_feed:
     episode_uid: 49671f82-2fda-4528-af2d-d3011f4b47dc
     episode_slug: ama-nov-2024
     episode_key: ama-nov-2024
-    legacy_numbered_slug: episode-24
+    legacy_numbered_slug: episode-25
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
   - episode_title: 'Episode 623: Race Anxiety'
