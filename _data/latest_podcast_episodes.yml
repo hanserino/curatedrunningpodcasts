@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-06-29T03:11:52Z'
+generated_at: '2026-06-29T05:39:59Z'
 items:
+- podcast_title: Dans la Tête d’un Coureur
+  podcast_page_url: "/dans-la-t-te-d-un-coureur/"
+  cover_image: "/media/danslateteeduncoureur.jpeg"
+  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
+  filter_category: trail ultra french
+  episode_title: Comment gagne-t-on le Marathon du Mont-Blanc ? W. Candice Fertin-Baccon & Benjamin Polin
+  episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-and-benjamin-polin-8e4af436
+  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/8e4af436-8c80-4267-b0f2-d31d607f6fed.mp3?_=1782684974
+  published_at: '2026-06-29T04:45:00+00:00'
+  episode_key: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
+  episode_slug: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
+  episode_page_url: "/dans-la-t-te-d-un-coureur/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin/"
 - podcast_title: Speed Dhiman Radio
   podcast_page_url: "/speed-dhiman-radio/"
   cover_image: "/media/speeddhimanradio.jpeg"
@@ -25,18 +37,6 @@ items:
   episode_key: kilometro-y-resultado-western-states-100-2026-parte-3
   episode_slug: kilometro-y-resultado-western-states-100-2026-parte-3
   episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-3/"
-- podcast_title: Dans la Tête d’un Coureur
-  podcast_page_url: "/dans-la-t-te-d-un-coureur/"
-  cover_image: "/media/danslateteeduncoureur.jpeg"
-  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
-  filter_category: trail ultra french
-  episode_title: Ben Dhiman, nous raconte pourquoi ce 90km était hors normes. [1/2]
-  episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-12-57f128e3
-  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/57f128e3-ee9e-4da7-a85c-697825350883.mp3?_=1782582923
-  published_at: '2026-06-28T05:05:00+00:00'
-  episode_key: ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-1-2
-  episode_slug: ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-1-2
-  episode_page_url: "/dans-la-t-te-d-un-coureur/ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-1-2/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -758,6 +758,42 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Patrik Norqvist
+  episode_url: https://www.sverigesradio.se/avsnitt/2815471
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_patrik_norqvist_podd_ny_20260624_1305342545.mp3
+  published_at: '2026-06-29T11:00:00Z'
+  episode_key: patrik-norqvist
+  episode_slug: patrik-norqvist
+  episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
+- podcast_title: The Diary Of A CEO
+  podcast_page_url: "/the-diary-of-a-ceo/"
+  cover_image: "/media/diaryofaceo.jpeg"
+  feed_url: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
+  filter_category: uncategorized english
+  episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
+  episode_url: ''
+  audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KW360AZ5WMQFTCMQBDWEDQ1A.mp3
+  published_at: '2026-06-29T05:00:00Z'
+  episode_key: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
+  episode_slug: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
+  episode_page_url: "/the-diary-of-a-ceo/women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima/"
+- podcast_title: Oppdatert
+  podcast_page_url: "/oppdatert/"
+  cover_image: "/media/oppdatert.jpeg"
+  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
+  filter_category: uncategorized norwegian
+  episode_title: Ivanka Trumps luksusdrøm fyrer opp Albania
+  episode_url: ''
+  audio_url: https://podkast.nrk.no/fil/oppdatert/e40361e8-9e02-4a8b-8361-e89e029a8b82_1_ID192MP3.mp3
+  published_at: '2026-06-29T05:59:00+02:00'
+  episode_key: ivanka-trumps-luksusdrom-fyrer-opp-albania
+  episode_slug: ivanka-trumps-luksusdrom-fyrer-opp-albania
+  episode_page_url: "/oppdatert/ivanka-trumps-luksusdrom-fyrer-opp-albania/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -770,18 +806,6 @@ non_running_items:
   episode_key: er-det-iphonens-feil-at-vi-far-faerre-barn
   episode_slug: er-det-iphonens-feil-at-vi-far-faerre-barn
   episode_page_url: "/forklart/er-det-iphonens-feil-at-vi-far-faerre-barn/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Ginna Lindberg
-  episode_url: https://www.sverigesradio.se/avsnitt/2815470
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_ginna_lindberg_podd_20260623_1651211719.mp3
-  published_at: '2026-06-28T11:00:00Z'
-  episode_key: ginna-lindberg
-  episode_slug: ginna-lindberg
-  episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -878,30 +902,6 @@ non_running_items:
   episode_key: the-steam-machine-is-how-much
   episode_slug: the-steam-machine-is-how-much
   episode_page_url: "/waveform-the-mkbhd-podcast/the-steam-machine-is-how-much/"
-- podcast_title: The Diary Of A CEO
-  podcast_page_url: "/the-diary-of-a-ceo/"
-  cover_image: "/media/diaryofaceo.jpeg"
-  feed_url: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
-  filter_category: uncategorized english
-  episode_title: 'Most Replayed Moment: Sleep Expert On The Truth About Melatonin And Magnesium'
-  episode_url: ''
-  audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSSMKV07E69NXS3GBDBP2M9C.mp3
-  published_at: '2026-06-26T05:00:00Z'
-  episode_key: most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium
-  episode_slug: most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium
-  episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium/"
-- podcast_title: Oppdatert
-  podcast_page_url: "/oppdatert/"
-  cover_image: "/media/oppdatert.jpeg"
-  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
-  filter_category: uncategorized norwegian
-  episode_title: 'Jobben ingen mestrer: Er Burnham britenes nye håp?'
-  episode_url: ''
-  audio_url: https://podkast.nrk.no/fil/oppdatert/87a0aa66-1f37-4d4f-a0aa-661f37dd4f04_1_ID192MP3.mp3
-  published_at: '2026-06-26T05:59:00+02:00'
-  episode_key: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
-  episode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
-  episode_page_url: "/oppdatert/jobben-ingen-mestrer-er-burnham-britenes-nye-hap/"
 - podcast_title: Alex och Sigges podcast
   podcast_page_url: "/alex-og-sigges-podcast/"
   cover_image: "/media/alexochsigge.jpeg"
@@ -11829,6 +11829,31 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/course-equipe/extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &38
+  - episode_title: Comment gagne-t-on le Marathon du Mont-Blanc ? W. Candice Fertin-Baccon & Benjamin Polin
+    episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-and-benjamin-polin-8e4af436
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/8e4af436-8c80-4267-b0f2-d31d607f6fed.mp3?_=1782684974
+    published_at: '2026-06-29T04:45:00+00:00'
+    description_html: "<p>Ils ont tous les deux remporté le Marathon du Mont-Blanc.</p><p>D'un côté, <strong>Candice Fertin-Baccon</strong>, qui s'impose dès son tout premier ultra-trail après avoir pris les commandes de la course avec une maîtrise impressionnante.</p><p>De l'autre, <strong>Benjamin Polin</strong>, vainqueur du 23 km historique grâce à une course parfaitement construite, où chaque accélération semblait avoir été pensée à l'avance.</p><p>Dans cet épisode de <strong>Dans la Tête d'un Coureur</strong>, ils reviennent sur leurs choix d'entraînement, leur préparation, leur stratégie de course et les décisions qui leur ont permis de s'imposer sur l'un des rendez-vous les plus prestigieux du trail de montagne.</p><p>Un épisode réalisé en collaboration avec New Balance</p><p>Bonne écoute \U0001F399️</p><p>Hébergé par Audiomeans. Visitez <a href=\"https://www.audiomeans.fr/politique-de-confidentialite\">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>"
+    description_plain: "Ils ont tous les deux remporté le Marathon du Mont-Blanc. D'un côté, Candice Fertin-Baccon , qui s'impose dès son tout premier ultra-trail après avoir pris les commandes de la course avec une maîtrise impressionnante. De l'autre, Benjamin Polin , vainqueur du 23 km historique grâce à une course parfaitement construite, où chaque accélération semblait avoir été pensée à l'avance. Dans cet épisode de Dans la Tête d'un Coureur , ils reviennent sur leurs choix d'entraînement, leur préparation, leur stratégie de course et les décisions qui leur ont permis de s'imposer sur l'un des rendez-vous les plus prestigieux du trail de montagne. Un épisode réalisé en collaboration avec New Balance Bonne écoute \U0001F399️ Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d'informations."
+    episode_image_url: https://static.audiomeans.fr/img/episode/b4d87f02-8971-4541-9271-dee9eb2d364d.jpg
+    episode_uid: 8e4af436-8c80-4267-b0f2-d31d607f6fed
+    episode_slug: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
+    episode_key: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/dans-la-t-te-d-un-coureur/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin/"
+  - episode_title: Le Trail a-t-il changé de dimension ce weekend ? W. Rémi Bonnet , Vincent Viet & Anthony Saliou
+    episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-and-anthony-saliou-e6598107
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/e6598107-9724-476a-a023-a03e4c0c1999.mp3?_=1782684155
+    published_at: '2026-06-29T04:00:00+00:00'
+    description_html: "<p>Le Marathon du Mont-Blanc et la Western States  ont-il rebattu les cartes de la saison ?</p><p>Dans cet épisode, Guillaume retrouve Vincent Viet et Anthony d'Enduraw Data pour analyser les performances qui ont marqué le week-end.</p><p>Le retour au sommet de Rémi Bonnet après son duel avec Frédéric Tranchand, l'impressionnante démonstration de Tove Alexandersson, la victoire de Louison Coiffet face à Ben Dhiman, les progrès techniques de ce dernier, le premier ultra remporté par Candice Fertin-Baccon, mais aussi les performances de Baptiste Chassagne, Baptiste Coatantiec et du local Baptiste Ellmenreich.</p><p>Au-delà des résultats, l'équipe décrypte ce que ces courses révèlent de l'évolution du très haut niveau en trail et des rapports de force à quelques semaines des grandes échéances.</p><p>Enfin, direction les États-Unis avec un tour d'horizon de la Western States : les favoris, les enjeux et les pronostics de l'équipe avant l'un des rendez-vous les plus attendus de la saison.</p><p>Bonne écoute \U0001F399️</p><p>Hébergé par Audiomeans. Visitez <a href=\"https://www.audiomeans.fr/politique-de-confidentialite\">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>"
+    description_plain: "Le Marathon du Mont-Blanc et la Western States ont-il rebattu les cartes de la saison ? Dans cet épisode, Guillaume retrouve Vincent Viet et Anthony d'Enduraw Data pour analyser les performances qui ont marqué le week-end. Le retour au sommet de Rémi Bonnet après son duel avec Frédéric Tranchand, l'impressionnante démonstration de Tove Alexandersson, la victoire de Louison Coiffet face à Ben Dhiman, les progrès techniques de ce dernier, le premier ultra remporté par Candice Fertin-Baccon, mais aussi les performances de Baptiste Chassagne, Baptiste Coatantiec et du local Baptiste Ellmenreich. Au-delà des résultats, l'équipe décrypte ce que ces courses révèlent de l'évolution du très haut niveau en trail et des rapports de force à quelques semaines des grandes échéances. Enfin, direction les États-Unis avec un tour d'horizon de la Western States : les favoris, les enjeux et les pronostics de l'équipe avant l'un des rendez-vous les plus attendus de la saison. Bonne écoute \U0001F399️ Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d'informations."
+    episode_image_url: https://static.audiomeans.fr/img/episode/78cacad5-3ec2-4335-987c-bd62e78fe1e5.jpg
+    episode_uid: e6598107-9724-476a-a023-a03e4c0c1999
+    episode_slug: le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-anthony-saliou
+    episode_key: le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-anthony-saliou
+    legacy_unicode_slug: le-trail-a-t-il-changé-de-dimension-ce-weekend-w-rémi-bonnet-vincent-viet-anthony-saliou
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/dans-la-t-te-d-un-coureur/le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-anthony-saliou/"
   - episode_title: Ben Dhiman, nous raconte pourquoi ce 90km était hors normes. [1/2]
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-12-57f128e3
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/57f128e3-ee9e-4da7-a85c-697825350883.mp3?_=1782582923
@@ -11840,7 +11865,7 @@ episodes_by_feed:
     episode_slug: ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-1-2
     episode_key: ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-1-2
     legacy_unicode_slug: ben-dhiman-nous-raconte-pourquoi-ce-90km-était-hors-normes-1-2
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-03
     episode_page_url: "/dans-la-t-te-d-un-coureur/ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-1-2/"
   - episode_title: 'Louison Coiffet : comment il a construit sa victoire sur le 90km du Mont Blanc [2/2]'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/louison-coiffet-se-livre-sur-les-coulisses-de-sa-victoire-22-7585e161
@@ -11852,7 +11877,7 @@ episodes_by_feed:
     episode_uid: 7585e161-8408-4ab1-a8a9-a856dbf18717
     episode_slug: louison-coiffet-comment-il-a-construit-sa-victoire-sur-le-90km-du-mont-blanc-2-2
     episode_key: louison-coiffet-comment-il-a-construit-sa-victoire-sur-le-90km-du-mont-blanc-2-2
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-04
     episode_page_url: "/dans-la-t-te-d-un-coureur/louison-coiffet-comment-il-a-construit-sa-victoire-sur-le-90km-du-mont-blanc-2-2/"
   - episode_title: Comment savoir si vous progressez vraiment ?  [2/2]
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/comment-savoir-si-vous-progressez-vraiment-22-e38f64d2
@@ -11864,7 +11889,7 @@ episodes_by_feed:
     episode_uid: e38f64d2-b774-4af3-8165-32c064e4d65b
     episode_slug: comment-savoir-si-vous-progressez-vraiment-2-2
     episode_key: comment-savoir-si-vous-progressez-vraiment-2-2
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-05
     episode_page_url: "/dans-la-t-te-d-un-coureur/comment-savoir-si-vous-progressez-vraiment-2-2/"
   - episode_title: Pourquoi t'entraîner plus ne te fera pas progresser  [1/2]
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/pourquoi-sentrainer-plus-ne-vous-fera-pas-progresser-12-a17ded59
@@ -11877,7 +11902,7 @@ episodes_by_feed:
     episode_slug: pourquoi-t-entrainer-plus-ne-te-fera-pas-progresser-1-2
     episode_key: pourquoi-t-entrainer-plus-ne-te-fera-pas-progresser-1-2
     legacy_unicode_slug: pourquoi-t-entraîner-plus-ne-te-fera-pas-progresser-1-2
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-06
     episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-t-entrainer-plus-ne-te-fera-pas-progresser-1-2/"
   - episode_title: "Molly Seidel : \"le jour où j'ai cessé de me mentir\" (Version Française \U0001F1EB\U0001F1F7)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/molly-seidel-le-jour-ou-jai-cesse-de-me-mentir-version-francaise-860dd309
@@ -11890,7 +11915,7 @@ episodes_by_feed:
     episode_slug: molly-seidel-le-jour-ou-j-ai-cesse-de-me-mentir-version-francaise
     episode_key: molly-seidel-le-jour-ou-j-ai-cesse-de-me-mentir-version-francaise
     legacy_unicode_slug: molly-seidel-le-jour-où-j-ai-cessé-de-me-mentir-version-française
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-07
     episode_page_url: "/dans-la-t-te-d-un-coureur/molly-seidel-le-jour-ou-j-ai-cesse-de-me-mentir-version-francaise/"
   - episode_title: "Molly Seidel : \"The day I finally stopped lying to myself\" (English version \U0001F1EC\U0001F1E7)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version-375568c3
@@ -11902,7 +11927,7 @@ episodes_by_feed:
     episode_uid: 375568c3-f731-4b13-ad45-4fd5c92909ea
     episode_slug: molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version
     episode_key: molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-08
     episode_page_url: "/dans-la-t-te-d-un-coureur/molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version/"
   - episode_title: 'Trail Alsace : la plus belle course de France ?! (c''est irréel)'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/trail-alsace-la-plus-bel-course-de-france-cest-irreel-415dfe86
@@ -11915,7 +11940,7 @@ episodes_by_feed:
     episode_slug: trail-alsace-la-plus-belle-course-de-france-c-est-irreel
     episode_key: trail-alsace-la-plus-belle-course-de-france-c-est-irreel
     legacy_unicode_slug: trail-alsace-la-plus-belle-course-de-france-c-est-irréel
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-09
     episode_page_url: "/dans-la-t-te-d-un-coureur/trail-alsace-la-plus-belle-course-de-france-c-est-irreel/"
   - episode_title: '30/30, Seuil : quelles séances te rendent vraiment plus rapide ? [2/2]'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/3030-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-22-341b895a
@@ -11928,7 +11953,7 @@ episodes_by_feed:
     episode_slug: 30-30-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-2-2
     episode_key: 30-30-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-2-2
     legacy_unicode_slug: 30-30-seuil-quelles-séances-te-rendent-vraiment-plus-rapide-2-2
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-10
     episode_page_url: "/dans-la-t-te-d-un-coureur/30-30-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-2-2/"
   - episode_title: 'VMA, VO₂max : quel est le meilleur indicateur de performance ? [1/2]'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/vma-vomax-quel-est-le-meilleur-indicateur-de-performance-12-62c35c49
@@ -11940,7 +11965,7 @@ episodes_by_feed:
     episode_uid: 62c35c49-b7f0-416b-88a1-e574a1f8c391
     episode_slug: vma-vo-max-quel-est-le-meilleur-indicateur-de-performance-1-2
     episode_key: vma-vo-max-quel-est-le-meilleur-indicateur-de-performance-1-2
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-11
     episode_page_url: "/dans-la-t-te-d-un-coureur/vma-vo-max-quel-est-le-meilleur-indicateur-de-performance-1-2/"
   - episode_title: '“Je cours avec ma colère" : Ben Mazué ou l’art de faire la paix en courant'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-mazue-je-cours-avec-ma-colere-dltdc-heroes-c76fe265
@@ -11953,7 +11978,7 @@ episodes_by_feed:
     episode_slug: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
     episode_key: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
     legacy_unicode_slug: je-cours-avec-ma-colère-ben-mazué-ou-l-art-de-faire-la-paix-en-courant
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-12
     episode_page_url: "/dans-la-t-te-d-un-coureur/je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant/"
   - episode_title: "[2/2]  Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/22-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-fd0021bd
@@ -11966,7 +11991,7 @@ episodes_by_feed:
     episode_slug: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     episode_key: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     legacy_unicode_slug: 2-2-pourquoi-notre-cerveau-déteste-courir-après-une-coupure-et-comment-le-reprogrammer
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-13
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
   - episode_title: "[1/2] Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/12-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-0357e31d
@@ -11979,7 +12004,7 @@ episodes_by_feed:
     episode_slug: 1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     episode_key: 1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     legacy_unicode_slug: 1-2-pourquoi-notre-cerveau-déteste-courir-après-une-coupure-et-comment-le-reprogrammer
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-14
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
   - episode_title: Depuis quand le Marathon est-il devenu banal ? Océane Andréa & Charlotte Martin  / SAFE PLACE
     episode_url: ''
@@ -11992,7 +12017,7 @@ episodes_by_feed:
     episode_slug: depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place
     episode_key: depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place
     legacy_unicode_slug: depuis-quand-le-marathon-est-il-devenu-banal-océane-andréa-charlotte-martin-safe-place
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-15
     episode_page_url: "/dans-la-t-te-d-un-coureur/depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place/"
   - episode_title: "[2/2]  L’endurance Fondamentale est-elle Surcotée ? (ou réservée aux élites )"
     episode_url: ''
@@ -12005,7 +12030,7 @@ episodes_by_feed:
     episode_slug: 2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     episode_key: 2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     legacy_unicode_slug: 2-2-l-endurance-fondamentale-est-elle-surcotée-ou-réservée-aux-élites
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-16
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites/"
   - episode_title: "[1/2]  L’endurance Fondamentale est-elle Surcotée ? (ou réservée aux élites )"
     episode_url: ''
@@ -12018,7 +12043,7 @@ episodes_by_feed:
     episode_slug: 1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     episode_key: 1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     legacy_unicode_slug: 1-2-l-endurance-fondamentale-est-elle-surcotée-ou-réservée-aux-élites
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-17
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites/"
   - episode_title: 'Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race'
     episode_url: ''
@@ -12031,7 +12056,7 @@ episodes_by_feed:
     episode_slug: hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race
     episode_key: hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race
     legacy_unicode_slug: hugo-deck-le-récit-de-son-duel-avec-théo-détienne-et-yannick-noël-à-la-maxi-race
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-18
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race/"
   - episode_title: 'MaXi-Race : Le Grand Débrief et l''Actu Trail avec Joseph Mestrallet & Candice Fertin'
     episode_url: ''
@@ -12044,7 +12069,7 @@ episodes_by_feed:
     episode_slug: maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
     episode_key: maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
     legacy_unicode_slug: maxi-race-le-grand-débrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-19
     episode_page_url: "/dans-la-t-te-d-un-coureur/maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin/"
   - episode_title: Pourquoi même les coureurs croient aux arnaques ?  Le cas Power Balance  [REDIFF ]
     episode_url: ''
@@ -12057,7 +12082,7 @@ episodes_by_feed:
     episode_slug: pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
     episode_key: pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
     legacy_unicode_slug: pourquoi-même-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-20
     episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff/"
   - episode_title: 'Marathon d’Annecy : et si c’était la plus belle course de France ?'
     episode_url: ''
@@ -12070,7 +12095,7 @@ episodes_by_feed:
     episode_slug: marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france
     episode_key: marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france
     legacy_unicode_slug: marathon-d-annecy-et-si-c-était-la-plus-belle-course-de-france
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-21
     episode_page_url: "/dans-la-t-te-d-un-coureur/marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france/"
   - episode_title: Nike a voulu révolutionner la chaussure… et ça a échoué (l’histoire de la VaporMax)  [REDIFF ]
     episode_url: ''
@@ -12083,7 +12108,7 @@ episodes_by_feed:
     episode_slug: nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff
     episode_key: nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff
     legacy_unicode_slug: nike-a-voulu-révolutionner-la-chaussure-et-ça-a-échoué-l-histoire-de-la-vapormax-rediff
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-22
     episode_page_url: "/dans-la-t-te-d-un-coureur/nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff/"
   - episode_title: Hugo Deck, la performance peut-elle rester un plaisir ?
     episode_url: ''
@@ -12095,7 +12120,7 @@ episodes_by_feed:
     episode_uid: 309d162c-4cb2-4432-b927-140bc34560b5
     episode_slug: hugo-deck-la-performance-peut-elle-rester-un-plaisir
     episode_key: hugo-deck-la-performance-peut-elle-rester-un-plaisir
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-23
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-la-performance-peut-elle-rester-un-plaisir/"
   - episode_title: 'Gobi : l’histoire du chien qui a bouleversé le monde du Trail'
     episode_url: ''
@@ -12108,7 +12133,7 @@ episodes_by_feed:
     episode_slug: gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail
     episode_key: gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail
     legacy_unicode_slug: gobi-l-histoire-du-chien-qui-a-bouleversé-le-monde-du-trail
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-24
     episode_page_url: "/dans-la-t-te-d-un-coureur/gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail/"
   - episode_title: Dans l'Enfer du Surentraînement / le Récit de @JB_Tri_off
     episode_url: ''
@@ -12121,34 +12146,8 @@ episodes_by_feed:
     episode_slug: dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off
     episode_key: dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off
     legacy_unicode_slug: dans-l-enfer-du-surentraînement-le-récit-de-jb-tri-off
-    legacy_numbered_slug: episode-23
-    episode_page_url: "/dans-la-t-te-d-un-coureur/dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off/"
-  - episode_title: 'Rosie Ruiz : la tricheuse qui a gagné le marathon de Boston sans jamais le courir  [REDIFF ]'
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/abb7c02a-cb6c-4286-979e-c2935c6b8704.mp3?_=1776937544
-    published_at: '2026-05-08T03:59:00+00:00'
-    description_html: <p>Dans cet épisode, découvrez l'incroyable histoire de Rosie Ruiz, tristement célèbre pour avoir prétendu avoir remporté le Marathon de Boston en 1980.</p><p>Revisitez les moments clés de cette supercherie, de sa prétendue victoire jusqu'à la révélation de sa tromperie.</p><p>Hébergé par Audiomeans. Visitez <a href="https://www.audiomeans.fr/politique-de-confidentialite">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>
-    description_plain: Dans cet épisode, découvrez l'incroyable histoire de Rosie Ruiz, tristement célèbre pour avoir prétendu avoir remporté le Marathon de Boston en 1980. Revisitez les moments clés de cette supercherie, de sa prétendue victoire jusqu'à la révélation de sa tromperie. Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d'informations.
-    episode_image_url: https://static.audiomeans.fr/img/episode/1df550b8-2256-44d9-9d74-1d347793dd87.jpg
-    episode_uid: abb7c02a-cb6c-4286-979e-c2935c6b8704
-    episode_slug: rosie-ruiz-la-tricheuse-qui-a-gagne-le-marathon-de-boston-sans-jamais-le-courir-rediff
-    episode_key: rosie-ruiz-la-tricheuse-qui-a-gagne-le-marathon-de-boston-sans-jamais-le-courir-rediff
-    legacy_unicode_slug: rosie-ruiz-la-tricheuse-qui-a-gagné-le-marathon-de-boston-sans-jamais-le-courir-rediff
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/dans-la-t-te-d-un-coureur/rosie-ruiz-la-tricheuse-qui-a-gagne-le-marathon-de-boston-sans-jamais-le-courir-rediff/"
-  - episode_title: 'Zones d’intensité : pourquoi tant de coureurs se trompent (sans même le savoir) ? W. Tristan'
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/af3325d1-401e-4feb-beb0-38234bb34fcc.mp3?_=1776947212
-    published_at: '2026-05-04T03:55:00+00:00'
-    description_html: <p>On en parle partout.</p><p>Sur les montres, les applis, les plans d’entraînement. Mais au fond, combien de coureurs comprennent vraiment leurs zones d’intensité ?</p><p>Dans cet épisode, Guillaume et Tristan s’attaquent à l’un des sujets les plus mal compris en course à pied. Entre idées reçues, confusion entre allures, sensations et fréquence cardiaque, et mythe de la fameuse “zone grise”, ils remettent à plat ce que sont vraiment les zones… et surtout à quoi elles servent.</p><p>Bénéficiez de 1 mois offert avec le code DLTDC sur Campus Coach</p><p>Hébergé par Audiomeans. Visitez <a href="https://www.audiomeans.fr/politique-de-confidentialite">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>
-    description_plain: On en parle partout. Sur les montres, les applis, les plans d’entraînement. Mais au fond, combien de coureurs comprennent vraiment leurs zones d’intensité ? Dans cet épisode, Guillaume et Tristan s’attaquent à l’un des sujets les plus mal compris en course à pied. Entre idées reçues, confusion entre allures, sensations et fréquence cardiaque, et mythe de la fameuse “zone grise”, ils remettent à plat ce que sont vraiment les zones… et surtout à quoi elles servent. Bénéficiez de 1 mois offert avec le code DLTDC sur Campus Coach Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d'informations.
-    episode_image_url: https://static.audiomeans.fr/img/episode/4272098f-87d9-4343-b351-146dc03a8a22.jpg
-    episode_uid: af3325d1-401e-4feb-beb0-38234bb34fcc
-    episode_slug: zones-d-intensite-pourquoi-tant-de-coureurs-se-trompent-sans-meme-le-savoir-w-tristan
-    episode_key: zones-d-intensite-pourquoi-tant-de-coureurs-se-trompent-sans-meme-le-savoir-w-tristan
-    legacy_unicode_slug: zones-d-intensité-pourquoi-tant-de-coureurs-se-trompent-sans-même-le-savoir-w-tristan
     legacy_numbered_slug: episode-25
-    episode_page_url: "/dans-la-t-te-d-un-coureur/zones-d-intensite-pourquoi-tant-de-coureurs-se-trompent-sans-meme-le-savoir-w-tristan/"
+    episode_page_url: "/dans-la-t-te-d-un-coureur/dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off/"
   https://rss.libsyn.com/shows/506688/destinations/4343338.xml: &39
   - episode_title: Ep. 79 Who is Cade Michael?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-79-who-is-cade-michael
@@ -19537,18 +19536,31 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/huberman-lab/essentials-how-to-build-strength-muscle-size-endurance-dr-andy-galpin/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &63
+  - episode_title: Ivanka Trumps luksusdrøm fyrer opp Albania
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/e40361e8-9e02-4a8b-8361-e89e029a8b82_1_ID192MP3.mp3
+    published_at: '2026-06-29T05:59:00+02:00'
+    description_html: Trumps datter og svigersønn har falt pladask for en av Albanias kystperler. Det møter store problemer.
+    description_plain: Trumps datter og svigersønn har falt pladask for en av Albanias kystperler. Det møter store problemer.
+    episode_image_url: https://gfx.nrk.no/k_TZDECBdiYGipFmWhUR6grWWj42TbRbXcI0K6SvW8Sg.jpg
+    episode_uid: e40361e8-9e02-4a8b-8361-e89e029a8b82-1-id192mp3-mp3
+    episode_slug: ivanka-trumps-luksusdrom-fyrer-opp-albania
+    episode_key: ivanka-trumps-luksusdrom-fyrer-opp-albania
+    legacy_unicode_slug: ivanka-trumps-luksusdrøm-fyrer-opp-albania
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/oppdatert/ivanka-trumps-luksusdrom-fyrer-opp-albania/"
   - episode_title: 'Jobben ingen mestrer: Er Burnham britenes nye håp?'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/87a0aa66-1f37-4d4f-a0aa-661f37dd4f04_1_ID192MP3.mp3
     published_at: '2026-06-26T05:59:00+02:00'
-    description_html: På 10 år har 6 statsministere gått av i Storbritannia. Vil "kongen fra nord" være redningen?
-    description_plain: På 10 år har 6 statsministere gått av i Storbritannia. Vil "kongen fra nord" være redningen?
+    description_html: På 10 år har seks statsministere gått av i Storbritannia. Vil «kongen fra nord» være redningen?
+    description_plain: På 10 år har seks statsministere gått av i Storbritannia. Vil «kongen fra nord» være redningen?
     episode_image_url: https://gfx.nrk.no/hxuanZsiS10qTKkuGKWsiQg9q3YVk32hCEJtyKeCnZtg.jpg
     episode_uid: 87a0aa66-1f37-4d4f-a0aa-661f37dd4f04-1-id192mp3-mp3
     episode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
     episode_key: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
     legacy_unicode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-håp
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/oppdatert/jobben-ingen-mestrer-er-burnham-britenes-nye-hap/"
   - episode_title: 'Dødsgåte i Mango-dynastiet: Ble gründeren drept?'
     episode_url: ''
@@ -19561,7 +19573,7 @@ episodes_by_feed:
     episode_slug: dodsgate-i-mango-dynastiet-ble-grunderen-drept
     episode_key: dodsgate-i-mango-dynastiet-ble-grunderen-drept
     legacy_unicode_slug: dødsgåte-i-mango-dynastiet-ble-gründeren-drept
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/oppdatert/dodsgate-i-mango-dynastiet-ble-grunderen-drept/"
   - episode_title: 'Iran i VM: Storpolitisk drama'
     episode_url: ''
@@ -19573,7 +19585,7 @@ episodes_by_feed:
     episode_uid: 85b5ce4c-55fe-478f-b5ce-4c55fe178f9e-1-id192mp3-mp3
     episode_slug: iran-i-vm-storpolitisk-drama
     episode_key: iran-i-vm-storpolitisk-drama
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/oppdatert/iran-i-vm-storpolitisk-drama/"
   - episode_title: 'Katastrofebrannen i LA: Sto en 29-åring bak?'
     episode_url: ''
@@ -19586,7 +19598,7 @@ episodes_by_feed:
     episode_slug: katastrofebrannen-i-la-sto-en-29-aring-bak
     episode_key: katastrofebrannen-i-la-sto-en-29-aring-bak
     legacy_unicode_slug: katastrofebrannen-i-la-sto-en-29-åring-bak
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/oppdatert/katastrofebrannen-i-la-sto-en-29-aring-bak/"
   - episode_title: 'Dobbeltdrap i Sverige: Er nordmannen torpedo?'
     episode_url: ''
@@ -19598,7 +19610,7 @@ episodes_by_feed:
     episode_uid: 8a7b8710-2770-41d0-bb87-10277091d022-1-id192mp3-mp3
     episode_slug: dobbeltdrap-i-sverige-er-nordmannen-torpedo
     episode_key: dobbeltdrap-i-sverige-er-nordmannen-torpedo
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/oppdatert/dobbeltdrap-i-sverige-er-nordmannen-torpedo/"
   - episode_title: 'Fra kontrovers til suksess: Er dette sommerens stjerne?'
     episode_url: ''
@@ -19610,7 +19622,7 @@ episodes_by_feed:
     episode_uid: 66aa0d8a-5213-4c73-aa0d-8a52135c73a1-1-id192mp3-mp3
     episode_slug: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
     episode_key: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/oppdatert/fra-kontrovers-til-suksess-er-dette-sommerens-stjerne/"
   - episode_title: 'Dop, damer og hatkrim-anklager: Et bevisst spill?'
     episode_url: ''
@@ -19622,7 +19634,7 @@ episodes_by_feed:
     episode_uid: 4f099b7a-c8ac-4368-899b-7ac8ac036847-1-id192mp3-mp3
     episode_slug: dop-damer-og-hatkrim-anklager-et-bevisst-spill
     episode_key: dop-damer-og-hatkrim-anklager-et-bevisst-spill
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/oppdatert/dop-damer-og-hatkrim-anklager-et-bevisst-spill/"
   - episode_title: 'Narkokartellenes jerngrep: Likene i VM-byen'
     episode_url: ''
@@ -19634,7 +19646,7 @@ episodes_by_feed:
     episode_uid: b06f72e5-c62e-485a-af72-e5c62e085adf-1-id192mp3-mp3
     episode_slug: narkokartellenes-jerngrep-likene-i-vm-byen
     episode_key: narkokartellenes-jerngrep-likene-i-vm-byen
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/oppdatert/narkokartellenes-jerngrep-likene-i-vm-byen/"
   - episode_title: 'Dom i Høiby-saken: Hva skjer videre?'
     episode_url: ''
@@ -19647,21 +19659,21 @@ episodes_by_feed:
     episode_slug: dom-i-hoiby-saken-hva-skjer-videre
     episode_key: dom-i-hoiby-saken-hva-skjer-videre
     legacy_unicode_slug: dom-i-høiby-saken-hva-skjer-videre
-    legacy_numbered_slug: episode-09
-    episode_page_url: "/oppdatert/dom-i-hoiby-saken-hva-skjer-videre/"
-  - episode_title: 'Nowak-drapet: Derfor koker Storbritannia'
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/fb7f3d2f-cb8c-403f-bf3d-2fcb8cd03f25_1_ID192MP3.mp3
-    published_at: '2026-06-15T05:59:00+02:00'
-    description_html: En video av en pågripelse og knivstikking har utløst en bølge av aggressive protester i Storbritannia.
-    description_plain: En video av en pågripelse og knivstikking har utløst en bølge av aggressive protester i Storbritannia.
-    episode_image_url: https://gfx.nrk.no/jNr8OqyB6Qj14ab2B3ylHALurY0jX2vOnK-NhQWcjfYw.jpg
-    episode_uid: fb7f3d2f-cb8c-403f-bf3d-2fcb8cd03f25-1-id192mp3-mp3
-    episode_slug: nowak-drapet-derfor-koker-storbritannia
-    episode_key: nowak-drapet-derfor-koker-storbritannia
     legacy_numbered_slug: episode-10
-    episode_page_url: "/oppdatert/nowak-drapet-derfor-koker-storbritannia/"
+    episode_page_url: "/oppdatert/dom-i-hoiby-saken-hva-skjer-videre/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Patrik Norqvist
+    episode_url: https://www.sverigesradio.se/avsnitt/2815471
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_patrik_norqvist_podd_ny_20260624_1305342545.mp3
+    published_at: '2026-06-29T11:00:00Z'
+    description_html: <p>Rymdfysikern ger svar på frågorna vi grubblat på i åratal.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Rymdfysikern ger svar på frågorna vi grubblat på i åratal. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815471
+    episode_slug: patrik-norqvist
+    episode_key: patrik-norqvist
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
   - episode_title: Ginna Lindberg
     episode_url: https://www.sverigesradio.se/avsnitt/2815470
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_ginna_lindberg_podd_20260623_1651211719.mp3
@@ -19672,7 +19684,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815470
     episode_slug: ginna-lindberg
     episode_key: ginna-lindberg
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
   - episode_title: Alexander Karim
     episode_url: https://www.sverigesradio.se/avsnitt/2815519
@@ -19684,7 +19696,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815519
     episode_slug: alexander-karim
     episode_key: alexander-karim
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
   - episode_title: Carolina Dybeck Happe
     episode_url: https://www.sverigesradio.se/avsnitt/2815474
@@ -19696,7 +19708,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815474
     episode_slug: carolina-dybeck-happe
     episode_key: carolina-dybeck-happe
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/carolina-dybeck-happe/"
   - episode_title: Jonas Gren
     episode_url: https://www.sverigesradio.se/avsnitt/2815467
@@ -19708,7 +19720,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815467
     episode_slug: jonas-gren
     episode_key: jonas-gren
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/jonas-gren/"
   - episode_title: Jonas Bonnier
     episode_url: https://www.sverigesradio.se/avsnitt/2815466
@@ -19720,7 +19732,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815466
     episode_slug: jonas-bonnier
     episode_key: jonas-bonnier
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/jonas-bonnier/"
   - episode_title: Amanda Romare
     episode_url: https://www.sverigesradio.se/avsnitt/2815465
@@ -19732,7 +19744,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815465
     episode_slug: amanda-romare
     episode_key: amanda-romare
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/amanda-romare/"
   - episode_title: Martin Kragh
     episode_url: https://www.sverigesradio.se/avsnitt/2815464
@@ -19744,7 +19756,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815464
     episode_slug: martin-kragh
     episode_key: martin-kragh
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/martin-kragh/"
   - episode_title: Sebastian Ingrosso
     episode_url: https://www.sverigesradio.se/avsnitt/2815463
@@ -19756,7 +19768,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815463
     episode_slug: sebastian-ingrosso
     episode_key: sebastian-ingrosso
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/sebastian-ingrosso/"
   - episode_title: Helena Bergström
     episode_url: https://www.sverigesradio.se/avsnitt/2815462
@@ -19769,7 +19781,7 @@ episodes_by_feed:
     episode_slug: helena-bergstrom
     episode_key: helena-bergstrom
     legacy_unicode_slug: helena-bergström
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
@@ -19782,7 +19794,7 @@ episodes_by_feed:
     episode_slug: hor-arets-sommarpratare-presenteras
     episode_key: hor-arets-sommarpratare-presenteras
     legacy_unicode_slug: hör-årets-sommarpratare-presenteras
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
@@ -19795,7 +19807,7 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   - episode_title: Camilla Lif
     episode_url: https://www.sverigesradio.se/avsnitt/2700899
@@ -19807,7 +19819,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700899
     episode_slug: camilla-lif
     episode_key: camilla-lif
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
   - episode_title: Claes Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700884
@@ -19819,7 +19831,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700884
     episode_slug: claes-eriksson
     episode_key: claes-eriksson
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
   - episode_title: Dilsa Demirbag-Sten
     episode_url: https://www.sverigesradio.se/avsnitt/2700859
@@ -19831,7 +19843,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700859
     episode_slug: dilsa-demirbag-sten
     episode_key: dilsa-demirbag-sten
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/dilsa-demirbag-sten/"
   - episode_title: Ulf Ellervik
     episode_url: https://www.sverigesradio.se/avsnitt/2700835
@@ -19843,7 +19855,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700835
     episode_slug: ulf-ellervik
     episode_key: ulf-ellervik
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/ulf-ellervik/"
   - episode_title: Denise Rudberg
     episode_url: https://www.sverigesradio.se/avsnitt/2700813
@@ -19855,7 +19867,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700813
     episode_slug: denise-rudberg
     episode_key: denise-rudberg
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/denise-rudberg/"
   - episode_title: Bert Sundström
     episode_url: https://www.sverigesradio.se/avsnitt/2700802
@@ -19868,7 +19880,7 @@ episodes_by_feed:
     episode_slug: bert-sundstrom
     episode_key: bert-sundstrom
     legacy_unicode_slug: bert-sundström
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/bert-sundstrom/"
   - episode_title: Linnea Henriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700790
@@ -19880,7 +19892,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700790
     episode_slug: linnea-henriksson
     episode_key: linnea-henriksson
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/linnea-henriksson/"
   - episode_title: Thomas Bodström
     episode_url: https://www.sverigesradio.se/avsnitt/2700772
@@ -19893,7 +19905,7 @@ episodes_by_feed:
     episode_slug: thomas-bodstrom
     episode_key: thomas-bodstrom
     legacy_unicode_slug: thomas-bodström
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/thomas-bodstrom/"
   - episode_title: Vintervärdarna 2025 presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2705958
@@ -19906,7 +19918,7 @@ episodes_by_feed:
     episode_slug: vintervardarna-2025-presenteras
     episode_key: vintervardarna-2025-presenteras
     legacy_unicode_slug: vintervärdarna-2025-presenteras
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/vintervardarna-2025-presenteras/"
   - episode_title: Roland Pöntinen
     episode_url: https://www.sverigesradio.se/avsnitt/2579000
@@ -19919,7 +19931,7 @@ episodes_by_feed:
     episode_slug: roland-pontinen
     episode_key: roland-pontinen
     legacy_unicode_slug: roland-pöntinen
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/roland-pontinen/"
   - episode_title: Ella Carlsson
     episode_url: https://www.sverigesradio.se/avsnitt/2578999
@@ -19931,7 +19943,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578999
     episode_slug: ella-carlsson
     episode_key: ella-carlsson
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/ella-carlsson/"
   - episode_title: Aya Kanbar
     episode_url: https://www.sverigesradio.se/avsnitt/2578998
@@ -19943,7 +19955,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578998
     episode_slug: aya-kanbar
     episode_key: aya-kanbar
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/aya-kanbar/"
   - episode_title: Isabelle Haak
     episode_url: https://www.sverigesradio.se/avsnitt/2578997
@@ -19955,20 +19967,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578997
     episode_slug: isabelle-haak
     episode_key: isabelle-haak
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/isabelle-haak/"
-  - episode_title: Mikael Wiehe
-    episode_url: https://www.sverigesradio.se/avsnitt/2578996
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/08/sommar__vinter_i_p1_mikael_wiehe_20250820_1611430301.mp3
-    published_at: '2025-08-13T11:00:00Z'
-    description_html: <p>Artisten om att kombinera musik och politik - och om att drabbas av Alzheimers sjukdom.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Artisten om att kombinera musik och politik - och om att drabbas av Alzheimers sjukdom. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/b6b28dfb-061d-4078-b715-ede9b935f3aa.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2578996
-    episode_slug: mikael-wiehe
-    episode_key: mikael-wiehe
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/mikael-wiehe/"
+    episode_page_url: "/sommar-vinter-i-p1/isabelle-haak/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -24011,6 +24011,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-colin-and-samir-show/why-netflix-is-stealing-podcasts-from-youtube/"
   https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &78
+  - episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KW360AZ5WMQFTCMQBDWEDQ1A.mp3
+    published_at: '2026-06-29T05:00:00Z'
+    description_html: '<p class="text-node">Women''s Health Expert Dr Stephanie Estima reveals the 6 fitness myths keeping you weak, why skinny is the wrong goal, and the 5 muscle groups every woman should be building!  Dr. Stephanie Estima is a Doctor of Chiropractic and women''s health expert with over 20 years of clinical practice specialising in female physiology, hormones, and metabolism. She hosts the podcast Better With Dr Stephanie and is the author of ‘The Betty Body’ and the upcoming book, ‘Nothing to Lose: A Clinicians Guide to What Comes After Skinny: Building Strength, Shape, and a Body You Can Trust.’</p><p class="text-node">She explains: ◼ The 4 types of women sabotaging their own health, and which one is you ◼ Why lifting weights won''t make you bulky, and what actually changes your body ◼ How long fasts are quietly damaging your hormones and what to do instead ◼ Why the way you squat might be wrong for your anatomy  ◼ The supplements every woman should take and what they actually do for you</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:30</strong> Why Women Are Still Given Bad Health Advice</li><li><strong>00:04:26</strong> Is Being Skinny Actually Healthy?</li><li><strong>00:05:41</strong> How Stephanie''s Experience Changed Her Approach</li><li><strong>00:06:42</strong> Stephanie''s Personal Battle With Body Image</li><li><strong>00:09:19</strong> What You''ll Take Away From This Conversation</li><li><strong>00:10:21</strong> The 4 Female Health Archetypes Explained</li><li><strong>00:10:51</strong> Are You Overwhelmed Olivia?</li><li><strong>00:12:32</strong> Are You Skinny Fat Sophie?</li><li><strong>00:13:56</strong> How To Reduce Belly Fat Effectively</li><li><strong>00:16:08</strong> Are You Exorcist Emily?</li><li><strong>00:17:31</strong> Are You Dialled-In Diana?</li><li><strong>00:19:47</strong> Are Carbs Really Bad? And Is Keto Worth It?</li><li><strong>00:22:05</strong> Signs Your Thyroid May Not Be Working Properly</li><li><strong>00:24:11</strong> Will Lifting Weights Make You Bulky?</li><li><strong>00:26:11</strong> Is Fasting Safe For Women?</li><li><strong>00:28:38</strong> What If You''re Scared To Lift Heavy Weights?</li><li><strong>00:30:02</strong> Does Post-Workout Meal Timing Really Matter?</li><li><strong>00:30:45</strong> Should You Eat Before A Workout?</li><li><strong>00:31:30</strong> Can Ketones Improve Your Workout?</li><li><strong>00:32:32</strong> Which Muscles Should Women Prioritise?</li><li><strong>00:35:26</strong> How To Train For An Hourglass Figure</li><li><strong>00:37:14</strong> The Key Differences Between Male And Female Anatomy</li><li><strong>00:41:37</strong> Why Women Should Squat Differently Than Men</li><li><strong>00:44:22</strong> How Strength Training Can Help Prevent Falls</li><li><strong>00:46:23</strong> Ads</li><li><strong>00:48:23</strong> Which Supplements Are Actually Worth Taking?</li><li><strong>00:51:29</strong> Should Women Take Creatine?</li><li><strong>00:52:07</strong> A Creatine Hack For Perimenopause</li><li><strong>00:53:12</strong> Does Collagen Actually Work?</li><li><strong>00:55:44</strong> Are Protein Shakes Worth It?</li><li><strong>00:55:58</strong> Where Cardio Fits Into A Strength Plan</li><li><strong>00:56:47</strong> Are Cortisol Spikes Really A Problem?</li><li><strong>00:58:22</strong> Is Cardio Helpful For Women With PCOS?</li><li><strong>01:00:01</strong> Don''t Stop Doing These Exercises As You Age</li><li><strong>01:00:19</strong> Why Sprinting Is So Good For Women</li><li><strong>01:03:57</strong> Is Running Bad For Your Knees?</li><li><strong>01:04:47</strong> Why Jump Training Matters</li><li><strong>01:05:05</strong> The Benefits Of Isometric Holds</li><li><strong>01:06:20</strong> Why Deceleration Is Essential For Mobility</li><li><strong>01:07:19</strong> The Most Underrated No-Equipment Exercise</li><li><strong>01:12:16</strong> The Best Bodyweight Exercises To Add To Your Routine</li><li><strong>01:12:44</strong> Ads</li><li><strong>01:14:52</strong> The Biggest Fitness Challenges Mothers Face</li><li><strong>01:15:33</strong> What Every Woman Should Know About The Pelvic Floor</li><li><strong>01:18:51</strong> What Women Aren''t Saying Out Loud About Sex</li><li><strong>01:21:03</strong> GLP-1s And HRT: What Women Should Know</li><li><strong>01:22:23</strong> The Recovery Habits Women Should Prioritise</li><li><strong>01:23:45</strong> The Missing Piece Of Fitness Most Women Overlook</li><li><strong>01:25:14</strong> Is Pilates Alone Enough?</li><li><strong>01:26:51</strong> Stephanie''s Skincare Routine</li><li><strong>01:27:24</strong> Nearly 50 And Feeling Better Than Ever</li><li><strong>01:28:33</strong> Do You Believe In God?</li><li><strong>01:29:06</strong> What Does A Successful Life Look Like?</li><li><strong>01:30:18</strong> Where To Find Stephanie</li></ul>  Follow Dr Stephanie: YouTube - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/rYfoNE">https://link.thediaryofaceo.com/rYfoNE</a> Podcast - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/6jpMJFM">https://link.thediaryofaceo.com/6jpMJFM</a>  Newsletter - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/8RH73AS">https://link.thediaryofaceo.com/8RH73AS</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/AEFoO6V">https://link.thediaryofaceo.com/AEFoO6V</a></p><p class="text-node">You can find out more about ‘Get LIFT: The training program for women in midlife’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/fCH9zk">https://link.thediaryofaceo.com/fCH9zk</a></p><p class="text-node">You can pre-order Stephanie’s book, ‘Nothing to Lose: A Clinicians Guide to What Comes After Skinny: Building Strength, Shape, and a Body You Can Trust’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/Bsldjir">https://link.thediaryofaceo.com/Bsldjir</a></p><p class="text-node">The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a>  ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a>  ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a>  ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a>  ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a>  ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors: Fiverr - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://fiverr.com/diary">https://fiverr.com/diary</a> and get 10% off your first order when you use code DIARY Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://cometeer.com/DOAC">https://cometeer.com/DOAC</a> use code DOAC for $20 off Eight Sleep - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="http://eightsleep.com/steven">http://eightsleep.com/steven</a> use code STEVEN for $500 off. 30-day at-home trial. Free returns. Offer ends July 12. Pipedrive - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://pipedrive.com/CEO">https://pipedrive.com/CEO</a></p>'
+    description_plain: 'Women''s Health Expert Dr Stephanie Estima reveals the 6 fitness myths keeping you weak, why skinny is the wrong goal, and the 5 muscle groups every woman should be building! Dr. Stephanie Estima is a Doctor of Chiropractic and women''s health expert with over 20 years of clinical practice specialising in female physiology, hormones, and metabolism. She hosts the podcast Better With Dr Stephanie and is the author of ‘The Betty Body’ and the upcoming book, ‘Nothing to Lose: A Clinicians Guide to What Comes After Skinny: Building Strength, Shape, and a Body You Can Trust.’ She explains: ◼ The 4 types of women sabotaging their own health, and which one is you ◼ Why lifting weights won''t make you bulky, and what actually changes your body ◼ How long fasts are quietly damaging your hormones and what to do instead ◼ Why the way you squat might be wrong for your anatomy ◼ The supplements every woman should take and what they actually do for you Chapters 00:00:00 Intro 00:02:30 Why Women Are Still Given Bad Health Advice 00:04:26 Is Being Skinny Actually Healthy? 00:05:41 How Stephanie''s Experience Changed Her Approach 00:06:42 Stephanie''s Personal Battle With Body Image 00:09:19 What You''ll Take Away From This Conversation 00:10:21 The 4 Female Health Archetypes Explained 00:10:51 Are You Overwhelmed Olivia? 00:12:32 Are You Skinny Fat Sophie? 00:13:56 How To Reduce Belly Fat Effectively 00:16:08 Are You Exorcist Emily? 00:17:31 Are You Dialled-In Diana? 00:19:47 Are Carbs Really Bad? And Is Keto Worth It? 00:22:05 Signs Your Thyroid May Not Be Working Properly 00:24:11 Will Lifting Weights Make You Bulky? 00:26:11 Is Fasting Safe For Women? 00:28:38 What If You''re Scared To Lift Heavy Weights? 00:30:02 Does Post-Workout Meal Timing Really Matter? 00:30:45 Should You Eat Before A Workout? 00:31:30 Can Ketones Improve Your Workout? 00:32:32 Which Muscles Should Women Prioritise? 00:35:26 How To Train For An Hourglass Figure 00:37:14 The Key Differences Between Male And Female Anatomy 00:41:37 Why Women Should Squat Differently Than Men 00:44:22 How Strength Training Can Help Prevent Falls 00:46:23 Ads 00:48:23 Which Supplements Are Actually Worth Taking? 00:51:29 Should Women Take Creatine? 00:52:07 A Creatine Hack For Perimenopause 00:53:12 Does Collagen Actually Work? 00:55:44 Are Protein Shakes Worth It? 00:55:58 Where Cardio Fits Into A Strength Plan 00:56:47 Are Cortisol Spikes Really A Problem? 00:58:22 Is Cardio Helpful For Women With PCOS? 01:00:01 Don''t Stop Doing These Exercises As You Age 01:00:19 Why Sprinting Is So Good For Women 01:03:57 Is Running Bad For Your Knees? 01:04:47 Why Jump Training Matters 01:05:05 The Benefits Of Isometric Holds 01:06:20 Why Deceleration Is Essential For Mobility 01:07:19 The Most Underrated No-Equipment Exercise 01:12:16 The Best Bodyweight Exercises To Add To Your Routine 01:12:44 Ads 01:14:52 The Biggest Fitness Challenges Mothers Face 01:15:33 What Every Woman Should Know About The Pelvic Floor 01:18:51 What Women Aren''t Saying Out Loud About Sex 01:21:03 GLP-1s And HRT: What Women Should Know 01:22:23 The Recovery Habits Women Should Prioritise 01:23:45 The Missing Piece Of Fitness Most Women Overlook 01:25:14 Is Pilates Alone Enough? 01:26:51 Stephanie''s Skincare Routine 01:27:24 Nearly 50 And Feeling Better Than Ever 01:28:33 Do You Believe In God? 01:29:06 What Does A Successful Life Look Like? 01:30:18 Where To Find Stephanie Follow Dr Stephanie: YouTube - https://link.thediaryofaceo.com/rYfoNE Podcast - https://link.thediaryofaceo.com/6jpMJFM Newsletter - https://link.thediaryofaceo.com/8RH73AS Instagram - https://link.thediaryofaceo.com/AEFoO6V You can find out more about ‘Get LIFT: The training program for women in midlife’, here: https://link.thediaryofaceo.com/fCH9zk You can pre-order Stephanie’s book, ‘Nothing to Lose: A Clinicians Guide to What Comes After Skinny: Building Strength, Shape, and a Body You Can Trust’, here: https://link.thediaryofaceo.com/Bsldjir The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Fiverr - https://fiverr.com/diary and get 10% off your first order when you use code DIARY Cometeer - https://cometeer.com/DOAC use code DOAC for $20 off Eight Sleep - http://eightsleep.com/steven use code STEVEN for $500 off. 30-day at-home trial. Free returns. Offer ends July 12. Pipedrive - https://pipedrive.com/CEO'
+    episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KW361GW5A3WVE3R7RXPSYGBZ/stephanie_estima_.ep_cover_.jpg
+    episode_uid: flightcast-01kw360az5eea4d3qh5c6pc2xm
+    episode_slug: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
+    episode_key: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-diary-of-a-ceo/women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima/"
   - episode_title: 'Most Replayed Moment: Sleep Expert On The Truth About Melatonin And Magnesium'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSSMKV07E69NXS3GBDBP2M9C.mp3
@@ -24021,7 +24033,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssmkv070dtbqjgp6ab9adhs
     episode_slug: most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium
     episode_key: most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium/"
   - episode_title: 'Billionaire''s WARNING: I''m SELLING. The Crash Is Already Here!'
     episode_url: ''
@@ -24033,7 +24045,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kvxg1g7hw6asjr6efj3dqybr
     episode_slug: billionaire-s-warning-i-m-selling-the-crash-is-already-here
     episode_key: billionaire-s-warning-i-m-selling-the-crash-is-already-here
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-diary-of-a-ceo/billionaire-s-warning-i-m-selling-the-crash-is-already-here/"
   - episode_title: 'Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!'
     episode_url: ''
@@ -24045,7 +24057,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kvm73tkx1t1jqkd6k2kyyhjk
     episode_slug: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
     episode_key: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-diary-of-a-ceo/dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms/"
   - episode_title: 'Most Replayed Moment: The 4 Personalities Living In Your Brain! How To Switch Between Them'
     episode_url: ''
@@ -24057,7 +24069,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssm221gvkactqjst50c29wt
     episode_slug: most-replayed-moment-the-4-personalities-living-in-your-brain-how-to-switch-between-them
     episode_key: most-replayed-moment-the-4-personalities-living-in-your-brain-how-to-switch-between-them
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-4-personalities-living-in-your-brain-how-to-switch-between-them/"
   - episode_title: 'Vice President JD Vance: No One Saw This Coming, The Ceasefire Is Real!'
     episode_url: ''
@@ -24069,7 +24081,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kvbbap1azyt30q74j6n4cm84
     episode_slug: vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real
     episode_key: vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-diary-of-a-ceo/vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real/"
   - episode_title: 'Creatine Expert: Creatine Is The Secret To Weight Loss'
     episode_url: ''
@@ -24081,7 +24093,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kv1annh3b159tvxz55c6w851
     episode_slug: creatine-expert-creatine-is-the-secret-to-weight-loss
     episode_key: creatine-expert-creatine-is-the-secret-to-weight-loss
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-diary-of-a-ceo/creatine-expert-creatine-is-the-secret-to-weight-loss/"
   - episode_title: 'Most Replayed Moment: Is Milk Healthy? The Truth About Dairy, Sugar, Fruit And Fasting'
     episode_url: ''
@@ -24093,7 +24105,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssjrtdkrpredtygqvjz91ab
     episode_slug: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
     episode_key: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting/"
   - episode_title: 'Archaeology WARNING:  They Secretly Found Antarctica 300 Years Before Us - Graham Hancock'
     episode_url: ''
@@ -24105,7 +24117,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ktsq9b3v53jfegbr8ddybsmm
     episode_slug: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
     episode_key: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-diary-of-a-ceo/archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock/"
   - episode_title: 'Death of the Middle Class: Billionaire vs Entrepreneur DEBATE - Daniel Priestley v Nick Hanauer'
     episode_url: ''
@@ -24117,7 +24129,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kthx7wcr8tv92taf5y99fm5m
     episode_slug: death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer
     episode_key: death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-diary-of-a-ceo/death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer/"
   - episode_title: 'Most Replayed Moment: Brené Brown on Vulnerability, Self Esteem and The Four Skillsets Of Courage'
     episode_url: ''
@@ -24130,7 +24142,7 @@ episodes_by_feed:
     episode_slug: most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
     episode_key: most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
     legacy_unicode_slug: most-replayed-moment-brené-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage/"
   - episode_title: 'Christian Apologist: The Truth About Christianity (And Why Atheism Is Fading)'
     episode_url: ''
@@ -24142,7 +24154,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kt7fyycxjwmnjyvrcj3rx9vp
     episode_slug: christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading
     episode_key: christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-diary-of-a-ceo/christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading/"
   - episode_title: 'Tech Whistleblower: You Only Have 3 Years Left Before This Hits! - Mo Gawdat'
     episode_url: ''
@@ -24154,7 +24166,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kszdq99mmz0tdaac0ewy7t03
     episode_slug: tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat
     episode_key: tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-diary-of-a-ceo/tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat/"
   - episode_title: 'Most Replayed Moment: The Hidden Organ That Controls Exactly How You Age!'
     episode_url: ''
@@ -24166,7 +24178,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7wvvfyr4va949s12svfs3x
     episode_slug: most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age
     episode_key: most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age/"
   - episode_title: 'EMERGENCY DEBATE: The Economy Is About To Collapse! The 2026 AI Crisis Nobody Sees Coming'
     episode_url: ''
@@ -24178,7 +24190,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ksnmg2epdsanf6f3eh346zaj
     episode_slug: emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming
     episode_key: emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-diary-of-a-ceo/emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming/"
   - episode_title: 'Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No.'
     episode_url: ''
@@ -24190,7 +24202,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ksdj6z8qn3e3a9k5vxm0td8s
     episode_slug: bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no
     episode_key: bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-diary-of-a-ceo/bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no/"
   - episode_title: 'Most Replayed Moment: AI Safety Expert Predicts The Next 20 Years! Will It Really Take All Jobs?'
     episode_url: ''
@@ -24202,7 +24214,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7wfp6j4y4xyjnwbty7d743
     episode_slug: most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs
     episode_key: most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs/"
   - episode_title: 'World-Renowned Physicist: The Truth About Aliens! UFOs Are Definitely Robotic - Michio Kaku'
     episode_url: ''
@@ -24214,7 +24226,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ks3j8kqhh9hb44tjm37pbhz3
     episode_slug: world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku
     episode_key: world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-diary-of-a-ceo/world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku/"
   - episode_title: 'Fatty Liver Expert: Your Liver Is Filling With Fat Right Now - Dr David Unwin'
     episode_url: ''
@@ -24226,7 +24238,7 @@ episodes_by_feed:
     episode_uid: flightcast-01krvdft0bae6257wqwr76mwr6
     episode_slug: fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin
     episode_key: fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-diary-of-a-ceo/fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin/"
   - episode_title: 'Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?'
     episode_url: ''
@@ -24238,7 +24250,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7w8nwe3d62nfc72x0q1wbs
     episode_slug: most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful
     episode_key: most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful/"
   - episode_title: 'UFO Roundtable: CIA Physicist Proves Aliens Exist'
     episode_url: ''
@@ -24250,7 +24262,7 @@ episodes_by_feed:
     episode_uid: flightcast-01krhzy6hbpb067yc206xc7erf
     episode_slug: ufo-roundtable-cia-physicist-proves-aliens-exist
     episode_key: ufo-roundtable-cia-physicist-proves-aliens-exist
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-diary-of-a-ceo/ufo-roundtable-cia-physicist-proves-aliens-exist/"
   - episode_title: 'Pulitzer Prize Historian: You Won''t Notice Until It''s Too Late!'
     episode_url: ''
@@ -24262,7 +24274,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kr97ym65pryfhgrx6w8e0gne
     episode_slug: pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late
     episode_key: pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-diary-of-a-ceo/pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late/"
   - episode_title: 'Most Replayed Moment: This Is The Best Exercise Protocol For Women!'
     episode_url: ''
@@ -24274,7 +24286,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7vsbtaf3grs244y13qqj0a
     episode_slug: most-replayed-moment-this-is-the-best-exercise-protocol-for-women
     episode_key: most-replayed-moment-this-is-the-best-exercise-protocol-for-women
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-this-is-the-best-exercise-protocol-for-women/"
   - episode_title: 'WW3 Expert: This Could Trigger Global Starvation'
     episode_url: ''
@@ -24286,7 +24298,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kr007tme4vjbshmqshhy34j4
     episode_slug: ww3-expert-this-could-trigger-global-starvation
     episode_key: ww3-expert-this-could-trigger-global-starvation
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-diary-of-a-ceo/ww3-expert-this-could-trigger-global-starvation/"
   - episode_title: 'Scott Galloway: AI Wasn’t Built For You. The Rich Don’t Need You Anymore!'
     episode_url: ''
@@ -24298,20 +24310,8 @@ episodes_by_feed:
     episode_uid: flightcast-01kqnhxqa2c1eygwgh1g7vpf2c
     episode_slug: scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore
     episode_key: scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-diary-of-a-ceo/scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore/"
-  - episode_title: 'Most Replayed Moment: Neil deGrasse Tyson On The Future Of Humanity! Will We Ever Go To Mars?'
-    episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KQ7TY8MF7BWP6QNWCFP4FEEP.mp3
-    published_at: '2026-05-01T05:00:00Z'
-    description_html: '<p class="text-node">Neil deGrasse Tyson is an astrophysicist, author, and science communicator known for making the biggest questions in the universe feel human, funny, and deeply thought-provoking.</p><p class="text-node">In today’s moment, Neil dives into the unsettling possibility that our universe might be a simulation - and what that would mean for free will, meaning, AI, death, and humanity’s future in space.</p><p class="text-node">Listen to the full episode here!</p><p class="text-node">Spotify: <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/ZlSXUS8gG2b">https://g2ul0.app.link/ZlSXUS8gG2b</a></p><p class="text-node">Apple: <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/Rt2MvjnhG2b">https://g2ul0.app.link/Rt2MvjnhG2b</a></p><p class="text-node">Watch the Episodes On YouTube: <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.youtube.com/c/%20TheDiaryOfACEO/videos">https://www.youtube.com/c/%20TheDiaryOfACEO/videos</a></p><p class="text-node">Neil’s Work:<strong></strong><a target="_blank" rel="noopener noreferrer" class="link" href="https://neildegrassetyson.com/">https://neildegrassetyson.com/</a></p>'
-    description_plain: 'Neil deGrasse Tyson is an astrophysicist, author, and science communicator known for making the biggest questions in the universe feel human, funny, and deeply thought-provoking. In today’s moment, Neil dives into the unsettling possibility that our universe might be a simulation - and what that would mean for free will, meaning, AI, death, and humanity’s future in space. Listen to the full episode here! Spotify: https://g2ul0.app.link/ZlSXUS8gG2b Apple: https://g2ul0.app.link/Rt2MvjnhG2b Watch the Episodes On YouTube: https://www.youtube.com/c/%20TheDiaryOfACEO/videos Neil’s Work: https://neildegrassetyson.com/'
-    episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KQ7VF7B1MAFR67DBKXBFPFPB/square_cover_image.jpg
-    episode_uid: flightcast-01kq7ty8mft987djxv13gtsasp
-    episode_slug: most-replayed-moment-neil-degrasse-tyson-on-the-future-of-humanity-will-we-ever-go-to-mars
-    episode_key: most-replayed-moment-neil-degrasse-tyson-on-the-future-of-humanity-will-we-ever-go-to-mars
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-neil-degrasse-tyson-on-the-future-of-humanity-will-we-ever-go-to-mars/"
+    episode_page_url: "/the-diary-of-a-ceo/scott-galloway-ai-wasn-t-built-for-you-the-rich-don-t-need-you-anymore/"
   https://evokeendurance.com/media-type/evokecast/feed/: &79 []
   https://anchor.fm/s/108a0bfdc/podcast/rss: &80
   - episode_title: 11. Entrevista Andreu Blanes, nuevo fichaje de Salomon
