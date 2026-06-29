@@ -1,13 +1,25 @@
 ---
-generated_at: '2026-06-29T05:39:59Z'
+generated_at: '2026-06-29T07:44:42Z'
 items:
+- podcast_title: Course Épique
+  podcast_page_url: "/course-equipe/"
+  cover_image: "/media/courseepique.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
+  filter_category: trail ultra french
+  episode_title: Le grand débrief du Marathon du Mont-Blanc avec Rémi Bonnet, Frédéric Tranchand, Emilie Bulle, Fanny Barbara, Pierre Galbourdin et Cédric Debacq.
+  episode_url: https://courseepique.fr/
+  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a4147be6b6690f46a8861c8/media.mp3
+  published_at: '2026-06-29T07:16:32+00:00'
+  episode_key: le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
+  episode_slug: le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
+  episode_page_url: "/course-equipe/le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour/"
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur/"
   cover_image: "/media/danslateteeduncoureur.jpeg"
   feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
   filter_category: trail ultra french
   episode_title: Comment gagne-t-on le Marathon du Mont-Blanc ? W. Candice Fertin-Baccon & Benjamin Polin
-  episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-and-benjamin-polin-8e4af436
+  episode_url: ''
   audio_url: https://audio.audiomeans.fr/file/hDENVZklas/8e4af436-8c80-4267-b0f2-d31d607f6fed.mp3?_=1782684974
   published_at: '2026-06-29T04:45:00+00:00'
   episode_key: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
@@ -37,18 +49,6 @@ items:
   episode_key: kilometro-y-resultado-western-states-100-2026-parte-3
   episode_slug: kilometro-y-resultado-western-states-100-2026-parte-3
   episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-3/"
-- podcast_title: Course Épique
-  podcast_page_url: "/course-equipe/"
-  cover_image: "/media/courseepique.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66
-  filter_category: trail ultra french
-  episode_title: "[DÉBRIEF] Candice Fertin-Baccon : lever les bras à Chamonix, sa victoire sur les 90 km du Mont-Blanc"
-  episode_url: https://courseepique.fr/
-  audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a40065d89bd8728402ef0b7/media.mp3
-  published_at: '2026-06-28T03:55:00+00:00'
-  episode_key: debrief-candice-fertin-baccon-lever-les-bras-a-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc
-  episode_slug: debrief-candice-fertin-baccon-lever-les-bras-a-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc
-  episode_page_url: "/course-equipe/debrief-candice-fertin-baccon-lever-les-bras-a-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc/"
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
   cover_image: "/media/lifeinstride.jpeg"
@@ -770,6 +770,18 @@ non_running_items:
   episode_key: patrik-norqvist
   episode_slug: patrik-norqvist
   episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
+- podcast_title: How I Built This
+  podcast_page_url: "/how-i-built-this/"
+  cover_image: "/media/howibuiltthis.jpeg"
+  feed_url: https://rss.art19.com/how-i-built-this
+  filter_category: uncategorized english
+  episode_title: 'e.l.f. Cosmetics: Joey Shamah. The Dollar Store Formula That Built a Cosmetics Giant'
+  episode_url: ''
+  audio_url: https://rss.art19.com/episodes/bbc71e65-9e47-41cb-8dd4-c61fcfc2572e.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+  published_at: '2026-06-29T07:10:00Z'
+  episode_key: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
+  episode_slug: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
+  episode_page_url: "/how-i-built-this/e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant/"
 - podcast_title: The Diary Of A CEO
   podcast_page_url: "/the-diary-of-a-ceo/"
   cover_image: "/media/diaryofaceo.jpeg"
@@ -938,18 +950,6 @@ non_running_items:
   episode_key: choice-words-w-franchesca-ramsey
   episode_slug: choice-words-w-franchesca-ramsey
   episode_page_url: "/hysteria/choice-words-w-franchesca-ramsey/"
-- podcast_title: How I Built This
-  podcast_page_url: "/how-i-built-this/"
-  cover_image: "/media/howibuiltthis.jpeg"
-  feed_url: https://rss.art19.com/how-i-built-this
-  filter_category: uncategorized english
-  episode_title: Advice Line with Susan Griffin-Black of EO Products
-  episode_url: ''
-  audio_url: https://rss.art19.com/episodes/58096820-613c-40ad-9743-f1d642447c91.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-  published_at: '2026-06-25T07:10:00Z'
-  episode_key: advice-line-with-susan-griffin-black-of-eo-products
-  episode_slug: advice-line-with-susan-griffin-black-of-eo-products
-  episode_page_url: "/how-i-built-this/advice-line-with-susan-griffin-black-of-eo-products/"
 - podcast_title: That Triathlon Show
   podcast_page_url: "/that-triathlon-show/"
   cover_image: "/media/thattriathlonshow.jpeg"
@@ -11509,6 +11509,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-sub-hub/2025-sub-hub-top-pick-frederic-tranchand/"
   https://feeds.acast.com/public/shows/77e3e565-74f1-53b9-a2f3-cab16cf3eb66: &37
+  - episode_title: Le grand débrief du Marathon du Mont-Blanc avec Rémi Bonnet, Frédéric Tranchand, Emilie Bulle, Fanny Barbara, Pierre Galbourdin et Cédric Debacq.
+    episode_url: https://courseepique.fr/
+    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a4147be6b6690f46a8861c8/media.mp3
+    published_at: '2026-06-29T07:16:32+00:00'
+    description_html: '<p>Bienvenue dans le grand débrief exceptionnel du Marathon du Mont-Blanc, avec un casting 6 étoiles, jugez plutôt : Rémi Bonnet, Frédéric Tranchand, Emilie Bulle, Fanny Barbara, Pierre Galbourdin et Cédric Debacq.</p><p>Alignée sur les 90 kilomètres du Mont-Blanc, Fanny Barbara revient sur ce moment de vie où tout a basculé. En 2014, à 23 ans, on lui retire entièrement le poumon gauche suite à une tumeur neuro-endocrine. Son chirurgien lui dit alors : "Tant que vous ne courrez pas le marathon, tout ira bien." Cette phrase devient son déclic.</p><p>Dix ans plus tard, animée par une résilience hors du commun, elle franchit la ligne d''arrivée de l''UTMB. Et s''est élancée vendredi sur le 90km du Mont-Blanc.</p><p>Cédric Debacq, lui, a chaussé ses premières chaussures de running à quarante-quatre ans, cent vingt-huit kilos, après l''effondrement professionnel. Le 10 kilomètres qu''il termine ici n''est qu''une étape : un projet de transformation radicale, pensée sur plusieurs années, qui le portera à l''UTMB à cinquante ans. Un engagement profond et durable.</p><p>Sur le 42 kilomètres couru dimanche matin, l''élite trace son sillon. Rémi Bonnet et Frédéric Tranchand composent une danse savante - champion d''Europe de trail d''un côté, référence mondiale sur ces formats marathon de l''autre. Trois heures trente-trois sous une chaleur marquante pour Rémi, un âpre combat jusqu''à la mi-course, où chacun connaît les forces de l''adversaire.</p><p>Pierre Galbourdin et Emilie Bulle continuent de tracer leur route. Avec ce top 10, Pierre ressort fier et accompli de ce Marathon du Mont-Blanc, même s''il n''a pas pu livrer pleinement la course espérée. Venue pour valider sa progression depuis sa précédente participation en 2025, Emilie a confirmé avec cette 4ème place et son chrono qu''elle était sur le bon chemin.</p><p>Bienvenue dans cet épisode chorale où six parcours de vie hautement inspirants rivalisent d''intensité avec l''excellence sportive. On va passer un très bon moment ensemble.</p><p>Cet épisode est soutenu par i-Run, leader du running, du trail et de l’outdoor. Une marque présente aux côtés de tous les runners pour les aider à atteindre leurs objectifs. De leurs premières sorties aux plus grands exploits, i-Run nourrit les motivations des coureurs sur tous les terrains.</p><p>i-Run, partenaire majeur du Marathon du Mont-Blanc, c’est aussi une présence en ligne dans 9 pays Européens et une trentaine de magasins en France et en Espagne, proposant une large sélection de chaussures, textile et accessoires.</p><p>Retrouvez toute la gamme i-Run en ligne : https://www.i-run.fr/</p><p>***</p><p>Course Épique, c''est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun.</p><p>Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/</p><p>Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube</p><p>Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios</p><hr><p style=''color:grey; font-size:0.75em;''>Hébergé par Acast. Visitez <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> pour plus d''informations.</p>'
+    description_plain: 'Bienvenue dans le grand débrief exceptionnel du Marathon du Mont-Blanc, avec un casting 6 étoiles, jugez plutôt : Rémi Bonnet, Frédéric Tranchand, Emilie Bulle, Fanny Barbara, Pierre Galbourdin et Cédric Debacq. Alignée sur les 90 kilomètres du Mont-Blanc, Fanny Barbara revient sur ce moment de vie où tout a basculé. En 2014, à 23 ans, on lui retire entièrement le poumon gauche suite à une tumeur neuro-endocrine. Son chirurgien lui dit alors : "Tant que vous ne courrez pas le marathon, tout ira bien." Cette phrase devient son déclic. Dix ans plus tard, animée par une résilience hors du commun, elle franchit la ligne d''arrivée de l''UTMB. Et s''est élancée vendredi sur le 90km du Mont-Blanc. Cédric Debacq, lui, a chaussé ses premières chaussures de running à quarante-quatre ans, cent vingt-huit kilos, après l''effondrement professionnel. Le 10 kilomètres qu''il termine ici n''est qu''une étape : un projet de transformation radicale, pensée sur plusieurs années, qui le portera à l''UTMB à cinquante ans. Un engagement profond et durable. Sur le 42 kilomètres couru dimanche matin, l''élite trace son sillon. Rémi Bonnet et Frédéric Tranchand composent une danse savante - champion d''Europe de trail d''un côté, référence mondiale sur ces formats marathon de l''autre. Trois heures trente-trois sous une chaleur marquante pour Rémi, un âpre combat jusqu''à la mi-course, où chacun connaît les forces de l''adversaire. Pierre Galbourdin et Emilie Bulle continuent de tracer leur route. Avec ce top 10, Pierre ressort fier et accompli de ce Marathon du Mont-Blanc, même s''il n''a pas pu livrer pleinement la course espérée. Venue pour valider sa progression depuis sa précédente participation en 2025, Emilie a confirmé avec cette 4ème place et son chrono qu''elle était sur le bon chemin. Bienvenue dans cet épisode chorale où six parcours de vie hautement inspirants rivalisent d''intensité avec l''excellence sportive. On va passer un très bon moment ensemble. Cet épisode est soutenu par i-Run, leader du running, du trail et de l’outdoor. Une marque présente aux côtés de tous les runners pour les aider à atteindre leurs objectifs. De leurs premières sorties aux plus grands exploits, i-Run nourrit les motivations des coureurs sur tous les terrains. i-Run, partenaire majeur du Marathon du Mont-Blanc, c’est aussi une présence en ligne dans 9 pays Européens et une trentaine de magasins en France et en Espagne, proposant une large sélection de chaussures, textile et accessoires. Retrouvez toute la gamme i-Run en ligne : https://www.i-run.fr/ *** Course Épique, c''est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun. Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/ Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios Hébergé par Acast. Visitez acast.com/privacy pour plus d''informations.'
+    episode_image_url: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1782665797588-0ffd5fbe-a17a-4902-802d-2ed59436d8d6.jpeg
+    episode_uid: 6a4147be6b6690f46a8861c8
+    episode_slug: le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
+    episode_key: le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
+    legacy_unicode_slug: le-grand-débrief-du-marathon-du-mont-blanc-avec-rémi-bonnet-frédéric-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/course-equipe/le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour/"
   - episode_title: "[DÉBRIEF] Candice Fertin-Baccon : lever les bras à Chamonix, sa victoire sur les 90 km du Mont-Blanc"
     episode_url: https://courseepique.fr/
     audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/6a40065d89bd8728402ef0b7/media.mp3
@@ -11520,7 +11533,7 @@ episodes_by_feed:
     episode_slug: debrief-candice-fertin-baccon-lever-les-bras-a-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc
     episode_key: debrief-candice-fertin-baccon-lever-les-bras-a-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc
     legacy_unicode_slug: débrief-candice-fertin-baccon-lever-les-bras-à-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/course-equipe/debrief-candice-fertin-baccon-lever-les-bras-a-chamonix-sa-victoire-sur-les-90-km-du-mont-blanc/"
   - episode_title: 100 000 mètres de dénivelé positif, un défi stratosphérique - avec Benjamin Mougel
     episode_url: https://courseepique.fr/
@@ -11533,7 +11546,7 @@ episodes_by_feed:
     episode_slug: 100-000-metres-de-denivele-positif-un-defi-stratospherique-avec-benjamin-mougel
     episode_key: 100-000-metres-de-denivele-positif-un-defi-stratospherique-avec-benjamin-mougel
     legacy_unicode_slug: 100-000-mètres-de-dénivelé-positif-un-défi-stratosphérique-avec-benjamin-mougel
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/course-equipe/100-000-metres-de-denivele-positif-un-defi-stratospherique-avec-benjamin-mougel/"
   - episode_title: "[EXTRAIT] 100 000 mètres de dénivelé positif, un défi stratosphérique - avec Benjamin Mougel"
     episode_url: https://courseepique.fr/
@@ -11546,7 +11559,7 @@ episodes_by_feed:
     episode_slug: extrait-100-000-metres-de-denivele-positif-un-defi-stratospherique-avec-benjamin-mougel
     episode_key: extrait-100-000-metres-de-denivele-positif-un-defi-stratospherique-avec-benjamin-mougel
     legacy_unicode_slug: extrait-100-000-mètres-de-dénivelé-positif-un-défi-stratosphérique-avec-benjamin-mougel
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/course-equipe/extrait-100-000-metres-de-denivele-positif-un-defi-stratospherique-avec-benjamin-mougel/"
   - episode_title: 'Thomas Cardin : la Western comme nouveau départ'
     episode_url: https://courseepique.fr/
@@ -11559,7 +11572,7 @@ episodes_by_feed:
     episode_slug: thomas-cardin-la-western-comme-nouveau-depart
     episode_key: thomas-cardin-la-western-comme-nouveau-depart
     legacy_unicode_slug: thomas-cardin-la-western-comme-nouveau-départ
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/course-equipe/thomas-cardin-la-western-comme-nouveau-depart/"
   - episode_title: "[EXTRAIT] Thomas Cardin : la Western comme nouveau départ"
     episode_url: https://courseepique.fr/
@@ -11572,7 +11585,7 @@ episodes_by_feed:
     episode_slug: extrait-thomas-cardin-la-western-comme-nouveau-depart
     episode_key: extrait-thomas-cardin-la-western-comme-nouveau-depart
     legacy_unicode_slug: extrait-thomas-cardin-la-western-comme-nouveau-départ
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/course-equipe/extrait-thomas-cardin-la-western-comme-nouveau-depart/"
   - episode_title: En immersion sur le Swiss Canyon Trail
     episode_url: https://courseepique.fr/
@@ -11584,7 +11597,7 @@ episodes_by_feed:
     episode_uid: 6a22f422ccc3ddbc7448fd3b
     episode_slug: en-immersion-sur-le-swiss-canyon-trail
     episode_key: en-immersion-sur-le-swiss-canyon-trail
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/course-equipe/en-immersion-sur-le-swiss-canyon-trail/"
   - episode_title: "[EXTRAIT] En immersion sur le Swiss Canyon Trail"
     episode_url: https://courseepique.fr/
@@ -11596,7 +11609,7 @@ episodes_by_feed:
     episode_uid: 6a22d3f114e465e5cec1e9df
     episode_slug: extrait-en-immersion-sur-le-swiss-canyon-trail
     episode_key: extrait-en-immersion-sur-le-swiss-canyon-trail
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/course-equipe/extrait-en-immersion-sur-le-swiss-canyon-trail/"
   - episode_title: 'Vincent Esmiol au MIUT : s''effondrer, revenir, gagner'
     episode_url: https://courseepique.fr/
@@ -11608,7 +11621,7 @@ episodes_by_feed:
     episode_uid: 6a1c32f849418f56c4cf66a5
     episode_slug: vincent-esmiol-au-miut-s-effondrer-revenir-gagner
     episode_key: vincent-esmiol-au-miut-s-effondrer-revenir-gagner
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/course-equipe/vincent-esmiol-au-miut-s-effondrer-revenir-gagner/"
   - episode_title: "[EXTRAIT] Vincent Esmiol au MIUT : s'effondrer, revenir, gagner"
     episode_url: https://courseepique.fr/
@@ -11620,7 +11633,7 @@ episodes_by_feed:
     episode_uid: 6a1850ff029c20a5f6ea6bf6
     episode_slug: extrait-vincent-esmiol-au-miut-s-effondrer-revenir-gagner
     episode_key: extrait-vincent-esmiol-au-miut-s-effondrer-revenir-gagner
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/course-equipe/extrait-vincent-esmiol-au-miut-s-effondrer-revenir-gagner/"
   - episode_title: L'enfer vert, 130 km dans la jungle martiniquaise
     episode_url: https://courseepique.fr/
@@ -11632,7 +11645,7 @@ episodes_by_feed:
     episode_uid: 6a071486efd1f558b093b29a
     episode_slug: l-enfer-vert-130-km-dans-la-jungle-martiniquaise
     episode_key: l-enfer-vert-130-km-dans-la-jungle-martiniquaise
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/course-equipe/l-enfer-vert-130-km-dans-la-jungle-martiniquaise/"
   - episode_title: "[EXTRAIT] L'enfer vert, 130 km dans la jungle martiniquaise"
     episode_url: https://courseepique.fr/
@@ -11644,7 +11657,7 @@ episodes_by_feed:
     episode_uid: 6a071436382d6c40301f0e44
     episode_slug: extrait-l-enfer-vert-130-km-dans-la-jungle-martiniquaise
     episode_key: extrait-l-enfer-vert-130-km-dans-la-jungle-martiniquaise
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/course-equipe/extrait-l-enfer-vert-130-km-dans-la-jungle-martiniquaise/"
   - episode_title: 224km à la Réunion, une victoire ultra-terrestre à bout de force - avec Louis Calais
     episode_url: https://courseepique.fr/
@@ -11657,7 +11670,7 @@ episodes_by_feed:
     episode_slug: 224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     episode_key: 224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     legacy_unicode_slug: 224km-à-la-réunion-une-victoire-ultra-terrestre-à-bout-de-force-avec-louis-calais
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/course-equipe/224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais/"
   - episode_title: "[EXTRAIT] 224km à la Réunion, une victoire ultra-terrestre à bout de force - avec Louis Calais"
     episode_url: https://courseepique.fr/
@@ -11670,7 +11683,7 @@ episodes_by_feed:
     episode_slug: extrait-224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     episode_key: extrait-224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais
     legacy_unicode_slug: extrait-224km-à-la-réunion-une-victoire-ultra-terrestre-à-bout-de-force-avec-louis-calais
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/course-equipe/extrait-224km-a-la-reunion-une-victoire-ultra-terrestre-a-bout-de-force-avec-louis-calais/"
   - episode_title: 'Albane Duchemin : son rêve de marathon plus fort que la maladie'
     episode_url: https://courseepique.fr/
@@ -11683,7 +11696,7 @@ episodes_by_feed:
     episode_slug: albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     episode_key: albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     legacy_unicode_slug: albane-duchemin-son-rêve-de-marathon-plus-fort-que-la-maladie
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/course-equipe/albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie/"
   - episode_title: "[EXTRAIT] Albane Duchemin : son rêve de marathon plus fort que la maladie"
     episode_url: https://courseepique.fr/
@@ -11696,7 +11709,7 @@ episodes_by_feed:
     episode_slug: extrait-albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     episode_key: extrait-albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie
     legacy_unicode_slug: extrait-albane-duchemin-son-rêve-de-marathon-plus-fort-que-la-maladie
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/course-equipe/extrait-albane-duchemin-son-reve-de-marathon-plus-fort-que-la-maladie/"
   - episode_title: "[L'ÉLAN] Yani Khelaf : de l'équipe de France à réapprendre à courir"
     episode_url: https://courseepique.fr/
@@ -11709,7 +11722,7 @@ episodes_by_feed:
     episode_slug: l-elan-yani-khelaf-de-l-equipe-de-france-a-reapprendre-a-courir
     episode_key: l-elan-yani-khelaf-de-l-equipe-de-france-a-reapprendre-a-courir
     legacy_unicode_slug: l-élan-yani-khelaf-de-l-équipe-de-france-à-réapprendre-à-courir
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/course-equipe/l-elan-yani-khelaf-de-l-equipe-de-france-a-reapprendre-a-courir/"
   - episode_title: "Molly Seidel : du bronze olympique à Western States, la course d'une vie \U0001F1EC\U0001F1E7"
     episode_url: https://courseepique.fr/
@@ -11722,7 +11735,7 @@ episodes_by_feed:
     episode_slug: molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     episode_key: molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     legacy_unicode_slug: molly-seidel-du-bronze-olympique-à-western-states-la-course-d-une-vie
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/course-equipe/molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie/"
   - episode_title: "[EXTRAIT] Molly Seidel : du bronze olympique à Western States, la course d'une vie \U0001F1EC\U0001F1E7"
     episode_url: https://courseepique.fr/
@@ -11735,7 +11748,7 @@ episodes_by_feed:
     episode_slug: extrait-molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     episode_key: extrait-molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie
     legacy_unicode_slug: extrait-molly-seidel-du-bronze-olympique-à-western-states-la-course-d-une-vie
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/course-equipe/extrait-molly-seidel-du-bronze-olympique-a-western-states-la-course-d-une-vie/"
   - episode_title: 'Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée'
     episode_url: https://courseepique.fr/
@@ -11748,7 +11761,7 @@ episodes_by_feed:
     episode_slug: philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     episode_key: philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     legacy_unicode_slug: philippine-delaire-de-la-scène-à-son-1er-marathon-une-vie-à-pleine-foulée
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/course-equipe/philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee/"
   - episode_title: "[EXTRAIT] Philippine Delaire : de la scène à son 1er marathon, une vie à pleine foulée"
     episode_url: https://courseepique.fr/
@@ -11761,7 +11774,7 @@ episodes_by_feed:
     episode_slug: extrait-philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     episode_key: extrait-philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee
     legacy_unicode_slug: extrait-philippine-delaire-de-la-scène-à-son-1er-marathon-une-vie-à-pleine-foulée
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/course-equipe/extrait-philippine-delaire-de-la-scene-a-son-1er-marathon-une-vie-a-pleine-foulee/"
   - episode_title: 'La France d''est en ouest : 1 140 km, une boussole, zéro GPS. Cap à l''ouest avec Fleury Roux.'
     episode_url: https://courseepique.fr/
@@ -11774,7 +11787,7 @@ episodes_by_feed:
     episode_slug: la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     episode_key: la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     legacy_unicode_slug: la-france-d-est-en-ouest-1-140-km-une-boussole-zéro-gps-cap-à-l-ouest-avec-fleury-roux
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/course-equipe/la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux/"
   - episode_title: "[EXTRAIT] La France d'est en ouest : 1 140 km, une boussole, zéro GPS. Cap à l'ouest avec Fleury Roux."
     episode_url: https://courseepique.fr/
@@ -11787,7 +11800,7 @@ episodes_by_feed:
     episode_slug: extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     episode_key: extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux
     legacy_unicode_slug: extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zéro-gps-cap-à-l-ouest-avec-fleury-roux
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/course-equipe/extrait-la-france-d-est-en-ouest-1-140-km-une-boussole-zero-gps-cap-a-l-ouest-avec-fleury-roux/"
   - episode_title: 'Céline & Ludovic Pommeret : à l''épreuve du Marathon des Sables'
     episode_url: https://courseepique.fr/
@@ -11800,7 +11813,7 @@ episodes_by_feed:
     episode_slug: celine-ludovic-pommeret-a-l-epreuve-du-marathon-des-sables
     episode_key: celine-ludovic-pommeret-a-l-epreuve-du-marathon-des-sables
     legacy_unicode_slug: céline-ludovic-pommeret-à-l-épreuve-du-marathon-des-sables
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/course-equipe/celine-ludovic-pommeret-a-l-epreuve-du-marathon-des-sables/"
   - episode_title: 'Rémy Brassac : en perdition sur le Ventoux, sa folle remontée jusqu''à la sélection française'
     episode_url: https://courseepique.fr/
@@ -11813,24 +11826,11 @@ episodes_by_feed:
     episode_slug: remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
     episode_key: remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
     legacy_unicode_slug: rémy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontée-jusqu-à-la-sélection-française
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/course-equipe/remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
-  - episode_title: "[EXTRAIT] Rémy Brassac : en perdition sur le Ventoux, sa folle remontée jusqu'à la sélection française"
-    episode_url: https://courseepique.fr/
-    audio_url: https://sphinx.acast.com/p/acast/s/course-epique/e/69d91d3b97d78f9e2b6014f4/media.mp3
-    published_at: '2026-04-13T03:56:00+00:00'
-    description_html: "<p>\U0001F39F️ Réserver ma place pour la projection de mon film MON EXTRAORDINAIRE le 4 mai à Lyon : https://www.billetweb.fr/mon-extraordinaire-projection-evenementielle-rencontre-04-05</p><p>Dimanche 29 mars, 7h30 du matin, au pied du Ventoux. Un groupe de six coureurs d'élite s'élance sur 50 kilomètres et 2 500 mètres de dénivelé pour décrocher le titre de champion de France de trail. À mi-course, quelque chose bascule.</p><p>Rémy Brassac a 38 ans, il vit en Lozère, il a commencé à courir à 30 ans pour perdre quelques kilos. En moins de dix ans, il est passé des courses de quartier aux championnats nationaux, en s'entraînant d'abord seul, puis accompagné de Patrick Bringer. Autodidacte, combatif, avec une endurance de force hors norme sur les fins de course — c'est le profil que cet épisode de Course Épique met en lumière.</p><p>Lors des championnats de France de trail longue distance 2026, alors que les sensations sont celles d'une grande journée, un groupe de six coureurs se retrouve à deux kilomètres et demi hors parcours, sur une piste enneigée du Ventoux. Vingt minutes perdues. Le rêve de l'équipe de France — cet objectif planté par son entraîneur il y a trois ans — semble s'évanouir dans le froid.</p><p>Ce que Rémy va faire ensuite raconte tout de lui : meilleur temps sur les vingt derniers kilomètres, remontée spectaculaire, sixième place finale, larmes à l'arrivée. Et quelques jours plus tard, un appel qui change tout.</p><p>Un épisode sur la frustration, la résilience, et ce que signifie vraiment mériter sa place — pas seulement sur une ligne d'arrivée, mais dans une équipe de France.</p><p>Pour tous ceux qui courent, s'entraînent et cherchent à se dépasser, que ce soit en ultra-trail ou en running du dimanche, cette course épique là vous parlera longtemps.</p><p>Episode intégral disponible le mercredi 15 avril.</p><p>***</p><p>Course Épique, c'est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun.</p><p>Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/</p><p>Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube</p><p>Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios</p><hr><p style='color:grey; font-size:0.75em;'>Hébergé par Acast. Visitez <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> pour plus d'informations.</p>"
-    description_plain: "\U0001F39F️ Réserver ma place pour la projection de mon film MON EXTRAORDINAIRE le 4 mai à Lyon : https://www.billetweb.fr/mon-extraordinaire-projection-evenementielle-rencontre-04-05 Dimanche 29 mars, 7h30 du matin, au pied du Ventoux. Un groupe de six coureurs d'élite s'élance sur 50 kilomètres et 2 500 mètres de dénivelé pour décrocher le titre de champion de France de trail. À mi-course, quelque chose bascule. Rémy Brassac a 38 ans, il vit en Lozère, il a commencé à courir à 30 ans pour perdre quelques kilos. En moins de dix ans, il est passé des courses de quartier aux championnats nationaux, en s'entraînant d'abord seul, puis accompagné de Patrick Bringer. Autodidacte, combatif, avec une endurance de force hors norme sur les fins de course — c'est le profil que cet épisode de Course Épique met en lumière. Lors des championnats de France de trail longue distance 2026, alors que les sensations sont celles d'une grande journée, un groupe de six coureurs se retrouve à deux kilomètres et demi hors parcours, sur une piste enneigée du Ventoux. Vingt minutes perdues. Le rêve de l'équipe de France — cet objectif planté par son entraîneur il y a trois ans — semble s'évanouir dans le froid. Ce que Rémy va faire ensuite raconte tout de lui : meilleur temps sur les vingt derniers kilomètres, remontée spectaculaire, sixième place finale, larmes à l'arrivée. Et quelques jours plus tard, un appel qui change tout. Un épisode sur la frustration, la résilience, et ce que signifie vraiment mériter sa place — pas seulement sur une ligne d'arrivée, mais dans une équipe de France. Pour tous ceux qui courent, s'entraînent et cherchent à se dépasser, que ce soit en ultra-trail ou en running du dimanche, cette course épique là vous parlera longtemps. Episode intégral disponible le mercredi 15 avril. *** Course Épique, c'est le podcast running et trail qui vous fait vivre dans chaque épisode une histoire de course à pied hors du commun. Pour ne rien manquer de notre actualité et vivre les coulisses du podcast, suivez-nous sur Instagram : https://www.instagram.com/courseepique.podcast/ Retrouvez également Course Epique en vidéo sur YouTube : https://bit.ly/courseepique_youtube Course Épique, un podcast imaginé et animé par Guillaume Lalu et produit par Sportcast Studios Hébergé par Acast. Visitez acast.com/privacy pour plus d'informations."
-    episode_image_url: https://assets.pippa.io/shows/611d1f9906c05eaf33f406b8/1775839461689-f6874479-7b66-4dfd-9889-3002a402dbe9.jpeg
-    episode_uid: 69d91d3b97d78f9e2b6014f4
-    episode_slug: extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
-    episode_key: extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise
-    legacy_unicode_slug: extrait-rémy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontée-jusqu-à-la-sélection-française
     legacy_numbered_slug: episode-25
-    episode_page_url: "/course-equipe/extrait-remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
+    episode_page_url: "/course-equipe/remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &38
   - episode_title: Comment gagne-t-on le Marathon du Mont-Blanc ? W. Candice Fertin-Baccon & Benjamin Polin
-    episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-and-benjamin-polin-8e4af436
+    episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/8e4af436-8c80-4267-b0f2-d31d607f6fed.mp3?_=1782684974
     published_at: '2026-06-29T04:45:00+00:00'
     description_html: "<p>Ils ont tous les deux remporté le Marathon du Mont-Blanc.</p><p>D'un côté, <strong>Candice Fertin-Baccon</strong>, qui s'impose dès son tout premier ultra-trail après avoir pris les commandes de la course avec une maîtrise impressionnante.</p><p>De l'autre, <strong>Benjamin Polin</strong>, vainqueur du 23 km historique grâce à une course parfaitement construite, où chaque accélération semblait avoir été pensée à l'avance.</p><p>Dans cet épisode de <strong>Dans la Tête d'un Coureur</strong>, ils reviennent sur leurs choix d'entraînement, leur préparation, leur stratégie de course et les décisions qui leur ont permis de s'imposer sur l'un des rendez-vous les plus prestigieux du trail de montagne.</p><p>Un épisode réalisé en collaboration avec New Balance</p><p>Bonne écoute \U0001F399️</p><p>Hébergé par Audiomeans. Visitez <a href=\"https://www.audiomeans.fr/politique-de-confidentialite\">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>"
@@ -14297,8 +14297,8 @@ episodes_by_feed:
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/328-Gabby-Hentemann---Grandmas-Marathon-Recap--Running-140-Mile-Weeks-in-Texas--Thoughts-on-Olympic-Trials-in-St--Louis-e3lbqjq
     audio_url: https://traffic.megaphone.fm/APO7944919300.mp3
     published_at: '2026-06-27T17:37:56+00:00'
-    description_html: '<p>Visit <a href="http://lisrunning.com">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had special guest Gabby Hentemann on the podcast! Gabby has one of the best Instagram accounts in the running space in our opinion, with a mix of serious training + hilarious running content.</p><p>She just came off Grandma’s Marathon where she was leading early but dealt with some cramping after mile 18. After running 140 mile weeks in the TX heat, we think she is due for a breakout race very soon!</p><p>Make sure you follow Gabby on Instagram linked below, enjoy!</p><p>FOLLOW GABBY:</p><p>IG: <a href="https://www.instagram.com/gabbyhentemann/">https://www.instagram.com/gabbyhentemann/</a></p>'
-    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had special guest Gabby Hentemann on the podcast! Gabby has one of the best Instagram accounts in the running space in our opinion, with a mix of serious training + hilarious running content. She just came off Grandma’s Marathon where she was leading early but dealt with some cramping after mile 18. After running 140 mile weeks in the TX heat, we think she is due for a breakout race very soon! Make sure you follow Gabby on Instagram linked below, enjoy! FOLLOW GABBY: IG: https://www.instagram.com/gabbyhentemann/'
+    description_html: '<p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had special guest Gabby Hentemann on the podcast! Gabby has one of the best Instagram accounts in the running space in our opinion, with a mix of serious training + hilarious running content.</p><p>She just came off Grandma’s Marathon where she was leading early but dealt with some cramping after mile 18. After running 140 mile weeks in the TX heat, we think she is due for a breakout race very soon!</p><p>Make sure you follow Gabby on Instagram linked below, enjoy!</p><p>FOLLOW GABBY:</p><p>IG: <a href="https://www.instagram.com/gabbyhentemann/" target="_blank" rel="ugc noopener noreferrer">https://www.instagram.com/gabbyhentemann/</a></p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>INSTA360 Affiliate code:</p><p>INRSGUOCSXX</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
+    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had special guest Gabby Hentemann on the podcast! Gabby has one of the best Instagram accounts in the running space in our opinion, with a mix of serious training + hilarious running content. She just came off Grandma’s Marathon where she was leading early but dealt with some cramping after mile 18. After running 140 mile weeks in the TX heat, we think she is due for a breakout race very soon! Make sure you follow Gabby on Instagram linked below, enjoy! FOLLOW GABBY: IG: https://www.instagram.com/gabbyhentemann/ FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ INSTA360 Affiliate code: INRSGUOCSXX CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
     episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
     episode_uid: 15c4299d-e4d3-4c8a-8bef-2b89766eada6
     episode_slug: 328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis
@@ -22494,6 +22494,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/acquired/chase-center-summer-update/"
   https://rss.art19.com/how-i-built-this: &73
+  - episode_title: 'e.l.f. Cosmetics: Joey Shamah. The Dollar Store Formula That Built a Cosmetics Giant'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/bbc71e65-9e47-41cb-8dd4-c61fcfc2572e.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-06-29T07:10:00Z'
+    description_html: '<p>In 2004, Joey Shamah and his partner launched a cosmetics company built on an idea that made almost no sense:</p><p>Sell high-quality makeup for just <strong>$1</strong>.</p><p>At the time, high quality beauty products were supposed to be expensive. The biggest brands spent fortunes on celebrity endorsements, glossy ads, and premium shelf space.</p><p>And every major retailer told Joey the same thing:</p><p>Your idea will never work.</p><p>But Joey believed he''d found a wormhole in the beauty business: spend money on the product, not fancy packaging, marketing, or celebrity endorsements. Then, pass those savings on to your customers.</p><p>The brand grew slowly, but Joey knew he was onto something when a bizarre rumor spread that Bloomingdale''s was buying e.l.f. and raising prices. Within days, the tiny company went from a few hundred orders a week to 18,000 orders a day.</p><p>What followed was a journey from a scrappy warehouse operation in New Jersey to one of the most disruptive brands in the beauty business.</p><p><strong>You''ll learn:</strong></p><ul><li>The surprising economics behind $1 lipstick</li><li>Why retailers initially rejected e.l.f.</li><li>How a single magazine mention launched e.l.f.''s online business</li><li>The retail insight that unlocked national expansion</li><li>How a false rumor generated 18,000 orders a day</li><li>The emotional toll of a $225 million acquisition that collapsed at the eleventh hour</li></ul><p><strong>Timestamps:</strong></p><ul><li>00:10:28 — How to make (decent) makeup for just $1</li><li>00:18:35 — The dollar stores say no</li><li>00:24:32 — Glamour comes calling, and e.l.f has 30 days to build a website</li><li>00:38:27 — The question from a Target buyer that leaves Joey speechless</li><li>00:39:56 — The H-E-B test that proves everyone wrong</li><li>00:46:36 — “That’s news to me!” The viral rumor that sends Joey back to China</li><li>00:59:42 — Scaling to tens of millions in revenue</li><li>01:07:15 — “It was crushing.” The L’oreal sale that never happened</li><li>01:12:02 — After e.l.f: Joey stops watching House of Cards and gets back to business</li></ul><p>This episode was produced by Carla Esteves with music composed by Ramtin Arablouei.</p><p>It was edited by Neva Grant with research by Olivia Rockman. Our audio engineer was Patrick Murray.</p><p><strong>Follow How I Built This:</strong></p><p>Instagram → <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">@howibuiltthis</a></p><p>X → <a href="https://x.com/howibuiltthis" rel="noopener noreferrer" target="_blank">@HowIBuiltThis</a></p><p>Facebook → <a href="https://www.facebook.com/howibuiltthis" rel="noopener noreferrer" target="_blank">How I Built This</a></p><p><strong>Follow Guy Raz:</strong></p><p>Instagram → <a href="https://www.instagram.com/guy.raz/" rel="noopener noreferrer" target="_blank">@guy.raz</a></p><p>Youtube →<a href="https://www.youtube.com/channel/UCNSfrxNEmCruNtjIzxCBHjg" rel="noopener noreferrer" target="_blank"> guy_raz</a></p><p>X → <a href="https://x.com/guyraz" rel="noopener noreferrer" target="_blank">@guyraz</a></p><p>Substack →<a href="https://urldefense.com/v3/__http:/guyraz.substack.com__;!!Iwwt!RZoD751oWzUzoqqdJiqaoL6HdJfRHDUO1TKvYJ424d3Udn7-Pw9Nj6nEsauh9zcgEvLjUEc$" rel="noopener noreferrer" target="_blank"></a><a href="http://guyraz.substack.com" rel="noopener noreferrer" target="_blank">guyraz.substack.com</a></p><p>Website →<a href="https://urldefense.com/v3/__http:/guyraz.substack.com__;!!Iwwt!RZoD751oWzUzoqqdJiqaoL6HdJfRHDUO1TKvYJ424d3Udn7-Pw9Nj6nEsauh9zcgEvLjUEc$" rel="noopener noreferrer" target="_blank"></a><a href="http://guyraz.com" rel="noopener noreferrer" target="_blank">guyraz.com</a></p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
+    description_plain: 'In 2004, Joey Shamah and his partner launched a cosmetics company built on an idea that made almost no sense: Sell high-quality makeup for just $1 . At the time, high quality beauty products were supposed to be expensive. The biggest brands spent fortunes on celebrity endorsements, glossy ads, and premium shelf space. And every major retailer told Joey the same thing: Your idea will never work. But Joey believed he''d found a wormhole in the beauty business: spend money on the product, not fancy packaging, marketing, or celebrity endorsements. Then, pass those savings on to your customers. The brand grew slowly, but Joey knew he was onto something when a bizarre rumor spread that Bloomingdale''s was buying e.l.f. and raising prices. Within days, the tiny company went from a few hundred orders a week to 18,000 orders a day. What followed was a journey from a scrappy warehouse operation in New Jersey to one of the most disruptive brands in the beauty business. You''ll learn: The surprising economics behind $1 lipstick Why retailers initially rejected e.l.f. How a single magazine mention launched e.l.f.''s online business The retail insight that unlocked national expansion How a false rumor generated 18,000 orders a day The emotional toll of a $225 million acquisition that collapsed at the eleventh hour Timestamps: 00:10:28 — How to make (decent) makeup for just $1 00:18:35 — The dollar stores say no 00:24:32 — Glamour comes calling, and e.l.f has 30 days to build a website 00:38:27 — The question from a Target buyer that leaves Joey speechless 00:39:56 — The H-E-B test that proves everyone wrong 00:46:36 — “That’s news to me!” The viral rumor that sends Joey back to China 00:59:42 — Scaling to tens of millions in revenue 01:07:15 — “It was crushing.” The L’oreal sale that never happened 01:12:02 — After e.l.f: Joey stops watching House of Cards and gets back to business This episode was produced by Carla Esteves with music composed by Ramtin Arablouei. It was edited by Neva Grant with research by Olivia Rockman. Our audio engineer was Patrick Murray. Follow How I Built This: Instagram → @howibuiltthis X → @HowIBuiltThis Facebook → How I Built This Follow Guy Raz: Instagram → @guy.raz Youtube → guy_raz X → @guyraz Substack → guyraz.substack.com Website → guyraz.com See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
+    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
+    episode_uid: zillwlpg8hzveaqbrkziq6pjjyccx0t4vhh-nqpbnve
+    episode_slug: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
+    episode_key: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/how-i-built-this/e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant/"
   - episode_title: Advice Line with Susan Griffin-Black of EO Products
     episode_url: ''
     audio_url: https://rss.art19.com/episodes/58096820-613c-40ad-9743-f1d642447c91.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
@@ -22504,7 +22516,7 @@ episodes_by_feed:
     episode_uid: o6j6dwehdd7amk7jxbrnvwv-a1tzbi6khnejfibcvxe
     episode_slug: advice-line-with-susan-griffin-black-of-eo-products
     episode_key: advice-line-with-susan-griffin-black-of-eo-products
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/how-i-built-this/advice-line-with-susan-griffin-black-of-eo-products/"
   - episode_title: 'STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct'
     episode_url: ''
@@ -22516,7 +22528,7 @@ episodes_by_feed:
     episode_uid: jlsenest4p7hw8kfouvvu50usn8gmu-wxhzoxwdydg8
     episode_slug: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
     episode_key: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/how-i-built-this/starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct/"
   - episode_title: Advice Line with Shazi Visram of Happy Family Organics
     episode_url: ''
@@ -22528,7 +22540,7 @@ episodes_by_feed:
     episode_uid: pzk4jbulxl5hsniwomgt-c9boxmlmdjusfx0zkilc2o
     episode_slug: advice-line-with-shazi-visram-of-happy-family-organics
     episode_key: advice-line-with-shazi-visram-of-happy-family-organics
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/how-i-built-this/advice-line-with-shazi-visram-of-happy-family-organics/"
   - episode_title: 'Build-A-Bear: Maxine Clark. A Former Shoe Executive Launches a Stuffed Animal Empire'
     episode_url: ''
@@ -22540,7 +22552,7 @@ episodes_by_feed:
     episode_uid: tmp4tjl9nxpytdg9f4gfoyxv6qz6u2cn2ydgpazzzs8
     episode_slug: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
     episode_key: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/how-i-built-this/build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire/"
   - episode_title: Advice Line with Christina Tosi of Milk Bar
     episode_url: ''
@@ -22552,7 +22564,7 @@ episodes_by_feed:
     episode_uid: hhjeehzmmivsosdeaivhgwyyvpp-ddqkpr4htdvlku8
     episode_slug: advice-line-with-christina-tosi-of-milk-bar
     episode_key: advice-line-with-christina-tosi-of-milk-bar
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/how-i-built-this/advice-line-with-christina-tosi-of-milk-bar/"
   - episode_title: 'Shopify: Tobias Lütke. How a snowboarder built a $150 billion business (2019)'
     episode_url: ''
@@ -22565,7 +22577,7 @@ episodes_by_feed:
     episode_slug: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     episode_key: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     legacy_unicode_slug: shopify-tobias-lütke-how-a-snowboarder-built-a-150-billion-business-2019
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/how-i-built-this/shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019/"
   - episode_title: Advice Line with Tim Ferriss (August 2025)
     episode_url: ''
@@ -22577,7 +22589,7 @@ episodes_by_feed:
     episode_uid: b9ee3my6tjy1ceqbdtb5wenwgy3ordtifo2-if3e0ay
     episode_slug: advice-line-with-tim-ferriss-august-2025
     episode_key: advice-line-with-tim-ferriss-august-2025
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/how-i-built-this/advice-line-with-tim-ferriss-august-2025/"
   - episode_title: 'UGG: Brian Smith. How an epiphany, surfers, and $500 launched an iconic sheepskin footwear company.'
     episode_url: ''
@@ -22589,7 +22601,7 @@ episodes_by_feed:
     episode_uid: 5s0vonn-opsk1zpat1nxn-vo2zcdme8lt7jxguqkmy
     episode_slug: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
     episode_key: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/how-i-built-this/ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company/"
   - episode_title: Advice Line with Jeffrey Hollender of Seventh Generation
     episode_url: ''
@@ -22601,7 +22613,7 @@ episodes_by_feed:
     episode_uid: 4wcue-17ogbw5el-mbnx-ki9ijworouprz5pdewq7xi
     episode_slug: advice-line-with-jeffrey-hollender-of-seventh-generation
     episode_key: advice-line-with-jeffrey-hollender-of-seventh-generation
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/how-i-built-this/advice-line-with-jeffrey-hollender-of-seventh-generation/"
   - episode_title: 'Justin’s Nut Butter: Justin Gold. He Was Waiting Tables, Then...He Reinvented Peanut Butter.'
     episode_url: ''
@@ -22613,7 +22625,7 @@ episodes_by_feed:
     episode_uid: yqzw16h2ktk2olnhz-uuhe82fcwwot0sixwalkx2km
     episode_slug: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
     episode_key: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/how-i-built-this/justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter/"
   - episode_title: Advice Line with Sarah LaFleur of M.M. LaFleur
     episode_url: ''
@@ -22625,7 +22637,7 @@ episodes_by_feed:
     episode_uid: zswlybn8gfviu2ih2g9x4uvgvityooc1djles4a926o
     episode_slug: advice-line-with-sarah-lafleur-of-m-m-lafleur
     episode_key: advice-line-with-sarah-lafleur-of-m-m-lafleur
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/how-i-built-this/advice-line-with-sarah-lafleur-of-m-m-lafleur/"
   - episode_title: 'NVIDIA: Jensen Huang. From near collapse to becoming the world’s biggest company'
     episode_url: ''
@@ -22637,7 +22649,7 @@ episodes_by_feed:
     episode_uid: bpikpn-q7wrffq1h-x6g3o2ecadpyq6otwp6fwspdbq
     episode_slug: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
     episode_key: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/how-i-built-this/nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company/"
   - episode_title: 'Advice Line: New Offerings, Bigger Markets'
     episode_url: ''
@@ -22649,7 +22661,7 @@ episodes_by_feed:
     episode_uid: d3whyvzhetkd1ekwdk8occgpyou669hscg02gp68px4
     episode_slug: advice-line-new-offerings-bigger-markets
     episode_key: advice-line-new-offerings-bigger-markets
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/how-i-built-this/advice-line-new-offerings-bigger-markets/"
   - episode_title: 'Room & Board: John Gabbert. A Broken Deal, a Family Rift, and the Birth of a Furniture Giant'
     episode_url: ''
@@ -22661,7 +22673,7 @@ episodes_by_feed:
     episode_uid: nufmnrpeqyz9yn2-rxzl7tscz389nskiuirlnyhwhgs
     episode_slug: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
     episode_key: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/how-i-built-this/room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant/"
   - episode_title: Advice Line with Jonah Peretti of Buzzfeed
     episode_url: ''
@@ -22673,7 +22685,7 @@ episodes_by_feed:
     episode_uid: chfjg48l1clzorvmtfcdvybr-u5z1kyh-zynrwal7cu
     episode_slug: advice-line-with-jonah-peretti-of-buzzfeed
     episode_key: advice-line-with-jonah-peretti-of-buzzfeed
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/how-i-built-this/advice-line-with-jonah-peretti-of-buzzfeed/"
   - episode_title: 'Beautycounter: Gregg Renfrew. She Built Beautycounter to $1B… Then Got Fired From Her Own Company'
     episode_url: ''
@@ -22685,7 +22697,7 @@ episodes_by_feed:
     episode_uid: zoucdhzsff4qac4xrsr7ucc6cgcypqrp7tkktyxyi7o
     episode_slug: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
     episode_key: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/how-i-built-this/beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company/"
   - episode_title: Advice Line with David Neeleman of JetBlue
     episode_url: ''
@@ -22697,7 +22709,7 @@ episodes_by_feed:
     episode_uid: ukzbnk2zh6n4tug0iemjkhpo9ous3wgjg0dkyduj7xe
     episode_slug: advice-line-with-david-neeleman-of-jetblue
     episode_key: advice-line-with-david-neeleman-of-jetblue
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/how-i-built-this/advice-line-with-david-neeleman-of-jetblue/"
   - episode_title: 'Shep and Ian Murray: Vineyard Vines. A Stale Product Transforms into a Lifestyle Brand.'
     episode_url: ''
@@ -22709,7 +22721,7 @@ episodes_by_feed:
     episode_uid: 8ftwrlam7ypq-6-bkrgyizwoplu3afpp3r5zopt0sis
     episode_slug: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
     episode_key: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/how-i-built-this/shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand/"
   - episode_title: Advice Line with Eric Ryan of Method returns
     episode_url: ''
@@ -22721,7 +22733,7 @@ episodes_by_feed:
     episode_uid: qzdjhb-m6boi7tmwxd1t-ralpyujjiyiwkyyw1bulcg
     episode_slug: advice-line-with-eric-ryan-of-method-returns
     episode_key: advice-line-with-eric-ryan-of-method-returns
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/how-i-built-this/advice-line-with-eric-ryan-of-method-returns/"
   - episode_title: 'KIND bars: Daniel Lubetzky. From peace in the Middle East to a $5 billion snack bar'
     episode_url: ''
@@ -22733,7 +22745,7 @@ episodes_by_feed:
     episode_uid: b8cwbcfl-qx7tvlnt5wh4l9yoakv7yeamcvu8-0e8wo
     episode_slug: kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar
     episode_key: kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/how-i-built-this/kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar/"
   - episode_title: Advice Line with Chieh Huang of Boxed
     episode_url: ''
@@ -22745,7 +22757,7 @@ episodes_by_feed:
     episode_uid: 6ayog2-s9izvjo4ize2hdg-9jpfchik8kcuo3kulifq
     episode_slug: advice-line-with-chieh-huang-of-boxed
     episode_key: advice-line-with-chieh-huang-of-boxed
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/how-i-built-this/advice-line-with-chieh-huang-of-boxed/"
   - episode_title: 'iRobot: Colin Angle. How The Roomba Became a Household Icon'
     episode_url: ''
@@ -22757,7 +22769,7 @@ episodes_by_feed:
     episode_uid: eqf35bg3fvdvc4zweh9ixkk-p45jkrstvaoq9m5bbgc
     episode_slug: irobot-colin-angle-how-the-roomba-became-a-household-icon
     episode_key: irobot-colin-angle-how-the-roomba-became-a-household-icon
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/how-i-built-this/irobot-colin-angle-how-the-roomba-became-a-household-icon/"
   - episode_title: Advice Line with Steve Ells of Chipotle
     episode_url: ''
@@ -22769,7 +22781,7 @@ episodes_by_feed:
     episode_uid: ny12q3xbidnucmgf40u8updoaryyf-tkscghj3uvojw
     episode_slug: advice-line-with-steve-ells-of-chipotle
     episode_key: advice-line-with-steve-ells-of-chipotle
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/how-i-built-this/advice-line-with-steve-ells-of-chipotle/"
   - episode_title: 'Wingstop: Antonio Swad. A Brilliant Idea — And a Nail-Biting Exit'
     episode_url: ''
@@ -22781,20 +22793,8 @@ episodes_by_feed:
     episode_uid: kq9n-patn7dobc-mgbgl36mzcfdqjgsax-f6dy-izzg
     episode_slug: wingstop-antonio-swad-a-brilliant-idea-and-a-nail-biting-exit
     episode_key: wingstop-antonio-swad-a-brilliant-idea-and-a-nail-biting-exit
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/how-i-built-this/wingstop-antonio-swad-a-brilliant-idea-and-a-nail-biting-exit/"
-  - episode_title: Advice Line with Angie & Dan Bastian of Angie's BOOMCHICKAPOP
-    episode_url: ''
-    audio_url: https://rss.art19.com/episodes/fb62faf8-9e66-4644-a940-21c85d69260a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-    published_at: '2026-04-02T07:10:00Z'
-    description_html: '<p>Today’s callers: Michelle from California assesses the trade offs of accepting outside investment to scale her organic granola brand. Then, Gloria from Connecticut wonders how to overcome stigma and get more people talking about her pelvic floor therapy device. And Eric from Australia evaluates new markets for his maple-based sports nutrition products.</p><p>Plus, Dan and Angie’s take on why even the busiest entrepreneur should find time to turn off their phone at the dinner table...</p><p>Thank you to the founders of Nana Joes Granola, Elidah, and mapleROO for being a part of our show.</p><p>If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to <a href="mailto:hibt@id.wondery.com" rel="noopener noreferrer" target="_blank">hibt@id.wondery.com</a> or call 1-800-433-1298.</p><p>And be sure to listen to <a href="https://art19.com/shows/831bd173-0992-41b7-b1eb-112db904d947/episodes/8b62ab71-5f30-485b-a708-75013ceb674f/embed" rel="noopener noreferrer" target="_blank">BOOMCHICKAPOP’S founding story</a> as told by Angie and Dan on the show in 2019.</p><p>This episode was produced by Noor Gill with music by Ramtin Arablouei. It was edited by John Isabella. Our audio engineer was Cena Loffredo.</p><p>You can follow HIBT on <a href="https://x.com/HowIBuiltThis" rel="noopener noreferrer" target="_blank">X</a> &amp; <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">Instagram</a> and sign up for Guy''s free newsletter at <a href="http://guyraz.com/" rel="noopener noreferrer" target="_blank">guyraz.com</a> and on <a href="https://guyraz.substack.com/" rel="noopener noreferrer" target="_blank">Substack</a>.</p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
-    description_plain: 'Today’s callers: Michelle from California assesses the trade offs of accepting outside investment to scale her organic granola brand. Then, Gloria from Connecticut wonders how to overcome stigma and get more people talking about her pelvic floor therapy device. And Eric from Australia evaluates new markets for his maple-based sports nutrition products. Plus, Dan and Angie’s take on why even the busiest entrepreneur should find time to turn off their phone at the dinner table... Thank you to the founders of Nana Joes Granola, Elidah, and mapleROO for being a part of our show. If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to hibt@id.wondery.com or call 1-800-433-1298. And be sure to listen to BOOMCHICKAPOP’S founding story as told by Angie and Dan on the show in 2019. This episode was produced by Noor Gill with music by Ramtin Arablouei. It was edited by John Isabella. Our audio engineer was Cena Loffredo. You can follow HIBT on X &amp; Instagram and sign up for Guy''s free newsletter at guyraz.com and on Substack . See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
-    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
-    episode_uid: aj2y0fa02euzpkbq7a4-k2esv4pajk5ijojgurt5b7s
-    episode_slug: advice-line-with-angie-dan-bastian-of-angie-s-boomchickapop
-    episode_key: advice-line-with-angie-dan-bastian-of-angie-s-boomchickapop
     legacy_numbered_slug: episode-25
-    episode_page_url: "/how-i-built-this/advice-line-with-angie-dan-bastian-of-angie-s-boomchickapop/"
+    episode_page_url: "/how-i-built-this/wingstop-antonio-swad-a-brilliant-idea-and-a-nail-biting-exit/"
   https://lexfridman.com/feed/podcast/: &74
   - episode_title: "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE – Don Lincoln"
     episode_url: https://lexfridman.com/don-lincoln/?utm_source=rss&utm_medium=rss&utm_campaign=don-lincoln
