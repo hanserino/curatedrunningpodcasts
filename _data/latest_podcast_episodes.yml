@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-06-30T09:10:38Z'
+generated_at: '2026-06-30T11:06:41Z'
 items:
 - podcast_title: Long Run Labs
   podcast_page_url: "/long-run-labs/"
@@ -770,6 +770,30 @@ non_running_items:
   episode_key: johan-eriksson
   episode_slug: johan-eriksson
   episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
+- podcast_title: When We Were Kings
+  podcast_page_url: "/when-we-were-kings/"
+  cover_image: "/media/whenwewerekings.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
+  filter_category: uncategorized swedish
+  episode_title: 'Matchdag 20: Artisten Erik Mykland'
+  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-artisten-erik-mykland
+  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a4393b481f451b905505fab/media.mp3
+  published_at: '2026-06-30T10:00:20+00:00'
+  episode_key: matchdag-20-artisten-erik-mykland
+  episode_slug: matchdag-20-artisten-erik-mykland
+  episode_page_url: "/when-we-were-kings/matchdag-20-artisten-erik-mykland/"
+- podcast_title: Pivot
+  podcast_page_url: "/pivot/"
+  cover_image: "/media/pivot.jpeg"
+  feed_url: https://feeds.megaphone.fm/pivot
+  filter_category: uncategorized english
+  episode_title: Comcast Splits, OpenAI Weighs IPO Delay, and Buttigieg Targeted
+  episode_url: ''
+  audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7949147705.mp3
+  published_at: '2026-06-30T10:00:00Z'
+  episode_key: comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted
+  episode_slug: comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted
+  episode_page_url: "/pivot/comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted/"
 - podcast_title: My First Million
   podcast_page_url: "/my-first-million/"
   cover_image: "/media/myfirstmillion.jpeg"
@@ -806,18 +830,6 @@ non_running_items:
   episode_key: listener-q-a-episode-13
   episode_slug: listener-q-a-episode-13
   episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-13/"
-- podcast_title: When We Were Kings
-  podcast_page_url: "/when-we-were-kings/"
-  cover_image: "/media/whenwewerekings.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
-  filter_category: uncategorized swedish
-  episode_title: 'Matchdag 20: Mohammed VI Football Academy'
-  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-mohammed-vi-football-academy
-  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a42319426d5a6687a67502c/media.mp3
-  published_at: '2026-06-29T21:00:00+00:00'
-  episode_key: matchdag-20-mohammed-vi-football-academy
-  episode_slug: matchdag-20-mohammed-vi-football-academy
-  episode_page_url: "/when-we-were-kings/matchdag-20-mohammed-vi-football-academy/"
 - podcast_title: Huberman Lab
   podcast_page_url: "/huberman-lab/"
   cover_image: "/media/huberman.jpeg"
@@ -926,18 +938,6 @@ non_running_items:
   episode_key: the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste
   episode_slug: the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste
   episode_page_url: "/hard-fork/the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste/"
-- podcast_title: Pivot
-  podcast_page_url: "/pivot/"
-  cover_image: "/media/pivot.jpeg"
-  feed_url: https://feeds.megaphone.fm/pivot
-  filter_category: uncategorized english
-  episode_title: Meta’s Prediction Market App, Europe vs. Big Tech, and Hollywood’s Comeback
-  episode_url: ''
-  audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5993538288.mp3
-  published_at: '2026-06-26T10:00:00Z'
-  episode_key: meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback
-  episode_slug: meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback
-  episode_page_url: "/pivot/meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback/"
 - podcast_title: 'Waveform: The MKBHD Podcast'
   podcast_page_url: "/waveform-the-mkbhd-podcast/"
   cover_image: "/media/waveform.jpeg"
@@ -27091,6 +27091,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/716-extremtontar/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &90
+  - episode_title: 'Matchdag 20: Artisten Erik Mykland'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-artisten-erik-mykland
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a4393b481f451b905505fab/media.mp3
+    published_at: '2026-06-30T10:00:20+00:00'
+    description_html: <p>"Den levande person i världen jag beundrar mest", Karl Ove Knausgård</p><p>Detta är ett urklipp från avsnitten 279. Norge 1998 (1/2). För att få hela berättelsen. Lyssna på avsnitten i sin helhet.</p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: '"Den levande person i världen jag beundrar mest", Karl Ove Knausgård Detta är ett urklipp från avsnitten 279. Norge 1998 (1/2). För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.'
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a4393b481f451b905505fab
+    episode_slug: matchdag-20-artisten-erik-mykland
+    episode_key: matchdag-20-artisten-erik-mykland
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/matchdag-20-artisten-erik-mykland/"
   - episode_title: 'Matchdag 20: Mohammed VI Football Academy'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-mohammed-vi-football-academy
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a42319426d5a6687a67502c/media.mp3
@@ -27101,7 +27113,7 @@ episodes_by_feed:
     episode_uid: 6a42319426d5a6687a67502c
     episode_slug: matchdag-20-mohammed-vi-football-academy
     episode_key: matchdag-20-mohammed-vi-football-academy
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-20-mohammed-vi-football-academy/"
   - episode_title: 'Matchdag 19: Ronaldinho 2010'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-19-ronaldinho-2010
@@ -27113,7 +27125,7 @@ episodes_by_feed:
     episode_uid: 6a4226a9cb67fc75eaaac835
     episode_slug: matchdag-19-ronaldinho-2010
     episode_key: matchdag-19-ronaldinho-2010
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/matchdag-19-ronaldinho-2010/"
   - episode_title: 'Matchdag 18: Revolutionären Lucas Radebe'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-18-revolutionaren-lucas-radebe
@@ -27126,7 +27138,7 @@ episodes_by_feed:
     episode_slug: matchdag-18-revolutionaren-lucas-radebe
     episode_key: matchdag-18-revolutionaren-lucas-radebe
     legacy_unicode_slug: matchdag-18-revolutionären-lucas-radebe
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/matchdag-18-revolutionaren-lucas-radebe/"
   - episode_title: 'Matchdag 17: Bokšić, Mihajlović och Arkan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-17-boki-mihajlovi-och-arkan
@@ -27139,7 +27151,7 @@ episodes_by_feed:
     episode_slug: matchdag-17-boksic-mihajlovic-och-arkan
     episode_key: matchdag-17-boksic-mihajlovic-och-arkan
     legacy_unicode_slug: matchdag-17-bokšić-mihajlović-och-arkan
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-17-boksic-mihajlovic-och-arkan/"
   - episode_title: 'Matchdag 16: ”Kniksen” Jensen och ett bedrövligt Håkan-quiz'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
@@ -27152,7 +27164,7 @@ episodes_by_feed:
     episode_slug: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     episode_key: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     legacy_unicode_slug: matchdag-16-kniksen-jensen-och-ett-bedrövligt-håkan-quiz
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz/"
   - episode_title: 'Matchdag 15: Operation Ökenstorm och Eriks kärlek till För-EM 1991'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em
@@ -27165,7 +27177,7 @@ episodes_by_feed:
     episode_slug: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     episode_key: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     legacy_unicode_slug: matchdag-15-operation-ökenstorm-och-eriks-kärlek-till-för-em-1991
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991/"
   - episode_title: 'Matchdag 14: När Djurgården scoutade i DR Kongo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
@@ -27178,7 +27190,7 @@ episodes_by_feed:
     episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     legacy_unicode_slug: matchdag-14-när-djurgården-scoutade-i-dr-kongo
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
   - episode_title: 'Matchdag 13: Den ghananska hardcore-coachen Herbert Addo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
@@ -27190,7 +27202,7 @@ episodes_by_feed:
     episode_uid: 6a3a43ee00998a7fc8913318
     episode_slug: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
     episode_key: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/"
   - episode_title: 'Matchdag 12: USA:s invasion  av Irak 2003 och Uday Hussein'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-12-usas-invasion-av-irak-2003-och-uday-hussein
@@ -27202,7 +27214,7 @@ episodes_by_feed:
     episode_uid: 6a3933089c43d66bc008df81
     episode_slug: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
     episode_key: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
   - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
@@ -27215,7 +27227,7 @@ episodes_by_feed:
     episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
   - episode_title: 'Matchdag 10: Marco Van Bastens kamp för VM 1994'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-10-marco-van-bastens-kamp-for-vm-1994
@@ -27228,7 +27240,7 @@ episodes_by_feed:
     episode_slug: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     episode_key: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     legacy_unicode_slug: matchdag-10-marco-van-bastens-kamp-för-vm-1994
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/matchdag-10-marco-van-bastens-kamp-for-vm-1994/"
   - episode_title: 'Matchdag 9: NASL - Den första amerikanska proffsligan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-9-nasl-den-forsta-amerikanska-proffsligan
@@ -27241,7 +27253,7 @@ episodes_by_feed:
     episode_slug: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     episode_key: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     legacy_unicode_slug: matchdag-9-nasl-den-första-amerikanska-proffsligan
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/matchdag-9-nasl-den-forsta-amerikanska-proffsligan/"
   - episode_title: 'Matchdag 8: Zemans fritänkande uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-8-zemans-fritankande-uppvaxt
@@ -27254,7 +27266,7 @@ episodes_by_feed:
     episode_slug: matchdag-8-zemans-fritankande-uppvaxt
     episode_key: matchdag-8-zemans-fritankande-uppvaxt
     legacy_unicode_slug: matchdag-8-zemans-fritänkande-uppväxt
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/matchdag-8-zemans-fritankande-uppvaxt/"
   - episode_title: 'Matchdag 7: Blažević, Boban och Modric'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-7-blaevi-boban-och-modric
@@ -27267,7 +27279,7 @@ episodes_by_feed:
     episode_slug: matchdag-7-blazevic-boban-och-modric
     episode_key: matchdag-7-blazevic-boban-och-modric
     legacy_unicode_slug: matchdag-7-blažević-boban-och-modric
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/matchdag-7-blazevic-boban-och-modric/"
   - episode_title: 'Matchdag 6: Zidane och politiken'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-6-zidane-och-politiken
@@ -27279,7 +27291,7 @@ episodes_by_feed:
     episode_uid: 6a2fe8fccd02369494f0ac46
     episode_slug: matchdag-6-zidane-och-politiken
     episode_key: matchdag-6-zidane-och-politiken
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/matchdag-6-zidane-och-politiken/"
   - episode_title: 'Matchdag 5: Sverige - Bulgarien 2004'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-5-sverige-bulgarien-2004
@@ -27291,7 +27303,7 @@ episodes_by_feed:
     episode_uid: 6a2f0504252d86e846043884
     episode_slug: matchdag-5-sverige-bulgarien-2004
     episode_key: matchdag-5-sverige-bulgarien-2004
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
   - episode_title: 'Matchdag 4: Historiens tråkigaste VM-final'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-4-historiens-trakigaste-vm-final
@@ -27304,7 +27316,7 @@ episodes_by_feed:
     episode_slug: matchdag-4-historiens-trakigaste-vm-final
     episode_key: matchdag-4-historiens-trakigaste-vm-final
     legacy_unicode_slug: matchdag-4-historiens-tråkigaste-vm-final
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/matchdag-4-historiens-trakigaste-vm-final/"
   - episode_title: 'Matchdag 3: Adidas, kommersialiseringen och VM-floppen 1978'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
@@ -27316,7 +27328,7 @@ episodes_by_feed:
     episode_uid: 6a2bf993e6540bec0f9db0ab
     episode_slug: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
     episode_key: matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/matchdag-3-adidas-kommersialiseringen-och-vm-floppen-1978/"
   - episode_title: 'Matchdag 2: Berättelsen om Edin Džeko'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-2-berattelsen-om
@@ -27329,7 +27341,7 @@ episodes_by_feed:
     episode_slug: matchdag-2-berattelsen-om-edin-dzeko
     episode_key: matchdag-2-berattelsen-om-edin-dzeko
     legacy_unicode_slug: matchdag-2-berättelsen-om-edin-džeko
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/matchdag-2-berattelsen-om-edin-dzeko/"
   - episode_title: 'Matchdag 1:  Juárez Vs Sinaloa'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-1-juarez-vs-sinaloa
@@ -27342,7 +27354,7 @@ episodes_by_feed:
     episode_slug: matchdag-1-juarez-vs-sinaloa
     episode_key: matchdag-1-juarez-vs-sinaloa
     legacy_unicode_slug: matchdag-1-juárez-vs-sinaloa
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/matchdag-1-juarez-vs-sinaloa/"
   - episode_title: 290. Ruhr 2022/23
     episode_url: https://pod.space/whenwewerekings/290-ruhr-2022-23
@@ -27354,7 +27366,7 @@ episodes_by_feed:
     episode_uid: 4be36fabd91187d9a67c5b4f64aafe84
     episode_slug: 290-ruhr-2022-23
     episode_key: 290-ruhr-2022-23
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/290-ruhr-2022-23/"
   - episode_title: 289. Inter 2009/10 (3/3)
     episode_url: https://pod.space/whenwewerekings/289-inter-2009-10-3-3
@@ -27366,7 +27378,7 @@ episodes_by_feed:
     episode_uid: 9475b7f4ac14711984fb52fd3cbaa35b
     episode_slug: 289-inter-2009-10-3-3
     episode_key: 289-inter-2009-10-3-3
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/289-inter-2009-10-3-3/"
   - episode_title: "(Kortversion) 288. Inter 2009/10 (2/3)"
     episode_url: https://pod.space/whenwewerekings/kortversion-288-inter-2009-10-2-3
@@ -27378,7 +27390,7 @@ episodes_by_feed:
     episode_uid: 5be1021af64278647bd731d65391733e
     episode_slug: kortversion-288-inter-2009-10-2-3
     episode_key: kortversion-288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/kortversion-288-inter-2009-10-2-3/"
   - episode_title: 288. Inter 2009/10 (2/3)
     episode_url: https://pod.space/whenwewerekings/288-inter-2009-10-2-3
@@ -27390,20 +27402,8 @@ episodes_by_feed:
     episode_uid: 01b548ca2606ba99f4d908125a27b230
     episode_slug: 288-inter-2009-10-2-3
     episode_key: 288-inter-2009-10-2-3
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/288-inter-2009-10-2-3/"
-  - episode_title: "(Kortversion) 287. Inter 2009/10 (1/3)"
-    episode_url: https://pod.space/whenwewerekings/kortversion-287-inter-2009-10-1-3
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/11f73fb86b79d95a571fe2458b9b5df8/media.mp3
-    published_at: '2025-03-06T06:30:00+00:00'
-    description_html: "<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: 11f73fb86b79d95a571fe2458b9b5df8
-    episode_slug: kortversion-287-inter-2009-10-1-3
-    episode_key: kortversion-287-inter-2009-10-1-3
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/kortversion-287-inter-2009-10-1-3/"
+    episode_page_url: "/when-we-were-kings/288-inter-2009-10-2-3/"
   https://api.substack.com/feed/podcast/10845.rss: &91
   - episode_title: What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)
     episode_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
@@ -28348,6 +28348,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/smosh-reads-reddit-stories/2025-s-worst-person-reading-reddit-stories/"
   https://feeds.megaphone.fm/pivot: &95
+  - episode_title: Comcast Splits, OpenAI Weighs IPO Delay, and Buttigieg Targeted
+    episode_url: ''
+    audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7949147705.mp3
+    published_at: '2026-06-30T10:00:00Z'
+    description_html: <p>Kara and Scott discuss Comcast splitting itself up, and spinning off NBCUniversal and Sky. Then, OpenAI reportedly considers delaying its IPO, but is that the smart money move? Plus, Pete Buttigieg opens up about his family being targeted, and Trump does his best to hold up Congress's housing bill.</p><p>Watch this episode on the ⁠<a href="https://www.youtube.com/@pivot">⁠Pivot YouTube channel⁠⁠</a>. Follow us on Instagram and Threads at ⁠<a href="https://www.threads.net/@pivotpodcastofficial">⁠@pivotpodcastofficial⁠⁠</a>. Follow us on Bluesky at <a href="https://bsky.app/profile/pivotpod.bsky.social">⁠⁠@pivotpod.bsky.social⁠⁠</a> Follow us on TikTok at <a href="https://www.tiktok.com/@pivotpodcast?_t=8eqFuISXr1a&amp;_r=1">⁠⁠@pivotpodcast⁠⁠</a>. Send us your questions by calling us at 855-51-PIVOT, or email <a href="mailto:Pivot@voxmedia.com">Pivot@voxmedia.com</a></p><p>Learn more about your ad choices. Visit <a href="https://podcastchoices.com/adchoices">podcastchoices.com/adchoices</a></p>
+    description_plain: Kara and Scott discuss Comcast splitting itself up, and spinning off NBCUniversal and Sky. Then, OpenAI reportedly considers delaying its IPO, but is that the smart money move? Plus, Pete Buttigieg opens up about his family being targeted, and Trump does his best to hold up Congress's housing bill. Watch this episode on the ⁠ ⁠Pivot YouTube channel⁠⁠ . Follow us on Instagram and Threads at ⁠ ⁠@pivotpodcastofficial⁠⁠ . Follow us on Bluesky at ⁠⁠@pivotpod.bsky.social⁠⁠ Follow us on TikTok at ⁠⁠@pivotpodcast⁠⁠ . Send us your questions by calling us at 855-51-PIVOT, or email Pivot@voxmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices
+    episode_image_url: ''
+    episode_uid: dea8d572-c1b3-11f0-b75b-c36233557cfc
+    episode_slug: comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted
+    episode_key: comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/pivot/comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted/"
   - episode_title: Meta’s Prediction Market App, Europe vs. Big Tech, and Hollywood’s Comeback
     episode_url: ''
     audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5993538288.mp3
@@ -28358,7 +28370,7 @@ episodes_by_feed:
     episode_uid: de7c8d50-c1b3-11f0-b75b-b36c8cc88bf8
     episode_slug: meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback
     episode_key: meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/pivot/meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback/"
   - episode_title: Starmer Resigns, Reflecting Pool Fiasco, and Amazon Dumps OpenAI Movie
     episode_url: ''
@@ -28370,7 +28382,7 @@ episodes_by_feed:
     episode_uid: de6936e2-c1b3-11f0-b75b-7b7824eff5fd
     episode_slug: starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie
     episode_key: starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/pivot/starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie/"
   - episode_title: Trump's Iran Deal, SpaceX’s Wild Ride, and Snap’s Specs
     episode_url: ''
@@ -28382,7 +28394,7 @@ episodes_by_feed:
     episode_uid: de92c75a-c1b3-11f0-b75b-ff7eaf76155e
     episode_slug: trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs
     episode_key: trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/pivot/trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs/"
   - episode_title: The White House UFC Fight, SpaceX’s Big Pop, and Fox’s Roku Deal
     episode_url: ''
@@ -28394,7 +28406,7 @@ episodes_by_feed:
     episode_uid: de5399a4-c1b3-11f0-b75b-f31d4a72bd86
     episode_slug: the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal
     episode_key: the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/pivot/the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal/"
   - episode_title: 'SpaceX IPO: Markets, Morals, and What It Means for You'
     episode_url: ''
@@ -28406,7 +28418,7 @@ episodes_by_feed:
     episode_uid: de3d3e2a-c1b3-11f0-b75b-4ff85d358c6d
     episode_slug: spacex-ipo-markets-morals-and-what-it-means-for-you
     episode_key: spacex-ipo-markets-morals-and-what-it-means-for-you
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/pivot/spacex-ipo-markets-morals-and-what-it-means-for-you/"
   - episode_title: Trump's AI Stake, SpaceX's IPO Froth, and Apple's Siri Overhaul
     episode_url: ''
@@ -28418,7 +28430,7 @@ episodes_by_feed:
     episode_uid: de26c6ea-c1b3-11f0-b75b-fbf313bae6ca
     episode_slug: trump-s-ai-stake-spacex-s-ipo-froth-and-apple-s-siri-overhaul
     episode_key: trump-s-ai-stake-spacex-s-ipo-froth-and-apple-s-siri-overhaul
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/pivot/trump-s-ai-stake-spacex-s-ipo-froth-and-apple-s-siri-overhaul/"
   - episode_title: "'60 Minutes' Meltdown, Trump's Intel Chief Pick, and Apple’s Next Big Bet"
     episode_url: ''
@@ -28430,7 +28442,7 @@ episodes_by_feed:
     episode_uid: de1150d0-c1b3-11f0-b75b-5721ae3d6972
     episode_slug: 60-minutes-meltdown-trump-s-intel-chief-pick-and-apple-s-next-big-bet
     episode_key: 60-minutes-meltdown-trump-s-intel-chief-pick-and-apple-s-next-big-bet
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/pivot/60-minutes-meltdown-trump-s-intel-chief-pick-and-apple-s-next-big-bet/"
   - episode_title: Anthropic's IPO, Platner's Campaign Controversies, and Blue Origin's Setback
     episode_url: ''
@@ -28442,7 +28454,7 @@ episodes_by_feed:
     episode_uid: c5eb8354-dc39-11f0-8e28-37a53e6fd030
     episode_slug: anthropic-s-ipo-platner-s-campaign-controversies-and-blue-origin-s-setback
     episode_key: anthropic-s-ipo-platner-s-campaign-controversies-and-blue-origin-s-setback
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/pivot/anthropic-s-ipo-platner-s-campaign-controversies-and-blue-origin-s-setback/"
   - episode_title: Pope Leo’s AI Warning, UFC at the White House, and CBS Shakeups
     episode_url: ''
@@ -28454,7 +28466,7 @@ episodes_by_feed:
     episode_uid: ddfb8fb6-c1b3-11f0-b75b-533db02f8fe8
     episode_slug: pope-leo-s-ai-warning-ufc-at-the-white-house-and-cbs-shakeups
     episode_key: pope-leo-s-ai-warning-ufc-at-the-white-house-and-cbs-shakeups
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/pivot/pope-leo-s-ai-warning-ufc-at-the-white-house-and-cbs-shakeups/"
   - episode_title: 'Grading America''s First 250 Years: America, Actually with Astead Herndon'
     episode_url: ''
@@ -28466,7 +28478,7 @@ episodes_by_feed:
     episode_uid: 5f48cf40-4ff1-11f1-9d8c-0779e0ee885c
     episode_slug: grading-america-s-first-250-years-america-actually-with-astead-herndon
     episode_key: grading-america-s-first-250-years-america-actually-with-astead-herndon
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/pivot/grading-america-s-first-250-years-america-actually-with-astead-herndon/"
   - episode_title: James Murdoch & Vox Media, SpaceX IPO Predictions, and Bezos Gets Defensive
     episode_url: ''
@@ -28478,7 +28490,7 @@ episodes_by_feed:
     episode_uid: dde5a606-c1b3-11f0-b75b-7bab2a7b51cc
     episode_slug: james-murdoch-vox-media-spacex-ipo-predictions-and-bezos-gets-defensive
     episode_key: james-murdoch-vox-media-spacex-ipo-predictions-and-bezos-gets-defensive
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/pivot/james-murdoch-vox-media-spacex-ipo-predictions-and-bezos-gets-defensive/"
   - episode_title: Elon's Big Loss, Trump's Stock Trades, and OpenAI vs. Apple
     episode_url: ''
@@ -28490,7 +28502,7 @@ episodes_by_feed:
     episode_uid: ddcf80f6-c1b3-11f0-b75b-d7d55efa57f3
     episode_slug: elon-s-big-loss-trump-s-stock-trades-and-openai-vs-apple
     episode_key: elon-s-big-loss-trump-s-stock-trades-and-openai-vs-apple
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/pivot/elon-s-big-loss-trump-s-stock-trades-and-openai-vs-apple/"
   - episode_title: Trump’s China Summit, Inflation Shock, and Silicon Valley’s Midterm Money
     episode_url: ''
@@ -28502,7 +28514,7 @@ episodes_by_feed:
     episode_uid: ddb93e86-c1b3-11f0-b75b-979916145870
     episode_slug: trump-s-china-summit-inflation-shock-and-silicon-valley-s-midterm-money
     episode_key: trump-s-china-summit-inflation-shock-and-silicon-valley-s-midterm-money
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/pivot/trump-s-china-summit-inflation-shock-and-silicon-valley-s-midterm-money/"
   - episode_title: Midterm Map Wars, AirPods Revamp, and Trump Phone Grift
     episode_url: ''
@@ -28514,7 +28526,7 @@ episodes_by_feed:
     episode_uid: dda1573a-c1b3-11f0-b75b-5f9e7379f011
     episode_slug: midterm-map-wars-airpods-revamp-and-trump-phone-grift
     episode_key: midterm-map-wars-airpods-revamp-and-trump-phone-grift
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/pivot/midterm-map-wars-airpods-revamp-and-trump-phone-grift/"
   - episode_title: OpenAI Trial "Soap Opera," ChatGPT's Stock Picks, and Remembering Ted Turner
     episode_url: ''
@@ -28526,7 +28538,7 @@ episodes_by_feed:
     episode_uid: dd8bdb9e-c1b3-11f0-b75b-2b5e648a8713
     episode_slug: openai-trial-soap-opera-chatgpt-s-stock-picks-and-remembering-ted-turner
     episode_key: openai-trial-soap-opera-chatgpt-s-stock-picks-and-remembering-ted-turner
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/pivot/openai-trial-soap-opera-chatgpt-s-stock-picks-and-remembering-ted-turner/"
   - episode_title: GameStop's eBay Bid, AI and the Midterms, and Senate Prediction Market Ban
     episode_url: ''
@@ -28538,7 +28550,7 @@ episodes_by_feed:
     episode_uid: dd760a8a-c1b3-11f0-b75b-470e774172ed
     episode_slug: gamestop-s-ebay-bid-ai-and-the-midterms-and-senate-prediction-market-ban
     episode_key: gamestop-s-ebay-bid-ai-and-the-midterms-and-senate-prediction-market-ban
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/pivot/gamestop-s-ebay-bid-ai-and-the-midterms-and-senate-prediction-market-ban/"
   - episode_title: Big Tech’s Day of Reckoning, Elon Takes the Stand, and the FCC Targets Disney
     episode_url: ''
@@ -28550,7 +28562,7 @@ episodes_by_feed:
     episode_uid: dd62f882-c1b3-11f0-b75b-43c9deffd3b1
     episode_slug: big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney
     episode_key: big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/pivot/big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney/"
   - episode_title: WHCD Shooting Aftermath, Musk and Altman Face-Off, Spirit Airlines Bailout
     episode_url: ''
@@ -28562,7 +28574,7 @@ episodes_by_feed:
     episode_uid: dd502a22-c1b3-11f0-b75b-3f61b65e38a2
     episode_slug: whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout
     episode_key: whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/pivot/whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout/"
   - episode_title: Tucker Carlson's Rebrand, Apple’s New Era, and SpaceX’s AI Deal
     episode_url: ''
@@ -28574,7 +28586,7 @@ episodes_by_feed:
     episode_uid: dd3e2b10-c1b3-11f0-b75b-2bf60d9170bf
     episode_slug: tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal
     episode_key: tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/pivot/tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal/"
   - episode_title: Kash Patel Sues, Trump's Psychedelics Push, and Netflix’s Podcast Bet
     episode_url: ''
@@ -28586,7 +28598,7 @@ episodes_by_feed:
     episode_uid: dd2ba292-c1b3-11f0-b75b-e39eea52657c
     episode_slug: kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet
     episode_key: kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/pivot/kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet/"
   - episode_title: Iran Market Disconnect, Vance v. Pope, and OpenAI Shades Microsoft and Anthropic
     episode_url: ''
@@ -28598,7 +28610,7 @@ episodes_by_feed:
     episode_uid: dd150302-c1b3-11f0-b75b-c3bf64934459
     episode_slug: iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic
     episode_key: iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/pivot/iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic/"
   - episode_title: Pope's Pushback, Orban's Concession, and Bessent's Anthropic Warning
     episode_url: ''
@@ -28610,7 +28622,7 @@ episodes_by_feed:
     episode_uid: dcff990e-c1b3-11f0-b75b-abaf42a7d5ad
     episode_slug: pope-s-pushback-orban-s-concession-and-bessent-s-anthropic-warning
     episode_key: pope-s-pushback-orban-s-concession-and-bessent-s-anthropic-warning
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/pivot/pope-s-pushback-orban-s-concession-and-bessent-s-anthropic-warning/"
   - episode_title: Iran Ceasefire Uncertainty, Democratic Wins, and Musk vs. Altman
     episode_url: ''
@@ -28622,7 +28634,7 @@ episodes_by_feed:
     episode_uid: dcedaaaa-c1b3-11f0-b75b-3b486f1bbcde
     episode_slug: iran-ceasefire-uncertainty-democratic-wins-and-musk-vs-altman
     episode_key: iran-ceasefire-uncertainty-democratic-wins-and-musk-vs-altman
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/pivot/iran-ceasefire-uncertainty-democratic-wins-and-musk-vs-altman/"
   - episode_title: F-Bomb Diplomacy, Cabinet Shake-Up Signals, and OpenAI’s Podcast Play
     episode_url: ''
@@ -28634,20 +28646,8 @@ episodes_by_feed:
     episode_uid: dcdc5142-c1b3-11f0-b75b-d70cbc64e849
     episode_slug: f-bomb-diplomacy-cabinet-shake-up-signals-and-openai-s-podcast-play
     episode_key: f-bomb-diplomacy-cabinet-shake-up-signals-and-openai-s-podcast-play
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/pivot/f-bomb-diplomacy-cabinet-shake-up-signals-and-openai-s-podcast-play/"
-  - episode_title: Iran War Spin, Trump's Legal Losses, and TMZ Targets Politicians
-    episode_url: ''
-    audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7592116972.mp3?updated=1775172274
-    published_at: '2026-04-03T10:00:00Z'
-    description_html: <p>Kara is joined by guest host Anthony Scaramucci! They unpack Trump’s latest speech on Iran and a string of legal losses challenging the administration's policies. Then, SpaceX has officially filed for a massive IPO, TMZ moves into political coverage, and of course, Kristi Noem’s husband scandal. We’re nominated for a Webby Award! Vote for us <a href="https://vote.webbyawards.com/PublicVoting#/2026/podcasts/shows/business">here</a>! Watch this episode on the ⁠⁠<a href="https://www.youtube.com/@pivot">Pivot YouTube channel⁠⁠</a>. Follow us on Instagram and Threads at ⁠⁠<a href="https://www.threads.net/@pivotpodcastofficial">@pivotpodcastofficial⁠⁠</a>. Follow us on Bluesky at ⁠⁠<a href="https://bsky.app/profile/pivotpod.bsky.social">@pivotpod.bsky.social⁠⁠</a> Follow us on TikTok at ⁠⁠<a href="https://www.tiktok.com/@pivotpodcast?_t=8eqFuISXr1a&amp;_r=1">@pivotpodcast⁠⁠</a>. Send us your questions by calling us at 855-51-PIVOT, or email <a href="mailto:pivot@voxmedia.com">pivot@voxmedia.com</a></p><p>Learn more about your ad choices. Visit <a href="https://podcastchoices.com/adchoices">podcastchoices.com/adchoices</a></p>
-    description_plain: Kara is joined by guest host Anthony Scaramucci! They unpack Trump’s latest speech on Iran and a string of legal losses challenging the administration's policies. Then, SpaceX has officially filed for a massive IPO, TMZ moves into political coverage, and of course, Kristi Noem’s husband scandal. We’re nominated for a Webby Award! Vote for us here ! Watch this episode on the ⁠⁠ Pivot YouTube channel⁠⁠ . Follow us on Instagram and Threads at ⁠⁠ @pivotpodcastofficial⁠⁠ . Follow us on Bluesky at ⁠⁠ @pivotpod.bsky.social⁠⁠ Follow us on TikTok at ⁠⁠ @pivotpodcast⁠⁠ . Send us your questions by calling us at 855-51-PIVOT, or email pivot@voxmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices
-    episode_image_url: ''
-    episode_uid: dcc9405c-c1b3-11f0-b75b-3bf4dd369407
-    episode_slug: iran-war-spin-trump-s-legal-losses-and-tmz-targets-politicians
-    episode_key: iran-war-spin-trump-s-legal-losses-and-tmz-targets-politicians
     legacy_numbered_slug: episode-25
-    episode_page_url: "/pivot/iran-war-spin-trump-s-legal-losses-and-tmz-targets-politicians/"
+    episode_page_url: "/pivot/f-bomb-diplomacy-cabinet-shake-up-signals-and-openai-s-podcast-play/"
   https://feed.ausha.co/egpw5hzzonq3: &96
   - episode_title: 'RÉCAP D+ #54 avec VINCENT BOUILLARD, MARIANNE HOGAN, THOMAS CARDIN, LOUISON COIFFET et CANDICE FERTIN'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-54-vincent-bouillard-marianne-hogan-louison-coiffet-candice-fertin
