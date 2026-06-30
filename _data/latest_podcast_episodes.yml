@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-06-30T05:27:40Z'
+generated_at: '2026-06-30T07:21:42Z'
 items:
+- podcast_title: Long Run Labs
+  podcast_page_url: "/long-run-labs/"
+  cover_image: "/media/longrunlabs.jpeg"
+  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
+  filter_category: business english
+  episode_title: 'From Olympic Rower to Employee #3 at Momentous to Building the Water Brand Doing What Nobody Else Will'
+  episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_olympic_rower_to_employee_3_at_momentous_to_building_the_water_brand_doing_what_nobody_else_will
+  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f0e42-e371-7e49-88d2-f4bab7f22da1/019f0e42-e445-7d67-9a8e-47159f373f39.mp3
+  published_at: '2026-06-30T07:00:00+00:00'
+  episode_key: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+  episode_slug: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+  episode_page_url: "/long-run-labs/from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will/"
+- podcast_title: Trail Society
+  podcast_page_url: "/trail-society/"
+  cover_image: "/media/trailsocietypodcast.jpeg"
+  feed_url: https://feeds.captivate.fm/trail-society/
+  filter_category: trail ultra english
+  episode_title: 'Episode 140: A Western States first-timer shares her story and some advice'
+  episode_url: https://trail-society.captivate.fm
+  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/3935a652-87c8-42d1-80ff-a0ad620a82b6.mp3
+  published_at: '2026-06-30T03:00:00-04:00'
+  episode_key: episode-140-a-western-states-first-timer-shares-her-story-and-some-advice
+  episode_slug: episode-140-a-western-states-first-timer-shares-her-story-and-some-advice
+  episode_page_url: "/trail-society/episode-140-a-western-states-first-timer-shares-her-story-and-some-advice/"
 - podcast_title: Team Macody Podcast
   podcast_page_url: "/team-macody-podcast/"
   cover_image: "/media/teammacody.jpeg"
@@ -373,18 +397,6 @@ items:
   episode_key: 316-why-western-states-100-records-are-getting-smashed-z1-v-z2-training-ai-coaching-news-and-competitiveness-v-ego
   episode_slug: 316-why-western-states-100-records-are-getting-smashed-z1-v-z2-training-ai-coaching-news-and-competitiveness-v-ego
   episode_page_url: "/some-work-all-play/316-why-western-states-100-records-are-getting-smashed-z1-v-z2-training-ai-coaching-news-and-competitiveness-v-ego/"
-- podcast_title: Trail Society
-  podcast_page_url: "/trail-society/"
-  cover_image: "/media/trailsocietypodcast.jpeg"
-  feed_url: https://feeds.captivate.fm/trail-society/
-  filter_category: trail ultra english
-  episode_title: 'Episode 139: Revisiting the pursuit of excellence with Western States champ Abby Hall'
-  episode_url: https://trail-society.captivate.fm
-  audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/ce9c32d4-24e8-4864-9d2e-07f8efcb17e6.mp3
-  published_at: '2026-06-23T03:15:00-04:00'
-  episode_key: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
-  episode_slug: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
-  episode_page_url: "/trail-society/episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall/"
 - podcast_title: Trail Talk
   podcast_page_url: "/trail-talk/"
   cover_image: "/media/trailtalk.jpg"
@@ -517,18 +529,6 @@ items:
   episode_key: hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete
   episode_slug: hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete
   episode_page_url: "/the-buzz/hunter-leininger-from-7-year-old-adventure-racer-to-pro-fkt-athlete/"
-- podcast_title: Long Run Labs
-  podcast_page_url: "/long-run-labs/"
-  cover_image: "/media/longrunlabs.jpeg"
-  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
-  filter_category: business english
-  episode_title: How LSKD Went from $3M to $200M by Going Back to Basics
-  episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_lskd_went_from_3m_to_200m_by_going_back_to_basics
-  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019ece2b-5ff1-7bb0-9387-021014c76dcd/019ece2b-6112-7632-9c55-a3a8f5943722.mp3
-  published_at: '2026-06-16T07:00:00+00:00'
-  episode_key: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
-  episode_slug: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
-  episode_page_url: "/long-run-labs/how-lskd-went-from-3m-to-200m-by-going-back-to-basics/"
 - podcast_title: The Way Of The Runner
   podcast_page_url: "/the-way-of-the-runner/"
   cover_image: "/media/the-way-of-the-runner-podcast.png"
@@ -4394,6 +4394,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/take-off-your-shoes/take-off-your-shoes-rod-farvard/"
   https://feeds.captivate.fm/trail-society/: &12
+  - episode_title: 'Episode 140: A Western States first-timer shares her story and some advice'
+    episode_url: https://trail-society.captivate.fm
+    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/3935a652-87c8-42d1-80ff-a0ad620a82b6.mp3
+    published_at: '2026-06-30T03:00:00-04:00'
+    description_html: '<p><em>Trail Society teamed up with our Feisty Media sister podcast, Another Mother Runner, for a special episode recorded in Tahoe ahead of Western States. This episode originally dropped on the Another Mother Runner feed on Friday, June 26, 2026, and we''re sharing it with you all here because we loved the conversation.</em></p><p>Another Mother Runner host, Sarah Bowen Shea, is joined by Trail Society''s Corrine Malcolm to talk with Stephanie Irving, 64, who was the second oldest woman at the Western States 100-mile, after a decade of entering the lottery, and is the co-founder of <a href="https://wildwomantrailruns.com/" rel="noopener noreferrer" target="_blank">Wild Woman Trail Runs</a>.</p><p>In this in-person episode recorded just days before the big race, Steph and Corrine detail:</p><ul><li>what’s so special about "States"</li><li>the magic of a women’s-only running race like Wild Woman</li><li>how to stop thinking about age as an impediment</li><li>fueling advice for long trail races</li><li>the value in going before you''re ready—whether in a race or life!</li></ul><p>Before Steph joins the conversation around 11:55, Corrine sheds some light on the history of Western States.</p><p>Follow Us:</p><p>FeistyFest Details and Registration: https://feisty.co/events/feisty-fest/</p><p>@feisty_media</p><p>@trail.society</p><p>Support our Partners:</p><p>Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com</p><p>Good Ranchers: Subscribe and get $25 off your first order with the code IRON at goodranchers.com</p><p>rabbit: Visit https://www.runinrabbit.com/ use code: JUNEBUNNY10 for 10% off.</p><p>Mentioned in this episode:</p><p><strong>TifosiJune</strong></p><p>Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com</p>'
+    description_plain: 'Trail Society teamed up with our Feisty Media sister podcast, Another Mother Runner, for a special episode recorded in Tahoe ahead of Western States. This episode originally dropped on the Another Mother Runner feed on Friday, June 26, 2026, and we''re sharing it with you all here because we loved the conversation. Another Mother Runner host, Sarah Bowen Shea, is joined by Trail Society''s Corrine Malcolm to talk with Stephanie Irving, 64, who was the second oldest woman at the Western States 100-mile, after a decade of entering the lottery, and is the co-founder of Wild Woman Trail Runs . In this in-person episode recorded just days before the big race, Steph and Corrine detail: what’s so special about "States" the magic of a women’s-only running race like Wild Woman how to stop thinking about age as an impediment fueling advice for long trail races the value in going before you''re ready—whether in a race or life! Before Steph joins the conversation around 11:55, Corrine sheds some light on the history of Western States. Follow Us: FeistyFest Details and Registration: https://feisty.co/events/feisty-fest/ @feisty_media @trail.society Support our Partners: Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com Good Ranchers: Subscribe and get $25 off your first order with the code IRON at goodranchers.com rabbit: Visit https://www.runinrabbit.com/ use code: JUNEBUNNY10 for 10% off. Mentioned in this episode: TifosiJune Use the code FEISTY2026 for 20% off at https://www.tifosioptics.com'
+    episode_image_url: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
+    episode_uid: 3935a652-87c8-42d1-80ff-a0ad620a82b6
+    episode_slug: episode-140-a-western-states-first-timer-shares-her-story-and-some-advice
+    episode_key: episode-140-a-western-states-first-timer-shares-her-story-and-some-advice
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/trail-society/episode-140-a-western-states-first-timer-shares-her-story-and-some-advice/"
   - episode_title: 'Episode 139: Revisiting the pursuit of excellence with Western States champ Abby Hall'
     episode_url: https://trail-society.captivate.fm
     audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/ce9c32d4-24e8-4864-9d2e-07f8efcb17e6.mp3
@@ -4404,7 +4416,7 @@ episodes_by_feed:
     episode_uid: ce9c32d4-24e8-4864-9d2e-07f8efcb17e6
     episode_slug: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
     episode_key: episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/trail-society/episode-139-revisiting-the-pursuit-of-excellence-with-western-states-champ-abby-hall/"
   - episode_title: 'Episode 138: Lessons (for running & life) from the Unbound 200-mile gravel race'
     episode_url: https://trail-society.captivate.fm
@@ -4416,7 +4428,7 @@ episodes_by_feed:
     episode_uid: f7dc44e9-b67a-40ff-83e8-fecc823684e1
     episode_slug: episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race
     episode_key: episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/trail-society/episode-138-lessons-for-running-life-from-the-unbound-200-mile-gravel-race/"
   - episode_title: 'Episode 137: Women’s sports are good business with Kate Veronneau'
     episode_url: https://trail-society.captivate.fm
@@ -4428,7 +4440,7 @@ episodes_by_feed:
     episode_uid: 32e85237-9d03-44f4-98e5-fb20d67a479d
     episode_slug: episode-137-women-s-sports-are-good-business-with-kate-veronneau
     episode_key: episode-137-women-s-sports-are-good-business-with-kate-veronneau
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/trail-society/episode-137-women-s-sports-are-good-business-with-kate-veronneau/"
   - episode_title: 'Episode 136: Listener training questions in the Coaches Corner with Keely and Corrine'
     episode_url: https://trail-society.captivate.fm
@@ -4440,7 +4452,7 @@ episodes_by_feed:
     episode_uid: 509a42c8-a997-4d7c-8f66-2c7db8aca8b1
     episode_slug: episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine
     episode_key: episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/trail-society/episode-136-listener-training-questions-in-the-coaches-corner-with-keely-and-corrine/"
   - episode_title: 'Episode 135: It''s cool to care with Dani Moreno'
     episode_url: https://trail-society.captivate.fm
@@ -4452,7 +4464,7 @@ episodes_by_feed:
     episode_uid: 5634ad72-3cdf-497a-af77-e0924c1cb1d2
     episode_slug: episode-135-it-s-cool-to-care-with-dani-moreno
     episode_key: episode-135-it-s-cool-to-care-with-dani-moreno
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/trail-society/episode-135-it-s-cool-to-care-with-dani-moreno/"
   - episode_title: 'Episode 134: How to build your injury toolkit'
     episode_url: https://trail-society.captivate.fm
@@ -4464,7 +4476,7 @@ episodes_by_feed:
     episode_uid: 21c0e9b9-849b-4859-8db9-dba65afb4795
     episode_slug: episode-134-how-to-build-your-injury-toolkit
     episode_key: episode-134-how-to-build-your-injury-toolkit
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/trail-society/episode-134-how-to-build-your-injury-toolkit/"
   - episode_title: 'Episode 133: Why staying curious keeps Jenny Quilty racing fast'
     episode_url: https://trail-society.captivate.fm
@@ -4476,7 +4488,7 @@ episodes_by_feed:
     episode_uid: e929e4dd-fbae-4476-99e6-3b9b970fa4ea
     episode_slug: episode-133-why-staying-curious-keeps-jenny-quilty-racing-fast
     episode_key: episode-133-why-staying-curious-keeps-jenny-quilty-racing-fast
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/trail-society/episode-133-why-staying-curious-keeps-jenny-quilty-racing-fast/"
   - episode_title: 'Episode 132: Solving the hot weather hydration and fueling puzzle'
     episode_url: https://trail-society.captivate.fm
@@ -4488,7 +4500,7 @@ episodes_by_feed:
     episode_uid: 577fb5ba-dd17-4b11-a894-a529feae1dd1
     episode_slug: episode-132-solving-the-hot-weather-hydration-and-fueling-puzzle
     episode_key: episode-132-solving-the-hot-weather-hydration-and-fueling-puzzle
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/trail-society/episode-132-solving-the-hot-weather-hydration-and-fueling-puzzle/"
   - episode_title: 'Episode 131: How to rebuild when everything changes with Lizzy Fowler'
     episode_url: https://trail-society.captivate.fm
@@ -4500,7 +4512,7 @@ episodes_by_feed:
     episode_uid: 4ca83211-6c35-4396-ae39-90b33c658b5b
     episode_slug: episode-131-how-to-rebuild-when-everything-changes-with-lizzy-fowler
     episode_key: episode-131-how-to-rebuild-when-everything-changes-with-lizzy-fowler
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/trail-society/episode-131-how-to-rebuild-when-everything-changes-with-lizzy-fowler/"
   - episode_title: 'Episode 130: Self-belief is a super power'
     episode_url: https://trail-society.captivate.fm
@@ -4512,7 +4524,7 @@ episodes_by_feed:
     episode_uid: 5a865b83-491a-487f-82a1-f7ab7321e6a6
     episode_slug: episode-130-self-belief-is-a-super-power
     episode_key: episode-130-self-belief-is-a-super-power
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/trail-society/episode-130-self-belief-is-a-super-power/"
   - episode_title: 'Episode 129: The science of cognitive fatigue in running'
     episode_url: https://trail-society.captivate.fm
@@ -4524,7 +4536,7 @@ episodes_by_feed:
     episode_uid: a9529671-91b2-4704-8a43-6a7706a00e4c
     episode_slug: episode-129-the-science-of-cognitive-fatigue-in-running
     episode_key: episode-129-the-science-of-cognitive-fatigue-in-running
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/trail-society/episode-129-the-science-of-cognitive-fatigue-in-running/"
   - episode_title: 'Episode 128: Is it fatigue or is it anemia?'
     episode_url: https://trail-society.captivate.fm
@@ -4536,7 +4548,7 @@ episodes_by_feed:
     episode_uid: 341c542e-392f-48f4-9087-fd100afe2f0d
     episode_slug: episode-128-is-it-fatigue-or-is-it-anemia
     episode_key: episode-128-is-it-fatigue-or-is-it-anemia
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/trail-society/episode-128-is-it-fatigue-or-is-it-anemia/"
   - episode_title: 'Episode 127: Strong As a Mother with Jess Dorrington and Shannon Rowbury'
     episode_url: https://trail-society.captivate.fm
@@ -4548,7 +4560,7 @@ episodes_by_feed:
     episode_uid: e7c91491-de4e-4200-a2a4-b661cdf3d767
     episode_slug: episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury
     episode_key: episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/trail-society/episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury/"
   - episode_title: 'Episode 126: Jane Maus'' Mountain Training Mindset - From the Grand Teton FKT to Black Canyon 50K Champion'
     episode_url: https://trail-society.captivate.fm
@@ -4560,7 +4572,7 @@ episodes_by_feed:
     episode_uid: 24f6c137-8b7e-4011-9983-6234a9520392
     episode_slug: episode-126-jane-maus-mountain-training-mindset-from-the-grand-teton-fkt-to-black-canyon-50k-champion
     episode_key: episode-126-jane-maus-mountain-training-mindset-from-the-grand-teton-fkt-to-black-canyon-50k-champion
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/trail-society/episode-126-jane-maus-mountain-training-mindset-from-the-grand-teton-fkt-to-black-canyon-50k-champion/"
   - episode_title: 'Episode 125: Why do some athletes choke on the world''s biggest stage?'
     episode_url: https://trail-society.captivate.fm
@@ -4572,7 +4584,7 @@ episodes_by_feed:
     episode_uid: ab95bb26-2bf8-4236-a78c-eecda190eaee
     episode_slug: episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage
     episode_key: episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/trail-society/episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage/"
   - episode_title: 'Episode 124: Dani Aravich went from Division I runner to Paralympic biathlete'
     episode_url: https://trail-society.captivate.fm
@@ -4584,7 +4596,7 @@ episodes_by_feed:
     episode_uid: 7d7ae9e1-3573-4545-902b-aa1636c771ff
     episode_slug: episode-124-dani-aravich-went-from-division-i-runner-to-paralympic-biathlete
     episode_key: episode-124-dani-aravich-went-from-division-i-runner-to-paralympic-biathlete
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/trail-society/episode-124-dani-aravich-went-from-division-i-runner-to-paralympic-biathlete/"
   - episode_title: 'Episode 123: Are female athletes more injury-prone? Here''s what the research says'
     episode_url: https://trail-society.captivate.fm
@@ -4596,7 +4608,7 @@ episodes_by_feed:
     episode_uid: 912b36f5-0242-4fb7-b1af-5d726c874530
     episode_slug: episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says
     episode_key: episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/trail-society/episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says/"
   - episode_title: 'Episode 122: Trail Running is Political: Immigration, ICE & the Responsibility of Our Sport with Carolina Rubio-MacWright'
     episode_url: https://trail-society.captivate.fm
@@ -4608,7 +4620,7 @@ episodes_by_feed:
     episode_uid: 67a969c2-f076-47f4-9b14-aaf26aea90fd
     episode_slug: episode-122-trail-running-is-political-immigration-ice-the-responsibility-of-our-sport-with-carolina-rubio-macwright
     episode_key: episode-122-trail-running-is-political-immigration-ice-the-responsibility-of-our-sport-with-carolina-rubio-macwright
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/trail-society/episode-122-trail-running-is-political-immigration-ice-the-responsibility-of-our-sport-with-carolina-rubio-macwright/"
   - episode_title: 'Episode 121: Stress, the science of cortisol, and updates on the Female Athlete Triad'
     episode_url: https://trail-society.captivate.fm
@@ -4620,7 +4632,7 @@ episodes_by_feed:
     episode_uid: 95fc0749-eeb8-4a68-b058-97376384eb02
     episode_slug: episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad
     episode_key: episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/trail-society/episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad/"
   - episode_title: 'Episode 120: Sabrina Stanley is back racing after cancer'
     episode_url: https://trail-society.captivate.fm
@@ -4632,7 +4644,7 @@ episodes_by_feed:
     episode_uid: 5f167e38-323c-4083-b510-60e4fbe7e5d0
     episode_slug: episode-120-sabrina-stanley-is-back-racing-after-cancer
     episode_key: episode-120-sabrina-stanley-is-back-racing-after-cancer
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/trail-society/episode-120-sabrina-stanley-is-back-racing-after-cancer/"
   - episode_title: 'Episode 119: Stress is stress: Why training load isn''t just about training'
     episode_url: https://trail-society.captivate.fm
@@ -4644,7 +4656,7 @@ episodes_by_feed:
     episode_uid: ff6adf0d-5030-4359-ad66-7f86488b1562
     episode_slug: episode-119-stress-is-stress-why-training-load-isn-t-just-about-training
     episode_key: episode-119-stress-is-stress-why-training-load-isn-t-just-about-training
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/trail-society/episode-119-stress-is-stress-why-training-load-isn-t-just-about-training/"
   - episode_title: The Science of Your Nervous System and How to Respond to Stress, Trauma, and the State of the World
     episode_url: https://trail-society.captivate.fm
@@ -4656,7 +4668,7 @@ episodes_by_feed:
     episode_uid: daf7fdb0-83d2-4521-ab28-2b905d0986d6
     episode_slug: the-science-of-your-nervous-system-and-how-to-respond-to-stress-trauma-and-the-state-of-the-world
     episode_key: the-science-of-your-nervous-system-and-how-to-respond-to-stress-trauma-and-the-state-of-the-world
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/trail-society/the-science-of-your-nervous-system-and-how-to-respond-to-stress-trauma-and-the-state-of-the-world/"
   - episode_title: 'Episode 118: Chronic pain, endometriosis, and major surgery: How Olivia Amber became the first woman to establish a time on Norman''s 13'
     episode_url: https://trail-society.captivate.fm
@@ -4668,7 +4680,7 @@ episodes_by_feed:
     episode_uid: 68348de4-a91a-4f30-8826-b3cbc73ff778
     episode_slug: episode-118-chronic-pain-endometriosis-and-major-surgery-how-olivia-amber-became-the-first-woman-to-establish-a-time-on-
     episode_key: episode-118-chronic-pain-endometriosis-and-major-surgery-how-olivia-amber-became-the-first-woman-to-establish-a-time-on-
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/trail-society/episode-118-chronic-pain-endometriosis-and-major-surgery-how-olivia-amber-became-the-first-woman-to-establish-a-time-on-/"
   - episode_title: 'Episode 117: Western States Winner Abby Hall and the Freedom of Owning Ambition'
     episode_url: https://trail-society.captivate.fm
@@ -4680,20 +4692,8 @@ episodes_by_feed:
     episode_uid: 8495b70a-3842-4b57-939c-bb05e92ac542
     episode_slug: episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition
     episode_key: episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/trail-society/episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition/"
-  - episode_title: 'Episode 116: Reflecting on 2025, ReFUEL study updates, and Looking Ahead'
-    episode_url: https://trail-society.captivate.fm
-    audio_url: https://pscrb.fm/rss/p/episodes.captivate.fm/episode/ed8744ec-d0e8-4fdc-8334-4a04c339df94.mp3
-    published_at: '2025-12-30T13:00:00-04:00'
-    description_html: '<p dir="ltr">Episode 116 is a year end reflection with Corrine Malcolm, Keely Henninger, and Hillary Allen, released just ahead of the New Year. The conversation opens with lighthearted check ins on holiday routines, winter training, and how each host plans to ring in 2026. From there, the episode moves into results, news, and science, including a detailed discussion of new findings from the ReFUEL study examining menstrual recovery, estrogen exposure, and ovulation in endurance athletes with functional hypothalamic amenorrhea and oligomenorrhea. The hosts unpack what it actually means for cycles to return, why multiple consecutive cycles matter, and how this research informs coaching, athlete health, and family planning conversations.</p><p dir="ltr">The second half of the episode is a wide ranging reflection on the year that was. Corrine, Keely, and Hillary look back on major themes from Trail Society in 2025, including athlete contracts, travel and racing highlights, fertility, resilience, fatigue, recovery, and women''s sports milestones. They reflect on favorite conversations and guests, moments that surprised them, trends they are ready to leave behind, and ideas they hope shape the future of the sport. The episode closes with personal roses and thorns from the year, Society Slam listener questions, and an exciting announcement about what''s coming next: a short break, a new weekly format in 2026, and even more long run listening ahead.</p><p dir="ltr">Sponsors</p><p dir="ltr">This episode is brought to you by rabbit. If you''re looking to treat yourself after the holidays or upgrade your winter running kit, head to <a href= "http://www.runinrabbit.com">www.runinrabbit.com</a> and use code HOPPYHOLIDAYS in December for 10% off.</p><p dir="ltr">Citations</p><p>Mallinson, R. J., et al. (2025). Multiple eumenorrheic cycles are necessary to observe a significant increase in estrogen exposure and ovulation in exercising women with functional hypothalamic oligo/amenorrhea undergoing a nutritional intervention: Insights from the REFUEL study. PM & R: The Journal of Injury, Function, and Rehabilitation. https://doi.org/10.1002/pmrj.70024</p>'
-    description_plain: 'Episode 116 is a year end reflection with Corrine Malcolm, Keely Henninger, and Hillary Allen, released just ahead of the New Year. The conversation opens with lighthearted check ins on holiday routines, winter training, and how each host plans to ring in 2026. From there, the episode moves into results, news, and science, including a detailed discussion of new findings from the ReFUEL study examining menstrual recovery, estrogen exposure, and ovulation in endurance athletes with functional hypothalamic amenorrhea and oligomenorrhea. The hosts unpack what it actually means for cycles to return, why multiple consecutive cycles matter, and how this research informs coaching, athlete health, and family planning conversations. The second half of the episode is a wide ranging reflection on the year that was. Corrine, Keely, and Hillary look back on major themes from Trail Society in 2025, including athlete contracts, travel and racing highlights, fertility, resilience, fatigue, recovery, and women''s sports milestones. They reflect on favorite conversations and guests, moments that surprised them, trends they are ready to leave behind, and ideas they hope shape the future of the sport. The episode closes with personal roses and thorns from the year, Society Slam listener questions, and an exciting announcement about what''s coming next: a short break, a new weekly format in 2026, and even more long run listening ahead. Sponsors This episode is brought to you by rabbit. If you''re looking to treat yourself after the holidays or upgrade your winter running kit, head to www.runinrabbit.com and use code HOPPYHOLIDAYS in December for 10% off. Citations Mallinson, R. J., et al. (2025). Multiple eumenorrheic cycles are necessary to observe a significant increase in estrogen exposure and ovulation in exercising women with functional hypothalamic oligo/amenorrhea undergoing a nutritional intervention: Insights from the REFUEL study. PM & R: The Journal of Injury, Function, and Rehabilitation. https://doi.org/10.1002/pmrj.70024'
-    episode_image_url: https://artwork.captivate.fm/b5ed184f-2497-4f06-8426-c5c44526c050/RUNNING-PODCAST-3.jpg
-    episode_uid: ae1b1e10-0d64-4922-9e18-0834e30de5ee
-    episode_slug: episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead
-    episode_key: episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead
     legacy_numbered_slug: episode-25
-    episode_page_url: "/trail-society/episode-116-reflecting-on-2025-refuel-study-updates-and-looking-ahead/"
+    episode_page_url: "/trail-society/episode-117-western-states-winner-abby-hall-and-the-freedom-of-owning-ambition/"
   https://rss.buzzsprout.com/299975.rss: &13
   - episode_title: EP142 - Lavaredo 50km
     episode_url: ''
@@ -24513,6 +24513,30 @@ episodes_by_feed:
     legacy_numbered_slug: episode-16
     episode_page_url: "/historias-del-trail/1-especial-analisis-occ-desde-el-utmb-de-chamonix/"
   https://anchor.fm/s/1061aabc4/podcast/rss: &81
+  - episode_title: 'From Olympic Rower to Employee #3 at Momentous to Building the Water Brand Doing What Nobody Else Will'
+    episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_olympic_rower_to_employee_3_at_momentous_to_building_the_water_brand_doing_what_nobody_else_will
+    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f0e42-e371-7e49-88d2-f4bab7f22da1/019f0e42-e445-7d67-9a8e-47159f373f39.mp3
+    published_at: '2026-06-30T07:00:00+00:00'
+    description_html: '<p>Sara Hendershot has spent her career at the intersection of elite sport and early stage brand building. She rowed at the 2012 Olympics, was employee number three at Momentous before it became one of the most trusted names in performance supplementation, and is now employee number four at Loonen, a water company doing something nobody else in the category has been willing to do.</p><p>Loonen combines the highest quality spring source with the highest quality filtration, tests for over 350 contaminants across every production run, and publishes every single result. The FDA requires none of it. That''s the point.</p><p>Sara joins Long Run Labs to talk about the athlete to entrepreneur journey, what she learned building Momentous from the ground up, and why the bottled water category is overdue for exactly this kind of disruption.</p><p>Jon and Sara chat about:</p><ul><li><p>growing up in a competitive athletic household and finding rowing</p></li><li><p>making the 2012 Olympic team and what two very different Olympic cycles taught her</p></li><li><p>turning down Wall Street to pursue sport and then figuring out what came next</p></li><li><p>working at Smack Media and getting exposure to early stage sports brands</p></li><li><p>being employee number three at Momentous and what those early days looked like</p></li><li><p>how the athlete as creator shift changed the marketing landscape between 2018 and 2021</p></li><li><p>the therapy work that helped her transition out of elite sport and into the real world</p></li><li><p>why outcome based values are just goals in disguise</p></li><li><p>what empathy actually looks like inside a high performance team culture</p></li><li><p>the founding story behind Loonen and why Clara started it during IVF</p></li><li><p>why the FDA''s bottled water requirements are shockingly low</p></li><li><p>how Loonen combines spring sourcing and filtration in a way nobody else has done</p></li><li><p>why fear mongering is never going to be part of their brand voice</p></li><li><p>showing up at Boston Marathon, Rich Roll live recordings, and Nike Skims events to build community one person at a time</p></li><li><p>the wave surfer surfboard framework for evaluating a startup</p></li><li><p>what success means to Loonen and what success means to Sara</p></li></ul><p><b>Stay connected:</b></p><p>Sara on LinkedIn: <a href="https://www.linkedin.com/in/sarahendershot/">https://www.linkedin.com/in/sarahendershot/</a></p><p>Loonen Website: <a href="https://loonen.com">https://loonen.com</a></p><p><b>Thank you to our sponsors:</b></p><p>The Huddle: If you''re at the point where going at it alone isn''t working or you''re ready to level things up in your business, go to <a href="https://findmyhuddle.com/">https://findmyhuddle.com/</a> and fill out the application</p><p>Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: <a href="https://popf.ly/longrunlabscreators">https://popf.ly/longrunlabscreators</a>. Brands click here: <a href="https://popf.ly/longrunlabsbrands">https://popf.ly/longrunlabsbrands</a></p>'
+    description_plain: 'Sara Hendershot has spent her career at the intersection of elite sport and early stage brand building. She rowed at the 2012 Olympics, was employee number three at Momentous before it became one of the most trusted names in performance supplementation, and is now employee number four at Loonen, a water company doing something nobody else in the category has been willing to do. Loonen combines the highest quality spring source with the highest quality filtration, tests for over 350 contaminants across every production run, and publishes every single result. The FDA requires none of it. That''s the point. Sara joins Long Run Labs to talk about the athlete to entrepreneur journey, what she learned building Momentous from the ground up, and why the bottled water category is overdue for exactly this kind of disruption. Jon and Sara chat about: growing up in a competitive athletic household and finding rowing making the 2012 Olympic team and what two very different Olympic cycles taught her turning down Wall Street to pursue sport and then figuring out what came next working at Smack Media and getting exposure to early stage sports brands being employee number three at Momentous and what those early days looked like how the athlete as creator shift changed the marketing landscape between 2018 and 2021 the therapy work that helped her transition out of elite sport and into the real world why outcome based values are just goals in disguise what empathy actually looks like inside a high performance team culture the founding story behind Loonen and why Clara started it during IVF why the FDA''s bottled water requirements are shockingly low how Loonen combines spring sourcing and filtration in a way nobody else has done why fear mongering is never going to be part of their brand voice showing up at Boston Marathon, Rich Roll live recordings, and Nike Skims events to build community one person at a time the wave surfer surfboard framework for evaluating a startup what success means to Loonen and what success means to Sara Stay connected: Sara on LinkedIn: https://www.linkedin.com/in/sarahendershot/ Loonen Website: https://loonen.com Thank you to our sponsors: The Huddle: If you''re at the point where going at it alone isn''t working or you''re ready to level things up in your business, go to https://findmyhuddle.com/ and fill out the application Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: https://popf.ly/longrunlabscreators . Brands click here: https://popf.ly/longrunlabsbrands'
+    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c24781ba-f869-4345-9743-a1af541fa730/podcast_import_artwork_20260530-183-cd1hcl.jpg?t=1780149888
+    episode_uid: '019f0e42-e371-7cae-bc79-1728e09af261'
+    episode_slug: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+    episode_key: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/long-run-labs/from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will/"
+  - episode_title: Why the Creator Economy Is Just Getting Started and What Investors Are Betting On
+    episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_the_creator_economy_is_just_getting_started_and_what_investors_are_betting_on
+    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019ef3f5-ccdc-7a9a-b516-a261c2041509/019ef3f5-cd98-7678-bc77-476f2a8b609d.mp3
+    published_at: '2026-06-23T10:22:42+00:00'
+    description_html: '<p>Megan Lightcap runs the creator fund at Slow Ventures, one of the first venture funds built specifically around creator entrepreneurs. Her thesis is simple: creators are just a new type of founder. And the ones who own a niche, build a world around themselves, and treat their audience like a community rather than an audience are the ones who will build empires.</p><p>Megan joins Long Run Labs to break down the creator landscape in 2026, why individuals are beating brands, what AI is actually doing for creators right now, and where she sees the biggest opportunities being overlooked.</p><p>Jon and Megan chat about:</p><ul><li><p>why people matter and brands don''t in 2026</p></li><li><p>own the niche not the category and what that looks like in practice</p></li><li><p>the difference between a creator and a creator founder</p></li><li><p>why haters are actually a good signal when evaluating creators to back</p></li><li><p>how AI is washing away undifferentiated creators and accelerating the rest</p></li><li><p>the AI boot camp Slow Ventures ran for 30 creators in San Francisco</p></li><li><p>building in public and why staying top of mind matters more than going viral</p></li><li><p>why eyeballs and follower counts are the lowest signal metrics in 2026</p></li><li><p>where venture capital is looking in the outdoor and trail running space</p></li><li><p>the fringe to mainstream pipeline and what categories are next</p></li><li><p>the wide open lane Megan is looking to fill around aging parents and end of life decisions</p></li></ul><p><b>Stay connected:</b></p><p>Megan on LinkedIn: <a href="https://www.linkedin.com/in/megan-lightcap-513ab96b/">https://www.linkedin.com/in/megan-lightcap-513ab96b/</a></p><p>Megan''s website: <a href="https://www.meganlightcap.com">https://www.meganlightcap.com</a></p><p><b>Support our sponsors:</b></p><p><i><a href="https://www.amazfit.com?utm_source=www.forthelong.run&amp;utm_medium=newsletter&amp;utm_campaign=tommie-runz-is-running-western-states-for-everyone-who-thinks-it-s-not-for-them">Amazfit</a></i> - If you''re heading to Western States as a runner, pacer, or crew member, join us for a shakeout run in Olympic Valley before race weekend. Learn more about the new Amazfit Cheetah 2 Ultra and connect with the community that helps make race day possible. Visit <a href="https://Amazfit.com">Amazfit.com</a> for more information, and you can use the code FTLR2026 for 10% off!</p><p>Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: <a href="https://popf.ly/longrunlabscreators">https://popf.ly/longrunlabscreators</a>. Brands click here: <a href="https://popf.ly/longrunlabsbrands">https://popf.ly/longrunlabsbrands</a></p>'
+    description_plain: 'Megan Lightcap runs the creator fund at Slow Ventures, one of the first venture funds built specifically around creator entrepreneurs. Her thesis is simple: creators are just a new type of founder. And the ones who own a niche, build a world around themselves, and treat their audience like a community rather than an audience are the ones who will build empires. Megan joins Long Run Labs to break down the creator landscape in 2026, why individuals are beating brands, what AI is actually doing for creators right now, and where she sees the biggest opportunities being overlooked. Jon and Megan chat about: why people matter and brands don''t in 2026 own the niche not the category and what that looks like in practice the difference between a creator and a creator founder why haters are actually a good signal when evaluating creators to back how AI is washing away undifferentiated creators and accelerating the rest the AI boot camp Slow Ventures ran for 30 creators in San Francisco building in public and why staying top of mind matters more than going viral why eyeballs and follower counts are the lowest signal metrics in 2026 where venture capital is looking in the outdoor and trail running space the fringe to mainstream pipeline and what categories are next the wide open lane Megan is looking to fill around aging parents and end of life decisions Stay connected: Megan on LinkedIn: https://www.linkedin.com/in/megan-lightcap-513ab96b/ Megan''s website: https://www.meganlightcap.com Support our sponsors: Amazfit - If you''re heading to Western States as a runner, pacer, or crew member, join us for a shakeout run in Olympic Valley before race weekend. Learn more about the new Amazfit Cheetah 2 Ultra and connect with the community that helps make race day possible. Visit Amazfit.com for more information, and you can use the code FTLR2026 for 10% off! Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: https://popf.ly/longrunlabscreators . Brands click here: https://popf.ly/longrunlabsbrands'
+    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c24781ba-f869-4345-9743-a1af541fa730/podcast_import_artwork_20260530-183-cd1hcl.jpg?t=1780149888
+    episode_uid: '019ef3f5-ccdc-788d-91df-4446d5fb733e'
+    episode_slug: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
+    episode_key: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/long-run-labs/why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on/"
   - episode_title: How LSKD Went from $3M to $200M by Going Back to Basics
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_lskd_went_from_3m_to_200m_by_going_back_to_basics
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019ece2b-5ff1-7bb0-9387-021014c76dcd/019ece2b-6112-7632-9c55-a3a8f5943722.mp3
@@ -24523,7 +24547,7 @@ episodes_by_feed:
     episode_uid: '019ece2b-5ff1-7e96-bb3f-e9f32690436e'
     episode_slug: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
     episode_key: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-03
     episode_page_url: "/long-run-labs/how-lskd-went-from-3m-to-200m-by-going-back-to-basics/"
   - episode_title: Building the Event Trail Running Has Been Missing
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/building_the_event_trail_running_has_been_missing
@@ -24535,7 +24559,7 @@ episodes_by_feed:
     episode_uid: '019eaa72-3e4c-7f69-830e-e45dee2f2ef9'
     episode_slug: building-the-event-trail-running-has-been-missing
     episode_key: building-the-event-trail-running-has-been-missing
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-04
     episode_page_url: "/long-run-labs/building-the-event-trail-running-has-been-missing/"
   - episode_title: The Accidental Business Owner Who Built the Science of Endurance Fueling
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_accidental_business_owner_who_built_the_science_of_endurance_fueling
@@ -24547,7 +24571,7 @@ episodes_by_feed:
     episode_uid: '019ea1cf-1582-7b18-a650-a23baf0440d5'
     episode_slug: the-accidental-business-owner-who-built-the-science-of-endurance-fueling
     episode_key: the-accidental-business-owner-who-built-the-science-of-endurance-fueling
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-05
     episode_page_url: "/long-run-labs/the-accidental-business-owner-who-built-the-science-of-endurance-fueling/"
   - episode_title: 'Des Linden: Build the Audience. The Deals Follow.'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/des_linden_build_the_audience_the_deals_follow
@@ -24559,7 +24583,7 @@ episodes_by_feed:
     episode_uid: f95c2168-d1cd-41fd-a5dc-a498f94f16d2
     episode_slug: des-linden-build-the-audience-the-deals-follow
     episode_key: des-linden-build-the-audience-the-deals-follow
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-06
     episode_page_url: "/long-run-labs/des-linden-build-the-audience-the-deals-follow/"
   - episode_title: Why the Future of Endurance Brands Is Community, Trust, and AI | Randi Zuckerberg
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_the_future_of_endurance_brands_is_community_trust_and_ai_randi_zuckerberg
@@ -24571,7 +24595,7 @@ episodes_by_feed:
     episode_uid: 7955b22d-7ba1-4e37-8acc-f6b20a562d2d
     episode_slug: why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg
     episode_key: why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-07
     episode_page_url: "/long-run-labs/why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg/"
   - episode_title: Rethinking Outdoor Apparel for a Warming World | Doug Waters
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/rethinking_outdoor_apparel_for_a_warming_world_doug_waters
@@ -24583,7 +24607,7 @@ episodes_by_feed:
     episode_uid: 36d42fc6-399e-44ca-896d-ca5ed5858811
     episode_slug: rethinking-outdoor-apparel-for-a-warming-world-doug-waters
     episode_key: rethinking-outdoor-apparel-for-a-warming-world-doug-waters
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-08
     episode_page_url: "/long-run-labs/rethinking-outdoor-apparel-for-a-warming-world-doug-waters/"
   - episode_title: Why Entrepreneurs Stay Stuck (And How to Actually Move Forward) | Christian Rawles
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_entrepreneurs_stay_stuck_and_how_to_actually_move_forward_christian_rawles
@@ -24595,7 +24619,7 @@ episodes_by_feed:
     episode_uid: 0bc1f5e4-7d60-4ec5-8905-4c95c78ce61e
     episode_slug: why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles
     episode_key: why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-09
     episode_page_url: "/long-run-labs/why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles/"
   - episode_title: Turning Community Into a Running Brand That Lasts | Nick Dibos
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/turning_community_into_a_running_brand_that_lasts_nick_dibos
@@ -24607,7 +24631,7 @@ episodes_by_feed:
     episode_uid: 75896994-040a-4fa2-8afc-a676c85990ed
     episode_slug: turning-community-into-a-running-brand-that-lasts-nick-dibos
     episode_key: turning-community-into-a-running-brand-that-lasts-nick-dibos
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-10
     episode_page_url: "/long-run-labs/turning-community-into-a-running-brand-that-lasts-nick-dibos/"
   - episode_title: Building a Business in Trail Running Without Losing Trust | Seth LaReau
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/building_a_business_in_trail_running_without_losing_trust_seth_lareau
@@ -24619,7 +24643,7 @@ episodes_by_feed:
     episode_uid: 884666d2-1bd9-4980-8398-ea03244f47b2
     episode_slug: building-a-business-in-trail-running-without-losing-trust-seth-lareau
     episode_key: building-a-business-in-trail-running-without-losing-trust-seth-lareau
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-11
     episode_page_url: "/long-run-labs/building-a-business-in-trail-running-without-losing-trust-seth-lareau/"
   - episode_title: Why Most Brand Partnerships Fail (And How to Actually Get It Right)
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_most_brand_partnerships_fail_and_how_to_actually_get_it_right
@@ -24631,7 +24655,7 @@ episodes_by_feed:
     episode_uid: 5f0be72e-e729-413b-96cd-aa19c03d0253
     episode_slug: why-most-brand-partnerships-fail-and-how-to-actually-get-it-right
     episode_key: why-most-brand-partnerships-fail-and-how-to-actually-get-it-right
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-12
     episode_page_url: "/long-run-labs/why-most-brand-partnerships-fail-and-how-to-actually-get-it-right/"
   - episode_title: Why Authenticity Wins in Running Marketing
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_authenticity_wins_in_running_marketing
@@ -24643,7 +24667,7 @@ episodes_by_feed:
     episode_uid: a1891b01-8bc2-4454-8eef-e507517a89cf
     episode_slug: why-authenticity-wins-in-running-marketing
     episode_key: why-authenticity-wins-in-running-marketing
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-13
     episode_page_url: "/long-run-labs/why-authenticity-wins-in-running-marketing/"
   - episode_title: "$20K Launch Day: How Raide Built a Premium Gear Brand Through Word-of-Mouth and Elite Athletes"
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/20k_launch_day_how_raide_built_a_premium_gear_brand_through_word-of-mouth_and_elite_athletes
@@ -24655,7 +24679,7 @@ episodes_by_feed:
     episode_uid: 1dc2c55b-9b16-4bdd-8104-431df870f4f8
     episode_slug: 20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes
     episode_key: 20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-14
     episode_page_url: "/long-run-labs/20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes/"
   - episode_title: The Custom Insoles Revolutionizing Elite Running Performance
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_custom_insoles_revolutionizing_elite_running_performance
@@ -24667,7 +24691,7 @@ episodes_by_feed:
     episode_uid: 0a1db445-3152-4cee-a445-e10fcc13767e
     episode_slug: the-custom-insoles-revolutionizing-elite-running-performance
     episode_key: the-custom-insoles-revolutionizing-elite-running-performance
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-15
     episode_page_url: "/long-run-labs/the-custom-insoles-revolutionizing-elite-running-performance/"
   - episode_title: 'From Kickstarter to a Brooks Partnership: PYNRS Founder’s Blueprint for Community-First Business Building'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_kickstarter_to_a_brooks_partnership_pynrs_founder_s_blueprint_for_community-first_business_building
@@ -24679,7 +24703,7 @@ episodes_by_feed:
     episode_uid: '09fb4b79-f89d-428a-bfd3-6ad4edc6a889'
     episode_slug: from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building
     episode_key: from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-16
     episode_page_url: "/long-run-labs/from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building/"
   - episode_title: 'Consistency is a Competitive Advantage: Carbon Plates, Speciality Retail, and Smarter Marketing with Gelindo Bordin'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/consistency_is_a_competitive_advantage_carbon_plates_speciality_retail_and_smarter_marketing_with_gelindo_bordin
@@ -24691,7 +24715,7 @@ episodes_by_feed:
     episode_uid: 87a36385-fca7-405e-b693-801cbda70438
     episode_slug: consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin
     episode_key: consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-17
     episode_page_url: "/long-run-labs/consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin/"
   - episode_title: How Wilderdog Turned Dog Gear into a Profitable Business
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_wilderdog_turned_dog_gear_into_a_profitable_business
@@ -24703,7 +24727,7 @@ episodes_by_feed:
     episode_uid: 18696823-a082-409a-ad22-1be5382814c6
     episode_slug: how-wilderdog-turned-dog-gear-into-a-profitable-business
     episode_key: how-wilderdog-turned-dog-gear-into-a-profitable-business
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-18
     episode_page_url: "/long-run-labs/how-wilderdog-turned-dog-gear-into-a-profitable-business/"
   - episode_title: The Evolution of Performance Marketing in Niche Markets
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_evolution_of_performance_marketing_in_niche_markets
@@ -24715,7 +24739,7 @@ episodes_by_feed:
     episode_uid: e2534a1c-f905-4af0-8ed9-2ffc548cdeee
     episode_slug: the-evolution-of-performance-marketing-in-niche-markets
     episode_key: the-evolution-of-performance-marketing-in-niche-markets
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-19
     episode_page_url: "/long-run-labs/the-evolution-of-performance-marketing-in-niche-markets/"
   - episode_title: Want to be a Sponsored Trail Runner? Listen to This
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/want_to_be_a_sponsored_trail_runner_listen_to_this
@@ -24727,7 +24751,7 @@ episodes_by_feed:
     episode_uid: fe6fcbf1-fdae-4854-9406-b09c083fdaf7
     episode_slug: want-to-be-a-sponsored-trail-runner-listen-to-this
     episode_key: want-to-be-a-sponsored-trail-runner-listen-to-this
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-20
     episode_page_url: "/long-run-labs/want-to-be-a-sponsored-trail-runner-listen-to-this/"
   - episode_title: How Michael Brandt Built Ketone-IQ by Failing Until He Won
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_michael_brandt_built_ketone-iq_by_failing_until_he_won
@@ -24739,7 +24763,7 @@ episodes_by_feed:
     episode_uid: 658724c7-727b-4279-9c8d-034c179a8cba
     episode_slug: how-michael-brandt-built-ketone-iq-by-failing-until-he-won
     episode_key: how-michael-brandt-built-ketone-iq-by-failing-until-he-won
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-21
     episode_page_url: "/long-run-labs/how-michael-brandt-built-ketone-iq-by-failing-until-he-won/"
   - episode_title: 'From Coca-Cola to KIPRUN: Launching a Running Brand the Hard Way'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_coca-cola_to_kiprun_launching_a_running_brand_the_hard_way
@@ -24751,7 +24775,7 @@ episodes_by_feed:
     episode_uid: 57eea3c4-f74b-4882-b9e0-f9cf0b8f06bd
     episode_slug: from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way
     episode_key: from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-22
     episode_page_url: "/long-run-labs/from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way/"
   - episode_title: THE Problem-Solving Playbook for Entrepreneurs with Moisés Jimenez
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_problem-solving_playbook_for_entrepreneurs_with_moises_jimenez
@@ -24764,7 +24788,7 @@ episodes_by_feed:
     episode_slug: the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez
     episode_key: the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez
     legacy_unicode_slug: the-problem-solving-playbook-for-entrepreneurs-with-moisés-jimenez
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-23
     episode_page_url: "/long-run-labs/the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez/"
   - episode_title: How a Tech Exec Became a Running Store Owner
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_a_tech_exec_became_a_running_store_owner
@@ -24776,7 +24800,7 @@ episodes_by_feed:
     episode_uid: 4cafae0d-3594-42f0-95b8-602b883c1eb9
     episode_slug: how-a-tech-exec-became-a-running-store-owner
     episode_key: how-a-tech-exec-became-a-running-store-owner
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-24
     episode_page_url: "/long-run-labs/how-a-tech-exec-became-a-running-store-owner/"
   - episode_title: The Future of the Creator Economy with Demitra Carter
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_future_of_the_creator_economy_with_demitra_carter
@@ -24788,32 +24812,8 @@ episodes_by_feed:
     episode_uid: 5ea47037-c63b-45c9-9a6a-f0c6747f3d5b
     episode_slug: the-future-of-the-creator-economy-with-demitra-carter
     episode_key: the-future-of-the-creator-economy-with-demitra-carter
-    legacy_numbered_slug: episode-23
-    episode_page_url: "/long-run-labs/the-future-of-the-creator-economy-with-demitra-carter/"
-  - episode_title: 'Embrace Your Messy Story: Angie Lake’s Predictions for How to Stand Out in 2026'
-    episode_url: https://www.forthelong.run/podcast/s/long_run_labs/embrace_your_messy_story_angie_lake_s_predictions_for_how_to_stand_out_in_2026
-    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019e7933-b090-70ca-b094-bc4c29e28c15/019e7933-b11a-715b-8e61-20a08a476d41.mp3
-    published_at: '2026-01-06T11:00:00+00:00'
-    description_html: '<p>From first-time finisher to changing lives: hear about how Angie Lake is breaking down barriers in trail running, one story at a time.</p><p>Angie Lake is co-director of Wild Woman Trail Runs and community manager of The Cairn Project, a nonprofit closing the gender gap in outdoor sports.</p><p>As a storytelling consultant, menstrual health educator, and outdoor podcast host, Angie holds conversations around Blood, Sweat, and Fear to build happier and healthier communities for women.</p><p>Jon chats with Angie about:</p><ul><li><p>Angie''s evolution as an athlete and entrepreneur</p></li><li><p>Wild Woman Trail Runs race direction</p></li><li><p>brand partnerships and community building</p></li><li><p>women''s health and running science</p></li><li><p>the 50K Sisterhood Scholarship Program</p></li></ul><p>Stay connected:</p><p>Angie''s website:</p><p><a href="http://www.angielake.com">www.angielake.com</a></p><p>Wild Woman Trail Runs:</p><p><a href="http://www.wildwomantrailruns.com">www.wildwomantrailruns.com</a></p><p>The First 50k Sisterhood:</p><p><a href="https://cairnproject.org/first-50k-sisterhood">https://cairnproject.org/first-50k-sisterhood</a></p><p>Follow Angie:</p><p><a href="http://bloodsweatfear.substack.com">bloodsweatfear.substack.com</a></p><p><a href="http://instagram.com/angvswild">instagram.com/angvswild</a></p><p><a href="http://linkedin.com/in/angie-marie">linkedin.com/in/angie-marie</a></p><p><a href="http://instagram.com/wildwomantrailruns">instagram.com/wildwomantrailruns</a></p><p><a href="http://instagram.com/thecairnproject">instagram.com/thecairnproject</a></p>'
-    description_plain: 'From first-time finisher to changing lives: hear about how Angie Lake is breaking down barriers in trail running, one story at a time. Angie Lake is co-director of Wild Woman Trail Runs and community manager of The Cairn Project, a nonprofit closing the gender gap in outdoor sports. As a storytelling consultant, menstrual health educator, and outdoor podcast host, Angie holds conversations around Blood, Sweat, and Fear to build happier and healthier communities for women. Jon chats with Angie about: Angie''s evolution as an athlete and entrepreneur Wild Woman Trail Runs race direction brand partnerships and community building women''s health and running science the 50K Sisterhood Scholarship Program Stay connected: Angie''s website: www.angielake.com Wild Woman Trail Runs: www.wildwomantrailruns.com The First 50k Sisterhood: https://cairnproject.org/first-50k-sisterhood Follow Angie: bloodsweatfear.substack.com instagram.com/angvswild linkedin.com/in/angie-marie instagram.com/wildwomantrailruns instagram.com/thecairnproject'
-    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/82f9a831-1001-4277-a1b4-0930be9a1324/podcast_import_artwork_20260530-223-2cw2z8.jpg?t=1780149907
-    episode_uid: b22db9e0-ae9c-4c45-966e-e22543501b97
-    episode_slug: embrace-your-messy-story-angie-lake-s-predictions-for-how-to-stand-out-in-2026
-    episode_key: embrace-your-messy-story-angie-lake-s-predictions-for-how-to-stand-out-in-2026
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/long-run-labs/embrace-your-messy-story-angie-lake-s-predictions-for-how-to-stand-out-in-2026/"
-  - episode_title: 'Hydration Revolution: How Stefan van der Fluit is Disrupting Health Tech'
-    episode_url: https://www.forthelong.run/podcast/s/long_run_labs/hydration_revolution_how_stefan_van_der_fluit_is_disrupting_health_tech
-    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019e7933-c363-7680-89e7-3eca7c0ac8fd/019e7933-c3b5-71b5-b43c-abee647622c8.mp3
-    published_at: '2025-12-30T11:00:00+00:00'
-    description_html: '<p>From being bullied as a kid to becoming a national triathlon champion to building the world''s first reusable sweat sensor… Stefan van der Fluit’s journey proves that our greatest challenges often become our greatest innovations.</p><p>Stefan is a 4x founder; ex-Meta; ex-PolyAI; Entrepreneur First 2020; University of Cambridge 2017 graduate; and is racing bikes for Wolfox CAMS LeCol. He’s now building FLOWBIO → Deleting dehydration from the human experience. We are building the hydration AI installed in every health&amp; fitness wearable. Bringing hydration metrics like water and electrolyte losses to Oura, WHOOP, Apple Watch, Samsung Wear, FitBit without any hardware redesign.</p><p>Jon chats with Stefan about:</p><ul><li><p>conscious capitalism: doing business from good and long-term thinking</p></li><li><p>building FLOWBIO: world''s first reusable sweat sensor technology</p></li><li><p>his Triathlon journey: connecting with father and overcoming childhood bullying</p></li><li><p>hydration science: balance of water to sodium, not just intake</p></li><li><p>angel investor network: athletic brewing, Aura connections through referrals</p></li><li><p>startup challenges: three near-death experiences, sold out for quarters</p></li></ul><p>Stay connected:</p><p>Follow Stefan:</p><p><a href="https://www.instagram.com/sweatisdata/">https://www.instagram.com/sweatisdata/</a></p><p>This episode is supported by:</p><p><b>Rocket Money </b>Take control of your spending. Cancel unwanted subscriptions and reduce the rest with Rocket Money: <a href="http://rocketmoney.com/GORUNv">RocketMoney.com/GORUN</a></p><p><b>Superfiliate: </b>This episode is brought to you by Superfiliate. If you''re tired of overcomplicated and unnecessarily expensive platforms for affiliate marketing, do yourself a favor and check out <a href="http://superfiliate.com">Superfiliate.com</a>. Mention that Long Run Labs sent you and get your first month free!</p>'
-    description_plain: 'From being bullied as a kid to becoming a national triathlon champion to building the world''s first reusable sweat sensor… Stefan van der Fluit’s journey proves that our greatest challenges often become our greatest innovations. Stefan is a 4x founder; ex-Meta; ex-PolyAI; Entrepreneur First 2020; University of Cambridge 2017 graduate; and is racing bikes for Wolfox CAMS LeCol. He’s now building FLOWBIO → Deleting dehydration from the human experience. We are building the hydration AI installed in every health&amp; fitness wearable. Bringing hydration metrics like water and electrolyte losses to Oura, WHOOP, Apple Watch, Samsung Wear, FitBit without any hardware redesign. Jon chats with Stefan about: conscious capitalism: doing business from good and long-term thinking building FLOWBIO: world''s first reusable sweat sensor technology his Triathlon journey: connecting with father and overcoming childhood bullying hydration science: balance of water to sodium, not just intake angel investor network: athletic brewing, Aura connections through referrals startup challenges: three near-death experiences, sold out for quarters Stay connected: Follow Stefan: https://www.instagram.com/sweatisdata/ This episode is supported by: Rocket Money Take control of your spending. Cancel unwanted subscriptions and reduce the rest with Rocket Money: RocketMoney.com/GORUN Superfiliate: This episode is brought to you by Superfiliate. If you''re tired of overcomplicated and unnecessarily expensive platforms for affiliate marketing, do yourself a favor and check out Superfiliate.com . Mention that Long Run Labs sent you and get your first month free!'
-    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/a3eb56a0-50d0-4687-a3c5-8042f2a49efc/podcast_import_artwork_20260530-233-td1413.jpg?t=1780149899
-    episode_uid: 222b6d4e-0518-4c12-983a-8a1289b214e2
-    episode_slug: hydration-revolution-how-stefan-van-der-fluit-is-disrupting-health-tech
-    episode_key: hydration-revolution-how-stefan-van-der-fluit-is-disrupting-health-tech
     legacy_numbered_slug: episode-25
-    episode_page_url: "/long-run-labs/hydration-revolution-how-stefan-van-der-fluit-is-disrupting-health-tech/"
+    episode_page_url: "/long-run-labs/the-future-of-the-creator-economy-with-demitra-carter/"
   https://feeds.feedburner.com/stevemagness: &82
   - episode_title: 'Unlocking Potential: The Power of Constraints in Coaching and Training'
     episode_url: https://www.scienceofrunning.com/2026/06/unlocking-potential-the-power-of-constraints-in-coaching-and-training.html
