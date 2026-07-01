@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-01T03:11:21Z'
+generated_at: '2026-07-01T05:37:07Z'
 items:
+- podcast_title: Dans la Tête d’un Coureur
+  podcast_page_url: "/dans-la-t-te-d-un-coureur/"
+  cover_image: "/media/danslateteeduncoureur.jpeg"
+  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
+  filter_category: trail ultra french
+  episode_title: Pourquoi votre identité décide de vos performances ?  By Académie Haute Performance
+  episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance-648c7a11
+  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/648c7a11-cafa-4a24-aeec-2325e90e7fcd.mp3?_=1782832908
+  published_at: '2026-07-01T03:19:00+00:00'
+  episode_key: pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance
+  episode_slug: pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance
+  episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance/"
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt/"
   cover_image: "/media/springsnyggt.jpeg"
@@ -217,18 +229,6 @@ items:
   episode_key: le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
   episode_slug: le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour
   episode_page_url: "/course-equipe/le-grand-debrief-du-marathon-du-mont-blanc-avec-remi-bonnet-frederic-tranchand-emilie-bulle-fanny-barbara-pierre-galbour/"
-- podcast_title: Dans la Tête d’un Coureur
-  podcast_page_url: "/dans-la-t-te-d-un-coureur/"
-  cover_image: "/media/danslateteeduncoureur.jpeg"
-  feed_url: https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml
-  filter_category: trail ultra french
-  episode_title: Comment gagne-t-on le Marathon du Mont-Blanc ? W. Candice Fertin-Baccon & Benjamin Polin
-  episode_url: ''
-  audio_url: https://audio.audiomeans.fr/file/hDENVZklas/8e4af436-8c80-4267-b0f2-d31d607f6fed.mp3?_=1782684974
-  published_at: '2026-06-29T04:45:00+00:00'
-  episode_key: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
-  episode_slug: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
-  episode_page_url: "/dans-la-t-te-d-un-coureur/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin/"
 - podcast_title: Speed Dhiman Radio
   podcast_page_url: "/speed-dhiman-radio/"
   cover_image: "/media/speeddhimanradio.jpeg"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Sarah Sheppard
+  episode_url: https://www.sverigesradio.se/avsnitt/2815473
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_sarah_sheppard_20260622_1135260566.mp3
+  published_at: '2026-07-01T11:00:00Z'
+  episode_key: sarah-sheppard
+  episode_slug: sarah-sheppard
+  episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -782,18 +794,6 @@ non_running_items:
   episode_key: 498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires
   episode_slug: 498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires
   episode_page_url: "/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Johan Eriksson
-  episode_url: https://www.sverigesradio.se/avsnitt/2815472
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_johan_eriksson_podd_20260622_1133186831.mp3
-  published_at: '2026-06-30T11:00:00Z'
-  episode_key: johan-eriksson
-  episode_slug: johan-eriksson
-  episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -11829,6 +11829,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/course-equipe/remy-brassac-en-perdition-sur-le-ventoux-sa-folle-remontee-jusqu-a-la-selection-francaise/"
   https://feeds.audiomeans.fr/feed/f16e2818-c652-4fa2-ab65-2f81cf8331bc.xml: &38
+  - episode_title: Pourquoi votre identité décide de vos performances ?  By Académie Haute Performance
+    episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance-648c7a11
+    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/648c7a11-cafa-4a24-aeec-2325e90e7fcd.mp3?_=1782832908
+    published_at: '2026-07-01T03:19:00+00:00'
+    description_html: '<p>Pourquoi certains athlètes semblent-ils capables de donner le meilleur d''eux-mêmes quand tout se joue alors que d''autres passent complètement à côté de leur course ?  On pense souvent que tout est une question de préparation, de motivation ou de confiance. Pourtant, la réalité est bien plus complexe.</p><p>Dans cet épisode, Guillaume reçoit Pierre David, fondateur de l''Académie de la Haute Performance, qui accompagne depuis plusieurs années des champions olympiques et des sportifs de haut niveau.</p><p>Ensemble, ils déconstruisent les plus grandes idées reçues sur le mental : la discipline, la confiance, le doute, les émotions ou encore la fameuse "force mentale".</p><p>Vous découvrirez surtout pourquoi votre identité peut parfois devenir votre plus grand frein ou votre plus grand levier de performance.</p><p>Un épisode qui pourrait bien changer votre façon d''aborder l''entraînement, la compétition et la performance.</p><p>Hébergé par Audiomeans. Visitez <a href="https://www.audiomeans.fr/politique-de-confidentialite">audiomeans.fr/politique-de-confidentialite</a> pour plus d''informations.</p>'
+    description_plain: 'Pourquoi certains athlètes semblent-ils capables de donner le meilleur d''eux-mêmes quand tout se joue alors que d''autres passent complètement à côté de leur course ? On pense souvent que tout est une question de préparation, de motivation ou de confiance. Pourtant, la réalité est bien plus complexe. Dans cet épisode, Guillaume reçoit Pierre David, fondateur de l''Académie de la Haute Performance, qui accompagne depuis plusieurs années des champions olympiques et des sportifs de haut niveau. Ensemble, ils déconstruisent les plus grandes idées reçues sur le mental : la discipline, la confiance, le doute, les émotions ou encore la fameuse "force mentale". Vous découvrirez surtout pourquoi votre identité peut parfois devenir votre plus grand frein ou votre plus grand levier de performance. Un épisode qui pourrait bien changer votre façon d''aborder l''entraînement, la compétition et la performance. Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d''informations.'
+    episode_image_url: https://static.audiomeans.fr/img/episode/bf8d913a-e7a3-4ddb-91a0-766c5dde369e.jpg
+    episode_uid: 648c7a11-cafa-4a24-aeec-2325e90e7fcd
+    episode_slug: pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance
+    episode_key: pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance
+    legacy_unicode_slug: pourquoi-votre-identité-décide-de-vos-performances-by-académie-haute-performance
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-votre-identite-decide-de-vos-performances-by-academie-haute-performance/"
   - episode_title: Comment gagne-t-on le Marathon du Mont-Blanc ? W. Candice Fertin-Baccon & Benjamin Polin
     episode_url: ''
     audio_url: https://audio.audiomeans.fr/file/hDENVZklas/8e4af436-8c80-4267-b0f2-d31d607f6fed.mp3?_=1782684974
@@ -11839,7 +11852,7 @@ episodes_by_feed:
     episode_uid: 8e4af436-8c80-4267-b0f2-d31d607f6fed
     episode_slug: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
     episode_key: comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/dans-la-t-te-d-un-coureur/comment-gagne-t-on-le-marathon-du-mont-blanc-w-candice-fertin-baccon-benjamin-polin/"
   - episode_title: Le Trail a-t-il changé de dimension ce weekend ? W. Rémi Bonnet , Vincent Viet & Anthony Saliou
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-and-anthony-saliou-e6598107
@@ -11852,7 +11865,7 @@ episodes_by_feed:
     episode_slug: le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-anthony-saliou
     episode_key: le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-anthony-saliou
     legacy_unicode_slug: le-trail-a-t-il-changé-de-dimension-ce-weekend-w-rémi-bonnet-vincent-viet-anthony-saliou
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/dans-la-t-te-d-un-coureur/le-trail-a-t-il-change-de-dimension-ce-weekend-w-remi-bonnet-vincent-viet-anthony-saliou/"
   - episode_title: Ben Dhiman, les secrets de sa progression technique pour le 90 km du Mont-Blanc. [1/2]
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-dhiman-nous-raconte-pourquoi-ce-90km-etait-hors-normes-12-57f128e3
@@ -11864,7 +11877,7 @@ episodes_by_feed:
     episode_uid: 57f128e3-ee9e-4da7-a85c-697825350883
     episode_slug: ben-dhiman-les-secrets-de-sa-progression-technique-pour-le-90-km-du-mont-blanc-1-2
     episode_key: ben-dhiman-les-secrets-de-sa-progression-technique-pour-le-90-km-du-mont-blanc-1-2
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/dans-la-t-te-d-un-coureur/ben-dhiman-les-secrets-de-sa-progression-technique-pour-le-90-km-du-mont-blanc-1-2/"
   - episode_title: 'Louison Coiffet : comment il a construit sa victoire sur le 90km du Mont Blanc [2/2]'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/louison-coiffet-se-livre-sur-les-coulisses-de-sa-victoire-22-7585e161
@@ -11876,7 +11889,7 @@ episodes_by_feed:
     episode_uid: 7585e161-8408-4ab1-a8a9-a856dbf18717
     episode_slug: louison-coiffet-comment-il-a-construit-sa-victoire-sur-le-90km-du-mont-blanc-2-2
     episode_key: louison-coiffet-comment-il-a-construit-sa-victoire-sur-le-90km-du-mont-blanc-2-2
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/dans-la-t-te-d-un-coureur/louison-coiffet-comment-il-a-construit-sa-victoire-sur-le-90km-du-mont-blanc-2-2/"
   - episode_title: Comment savoir si vous progressez vraiment ?  [2/2]
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/comment-savoir-si-vous-progressez-vraiment-22-e38f64d2
@@ -11888,7 +11901,7 @@ episodes_by_feed:
     episode_uid: e38f64d2-b774-4af3-8165-32c064e4d65b
     episode_slug: comment-savoir-si-vous-progressez-vraiment-2-2
     episode_key: comment-savoir-si-vous-progressez-vraiment-2-2
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/dans-la-t-te-d-un-coureur/comment-savoir-si-vous-progressez-vraiment-2-2/"
   - episode_title: Pourquoi t'entraîner plus ne te fera pas progresser  [1/2]
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/pourquoi-sentrainer-plus-ne-vous-fera-pas-progresser-12-a17ded59
@@ -11901,7 +11914,7 @@ episodes_by_feed:
     episode_slug: pourquoi-t-entrainer-plus-ne-te-fera-pas-progresser-1-2
     episode_key: pourquoi-t-entrainer-plus-ne-te-fera-pas-progresser-1-2
     legacy_unicode_slug: pourquoi-t-entraîner-plus-ne-te-fera-pas-progresser-1-2
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-t-entrainer-plus-ne-te-fera-pas-progresser-1-2/"
   - episode_title: "Molly Seidel : \"le jour où j'ai cessé de me mentir\" (Version Française \U0001F1EB\U0001F1F7)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/molly-seidel-le-jour-ou-jai-cesse-de-me-mentir-version-francaise-860dd309
@@ -11914,7 +11927,7 @@ episodes_by_feed:
     episode_slug: molly-seidel-le-jour-ou-j-ai-cesse-de-me-mentir-version-francaise
     episode_key: molly-seidel-le-jour-ou-j-ai-cesse-de-me-mentir-version-francaise
     legacy_unicode_slug: molly-seidel-le-jour-où-j-ai-cessé-de-me-mentir-version-française
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/dans-la-t-te-d-un-coureur/molly-seidel-le-jour-ou-j-ai-cesse-de-me-mentir-version-francaise/"
   - episode_title: "Molly Seidel : \"The day I finally stopped lying to myself\" (English version \U0001F1EC\U0001F1E7)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version-375568c3
@@ -11926,7 +11939,7 @@ episodes_by_feed:
     episode_uid: 375568c3-f731-4b13-ad45-4fd5c92909ea
     episode_slug: molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version
     episode_key: molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/dans-la-t-te-d-un-coureur/molly-seidel-the-day-i-finally-stopped-lying-to-myself-english-version/"
   - episode_title: 'Trail Alsace : la plus belle course de France ?! (c''est irréel)'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/trail-alsace-la-plus-bel-course-de-france-cest-irreel-415dfe86
@@ -11939,7 +11952,7 @@ episodes_by_feed:
     episode_slug: trail-alsace-la-plus-belle-course-de-france-c-est-irreel
     episode_key: trail-alsace-la-plus-belle-course-de-france-c-est-irreel
     legacy_unicode_slug: trail-alsace-la-plus-belle-course-de-france-c-est-irréel
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/dans-la-t-te-d-un-coureur/trail-alsace-la-plus-belle-course-de-france-c-est-irreel/"
   - episode_title: '30/30, Seuil : quelles séances te rendent vraiment plus rapide ? [2/2]'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/3030-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-22-341b895a
@@ -11952,7 +11965,7 @@ episodes_by_feed:
     episode_slug: 30-30-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-2-2
     episode_key: 30-30-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-2-2
     legacy_unicode_slug: 30-30-seuil-quelles-séances-te-rendent-vraiment-plus-rapide-2-2
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/dans-la-t-te-d-un-coureur/30-30-seuil-quelles-seances-te-rendent-vraiment-plus-rapide-2-2/"
   - episode_title: 'VMA, VO₂max : quel est le meilleur indicateur de performance ? [1/2]'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/vma-vomax-quel-est-le-meilleur-indicateur-de-performance-12-62c35c49
@@ -11964,7 +11977,7 @@ episodes_by_feed:
     episode_uid: 62c35c49-b7f0-416b-88a1-e574a1f8c391
     episode_slug: vma-vo-max-quel-est-le-meilleur-indicateur-de-performance-1-2
     episode_key: vma-vo-max-quel-est-le-meilleur-indicateur-de-performance-1-2
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/dans-la-t-te-d-un-coureur/vma-vo-max-quel-est-le-meilleur-indicateur-de-performance-1-2/"
   - episode_title: '“Je cours avec ma colère" : Ben Mazué ou l’art de faire la paix en courant'
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/ben-mazue-je-cours-avec-ma-colere-dltdc-heroes-c76fe265
@@ -11977,7 +11990,7 @@ episodes_by_feed:
     episode_slug: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
     episode_key: je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant
     legacy_unicode_slug: je-cours-avec-ma-colère-ben-mazué-ou-l-art-de-faire-la-paix-en-courant
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/dans-la-t-te-d-un-coureur/je-cours-avec-ma-colere-ben-mazue-ou-l-art-de-faire-la-paix-en-courant/"
   - episode_title: "[2/2]  Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/22-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-fd0021bd
@@ -11990,7 +12003,7 @@ episodes_by_feed:
     episode_slug: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     episode_key: 2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     legacy_unicode_slug: 2-2-pourquoi-notre-cerveau-déteste-courir-après-une-coupure-et-comment-le-reprogrammer
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
   - episode_title: "[1/2] Pourquoi notre cerveau déteste courir après une coupure (et comment le reprogrammer)"
     episode_url: https://podcasts.audiomeans.fr/dans-la-tete-d-un-coureur--2f81cf8331bc/12-pourquoi-courir-est-aussi-difficile-au-debut-et-comment-rendre-chaque-run-agreable-0357e31d
@@ -12003,7 +12016,7 @@ episodes_by_feed:
     episode_slug: 1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     episode_key: 1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer
     legacy_unicode_slug: 1-2-pourquoi-notre-cerveau-déteste-courir-après-une-coupure-et-comment-le-reprogrammer
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-pourquoi-notre-cerveau-deteste-courir-apres-une-coupure-et-comment-le-reprogrammer/"
   - episode_title: Depuis quand le Marathon est-il devenu banal ? Océane Andréa & Charlotte Martin  / SAFE PLACE
     episode_url: ''
@@ -12016,7 +12029,7 @@ episodes_by_feed:
     episode_slug: depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place
     episode_key: depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place
     legacy_unicode_slug: depuis-quand-le-marathon-est-il-devenu-banal-océane-andréa-charlotte-martin-safe-place
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/dans-la-t-te-d-un-coureur/depuis-quand-le-marathon-est-il-devenu-banal-oceane-andrea-charlotte-martin-safe-place/"
   - episode_title: "[2/2]  L’endurance Fondamentale est-elle Surcotée ? (ou réservée aux élites )"
     episode_url: ''
@@ -12029,7 +12042,7 @@ episodes_by_feed:
     episode_slug: 2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     episode_key: 2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     legacy_unicode_slug: 2-2-l-endurance-fondamentale-est-elle-surcotée-ou-réservée-aux-élites
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/dans-la-t-te-d-un-coureur/2-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites/"
   - episode_title: "[1/2]  L’endurance Fondamentale est-elle Surcotée ? (ou réservée aux élites )"
     episode_url: ''
@@ -12042,7 +12055,7 @@ episodes_by_feed:
     episode_slug: 1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     episode_key: 1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites
     legacy_unicode_slug: 1-2-l-endurance-fondamentale-est-elle-surcotée-ou-réservée-aux-élites
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/dans-la-t-te-d-un-coureur/1-2-l-endurance-fondamentale-est-elle-surcotee-ou-reservee-aux-elites/"
   - episode_title: 'Hugo Deck : le récit de son duel avec Théo Détienne et Yannick Noël à la MaXi-Race'
     episode_url: ''
@@ -12055,7 +12068,7 @@ episodes_by_feed:
     episode_slug: hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race
     episode_key: hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race
     legacy_unicode_slug: hugo-deck-le-récit-de-son-duel-avec-théo-détienne-et-yannick-noël-à-la-maxi-race
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race/"
   - episode_title: 'MaXi-Race : Le Grand Débrief et l''Actu Trail avec Joseph Mestrallet & Candice Fertin'
     episode_url: ''
@@ -12068,7 +12081,7 @@ episodes_by_feed:
     episode_slug: maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
     episode_key: maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
     legacy_unicode_slug: maxi-race-le-grand-débrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/dans-la-t-te-d-un-coureur/maxi-race-le-grand-debrief-et-l-actu-trail-avec-joseph-mestrallet-candice-fertin/"
   - episode_title: Pourquoi même les coureurs croient aux arnaques ?  Le cas Power Balance  [REDIFF ]
     episode_url: ''
@@ -12081,7 +12094,7 @@ episodes_by_feed:
     episode_slug: pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
     episode_key: pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
     legacy_unicode_slug: pourquoi-même-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/dans-la-t-te-d-un-coureur/pourquoi-meme-les-coureurs-croient-aux-arnaques-le-cas-power-balance-rediff/"
   - episode_title: 'Marathon d’Annecy : et si c’était la plus belle course de France ?'
     episode_url: ''
@@ -12094,7 +12107,7 @@ episodes_by_feed:
     episode_slug: marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france
     episode_key: marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france
     legacy_unicode_slug: marathon-d-annecy-et-si-c-était-la-plus-belle-course-de-france
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/dans-la-t-te-d-un-coureur/marathon-d-annecy-et-si-c-etait-la-plus-belle-course-de-france/"
   - episode_title: Nike a voulu révolutionner la chaussure… et ça a échoué (l’histoire de la VaporMax)  [REDIFF ]
     episode_url: ''
@@ -12107,7 +12120,7 @@ episodes_by_feed:
     episode_slug: nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff
     episode_key: nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff
     legacy_unicode_slug: nike-a-voulu-révolutionner-la-chaussure-et-ça-a-échoué-l-histoire-de-la-vapormax-rediff
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/dans-la-t-te-d-un-coureur/nike-a-voulu-revolutionner-la-chaussure-et-ca-a-echoue-l-histoire-de-la-vapormax-rediff/"
   - episode_title: Hugo Deck, la performance peut-elle rester un plaisir ?
     episode_url: ''
@@ -12119,7 +12132,7 @@ episodes_by_feed:
     episode_uid: 309d162c-4cb2-4432-b927-140bc34560b5
     episode_slug: hugo-deck-la-performance-peut-elle-rester-un-plaisir
     episode_key: hugo-deck-la-performance-peut-elle-rester-un-plaisir
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-la-performance-peut-elle-rester-un-plaisir/"
   - episode_title: 'Gobi : l’histoire du chien qui a bouleversé le monde du Trail'
     episode_url: ''
@@ -12132,21 +12145,8 @@ episodes_by_feed:
     episode_slug: gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail
     episode_key: gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail
     legacy_unicode_slug: gobi-l-histoire-du-chien-qui-a-bouleversé-le-monde-du-trail
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/dans-la-t-te-d-un-coureur/gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail/"
-  - episode_title: Dans l'Enfer du Surentraînement / le Récit de @JB_Tri_off
-    episode_url: ''
-    audio_url: https://audio.audiomeans.fr/file/hDENVZklas/db49964f-88df-44c1-a249-3780ea2d9607.mp3?_=1777053703
-    published_at: '2026-05-11T03:56:00+00:00'
-    description_html: <p>On pense souvent que le sport est une solution. Un moyen de se dépasser, de se canaliser, d’aller mieux.</p><p>Mais parfois, ce qu’on prend pour une solution peut aussi devenir une fuite.</p><p>Parce qu’au fond, le sport peut nous rapprocher de nous-mêmes mais aussi nous en éloigner.</p><p>Jean-Baptiste en a fait l’expérience.</p><p>Lui, c’était un étudiant comme il en existe des millions. Entouré, Avec une vie simple.</p><p>Puis, à un moment, tout commence à se fissurer.</p><p>Et peu à peu, le sport prend une place différente.</p><p>Plus intense, Plus nécessaire. Presque indispensable.</p><p>Mais derrière cette quête de progression, est-ce qu’on se reconstruit vraiment ? Ou est-ce qu’on apprend simplement à fuir autrement ?</p><p>Hébergé par Audiomeans. Visitez <a href="https://www.audiomeans.fr/politique-de-confidentialite">audiomeans.fr/politique-de-confidentialite</a> pour plus d'informations.</p>
-    description_plain: On pense souvent que le sport est une solution. Un moyen de se dépasser, de se canaliser, d’aller mieux. Mais parfois, ce qu’on prend pour une solution peut aussi devenir une fuite. Parce qu’au fond, le sport peut nous rapprocher de nous-mêmes mais aussi nous en éloigner. Jean-Baptiste en a fait l’expérience. Lui, c’était un étudiant comme il en existe des millions. Entouré, Avec une vie simple. Puis, à un moment, tout commence à se fissurer. Et peu à peu, le sport prend une place différente. Plus intense, Plus nécessaire. Presque indispensable. Mais derrière cette quête de progression, est-ce qu’on se reconstruit vraiment ? Ou est-ce qu’on apprend simplement à fuir autrement ? Hébergé par Audiomeans. Visitez audiomeans.fr/politique-de-confidentialite pour plus d'informations.
-    episode_image_url: https://static.audiomeans.fr/img/episode/2ff46c2d-fea4-42b2-940e-26fc92167940.jpg
-    episode_uid: db49964f-88df-44c1-a249-3780ea2d9607
-    episode_slug: dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off
-    episode_key: dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off
-    legacy_unicode_slug: dans-l-enfer-du-surentraînement-le-récit-de-jb-tri-off
     legacy_numbered_slug: episode-25
-    episode_page_url: "/dans-la-t-te-d-un-coureur/dans-l-enfer-du-surentrainement-le-recit-de-jb-tri-off/"
+    episode_page_url: "/dans-la-t-te-d-un-coureur/gobi-l-histoire-du-chien-qui-a-bouleverse-le-monde-du-trail/"
   https://rss.libsyn.com/shows/506688/destinations/4343338.xml: &39
   - episode_title: Ep. 79 Who is Cade Michael?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-79-who-is-cade-michael
@@ -19660,6 +19660,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/dom-i-hoiby-saken-hva-skjer-videre/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Sarah Sheppard
+    episode_url: https://www.sverigesradio.se/avsnitt/2815473
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_sarah_sheppard_20260622_1135260566.mp3
+    published_at: '2026-07-01T11:00:00Z'
+    description_html: <p>Barnboksförfattaren om evolutionen, dinosaurier och en skoltrött Charles Darwin.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Barnboksförfattaren om evolutionen, dinosaurier och en skoltrött Charles Darwin. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815473
+    episode_slug: sarah-sheppard
+    episode_key: sarah-sheppard
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
   - episode_title: Johan Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2815472
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_johan_eriksson_podd_20260622_1133186831.mp3
@@ -19670,7 +19682,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815472
     episode_slug: johan-eriksson
     episode_key: johan-eriksson
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
   - episode_title: Patrik Norqvist
     episode_url: https://www.sverigesradio.se/avsnitt/2815471
@@ -19682,7 +19694,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815471
     episode_slug: patrik-norqvist
     episode_key: patrik-norqvist
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
   - episode_title: Ginna Lindberg
     episode_url: https://www.sverigesradio.se/avsnitt/2815470
@@ -19694,7 +19706,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815470
     episode_slug: ginna-lindberg
     episode_key: ginna-lindberg
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
   - episode_title: Alexander Karim
     episode_url: https://www.sverigesradio.se/avsnitt/2815519
@@ -19706,7 +19718,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815519
     episode_slug: alexander-karim
     episode_key: alexander-karim
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
   - episode_title: Carolina Dybeck Happe
     episode_url: https://www.sverigesradio.se/avsnitt/2815474
@@ -19718,7 +19730,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815474
     episode_slug: carolina-dybeck-happe
     episode_key: carolina-dybeck-happe
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/carolina-dybeck-happe/"
   - episode_title: Jonas Gren
     episode_url: https://www.sverigesradio.se/avsnitt/2815467
@@ -19730,7 +19742,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815467
     episode_slug: jonas-gren
     episode_key: jonas-gren
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/jonas-gren/"
   - episode_title: Jonas Bonnier
     episode_url: https://www.sverigesradio.se/avsnitt/2815466
@@ -19742,7 +19754,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815466
     episode_slug: jonas-bonnier
     episode_key: jonas-bonnier
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/jonas-bonnier/"
   - episode_title: Amanda Romare
     episode_url: https://www.sverigesradio.se/avsnitt/2815465
@@ -19754,7 +19766,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815465
     episode_slug: amanda-romare
     episode_key: amanda-romare
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/amanda-romare/"
   - episode_title: Martin Kragh
     episode_url: https://www.sverigesradio.se/avsnitt/2815464
@@ -19766,7 +19778,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815464
     episode_slug: martin-kragh
     episode_key: martin-kragh
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/martin-kragh/"
   - episode_title: Sebastian Ingrosso
     episode_url: https://www.sverigesradio.se/avsnitt/2815463
@@ -19778,7 +19790,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815463
     episode_slug: sebastian-ingrosso
     episode_key: sebastian-ingrosso
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/sebastian-ingrosso/"
   - episode_title: Helena Bergström
     episode_url: https://www.sverigesradio.se/avsnitt/2815462
@@ -19791,7 +19803,7 @@ episodes_by_feed:
     episode_slug: helena-bergstrom
     episode_key: helena-bergstrom
     legacy_unicode_slug: helena-bergström
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
@@ -19804,7 +19816,7 @@ episodes_by_feed:
     episode_slug: hor-arets-sommarpratare-presenteras
     episode_key: hor-arets-sommarpratare-presenteras
     legacy_unicode_slug: hör-årets-sommarpratare-presenteras
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
@@ -19817,7 +19829,7 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   - episode_title: Camilla Lif
     episode_url: https://www.sverigesradio.se/avsnitt/2700899
@@ -19829,7 +19841,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700899
     episode_slug: camilla-lif
     episode_key: camilla-lif
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
   - episode_title: Claes Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700884
@@ -19841,7 +19853,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700884
     episode_slug: claes-eriksson
     episode_key: claes-eriksson
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
   - episode_title: Dilsa Demirbag-Sten
     episode_url: https://www.sverigesradio.se/avsnitt/2700859
@@ -19853,7 +19865,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700859
     episode_slug: dilsa-demirbag-sten
     episode_key: dilsa-demirbag-sten
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/dilsa-demirbag-sten/"
   - episode_title: Ulf Ellervik
     episode_url: https://www.sverigesradio.se/avsnitt/2700835
@@ -19865,7 +19877,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700835
     episode_slug: ulf-ellervik
     episode_key: ulf-ellervik
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/ulf-ellervik/"
   - episode_title: Denise Rudberg
     episode_url: https://www.sverigesradio.se/avsnitt/2700813
@@ -19877,7 +19889,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700813
     episode_slug: denise-rudberg
     episode_key: denise-rudberg
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/denise-rudberg/"
   - episode_title: Bert Sundström
     episode_url: https://www.sverigesradio.se/avsnitt/2700802
@@ -19890,7 +19902,7 @@ episodes_by_feed:
     episode_slug: bert-sundstrom
     episode_key: bert-sundstrom
     legacy_unicode_slug: bert-sundström
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/bert-sundstrom/"
   - episode_title: Linnea Henriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700790
@@ -19902,7 +19914,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700790
     episode_slug: linnea-henriksson
     episode_key: linnea-henriksson
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/linnea-henriksson/"
   - episode_title: Thomas Bodström
     episode_url: https://www.sverigesradio.se/avsnitt/2700772
@@ -19915,7 +19927,7 @@ episodes_by_feed:
     episode_slug: thomas-bodstrom
     episode_key: thomas-bodstrom
     legacy_unicode_slug: thomas-bodström
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/thomas-bodstrom/"
   - episode_title: Vintervärdarna 2025 presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2705958
@@ -19928,7 +19940,7 @@ episodes_by_feed:
     episode_slug: vintervardarna-2025-presenteras
     episode_key: vintervardarna-2025-presenteras
     legacy_unicode_slug: vintervärdarna-2025-presenteras
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/vintervardarna-2025-presenteras/"
   - episode_title: Roland Pöntinen
     episode_url: https://www.sverigesradio.se/avsnitt/2579000
@@ -19941,7 +19953,7 @@ episodes_by_feed:
     episode_slug: roland-pontinen
     episode_key: roland-pontinen
     legacy_unicode_slug: roland-pöntinen
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/roland-pontinen/"
   - episode_title: Ella Carlsson
     episode_url: https://www.sverigesradio.se/avsnitt/2578999
@@ -19953,20 +19965,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2578999
     episode_slug: ella-carlsson
     episode_key: ella-carlsson
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/ella-carlsson/"
-  - episode_title: Aya Kanbar
-    episode_url: https://www.sverigesradio.se/avsnitt/2578998
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/07/sommar__vinter_i_p1_aya_kanbar_20250708_1657504780.mp3
-    published_at: '2025-08-15T11:00:00Z'
-    description_html: <p>Poetens kärleksförklaring till Örebro och platser som betytt mycket för henne.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Poetens kärleksförklaring till Örebro och platser som betytt mycket för henne. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/dc6b15f0-170f-4f3c-8b90-339fe051d4fd.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2578998
-    episode_slug: aya-kanbar
-    episode_key: aya-kanbar
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/aya-kanbar/"
+    episode_page_url: "/sommar-vinter-i-p1/ella-carlsson/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
