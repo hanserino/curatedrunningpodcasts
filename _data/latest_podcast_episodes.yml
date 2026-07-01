@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-01T11:09:58Z'
+generated_at: '2026-07-01T13:01:20Z'
 items:
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us/"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Dear Hank & John
+  podcast_page_url: "/dear-hank-john/"
+  cover_image: "/media/dearhank.jpeg"
+  feed_url: https://rss.art19.com/dear-hank-john
+  filter_category: uncategorized english
+  episode_title: '459: Electric Meat (w/ Kal McRaven!)'
+  episode_url: ''
+  audio_url: https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/b7c128ad-ae40-4b1e-b341-c6f98d25301e.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+  published_at: '2026-07-01T12:00:00Z'
+  episode_key: 459-electric-meat-w-kal-mcraven
+  episode_slug: 459-electric-meat-w-kal-mcraven
+  episode_page_url: "/dear-hank-john/459-electric-meat-w-kal-mcraven/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -811,13 +823,13 @@ non_running_items:
   cover_image: "/media/forklart.jpeg"
   feed_url: https://podcast.stream.schibsted.media/ap/100194
   filter_category: uncategorized norwegian
-  episode_title: 'Kort Forklart fotballspesial: – I dag var han kongen av Dallas'
+  episode_title: 'Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?'
   episode_url: ''
   audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/t17vhuvmhdwrcmohhnj5p/podcast_128.mp3
   published_at: '2026-06-30T22:43:42+00:00'
-  episode_key: kort-forklart-fotballspesial-i-dag-var-han-kongen-av-dallas
-  episode_slug: kort-forklart-fotballspesial-i-dag-var-han-kongen-av-dallas
-  episode_page_url: "/forklart/kort-forklart-fotballspesial-i-dag-var-han-kongen-av-dallas/"
+  episode_key: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
+  episode_slug: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
+  episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
 - podcast_title: Lex Fridman Podcast
   podcast_page_url: "/lex-fridman-podcast/"
   cover_image: "/media/lexfriedman.jpeg"
@@ -1034,18 +1046,6 @@ non_running_items:
   episode_key: cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty
   episode_slug: cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty
   episode_page_url: "/the-colin-and-samir-show/cannes-day-3-the-art-of-standing-out-pablo-rochat-sir-john-hegarty-e-l-f-beauty/"
-- podcast_title: Dear Hank & John
-  podcast_page_url: "/dear-hank-john/"
-  cover_image: "/media/dearhank.jpeg"
-  feed_url: https://rss.art19.com/dear-hank-john
-  filter_category: uncategorized english
-  episode_title: '458: Ancient vs. Hyper-Mortal (w/ Paige Lewis!)'
-  episode_url: ''
-  audio_url: https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/5a83b3a6-51eb-4d8c-a51d-caa81c567651.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-  published_at: '2026-06-24T12:00:00Z'
-  episode_key: 458-ancient-vs-hyper-mortal-w-paige-lewis
-  episode_slug: 458-ancient-vs-hyper-mortal-w-paige-lewis
-  episode_page_url: "/dear-hank-john/458-ancient-vs-hyper-mortal-w-paige-lewis/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -13051,6 +13051,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-albon-way/trail-running-durability-why-it-matters-and-how-to-train-it-episode-20/"
   https://rss.art19.com/dear-hank-john: &42
+  - episode_title: '459: Electric Meat (w/ Kal McRaven!)'
+    episode_url: ''
+    audio_url: https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/b7c128ad-ae40-4b1e-b341-c6f98d25301e.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-07-01T12:00:00Z'
+    description_html: <p>Has poop always been funny? Why does my cake mix have high altitude instructions? What breakfast foods won’t you get sick of? What percent of my car should be computer? …Hank and Kal have answers!</p><p>If you're in need of dubious advice, email us at hankandjohn@gmail.com</p><p>Join us for monthly livestreams at patreon.com/dearhankandjohn</p><p>Produced for Hank and John Green by Complexly</p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>
+    description_plain: Has poop always been funny? Why does my cake mix have high altitude instructions? What breakfast foods won’t you get sick of? What percent of my car should be computer? …Hank and Kal have answers! If you're in need of dubious advice, email us at hankandjohn@gmail.com Join us for monthly livestreams at patreon.com/dearhankandjohn Produced for Hank and John Green by Complexly See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .
+    episode_image_url: https://content.production.cdn.art19.com/images/3a/97/b3/9c/3a97b39c-d645-4aae-b68d-422795415127/f58de4536aaf5cb93d902edeb364e6c2ed7b3bf8ad92c1b4d0dc47d955a098a8b95e5b66cffbb18cedc1a00a3a7e6d45168f24774f8407a4b3cbde9d90730805.jpeg
+    episode_uid: 98v1du2pcmpnon4evu6giql2dypeu1hmdwt8gdvcfmm
+    episode_slug: 459-electric-meat-w-kal-mcraven
+    episode_key: 459-electric-meat-w-kal-mcraven
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/dear-hank-john/459-electric-meat-w-kal-mcraven/"
   - episode_title: '458: Ancient vs. Hyper-Mortal (w/ Paige Lewis!)'
     episode_url: ''
     audio_url: https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/5a83b3a6-51eb-4d8c-a51d-caa81c567651.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
@@ -13061,7 +13073,7 @@ episodes_by_feed:
     episode_uid: ja1pexllpjagaavadbdaqaecnpxvgtcbiucsx2chr-m
     episode_slug: 458-ancient-vs-hyper-mortal-w-paige-lewis
     episode_key: 458-ancient-vs-hyper-mortal-w-paige-lewis
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/dear-hank-john/458-ancient-vs-hyper-mortal-w-paige-lewis/"
   - episode_title: '457: Big Ball Curators'
     episode_url: ''
@@ -13073,7 +13085,7 @@ episodes_by_feed:
     episode_uid: yao-se589i-ublac4rojs-6erdrrmrcuky4cosbikia
     episode_slug: 457-big-ball-curators
     episode_key: 457-big-ball-curators
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/dear-hank-john/457-big-ball-curators/"
   - episode_title: '456: Talking About a Book No One Can Read'
     episode_url: ''
@@ -13085,7 +13097,7 @@ episodes_by_feed:
     episode_uid: tr2tqec-to9kiohqva9h24qjzbvyw82tz7kvxtavrtu
     episode_slug: 456-talking-about-a-book-no-one-can-read
     episode_key: 456-talking-about-a-book-no-one-can-read
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/dear-hank-john/456-talking-about-a-book-no-one-can-read/"
   - episode_title: Jumping Pews
     episode_url: ''
@@ -13097,7 +13109,7 @@ episodes_by_feed:
     episode_uid: gjaxvm9d2fzltnaq5gdqbw08ulius-j4hplcup6v0vu
     episode_slug: jumping-pews
     episode_key: jumping-pews
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/dear-hank-john/jumping-pews/"
   - episode_title: '455: The Grocery Store Baseball Theory'
     episode_url: ''
@@ -13109,7 +13121,7 @@ episodes_by_feed:
     episode_uid: agpsxbve0evp4hjxttyojggefyphdt8dybxphyg3nwu
     episode_slug: 455-the-grocery-store-baseball-theory
     episode_key: 455-the-grocery-store-baseball-theory
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/dear-hank-john/455-the-grocery-store-baseball-theory/"
   - episode_title: '454: Flippin’ Heck'
     episode_url: ''
@@ -13121,7 +13133,7 @@ episodes_by_feed:
     episode_uid: ggut2z3g-hhxwrjnjk8x43jdqziax0j995orr4vbrxa
     episode_slug: 454-flippin-heck
     episode_key: 454-flippin-heck
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/dear-hank-john/454-flippin-heck/"
   - episode_title: '453: Nobody Is as Good as Me'
     episode_url: ''
@@ -13133,7 +13145,7 @@ episodes_by_feed:
     episode_uid: gvmuqopsauyxarchwknk-fz25fmsmr-snggi85xixgw
     episode_slug: 453-nobody-is-as-good-as-me
     episode_key: 453-nobody-is-as-good-as-me
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/dear-hank-john/453-nobody-is-as-good-as-me/"
   - episode_title: '452: The Brotherhood is Broken'
     episode_url: ''
@@ -13145,7 +13157,7 @@ episodes_by_feed:
     episode_uid: zpia-3plyditsvql6yltkywmklajt8xtf4rbmm5tfcg
     episode_slug: 452-the-brotherhood-is-broken
     episode_key: 452-the-brotherhood-is-broken
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/dear-hank-john/452-the-brotherhood-is-broken/"
   - episode_title: '451: We’re Synced, Baby!'
     episode_url: ''
@@ -13157,7 +13169,7 @@ episodes_by_feed:
     episode_uid: waabvfckujl5541pdznfrol3kdjjbtecca2t3bgbbwa
     episode_slug: 451-we-re-synced-baby
     episode_key: 451-we-re-synced-baby
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/dear-hank-john/451-we-re-synced-baby/"
   - episode_title: '450: Diet Coke is Tea (w/ Keith Habersberger!)'
     episode_url: ''
@@ -13169,7 +13181,7 @@ episodes_by_feed:
     episode_uid: pnoxq8u-vfsv-sgeg3hcky3tobcrv9ip8jo-rqsvn2u
     episode_slug: 450-diet-coke-is-tea-w-keith-habersberger
     episode_key: 450-diet-coke-is-tea-w-keith-habersberger
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/dear-hank-john/450-diet-coke-is-tea-w-keith-habersberger/"
   - episode_title: '449: It Will Go Well And It Will End (w/ Sarah Urist Green!)'
     episode_url: ''
@@ -13181,7 +13193,7 @@ episodes_by_feed:
     episode_uid: 1k7dss-xaymfxuicsp-luk0fe0ljj8obwqqjbwgnneq
     episode_slug: 449-it-will-go-well-and-it-will-end-w-sarah-urist-green
     episode_key: 449-it-will-go-well-and-it-will-end-w-sarah-urist-green
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/dear-hank-john/449-it-will-go-well-and-it-will-end-w-sarah-urist-green/"
   - episode_title: '448: Doogie Howser, Boy Chaplin'
     episode_url: ''
@@ -13193,7 +13205,7 @@ episodes_by_feed:
     episode_uid: wc3breraforj4juhtj56fgkhmskrcp9aa4ed5yhqls0
     episode_slug: 448-doogie-howser-boy-chaplin
     episode_key: 448-doogie-howser-boy-chaplin
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/dear-hank-john/448-doogie-howser-boy-chaplin/"
   - episode_title: '447: Everything Is Over'
     episode_url: ''
@@ -13205,7 +13217,7 @@ episodes_by_feed:
     episode_uid: kkallhqbhbh1ezkbbdmmldkhvk-loxmkgzese27wgtg
     episode_slug: 447-everything-is-over
     episode_key: 447-everything-is-over
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/dear-hank-john/447-everything-is-over/"
   - episode_title: '446: Just Chatting… With Me'
     episode_url: ''
@@ -13217,7 +13229,7 @@ episodes_by_feed:
     episode_uid: bsg-wn5jxplgy46ppppztpp7ayzv4wg8uxfhbm-wjai
     episode_slug: 446-just-chatting-with-me
     episode_key: 446-just-chatting-with-me
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/dear-hank-john/446-just-chatting-with-me/"
   - episode_title: '445: Bring Me My Favorites'
     episode_url: ''
@@ -13229,7 +13241,7 @@ episodes_by_feed:
     episode_uid: d1igddapihusyr9vlebeh0vuhcsv7ylugjhjcqj8csu
     episode_slug: 445-bring-me-my-favorites
     episode_key: 445-bring-me-my-favorites
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/dear-hank-john/445-bring-me-my-favorites/"
   - episode_title: '444: Hank Brown'
     episode_url: ''
@@ -13241,7 +13253,7 @@ episodes_by_feed:
     episode_uid: cvcugv7zcvykerihzec-j8i-xelgmw0a7fotkjnz2dy
     episode_slug: 444-hank-brown
     episode_key: 444-hank-brown
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/dear-hank-john/444-hank-brown/"
   - episode_title: '443: A Top Podcast for the Elderly'
     episode_url: ''
@@ -13253,7 +13265,7 @@ episodes_by_feed:
     episode_uid: 7dh91oxogeqkgm-0g0uslgloicfv52wsweyvrqxvhpy
     episode_slug: 443-a-top-podcast-for-the-elderly
     episode_key: 443-a-top-podcast-for-the-elderly
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/dear-hank-john/443-a-top-podcast-for-the-elderly/"
   - episode_title: '442: They’ve Been Plants the Whole Time'
     episode_url: ''
@@ -13265,7 +13277,7 @@ episodes_by_feed:
     episode_uid: mcjgwtshrbs9h7f24imvk8a2e6zsyb6nqjhy6b0h6hq
     episode_slug: 442-they-ve-been-plants-the-whole-time
     episode_key: 442-they-ve-been-plants-the-whole-time
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/dear-hank-john/442-they-ve-been-plants-the-whole-time/"
   - episode_title: '441: The Value of a Single Shoe'
     episode_url: ''
@@ -13277,7 +13289,7 @@ episodes_by_feed:
     episode_uid: zs-n0aiwm8lyskxo-o2ht0hlurjkiiw-swnre2-25ua
     episode_slug: 441-the-value-of-a-single-shoe
     episode_key: 441-the-value-of-a-single-shoe
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/dear-hank-john/441-the-value-of-a-single-shoe/"
   - episode_title: '440: Barreling Ever Forward'
     episode_url: ''
@@ -13289,7 +13301,7 @@ episodes_by_feed:
     episode_uid: 7u-l97xxmtio0q2dkpg0q0fopoi6gl4gc237qm-ooz0
     episode_slug: 440-barreling-ever-forward
     episode_key: 440-barreling-ever-forward
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/dear-hank-john/440-barreling-ever-forward/"
   - episode_title: '439: Division I Saint'
     episode_url: ''
@@ -13301,7 +13313,7 @@ episodes_by_feed:
     episode_uid: ajrilickkhokaj0-bzfsdrngnhpyuao-vwory4nd1yk
     episode_slug: 439-division-i-saint
     episode_key: 439-division-i-saint
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/dear-hank-john/439-division-i-saint/"
   - episode_title: '438: The 2014 Episode'
     episode_url: ''
@@ -13313,7 +13325,7 @@ episodes_by_feed:
     episode_uid: szrmaxnuxingvcxhym3scxcq3ebhcx45btrapvnfnfs
     episode_slug: 438-the-2014-episode
     episode_key: 438-the-2014-episode
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/dear-hank-john/438-the-2014-episode/"
   - episode_title: '437: Mouse Relay Intercept'
     episode_url: ''
@@ -13325,7 +13337,7 @@ episodes_by_feed:
     episode_uid: ngnxrsrnpb9kkwh6zdt5qbmkttumkzclpcwlvseyads
     episode_slug: 437-mouse-relay-intercept
     episode_key: 437-mouse-relay-intercept
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/dear-hank-john/437-mouse-relay-intercept/"
   - episode_title: '436: The Kelce Green Brother Bowl Brawl'
     episode_url: ''
@@ -13337,20 +13349,8 @@ episodes_by_feed:
     episode_uid: ao-t3kurgdobl0ajlkzck7amluu7pgqrz1irrvdpac
     episode_slug: 436-the-kelce-green-brother-bowl-brawl
     episode_key: 436-the-kelce-green-brother-bowl-brawl
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/dear-hank-john/436-the-kelce-green-brother-bowl-brawl/"
-  - episode_title: '435: So Much Idea in That Idea'
-    episode_url: ''
-    audio_url: https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/79c04b1f-dc9c-4377-a626-eea27a888512.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-    published_at: '2025-12-17T16:00:00Z'
-    description_html: <p>Do we sweat the same way vegetables do? What should I do if a billionaire sits down at my dinner table? How do I feel sane in today’s world? Can you please tell my twelve year old son to go to sleep? How did we decide the geological time scales? When were chairs invented? How does John manage his fear of TB contamination? What is Salinger-ing? …Hank and John Green have answers!</p><p>If you're in need of dubious advice, email us at hankandjohn@gmail.com.</p><p>Join us for monthly livestreams at patreon.com/dearhankandjohn.</p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>
-    description_plain: Do we sweat the same way vegetables do? What should I do if a billionaire sits down at my dinner table? How do I feel sane in today’s world? Can you please tell my twelve year old son to go to sleep? How did we decide the geological time scales? When were chairs invented? How does John manage his fear of TB contamination? What is Salinger-ing? …Hank and John Green have answers! If you're in need of dubious advice, email us at hankandjohn@gmail.com. Join us for monthly livestreams at patreon.com/dearhankandjohn. See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .
-    episode_image_url: https://content.production.cdn.art19.com/images/3a/97/b3/9c/3a97b39c-d645-4aae-b68d-422795415127/f58de4536aaf5cb93d902edeb364e6c2ed7b3bf8ad92c1b4d0dc47d955a098a8b95e5b66cffbb18cedc1a00a3a7e6d45168f24774f8407a4b3cbde9d90730805.jpeg
-    episode_uid: kicft-jv43u3m0nweaj0zp3bhkoirosoni6q1wkt2wm
-    episode_slug: 435-so-much-idea-in-that-idea
-    episode_key: 435-so-much-idea-in-that-idea
     legacy_numbered_slug: episode-25
-    episode_page_url: "/dear-hank-john/435-so-much-idea-in-that-idea/"
+    episode_page_url: "/dear-hank-john/436-the-kelce-green-brother-bowl-brawl/"
   https://api.substack.com/feed/podcast/2836327.rss: &43
   - episode_title: How Reality TV Makes Us All Republicans
     episode_url: https://www.diabolicalliespod.com/p/how-reality-tv-makes-us-all-republicans
@@ -18891,7 +18891,7 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/does-marques-hate-oneplus/"
   https://podcast.stream.schibsted.media/ap/100194: &61
-  - episode_title: 'Kort Forklart fotballspesial: – I dag var han kongen av Dallas'
+  - episode_title: 'Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/t17vhuvmhdwrcmohhnj5p/podcast_128.mp3
     published_at: '2026-06-30T22:43:42+00:00'
@@ -18899,10 +18899,11 @@ episodes_by_feed:
     description_plain: Antonio Nusa lykkes endelig og tente håpet som sendte Norge videre i VM. I dagens Kort Forklart fotballspesial snakker vi om de spesielle styrkene det norske laget viste under kveldens VM-kamp, og det kommende møtet med Brasil.
     episode_image_url: https://images.stream.schibsted.media/users/ap_/images/e1927510c19cb2f1f348248ce871123c.jpg?t%5B%5D=1440q80
     episode_uid: ap-139663
-    episode_slug: kort-forklart-fotballspesial-i-dag-var-han-kongen-av-dallas
-    episode_key: kort-forklart-fotballspesial-i-dag-var-han-kongen-av-dallas
+    episode_slug: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
+    episode_key: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
+    legacy_unicode_slug: kort-forklart-fotballspesial-nå-venter-nytt-møte-med-brasil-men-var-de-bedre-før
     legacy_numbered_slug: episode-01
-    episode_page_url: "/forklart/kort-forklart-fotballspesial-i-dag-var-han-kongen-av-dallas/"
+    episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
   - episode_title: 'Kort Forklart: De kalles «pervobriller». Derfor er Metas briller kontroversielle.'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/0zz2dq29rlmaajm9o5fuw/podcast_128.mp3
