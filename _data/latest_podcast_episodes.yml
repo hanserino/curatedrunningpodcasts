@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-01T05:37:07Z'
+generated_at: '2026-07-01T07:33:07Z'
 items:
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur/"
@@ -770,6 +770,30 @@ non_running_items:
   episode_key: sarah-sheppard
   episode_slug: sarah-sheppard
   episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
+- podcast_title: Talking Over You
+  podcast_page_url: "/talking-over-you/"
+  cover_image: "/media/talkingoveryou.jpeg"
+  feed_url: https://rss.buzzsprout.com/2529065.rss
+  filter_category: uncategorized english
+  episode_title: Western States, Hannah’s shin, and Sarah’s glottis
+  episode_url: ''
+  audio_url: https://www.buzzsprout.com/2529065/episodes/19423873-western-states-hannah-s-shin-and-sarah-s-glottis.mp3
+  published_at: '2026-07-01T00:00:00-07:00'
+  episode_key: western-states-hannah-s-shin-and-sarah-s-glottis
+  episode_slug: western-states-hannah-s-shin-and-sarah-s-glottis
+  episode_page_url: "/talking-over-you/western-states-hannah-s-shin-and-sarah-s-glottis/"
+- podcast_title: Oppdatert
+  podcast_page_url: "/oppdatert/"
+  cover_image: "/media/oppdatert.jpeg"
+  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
+  filter_category: uncategorized norwegian
+  episode_title: 'Tvang kvinner til sex: En telefon endret alt'
+  episode_url: ''
+  audio_url: https://podkast.nrk.no/fil/oppdatert/1ca05453-77c2-470a-a054-5377c2870a90_3_ID192MP3.mp3
+  published_at: '2026-07-01T05:59:00+02:00'
+  episode_key: tvang-kvinner-til-sex-en-telefon-endret-alt
+  episode_slug: tvang-kvinner-til-sex-en-telefon-endret-alt
+  episode_page_url: "/oppdatert/tvang-kvinner-til-sex-en-telefon-endret-alt/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -890,18 +914,6 @@ non_running_items:
   episode_key: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
   episode_slug: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
   episode_page_url: "/the-diary-of-a-ceo/women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima/"
-- podcast_title: Oppdatert
-  podcast_page_url: "/oppdatert/"
-  cover_image: "/media/oppdatert.jpeg"
-  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
-  filter_category: uncategorized norwegian
-  episode_title: Ivanka Trumps luksusdrøm fyrer opp Albania
-  episode_url: ''
-  audio_url: https://podkast.nrk.no/fil/oppdatert/e40361e8-9e02-4a8b-8361-e89e029a8b82_1_ID192MP3.mp3
-  published_at: '2026-06-29T05:59:00+02:00'
-  episode_key: ivanka-trumps-luksusdrom-fyrer-opp-albania
-  episode_slug: ivanka-trumps-luksusdrom-fyrer-opp-albania
-  episode_page_url: "/oppdatert/ivanka-trumps-luksusdrom-fyrer-opp-albania/"
 - podcast_title: Smosh Reads Reddit Stories
   podcast_page_url: "/smosh-reads-reddit-stories/"
   cover_image: "/media/smoshreadsredditstories.jpeg"
@@ -1034,18 +1046,6 @@ non_running_items:
   episode_key: 458-ancient-vs-hyper-mortal-w-paige-lewis
   episode_slug: 458-ancient-vs-hyper-mortal-w-paige-lewis
   episode_page_url: "/dear-hank-john/458-ancient-vs-hyper-mortal-w-paige-lewis/"
-- podcast_title: Talking Over You
-  podcast_page_url: "/talking-over-you/"
-  cover_image: "/media/talkingoveryou.jpeg"
-  feed_url: https://rss.buzzsprout.com/2529065.rss
-  filter_category: uncategorized english
-  episode_title: Norman, gravel artists, and hairography
-  episode_url: ''
-  audio_url: https://www.buzzsprout.com/2529065/episodes/19394883-norman-gravel-artists-and-hairography.mp3
-  published_at: '2026-06-24T00:00:00-07:00'
-  episode_key: norman-gravel-artists-and-hairography
-  episode_slug: norman-gravel-artists-and-hairography
-  episode_page_url: "/talking-over-you/norman-gravel-artists-and-hairography/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -15891,6 +15891,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/pablo-torre-finds-out/steve-ballmer-s-victim-impact-the-man-who-prosecuted-aspiration-and-the-abacus-of-incarceration-kawhi-gate-part-x/"
   https://rss.buzzsprout.com/2529065.rss: &52
+  - episode_title: Western States, Hannah’s shin, and Sarah’s glottis
+    episode_url: ''
+    audio_url: https://www.buzzsprout.com/2529065/episodes/19423873-western-states-hannah-s-shin-and-sarah-s-glottis.mp3
+    published_at: '2026-07-01T00:00:00-07:00'
+    description_html: "<p>This week, Sarah and Hannah talk about the historic Western States ultrarace in which multiple course records were made, and why all the World Cup soccer players are wearing sports bras. Sarah talks about her last birthing class, a turbo-charged e-bike ride, and swamping, again, and Hannah reminisces about her unhinged 16th birthday party. Plus: unicycles, ‘Yesteryear,’ hospital pre-rides, active labor crafts, and puffy glue.</p><p>Instagram: <a href='https://www.instagram.com/talking.over.you'>@talking.over.you</a></p>"
+    description_plain: 'This week, Sarah and Hannah talk about the historic Western States ultrarace in which multiple course records were made, and why all the World Cup soccer players are wearing sports bras. Sarah talks about her last birthing class, a turbo-charged e-bike ride, and swamping, again, and Hannah reminisces about her unhinged 16th birthday party. Plus: unicycles, ‘Yesteryear,’ hospital pre-rides, active labor crafts, and puffy glue. Instagram: @talking.over.you'
+    episode_image_url: ''
+    episode_uid: buzzsprout-19423873
+    episode_slug: western-states-hannah-s-shin-and-sarah-s-glottis
+    episode_key: western-states-hannah-s-shin-and-sarah-s-glottis
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/talking-over-you/western-states-hannah-s-shin-and-sarah-s-glottis/"
   - episode_title: Norman, gravel artists, and hairography
     episode_url: ''
     audio_url: https://www.buzzsprout.com/2529065/episodes/19394883-norman-gravel-artists-and-hairography.mp3
@@ -15901,7 +15913,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19394883
     episode_slug: norman-gravel-artists-and-hairography
     episode_key: norman-gravel-artists-and-hairography
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/talking-over-you/norman-gravel-artists-and-hairography/"
   - episode_title: Hospital people, World Cup drama, and Strava
     episode_url: ''
@@ -15913,7 +15925,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19361486
     episode_slug: hospital-people-world-cup-drama-and-strava
     episode_key: hospital-people-world-cup-drama-and-strava
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/talking-over-you/hospital-people-world-cup-drama-and-strava/"
   - episode_title: Balloons, the Giro, and boa constrictors
     episode_url: ''
@@ -15925,7 +15937,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19324972
     episode_slug: balloons-the-giro-and-boa-constrictors
     episode_key: balloons-the-giro-and-boa-constrictors
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/talking-over-you/balloons-the-giro-and-boa-constrictors/"
   - episode_title: 'BONUS: Dispatches from Unbound (ft. Cecile Lejeune, Ruby Ryan, Payson McElveen, and Dominique Powers)'
     episode_url: ''
@@ -15937,7 +15949,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19294759
     episode_slug: bonus-dispatches-from-unbound-ft-cecile-lejeune-ruby-ryan-payson-mcelveen-and-dominique-powers
     episode_key: bonus-dispatches-from-unbound-ft-cecile-lejeune-ruby-ryan-payson-mcelveen-and-dominique-powers
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/talking-over-you/bonus-dispatches-from-unbound-ft-cecile-lejeune-ruby-ryan-payson-mcelveen-and-dominique-powers/"
   - episode_title: Unbound, lab coats, and ChatCBD
     episode_url: ''
@@ -15949,7 +15961,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19287477
     episode_slug: unbound-lab-coats-and-chatcbd
     episode_key: unbound-lab-coats-and-chatcbd
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/talking-over-you/unbound-lab-coats-and-chatcbd/"
   - episode_title: The Iron Horse, truffle pigs, and crickets
     episode_url: ''
@@ -15961,7 +15973,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19248180
     episode_slug: the-iron-horse-truffle-pigs-and-crickets
     episode_key: the-iron-horse-truffle-pigs-and-crickets
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/talking-over-you/the-iron-horse-truffle-pigs-and-crickets/"
   - episode_title: The Cocodona, swamping, and ageing in cycling
     episode_url: ''
@@ -15973,7 +15985,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19172541
     episode_slug: the-cocodona-swamping-and-ageing-in-cycling
     episode_key: the-cocodona-swamping-and-ageing-in-cycling
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/talking-over-you/the-cocodona-swamping-and-ageing-in-cycling/"
   - episode_title: The Traka, driving in Europe, and jelly beans
     episode_url: ''
@@ -15985,7 +15997,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19134825
     episode_slug: the-traka-driving-in-europe-and-jelly-beans
     episode_key: the-traka-driving-in-europe-and-jelly-beans
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/talking-over-you/the-traka-driving-in-europe-and-jelly-beans/"
   - episode_title: Rapha team camp, adult braces, and weight loss in cycling (with Danni Shrosbree)
     episode_url: ''
@@ -15997,7 +16009,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19092531
     episode_slug: rapha-team-camp-adult-braces-and-weight-loss-in-cycling-with-danni-shrosbree
     episode_key: rapha-team-camp-adult-braces-and-weight-loss-in-cycling-with-danni-shrosbree
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/talking-over-you/rapha-team-camp-adult-braces-and-weight-loss-in-cycling-with-danni-shrosbree/"
   - episode_title: Sea Otter, soup, and sea lions
     episode_url: ''
@@ -16009,7 +16021,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19058592
     episode_slug: sea-otter-soup-and-sea-lions
     episode_key: sea-otter-soup-and-sea-lions
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/talking-over-you/sea-otter-soup-and-sea-lions/"
   - episode_title: FansOnly, Paris-Roubaix, and Coachella
     episode_url: ''
@@ -16021,7 +16033,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-19021991
     episode_slug: fansonly-paris-roubaix-and-coachella
     episode_key: fansonly-paris-roubaix-and-coachella
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/talking-over-you/fansonly-paris-roubaix-and-coachella/"
   - episode_title: Passover, bike messengers, and flopsy (ft. Margie Weinstein)
     episode_url: ''
@@ -16033,7 +16045,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18979985
     episode_slug: passover-bike-messengers-and-flopsy-ft-margie-weinstein
     episode_key: passover-bike-messengers-and-flopsy-ft-margie-weinstein
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/talking-over-you/passover-bike-messengers-and-flopsy-ft-margie-weinstein/"
   - episode_title: Galileo, The Hills have wheels, and leather chamois
     episode_url: ''
@@ -16045,7 +16057,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18941310
     episode_slug: galileo-the-hills-have-wheels-and-leather-chamois
     episode_key: galileo-the-hills-have-wheels-and-leather-chamois
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/talking-over-you/galileo-the-hills-have-wheels-and-leather-chamois/"
   - episode_title: Lady Whistledown, the Cape Epic, and race coverage
     episode_url: ''
@@ -16057,7 +16069,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18906492
     episode_slug: lady-whistledown-the-cape-epic-and-race-coverage
     episode_key: lady-whistledown-the-cape-epic-and-race-coverage
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/talking-over-you/lady-whistledown-the-cape-epic-and-race-coverage/"
   - episode_title: 'BONUS: Mid South post-race interviews (ft. Sofia Gomez Villafane, Cobe Freeburn, Gee Schreurs, and Cecile Lejeune)'
     episode_url: ''
@@ -16069,7 +16081,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18876306
     episode_slug: bonus-mid-south-post-race-interviews-ft-sofia-gomez-villafane-cobe-freeburn-gee-schreurs-and-cecile-lejeune
     episode_key: bonus-mid-south-post-race-interviews-ft-sofia-gomez-villafane-cobe-freeburn-gee-schreurs-and-cecile-lejeune
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/talking-over-you/bonus-mid-south-post-race-interviews-ft-sofia-gomez-villafane-cobe-freeburn-gee-schreurs-and-cecile-lejeune/"
   - episode_title: 'Live from Mid South: Woodworking, tantrums, and pregnancy clauses'
     episode_url: ''
@@ -16081,7 +16093,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18868170
     episode_slug: live-from-mid-south-woodworking-tantrums-and-pregnancy-clauses
     episode_key: live-from-mid-south-woodworking-tantrums-and-pregnancy-clauses
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/talking-over-you/live-from-mid-south-woodworking-tantrums-and-pregnancy-clauses/"
   - episode_title: Sarah’s news, manatees, and ebikes
     episode_url: ''
@@ -16093,7 +16105,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18827748
     episode_slug: sarah-s-news-manatees-and-ebikes
     episode_key: sarah-s-news-manatees-and-ebikes
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/talking-over-you/sarah-s-news-manatees-and-ebikes/"
   - episode_title: Aqua-mittens, foot tires, and cat bejewelling with ultra-runner Abby Hall
     episode_url: ''
@@ -16105,7 +16117,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18787386
     episode_slug: aqua-mittens-foot-tires-and-cat-bejewelling-with-ultra-runner-abby-hall
     episode_key: aqua-mittens-foot-tires-and-cat-bejewelling-with-ultra-runner-abby-hall
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/talking-over-you/aqua-mittens-foot-tires-and-cat-bejewelling-with-ultra-runner-abby-hall/"
   - episode_title: The Super Bowl, Lindsey Vonn, and hamster sod
     episode_url: ''
@@ -16117,7 +16129,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18661591
     episode_slug: the-super-bowl-lindsey-vonn-and-hamster-sod
     episode_key: the-super-bowl-lindsey-vonn-and-hamster-sod
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/talking-over-you/the-super-bowl-lindsey-vonn-and-hamster-sod/"
   - episode_title: Cereal, the Winter Olympics, and peeing (again)
     episode_url: ''
@@ -16129,7 +16141,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18623654
     episode_slug: cereal-the-winter-olympics-and-peeing-again
     episode_key: cereal-the-winter-olympics-and-peeing-again
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/talking-over-you/cereal-the-winter-olympics-and-peeing-again/"
   - episode_title: Male anatomy, gravel teams, and poddy talk
     episode_url: ''
@@ -16141,7 +16153,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18583416
     episode_slug: male-anatomy-gravel-teams-and-poddy-talk
     episode_key: male-anatomy-gravel-teams-and-poddy-talk
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/talking-over-you/male-anatomy-gravel-teams-and-poddy-talk/"
   - episode_title: Palm Springs, drop bars, and entomology (ft. their friend Dani)
     episode_url: ''
@@ -16153,7 +16165,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18547461
     episode_slug: palm-springs-drop-bars-and-entomology-ft-their-friend-dani
     episode_key: palm-springs-drop-bars-and-entomology-ft-their-friend-dani
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/talking-over-you/palm-springs-drop-bars-and-entomology-ft-their-friend-dani/"
   - episode_title: Leg shaving, techy talky, and Scrub Daddy
     episode_url: ''
@@ -16165,7 +16177,7 @@ episodes_by_feed:
     episode_uid: buzzsprout-18507189
     episode_slug: leg-shaving-techy-talky-and-scrub-daddy
     episode_key: leg-shaving-techy-talky-and-scrub-daddy
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/talking-over-you/leg-shaving-techy-talky-and-scrub-daddy/"
   - episode_title: Graphite gals, fast food, and how to get started with outdoor adventuring
     episode_url: ''
@@ -16177,20 +16189,8 @@ episodes_by_feed:
     episode_uid: buzzsprout-18467910
     episode_slug: graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring
     episode_key: graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/talking-over-you/graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring/"
-  - episode_title: The boy aquarium, New Year’s resolutions, and imposter syndrome
-    episode_url: ''
-    audio_url: https://www.buzzsprout.com/2529065/episodes/18435492-the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome.mp3
-    published_at: '2025-12-31T04:00:00-07:00'
-    description_html: "<p>As the year draws to a close, the Sturm sisters are in very different headspaces. Hannah is all-in on reflecting on 2025 and looking ahead to the possibilities of the New Year, while Sarah is still pissed off that it rained on Christmas. She’s also pretty sure that 2025 was a failure for her on most fronts. In this episode, they pick through the wreckage of the past 12 months, argue over whether it’s more motivating to believe in yourself or fear failure, and answer a listener&apos;s question about imposter syndrome. First though, Hannah wants to dig into the very NSFW HBO show ‘Heated Rivalry,’ and Sarah wants to highlight a very impressive ride from fellow Rapha rider Cam Jones. If only she could remember what zones are.</p><p>Shoutout to <a href='https://easycoffeeroasters.co'>Easy Coffee Roasters</a> for sponsoring this episode. Use code TALKINGOVERYOU10 for 10% off your next order.</p><p>Instagram: <a href='https://www.instagram.com/talking.over.you'>@talking.over.you</a></p>"
-    description_plain: 'As the year draws to a close, the Sturm sisters are in very different headspaces. Hannah is all-in on reflecting on 2025 and looking ahead to the possibilities of the New Year, while Sarah is still pissed off that it rained on Christmas. She’s also pretty sure that 2025 was a failure for her on most fronts. In this episode, they pick through the wreckage of the past 12 months, argue over whether it’s more motivating to believe in yourself or fear failure, and answer a listener&apos;s question about imposter syndrome. First though, Hannah wants to dig into the very NSFW HBO show ‘Heated Rivalry,’ and Sarah wants to highlight a very impressive ride from fellow Rapha rider Cam Jones. If only she could remember what zones are. Shoutout to Easy Coffee Roasters for sponsoring this episode. Use code TALKINGOVERYOU10 for 10% off your next order. Instagram: @talking.over.you'
-    episode_image_url: ''
-    episode_uid: buzzsprout-18435492
-    episode_slug: the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome
-    episode_key: the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome
     legacy_numbered_slug: episode-25
-    episode_page_url: "/talking-over-you/the-boy-aquarium-new-year-s-resolutions-and-imposter-syndrome/"
+    episode_page_url: "/talking-over-you/graphite-gals-fast-food-and-how-to-get-started-with-outdoor-adventuring/"
   https://feeds.simplecast.com/rxabnzh0: &53
   - episode_title: Kolie Moore - Overrated and Underrated Factors for Cycling Performance
     episode_url: https://scientifictriathlon.com/tts703/
@@ -19534,6 +19534,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/huberman-lab/cultivating-awe-emotional-connection-in-daily-life-dr-dacher-keltner/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &63
+  - episode_title: 'Tvang kvinner til sex: En telefon endret alt'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/1ca05453-77c2-470a-a054-5377c2870a90_3_ID192MP3.mp3
+    published_at: '2026-07-01T05:59:00+02:00'
+    description_html: Politiet fikk en telefon som åpnet dørene til en mørk sfære de ikke ante fantes i det norske samfunnet.
+    description_plain: Politiet fikk en telefon som åpnet dørene til en mørk sfære de ikke ante fantes i det norske samfunnet.
+    episode_image_url: https://gfx.nrk.no/BvGQFDgz8RH17wtXHNgnOwHGb201cWhcEq3Z_hup0twQ.jpg
+    episode_uid: 1ca05453-77c2-470a-a054-5377c2870a90-3-id192mp3-mp3
+    episode_slug: tvang-kvinner-til-sex-en-telefon-endret-alt
+    episode_key: tvang-kvinner-til-sex-en-telefon-endret-alt
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/oppdatert/tvang-kvinner-til-sex-en-telefon-endret-alt/"
   - episode_title: Ivanka Trumps luksusdrøm fyrer opp Albania
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/e40361e8-9e02-4a8b-8361-e89e029a8b82_1_ID192MP3.mp3
@@ -19545,7 +19557,7 @@ episodes_by_feed:
     episode_slug: ivanka-trumps-luksusdrom-fyrer-opp-albania
     episode_key: ivanka-trumps-luksusdrom-fyrer-opp-albania
     legacy_unicode_slug: ivanka-trumps-luksusdrøm-fyrer-opp-albania
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/oppdatert/ivanka-trumps-luksusdrom-fyrer-opp-albania/"
   - episode_title: 'Jobben ingen mestrer: Er Burnham britenes nye håp?'
     episode_url: ''
@@ -19558,7 +19570,7 @@ episodes_by_feed:
     episode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
     episode_key: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
     legacy_unicode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-håp
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/oppdatert/jobben-ingen-mestrer-er-burnham-britenes-nye-hap/"
   - episode_title: 'Dødsgåte i Mango-dynastiet: Ble gründeren drept?'
     episode_url: ''
@@ -19571,7 +19583,7 @@ episodes_by_feed:
     episode_slug: dodsgate-i-mango-dynastiet-ble-grunderen-drept
     episode_key: dodsgate-i-mango-dynastiet-ble-grunderen-drept
     legacy_unicode_slug: dødsgåte-i-mango-dynastiet-ble-gründeren-drept
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/oppdatert/dodsgate-i-mango-dynastiet-ble-grunderen-drept/"
   - episode_title: 'Iran i VM: Storpolitisk drama'
     episode_url: ''
@@ -19583,7 +19595,7 @@ episodes_by_feed:
     episode_uid: 85b5ce4c-55fe-478f-b5ce-4c55fe178f9e-1-id192mp3-mp3
     episode_slug: iran-i-vm-storpolitisk-drama
     episode_key: iran-i-vm-storpolitisk-drama
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/oppdatert/iran-i-vm-storpolitisk-drama/"
   - episode_title: 'Katastrofebrannen i LA: Sto en 29-åring bak?'
     episode_url: ''
@@ -19596,7 +19608,7 @@ episodes_by_feed:
     episode_slug: katastrofebrannen-i-la-sto-en-29-aring-bak
     episode_key: katastrofebrannen-i-la-sto-en-29-aring-bak
     legacy_unicode_slug: katastrofebrannen-i-la-sto-en-29-åring-bak
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/oppdatert/katastrofebrannen-i-la-sto-en-29-aring-bak/"
   - episode_title: 'Dobbeltdrap i Sverige: Er nordmannen torpedo?'
     episode_url: ''
@@ -19608,7 +19620,7 @@ episodes_by_feed:
     episode_uid: 8a7b8710-2770-41d0-bb87-10277091d022-1-id192mp3-mp3
     episode_slug: dobbeltdrap-i-sverige-er-nordmannen-torpedo
     episode_key: dobbeltdrap-i-sverige-er-nordmannen-torpedo
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/oppdatert/dobbeltdrap-i-sverige-er-nordmannen-torpedo/"
   - episode_title: 'Fra kontrovers til suksess: Er dette sommerens stjerne?'
     episode_url: ''
@@ -19620,7 +19632,7 @@ episodes_by_feed:
     episode_uid: 66aa0d8a-5213-4c73-aa0d-8a52135c73a1-1-id192mp3-mp3
     episode_slug: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
     episode_key: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/oppdatert/fra-kontrovers-til-suksess-er-dette-sommerens-stjerne/"
   - episode_title: 'Dop, damer og hatkrim-anklager: Et bevisst spill?'
     episode_url: ''
@@ -19632,7 +19644,7 @@ episodes_by_feed:
     episode_uid: 4f099b7a-c8ac-4368-899b-7ac8ac036847-1-id192mp3-mp3
     episode_slug: dop-damer-og-hatkrim-anklager-et-bevisst-spill
     episode_key: dop-damer-og-hatkrim-anklager-et-bevisst-spill
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/oppdatert/dop-damer-og-hatkrim-anklager-et-bevisst-spill/"
   - episode_title: 'Narkokartellenes jerngrep: Likene i VM-byen'
     episode_url: ''
@@ -19644,21 +19656,8 @@ episodes_by_feed:
     episode_uid: b06f72e5-c62e-485a-af72-e5c62e085adf-1-id192mp3-mp3
     episode_slug: narkokartellenes-jerngrep-likene-i-vm-byen
     episode_key: narkokartellenes-jerngrep-likene-i-vm-byen
-    legacy_numbered_slug: episode-09
-    episode_page_url: "/oppdatert/narkokartellenes-jerngrep-likene-i-vm-byen/"
-  - episode_title: 'Dom i Høiby-saken: Hva skjer videre?'
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/c182b8d6-c331-4005-82b8-d6c331a00520_1_ID192MP3.mp3
-    published_at: '2026-06-15T15:32:00+02:00'
-    description_html: Marius Borg Høiby dømmes til fire års fengsel. Høiby har anket saken.
-    description_plain: Marius Borg Høiby dømmes til fire års fengsel. Høiby har anket saken.
-    episode_image_url: https://gfx.nrk.no/m_WlIbG4ihgUnw59ZGzcNwhLmGH68nFVAdh0RpoB1Y2A.jpg
-    episode_uid: c182b8d6-c331-4005-82b8-d6c331a00520-1-id192mp3-mp3
-    episode_slug: dom-i-hoiby-saken-hva-skjer-videre
-    episode_key: dom-i-hoiby-saken-hva-skjer-videre
-    legacy_unicode_slug: dom-i-høiby-saken-hva-skjer-videre
     legacy_numbered_slug: episode-10
-    episode_page_url: "/oppdatert/dom-i-hoiby-saken-hva-skjer-videre/"
+    episode_page_url: "/oppdatert/narkokartellenes-jerngrep-likene-i-vm-byen/"
   https://sr-restored.se/rss/2071: &64
   - episode_title: Sarah Sheppard
     episode_url: https://www.sverigesradio.se/avsnitt/2815473
