@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-02T21:30:06Z'
+generated_at: '2026-07-02T22:27:23Z'
 items:
+- podcast_title: Territorio Trail
+  podcast_page_url: "/territorio-trail/"
+  cover_image: "/media/territorio-trail.jpeg"
+  feed_url: https://feeds.feedburner.com/ivoox/qssg
+  filter_category: trail spanish
+  episode_title: Sweet Home Alabama. Todo lo que nos dejó la Western States 100
+  episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100
+  audio_url: https://media.aragonradio.es/2026/07/20260702_07-46_sweet-home-alabama_-todo-lo-que-nos-dejo-la-western-states-100.mp3?utm_source=applepodcasts
+  published_at: '2026-07-02T22:00:00+02:00'
+  episode_key: sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100
+  episode_slug: sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100
+  episode_page_url: "/territorio-trail/sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100/"
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
   cover_image: "/media/citiusmag.jpeg"
@@ -85,18 +97,6 @@ items:
   episode_key: tom-evans-2026-hardrock-100-pre-run-interview
   episode_slug: tom-evans-2026-hardrock-100-pre-run-interview
   episode_page_url: "/singletrack/tom-evans-2026-hardrock-100-pre-run-interview/"
-- podcast_title: Territorio Trail
-  podcast_page_url: "/territorio-trail/"
-  cover_image: "/media/territorio-trail.jpeg"
-  feed_url: https://feeds.feedburner.com/ivoox/qssg
-  filter_category: trail spanish
-  episode_title: TERRITORIO TRAIL 08X44 La Western States 100 de Gerard Morales
-  episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x44-la-western-states-100-de-gerard-morales
-  audio_url: https://media.aragonradio.es/2026/07/20260701_21-59_territorio-trail-08x44-la-western-states-100-de-gerard-morales.mp3?utm_source=applepodcasts
-  published_at: '2026-07-01T21:59:00+02:00'
-  episode_key: territorio-trail-08x44-la-western-states-100-de-gerard-morales
-  episode_slug: territorio-trail-08x44-la-western-states-100-de-gerard-morales
-  episode_page_url: "/territorio-trail/territorio-trail-08x44-la-western-states-100-de-gerard-morales/"
 - podcast_title: Ten Junk Miles
   podcast_page_url: "/ten-junk-miles/"
   cover_image: "/media/tenjunkmiles.png"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Alex och Sigges podcast
+  podcast_page_url: "/alex-og-sigges-podcast/"
+  cover_image: "/media/alexochsigge.jpeg"
+  feed_url: https://feed.pod.space/alexosigge
+  filter_category: uncategorized swedish
+  episode_title: 737. Ro! Ro! Ro!
+  episode_url: https://pod.space/alexosigge/737-ro-ro-ro
+  audio_url: https://media.pod.space/alexosigge/aos737_260702.mp3
+  published_at: '2026-07-02T21:40:39+00:00'
+  episode_key: 737-ro-ro-ro
+  episode_slug: 737-ro-ro-ro
+  episode_page_url: "/alex-og-sigges-podcast/737-ro-ro-ro/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -1022,18 +1034,6 @@ non_running_items:
   episode_key: the-steam-machine-is-how-much
   episode_slug: the-steam-machine-is-how-much
   episode_page_url: "/waveform-the-mkbhd-podcast/the-steam-machine-is-how-much/"
-- podcast_title: Alex och Sigges podcast
-  podcast_page_url: "/alex-og-sigges-podcast/"
-  cover_image: "/media/alexochsigge.jpeg"
-  feed_url: https://feed.pod.space/alexosigge
-  filter_category: uncategorized swedish
-  episode_title: 736. Kallad till sitt kall
-  episode_url: https://pod.space/alexosigge/736-kallad-till-sitt-kall
-  audio_url: https://media.pod.space/alexosigge/aos736_260625.mp3
-  published_at: '2026-06-25T20:52:20+00:00'
-  episode_key: 736-kallad-till-sitt-kall
-  episode_slug: 736-kallad-till-sitt-kall
-  episode_page_url: "/alex-og-sigges-podcast/736-kallad-till-sitt-kall/"
 - podcast_title: The Colin and Samir Show
   podcast_page_url: "/the-colin-and-samir-show/"
   cover_image: "/media/colinandsamirshow.jpeg"
@@ -26772,6 +26772,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/p3-dokumentar/den-dodsdomda-polarexpeditionen/"
   https://feed.pod.space/alexosigge: &89
+  - episode_title: 737. Ro! Ro! Ro!
+    episode_url: https://pod.space/alexosigge/737-ro-ro-ro
+    audio_url: https://media.pod.space/alexosigge/aos737_260702.mp3
+    published_at: '2026-07-02T21:40:39+00:00'
+    description_html: ''
+    description_plain: ''
+    episode_image_url: https://assets.pod.space/system/shows/images/397/fef/88-/large/Alex_20_26_20Sigge_omslag.jpg
+    episode_uid: 1b1916a8f5c2730310782e327d829e80
+    episode_slug: 737-ro-ro-ro
+    episode_key: 737-ro-ro-ro
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/alex-og-sigges-podcast/737-ro-ro-ro/"
   - episode_title: 736. Kallad till sitt kall
     episode_url: https://pod.space/alexosigge/736-kallad-till-sitt-kall
     audio_url: https://media.pod.space/alexosigge/aos736_260625.mp3
@@ -26782,7 +26794,7 @@ episodes_by_feed:
     episode_uid: e8e38e2fd2d6a6bde258eced05088a9e
     episode_slug: 736-kallad-till-sitt-kall
     episode_key: 736-kallad-till-sitt-kall
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/alex-og-sigges-podcast/736-kallad-till-sitt-kall/"
   - episode_title: 735. Parterapi inför miljonpublik
     episode_url: https://pod.space/alexosigge/735-parterapi-infor-miljonpublik
@@ -26795,7 +26807,7 @@ episodes_by_feed:
     episode_slug: 735-parterapi-infor-miljonpublik
     episode_key: 735-parterapi-infor-miljonpublik
     legacy_unicode_slug: 735-parterapi-inför-miljonpublik
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/alex-og-sigges-podcast/735-parterapi-infor-miljonpublik/"
   - episode_title: 734. Kanna på! Kanna på!
     episode_url: https://pod.space/alexosigge/734-kanna-pa-kanna-pa
@@ -26808,7 +26820,7 @@ episodes_by_feed:
     episode_slug: 734-kanna-pa-kanna-pa
     episode_key: 734-kanna-pa-kanna-pa
     legacy_unicode_slug: 734-kanna-på-kanna-på
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/alex-og-sigges-podcast/734-kanna-pa-kanna-pa/"
   - episode_title: 733. Att lyftas upp av vinden
     episode_url: https://pod.space/alexosigge/733-att-lyftas-upp-av-vinden
@@ -26820,7 +26832,7 @@ episodes_by_feed:
     episode_uid: 9270324e2cc7f64883e977056c35e4f8
     episode_slug: 733-att-lyftas-upp-av-vinden
     episode_key: 733-att-lyftas-upp-av-vinden
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/alex-og-sigges-podcast/733-att-lyftas-upp-av-vinden/"
   - episode_title: 732. Under siffrornas helg
     episode_url: https://pod.space/alexosigge/732-under-siffrornas-helg
@@ -26832,7 +26844,7 @@ episodes_by_feed:
     episode_uid: 43f2cc2b90b21f5403977059172e6ba6
     episode_slug: 732-under-siffrornas-helg
     episode_key: 732-under-siffrornas-helg
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/alex-og-sigges-podcast/732-under-siffrornas-helg/"
   - episode_title: 731. Fågel, vän eller apa?
     episode_url: https://pod.space/alexosigge/731-fagel-van-eller-apa
@@ -26845,7 +26857,7 @@ episodes_by_feed:
     episode_slug: 731-fagel-van-eller-apa
     episode_key: 731-fagel-van-eller-apa
     legacy_unicode_slug: 731-fågel-vän-eller-apa
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/alex-og-sigges-podcast/731-fagel-van-eller-apa/"
   - episode_title: 730. Flygexperten från Lönneberga
     episode_url: https://pod.space/alexosigge/730-flygexperten-fran-lonneberga
@@ -26858,7 +26870,7 @@ episodes_by_feed:
     episode_slug: 730-flygexperten-fran-lonneberga
     episode_key: 730-flygexperten-fran-lonneberga
     legacy_unicode_slug: 730-flygexperten-från-lönneberga
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/alex-og-sigges-podcast/730-flygexperten-fran-lonneberga/"
   - episode_title: 729. En avgrund i avgrunden
     episode_url: https://pod.space/alexosigge/729-en-avgrund-i-avgrunden
@@ -26870,7 +26882,7 @@ episodes_by_feed:
     episode_uid: f681fa1ddf97114551e79616baee77d6
     episode_slug: 729-en-avgrund-i-avgrunden
     episode_key: 729-en-avgrund-i-avgrunden
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/alex-og-sigges-podcast/729-en-avgrund-i-avgrunden/"
   - episode_title: 728. Vänd dig inte om
     episode_url: https://pod.space/alexosigge/728-vand-dig-inte-om
@@ -26883,7 +26895,7 @@ episodes_by_feed:
     episode_slug: 728-vand-dig-inte-om
     episode_key: 728-vand-dig-inte-om
     legacy_unicode_slug: 728-vänd-dig-inte-om
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/alex-og-sigges-podcast/728-vand-dig-inte-om/"
   - episode_title: 727. Flärpen
     episode_url: https://pod.space/alexosigge/727-flarpen
@@ -26896,7 +26908,7 @@ episodes_by_feed:
     episode_slug: 727-flarpen
     episode_key: 727-flarpen
     legacy_unicode_slug: 727-flärpen
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/alex-og-sigges-podcast/727-flarpen/"
   - episode_title: 726. Knäckgängensson, Skolsson, Frihetsson!
     episode_url: https://pod.space/alexosigge/726-knackgangensson-skolsson-frihetsson
@@ -26909,7 +26921,7 @@ episodes_by_feed:
     episode_slug: 726-knackgangensson-skolsson-frihetsson
     episode_key: 726-knackgangensson-skolsson-frihetsson
     legacy_unicode_slug: 726-knäckgängensson-skolsson-frihetsson
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/alex-og-sigges-podcast/726-knackgangensson-skolsson-frihetsson/"
   - episode_title: 'Extraavsnitt: Roligaste 2025'
     episode_url: https://pod.space/alexosigge/extraavsnitt-roligaste-2025
@@ -26921,7 +26933,7 @@ episodes_by_feed:
     episode_uid: 3b2ea8d7c1d499488d78b7a7a8b690b8
     episode_slug: extraavsnitt-roligaste-2025
     episode_key: extraavsnitt-roligaste-2025
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/alex-og-sigges-podcast/extraavsnitt-roligaste-2025/"
   - episode_title: 'Extraavsnitt: Roligaste 2024'
     episode_url: https://pod.space/alexosigge/extraavsnitt-roligaste-2024
@@ -26933,7 +26945,7 @@ episodes_by_feed:
     episode_uid: b3205c5b1b2503fab8fa772dfb6065f3
     episode_slug: extraavsnitt-roligaste-2024
     episode_key: extraavsnitt-roligaste-2024
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/alex-og-sigges-podcast/extraavsnitt-roligaste-2024/"
   - episode_title: 'Extraavsnitt: Samlade hundliv'
     episode_url: https://pod.space/alexosigge/extraavsnitt-samlade-hundliv
@@ -26945,7 +26957,7 @@ episodes_by_feed:
     episode_uid: 9f88660795d50eb74672a6399ccd1271
     episode_slug: extraavsnitt-samlade-hundliv
     episode_key: extraavsnitt-samlade-hundliv
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/alex-og-sigges-podcast/extraavsnitt-samlade-hundliv/"
   - episode_title: 'Extraavsnitt: Sigges gubbar'
     episode_url: https://pod.space/alexosigge/extraavsnitt-sigges-gubbar
@@ -26957,7 +26969,7 @@ episodes_by_feed:
     episode_uid: ad6bf91081a2675422d3aebebe8a7854
     episode_slug: extraavsnitt-sigges-gubbar
     episode_key: extraavsnitt-sigges-gubbar
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/alex-og-sigges-podcast/extraavsnitt-sigges-gubbar/"
   - episode_title: 725. Snickesnack, lek, test eller kärna?
     episode_url: https://pod.space/alexosigge/725-snickesnack-lek-test-eller-karna
@@ -26970,7 +26982,7 @@ episodes_by_feed:
     episode_slug: 725-snickesnack-lek-test-eller-karna
     episode_key: 725-snickesnack-lek-test-eller-karna
     legacy_unicode_slug: 725-snickesnack-lek-test-eller-kärna
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/alex-og-sigges-podcast/725-snickesnack-lek-test-eller-karna/"
   - episode_title: 724. Fem tavlor
     episode_url: https://pod.space/alexosigge/724-fem-tavlor
@@ -26982,7 +26994,7 @@ episodes_by_feed:
     episode_uid: 43cc152ff6dc5d7e9fdb186dc174e9a7
     episode_slug: 724-fem-tavlor
     episode_key: 724-fem-tavlor
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/alex-og-sigges-podcast/724-fem-tavlor/"
   - episode_title: 723. Mellan tårna
     episode_url: https://pod.space/alexosigge/723-mellan-tarna
@@ -26995,7 +27007,7 @@ episodes_by_feed:
     episode_slug: 723-mellan-tarna
     episode_key: 723-mellan-tarna
     legacy_unicode_slug: 723-mellan-tårna
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/alex-og-sigges-podcast/723-mellan-tarna/"
   - episode_title: 722. Snöbollskrigsrörelsens ideologiska arkitekt
     episode_url: https://pod.space/alexosigge/722-snobollskrigsrorelsens-ideologiska-arkitekt
@@ -27008,7 +27020,7 @@ episodes_by_feed:
     episode_slug: 722-snobollskrigsrorelsens-ideologiska-arkitekt
     episode_key: 722-snobollskrigsrorelsens-ideologiska-arkitekt
     legacy_unicode_slug: 722-snöbollskrigsrörelsens-ideologiska-arkitekt
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/alex-og-sigges-podcast/722-snobollskrigsrorelsens-ideologiska-arkitekt/"
   - episode_title: 721. Härdsmältor, anhedoni och helvetet på jorden
     episode_url: https://pod.space/alexosigge/721-hardsmaltor-anhedoni-och-helvetet-pa-jorden
@@ -27021,7 +27033,7 @@ episodes_by_feed:
     episode_slug: 721-hardsmaltor-anhedoni-och-helvetet-pa-jorden
     episode_key: 721-hardsmaltor-anhedoni-och-helvetet-pa-jorden
     legacy_unicode_slug: 721-härdsmältor-anhedoni-och-helvetet-på-jorden
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/alex-og-sigges-podcast/721-hardsmaltor-anhedoni-och-helvetet-pa-jorden/"
   - episode_title: 720. Omkalibrering av ALLT
     episode_url: https://pod.space/alexosigge/720-omkalibrering-av-allt
@@ -27033,7 +27045,7 @@ episodes_by_feed:
     episode_uid: a6224d398c7891a364fe1a8f3606c759
     episode_slug: 720-omkalibrering-av-allt
     episode_key: 720-omkalibrering-av-allt
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/alex-og-sigges-podcast/720-omkalibrering-av-allt/"
   - episode_title: 719. Kung i baren!
     episode_url: https://pod.space/alexosigge/719-kung-i-baren
@@ -27045,7 +27057,7 @@ episodes_by_feed:
     episode_uid: b853c5e597038863b2e53ff1578ac8e9
     episode_slug: 719-kung-i-baren
     episode_key: 719-kung-i-baren
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/alex-og-sigges-podcast/719-kung-i-baren/"
   - episode_title: 718. Drogad på scen
     episode_url: https://pod.space/alexosigge/718-drogad-pa-scen
@@ -27058,7 +27070,7 @@ episodes_by_feed:
     episode_slug: 718-drogad-pa-scen
     episode_key: 718-drogad-pa-scen
     legacy_unicode_slug: 718-drogad-på-scen
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/alex-og-sigges-podcast/718-drogad-pa-scen/"
   - episode_title: 717. Den nya oredans tid
     episode_url: https://pod.space/alexosigge/717-den-nya-oredans-tid
@@ -27070,21 +27082,8 @@ episodes_by_feed:
     episode_uid: 158f67a54695e41f99a67393bba40b3e
     episode_slug: 717-den-nya-oredans-tid
     episode_key: 717-den-nya-oredans-tid
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/alex-og-sigges-podcast/717-den-nya-oredans-tid/"
-  - episode_title: 716. Extremtöntar!!
-    episode_url: https://pod.space/alexosigge/716-extremtontar
-    audio_url: https://media.pod.space/alexosigge/aos716.mp3
-    published_at: '2026-01-09T05:27:56+00:00'
-    description_html: ''
-    description_plain: ''
-    episode_image_url: https://assets.pod.space/system/shows/images/397/fef/88-/large/Alex_20_26_20Sigge_omslag.jpg
-    episode_uid: 304c45409c46ee8e01c9f9186ebf928f
-    episode_slug: 716-extremtontar
-    episode_key: 716-extremtontar
-    legacy_unicode_slug: 716-extremtöntar
     legacy_numbered_slug: episode-25
-    episode_page_url: "/alex-og-sigges-podcast/716-extremtontar/"
+    episode_page_url: "/alex-og-sigges-podcast/717-den-nya-oredans-tid/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &90
   - episode_title: 'Matchdag 22: Jesus Gil och La noches de tal y tal'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
@@ -29269,6 +29268,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/singletrack-with-mathias-eichler/324-the-new-generation-is-different-with-francesco-puppi/"
   https://feeds.feedburner.com/ivoox/qssg: &98
+  - episode_title: Sweet Home Alabama. Todo lo que nos dejó la Western States 100
+    episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100
+    audio_url: https://media.aragonradio.es/2026/07/20260702_07-46_sweet-home-alabama_-todo-lo-que-nos-dejo-la-western-states-100.mp3?utm_source=applepodcasts
+    published_at: '2026-07-02T22:00:00+02:00'
+    description_html: "<p>Vincent Bouillard en modo extraterrestre y dominador, ganando con r&eacute;cord y rompiendo por mucho la hist&oacute;rica barrera de las catorce horas. Jennifer Lichter haciendo lo propio en la prueba femenina en su debur en una cien millas. La bronce ol&iacute;mpica Molly Seidel bajando al barro y consiguiendo cruzar la meta de Auburn m&aacute;s all&aacute; de las 24 horas. El adi&oacute;s anticipado de Kilian Jornet y Jim Walmsley. Gerard Morales dando una lecci&oacute;n de gesti&oacute;n de un ultratrail y consiguiendo un SUB20 horas de prestigio. Siete mujeres entre los veinte primeros clasificados de la general. Una Western States 100 hist&oacute;rica, de la que fuimos testigos en primera persona, que resumimos en Sweet Home Alabama.</p>"
+    description_plain: Vincent Bouillard en modo extraterrestre y dominador, ganando con r&eacute;cord y rompiendo por mucho la hist&oacute;rica barrera de las catorce horas. Jennifer Lichter haciendo lo propio en la prueba femenina en su debur en una cien millas. La bronce ol&iacute;mpica Molly Seidel bajando al barro y consiguiendo cruzar la meta de Auburn m&aacute;s all&aacute; de las 24 horas. El adi&oacute;s anticipado de Kilian Jornet y Jim Walmsley. Gerard Morales dando una lecci&oacute;n de gesti&oacute;n de un ultratrail y consiguiendo un SUB20 horas de prestigio. Siete mujeres entre los veinte primeros clasificados de la general. Una Western States 100 hist&oacute;rica, de la que fuimos testigos en primera persona, que resumimos en Sweet Home Alabama.
+    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
+    episode_uid: 2026-07-20260702-07-46-sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100-mp3
+    episode_slug: sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100
+    episode_key: sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100
+    legacy_unicode_slug: sweet-home-alabama-todo-lo-que-nos-dejó-la-western-states-100
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/territorio-trail/sweet-home-alabama-todo-lo-que-nos-dejo-la-western-states-100/"
   - episode_title: TERRITORIO TRAIL 08X44 La Western States 100 de Gerard Morales
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x44-la-western-states-100-de-gerard-morales
     audio_url: https://media.aragonradio.es/2026/07/20260701_21-59_territorio-trail-08x44-la-western-states-100-de-gerard-morales.mp3?utm_source=applepodcasts
@@ -29279,7 +29291,7 @@ episodes_by_feed:
     episode_uid: 2026-07-20260701-21-59-territorio-trail-08x44-la-western-states-100-de-gerard-morales-mp3
     episode_slug: territorio-trail-08x44-la-western-states-100-de-gerard-morales
     episode_key: territorio-trail-08x44-la-western-states-100-de-gerard-morales
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/territorio-trail/territorio-trail-08x44-la-western-states-100-de-gerard-morales/"
   - episode_title: Kilómetro y Resultado Western States 100 2026. Parte 3
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-3
@@ -29292,7 +29304,7 @@ episodes_by_feed:
     episode_slug: kilometro-y-resultado-western-states-100-2026-parte-3
     episode_key: kilometro-y-resultado-western-states-100-2026-parte-3
     legacy_unicode_slug: kilómetro-y-resultado-western-states-100-2026-parte-3
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-3/"
   - episode_title: Kilómetro y Resultado Western States 100 2026. Parte 2
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-2
@@ -29305,7 +29317,7 @@ episodes_by_feed:
     episode_slug: kilometro-y-resultado-western-states-100-2026-parte-2
     episode_key: kilometro-y-resultado-western-states-100-2026-parte-2
     legacy_unicode_slug: kilómetro-y-resultado-western-states-100-2026-parte-2
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-2/"
   - episode_title: Kilómetro y Resultado Western States 100 2026. Parte 1
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/kilometro-y-resultado-western-states-100-2026-parte-1
@@ -29318,7 +29330,7 @@ episodes_by_feed:
     episode_slug: kilometro-y-resultado-western-states-100-2026-parte-1
     episode_key: kilometro-y-resultado-western-states-100-2026-parte-1
     legacy_unicode_slug: kilómetro-y-resultado-western-states-100-2026-parte-1
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/territorio-trail/kilometro-y-resultado-western-states-100-2026-parte-1/"
   - episode_title: Sweet Home Alabama. Presente y futuro del trail en el Equipo Tragoworld
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
@@ -29330,7 +29342,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260625-09-13-sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld-mp
     episode_slug: sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
     episode_key: sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/territorio-trail/sweet-home-alabama-presente-y-futuro-del-trail-en-el-equipo-tragoworld/"
   - episode_title: TERRITORIO TRAIL 08X43 Todo sobre la Western States 100 2026, el fin de semana que estabas esperando
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
@@ -29342,7 +29354,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260624-22-03-territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-se
     episode_slug: territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
     episode_key: territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/territorio-trail/territorio-trail-08x43-todo-sobre-la-western-states-100-2026-el-fin-de-semana-que-estabas-esperando/"
   - episode_title: Sweet Home Alabama. Dentro de Mount to Coast, así es el training camp de un equipo élite
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
@@ -29355,7 +29367,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
     episode_key: sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite
     legacy_unicode_slug: sweet-home-alabama-dentro-de-mount-to-coast-así-es-el-training-camp-de-un-equipo-élite
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-mount-to-coast-asi-es-el-training-camp-de-un-equipo-elite/"
   - episode_title: TERRITORIO TRAIL 08X42 Contando los días para Western States 100
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x42-contando-los-dias-para-western-states-100
@@ -29368,7 +29380,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x42-contando-los-dias-para-western-states-100
     episode_key: territorio-trail-08x42-contando-los-dias-para-western-states-100
     legacy_unicode_slug: territorio-trail-08x42-contando-los-días-para-western-states-100
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/territorio-trail/territorio-trail-08x42-contando-los-dias-para-western-states-100/"
   - episode_title: Sweet Home Alabama. El análisis del Campeonato de Europa de trail running
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
@@ -29381,7 +29393,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
     episode_key: sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running
     legacy_unicode_slug: sweet-home-alabama-el-análisis-del-campeonato-de-europa-de-trail-running
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/territorio-trail/sweet-home-alabama-el-analisis-del-campeonato-de-europa-de-trail-running/"
   - episode_title: TERRITORIO TRAIL 08X41 Apuesta doble en Badwater 135
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x41-apuesta-doble-en-badwater-135
@@ -29393,7 +29405,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260610-21-34-territorio-trail-08x41-apuesta-doble-en-badwater-135-mp3
     episode_slug: territorio-trail-08x41-apuesta-doble-en-badwater-135
     episode_key: territorio-trail-08x41-apuesta-doble-en-badwater-135
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/territorio-trail/territorio-trail-08x41-apuesta-doble-en-badwater-135/"
   - episode_title: Sweet Home Alabama. La WOP Challenge de Territorio Trail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-la-wop-challenge-de-territorio-trail
@@ -29405,7 +29417,7 @@ episodes_by_feed:
     episode_uid: 2026-06-20260604-07-50-sweet-home-alabama-la-wop-challenge-de-territorio-trail-mp3
     episode_slug: sweet-home-alabama-la-wop-challenge-de-territorio-trail
     episode_key: sweet-home-alabama-la-wop-challenge-de-territorio-trail
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/territorio-trail/sweet-home-alabama-la-wop-challenge-de-territorio-trail/"
   - episode_title: TERRITORIO TRAIL 08X40 Entrenar a la élite del trailrunning
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
@@ -29418,7 +29430,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
     episode_key: territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning
     legacy_unicode_slug: territorio-trail-08x40-entrenar-a-la-élite-del-trailrunning
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/territorio-trail/territorio-trail-08x40-entrenar-a-la-elite-del-trailrunning/"
   - episode_title: Sweet Home Alabama. Ultra Trail Torla‑Ordesa, la esencia de Ordesa en un ultratrail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
@@ -29430,7 +29442,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260528-07-33-sweet-home-alabama-ultra-trail-torlaordesa-la-esencia-de-ordesa-en-un-ult
     episode_slug: sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
     episode_key: sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/territorio-trail/sweet-home-alabama-ultra-trail-torla-ordesa-la-esencia-de-ordesa-en-un-ultratrail/"
   - episode_title: TERRITORIO TRAIL 08X39 Swiss Canyon Trail by Kailas Fuga, el emblemático ultratrail para descubrir el Jura
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
@@ -29443,7 +29455,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
     episode_key: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura
     legacy_unicode_slug: territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblemático-ultratrail-para-descubrir-el-jura
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/territorio-trail/territorio-trail-08x39-swiss-canyon-trail-by-kailas-fuga-el-emblematico-ultratrail-para-descubrir-el-jura/"
   - episode_title: Sweet Home Alabama. Mujeres y ultratrail, cuando la carrera supera lo razonable, ellas pueden ser mejores
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
@@ -29455,7 +29467,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260521-08-46-sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razon
     episode_slug: sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
     episode_key: sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/territorio-trail/sweet-home-alabama-mujeres-y-ultratrail-cuando-la-carrera-supera-lo-razonable-ellas-pueden-ser-mejores/"
   - episode_title: TERRITORIO TRAIL 08X38 Un mes para la Western States 100 más esperada
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
@@ -29468,7 +29480,7 @@ episodes_by_feed:
     episode_slug: territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
     episode_key: territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada
     legacy_unicode_slug: territorio-trail-08x38-un-mes-para-la-western-states-100-más-esperada
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/territorio-trail/territorio-trail-08x38-un-mes-para-la-western-states-100-mas-esperada/"
   - episode_title: Sweet Home Alabama. Corredora, la película que plasma la presión competitiva, la salud mental y la obsesión por el rendimiento
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rend
@@ -29481,7 +29493,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie
     episode_key: sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie
     legacy_unicode_slug: sweet-home-alabama-corredora-la-película-que-plasma-la-presión-competitiva-la-salud-mental-y-la-obsesión-por-el-rendimie
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/territorio-trail/sweet-home-alabama-corredora-la-pelicula-que-plasma-la-presion-competitiva-la-salud-mental-y-la-obsesion-por-el-rendimie/"
   - episode_title: TERRITORIO TRAIL 08X37 La Zegama Aizkorri que puede encumbrar a Tove Alexandersson
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
@@ -29493,7 +29505,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260513-22-09-territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alex
     episode_slug: territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
     episode_key: territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/territorio-trail/territorio-trail-08x37-la-zegama-aizkorri-que-puede-encumbrar-a-tove-alexandersson/"
   - episode_title: Sweet Home Alabama. ¿Dónde está el límite de Oriol Antolí?
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
@@ -29506,7 +29518,7 @@ episodes_by_feed:
     episode_slug: sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
     episode_key: sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli
     legacy_unicode_slug: sweet-home-alabama-dónde-está-el-límite-de-oriol-antolí
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/territorio-trail/sweet-home-alabama-donde-esta-el-limite-de-oriol-antoli/"
   - episode_title: TERRITORIO TRAIL 08X36 El imparable ascenso de la Domusa Teknik 40 MLK
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
@@ -29518,7 +29530,7 @@ episodes_by_feed:
     episode_uid: 2026-05-20260506-21-50-territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk-mp
     episode_slug: territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
     episode_key: territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/territorio-trail/territorio-trail-08x36-el-imparable-ascenso-de-la-domusa-teknik-40-mlk/"
   - episode_title: Sweet Home Alabama. El fulgurante inicio de temporada del Equipo Trangoworld
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
@@ -29530,7 +29542,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260430-07-53-sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangowor
     episode_slug: sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
     episode_key: sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/territorio-trail/sweet-home-alabama-el-fulgurante-inicio-de-temporada-del-equipo-trangoworld/"
   - episode_title: TERRITORIO TRAIL 08X35 Todo lo que siempre quisiste saber para cuidar tus bastones de trail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
@@ -29542,7 +29554,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260429-21-56-territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus
     episode_slug: territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
     episode_key: territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/territorio-trail/territorio-trail-08x35-todo-lo-que-siempre-quisiste-saber-para-cuidar-tus-bastones-de-trail/"
   - episode_title: Sweet Home Alabama. Dentro de Puerto Vallarta by UTMB
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
@@ -29554,7 +29566,7 @@ episodes_by_feed:
     episode_uid: 2026-04-20260421-07-56-sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb-mp3
     episode_slug: sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
     episode_key: sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/territorio-trail/sweet-home-alabama-dentro-de-puerto-vallarta-by-utmb/"
   - episode_title: TERRITORIO TRAIL 08X34 MT. Fuji 100, la historia de un icono mundial en el ultratrail
     episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
@@ -29566,20 +29578,8 @@ episodes_by_feed:
     episode_uid: 2026-04-20260422-16-35-territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-
     episode_slug: territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
     episode_key: territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/territorio-trail/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail/"
-  - episode_title: Territorio Skyrunner World Series. Un inicio de temporada apasionante
-    episode_url: https://www.cartv.es/aragonradio/podcast/emision/territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
-    audio_url: https://media.aragonradio.es/2026/04/20260416_08-25_territorio-skyrunner-world-series_-un-inicio-de-temporada-apasionante.mp3?utm_source=applepodcasts
-    published_at: '2026-04-16T22:00:00+02:00'
-    description_html: "<p>El inicio de las Merrell Skyrunner World Series 2026 ha respondido a las expectativas generadas. Tras cuatro pruebas disputadas (Cuatro Refugios, Andes Mountain, Acantilados del Norte y Calamorro) las favoritas y favoritos al triunfo final comienzan a aparecer en las primeras posiciones con la irrupci&oacute;n, victoria incluida en las dos &uacute;ltimas pruebas, de Sara Alonso y Manuel Merillas. En el Territorio Skyrunner World Series de abril analizamos este inicio de temporada, repasamos los nombres m&aacute;s destacados, avanzamos nuestras predicciones para el resto de la temporada y ponemos el foco en la presencia de &eacute;lites y el desarrollo del circuito, todo con la presencia del Jos&eacute; Luis G&oacute;mez, organizador del Marat&oacute; dels Dements, la Skymaster de las Merrell Skyrunner World Series 2026.</p>"
-    description_plain: El inicio de las Merrell Skyrunner World Series 2026 ha respondido a las expectativas generadas. Tras cuatro pruebas disputadas (Cuatro Refugios, Andes Mountain, Acantilados del Norte y Calamorro) las favoritas y favoritos al triunfo final comienzan a aparecer en las primeras posiciones con la irrupci&oacute;n, victoria incluida en las dos &uacute;ltimas pruebas, de Sara Alonso y Manuel Merillas. En el Territorio Skyrunner World Series de abril analizamos este inicio de temporada, repasamos los nombres m&aacute;s destacados, avanzamos nuestras predicciones para el resto de la temporada y ponemos el foco en la presencia de &eacute;lites y el desarrollo del circuito, todo con la presencia del Jos&eacute; Luis G&oacute;mez, organizador del Marat&oacute; dels Dements, la Skymaster de las Merrell Skyrunner World Series 2026.
-    episode_image_url: https://www.cartv.es/thumbs/400x400c/programas/territorio-trail-2880x2880.png
-    episode_uid: 2026-04-20260416-08-25-territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante-mp3
-    episode_slug: territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
-    episode_key: territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante
     legacy_numbered_slug: episode-25
-    episode_page_url: "/territorio-trail/territorio-skyrunner-world-series-un-inicio-de-temporada-apasionante/"
+    episode_page_url: "/territorio-trail/territorio-trail-08x34-mt-fuji-100-la-historia-de-un-icono-mundial-en-el-ultratrail/"
   https://feeds.blubrry.com/feeds/enormocast.xml: &99
   - episode_title: 'Enormocast 325: Bradley Brooks – Hunting for Clarity'
     episode_url: https://podcast.show/enormocast/episode/153955425/
