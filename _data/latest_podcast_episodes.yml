@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-07-03T11:51:28Z'
+generated_at: '2026-07-03T12:42:15Z'
 items:
+- podcast_title: The Real Science Of Sport
+  podcast_page_url: "/the-real-science-of-sport/"
+  cover_image: "/media/realscienceofsportpod.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
+  filter_category: science english
+  episode_title: 'BONUS SHORT: Altitude and the Mexico Problem. The Science Behind England''s Sunday Showdown'
+  episode_url: https://shows.acast.com/realscienceofsport/episodes/bonus-short-altitude-and-the-mexico-problem-the-science-behi
+  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a47a7fc5ef16cb804f9cc81/media.mp3
+  published_at: '2026-07-03T12:15:56+00:00'
+  episode_key: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
+  episode_slug: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
+  episode_page_url: "/the-real-science-of-sport/bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown/"
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast/"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  filter_category: ultra trail business english
+  episode_title: Jenn Lichter | Western States 100 Champion's Interview
+  episode_url: https://thewellwithdylanbowman.libsyn.com/jenn-lichter-western-states-100-champions-interview
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Jenn_Lichter_Western_States_100_Champions_Interview.mp3?dest-id=1746794
+  published_at: '2026-07-03T12:00:00+00:00'
+  episode_key: jenn-lichter-western-states-100-champion-s-interview
+  episode_slug: jenn-lichter-western-states-100-champion-s-interview
+  episode_page_url: "/the-freetrail-podcast/jenn-lichter-western-states-100-champion-s-interview/"
 - podcast_title: Second Nature
   podcast_page_url: "/second-nature/"
   cover_image: "/media/secondnaturepodcast.jpeg"
@@ -217,18 +241,6 @@ items:
   episode_key: 4-28-from-trails-to-track
   episode_slug: 4-28-from-trails-to-track
   episode_page_url: "/nobody-asked-us/4-28-from-trails-to-track/"
-- podcast_title: The Real Science Of Sport
-  podcast_page_url: "/the-real-science-of-sport/"
-  cover_image: "/media/realscienceofsportpod.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
-  filter_category: science english
-  episode_title: Durability - Trialled, Tested and Explained / Werro Edges Closer to the World Record / The World Cup's Extra-Time Problem / TDF and Heat Fears
-  episode_url: https://shows.acast.com/realscienceofsport/episodes/durability-trialed-tested-and-explained-werro-edges-closer-t
-  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a44cc3106fb5d326d797253/media.mp3
-  published_at: '2026-07-01T08:20:19+00:00'
-  episode_key: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
-  episode_slug: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
-  episode_page_url: "/the-real-science-of-sport/durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a/"
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur/"
   cover_image: "/media/danslateteeduncoureur.jpeg"
@@ -277,18 +289,6 @@ items:
   episode_key: 452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement
   episode_slug: 452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement
   episode_page_url: "/inside-running-podcast/452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement/"
-- podcast_title: The Freetrail Podcast
-  podcast_page_url: "/the-freetrail-podcast/"
-  cover_image: "/media/freetrail2.jpeg"
-  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  filter_category: ultra trail business english
-  episode_title: Vincent Bouillard | Western States 100 Champion's Interview
-  episode_url: https://thewellwithdylanbowman.libsyn.com/vincent-bouillard-western-states-100-champions-interview
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Vincent_hero_wser.mp3?dest-id=1746794
-  published_at: '2026-06-30T17:00:00+00:00'
-  episode_key: vincent-bouillard-western-states-100-champion-s-interview
-  episode_slug: vincent-bouillard-western-states-100-champion-s-interview
-  episode_page_url: "/the-freetrail-podcast/vincent-bouillard-western-states-100-champion-s-interview/"
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
   cover_image: "/media/swap.jpeg"
@@ -770,6 +770,18 @@ non_running_items:
   episode_key: ann-heberlein
   episode_slug: ann-heberlein
   episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
+- podcast_title: Hard Fork
+  podcast_page_url: "/hard-fork/"
+  cover_image: "/media/hardfork.jpeg"
+  feed_url: https://feeds.simplecast.com/6HKOhNgS
+  filter_category: uncategorized english
+  episode_title: Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama
+  episode_url: https://www.nytimes.com/column/hard-fork
+  audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/0dc0d4df-eafd-4db7-a9c0-5cfb997b3491/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=0dc0d4df-eafd-4db7-a9c0-5cfb997b3491&feed=6HKOhNgS
+  published_at: '2026-07-03T11:00:00+00:00'
+  episode_key: fable-ban-reversed-dr-dana-suskind-on-parenting-with-a-i-prediction-market-drama
+  episode_slug: fable-ban-reversed-dr-dana-suskind-on-parenting-with-a-i-prediction-market-drama
+  episode_page_url: "/hard-fork/fable-ban-reversed-dr-dana-suskind-on-parenting-with-a-i-prediction-market-drama/"
 - podcast_title: Pivot
   podcast_page_url: "/pivot/"
   cover_image: "/media/pivot.jpeg"
@@ -1022,18 +1034,6 @@ non_running_items:
   episode_key: what-is-a-human-for
   episode_slug: what-is-a-human-for
   episode_page_url: "/offline-with-jon-favreau/what-is-a-human-for/"
-- podcast_title: Hard Fork
-  podcast_page_url: "/hard-fork/"
-  cover_image: "/media/hardfork.jpeg"
-  feed_url: https://feeds.simplecast.com/6HKOhNgS
-  filter_category: uncategorized english
-  episode_title: "‘The Daily’ and ‘The Opinions’: How A.I. Is Changing Loneliness and Taste"
-  episode_url: https://www.nytimes.com/column/hard-fork
-  audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/5ac9a69a-ac74-45b0-ad16-24def04bdd78/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=5ac9a69a-ac74-45b0-ad16-24def04bdd78&feed=6HKOhNgS
-  published_at: '2026-06-26T11:00:00+00:00'
-  episode_key: the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste
-  episode_slug: the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste
-  episode_page_url: "/hard-fork/the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste/"
 - podcast_title: The Colin and Samir Show
   podcast_page_url: "/the-colin-and-samir-show/"
   cover_image: "/media/colinandsamirshow.jpeg"
@@ -1168,6 +1168,18 @@ non_running_items:
   episode_page_url: "/one-percent-better/8-years-of-one-percent-better/"
 episodes_by_feed:
   https://rss.libsyn.com/shows/235580/destinations/1746794.xml: &1
+  - episode_title: Jenn Lichter | Western States 100 Champion's Interview
+    episode_url: https://thewellwithdylanbowman.libsyn.com/jenn-lichter-western-states-100-champions-interview
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Jenn_Lichter_Western_States_100_Champions_Interview.mp3?dest-id=1746794
+    published_at: '2026-07-03T12:00:00+00:00'
+    description_html: '<p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Welcome to Freetrail''s coverage of the 2026 Western States 100 hosted in collaboration with the Western States race!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">In this interview, we sit down with Western States champion, Jenn Lichter.</p> Freetrail''s Western States Schedule <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">• Monday, June 22, 2026 at 10:00am PT – The Top 10 Storylines of the 2026 Western States 100 • Tuesday, June 23, 2026 at 3:00pm PT – Western States Preview Show • Wednesday, June 24, 2026 at 3:00pm PT – Western States Champions Show featuring Katie Schide, Caleb Olson, Nikki Kimball, and Clare Gallagher • Thursday, June 25, 2026 at 3:30pm PT – Western States Final Thoughts & Predictions • Saturday, June 27, 2026 at 4:00am PT – Tune into the live broadcast: <a href= "https://www.youtube.com/@WesternStates">https://www.youtube.com/@WesternStates</a> • Sunday, June 28, 2026 at 3:00pm PT – Western States Instant Recap Show</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to stay up to date and not miss a thing!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Our Western States coverage is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">You can view our full Western States race week schedule, including additional events and activations, at:</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Freetrail: <a href= "https://freetrail.com/">https://freetrail.com/</a> Race Week Hub: <a href= "https://freetrailwserlivecoverage.splashthat.com/">https://freetrailwserlivecoverage.splashthat.com/</a> Official WSER Agenda: <a href= "https://www.wser.org/race-week-agenda/">https://www.wser.org/race-week-agenda/</a> HOKA Race Week Hub: <a href= "https://2026westernstateshokahub.splashthat.com/">https://2026westernstateshokahub.splashthat.com/</a></p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to check out the latest and greatest from HOKA, the Rocket X Trail—speed-tuned performance for the most runnable terrain and built for trails like Western States.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Learn more and shop here: <a href= "https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2"> https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2</a></p> Freetrail Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Website | <a href= "https://freetrail.com/">https://freetrail.com/</a> Freetrail Pro | <a href= "https://freetrail.com/pro/">https://freetrail.com/pro/</a> Patreon | <a href= "https://www.patreon.com/dylanbowman">https://www.patreon.com/dylanbowman</a> Instagram | <a href= "https://www.instagram.com/runfreetrail/">https://www.instagram.com/runfreetrail/</a> YouTube | <a href= "https://www.youtube.com/@freetrail">https://www.youtube.com/@freetrail</a> Freetrail Experts | <a href= "https://freetrail.com/experts/">https://freetrail.com/experts/</a></p> Dylan Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Instagram | <a href= "https://www.instagram.com/dylanbo/">https://www.instagram.com/dylanbo/</a> Twitter/X | <a href= "https://twitter.com/dylanbo">https://twitter.com/dylanbo</a> LinkedIn | <a href= "https://www.linkedin.com/in/dylan-bowman-06174380/">https://www.linkedin.com/in/dylan-bowman-06174380/</a></p>'
+    description_plain: 'Welcome to Freetrail''s coverage of the 2026 Western States 100 hosted in collaboration with the Western States race! In this interview, we sit down with Western States champion, Jenn Lichter. Freetrail''s Western States Schedule • Monday, June 22, 2026 at 10:00am PT – The Top 10 Storylines of the 2026 Western States 100 • Tuesday, June 23, 2026 at 3:00pm PT – Western States Preview Show • Wednesday, June 24, 2026 at 3:00pm PT – Western States Champions Show featuring Katie Schide, Caleb Olson, Nikki Kimball, and Clare Gallagher • Thursday, June 25, 2026 at 3:30pm PT – Western States Final Thoughts & Predictions • Saturday, June 27, 2026 at 4:00am PT – Tune into the live broadcast: https://www.youtube.com/@WesternStates • Sunday, June 28, 2026 at 3:00pm PT – Western States Instant Recap Show Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to stay up to date and not miss a thing! Our Western States coverage is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail. You can view our full Western States race week schedule, including additional events and activations, at: Freetrail: https://freetrail.com/ Race Week Hub: https://freetrailwserlivecoverage.splashthat.com/ Official WSER Agenda: https://www.wser.org/race-week-agenda/ HOKA Race Week Hub: https://2026westernstateshokahub.splashthat.com/ Make sure to check out the latest and greatest from HOKA, the Rocket X Trail—speed-tuned performance for the most runnable terrain and built for trails like Western States. Learn more and shop here: https://www.hoka.com/on/demandware.store/Sites-HOKA-US-Site/en_US/Coveo-Show?q=Rocket+X+Trail&sz=2 Freetrail Links Website | https://freetrail.com/ Freetrail Pro | https://freetrail.com/pro/ Patreon | https://www.patreon.com/dylanbowman Instagram | https://www.instagram.com/runfreetrail/ YouTube | https://www.youtube.com/@freetrail Freetrail Experts | https://freetrail.com/experts/ Dylan Links Instagram | https://www.instagram.com/dylanbo/ Twitter/X | https://twitter.com/dylanbo LinkedIn | https://www.linkedin.com/in/dylan-bowman-06174380/'
+    episode_image_url: ''
+    episode_uid: 540a6ac5-cb84-46b3-9f39-9ad9d61be06f
+    episode_slug: jenn-lichter-western-states-100-champion-s-interview
+    episode_key: jenn-lichter-western-states-100-champion-s-interview
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-freetrail-podcast/jenn-lichter-western-states-100-champion-s-interview/"
   - episode_title: Vincent Bouillard | Western States 100 Champion's Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/vincent-bouillard-western-states-100-champions-interview
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Vincent_hero_wser.mp3?dest-id=1746794
@@ -1178,7 +1190,7 @@ episodes_by_feed:
     episode_uid: df8c60cc-d684-4975-adf7-a3c63a58bbc0
     episode_slug: vincent-bouillard-western-states-100-champion-s-interview
     episode_key: vincent-bouillard-western-states-100-champion-s-interview
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-western-states-100-champion-s-interview/"
   - episode_title: Western States 100 Recap Show
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-recap-show
@@ -1190,7 +1202,7 @@ episodes_by_feed:
     episode_uid: a4226adb-d052-419a-ada0-6d7f54471a02
     episode_slug: western-states-100-recap-show
     episode_key: western-states-100-recap-show
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-freetrail-podcast/western-states-100-recap-show/"
   - episode_title: Tommie Runz | Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/tommie-runz-western-states-100-pre-race-interview
@@ -1202,7 +1214,7 @@ episodes_by_feed:
     episode_uid: be2c43dc-594d-4126-966d-af635db14a2e
     episode_slug: tommie-runz-western-states-100-pre-race-interview
     episode_key: tommie-runz-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-freetrail-podcast/tommie-runz-western-states-100-pre-race-interview/"
   - episode_title: Western States 100 Final Thoughts & Predictions Show
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-final-thoughts-predictions-show
@@ -1214,7 +1226,7 @@ episodes_by_feed:
     episode_uid: a9680ca2-9dbb-4150-bd83-b7344062f533
     episode_slug: western-states-100-final-thoughts-predictions-show
     episode_key: western-states-100-final-thoughts-predictions-show
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-freetrail-podcast/western-states-100-final-thoughts-predictions-show/"
   - episode_title: Jim Walmsley | Western States 100 Press Conference
     episode_url: https://thewellwithdylanbowman.libsyn.com/jim-walmsley-western-states-100-press-conference
@@ -1226,7 +1238,7 @@ episodes_by_feed:
     episode_uid: cc5593d4-f3ed-4075-87f8-cd78889c5829
     episode_slug: jim-walmsley-western-states-100-press-conference
     episode_key: jim-walmsley-western-states-100-press-conference
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-freetrail-podcast/jim-walmsley-western-states-100-press-conference/"
   - episode_title: Western States 100 Champions Show | Katie Schide, Caleb Olson, Nikki Kimball, & Clare Gallagher
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher
@@ -1238,7 +1250,7 @@ episodes_by_feed:
     episode_uid: 91082003-67f6-41ef-8645-bf08cf9cf2e6
     episode_slug: western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher
     episode_key: western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-freetrail-podcast/western-states-100-champions-show-katie-schide-caleb-olson-nikki-kimball-clare-gallagher/"
   - episode_title: Zach Miller | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/zach-miller-western-states-100-pre-race-interview-2026
@@ -1250,7 +1262,7 @@ episodes_by_feed:
     episode_uid: 4c8efcbf-1831-4dd8-8d40-3eb8f9b10d60
     episode_slug: zach-miller-western-states-100-pre-race-interview-2026
     episode_key: zach-miller-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-freetrail-podcast/zach-miller-western-states-100-pre-race-interview-2026/"
   - episode_title: Hayden Hawks | Western States Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/hayden-hawks-western-states-pre-race-interview-2026
@@ -1262,7 +1274,7 @@ episodes_by_feed:
     episode_uid: 47e336b4-688b-476a-85fe-5f7b55b08088
     episode_slug: hayden-hawks-western-states-pre-race-interview-2026
     episode_key: hayden-hawks-western-states-pre-race-interview-2026
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-freetrail-podcast/hayden-hawks-western-states-pre-race-interview-2026/"
   - episode_title: Tara Dower | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/tara-dower-western-states-100-pre-race-interview-2026
@@ -1274,7 +1286,7 @@ episodes_by_feed:
     episode_uid: 763f2268-4dd9-4dee-b21e-639baf48c30f
     episode_slug: tara-dower-western-states-100-pre-race-interview-2026
     episode_key: tara-dower-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-freetrail-podcast/tara-dower-western-states-100-pre-race-interview-2026/"
   - episode_title: Riley Brady | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/riley-brady-western-states-100-pre-race-interview-2026
@@ -1286,7 +1298,7 @@ episodes_by_feed:
     episode_uid: c52edad8-b806-4ddb-ac53-e8571a22fd8e
     episode_slug: riley-brady-western-states-100-pre-race-interview-2026
     episode_key: riley-brady-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-freetrail-podcast/riley-brady-western-states-100-pre-race-interview-2026/"
   - episode_title: Hannah Allgood | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/hannah-allgood-western-states-100-pre-race-interview-2026
@@ -1298,7 +1310,7 @@ episodes_by_feed:
     episode_uid: 13c57f51-f3ea-436e-a0bd-fdce9e029324
     episode_slug: hannah-allgood-western-states-100-pre-race-interview-2026
     episode_key: hannah-allgood-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-freetrail-podcast/hannah-allgood-western-states-100-pre-race-interview-2026/"
   - episode_title: Western States 100 Preview Show | Course, Conditions, and Contenders
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-preview-show-course-conditions-and-contenders
@@ -1310,7 +1322,7 @@ episodes_by_feed:
     episode_uid: fb1c7d0f-302e-482d-88cf-eae8758549f3
     episode_slug: western-states-100-preview-show-course-conditions-and-contenders
     episode_key: western-states-100-preview-show-course-conditions-and-contenders
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-freetrail-podcast/western-states-100-preview-show-course-conditions-and-contenders/"
   - episode_title: Kilian Jornet | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/kilian-jornet-western-states-100-pre-race-interview-2026
@@ -1322,7 +1334,7 @@ episodes_by_feed:
     episode_uid: eb44a032-e12d-48d4-9592-94bf126be54a
     episode_slug: kilian-jornet-western-states-100-pre-race-interview-2026
     episode_key: kilian-jornet-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-freetrail-podcast/kilian-jornet-western-states-100-pre-race-interview-2026/"
   - episode_title: Marianne Hogan | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/marianne-hogan-western-states-100-pre-race-interview-2026
@@ -1334,7 +1346,7 @@ episodes_by_feed:
     episode_uid: a76a2507-61bd-4980-bc35-f9950cc0235b
     episode_slug: marianne-hogan-western-states-100-pre-race-interview-2026
     episode_key: marianne-hogan-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-freetrail-podcast/marianne-hogan-western-states-100-pre-race-interview-2026/"
   - episode_title: Molly Seidel | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/molly-seidel-western-states-100-pre-race-interview-2026
@@ -1346,7 +1358,7 @@ episodes_by_feed:
     episode_uid: 3e197f40-7624-475a-90e9-504bb53cc929
     episode_slug: molly-seidel-western-states-100-pre-race-interview-2026
     episode_key: molly-seidel-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-freetrail-podcast/molly-seidel-western-states-100-pre-race-interview-2026/"
   - episode_title: Western States 100 Top 10 Storylines Show | 2026 Race Week Coverage
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-top-10-storylines-show-2026-race-week-coverage
@@ -1358,7 +1370,7 @@ episodes_by_feed:
     episode_uid: 6d653f73-7273-4a82-b96e-9fd52b84b9e0
     episode_slug: western-states-100-top-10-storylines-show-2026-race-week-coverage
     episode_key: western-states-100-top-10-storylines-show-2026-race-week-coverage
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-freetrail-podcast/western-states-100-top-10-storylines-show-2026-race-week-coverage/"
   - episode_title: Abby Hall | Western States 100 Pre-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/abby-hall-western-states-100-pre-race-interview-2026
@@ -1370,7 +1382,7 @@ episodes_by_feed:
     episode_uid: 22498cae-76ea-47c8-83f6-2ab7f522ebbc
     episode_slug: abby-hall-western-states-100-pre-race-interview-2026
     episode_key: abby-hall-western-states-100-pre-race-interview-2026
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-freetrail-podcast/abby-hall-western-states-100-pre-race-interview-2026/"
   - episode_title: Broken Arrow 23k Recap & Champion Interviews
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-23k-recap-champion-interviews
@@ -1382,7 +1394,7 @@ episodes_by_feed:
     episode_uid: 342bcedb-1165-4486-8675-3ce5e5f4cc75
     episode_slug: broken-arrow-23k-recap-champion-interviews
     episode_key: broken-arrow-23k-recap-champion-interviews
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-freetrail-podcast/broken-arrow-23k-recap-champion-interviews/"
   - episode_title: Vincent Bouillard | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/vincent-bouillard-2026-western-states-pre-race-interview
@@ -1394,7 +1406,7 @@ episodes_by_feed:
     episode_uid: 11e674d0-b795-40f4-b3e4-fd2697475767
     episode_slug: vincent-bouillard-2026-western-states-pre-race-interview
     episode_key: vincent-bouillard-2026-western-states-pre-race-interview
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-2026-western-states-pre-race-interview/"
   - episode_title: Jeff Mogavero | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/jeff-mogavero-2026-western-states-pre-race-interview
@@ -1406,7 +1418,7 @@ episodes_by_feed:
     episode_uid: 799f1954-4b17-49e2-be41-c837ce8fd456
     episode_slug: jeff-mogavero-2026-western-states-pre-race-interview
     episode_key: jeff-mogavero-2026-western-states-pre-race-interview
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-freetrail-podcast/jeff-mogavero-2026-western-states-pre-race-interview/"
   - episode_title: Broken Arrow 46k Recap, Champion Interviews & 26k Preview
     episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-46k-recap-champion-interviews-26k-preview
@@ -1418,7 +1430,7 @@ episodes_by_feed:
     episode_uid: f555accc-39aa-4407-84cf-c458fee7762f
     episode_slug: broken-arrow-46k-recap-champion-interviews-26k-preview
     episode_key: broken-arrow-46k-recap-champion-interviews-26k-preview
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-freetrail-podcast/broken-arrow-46k-recap-champion-interviews-26k-preview/"
   - episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/hans-troyer-2026-western-states-100-pre-race-interview
@@ -1430,7 +1442,7 @@ episodes_by_feed:
     episode_uid: 7ecf86b9-8702-443d-9ab4-c996736c58ca
     episode_slug: hans-troyer-2026-western-states-100-pre-race-interview
     episode_key: hans-troyer-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-freetrail-podcast/hans-troyer-2026-western-states-100-pre-race-interview/"
   - episode_title: Francesco Puppi | 2026 Western States 100 Pre-race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/francesco-puppi-2026-western-states-100-pre-race-interview
@@ -1442,7 +1454,7 @@ episodes_by_feed:
     episode_uid: 76717c49-6c74-44f8-ad0d-fd66555a8e60
     episode_slug: francesco-puppi-2026-western-states-100-pre-race-interview
     episode_key: francesco-puppi-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-freetrail-podcast/francesco-puppi-2026-western-states-100-pre-race-interview/"
   - episode_title: Adam Peterman | 2026 Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/adam-peterman-2026-western-states-100-pre-race-interview
@@ -1454,20 +1466,8 @@ episodes_by_feed:
     episode_uid: 4faaccf5-8159-443d-af66-8109d163e888
     episode_slug: adam-peterman-2026-western-states-100-pre-race-interview
     episode_key: adam-peterman-2026-western-states-100-pre-race-interview
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-freetrail-podcast/adam-peterman-2026-western-states-100-pre-race-interview/"
-  - episode_title: Broken Arrow VK Recap, Anna Gibson Champion Interview & 46k Preview
-    episode_url: https://thewellwithdylanbowman.libsyn.com/broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Broken_Arrow_VK_Recap_Anna_Gibson_Champion_Interview__46k_Preview.mp3?dest-id=1746794
-    published_at: '2026-06-19T23:52:00+00:00'
-    description_html: 'Broken Arrow Skyrace VK Recap & 46K Preview <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Welcome to Freetrail''s coverage of the 2026 Broken Arrow Skyrace! In today''s show we''ll recap the VK (Ascent), talk to the race champions, and preview the 46k race. Today''s show is hosted by Dylan Bowman and EmKay Sullivan.</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to ensure you stay up to date and don''t miss a thing!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Our coverage of the Broken Arrow Skyrace is brought to you by our good friends at HOKA. We''re grateful for their generous support and belief in Freetrail!</p><p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Make sure to check out the latest and greatest from HOKA, the Rocket X Trail, speed-tuned performance for the most runnable terrain. Made for trails like Western States!</p> Freetrail Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Website | <a href= "https://freetrail.com/">https://freetrail.com/</a> Freetrail Pro | <a href= "https://freetrail.com/pro/">https://freetrail.com/pro/</a> Patreon | /dylanbowman Instagram | <a href= "https://www.instagram.com/runfreetrail/">https://www.instagram.com/runfreetrail/</a> YouTube | /@freetrail Freetrail Experts | <a href= "https://freetrail.com/experts/">https://freetrail.com/experts/</a></p> Dylan Links <p style= "caret-color: #000000; color: #000000; font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: auto; text-decoration-style: solid;">Instagram | <a href= "https://www.instagram.com/dylanbo/">https://www.instagram.com/dylanbo/</a> Twitter | <a href= "https://twitter.com/dylanbo">https://twitter.com/dylanbo</a> LinkedIn | /dylan-bowman-06174380</p>'
-    description_plain: Broken Arrow Skyrace VK Recap & 46K Preview Welcome to Freetrail's coverage of the 2026 Broken Arrow Skyrace! In today's show we'll recap the VK (Ascent), talk to the race champions, and preview the 46k race. Today's show is hosted by Dylan Bowman and EmKay Sullivan. Make sure to subscribe to the Freetrail YouTube channel and follow us on Instagram @runfreetrail to ensure you stay up to date and don't miss a thing! Our coverage of the Broken Arrow Skyrace is brought to you by our good friends at HOKA. We're grateful for their generous support and belief in Freetrail! Make sure to check out the latest and greatest from HOKA, the Rocket X Trail, speed-tuned performance for the most runnable terrain. Made for trails like Western States! Freetrail Links Website | https://freetrail.com/ Freetrail Pro | https://freetrail.com/pro/ Patreon | /dylanbowman Instagram | https://www.instagram.com/runfreetrail/ YouTube | /@freetrail Freetrail Experts | https://freetrail.com/experts/ Dylan Links Instagram | https://www.instagram.com/dylanbo/ Twitter | https://twitter.com/dylanbo LinkedIn | /dylan-bowman-06174380
-    episode_image_url: https://static.libsyn.com/p/assets/e/c/4/a/ec4af7907260f70116c3140a3186d450/Untitled_-_September_15_2025_at_14.13.052-73_10.png
-    episode_uid: 44223b43-bd6b-43be-9b70-2739f49a9c98
-    episode_slug: broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
-    episode_key: broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-freetrail-podcast/broken-arrow-vk-recap-anna-gibson-champion-interview-46k-preview/"
+    episode_page_url: "/the-freetrail-podcast/adam-peterman-2026-western-states-100-pre-race-interview/"
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
   - episode_title: '452: National Records at Paris DL | Calder Park Road Relays |  Sydney Elite Field Announcement'
     episode_url: https://insiderunningpodcast.podbean.com/e/452-national-records-at-paris-dl-calder-park-road-relays-%c2%a0-sydney-elite-field-announcement/
@@ -8952,6 +8952,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-extramilest-show/105-from-couch-overweight-to-running-marathons-in-her-50-s-with-ayako-fackenthal/"
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &27
+  - episode_title: 'BONUS SHORT: Altitude and the Mexico Problem. The Science Behind England''s Sunday Showdown'
+    episode_url: https://shows.acast.com/realscienceofsport/episodes/bonus-short-altitude-and-the-mexico-problem-the-science-behi
+    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a47a7fc5ef16cb804f9cc81/media.mp3
+    published_at: '2026-07-03T12:15:56+00:00'
+    description_html: '<p><a href="https://www.patreon.com/c/thescienceofsport/membership" rel="noopener noreferrer" target="_blank"><strong>Become a member of The Real Science of Sport Podcast</strong></a>, and join our community, get ad-free shows, exclusive episodes, and a world of discussion on topics just like this! <a href="https://drive.google.com/file/d/1aI1yNxmhdrDg45mGKVNrgtatUOtSWTBV/view?usp=drive_link" rel="noopener noreferrer" target="_blank"><strong>Click here for all the Member Benefits.</strong></a></p><p><strong><u>Show notes</u></strong></p><p>A bonus hype show ahead of Sunday''s World Cup round of 16 between Mexico and England, where altitude has become the story everyone is talking about. Sparked by Thomas Tuchel''s lament over a FIFA rule and the team''s potential "smash and grab" altitude adaptation theory, Ross explains why the idea of sneaking in and out before altitude bites has no supporting evidence at all. You only ever get better from the moment you arrive, and so FIFA compelling England to travel earlier is quietly helping them!</p><p>From there, Ross unpacks the physiology: lower air pressure, less oxygen reaching the muscles, a compromised VO2 max ceiling, and everything performed at a higher relative intensity. Drawing on repeated-sprint studies and FIFA match data from Mexico''s altitude venues, he builds and tests a hypothesis, that visiting teams run less at high speed and make fewer sprints, with a dose-dependent decline as altitude rises. The small, admittedly limited study illustrates how Mexico''s altitude adapted advantage might manifest in sprint and high speed running differences from the start, getting progressively larger. Ross closes on what England can realistically do tactically to respect the physiology.</p><p><strong><u>Links</u></strong></p><ul><li>The <a href="https://www.theguardian.com/football/2026/jul/02/tuchel-hits-out-at-fifa-as-rule-puts-england-at-huge-disadvantage" rel="noopener noreferrer" target="_blank">Guardian article on England''s foiled smash-and-grab paradigm,</a> fortunately for them!</li><li><a href="https://pubmed.ncbi.nlm.nih.gov/28818999/" rel="noopener noreferrer" target="_blank">This is the study I''ve seen cited in support of the late-arrival theory, even though its conclusion actually refutes the advantage</a>!</li><li>A <a href="https://pubmed.ncbi.nlm.nih.gov/11224821/" rel="noopener noreferrer" target="_blank">study showing that you only get better, over 6h, 17h and then 48h</a>, so get in as soon as you can</li><li>Another one, <a href="https://pubmed.ncbi.nlm.nih.gov/17316377/" rel="noopener noreferrer" target="_blank">this time over longer time frames, looking at how we improve with more time at altitude</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11053331/" rel="noopener noreferrer" target="_blank">Brosnan study on repeat sprint interactions with altitude and rest period</a></li></ul><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
+    description_plain: 'Become a member of The Real Science of Sport Podcast , and join our community, get ad-free shows, exclusive episodes, and a world of discussion on topics just like this! Click here for all the Member Benefits. Show notes A bonus hype show ahead of Sunday''s World Cup round of 16 between Mexico and England, where altitude has become the story everyone is talking about. Sparked by Thomas Tuchel''s lament over a FIFA rule and the team''s potential "smash and grab" altitude adaptation theory, Ross explains why the idea of sneaking in and out before altitude bites has no supporting evidence at all. You only ever get better from the moment you arrive, and so FIFA compelling England to travel earlier is quietly helping them! From there, Ross unpacks the physiology: lower air pressure, less oxygen reaching the muscles, a compromised VO2 max ceiling, and everything performed at a higher relative intensity. Drawing on repeated-sprint studies and FIFA match data from Mexico''s altitude venues, he builds and tests a hypothesis, that visiting teams run less at high speed and make fewer sprints, with a dose-dependent decline as altitude rises. The small, admittedly limited study illustrates how Mexico''s altitude adapted advantage might manifest in sprint and high speed running differences from the start, getting progressively larger. Ross closes on what England can realistically do tactically to respect the physiology. Links The Guardian article on England''s foiled smash-and-grab paradigm, fortunately for them! This is the study I''ve seen cited in support of the late-arrival theory, even though its conclusion actually refutes the advantage ! A study showing that you only get better, over 6h, 17h and then 48h , so get in as soon as you can Another one, this time over longer time frames, looking at how we improve with more time at altitude Brosnan study on repeat sprint interactions with altitude and rest period Hosted on Acast. See acast.com/privacy for more information.'
+    episode_image_url: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1783080286501-76451b40-79d6-4a31-a6ef-de672b5ce491.jpeg
+    episode_uid: 6a47a7fc5ef16cb804f9cc81
+    episode_slug: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
+    episode_key: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-real-science-of-sport/bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown/"
   - episode_title: Durability - Trialled, Tested and Explained / Werro Edges Closer to the World Record / The World Cup's Extra-Time Problem / TDF and Heat Fears
     episode_url: https://shows.acast.com/realscienceofsport/episodes/durability-trialed-tested-and-explained-werro-edges-closer-t
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a44cc3106fb5d326d797253/media.mp3
@@ -8962,7 +8974,7 @@ episodes_by_feed:
     episode_uid: 6a44cc3106fb5d326d797253
     episode_slug: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
     episode_key: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-real-science-of-sport/durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a/"
   - episode_title: The Creatine Episode
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-creatine-episode
@@ -8974,7 +8986,7 @@ episodes_by_feed:
     episode_uid: 6a428003c2fe1c7f49b4edb5
     episode_slug: the-creatine-episode
     episode_key: the-creatine-episode
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-real-science-of-sport/the-creatine-episode/"
   - episode_title: 'Re-Release: The Art and Science of the Perfect Football Penalty'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/re-release-the-art-and-science-of-the-perfect-football-penal
@@ -8986,7 +8998,7 @@ episodes_by_feed:
     episode_uid: 6a3d774c26d5a6687a4ae19a
     episode_slug: re-release-the-art-and-science-of-the-perfect-football-penalty
     episode_key: re-release-the-art-and-science-of-the-perfect-football-penalty
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-real-science-of-sport/re-release-the-art-and-science-of-the-perfect-football-penalty/"
   - episode_title: A Doping Refusal and Four Year Ban That Divided Tennis / Hodgkinson's Hamstring Scare / World Cup Science
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgk
@@ -8998,7 +9010,7 @@ episodes_by_feed:
     episode_uid: 6a3b926bd80106fbdf55a828
     episode_slug: a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science
     episode_key: a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-real-science-of-sport/a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science/"
   - episode_title: World Cup Water Breaks / What Will It Take to Break the 800m WR? / College Sprinting Goes Wild / Does Remco Have the Watts to Match Pogacar?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/world-cup-water-breaks-college-sprinting-goes-wild-what-will
@@ -9010,7 +9022,7 @@ episodes_by_feed:
     episode_uid: 6a327365883f9289e9015e40
     episode_slug: world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m
     episode_key: world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-real-science-of-sport/world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m/"
   - episode_title: 800m Plot Twists as History Beckons for Werro & Hodgkinson / Should the IOC Pay Olympic Athletes? / "Your computer screen is too big"
     episode_url: https://shows.acast.com/realscienceofsport/episodes/800m-plot-twists-and-beckoning-history-should-olympic-athlet
@@ -9022,7 +9034,7 @@ episodes_by_feed:
     episode_uid: 6a29169ba917ce4c70b260f9
     episode_slug: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
     episode_key: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-real-science-of-sport/800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too/"
   - episode_title: Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal
     episode_url: https://shows.acast.com/realscienceofsport/episodes/sleeping-your-way-to-more-epo-grand-slam-chaos-the-ucis-expe
@@ -9034,7 +9046,7 @@ episodes_by_feed:
     episode_uid: 6a1fefdbd610a77403d53ba8
     episode_slug: sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal
     episode_key: sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-real-science-of-sport/sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal/"
   - episode_title: Roland Garros' Zombie Heat Apocalypse / The Death of the Diversified Elite Athlete / World Athletics Raises the Performance Bar
     episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
@@ -9046,7 +9058,7 @@ episodes_by_feed:
     episode_uid: 6a17fdaa8fd07475b5578875
     episode_slug: roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b
     episode_key: roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-real-science-of-sport/roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b/"
   - episode_title: 'Welcome to our PED Talk: Sean Ingle Reflects on The Enhanced Games'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/welcome-to-our-ped-talk-sean-ingle-on-the-enhanced-games
@@ -9058,7 +9070,7 @@ episodes_by_feed:
     episode_uid: 6a16c52383dd9b6e11085ce7
     episode_slug: welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games
     episode_key: welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-real-science-of-sport/welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games/"
   - episode_title: Caution for Contact Sport Athletes and CTE / Women's Rugby Six Nations and Smaller Balls / Worst Sport to be Elite at?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/caution-for-contact-sport-athletes-and-cte-womens-rugby-six
@@ -9070,7 +9082,7 @@ episodes_by_feed:
     episode_uid: 6a0d6e4c0797376c6e587b95
     episode_slug: caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at
     episode_key: caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-real-science-of-sport/caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at/"
   - episode_title: A Huge Doping Bust in Georgia Rugby / Epic Climbs and Concussions in Cycling / Who is the Greatest Track Athlete of Them All?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussi
@@ -9082,7 +9094,7 @@ episodes_by_feed:
     episode_uid: 6a0626463fd6979bfc1cc386
     episode_slug: a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all
     episode_key: a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-real-science-of-sport/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all/"
   - episode_title: The Rise of Southern African Sprinting / London Marathon Pacing Blunders / Seixas to the Tour / Your Carb Questions Answered
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-rise-of-southern-african-sprinting-london-marathon-pacin
@@ -9094,7 +9106,7 @@ episodes_by_feed:
     episode_uid: 69fbb48d7272023359cbd4e7
     episode_slug: the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered
     episode_key: the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-real-science-of-sport/the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered/"
   - episode_title: Can You Trust AI For Health and Training Advice?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/can-you-trust-ai-for-health-and-training-advice
@@ -9106,7 +9118,7 @@ episodes_by_feed:
     episode_uid: 69fb5b168c59df7dd5d2e1f1
     episode_slug: can-you-trust-ai-for-health-and-training-advice
     episode_key: can-you-trust-ai-for-health-and-training-advice
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-real-science-of-sport/can-you-trust-ai-for-health-and-training-advice/"
   - episode_title: 'The Spotlight On The Sub-2: A Deep Dive Into Sawe''s Marathon Masterclass'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-spotlight-on-the-sub-2-a-deep-dive-into-sawes-marathon-m
@@ -9118,7 +9130,7 @@ episodes_by_feed:
     episode_uid: 69f1d25a8647f8587e446e78
     episode_slug: the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass
     episode_key: the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-real-science-of-sport/the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass/"
   - episode_title: 'The Sporting Mind: Overcoming Mental Barriers For Better Performance'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-sporting-mind-overcome-mental-barriers-for-better-perfor
@@ -9130,7 +9142,7 @@ episodes_by_feed:
     episode_uid: 69f0f6bdf8c663773751fe09
     episode_slug: the-sporting-mind-overcoming-mental-barriers-for-better-performance
     episode_key: the-sporting-mind-overcoming-mental-barriers-for-better-performance
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-real-science-of-sport/the-sporting-mind-overcoming-mental-barriers-for-better-performance/"
   - episode_title: 1:59:30! The Sub Two Hour Marathon Falls To Sabastian Sawe
     episode_url: https://shows.acast.com/realscienceofsport/episodes/15930-the-sub-two-hour-marathon-falls-to-sebastian-sawe
@@ -9142,7 +9154,7 @@ episodes_by_feed:
     episode_uid: 69ee01bfaa3f81e2b9fdffb6
     episode_slug: 1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe
     episode_key: 1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-real-science-of-sport/1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe/"
   - episode_title: Boston Bonanza - Course Record Analysis / Elite Runners Avoiding Carbs? / Acute Stress Anti-Doping Refusal
     episode_url: https://shows.acast.com/realscienceofsport/episodes/boston-bonanza-course-record-analysis-elite-runners-avoiding
@@ -9154,7 +9166,7 @@ episodes_by_feed:
     episode_uid: 69e761861e5fb1ae464899b6
     episode_slug: boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal
     episode_key: boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-real-science-of-sport/boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal/"
   - episode_title: Cobbled Coronations in Roubaix / Benji Naesen vs UCI / Marathon Majors and Sawe's Doping Credibility Campaign
     episode_url: https://shows.acast.com/realscienceofsport/episodes/cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon
@@ -9166,7 +9178,7 @@ episodes_by_feed:
     episode_uid: 69e0c90823929c3a2ab5b45f
     episode_slug: cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign
     episode_key: cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-real-science-of-sport/cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign/"
   - episode_title: 'The Norwegian Way: What We Can Learn From Their Success'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-norwegian-way-what-we-can-learn-from-their-success
@@ -9178,7 +9190,7 @@ episodes_by_feed:
     episode_uid: 69dfe0d8907e5a7cc215bd74
     episode_slug: the-norwegian-way-what-we-can-learn-from-their-success
     episode_key: the-norwegian-way-what-we-can-learn-from-their-success
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-real-science-of-sport/the-norwegian-way-what-we-can-learn-from-their-success/"
   - episode_title: Why Cobbles Cost Cyclists / Cheap Carbon Shoes Break Records / Doping Confessions and Cons
     episode_url: https://shows.acast.com/realscienceofsport/episodes/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-d
@@ -9190,7 +9202,7 @@ episodes_by_feed:
     episode_uid: 69d63e813ae78d6f1134a750
     episode_slug: why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons
     episode_key: why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-real-science-of-sport/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons/"
   - episode_title: Cycling, Game Theory and Group 2 Syndrome / Kerr's 222 Attempt / Teenage Phenoms Set up to Fail
     episode_url: https://shows.acast.com/realscienceofsport/episodes/cycling-game-theory-and-group-2-syndrome-kerrs-222-attempt-t
@@ -9202,7 +9214,7 @@ episodes_by_feed:
     episode_uid: 69ccea3f3e12f8b0f0834f7e
     episode_slug: cycling-game-theory-and-group-2-syndrome-kerr-s-222-attempt-teenage-phenoms-set-up-to-fail
     episode_key: cycling-game-theory-and-group-2-syndrome-kerr-s-222-attempt-teenage-phenoms-set-up-to-fail
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-real-science-of-sport/cycling-game-theory-and-group-2-syndrome-kerr-s-222-attempt-teenage-phenoms-set-up-to-fail/"
   - episode_title: How To Win One of the World's Toughest  Mountain Bike Races
     episode_url: https://shows.acast.com/realscienceofsport/episodes/how-to-win-one-of-the-worlds-toughest-mountain-bike-races
@@ -9214,7 +9226,7 @@ episodes_by_feed:
     episode_uid: 69ca99fdbfb99db0bcefdd51
     episode_slug: how-to-win-one-of-the-world-s-toughest-mountain-bike-races
     episode_key: how-to-win-one-of-the-world-s-toughest-mountain-bike-races
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-real-science-of-sport/how-to-win-one-of-the-world-s-toughest-mountain-bike-races/"
   - episode_title: 'REPEAT POD: Female-only Women''s Sport: The IOC Announces New Policy On the Protection of Women''s Sport'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/repeat-pod-female-only-womens-sport-the-ioc-announces-new-po
@@ -9226,7 +9238,7 @@ episodes_by_feed:
     episode_uid: 69c8fb7d9b6be94a1a70a9fe
     episode_slug: repeat-pod-female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport
     episode_key: repeat-pod-female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-real-science-of-sport/repeat-pod-female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport/"
   - episode_title: 'Female-only Women''s Sport: The IOC Announces New Policy On the Protection of Women''s Sport'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-ioc-announces-new-womens-eligibility-guidelines-what-doe
@@ -9238,20 +9250,8 @@ episodes_by_feed:
     episode_uid: 69c50e1af4bf09c5997167db
     episode_slug: female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport
     episode_key: female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-real-science-of-sport/female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport/"
-  - episode_title: 'Banned But Allowed: Inside the World of Therapeutic Use Exemptions in Sport / Pogacar''s Dominance / World Indoor Championships'
-    episode_url: https://shows.acast.com/realscienceofsport/episodes/banned-but-allowed-inside-the-world-of-therapeutic-use-exemp
-    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69c39e4da3dddd45e96507be/media.mp3
-    published_at: '2026-03-25T10:00:09+00:00'
-    description_html: <p><a href="https://www.patreon.com/thescienceofsport" rel="noopener noreferrer" target="_blank">Become a member, keep us ad free!</a> Plus, you get access to our world-class community chat, and live sport chat groups. <a href="https://www.patreon.com/thescienceofsport" rel="noopener noreferrer" target="_blank"><strong>Become a supporter for a small monthly pledge at Patreon.</strong></a></p><p><strong><u>Show notes</u></strong></p><p>Today the Spotlight falls on Therapeutic Use Exemptions, or TUEs, that are given to athletes when they have a medical condition that requires the use of an otherwise banned substance. Last week, the International Testing Agency published the record of TUE applications for 56 sports, going back six years, and we cast our eye on some of the notable drugs, sports and cases. We explore why Growth Hormone TUEs are prevalent in gymnastics, why stimulants top the list of substances, and open up some philosophical conversations about whether TUEs should be allowed at all?</p><p>Also in the show, a 'triathlon' of sports news, starting with cycling recaps of Milan San Remo where Pogacar produced an extraordinary display of dominance to win one of the two monuments missing from his resume, and from the Cape Epic, where women raced shorter distances than men this year, and we explore how the rationale for this is a little shaky. From the track, we look back at the World Indoor Championships from Poland, and in the pool, a World Record in the 50m warrants some musing on how records are fallen despite tech bans.</p><p>And finally, Gareth notes with some pleasure that NFL superstars where humbled by flag football specialists, reminding us that getting to the top of any sport is not an automatic right!</p><p><strong><u>Links</u></strong></p><ul><li><a href="https://rmcsport.bfmtv.com/cyclisme/uci-world-tour/cyclisme-je-ne-cache-pas-mon-malaise-les-doutes-de-l-ex-coureur-dope-mentheour-sur-la-performance-de-pogacar-sur-milan-san-remo_AV-202603220261.html" rel="noopener noreferrer" target="_blank">Thoughts on cycling and the need to question</a> as read out by Gareth</li><li><a href="https://www.bbc.co.uk/sport/swimming/articles/c17vg19rx9eo" rel="noopener noreferrer" target="_blank">Cameron McEvoy's 50m freestyle world recor</a>d</li><li>The <a href="https://ita.sport/ita-tue-dashboard/" rel="noopener noreferrer" target="_blank">original ITA TUE Dashboard</a></li><li><a href="https://bjsm.bmj.com/content/58/17/966" rel="noopener noreferrer" target="_blank">Paper from the Olympics showing prevalence &lt; 1% in the Games</a></li><li>The <a href="https://pubmed.ncbi.nlm.nih.gov/19052141/" rel="noopener noreferrer" target="_blank">study on methylphenidate's performance enhancing effects</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/11753064/" rel="noopener noreferrer" target="_blank">Does gymnastics training inhibit growth in young girls?</a></li><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3751410/#Abs1" rel="noopener noreferrer" target="_blank">Intensive training and growth in female gymnasts</a></li><li><a href="https://www.tandfonline.com/doi/full/10.1080/00948705.2017.1416621" rel="noopener noreferrer" target="_blank">Jon Pike's philosophy article on TUEs in sport</a></li><li><a href="https://worldboxing.org/statement-from-world-boxing-on-boxer-eligibility-to-compete-in-the-asian-boxing-championships-2026/" rel="noopener noreferrer" target="_blank">World Boxing's statement on Lin Yu-Ting's eligibility</a></li><li><a href="https://www.youtube.com/watch?v=BqLI6k8HEk8&amp;t=1352s" rel="noopener noreferrer" target="_blank">Watch some NFL starts get bamboozled in flag football</a></li></ul><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
-    description_plain: Become a member, keep us ad free! Plus, you get access to our world-class community chat, and live sport chat groups. Become a supporter for a small monthly pledge at Patreon. Show notes Today the Spotlight falls on Therapeutic Use Exemptions, or TUEs, that are given to athletes when they have a medical condition that requires the use of an otherwise banned substance. Last week, the International Testing Agency published the record of TUE applications for 56 sports, going back six years, and we cast our eye on some of the notable drugs, sports and cases. We explore why Growth Hormone TUEs are prevalent in gymnastics, why stimulants top the list of substances, and open up some philosophical conversations about whether TUEs should be allowed at all? Also in the show, a 'triathlon' of sports news, starting with cycling recaps of Milan San Remo where Pogacar produced an extraordinary display of dominance to win one of the two monuments missing from his resume, and from the Cape Epic, where women raced shorter distances than men this year, and we explore how the rationale for this is a little shaky. From the track, we look back at the World Indoor Championships from Poland, and in the pool, a World Record in the 50m warrants some musing on how records are fallen despite tech bans. And finally, Gareth notes with some pleasure that NFL superstars where humbled by flag football specialists, reminding us that getting to the top of any sport is not an automatic right! Links Thoughts on cycling and the need to question as read out by Gareth Cameron McEvoy's 50m freestyle world recor d The original ITA TUE Dashboard Paper from the Olympics showing prevalence &lt; 1% in the Games The study on methylphenidate's performance enhancing effects Does gymnastics training inhibit growth in young girls? Intensive training and growth in female gymnasts Jon Pike's philosophy article on TUEs in sport World Boxing's statement on Lin Yu-Ting's eligibility Watch some NFL starts get bamboozled in flag football Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1774427074881-7b3bd5a7-1fa3-49e4-8423-01aae0db20f3.jpeg
-    episode_uid: 69c39e4da3dddd45e96507be
-    episode_slug: banned-but-allowed-inside-the-world-of-therapeutic-use-exemptions-in-sport-pogacar-s-dominance-world-indoor-championship
-    episode_key: banned-but-allowed-inside-the-world-of-therapeutic-use-exemptions-in-sport-pogacar-s-dominance-world-indoor-championship
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-real-science-of-sport/banned-but-allowed-inside-the-world-of-therapeutic-use-exemptions-in-sport-pogacar-s-dominance-world-indoor-championship/"
+    episode_page_url: "/the-real-science-of-sport/female-only-women-s-sport-the-ioc-announces-new-policy-on-the-protection-of-women-s-sport/"
   https://anchor.fm/s/e4eabf84/podcast/rss: &28
   - episode_title: "#120 Tim Tollefson | Betting on Yourself, Building Mammoth Trail Fest, & The Courage to Reinvent"
     episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/120-Tim-Tollefson--Betting-on-Yourself--Building-Mammoth-Trail-Fest---The-Courage-to-Reinvent-e3kt2uu
@@ -13954,6 +13954,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/distance-to-empty/jeff-pelletier-is-flagstaff-bound-at-the-2026-cocodona-250/"
   https://feeds.simplecast.com/6hkohngs: &45
+  - episode_title: Fable Ban Reversed + Dr. Dana Suskind on Parenting With A.I. + Prediction Market Drama
+    episode_url: https://www.nytimes.com/column/hard-fork
+    audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/0dc0d4df-eafd-4db7-a9c0-5cfb997b3491/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=0dc0d4df-eafd-4db7-a9c0-5cfb997b3491&feed=6HKOhNgS
+    published_at: '2026-07-03T11:00:00+00:00'
+    description_html: '<p>This week, the Commerce Department lifted its restrictions on Anthropic’s powerful A.I. models, Claude Mythos and Claude Fable. We dissect why the government took such a hands-on approach in the first place, how the restriction on the OpenAI model GPT 5.6 is likely to resolve and what, if anything, this tells us about A.I. competition with China.</p><p>Then, Dr. Dana Suskind, a pediatric surgeon and the author of the forthcoming book “Human Raised,” stops by to discuss a framework she has developed to help parents make informed decisions about what kinds of A.I. products are safe for children.</p><p>And finally, we introduce a new segment about prediction markets: Against All Odds.</p><p><strong>Guest:</strong></p><ul><li><a href="https://humanraised.org/about-the-author/" rel="noopener noreferrer">Dr. Dana Suskind</a>, founder and co-director of the TMW Center for Early Learning + Public Health at the University of Chicago and author of the forthcoming book “Human Raised: Nurturing Connection, Curiosity and Lifelong Learning in the Age of A.I.”</li></ul><p><strong>Additional Reading:</strong></p><ul><li><a href="https://www.nytimes.com/2026/06/30/technology/us-lifts-restrictions-anthropic.html" rel="noopener noreferrer">U.S. Lifts Restrictions on Anthropic’s Most Powerful A.I. Models</a></li><li><a href="https://www.nytimes.com/2026/06/12/technology/anthropic-mythos-fable5-blocked.html" rel="noopener noreferrer">U.S. Bars Foreigners From Using Anthropic’s Most Advanced A.I. Models</a></li><li><a href="https://www.nytimes.com/2026/06/25/technology/zai-china-artificial-intelligence-models.html" rel="noopener noreferrer">Chinese A.I. Models Close the Gap With Anthropic and OpenAI</a></li><li><a href="https://www.nytimes.com/2026/06/28/business/donk-polymarket-prediction-markets.html?unlocked_article_code=1.tlA.dG28.6wbIdOocZNzV&smid=url-shar" rel="noopener noreferrer">The Donk-ing of a Truth Machine</a></li><li><a href="https://www.nytimes.com/2026/06/23/technology/meta-prediction-markets-app.html" rel="noopener noreferrer">Mark Zuckerberg Directed Meta to Create a Prediction Markets App</a></li></ul><p>We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on <a href="https://www.youtube.com/hardfork" rel="noopener noreferrer">YouTube</a> and <a href="https://www.tiktok.com/@hardfork" rel="noopener noreferrer">TikTok</a>.</p><p><p>Subscribe today at <a href="http://nytimes.com/podcasts">nytimes.com/podcasts</a> or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here <a href="https://www.nytimes.com/activate-access/audio?source=podcatcher">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><p>Hosted by Simplecast, an AdsWizz company. See <a href="https://pcm.adswizz.com">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>'
+    description_plain: 'This week, the Commerce Department lifted its restrictions on Anthropic’s powerful A.I. models, Claude Mythos and Claude Fable. We dissect why the government took such a hands-on approach in the first place, how the restriction on the OpenAI model GPT 5.6 is likely to resolve and what, if anything, this tells us about A.I. competition with China. Then, Dr. Dana Suskind, a pediatric surgeon and the author of the forthcoming book “Human Raised,” stops by to discuss a framework she has developed to help parents make informed decisions about what kinds of A.I. products are safe for children. And finally, we introduce a new segment about prediction markets: Against All Odds. Guest: Dr. Dana Suskind , founder and co-director of the TMW Center for Early Learning + Public Health at the University of Chicago and author of the forthcoming book “Human Raised: Nurturing Connection, Curiosity and Lifelong Learning in the Age of A.I.” Additional Reading: U.S. Lifts Restrictions on Anthropic’s Most Powerful A.I. Models U.S. Bars Foreigners From Using Anthropic’s Most Advanced A.I. Models Chinese A.I. Models Close the Gap With Anthropic and OpenAI The Donk-ing of a Truth Machine Mark Zuckerberg Directed Meta to Create a Prediction Markets App We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.'
+    episode_image_url: ''
+    episode_uid: 2a0ca7dc-3c64-4d5e-b7ea-e1635a9d19ba
+    episode_slug: fable-ban-reversed-dr-dana-suskind-on-parenting-with-a-i-prediction-market-drama
+    episode_key: fable-ban-reversed-dr-dana-suskind-on-parenting-with-a-i-prediction-market-drama
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/hard-fork/fable-ban-reversed-dr-dana-suskind-on-parenting-with-a-i-prediction-market-drama/"
   - episode_title: "‘The Daily’ and ‘The Opinions’: How A.I. Is Changing Loneliness and Taste"
     episode_url: https://www.nytimes.com/column/hard-fork
     audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/5ac9a69a-ac74-45b0-ad16-24def04bdd78/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=5ac9a69a-ac74-45b0-ad16-24def04bdd78&feed=6HKOhNgS
@@ -13964,20 +13976,8 @@ episodes_by_feed:
     episode_uid: 1199806b-8a3e-4770-912b-78a729bff09b
     episode_slug: the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste
     episode_key: the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste
-    legacy_numbered_slug: episode-01
-    episode_page_url: "/hard-fork/the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste/"
-  - episode_title: "‘Hard Fork’ Live, Part 3: Differing Visions of an A.I. Future"
-    episode_url: https://www.nytimes.com/column/hard-fork
-    audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/b33df0cb-d4fc-4587-b402-09c2551fbd22/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=b33df0cb-d4fc-4587-b402-09c2551fbd22&feed=6HKOhNgS
-    published_at: '2026-06-19T11:00:00+00:00'
-    description_html: '<p>We’re back with our final installment from Hard Fork Live, recorded at the Yerba Buena Center for the Arts in San Francisco. In this episode, we’re joined by Sayash Kapoor and Daniel Kokotajlo to talk about their differing visions of A.I. transformation: why Sayash thinks A.I. will diffuse throughout society like a “normal” technology, and why Daniel thinks an unprecedented acceleration is just around the corner. Then we’re joined by George Ekas from Toborlife AI, along with his dancing robot Toby. Finally, the podcaster Dwarkesh Patel drops by, and we take a few questions from the live audience.</p><p><strong>Guests:</strong></p><ul><li><a href="https://www.cs.princeton.edu/~sayashk/" target="_blank" rel="noopener noreferrer"><strong>Sayash Kapoor</strong></a><strong>, </strong>an A.I. researcher at Princeton University and a co-author of the newsletter “AI as Normal Technology”</li><li><a href="https://x.com/DKokotajlo" target="_blank" rel="noopener noreferrer"><strong>Daniel Kokotajlo</strong></a>,<strong></strong>the<strong></strong>executive director of the AI Futures Project and a co-author of “AI 2027”</li><li><strong>George Ekas</strong>, the director of engineering at Toberlife AI</li><li><a href="https://www.dwarkesh.com/" target="_blank" rel="noopener noreferrer"><strong>Dwarkesh Patel</strong></a>, a tech podcaster</li></ul><p><strong>Additional Reading:</strong></p><ul><li><a href="https://www.nytimes.com/2025/04/03/technology/ai-futures-project-ai-2027.html" target="_blank" rel="noopener noreferrer"><strong>This A.I. Forecast Predicts Storms Ahead</strong></a></li><li><a href="https://knightcolumbia.org/content/ai-as-normal-technology" target="_blank" rel="noopener noreferrer"><strong>AI as Normal Technology</strong></a></li><li><a href="https://asteriskmag.substack.com/p/common-ground-between-ai-2027-and" target="_blank" rel="noopener noreferrer"><strong>Common Ground Between AI 2027 & AI as Normal Technology</strong></a></li></ul><p><p>Subscribe today at <a href="http://nytimes.com/podcasts">nytimes.com/podcasts</a> or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here <a href="https://www.nytimes.com/activate-access/audio?source=podcatcher">https://www.nytimes.com/activate-access/audio?source=podcatcher</a>. For more podcasts and narrated articles, download The New York Times app at nytimes.com/app.</p></p><p>Hosted by Simplecast, an AdsWizz company. See <a href="https://pcm.adswizz.com">pcm.adswizz.com</a> for information about our collection and use of personal data for advertising.</p>'
-    description_plain: 'We’re back with our final installment from Hard Fork Live, recorded at the Yerba Buena Center for the Arts in San Francisco. In this episode, we’re joined by Sayash Kapoor and Daniel Kokotajlo to talk about their differing visions of A.I. transformation: why Sayash thinks A.I. will diffuse throughout society like a “normal” technology, and why Daniel thinks an unprecedented acceleration is just around the corner. Then we’re joined by George Ekas from Toborlife AI, along with his dancing robot Toby. Finally, the podcaster Dwarkesh Patel drops by, and we take a few questions from the live audience. Guests: Sayash Kapoor , an A.I. researcher at Princeton University and a co-author of the newsletter “AI as Normal Technology” Daniel Kokotajlo , the executive director of the AI Futures Project and a co-author of “AI 2027” George Ekas , the director of engineering at Toberlife AI Dwarkesh Patel , a tech podcaster Additional Reading: This A.I. Forecast Predicts Storms Ahead AI as Normal Technology Common Ground Between AI 2027 & AI as Normal Technology Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.'
-    episode_image_url: ''
-    episode_uid: 13fcb6ee-12d5-48da-a00b-03a2306067f1
-    episode_slug: hard-fork-live-part-3-differing-visions-of-an-a-i-future
-    episode_key: hard-fork-live-part-3-differing-visions-of-an-a-i-future
     legacy_numbered_slug: episode-02
-    episode_page_url: "/hard-fork/hard-fork-live-part-3-differing-visions-of-an-a-i-future/"
+    episode_page_url: "/hard-fork/the-daily-and-the-opinions-how-a-i-is-changing-loneliness-and-taste/"
   - episode_title: What’s a Hard Fork?
     episode_url: https://www.nytimes.com/2022/10/04/podcasts/hard-fork-technology.html
     audio_url: https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/e8ace451-6d90-460a-acca-9e715422ea13/audio/128/default.mp3?aid=rss_feed&awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&awEpisodeId=e8ace451-6d90-460a-acca-9e715422ea13&feed=6HKOhNgS
