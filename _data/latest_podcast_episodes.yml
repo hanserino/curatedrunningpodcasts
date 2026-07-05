@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-05T15:32:29Z'
+generated_at: '2026-07-05T16:27:46Z'
 items:
+- podcast_title: Find Your Everest by Javi Ordieres
+  podcast_page_url: "/find-your-everest/"
+  cover_image: "/media/findyoureverest.jpeg"
+  feed_url: https://feeds.ivoox.com/feed_fg_f11845321_filtro_1.xml
+  filter_category: trail spanish
+  episode_title: 'MOUNT TO COAST: NACIDA PARA LA ULTRADISTANCIA | ENTREVISTA CON DIRECTOR MARKETING EUROPA|FYE PODCAST'
+  episode_url: https://www.ivoox.com/mount-to-coast-nacida-para-la-ultradistancia-audios-mp3_rf_176789872_1.html
+  audio_url: https://www.ivoox.com/mount-to-coast-nacida-para-la-ultradistancia_mf_176789872_feed_1.mp3
+  published_at: '2026-07-05T18:00:00+02:00'
+  episode_key: mount-to-coast-nacida-para-la-ultradistancia-entrevista-con-director-marketing-europa-fye-podcast
+  episode_slug: mount-to-coast-nacida-para-la-ultradistancia-entrevista-con-director-marketing-europa-fye-podcast
+  episode_page_url: "/find-your-everest/mount-to-coast-nacida-para-la-ultradistancia-entrevista-con-director-marketing-europa-fye-podcast/"
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running/"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -277,18 +289,6 @@ items:
   episode_key: gang-show-259-martin-erl
   episode_slug: gang-show-259-martin-erl
   episode_page_url: "/ten-junk-miles/gang-show-259-martin-erl/"
-- podcast_title: Find Your Everest by Javi Ordieres
-  podcast_page_url: "/find-your-everest/"
-  cover_image: "/media/findyoureverest.jpeg"
-  feed_url: https://feeds.ivoox.com/feed_fg_f11845321_filtro_1.xml
-  filter_category: trail spanish
-  episode_title: WESTERN STATES DE RÉCORDS + LAS ZAPATILLAS DE KILIAN JORNET+ LAVAREDO ULTRA TRAIL + MARATHON MONT BLANC | FYE Podcast
-  episode_url: https://www.ivoox.com/western-states-de-records-las-zapatillas-de-audios-mp3_rf_176620684_1.html
-  audio_url: https://www.ivoox.com/western-states-de-records-las-zapatillas-de_mf_176620684_feed_1.mp3
-  published_at: '2026-07-01T18:00:00+02:00'
-  episode_key: western-states-de-records-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast
-  episode_slug: western-states-de-records-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast
-  episode_page_url: "/find-your-everest/western-states-de-records-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast/"
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty/"
   cover_image: "/media/distancetoempty.jpeg"
@@ -25516,6 +25516,23 @@ episodes_by_feed:
     legacy_numbered_slug: episode-09
     episode_page_url: "/the-ultra-sound-podcast/introduction-to-your-cohost/"
   https://feeds.ivoox.com/feed_fg_f11845321_filtro_1.xml: &85
+  - episode_title: 'MOUNT TO COAST: NACIDA PARA LA ULTRADISTANCIA | ENTREVISTA CON DIRECTOR MARKETING EUROPA|FYE PODCAST'
+    episode_url: https://www.ivoox.com/mount-to-coast-nacida-para-la-ultradistancia-audios-mp3_rf_176789872_1.html
+    audio_url: https://www.ivoox.com/mount-to-coast-nacida-para-la-ultradistancia_mf_176789872_feed_1.mp3
+    published_at: '2026-07-05T18:00:00+02:00'
+    description_html: |-
+      En este episodio del FYE Podcast nos sentamos con Nikita, director de marketing de Mount To Coast en Europa y pieza clave en la expansión europea de Mount to Coast. Repasamos la historia de esta marca que ha irrumpido con fuerza en el sector de la ultradistancia, analizando cómo han logrado desarrollar zapatillas que ya cuentan con récords mundiales y una gran aceptación entre los corredores de élite y amateurs.
+
+      ¿Cómo es posible que una marca nueva compita de tú a tú con los gigantes del sector? ¿Qué papel juegan los atletas en el desarrollo y testeo de los nuevos modelos? ¿Hacia dónde va el mercado del trail running en los próximos años?
+
+      Nikita nos cuenta cómo funciona la marca por dentro, su visión sobre la saturación del mercado y la importancia de mantener la esencia del trail running a través de proyectos personales y aventureros. Además, adelantamos detalles sobre las futuras novedades de la marca y cómo gestionan la alta demanda de sus productos.
+    description_plain: En este episodio del FYE Podcast nos sentamos con Nikita, director de marketing de Mount To Coast en Europa y pieza clave en la expansión europea de Mount to Coast. Repasamos la historia de esta marca que ha irrumpido con fuerza en el sector de la ultradistancia, analizando cómo han logrado desarrollar zapatillas que ya cuentan con récords mundiales y una gran aceptación entre los corredores de élite y amateurs. ¿Cómo es posible que una marca nueva compita de tú a tú con los gigantes del sector? ¿Qué papel juegan los atletas en el desarrollo y testeo de los nuevos modelos? ¿Hacia dónde va el mercado del trail running en los próximos años? Nikita nos cuenta cómo funciona la marca por dentro, su visión sobre la saturación del mercado y la importancia de mantener la esencia del trail running a través de proyectos personales y aventureros. Además, adelantamos detalles sobre las futuras novedades de la marca y cómo gestionan la alta demanda de sus productos.
+    episode_image_url: https://static-1.ivoox.com/audios/c/5/5/1/c55130b2bba6caf2a5928a5c1d8c42d1_XXL.jpg
+    episode_uid: '176789872'
+    episode_slug: mount-to-coast-nacida-para-la-ultradistancia-entrevista-con-director-marketing-europa-fye-podcast
+    episode_key: mount-to-coast-nacida-para-la-ultradistancia-entrevista-con-director-marketing-europa-fye-podcast
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/find-your-everest/mount-to-coast-nacida-para-la-ultradistancia-entrevista-con-director-marketing-europa-fye-podcast/"
   - episode_title: WESTERN STATES DE RÉCORDS + LAS ZAPATILLAS DE KILIAN JORNET+ LAVAREDO ULTRA TRAIL + MARATHON MONT BLANC | FYE Podcast
     episode_url: https://www.ivoox.com/western-states-de-records-las-zapatillas-de-audios-mp3_rf_176620684_1.html
     audio_url: https://www.ivoox.com/western-states-de-records-las-zapatillas-de_mf_176620684_feed_1.mp3
@@ -25527,7 +25544,7 @@ episodes_by_feed:
     episode_slug: western-states-de-records-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast
     episode_key: western-states-de-records-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast
     legacy_unicode_slug: western-states-de-récords-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/find-your-everest/western-states-de-records-las-zapatillas-de-kilian-jornet-lavaredo-ultra-trail-marathon-mont-blanc-fye-podcast/"
   - episode_title: "¿QUIÉN GANARÁ LAS WESTERN STATES? | FIND YOUR EVEREST PODCAST"
     episode_url: https://www.ivoox.com/quien-ganara-las-western-states-find-your-audios-mp3_rf_176073526_1.html
@@ -25540,7 +25557,7 @@ episodes_by_feed:
     episode_slug: quien-ganara-las-western-states-find-your-everest-podcast
     episode_key: quien-ganara-las-western-states-find-your-everest-podcast
     legacy_unicode_slug: quién-ganará-las-western-states-find-your-everest-podcast
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/find-your-everest/quien-ganara-las-western-states-find-your-everest-podcast/"
   - episode_title: 'SUUNTO: DE LA CAÍDA AL TOP MUNDIAL, CÓMO CREAR UN RELOJ Y EL TRABAJO CON ATLETAS | FYE PODCAST'
     episode_url: https://www.ivoox.com/suunto-de-la-caida-al-top-mundial-como-audios-mp3_rf_175973357_1.html
@@ -25553,7 +25570,7 @@ episodes_by_feed:
     episode_slug: suunto-de-la-caida-al-top-mundial-como-crear-un-reloj-y-el-trabajo-con-atletas-fye-podcast
     episode_key: suunto-de-la-caida-al-top-mundial-como-crear-un-reloj-y-el-trabajo-con-atletas-fye-podcast
     legacy_unicode_slug: suunto-de-la-caída-al-top-mundial-cómo-crear-un-reloj-y-el-trabajo-con-atletas-fye-podcast
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/find-your-everest/suunto-de-la-caida-al-top-mundial-como-crear-un-reloj-y-el-trabajo-con-atletas-fye-podcast/"
   - episode_title: LA TRAVESERA MÁS EXTREMA DE LA HISTORIA + DEBUT SOÑADO EN ULTRADISTANCIA | FIND YOUR PODCAST
     episode_url: https://www.ivoox.com/travesera-mas-extrema-de-la-historia-audios-mp3_rf_175653430_1.html
@@ -25566,7 +25583,7 @@ episodes_by_feed:
     episode_slug: la-travesera-mas-extrema-de-la-historia-debut-sonado-en-ultradistancia-find-your-podcast
     episode_key: la-travesera-mas-extrema-de-la-historia-debut-sonado-en-ultradistancia-find-your-podcast
     legacy_unicode_slug: la-travesera-más-extrema-de-la-historia-debut-soñado-en-ultradistancia-find-your-podcast
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/find-your-everest/la-travesera-mas-extrema-de-la-historia-debut-sonado-en-ultradistancia-find-your-podcast/"
   - episode_title: 'MALEN OSA: EL SECRETO DETRÁS DEL ALTO RENDIMIENTO Y LA NUTRICIÓN DEPORTIVA|FIND YOUR EVEREST PODCAST'
     episode_url: https://www.ivoox.com/malen-osa-el-secreto-detras-del-alto-rendimiento-audios-mp3_rf_175521882_1.html
@@ -25582,7 +25599,7 @@ episodes_by_feed:
     episode_slug: malen-osa-el-secreto-detras-del-alto-rendimiento-y-la-nutricion-deportiva-find-your-everest-podcast
     episode_key: malen-osa-el-secreto-detras-del-alto-rendimiento-y-la-nutricion-deportiva-find-your-everest-podcast
     legacy_unicode_slug: malen-osa-el-secreto-detrás-del-alto-rendimiento-y-la-nutrición-deportiva-find-your-everest-podcast
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/find-your-everest/malen-osa-el-secreto-detras-del-alto-rendimiento-y-la-nutricion-deportiva-find-your-everest-podcast/"
   - episode_title: ARRASAMOS EN EL EUROPEO + CHARLA CON MARÍA LA CHICA + GRETA GARCÍA RECORD TRAVESERINA | FYE PODCAST
     episode_url: https://www.ivoox.com/arrasamos-en-el-europeo-charla-con-maria-audios-mp3_rf_175218864_1.html
@@ -25595,7 +25612,7 @@ episodes_by_feed:
     episode_slug: arrasamos-en-el-europeo-charla-con-maria-la-chica-greta-garcia-record-traveserina-fye-podcast
     episode_key: arrasamos-en-el-europeo-charla-con-maria-la-chica-greta-garcia-record-traveserina-fye-podcast
     legacy_unicode_slug: arrasamos-en-el-europeo-charla-con-maría-la-chica-greta-garcía-record-traveserina-fye-podcast
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/find-your-everest/arrasamos-en-el-europeo-charla-con-maria-la-chica-greta-garcia-record-traveserina-fye-podcast/"
   - episode_title: PREVIA EUROPEO TRAIL RUNNING + CHARLA CON DIRECTOR DE TRAVESERA + FAVORITOS TRAVESERINA | Find Your Everest Podcast
     episode_url: https://www.ivoox.com/previa-europeo-trail-running-charla-con-director-audios-mp3_rf_174804020_1.html
@@ -25607,7 +25624,7 @@ episodes_by_feed:
     episode_uid: '174804020'
     episode_slug: previa-europeo-trail-running-charla-con-director-de-travesera-favoritos-traveserina-find-your-everest-podcast
     episode_key: previa-europeo-trail-running-charla-con-director-de-travesera-favoritos-traveserina-find-your-everest-podcast
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/find-your-everest/previa-europeo-trail-running-charla-con-director-de-travesera-favoritos-traveserina-find-your-everest-podcast/"
   - episode_title: ESTO PASÓ EN ZEGAMA AIZKORRI 2026 | FIND YOUR EVEREST PODCAST
     episode_url: https://www.ivoox.com/esto-paso-en-zegama-aizkorri-2026-find-audios-mp3_rf_173967381_1.html
@@ -25620,7 +25637,7 @@ episodes_by_feed:
     episode_slug: esto-paso-en-zegama-aizkorri-2026-find-your-everest-podcast
     episode_key: esto-paso-en-zegama-aizkorri-2026-find-your-everest-podcast
     legacy_unicode_slug: esto-pasó-en-zegama-aizkorri-2026-find-your-everest-podcast
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/find-your-everest/esto-paso-en-zegama-aizkorri-2026-find-your-everest-podcast/"
   - episode_title: "¿QUIÉN GANARÁ ZEGAMA AIZKORRI 2026? Con Marta Martínez y Andrés García Blanco | FYE Podcast"
     episode_url: https://www.ivoox.com/quien-ganara-zegama-aizkorri-2026-con-marta-martinez-audios-mp3_rf_173730808_1.html
@@ -25633,7 +25650,7 @@ episodes_by_feed:
     episode_slug: quien-ganara-zegama-aizkorri-2026-con-marta-martinez-y-andres-garcia-blanco-fye-podcast
     episode_key: quien-ganara-zegama-aizkorri-2026-con-marta-martinez-y-andres-garcia-blanco-fye-podcast
     legacy_unicode_slug: quién-ganará-zegama-aizkorri-2026-con-marta-martínez-y-andrés-garcía-blanco-fye-podcast
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/find-your-everest/quien-ganara-zegama-aizkorri-2026-con-marta-martinez-y-andres-garcia-blanco-fye-podcast/"
   - episode_title: EL SECRETO DE MAURTEN en el MARATÓN DE LONDRES + 101 RONDA CON SILVIA SOY MONTAÑA | Find Your Everest Podcast
     episode_url: https://www.ivoox.com/secreto-de-maurten-maraton-de-audios-mp3_rf_173565771_1.html
@@ -25646,7 +25663,7 @@ episodes_by_feed:
     episode_slug: el-secreto-de-maurten-en-el-maraton-de-londres-101-ronda-con-silvia-soy-montana-find-your-everest-podcast
     episode_key: el-secreto-de-maurten-en-el-maraton-de-londres-101-ronda-con-silvia-soy-montana-find-your-everest-podcast
     legacy_unicode_slug: el-secreto-de-maurten-en-el-maratón-de-londres-101-ronda-con-silvia-soy-montaña-find-your-everest-podcast
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/find-your-everest/el-secreto-de-maurten-en-el-maraton-de-londres-101-ronda-con-silvia-soy-montana-find-your-everest-podcast/"
   - episode_title: CAMÍ DE CAVALLS con PABLO IBÁÑEZ+ REGRESO MALEN OSA+JIM WAMSLEY VS KILIAN |Find Your Everest Podcast
     episode_url: https://www.ivoox.com/cami-de-cavalls-pablo-ibanez-regreso-malen-audios-mp3_rf_173110356_1.html
@@ -25659,7 +25676,7 @@ episodes_by_feed:
     episode_slug: cami-de-cavalls-con-pablo-ibanez-regreso-malen-osa-jim-wamsley-vs-kilian-find-your-everest-podcast
     episode_key: cami-de-cavalls-con-pablo-ibanez-regreso-malen-osa-jim-wamsley-vs-kilian-find-your-everest-podcast
     legacy_unicode_slug: camí-de-cavalls-con-pablo-ibáñez-regreso-malen-osa-jim-wamsley-vs-kilian-find-your-everest-podcast
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/find-your-everest/cami-de-cavalls-con-pablo-ibanez-regreso-malen-osa-jim-wamsley-vs-kilian-find-your-everest-podcast/"
   - episode_title: CÓMO BAJAR DE 2H EN MARATÓN + CHARLA CON EL CEO DE SANTAMADRE | FIND YOUR EVEREST PODCAST | Find Your Everest Podcast
     episode_url: https://www.ivoox.com/como-bajar-de-2h-en-maraton-charla-audios-mp3_rf_172691371_1.html
@@ -25672,7 +25689,7 @@ episodes_by_feed:
     episode_slug: como-bajar-de-2h-en-maraton-charla-con-el-ceo-de-santamadre-find-your-everest-podcast-find-your-everest-podcast
     episode_key: como-bajar-de-2h-en-maraton-charla-con-el-ceo-de-santamadre-find-your-everest-podcast-find-your-everest-podcast
     legacy_unicode_slug: cómo-bajar-de-2h-en-maratón-charla-con-el-ceo-de-santamadre-find-your-everest-podcast-find-your-everest-podcast
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/find-your-everest/como-bajar-de-2h-en-maraton-charla-con-el-ceo-de-santamadre-find-your-everest-podcast-find-your-everest-podcast/"
   - episode_title: Proyecto TTRAIL con VÍCTOR TELLEZ +ZEGAMA 2026 + INÉS ASTRAIN + KENIANOS en TRANSVULCANIA | Find Your Everest Podcast
     episode_url: https://www.ivoox.com/proyecto-ttrail-victor-tellez-zegama-2026-audios-mp3_rf_172283389_1.html
@@ -25685,7 +25702,7 @@ episodes_by_feed:
     episode_slug: proyecto-ttrail-con-victor-tellez-zegama-2026-ines-astrain-kenianos-en-transvulcania-find-your-everest-podcast
     episode_key: proyecto-ttrail-con-victor-tellez-zegama-2026-ines-astrain-kenianos-en-transvulcania-find-your-everest-podcast
     legacy_unicode_slug: proyecto-ttrail-con-víctor-tellez-zegama-2026-inés-astrain-kenianos-en-transvulcania-find-your-everest-podcast
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/find-your-everest/proyecto-ttrail-con-victor-tellez-zegama-2026-ines-astrain-kenianos-en-transvulcania-find-your-everest-podcast/"
   - episode_title: ÉXITO del TRAIL DEL PRERROMÁNICO + JAN TORRELLA CAMPEÓN de ESPAÑA | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/exito-del-trail-del-prerromanico-jan-torrella-audios-mp3_rf_171977290_1.html
@@ -25698,7 +25715,7 @@ episodes_by_feed:
     episode_slug: exito-del-trail-del-prerromanico-jan-torrella-campeon-de-espana-find-your-everest-podcast-by-javi-ordieres
     episode_key: exito-del-trail-del-prerromanico-jan-torrella-campeon-de-espana-find-your-everest-podcast-by-javi-ordieres
     legacy_unicode_slug: éxito-del-trail-del-prerrománico-jan-torrella-campeón-de-españa-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/find-your-everest/exito-del-trail-del-prerromanico-jan-torrella-campeon-de-espana-find-your-everest-podcast-by-javi-ordieres/"
   - episode_title: ANDREU BLANES en el TRAIL DEL PRERROMÁNICO + CONSULTORIO ENTRENAMIENTO | FIND YOUR EVEREST PODCAST
     episode_url: https://www.ivoox.com/andreu-blanes-trail-del-prerromanico-audios-mp3_rf_171454223_1.html
@@ -25711,7 +25728,7 @@ episodes_by_feed:
     episode_slug: andreu-blanes-en-el-trail-del-prerromanico-consultorio-entrenamiento-find-your-everest-podcast
     episode_key: andreu-blanes-en-el-trail-del-prerromanico-consultorio-entrenamiento-find-your-everest-podcast
     legacy_unicode_slug: andreu-blanes-en-el-trail-del-prerrománico-consultorio-entrenamiento-find-your-everest-podcast
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/find-your-everest/andreu-blanes-en-el-trail-del-prerromanico-consultorio-entrenamiento-find-your-everest-podcast/"
   - episode_title: KILIAN JORNET EN CURSA TOMIR + BEL CALERO + CONSULTORIO NUTRICIÓN DEPORTIVA | FIND YOUR EVEREST PODCAST
     episode_url: https://www.ivoox.com/kilian-jornet-en-cursa-tomir-bel-calero-audios-mp3_rf_171062925_1.html
@@ -25724,7 +25741,7 @@ episodes_by_feed:
     episode_slug: kilian-jornet-en-cursa-tomir-bel-calero-consultorio-nutricion-deportiva-find-your-everest-podcast
     episode_key: kilian-jornet-en-cursa-tomir-bel-calero-consultorio-nutricion-deportiva-find-your-everest-podcast
     legacy_unicode_slug: kilian-jornet-en-cursa-tomir-bel-calero-consultorio-nutrición-deportiva-find-your-everest-podcast
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/find-your-everest/kilian-jornet-en-cursa-tomir-bel-calero-consultorio-nutricion-deportiva-find-your-everest-podcast/"
   - episode_title: MARÍA LA CHICA en CHIANTI + ANDRES GARCÍA BLANCO + KILIAN EN ZEGAMA | FIND YOUR EVEREST PODCAST
     episode_url: https://www.ivoox.com/maria-la-chica-chianti-andres-garcia-audios-mp3_rf_170634482_1.html
@@ -25737,7 +25754,7 @@ episodes_by_feed:
     episode_slug: maria-la-chica-en-chianti-andres-garcia-blanco-kilian-en-zegama-find-your-everest-podcast
     episode_key: maria-la-chica-en-chianti-andres-garcia-blanco-kilian-en-zegama-find-your-everest-podcast
     legacy_unicode_slug: maría-la-chica-en-chianti-andres-garcía-blanco-kilian-en-zegama-find-your-everest-podcast
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/find-your-everest/maria-la-chica-en-chianti-andres-garcia-blanco-kilian-en-zegama-find-your-everest-podcast/"
   - episode_title: ASÍ SE CREÓ NNORMAL | ENTREVISTA CON SU CEO | LA HISTORIA DETRÁS DE LA MARCA | FIND YOUR EVEREST PODCAST
     episode_url: https://www.ivoox.com/asi-se-creo-nnormal-entrevista-con-su-audios-mp3_rf_170465870_1.html
@@ -25756,7 +25773,7 @@ episodes_by_feed:
     episode_slug: asi-se-creo-nnormal-entrevista-con-su-ceo-la-historia-detras-de-la-marca-find-your-everest-podcast
     episode_key: asi-se-creo-nnormal-entrevista-con-su-ceo-la-historia-detras-de-la-marca-find-your-everest-podcast
     legacy_unicode_slug: así-se-creó-nnormal-entrevista-con-su-ceo-la-historia-detrás-de-la-marca-find-your-everest-podcast
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/find-your-everest/asi-se-creo-nnormal-entrevista-con-su-ceo-la-historia-detras-de-la-marca-find-your-everest-podcast/"
   - episode_title: EL CAMBIO DE BORJA FERNANDEZ + ALAIN SANTAMARÍA en ACANTILADOS | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/cambio-de-borja-fernandez-alain-santamaria-audios-mp3_rf_169850449_1.html
@@ -25769,7 +25786,7 @@ episodes_by_feed:
     episode_slug: el-cambio-de-borja-fernandez-alain-santamaria-en-acantilados-find-your-everest-podcast-by-javi-ordieres
     episode_key: el-cambio-de-borja-fernandez-alain-santamaria-en-acantilados-find-your-everest-podcast-by-javi-ordieres
     legacy_unicode_slug: el-cambio-de-borja-fernandez-alain-santamaría-en-acantilados-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/find-your-everest/el-cambio-de-borja-fernandez-alain-santamaria-en-acantilados-find-your-everest-podcast-by-javi-ordieres/"
   - episode_title: ÉXITO KANGAS + PREVIA TRANSGRANCANARIA + NNORMAL CADI | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/exito-kangas-previa-transgrancanaria-nnormal-cadi-audios-mp3_rf_169429895_1.html
@@ -25782,7 +25799,7 @@ episodes_by_feed:
     episode_slug: exito-kangas-previa-transgrancanaria-nnormal-cadi-find-your-everest-podcast-by-javi-ordieres
     episode_key: exito-kangas-previa-transgrancanaria-nnormal-cadi-find-your-everest-podcast-by-javi-ordieres
     legacy_unicode_slug: éxito-kangas-previa-transgrancanaria-nnormal-cadi-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/find-your-everest/exito-kangas-previa-transgrancanaria-nnormal-cadi-find-your-everest-podcast-by-javi-ordieres/"
   - episode_title: KANGAS MOUNTAIN + FABIÁN VENERO + SORTEO ZEGAMA | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/kangas-mountain-fabian-venero-sorteo-zegama-audios-mp3_rf_169002527_1.html
@@ -25795,7 +25812,7 @@ episodes_by_feed:
     episode_slug: kangas-mountain-fabian-venero-sorteo-zegama-find-your-everest-podcast-by-javi-ordieres
     episode_key: kangas-mountain-fabian-venero-sorteo-zegama-find-your-everest-podcast-by-javi-ordieres
     legacy_unicode_slug: kangas-mountain-fabián-venero-sorteo-zegama-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/find-your-everest/kangas-mountain-fabian-venero-sorteo-zegama-find-your-everest-podcast-by-javi-ordieres/"
   - episode_title: BARKLEY MARATHON + RAOS RESOLER + CHITO TRAIL BANDOLEROS | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/barkley-marathon-raos-resoler-chito-trail-audios-mp3_rf_168533577_1.html
@@ -25807,7 +25824,7 @@ episodes_by_feed:
     episode_uid: '168533577'
     episode_slug: barkley-marathon-raos-resoler-chito-trail-bandoleros-find-your-everest-podcast-by-javi-ordieres
     episode_key: barkley-marathon-raos-resoler-chito-trail-bandoleros-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/find-your-everest/barkley-marathon-raos-resoler-chito-trail-bandoleros-find-your-everest-podcast-by-javi-ordieres/"
   - episode_title: MARIO OLMEDO Y GRETA GARCÍA ARRASAN + CALENDARIO GOLDEN | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/mario-olmedo-y-greta-garcia-arrasan-calendario-audios-mp3_rf_168084307_1.html
@@ -25820,7 +25837,7 @@ episodes_by_feed:
     episode_slug: mario-olmedo-y-greta-garcia-arrasan-calendario-golden-find-your-everest-podcast-by-javi-ordieres
     episode_key: mario-olmedo-y-greta-garcia-arrasan-calendario-golden-find-your-everest-podcast-by-javi-ordieres
     legacy_unicode_slug: mario-olmedo-y-greta-garcía-arrasan-calendario-golden-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/find-your-everest/mario-olmedo-y-greta-garcia-arrasan-calendario-golden-find-your-everest-podcast-by-javi-ordieres/"
   - episode_title: ORIGIN SANTAMADRE + ATLETAS AFRICANOS + SEGURIDAD MONTAÑA | FIND YOUR EVEREST PODCAST by Javi Ordieres
     episode_url: https://www.ivoox.com/origin-santamadre-atletas-africanos-seguridad-montana-audios-mp3_rf_167790076_1.html
@@ -25833,21 +25850,8 @@ episodes_by_feed:
     episode_slug: origin-santamadre-atletas-africanos-seguridad-montana-find-your-everest-podcast-by-javi-ordieres
     episode_key: origin-santamadre-atletas-africanos-seguridad-montana-find-your-everest-podcast-by-javi-ordieres
     legacy_unicode_slug: origin-santamadre-atletas-africanos-seguridad-montaña-find-your-everest-podcast-by-javi-ordieres
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/find-your-everest/origin-santamadre-atletas-africanos-seguridad-montana-find-your-everest-podcast-by-javi-ordieres/"
-  - episode_title: CÓMO DETECTAR EL SOBREENTRENAMIENTO + MERCATO DE FICHAJES | FIND YOUR EVEREST PODCAST by Javi Ordieres
-    episode_url: https://www.ivoox.com/como-detectar-el-sobreentrenamiento-mercato-de-fichajes-audios-mp3_rf_167404896_1.html
-    audio_url: https://www.ivoox.com/como-detectar-el-sobreentrenamiento-mercato-de-fichajes_mf_167404896_feed_1.mp3
-    published_at: '2026-01-27T18:00:00+02:00'
-    description_html: "CÓMO DETECTAR EL SOBREENTRENAMIENTO + MERCATO DE FICHAJES | FIND YOUR EVEREST PODCAST by Javi Ordieres\n\n ️ En este episodio del Find Your Everest Podcast hablamos de:\n  Comentamos la Hong Kong 100, en el que destacamos la 4ª posición de Dakota Jones, el 11º puesto de Abel Carretero, y un mensaje de apoyo a Mario Olmedo que tuvo que abandonar en esta prueba.\n  La UTMB WORLD SERIES publica su calendario y crece a un total de 64 carreras en 5 continentes.\n  Repasamos las claves para cómo detectar si estás entrenando demasiado.\n  Repasamos los últimos movimientos de fichajes del mundo del trail, como Andreu Blanes, Rosita, Martina Cumerlato, Raúl Butaci y Ainara Uribarri.\n\n  SECCIÓN DE MATERIAL:\nEsta semana analizamos algunas de las últimas novedades disponibles en Find Your Everest:\n  ZAPATILLAS MIZUNO NEO ZEN 2:\nhttps://findyoureverest.es/products/zapatillas-mizuno-neo-zen-2-white-estate-blue-lightning-yellow\n  ZAPATILLAS HOKA MAFATE X:  \nhttps://findyoureverest.es/products/zapatillas-hoka-mafate-x-black-cement\n  ZAPATILLAS SPEEDGOAT 6:  \nhttps://findyoureverest.es/products/zapatillas-hoka-speedgoat-6-black-cement\n  GEL NUTRINOVEX CRAMP RESCUER:\nhttps://findyoureverest.es/products/gel-nutrinovex-cramp-rescuer-hierbabuena-y-regaliz\n\n  DICCIONARIO FYE:\nEn esta edición damos una clase práctica de inglés para poder desenvolvernos si salimos a correr por otros países. \n\n¡Esperamos que disfrutéis de este episodio tanto como nosotros grabándolo!"
-    description_plain: 'CÓMO DETECTAR EL SOBREENTRENAMIENTO + MERCATO DE FICHAJES | FIND YOUR EVEREST PODCAST by Javi Ordieres ️ En este episodio del Find Your Everest Podcast hablamos de: Comentamos la Hong Kong 100, en el que destacamos la 4ª posición de Dakota Jones, el 11º puesto de Abel Carretero, y un mensaje de apoyo a Mario Olmedo que tuvo que abandonar en esta prueba. La UTMB WORLD SERIES publica su calendario y crece a un total de 64 carreras en 5 continentes. Repasamos las claves para cómo detectar si estás entrenando demasiado. Repasamos los últimos movimientos de fichajes del mundo del trail, como Andreu Blanes, Rosita, Martina Cumerlato, Raúl Butaci y Ainara Uribarri. SECCIÓN DE MATERIAL: Esta semana analizamos algunas de las últimas novedades disponibles en Find Your Everest: ZAPATILLAS MIZUNO NEO ZEN 2: https://findyoureverest.es/products/zapatillas-mizuno-neo-zen-2-white-estate-blue-lightning-yellow ZAPATILLAS HOKA MAFATE X: https://findyoureverest.es/products/zapatillas-hoka-mafate-x-black-cement ZAPATILLAS SPEEDGOAT 6: https://findyoureverest.es/products/zapatillas-hoka-speedgoat-6-black-cement GEL NUTRINOVEX CRAMP RESCUER: https://findyoureverest.es/products/gel-nutrinovex-cramp-rescuer-hierbabuena-y-regaliz DICCIONARIO FYE: En esta edición damos una clase práctica de inglés para poder desenvolvernos si salimos a correr por otros países. ¡Esperamos que disfrutéis de este episodio tanto como nosotros grabándolo!'
-    episode_image_url: https://static-1.ivoox.com/audios/a/7/d/b/a7db08db6b07343bd216e7974f1eccc2_XXL.jpg
-    episode_uid: '167404896'
-    episode_slug: como-detectar-el-sobreentrenamiento-mercato-de-fichajes-find-your-everest-podcast-by-javi-ordieres
-    episode_key: como-detectar-el-sobreentrenamiento-mercato-de-fichajes-find-your-everest-podcast-by-javi-ordieres
-    legacy_unicode_slug: cómo-detectar-el-sobreentrenamiento-mercato-de-fichajes-find-your-everest-podcast-by-javi-ordieres
     legacy_numbered_slug: episode-25
-    episode_page_url: "/find-your-everest/como-detectar-el-sobreentrenamiento-mercato-de-fichajes-find-your-everest-podcast-by-javi-ordieres/"
+    episode_page_url: "/find-your-everest/origin-santamadre-atletas-africanos-seguridad-montana-find-your-everest-podcast-by-javi-ordieres/"
   https://rss.libsyn.com/shows/118682/destinations/685773.xml: &86
   - episode_title: Run The News | Did WSER 100 Highlight A Missed Pacing Advantage?
     episode_url: https://humanperformanceoutliers.libsyn.com/run-the-news-did-wser-100-highlight-a-missed-pacing-advantage
