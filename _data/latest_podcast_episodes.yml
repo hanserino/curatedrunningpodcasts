@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-05T18:28:01Z'
+generated_at: '2026-07-05T19:34:34Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Episode 625: Sue Reynolds'
+  episode_url: https://therunningpublic.podbean.com/e/episode-625-sue-reynolds/
+  audio_url: https://mcdn.podbean.com/mf/web/ir3b6kttsig6rwpk/3_clips_Edit7wt03.mp3
+  published_at: '2026-07-05T13:51:14-05:00'
+  episode_key: episode-625-sue-reynolds
+  episode_slug: episode-625-sue-reynolds
+  episode_page_url: "/the-running-public/episode-625-sue-reynolds/"
 - podcast_title: Find Your Everest by Javi Ordieres
   podcast_page_url: "/find-your-everest/"
   cover_image: "/media/findyoureverest.jpeg"
@@ -253,18 +265,6 @@ items:
   episode_key: trail-running-has-hype-men-not-journalists-are-we-becoming-the-bike-industry-trailcon-2026
   episode_slug: trail-running-has-hype-men-not-journalists-are-we-becoming-the-bike-industry-trailcon-2026
   episode_page_url: "/trail-talk/trail-running-has-hype-men-not-journalists-are-we-becoming-the-bike-industry-trailcon-2026/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Episode 624: Dani Moreno'
-  episode_url: https://therunningpublic.podbean.com/e/episode-624-dani-moreno/
-  audio_url: https://mcdn.podbean.com/mf/web/cvv6hnvdmkaxhtbx/3_clips_Edit_14_b4byp.mp3
-  published_at: '2026-07-01T22:17:21-05:00'
-  episode_key: episode-624-dani-moreno
-  episode_slug: episode-624-dani-moreno
-  episode_page_url: "/the-running-public/episode-624-dani-moreno/"
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack/"
   cover_image: "/media/singletracknew.jpeg"
@@ -385,6 +385,18 @@ items:
   episode_key: mountain-photographer-dan-patitucci-on-the-best-trail-running-in-the-alps-nepal-and-the-eastern-sierra
   episode_slug: mountain-photographer-dan-patitucci-on-the-best-trail-running-in-the-alps-nepal-and-the-eastern-sierra
   episode_page_url: "/the-buzz/mountain-photographer-dan-patitucci-on-the-best-trail-running-in-the-alps-nepal-and-the-eastern-sierra/"
+- podcast_title: Long Run Labs
+  podcast_page_url: "/long-run-labs/"
+  cover_image: "/media/longrunlabs.jpeg"
+  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
+  filter_category: business english
+  episode_title: 'From Olympic Rower to Employee #3 at Momentous to Building the Water Brand Doing What Nobody Else Will'
+  episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_olympic_rower_to_employee_3_at_momentous_to_building_the_water_brand_doing_what_nobody_else_will
+  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f0e42-e371-7e49-88d2-f4bab7f22da1/019f0e42-e445-7d67-9a8e-47159f373f39.mp3
+  published_at: '2026-06-30T07:00:00+00:00'
+  episode_key: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+  episode_slug: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+  episode_page_url: "/long-run-labs/from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will/"
 - podcast_title: Trail Society
   podcast_page_url: "/trail-society/"
   cover_image: "/media/trailsocietypodcast.jpeg"
@@ -493,18 +505,6 @@ items:
   episode_key: the-evolution-of-testing-continuous-aet
   episode_slug: the-evolution-of-testing-continuous-aet
   episode_page_url: "/uphill-athlete/the-evolution-of-testing-continuous-aet/"
-- podcast_title: Long Run Labs
-  podcast_page_url: "/long-run-labs/"
-  cover_image: "/media/longrunlabs.jpeg"
-  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
-  filter_category: business english
-  episode_title: Why the Creator Economy Is Just Getting Started and What Investors Are Betting On
-  episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_the_creator_economy_is_just_getting_started_and_what_investors_are_betting_on
-  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019ef3f5-ccdc-7a9a-b516-a261c2041509/019ef3f5-cd98-7678-bc77-476f2a8b609d.mp3
-  published_at: '2026-06-23T10:22:42+00:00'
-  episode_key: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
-  episode_slug: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
-  episode_page_url: "/long-run-labs/why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on/"
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub/"
   cover_image: "/media/subhubpodcast.jpeg"
@@ -763,13 +763,13 @@ non_running_items:
   cover_image: "/media/themove.jpeg"
   feed_url: https://rss.libsyn.com/shows/101338/destinations/535577.xml
   filter_category: uncategorized english
-  episode_title: Pogačar & Del Toro Deliver a Dream Day for Mexico | Tour de France Stage 2 | THEMOVE
-  episode_url: https://stages.libsyn.com/pogaar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
-  audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Stage_2_tdf_26.mp3?dest-id=535577
-  published_at: '2026-07-05T18:20:00+00:00'
-  episode_key: pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
-  episode_slug: pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
-  episode_page_url: "/themove/pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove/"
+  episode_title: Was This UAE's Plan? | Tour de France Stage 2 | THEMOVE+
+  episode_url: https://stages.libsyn.com/was-this-uaes-plan-tour-de-france-stage-2-themove
+  audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Was_This_UAEs_Plan__Tour_de_France_Stage_2__THEMOVE.mp3?dest-id=535577
+  published_at: '2026-07-05T18:28:00+00:00'
+  episode_key: was-this-uae-s-plan-tour-de-france-stage-2-themove
+  episode_slug: was-this-uae-s-plan-tour-de-france-stage-2-themove
+  episode_page_url: "/themove/was-this-uae-s-plan-tour-de-france-stage-2-themove/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -3791,6 +3791,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Episode 625: Sue Reynolds'
+    episode_url: https://therunningpublic.podbean.com/e/episode-625-sue-reynolds/
+    audio_url: https://mcdn.podbean.com/mf/web/ir3b6kttsig6rwpk/3_clips_Edit7wt03.mp3
+    published_at: '2026-07-05T13:51:14-05:00'
+    description_html: "<p>Sue Reynolds transformed from a morbidly obese person at 335 pounds to sixth in the world (and first American) at the World Triathlon Championship, competing on behalf of the United States.  Along the way, she lost 200 pounds and discovered what it takes to transform from a lifelong fitness lackie to a high performing triathlete.</p>"
+    description_plain: Sue Reynolds transformed from a morbidly obese person at 335 pounds to sixth in the world (and first American) at the World Triathlon Championship, competing on behalf of the United States. Along the way, she lost 200 pounds and discovered what it takes to transform from a lifelong fitness lackie to a high performing triathlete.
+    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Copy_of_Untitled_Designbwhdi.png
+    episode_uid: therunningpublic-podbean-com-dbdaaa51-1441-36fa-b572-9f0bda0b6122
+    episode_slug: episode-625-sue-reynolds
+    episode_key: episode-625-sue-reynolds
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/episode-625-sue-reynolds/"
   - episode_title: 'Episode 624: Dani Moreno'
     episode_url: https://therunningpublic.podbean.com/e/episode-624-dani-moreno/
     audio_url: https://mcdn.podbean.com/mf/web/cvv6hnvdmkaxhtbx/3_clips_Edit_14_b4byp.mp3
@@ -3801,7 +3813,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-2b48242f-a351-3876-8e39-3432fe4baf9a
     episode_slug: episode-624-dani-moreno
     episode_key: episode-624-dani-moreno
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/episode-624-dani-moreno/"
   - episode_title: 'Episode 623: Race Anxiety'
     episode_url: https://therunningpublic.podbean.com/e/episode-623-race-anxiety/
@@ -3813,7 +3825,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-393af6e1-9220-31cb-b19b-7bd84e38fb1e
     episode_slug: episode-623-race-anxiety
     episode_key: episode-623-race-anxiety
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/episode-623-race-anxiety/"
   - episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
@@ -3825,7 +3837,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d7aa37b9-ce81-3082-beed-e87fc31fa3d1
     episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
     episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
   - episode_title: 'Episode 621: Summer Running'
     episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
@@ -3837,7 +3849,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-03c831ae-4404-3d38-bb00-b3c085ad6cfb
     episode_slug: episode-621-summer-running
     episode_key: episode-621-summer-running
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/episode-621-summer-running/"
   - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
@@ -3849,7 +3861,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
     episode_slug: training-tuesday-how-to-execute-an-x-day-workout
     episode_key: training-tuesday-how-to-execute-an-x-day-workout
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
@@ -3861,7 +3873,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3873,7 +3885,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3885,7 +3897,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3897,7 +3909,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3909,7 +3921,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3921,7 +3933,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -3933,7 +3945,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -3945,7 +3957,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -3957,7 +3969,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -3969,7 +3981,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -3981,7 +3993,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -3993,7 +4005,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -4005,7 +4017,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -4017,7 +4029,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -4029,7 +4041,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   - episode_title: 'Episode 604: Talkin’ Shop!'
     episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
@@ -4041,7 +4053,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
     episode_slug: episode-604-talkin-shop
     episode_key: episode-604-talkin-shop
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/episode-604-talkin-shop/"
   - episode_title: 'Training Tuesday: Kirk’s Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-qa-session/
@@ -4053,7 +4065,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cf9144dc-cae7-3c8d-9465-432883738b81
     episode_slug: training-tuesday-kirk-s-q-a-session
     episode_key: training-tuesday-kirk-s-q-a-session
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-q-a-session/"
   - episode_title: 'Episode 602: Jake Prusha'
     episode_url: https://therunningpublic.podbean.com/e/episode-602-jake-prusha/
@@ -4065,7 +4077,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d9607426-5db4-3104-88b7-85968914ae57
     episode_slug: episode-602-jake-prusha
     episode_key: episode-602-jake-prusha
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/episode-602-jake-prusha/"
   - episode_title: 'Episode 601: Answering AI Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-601-answering-ai-questions/
@@ -4077,20 +4089,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-69a0b749-5401-31da-9725-25f1758ba30f
     episode_slug: episode-601-answering-ai-questions
     episode_key: episode-601-answering-ai-questions
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
-  - episode_title: 'Training Tuesday: Race Prep Workouts'
-    episode_url: https://therunningpublic.podbean.com/e/training-tuesday-race-prep-workouts/
-    audio_url: https://mcdn.podbean.com/mf/web/4wbdgda5yh2j7tmv/2_clips_Edit_26_ard4i.mp3
-    published_at: '2026-03-25T22:26:46-05:00'
-    description_html: "<p>While we’re not always big fans of Race Simulator or Race Predictor workouts, we are definitely big fans of Race Prep workouts. Here’s how and when to implement this type of session!</p>"
-    description_plain: While we’re not always big fans of Race Simulator or Race Predictor workouts, we are definitely big fans of Race Prep workouts. Here’s how and when to implement this type of session!
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Listener_Submitted_Q_A8d2bs.png
-    episode_uid: therunningpublic-podbean-com-e06e2fa5-3f5c-3856-8858-6fed172d2041
-    episode_slug: training-tuesday-race-prep-workouts
-    episode_key: training-tuesday-race-prep-workouts
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/training-tuesday-race-prep-workouts/"
+    episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Toni McCann'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Toni-McCann-e3l7i9s
@@ -16927,6 +16927,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/golden-girls-theme/"
   https://rss.libsyn.com/shows/101338/destinations/535577.xml: &55
+  - episode_title: Was This UAE's Plan? | Tour de France Stage 2 | THEMOVE+
+    episode_url: https://stages.libsyn.com/was-this-uaes-plan-tour-de-france-stage-2-themove
+    audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Was_This_UAEs_Plan__Tour_de_France_Stage_2__THEMOVE.mp3?dest-id=535577
+    published_at: '2026-07-05T18:28:00+00:00'
+    description_html: '<p>Johan Bruyneel and Spencer Martin go through the tactical nitty-gritty of the Tour de France''s second stage, and exactly how UAE and Pogačar delivered Isaac del Toro to an incredible stage win. They discuss Pogačar''s decision to not attack earlier in the stage, how the other GC contenders will react, and more. They also preview tomorrow''s tough Stage 3 and give their picks for who will win the day.</p><p>Become a WEDŪ Member Today to Unlock VIP Access & Benefits: <a href= "https://access.wedu.team">https://access.wedu.team</a></p><p>Nextbets: Use our special link to see where you can bet in your area and claim the best sign-up offers <a href= "https://nxtbets.com/betoutcomes/">https://nxtbets.com/betoutcomes/</a></p><p>Ventum: Use code TheMove10 for 10% off anything at:<a href= "https://ventumracing.com/"> https://ventumracing.com/</a></p>'
+    description_plain: 'Johan Bruyneel and Spencer Martin go through the tactical nitty-gritty of the Tour de France''s second stage, and exactly how UAE and Pogačar delivered Isaac del Toro to an incredible stage win. They discuss Pogačar''s decision to not attack earlier in the stage, how the other GC contenders will react, and more. They also preview tomorrow''s tough Stage 3 and give their picks for who will win the day. Become a WEDŪ Member Today to Unlock VIP Access & Benefits: https://access.wedu.team Nextbets: Use our special link to see where you can bet in your area and claim the best sign-up offers https://nxtbets.com/betoutcomes/ Ventum: Use code TheMove10 for 10% off anything at: https://ventumracing.com/'
+    episode_image_url: https://static.libsyn.com/p/assets/4/3/8/e/438e42ca9abeb72916c3140a3186d450/TMV_2026_TDF_PodcastCover-20260705-e5fa5l4pq6.png
+    episode_uid: e402b6c7-7beb-4bee-8e71-9172a204e150
+    episode_slug: was-this-uae-s-plan-tour-de-france-stage-2-themove
+    episode_key: was-this-uae-s-plan-tour-de-france-stage-2-themove
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/themove/was-this-uae-s-plan-tour-de-france-stage-2-themove/"
   - episode_title: Pogačar & Del Toro Deliver a Dream Day for Mexico | Tour de France Stage 2 | THEMOVE
     episode_url: https://stages.libsyn.com/pogaar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
     audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Stage_2_tdf_26.mp3?dest-id=535577
@@ -16938,7 +16950,7 @@ episodes_by_feed:
     episode_slug: pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
     episode_key: pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
     legacy_unicode_slug: pogačar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/themove/pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove/"
   - episode_title: How Visma Conquered the TTT | Tour de France 2026 Stage 1 | THEMOVE+
     episode_url: https://stages.libsyn.com/how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove
@@ -16950,7 +16962,7 @@ episodes_by_feed:
     episode_uid: c47d3ea5-0325-4f75-a817-0fbb92e93224
     episode_slug: how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove
     episode_key: how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/themove/how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove/"
   - episode_title: Vingegaard & Visma Strike the First Blow | Tour de France 2026 Stage 1 | THEMOVE
     episode_url: https://stages.libsyn.com/vingegaard-visma-strike-the-first-blow-tour-de-france-stage-1-themove
@@ -16962,7 +16974,7 @@ episodes_by_feed:
     episode_uid: 3093d9b5-c43d-4621-8c12-6150e4838632
     episode_slug: vingegaard-visma-strike-the-first-blow-tour-de-france-2026-stage-1-themove
     episode_key: vingegaard-visma-strike-the-first-blow-tour-de-france-2026-stage-1-themove
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/themove/vingegaard-visma-strike-the-first-blow-tour-de-france-2026-stage-1-themove/"
   - episode_title: Can Anyone Stop Tadej Pogačar? | Tour de France 2026 Preview | THEMOVE
     episode_url: https://stages.libsyn.com/can-anyone-stop-tadej-pogaar-tour-de-france-2026-preview-themove
@@ -16975,7 +16987,7 @@ episodes_by_feed:
     episode_slug: can-anyone-stop-tadej-pogacar-tour-de-france-2026-preview-themove
     episode_key: can-anyone-stop-tadej-pogacar-tour-de-france-2026-preview-themove
     legacy_unicode_slug: can-anyone-stop-tadej-pogačar-tour-de-france-2026-preview-themove
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/themove/can-anyone-stop-tadej-pogacar-tour-de-france-2026-preview-themove/"
   - episode_title: The Best Pogačar Ever? | Tour de Suisse Review | THEMOVE
     episode_url: https://stages.libsyn.com/the-best-pogaar-ever-tour-de-suisse-review-themove
@@ -16988,7 +17000,7 @@ episodes_by_feed:
     episode_slug: the-best-pogacar-ever-tour-de-suisse-review-themove
     episode_key: the-best-pogacar-ever-tour-de-suisse-review-themove
     legacy_unicode_slug: the-best-pogačar-ever-tour-de-suisse-review-themove
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/themove/the-best-pogacar-ever-tour-de-suisse-review-themove/"
   - episode_title: If Pogačar Is This Good, Can UAE Go 1-2 at the Tour? | THEMOVE+
     episode_url: https://stages.libsyn.com/if-pogaar-is-this-good-can-uae-go-1-2-at-the-tour-themove
@@ -17001,7 +17013,7 @@ episodes_by_feed:
     episode_slug: if-pogacar-is-this-good-can-uae-go-1-2-at-the-tour-themove
     episode_key: if-pogacar-is-this-good-can-uae-go-1-2-at-the-tour-themove
     legacy_unicode_slug: if-pogačar-is-this-good-can-uae-go-1-2-at-the-tour-themove
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/themove/if-pogacar-is-this-good-can-uae-go-1-2-at-the-tour-themove/"
   - episode_title: Is Isaac del Toro a Serious Tour de France Contender Now? | Dauphiné Review | THEMOVE
     episode_url: https://stages.libsyn.com/is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphin-review-themove
@@ -17014,7 +17026,7 @@ episodes_by_feed:
     episode_slug: is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphine-review-themove
     episode_key: is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphine-review-themove
     legacy_unicode_slug: is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphiné-review-themove
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/themove/is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphine-review-themove/"
   - episode_title: Can Seixas Come Back & Is Pogačar Worried About Remco's Power Numbers? | THEMOVE+
     episode_url: https://stages.libsyn.com/can-seixas-come-back-is-pogaar-worried-about-remcos-power-numbers-themove
@@ -17027,7 +17039,7 @@ episodes_by_feed:
     episode_slug: can-seixas-come-back-is-pogacar-worried-about-remco-s-power-numbers-themove
     episode_key: can-seixas-come-back-is-pogacar-worried-about-remco-s-power-numbers-themove
     legacy_unicode_slug: can-seixas-come-back-is-pogačar-worried-about-remco-s-power-numbers-themove
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/themove/can-seixas-come-back-is-pogacar-worried-about-remco-s-power-numbers-themove/"
   - episode_title: What's Happening at Lidl-Trek? | THEMOVE+
     episode_url: https://stages.libsyn.com/whats-happening-at-lidl-trek-themove
@@ -17039,7 +17051,7 @@ episodes_by_feed:
     episode_uid: a909d69a-3c42-4177-8f9b-670b02ac0e06
     episode_slug: what-s-happening-at-lidl-trek-themove
     episode_key: what-s-happening-at-lidl-trek-themove
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/themove/what-s-happening-at-lidl-trek-themove/"
   - episode_title: Giro d'Italia 2026 Review Live From the Wattage Festival w/Bradley Wiggins | THEMOVE
     episode_url: https://stages.libsyn.com/giro-ditalia-2026-review-live-from-the-wattage-festival-wbradley-wiggins-themove
@@ -17051,7 +17063,7 @@ episodes_by_feed:
     episode_uid: 489f28e5-1cac-4115-80cd-641de53a44dd
     episode_slug: giro-d-italia-2026-review-live-from-the-wattage-festival-w-bradley-wiggins-themove
     episode_key: giro-d-italia-2026-review-live-from-the-wattage-festival-w-bradley-wiggins-themove
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/themove/giro-d-italia-2026-review-live-from-the-wattage-festival-w-bradley-wiggins-themove/"
   - episode_title: Vingegaard Shows Resistance Is Futile | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/vingegaard-shows-resistance-is-futile-giro-ditalia-2026-themove
@@ -17063,7 +17075,7 @@ episodes_by_feed:
     episode_uid: 562fb022-2b28-43ba-8f20-d8212eb191b7
     episode_slug: vingegaard-shows-resistance-is-futile-giro-d-italia-2026-themove
     episode_key: vingegaard-shows-resistance-is-futile-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/themove/vingegaard-shows-resistance-is-futile-giro-d-italia-2026-themove/"
   - episode_title: An Incredible Comeback Victory in the Dolomites | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/an-incredible-comeback-victory-in-the-dolomites-giro-ditalia-2026-themove
@@ -17075,7 +17087,7 @@ episodes_by_feed:
     episode_uid: dd6cc28d-d530-4c93-b90f-921feb24c507
     episode_slug: an-incredible-comeback-victory-in-the-dolomites-giro-d-italia-2026-themove
     episode_key: an-incredible-comeback-victory-in-the-dolomites-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/themove/an-incredible-comeback-victory-in-the-dolomites-giro-d-italia-2026-themove/"
   - episode_title: Lidl-Trek Denied Again & the Dolomites Loom | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/lidl-trek-denied-again-the-dolomites-loom-giro-ditalia-2026-themove
@@ -17087,7 +17099,7 @@ episodes_by_feed:
     episode_uid: 6b4e12b6-5b48-4646-ae08-707c059f1c3a
     episode_slug: lidl-trek-denied-again-the-dolomites-loom-giro-d-italia-2026-themove
     episode_key: lidl-trek-denied-again-the-dolomites-loom-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/themove/lidl-trek-denied-again-the-dolomites-loom-giro-d-italia-2026-themove/"
   - episode_title: Pace, Heat & an Emotional Comeback Win | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/pace-heat-an-emotional-comeback-win-giro-ditalia-2026-themove
@@ -17099,7 +17111,7 @@ episodes_by_feed:
     episode_uid: 07cec48e-34ed-4163-ad7b-dbff7302590a
     episode_slug: pace-heat-an-emotional-comeback-win-giro-d-italia-2026-themove
     episode_key: pace-heat-an-emotional-comeback-win-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/themove/pace-heat-an-emotional-comeback-win-giro-d-italia-2026-themove/"
   - episode_title: Has Vingegaard Turned the Giro into a Tour Training Camp? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-ditalia-2026-themove
@@ -17111,7 +17123,7 @@ episodes_by_feed:
     episode_uid: 7a24afa3-d762-45de-8fb1-05ce687c093f
     episode_slug: has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-d-italia-2026-themove
     episode_key: has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/themove/has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-d-italia-2026-themove/"
   - episode_title: Does This Giro Still Have a Surprise Up Its Sleeve? | Giro d'Italia 2026 Week 2 Review | THEMOVE
     episode_url: https://stages.libsyn.com/does-this-giro-still-have-a-surprise-up-its-sleeve-giro-ditalia-2026-week-2-review-themove
@@ -17123,7 +17135,7 @@ episodes_by_feed:
     episode_uid: bbc367d2-95cb-492d-af07-257c0bd148ab
     episode_slug: does-this-giro-still-have-a-surprise-up-its-sleeve-giro-d-italia-2026-week-2-review-themove
     episode_key: does-this-giro-still-have-a-surprise-up-its-sleeve-giro-d-italia-2026-week-2-review-themove
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/themove/does-this-giro-still-have-a-surprise-up-its-sleeve-giro-d-italia-2026-week-2-review-themove/"
   - episode_title: A Brutal Stage Reshapes the GC | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/a-brutal-stage-reshapes-the-gc-giro-ditalia-2026-themove
@@ -17135,7 +17147,7 @@ episodes_by_feed:
     episode_uid: 934db950-2abf-4059-9d96-c5f59bd4a4a0
     episode_slug: a-brutal-stage-reshapes-the-gc-giro-d-italia-2026-themove
     episode_key: a-brutal-stage-reshapes-the-gc-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/themove/a-brutal-stage-reshapes-the-gc-giro-d-italia-2026-themove/"
   - episode_title: Is Tomorrow the Day This Giro Explodes? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/is-tomorrow-the-day-this-giro-explodes-giro-ditalia-2026-themove
@@ -17147,7 +17159,7 @@ episodes_by_feed:
     episode_uid: 62540377-69ce-407f-b05c-b0806f9ffc65
     episode_slug: is-tomorrow-the-day-this-giro-explodes-giro-d-italia-2026-themove
     episode_key: is-tomorrow-the-day-this-giro-explodes-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/themove/is-tomorrow-the-day-this-giro-explodes-giro-d-italia-2026-themove/"
   - episode_title: A Picture-Perfect Attack & the GC Tension Builds | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/a-picture-perfect-attack-the-gc-tension-builds-giro-ditalia-2026-themove
@@ -17159,7 +17171,7 @@ episodes_by_feed:
     episode_uid: 586832cd-85d8-48cc-8aca-4775bf7ed3b0
     episode_slug: a-picture-perfect-attack-the-gc-tension-builds-giro-d-italia-2026-themove
     episode_key: a-picture-perfect-attack-the-gc-tension-builds-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/themove/a-picture-perfect-attack-the-gc-tension-builds-giro-d-italia-2026-themove/"
   - episode_title: How is a Shorthanded UAE Dominating This Race? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/how-is-a-shorthanded-uae-dominating-this-race-giro-ditalia-2026-themove
@@ -17171,7 +17183,7 @@ episodes_by_feed:
     episode_uid: a584ba07-d736-4903-ab2a-b3c2b56a2c0e
     episode_slug: how-is-a-shorthanded-uae-dominating-this-race-giro-d-italia-2026-themove
     episode_key: how-is-a-shorthanded-uae-dominating-this-race-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/themove/how-is-a-shorthanded-uae-dominating-this-race-giro-d-italia-2026-themove/"
   - episode_title: Did the Giro's GC Battle Just Get Even More Interesting? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/did-the-giros-gc-battle-just-get-even-more-interesting-giro-ditalia-2026-themove
@@ -17183,7 +17195,7 @@ episodes_by_feed:
     episode_uid: 42a89d02-6b30-4378-8be1-5cf703a8bf6a
     episode_slug: did-the-giro-s-gc-battle-just-get-even-more-interesting-giro-d-italia-2026-themove
     episode_key: did-the-giro-s-gc-battle-just-get-even-more-interesting-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/themove/did-the-giro-s-gc-battle-just-get-even-more-interesting-giro-d-italia-2026-themove/"
   - episode_title: Can Felix Gall Actually Beat Vingegaard at this Giro?| Giro d'Italia 2026 Week 1 Review | THEMOVE
     episode_url: https://stages.libsyn.com/can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-ditalia-2026-week-1-review-themove
@@ -17195,7 +17207,7 @@ episodes_by_feed:
     episode_uid: 132063db-ea67-4f24-a7cb-a27c731fbdab
     episode_slug: can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove
     episode_key: can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/themove/can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove/"
   - episode_title: Are UAE Proving You Don't Need a GC Leader? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/are-uae-proving-you-dont-need-a-gc-leader-giro-ditalia-2026-themove
@@ -17207,7 +17219,7 @@ episodes_by_feed:
     episode_uid: b9719f07-2b1d-41f4-9987-f8239f0a30e7
     episode_slug: are-uae-proving-you-don-t-need-a-gc-leader-giro-d-italia-2026-themove
     episode_key: are-uae-proving-you-don-t-need-a-gc-leader-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/themove/are-uae-proving-you-don-t-need-a-gc-leader-giro-d-italia-2026-themove/"
   - episode_title: Did Blockhaus Provide More Questions Than Answers?| Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/did-blockhaus-provide-more-questions-than-answers-giro-ditalia-2026-themove
@@ -17219,20 +17231,8 @@ episodes_by_feed:
     episode_uid: 03cfdfa2-32bc-4b74-afc8-20c5d06f99a9
     episode_slug: did-blockhaus-provide-more-questions-than-answers-giro-d-italia-2026-themove
     episode_key: did-blockhaus-provide-more-questions-than-answers-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/themove/did-blockhaus-provide-more-questions-than-answers-giro-d-italia-2026-themove/"
-  - episode_title: Cobbles, Crashes & Chaos | Giro d'Italia 2026 | THEMOVE+
-    episode_url: https://stages.libsyn.com/cobbles-crashes-chaos-giro-ditalia-2026-themove
-    audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Cobbles_Crashes__Chaos__Giro_dItalia_2026__THEMOVE_.mp3?dest-id=535577
-    published_at: '2026-05-14T21:34:00+00:00'
-    description_html: '<p>Johan Bruyneel and Spencer Martin break down David Ballerini''s unexpected stage win on Stage 6 in the heart of Naples after a late crash on the cobbled finishing straight took down the day''s top contenders. They debate if the finish was safe, and discuss how GC teams are taking safety into their own hands in these sprint finishes, as well as how aggressive tire choices could be to blame for these crashes on wet days. They then preview tomorrow''s Stage 7, which serves up a brutal summit finish at Blockhaus, which is sure to create gaps amongst the top GC contenders. Listen in to see what the duo thinks of the stage, how the action will play out tomorrow, who will come out on top, and which riders present the best betting value.</p><p>Become a WEDŪ Member Today to Unlock VIP Access & Benefits: <a href= "https://access.wedu.team">https://access.wedu.team</a></p>'
-    description_plain: 'Johan Bruyneel and Spencer Martin break down David Ballerini''s unexpected stage win on Stage 6 in the heart of Naples after a late crash on the cobbled finishing straight took down the day''s top contenders. They debate if the finish was safe, and discuss how GC teams are taking safety into their own hands in these sprint finishes, as well as how aggressive tire choices could be to blame for these crashes on wet days. They then preview tomorrow''s Stage 7, which serves up a brutal summit finish at Blockhaus, which is sure to create gaps amongst the top GC contenders. Listen in to see what the duo thinks of the stage, how the action will play out tomorrow, who will come out on top, and which riders present the best betting value. Become a WEDŪ Member Today to Unlock VIP Access & Benefits: https://access.wedu.team'
-    episode_image_url: ''
-    episode_uid: 3cc20b7f-099b-450b-bd4d-088501e5fc3b
-    episode_slug: cobbles-crashes-chaos-giro-d-italia-2026-themove
-    episode_key: cobbles-crashes-chaos-giro-d-italia-2026-themove
     legacy_numbered_slug: episode-25
-    episode_page_url: "/themove/cobbles-crashes-chaos-giro-d-italia-2026-themove/"
+    episode_page_url: "/themove/did-blockhaus-provide-more-questions-than-answers-giro-d-italia-2026-themove/"
   https://rss.libsyn.com/shows/519408/destinations/4458728.xml: &56
   - episode_title: Martyn Ashton on Rideable Now and the Future of Adaptive MTB
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/martyn-ashton-on-rideable-now-and-the-future-of-adaptive-mtb
@@ -24504,6 +24504,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-16
     episode_page_url: "/historias-del-trail/1-especial-analisis-occ-desde-el-utmb-de-chamonix/"
   https://anchor.fm/s/1061aabc4/podcast/rss: &81
+  - episode_title: 'From Olympic Rower to Employee #3 at Momentous to Building the Water Brand Doing What Nobody Else Will'
+    episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_olympic_rower_to_employee_3_at_momentous_to_building_the_water_brand_doing_what_nobody_else_will
+    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f0e42-e371-7e49-88d2-f4bab7f22da1/019f0e42-e445-7d67-9a8e-47159f373f39.mp3
+    published_at: '2026-06-30T07:00:00+00:00'
+    description_html: '<p>Sara Hendershot has spent her career at the intersection of elite sport and early stage brand building. She rowed at the 2012 Olympics, was employee number three at Momentous before it became one of the most trusted names in performance supplementation, and is now employee number four at Loonen, a water company doing something nobody else in the category has been willing to do.</p><p>Loonen combines the highest quality spring source with the highest quality filtration, tests for over 350 contaminants across every production run, and publishes every single result. The FDA requires none of it. That''s the point.</p><p>Sara joins Long Run Labs to talk about the athlete to entrepreneur journey, what she learned building Momentous from the ground up, and why the bottled water category is overdue for exactly this kind of disruption.</p><p>Jon and Sara chat about:</p><ul><li><p>growing up in a competitive athletic household and finding rowing</p></li><li><p>making the 2012 Olympic team and what two very different Olympic cycles taught her</p></li><li><p>turning down Wall Street to pursue sport and then figuring out what came next</p></li><li><p>working at Smack Media and getting exposure to early stage sports brands</p></li><li><p>being employee number three at Momentous and what those early days looked like</p></li><li><p>how the athlete as creator shift changed the marketing landscape between 2018 and 2021</p></li><li><p>the therapy work that helped her transition out of elite sport and into the real world</p></li><li><p>why outcome based values are just goals in disguise</p></li><li><p>what empathy actually looks like inside a high performance team culture</p></li><li><p>the founding story behind Loonen and why Clara started it during IVF</p></li><li><p>why the FDA''s bottled water requirements are shockingly low</p></li><li><p>how Loonen combines spring sourcing and filtration in a way nobody else has done</p></li><li><p>why fear mongering is never going to be part of their brand voice</p></li><li><p>showing up at Boston Marathon, Rich Roll live recordings, and Nike Skims events to build community one person at a time</p></li><li><p>the wave surfer surfboard framework for evaluating a startup</p></li><li><p>what success means to Loonen and what success means to Sara</p></li></ul><p><b>Stay connected:</b></p><p>Sara on LinkedIn: <a href="https://www.linkedin.com/in/sarahendershot/">https://www.linkedin.com/in/sarahendershot/</a></p><p>Loonen Website: <a href="https://loonen.com">https://loonen.com</a></p><p><b>Thank you to our sponsors:</b></p><p>The Huddle: If you''re at the point where going at it alone isn''t working or you''re ready to level things up in your business, go to <a href="https://findmyhuddle.com/">https://findmyhuddle.com/</a> and fill out the application</p><p>Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: <a href="https://popf.ly/longrunlabscreators">https://popf.ly/longrunlabscreators</a>. Brands click here: <a href="https://popf.ly/longrunlabsbrands">https://popf.ly/longrunlabsbrands</a></p>'
+    description_plain: 'Sara Hendershot has spent her career at the intersection of elite sport and early stage brand building. She rowed at the 2012 Olympics, was employee number three at Momentous before it became one of the most trusted names in performance supplementation, and is now employee number four at Loonen, a water company doing something nobody else in the category has been willing to do. Loonen combines the highest quality spring source with the highest quality filtration, tests for over 350 contaminants across every production run, and publishes every single result. The FDA requires none of it. That''s the point. Sara joins Long Run Labs to talk about the athlete to entrepreneur journey, what she learned building Momentous from the ground up, and why the bottled water category is overdue for exactly this kind of disruption. Jon and Sara chat about: growing up in a competitive athletic household and finding rowing making the 2012 Olympic team and what two very different Olympic cycles taught her turning down Wall Street to pursue sport and then figuring out what came next working at Smack Media and getting exposure to early stage sports brands being employee number three at Momentous and what those early days looked like how the athlete as creator shift changed the marketing landscape between 2018 and 2021 the therapy work that helped her transition out of elite sport and into the real world why outcome based values are just goals in disguise what empathy actually looks like inside a high performance team culture the founding story behind Loonen and why Clara started it during IVF why the FDA''s bottled water requirements are shockingly low how Loonen combines spring sourcing and filtration in a way nobody else has done why fear mongering is never going to be part of their brand voice showing up at Boston Marathon, Rich Roll live recordings, and Nike Skims events to build community one person at a time the wave surfer surfboard framework for evaluating a startup what success means to Loonen and what success means to Sara Stay connected: Sara on LinkedIn: https://www.linkedin.com/in/sarahendershot/ Loonen Website: https://loonen.com Thank you to our sponsors: The Huddle: If you''re at the point where going at it alone isn''t working or you''re ready to level things up in your business, go to https://findmyhuddle.com/ and fill out the application Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: https://popf.ly/longrunlabscreators . Brands click here: https://popf.ly/longrunlabsbrands'
+    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c24781ba-f869-4345-9743-a1af541fa730/podcast_import_artwork_20260530-183-cd1hcl.jpg?t=1780149888
+    episode_uid: '019f0e42-e371-7cae-bc79-1728e09af261'
+    episode_slug: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+    episode_key: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/long-run-labs/from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will/"
   - episode_title: Why the Creator Economy Is Just Getting Started and What Investors Are Betting On
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_the_creator_economy_is_just_getting_started_and_what_investors_are_betting_on
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019ef3f5-ccdc-7a9a-b516-a261c2041509/019ef3f5-cd98-7678-bc77-476f2a8b609d.mp3
@@ -24514,7 +24526,7 @@ episodes_by_feed:
     episode_uid: '019ef3f5-ccdc-788d-91df-4446d5fb733e'
     episode_slug: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
     episode_key: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/long-run-labs/why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on/"
   - episode_title: How LSKD Went from $3M to $200M by Going Back to Basics
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_lskd_went_from_3m_to_200m_by_going_back_to_basics
@@ -24526,7 +24538,7 @@ episodes_by_feed:
     episode_uid: '019ece2b-5ff1-7e96-bb3f-e9f32690436e'
     episode_slug: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
     episode_key: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/long-run-labs/how-lskd-went-from-3m-to-200m-by-going-back-to-basics/"
   - episode_title: Building the Event Trail Running Has Been Missing
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/building_the_event_trail_running_has_been_missing
@@ -24538,7 +24550,7 @@ episodes_by_feed:
     episode_uid: '019eaa72-3e4c-7f69-830e-e45dee2f2ef9'
     episode_slug: building-the-event-trail-running-has-been-missing
     episode_key: building-the-event-trail-running-has-been-missing
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/long-run-labs/building-the-event-trail-running-has-been-missing/"
   - episode_title: The Accidental Business Owner Who Built the Science of Endurance Fueling
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_accidental_business_owner_who_built_the_science_of_endurance_fueling
@@ -24550,7 +24562,7 @@ episodes_by_feed:
     episode_uid: '019ea1cf-1582-7b18-a650-a23baf0440d5'
     episode_slug: the-accidental-business-owner-who-built-the-science-of-endurance-fueling
     episode_key: the-accidental-business-owner-who-built-the-science-of-endurance-fueling
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/long-run-labs/the-accidental-business-owner-who-built-the-science-of-endurance-fueling/"
   - episode_title: 'Des Linden: Build the Audience. The Deals Follow.'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/des_linden_build_the_audience_the_deals_follow
@@ -24562,7 +24574,7 @@ episodes_by_feed:
     episode_uid: f95c2168-d1cd-41fd-a5dc-a498f94f16d2
     episode_slug: des-linden-build-the-audience-the-deals-follow
     episode_key: des-linden-build-the-audience-the-deals-follow
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/long-run-labs/des-linden-build-the-audience-the-deals-follow/"
   - episode_title: Why the Future of Endurance Brands Is Community, Trust, and AI | Randi Zuckerberg
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_the_future_of_endurance_brands_is_community_trust_and_ai_randi_zuckerberg
@@ -24574,7 +24586,7 @@ episodes_by_feed:
     episode_uid: 7955b22d-7ba1-4e37-8acc-f6b20a562d2d
     episode_slug: why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg
     episode_key: why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/long-run-labs/why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg/"
   - episode_title: Rethinking Outdoor Apparel for a Warming World | Doug Waters
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/rethinking_outdoor_apparel_for_a_warming_world_doug_waters
@@ -24586,7 +24598,7 @@ episodes_by_feed:
     episode_uid: 36d42fc6-399e-44ca-896d-ca5ed5858811
     episode_slug: rethinking-outdoor-apparel-for-a-warming-world-doug-waters
     episode_key: rethinking-outdoor-apparel-for-a-warming-world-doug-waters
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/long-run-labs/rethinking-outdoor-apparel-for-a-warming-world-doug-waters/"
   - episode_title: Why Entrepreneurs Stay Stuck (And How to Actually Move Forward) | Christian Rawles
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_entrepreneurs_stay_stuck_and_how_to_actually_move_forward_christian_rawles
@@ -24598,7 +24610,7 @@ episodes_by_feed:
     episode_uid: 0bc1f5e4-7d60-4ec5-8905-4c95c78ce61e
     episode_slug: why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles
     episode_key: why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/long-run-labs/why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles/"
   - episode_title: Turning Community Into a Running Brand That Lasts | Nick Dibos
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/turning_community_into_a_running_brand_that_lasts_nick_dibos
@@ -24610,7 +24622,7 @@ episodes_by_feed:
     episode_uid: 75896994-040a-4fa2-8afc-a676c85990ed
     episode_slug: turning-community-into-a-running-brand-that-lasts-nick-dibos
     episode_key: turning-community-into-a-running-brand-that-lasts-nick-dibos
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/long-run-labs/turning-community-into-a-running-brand-that-lasts-nick-dibos/"
   - episode_title: Building a Business in Trail Running Without Losing Trust | Seth LaReau
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/building_a_business_in_trail_running_without_losing_trust_seth_lareau
@@ -24622,7 +24634,7 @@ episodes_by_feed:
     episode_uid: 884666d2-1bd9-4980-8398-ea03244f47b2
     episode_slug: building-a-business-in-trail-running-without-losing-trust-seth-lareau
     episode_key: building-a-business-in-trail-running-without-losing-trust-seth-lareau
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/long-run-labs/building-a-business-in-trail-running-without-losing-trust-seth-lareau/"
   - episode_title: Why Most Brand Partnerships Fail (And How to Actually Get It Right)
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_most_brand_partnerships_fail_and_how_to_actually_get_it_right
@@ -24634,7 +24646,7 @@ episodes_by_feed:
     episode_uid: 5f0be72e-e729-413b-96cd-aa19c03d0253
     episode_slug: why-most-brand-partnerships-fail-and-how-to-actually-get-it-right
     episode_key: why-most-brand-partnerships-fail-and-how-to-actually-get-it-right
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/long-run-labs/why-most-brand-partnerships-fail-and-how-to-actually-get-it-right/"
   - episode_title: Why Authenticity Wins in Running Marketing
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/why_authenticity_wins_in_running_marketing
@@ -24646,7 +24658,7 @@ episodes_by_feed:
     episode_uid: a1891b01-8bc2-4454-8eef-e507517a89cf
     episode_slug: why-authenticity-wins-in-running-marketing
     episode_key: why-authenticity-wins-in-running-marketing
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/long-run-labs/why-authenticity-wins-in-running-marketing/"
   - episode_title: "$20K Launch Day: How Raide Built a Premium Gear Brand Through Word-of-Mouth and Elite Athletes"
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/20k_launch_day_how_raide_built_a_premium_gear_brand_through_word-of-mouth_and_elite_athletes
@@ -24658,7 +24670,7 @@ episodes_by_feed:
     episode_uid: 1dc2c55b-9b16-4bdd-8104-431df870f4f8
     episode_slug: 20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes
     episode_key: 20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/long-run-labs/20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes/"
   - episode_title: The Custom Insoles Revolutionizing Elite Running Performance
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_custom_insoles_revolutionizing_elite_running_performance
@@ -24670,7 +24682,7 @@ episodes_by_feed:
     episode_uid: 0a1db445-3152-4cee-a445-e10fcc13767e
     episode_slug: the-custom-insoles-revolutionizing-elite-running-performance
     episode_key: the-custom-insoles-revolutionizing-elite-running-performance
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/long-run-labs/the-custom-insoles-revolutionizing-elite-running-performance/"
   - episode_title: 'From Kickstarter to a Brooks Partnership: PYNRS Founder’s Blueprint for Community-First Business Building'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_kickstarter_to_a_brooks_partnership_pynrs_founder_s_blueprint_for_community-first_business_building
@@ -24682,7 +24694,7 @@ episodes_by_feed:
     episode_uid: '09fb4b79-f89d-428a-bfd3-6ad4edc6a889'
     episode_slug: from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building
     episode_key: from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/long-run-labs/from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building/"
   - episode_title: 'Consistency is a Competitive Advantage: Carbon Plates, Speciality Retail, and Smarter Marketing with Gelindo Bordin'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/consistency_is_a_competitive_advantage_carbon_plates_speciality_retail_and_smarter_marketing_with_gelindo_bordin
@@ -24694,7 +24706,7 @@ episodes_by_feed:
     episode_uid: 87a36385-fca7-405e-b693-801cbda70438
     episode_slug: consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin
     episode_key: consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/long-run-labs/consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin/"
   - episode_title: How Wilderdog Turned Dog Gear into a Profitable Business
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_wilderdog_turned_dog_gear_into_a_profitable_business
@@ -24706,7 +24718,7 @@ episodes_by_feed:
     episode_uid: 18696823-a082-409a-ad22-1be5382814c6
     episode_slug: how-wilderdog-turned-dog-gear-into-a-profitable-business
     episode_key: how-wilderdog-turned-dog-gear-into-a-profitable-business
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/long-run-labs/how-wilderdog-turned-dog-gear-into-a-profitable-business/"
   - episode_title: The Evolution of Performance Marketing in Niche Markets
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_evolution_of_performance_marketing_in_niche_markets
@@ -24718,7 +24730,7 @@ episodes_by_feed:
     episode_uid: e2534a1c-f905-4af0-8ed9-2ffc548cdeee
     episode_slug: the-evolution-of-performance-marketing-in-niche-markets
     episode_key: the-evolution-of-performance-marketing-in-niche-markets
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/long-run-labs/the-evolution-of-performance-marketing-in-niche-markets/"
   - episode_title: Want to be a Sponsored Trail Runner? Listen to This
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/want_to_be_a_sponsored_trail_runner_listen_to_this
@@ -24730,7 +24742,7 @@ episodes_by_feed:
     episode_uid: fe6fcbf1-fdae-4854-9406-b09c083fdaf7
     episode_slug: want-to-be-a-sponsored-trail-runner-listen-to-this
     episode_key: want-to-be-a-sponsored-trail-runner-listen-to-this
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/long-run-labs/want-to-be-a-sponsored-trail-runner-listen-to-this/"
   - episode_title: How Michael Brandt Built Ketone-IQ by Failing Until He Won
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_michael_brandt_built_ketone-iq_by_failing_until_he_won
@@ -24742,7 +24754,7 @@ episodes_by_feed:
     episode_uid: 658724c7-727b-4279-9c8d-034c179a8cba
     episode_slug: how-michael-brandt-built-ketone-iq-by-failing-until-he-won
     episode_key: how-michael-brandt-built-ketone-iq-by-failing-until-he-won
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/long-run-labs/how-michael-brandt-built-ketone-iq-by-failing-until-he-won/"
   - episode_title: 'From Coca-Cola to KIPRUN: Launching a Running Brand the Hard Way'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/from_coca-cola_to_kiprun_launching_a_running_brand_the_hard_way
@@ -24754,7 +24766,7 @@ episodes_by_feed:
     episode_uid: 57eea3c4-f74b-4882-b9e0-f9cf0b8f06bd
     episode_slug: from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way
     episode_key: from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/long-run-labs/from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way/"
   - episode_title: THE Problem-Solving Playbook for Entrepreneurs with Moisés Jimenez
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_problem-solving_playbook_for_entrepreneurs_with_moises_jimenez
@@ -24767,7 +24779,7 @@ episodes_by_feed:
     episode_slug: the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez
     episode_key: the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez
     legacy_unicode_slug: the-problem-solving-playbook-for-entrepreneurs-with-moisés-jimenez
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/long-run-labs/the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez/"
   - episode_title: How a Tech Exec Became a Running Store Owner
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/how_a_tech_exec_became_a_running_store_owner
@@ -24779,7 +24791,7 @@ episodes_by_feed:
     episode_uid: 4cafae0d-3594-42f0-95b8-602b883c1eb9
     episode_slug: how-a-tech-exec-became-a-running-store-owner
     episode_key: how-a-tech-exec-became-a-running-store-owner
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/long-run-labs/how-a-tech-exec-became-a-running-store-owner/"
   - episode_title: The Future of the Creator Economy with Demitra Carter
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs/the_future_of_the_creator_economy_with_demitra_carter
@@ -24791,20 +24803,8 @@ episodes_by_feed:
     episode_uid: 5ea47037-c63b-45c9-9a6a-f0c6747f3d5b
     episode_slug: the-future-of-the-creator-economy-with-demitra-carter
     episode_key: the-future-of-the-creator-economy-with-demitra-carter
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/long-run-labs/the-future-of-the-creator-economy-with-demitra-carter/"
-  - episode_title: 'Embrace Your Messy Story: Angie Lake’s Predictions for How to Stand Out in 2026'
-    episode_url: https://www.forthelong.run/podcast/s/long_run_labs/embrace_your_messy_story_angie_lake_s_predictions_for_how_to_stand_out_in_2026
-    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019e7933-b090-70ca-b094-bc4c29e28c15/019e7933-b11a-715b-8e61-20a08a476d41.mp3
-    published_at: '2026-01-06T11:00:00+00:00'
-    description_html: '<p>From first-time finisher to changing lives: hear about how Angie Lake is breaking down barriers in trail running, one story at a time.</p><p>Angie Lake is co-director of Wild Woman Trail Runs and community manager of The Cairn Project, a nonprofit closing the gender gap in outdoor sports.</p><p>As a storytelling consultant, menstrual health educator, and outdoor podcast host, Angie holds conversations around Blood, Sweat, and Fear to build happier and healthier communities for women.</p><p>Jon chats with Angie about:</p><ul><li><p>Angie''s evolution as an athlete and entrepreneur</p></li><li><p>Wild Woman Trail Runs race direction</p></li><li><p>brand partnerships and community building</p></li><li><p>women''s health and running science</p></li><li><p>the 50K Sisterhood Scholarship Program</p></li></ul><p>Stay connected:</p><p>Angie''s website:</p><p><a href="http://www.angielake.com">www.angielake.com</a></p><p>Wild Woman Trail Runs:</p><p><a href="http://www.wildwomantrailruns.com">www.wildwomantrailruns.com</a></p><p>The First 50k Sisterhood:</p><p><a href="https://cairnproject.org/first-50k-sisterhood">https://cairnproject.org/first-50k-sisterhood</a></p><p>Follow Angie:</p><p><a href="http://bloodsweatfear.substack.com">bloodsweatfear.substack.com</a></p><p><a href="http://instagram.com/angvswild">instagram.com/angvswild</a></p><p><a href="http://linkedin.com/in/angie-marie">linkedin.com/in/angie-marie</a></p><p><a href="http://instagram.com/wildwomantrailruns">instagram.com/wildwomantrailruns</a></p><p><a href="http://instagram.com/thecairnproject">instagram.com/thecairnproject</a></p>'
-    description_plain: 'From first-time finisher to changing lives: hear about how Angie Lake is breaking down barriers in trail running, one story at a time. Angie Lake is co-director of Wild Woman Trail Runs and community manager of The Cairn Project, a nonprofit closing the gender gap in outdoor sports. As a storytelling consultant, menstrual health educator, and outdoor podcast host, Angie holds conversations around Blood, Sweat, and Fear to build happier and healthier communities for women. Jon chats with Angie about: Angie''s evolution as an athlete and entrepreneur Wild Woman Trail Runs race direction brand partnerships and community building women''s health and running science the 50K Sisterhood Scholarship Program Stay connected: Angie''s website: www.angielake.com Wild Woman Trail Runs: www.wildwomantrailruns.com The First 50k Sisterhood: https://cairnproject.org/first-50k-sisterhood Follow Angie: bloodsweatfear.substack.com instagram.com/angvswild linkedin.com/in/angie-marie instagram.com/wildwomantrailruns instagram.com/thecairnproject'
-    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/82f9a831-1001-4277-a1b4-0930be9a1324/podcast_import_artwork_20260530-223-2cw2z8.jpg?t=1780149907
-    episode_uid: b22db9e0-ae9c-4c45-966e-e22543501b97
-    episode_slug: embrace-your-messy-story-angie-lake-s-predictions-for-how-to-stand-out-in-2026
-    episode_key: embrace-your-messy-story-angie-lake-s-predictions-for-how-to-stand-out-in-2026
     legacy_numbered_slug: episode-25
-    episode_page_url: "/long-run-labs/embrace-your-messy-story-angie-lake-s-predictions-for-how-to-stand-out-in-2026/"
+    episode_page_url: "/long-run-labs/the-future-of-the-creator-economy-with-demitra-carter/"
   https://feeds.feedburner.com/stevemagness: &82
   - episode_title: 'Unlocking Potential: The Power of Constraints in Coaching and Training'
     episode_url: https://www.scienceofrunning.com/2026/06/unlocking-potential-the-power-of-constraints-in-coaching-and-training.html
