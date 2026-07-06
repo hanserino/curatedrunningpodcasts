@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-06T18:42:59Z'
+generated_at: '2026-07-06T19:41:56Z'
 items:
 - podcast_title: La Bande à D+
   podcast_page_url: "/la-bande-a-d/"
@@ -763,13 +763,13 @@ non_running_items:
   cover_image: "/media/themove.jpeg"
   feed_url: https://rss.libsyn.com/shows/101338/destinations/535577.xml
   filter_category: uncategorized english
-  episode_title: How Can Visma Pressure UAE & Pogačar at This Tour? | Tour de France Stage 3 | THEMOVE
-  episode_url: https://stages.libsyn.com/how-can-visma-pressure-uae-pogaar-at-this-tour-tour-de-france-stage-3-themove
-  audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/How_Can_Visma_Pressure_UAE__Pogacar_at_This_Tour__Tour_de_France_Stage_3__THEMOVE_.mp3?dest-id=535577
-  published_at: '2026-07-06T17:16:00+00:00'
-  episode_key: how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-stage-3-themove
-  episode_slug: how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-stage-3-themove
-  episode_page_url: "/themove/how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-stage-3-themove/"
+  episode_title: Did UAE Make a Mistake? | Tour de France 2026 Stage 3 | THEMOVE+
+  episode_url: https://stages.libsyn.com/did-uae-make-a-mistake-tour-de-france-stage-3-themove
+  audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Did_UAE_Make_a_Mistake__Tour_de_France_Stage_3__THEMOVE.mp3?dest-id=535577
+  published_at: '2026-07-06T19:14:00+00:00'
+  episode_key: did-uae-make-a-mistake-tour-de-france-2026-stage-3-themove
+  episode_slug: did-uae-make-a-mistake-tour-de-france-2026-stage-3-themove
+  episode_page_url: "/themove/did-uae-make-a-mistake-tour-de-france-2026-stage-3-themove/"
 - podcast_title: The Cutting Edge
   podcast_page_url: "/the-cutting-edge/"
   cover_image: "/media/cuttingedgepodcast.jpeg"
@@ -842,6 +842,18 @@ non_running_items:
   episode_key: ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again
   episode_slug: ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again
   episode_page_url: "/the-diary-of-a-ceo/ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again/"
+- podcast_title: Oppdatert
+  podcast_page_url: "/oppdatert/"
+  cover_image: "/media/oppdatert.jpeg"
+  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
+  filter_category: uncategorized norwegian
+  episode_title: 'Jordskjelv-katastrofen: Dette møtte NRK i ruinene'
+  episode_url: ''
+  audio_url: https://podkast.nrk.no/fil/oppdatert/7fe9583d-5ad5-46d2-a958-3d5ad586d26f_1_ID192MP3.mp3
+  published_at: '2026-07-06T05:59:00+02:00'
+  episode_key: jordskjelv-katastrofen-dette-motte-nrk-i-ruinene
+  episode_slug: jordskjelv-katastrofen-dette-motte-nrk-i-ruinene
+  episode_page_url: "/oppdatert/jordskjelv-katastrofen-dette-motte-nrk-i-ruinene/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -926,18 +938,6 @@ non_running_items:
   episode_key: apple-raises-prices-on-everything
   episode_slug: apple-raises-prices-on-everything
   episode_page_url: "/waveform-the-mkbhd-podcast/apple-raises-prices-on-everything/"
-- podcast_title: Oppdatert
-  podcast_page_url: "/oppdatert/"
-  cover_image: "/media/oppdatert.jpeg"
-  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
-  filter_category: uncategorized norwegian
-  episode_title: 'Kampen vi aldri glemmer: Kan historien gjenta seg?'
-  episode_url: ''
-  audio_url: https://podkast.nrk.no/fil/oppdatert/b6381c0b-180a-443c-b81c-0b180a043cfd_1_ID192MP3.mp3
-  published_at: '2026-07-03T05:59:00+02:00'
-  episode_key: kampen-vi-aldri-glemmer-kan-historien-gjenta-seg
-  episode_slug: kampen-vi-aldri-glemmer-kan-historien-gjenta-seg
-  episode_page_url: "/oppdatert/kampen-vi-aldri-glemmer-kan-historien-gjenta-seg/"
 - podcast_title: Alex och Sigges podcast
   podcast_page_url: "/alex-og-sigges-podcast/"
   cover_image: "/media/alexochsigge.jpeg"
@@ -16927,7 +16927,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/golden-girls-theme/"
   https://rss.libsyn.com/shows/101338/destinations/535577.xml: &55
-  - episode_title: How Can Visma Pressure UAE & Pogačar at This Tour? | Tour de France Stage 3 | THEMOVE
+  - episode_title: Did UAE Make a Mistake? | Tour de France 2026 Stage 3 | THEMOVE+
+    episode_url: https://stages.libsyn.com/did-uae-make-a-mistake-tour-de-france-stage-3-themove
+    audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Did_UAE_Make_a_Mistake__Tour_de_France_Stage_3__THEMOVE.mp3?dest-id=535577
+    published_at: '2026-07-06T19:14:00+00:00'
+    description_html: '<p>Johan Bruyneel and Spencer Martin break down Tadej Pogačar''s win over his GC rivals and UAE''s decision to make the stage extremely hard by chasing down the breakaway to contest the stage. They debate if UAE made a mistake or not, and if Pogačar could eventually pay for the effort. They also preview tomorrow''s Stage 4, which will likely continue the theme of difficult racing in hot conditions.</p><p>Become a WEDŪ Member Today to Unlock VIP Access & Benefits: <a href="https://access.wedu.team">https://access.wedu.team</a></p><p>Ultra Pouches: Ultra is the ultimate guilt-free pouch — delivering instant focus and mental clarity, without nicotine or caffeine. New customers can use code THEMOVE to get 15% off at <a href="https://takeultra.com/">https://TakeUltra.com</a>. After you purchase, they will ask you where you heard about them. PLEASE support our show and tell them our show sent you.</p><p>Square: Get up to $200 off Square hardware when you sign up at <a href="https://square.com/go/themove">https://square.com/go/themove</a>! #squarepod</p><p>Lagoon: Use code MOVE for 15% off at <a href= "https://lagoonsleep.com/THEMOVE">https://LagoonSleep.com/THEMOVE</a></p><p>Nextbets: Use our special link to see where you can bet in your area and claim the best sign-up offers <a href= "https://nxtbets.com/betoutcomes/">https://nxtbets.com/betoutcomes/</a></p><p>Ventum: Use code TheMove10 for 10% off anything at:<a href= "https://ventumracing.com/"> https://ventumracing.com/</a></p>'
+    description_plain: 'Johan Bruyneel and Spencer Martin break down Tadej Pogačar''s win over his GC rivals and UAE''s decision to make the stage extremely hard by chasing down the breakaway to contest the stage. They debate if UAE made a mistake or not, and if Pogačar could eventually pay for the effort. They also preview tomorrow''s Stage 4, which will likely continue the theme of difficult racing in hot conditions. Become a WEDŪ Member Today to Unlock VIP Access & Benefits: https://access.wedu.team Ultra Pouches: Ultra is the ultimate guilt-free pouch — delivering instant focus and mental clarity, without nicotine or caffeine. New customers can use code THEMOVE to get 15% off at https://TakeUltra.com . After you purchase, they will ask you where you heard about them. PLEASE support our show and tell them our show sent you. Square: Get up to $200 off Square hardware when you sign up at https://square.com/go/themove ! #squarepod Lagoon: Use code MOVE for 15% off at https://LagoonSleep.com/THEMOVE Nextbets: Use our special link to see where you can bet in your area and claim the best sign-up offers https://nxtbets.com/betoutcomes/ Ventum: Use code TheMove10 for 10% off anything at: https://ventumracing.com/'
+    episode_image_url: https://static.libsyn.com/p/assets/5/e/c/4/5ec4628c813f55dbd959afa2a1bf1c87/TMV_2026_TDF_PodcastCover-20260706-s7fk2iihzo.png
+    episode_uid: af324ff0-fab2-482d-8e2d-d2e933932f38
+    episode_slug: did-uae-make-a-mistake-tour-de-france-2026-stage-3-themove
+    episode_key: did-uae-make-a-mistake-tour-de-france-2026-stage-3-themove
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/themove/did-uae-make-a-mistake-tour-de-france-2026-stage-3-themove/"
+  - episode_title: How Can Visma Pressure UAE & Pogačar at This Tour? | Tour de France 2026 Stage 3 | THEMOVE
     episode_url: https://stages.libsyn.com/how-can-visma-pressure-uae-pogaar-at-this-tour-tour-de-france-stage-3-themove
     audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/How_Can_Visma_Pressure_UAE__Pogacar_at_This_Tour__Tour_de_France_Stage_3__THEMOVE_.mp3?dest-id=535577
     published_at: '2026-07-06T17:16:00+00:00'
@@ -16935,11 +16947,11 @@ episodes_by_feed:
     description_plain: 'Lance, Johan, George, Sir Bradley and Spencer Martin (aka The Professor) break down Stage 3 of the 2026 Tour de France and discuss how UAE and Tadej Pogačar''s show of force highlights just how much the sport has changed in the last few years. They debate if the GC is already over, and how Visma could even begin to potentially challenge Pogačar. They also take a few live on-air quesitons from listeners, preview Stage 4 and answer yesterday''s Ventum trivia before giving out a new trivia question. Become a WEDŪ Member Today to Unlock VIP Access & Benefits: https://access.wedu.team Roka: The Move listeners get 20% off. Just go to https://ROKA.com and enter code THEMOVE at checkout. David Protein: David is offering our listeners a special deal: buy 4 cartons and get the 5th free when you go to https://davidprotein.com/THEMOVE Honey Stinger: Use code THEMOVE25 for 25% off at https://Honeystinger.com/THEMOVE25 Ventum: Use code TheMove10 for 10% off anything at: https://ventumracing.com/ Vandoit: Visit https://Vandoit.com and mention The Move to receive up to $5,000 Tour de France savings.'
     episode_image_url: https://static.libsyn.com/p/assets/a/1/0/e/a10e667264c9d855d959afa2a1bf1c87/TMV_2026_TDF_PodcastCover-20260706-znoe1mlg9q.png
     episode_uid: 4ec25f6b-4454-446c-9c56-a2e6f9c89791
-    episode_slug: how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-stage-3-themove
-    episode_key: how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-stage-3-themove
-    legacy_unicode_slug: how-can-visma-pressure-uae-pogačar-at-this-tour-tour-de-france-stage-3-themove
-    legacy_numbered_slug: episode-01
-    episode_page_url: "/themove/how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-stage-3-themove/"
+    episode_slug: how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-2026-stage-3-themove
+    episode_key: how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-2026-stage-3-themove
+    legacy_unicode_slug: how-can-visma-pressure-uae-pogačar-at-this-tour-tour-de-france-2026-stage-3-themove
+    legacy_numbered_slug: episode-02
+    episode_page_url: "/themove/how-can-visma-pressure-uae-pogacar-at-this-tour-tour-de-france-2026-stage-3-themove/"
   - episode_title: Was This UAE's Plan? | Tour de France Stage 2 | THEMOVE+
     episode_url: https://stages.libsyn.com/was-this-uaes-plan-tour-de-france-stage-2-themove
     audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Was_This_UAEs_Plan__Tour_de_France_Stage_2__THEMOVE.mp3?dest-id=535577
@@ -16950,7 +16962,7 @@ episodes_by_feed:
     episode_uid: e402b6c7-7beb-4bee-8e71-9172a204e150
     episode_slug: was-this-uae-s-plan-tour-de-france-stage-2-themove
     episode_key: was-this-uae-s-plan-tour-de-france-stage-2-themove
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/themove/was-this-uae-s-plan-tour-de-france-stage-2-themove/"
   - episode_title: Pogačar & Del Toro Deliver a Dream Day for Mexico | Tour de France Stage 2 | THEMOVE
     episode_url: https://stages.libsyn.com/pogaar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
@@ -16963,7 +16975,7 @@ episodes_by_feed:
     episode_slug: pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
     episode_key: pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
     legacy_unicode_slug: pogačar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/themove/pogacar-del-toro-deliver-a-dream-day-for-mexico-tour-de-france-stage-2-themove/"
   - episode_title: How Visma Conquered the TTT | Tour de France 2026 Stage 1 | THEMOVE+
     episode_url: https://stages.libsyn.com/how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove
@@ -16975,7 +16987,7 @@ episodes_by_feed:
     episode_uid: c47d3ea5-0325-4f75-a817-0fbb92e93224
     episode_slug: how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove
     episode_key: how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/themove/how-visma-conquered-the-ttt-tour-de-france-2026-stage-1-themove/"
   - episode_title: Vingegaard & Visma Strike the First Blow | Tour de France 2026 Stage 1 | THEMOVE
     episode_url: https://stages.libsyn.com/vingegaard-visma-strike-the-first-blow-tour-de-france-stage-1-themove
@@ -16987,7 +16999,7 @@ episodes_by_feed:
     episode_uid: 3093d9b5-c43d-4621-8c12-6150e4838632
     episode_slug: vingegaard-visma-strike-the-first-blow-tour-de-france-2026-stage-1-themove
     episode_key: vingegaard-visma-strike-the-first-blow-tour-de-france-2026-stage-1-themove
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/themove/vingegaard-visma-strike-the-first-blow-tour-de-france-2026-stage-1-themove/"
   - episode_title: Can Anyone Stop Tadej Pogačar? | Tour de France 2026 Preview | THEMOVE
     episode_url: https://stages.libsyn.com/can-anyone-stop-tadej-pogaar-tour-de-france-2026-preview-themove
@@ -17000,7 +17012,7 @@ episodes_by_feed:
     episode_slug: can-anyone-stop-tadej-pogacar-tour-de-france-2026-preview-themove
     episode_key: can-anyone-stop-tadej-pogacar-tour-de-france-2026-preview-themove
     legacy_unicode_slug: can-anyone-stop-tadej-pogačar-tour-de-france-2026-preview-themove
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/themove/can-anyone-stop-tadej-pogacar-tour-de-france-2026-preview-themove/"
   - episode_title: The Best Pogačar Ever? | Tour de Suisse Review | THEMOVE
     episode_url: https://stages.libsyn.com/the-best-pogaar-ever-tour-de-suisse-review-themove
@@ -17013,7 +17025,7 @@ episodes_by_feed:
     episode_slug: the-best-pogacar-ever-tour-de-suisse-review-themove
     episode_key: the-best-pogacar-ever-tour-de-suisse-review-themove
     legacy_unicode_slug: the-best-pogačar-ever-tour-de-suisse-review-themove
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/themove/the-best-pogacar-ever-tour-de-suisse-review-themove/"
   - episode_title: If Pogačar Is This Good, Can UAE Go 1-2 at the Tour? | THEMOVE+
     episode_url: https://stages.libsyn.com/if-pogaar-is-this-good-can-uae-go-1-2-at-the-tour-themove
@@ -17026,7 +17038,7 @@ episodes_by_feed:
     episode_slug: if-pogacar-is-this-good-can-uae-go-1-2-at-the-tour-themove
     episode_key: if-pogacar-is-this-good-can-uae-go-1-2-at-the-tour-themove
     legacy_unicode_slug: if-pogačar-is-this-good-can-uae-go-1-2-at-the-tour-themove
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/themove/if-pogacar-is-this-good-can-uae-go-1-2-at-the-tour-themove/"
   - episode_title: Is Isaac del Toro a Serious Tour de France Contender Now? | Dauphiné Review | THEMOVE
     episode_url: https://stages.libsyn.com/is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphin-review-themove
@@ -17039,7 +17051,7 @@ episodes_by_feed:
     episode_slug: is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphine-review-themove
     episode_key: is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphine-review-themove
     legacy_unicode_slug: is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphiné-review-themove
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/themove/is-isaac-del-toro-a-serious-tour-de-france-contender-now-dauphine-review-themove/"
   - episode_title: Can Seixas Come Back & Is Pogačar Worried About Remco's Power Numbers? | THEMOVE+
     episode_url: https://stages.libsyn.com/can-seixas-come-back-is-pogaar-worried-about-remcos-power-numbers-themove
@@ -17052,7 +17064,7 @@ episodes_by_feed:
     episode_slug: can-seixas-come-back-is-pogacar-worried-about-remco-s-power-numbers-themove
     episode_key: can-seixas-come-back-is-pogacar-worried-about-remco-s-power-numbers-themove
     legacy_unicode_slug: can-seixas-come-back-is-pogačar-worried-about-remco-s-power-numbers-themove
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/themove/can-seixas-come-back-is-pogacar-worried-about-remco-s-power-numbers-themove/"
   - episode_title: What's Happening at Lidl-Trek? | THEMOVE+
     episode_url: https://stages.libsyn.com/whats-happening-at-lidl-trek-themove
@@ -17064,7 +17076,7 @@ episodes_by_feed:
     episode_uid: a909d69a-3c42-4177-8f9b-670b02ac0e06
     episode_slug: what-s-happening-at-lidl-trek-themove
     episode_key: what-s-happening-at-lidl-trek-themove
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/themove/what-s-happening-at-lidl-trek-themove/"
   - episode_title: Giro d'Italia 2026 Review Live From the Wattage Festival w/Bradley Wiggins | THEMOVE
     episode_url: https://stages.libsyn.com/giro-ditalia-2026-review-live-from-the-wattage-festival-wbradley-wiggins-themove
@@ -17076,7 +17088,7 @@ episodes_by_feed:
     episode_uid: 489f28e5-1cac-4115-80cd-641de53a44dd
     episode_slug: giro-d-italia-2026-review-live-from-the-wattage-festival-w-bradley-wiggins-themove
     episode_key: giro-d-italia-2026-review-live-from-the-wattage-festival-w-bradley-wiggins-themove
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/themove/giro-d-italia-2026-review-live-from-the-wattage-festival-w-bradley-wiggins-themove/"
   - episode_title: Vingegaard Shows Resistance Is Futile | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/vingegaard-shows-resistance-is-futile-giro-ditalia-2026-themove
@@ -17088,7 +17100,7 @@ episodes_by_feed:
     episode_uid: 562fb022-2b28-43ba-8f20-d8212eb191b7
     episode_slug: vingegaard-shows-resistance-is-futile-giro-d-italia-2026-themove
     episode_key: vingegaard-shows-resistance-is-futile-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/themove/vingegaard-shows-resistance-is-futile-giro-d-italia-2026-themove/"
   - episode_title: An Incredible Comeback Victory in the Dolomites | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/an-incredible-comeback-victory-in-the-dolomites-giro-ditalia-2026-themove
@@ -17100,7 +17112,7 @@ episodes_by_feed:
     episode_uid: dd6cc28d-d530-4c93-b90f-921feb24c507
     episode_slug: an-incredible-comeback-victory-in-the-dolomites-giro-d-italia-2026-themove
     episode_key: an-incredible-comeback-victory-in-the-dolomites-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/themove/an-incredible-comeback-victory-in-the-dolomites-giro-d-italia-2026-themove/"
   - episode_title: Lidl-Trek Denied Again & the Dolomites Loom | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/lidl-trek-denied-again-the-dolomites-loom-giro-ditalia-2026-themove
@@ -17112,7 +17124,7 @@ episodes_by_feed:
     episode_uid: 6b4e12b6-5b48-4646-ae08-707c059f1c3a
     episode_slug: lidl-trek-denied-again-the-dolomites-loom-giro-d-italia-2026-themove
     episode_key: lidl-trek-denied-again-the-dolomites-loom-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/themove/lidl-trek-denied-again-the-dolomites-loom-giro-d-italia-2026-themove/"
   - episode_title: Pace, Heat & an Emotional Comeback Win | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/pace-heat-an-emotional-comeback-win-giro-ditalia-2026-themove
@@ -17124,7 +17136,7 @@ episodes_by_feed:
     episode_uid: 07cec48e-34ed-4163-ad7b-dbff7302590a
     episode_slug: pace-heat-an-emotional-comeback-win-giro-d-italia-2026-themove
     episode_key: pace-heat-an-emotional-comeback-win-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/themove/pace-heat-an-emotional-comeback-win-giro-d-italia-2026-themove/"
   - episode_title: Has Vingegaard Turned the Giro into a Tour Training Camp? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-ditalia-2026-themove
@@ -17136,7 +17148,7 @@ episodes_by_feed:
     episode_uid: 7a24afa3-d762-45de-8fb1-05ce687c093f
     episode_slug: has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-d-italia-2026-themove
     episode_key: has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/themove/has-vingegaard-turned-the-giro-into-a-tour-training-camp-giro-d-italia-2026-themove/"
   - episode_title: Does This Giro Still Have a Surprise Up Its Sleeve? | Giro d'Italia 2026 Week 2 Review | THEMOVE
     episode_url: https://stages.libsyn.com/does-this-giro-still-have-a-surprise-up-its-sleeve-giro-ditalia-2026-week-2-review-themove
@@ -17148,7 +17160,7 @@ episodes_by_feed:
     episode_uid: bbc367d2-95cb-492d-af07-257c0bd148ab
     episode_slug: does-this-giro-still-have-a-surprise-up-its-sleeve-giro-d-italia-2026-week-2-review-themove
     episode_key: does-this-giro-still-have-a-surprise-up-its-sleeve-giro-d-italia-2026-week-2-review-themove
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/themove/does-this-giro-still-have-a-surprise-up-its-sleeve-giro-d-italia-2026-week-2-review-themove/"
   - episode_title: A Brutal Stage Reshapes the GC | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/a-brutal-stage-reshapes-the-gc-giro-ditalia-2026-themove
@@ -17160,7 +17172,7 @@ episodes_by_feed:
     episode_uid: 934db950-2abf-4059-9d96-c5f59bd4a4a0
     episode_slug: a-brutal-stage-reshapes-the-gc-giro-d-italia-2026-themove
     episode_key: a-brutal-stage-reshapes-the-gc-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/themove/a-brutal-stage-reshapes-the-gc-giro-d-italia-2026-themove/"
   - episode_title: Is Tomorrow the Day This Giro Explodes? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/is-tomorrow-the-day-this-giro-explodes-giro-ditalia-2026-themove
@@ -17172,7 +17184,7 @@ episodes_by_feed:
     episode_uid: 62540377-69ce-407f-b05c-b0806f9ffc65
     episode_slug: is-tomorrow-the-day-this-giro-explodes-giro-d-italia-2026-themove
     episode_key: is-tomorrow-the-day-this-giro-explodes-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/themove/is-tomorrow-the-day-this-giro-explodes-giro-d-italia-2026-themove/"
   - episode_title: A Picture-Perfect Attack & the GC Tension Builds | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/a-picture-perfect-attack-the-gc-tension-builds-giro-ditalia-2026-themove
@@ -17184,7 +17196,7 @@ episodes_by_feed:
     episode_uid: 586832cd-85d8-48cc-8aca-4775bf7ed3b0
     episode_slug: a-picture-perfect-attack-the-gc-tension-builds-giro-d-italia-2026-themove
     episode_key: a-picture-perfect-attack-the-gc-tension-builds-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/themove/a-picture-perfect-attack-the-gc-tension-builds-giro-d-italia-2026-themove/"
   - episode_title: How is a Shorthanded UAE Dominating This Race? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/how-is-a-shorthanded-uae-dominating-this-race-giro-ditalia-2026-themove
@@ -17196,7 +17208,7 @@ episodes_by_feed:
     episode_uid: a584ba07-d736-4903-ab2a-b3c2b56a2c0e
     episode_slug: how-is-a-shorthanded-uae-dominating-this-race-giro-d-italia-2026-themove
     episode_key: how-is-a-shorthanded-uae-dominating-this-race-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/themove/how-is-a-shorthanded-uae-dominating-this-race-giro-d-italia-2026-themove/"
   - episode_title: Did the Giro's GC Battle Just Get Even More Interesting? | Giro d'Italia 2026 | THEMOVE+
     episode_url: https://stages.libsyn.com/did-the-giros-gc-battle-just-get-even-more-interesting-giro-ditalia-2026-themove
@@ -17208,7 +17220,7 @@ episodes_by_feed:
     episode_uid: 42a89d02-6b30-4378-8be1-5cf703a8bf6a
     episode_slug: did-the-giro-s-gc-battle-just-get-even-more-interesting-giro-d-italia-2026-themove
     episode_key: did-the-giro-s-gc-battle-just-get-even-more-interesting-giro-d-italia-2026-themove
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/themove/did-the-giro-s-gc-battle-just-get-even-more-interesting-giro-d-italia-2026-themove/"
   - episode_title: Can Felix Gall Actually Beat Vingegaard at this Giro?| Giro d'Italia 2026 Week 1 Review | THEMOVE
     episode_url: https://stages.libsyn.com/can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-ditalia-2026-week-1-review-themove
@@ -17220,20 +17232,8 @@ episodes_by_feed:
     episode_uid: 132063db-ea67-4f24-a7cb-a27c731fbdab
     episode_slug: can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove
     episode_key: can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/themove/can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove/"
-  - episode_title: Are UAE Proving You Don't Need a GC Leader? | Giro d'Italia 2026 | THEMOVE+
-    episode_url: https://stages.libsyn.com/are-uae-proving-you-dont-need-a-gc-leader-giro-ditalia-2026-themove
-    audio_url: https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/Are_UAE_Proving_You_Dont_Need_a_GC_Leader__Giro_dItalia_2026__THEMOVE_.mp3?dest-id=535577
-    published_at: '2026-05-16T19:12:00+00:00'
-    description_html: '<p>Johan Bruyneel and Spencer Martin break down Jhonatan Narváez''s win on a fast and furious Giro stage, which saw an elite breakaway go clear after an hour+ long battle to get in the move. They discuss how the win highlights Narváez''s often underrated ability, and how UAE losing their GC leader, Adam Yates, has allowed them to flex the near-absurd strength and depth of their squad. They also revisit the power numbers behind yesterday''s summit finish, how they show the evolution of the sport over the last few years, and what they expect to happen at tomorrow''s summit finish. Listen in to see what the duo thinks of the stage, how the action will play out tomorrow, who will come out on top, and which riders present the best betting value.</p><p>Become a WEDŪ Member Today to Unlock VIP Access & Benefits: <a href="https://access.wedu.team">https://access.wedu.team</a></p>'
-    description_plain: 'Johan Bruyneel and Spencer Martin break down Jhonatan Narváez''s win on a fast and furious Giro stage, which saw an elite breakaway go clear after an hour+ long battle to get in the move. They discuss how the win highlights Narváez''s often underrated ability, and how UAE losing their GC leader, Adam Yates, has allowed them to flex the near-absurd strength and depth of their squad. They also revisit the power numbers behind yesterday''s summit finish, how they show the evolution of the sport over the last few years, and what they expect to happen at tomorrow''s summit finish. Listen in to see what the duo thinks of the stage, how the action will play out tomorrow, who will come out on top, and which riders present the best betting value. Become a WEDŪ Member Today to Unlock VIP Access & Benefits: https://access.wedu.team'
-    episode_image_url: ''
-    episode_uid: b9719f07-2b1d-41f4-9987-f8239f0a30e7
-    episode_slug: are-uae-proving-you-don-t-need-a-gc-leader-giro-d-italia-2026-themove
-    episode_key: are-uae-proving-you-don-t-need-a-gc-leader-giro-d-italia-2026-themove
     legacy_numbered_slug: episode-25
-    episode_page_url: "/themove/are-uae-proving-you-don-t-need-a-gc-leader-giro-d-italia-2026-themove/"
+    episode_page_url: "/themove/can-felix-gall-actually-beat-vingegaard-at-this-giro-giro-d-italia-2026-week-1-review-themove/"
   https://rss.libsyn.com/shows/519408/destinations/4458728.xml: &56
   - episode_title: Martyn Ashton on Rideable Now and the Future of Adaptive MTB
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/martyn-ashton-on-rideable-now-and-the-future-of-adaptive-mtb
@@ -19526,6 +19526,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/huberman-lab/how-women-can-improve-their-fertility-hormone-health-dr-natalie-crawford/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &63
+  - episode_title: 'Jordskjelv-katastrofen: Dette møtte NRK i ruinene'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/7fe9583d-5ad5-46d2-a958-3d5ad586d26f_1_ID192MP3.mp3
+    published_at: '2026-07-06T05:59:00+02:00'
+    description_html: Er det fortsatt mulig å finne overlevende i Venezuela?
+    description_plain: Er det fortsatt mulig å finne overlevende i Venezuela?
+    episode_image_url: https://gfx.nrk.no/7hWGLvFwToGZ97XJldNAuQx4Pki475QlXP21ek1yFzUQ.jpg
+    episode_uid: 7fe9583d-5ad5-46d2-a958-3d5ad586d26f-1-id192mp3-mp3
+    episode_slug: jordskjelv-katastrofen-dette-motte-nrk-i-ruinene
+    episode_key: jordskjelv-katastrofen-dette-motte-nrk-i-ruinene
+    legacy_unicode_slug: jordskjelv-katastrofen-dette-møtte-nrk-i-ruinene
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/oppdatert/jordskjelv-katastrofen-dette-motte-nrk-i-ruinene/"
   - episode_title: 'Kampen vi aldri glemmer: Kan historien gjenta seg?'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/b6381c0b-180a-443c-b81c-0b180a043cfd_1_ID192MP3.mp3
@@ -19536,7 +19549,7 @@ episodes_by_feed:
     episode_uid: b6381c0b-180a-443c-b81c-0b180a043cfd-1-id192mp3-mp3
     episode_slug: kampen-vi-aldri-glemmer-kan-historien-gjenta-seg
     episode_key: kampen-vi-aldri-glemmer-kan-historien-gjenta-seg
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/oppdatert/kampen-vi-aldri-glemmer-kan-historien-gjenta-seg/"
   - episode_title: 'Tvang kvinner til sex: En telefon endret alt'
     episode_url: ''
@@ -19548,7 +19561,7 @@ episodes_by_feed:
     episode_uid: 1ca05453-77c2-470a-a054-5377c2870a90-3-id192mp3-mp3
     episode_slug: tvang-kvinner-til-sex-en-telefon-endret-alt
     episode_key: tvang-kvinner-til-sex-en-telefon-endret-alt
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/oppdatert/tvang-kvinner-til-sex-en-telefon-endret-alt/"
   - episode_title: Ivanka Trumps luksusdrøm fyrer opp Albania
     episode_url: ''
@@ -19561,7 +19574,7 @@ episodes_by_feed:
     episode_slug: ivanka-trumps-luksusdrom-fyrer-opp-albania
     episode_key: ivanka-trumps-luksusdrom-fyrer-opp-albania
     legacy_unicode_slug: ivanka-trumps-luksusdrøm-fyrer-opp-albania
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/oppdatert/ivanka-trumps-luksusdrom-fyrer-opp-albania/"
   - episode_title: 'Jobben ingen mestrer: Er Burnham britenes nye håp?'
     episode_url: ''
@@ -19574,7 +19587,7 @@ episodes_by_feed:
     episode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
     episode_key: jobben-ingen-mestrer-er-burnham-britenes-nye-hap
     legacy_unicode_slug: jobben-ingen-mestrer-er-burnham-britenes-nye-håp
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/oppdatert/jobben-ingen-mestrer-er-burnham-britenes-nye-hap/"
   - episode_title: 'Dødsgåte i Mango-dynastiet: Ble gründeren drept?'
     episode_url: ''
@@ -19587,7 +19600,7 @@ episodes_by_feed:
     episode_slug: dodsgate-i-mango-dynastiet-ble-grunderen-drept
     episode_key: dodsgate-i-mango-dynastiet-ble-grunderen-drept
     legacy_unicode_slug: dødsgåte-i-mango-dynastiet-ble-gründeren-drept
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/oppdatert/dodsgate-i-mango-dynastiet-ble-grunderen-drept/"
   - episode_title: 'Iran i VM: Storpolitisk drama'
     episode_url: ''
@@ -19599,7 +19612,7 @@ episodes_by_feed:
     episode_uid: 85b5ce4c-55fe-478f-b5ce-4c55fe178f9e-1-id192mp3-mp3
     episode_slug: iran-i-vm-storpolitisk-drama
     episode_key: iran-i-vm-storpolitisk-drama
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/oppdatert/iran-i-vm-storpolitisk-drama/"
   - episode_title: 'Katastrofebrannen i LA: Sto en 29-åring bak?'
     episode_url: ''
@@ -19612,7 +19625,7 @@ episodes_by_feed:
     episode_slug: katastrofebrannen-i-la-sto-en-29-aring-bak
     episode_key: katastrofebrannen-i-la-sto-en-29-aring-bak
     legacy_unicode_slug: katastrofebrannen-i-la-sto-en-29-åring-bak
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/oppdatert/katastrofebrannen-i-la-sto-en-29-aring-bak/"
   - episode_title: 'Dobbeltdrap i Sverige: Er nordmannen torpedo?'
     episode_url: ''
@@ -19624,7 +19637,7 @@ episodes_by_feed:
     episode_uid: 8a7b8710-2770-41d0-bb87-10277091d022-1-id192mp3-mp3
     episode_slug: dobbeltdrap-i-sverige-er-nordmannen-torpedo
     episode_key: dobbeltdrap-i-sverige-er-nordmannen-torpedo
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/oppdatert/dobbeltdrap-i-sverige-er-nordmannen-torpedo/"
   - episode_title: 'Fra kontrovers til suksess: Er dette sommerens stjerne?'
     episode_url: ''
@@ -19636,20 +19649,8 @@ episodes_by_feed:
     episode_uid: 66aa0d8a-5213-4c73-aa0d-8a52135c73a1-1-id192mp3-mp3
     episode_slug: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
     episode_key: fra-kontrovers-til-suksess-er-dette-sommerens-stjerne
-    legacy_numbered_slug: episode-09
-    episode_page_url: "/oppdatert/fra-kontrovers-til-suksess-er-dette-sommerens-stjerne/"
-  - episode_title: 'Dop, damer og hatkrim-anklager: Et bevisst spill?'
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/4f099b7a-c8ac-4368-899b-7ac8ac036847_1_ID192MP3.mp3
-    published_at: '2026-06-18T05:59:00+02:00'
-    description_html: Slik tok den kontroversielle gruppa Roc Boyz over musikknorge.
-    description_plain: Slik tok den kontroversielle gruppa Roc Boyz over musikknorge.
-    episode_image_url: https://gfx.nrk.no/KfbFn-YejD2oHIvuBVDrKQfeHQ4mLrekft58tKw31xDw.jpg
-    episode_uid: 4f099b7a-c8ac-4368-899b-7ac8ac036847-1-id192mp3-mp3
-    episode_slug: dop-damer-og-hatkrim-anklager-et-bevisst-spill
-    episode_key: dop-damer-og-hatkrim-anklager-et-bevisst-spill
     legacy_numbered_slug: episode-10
-    episode_page_url: "/oppdatert/dop-damer-og-hatkrim-anklager-et-bevisst-spill/"
+    episode_page_url: "/oppdatert/fra-kontrovers-til-suksess-er-dette-sommerens-stjerne/"
   https://sr-restored.se/rss/2071: &64
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
