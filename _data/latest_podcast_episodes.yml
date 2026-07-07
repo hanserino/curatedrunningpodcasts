@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-07T20:40:33Z'
+generated_at: '2026-07-07T21:35:29Z'
 items:
+- podcast_title: Team Macody Podcast
+  podcast_page_url: "/team-macody-podcast/"
+  cover_image: "/media/teammacody.jpeg"
+  feed_url: https://feed.podbean.com/mathiasmacody/feed.xml
+  filter_category: road norwegian
+  episode_title: Recap Jølster, Calle flyr høyt
+  episode_url: https://mathiasmacody.podbean.com/e/recap-j%c3%b8lster-calle-flyr-h%c3%b8yt/
+  audio_url: https://mcdn.podbean.com/mf/web/fxajuh8h3zafzrc4/Recap_J_lster_og_Calle_flyr_h_yt6iey1.mp3
+  published_at: '2026-07-07T17:48:01-03:00'
+  episode_key: recap-jolster-calle-flyr-hoyt
+  episode_slug: recap-jolster-calle-flyr-hoyt
+  episode_page_url: "/team-macody-podcast/recap-jolster-calle-flyr-hoyt/"
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete/"
   cover_image: "/media/uphillathlete.jpeg"
@@ -433,18 +445,6 @@ items:
   episode_key: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
   episode_slug: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
   episode_page_url: "/long-run-labs/from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will/"
-- podcast_title: Team Macody Podcast
-  podcast_page_url: "/team-macody-podcast/"
-  cover_image: "/media/teammacody.jpeg"
-  feed_url: https://feed.podbean.com/mathiasmacody/feed.xml
-  filter_category: road norwegian
-  episode_title: En uke til Jølster
-  episode_url: https://mathiasmacody.podbean.com/e/en-uke-til-j%c3%b8lster/
-  audio_url: https://mcdn.podbean.com/mf/web/jf3wpunwdygqzykk/det_tikker_mot_ferie8bat6.mp3
-  published_at: '2026-06-30T02:10:02-03:00'
-  episode_key: en-uke-til-jolster
-  episode_slug: en-uke-til-jolster
-  episode_page_url: "/team-macody-podcast/en-uke-til-jolster/"
 - podcast_title: Speed Dhiman Radio
   podcast_page_url: "/speed-dhiman-radio/"
   cover_image: "/media/speeddhimanradio.jpeg"
@@ -23411,6 +23411,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/my-first-million/steph-smith-this-opportunity-is-totally-overlooked/"
   https://feed.podbean.com/mathiasmacody/feed.xml: &76
+  - episode_title: Recap Jølster, Calle flyr høyt
+    episode_url: https://mathiasmacody.podbean.com/e/recap-j%c3%b8lster-calle-flyr-h%c3%b8yt/
+    audio_url: https://mcdn.podbean.com/mf/web/fxajuh8h3zafzrc4/Recap_J_lster_og_Calle_flyr_h_yt6iey1.mp3
+    published_at: '2026-07-07T17:48:01-03:00'
+    description_html: "<p>Det er sommerstemning i panelet. Mathias recaper Jølster Maraton og åpner opp om fremtidsplanene. Calle flyr høyt i tospann med Magnus Erstad, og spesielt Erstad har rosende ord til sin elev. Martin har besøk av Bobby Nilsen i Sømna og må takle det nordnorske været.</p>"
+    description_plain: Det er sommerstemning i panelet. Mathias recaper Jølster Maraton og åpner opp om fremtidsplanene. Calle flyr høyt i tospann med Magnus Erstad, og spesielt Erstad har rosende ord til sin elev. Martin har besøk av Bobby Nilsen i Sømna og må takle det nordnorske været.
+    episode_image_url: ''
+    episode_uid: mathiasmacody-podbean-com-53ac4d5f-1169-34cd-a09b-a2826ac53e91
+    episode_slug: recap-jolster-calle-flyr-hoyt
+    episode_key: recap-jolster-calle-flyr-hoyt
+    legacy_unicode_slug: recap-jølster-calle-flyr-høyt
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/team-macody-podcast/recap-jolster-calle-flyr-hoyt/"
   - episode_title: En uke til Jølster
     episode_url: https://mathiasmacody.podbean.com/e/en-uke-til-j%c3%b8lster/
     audio_url: https://mcdn.podbean.com/mf/web/jf3wpunwdygqzykk/det_tikker_mot_ferie8bat6.mp3
@@ -23422,7 +23435,7 @@ episodes_by_feed:
     episode_slug: en-uke-til-jolster
     episode_key: en-uke-til-jolster
     legacy_unicode_slug: en-uke-til-jølster
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/team-macody-podcast/en-uke-til-jolster/"
   - episode_title: Dr. Phil
     episode_url: https://mathiasmacody.podbean.com/e/dr-phil/
@@ -23434,7 +23447,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-e573ea50-9fd7-3fe1-a28b-7646ad519c9e
     episode_slug: dr-phil
     episode_key: dr-phil
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/team-macody-podcast/dr-phil/"
   - episode_title: Sommernattsløpet
     episode_url: https://mathiasmacody.podbean.com/e/sommernattsl%c3%b8pet/
@@ -23447,7 +23460,7 @@ episodes_by_feed:
     episode_slug: sommernattslopet
     episode_key: sommernattslopet
     legacy_unicode_slug: sommernattsløpet
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/team-macody-podcast/sommernattslopet/"
   - episode_title: Opel Zafira
     episode_url: https://mathiasmacody.podbean.com/e/opel-zafira/
@@ -23459,7 +23472,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-34f58ec5-7926-3e17-a72a-fbbc2c77dc33
     episode_slug: opel-zafira
     episode_key: opel-zafira
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/team-macody-podcast/opel-zafira/"
   - episode_title: Recap Kvalømilen
     episode_url: https://mathiasmacody.podbean.com/e/recap-kval%c3%b8milen/
@@ -23472,7 +23485,7 @@ episodes_by_feed:
     episode_slug: recap-kvalomilen
     episode_key: recap-kvalomilen
     legacy_unicode_slug: recap-kvalømilen
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/team-macody-podcast/recap-kvalomilen/"
   - episode_title: Trond Mohn Games-spesial
     episode_url: https://mathiasmacody.podbean.com/e/trond-mohn-games-spesial/
@@ -23484,7 +23497,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-b881aab8-61a8-3fe9-9414-073aa0f95c9d
     episode_slug: trond-mohn-games-spesial
     episode_key: trond-mohn-games-spesial
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/team-macody-podcast/trond-mohn-games-spesial/"
   - episode_title: 5 dager til Team Macody Kvalømilen!
     episode_url: https://mathiasmacody.podbean.com/e/7-dager-til-team-macody-kval%c3%b8milen/
@@ -23497,7 +23510,7 @@ episodes_by_feed:
     episode_slug: 5-dager-til-team-macody-kvalomilen
     episode_key: 5-dager-til-team-macody-kvalomilen
     legacy_unicode_slug: 5-dager-til-team-macody-kvalømilen
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/team-macody-podcast/5-dager-til-team-macody-kvalomilen/"
   - episode_title: Post 17.Mai-stemning, Sykdom og Tveitevannet Rundt
     episode_url: https://mathiasmacody.podbean.com/e/post-17mai-stemning-sykdom-og-tveitevannet-rundt/
@@ -23509,7 +23522,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-b378f994-8f2c-3763-9d27-6aaff40678a9
     episode_slug: post-17-mai-stemning-sykdom-og-tveitevannet-rundt
     episode_key: post-17-mai-stemning-sykdom-og-tveitevannet-rundt
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/team-macody-podcast/post-17-mai-stemning-sykdom-og-tveitevannet-rundt/"
   - episode_title: Jeppe på Bjerget
     episode_url: https://mathiasmacody.podbean.com/e/jeppe-pa-bjerget/
@@ -23522,7 +23535,7 @@ episodes_by_feed:
     episode_slug: jeppe-pa-bjerget
     episode_key: jeppe-pa-bjerget
     legacy_unicode_slug: jeppe-på-bjerget
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/team-macody-podcast/jeppe-pa-bjerget/"
   - episode_title: Hvil i fred, Rimi-Hagen
     episode_url: https://mathiasmacody.podbean.com/e/hvil-i-fred-rimi-hagen/
@@ -23534,7 +23547,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-beb5867f-bf83-300a-8620-56c8d2a962a3
     episode_slug: hvil-i-fred-rimi-hagen
     episode_key: hvil-i-fred-rimi-hagen
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/team-macody-podcast/hvil-i-fred-rimi-hagen/"
   - episode_title: Kristian Blummenfelt + APL
     episode_url: https://mathiasmacody.podbean.com/e/kristian-blummenfelt-apl/
@@ -23546,7 +23559,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-10aaae39-f344-35f3-891c-f21b28e88e5c
     episode_slug: kristian-blummenfelt-apl
     episode_key: kristian-blummenfelt-apl
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/team-macody-podcast/kristian-blummenfelt-apl/"
   - episode_title: Recap Annecy
     episode_url: https://mathiasmacody.podbean.com/e/recap-annecy/
@@ -23558,7 +23571,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-26fa746c-6c7c-3b4a-964e-cb3948562b0f
     episode_slug: recap-annecy
     episode_key: recap-annecy
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/team-macody-podcast/recap-annecy/"
   - episode_title: 1 uke til "Slaget i Alpene"
     episode_url: https://mathiasmacody.podbean.com/e/1-uke-til-slaget-i-alpene/
@@ -23570,7 +23583,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-4d17eb93-ea28-39e5-ac91-86a946b642af
     episode_slug: 1-uke-til-slaget-i-alpene
     episode_key: 1-uke-til-slaget-i-alpene
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/team-macody-podcast/1-uke-til-slaget-i-alpene/"
   - episode_title: 'Road to Rotterdam/Annecy: Ola Sakshaug'
     episode_url: https://mathiasmacody.podbean.com/e/road-to-rotterdamannecy-ola-sakshaug/
@@ -23582,7 +23595,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-dc0d646c-3d7e-3e2a-926b-fdc316dabc24
     episode_slug: road-to-rotterdam-annecy-ola-sakshaug
     episode_key: road-to-rotterdam-annecy-ola-sakshaug
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/team-macody-podcast/road-to-rotterdam-annecy-ola-sakshaug/"
   - episode_title: Påske-spesial med panelet
     episode_url: https://mathiasmacody.podbean.com/e/paske-spesial-med-panelet/
@@ -23595,7 +23608,7 @@ episodes_by_feed:
     episode_slug: paske-spesial-med-panelet
     episode_key: paske-spesial-med-panelet
     legacy_unicode_slug: påske-spesial-med-panelet
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/team-macody-podcast/paske-spesial-med-panelet/"
   - episode_title: Kvaløs Comeback
     episode_url: https://mathiasmacody.podbean.com/e/kval%c3%b8s-comeback/
@@ -23608,7 +23621,7 @@ episodes_by_feed:
     episode_slug: kvalos-comeback
     episode_key: kvalos-comeback
     legacy_unicode_slug: kvaløs-comeback
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/team-macody-podcast/kvalos-comeback/"
   - episode_title: Kvaløymilen + Bankett
     episode_url: https://mathiasmacody.podbean.com/e/kval%c3%b8ymilen-bankett/
@@ -23621,7 +23634,7 @@ episodes_by_feed:
     episode_slug: kvaloymilen-bankett
     episode_key: kvaloymilen-bankett
     legacy_unicode_slug: kvaløymilen-bankett
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/team-macody-podcast/kvaloymilen-bankett/"
   - episode_title: Det tikker mot Kvalømilen
     episode_url: https://mathiasmacody.podbean.com/e/det-tikker-mot-kval%c3%b8milen/
@@ -23634,7 +23647,7 @@ episodes_by_feed:
     episode_slug: det-tikker-mot-kvalomilen
     episode_key: det-tikker-mot-kvalomilen
     legacy_unicode_slug: det-tikker-mot-kvalømilen
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/team-macody-podcast/det-tikker-mot-kvalomilen/"
   - episode_title: Hvem er Marianne Hagen?
     episode_url: https://mathiasmacody.podbean.com/e/hvem-er-marianne-hagen/
@@ -23646,7 +23659,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-2922cc0f-266e-36ff-97c6-00e96bce00b6
     episode_slug: hvem-er-marianne-hagen
     episode_key: hvem-er-marianne-hagen
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/team-macody-podcast/hvem-er-marianne-hagen/"
   - episode_title: 97 i Vo2 max
     episode_url: https://mathiasmacody.podbean.com/e/97-i-vo2-max/
@@ -23658,7 +23671,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-a6b81a01-0951-3b81-8ecd-814385feb897
     episode_slug: 97-i-vo2-max
     episode_key: 97-i-vo2-max
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/team-macody-podcast/97-i-vo2-max/"
   - episode_title: Hall Pass
     episode_url: https://mathiasmacody.podbean.com/e/hall-pass/
@@ -23670,7 +23683,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-074cdf9f-f103-310a-875a-2134d409406d
     episode_slug: hall-pass
     episode_key: hall-pass
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/team-macody-podcast/hall-pass/"
   - episode_title: Knockin On Heavens Door
     episode_url: https://mathiasmacody.podbean.com/e/knockin-on-heavens-door/
@@ -23682,7 +23695,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-178fb4c7-22a5-3af2-bfa0-db24744574ca
     episode_slug: knockin-on-heavens-door
     episode_key: knockin-on-heavens-door
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/team-macody-podcast/knockin-on-heavens-door/"
   - episode_title: Nerdeprat med Skeltvedt
     episode_url: https://mathiasmacody.podbean.com/e/nerdeprat-med-skeltvedt/
@@ -23694,7 +23707,7 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-7504f313-941e-3962-9637-010f1700f84a
     episode_slug: nerdeprat-med-skeltvedt
     episode_key: nerdeprat-med-skeltvedt
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/team-macody-podcast/nerdeprat-med-skeltvedt/"
   - episode_title: Frukt skal ikke i ovnen
     episode_url: https://mathiasmacody.podbean.com/e/frukt-skal-ikke-i-ovnen/
@@ -23706,20 +23719,8 @@ episodes_by_feed:
     episode_uid: mathiasmacody-podbean-com-9f9f10df-1a87-3796-98e4-cf47c840888f
     episode_slug: frukt-skal-ikke-i-ovnen
     episode_key: frukt-skal-ikke-i-ovnen
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/team-macody-podcast/frukt-skal-ikke-i-ovnen/"
-  - episode_title: 'Uke 4: Vinter i Bergen'
-    episode_url: https://mathiasmacody.podbean.com/e/uke-4-vinter-i-bergen/
-    audio_url: https://mcdn.podbean.com/mf/web/hq5tsqjnqaetbash/uke_4-20269ttjx.mp3
-    published_at: '2026-01-27T04:03:55-04:00'
-    description_html: "<p>Mathias er hjemme fra Gran Canaria og kommer hjem til en grisete Air BnB. Familien har fått en ny runde med sykdom. Calle fortsetter sitt gode samarbeid med Coach Notevarp. Martin nyter de siste dagene med sol og varme i Arguineguin. Han fortsetter sin store opptur. Marte Gleditsch og Eivind Øygard kommer ut med sin historie.</p>"
-    description_plain: Mathias er hjemme fra Gran Canaria og kommer hjem til en grisete Air BnB. Familien har fått en ny runde med sykdom. Calle fortsetter sitt gode samarbeid med Coach Notevarp. Martin nyter de siste dagene med sol og varme i Arguineguin. Han fortsetter sin store opptur. Marte Gleditsch og Eivind Øygard kommer ut med sin historie.
-    episode_image_url: ''
-    episode_uid: mathiasmacody-podbean-com-a425ed58-65db-3f7b-b7d8-9df12e9b0b2b
-    episode_slug: uke-4-vinter-i-bergen
-    episode_key: uke-4-vinter-i-bergen
     legacy_numbered_slug: episode-25
-    episode_page_url: "/team-macody-podcast/uke-4-vinter-i-bergen/"
+    episode_page_url: "/team-macody-podcast/frukt-skal-ikke-i-ovnen/"
   https://feeds.megaphone.fm/li6529969937: &77
   - episode_title: 'CANNES DAY 3: The Art of Standing Out: Pablo Rochat, Sir John Hegarty & E.L.F Beauty'
     episode_url: ''
