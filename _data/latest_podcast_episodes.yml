@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-08T18:35:39Z'
+generated_at: '2026-07-08T19:38:58Z'
 items:
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty/"
@@ -30034,6 +30034,9 @@ errors:
 - podcast: Diabolic Lies
   rss_feed: https://api.substack.com/feed/podcast/2836327.rss
   error: 'OpenURI::HTTPError: 403 Forbidden'
+- podcast: The Cutting Edge
+  rss_feed: https://feeds.soundcloud.com/users/soundcloud:users:59909335/sounds.rss
+  error: 'OpenURI::HTTPError: 500 Internal Server Error'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
   error: Latest episode has no enclosure URL
