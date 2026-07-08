@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-08T21:30:16Z'
+generated_at: '2026-07-08T22:27:11Z'
 items:
+- podcast_title: Inside Running Podcast
+  podcast_page_url: "/inside-running-podcast/"
+  cover_image: "/media/insiderunning.jpeg"
+  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
+  filter_category: road track english
+  episode_title: 'Interview: Haftu Strintzos'
+  episode_url: https://insiderunningpodcast.podbean.com/e/interview-haftu-strintzos/
+  audio_url: https://mcdn.podbean.com/mf/web/b7hufthv2ws68ykk/Haftu_interview_1bnq0x.mp3
+  published_at: '2026-07-09T07:33:27+10:00'
+  episode_key: interview-haftu-strintzos
+  episode_slug: interview-haftu-strintzos
+  episode_page_url: "/inside-running-podcast/interview-haftu-strintzos/"
 - podcast_title: Territorio Trail
   podcast_page_url: "/territorio-trail/"
   cover_image: "/media/territorio-trail.jpeg"
@@ -97,18 +109,6 @@ items:
   episode_key: voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay
   episode_slug: voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay
   episode_page_url: "/uphill-athlete/voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay/"
-- podcast_title: Inside Running Podcast
-  podcast_page_url: "/inside-running-podcast/"
-  cover_image: "/media/insiderunning.jpeg"
-  feed_url: https://feed.podbean.com/insiderunningpodcast/feed.xml
-  filter_category: road track english
-  episode_title: 453 Caitlin Scott | Gold Coast Marathon | Pre Classic Diamond League
-  episode_url: https://insiderunningpodcast.podbean.com/e/453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league/
-  audio_url: https://mcdn.podbean.com/mf/web/db74wxmr3prgkd7g/Ep_453_itunes627wo.mp3
-  published_at: '2026-07-08T04:00:00+10:00'
-  episode_key: 453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league
-  episode_slug: 453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league
-  episode_page_url: "/inside-running-podcast/453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league/"
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
   cover_image: "/media/swap.jpeg"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: The Lonely Island and Seth Meyers Podcast
+  podcast_page_url: "/the-lonely-island-and-seth-meyers-podcast/"
+  cover_image: "/media/lonelyisland.jpeg"
+  feed_url: https://feeds.megaphone.fm/RGP4565962324
+  filter_category: uncategorized english
+  episode_title: Popstar 10th Anniversary Q&A
+  episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/popstar-10th-anniversary-qa
+  audio_url: https://sphinx.acast.com/p/open/s/6a47d3ed5ef16cb8040a8c6e/e/6a4ec8df1c8f5a97d8813361/media.mp3
+  published_at: '2026-07-08T22:02:07+00:00'
+  episode_key: popstar-10th-anniversary-q-a
+  episode_slug: popstar-10th-anniversary-q-a
+  episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/popstar-10th-anniversary-q-a/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -1058,18 +1070,6 @@ non_running_items:
   episode_key: 498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires
   episode_slug: 498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires
   episode_page_url: "/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires/"
-- podcast_title: The Lonely Island and Seth Meyers Podcast
-  podcast_page_url: "/the-lonely-island-and-seth-meyers-podcast/"
-  cover_image: "/media/lonelyisland.jpeg"
-  feed_url: https://feeds.megaphone.fm/RGP4565962324
-  filter_category: uncategorized english
-  episode_title: Listener Q&A Episode 13
-  episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4280069388b7a38ddb4
-  audio_url: https://sphinx.acast.com/p/open/s/6a47d3ed5ef16cb8040a8c6e/e/6568c418-7434-11f1-8615-d7763f08bdc5/media.mp3
-  published_at: '2026-06-30T07:30:00+00:00'
-  episode_key: listener-q-a-episode-13
-  episode_slug: listener-q-a-episode-13
-  episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-13/"
 - podcast_title: Offline with Jon Favreau
   podcast_page_url: "/offline-with-jon-favreau/"
   cover_image: "/media/offline.jpeg"
@@ -1469,6 +1469,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-freetrail-podcast/adam-peterman-2026-western-states-100-pre-race-interview/"
   https://feed.podbean.com/insiderunningpodcast/feed.xml: &2
+  - episode_title: 'Interview: Haftu Strintzos'
+    episode_url: https://insiderunningpodcast.podbean.com/e/interview-haftu-strintzos/
+    audio_url: https://mcdn.podbean.com/mf/web/b7hufthv2ws68ykk/Haftu_interview_1bnq0x.mp3
+    published_at: '2026-07-09T07:33:27+10:00'
+    description_html: '<p>In his first and only long-form interview to date, Brady catches up with the new Australian Marathon Record Holder, Haftu Strintzos.</p><p>Haftu recently ran 2.06:20 to win and break the course record at the Gold Coast Marathon on Sunday July the 5th.</p><p class="p1">Patreon Link: <a href=''https://www.patreon.com/insiderunningpodcast''>https://www.patreon.com/insiderunningpodcast</a></p><p class="p1">Opening and Closing Music is Undercover of my Skin by Benny Walker. <a href=''http://www.bennywalkermusic.com/''>www.bennywalkermusic.com</a></p><p class="p1">Join the conversation at: <a href=''https://www.facebook.com/insiderunningpodcast/''>https://www.facebook.com/insiderunningpodcast/</a> or follow us on Instagram: @insiderunningpodcast</p>'
+    description_plain: 'In his first and only long-form interview to date, Brady catches up with the new Australian Marathon Record Holder, Haftu Strintzos. Haftu recently ran 2.06:20 to win and break the course record at the Gold Coast Marathon on Sunday July the 5th. Patreon Link: https://www.patreon.com/insiderunningpodcast Opening and Closing Music is Undercover of my Skin by Benny Walker. www.bennywalkermusic.com Join the conversation at: https://www.facebook.com/insiderunningpodcast/ or follow us on Instagram: @insiderunningpodcast'
+    episode_image_url: ''
+    episode_uid: insiderunningpodcast-podbean-com-0178d395-cd2c-390d-a189-6a98c505b047
+    episode_slug: interview-haftu-strintzos
+    episode_key: interview-haftu-strintzos
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/inside-running-podcast/interview-haftu-strintzos/"
   - episode_title: 453 Caitlin Scott | Gold Coast Marathon | Pre Classic Diamond League
     episode_url: https://insiderunningpodcast.podbean.com/e/453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league/
     audio_url: https://mcdn.podbean.com/mf/web/db74wxmr3prgkd7g/Ep_453_itunes627wo.mp3
@@ -1479,7 +1491,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-2d549d2e-4a36-3ac5-9595-c2d27327c91c
     episode_slug: 453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league
     episode_key: 453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/inside-running-podcast/453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league/"
   - episode_title: '452: National Records at Paris DL | Calder Park Road Relays |  Sydney Elite Field Announcement'
     episode_url: https://insiderunningpodcast.podbean.com/e/452-national-records-at-paris-dl-calder-park-road-relays-%c2%a0-sydney-elite-field-announcement/
@@ -1491,7 +1503,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-0c38f0b0-01a1-337e-8393-795a2ed88f65
     episode_slug: 452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement
     episode_key: 452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/inside-running-podcast/452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement/"
   - episode_title: Shoe Geeks - June/July 2026
     episode_url: https://insiderunningpodcast.podbean.com/e/shoe-geeks-junejuly-2026/
@@ -1503,7 +1515,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-dd5de575-dc1f-3a6c-a438-f4ca9eaa4e86
     episode_slug: shoe-geeks-june-july-2026
     episode_key: shoe-geeks-june-july-2026
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/inside-running-podcast/shoe-geeks-june-july-2026/"
   - episode_title: '451: Commonwealth Games Team Announcement | NSW XC Championships | Ostrava & Hengelo'
     episode_url: https://insiderunningpodcast.podbean.com/e/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/
@@ -1515,7 +1527,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-ecbe855a-031b-3072-b2b6-92e5b5a870d7
     episode_slug: 451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo
     episode_key: 451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/inside-running-podcast/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/"
   - episode_title: 'Interview: Jess Stenson'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-jess-stenson/
@@ -1527,7 +1539,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-d78ddfab-aaeb-37af-b23a-529168dcb520
     episode_slug: interview-jess-stenson
     episode_key: interview-jess-stenson
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/inside-running-podcast/interview-jess-stenson/"
   - episode_title: '450: Oslo Diamond League | LA Grand Prix | Cruden Farm'
     episode_url: https://insiderunningpodcast.podbean.com/e/450-oslo-diamond-league-la-grand-prix-cruden-farm/
@@ -1539,7 +1551,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7b26ace9-6be4-3f70-bb0b-a43f87323529
     episode_slug: 450-oslo-diamond-league-la-grand-prix-cruden-farm
     episode_key: 450-oslo-diamond-league-la-grand-prix-cruden-farm
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/inside-running-podcast/450-oslo-diamond-league-la-grand-prix-cruden-farm/"
   - episode_title: 'Interview: Andy Buchanan'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-andy-buchanan/
@@ -1551,7 +1563,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-d09c9684-44ac-3ef9-bd4c-08c0a8520a89
     episode_slug: interview-andy-buchanan
     episode_key: interview-andy-buchanan
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/inside-running-podcast/interview-andy-buchanan/"
   - episode_title: '449: Rome & Stockholm Diamond League | Brisbane Marathon | Mackay Marina Fun Run'
     episode_url: https://insiderunningpodcast.podbean.com/e/449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run/
@@ -1563,7 +1575,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-8714a587-2469-306e-a492-5de534767cfa
     episode_slug: 449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run
     episode_key: 449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/inside-running-podcast/449-rome-stockholm-diamond-league-brisbane-marathon-mackay-marina-fun-run/"
   - episode_title: 'Interview: Ed Marks'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-ed-marks/
@@ -1575,7 +1587,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7b612fa0-1416-39a7-be83-5d67ccf50298
     episode_slug: interview-ed-marks
     episode_key: interview-ed-marks
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/inside-running-podcast/interview-ed-marks/"
   - episode_title: '448: Launceston Running Festival | Rabat Diamond League | Bendigo XCR'
     episode_url: https://insiderunningpodcast.podbean.com/e/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/
@@ -1587,7 +1599,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-5563461a-52ae-332e-ba68-70159b47ae41
     episode_slug: 448-launceston-running-festival-rabat-diamond-league-bendigo-xcr
     episode_key: 448-launceston-running-festival-rabat-diamond-league-bendigo-xcr
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/inside-running-podcast/448-launceston-running-festival-rabat-diamond-league-bendigo-xcr/"
   - episode_title: '447: Xiamen Diamond League | LA Track Fest | Cape Town Marathon'
     episode_url: https://insiderunningpodcast.podbean.com/e/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/
@@ -1599,7 +1611,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-10fb7cd9-613a-31cc-85d9-b8fca6b26fb9
     episode_slug: 447-xiamen-diamond-league-la-track-fest-cape-town-marathon
     episode_key: 447-xiamen-diamond-league-la-track-fest-cape-town-marathon
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/inside-running-podcast/447-xiamen-diamond-league-la-track-fest-cape-town-marathon/"
   - episode_title: 'Interview: Evan Jager'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-evan-jager/
@@ -1611,7 +1623,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-1e60c640-4a1e-3cd0-88bd-fa8b37bc417a
     episode_slug: interview-evan-jager
     episode_key: interview-evan-jager
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/inside-running-podcast/interview-evan-jager/"
   - episode_title: '446: Shanghai Diamond League | Sydney 10 | Jells Park Relays'
     episode_url: https://insiderunningpodcast.podbean.com/e/446-shanghai-diamond-league-sydney-10-jells-park-relays/
@@ -1623,7 +1635,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-067ad685-abce-3408-b440-c70572a9c3ab
     episode_slug: 446-shanghai-diamond-league-sydney-10-jells-park-relays
     episode_key: 446-shanghai-diamond-league-sydney-10-jells-park-relays
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/inside-running-podcast/446-shanghai-diamond-league-sydney-10-jells-park-relays/"
   - episode_title: 'Interview: Conner Mantz'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-conner-mantz/
@@ -1635,7 +1647,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-b9809831-8f66-3914-bbd6-c906869f2931
     episode_slug: interview-conner-mantz
     episode_key: interview-conner-mantz
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/inside-running-podcast/interview-conner-mantz/"
   - episode_title: '445: Lakeside:5 | Shanghai Diamond League Preview | Staying Motivated'
     episode_url: https://insiderunningpodcast.podbean.com/e/445-lakeside5-shanghai-diamond-league-preview-staying-motivated/
@@ -1647,7 +1659,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-ccbd12c7-f249-3112-948b-70ea2b37f01b
     episode_slug: 445-lakeside-5-shanghai-diamond-league-preview-staying-motivated
     episode_key: 445-lakeside-5-shanghai-diamond-league-preview-staying-motivated
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/inside-running-podcast/445-lakeside-5-shanghai-diamond-league-preview-staying-motivated/"
   - episode_title: Ellie Pashley on Winning the Ballarat Marathon
     episode_url: https://insiderunningpodcast.podbean.com/e/ellie-pashley-on-winning-the-ballarat-marathon/
@@ -1659,7 +1671,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-edfa0dc6-39d2-36d0-b3fc-5b931141c70d
     episode_slug: ellie-pashley-on-winning-the-ballarat-marathon
     episode_key: ellie-pashley-on-winning-the-ballarat-marathon
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/inside-running-podcast/ellie-pashley-on-winning-the-ballarat-marathon/"
   - episode_title: '444: Sydney Half | Adelaide Marathon | The Ideal Warm Up'
     episode_url: https://insiderunningpodcast.podbean.com/e/444-sydney-half-adelaide-marathon-the-ideal-warm-up/
@@ -1671,7 +1683,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-a4a332a4-4290-3ca8-b5fb-2044f7f747f2
     episode_slug: 444-sydney-half-adelaide-marathon-the-ideal-warm-up
     episode_key: 444-sydney-half-adelaide-marathon-the-ideal-warm-up
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/inside-running-podcast/444-sydney-half-adelaide-marathon-the-ideal-warm-up/"
   - episode_title: 'Interview: Seth O''Donnell'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-seth-odonnell/
@@ -1683,7 +1695,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-7099510d-ef1f-3cda-85d8-5a3a3d61e439
     episode_slug: interview-seth-o-donnell
     episode_key: interview-seth-o-donnell
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/inside-running-podcast/interview-seth-o-donnell/"
   - episode_title: 'Interview: Alfie Manthorpe'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-alfie-manthorpe/
@@ -1695,7 +1707,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-2962838a-4647-3177-adc5-31271949d528
     episode_slug: interview-alfie-manthorpe
     episode_key: interview-alfie-manthorpe
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/inside-running-podcast/interview-alfie-manthorpe/"
   - episode_title: 'Interview: Izzi Batt-Doyle'
     episode_url: https://insiderunningpodcast.podbean.com/e/interview-izzi-batt-doyle/
@@ -1707,7 +1719,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-9e412362-3d2b-3cc7-ae11-b0fe5449a86f
     episode_slug: interview-izzi-batt-doyle
     episode_key: interview-izzi-batt-doyle
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/inside-running-podcast/interview-izzi-batt-doyle/"
   - episode_title: '443: Ballarat, Boston & London Marathons | Run The Tan'
     episode_url: https://insiderunningpodcast.podbean.com/e/443-ballarat-boston-london-marathons-run-the-tan/
@@ -1719,7 +1731,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-b5ab25ef-569a-3a76-9ea7-fc65f7a51c02
     episode_slug: 443-ballarat-boston-london-marathons-run-the-tan
     episode_key: 443-ballarat-boston-london-marathons-run-the-tan
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/inside-running-podcast/443-ballarat-boston-london-marathons-run-the-tan/"
   - episode_title: Road to Somewhere Ep 9 featuring Phil from MeteoPace
     episode_url: https://insiderunningpodcast.podbean.com/e/road-to-somewhere-ep-9-featuring-phil-from-meteopace/
@@ -1731,7 +1743,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-64395bb0-9eda-3db9-9882-28e6388c8238
     episode_slug: road-to-somewhere-ep-9-featuring-phil-from-meteopace
     episode_key: road-to-somewhere-ep-9-featuring-phil-from-meteopace
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/inside-running-podcast/road-to-somewhere-ep-9-featuring-phil-from-meteopace/"
   - episode_title: '442: Cam Myers | Run Wollongong 5K | World Athletics blocks Turkiye transfers'
     episode_url: https://insiderunningpodcast.podbean.com/e/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/
@@ -1743,7 +1755,7 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-62da5c65-8d93-31eb-9266-cdcebaba4997
     episode_slug: 442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers
     episode_key: 442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/inside-running-podcast/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/"
   - episode_title: '441: National Track & Field Championships | Canberra Marathon | One Running Kit Review'
     episode_url: https://insiderunningpodcast.podbean.com/e/441-national-track-field-championships-canberra-marathon-one-running-kit-review/
@@ -1755,20 +1767,8 @@ episodes_by_feed:
     episode_uid: insiderunningpodcast-podbean-com-52077f79-67bc-3fa0-b3ff-823b593bcf8f
     episode_slug: 441-national-track-field-championships-canberra-marathon-one-running-kit-review
     episode_key: 441-national-track-field-championships-canberra-marathon-one-running-kit-review
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/inside-running-podcast/441-national-track-field-championships-canberra-marathon-one-running-kit-review/"
-  - episode_title: '440: Urban Traile de Lille | Vic Milers Club | Herb Hedemann'
-    episode_url: https://insiderunningpodcast.podbean.com/e/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/
-    audio_url: https://mcdn.podbean.com/mf/web/wv37kbih43iusgeh/Ep_440_itunes8781c.mp3
-    published_at: '2026-04-08T06:00:00+10:00'
-    description_html: "<p dir=\"ltr\">440: Urban Traile de Lille | Vic Milers Club | Herb Hedemann</p><p dir=\"ltr\">This episode is proudly brought to you by Precision Fuel &amp; Hydration.Chances are, you’re gearing up for a race yourself, but how dialled in is your race nutrition Precision Fuel &amp; Hydration makes it simple with a free online planner. Visit <a href='http://precisionhydration.com/'>precisionhydration.com</a> and while you are there, place your first order and get 15% off when you use the code \"IRP2026\".</p><p dir=\"ltr\">Brad gets ready for the Canberra Marathon 10k. \nJulian logs his first workout back and gets his daughter on the bike. \nBrady rides along with his son and then mentally prepares for the Newton Hills.</p><p dir=\"ltr\">Listener Offer: NordVPN has partnered with the Inside Running Podcast to offer you an amazing discount, head over to <a href='http://nordvpn.com/insiderunning'>nordvpn.com/insiderunning</a> to get a Huge Discount off your NordVPN Plan + 4 additional months on top!</p><p dir=\"ltr\">This week's running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit <a href='http://precisionhydration.com/'>precisionhydration.com</a> and get your numbers.</p><p dir=\"ltr\">Jimmy Gressier sets a European 5k Road Record of 12:51 to win the Urban Traile de Lille, ahead of Addisu Yihune and Yann Schrub. <a href='https://worldathletics.org/competition/calendar-results/results/7236174'>Results via World Athletics</a></p><p dir=\"ltr\">Tiarnan Crorken won the Mens 1500m at the final Vic Milers Club of the season in 3:44.56 to just hold off both Evander Scott and Thomas Moorcroft. It was similarly close in the Women’s 1500m with Madison King winning in 4:21.45 just ahead of Mia Jade Gray and Stephanie Kelly.</p><p dir=\"ltr\">Bob Abdelrahim won the Men’s 800m in 1:46.08 ahead of Alex Hanigan and Tom Forster while Catriona Bisset returned with a 2:03.19 in the 800m ahead of Caitlin McQuilkin-Bell and Ruby Madden. <a href='https://athsvic.resultshub.com.au/'>AthsVic Results Hub</a></p><p dir=\"ltr\">Conner Mantz withdraws from Boston Marathon. <a href='https://runningmagazine.ca/the-scene/american-record-holder-withdraws-from-boston-marathon/'>Canadian Running News</a></p><p dir=\"ltr\">Whispers are on some big names withdrawing from the Boston Marathon, then tries to discern whether the hype around Chinese shoe brands is worthwhile, as a Shoe Geeks connection takes out one of IRP’s acclaimed races.</p><p dir=\"ltr\">Moose on The Loose counts the cost of a lost sale on a public holiday</p><p dir=\"ltr\">This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. Any potential downside to doing highly dense training blocks over a short period?</p><p dir=\"ltr\">Visit<a href='http://precisionhydration.com/'> precisionhydration.com</a> for more info on hydration and fuelling products and research, and use the discount code given in the episode.</p><p dir=\"ltr\">The boys wrap up with a short preview of the National Track &amp; Field Championships.</p><p class=\"p1\">Patreon Link: <a href='https://www.patreon.com/insiderunningpodcast'>https://www.patreon.com/insiderunningpodcast</a></p><p class=\"p1\">Opening and Closing Music is Undercover of my Skin by Benny Walker. <a href='http://www.bennywalkermusic.com/'>www.bennywalkermusic.com</a></p><p class=\"p1\">Join the conversation at: <a href='https://www.facebook.com/insiderunningpodcast/'>https://www.facebook.com/insiderunningpodcast/</a></p>"
-    description_plain: '440: Urban Traile de Lille | Vic Milers Club | Herb Hedemann This episode is proudly brought to you by Precision Fuel &amp; Hydration.Chances are, you’re gearing up for a race yourself, but how dialled in is your race nutrition Precision Fuel &amp; Hydration makes it simple with a free online planner. Visit precisionhydration.com and while you are there, place your first order and get 15% off when you use the code "IRP2026". Brad gets ready for the Canberra Marathon 10k. Julian logs his first workout back and gets his daughter on the bike. Brady rides along with his son and then mentally prepares for the Newton Hills. Listener Offer: NordVPN has partnered with the Inside Running Podcast to offer you an amazing discount, head over to nordvpn.com/insiderunning to get a Huge Discount off your NordVPN Plan + 4 additional months on top! This week''s running news is presented by Precision Fuel &amp; Hydration, they make it simple with a free online planner, visit precisionhydration.com and get your numbers. Jimmy Gressier sets a European 5k Road Record of 12:51 to win the Urban Traile de Lille, ahead of Addisu Yihune and Yann Schrub. Results via World Athletics Tiarnan Crorken won the Mens 1500m at the final Vic Milers Club of the season in 3:44.56 to just hold off both Evander Scott and Thomas Moorcroft. It was similarly close in the Women’s 1500m with Madison King winning in 4:21.45 just ahead of Mia Jade Gray and Stephanie Kelly. Bob Abdelrahim won the Men’s 800m in 1:46.08 ahead of Alex Hanigan and Tom Forster while Catriona Bisset returned with a 2:03.19 in the 800m ahead of Caitlin McQuilkin-Bell and Ruby Madden. AthsVic Results Hub Conner Mantz withdraws from Boston Marathon. Canadian Running News Whispers are on some big names withdrawing from the Boston Marathon, then tries to discern whether the hype around Chinese shoe brands is worthwhile, as a Shoe Geeks connection takes out one of IRP’s acclaimed races. Moose on The Loose counts the cost of a lost sale on a public holiday This episode’s Listener Q’s/Training Talk segment is proudly brought to you by Precision Fuel &amp; Hydration. Any potential downside to doing highly dense training blocks over a short period? Visit precisionhydration.com for more info on hydration and fuelling products and research, and use the discount code given in the episode. The boys wrap up with a short preview of the National Track &amp; Field Championships. Patreon Link: https://www.patreon.com/insiderunningpodcast Opening and Closing Music is Undercover of my Skin by Benny Walker. www.bennywalkermusic.com Join the conversation at: https://www.facebook.com/insiderunningpodcast/'
-    episode_image_url: ''
-    episode_uid: insiderunningpodcast-podbean-com-30d3d4ed-c3cf-3037-99e6-021d09771d3f
-    episode_slug: 440-urban-traile-de-lille-vic-milers-club-herb-hedemann
-    episode_key: 440-urban-traile-de-lille-vic-milers-club-herb-hedemann
     legacy_numbered_slug: episode-25
-    episode_page_url: "/inside-running-podcast/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/"
+    episode_page_url: "/inside-running-podcast/441-national-track-field-championships-canberra-marathon-one-running-kit-review/"
   https://anchor.fm/s/101e74634/podcast/rss: &3
   - episode_title: The Story Behind Salomon TV, with Dean Leslie
     episode_url: https://podcasters.spotify.com/pod/show/jeff-pelletier5/episodes/The-Story-Behind-Salomon-TV--with-Dean-Leslie-e3iagci
@@ -16496,6 +16496,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/that-triathlon-show/long-intervals-optimised-for-time-near-vo2max-and-a-classic-norwegian-threshold-session/"
   https://feeds.megaphone.fm/rgp4565962324: &54
+  - episode_title: Popstar 10th Anniversary Q&A
+    episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/popstar-10th-anniversary-qa
+    audio_url: https://sphinx.acast.com/p/open/s/6a47d3ed5ef16cb8040a8c6e/e/6a4ec8df1c8f5a97d8813361/media.mp3
+    published_at: '2026-07-08T22:02:07+00:00'
+    description_html: '<p>On this episode of The Lonely Island and Seth Meyers Podcast, we''ve got a special one this week: a live Q&amp;A recorded at the American Cinematheque''s 10th anniversary screening of Popstar: Never Stop Never Stopping at the Egyptian Theatre in Hollywood. It''s a solo Akiva episode, which makes sense, because he’s the only one not too good for it. Moderating duties go to Daniel Scheinert (of the Daniels, and noted theater rake expert), who comes armed with some very important questions sent in by Andy about martinis and whether Akiva is finally ready to apologize for his Sergio takes. He is not. Kiv gets into shooting a five-hour movie in 27 days, the Taylor Swift joke that bombed in every test screening until it didn''t, the cut songs from the movie. Plus the reshoot the guys literally paid for out of pocket. It involves a penis. Enjoy!</p><p>Special thanks, again, to American Cinematheque and the Egyptian Theatre for putting on the event!</p><p>Popstar: Never Stop Stopping Soundtrack | https://spti.fi/hans</p><p>conner4real - "F**k Off" | https://www.youtube.com/watch?v=t3jKtjgRZQY</p><p>Mona Lisa | https://www.youtube.com/watch?v=0D3NN6M_DYk</p><p>Should I Move? | https://www.youtube.com/watch?v=nlxxA-ymMkc</p><p>Send us an email: thelonelyislandpod@gmail.com</p><p>Send us a voice note: https://www.speakpipe.com/thelonelyisland</p><p>Send us stuff:</p><p>P.O. Box 4024</p><p>New York, NY 10185</p><p>Photos and everything else can be found by following us on Instagram @lonelymeyerspod</p><p>(Not all the clips we mention are available online; some never even aired.)</p><p>If you want to see more photos and clips follow us on Instagram @lonelymeyerspod. Send us an email! thelonelyislandpod@gmail.com</p><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
+    description_plain: 'On this episode of The Lonely Island and Seth Meyers Podcast, we''ve got a special one this week: a live Q&amp;A recorded at the American Cinematheque''s 10th anniversary screening of Popstar: Never Stop Never Stopping at the Egyptian Theatre in Hollywood. It''s a solo Akiva episode, which makes sense, because he’s the only one not too good for it. Moderating duties go to Daniel Scheinert (of the Daniels, and noted theater rake expert), who comes armed with some very important questions sent in by Andy about martinis and whether Akiva is finally ready to apologize for his Sergio takes. He is not. Kiv gets into shooting a five-hour movie in 27 days, the Taylor Swift joke that bombed in every test screening until it didn''t, the cut songs from the movie. Plus the reshoot the guys literally paid for out of pocket. It involves a penis. Enjoy! Special thanks, again, to American Cinematheque and the Egyptian Theatre for putting on the event! Popstar: Never Stop Stopping Soundtrack | https://spti.fi/hans conner4real - "F**k Off" | https://www.youtube.com/watch?v=t3jKtjgRZQY Mona Lisa | https://www.youtube.com/watch?v=0D3NN6M_DYk Should I Move? | https://www.youtube.com/watch?v=nlxxA-ymMkc Send us an email: thelonelyislandpod@gmail.com Send us a voice note: https://www.speakpipe.com/thelonelyisland Send us stuff: P.O. Box 4024 New York, NY 10185 Photos and everything else can be found by following us on Instagram @lonelymeyerspod (Not all the clips we mention are available online; some never even aired.) If you want to see more photos and clips follow us on Instagram @lonelymeyerspod. Send us an email! thelonelyislandpod@gmail.com Hosted on Acast. See acast.com/privacy for more information.'
+    episode_image_url: https://assets.pippa.io/shows/6a47d3ed5ef16cb8040a8c6e/show-cover.jpg
+    episode_uid: 6a4ec8df1c8f5a97d8813361
+    episode_slug: popstar-10th-anniversary-q-a
+    episode_key: popstar-10th-anniversary-q-a
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/popstar-10th-anniversary-q-a/"
   - episode_title: Listener Q&A Episode 13
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4280069388b7a38ddb4
     audio_url: https://sphinx.acast.com/p/open/s/6a47d3ed5ef16cb8040a8c6e/e/6568c418-7434-11f1-8615-d7763f08bdc5/media.mp3
@@ -16506,7 +16518,7 @@ episodes_by_feed:
     episode_uid: 6568c418-7434-11f1-8615-d7763f08bdc5
     episode_slug: listener-q-a-episode-13
     episode_key: listener-q-a-episode-13
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-13/"
   - episode_title: I Just Had Sex (Part 2)
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d41d2d7a15a979a00a8d
@@ -16518,7 +16530,7 @@ episodes_by_feed:
     episode_uid: f6e62928-6fe6-11f1-aa69-fbb1e0ca78bc
     episode_slug: i-just-had-sex-part-2
     episode_key: i-just-had-sex-part-2
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/i-just-had-sex-part-2/"
   - episode_title: I Just Had Sex (Part 1)
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4335ef16cb8040aa865
@@ -16530,7 +16542,7 @@ episodes_by_feed:
     episode_uid: 28882d2c-6b38-11f1-a16c-afdd53a1aaac
     episode_slug: i-just-had-sex-part-1
     episode_key: i-just-had-sex-part-1
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/i-just-had-sex-part-1/"
   - episode_title: Stumblin'
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4408890f0eef31fdbb3
@@ -16542,7 +16554,7 @@ episodes_by_feed:
     episode_uid: 8902215c-646d-11f1-8ecb-0bf159384e18
     episode_slug: stumblin
     episode_key: stumblin
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/stumblin/"
   - episode_title: A Sleepy Lil Ep
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d42cecd12391434355e3
@@ -16554,7 +16566,7 @@ episodes_by_feed:
     episode_uid: ced8aca8-5ed4-11f1-b9c7-e3f0a5ec4388
     episode_slug: a-sleepy-lil-ep
     episode_key: a-sleepy-lil-ep
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/a-sleepy-lil-ep/"
   - episode_title: Party at Mr. Bernard's
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d41304fac73b24c219ab
@@ -16566,7 +16578,7 @@ episodes_by_feed:
     episode_uid: 932ad466-59f6-11f1-b795-9f76d64b45a3
     episode_slug: party-at-mr-bernard-s
     episode_key: party-at-mr-bernard-s
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/party-at-mr-bernard-s/"
   - episode_title: Episode 112
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4330069388b7a38e178
@@ -16578,7 +16590,7 @@ episodes_by_feed:
     episode_uid: 50ead84c-5467-11f1-955e-23ac63dbde4c
     episode_slug: episode-112
     episode_key: episode-112
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/episode-112/"
   - episode_title: We Like Sportz
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4448890f0eef31fdc66
@@ -16590,7 +16602,7 @@ episodes_by_feed:
     episode_uid: eb139d5e-4e4b-11f1-8ecc-27cd163137f7
     episode_slug: we-like-sportz
     episode_key: we-like-sportz
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/we-like-sportz/"
   - episode_title: What Was That?
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d40a2d7a15a979a004ec
@@ -16602,7 +16614,7 @@ episodes_by_feed:
     episode_uid: 1ea2fda4-482a-11f1-9380-a7d89edb465a
     episode_slug: what-was-that
     episode_key: what-was-that
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/what-was-that/"
   - episode_title: Listener Q&A Episode 12
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d43e04fac73b24c22a55
@@ -16614,7 +16626,7 @@ episodes_by_feed:
     episode_uid: bbf0c8a4-434b-11f1-9ef2-331f80f24613
     episode_slug: listener-q-a-episode-12
     episode_key: listener-q-a-episode-12
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-12/"
   - episode_title: Over Your Dead Body
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4428890f0eef31fdbf4
@@ -16626,7 +16638,7 @@ episodes_by_feed:
     episode_uid: 16597104-3df4-11f1-b42e-c34316589f7f
     episode_slug: over-your-dead-body
     episode_key: over-your-dead-body
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/over-your-dead-body/"
   - episode_title: 'Shy Ronnie 2: Ronnie & Clyde'
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4d42d7a15a979a05643
@@ -16638,7 +16650,7 @@ episodes_by_feed:
     episode_uid: 91905002-3932-11f1-a8e0-6fa445343a7c
     episode_slug: shy-ronnie-2-ronnie-clyde
     episode_key: shy-ronnie-2-ronnie-clyde
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/shy-ronnie-2-ronnie-clyde/"
   - episode_title: I Broke My Arm
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4140069388b7a38d3c6
@@ -16650,7 +16662,7 @@ episodes_by_feed:
     episode_uid: 43e06984-32f5-11f1-bae8-af5289c7c464
     episode_slug: i-broke-my-arm
     episode_key: i-broke-my-arm
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/i-broke-my-arm/"
   - episode_title: Rescue Dog 3D & Relaxation Therapy
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d41cecd12391434350e4
@@ -16662,7 +16674,7 @@ episodes_by_feed:
     episode_uid: 147ac250-2e10-11f1-a43a-2fcc130b5130
     episode_slug: rescue-dog-3d-relaxation-therapy
     episode_key: rescue-dog-3d-relaxation-therapy
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/rescue-dog-3d-relaxation-therapy/"
   - episode_title: Boogerman Part 1&2
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d44fecd1239143439249
@@ -16674,7 +16686,7 @@ episodes_by_feed:
     episode_uid: fa1de020-2952-11f1-a2b5-63cc056c1ccb
     episode_slug: boogerman-part-1-2
     episode_key: boogerman-part-1-2
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/boogerman-part-1-2/"
   - episode_title: The Taccones Live at SXSW
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d47d04fac73b24c24891
@@ -16686,7 +16698,7 @@ episodes_by_feed:
     episode_uid: 1553aaa8-230b-11f1-9b3b-074613751b3d
     episode_slug: the-taccones-live-at-sxsw
     episode_key: the-taccones-live-at-sxsw
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-taccones-live-at-sxsw/"
   - episode_title: The Heist & Ka-Blamo!
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d40decd1239143434c8a
@@ -16698,7 +16710,7 @@ episodes_by_feed:
     episode_uid: 8570a204-1c3b-11f1-8a03-e3e0c608529b
     episode_slug: the-heist-ka-blamo
     episode_key: the-heist-ka-blamo
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/the-heist-ka-blamo/"
   - episode_title: Episode (Channel) 101
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d45504fac73b24c23a8f
@@ -16710,7 +16722,7 @@ episodes_by_feed:
     episode_uid: d73e1070-16b5-11f1-918f-1b3f153fefe8
     episode_slug: episode-channel-101
     episode_key: episode-channel-101
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/episode-channel-101/"
   - episode_title: 'Episode 100: Turtleneck & Chain Part 2'
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d46d8890f0eef31fe95c
@@ -16722,7 +16734,7 @@ episodes_by_feed:
     episode_uid: db03edf6-1138-11f1-b7c0-5b4907291ee9
     episode_slug: episode-100-turtleneck-chain-part-2
     episode_key: episode-100-turtleneck-chain-part-2
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/episode-100-turtleneck-chain-part-2/"
   - episode_title: Just 2 Guyz
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4535ef16cb8040ab17f
@@ -16734,7 +16746,7 @@ episodes_by_feed:
     episode_uid: 6569e0ae-0c25-11f1-beda-cbea782b9ce0
     episode_slug: just-2-guyz
     episode_key: just-2-guyz
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/just-2-guyz/"
   - episode_title: Talkin’ Ads/Turtleneck & Chain Part 1
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d42aecd12391434354d3
@@ -16746,7 +16758,7 @@ episodes_by_feed:
     episode_uid: e0cfc332-06f1-11f1-8fca-23ae92726039
     episode_slug: talkin-ads-turtleneck-chain-part-1
     episode_key: talkin-ads-turtleneck-chain-part-1
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/talkin-ads-turtleneck-chain-part-1/"
   - episode_title: Great Day
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d4508890f0eef31fdfd0
@@ -16758,7 +16770,7 @@ episodes_by_feed:
     episode_uid: 80334360-0092-11f1-9bee-e7c8be9a36f3
     episode_slug: great-day
     episode_key: great-day
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/great-day/"
   - episode_title: Listener Q&A Episode 11 aka Snow Day
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d49c5ef16cb8040ad4b4
@@ -16770,7 +16782,7 @@ episodes_by_feed:
     episode_uid: 7b77370a-fbfb-11f0-a212-97e1c53f72fa
     episode_slug: listener-q-a-episode-11-aka-snow-day
     episode_key: listener-q-a-episode-11-aka-snow-day
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-11-aka-snow-day/"
   - episode_title: Listener Q&A Episode 10
     episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d41becd12391434350ab
@@ -16782,20 +16794,8 @@ episodes_by_feed:
     episode_uid: 22da2a34-f5b2-11f0-af68-ab4e0448b002
     episode_slug: listener-q-a-episode-10
     episode_key: listener-q-a-episode-10
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-10/"
-  - episode_title: Golden Girls Theme
-    episode_url: https://shows.acast.com/the-lonely-island-and-seth-meyers-podcast/episodes/6a47d449ecd12391434390a0
-    audio_url: https://sphinx.acast.com/p/open/s/6a47d3ed5ef16cb8040a8c6e/e/17de0e06-f036-11f0-8d8a-5f4c6fe6132a/media.mp3
-    published_at: '2026-01-13T08:30:00+00:00'
-    description_html: '<p>This week on The Lonely Island and Seth Meyers Podcast, the guys are back from the holidays and discussing a short they describe as “okay.” It’s Golden Girls’ Theme from Season 35, Episode 21 on May 8, 2010 featuring the entire cast of SNL (plus some guests and definitely not Seth) and host, Betty White. Before they get into that though, they catch up, respond to some comments and thoughts from over the break, and generally waste time to avoid talking about this short. But they’re happy to be back podcasting!Akiva at the Critics Choice Awards righteous kill | https://www.instagram.com/reels/DTHeRbWkdkS/Seth Burning Andy on Late Night | https://youtu.be/Ua1oGgSWKJw?si=w7_cT8HtGjJb2Xt8&amp;t=471MacGruber: Grandma | https://www.youtube.com/watch?v=tScJ1ik6peIScared Straight: Bullying with Betty White | https://www.youtube.com/watch?v=H0HO07pbRe8Send us an email: thelonelyislandpod@gmail.comSend us a voice note: https://www.speakpipe.com/thelonelyislandSend us stuff: P.O. Box 4024New York, NY 10185Photos and everything else can be found by following us on Instagram @lonelymeyerspod</p><p>Support our sponsors:</p><p>ArticleThanks to Article for sponsoring this podcast! Article is offering our listeners $50 off your first purchase of $100 or more. To claim, visit <a href="https://www.article.com/discount/island">https://www.article.com/discount/island</a> and the discount will be automatically applied at checkout.CoopLet Coop help you show up feeling rejuvenated and ready to go. Get 20% off your first order and try Coop risk-free with a 100-night sleep-better guarantee at <a href="https://coopsleepgoods.com/ISLAND">https://coopsleepgoods.com/ISLAND</a>Shopify In 2026, stop waiting and start selling with Shopify.   Sign up for your one-dollar-per-month trial and start selling today at <a href="https://shopify.com/lonelyisland">https://shopify.com/lonelyisland</a>BombasHead over to <a href="https://Bombas.com/island">https://Bombas.com/island</a> and use code island for 20% off your first purchase. FabricJoin the thousands of parents who trust Fabric to help protect their family. Apply today in just minutes at <a href="https://meetfabric.com/ISLAND">https://meetfabric.com/ISLAND</a>Policies issued by Western-Southern Life Assurance Company. Not available in certain states. Prices subject to underwriting and health questions.</p><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
-    description_plain: 'This week on The Lonely Island and Seth Meyers Podcast, the guys are back from the holidays and discussing a short they describe as “okay.” It’s Golden Girls’ Theme from Season 35, Episode 21 on May 8, 2010 featuring the entire cast of SNL (plus some guests and definitely not Seth) and host, Betty White. Before they get into that though, they catch up, respond to some comments and thoughts from over the break, and generally waste time to avoid talking about this short. But they’re happy to be back podcasting!Akiva at the Critics Choice Awards righteous kill | https://www.instagram.com/reels/DTHeRbWkdkS/Seth Burning Andy on Late Night | https://youtu.be/Ua1oGgSWKJw?si=w7_cT8HtGjJb2Xt8&amp;t=471MacGruber: Grandma | https://www.youtube.com/watch?v=tScJ1ik6peIScared Straight: Bullying with Betty White | https://www.youtube.com/watch?v=H0HO07pbRe8Send us an email: thelonelyislandpod@gmail.comSend us a voice note: https://www.speakpipe.com/thelonelyislandSend us stuff: P.O. Box 4024New York, NY 10185Photos and everything else can be found by following us on Instagram @lonelymeyerspod Support our sponsors: ArticleThanks to Article for sponsoring this podcast! Article is offering our listeners $50 off your first purchase of $100 or more. To claim, visit https://www.article.com/discount/island and the discount will be automatically applied at checkout.CoopLet Coop help you show up feeling rejuvenated and ready to go. Get 20% off your first order and try Coop risk-free with a 100-night sleep-better guarantee at https://coopsleepgoods.com/ISLAND Shopify In 2026, stop waiting and start selling with Shopify. Sign up for your one-dollar-per-month trial and start selling today at https://shopify.com/lonelyisland BombasHead over to https://Bombas.com/island and use code island for 20% off your first purchase. FabricJoin the thousands of parents who trust Fabric to help protect their family. Apply today in just minutes at https://meetfabric.com/ISLAND Policies issued by Western-Southern Life Assurance Company. Not available in certain states. Prices subject to underwriting and health questions. Hosted on Acast. See acast.com/privacy for more information.'
-    episode_image_url: https://assets.pippa.io/shows/6a47d3ed5ef16cb8040a8c6e/show-cover.jpg
-    episode_uid: 17de0e06-f036-11f0-8d8a-5f4c6fe6132a
-    episode_slug: golden-girls-theme
-    episode_key: golden-girls-theme
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/golden-girls-theme/"
+    episode_page_url: "/the-lonely-island-and-seth-meyers-podcast/listener-q-a-episode-10/"
   https://rss.libsyn.com/shows/101338/destinations/535577.xml: &55
   - episode_title: Will We See GC Fireworks on the Tourmalet? | Tour de France 2026 Stage 5 | THEMOVE+
     episode_url: https://stages.libsyn.com/will-we-see-gc-fireworks-on-the-tourmalet-tour-de-france-2026-stage-5-themove
