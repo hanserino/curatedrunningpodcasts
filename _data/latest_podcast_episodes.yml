@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-08T07:52:28Z'
+generated_at: '2026-07-08T08:57:12Z'
 items:
 - podcast_title: Spring Snyggt
   podcast_page_url: "/spring-snyggt/"
@@ -770,6 +770,18 @@ non_running_items:
   episode_key: sebastian-siemiatkowski
   episode_slug: sebastian-siemiatkowski
   episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
+- podcast_title: When We Were Kings
+  podcast_page_url: "/when-we-were-kings/"
+  cover_image: "/media/whenwewerekings.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
+  filter_category: uncategorized swedish
+  episode_title: 'Vilodag 1: Giants Stadium, Studio 54 och CBGB'
+  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/vilodag-1-giants-stadium-studio-54-och-cbgb
+  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a4e066d42872185cc21247e/media.mp3
+  published_at: '2026-07-08T08:12:29+00:00'
+  episode_key: vilodag-1-giants-stadium-studio-54-och-cbgb
+  episode_slug: vilodag-1-giants-stadium-studio-54-och-cbgb
+  episode_page_url: "/when-we-were-kings/vilodag-1-giants-stadium-studio-54-och-cbgb/"
 - podcast_title: Normal Gossip
   podcast_page_url: "/normal-gossip/"
   cover_image: "/media/normalgossip.jpeg"
@@ -842,18 +854,6 @@ non_running_items:
   episode_key: enormocast-326-julia-cassou-telling-true-stories
   episode_slug: enormocast-326-julia-cassou-telling-true-stories
   episode_page_url: "/enormocast/enormocast-326-julia-cassou-telling-true-stories/"
-- podcast_title: When We Were Kings
-  podcast_page_url: "/when-we-were-kings/"
-  cover_image: "/media/whenwewerekings.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
-  filter_category: uncategorized swedish
-  episode_title: 'Matchdag 27: När kartellen välkomnade det Argentinska domarteamet till Medellin'
-  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarte
-  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a4cce49c4772b27e8912430/media.mp3
-  published_at: '2026-07-07T10:00:41+00:00'
-  episode_key: matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin
-  episode_slug: matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin
-  episode_page_url: "/when-we-were-kings/matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin/"
 - podcast_title: Pivot
   podcast_page_url: "/pivot/"
   cover_image: "/media/pivot.jpeg"
@@ -27110,6 +27110,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/717-den-nya-oredans-tid/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &90
+  - episode_title: 'Vilodag 1: Giants Stadium, Studio 54 och CBGB'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/vilodag-1-giants-stadium-studio-54-och-cbgb
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a4e066d42872185cc21247e/media.mp3
+    published_at: '2026-07-08T08:12:29+00:00'
+    description_html: Detta är ett urklipp från avsnitten 103. New York Cosmos 1977. För att få hela berättelsen. Lyssna på avsnitten i sin helhet.<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: Detta är ett urklipp från avsnitten 103. New York Cosmos 1977. För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a4e066d42872185cc21247e
+    episode_slug: vilodag-1-giants-stadium-studio-54-och-cbgb
+    episode_key: vilodag-1-giants-stadium-studio-54-och-cbgb
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/vilodag-1-giants-stadium-studio-54-och-cbgb/"
   - episode_title: 'Matchdag 27: När kartellen välkomnade det Argentinska domarteamet till Medellin'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarte
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a4cce49c4772b27e8912430/media.mp3
@@ -27121,7 +27133,7 @@ episodes_by_feed:
     episode_slug: matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin
     episode_key: matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin
     legacy_unicode_slug: matchdag-27-när-kartellen-välkomnade-det-argentinska-domarteamet-till-medellin
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin/"
   - episode_title: 'Matchdag 26: När Florentino Pérez tog Luís Figo till Real Madrid'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-mad
@@ -27134,7 +27146,7 @@ episodes_by_feed:
     episode_slug: matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-madrid
     episode_key: matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-madrid
     legacy_unicode_slug: matchdag-26-när-florentino-pérez-tog-luís-figo-till-real-madrid
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-madrid/"
   - episode_title: 'Matchdag 25: Norge - Brasilien 1998 - Miraklet i Marseille'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-25-norge-brasilien-1998-miraklet-i-marseille
@@ -27146,7 +27158,7 @@ episodes_by_feed:
     episode_uid: 6a4a32088890f0eef3c72877
     episode_slug: matchdag-25-norge-brasilien-1998-miraklet-i-marseille
     episode_key: matchdag-25-norge-brasilien-1998-miraklet-i-marseille
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/matchdag-25-norge-brasilien-1998-miraklet-i-marseille/"
   - episode_title: 'Matchdag 24: Copa Libertadores finalen 2014'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-24-san-lorenzo-vs-club-nacional-copa-libertadores-2
@@ -27158,7 +27170,7 @@ episodes_by_feed:
     episode_uid: 6a48c14e04fac73b240c7b52
     episode_slug: matchdag-24-copa-libertadores-finalen-2014
     episode_key: matchdag-24-copa-libertadores-finalen-2014
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-24-copa-libertadores-finalen-2014/"
   - episode_title: 'Matchdag 23: Jackson Irvine - Fußballgott'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-23-jackson-irvine-fuballgott
@@ -27171,7 +27183,7 @@ episodes_by_feed:
     episode_slug: matchdag-23-jackson-irvine-fussballgott
     episode_key: matchdag-23-jackson-irvine-fussballgott
     legacy_unicode_slug: matchdag-23-jackson-irvine-fußballgott
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-23-jackson-irvine-fussballgott/"
   - episode_title: 'Matchdag 22: Jesus Gil och La noches de tal y tal'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
@@ -27183,7 +27195,7 @@ episodes_by_feed:
     episode_uid: 6a463a47a2ba2718319f6139
     episode_slug: matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
     episode_key: matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal/"
   - episode_title: 'Matchdag 21: Paul Gascoignes VM 1990'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-21-paul-gascoignes-vm-1990
@@ -27195,7 +27207,7 @@ episodes_by_feed:
     episode_uid: 6a44ccb9d668ce458534b743
     episode_slug: matchdag-21-paul-gascoignes-vm-1990
     episode_key: matchdag-21-paul-gascoignes-vm-1990
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/matchdag-21-paul-gascoignes-vm-1990/"
   - episode_title: 'Matchdag 20: Artisten Erik Mykland'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-artisten-erik-mykland
@@ -27207,7 +27219,7 @@ episodes_by_feed:
     episode_uid: 6a4393b481f451b905505fab
     episode_slug: matchdag-20-artisten-erik-mykland
     episode_key: matchdag-20-artisten-erik-mykland
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-20-artisten-erik-mykland/"
   - episode_title: 'Matchdag 20: Mohammed VI Football Academy'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-mohammed-vi-football-academy
@@ -27219,7 +27231,7 @@ episodes_by_feed:
     episode_uid: 6a42319426d5a6687a67502c
     episode_slug: matchdag-20-mohammed-vi-football-academy
     episode_key: matchdag-20-mohammed-vi-football-academy
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-20-mohammed-vi-football-academy/"
   - episode_title: 'Matchdag 19: Ronaldinho 2010'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-19-ronaldinho-2010
@@ -27231,7 +27243,7 @@ episodes_by_feed:
     episode_uid: 6a4226a9cb67fc75eaaac835
     episode_slug: matchdag-19-ronaldinho-2010
     episode_key: matchdag-19-ronaldinho-2010
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-19-ronaldinho-2010/"
   - episode_title: 'Matchdag 18: Revolutionären Lucas Radebe'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-18-revolutionaren-lucas-radebe
@@ -27244,7 +27256,7 @@ episodes_by_feed:
     episode_slug: matchdag-18-revolutionaren-lucas-radebe
     episode_key: matchdag-18-revolutionaren-lucas-radebe
     legacy_unicode_slug: matchdag-18-revolutionären-lucas-radebe
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/matchdag-18-revolutionaren-lucas-radebe/"
   - episode_title: 'Matchdag 17: Bokšić, Mihajlović och Arkan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-17-boki-mihajlovi-och-arkan
@@ -27257,7 +27269,7 @@ episodes_by_feed:
     episode_slug: matchdag-17-boksic-mihajlovic-och-arkan
     episode_key: matchdag-17-boksic-mihajlovic-och-arkan
     legacy_unicode_slug: matchdag-17-bokšić-mihajlović-och-arkan
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/matchdag-17-boksic-mihajlovic-och-arkan/"
   - episode_title: 'Matchdag 16: ”Kniksen” Jensen och ett bedrövligt Håkan-quiz'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
@@ -27270,7 +27282,7 @@ episodes_by_feed:
     episode_slug: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     episode_key: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     legacy_unicode_slug: matchdag-16-kniksen-jensen-och-ett-bedrövligt-håkan-quiz
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz/"
   - episode_title: 'Matchdag 15: Operation Ökenstorm och Eriks kärlek till För-EM 1991'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em
@@ -27283,7 +27295,7 @@ episodes_by_feed:
     episode_slug: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     episode_key: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     legacy_unicode_slug: matchdag-15-operation-ökenstorm-och-eriks-kärlek-till-för-em-1991
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991/"
   - episode_title: 'Matchdag 14: När Djurgården scoutade i DR Kongo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
@@ -27296,7 +27308,7 @@ episodes_by_feed:
     episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     legacy_unicode_slug: matchdag-14-när-djurgården-scoutade-i-dr-kongo
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
   - episode_title: 'Matchdag 13: Den ghananska hardcore-coachen Herbert Addo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
@@ -27308,7 +27320,7 @@ episodes_by_feed:
     episode_uid: 6a3a43ee00998a7fc8913318
     episode_slug: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
     episode_key: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/"
   - episode_title: 'Matchdag 12: USA:s invasion  av Irak 2003 och Uday Hussein'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-12-usas-invasion-av-irak-2003-och-uday-hussein
@@ -27320,7 +27332,7 @@ episodes_by_feed:
     episode_uid: 6a3933089c43d66bc008df81
     episode_slug: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
     episode_key: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
   - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
@@ -27333,7 +27345,7 @@ episodes_by_feed:
     episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
     legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
   - episode_title: 'Matchdag 10: Marco Van Bastens kamp för VM 1994'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-10-marco-van-bastens-kamp-for-vm-1994
@@ -27346,7 +27358,7 @@ episodes_by_feed:
     episode_slug: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     episode_key: matchdag-10-marco-van-bastens-kamp-for-vm-1994
     legacy_unicode_slug: matchdag-10-marco-van-bastens-kamp-för-vm-1994
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/matchdag-10-marco-van-bastens-kamp-for-vm-1994/"
   - episode_title: 'Matchdag 9: NASL - Den första amerikanska proffsligan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-9-nasl-den-forsta-amerikanska-proffsligan
@@ -27359,7 +27371,7 @@ episodes_by_feed:
     episode_slug: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     episode_key: matchdag-9-nasl-den-forsta-amerikanska-proffsligan
     legacy_unicode_slug: matchdag-9-nasl-den-första-amerikanska-proffsligan
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/matchdag-9-nasl-den-forsta-amerikanska-proffsligan/"
   - episode_title: 'Matchdag 8: Zemans fritänkande uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-8-zemans-fritankande-uppvaxt
@@ -27372,7 +27384,7 @@ episodes_by_feed:
     episode_slug: matchdag-8-zemans-fritankande-uppvaxt
     episode_key: matchdag-8-zemans-fritankande-uppvaxt
     legacy_unicode_slug: matchdag-8-zemans-fritänkande-uppväxt
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/matchdag-8-zemans-fritankande-uppvaxt/"
   - episode_title: 'Matchdag 7: Blažević, Boban och Modric'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-7-blaevi-boban-och-modric
@@ -27385,7 +27397,7 @@ episodes_by_feed:
     episode_slug: matchdag-7-blazevic-boban-och-modric
     episode_key: matchdag-7-blazevic-boban-och-modric
     legacy_unicode_slug: matchdag-7-blažević-boban-och-modric
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/matchdag-7-blazevic-boban-och-modric/"
   - episode_title: 'Matchdag 6: Zidane och politiken'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-6-zidane-och-politiken
@@ -27397,7 +27409,7 @@ episodes_by_feed:
     episode_uid: 6a2fe8fccd02369494f0ac46
     episode_slug: matchdag-6-zidane-och-politiken
     episode_key: matchdag-6-zidane-och-politiken
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/matchdag-6-zidane-och-politiken/"
   - episode_title: 'Matchdag 5: Sverige - Bulgarien 2004'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-5-sverige-bulgarien-2004
@@ -27409,21 +27421,8 @@ episodes_by_feed:
     episode_uid: 6a2f0504252d86e846043884
     episode_slug: matchdag-5-sverige-bulgarien-2004
     episode_key: matchdag-5-sverige-bulgarien-2004
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
-  - episode_title: 'Matchdag 4: Historiens tråkigaste VM-final'
-    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-4-historiens-trakigaste-vm-final
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a2d8cc0252d86e846a7d825/media.mp3
-    published_at: '2026-06-13T21:00:00+00:00'
-    description_html: "<p>Brasilien - Italien anses allt jämnt som den tråkigaste VM-finalen någonsin. Men det brydde sig inte Romario och Brasilien om. VM-bucklan ska hem till Brasilien. Precis som en hel del andra saker.</p><p><em>Detta är urklipp från avsnitten 71. Romario</em> - del 2<em>. För att få hela berättelsen. Lyssna på avsnitten i sin helhet.</em></p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: Brasilien - Italien anses allt jämnt som den tråkigaste VM-finalen någonsin. Men det brydde sig inte Romario och Brasilien om. VM-bucklan ska hem till Brasilien. Precis som en hel del andra saker. Detta är urklipp från avsnitten 71. Romario - del 2 . För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: 6a2d8cc0252d86e846a7d825
-    episode_slug: matchdag-4-historiens-trakigaste-vm-final
-    episode_key: matchdag-4-historiens-trakigaste-vm-final
-    legacy_unicode_slug: matchdag-4-historiens-tråkigaste-vm-final
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/matchdag-4-historiens-trakigaste-vm-final/"
+    episode_page_url: "/when-we-were-kings/matchdag-5-sverige-bulgarien-2004/"
   https://api.substack.com/feed/podcast/10845.rss: &91
   - episode_title: What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)
     episode_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
