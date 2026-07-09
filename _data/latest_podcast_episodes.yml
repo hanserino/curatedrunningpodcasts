@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-09T03:10:06Z'
+generated_at: '2026-07-09T05:25:04Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Episode 626: Brett Petersen'
+  episode_url: https://therunningpublic.podbean.com/e/episode-626-brett-petersen/
+  audio_url: https://mcdn.podbean.com/mf/web/969a9pnkpsf4ib88/3_clips_Edit_2_7t0do.mp3
+  published_at: '2026-07-08T23:13:23-05:00'
+  episode_key: episode-626-brett-petersen
+  episode_slug: episode-626-brett-petersen
+  episode_page_url: "/the-running-public/episode-626-brett-petersen/"
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast/"
   cover_image: "/media/insiderunning.jpeg"
@@ -241,18 +253,6 @@ items:
   episode_key: episode-493-comrades-champion-george-kusche
   episode_slug: episode-493-comrades-champion-george-kusche
   episode_page_url: "/human-performance-outliers/episode-493-comrades-champion-george-kusche/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Episode 625: Sue Reynolds'
-  episode_url: https://therunningpublic.podbean.com/e/episode-625-sue-reynolds/
-  audio_url: https://mcdn.podbean.com/mf/web/ir3b6kttsig6rwpk/3_clips_Edit7wt03.mp3
-  published_at: '2026-07-05T13:51:14-05:00'
-  episode_key: episode-625-sue-reynolds
-  episode_slug: episode-625-sue-reynolds
-  episode_page_url: "/the-running-public/episode-625-sue-reynolds/"
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running/"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -758,6 +758,42 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Evelyn Mok
+  episode_url: https://www.sverigesradio.se/avsnitt/2815484
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_evelyn_mok_pod_20260708_0957372699.mp3
+  published_at: '2026-07-09T11:00:00Z'
+  episode_key: evelyn-mok
+  episode_slug: evelyn-mok
+  episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
+- podcast_title: The Diary Of A CEO
+  podcast_page_url: "/the-diary-of-a-ceo/"
+  cover_image: "/media/diaryofaceo.jpeg"
+  feed_url: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
+  filter_category: uncategorized english
+  episode_title: Neil deGrasse Tyson On Aliens, Simulation Theory, and What Happens Inside A Black Hole
+  episode_url: ''
+  audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KX1X6PNNQBQ7GWV5HMASQX7S.mp3
+  published_at: '2026-07-09T05:00:00Z'
+  episode_key: neil-degrasse-tyson-on-aliens-simulation-theory-and-what-happens-inside-a-black-hole
+  episode_slug: neil-degrasse-tyson-on-aliens-simulation-theory-and-what-happens-inside-a-black-hole
+  episode_page_url: "/the-diary-of-a-ceo/neil-degrasse-tyson-on-aliens-simulation-theory-and-what-happens-inside-a-black-hole/"
+- podcast_title: P3 Dokumentär
+  podcast_page_url: "/p3-dokumentar/"
+  cover_image: "/media/p3dokumentar.jpeg"
+  feed_url: https://sr-restored.se/rss/2519
+  filter_category: uncategorized swedish
+  episode_title: 'Ny: Kokainjakten i Göteborgs skärgård'
+  episode_url: https://www.sverigesradio.se/avsnitt/2819488
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/p3_dokumentar_ny_kokainjakten_i_goteborgs_s_20260624_1109178521.mp3
+  published_at: '2026-07-09T04:00:00Z'
+  episode_key: ny-kokainjakten-i-goteborgs-skargard
+  episode_slug: ny-kokainjakten-i-goteborgs-skargard
+  episode_page_url: "/p3-dokumentar/ny-kokainjakten-i-goteborgs-skargard/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -794,18 +830,6 @@ non_running_items:
   episode_key: will-we-see-gc-fireworks-on-the-tourmalet-tour-de-france-2026-stage-5-themove
   episode_slug: will-we-see-gc-fireworks-on-the-tourmalet-tour-de-france-2026-stage-5-themove
   episode_page_url: "/themove/will-we-see-gc-fireworks-on-the-tourmalet-tour-de-france-2026-stage-5-themove/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Sebastian Siemiatkowski
-  episode_url: https://www.sverigesradio.se/avsnitt/2815483
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sebastian_siemiatkowski_podd_n_20260630_1718489909.mp3
-  published_at: '2026-07-08T11:00:00Z'
-  episode_key: sebastian-siemiatkowski
-  episode_slug: sebastian-siemiatkowski
-  episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
 - podcast_title: Talking Over You
   podcast_page_url: "/talking-over-you/"
   cover_image: "/media/talkingoveryou.jpeg"
@@ -950,18 +974,6 @@ non_running_items:
   episode_key: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
   episode_slug: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
   episode_page_url: "/how-i-built-this/catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough/"
-- podcast_title: The Diary Of A CEO
-  podcast_page_url: "/the-diary-of-a-ceo/"
-  cover_image: "/media/diaryofaceo.jpeg"
-  feed_url: https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn
-  filter_category: uncategorized english
-  episode_title: 'UFC Legend Dustin Poirier: I Lost My Mind. I’ll Never Let It Happen Again.'
-  episode_url: ''
-  audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWSAGPXW92RV91ZC5NZSJTSY.mp3
-  published_at: '2026-07-06T05:00:00Z'
-  episode_key: ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again
-  episode_slug: ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again
-  episode_page_url: "/the-diary-of-a-ceo/ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again/"
 - podcast_title: Smosh Reads Reddit Stories
   podcast_page_url: "/smosh-reads-reddit-stories/"
   cover_image: "/media/smoshreadsredditstories.jpeg"
@@ -1034,18 +1046,6 @@ non_running_items:
   episode_key: jack-kelly-professional-triathlon-coach-and-host-of-the-triathlon-hour-stop-fear-mongering-about-fatigue
   episode_slug: jack-kelly-professional-triathlon-coach-and-host-of-the-triathlon-hour-stop-fear-mongering-about-fatigue
   episode_page_url: "/that-triathlon-show/jack-kelly-professional-triathlon-coach-and-host-of-the-triathlon-hour-stop-fear-mongering-about-fatigue/"
-- podcast_title: P3 Dokumentär
-  podcast_page_url: "/p3-dokumentar/"
-  cover_image: "/media/p3dokumentar.jpeg"
-  feed_url: https://sr-restored.se/rss/2519
-  filter_category: uncategorized swedish
-  episode_title: Läktarkatastrofen på Hillsborough fotbollsstadion
-  episode_url: https://www.sverigesradio.se/avsnitt/2827002
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/p3_dokumentar_laktarkatastrofen_pa_hillsboro_20260625_1128094436.mp3
-  published_at: '2026-07-02T04:00:00Z'
-  episode_key: laktarkatastrofen-pa-hillsborough-fotbollsstadion
-  episode_slug: laktarkatastrofen-pa-hillsborough-fotbollsstadion
-  episode_page_url: "/p3-dokumentar/laktarkatastrofen-pa-hillsborough-fotbollsstadion/"
 - podcast_title: Dear Hank & John
   podcast_page_url: "/dear-hank-john/"
   cover_image: "/media/dearhank.jpeg"
@@ -3791,6 +3791,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Episode 626: Brett Petersen'
+    episode_url: https://therunningpublic.podbean.com/e/episode-626-brett-petersen/
+    audio_url: https://mcdn.podbean.com/mf/web/969a9pnkpsf4ib88/3_clips_Edit_2_7t0do.mp3
+    published_at: '2026-07-08T23:13:23-05:00'
+    description_html: "<p>At fifty fours years old, Brett has never stopped chasing goals and new pursuits. Since COVID, he has competed in road running, park run, track, cross country, Hyrox, and has recently taken up throwing discus and javelin.</p>"
+    description_plain: At fifty fours years old, Brett has never stopped chasing goals and new pursuits. Since COVID, he has competed in road running, park run, track, cross country, Hyrox, and has recently taken up throwing discus and javelin.
+    episode_image_url: ''
+    episode_uid: therunningpublic-podbean-com-7004e7b9-88c9-3386-a2da-a442ef27cadc
+    episode_slug: episode-626-brett-petersen
+    episode_key: episode-626-brett-petersen
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/episode-626-brett-petersen/"
   - episode_title: 'Episode 625: Sue Reynolds'
     episode_url: https://therunningpublic.podbean.com/e/episode-625-sue-reynolds/
     audio_url: https://mcdn.podbean.com/mf/web/ir3b6kttsig6rwpk/3_clips_Edit7wt03.mp3
@@ -3801,7 +3813,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-dbdaaa51-1441-36fa-b572-9f0bda0b6122
     episode_slug: episode-625-sue-reynolds
     episode_key: episode-625-sue-reynolds
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/episode-625-sue-reynolds/"
   - episode_title: 'Episode 624: Dani Moreno'
     episode_url: https://therunningpublic.podbean.com/e/episode-624-dani-moreno/
@@ -3813,7 +3825,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-2b48242f-a351-3876-8e39-3432fe4baf9a
     episode_slug: episode-624-dani-moreno
     episode_key: episode-624-dani-moreno
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/episode-624-dani-moreno/"
   - episode_title: 'Episode 623: Race Anxiety'
     episode_url: https://therunningpublic.podbean.com/e/episode-623-race-anxiety/
@@ -3825,7 +3837,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-393af6e1-9220-31cb-b19b-7bd84e38fb1e
     episode_slug: episode-623-race-anxiety
     episode_key: episode-623-race-anxiety
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/episode-623-race-anxiety/"
   - episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
@@ -3837,7 +3849,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d7aa37b9-ce81-3082-beed-e87fc31fa3d1
     episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
     episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
   - episode_title: 'Episode 621: Summer Running'
     episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
@@ -3849,7 +3861,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-03c831ae-4404-3d38-bb00-b3c085ad6cfb
     episode_slug: episode-621-summer-running
     episode_key: episode-621-summer-running
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/episode-621-summer-running/"
   - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
@@ -3861,7 +3873,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
     episode_slug: training-tuesday-how-to-execute-an-x-day-workout
     episode_key: training-tuesday-how-to-execute-an-x-day-workout
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
@@ -3873,7 +3885,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3885,7 +3897,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3897,7 +3909,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3909,7 +3921,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3921,7 +3933,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3933,7 +3945,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -3945,7 +3957,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -3957,7 +3969,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -3969,7 +3981,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -3981,7 +3993,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -3993,7 +4005,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -4005,7 +4017,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -4017,7 +4029,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -4029,7 +4041,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -4041,7 +4053,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   - episode_title: 'Episode 604: Talkin’ Shop!'
     episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
@@ -4053,7 +4065,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
     episode_slug: episode-604-talkin-shop
     episode_key: episode-604-talkin-shop
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/episode-604-talkin-shop/"
   - episode_title: 'Training Tuesday: Kirk’s Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-qa-session/
@@ -4065,7 +4077,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-cf9144dc-cae7-3c8d-9465-432883738b81
     episode_slug: training-tuesday-kirk-s-q-a-session
     episode_key: training-tuesday-kirk-s-q-a-session
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-q-a-session/"
   - episode_title: 'Episode 602: Jake Prusha'
     episode_url: https://therunningpublic.podbean.com/e/episode-602-jake-prusha/
@@ -4077,20 +4089,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d9607426-5db4-3104-88b7-85968914ae57
     episode_slug: episode-602-jake-prusha
     episode_key: episode-602-jake-prusha
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/episode-602-jake-prusha/"
-  - episode_title: 'Episode 601: Answering AI Questions'
-    episode_url: https://therunningpublic.podbean.com/e/episode-601-answering-ai-questions/
-    audio_url: https://mcdn.podbean.com/mf/web/ixw7uiwdr36deq67/2_clips_Edit_27_6mslg.mp3
-    published_at: '2026-03-27T20:54:34-05:00'
-    description_html: "<p>We send Brakken off on his trip to Poland with a light hearted episode: answering questions from a random generator but doing so with a running twist.</p>"
-    description_plain: 'We send Brakken off on his trip to Poland with a light hearted episode: answering questions from a random generator but doing so with a running twist.'
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Listener_Submitted_Q_Aa5jnc.png
-    episode_uid: therunningpublic-podbean-com-69a0b749-5401-31da-9725-25f1758ba30f
-    episode_slug: episode-601-answering-ai-questions
-    episode_key: episode-601-answering-ai-questions
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/episode-601-answering-ai-questions/"
+    episode_page_url: "/the-running-public/episode-602-jake-prusha/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Toni McCann'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Toni-McCann-e3l7i9s
@@ -19525,6 +19525,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/dobbeltdrap-i-sverige-er-nordmannen-torpedo/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Evelyn Mok
+    episode_url: https://www.sverigesradio.se/avsnitt/2815484
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_evelyn_mok_pod_20260708_0957372699.mp3
+    published_at: '2026-07-09T11:00:00Z'
+    description_html: <p>Komikern om vad det egentligen innebär att uppnå en dröm.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Komikern om vad det egentligen innebär att uppnå en dröm. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815484
+    episode_slug: evelyn-mok
+    episode_key: evelyn-mok
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
   - episode_title: Sebastian Siemiatkowski
     episode_url: https://www.sverigesradio.se/avsnitt/2815483
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sebastian_siemiatkowski_podd_n_20260630_1718489909.mp3
@@ -19535,7 +19547,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815483
     episode_slug: sebastian-siemiatkowski
     episode_key: sebastian-siemiatkowski
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
   - episode_title: Behrang Safari
     episode_url: https://www.sverigesradio.se/avsnitt/2815479
@@ -19547,7 +19559,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815479
     episode_slug: behrang-safari
     episode_key: behrang-safari
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/behrang-safari/"
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
@@ -19560,7 +19572,7 @@ episodes_by_feed:
     episode_slug: erika-bjerstrom
     episode_key: erika-bjerstrom
     legacy_unicode_slug: erika-bjerström
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/erika-bjerstrom/"
   - episode_title: Marie Göranzon
     episode_url: https://www.sverigesradio.se/avsnitt/2815477
@@ -19573,7 +19585,7 @@ episodes_by_feed:
     episode_slug: marie-goranzon
     episode_key: marie-goranzon
     legacy_unicode_slug: marie-göranzon
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/marie-goranzon/"
   - episode_title: Olof Wretling
     episode_url: https://www.sverigesradio.se/avsnitt/2815476
@@ -19585,7 +19597,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815476
     episode_slug: olof-wretling
     episode_key: olof-wretling
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/olof-wretling/"
   - episode_title: Ann Heberlein
     episode_url: https://www.sverigesradio.se/avsnitt/2815475
@@ -19597,7 +19609,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815475
     episode_slug: ann-heberlein
     episode_key: ann-heberlein
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
   - episode_title: Maria Maunsbach
     episode_url: https://www.sverigesradio.se/avsnitt/2815526
@@ -19609,7 +19621,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815526
     episode_slug: maria-maunsbach
     episode_key: maria-maunsbach
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
   - episode_title: 'Poddtips: Dagens Eko förklarar en stor nyhet varje vardag'
     episode_url: https://www.sverigesradio.se/avsnitt/2830718
@@ -19622,7 +19634,7 @@ episodes_by_feed:
     episode_slug: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     episode_key: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     legacy_unicode_slug: poddtips-dagens-eko-förklarar-en-stor-nyhet-varje-vardag
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/"
   - episode_title: Sarah Sheppard
     episode_url: https://www.sverigesradio.se/avsnitt/2815473
@@ -19634,7 +19646,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815473
     episode_slug: sarah-sheppard
     episode_key: sarah-sheppard
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
   - episode_title: Johan Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2815472
@@ -19646,7 +19658,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815472
     episode_slug: johan-eriksson
     episode_key: johan-eriksson
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
   - episode_title: Patrik Norqvist
     episode_url: https://www.sverigesradio.se/avsnitt/2815471
@@ -19658,7 +19670,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815471
     episode_slug: patrik-norqvist
     episode_key: patrik-norqvist
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
   - episode_title: Ginna Lindberg
     episode_url: https://www.sverigesradio.se/avsnitt/2815470
@@ -19670,7 +19682,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815470
     episode_slug: ginna-lindberg
     episode_key: ginna-lindberg
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
   - episode_title: Alexander Karim
     episode_url: https://www.sverigesradio.se/avsnitt/2815519
@@ -19682,7 +19694,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815519
     episode_slug: alexander-karim
     episode_key: alexander-karim
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
   - episode_title: Carolina Dybeck Happe
     episode_url: https://www.sverigesradio.se/avsnitt/2815474
@@ -19694,7 +19706,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815474
     episode_slug: carolina-dybeck-happe
     episode_key: carolina-dybeck-happe
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/carolina-dybeck-happe/"
   - episode_title: Jonas Gren
     episode_url: https://www.sverigesradio.se/avsnitt/2815467
@@ -19706,7 +19718,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815467
     episode_slug: jonas-gren
     episode_key: jonas-gren
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/jonas-gren/"
   - episode_title: Jonas Bonnier
     episode_url: https://www.sverigesradio.se/avsnitt/2815466
@@ -19718,7 +19730,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815466
     episode_slug: jonas-bonnier
     episode_key: jonas-bonnier
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/jonas-bonnier/"
   - episode_title: Amanda Romare
     episode_url: https://www.sverigesradio.se/avsnitt/2815465
@@ -19730,7 +19742,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815465
     episode_slug: amanda-romare
     episode_key: amanda-romare
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/amanda-romare/"
   - episode_title: Martin Kragh
     episode_url: https://www.sverigesradio.se/avsnitt/2815464
@@ -19742,7 +19754,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815464
     episode_slug: martin-kragh
     episode_key: martin-kragh
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/martin-kragh/"
   - episode_title: Sebastian Ingrosso
     episode_url: https://www.sverigesradio.se/avsnitt/2815463
@@ -19754,7 +19766,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815463
     episode_slug: sebastian-ingrosso
     episode_key: sebastian-ingrosso
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/sebastian-ingrosso/"
   - episode_title: Helena Bergström
     episode_url: https://www.sverigesradio.se/avsnitt/2815462
@@ -19767,7 +19779,7 @@ episodes_by_feed:
     episode_slug: helena-bergstrom
     episode_key: helena-bergstrom
     legacy_unicode_slug: helena-bergström
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
@@ -19780,7 +19792,7 @@ episodes_by_feed:
     episode_slug: hor-arets-sommarpratare-presenteras
     episode_key: hor-arets-sommarpratare-presenteras
     legacy_unicode_slug: hör-årets-sommarpratare-presenteras
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
@@ -19793,7 +19805,7 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   - episode_title: Camilla Lif
     episode_url: https://www.sverigesradio.se/avsnitt/2700899
@@ -19805,7 +19817,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700899
     episode_slug: camilla-lif
     episode_key: camilla-lif
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
   - episode_title: Claes Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2700884
@@ -19817,20 +19829,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2700884
     episode_slug: claes-eriksson
     episode_key: claes-eriksson
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
-  - episode_title: Dilsa Demirbag-Sten
-    episode_url: https://www.sverigesradio.se/avsnitt/2700859
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/12/program_dilsa_demirbagsten_podd_klar_20251222_1344401267.mp3
-    published_at: '2025-12-30T12:00:00Z'
-    description_html: <p>Berättarministeriets generalsekreterare om att tron på människan kan stoppa allt från att gå åt helvete.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Berättarministeriets generalsekreterare om att tron på människan kan stoppa allt från att gå åt helvete. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/c9089698-d97b-41d5-be07-b57cbb6a6a27.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2700859
-    episode_slug: dilsa-demirbag-sten
-    episode_key: dilsa-demirbag-sten
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/dilsa-demirbag-sten/"
+    episode_page_url: "/sommar-vinter-i-p1/claes-eriksson/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -23876,6 +23876,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-colin-and-samir-show/why-netflix-is-stealing-podcasts-from-youtube/"
   https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn: &78
+  - episode_title: Neil deGrasse Tyson On Aliens, Simulation Theory, and What Happens Inside A Black Hole
+    episode_url: ''
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KX1X6PNNQBQ7GWV5HMASQX7S.mp3
+    published_at: '2026-07-09T05:00:00Z'
+    description_html: '<p class="text-node">No.1 Astrophysicist Neil deGrasse Tyson returns to reveal what the government whistleblowers are actually telling us, why aliens almost certainly exist, why Mars can''t save humanity from disaster, and whether science has left any room for God!</p><p class="text-node">Neil deGrasse Tyson is America''s most famous astrophysicist and Director of the Hayden Planetarium in New York City. He hosts the StarTalk podcast and is the author of over 20 books, including his latest, ''Take Me To Your Leader''.</p><p class="text-node">He explains:</p><p class="text-node">◼️ Why the scale of the universe makes it nearly impossible for us to be alone</p><p class="text-node">◼️ Why it would be easier to fix Earth than escape it, and why Mars won''t save us</p><p class="text-node">◼️ What actually happens to your body if you fall into a black hole</p><p class="text-node">◼️ Why human creativity is your most powerful protection against AI</p><p class="text-node">◼️ How every atom in your body was forged inside a dying star</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:19</strong> Why Are Humans So Fascinated by the Universe?</li><li><strong>00:07:30</strong> How Small Are We in the Universe?</li><li><strong>00:16:19</strong> How Understanding the Universe Can Change Your View of Religion</li><li><strong>00:20:53</strong> How Did the Big Bang Actually Happen?</li><li><strong>00:23:38</strong> What Existed Before the Big Bang?</li><li><strong>00:24:39</strong> The Craziest Theories About How the Universe Began</li><li><strong>00:26:49</strong> Did Obama Reveal Something About Aliens?</li><li><strong>00:29:03</strong> Why Intelligent Alien Life Could Exist</li><li><strong>00:33:21</strong> What Might We Never Know About the Universe?</li><li><strong>00:35:19</strong> Is Infinity Actually Possible?</li><li><strong>00:37:03</strong> How Do Black Holes Actually Work?</li><li><strong>00:46:00</strong> Ads</li><li><strong>00:48:19</strong> Why Aliens Might Communicate With Other Earth Creatures First</li><li><strong>00:52:07</strong> How Far Could Humans Travel Across the Universe?</li><li><strong>00:53:54</strong> What Happens as Nations Add More Satellites to Orbit?</li><li><strong>00:59:58</strong> Who Makes the Laws in Space?</li><li><strong>01:00:31</strong> Why Is Everyone Racing Back to the Moon?</li><li><strong>01:02:54</strong> What Happens If China Gets to the Moon First?</li><li><strong>01:03:27</strong> What Valuable Resources Are Hidden on the Moon?</li><li><strong>01:04:44</strong> Could the Moon Become a Tourist Destination?</li><li><strong>01:05:15</strong> Ads</li><li><strong>01:06:17</strong> Is Any of the UFO Footage Actually Compelling?</li><li><strong>01:08:06</strong> Would Humanity Be Ready to Meet Actual Aliens?</li><li><strong>01:10:29</strong> Why Do Alien Sightings Follow the Same Archetypes?</li><li><strong>01:12:14</strong> Why Do People on DMT See Aliens?</li><li><strong>01:20:39</strong> Are We Living in a Simulation?</li></ul></p><p class="text-node">Follow Neil:</p><p class="text-node">X - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/8uoUwC3">https://link.thediaryofaceo.com/8uoUwC3</a></p><p class="text-node">TikTok - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/9ADXUUq">https://link.thediaryofaceo.com/9ADXUUq</a></p><p class="text-node">Facebook - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/G6V4a9r">https://link.thediaryofaceo.com/G6V4a9r</a></p><p class="text-node">StarTalk - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/1n73kWW">https://link.thediaryofaceo.com/1n73kWW</a></p><p class="text-node">You can purchase Neil’s book ‘Take Me To Your Leader: A hilarious guide to your first alien encounter, from the world''s best-loved astrophysicist’, here: <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/FJDB5ED">https://link.thediaryofaceo.com/FJDB5ED</a></p><p class="text-node">The Diary Of A CEO:</p><p class="text-node">◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a></p><p class="text-node">◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a></p><p class="text-node">◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a></p><p class="text-node">◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a></p><p class="text-node">◼ Get email updates - <a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a></p><p class="text-node">◼ Follow Steven - <a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors:</p><p class="text-node">Pipedrive - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://pipedrive.com/CEO">https://pipedrive.com/CEO</a></p><p class="text-node">HeyGen - https://heygen.com/doac</p>'
+    description_plain: 'No.1 Astrophysicist Neil deGrasse Tyson returns to reveal what the government whistleblowers are actually telling us, why aliens almost certainly exist, why Mars can''t save humanity from disaster, and whether science has left any room for God! Neil deGrasse Tyson is America''s most famous astrophysicist and Director of the Hayden Planetarium in New York City. He hosts the StarTalk podcast and is the author of over 20 books, including his latest, ''Take Me To Your Leader''. He explains: ◼️ Why the scale of the universe makes it nearly impossible for us to be alone ◼️ Why it would be easier to fix Earth than escape it, and why Mars won''t save us ◼️ What actually happens to your body if you fall into a black hole ◼️ Why human creativity is your most powerful protection against AI ◼️ How every atom in your body was forged inside a dying star Chapters 00:00:00 Intro 00:02:19 Why Are Humans So Fascinated by the Universe? 00:07:30 How Small Are We in the Universe? 00:16:19 How Understanding the Universe Can Change Your View of Religion 00:20:53 How Did the Big Bang Actually Happen? 00:23:38 What Existed Before the Big Bang? 00:24:39 The Craziest Theories About How the Universe Began 00:26:49 Did Obama Reveal Something About Aliens? 00:29:03 Why Intelligent Alien Life Could Exist 00:33:21 What Might We Never Know About the Universe? 00:35:19 Is Infinity Actually Possible? 00:37:03 How Do Black Holes Actually Work? 00:46:00 Ads 00:48:19 Why Aliens Might Communicate With Other Earth Creatures First 00:52:07 How Far Could Humans Travel Across the Universe? 00:53:54 What Happens as Nations Add More Satellites to Orbit? 00:59:58 Who Makes the Laws in Space? 01:00:31 Why Is Everyone Racing Back to the Moon? 01:02:54 What Happens If China Gets to the Moon First? 01:03:27 What Valuable Resources Are Hidden on the Moon? 01:04:44 Could the Moon Become a Tourist Destination? 01:05:15 Ads 01:06:17 Is Any of the UFO Footage Actually Compelling? 01:08:06 Would Humanity Be Ready to Meet Actual Aliens? 01:10:29 Why Do Alien Sightings Follow the Same Archetypes? 01:12:14 Why Do People on DMT See Aliens? 01:20:39 Are We Living in a Simulation? Follow Neil: X - https://link.thediaryofaceo.com/8uoUwC3 TikTok - https://link.thediaryofaceo.com/9ADXUUq Facebook - https://link.thediaryofaceo.com/G6V4a9r StarTalk - https://link.thediaryofaceo.com/1n73kWW You can purchase Neil’s book ‘Take Me To Your Leader: A hilarious guide to your first alien encounter, from the world''s best-loved astrophysicist’, here: https://link.thediaryofaceo.com/FJDB5ED The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Pipedrive - https://pipedrive.com/CEO HeyGen - https://heygen.com/doac'
+    episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KX1X81SH7Q30Q49V0WEHWC8A/neil_degrasse_tyson.ep_coverpng.jpg
+    episode_uid: flightcast-01kx1x6pnn940x64g59htjvsyq
+    episode_slug: neil-degrasse-tyson-on-aliens-simulation-theory-and-what-happens-inside-a-black-hole
+    episode_key: neil-degrasse-tyson-on-aliens-simulation-theory-and-what-happens-inside-a-black-hole
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-diary-of-a-ceo/neil-degrasse-tyson-on-aliens-simulation-theory-and-what-happens-inside-a-black-hole/"
   - episode_title: 'UFC Legend Dustin Poirier: I Lost My Mind. I’ll Never Let It Happen Again.'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWSAGPXW92RV91ZC5NZSJTSY.mp3
@@ -23886,7 +23898,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kwsagpxwk99wcakkxnfc5zcg
     episode_slug: ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again
     episode_key: ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-diary-of-a-ceo/ufc-legend-dustin-poirier-i-lost-my-mind-i-ll-never-let-it-happen-again/"
   - episode_title: 'Most Replayed Moment: The Mid-Year Reset - Atomic Habits Author On How To Get Back On Track'
     episode_url: ''
@@ -23898,7 +23910,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kwhs6d894aagvnhbj4xweqsh
     episode_slug: most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track
     episode_key: most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track/"
   - episode_title: 'Anti-Aging Expert: This Reverses Gray Hair & Boosts Your Energy!'
     episode_url: ''
@@ -23910,7 +23922,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kwgkvp7ck70b0v0tba66ndaa
     episode_slug: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
     episode_key: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-diary-of-a-ceo/anti-aging-expert-this-reverses-gray-hair-boosts-your-energy/"
   - episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
     episode_url: ''
@@ -23922,7 +23934,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kw360az5eea4d3qh5c6pc2xm
     episode_slug: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
     episode_key: women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-diary-of-a-ceo/women-s-fitness-expert-what-you-need-to-know-about-dieting-exercise-dr-stephanie-estima/"
   - episode_title: 'Most Replayed Moment: Sleep Expert On The Truth About Melatonin And Magnesium'
     episode_url: ''
@@ -23934,7 +23946,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssmkv070dtbqjgp6ab9adhs
     episode_slug: most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium
     episode_key: most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-sleep-expert-on-the-truth-about-melatonin-and-magnesium/"
   - episode_title: 'Billionaire''s WARNING: I''m SELLING. The Crash Is Already Here!'
     episode_url: ''
@@ -23946,7 +23958,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kvxg1g7hw6asjr6efj3dqybr
     episode_slug: billionaire-s-warning-i-m-selling-the-crash-is-already-here
     episode_key: billionaire-s-warning-i-m-selling-the-crash-is-already-here
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-diary-of-a-ceo/billionaire-s-warning-i-m-selling-the-crash-is-already-here/"
   - episode_title: 'Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!'
     episode_url: ''
@@ -23958,7 +23970,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kvm73tkx1t1jqkd6k2kyyhjk
     episode_slug: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
     episode_key: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-diary-of-a-ceo/dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms/"
   - episode_title: 'Most Replayed Moment: The 4 Personalities Living In Your Brain! How To Switch Between Them'
     episode_url: ''
@@ -23970,7 +23982,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssm221gvkactqjst50c29wt
     episode_slug: most-replayed-moment-the-4-personalities-living-in-your-brain-how-to-switch-between-them
     episode_key: most-replayed-moment-the-4-personalities-living-in-your-brain-how-to-switch-between-them
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-4-personalities-living-in-your-brain-how-to-switch-between-them/"
   - episode_title: 'Vice President JD Vance: No One Saw This Coming, The Ceasefire Is Real!'
     episode_url: ''
@@ -23982,7 +23994,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kvbbap1azyt30q74j6n4cm84
     episode_slug: vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real
     episode_key: vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-diary-of-a-ceo/vice-president-jd-vance-no-one-saw-this-coming-the-ceasefire-is-real/"
   - episode_title: 'Creatine Expert: Creatine Is The Secret To Weight Loss'
     episode_url: ''
@@ -23994,7 +24006,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kv1annh3b159tvxz55c6w851
     episode_slug: creatine-expert-creatine-is-the-secret-to-weight-loss
     episode_key: creatine-expert-creatine-is-the-secret-to-weight-loss
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-diary-of-a-ceo/creatine-expert-creatine-is-the-secret-to-weight-loss/"
   - episode_title: 'Most Replayed Moment: Is Milk Healthy? The Truth About Dairy, Sugar, Fruit And Fasting'
     episode_url: ''
@@ -24006,7 +24018,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kssjrtdkrpredtygqvjz91ab
     episode_slug: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
     episode_key: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting/"
   - episode_title: 'Archaeology WARNING:  They Secretly Found Antarctica 300 Years Before Us - Graham Hancock'
     episode_url: ''
@@ -24018,7 +24030,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ktsq9b3v53jfegbr8ddybsmm
     episode_slug: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
     episode_key: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-diary-of-a-ceo/archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock/"
   - episode_title: 'Death of the Middle Class: Billionaire vs Entrepreneur DEBATE - Daniel Priestley v Nick Hanauer'
     episode_url: ''
@@ -24030,7 +24042,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kthx7wcr8tv92taf5y99fm5m
     episode_slug: death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer
     episode_key: death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-diary-of-a-ceo/death-of-the-middle-class-billionaire-vs-entrepreneur-debate-daniel-priestley-v-nick-hanauer/"
   - episode_title: 'Most Replayed Moment: Brené Brown on Vulnerability, Self Esteem and The Four Skillsets Of Courage'
     episode_url: ''
@@ -24043,7 +24055,7 @@ episodes_by_feed:
     episode_slug: most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
     episode_key: most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
     legacy_unicode_slug: most-replayed-moment-brené-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-brene-brown-on-vulnerability-self-esteem-and-the-four-skillsets-of-courage/"
   - episode_title: 'Christian Apologist: The Truth About Christianity (And Why Atheism Is Fading)'
     episode_url: ''
@@ -24055,7 +24067,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kt7fyycxjwmnjyvrcj3rx9vp
     episode_slug: christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading
     episode_key: christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-diary-of-a-ceo/christian-apologist-the-truth-about-christianity-and-why-atheism-is-fading/"
   - episode_title: 'Tech Whistleblower: You Only Have 3 Years Left Before This Hits! - Mo Gawdat'
     episode_url: ''
@@ -24067,7 +24079,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kszdq99mmz0tdaac0ewy7t03
     episode_slug: tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat
     episode_key: tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-diary-of-a-ceo/tech-whistleblower-you-only-have-3-years-left-before-this-hits-mo-gawdat/"
   - episode_title: 'Most Replayed Moment: The Hidden Organ That Controls Exactly How You Age!'
     episode_url: ''
@@ -24079,7 +24091,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7wvvfyr4va949s12svfs3x
     episode_slug: most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age
     episode_key: most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-hidden-organ-that-controls-exactly-how-you-age/"
   - episode_title: 'EMERGENCY DEBATE: The Economy Is About To Collapse! The 2026 AI Crisis Nobody Sees Coming'
     episode_url: ''
@@ -24091,7 +24103,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ksnmg2epdsanf6f3eh346zaj
     episode_slug: emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming
     episode_key: emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-diary-of-a-ceo/emergency-debate-the-economy-is-about-to-collapse-the-2026-ai-crisis-nobody-sees-coming/"
   - episode_title: 'Bruno Fernandes: Roy Keane Twisted My Words. They Offered Me £200M, I Said No.'
     episode_url: ''
@@ -24103,7 +24115,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ksdj6z8qn3e3a9k5vxm0td8s
     episode_slug: bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no
     episode_key: bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-diary-of-a-ceo/bruno-fernandes-roy-keane-twisted-my-words-they-offered-me-200m-i-said-no/"
   - episode_title: 'Most Replayed Moment: AI Safety Expert Predicts The Next 20 Years! Will It Really Take All Jobs?'
     episode_url: ''
@@ -24115,7 +24127,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7wfp6j4y4xyjnwbty7d743
     episode_slug: most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs
     episode_key: most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-ai-safety-expert-predicts-the-next-20-years-will-it-really-take-all-jobs/"
   - episode_title: 'World-Renowned Physicist: The Truth About Aliens! UFOs Are Definitely Robotic - Michio Kaku'
     episode_url: ''
@@ -24127,7 +24139,7 @@ episodes_by_feed:
     episode_uid: flightcast-01ks3j8kqhh9hb44tjm37pbhz3
     episode_slug: world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku
     episode_key: world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-diary-of-a-ceo/world-renowned-physicist-the-truth-about-aliens-ufos-are-definitely-robotic-michio-kaku/"
   - episode_title: 'Fatty Liver Expert: Your Liver Is Filling With Fat Right Now - Dr David Unwin'
     episode_url: ''
@@ -24139,7 +24151,7 @@ episodes_by_feed:
     episode_uid: flightcast-01krvdft0bae6257wqwr76mwr6
     episode_slug: fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin
     episode_key: fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-diary-of-a-ceo/fatty-liver-expert-your-liver-is-filling-with-fat-right-now-dr-david-unwin/"
   - episode_title: 'Most Replayed Moment: The Link Between Weight Gain and Sleep! Are Sleep Trackers Harmful Or Helpful?'
     episode_url: ''
@@ -24151,7 +24163,7 @@ episodes_by_feed:
     episode_uid: flightcast-01kq7w8nwe3d62nfc72x0q1wbs
     episode_slug: most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful
     episode_key: most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-link-between-weight-gain-and-sleep-are-sleep-trackers-harmful-or-helpful/"
   - episode_title: 'UFO Roundtable: CIA Physicist Proves Aliens Exist'
     episode_url: ''
@@ -24163,20 +24175,8 @@ episodes_by_feed:
     episode_uid: flightcast-01krhzy6hbpb067yc206xc7erf
     episode_slug: ufo-roundtable-cia-physicist-proves-aliens-exist
     episode_key: ufo-roundtable-cia-physicist-proves-aliens-exist
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-diary-of-a-ceo/ufo-roundtable-cia-physicist-proves-aliens-exist/"
-  - episode_title: 'Pulitzer Prize Historian: You Won''t Notice Until It''s Too Late!'
-    episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KR97YM65FSCA0X36KAZTVF8N.mp3
-    published_at: '2026-05-11T05:00:00Z'
-    description_html: '<p class="text-node">Anne Applebaum has spent decades studying how democracies collapse, how authoritarian systems rise, and why the warning signs are often ignored until it’s too late. She reveals why America is entering a dangerous new phase, and what happens next! Anne Applebaum is a staff writer at The Atlantic and has hosted its Autocracy in America podcast. She is also a senior fellow at the SNF Agora Institute at Johns Hopkins University and the School of Advanced International Studies. She is also the bestselling author of books such as, ‘Autocracy, Inc.: The Dictators Who Want to Run the World’.</p><p class="text-node">She explains: ◼️ Why democracies rarely collapse overnight ◼️ Why America may be closer to autocracy than people think ◼️ How elected leaders can slowly take apart the system from within ◼️ Why corruption is one of the clearest warning signs of authoritarianism ◼️ Why Big Tech leaders are bending toward political power ◼️ How America’s allies are already preparing for U.S. betrayal ◼️ Why Russia, China, and Iran are challenging the democratic world order ◼️ Why America may never fully go back to normal after Trump</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:03:13</strong> Why History Keeps Repeating</li><li><strong>00:04:52</strong> Why Democracy Feels So Broken</li><li><strong>00:07:21</strong> The Biggest Threats Right Now</li><li><strong>00:08:32</strong> Why Democracy Is Rapidly Shifting</li><li><strong>00:09:58</strong> Could America Become An Autocracy?</li><li><strong>00:11:45</strong> What A Trump Third Term Means</li><li><strong>00:14:36</strong> Why Autocracy Appeals To People</li><li><strong>00:18:52</strong> Trump’s Wealth Changes Everything</li><li><strong>00:21:08</strong> Why Global Stability Is Collapsing</li><li><strong>00:26:06</strong> Democracy Vs Dictatorship: What Lasts?</li><li><strong>00:27:18</strong> Who’s Happier: Democracies Or Autocracies?</li><li><strong>00:28:44</strong> Would Informed People Choose Democracy?</li><li><strong>00:30:25</strong> How Putin Stays In Power</li><li><strong>00:32:20</strong> 5 Tactics Autocrats Use</li><li><strong>00:33:59</strong> Are Tech CEOs Enabling This?</li><li><strong>00:37:51</strong> Can America Ever Return To Normal?</li><li><strong>00:39:07</strong> Why Nations Are Turning Inward</li><li><strong>00:43:37</strong> What This Means For Americans</li><li><strong>00:45:19</strong> The Most Dangerous Part Of Dictatorship</li><li><strong>00:48:29</strong> Why Trump’s Ratings Are Falling</li><li><strong>00:50:28</strong> Ads</li><li><strong>00:52:31</strong> The 2nd Tactic Autocrats Use</li><li><strong>00:57:19</strong> The 3rd Tactic Autocrats Use</li><li><strong>00:59:20</strong> The 4th Tactic Autocrats Use</li><li><strong>01:05:38</strong> Should Social Media Have Legal Power?</li><li><strong>01:12:38</strong> Can Citizens Really Leave China?</li><li><strong>01:13:55</strong> The 5th Tactic Autocrats Use</li><li><strong>01:14:28</strong> Why ICE Is Breaking Down</li><li><strong>01:16:40</strong> Ads</li><li><strong>01:17:49</strong> Is The American Empire Declining?</li><li><strong>01:21:49</strong> Is Politics Just Human Nature?</li><li><strong>01:24:38</strong> Does Democracy Create Extreme Capitalism?</li><li><strong>01:26:44</strong> How Democracies Defend Themselves</li><li><strong>01:28:18</strong> Is Mainstream Media Politically Biased?</li><li><strong>01:31:59</strong> Why Journalism Matters More Than Ever</li><li><strong>01:33:29</strong> How Algorithms Control Your Reality</li><li><strong>01:34:37</strong> Anne’s Personal Political Journey</li><li><strong>01:41:05</strong> What Regime Change Really Feels Like</li><li><strong>01:44:36</strong> Anne’s Toughest Setback</li></ul></p><p class="text-node">Follow Anne: Youtube - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/4pTtMb1">https://link.thediaryofaceo.com/4pTtMb1</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/1GOn8p5">https://link.thediaryofaceo.com/1GOn8p5</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/8M5yUMK">https://link.thediaryofaceo.com/8M5yUMK</a> Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/GGmhcYf">https://link.thediaryofaceo.com/GGmhcYf</a></p><p class="text-node">You can purchase Anne’s book, ‘Autocracy, Inc.: The Dictators Who Want to Run the World’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/D07471h">https://link.thediaryofaceo.com/D07471h</a>  Sponsors: Stan - Visit <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode5">https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode5</a> Wispr - Get 14 days of Wispr Flow for free at <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://wisprflow.ai/steven">https://wisprflow.ai/steven</a></p>'
-    description_plain: 'Anne Applebaum has spent decades studying how democracies collapse, how authoritarian systems rise, and why the warning signs are often ignored until it’s too late. She reveals why America is entering a dangerous new phase, and what happens next! Anne Applebaum is a staff writer at The Atlantic and has hosted its Autocracy in America podcast. She is also a senior fellow at the SNF Agora Institute at Johns Hopkins University and the School of Advanced International Studies. She is also the bestselling author of books such as, ‘Autocracy, Inc.: The Dictators Who Want to Run the World’. She explains: ◼️ Why democracies rarely collapse overnight ◼️ Why America may be closer to autocracy than people think ◼️ How elected leaders can slowly take apart the system from within ◼️ Why corruption is one of the clearest warning signs of authoritarianism ◼️ Why Big Tech leaders are bending toward political power ◼️ How America’s allies are already preparing for U.S. betrayal ◼️ Why Russia, China, and Iran are challenging the democratic world order ◼️ Why America may never fully go back to normal after Trump Chapters 00:00:00 Intro 00:03:13 Why History Keeps Repeating 00:04:52 Why Democracy Feels So Broken 00:07:21 The Biggest Threats Right Now 00:08:32 Why Democracy Is Rapidly Shifting 00:09:58 Could America Become An Autocracy? 00:11:45 What A Trump Third Term Means 00:14:36 Why Autocracy Appeals To People 00:18:52 Trump’s Wealth Changes Everything 00:21:08 Why Global Stability Is Collapsing 00:26:06 Democracy Vs Dictatorship: What Lasts? 00:27:18 Who’s Happier: Democracies Or Autocracies? 00:28:44 Would Informed People Choose Democracy? 00:30:25 How Putin Stays In Power 00:32:20 5 Tactics Autocrats Use 00:33:59 Are Tech CEOs Enabling This? 00:37:51 Can America Ever Return To Normal? 00:39:07 Why Nations Are Turning Inward 00:43:37 What This Means For Americans 00:45:19 The Most Dangerous Part Of Dictatorship 00:48:29 Why Trump’s Ratings Are Falling 00:50:28 Ads 00:52:31 The 2nd Tactic Autocrats Use 00:57:19 The 3rd Tactic Autocrats Use 00:59:20 The 4th Tactic Autocrats Use 01:05:38 Should Social Media Have Legal Power? 01:12:38 Can Citizens Really Leave China? 01:13:55 The 5th Tactic Autocrats Use 01:14:28 Why ICE Is Breaking Down 01:16:40 Ads 01:17:49 Is The American Empire Declining? 01:21:49 Is Politics Just Human Nature? 01:24:38 Does Democracy Create Extreme Capitalism? 01:26:44 How Democracies Defend Themselves 01:28:18 Is Mainstream Media Politically Biased? 01:31:59 Why Journalism Matters More Than Ever 01:33:29 How Algorithms Control Your Reality 01:34:37 Anne’s Personal Political Journey 01:41:05 What Regime Change Really Feels Like 01:44:36 Anne’s Toughest Setback Follow Anne: Youtube - https://link.thediaryofaceo.com/4pTtMb1 Instagram - https://link.thediaryofaceo.com/1GOn8p5 X - https://link.thediaryofaceo.com/8M5yUMK Website - https://link.thediaryofaceo.com/GGmhcYf You can purchase Anne’s book, ‘Autocracy, Inc.: The Dictators Who Want to Run the World’, here: https://link.thediaryofaceo.com/D07471h Sponsors: Stan - Visit https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode5 Wispr - Get 14 days of Wispr Flow for free at https://wisprflow.ai/steven'
-    episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KR98ATC25PEXNWDEV91DS4S6/anne_applebaum.jpg
-    episode_uid: flightcast-01kr97ym65pryfhgrx6w8e0gne
-    episode_slug: pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late
-    episode_key: pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-diary-of-a-ceo/pulitzer-prize-historian-you-won-t-notice-until-it-s-too-late/"
+    episode_page_url: "/the-diary-of-a-ceo/ufo-roundtable-cia-physicist-proves-aliens-exist/"
   https://evokeendurance.com/media-type/evokecast/feed/: &79 []
   https://anchor.fm/s/108a0bfdc/podcast/rss: &80
   - episode_title: 11. Entrevista Andreu Blanes, nuevo fichaje de Salomon
@@ -26329,6 +26329,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fkt-podcast/caroline-himbert-john-muir-trail-fkt-264/"
   https://sr-restored.se/rss/2519: &88
+  - episode_title: 'Ny: Kokainjakten i Göteborgs skärgård'
+    episode_url: https://www.sverigesradio.se/avsnitt/2819488
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/p3_dokumentar_ny_kokainjakten_i_goteborgs_s_20260624_1109178521.mp3
+    published_at: '2026-07-09T04:00:00Z'
+    description_html: <p>När en global liga av smugglare får problem att lasta av flera hundra kilo kokain måste några killar i Göteborg under stor tidspress lösa mottagandet.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: När en global liga av smugglare får problem att lasta av flera hundra kilo kokain måste några killar i Göteborg under stor tidspress lösa mottagandet. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2519/77bcbf3d-eadd-4281-8955-a92e3356dcc7.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2819488
+    episode_slug: ny-kokainjakten-i-goteborgs-skargard
+    episode_key: ny-kokainjakten-i-goteborgs-skargard
+    legacy_unicode_slug: ny-kokainjakten-i-göteborgs-skärgård
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/p3-dokumentar/ny-kokainjakten-i-goteborgs-skargard/"
   - episode_title: Läktarkatastrofen på Hillsborough fotbollsstadion
     episode_url: https://www.sverigesradio.se/avsnitt/2827002
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/p3_dokumentar_laktarkatastrofen_pa_hillsboro_20260625_1128094436.mp3
@@ -26340,7 +26353,7 @@ episodes_by_feed:
     episode_slug: laktarkatastrofen-pa-hillsborough-fotbollsstadion
     episode_key: laktarkatastrofen-pa-hillsborough-fotbollsstadion
     legacy_unicode_slug: läktarkatastrofen-på-hillsborough-fotbollsstadion
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/p3-dokumentar/laktarkatastrofen-pa-hillsborough-fotbollsstadion/"
   - episode_title: 'Ny: De samiska barnen på tvångsinternaten'
     episode_url: https://www.sverigesradio.se/avsnitt/2819111
@@ -26353,7 +26366,7 @@ episodes_by_feed:
     episode_slug: ny-de-samiska-barnen-pa-tvangsinternaten
     episode_key: ny-de-samiska-barnen-pa-tvangsinternaten
     legacy_unicode_slug: ny-de-samiska-barnen-på-tvångsinternaten
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/p3-dokumentar/ny-de-samiska-barnen-pa-tvangsinternaten/"
   - episode_title: Fallet Kapten Klänning - hela serien
     episode_url: https://www.sverigesradio.se/avsnitt/2827030
@@ -26366,7 +26379,7 @@ episodes_by_feed:
     episode_slug: fallet-kapten-klanning-hela-serien
     episode_key: fallet-kapten-klanning-hela-serien
     legacy_unicode_slug: fallet-kapten-klänning-hela-serien
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/p3-dokumentar/fallet-kapten-klanning-hela-serien/"
   - episode_title: 'Ny: Batmanrånaren och polismorden'
     episode_url: https://www.sverigesradio.se/avsnitt/2795845
@@ -26379,7 +26392,7 @@ episodes_by_feed:
     episode_slug: ny-batmanranaren-och-polismorden
     episode_key: ny-batmanranaren-och-polismorden
     legacy_unicode_slug: ny-batmanrånaren-och-polismorden
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/p3-dokumentar/ny-batmanranaren-och-polismorden/"
   - episode_title: Branden på M/S Scandinavian Star
     episode_url: https://www.sverigesradio.se/avsnitt/2796267
@@ -26392,7 +26405,7 @@ episodes_by_feed:
     episode_slug: branden-pa-m-s-scandinavian-star
     episode_key: branden-pa-m-s-scandinavian-star
     legacy_unicode_slug: branden-på-m-s-scandinavian-star
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/p3-dokumentar/branden-pa-m-s-scandinavian-star/"
   - episode_title: 'Ny: Övergreppsskandalen i Tysfjord'
     episode_url: https://www.sverigesradio.se/avsnitt/2803339
@@ -26405,7 +26418,7 @@ episodes_by_feed:
     episode_slug: ny-overgreppsskandalen-i-tysfjord
     episode_key: ny-overgreppsskandalen-i-tysfjord
     legacy_unicode_slug: ny-övergreppsskandalen-i-tysfjord
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/p3-dokumentar/ny-overgreppsskandalen-i-tysfjord/"
   - episode_title: Självhjälpsgurun och döden i öknen
     episode_url: https://www.sverigesradio.se/avsnitt/2796538
@@ -26418,7 +26431,7 @@ episodes_by_feed:
     episode_slug: sjalvhjalpsgurun-och-doden-i-oknen
     episode_key: sjalvhjalpsgurun-och-doden-i-oknen
     legacy_unicode_slug: självhjälpsgurun-och-döden-i-öknen
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/p3-dokumentar/sjalvhjalpsgurun-och-doden-i-oknen/"
   - episode_title: 'Ny: Den brittiska postskandalen och de oskyldigt dömda'
     episode_url: https://www.sverigesradio.se/avsnitt/2796262
@@ -26431,7 +26444,7 @@ episodes_by_feed:
     episode_slug: ny-den-brittiska-postskandalen-och-de-oskyldigt-domda
     episode_key: ny-den-brittiska-postskandalen-och-de-oskyldigt-domda
     legacy_unicode_slug: ny-den-brittiska-postskandalen-och-de-oskyldigt-dömda
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/p3-dokumentar/ny-den-brittiska-postskandalen-och-de-oskyldigt-domda/"
   - episode_title: Svensken El Choco i skräckfängelset i Bolivia
     episode_url: https://www.sverigesradio.se/avsnitt/2787587
@@ -26444,7 +26457,7 @@ episodes_by_feed:
     episode_slug: svensken-el-choco-i-skrackfangelset-i-bolivia
     episode_key: svensken-el-choco-i-skrackfangelset-i-bolivia
     legacy_unicode_slug: svensken-el-choco-i-skräckfängelset-i-bolivia
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/p3-dokumentar/svensken-el-choco-i-skrackfangelset-i-bolivia/"
   - episode_title: 'Ny: Babyguden'
     episode_url: https://www.sverigesradio.se/avsnitt/2786416
@@ -26456,7 +26469,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2786416
     episode_slug: ny-babyguden
     episode_key: ny-babyguden
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/p3-dokumentar/ny-babyguden/"
   - episode_title: Tjernobylkatastrofen
     episode_url: https://www.sverigesradio.se/avsnitt/2789544
@@ -26468,7 +26481,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2789544
     episode_slug: tjernobylkatastrofen
     episode_key: tjernobylkatastrofen
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/p3-dokumentar/tjernobylkatastrofen/"
   - episode_title: 'Ny: Polismordet i Nyköping'
     episode_url: https://www.sverigesradio.se/avsnitt/2779786
@@ -26481,7 +26494,7 @@ episodes_by_feed:
     episode_slug: ny-polismordet-i-nykoping
     episode_key: ny-polismordet-i-nykoping
     legacy_unicode_slug: ny-polismordet-i-nyköping
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/p3-dokumentar/ny-polismordet-i-nykoping/"
   - episode_title: Prinsessan Dianas död
     episode_url: https://www.sverigesradio.se/avsnitt/2782490
@@ -26494,7 +26507,7 @@ episodes_by_feed:
     episode_slug: prinsessan-dianas-dod
     episode_key: prinsessan-dianas-dod
     legacy_unicode_slug: prinsessan-dianas-död
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/p3-dokumentar/prinsessan-dianas-dod/"
   - episode_title: 'Ny: Standing Rock och urfolkets kamp mot oljan'
     episode_url: https://www.sverigesradio.se/avsnitt/2779444
@@ -26506,7 +26519,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2779444
     episode_slug: ny-standing-rock-och-urfolkets-kamp-mot-oljan
     episode_key: ny-standing-rock-och-urfolkets-kamp-mot-oljan
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/p3-dokumentar/ny-standing-rock-och-urfolkets-kamp-mot-oljan/"
   - episode_title: Mordet på Madeleine Delbom i Långshyttan
     episode_url: https://www.sverigesradio.se/avsnitt/2771257
@@ -26519,7 +26532,7 @@ episodes_by_feed:
     episode_slug: mordet-pa-madeleine-delbom-i-langshyttan
     episode_key: mordet-pa-madeleine-delbom-i-langshyttan
     legacy_unicode_slug: mordet-på-madeleine-delbom-i-långshyttan
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/p3-dokumentar/mordet-pa-madeleine-delbom-i-langshyttan/"
   - episode_title: 'Ny: Mysteriet Adam - Brotten i Tjeckien, del 3'
     episode_url: https://www.sverigesradio.se/avsnitt/2767879
@@ -26531,7 +26544,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2767879
     episode_slug: ny-mysteriet-adam-brotten-i-tjeckien-del-3
     episode_key: ny-mysteriet-adam-brotten-i-tjeckien-del-3
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/p3-dokumentar/ny-mysteriet-adam-brotten-i-tjeckien-del-3/"
   - episode_title: 'Ny: Mysteriet Adam - Biljakten, del 2'
     episode_url: https://www.sverigesradio.se/avsnitt/2767876
@@ -26543,7 +26556,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2767876
     episode_slug: ny-mysteriet-adam-biljakten-del-2
     episode_key: ny-mysteriet-adam-biljakten-del-2
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/p3-dokumentar/ny-mysteriet-adam-biljakten-del-2/"
   - episode_title: 'Ny: Mysteriet Adam - En ny elev i klassen, del 1'
     episode_url: https://www.sverigesradio.se/avsnitt/2753204
@@ -26555,7 +26568,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2753204
     episode_slug: ny-mysteriet-adam-en-ny-elev-i-klassen-del-1
     episode_key: ny-mysteriet-adam-en-ny-elev-i-klassen-del-1
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/p3-dokumentar/ny-mysteriet-adam-en-ny-elev-i-klassen-del-1/"
   - episode_title: Gisslandramat på USA:s ambassad i Teheran
     episode_url: https://www.sverigesradio.se/avsnitt/2768186
@@ -26568,7 +26581,7 @@ episodes_by_feed:
     episode_slug: gisslandramat-pa-usa-s-ambassad-i-teheran
     episode_key: gisslandramat-pa-usa-s-ambassad-i-teheran
     legacy_unicode_slug: gisslandramat-på-usa-s-ambassad-i-teheran
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/p3-dokumentar/gisslandramat-pa-usa-s-ambassad-i-teheran/"
   - episode_title: 'Ny: Döden på Hells Angels-gården'
     episode_url: https://www.sverigesradio.se/avsnitt/2753203
@@ -26581,7 +26594,7 @@ episodes_by_feed:
     episode_slug: ny-doden-pa-hells-angels-garden
     episode_key: ny-doden-pa-hells-angels-garden
     legacy_unicode_slug: ny-döden-på-hells-angels-gården
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/p3-dokumentar/ny-doden-pa-hells-angels-garden/"
   - episode_title: 'Palmeutredningen inifrån del 1/7: Olof Palmes sista timmar'
     episode_url: https://www.sverigesradio.se/avsnitt/2760875
@@ -26594,7 +26607,7 @@ episodes_by_feed:
     episode_slug: palmeutredningen-inifran-del-1-7-olof-palmes-sista-timmar
     episode_key: palmeutredningen-inifran-del-1-7-olof-palmes-sista-timmar
     legacy_unicode_slug: palmeutredningen-inifrån-del-1-7-olof-palmes-sista-timmar
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/p3-dokumentar/palmeutredningen-inifran-del-1-7-olof-palmes-sista-timmar/"
   - episode_title: 'Ny: Det nordiska MC-kriget'
     episode_url: https://www.sverigesradio.se/avsnitt/2740692
@@ -26606,7 +26619,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2740692
     episode_slug: ny-det-nordiska-mc-kriget
     episode_key: ny-det-nordiska-mc-kriget
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/p3-dokumentar/ny-det-nordiska-mc-kriget/"
   - episode_title: Svensk vapenexport och granaten Excalibur
     episode_url: https://www.sverigesradio.se/avsnitt/2753032
@@ -26618,7 +26631,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2753032
     episode_slug: svensk-vapenexport-och-granaten-excalibur
     episode_key: svensk-vapenexport-och-granaten-excalibur
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/p3-dokumentar/svensk-vapenexport-och-granaten-excalibur/"
   - episode_title: 'Ny: Exorcismen i Västsverige'
     episode_url: https://www.sverigesradio.se/avsnitt/2740738
@@ -26631,21 +26644,8 @@ episodes_by_feed:
     episode_slug: ny-exorcismen-i-vastsverige
     episode_key: ny-exorcismen-i-vastsverige
     legacy_unicode_slug: ny-exorcismen-i-västsverige
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/p3-dokumentar/ny-exorcismen-i-vastsverige/"
-  - episode_title: Den dödsdömda polarexpeditionen
-    episode_url: https://www.sverigesradio.se/avsnitt/2713116
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/01/p3_dokumentar_den_dodsdomda_polarexpeditione_20260121_0946157198.mp3
-    published_at: '2026-01-29T05:00:00Z'
-    description_html: <p>Från 2016. Tre unga svenska män försöker åka till Nordpolen i en luftballong men de kommer aldrig fram. I 33 år är Andrées polarexpedition ett mysterium.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Från 2016. Tre unga svenska män försöker åka till Nordpolen i en luftballong men de kommer aldrig fram. I 33 år är Andrées polarexpedition ett mysterium. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2519/55e4ea82-9e76-4904-8de6-17a0d222ae54.png?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2713116
-    episode_slug: den-dodsdomda-polarexpeditionen
-    episode_key: den-dodsdomda-polarexpeditionen
-    legacy_unicode_slug: den-dödsdömda-polarexpeditionen
     legacy_numbered_slug: episode-25
-    episode_page_url: "/p3-dokumentar/den-dodsdomda-polarexpeditionen/"
+    episode_page_url: "/p3-dokumentar/ny-exorcismen-i-vastsverige/"
   https://feed.pod.space/alexosigge: &89
   - episode_title: 737. Ro! Ro! Ro!
     episode_url: https://pod.space/alexosigge/737-ro-ro-ro
