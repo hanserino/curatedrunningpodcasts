@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-10T13:44:07Z'
+generated_at: '2026-07-10T15:00:13Z'
 items:
 - podcast_title: Second Nature
   podcast_page_url: "/second-nature/"
@@ -25,18 +25,6 @@ items:
   episode_key: 132-rachel-entrekin-s-advice-to-race-faster-for-non-elites
   episode_slug: 132-rachel-entrekin-s-advice-to-race-faster-for-non-elites
   episode_page_url: "/the-extramilest-show/132-rachel-entrekin-s-advice-to-race-faster-for-non-elites/"
-- podcast_title: Women of Distance
-  podcast_page_url: "/women-of-distance/"
-  cover_image: "/media/womanofdistancepodcast.jpeg"
-  feed_url: https://anchor.fm/s/eb00f12c/podcast/rss
-  filter_category: trail ultra english
-  episode_title: Dani Moreno - "I'm Betting On Myself"
-  episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Dani-Moreno---Im-Betting-On-Myself-e3lsm67
-  audio_url: https://anchor.fm/s/eb00f12c/podcast/play/122623623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F427676499-44100-2-df883b8d5abcb.mp3
-  published_at: '2026-07-10T10:00:00+00:00'
-  episode_key: dani-moreno-i-m-betting-on-myself
-  episode_slug: dani-moreno-i-m-betting-on-myself
-  episode_page_url: "/women-of-distance/dani-moreno-i-m-betting-on-myself/"
 - podcast_title: For The Long Run
   podcast_page_url: "/for-the-long-run/"
   cover_image: "/media/forthelongrun.jpeg"
@@ -445,6 +433,18 @@ items:
   episode_key: jenn-lichter-western-states-100-champion-s-interview
   episode_slug: jenn-lichter-western-states-100-champion-s-interview
   episode_page_url: "/the-freetrail-podcast/jenn-lichter-western-states-100-champion-s-interview/"
+- podcast_title: Women of Distance
+  podcast_page_url: "/women-of-distance/"
+  cover_image: "/media/womanofdistancepodcast.jpeg"
+  feed_url: https://anchor.fm/s/eb00f12c/podcast/rss
+  filter_category: trail ultra english
+  episode_title: Sarah Carter - Radical Self Belief
+  episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Carter---Radical-Self-Belief-e3lhkj5
+  audio_url: https://anchor.fm/s/eb00f12c/podcast/play/122261541/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-1%2F427188063-44100-2-35dffac44bcfb.mp3
+  published_at: '2026-07-02T10:00:00+00:00'
+  episode_key: sarah-carter-radical-self-belief
+  episode_slug: sarah-carter-radical-self-belief
+  episode_page_url: "/women-of-distance/sarah-carter-radical-self-belief/"
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack/"
   cover_image: "/media/singletracknew.jpeg"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Forklart
+  podcast_page_url: "/forklart/"
+  cover_image: "/media/forklart.jpeg"
+  feed_url: https://podcast.stream.schibsted.media/ap/100194
+  filter_category: uncategorized norwegian
+  episode_title: Kort Forklart: Reform UK-lederen blir utfordret av «Count Binface», og pengene flyr i VM.
+  episode_url: ''
+  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/zchn486kcbz0utaudszle/podcast_128.mp3
+  published_at: '2026-07-10T13:48:02+00:00'
+  episode_key: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
+  episode_slug: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
+  episode_page_url: "/forklart/kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -866,18 +878,6 @@ non_running_items:
   episode_key: hele-verden-ror-dette-er-mannen-bak
   episode_slug: hele-verden-ror-dette-er-mannen-bak
   episode_page_url: "/oppdatert/hele-verden-ror-dette-er-mannen-bak/"
-- podcast_title: Forklart
-  podcast_page_url: "/forklart/"
-  cover_image: "/media/forklart.jpeg"
-  feed_url: https://podcast.stream.schibsted.media/ap/100194
-  filter_category: uncategorized norwegian
-  episode_title: Gina var eneste norske journalist i ayatollahens begravelse
-  episode_url: ''
-  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/kn3c87cbrjdr6l1afrtq1/podcast_128.mp3
-  published_at: '2026-07-10T03:00:03+00:00'
-  episode_key: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
-  episode_slug: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
-  episode_page_url: "/forklart/gina-var-eneste-norske-journalist-i-ayatollahens-begravelse/"
 - podcast_title: Alex och Sigges podcast
   podcast_page_url: "/alex-og-sigges-podcast/"
   cover_image: "/media/alexochsigge.jpeg"
@@ -8052,8 +8052,8 @@ episodes_by_feed:
     episode_url: https://trailrunnernation.libsyn.com/youre-probably-using-caffeine-wrong-ep-789
     audio_url: https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/mgln.ai/e/662/mgln.ai/e/662/prfx.byspotify.com/e/traffic.libsyn.com/secure/trailrunnernation/TRN_w_Stonecreek_Coffee.mp3?dest-id=142179
     published_at: '2026-07-09T23:56:00+00:00'
-    description_html: '<p>Caffeine is one of the most researched performance enhancers in endurance sports, yet most runners know surprisingly little about how to use it effectively. In this conversation, <a href= "https://www.stonecreekcoffee.com/pages/trn">Stone Creek Coffee</a> founders Eric Resch and Amy Balestrieri separate the science from the myths, discussing when caffeine actually helps performance, why timing matters more than quantity, and how too much can hurt your sleep and recovery. They also explore why that morning cup of coffee is about far more than caffeine, touching on the rituals, psychology, and community that make coffee such an important part of endurance culture. Along the way, you''ll learn about caffeine tolerance, race-day strategies, common misconceptions like dehydration, and even what goes into producing a truly great cup of coffee. You''ll come away with a better understanding of how to make caffeine work for you and a new appreciation for the cup of coffee that starts so many great adventures.</p><p>EPISODE SPONSORS <a href="https://tifosioptics.com/">Tifosi Optics</a> - CLARITY ON THE TRAIL: Post your Golden Nugget of wisdom <em>that helps you recover after a huge effort</em> on Instagram, tag @TifosiOptics, @TrailRunnerNation, and use the hashtag #ClarityOnTheTrail. OR try texting us (within the USA) with your tip: 916-235-3928. If we use yours on a weekly episode, you get a pair of the new <a href= "https://tifosioptics.com/products/sanctum-sl">Sanctum SL glasses</a>!</p><p><a href="http://altrarunning.com/">ALTRA</a>: With the classic Altra Fit, you set the pace. Altra running shoes are designed with room for your toes so they can actually spread out - for a natural fit. This gives you comfort, balance, and strength on and off the trail. Better balance and stability for our toes means more comfort – on mile 5, 50, or 100. Learn more about <a href= "https://www.altrarunning.com/en-us/pages/the-altra-fit.">Altra Fit</a>. Feel the Altra Difference and use code TRN10 for 10% off your first order at checkout at <a href="http://altrarunning.com/">altrarunning.com</a>. Stay Out There™ with Altra.</p><p><a href="https://www.stonecreekcoffee.com/pages/trn">Stone Creek Coffee</a>: Start every adventure with One More Mile, our limited edition coffee created by Stone Creek Coffee and Trail Runner Nation for runners who believe the journey is as meaningful as the finish line. Fuel your next early morning, long run, or post-run conversation, and save 20% with code ONEMOREMILE20. Every cup is an invitation to be part of a community that goes farther together.</p><p><a href= "https://page.run-motion.com/trail-runner-nation/">RunMotion Coach</a>: Whether you''re training for your first trail race or chasing a new ultra PR, RunMotion Coach creates a personalized training plan that adapts to your schedule, fitness, and progress. Built by experienced coaches and powered by intelligent coaching technology, it helps you train smarter, stay consistent, and arrive at the starting line ready for your next adventure.</p> Timestamps 00:00 | Why Caffeine Matters to Endurance Athletes <p>The discussion begins with why caffeine has become such a staple of trail running and what science actually says about its performance benefits.</p> 07:00 | Coffee Is More Than Just Caffeine <p>Eric and Amy explain why your morning coffee ritual is as much psychological as it is physiological.</p> 14:00 | How to Use Caffeine for Training and Racing <p>Practical advice on timing, dosage, long runs, and race-day strategies to get the most from caffeine.</p> 20:30 | Busting Common Coffee Myths <p>The group tackles questions about dehydration, dark vs. light roast, caffeine levels, and energy drinks.</p> 29:00 | From Coffee Farm to Your Mug <p>A behind-the-scenes look at how specialty coffee is grown, sourced, roasted, and why quality matters.</p> 38:30 | Finding the Right Coffee Routine <p>The conversation shifts back to runners, covering caffeine tolerance, sleep, recovery, and building a routine that works for your body.</p> 55:00 | Introducing The Long Run Blend <p>Eric and Amy share the story behind Stone Creek Coffee''s custom Trail Runner Nation blend and why it was designed specifically for endurance athletes.</p>'
-    description_plain: 'Caffeine is one of the most researched performance enhancers in endurance sports, yet most runners know surprisingly little about how to use it effectively. In this conversation, Stone Creek Coffee founders Eric Resch and Amy Balestrieri separate the science from the myths, discussing when caffeine actually helps performance, why timing matters more than quantity, and how too much can hurt your sleep and recovery. They also explore why that morning cup of coffee is about far more than caffeine, touching on the rituals, psychology, and community that make coffee such an important part of endurance culture. Along the way, you''ll learn about caffeine tolerance, race-day strategies, common misconceptions like dehydration, and even what goes into producing a truly great cup of coffee. You''ll come away with a better understanding of how to make caffeine work for you and a new appreciation for the cup of coffee that starts so many great adventures. EPISODE SPONSORS Tifosi Optics - CLARITY ON THE TRAIL: Post your Golden Nugget of wisdom that helps you recover after a huge effort on Instagram, tag @TifosiOptics, @TrailRunnerNation, and use the hashtag #ClarityOnTheTrail. OR try texting us (within the USA) with your tip: 916-235-3928. If we use yours on a weekly episode, you get a pair of the new Sanctum SL glasses ! ALTRA : With the classic Altra Fit, you set the pace. Altra running shoes are designed with room for your toes so they can actually spread out - for a natural fit. This gives you comfort, balance, and strength on and off the trail. Better balance and stability for our toes means more comfort – on mile 5, 50, or 100. Learn more about Altra Fit . Feel the Altra Difference and use code TRN10 for 10% off your first order at checkout at altrarunning.com . Stay Out There™ with Altra. Stone Creek Coffee : Start every adventure with One More Mile, our limited edition coffee created by Stone Creek Coffee and Trail Runner Nation for runners who believe the journey is as meaningful as the finish line. Fuel your next early morning, long run, or post-run conversation, and save 20% with code ONEMOREMILE20. Every cup is an invitation to be part of a community that goes farther together. RunMotion Coach : Whether you''re training for your first trail race or chasing a new ultra PR, RunMotion Coach creates a personalized training plan that adapts to your schedule, fitness, and progress. Built by experienced coaches and powered by intelligent coaching technology, it helps you train smarter, stay consistent, and arrive at the starting line ready for your next adventure. Timestamps 00:00 | Why Caffeine Matters to Endurance Athletes The discussion begins with why caffeine has become such a staple of trail running and what science actually says about its performance benefits. 07:00 | Coffee Is More Than Just Caffeine Eric and Amy explain why your morning coffee ritual is as much psychological as it is physiological. 14:00 | How to Use Caffeine for Training and Racing Practical advice on timing, dosage, long runs, and race-day strategies to get the most from caffeine. 20:30 | Busting Common Coffee Myths The group tackles questions about dehydration, dark vs. light roast, caffeine levels, and energy drinks. 29:00 | From Coffee Farm to Your Mug A behind-the-scenes look at how specialty coffee is grown, sourced, roasted, and why quality matters. 38:30 | Finding the Right Coffee Routine The conversation shifts back to runners, covering caffeine tolerance, sleep, recovery, and building a routine that works for your body. 55:00 | Introducing The Long Run Blend Eric and Amy share the story behind Stone Creek Coffee''s custom Trail Runner Nation blend and why it was designed specifically for endurance athletes.'
+    description_html: '<p>Caffeine is one of the most researched performance enhancers in endurance sports, yet most runners know surprisingly little about how to use it effectively. In this conversation, <a href= "https://www.stonecreekcoffee.com/pages/trn">Stone Creek Coffee</a> founders Eric Resch and Amy Balestrieri separate the science from the myths, discussing when caffeine actually helps performance, why timing matters more than quantity, and how too much can hurt your sleep and recovery. They also explore why that morning cup of coffee is about far more than caffeine, touching on the rituals, psychology, and community that make coffee such an important part of endurance culture. Along the way, you''ll learn about caffeine tolerance, race-day strategies, common misconceptions like dehydration, and even what goes into producing a truly great cup of coffee. You''ll come away with a better understanding of how to make caffeine work for you and a new appreciation for the cup of coffee that starts so many great adventures.</p><p>EPISODE SPONSORS <a href="https://tifosioptics.com/">Tifosi Optics</a> - CLARITY ON THE TRAIL: Post your Golden Nugget of wisdom <em>that helps you recover after a huge effort</em> on Instagram, tag @TifosiOptics, @TrailRunnerNation, and use the hashtag #ClarityOnTheTrail. OR try texting us (within the USA) with your tip: 916-235-3928. If we use yours on a weekly episode, you get a pair of the new <a href= "https://tifosioptics.com/products/sanctum-sl">Sanctum SL glasses</a>!</p><p><a href="http://altrarunning.com/">ALTRA</a>: With the classic Altra Fit, you set the pace. Altra running shoes are designed with room for your toes so they can actually spread out - for a natural fit. This gives you comfort, balance, and strength on and off the trail. Better balance and stability for our toes means more comfort – on mile 5, 50, or 100. Learn more about <a href= "https://www.altrarunning.com/en-us/pages/the-altra-fit.">Altra Fit</a>. Feel the Altra Difference and use code TRN10 for 10% off your first order at checkout at <a href="http://altrarunning.com/">altrarunning.com</a>. Stay Out There with Altra.</p><p><a href="https://www.stonecreekcoffee.com/pages/trn">Stone Creek Coffee</a>: Start every adventure with One More Mile, our limited edition coffee created by Stone Creek Coffee and Trail Runner Nation for runners who believe the journey is as meaningful as the finish line. Fuel your next early morning, long run, or post-run conversation, and save 20% with code ONEMOREMILE20. Every cup is an invitation to be part of a community that goes farther together.</p><p><a href= "https://page.run-motion.com/trail-runner-nation/">RunMotion Coach</a>: Whether you''re training for your first trail race or chasing a new ultra PR, RunMotion Coach creates a personalized training plan that adapts to your schedule, fitness, and progress. Built by experienced coaches and powered by intelligent coaching technology, it helps you train smarter, stay consistent, and arrive at the starting line ready for your next adventure.</p> Timestamps 00:00 | Why Caffeine Matters to Endurance Athletes <p>The discussion begins with why caffeine has become such a staple of trail running and what science actually says about its performance benefits.</p> 07:00 | Coffee Is More Than Just Caffeine <p>Eric and Amy explain why your morning coffee ritual is as much psychological as it is physiological.</p> 14:00 | How to Use Caffeine for Training and Racing <p>Practical advice on timing, dosage, long runs, and race-day strategies to get the most from caffeine.</p> 20:30 | Busting Common Coffee Myths <p>The group tackles questions about dehydration, dark vs. light roast, caffeine levels, and energy drinks.</p> 29:00 | From Coffee Farm to Your Mug <p>A behind-the-scenes look at how specialty coffee is grown, sourced, roasted, and why quality matters.</p> 38:30 | Finding the Right Coffee Routine <p>The conversation shifts back to runners, covering caffeine tolerance, sleep, recovery, and building a routine that works for your body.</p> 55:00 | Introducing The Long Run Blend <p>Eric and Amy share the story behind Stone Creek Coffee''s custom Trail Runner Nation blend and why it was designed specifically for endurance athletes.</p>'
+    description_plain: 'Caffeine is one of the most researched performance enhancers in endurance sports, yet most runners know surprisingly little about how to use it effectively. In this conversation, Stone Creek Coffee founders Eric Resch and Amy Balestrieri separate the science from the myths, discussing when caffeine actually helps performance, why timing matters more than quantity, and how too much can hurt your sleep and recovery. They also explore why that morning cup of coffee is about far more than caffeine, touching on the rituals, psychology, and community that make coffee such an important part of endurance culture. Along the way, you''ll learn about caffeine tolerance, race-day strategies, common misconceptions like dehydration, and even what goes into producing a truly great cup of coffee. You''ll come away with a better understanding of how to make caffeine work for you and a new appreciation for the cup of coffee that starts so many great adventures. EPISODE SPONSORS Tifosi Optics - CLARITY ON THE TRAIL: Post your Golden Nugget of wisdom that helps you recover after a huge effort on Instagram, tag @TifosiOptics, @TrailRunnerNation, and use the hashtag #ClarityOnTheTrail. OR try texting us (within the USA) with your tip: 916-235-3928. If we use yours on a weekly episode, you get a pair of the new Sanctum SL glasses ! ALTRA : With the classic Altra Fit, you set the pace. Altra running shoes are designed with room for your toes so they can actually spread out - for a natural fit. This gives you comfort, balance, and strength on and off the trail. Better balance and stability for our toes means more comfort – on mile 5, 50, or 100. Learn more about Altra Fit . Feel the Altra Difference and use code TRN10 for 10% off your first order at checkout at altrarunning.com . Stay Out There with Altra. Stone Creek Coffee : Start every adventure with One More Mile, our limited edition coffee created by Stone Creek Coffee and Trail Runner Nation for runners who believe the journey is as meaningful as the finish line. Fuel your next early morning, long run, or post-run conversation, and save 20% with code ONEMOREMILE20. Every cup is an invitation to be part of a community that goes farther together. RunMotion Coach : Whether you''re training for your first trail race or chasing a new ultra PR, RunMotion Coach creates a personalized training plan that adapts to your schedule, fitness, and progress. Built by experienced coaches and powered by intelligent coaching technology, it helps you train smarter, stay consistent, and arrive at the starting line ready for your next adventure. Timestamps 00:00 | Why Caffeine Matters to Endurance Athletes The discussion begins with why caffeine has become such a staple of trail running and what science actually says about its performance benefits. 07:00 | Coffee Is More Than Just Caffeine Eric and Amy explain why your morning coffee ritual is as much psychological as it is physiological. 14:00 | How to Use Caffeine for Training and Racing Practical advice on timing, dosage, long runs, and race-day strategies to get the most from caffeine. 20:30 | Busting Common Coffee Myths The group tackles questions about dehydration, dark vs. light roast, caffeine levels, and energy drinks. 29:00 | From Coffee Farm to Your Mug A behind-the-scenes look at how specialty coffee is grown, sourced, roasted, and why quality matters. 38:30 | Finding the Right Coffee Routine The conversation shifts back to runners, covering caffeine tolerance, sleep, recovery, and building a routine that works for your body. 55:00 | Introducing The Long Run Blend Eric and Amy share the story behind Stone Creek Coffee''s custom Trail Runner Nation blend and why it was designed specifically for endurance athletes.'
     episode_image_url: https://static.libsyn.com/p/assets/7/e/d/c/7edc47315d6890bd16c3140a3186d450/WhatsApp_Image_2026-07-07_at_08.43.16.jpeg
     episode_uid: e546c4e8-66c8-4b73-9822-3212b47001ab
     episode_slug: you-re-probably-using-caffeine-wrong-ep-789
@@ -10284,18 +10284,6 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/choose-strong/121-tara-dower-a-star/"
   https://anchor.fm/s/eb00f12c/podcast/rss: &33
-  - episode_title: Dani Moreno - "I'm Betting On Myself"
-    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Dani-Moreno---Im-Betting-On-Myself-e3lsm67
-    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/122623623/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-9%2F427676499-44100-2-df883b8d5abcb.mp3
-    published_at: '2026-07-10T10:00:00+00:00'
-    description_html: '<p>Dani Moreno is a world class trail runner and ambassador of the sport, just recently off of a significant victory at the Broken Arrow 46k... significant for many reasons, including that it was her first race back after a series of freak-accident injuries that have plagued her past two years.</p><p>Those injuries, and the experiences and growth that came with them, had a profound impact on her perspectives and who she is both inside and outside of sport. In this episode, we walk it back to her entry into athletics, discovering her innate competitive drive, and the journey that ultimately brought her to this next chapter and next level.</p><p>Find and follow Dani at <a href="http://instagram.com/linzdwyer" target="_blank">⁠⁠instagram.com/dan_yell_a</a></p><p>and substack.com/@thetraildiaries</p><p>Find and follow all things Women of Distance at:  ⁠⁠⁠⁠⁠⁠⁠<a href="http://linktr.ee/womenofdistance" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠linktr.ee/womenofdistance⁠⁠⁠⁠⁠⁠⁠⁠⁠</a>⁠⁠⁠⁠⁠⁠⁠</p><p>*Women of Distance is supported by ⁠⁠⁠⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠⁠⁠⁠!</p><p>On a mission to provide the quality sports nutrition you need, without the trash and waste you don&#39;t - check out their products and their mission at <a href="http://openfuel.co/" target="_blank">openfuel.co</a></p><p>⁠⁠⁠⁠⁠⁠⁠<a href="http://openfuel.co/" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠</a>Use code: WOD for 20% off your order, every time!⁠⁠</p><p>*Women of Distance is also kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠<a href="http://www.summit-roasters.com/" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠</a>⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</p><p>Use code WOD15 for 15% off your order every time!⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ (Trolley House, medium roast, is my top choice.)</p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us. Thank you!</p>'
-    description_plain: 'Dani Moreno is a world class trail runner and ambassador of the sport, just recently off of a significant victory at the Broken Arrow 46k... significant for many reasons, including that it was her first race back after a series of freak-accident injuries that have plagued her past two years. Those injuries, and the experiences and growth that came with them, had a profound impact on her perspectives and who she is both inside and outside of sport. In this episode, we walk it back to her entry into athletics, discovering her innate competitive drive, and the journey that ultimately brought her to this next chapter and next level. Find and follow Dani at ⁠⁠instagram.com/dan_yell_a and substack.com/@thetraildiaries Find and follow all things Women of Distance at: ⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠linktr.ee/womenofdistance⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠ *Women of Distance is supported by ⁠⁠⁠⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠⁠⁠⁠! On a mission to provide the quality sports nutrition you need, without the trash and waste you don&#39;t - check out their products and their mission at openfuel.co ⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠ Use code: WOD for 20% off your order, every time!⁠⁠ *Women of Distance is also kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time!⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ (Trolley House, medium roast, is my top choice.) We&#39;d love to see Women of Distance listeners supporting those, supporting us. Thank you!'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
-    episode_uid: 86d364c4-76bd-4673-a88c-45ce69c30562
-    episode_slug: dani-moreno-i-m-betting-on-myself
-    episode_key: dani-moreno-i-m-betting-on-myself
-    legacy_numbered_slug: episode-01
-    episode_page_url: "/women-of-distance/dani-moreno-i-m-betting-on-myself/"
   - episode_title: Sarah Carter - Radical Self Belief
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Carter---Radical-Self-Belief-e3lhkj5
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/122261541/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-1%2F427188063-44100-2-35dffac44bcfb.mp3
@@ -10306,7 +10294,7 @@ episodes_by_feed:
     episode_uid: 520de19c-7d31-49b1-8846-bd914df94f95
     episode_slug: sarah-carter-radical-self-belief
     episode_key: sarah-carter-radical-self-belief
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-01
     episode_page_url: "/women-of-distance/sarah-carter-radical-self-belief/"
   - episode_title: Western States 100 Women's Elite Field Preview Series
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Western-States-100-Womens-Elite-Field-Preview-Series-e3ks3jh
@@ -10318,7 +10306,7 @@ episodes_by_feed:
     episode_uid: 6bd8f171-61c1-44b5-a291-b1732034f1dd
     episode_slug: western-states-100-women-s-elite-field-preview-series
     episode_key: western-states-100-women-s-elite-field-preview-series
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-02
     episode_page_url: "/women-of-distance/western-states-100-women-s-elite-field-preview-series/"
   - episode_title: Sydney Petersen - A Strong Sense of Belonging
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sydney-Petersen---A-Strong-Sense-of-Belonging-e3jrdrl
@@ -10330,7 +10318,7 @@ episodes_by_feed:
     episode_uid: af6bc884-b521-4474-858f-4057bf9b8a0c
     episode_slug: sydney-petersen-a-strong-sense-of-belonging
     episode_key: sydney-petersen-a-strong-sense-of-belonging
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-03
     episode_page_url: "/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/"
   - episode_title: Lindsey Dwyer - I Just Love Running
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Lindsey-Dwyer---I-Just-Love-Running-e3jgi9p
@@ -10342,7 +10330,7 @@ episodes_by_feed:
     episode_uid: 01471a01-7bbe-43f1-8dfb-138c4ab4b1c2
     episode_slug: lindsey-dwyer-i-just-love-running
     episode_key: lindsey-dwyer-i-just-love-running
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-04
     episode_page_url: "/women-of-distance/lindsey-dwyer-i-just-love-running/"
   - episode_title: Sarah Humble - It's Not About The Result
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Humble---Its-Not-About-The-Result-e3j60ag
@@ -10354,7 +10342,7 @@ episodes_by_feed:
     episode_uid: c7c86c13-a557-4062-ab75-bae40d16fd22
     episode_slug: sarah-humble-it-s-not-about-the-result
     episode_key: sarah-humble-it-s-not-about-the-result
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-05
     episode_page_url: "/women-of-distance/sarah-humble-it-s-not-about-the-result/"
   - episode_title: Teamwork Makes the Dream Work
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Teamwork-Makes-the-Dream-Work-e3ir76l
@@ -10366,7 +10354,7 @@ episodes_by_feed:
     episode_uid: ceaf1c4a-55a1-4679-a6ff-8eeda9cd640e
     episode_slug: teamwork-makes-the-dream-work
     episode_key: teamwork-makes-the-dream-work
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-06
     episode_page_url: "/women-of-distance/teamwork-makes-the-dream-work/"
   - episode_title: Makena Morley - The Small Steps Lead To The Big Steps
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Makena-Morley---The-Small-Steps-Lead-To-The-Big-Steps-e3iloc3
@@ -10378,7 +10366,7 @@ episodes_by_feed:
     episode_uid: 3f8f1395-c924-4597-a0f7-d0cfb5703e5e
     episode_slug: makena-morley-the-small-steps-lead-to-the-big-steps
     episode_key: makena-morley-the-small-steps-lead-to-the-big-steps
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-07
     episode_page_url: "/women-of-distance/makena-morley-the-small-steps-lead-to-the-big-steps/"
   - episode_title: Sarah Morrison - 100k Road National Champion
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Morrison---100k-Road-National-Champion-e3igkj8
@@ -10390,7 +10378,7 @@ episodes_by_feed:
     episode_uid: 530681bb-eb4f-44ea-b7c3-2b1de7770877
     episode_slug: sarah-morrison-100k-road-national-champion
     episode_key: sarah-morrison-100k-road-national-champion
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-08
     episode_page_url: "/women-of-distance/sarah-morrison-100k-road-national-champion/"
   - episode_title: Bailey Kowalczyk - For The Love Of It
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Bailey-Kowalczyk---For-The-Love-Of-It-e3i8t47
@@ -10402,7 +10390,7 @@ episodes_by_feed:
     episode_uid: 529ef4d3-5de4-4e78-b9e2-58a41a698d38
     episode_slug: bailey-kowalczyk-for-the-love-of-it
     episode_key: bailey-kowalczyk-for-the-love-of-it
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-09
     episode_page_url: "/women-of-distance/bailey-kowalczyk-for-the-love-of-it/"
   - episode_title: Tayler Peavey - It Doesn't Have to be Perfect to be Good
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tayler-Peavey---It-Doesnt-Have-to-be-Perfect-to-be-Good-e3hul89
@@ -10414,7 +10402,7 @@ episodes_by_feed:
     episode_uid: a3a50a54-085a-43aa-bd40-271806e13e00
     episode_slug: tayler-peavey-it-doesn-t-have-to-be-perfect-to-be-good
     episode_key: tayler-peavey-it-doesn-t-have-to-be-perfect-to-be-good
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-10
     episode_page_url: "/women-of-distance/tayler-peavey-it-doesn-t-have-to-be-perfect-to-be-good/"
   - episode_title: Pregnancy and Motherhood in Sport
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Pregnancy-and-Motherhood-in-Sport-e3hhd51
@@ -10426,7 +10414,7 @@ episodes_by_feed:
     episode_uid: 226a37b0-88d3-4d78-8689-57042de833bb
     episode_slug: pregnancy-and-motherhood-in-sport
     episode_key: pregnancy-and-motherhood-in-sport
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-11
     episode_page_url: "/women-of-distance/pregnancy-and-motherhood-in-sport/"
   - episode_title: Sylvie Abel - A Pathway to Gratitude
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sylvie-Abel---A-Pathway-to-Gratitude-e3ha6n6
@@ -10438,7 +10426,7 @@ episodes_by_feed:
     episode_uid: d760d156-3b01-49ba-9242-17d9447c21ae
     episode_slug: sylvie-abel-a-pathway-to-gratitude
     episode_key: sylvie-abel-a-pathway-to-gratitude
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-12
     episode_page_url: "/women-of-distance/sylvie-abel-a-pathway-to-gratitude/"
   - episode_title: Lindsay Allison - It's About Who You Are
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Lindsay-Allison---Its-About-Who-You-Are-e3gjmog
@@ -10450,7 +10438,7 @@ episodes_by_feed:
     episode_uid: a07685e7-84b9-49ce-8335-8f5ed31a21bc
     episode_slug: lindsay-allison-it-s-about-who-you-are
     episode_key: lindsay-allison-it-s-about-who-you-are
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-13
     episode_page_url: "/women-of-distance/lindsay-allison-it-s-about-who-you-are/"
   - episode_title: Ellaney Matarese - Don't Be Afraid of Failure
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Ellaney-Matarese---Dont-Be-Afraid-of-Failure-e3fut18
@@ -10462,7 +10450,7 @@ episodes_by_feed:
     episode_uid: 78b0ef5a-bc49-4674-a4f4-96a7c905b7a3
     episode_slug: ellaney-matarese-don-t-be-afraid-of-failure
     episode_key: ellaney-matarese-don-t-be-afraid-of-failure
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-14
     episode_page_url: "/women-of-distance/ellaney-matarese-don-t-be-afraid-of-failure/"
   - episode_title: Holly Ranson - Golden Opportunity
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Holly-Ranson---Golden-Opportunity-e3fetae
@@ -10474,7 +10462,7 @@ episodes_by_feed:
     episode_uid: 87887951-1bc1-46df-8e2b-0ed7c69d68bf
     episode_slug: holly-ranson-golden-opportunity
     episode_key: holly-ranson-golden-opportunity
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-15
     episode_page_url: "/women-of-distance/holly-ranson-golden-opportunity/"
   - episode_title: Heather Jackson - Who You Share It With
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Heather-Jackson---Who-You-Share-It-With-e3f6a3c
@@ -10486,7 +10474,7 @@ episodes_by_feed:
     episode_uid: a28fd4c5-4d7a-4803-94ec-f188ef1527f4
     episode_slug: heather-jackson-who-you-share-it-with
     episode_key: heather-jackson-who-you-share-it-with
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-16
     episode_page_url: "/women-of-distance/heather-jackson-who-you-share-it-with/"
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (Veterans)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-Veterans-e3ejrvi
@@ -10498,7 +10486,7 @@ episodes_by_feed:
     episode_uid: 50695b07-0b12-4f7a-a686-5028c56ac734
     episode_slug: black-canyon-100k-women-s-elite-field-preview-veterans
     episode_key: black-canyon-100k-women-s-elite-field-preview-veterans
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-17
     episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-veterans/"
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
@@ -10510,7 +10498,7 @@ episodes_by_feed:
     episode_uid: 4ad8d31f-f80a-4cbd-81c4-79fe59a8e62f
     episode_slug: black-canyon-100k-women-s-elite-field-preview-first-timers
     episode_key: black-canyon-100k-women-s-elite-field-preview-first-timers
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-18
     episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-first-timers/"
   - episode_title: Tina Muir - Do The Next Right Thing
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tina-Muir---Do-The-Next-Right-Thing-e3dr6th
@@ -10522,7 +10510,7 @@ episodes_by_feed:
     episode_uid: b7c5dfe5-bb0a-4c96-a3da-03849206c892
     episode_slug: tina-muir-do-the-next-right-thing
     episode_key: tina-muir-do-the-next-right-thing
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-19
     episode_page_url: "/women-of-distance/tina-muir-do-the-next-right-thing/"
   - episode_title: Shelby Houlihan - Trail Runner?
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Shelby-Houlihan---Trail-Runner-e3dk1r1
@@ -10534,7 +10522,7 @@ episodes_by_feed:
     episode_uid: 9014ed97-8a86-48ad-9c74-286aedc4fd00
     episode_slug: shelby-houlihan-trail-runner
     episode_key: shelby-houlihan-trail-runner
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-20
     episode_page_url: "/women-of-distance/shelby-houlihan-trail-runner/"
   - episode_title: Olympic Skimo, with Anna Gibson
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Olympic-Skimo--with-Anna-Gibson-e3d9c8k
@@ -10546,7 +10534,7 @@ episodes_by_feed:
     episode_uid: 558f287b-3a0f-4129-839d-a51f61a872b9
     episode_slug: olympic-skimo-with-anna-gibson
     episode_key: olympic-skimo-with-anna-gibson
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-21
     episode_page_url: "/women-of-distance/olympic-skimo-with-anna-gibson/"
   - episode_title: Jess Brazeau - The Depth of a Truly Rich Life
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Jess-Brazeau---The-Depth-of-a-Truly-Rich-Life-e3d1j40
@@ -10558,7 +10546,7 @@ episodes_by_feed:
     episode_uid: e15d73c2-db86-4348-9c09-d27401955226
     episode_slug: jess-brazeau-the-depth-of-a-truly-rich-life
     episode_key: jess-brazeau-the-depth-of-a-truly-rich-life
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-22
     episode_page_url: "/women-of-distance/jess-brazeau-the-depth-of-a-truly-rich-life/"
   - episode_title: IAU 50k World Champs - And The State of Road Ultrarunning
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/IAU-50k-World-Champs---And-The-State-of-Road-Ultrarunning-e3br9b1
@@ -10570,7 +10558,7 @@ episodes_by_feed:
     episode_uid: 739ad965-66a0-461e-bcf0-9153b3a398db
     episode_slug: iau-50k-world-champs-and-the-state-of-road-ultrarunning
     episode_key: iau-50k-world-champs-and-the-state-of-road-ultrarunning
-    legacy_numbered_slug: episode-24
+    legacy_numbered_slug: episode-23
     episode_page_url: "/women-of-distance/iau-50k-world-champs-and-the-state-of-road-ultrarunning/"
   - episode_title: Jade Belzberg - The Unexpected Path
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Jade-Belzberg---The-Unexpected-Path-e3bm57l
@@ -10582,8 +10570,20 @@ episodes_by_feed:
     episode_uid: 5e68d057-217a-4831-a292-6ebf03a4f2ae
     episode_slug: jade-belzberg-the-unexpected-path
     episode_key: jade-belzberg-the-unexpected-path
-    legacy_numbered_slug: episode-25
+    legacy_numbered_slug: episode-24
     episode_page_url: "/women-of-distance/jade-belzberg-the-unexpected-path/"
+  - episode_title: Sarah Biehl - Fall Down and Get Back Up
+    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Sarah-Biehl---Fall-Down-and-Get-Back-Up-e3bcgff
+    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/111607727/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-10-24%2F413034698-44100-2-9ffe36f58aeb9.mp3
+    published_at: '2025-11-24T11:00:00+00:00'
+    description_html: '<p>Sarah Biehl is a marathoner turned trail and ultra athlete, who experienced early and natural success as a distance runner. She earned her OTQ standard in the marathon just shortly after college, and made a transition to ultrarunning almost immediately after running in the 2020 Olympic Marathon Trials.</p><p>She ran the JFK 50 Mile three years in a row, &quot;projecting&quot; the race and ultimately winning in 2022 with the then-fastest women&#39;s time in the race&#39;s extensive history (still, currently, the third fastest). But after that historic run, a series of changes in her life, including a cross country move from Ohio to Colorado, disrupted the smooth upward trajectory she&#39;d been on.</p><p>In this episode, Lauren and Sarah discuss the impact of that move on her physical and mental health, as well as her performance. We also talk about how she made her way back to herself, and spent 2025 putting together a string of strong trail and ultra racing across a wide variety of terrain!</p><p>You can find and follow Sarah at  <a href="http://instagram.com/kristenaschindler" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/biehlharas</a></p><p>Find and follow W.o.D. at</p><p><a href="http://instagram.com/" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/womenofdistance⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>*This podcast is produced with support from our friends, and fellow trail runners, at <a href="http://www.summit-roasters.com/" target="_blank">⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠</a></p><p>Use code WOD15 for 15% off your order every time!</p><p>*And also by my own team at More Miles Run Coaching.</p><p>With a team of four coaches and a combined more than 25 years of coaching experience, we offer one-on-one coaching for athletes of all abilities: from beginners to veterans, 5ks to 200milers, roads to trails, your first to your fastest. Learn more at: <a href="http://www.moremilestogo.com/" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a><a href="http://www.moremilestogo.com/" target="_blank">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.moremilestogo.com⁠⁠⁠</a></p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us!</p>'
+    description_plain: 'Sarah Biehl is a marathoner turned trail and ultra athlete, who experienced early and natural success as a distance runner. She earned her OTQ standard in the marathon just shortly after college, and made a transition to ultrarunning almost immediately after running in the 2020 Olympic Marathon Trials. She ran the JFK 50 Mile three years in a row, &quot;projecting&quot; the race and ultimately winning in 2022 with the then-fastest women&#39;s time in the race&#39;s extensive history (still, currently, the third fastest). But after that historic run, a series of changes in her life, including a cross country move from Ohio to Colorado, disrupted the smooth upward trajectory she&#39;d been on. In this episode, Lauren and Sarah discuss the impact of that move on her physical and mental health, as well as her performance. We also talk about how she made her way back to herself, and spent 2025 putting together a string of strong trail and ultra racing across a wide variety of terrain! You can find and follow Sarah at ⁠⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/biehlharas Find and follow W.o.D. at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠instagram.com/womenofdistance⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ *This podcast is produced with support from our friends, and fellow trail runners, at ⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time! *And also by my own team at More Miles Run Coaching. With a team of four coaches and a combined more than 25 years of coaching experience, we offer one-on-one coaching for athletes of all abilities: from beginners to veterans, 5ks to 200milers, roads to trails, your first to your fastest. Learn more at: ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.moremilestogo.com⁠⁠⁠ We&#39;d love to see Women of Distance listeners supporting those, supporting us!'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
+    episode_uid: 19fc2298-9361-4e6c-b5f3-fc66b8600a8a
+    episode_slug: sarah-biehl-fall-down-and-get-back-up
+    episode_key: sarah-biehl-fall-down-and-get-back-up
+    legacy_numbered_slug: episode-25
+    episode_page_url: "/women-of-distance/sarah-biehl-fall-down-and-get-back-up/"
   https://rss.libsyn.com/shows/233666/destinations/1729274.xml: &34
   - episode_title: 345. Sommarträning med löpningstungviktaren Edvin Anger
     episode_url: https://springsnyggt.libsyn.com/345-sommartrning-med-lpningstungviktaren-edvin-anger
@@ -18762,6 +18762,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/i-refuse-to-share-my-location-aita/"
   https://podcast.stream.schibsted.media/ap/100194: &61
+  - episode_title: Kort Forklart: Reform UK-lederen blir utfordret av «Count Binface», og pengene flyr i VM.
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/zchn486kcbz0utaudszle/podcast_128.mp3
+    published_at: '2026-07-10T13:48:02+00:00'
+    description_html: 'Nigel Farage går av som parlamentsmedlem etter pengegranskning. Nå vil han la folket dømme om han får komme tilbake, men en utfordrer står frem: “Grev Søppelbøttefjes”. I dag også om historisk dyre VM-billetter.'
+    description_plain: 'Nigel Farage går av som parlamentsmedlem etter pengegranskning. Nå vil han la folket dømme om han får komme tilbake, men en utfordrer står frem: “Grev Søppelbøttefjes”. I dag også om historisk dyre VM-billetter.'
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/d2767f457b06ad82aa3f80ce3cc2dcdb.jpg?t%5B%5D=1440q80
+    episode_uid: ap-139915
+    episode_slug: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
+    episode_key: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm/"
   - episode_title: Gina var eneste norske journalist i ayatollahens begravelse
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/kn3c87cbrjdr6l1afrtq1/podcast_128.mp3
@@ -18775,7 +18787,7 @@ episodes_by_feed:
     episode_uid: ap-139901
     episode_slug: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
     episode_key: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/gina-var-eneste-norske-journalist-i-ayatollahens-begravelse/"
   - episode_title: 'Sommer, utepils og VM-fyll: Når blir alkohol skadelig?'
     episode_url: ''
@@ -18791,7 +18803,7 @@ episodes_by_feed:
     episode_slug: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     episode_key: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     legacy_unicode_slug: sommer-utepils-og-vm-fyll-når-blir-alkohol-skadelig
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig/"
   - episode_title: 'Kort Forklart: Trump «tror» våpenhvilen er over, og mer kritikk av Fifa'
     episode_url: ''
@@ -18804,7 +18816,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     episode_key: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     legacy_unicode_slug: kort-forklart-trump-tror-våpenhvilen-er-over-og-mer-kritikk-av-fifa
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa/"
   - episode_title: 'Kort Forklart: Le Pen får mildere straff, og skandale preger fotball-VM'
     episode_url: ''
@@ -18817,7 +18829,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     episode_key: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     legacy_unicode_slug: kort-forklart-le-pen-får-mildere-straff-og-skandale-preger-fotball-vm
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm/"
   - episode_title: På innsiden av koranskolene
     episode_url: ''
@@ -18830,7 +18842,7 @@ episodes_by_feed:
     episode_slug: pa-innsiden-av-koranskolene
     episode_key: pa-innsiden-av-koranskolene
     legacy_unicode_slug: på-innsiden-av-koranskolene
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/pa-innsiden-av-koranskolene/"
   - episode_title: 'Kort Forklart fotballspesial: Norge gjorde det umulige. - Nå kan alt skje.'
     episode_url: ''
@@ -18843,7 +18855,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     episode_key: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     legacy_unicode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-nå-kan-alt-skje
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje/"
   - episode_title: 'Norge-Brasil: Klarer vi det igjen?'
     episode_url: ''
@@ -18855,7 +18867,7 @@ episodes_by_feed:
     episode_uid: ap-139743
     episode_slug: norge-brasil-klarer-vi-det-igjen
     episode_key: norge-brasil-klarer-vi-det-igjen
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/norge-brasil-klarer-vi-det-igjen/"
   - episode_title: 'Annonsørinnhold fra Gartner: Grønnsaker i sesong'
     episode_url: ''
@@ -18872,7 +18884,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     episode_key: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     legacy_unicode_slug: annonsørinnhold-fra-gartner-grønnsaker-i-sesong
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/annonsorinnhold-fra-gartner-gronnsaker-i-sesong/"
   - episode_title: 'Kort Forklart: Først nå begraves Irans øverste leder. Ingen vet om etterfølgeren dukker opp.'
     episode_url: ''
@@ -18885,7 +18897,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     episode_key: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     legacy_unicode_slug: kort-forklart-først-nå-begraves-irans-øverste-leder-ingen-vet-om-etterfølgeren-dukker-opp
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp/"
   - episode_title: "«Økonomisk dødsstraff»: Livet på Trumps svarteliste"
     episode_url: ''
@@ -18898,7 +18910,7 @@ episodes_by_feed:
     episode_slug: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     episode_key: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     legacy_unicode_slug: økonomisk-dødsstraff-livet-på-trumps-svarteliste
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/okonomisk-dodsstraff-livet-pa-trumps-svarteliste/"
   - episode_title: 'Kort Forklart: Trump tapte en av sine hjertesaker'
     episode_url: ''
@@ -18910,7 +18922,7 @@ episodes_by_feed:
     episode_uid: ap-139687
     episode_slug: kort-forklart-trump-tapte-en-av-sine-hjertesaker
     episode_key: kort-forklart-trump-tapte-en-av-sine-hjertesaker
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/kort-forklart-trump-tapte-en-av-sine-hjertesaker/"
   - episode_title: 'Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?'
     episode_url: ''
@@ -18923,7 +18935,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     episode_key: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     legacy_unicode_slug: kort-forklart-fotballspesial-nå-venter-nytt-møte-med-brasil-men-var-de-bedre-før
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
   - episode_title: 'Kort Forklart: De kalles «pervobriller». Derfor er Metas briller kontroversielle.'
     episode_url: ''
@@ -18935,7 +18947,7 @@ episodes_by_feed:
     episode_uid: ap-139642
     episode_slug: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
     episode_key: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle/"
   - episode_title: Er det Iphonens feil at vi får færre barn?
     episode_url: ''
@@ -18948,7 +18960,7 @@ episodes_by_feed:
     episode_slug: er-det-iphonens-feil-at-vi-far-faerre-barn
     episode_key: er-det-iphonens-feil-at-vi-far-faerre-barn
     legacy_unicode_slug: er-det-iphonens-feil-at-vi-får-færre-barn
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/er-det-iphonens-feil-at-vi-far-faerre-barn/"
   - episode_title: 'Kort Forklart fotballspesial: Var det riktig å benke de beste?'
     episode_url: ''
@@ -18961,7 +18973,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste
     episode_key: kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste
     legacy_unicode_slug: kort-forklart-fotballspesial-var-det-riktig-å-benke-de-beste
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste/"
   - episode_title: 'Kort Forklart: Rød alarm i London, og spiller Haaland i kveld?'
     episode_url: ''
@@ -18974,7 +18986,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
     episode_key: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
     legacy_unicode_slug: kort-forklart-rød-alarm-i-london-og-spiller-haaland-i-kveld
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld/"
   - episode_title: Synes du pride tar for stor plass? Nesten halve Norge er enig med deg.
     episode_url: ''
@@ -18989,7 +19001,7 @@ episodes_by_feed:
     episode_uid: ap-139562
     episode_slug: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
     episode_key: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg/"
   - episode_title: 'Kort Forklart: Du kan få lavere skatt - men noe blir også dyrere'
     episode_url: ''
@@ -19002,7 +19014,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere
     episode_key: kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere
     legacy_unicode_slug: kort-forklart-du-kan-få-lavere-skatt-men-noe-blir-også-dyrere
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere/"
   - episode_title: 'Kort Forklart: Derfor skiller denne hetebølgen seg ut'
     episode_url: ''
@@ -19015,7 +19027,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut
     episode_key: kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut
     legacy_unicode_slug: kort-forklart-derfor-skiller-denne-hetebølgen-seg-ut
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut/"
   - episode_title: 'Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt'
     episode_url: ''
@@ -19028,7 +19040,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
     episode_key: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
     legacy_unicode_slug: kort-forklart-fotballspesial-tror-ikke-han-så-for-seg-å-bli-vm-helt
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt/"
   - episode_title: 'God søvn: Det nye klasseprivilegiet'
     episode_url: ''
@@ -19041,7 +19053,7 @@ episodes_by_feed:
     episode_slug: god-sovn-det-nye-klasseprivilegiet
     episode_key: god-sovn-det-nye-klasseprivilegiet
     legacy_unicode_slug: god-søvn-det-nye-klasseprivilegiet
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/god-sovn-det-nye-klasseprivilegiet/"
   - episode_title: 'Kort Forklart: Ingen dukket opp til fredsmøtet, og kritikken øker mot Trump'
     episode_url: ''
@@ -19054,7 +19066,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump
     episode_key: kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump
     legacy_unicode_slug: kort-forklart-ingen-dukket-opp-til-fredsmøtet-og-kritikken-øker-mot-trump
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump/"
   - episode_title: 'Alien-files: Har USA trodd på romvesener i 50 år?'
     episode_url: ''
@@ -19070,7 +19082,7 @@ episodes_by_feed:
     episode_slug: alien-files-har-usa-trodd-pa-romvesener-i-50-ar
     episode_key: alien-files-har-usa-trodd-pa-romvesener-i-50-ar
     legacy_unicode_slug: alien-files-har-usa-trodd-på-romvesener-i-50-år
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/alien-files-har-usa-trodd-pa-romvesener-i-50-ar/"
   - episode_title: 'Kort Forklart: Ukraina slår tilbake. Nå kan krigen være i ferd med å snu.'
     episode_url: ''
@@ -19083,20 +19095,8 @@ episodes_by_feed:
     episode_slug: kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu
     episode_key: kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu
     legacy_unicode_slug: kort-forklart-ukraina-slår-tilbake-nå-kan-krigen-være-i-ferd-med-å-snu
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu/"
-  - episode_title: Han er rikere enn halve verden – hva betyr det for oss?
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/f3xt33y1x2mhn863ymrju/podcast_128.mp3
-    published_at: '2026-06-18T03:00:03+00:00'
-    description_html: 'Elon Musk er historiens første dollarbillionær etter at SpaceX gikk på børs. Mens KI-euforien tar av og flere selskaper skal på børs, advarer økonomikommentator Sindre Heyerdahl mot at veldig mye politisk og økonomisk makt samles på svært få hender. Er det bærekraftig? Foto: Hamad I Mohammed/Reuters.'
-    description_plain: 'Elon Musk er historiens første dollarbillionær etter at SpaceX gikk på børs. Mens KI-euforien tar av og flere selskaper skal på børs, advarer økonomikommentator Sindre Heyerdahl mot at veldig mye politisk og økonomisk makt samles på svært få hender. Er det bærekraftig? Foto: Hamad I Mohammed/Reuters.'
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/f19a8d802abc6ad15a473b43ba5bda9b.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139463
-    episode_slug: han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss
-    episode_key: han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss/"
+    episode_page_url: "/forklart/kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu/"
   https://feeds.megaphone.fm/hubermanlab: &62
   - episode_title: 'Essentials: The Science & Treatment of Obsessive Compulsive Disorder (OCD)'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder
