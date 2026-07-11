@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-11T05:07:41Z'
+generated_at: '2026-07-11T06:50:37Z'
 items:
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public/"
@@ -758,6 +758,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Amanda Jansson
+  episode_url: https://www.sverigesradio.se/avsnitt/2815509
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_amanda_jansson_podd_20260629_1139026996.mp3
+  published_at: '2026-07-11T11:00:00Z'
+  episode_key: amanda-jansson
+  episode_slug: amanda-jansson
+  episode_page_url: "/sommar-vinter-i-p1/amanda-jansson/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -794,18 +806,6 @@ non_running_items:
   episode_key: and-the-update-is-fake-streams-billion-dollar-deals-ed-sheeran-s-biggest-career-move-yet
   episode_slug: and-the-update-is-fake-streams-billion-dollar-deals-ed-sheeran-s-biggest-career-move-yet
   episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-fake-streams-billion-dollar-deals-ed-sheeran-s-biggest-career-move-yet/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Carl Skau
-  episode_url: https://www.sverigesradio.se/avsnitt/2815488
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_carl_skau_podd_20260629_1139265555.mp3
-  published_at: '2026-07-10T11:00:00Z'
-  episode_key: carl-skau
-  episode_slug: carl-skau
-  episode_page_url: "/sommar-vinter-i-p1/carl-skau/"
 - podcast_title: Hard Fork
   podcast_page_url: "/hard-fork/"
   cover_image: "/media/hardfork.jpeg"
@@ -19531,6 +19531,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/katastrofebrannen-i-la-sto-en-29-aring-bak/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Amanda Jansson
+    episode_url: https://www.sverigesradio.se/avsnitt/2815509
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_amanda_jansson_podd_20260629_1139026996.mp3
+    published_at: '2026-07-11T11:00:00Z'
+    description_html: <p>Skådespelaren om varför hon ville sluta, precis när karriären började ta fart.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Skådespelaren om varför hon ville sluta, precis när karriären började ta fart. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815509
+    episode_slug: amanda-jansson
+    episode_key: amanda-jansson
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/amanda-jansson/"
   - episode_title: Carl Skau
     episode_url: https://www.sverigesradio.se/avsnitt/2815488
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_carl_skau_podd_20260629_1139265555.mp3
@@ -19541,7 +19553,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815488
     episode_slug: carl-skau
     episode_key: carl-skau
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/carl-skau/"
   - episode_title: Evelyn Mok
     episode_url: https://www.sverigesradio.se/avsnitt/2815484
@@ -19553,7 +19565,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815484
     episode_slug: evelyn-mok
     episode_key: evelyn-mok
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
   - episode_title: Sebastian Siemiatkowski
     episode_url: https://www.sverigesradio.se/avsnitt/2815483
@@ -19565,7 +19577,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815483
     episode_slug: sebastian-siemiatkowski
     episode_key: sebastian-siemiatkowski
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
   - episode_title: Behrang Safari
     episode_url: https://www.sverigesradio.se/avsnitt/2815479
@@ -19577,7 +19589,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815479
     episode_slug: behrang-safari
     episode_key: behrang-safari
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/behrang-safari/"
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
@@ -19590,7 +19602,7 @@ episodes_by_feed:
     episode_slug: erika-bjerstrom
     episode_key: erika-bjerstrom
     legacy_unicode_slug: erika-bjerström
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/erika-bjerstrom/"
   - episode_title: Marie Göranzon
     episode_url: https://www.sverigesradio.se/avsnitt/2815477
@@ -19603,7 +19615,7 @@ episodes_by_feed:
     episode_slug: marie-goranzon
     episode_key: marie-goranzon
     legacy_unicode_slug: marie-göranzon
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/marie-goranzon/"
   - episode_title: Olof Wretling
     episode_url: https://www.sverigesradio.se/avsnitt/2815476
@@ -19615,7 +19627,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815476
     episode_slug: olof-wretling
     episode_key: olof-wretling
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/olof-wretling/"
   - episode_title: Ann Heberlein
     episode_url: https://www.sverigesradio.se/avsnitt/2815475
@@ -19627,7 +19639,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815475
     episode_slug: ann-heberlein
     episode_key: ann-heberlein
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
   - episode_title: Maria Maunsbach
     episode_url: https://www.sverigesradio.se/avsnitt/2815526
@@ -19639,7 +19651,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815526
     episode_slug: maria-maunsbach
     episode_key: maria-maunsbach
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
   - episode_title: 'Poddtips: Dagens Eko förklarar en stor nyhet varje vardag'
     episode_url: https://www.sverigesradio.se/avsnitt/2830718
@@ -19652,7 +19664,7 @@ episodes_by_feed:
     episode_slug: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     episode_key: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     legacy_unicode_slug: poddtips-dagens-eko-förklarar-en-stor-nyhet-varje-vardag
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/"
   - episode_title: Sarah Sheppard
     episode_url: https://www.sverigesradio.se/avsnitt/2815473
@@ -19664,7 +19676,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815473
     episode_slug: sarah-sheppard
     episode_key: sarah-sheppard
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
   - episode_title: Johan Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2815472
@@ -19676,7 +19688,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815472
     episode_slug: johan-eriksson
     episode_key: johan-eriksson
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
   - episode_title: Patrik Norqvist
     episode_url: https://www.sverigesradio.se/avsnitt/2815471
@@ -19688,7 +19700,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815471
     episode_slug: patrik-norqvist
     episode_key: patrik-norqvist
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
   - episode_title: Ginna Lindberg
     episode_url: https://www.sverigesradio.se/avsnitt/2815470
@@ -19700,7 +19712,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815470
     episode_slug: ginna-lindberg
     episode_key: ginna-lindberg
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
   - episode_title: Alexander Karim
     episode_url: https://www.sverigesradio.se/avsnitt/2815519
@@ -19712,7 +19724,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815519
     episode_slug: alexander-karim
     episode_key: alexander-karim
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
   - episode_title: Carolina Dybeck Happe
     episode_url: https://www.sverigesradio.se/avsnitt/2815474
@@ -19724,7 +19736,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815474
     episode_slug: carolina-dybeck-happe
     episode_key: carolina-dybeck-happe
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/carolina-dybeck-happe/"
   - episode_title: Jonas Gren
     episode_url: https://www.sverigesradio.se/avsnitt/2815467
@@ -19736,7 +19748,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815467
     episode_slug: jonas-gren
     episode_key: jonas-gren
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/jonas-gren/"
   - episode_title: Jonas Bonnier
     episode_url: https://www.sverigesradio.se/avsnitt/2815466
@@ -19748,7 +19760,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815466
     episode_slug: jonas-bonnier
     episode_key: jonas-bonnier
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/jonas-bonnier/"
   - episode_title: Amanda Romare
     episode_url: https://www.sverigesradio.se/avsnitt/2815465
@@ -19760,7 +19772,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815465
     episode_slug: amanda-romare
     episode_key: amanda-romare
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/amanda-romare/"
   - episode_title: Martin Kragh
     episode_url: https://www.sverigesradio.se/avsnitt/2815464
@@ -19772,7 +19784,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815464
     episode_slug: martin-kragh
     episode_key: martin-kragh
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/martin-kragh/"
   - episode_title: Sebastian Ingrosso
     episode_url: https://www.sverigesradio.se/avsnitt/2815463
@@ -19784,7 +19796,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815463
     episode_slug: sebastian-ingrosso
     episode_key: sebastian-ingrosso
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/sebastian-ingrosso/"
   - episode_title: Helena Bergström
     episode_url: https://www.sverigesradio.se/avsnitt/2815462
@@ -19797,7 +19809,7 @@ episodes_by_feed:
     episode_slug: helena-bergstrom
     episode_key: helena-bergstrom
     legacy_unicode_slug: helena-bergström
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   - episode_title: Hör årets Sommarpratare presenteras
     episode_url: https://www.sverigesradio.se/avsnitt/2801803
@@ -19810,7 +19822,7 @@ episodes_by_feed:
     episode_slug: hor-arets-sommarpratare-presenteras
     episode_key: hor-arets-sommarpratare-presenteras
     legacy_unicode_slug: hör-årets-sommarpratare-presenteras
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
   - episode_title: 'Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello'
     episode_url: https://www.sverigesradio.se/avsnitt/2789135
@@ -19823,20 +19835,8 @@ episodes_by_feed:
     episode_slug: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     episode_key: poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello
     legacy_unicode_slug: poddtips-jag-skjuter-mig-om-jag-inte-får-sommarprata-hör-nya-dramaserien-othello
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
-  - episode_title: Camilla Lif
-    episode_url: https://www.sverigesradio.se/avsnitt/2700899
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2025/12/program_camilla_lif_podd_20251222_1344461179.mp3
-    published_at: '2026-01-01T12:00:00Z'
-    description_html: <p>Prästen om hopp, och varför hon skäms över att hon tyckte att det var ett mesigt och blodfattigt ord förut.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Prästen om hopp, och varför hon skäms över att hon tyckte att det var ett mesigt och blodfattigt ord förut. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/f46dbea6-91ac-402f-8e67-c4bbe2448b36.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2700899
-    episode_slug: camilla-lif
-    episode_key: camilla-lif
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/camilla-lif/"
+    episode_page_url: "/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -23983,18 +23983,18 @@ episodes_by_feed:
     episode_key: billionaire-s-warning-i-m-selling-the-crash-is-already-here
     legacy_numbered_slug: episode-08
     episode_page_url: "/the-diary-of-a-ceo/billionaire-s-warning-i-m-selling-the-crash-is-already-here/"
-  - episode_title: 'Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!'
+  - episode_title: 'Dr Rachel Rubin: "I''m Filled With Rage!" Your Doctor Was Never Taught About Women''s Bodies!'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KVM73TKXB3XPJ4YM5S9GWBG8.mp3?fcv=io835x2g9dyv4s4hzawmw30t
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KVM73TKXB3XPJ4YM5S9GWBG8.mp3?fcv=bjno9t6eri8a0i0ei4mnkoqp
     published_at: '2026-06-22T05:00:00Z'
     description_html: '<p class="text-node">Women’s sex lives are being quietly destroyed, and their doctors don’t even know it… Sexual medicine specialist Dr Rachel Rubin reveals the hidden hormone crisis, how prescription drugs can impact sex, and the treatments most doctors aren''t prescribing like Hormone Replacement Therapy.  Dr Rachel Rubin is a board-certified urologist and sexual medicine specialist, and one of only 80 doctors in the US trained to treat both male and female sexual health. She recently played a pivotal role in the removal of the FDA''s boxed warning on menopausal hormone therapy - one of the most significant healthcare policy changes affecting midlife women in decades. She is also the Founder of Rachel Rubin MD and Director-at-Large of the International Society for the Study of Women''s Sexual Health.  She explains: ◼️ Why most doctors fail women on sexual health, and how to build a team that won''t ◼️ Why menopause is a whole-body hormone event, and the treatments that actually help ◼️ The physical barrier blocking orgasm in 1 in 4 women, and how to fix it ◼️ How a tight pelvic floor could be ruining your sex life ◼️ Why your sexual pain and low libido are physical problems your doctor keeps missing  <h3>Chapters</h3><ul><li><strong>00:00:00</strong> Why Women''s Healthcare Is Still Neglected</li><li><strong>00:04:17</strong> If Men Had These Symptoms, Would Medicine Be Better?</li><li><strong>00:07:02</strong> Why Even Gynaecologists Misunderstand The Clitoris</li><li><strong>00:08:03</strong> What You''ll Learn From This Conversation</li><li><strong>00:11:07</strong> The Question Women Ask Most</li><li><strong>00:11:32</strong> Why Testosterone Matters For Women</li><li><strong>00:13:41</strong> How Birth Control Can Kill Libido</li><li><strong>00:16:25</strong> How GLP-1s And Antidepressants Affect Sex Drive</li><li><strong>00:18:26</strong> Should Women Take Testosterone?</li><li><strong>00:19:30</strong> Understanding The Menstrual Cycle</li><li><strong>00:23:11</strong> Why Perimenopause Starts Earlier Than You Think</li><li><strong>00:25:19</strong> What Is HRT And How Does It Work?</li><li><strong>00:26:01</strong> Does Estrogen Increase Cancer Risk?</li><li><strong>00:27:27</strong> Why HRT Got A Bad Reputation</li><li><strong>00:29:24</strong> The 4 Types Of HRT Explained</li><li><strong>00:31:19</strong> What Really Causes UTIs?</li><li><strong>00:33:22</strong> Vaginal Hormones Explained</li><li><strong>00:37:19</strong> Does Cranberry Juice Actually Help UTIs?</li><li><strong>00:38:31</strong> When Should You Start HRT?</li><li><strong>00:40:36</strong> A HRT Success Story</li><li><strong>00:44:43</strong> Ads</li><li><strong>00:46:47</strong> Is Pain During Sex Normal?</li><li><strong>00:49:28</strong> How To Have Better Sex</li><li><strong>00:51:54</strong> What Your Pelvic Floor Actually Does</li><li><strong>00:53:48</strong> Signs You Have Pelvic Floor Problems</li><li><strong>00:55:24</strong> Is It Normal Not To Orgasm?</li><li><strong>00:57:30</strong> What Is A Clitoral Adhesion?</li><li><strong>00:58:55</strong> How Sex Toys Can Improve Intimacy</li><li><strong>01:00:07</strong> What Men Get Wrong About Arousal</li><li><strong>01:01:57</strong> What Happens To Women After Orgasm?</li><li><strong>01:02:55</strong> Do Women Get Anything From Penetrative Sex?</li><li><strong>01:04:40</strong> How Porn Changed Our Expectations</li><li><strong>01:06:58</strong> What Healthy Porn Looks Like</li><li><strong>01:08:12</strong> How Porn Can Damage Relationships</li><li><strong>01:10:12</strong> Ads</li><li><strong>01:12:21</strong> Why You Should Change Up Your Sex Life</li><li><strong>01:13:35</strong> Why We Hide Our Sexual Struggles</li><li><strong>01:17:17</strong> Responsive Vs Spontaneous Desire Explained</li><li><strong>01:19:58</strong> The Question Every Couple Should Ask</li><li><strong>01:20:51</strong> What If You Want Different Things In Bed?</li><li><strong>01:23:10</strong> How To Tell Your Partner About Kinks</li><li><strong>01:24:28</strong> The Secrets People Hide From Their Partners</li><li><strong>01:25:42</strong> How To Tell If She''s Faking Orgasms</li><li><strong>01:27:46</strong> How Stress And Dopamine Influence Libido</li><li><strong>01:29:33</strong> Should Sex Be Scheduled Or Spontaneous?</li><li><strong>01:31:24</strong> How Self-Esteem Affects Sex</li><li><strong>01:33:04</strong> The Most Important Thing We Missed</li><li><strong>01:35:06</strong> Better Communication, Better Sex</li><li><strong>01:42:51</strong> Why This Work Matters So Much</li><li><strong>01:43:57</strong> What Needs To Change In Your Own Life?</li></ul>  Independent Research: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://stevenbartlett.com/wp-content/uploads/2026/06/DOAC-Rachel-Rubin-Independent-Research-Further-Reading.pdf">https://stevenbartlett.com/wp-content/uploads/2026/06/DOAC-Rachel-Rubin-Independent-Research-Further-Reading.pdf</a>  Follow Dr Rachel:  Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/AYkgAOV">https://link.thediaryofaceo.com/AYkgAOV</a> YouTube - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/1TQZeri">https://link.thediaryofaceo.com/1TQZeri</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/FxZbK5x">https://link.thediaryofaceo.com/FxZbK5x</a> Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/4ZKqH2l">https://link.thediaryofaceo.com/4ZKqH2l</a>  The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a>  ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a>  ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a>  ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a>  ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a>  ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a>   Sponsors: HeyGen - <a target="_blank" rel="noopener noreferrer" class="link" href="https://heygen.com/DOAC">https://heygen.com/DOAC</a></p><p class="text-node">Flightcast - Check out <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.flightcast.com/DOAC6">https://www.flightcast.com/DOAC6</a></p><p class="text-node">Ketone - Go to <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/steven">https://ketone.com/steven</a> to enter to win! no purchase necessary, terms and conditions apply.</p>'
     description_plain: 'Women’s sex lives are being quietly destroyed, and their doctors don’t even know it… Sexual medicine specialist Dr Rachel Rubin reveals the hidden hormone crisis, how prescription drugs can impact sex, and the treatments most doctors aren''t prescribing like Hormone Replacement Therapy. Dr Rachel Rubin is a board-certified urologist and sexual medicine specialist, and one of only 80 doctors in the US trained to treat both male and female sexual health. She recently played a pivotal role in the removal of the FDA''s boxed warning on menopausal hormone therapy - one of the most significant healthcare policy changes affecting midlife women in decades. She is also the Founder of Rachel Rubin MD and Director-at-Large of the International Society for the Study of Women''s Sexual Health. She explains: ◼️ Why most doctors fail women on sexual health, and how to build a team that won''t ◼️ Why menopause is a whole-body hormone event, and the treatments that actually help ◼️ The physical barrier blocking orgasm in 1 in 4 women, and how to fix it ◼️ How a tight pelvic floor could be ruining your sex life ◼️ Why your sexual pain and low libido are physical problems your doctor keeps missing Chapters 00:00:00 Why Women''s Healthcare Is Still Neglected 00:04:17 If Men Had These Symptoms, Would Medicine Be Better? 00:07:02 Why Even Gynaecologists Misunderstand The Clitoris 00:08:03 What You''ll Learn From This Conversation 00:11:07 The Question Women Ask Most 00:11:32 Why Testosterone Matters For Women 00:13:41 How Birth Control Can Kill Libido 00:16:25 How GLP-1s And Antidepressants Affect Sex Drive 00:18:26 Should Women Take Testosterone? 00:19:30 Understanding The Menstrual Cycle 00:23:11 Why Perimenopause Starts Earlier Than You Think 00:25:19 What Is HRT And How Does It Work? 00:26:01 Does Estrogen Increase Cancer Risk? 00:27:27 Why HRT Got A Bad Reputation 00:29:24 The 4 Types Of HRT Explained 00:31:19 What Really Causes UTIs? 00:33:22 Vaginal Hormones Explained 00:37:19 Does Cranberry Juice Actually Help UTIs? 00:38:31 When Should You Start HRT? 00:40:36 A HRT Success Story 00:44:43 Ads 00:46:47 Is Pain During Sex Normal? 00:49:28 How To Have Better Sex 00:51:54 What Your Pelvic Floor Actually Does 00:53:48 Signs You Have Pelvic Floor Problems 00:55:24 Is It Normal Not To Orgasm? 00:57:30 What Is A Clitoral Adhesion? 00:58:55 How Sex Toys Can Improve Intimacy 01:00:07 What Men Get Wrong About Arousal 01:01:57 What Happens To Women After Orgasm? 01:02:55 Do Women Get Anything From Penetrative Sex? 01:04:40 How Porn Changed Our Expectations 01:06:58 What Healthy Porn Looks Like 01:08:12 How Porn Can Damage Relationships 01:10:12 Ads 01:12:21 Why You Should Change Up Your Sex Life 01:13:35 Why We Hide Our Sexual Struggles 01:17:17 Responsive Vs Spontaneous Desire Explained 01:19:58 The Question Every Couple Should Ask 01:20:51 What If You Want Different Things In Bed? 01:23:10 How To Tell Your Partner About Kinks 01:24:28 The Secrets People Hide From Their Partners 01:25:42 How To Tell If She''s Faking Orgasms 01:27:46 How Stress And Dopamine Influence Libido 01:29:33 Should Sex Be Scheduled Or Spontaneous? 01:31:24 How Self-Esteem Affects Sex 01:33:04 The Most Important Thing We Missed 01:35:06 Better Communication, Better Sex 01:42:51 Why This Work Matters So Much 01:43:57 What Needs To Change In Your Own Life? Independent Research: https://stevenbartlett.com/wp-content/uploads/2026/06/DOAC-Rachel-Rubin-Independent-Research-Further-Reading.pdf Follow Dr Rachel: Instagram - https://link.thediaryofaceo.com/AYkgAOV YouTube - https://link.thediaryofaceo.com/1TQZeri X - https://link.thediaryofaceo.com/FxZbK5x Website - https://link.thediaryofaceo.com/4ZKqH2l The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: HeyGen - https://heygen.com/DOAC Flightcast - Check out https://www.flightcast.com/DOAC6 Ketone - Go to https://ketone.com/steven to enter to win! no purchase necessary, terms and conditions apply.'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KVM83BGKVWAGDEFAH6B3DYC2/dr._rachel_rubin_ep_cover_.jpg
     episode_uid: flightcast-01kvm73tkx1t1jqkd6k2kyyhjk
-    episode_slug: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
-    episode_key: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
+    episode_slug: dr-rachel-rubin-i-m-filled-with-rage-your-doctor-was-never-taught-about-women-s-bodies
+    episode_key: dr-rachel-rubin-i-m-filled-with-rage-your-doctor-was-never-taught-about-women-s-bodies
     legacy_numbered_slug: episode-09
-    episode_page_url: "/the-diary-of-a-ceo/dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms/"
+    episode_page_url: "/the-diary-of-a-ceo/dr-rachel-rubin-i-m-filled-with-rage-your-doctor-was-never-taught-about-women-s-bodies/"
   - episode_title: 'Most Replayed Moment: The 4 Personalities Living In Your Brain! How To Switch Between Them'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSSM221GW83QQTXYPX6GRD0A.mp3
