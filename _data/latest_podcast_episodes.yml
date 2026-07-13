@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-13T05:16:25Z'
+generated_at: '2026-07-13T07:10:34Z'
 items:
+- podcast_title: Life in Stride
+  podcast_page_url: "/life-in-stride/"
+  cover_image: "/media/lifeinstride.jpeg"
+  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
+  filter_category: road english
+  episode_title: "#337 Dr. Bill Evans - Improving VO2 Max, Structuring a Marathon Build, Heat Training + Does Nomio Really Work?"
+  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/337-Dr--Bill-Evans---Improving-VO2-Max--Structuring-a-Marathon-Build--Heat-Training--Does-Nomio-Really-Work-e3m0ke3
+  audio_url: https://anchor.fm/s/f1fb88c/podcast/play/122752899/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-13%2F427847309-44100-2-fbba0f8f05076.mp3
+  published_at: '2026-07-13T04:18:15+00:00'
+  episode_key: 337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work
+  episode_slug: 337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work
+  episode_page_url: "/life-in-stride/337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -61,18 +73,6 @@ items:
   episode_key: weekly-news-ep-44-hardrock-100-cape-wrath-fkts-records
   episode_slug: weekly-news-ep-44-hardrock-100-cape-wrath-fkts-records
   episode_page_url: "/centurion-running/weekly-news-ep-44-hardrock-100-cape-wrath-fkts-records/"
-- podcast_title: Life in Stride
-  podcast_page_url: "/life-in-stride/"
-  cover_image: "/media/lifeinstride.jpeg"
-  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
-  filter_category: road english
-  episode_title: "#336 Rory Leonard - Why the British 10k Record Holder is Making a Team Change + New Training Setup"
-  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/336-Rory-Leonard---Why-the-British-10k-Record-Holder-is-Making-a-Team-Change--New-Training-Setup-e3lv2cq
-  audio_url: https://traffic.megaphone.fm/APO9128407948.mp3
-  published_at: '2026-07-11T20:05:25+00:00'
-  episode_key: 336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup
-  episode_slug: 336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup
-  episode_page_url: "/life-in-stride/336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup/"
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public/"
   cover_image: "/media/runningpublic.jpeg"
@@ -758,6 +758,30 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Emil Hansius
+  episode_url: https://www.sverigesradio.se/avsnitt/2815511
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_emil_hansius_podd_20260707_1352286549.mp3
+  published_at: '2026-07-13T11:00:00Z'
+  episode_key: emil-hansius
+  episode_slug: emil-hansius
+  episode_page_url: "/sommar-vinter-i-p1/emil-hansius/"
+- podcast_title: How I Built This
+  podcast_page_url: "/how-i-built-this/"
+  cover_image: "/media/howibuiltthis.jpeg"
+  feed_url: https://rss.art19.com/how-i-built-this
+  filter_category: uncategorized english
+  episode_title: 'Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)'
+  episode_url: ''
+  audio_url: https://rss.art19.com/episodes/77ab41eb-99a8-4dd2-ae39-d066818afc21.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+  published_at: '2026-07-13T07:10:00Z'
+  episode_key: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
+  episode_slug: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
+  episode_page_url: "/how-i-built-this/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/"
 - podcast_title: The Diary Of A CEO
   podcast_page_url: "/the-diary-of-a-ceo/"
   cover_image: "/media/diaryofaceo.jpeg"
@@ -806,18 +830,6 @@ non_running_items:
   episode_key: what-was-uae-doing-today-tdf-2026-stage-9-themove
   episode_slug: what-was-uae-doing-today-tdf-2026-stage-9-themove
   episode_page_url: "/themove/what-was-uae-doing-today-tdf-2026-stage-9-themove/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Martin Modéus
-  episode_url: https://www.sverigesradio.se/avsnitt/2815510
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_martin_modus_podd_20260629_1143338594.mp3
-  published_at: '2026-07-12T11:00:00Z'
-  episode_key: martin-modeus
-  episode_slug: martin-modeus
-  episode_page_url: "/sommar-vinter-i-p1/martin-modeus/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -974,18 +986,6 @@ non_running_items:
   episode_key: essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd
   episode_slug: essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd
   episode_page_url: "/huberman-lab/essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd/"
-- podcast_title: How I Built This
-  podcast_page_url: "/how-i-built-this/"
-  cover_image: "/media/howibuiltthis.jpeg"
-  feed_url: https://rss.art19.com/how-i-built-this
-  filter_category: uncategorized english
-  episode_title: Advice Line with Jeni Britton of Jeni's Splendid Ice Creams (2025)
-  episode_url: ''
-  audio_url: https://rss.art19.com/episodes/6dadc048-8cec-44ec-a3cf-ec314a00e41e.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-  published_at: '2026-07-09T07:10:00Z'
-  episode_key: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
-  episode_slug: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
-  episode_page_url: "/how-i-built-this/advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025/"
 - podcast_title: That Triathlon Show
   podcast_page_url: "/that-triathlon-show/"
   cover_image: "/media/thattriathlonshow.jpeg"
@@ -14295,6 +14295,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/hysteria/revenge-of-candace-w-brandy-zadrozny/"
   https://anchor.fm/s/f1fb88c/podcast/rss: &47
+  - episode_title: "#337 Dr. Bill Evans - Improving VO2 Max, Structuring a Marathon Build, Heat Training + Does Nomio Really Work?"
+    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/337-Dr--Bill-Evans---Improving-VO2-Max--Structuring-a-Marathon-Build--Heat-Training--Does-Nomio-Really-Work-e3m0ke3
+    audio_url: https://anchor.fm/s/f1fb88c/podcast/play/122752899/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-13%2F427847309-44100-2-fbba0f8f05076.mp3
+    published_at: '2026-07-13T04:18:15+00:00'
+    description_html: '<p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had our BFF Dr. Bill Evans on the podcast! Bill has been on the pod a few times and it was time to have him back as a LIS regular. The good thing about episodes with Bill is there is great banter + a lot of great information. We did get to a lot of informative things on this episode but need to do another soon as there is a lot more to talk about with him based on his recent social media posts!</p><p>We chatted improving + testing VO2 max, how Bill would coach Scotty in a sub-2:30 marathon build, and heat training. Bill also recently did his own lab testing on Nomio and the results are quite interesting! If you didn’t know - Bill is also doing his own podcast called The Endurance Lab and has had several great guests on it. He walked us through what he learned while talking to Cam Myers!</p><p>Enjoy!</p><p>FOLLOW BILL:</p><p>IG: <a href="https://www.instagram.com/doctor_evans_running/?hl=en" target="_blank" rel="ugc noopener noreferrer">https://www.instagram.com/doctor_evans_running/?hl=en</a></p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>INSTA360 Affiliate code:</p><p>INRSGUOCSXX</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
+    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had our BFF Dr. Bill Evans on the podcast! Bill has been on the pod a few times and it was time to have him back as a LIS regular. The good thing about episodes with Bill is there is great banter + a lot of great information. We did get to a lot of informative things on this episode but need to do another soon as there is a lot more to talk about with him based on his recent social media posts! We chatted improving + testing VO2 max, how Bill would coach Scotty in a sub-2:30 marathon build, and heat training. Bill also recently did his own lab testing on Nomio and the results are quite interesting! If you didn’t know - Bill is also doing his own podcast called The Endurance Lab and has had several great guests on it. He walked us through what he learned while talking to Cam Myers! Enjoy! FOLLOW BILL: IG: https://www.instagram.com/doctor_evans_running/?hl=en FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ INSTA360 Affiliate code: INRSGUOCSXX CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
+    episode_uid: 1de62021-fef9-4c94-b6da-1505c93a32c2
+    episode_slug: 337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work
+    episode_key: 337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/life-in-stride/337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work/"
   - episode_title: "#336 Rory Leonard - Why the British 10k Record Holder is Making a Team Change + New Training Setup"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/336-Rory-Leonard---Why-the-British-10k-Record-Holder-is-Making-a-Team-Change--New-Training-Setup-e3lv2cq
     audio_url: https://traffic.megaphone.fm/APO9128407948.mp3
@@ -14305,7 +14317,7 @@ episodes_by_feed:
     episode_uid: 0b5c07ff-ff9c-477e-bcad-ddf7516d3f75
     episode_slug: 336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup
     episode_key: 336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/life-in-stride/336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup/"
   - episode_title: "#335 - We Are Hosting a Track Meet, Should You Use HR in Training, Danny & Scotty Doing Hyrox?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/335---We-Are-Hosting-a-Track-Meet--Should-You-Use-HR-in-Training--Danny--Scotty-Doing-Hyrox-e3lscb2
@@ -14317,7 +14329,7 @@ episodes_by_feed:
     episode_uid: 6c18a8e2-804c-4775-aa93-7af273e0481e
     episode_slug: 335-we-are-hosting-a-track-meet-should-you-use-hr-in-training-danny-scotty-doing-hyrox
     episode_key: 335-we-are-hosting-a-track-meet-should-you-use-hr-in-training-danny-scotty-doing-hyrox
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/life-in-stride/335-we-are-hosting-a-track-meet-should-you-use-hr-in-training-danny-scotty-doing-hyrox/"
   - episode_title: "#334 - Pre Classic Recap, Strieg’s 10k Race, Ethan Shuley vs Vincent Mauri"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/334---Pre-Classic-Recap--Striegs-10k-Race--Ethan-Shuley-vs-Vincent-Mauri-e3loidu
@@ -14329,7 +14341,7 @@ episodes_by_feed:
     episode_uid: 57bfa169-101a-4eb0-9554-c38481a0af91
     episode_slug: 334-pre-classic-recap-strieg-s-10k-race-ethan-shuley-vs-vincent-mauri
     episode_key: 334-pre-classic-recap-strieg-s-10k-race-ethan-shuley-vs-vincent-mauri
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/life-in-stride/334-pre-classic-recap-strieg-s-10k-race-ethan-shuley-vs-vincent-mauri/"
   - episode_title: "#333 Alex Beach - 4:30 to 2:24 in the Marathon in 3 Years, Heat Training Tips From Doing 100 Mile Weeks in Miami"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/333-Alex-Beach---430-to-224-in-the-Marathon-in-3-Years--Heat-Training-Tips-From-Doing-100-Mile-Weeks-in-Miami-e3lmuae
@@ -14341,7 +14353,7 @@ episodes_by_feed:
     episode_uid: 1e26eb24-db10-448c-b237-1a3d17b1e561
     episode_slug: 333-alex-beach-4-30-to-2-24-in-the-marathon-in-3-years-heat-training-tips-from-doing-100-mile-weeks-in-miami
     episode_key: 333-alex-beach-4-30-to-2-24-in-the-marathon-in-3-years-heat-training-tips-from-doing-100-mile-weeks-in-miami
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/life-in-stride/333-alex-beach-4-30-to-2-24-in-the-marathon-in-3-years-heat-training-tips-from-doing-100-mile-weeks-in-miami/"
   - episode_title: "#332 - Hot Takes on Satisfy Running, Chicago Marathon & Western States, Responding to the Comments, Berlin Marathon Planning"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/332---Hot-Takes-on-Satisfy-Running--Chicago-Marathon--Western-States--Responding-to-the-Comments--Berlin-Marathon-Planning-e3lkndu
@@ -14353,7 +14365,7 @@ episodes_by_feed:
     episode_uid: 4a514492-1bc4-41b6-8f0f-33277f9b00a5
     episode_slug: 332-hot-takes-on-satisfy-running-chicago-marathon-western-states-responding-to-the-comments-berlin-marathon-planning
     episode_key: 332-hot-takes-on-satisfy-running-chicago-marathon-western-states-responding-to-the-comments-berlin-marathon-planning
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/life-in-stride/332-hot-takes-on-satisfy-running-chicago-marathon-western-states-responding-to-the-comments-berlin-marathon-planning/"
   - episode_title: "#331 - Corbin Goes 2:20 at Grandma's, Western States 100 + Paris Diamond League Recap, Mile WR Next Weekend?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/331---Corbin-Goes-220-at-Grandmas--Western-States-100--Paris-Diamond-League-Recap--Mile-WR-Next-Weekend-e3lhni0
@@ -14365,7 +14377,7 @@ episodes_by_feed:
     episode_uid: 8dfe336e-8286-4e5a-a10a-8fdbeff30442
     episode_slug: 331-corbin-goes-2-20-at-grandma-s-western-states-100-paris-diamond-league-recap-mile-wr-next-weekend
     episode_key: 331-corbin-goes-2-20-at-grandma-s-western-states-100-paris-diamond-league-recap-mile-wr-next-weekend
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/life-in-stride/331-corbin-goes-2-20-at-grandma-s-western-states-100-paris-diamond-league-recap-mile-wr-next-weekend/"
   - episode_title: "#330 - Hanes/Canaday Drama on Rogan, London Marathon Goes Two Days, Mile vs Marathon Fitness"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/330---HanesCanaday-Drama-on-Rogan--London-Marathon-Goes-Two-Days--Mile-vs-Marathon-Fitness-e3lflat
@@ -14377,7 +14389,7 @@ episodes_by_feed:
     episode_uid: 8604c838-5d71-4103-a298-958e41742e3b
     episode_slug: 330-hanes-canaday-drama-on-rogan-london-marathon-goes-two-days-mile-vs-marathon-fitness
     episode_key: 330-hanes-canaday-drama-on-rogan-london-marathon-goes-two-days-mile-vs-marathon-fitness
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/life-in-stride/330-hanes-canaday-drama-on-rogan-london-marathon-goes-two-days-mile-vs-marathon-fitness/"
   - episode_title: "#329 - Dominic Schlueter Banters With the Boys"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/329---Dominic-Schlueter-Banters-With-the-Boys-e3ldhlr
@@ -14389,7 +14401,7 @@ episodes_by_feed:
     episode_uid: da6836fa-e5ed-430f-9cc3-6e5ca52c7663
     episode_slug: 329-dominic-schlueter-banters-with-the-boys
     episode_key: 329-dominic-schlueter-banters-with-the-boys
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/life-in-stride/329-dominic-schlueter-banters-with-the-boys/"
   - episode_title: "#328 Gabby Hentemann - Grandma’s Marathon Recap, Running 140 Mile Weeks in Texas, Thoughts on Olympic Trials in St. Louis"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/328-Gabby-Hentemann---Grandmas-Marathon-Recap--Running-140-Mile-Weeks-in-Texas--Thoughts-on-Olympic-Trials-in-St--Louis-e3lbqjq
@@ -14401,7 +14413,7 @@ episodes_by_feed:
     episode_uid: 15c4299d-e4d3-4c8a-8bef-2b89766eada6
     episode_slug: 328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis
     episode_key: 328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/life-in-stride/328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis/"
   - episode_title: "#327 Ryan Carney - How to Structure a Marathon Block + Run PRs in Your Late 30s/40s"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/327-Ryan-Carney---How-to-Structure-a-Marathon-Block--Run-PRs-in-Your-Late-30s40s-e3l9cv5
@@ -14413,7 +14425,7 @@ episodes_by_feed:
     episode_uid: 626b4e4e-1e34-4724-b557-bad7624769be
     episode_slug: 327-ryan-carney-how-to-structure-a-marathon-block-run-prs-in-your-late-30s-40s
     episode_key: 327-ryan-carney-how-to-structure-a-marathon-block-run-prs-in-your-late-30s-40s
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/life-in-stride/327-ryan-carney-how-to-structure-a-marathon-block-run-prs-in-your-late-30s-40s/"
   - episode_title: "#326 Brady Holmer - 2:27 at Grandma’s Marathon with Heavy Cross-Training & No Structured Long Runs + Thoughts on Ketones, Creatine & Sauna Protocol"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/326-Brady-Holmer---227-at-Grandmas-Marathon-with-Heavy-Cross-Training--No-Structured-Long-Runs--Thoughts-on-Ketones--Creatine--Sauna-Protocol-e3l6ppq
@@ -14425,7 +14437,7 @@ episodes_by_feed:
     episode_uid: 41475011-d960-414e-a053-daae444ff15e
     episode_slug: 326-brady-holmer-2-27-at-grandma-s-marathon-with-heavy-cross-training-no-structured-long-runs-thoughts-on-ketones-creati
     episode_key: 326-brady-holmer-2-27-at-grandma-s-marathon-with-heavy-cross-training-no-structured-long-runs-thoughts-on-ketones-creati
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/life-in-stride/326-brady-holmer-2-27-at-grandma-s-marathon-with-heavy-cross-training-no-structured-long-runs-thoughts-on-ketones-creati/"
   - episode_title: "#325 Devin Meyrer - How to Win the Mental Battle, The Michigan Workout Story, Grandma's Marathon Preview"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/325-Devin-Meyrer---How-to-Win-the-Mental-Battle--The-Michigan-Workout-Story--Grandmas-Marathon-Preview-e3l56m7
@@ -14437,7 +14449,7 @@ episodes_by_feed:
     episode_uid: 4432b65a-98a3-4a6e-aa76-c7ab9c633722
     episode_slug: 325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview
     episode_key: 325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/life-in-stride/325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview/"
   - episode_title: "#324 - Strieg Becomes a Dad, Danny Goes on the Today Show in Europe, Is Climbing Mt. Everest Impressive?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/324---Strieg-Becomes-a-Dad--Danny-Goes-on-the-Today-Show-in-Europe--Is-Climbing-Mt--Everest-Impressive-e3l27mr
@@ -14449,7 +14461,7 @@ episodes_by_feed:
     episode_uid: f227f64c-e60c-4b8d-be67-b5b95556372a
     episode_slug: 324-strieg-becomes-a-dad-danny-goes-on-the-today-show-in-europe-is-climbing-mt-everest-impressive
     episode_key: 324-strieg-becomes-a-dad-danny-goes-on-the-today-show-in-europe-is-climbing-mt-everest-impressive
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/life-in-stride/324-strieg-becomes-a-dad-danny-goes-on-the-today-show-in-europe-is-climbing-mt-everest-impressive/"
   - episode_title: "#323 Alex Scearce - Scotty Interviews His Wife on Her Running Journey & Chasing the OTQ + How They Balance Family & Training"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/323-Alex-Scearce---Scotty-Interviews-His-Wife-on-Her-Running-Journey--Chasing-the-OTQ--How-They-Balance-Family--Training-e3kvknf
@@ -14461,7 +14473,7 @@ episodes_by_feed:
     episode_uid: 21cd9e4f-2f5c-4eb8-a80e-b5d85897417d
     episode_slug: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
     episode_key: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/life-in-stride/323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training/"
   - episode_title: "#322 Toni Roca Diaz - 3:26 to 2:23 in the Marathon, Working at Saysky as Athlete/PR Manager + the 17k Run Interview To Get the Job"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/322-Toni-Roca-Diaz---326-to-223-in-the-Marathon--Working-at-Saysky-as-AthletePR-Manager--the-17k-Run-Interview-To-Get-the-Job-e3ksjda
@@ -14473,7 +14485,7 @@ episodes_by_feed:
     episode_uid: 3b0089d1-317a-49a3-ba8a-ba032d75e88e
     episode_slug: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
     episode_key: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/life-in-stride/322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the/"
   - episode_title: "#321 - NCAA Track Champs, Cole Hocker Injury + Parker Valby Impresses, USA Best 800/1500 Country?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/321---NCAA-Track-Champs--Cole-Hocker-Injury--Parker-Valby-Impresses--USA-Best-8001500-Country-e3krabm
@@ -14485,7 +14497,7 @@ episodes_by_feed:
     episode_uid: 6c77c09f-0e3d-401b-97e3-f86419bc25ea
     episode_slug: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
     episode_key: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/life-in-stride/321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country/"
   - episode_title: "#320 Will Loevner - From MTB/Gravel Cyclist to 2:13 Marathon, OTQ Marathon + Winning 2026 Pittsburgh Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/320-Will-Loevner---From-MTBGravel-Cyclist-to-213-Marathon--OTQ-Marathon--Winning-2026-Pittsburgh-Marathon-e3kpgg2
@@ -14497,7 +14509,7 @@ episodes_by_feed:
     episode_uid: 60888aa9-c59a-4a18-84f1-39e4938c0cdf
     episode_slug: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
     episode_key: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/life-in-stride/320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon/"
   - episode_title: "#319 Bats in the Basement, Top Running Vacation Spot, Scotty is Getting Jet Skis"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/319-Bats-in-the-Basement--Top-Running-Vacation-Spot--Scotty-is-Getting-Jet-Skis-e3knljd
@@ -14509,7 +14521,7 @@ episodes_by_feed:
     episode_uid: 89a23aa3-91f8-4394-84c9-80f5ef5e8508
     episode_slug: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
     episode_key: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/life-in-stride/319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis/"
   - episode_title: "#318 Vince Ciattei - Running 3:30 in the 1500m, What a Diamond League Meet is Really Like, Full Training Breakdown"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/318-Vince-Ciattei---Running-330-in-the-1500m--What-a-Diamond-League-Meet-is-Really-Like--Full-Training-Breakdown-e3kkrru
@@ -14521,7 +14533,7 @@ episodes_by_feed:
     episode_uid: 360e1502-3822-460e-a9ad-95133f8be633
     episode_slug: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
     episode_key: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/life-in-stride/318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown/"
   - episode_title: "#317 - European Running Etiquette, Different Dialed Levels, Strieg Final Pre-Parent Thoughts"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/317---European-Running-Etiquette--Different-Dialed-Levels--Strieg-Final-Pre-Parent-Thoughts-e3kj32m
@@ -14533,7 +14545,7 @@ episodes_by_feed:
     episode_uid: b3d4320e-10ca-4970-bf45-82a7d71777c4
     episode_slug: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
     episode_key: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/life-in-stride/317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts/"
   - episode_title: "#316 John Bizzell - Winning the Area 51 Marathon, 2:56 Marathons Back to Back at Newport/Boston, Louisville Running Community"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/316-John-Bizzell---Winning-the-Area-51-Marathon--256-Marathons-Back-to-Back-at-NewportBoston--Louisville-Running-Community-e3kfbtb
@@ -14545,7 +14557,7 @@ episodes_by_feed:
     episode_uid: 2047b626-5a75-4db1-a14f-8a8c3066cce3
     episode_slug: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
     episode_key: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/life-in-stride/316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community/"
   - episode_title: "#315 Dylan Belles - 2:18 for 2nd Place at the Bayshore Marathon, Fast Finish Long Runs, Carb Load Worth It?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/315-Dylan-Belles---218-for-2nd-Place-at-the-Bayshore-Marathon--Fast-Finish-Long-Runs--Carb-Load-Worth-It-e3ke741
@@ -14557,7 +14569,7 @@ episodes_by_feed:
     episode_uid: bc51a5f5-c39f-40b4-99c0-c429374bdf7b
     episode_slug: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
     episode_key: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/life-in-stride/315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it/"
   - episode_title: "#314 - Fall Race Plans + Goals, How to Approach Summer Training, Danny’s Big Announcement"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/314---Fall-Race-Plans--Goals--How-to-Approach-Summer-Training--Dannys-Big-Announcement-e3kblr8
@@ -14569,7 +14581,7 @@ episodes_by_feed:
     episode_uid: 014e8853-bd84-4a44-9a91-00ad0beef33d
     episode_slug: 314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement
     episode_key: 314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/life-in-stride/314-fall-race-plans-goals-how-to-approach-summer-training-danny-s-big-announcement/"
   - episode_title: "#313 Jacob Thomson & Corbin Harris - Training Updates, Rabat DL Recap, NCAA Champs Races to Watch"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/313-Jacob-Thomson--Corbin-Harris---Training-Updates--Rabat-DL-Recap--NCAA-Champs-Races-to-Watch-e3k86pf
@@ -14581,20 +14593,8 @@ episodes_by_feed:
     episode_uid: 26c153d7-b7d3-4425-88eb-8e7a361553a2
     episode_slug: 313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch
     episode_key: 313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/life-in-stride/313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch/"
-  - episode_title: "#312 Jonny Dahlke - Training Breakdown for a 62 Minute Half-Marathoner, Founding Milers Colonia, Learning the Marathon"
-    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/312-Jonny-Dahlke---Training-Breakdown-for-a-62-Minute-Half-Marathoner--Founding-Milers-Colonia--Learning-the-Marathon-e3k6nil
-    audio_url: https://traffic.megaphone.fm/APO7345565980.mp3
-    published_at: '2026-06-01T18:45:23+00:00'
-    description_html: '<p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had special guest Jonny Dahlke on the podcast! Jonny is a top German distance runner, with PBs of 13:51 in the 5k, 28:27 in the 10k, and 62 minutes in the half! Funny enough - Jonny and I figured out on this episode that we actually raced each other a few times in college!</p><p>We talked about Jonny’s experience in college running D2 in the US, how he has progressed after college + his weekly training breakdown currently, and also how he co-founded Milers Colonia which is an amazing run club in Cologne, Germany!</p><p>FOLLOW JONNY:</p><p>IG: <a href="https://www.instagram.com/jonnydlk/" target="_blank" rel="ugc noopener noreferrer">https://www.instagram.com/jonnydlk/</a></p><p>PODCAST: <a href="https://open.spotify.com/show/5p6UJf83lHWWC1TGMasYUj" target="_blank" rel="ugc noopener noreferrer">https://open.spotify.com/show/5p6UJf83lHWWC1TGMasYUj</a></p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>INSTA360 Affiliate code:</p><p>INRSGUOCSXX</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
-    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had special guest Jonny Dahlke on the podcast! Jonny is a top German distance runner, with PBs of 13:51 in the 5k, 28:27 in the 10k, and 62 minutes in the half! Funny enough - Jonny and I figured out on this episode that we actually raced each other a few times in college! We talked about Jonny’s experience in college running D2 in the US, how he has progressed after college + his weekly training breakdown currently, and also how he co-founded Milers Colonia which is an amazing run club in Cologne, Germany! FOLLOW JONNY: IG: https://www.instagram.com/jonnydlk/ PODCAST: https://open.spotify.com/show/5p6UJf83lHWWC1TGMasYUj FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ INSTA360 Affiliate code: INRSGUOCSXX CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
-    episode_uid: e027e5d1-0d3a-48d3-85d7-125b1e71cb09
-    episode_slug: 312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon
-    episode_key: 312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon
     legacy_numbered_slug: episode-25
-    episode_page_url: "/life-in-stride/312-jonny-dahlke-training-breakdown-for-a-62-minute-half-marathoner-founding-milers-colonia-learning-the-marathon/"
+    episode_page_url: "/life-in-stride/313-jacob-thomson-corbin-harris-training-updates-rabat-dl-recap-ncaa-champs-races-to-watch/"
   https://publicfeeds.net/f/3492/feed-rss.xml: &48
   - episode_title: Prank Sinatra with Jenée Desmond-Harris and Joel Anderson
     episode_url: https://play.prx.org/listen?ge=prx_3492_70fcc9f3-5c98-423e-b948-d3c329433282&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F3492%2Ffeed-rss.xml
@@ -19528,6 +19528,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/iran-i-vm-storpolitisk-drama/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Emil Hansius
+    episode_url: https://www.sverigesradio.se/avsnitt/2815511
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_emil_hansius_podd_20260707_1352286549.mp3
+    published_at: '2026-07-13T11:00:00Z'
+    description_html: <p>Youtubern om något han nästan inte vågar tala om.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Youtubern om något han nästan inte vågar tala om. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815511
+    episode_slug: emil-hansius
+    episode_key: emil-hansius
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/emil-hansius/"
   - episode_title: Martin Modéus
     episode_url: https://www.sverigesradio.se/avsnitt/2815510
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_martin_modus_podd_20260629_1143338594.mp3
@@ -19539,7 +19551,7 @@ episodes_by_feed:
     episode_slug: martin-modeus
     episode_key: martin-modeus
     legacy_unicode_slug: martin-modéus
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/martin-modeus/"
   - episode_title: Amanda Jansson
     episode_url: https://www.sverigesradio.se/avsnitt/2815509
@@ -19551,7 +19563,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815509
     episode_slug: amanda-jansson
     episode_key: amanda-jansson
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/amanda-jansson/"
   - episode_title: Carl Skau
     episode_url: https://www.sverigesradio.se/avsnitt/2815488
@@ -19563,7 +19575,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815488
     episode_slug: carl-skau
     episode_key: carl-skau
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/carl-skau/"
   - episode_title: Evelyn Mok
     episode_url: https://www.sverigesradio.se/avsnitt/2815484
@@ -19575,7 +19587,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815484
     episode_slug: evelyn-mok
     episode_key: evelyn-mok
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
   - episode_title: Sebastian Siemiatkowski
     episode_url: https://www.sverigesradio.se/avsnitt/2815483
@@ -19587,7 +19599,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815483
     episode_slug: sebastian-siemiatkowski
     episode_key: sebastian-siemiatkowski
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
   - episode_title: Behrang Safari
     episode_url: https://www.sverigesradio.se/avsnitt/2815479
@@ -19599,7 +19611,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815479
     episode_slug: behrang-safari
     episode_key: behrang-safari
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/behrang-safari/"
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
@@ -19612,7 +19624,7 @@ episodes_by_feed:
     episode_slug: erika-bjerstrom
     episode_key: erika-bjerstrom
     legacy_unicode_slug: erika-bjerström
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/erika-bjerstrom/"
   - episode_title: Marie Göranzon
     episode_url: https://www.sverigesradio.se/avsnitt/2815477
@@ -19625,7 +19637,7 @@ episodes_by_feed:
     episode_slug: marie-goranzon
     episode_key: marie-goranzon
     legacy_unicode_slug: marie-göranzon
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/marie-goranzon/"
   - episode_title: Olof Wretling
     episode_url: https://www.sverigesradio.se/avsnitt/2815476
@@ -19637,7 +19649,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815476
     episode_slug: olof-wretling
     episode_key: olof-wretling
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/olof-wretling/"
   - episode_title: Ann Heberlein
     episode_url: https://www.sverigesradio.se/avsnitt/2815475
@@ -19649,7 +19661,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815475
     episode_slug: ann-heberlein
     episode_key: ann-heberlein
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
   - episode_title: Maria Maunsbach
     episode_url: https://www.sverigesradio.se/avsnitt/2815526
@@ -19661,7 +19673,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815526
     episode_slug: maria-maunsbach
     episode_key: maria-maunsbach
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
   - episode_title: 'Poddtips: Dagens Eko förklarar en stor nyhet varje vardag'
     episode_url: https://www.sverigesradio.se/avsnitt/2830718
@@ -19674,7 +19686,7 @@ episodes_by_feed:
     episode_slug: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     episode_key: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     legacy_unicode_slug: poddtips-dagens-eko-förklarar-en-stor-nyhet-varje-vardag
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/"
   - episode_title: Sarah Sheppard
     episode_url: https://www.sverigesradio.se/avsnitt/2815473
@@ -19686,7 +19698,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815473
     episode_slug: sarah-sheppard
     episode_key: sarah-sheppard
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
   - episode_title: Johan Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2815472
@@ -19698,7 +19710,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815472
     episode_slug: johan-eriksson
     episode_key: johan-eriksson
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
   - episode_title: Patrik Norqvist
     episode_url: https://www.sverigesradio.se/avsnitt/2815471
@@ -19710,7 +19722,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815471
     episode_slug: patrik-norqvist
     episode_key: patrik-norqvist
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
   - episode_title: Ginna Lindberg
     episode_url: https://www.sverigesradio.se/avsnitt/2815470
@@ -19722,7 +19734,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815470
     episode_slug: ginna-lindberg
     episode_key: ginna-lindberg
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
   - episode_title: Alexander Karim
     episode_url: https://www.sverigesradio.se/avsnitt/2815519
@@ -19734,7 +19746,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815519
     episode_slug: alexander-karim
     episode_key: alexander-karim
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
   - episode_title: Carolina Dybeck Happe
     episode_url: https://www.sverigesradio.se/avsnitt/2815474
@@ -19746,7 +19758,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815474
     episode_slug: carolina-dybeck-happe
     episode_key: carolina-dybeck-happe
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/carolina-dybeck-happe/"
   - episode_title: Jonas Gren
     episode_url: https://www.sverigesradio.se/avsnitt/2815467
@@ -19758,7 +19770,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815467
     episode_slug: jonas-gren
     episode_key: jonas-gren
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/jonas-gren/"
   - episode_title: Jonas Bonnier
     episode_url: https://www.sverigesradio.se/avsnitt/2815466
@@ -19770,7 +19782,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815466
     episode_slug: jonas-bonnier
     episode_key: jonas-bonnier
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/jonas-bonnier/"
   - episode_title: Amanda Romare
     episode_url: https://www.sverigesradio.se/avsnitt/2815465
@@ -19782,7 +19794,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815465
     episode_slug: amanda-romare
     episode_key: amanda-romare
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/amanda-romare/"
   - episode_title: Martin Kragh
     episode_url: https://www.sverigesradio.se/avsnitt/2815464
@@ -19794,7 +19806,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815464
     episode_slug: martin-kragh
     episode_key: martin-kragh
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/martin-kragh/"
   - episode_title: Sebastian Ingrosso
     episode_url: https://www.sverigesradio.se/avsnitt/2815463
@@ -19806,7 +19818,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815463
     episode_slug: sebastian-ingrosso
     episode_key: sebastian-ingrosso
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/sebastian-ingrosso/"
   - episode_title: Helena Bergström
     episode_url: https://www.sverigesradio.se/avsnitt/2815462
@@ -19819,21 +19831,8 @@ episodes_by_feed:
     episode_slug: helena-bergstrom
     episode_key: helena-bergstrom
     legacy_unicode_slug: helena-bergström
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
-  - episode_title: Hör årets Sommarpratare presenteras
-    episode_url: https://www.sverigesradio.se/avsnitt/2801803
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/sommar__vinter_i_p1_hor_arets_sommarpratare_presen_20260609_1503236205.mp3
-    published_at: '2026-06-09T11:00:00Z'
-    description_html: <p>Sommarvärdarna presenteras av programchef Bibi Rödöö.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Sommarvärdarna presenteras av programchef Bibi Rödöö. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/6b6d0064-266e-4392-a16e-d71ecc4b3b53.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2801803
-    episode_slug: hor-arets-sommarpratare-presenteras
-    episode_key: hor-arets-sommarpratare-presenteras
-    legacy_unicode_slug: hör-årets-sommarpratare-presenteras
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/"
+    episode_page_url: "/sommar-vinter-i-p1/helena-bergstrom/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -22365,6 +22364,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/acquired/chase-center-summer-update/"
   https://rss.art19.com/how-i-built-this: &73
+  - episode_title: 'Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/77ab41eb-99a8-4dd2-ae39-d066818afc21.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-07-13T07:10:00Z'
+    description_html: '<p>Tom Rinks got his start in the commission-only "shark tank" of midwestern furniture sales. That’s where he learned what makes customers buy. Decades later, those instincts helped him grow a joke of a side hustle into a $400 million success.</p><p>In 2009, he created the iconic branding for an obscure sun tan lotion, drawing on a mish-mash of surf culture, Scandinavian furniture, and Japanese streetwear. Sun Bum became a huge success, but even before that, Tom helped boost a wildly diverse range of brands: a line of tequila, a series of Christian videos, and the ubiquitous “Yo quiero Taco Bell” campaign. All were successful, though it took a prolonged legal battle for Tom to get paid for the Taco Bell chihuahua.</p><p>In this episode, Tom reveals how he learned to manipulate consumer psychology, survive the brutal warfare of a stolen idea, and engineer a brand explosion on his own terms.</p><p><strong>WHAT YOU''LL LEARN</strong></p><ul><li>Chihuahuas and Apes: How the Right Mascot can Transform a Brand</li><li>What it takes to survive a five-year legal battle against a corporate titan.</li><li>The "Elvis Principle:”  How combining unexpected design elements can create an unforgettable package</li><li>The "Trojan Horse" Strategy: Why forcing retailers to buy a massive display creates the illusion of a brand overnight.</li></ul><p><strong>TIMESTAMPS</strong></p><ul><li>08:15 - What selling furniture taught Tom about customer psychology</li><li>10:00 - How the Slogan “Surf Michigan” got him into the T-shirt Business</li><li>25:07 - Psycho Chihuahua, Taco Bell, and the Branding Deal that Wasn’t</li><li>33:49 - Inside the grueling battle over a chihuahua mascot. “I was the guy suing Taco Bell.”</li><li>39:35 - A dramatic legal verdict, and Tom’s branding business takes off with fancy Tequila</li><li>49:47 - The sun screen opportunity: “I saw a gigantic hole that you could drive through.”</li><li>55:03 - How Tom and his partner came up with their “badass ape” logo</li><li>1:07:36 - Opening (fake) Sun Bum headquarters in Cocoa Beach, Fla</li><li>1:10:31- Early store displays and making the brand seem bigger than it was</li><li>1:14:56 - A $400M sale to SC Johnson, and Tom starts a new company</li></ul><p>This episode was researched by Katherine Sypher and Susannah Broun and produced by Casey Herman, with music by Ramtin Arablouei, and edited by Neva Grant.</p><p><strong>Follow How I Built This:</strong></p><p>Instagram → <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">@howibuiltthis</a></p><p>X → <a href="https://x.com/howibuiltthis" rel="noopener noreferrer" target="_blank">@HowIBuiltThis</a></p><p>Facebook → <a href="https://www.facebook.com/howibuiltthis" rel="noopener noreferrer" target="_blank">How I Built This</a></p><p><strong>Follow Guy Raz:</strong></p><p>Instagram → <a href="https://www.instagram.com/guy.raz/" rel="noopener noreferrer" target="_blank">@guy.raz</a></p><p>Youtube →<a href="https://www.youtube.com/channel/UCNSfrxNEmCruNtjIzxCBHjg" rel="noopener noreferrer" target="_blank"> guy_raz</a></p><p>X → <a href="https://x.com/guyraz" rel="noopener noreferrer" target="_blank">@guyraz</a></p><p>Substack →<a href="https://urldefense.com/v3/__http:/guyraz.substack.com__;!!Iwwt!RZoD751oWzUzoqqdJiqaoL6HdJfRHDUO1TKvYJ424d3Udn7-Pw9Nj6nEsauh9zcgEvLjUEc$" rel="noopener noreferrer" target="_blank"></a><a href="http://guyraz.substack.com" rel="noopener noreferrer" target="_blank">guyraz.substack.com</a></p><p>Website →<a href="https://urldefense.com/v3/__http:/guyraz.substack.com__;!!Iwwt!RZoD751oWzUzoqqdJiqaoL6HdJfRHDUO1TKvYJ424d3Udn7-Pw9Nj6nEsauh9zcgEvLjUEc$" rel="noopener noreferrer" target="_blank"></a><a href="http://guyraz.com" rel="noopener noreferrer" target="_blank">guyraz.com</a></p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
+    description_plain: 'Tom Rinks got his start in the commission-only "shark tank" of midwestern furniture sales. That’s where he learned what makes customers buy. Decades later, those instincts helped him grow a joke of a side hustle into a $400 million success. In 2009, he created the iconic branding for an obscure sun tan lotion, drawing on a mish-mash of surf culture, Scandinavian furniture, and Japanese streetwear. Sun Bum became a huge success, but even before that, Tom helped boost a wildly diverse range of brands: a line of tequila, a series of Christian videos, and the ubiquitous “Yo quiero Taco Bell” campaign. All were successful, though it took a prolonged legal battle for Tom to get paid for the Taco Bell chihuahua. In this episode, Tom reveals how he learned to manipulate consumer psychology, survive the brutal warfare of a stolen idea, and engineer a brand explosion on his own terms. WHAT YOU''LL LEARN Chihuahuas and Apes: How the Right Mascot can Transform a Brand What it takes to survive a five-year legal battle against a corporate titan. The "Elvis Principle:” How combining unexpected design elements can create an unforgettable package The "Trojan Horse" Strategy: Why forcing retailers to buy a massive display creates the illusion of a brand overnight. TIMESTAMPS 08:15 - What selling furniture taught Tom about customer psychology 10:00 - How the Slogan “Surf Michigan” got him into the T-shirt Business 25:07 - Psycho Chihuahua, Taco Bell, and the Branding Deal that Wasn’t 33:49 - Inside the grueling battle over a chihuahua mascot. “I was the guy suing Taco Bell.” 39:35 - A dramatic legal verdict, and Tom’s branding business takes off with fancy Tequila 49:47 - The sun screen opportunity: “I saw a gigantic hole that you could drive through.” 55:03 - How Tom and his partner came up with their “badass ape” logo 1:07:36 - Opening (fake) Sun Bum headquarters in Cocoa Beach, Fla 1:10:31- Early store displays and making the brand seem bigger than it was 1:14:56 - A $400M sale to SC Johnson, and Tom starts a new company This episode was researched by Katherine Sypher and Susannah Broun and produced by Casey Herman, with music by Ramtin Arablouei, and edited by Neva Grant. Follow How I Built This: Instagram → @howibuiltthis X → @HowIBuiltThis Facebook → How I Built This Follow Guy Raz: Instagram → @guy.raz Youtube → guy_raz X → @guyraz Substack → guyraz.substack.com Website → guyraz.com See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
+    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
+    episode_uid: y7qftuceid7jce8jvtplgnhixui40ngwg4itljux9gk
+    episode_slug: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
+    episode_key: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/how-i-built-this/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/"
   - episode_title: Advice Line with Jeni Britton of Jeni's Splendid Ice Creams (2025)
     episode_url: ''
     audio_url: https://rss.art19.com/episodes/6dadc048-8cec-44ec-a3cf-ec314a00e41e.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
@@ -22375,7 +22386,7 @@ episodes_by_feed:
     episode_uid: gftd5xyydg6qzbuktfhnzpp6arlg-sefghtdip3qe
     episode_slug: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
     episode_key: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/how-i-built-this/advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025/"
   - episode_title: 'Catalina Crunch: Krishna Kaliannan. From Homemade Keto Cocoa Puffs to Breakfast Aisle Breakthrough'
     episode_url: ''
@@ -22387,7 +22398,7 @@ episodes_by_feed:
     episode_uid: fgb-e35uhoyskmeodpjdxwgfbvnzkrobi27eax6iqsm
     episode_slug: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
     episode_key: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/how-i-built-this/catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough/"
   - episode_title: Advice Line with Ronnen Harary of Spin Master/PAW Patrol
     episode_url: ''
@@ -22399,7 +22410,7 @@ episodes_by_feed:
     episode_uid: ip0vy2yexavz2hs40reul-oey40aipj6tp5gw91vwjg
     episode_slug: advice-line-with-ronnen-harary-of-spin-master-paw-patrol
     episode_key: advice-line-with-ronnen-harary-of-spin-master-paw-patrol
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/how-i-built-this/advice-line-with-ronnen-harary-of-spin-master-paw-patrol/"
   - episode_title: 'e.l.f. Cosmetics: Joey Shamah. The Dollar Store Formula That Built a Cosmetics Giant'
     episode_url: ''
@@ -22411,7 +22422,7 @@ episodes_by_feed:
     episode_uid: zillwlpg8hzveaqbrkziq6pjjyccx0t4vhh-nqpbnve
     episode_slug: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
     episode_key: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/how-i-built-this/e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant/"
   - episode_title: Advice Line with Susan Griffin-Black of EO Products
     episode_url: ''
@@ -22423,7 +22434,7 @@ episodes_by_feed:
     episode_uid: o6j6dwehdd7amk7jxbrnvwv-a1tzbi6khnejfibcvxe
     episode_slug: advice-line-with-susan-griffin-black-of-eo-products
     episode_key: advice-line-with-susan-griffin-black-of-eo-products
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/how-i-built-this/advice-line-with-susan-griffin-black-of-eo-products/"
   - episode_title: 'STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct'
     episode_url: ''
@@ -22435,7 +22446,7 @@ episodes_by_feed:
     episode_uid: jlsenest4p7hw8kfouvvu50usn8gmu-wxhzoxwdydg8
     episode_slug: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
     episode_key: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/how-i-built-this/starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct/"
   - episode_title: Advice Line with Shazi Visram of Happy Family Organics
     episode_url: ''
@@ -22447,7 +22458,7 @@ episodes_by_feed:
     episode_uid: pzk4jbulxl5hsniwomgt-c9boxmlmdjusfx0zkilc2o
     episode_slug: advice-line-with-shazi-visram-of-happy-family-organics
     episode_key: advice-line-with-shazi-visram-of-happy-family-organics
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/how-i-built-this/advice-line-with-shazi-visram-of-happy-family-organics/"
   - episode_title: 'Build-A-Bear: Maxine Clark. A Former Shoe Executive Launches a Stuffed Animal Empire'
     episode_url: ''
@@ -22459,7 +22470,7 @@ episodes_by_feed:
     episode_uid: tmp4tjl9nxpytdg9f4gfoyxv6qz6u2cn2ydgpazzzs8
     episode_slug: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
     episode_key: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/how-i-built-this/build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire/"
   - episode_title: Advice Line with Christina Tosi of Milk Bar
     episode_url: ''
@@ -22471,7 +22482,7 @@ episodes_by_feed:
     episode_uid: hhjeehzmmivsosdeaivhgwyyvpp-ddqkpr4htdvlku8
     episode_slug: advice-line-with-christina-tosi-of-milk-bar
     episode_key: advice-line-with-christina-tosi-of-milk-bar
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/how-i-built-this/advice-line-with-christina-tosi-of-milk-bar/"
   - episode_title: 'Shopify: Tobias Lütke. How a snowboarder built a $150 billion business (2019)'
     episode_url: ''
@@ -22484,7 +22495,7 @@ episodes_by_feed:
     episode_slug: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     episode_key: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     legacy_unicode_slug: shopify-tobias-lütke-how-a-snowboarder-built-a-150-billion-business-2019
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/how-i-built-this/shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019/"
   - episode_title: Advice Line with Tim Ferriss (August 2025)
     episode_url: ''
@@ -22496,7 +22507,7 @@ episodes_by_feed:
     episode_uid: b9ee3my6tjy1ceqbdtb5wenwgy3ordtifo2-if3e0ay
     episode_slug: advice-line-with-tim-ferriss-august-2025
     episode_key: advice-line-with-tim-ferriss-august-2025
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/how-i-built-this/advice-line-with-tim-ferriss-august-2025/"
   - episode_title: 'UGG: Brian Smith. How an epiphany, surfers, and $500 launched an iconic sheepskin footwear company.'
     episode_url: ''
@@ -22508,7 +22519,7 @@ episodes_by_feed:
     episode_uid: 5s0vonn-opsk1zpat1nxn-vo2zcdme8lt7jxguqkmy
     episode_slug: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
     episode_key: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/how-i-built-this/ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company/"
   - episode_title: Advice Line with Jeffrey Hollender of Seventh Generation
     episode_url: ''
@@ -22520,7 +22531,7 @@ episodes_by_feed:
     episode_uid: 4wcue-17ogbw5el-mbnx-ki9ijworouprz5pdewq7xi
     episode_slug: advice-line-with-jeffrey-hollender-of-seventh-generation
     episode_key: advice-line-with-jeffrey-hollender-of-seventh-generation
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/how-i-built-this/advice-line-with-jeffrey-hollender-of-seventh-generation/"
   - episode_title: 'Justin’s Nut Butter: Justin Gold. He Was Waiting Tables, Then...He Reinvented Peanut Butter.'
     episode_url: ''
@@ -22532,7 +22543,7 @@ episodes_by_feed:
     episode_uid: yqzw16h2ktk2olnhz-uuhe82fcwwot0sixwalkx2km
     episode_slug: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
     episode_key: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/how-i-built-this/justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter/"
   - episode_title: Advice Line with Sarah LaFleur of M.M. LaFleur
     episode_url: ''
@@ -22544,7 +22555,7 @@ episodes_by_feed:
     episode_uid: zswlybn8gfviu2ih2g9x4uvgvityooc1djles4a926o
     episode_slug: advice-line-with-sarah-lafleur-of-m-m-lafleur
     episode_key: advice-line-with-sarah-lafleur-of-m-m-lafleur
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/how-i-built-this/advice-line-with-sarah-lafleur-of-m-m-lafleur/"
   - episode_title: 'NVIDIA: Jensen Huang. From near collapse to becoming the world’s biggest company'
     episode_url: ''
@@ -22556,7 +22567,7 @@ episodes_by_feed:
     episode_uid: bpikpn-q7wrffq1h-x6g3o2ecadpyq6otwp6fwspdbq
     episode_slug: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
     episode_key: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/how-i-built-this/nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company/"
   - episode_title: 'Advice Line: New Offerings, Bigger Markets'
     episode_url: ''
@@ -22568,7 +22579,7 @@ episodes_by_feed:
     episode_uid: d3whyvzhetkd1ekwdk8occgpyou669hscg02gp68px4
     episode_slug: advice-line-new-offerings-bigger-markets
     episode_key: advice-line-new-offerings-bigger-markets
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/how-i-built-this/advice-line-new-offerings-bigger-markets/"
   - episode_title: 'Room & Board: John Gabbert. A Broken Deal, a Family Rift, and the Birth of a Furniture Giant'
     episode_url: ''
@@ -22580,7 +22591,7 @@ episodes_by_feed:
     episode_uid: nufmnrpeqyz9yn2-rxzl7tscz389nskiuirlnyhwhgs
     episode_slug: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
     episode_key: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/how-i-built-this/room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant/"
   - episode_title: Advice Line with Jonah Peretti of Buzzfeed
     episode_url: ''
@@ -22592,7 +22603,7 @@ episodes_by_feed:
     episode_uid: chfjg48l1clzorvmtfcdvybr-u5z1kyh-zynrwal7cu
     episode_slug: advice-line-with-jonah-peretti-of-buzzfeed
     episode_key: advice-line-with-jonah-peretti-of-buzzfeed
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/how-i-built-this/advice-line-with-jonah-peretti-of-buzzfeed/"
   - episode_title: 'Beautycounter: Gregg Renfrew. She Built Beautycounter to $1B… Then Got Fired From Her Own Company'
     episode_url: ''
@@ -22604,7 +22615,7 @@ episodes_by_feed:
     episode_uid: zoucdhzsff4qac4xrsr7ucc6cgcypqrp7tkktyxyi7o
     episode_slug: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
     episode_key: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/how-i-built-this/beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company/"
   - episode_title: Advice Line with David Neeleman of JetBlue
     episode_url: ''
@@ -22616,7 +22627,7 @@ episodes_by_feed:
     episode_uid: ukzbnk2zh6n4tug0iemjkhpo9ous3wgjg0dkyduj7xe
     episode_slug: advice-line-with-david-neeleman-of-jetblue
     episode_key: advice-line-with-david-neeleman-of-jetblue
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/how-i-built-this/advice-line-with-david-neeleman-of-jetblue/"
   - episode_title: 'Shep and Ian Murray: Vineyard Vines. A Stale Product Transforms into a Lifestyle Brand.'
     episode_url: ''
@@ -22628,7 +22639,7 @@ episodes_by_feed:
     episode_uid: 8ftwrlam7ypq-6-bkrgyizwoplu3afpp3r5zopt0sis
     episode_slug: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
     episode_key: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/how-i-built-this/shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand/"
   - episode_title: Advice Line with Eric Ryan of Method returns
     episode_url: ''
@@ -22640,7 +22651,7 @@ episodes_by_feed:
     episode_uid: qzdjhb-m6boi7tmwxd1t-ralpyujjiyiwkyyw1bulcg
     episode_slug: advice-line-with-eric-ryan-of-method-returns
     episode_key: advice-line-with-eric-ryan-of-method-returns
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/how-i-built-this/advice-line-with-eric-ryan-of-method-returns/"
   - episode_title: 'KIND bars: Daniel Lubetzky. From peace in the Middle East to a $5 billion snack bar'
     episode_url: ''
@@ -22652,20 +22663,8 @@ episodes_by_feed:
     episode_uid: b8cwbcfl-qx7tvlnt5wh4l9yoakv7yeamcvu8-0e8wo
     episode_slug: kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar
     episode_key: kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/how-i-built-this/kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar/"
-  - episode_title: Advice Line with Chieh Huang of Boxed
-    episode_url: ''
-    audio_url: https://rss.art19.com/episodes/ed16e81b-6ca6-45fe-a6d7-426fdc92979a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-    published_at: '2026-04-16T07:00:00Z'
-    description_html: '<p>Today’s callers: Alec from California wonders if it’s time to bring production for his beef tallow skincare brand out of his kitchen to a co-manufacturer. Then, Jessica from California has a hit horse care product on her hands: is a major pet distributor a dream partnership or a brand-killer? And Eli in Minnesota is curious if he should tweak his signature anti-inflammatory coffee blend for bulk brewing or protect the original taste?</p><p>Plus, Chieh reflects on his exit from Boxed and how his latest venture, <a href="https://www.pelgo.com/" rel="noopener noreferrer" target="_blank">Pelgo</a>, helps people through similarly significant career transitions.</p><p>Thank you to the founders of Surfing Cow, Tail Cinch, and Makor Coffee for being a part of our show.</p><p>If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to hibt@id.wondery.com or call 1-800-433-1298.</p><p>And be sure to listen to the founding story of <a href="https://art19.com/shows/831bd173-0992-41b7-b1eb-112db904d947/episodes/c6e1ce0f-b867-4773-bf88-526fe1644d52/embed" rel="noopener noreferrer" target="_blank">Boxed</a> as told by Chieh on the show in 2021.</p><p>This episode was produced by Rommel Wood with music by Ramtin Arablouei. It was edited by John Isabella. Our audio engineer was Robert Rodriguez.</p><p>You can follow HIBT on <a href="https://x.com/HowIBuiltThis" rel="noopener noreferrer" target="_blank">X</a> &amp; <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">Instagram</a> and sign up for Guy''s free newsletter at <a href="http://guyraz.com/" rel="noopener noreferrer" target="_blank">guyraz.com</a> and on <a href="https://guyraz.substack.com/" rel="noopener noreferrer" target="_blank">Substack</a>.</p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
-    description_plain: 'Today’s callers: Alec from California wonders if it’s time to bring production for his beef tallow skincare brand out of his kitchen to a co-manufacturer. Then, Jessica from California has a hit horse care product on her hands: is a major pet distributor a dream partnership or a brand-killer? And Eli in Minnesota is curious if he should tweak his signature anti-inflammatory coffee blend for bulk brewing or protect the original taste? Plus, Chieh reflects on his exit from Boxed and how his latest venture, Pelgo , helps people through similarly significant career transitions. Thank you to the founders of Surfing Cow, Tail Cinch, and Makor Coffee for being a part of our show. If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to hibt@id.wondery.com or call 1-800-433-1298. And be sure to listen to the founding story of Boxed as told by Chieh on the show in 2021. This episode was produced by Rommel Wood with music by Ramtin Arablouei. It was edited by John Isabella. Our audio engineer was Robert Rodriguez. You can follow HIBT on X &amp; Instagram and sign up for Guy''s free newsletter at guyraz.com and on Substack . See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
-    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
-    episode_uid: 6ayog2-s9izvjo4ize2hdg-9jpfchik8kcuo3kulifq
-    episode_slug: advice-line-with-chieh-huang-of-boxed
-    episode_key: advice-line-with-chieh-huang-of-boxed
     legacy_numbered_slug: episode-25
-    episode_page_url: "/how-i-built-this/advice-line-with-chieh-huang-of-boxed/"
+    episode_page_url: "/how-i-built-this/kind-bars-daniel-lubetzky-from-peace-in-the-middle-east-to-a-5-billion-snack-bar/"
   https://lexfridman.com/feed/podcast/: &74
   - episode_title: "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires"
     episode_url: https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis
@@ -23888,8 +23887,8 @@ episodes_by_feed:
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KX94975E7Q45TQEH852YJE8W.mp3
     published_at: '2026-07-13T05:00:00Z'
-    description_html: '<p class="text-node">Ex-OpenAI researcher Daniel Kokotajlo walked away from $2 million rather than stay silent, and now reveals why he believes there''s a 70% chance AI leads to human extinction, why superintelligence could arrive before the end of the decade, and the one plan he thinks could still save us all!</p><p class="text-node">Daniel Kokotajlo is a former OpenAI researcher and one of the world''s leading AI forecasters. He is the founder of the AI Futures Project and the lead author of ''AI 2027'', the widely-read scenario mapping the trajectory of artificial intelligence. His follow-up, ''AI 2040: Plan A'', sets out how the world could still navigate superintelligence safely.</p><p class="text-node">He explains: ■ What he saw inside OpenAI that made him walk away</p><p class="text-node">■ Why the people building AI privately believe it''s coming even sooner than the public is being told ■ What happens if AI becomes powerful enough that humans can no longer control it, and why he puts the odds of catastrophe as high as 70% ■ Why almost every job could be automated, and what that means for the next generation ■ The plan he believes could still lead to abundance and a future worth living in</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:14</strong> Why This AI Mission Could Affect Everyone</li><li><strong>00:04:01</strong> Why the Average Person Should Care About AI</li><li><strong>00:08:09</strong> Are AI Experts Overreacting or Sounding the Alarm?</li><li><strong>00:09:46</strong> Why He Joined OpenAI—and What He Saw Inside</li><li><strong>00:13:04</strong> Why He Left OpenAI</li><li><strong>00:15:33</strong> What It Was Like Inside OpenAI During ChatGPT''s Launch</li><li><strong>00:16:56</strong> The  Million NDA Controversy Explained</li><li><strong>00:19:10</strong> Is Full AI Automation Coming Faster Than We Think?</li><li><strong>00:23:59</strong> The AI 2027 Forecast That Changed the Conversation</li><li><strong>00:26:13</strong> AGI vs. Superintelligence: The Difference That Matters</li><li><strong>00:26:57</strong> How Robots Could Soon Become Part of Everyday Life</li><li><strong>00:30:03</strong> Why AI Works More Like the Human Brain Than You Think</li><li><strong>00:35:54</strong> Can AI Ever Be Truly Creative?</li><li><strong>00:40:55</strong> What Are the Real Odds of Human Extinction From AI?</li><li><strong>00:47:38</strong> What AI Will Do to Jobs</li><li><strong>00:54:25</strong> The Skills That Will Still Matter in an AI World</li><li><strong>01:00:01</strong> AI 2040: What the Future Could Look Like</li><li><strong>01:04:16</strong> The Different Futures AI Could Create</li><li><strong>01:09:13</strong> Will AI Become Earth''s Apex Species?</li><li><strong>01:12:58</strong> How AI CEOs Really Make Decisions</li><li><strong>01:15:17</strong> Will AI Decide the 2028 Election?</li><li><strong>01:18:38</strong> Is There a Safe Path to Accelerating AI?</li><li><strong>01:21:51</strong> By 2031, AI Could Do 20% of Cognitive Work</li><li><strong>01:24:55</strong> Should Everyone Receive AI Dividends?</li><li><strong>01:32:21</strong> What It Will Feel Like to Live Through the AI Revolution</li><li><strong>01:33:51</strong> How People Find Purpose After AI Replaces Jobs</li><li><strong>01:45:52</strong> Would He Shut Down AI Forever If He Could?</li><li><strong>01:49:36</strong> What Can We Actually Do About AI?</li><li><strong>01:57:05</strong> Is It Already Too Late to Change Course?</li></ul></p><p class="text-node">Follow Daniel: X - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/47vmwiA">https://link.thediaryofaceo.com/47vmwiA</a>  Substack -<a target="_blank" rel="noopener noreferrer" class="link" href="https://substack.com/@danielkokotajlo"></a><a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/5alnhzB">https://link.thediaryofaceo.com/5alnhzB</a>  You can read ''AI 2027'' here:<a target="_blank" rel="noopener noreferrer" class="link" href="https://ai-2027.com/"></a><a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/7W2L8di">https://link.thediaryofaceo.com/7W2L8di</a> and its follow-up ''AI 2040: Plan A'' here:<a target="_blank" rel="noopener noreferrer" class="link" href="https://ai-2040.com/"></a><a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/EFjbRzP">https://link.thediaryofaceo.com/EFjbRzP</a>   Daniel''s AI predictions: https://ai-2027.com/ https://ai-2040.com/  AI risk reading list: https://blog.redwoodresearch.org/p/ai-futurism-reading-list</p><p class="text-node">The Diary Of A CEO: ■ Join DOAC circle here -<a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/"> https://doaccircle.com/ </a>■ Buy The Diary Of A CEO book here -<a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook"> https://smarturl.it/DOACbook </a>■ The 1% Diary is back - limited time only:<a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt"> https://bit.ly/3YFbJbt </a>■ The Diary Of A CEO Conversation Cards:<a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r"> https://linkly.link/2hm7r </a>■ Get email updates -<a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt"> https://bit.ly/diary-of-a-ceo-yt </a>■ Follow Steven -<a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb"> https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors: Ketone - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://ketone.com/STEVEN">https://ketone.com/STEVEN</a> for 30% off your subscription order Stan - Visit <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode11">https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode11</a> HeyGen - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://heygen.com/doac">https://heygen.com/doac</a></p>'
-    description_plain: 'Ex-OpenAI researcher Daniel Kokotajlo walked away from $2 million rather than stay silent, and now reveals why he believes there''s a 70% chance AI leads to human extinction, why superintelligence could arrive before the end of the decade, and the one plan he thinks could still save us all! Daniel Kokotajlo is a former OpenAI researcher and one of the world''s leading AI forecasters. He is the founder of the AI Futures Project and the lead author of ''AI 2027'', the widely-read scenario mapping the trajectory of artificial intelligence. His follow-up, ''AI 2040: Plan A'', sets out how the world could still navigate superintelligence safely. He explains: ■ What he saw inside OpenAI that made him walk away ■ Why the people building AI privately believe it''s coming even sooner than the public is being told ■ What happens if AI becomes powerful enough that humans can no longer control it, and why he puts the odds of catastrophe as high as 70% ■ Why almost every job could be automated, and what that means for the next generation ■ The plan he believes could still lead to abundance and a future worth living in Chapters 00:00:00 Intro 00:02:14 Why This AI Mission Could Affect Everyone 00:04:01 Why the Average Person Should Care About AI 00:08:09 Are AI Experts Overreacting or Sounding the Alarm? 00:09:46 Why He Joined OpenAI—and What He Saw Inside 00:13:04 Why He Left OpenAI 00:15:33 What It Was Like Inside OpenAI During ChatGPT''s Launch 00:16:56 The Million NDA Controversy Explained 00:19:10 Is Full AI Automation Coming Faster Than We Think? 00:23:59 The AI 2027 Forecast That Changed the Conversation 00:26:13 AGI vs. Superintelligence: The Difference That Matters 00:26:57 How Robots Could Soon Become Part of Everyday Life 00:30:03 Why AI Works More Like the Human Brain Than You Think 00:35:54 Can AI Ever Be Truly Creative? 00:40:55 What Are the Real Odds of Human Extinction From AI? 00:47:38 What AI Will Do to Jobs 00:54:25 The Skills That Will Still Matter in an AI World 01:00:01 AI 2040: What the Future Could Look Like 01:04:16 The Different Futures AI Could Create 01:09:13 Will AI Become Earth''s Apex Species? 01:12:58 How AI CEOs Really Make Decisions 01:15:17 Will AI Decide the 2028 Election? 01:18:38 Is There a Safe Path to Accelerating AI? 01:21:51 By 2031, AI Could Do 20% of Cognitive Work 01:24:55 Should Everyone Receive AI Dividends? 01:32:21 What It Will Feel Like to Live Through the AI Revolution 01:33:51 How People Find Purpose After AI Replaces Jobs 01:45:52 Would He Shut Down AI Forever If He Could? 01:49:36 What Can We Actually Do About AI? 01:57:05 Is It Already Too Late to Change Course? Follow Daniel: X - https://link.thediaryofaceo.com/47vmwiA Substack - https://link.thediaryofaceo.com/5alnhzB You can read ''AI 2027'' here: https://link.thediaryofaceo.com/7W2L8di and its follow-up ''AI 2040: Plan A'' here: https://link.thediaryofaceo.com/EFjbRzP Daniel''s AI predictions: https://ai-2027.com/ https://ai-2040.com/ AI risk reading list: https://blog.redwoodresearch.org/p/ai-futurism-reading-list The Diary Of A CEO: ■ Join DOAC circle here - https://doaccircle.com/ ■ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ■ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ■ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ■ Get email updates - https://bit.ly/diary-of-a-ceo-yt ■ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Ketone - https://ketone.com/STEVEN for 30% off your subscription order Stan - Visit https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode11 HeyGen - https://heygen.com/doac'
+    description_html: '<p class="text-node">Ex-OpenAI researcher Daniel Kokotajlo walked away from $2 million rather than stay silent, and now reveals why he believes there''s a 70% chance AI leads to human extinction, why superintelligence could arrive before the end of the decade, and the one plan he thinks could still save us all!</p><p class="text-node">Daniel Kokotajlo is a former OpenAI researcher and one of the world''s leading AI forecasters. He is the founder of the AI Futures Project and the lead author of ''AI 2027'', the widely-read scenario mapping the trajectory of artificial intelligence. His follow-up, ''AI 2040: Plan A'', sets out how the world could still navigate superintelligence safely.</p><p class="text-node">He explains: ■ What he saw inside OpenAI that made him walk away</p><p class="text-node">■ Why the people building AI privately believe it''s coming even sooner than the public is being told ■ What happens if AI becomes powerful enough that humans can no longer control it, and why he puts the odds of catastrophe as high as 70% ■ Why almost every job could be automated, and what that means for the next generation ■ The plan he believes could still lead to abundance and a future worth living in</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:14</strong> Why This AI Mission Could Affect Everyone</li><li><strong>00:04:01</strong> Why the Average Person Should Care About AI</li><li><strong>00:08:09</strong> Are AI Experts Overreacting or Sounding the Alarm?</li><li><strong>00:09:46</strong> Why He Joined OpenAI—and What He Saw Inside</li><li><strong>00:13:04</strong> Why He Left OpenAI</li><li><strong>00:15:33</strong> What It Was Like Inside OpenAI During ChatGPT''s Launch</li><li><strong>00:16:56</strong> The  Million NDA Controversy Explained</li><li><strong>00:19:10</strong> Is Full AI Automation Coming Faster Than We Think?</li><li><strong>00:23:59</strong> The AI 2027 Forecast That Changed the Conversation</li><li><strong>00:26:13</strong> AGI vs. Superintelligence: The Difference That Matters</li><li><strong>00:26:57</strong> How Robots Could Soon Become Part of Everyday Life</li><li><strong>00:30:03</strong> Why AI Works More Like the Human Brain Than You Think</li><li><strong>00:35:54</strong> Can AI Ever Be Truly Creative?</li><li><strong>00:40:55</strong> What Are the Real Odds of Human Extinction From AI?</li><li><strong>00:47:38</strong> What AI Will Do to Jobs</li><li><strong>00:54:25</strong> The Skills That Will Still Matter in an AI World</li><li><strong>01:00:01</strong> AI 2040: What the Future Could Look Like</li><li><strong>01:04:16</strong> The Different Futures AI Could Create</li><li><strong>01:09:13</strong> Will AI Become Earth''s Apex Species?</li><li><strong>01:12:58</strong> How AI CEOs Really Make Decisions</li><li><strong>01:15:17</strong> Will AI Decide the 2028 Election?</li><li><strong>01:18:38</strong> Is There a Safe Path to Accelerating AI?</li><li><strong>01:21:51</strong> By 2031, AI Could Do 20% of Cognitive Work</li><li><strong>01:24:55</strong> Should Everyone Receive AI Dividends?</li><li><strong>01:32:21</strong> What It Will Feel Like to Live Through the AI Revolution</li><li><strong>01:33:51</strong> How People Find Purpose After AI Replaces Jobs</li><li><strong>01:45:52</strong> Would He Shut Down AI Forever If He Could?</li><li><strong>01:49:36</strong> What Can We Actually Do About AI?</li><li><strong>01:57:05</strong> Is It Already Too Late to Change Course?</li></ul></p><p class="text-node">Follow Daniel: X - <a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/47vmwiA">https://link.thediaryofaceo.com/47vmwiA</a>  Substack -<a target="_blank" rel="noopener noreferrer" class="link" href="https://substack.com/@danielkokotajlo"></a><a target="_blank" rel="noopener noreferrer" class="link" href="https://link.thediaryofaceo.com/5alnhzB">https://link.thediaryofaceo.com/5alnhzB</a>   Daniel''s AI predictions: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://ai-2027.com/">https://ai-2027.com/</a><a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://ai-2040.com/">https://ai-2040.com/</a>  AI risk reading list: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://blog.redwoodresearch.org/p/ai-futurism-reading-list">https://blog.redwoodresearch.org/p/ai-futurism-reading-list</a></p><p class="text-node">The Diary Of A CEO: ■ Join DOAC circle here -<a target="_blank" rel="noopener noreferrer" class="link" href="https://doaccircle.com/"> https://doaccircle.com/ </a>■ Buy The Diary Of A CEO book here -<a target="_blank" rel="noopener noreferrer" class="link" href="https://smarturl.it/DOACbook"> https://smarturl.it/DOACbook </a>■ The 1% Diary is back - limited time only:<a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/3YFbJbt"> https://bit.ly/3YFbJbt </a>■ The Diary Of A CEO Conversation Cards:<a target="_blank" rel="noopener noreferrer" class="link" href="https://linkly.link/2hm7r"> https://linkly.link/2hm7r </a>■ Get email updates -<a target="_blank" rel="noopener noreferrer" class="link" href="https://bit.ly/diary-of-a-ceo-yt"> https://bit.ly/diary-of-a-ceo-yt </a>■ Follow Steven -<a target="_blank" rel="noopener noreferrer" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb"> https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors: Ketone - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://ketone.com/STEVEN">https://ketone.com/STEVEN</a> for 30% off your subscription order Stan - Visit <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode11">https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode11</a> HeyGen - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://heygen.com/doac">https://heygen.com/doac</a></p>'
+    description_plain: 'Ex-OpenAI researcher Daniel Kokotajlo walked away from $2 million rather than stay silent, and now reveals why he believes there''s a 70% chance AI leads to human extinction, why superintelligence could arrive before the end of the decade, and the one plan he thinks could still save us all! Daniel Kokotajlo is a former OpenAI researcher and one of the world''s leading AI forecasters. He is the founder of the AI Futures Project and the lead author of ''AI 2027'', the widely-read scenario mapping the trajectory of artificial intelligence. His follow-up, ''AI 2040: Plan A'', sets out how the world could still navigate superintelligence safely. He explains: ■ What he saw inside OpenAI that made him walk away ■ Why the people building AI privately believe it''s coming even sooner than the public is being told ■ What happens if AI becomes powerful enough that humans can no longer control it, and why he puts the odds of catastrophe as high as 70% ■ Why almost every job could be automated, and what that means for the next generation ■ The plan he believes could still lead to abundance and a future worth living in Chapters 00:00:00 Intro 00:02:14 Why This AI Mission Could Affect Everyone 00:04:01 Why the Average Person Should Care About AI 00:08:09 Are AI Experts Overreacting or Sounding the Alarm? 00:09:46 Why He Joined OpenAI—and What He Saw Inside 00:13:04 Why He Left OpenAI 00:15:33 What It Was Like Inside OpenAI During ChatGPT''s Launch 00:16:56 The Million NDA Controversy Explained 00:19:10 Is Full AI Automation Coming Faster Than We Think? 00:23:59 The AI 2027 Forecast That Changed the Conversation 00:26:13 AGI vs. Superintelligence: The Difference That Matters 00:26:57 How Robots Could Soon Become Part of Everyday Life 00:30:03 Why AI Works More Like the Human Brain Than You Think 00:35:54 Can AI Ever Be Truly Creative? 00:40:55 What Are the Real Odds of Human Extinction From AI? 00:47:38 What AI Will Do to Jobs 00:54:25 The Skills That Will Still Matter in an AI World 01:00:01 AI 2040: What the Future Could Look Like 01:04:16 The Different Futures AI Could Create 01:09:13 Will AI Become Earth''s Apex Species? 01:12:58 How AI CEOs Really Make Decisions 01:15:17 Will AI Decide the 2028 Election? 01:18:38 Is There a Safe Path to Accelerating AI? 01:21:51 By 2031, AI Could Do 20% of Cognitive Work 01:24:55 Should Everyone Receive AI Dividends? 01:32:21 What It Will Feel Like to Live Through the AI Revolution 01:33:51 How People Find Purpose After AI Replaces Jobs 01:45:52 Would He Shut Down AI Forever If He Could? 01:49:36 What Can We Actually Do About AI? 01:57:05 Is It Already Too Late to Change Course? Follow Daniel: X - https://link.thediaryofaceo.com/47vmwiA Substack - https://link.thediaryofaceo.com/5alnhzB Daniel''s AI predictions: https://ai-2027.com/ https://ai-2040.com/ AI risk reading list: https://blog.redwoodresearch.org/p/ai-futurism-reading-list The Diary Of A CEO: ■ Join DOAC circle here - https://doaccircle.com/ ■ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ■ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ■ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ■ Get email updates - https://bit.ly/diary-of-a-ceo-yt ■ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Ketone - https://ketone.com/STEVEN for 30% off your subscription order Stan - Visit https://coach.stan.store/?ref=stevenbartlett&amp;utm_source=youtube&amp;utm_medium=podcast&amp;utm_campaign=episode11 HeyGen - https://heygen.com/doac'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KX94AC9D0MFGGX1Q1S8Y6T1R/daniel_kokotajlo_ep_cover_.jpg
     episode_uid: flightcast-01kx94975e6v64ds1mkx3q8c36
     episode_slug: openai-whistleblower-finally-speaks-ai-has-a-70-chance-of-going-horribly-wrong
@@ -23992,18 +23991,18 @@ episodes_by_feed:
     episode_key: billionaire-s-warning-i-m-selling-the-crash-is-already-here
     legacy_numbered_slug: episode-09
     episode_page_url: "/the-diary-of-a-ceo/billionaire-s-warning-i-m-selling-the-crash-is-already-here/"
-  - episode_title: 'Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!'
+  - episode_title: 'Dr Rachel Rubin: "I''m Filled With Rage!" Your Doctor Was Never Taught About Women''s Bodies!'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KVM73TKXB3XPJ4YM5S9GWBG8.mp3?fcv=io835x2g9dyv4s4hzawmw30t
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KVM73TKXB3XPJ4YM5S9GWBG8.mp3?fcv=bjno9t6eri8a0i0ei4mnkoqp
     published_at: '2026-06-22T05:00:00Z'
     description_html: '<p class="text-node">Women’s sex lives are being quietly destroyed, and their doctors don’t even know it… Sexual medicine specialist Dr Rachel Rubin reveals the hidden hormone crisis, how prescription drugs can impact sex, and the treatments most doctors aren''t prescribing like Hormone Replacement Therapy.  Dr Rachel Rubin is a board-certified urologist and sexual medicine specialist, and one of only 80 doctors in the US trained to treat both male and female sexual health. She recently played a pivotal role in the removal of the FDA''s boxed warning on menopausal hormone therapy - one of the most significant healthcare policy changes affecting midlife women in decades. She is also the Founder of Rachel Rubin MD and Director-at-Large of the International Society for the Study of Women''s Sexual Health.  She explains: ◼️ Why most doctors fail women on sexual health, and how to build a team that won''t ◼️ Why menopause is a whole-body hormone event, and the treatments that actually help ◼️ The physical barrier blocking orgasm in 1 in 4 women, and how to fix it ◼️ How a tight pelvic floor could be ruining your sex life ◼️ Why your sexual pain and low libido are physical problems your doctor keeps missing  <h3>Chapters</h3><ul><li><strong>00:00:00</strong> Why Women''s Healthcare Is Still Neglected</li><li><strong>00:04:17</strong> If Men Had These Symptoms, Would Medicine Be Better?</li><li><strong>00:07:02</strong> Why Even Gynaecologists Misunderstand The Clitoris</li><li><strong>00:08:03</strong> What You''ll Learn From This Conversation</li><li><strong>00:11:07</strong> The Question Women Ask Most</li><li><strong>00:11:32</strong> Why Testosterone Matters For Women</li><li><strong>00:13:41</strong> How Birth Control Can Kill Libido</li><li><strong>00:16:25</strong> How GLP-1s And Antidepressants Affect Sex Drive</li><li><strong>00:18:26</strong> Should Women Take Testosterone?</li><li><strong>00:19:30</strong> Understanding The Menstrual Cycle</li><li><strong>00:23:11</strong> Why Perimenopause Starts Earlier Than You Think</li><li><strong>00:25:19</strong> What Is HRT And How Does It Work?</li><li><strong>00:26:01</strong> Does Estrogen Increase Cancer Risk?</li><li><strong>00:27:27</strong> Why HRT Got A Bad Reputation</li><li><strong>00:29:24</strong> The 4 Types Of HRT Explained</li><li><strong>00:31:19</strong> What Really Causes UTIs?</li><li><strong>00:33:22</strong> Vaginal Hormones Explained</li><li><strong>00:37:19</strong> Does Cranberry Juice Actually Help UTIs?</li><li><strong>00:38:31</strong> When Should You Start HRT?</li><li><strong>00:40:36</strong> A HRT Success Story</li><li><strong>00:44:43</strong> Ads</li><li><strong>00:46:47</strong> Is Pain During Sex Normal?</li><li><strong>00:49:28</strong> How To Have Better Sex</li><li><strong>00:51:54</strong> What Your Pelvic Floor Actually Does</li><li><strong>00:53:48</strong> Signs You Have Pelvic Floor Problems</li><li><strong>00:55:24</strong> Is It Normal Not To Orgasm?</li><li><strong>00:57:30</strong> What Is A Clitoral Adhesion?</li><li><strong>00:58:55</strong> How Sex Toys Can Improve Intimacy</li><li><strong>01:00:07</strong> What Men Get Wrong About Arousal</li><li><strong>01:01:57</strong> What Happens To Women After Orgasm?</li><li><strong>01:02:55</strong> Do Women Get Anything From Penetrative Sex?</li><li><strong>01:04:40</strong> How Porn Changed Our Expectations</li><li><strong>01:06:58</strong> What Healthy Porn Looks Like</li><li><strong>01:08:12</strong> How Porn Can Damage Relationships</li><li><strong>01:10:12</strong> Ads</li><li><strong>01:12:21</strong> Why You Should Change Up Your Sex Life</li><li><strong>01:13:35</strong> Why We Hide Our Sexual Struggles</li><li><strong>01:17:17</strong> Responsive Vs Spontaneous Desire Explained</li><li><strong>01:19:58</strong> The Question Every Couple Should Ask</li><li><strong>01:20:51</strong> What If You Want Different Things In Bed?</li><li><strong>01:23:10</strong> How To Tell Your Partner About Kinks</li><li><strong>01:24:28</strong> The Secrets People Hide From Their Partners</li><li><strong>01:25:42</strong> How To Tell If She''s Faking Orgasms</li><li><strong>01:27:46</strong> How Stress And Dopamine Influence Libido</li><li><strong>01:29:33</strong> Should Sex Be Scheduled Or Spontaneous?</li><li><strong>01:31:24</strong> How Self-Esteem Affects Sex</li><li><strong>01:33:04</strong> The Most Important Thing We Missed</li><li><strong>01:35:06</strong> Better Communication, Better Sex</li><li><strong>01:42:51</strong> Why This Work Matters So Much</li><li><strong>01:43:57</strong> What Needs To Change In Your Own Life?</li></ul>  Independent Research: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://stevenbartlett.com/wp-content/uploads/2026/06/DOAC-Rachel-Rubin-Independent-Research-Further-Reading.pdf">https://stevenbartlett.com/wp-content/uploads/2026/06/DOAC-Rachel-Rubin-Independent-Research-Further-Reading.pdf</a>  Follow Dr Rachel:  Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/AYkgAOV">https://link.thediaryofaceo.com/AYkgAOV</a> YouTube - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/1TQZeri">https://link.thediaryofaceo.com/1TQZeri</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/FxZbK5x">https://link.thediaryofaceo.com/FxZbK5x</a> Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/4ZKqH2l">https://link.thediaryofaceo.com/4ZKqH2l</a>  The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a>  ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a>  ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a>  ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a>  ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a>  ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a>   Sponsors: HeyGen - <a target="_blank" rel="noopener noreferrer" class="link" href="https://heygen.com/DOAC">https://heygen.com/DOAC</a></p><p class="text-node">Flightcast - Check out <a target="_blank" rel="noopener noreferrer" class="link" href="https://www.flightcast.com/DOAC6">https://www.flightcast.com/DOAC6</a></p><p class="text-node">Ketone - Go to <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/steven">https://ketone.com/steven</a> to enter to win! no purchase necessary, terms and conditions apply.</p>'
     description_plain: 'Women’s sex lives are being quietly destroyed, and their doctors don’t even know it… Sexual medicine specialist Dr Rachel Rubin reveals the hidden hormone crisis, how prescription drugs can impact sex, and the treatments most doctors aren''t prescribing like Hormone Replacement Therapy. Dr Rachel Rubin is a board-certified urologist and sexual medicine specialist, and one of only 80 doctors in the US trained to treat both male and female sexual health. She recently played a pivotal role in the removal of the FDA''s boxed warning on menopausal hormone therapy - one of the most significant healthcare policy changes affecting midlife women in decades. She is also the Founder of Rachel Rubin MD and Director-at-Large of the International Society for the Study of Women''s Sexual Health. She explains: ◼️ Why most doctors fail women on sexual health, and how to build a team that won''t ◼️ Why menopause is a whole-body hormone event, and the treatments that actually help ◼️ The physical barrier blocking orgasm in 1 in 4 women, and how to fix it ◼️ How a tight pelvic floor could be ruining your sex life ◼️ Why your sexual pain and low libido are physical problems your doctor keeps missing Chapters 00:00:00 Why Women''s Healthcare Is Still Neglected 00:04:17 If Men Had These Symptoms, Would Medicine Be Better? 00:07:02 Why Even Gynaecologists Misunderstand The Clitoris 00:08:03 What You''ll Learn From This Conversation 00:11:07 The Question Women Ask Most 00:11:32 Why Testosterone Matters For Women 00:13:41 How Birth Control Can Kill Libido 00:16:25 How GLP-1s And Antidepressants Affect Sex Drive 00:18:26 Should Women Take Testosterone? 00:19:30 Understanding The Menstrual Cycle 00:23:11 Why Perimenopause Starts Earlier Than You Think 00:25:19 What Is HRT And How Does It Work? 00:26:01 Does Estrogen Increase Cancer Risk? 00:27:27 Why HRT Got A Bad Reputation 00:29:24 The 4 Types Of HRT Explained 00:31:19 What Really Causes UTIs? 00:33:22 Vaginal Hormones Explained 00:37:19 Does Cranberry Juice Actually Help UTIs? 00:38:31 When Should You Start HRT? 00:40:36 A HRT Success Story 00:44:43 Ads 00:46:47 Is Pain During Sex Normal? 00:49:28 How To Have Better Sex 00:51:54 What Your Pelvic Floor Actually Does 00:53:48 Signs You Have Pelvic Floor Problems 00:55:24 Is It Normal Not To Orgasm? 00:57:30 What Is A Clitoral Adhesion? 00:58:55 How Sex Toys Can Improve Intimacy 01:00:07 What Men Get Wrong About Arousal 01:01:57 What Happens To Women After Orgasm? 01:02:55 Do Women Get Anything From Penetrative Sex? 01:04:40 How Porn Changed Our Expectations 01:06:58 What Healthy Porn Looks Like 01:08:12 How Porn Can Damage Relationships 01:10:12 Ads 01:12:21 Why You Should Change Up Your Sex Life 01:13:35 Why We Hide Our Sexual Struggles 01:17:17 Responsive Vs Spontaneous Desire Explained 01:19:58 The Question Every Couple Should Ask 01:20:51 What If You Want Different Things In Bed? 01:23:10 How To Tell Your Partner About Kinks 01:24:28 The Secrets People Hide From Their Partners 01:25:42 How To Tell If She''s Faking Orgasms 01:27:46 How Stress And Dopamine Influence Libido 01:29:33 Should Sex Be Scheduled Or Spontaneous? 01:31:24 How Self-Esteem Affects Sex 01:33:04 The Most Important Thing We Missed 01:35:06 Better Communication, Better Sex 01:42:51 Why This Work Matters So Much 01:43:57 What Needs To Change In Your Own Life? Independent Research: https://stevenbartlett.com/wp-content/uploads/2026/06/DOAC-Rachel-Rubin-Independent-Research-Further-Reading.pdf Follow Dr Rachel: Instagram - https://link.thediaryofaceo.com/AYkgAOV YouTube - https://link.thediaryofaceo.com/1TQZeri X - https://link.thediaryofaceo.com/FxZbK5x Website - https://link.thediaryofaceo.com/4ZKqH2l The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: HeyGen - https://heygen.com/DOAC Flightcast - Check out https://www.flightcast.com/DOAC6 Ketone - Go to https://ketone.com/steven to enter to win! no purchase necessary, terms and conditions apply.'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KVM83BGKVWAGDEFAH6B3DYC2/dr._rachel_rubin_ep_cover_.jpg
     episode_uid: flightcast-01kvm73tkx1t1jqkd6k2kyyhjk
-    episode_slug: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
-    episode_key: dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms
+    episode_slug: dr-rachel-rubin-i-m-filled-with-rage-your-doctor-was-never-taught-about-women-s-bodies
+    episode_key: dr-rachel-rubin-i-m-filled-with-rage-your-doctor-was-never-taught-about-women-s-bodies
     legacy_numbered_slug: episode-10
-    episode_page_url: "/the-diary-of-a-ceo/dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms/"
+    episode_page_url: "/the-diary-of-a-ceo/dr-rachel-rubin-i-m-filled-with-rage-your-doctor-was-never-taught-about-women-s-bodies/"
   - episode_title: 'Most Replayed Moment: The 4 Personalities Living In Your Brain! How To Switch Between Them'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KSSM221GW83QQTXYPX6GRD0A.mp3
