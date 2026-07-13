@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-13T15:04:50Z'
+generated_at: '2026-07-13T16:03:28Z'
 items:
+- podcast_title: The Real Science Of Sport
+  podcast_page_url: "/the-real-science-of-sport/"
+  cover_image: "/media/realscienceofsportpod.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
+  filter_category: science english
+  episode_title: Inside the Science of a Pro Cycling Team
+  episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-science-of-a-pro-cycling-team
+  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a550be175790d5f016d7a2f/media.mp3
+  published_at: '2026-07-13T16:01:36+00:00'
+  episode_key: inside-the-science-of-a-pro-cycling-team
+  episode_slug: inside-the-science-of-a-pro-cycling-team
+  episode_page_url: "/the-real-science-of-sport/inside-the-science-of-a-pro-cycling-team/"
 - podcast_title: La Bande à D+
   podcast_page_url: "/la-bande-a-d/"
   cover_image: "/media/labandeadplus.jpeg"
@@ -289,18 +301,6 @@ items:
   episode_key: rising-british-star-innes-fitzgerald-i-started-running-during-lockdown
   episode_slug: rising-british-star-innes-fitzgerald-i-started-running-during-lockdown
   episode_page_url: "/the-way-of-the-runner/rising-british-star-innes-fitzgerald-i-started-running-during-lockdown/"
-- podcast_title: The Real Science Of Sport
-  podcast_page_url: "/the-real-science-of-sport/"
-  cover_image: "/media/realscienceofsportpod.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
-  filter_category: science english
-  episode_title: 'Stop Watching the Ball: Michael Cox Unlocks the Fascinating Hidden Sides of Football'
-  episode_url: https://shows.acast.com/realscienceofsport/episodes/stop-watching-the-ball-michael-cox-unlocks-the-hidden-side-o
-  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a4ea6782b60482dd2042a0c/media.mp3
-  published_at: '2026-07-09T11:00:00+00:00'
-  episode_key: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
-  episode_slug: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
-  episode_page_url: "/the-real-science-of-sport/stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football/"
 - podcast_title: Road to the Trials
   podcast_page_url: "/road-to-the-trials/"
   cover_image: "/media/roadtotrials.jpeg"
@@ -8954,6 +8954,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-extramilest-show/106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee/"
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &27
+  - episode_title: Inside the Science of a Pro Cycling Team
+    episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-science-of-a-pro-cycling-team
+    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a550be175790d5f016d7a2f/media.mp3
+    published_at: '2026-07-13T16:01:36+00:00'
+    description_html: <p>Team NSN Cycling is one of the most exciting teams in the World Tour peloton, and Lausanne-based Briton David Bailey is its Head of Sport Science. Amid the pressures of being at the cutting edge of athletic performance, Bailey talks us through the current trends in pro cycling, including nutrition, training, health, tech, and even the role of AI and data management. Bailey has over 20 years of experience in elite sport as a coach, scientist, and performance director, I has supported world-class athletes, including multiple Olympic and World Champions. Bailey has also worked for the BMC and Bahrain Victorius pro cycling teams and comes with a wealth of knowledge and experience.</p><p><strong>SHOW NOTES</strong></p><p><a href="https://nsncyclingteam.com/" rel="noopener noreferrer" target="_blank">Team NSN website</a></p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: Team NSN Cycling is one of the most exciting teams in the World Tour peloton, and Lausanne-based Briton David Bailey is its Head of Sport Science. Amid the pressures of being at the cutting edge of athletic performance, Bailey talks us through the current trends in pro cycling, including nutrition, training, health, tech, and even the role of AI and data management. Bailey has over 20 years of experience in elite sport as a coach, scientist, and performance director, I has supported world-class athletes, including multiple Olympic and World Champions. Bailey has also worked for the BMC and Bahrain Victorius pro cycling teams and comes with a wealth of knowledge and experience. SHOW NOTES Team NSN website Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1783958355754-4d01ad98-a9e4-4a94-a661-2aaf980f0f67.jpeg
+    episode_uid: 6a550be175790d5f016d7a2f
+    episode_slug: inside-the-science-of-a-pro-cycling-team
+    episode_key: inside-the-science-of-a-pro-cycling-team
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-real-science-of-sport/inside-the-science-of-a-pro-cycling-team/"
   - episode_title: 'Stop Watching the Ball: Michael Cox Unlocks the Fascinating Hidden Sides of Football'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/stop-watching-the-ball-michael-cox-unlocks-the-hidden-side-o
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a4ea6782b60482dd2042a0c/media.mp3
@@ -8964,7 +8976,7 @@ episodes_by_feed:
     episode_uid: 6a4ea6782b60482dd2042a0c
     episode_slug: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
     episode_key: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-real-science-of-sport/stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football/"
   - episode_title: England Survive Altitude and Mexico / The Doctor's Dilemma in Elite Sport - When Is Enough? / How Women Out "Pace" Men in Marathons
     episode_url: https://shows.acast.com/realscienceofsport/episodes/englands-survive-altitude-and-mexico-the-doctor-dilemma-in-e
@@ -8976,7 +8988,7 @@ episodes_by_feed:
     episode_uid: 6a4e15c642872185cc26ddc3
     episode_slug: england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho
     episode_key: england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-real-science-of-sport/england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho/"
   - episode_title: 'Inside the World of F1 Racing: An Engineer''s Perspective'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-world-of-f1-racing
@@ -8988,7 +9000,7 @@ episodes_by_feed:
     episode_uid: 6a477c5b0069388b7a124e72
     episode_slug: inside-the-world-of-f1-racing-an-engineer-s-perspective
     episode_key: inside-the-world-of-f1-racing-an-engineer-s-perspective
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-real-science-of-sport/inside-the-world-of-f1-racing-an-engineer-s-perspective/"
   - episode_title: 'BONUS SHORT: Altitude and the Mexico Problem. The Science Behind England''s Sunday Showdown'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/bonus-short-altitude-and-the-mexico-problem-the-science-behi
@@ -9000,7 +9012,7 @@ episodes_by_feed:
     episode_uid: 6a47a7fc5ef16cb804f9cc81
     episode_slug: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
     episode_key: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-real-science-of-sport/bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown/"
   - episode_title: Durability - Trialled, Tested and Explained / Werro Edges Closer to the World Record / The World Cup's Extra-Time Problem / TDF and Heat Fears
     episode_url: https://shows.acast.com/realscienceofsport/episodes/durability-trialed-tested-and-explained-werro-edges-closer-t
@@ -9012,7 +9024,7 @@ episodes_by_feed:
     episode_uid: 6a44cc3106fb5d326d797253
     episode_slug: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
     episode_key: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-real-science-of-sport/durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a/"
   - episode_title: The Creatine Episode
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-creatine-episode
@@ -9024,7 +9036,7 @@ episodes_by_feed:
     episode_uid: 6a428003c2fe1c7f49b4edb5
     episode_slug: the-creatine-episode
     episode_key: the-creatine-episode
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-real-science-of-sport/the-creatine-episode/"
   - episode_title: 'Re-Release: The Art and Science of the Perfect Football Penalty'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/re-release-the-art-and-science-of-the-perfect-football-penal
@@ -9036,7 +9048,7 @@ episodes_by_feed:
     episode_uid: 6a3d774c26d5a6687a4ae19a
     episode_slug: re-release-the-art-and-science-of-the-perfect-football-penalty
     episode_key: re-release-the-art-and-science-of-the-perfect-football-penalty
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-real-science-of-sport/re-release-the-art-and-science-of-the-perfect-football-penalty/"
   - episode_title: A Doping Refusal and Four Year Ban That Divided Tennis / Hodgkinson's Hamstring Scare / World Cup Science
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgk
@@ -9048,7 +9060,7 @@ episodes_by_feed:
     episode_uid: 6a3b926bd80106fbdf55a828
     episode_slug: a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science
     episode_key: a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-real-science-of-sport/a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science/"
   - episode_title: World Cup Water Breaks / What Will It Take to Break the 800m WR? / College Sprinting Goes Wild / Does Remco Have the Watts to Match Pogacar?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/world-cup-water-breaks-college-sprinting-goes-wild-what-will
@@ -9060,7 +9072,7 @@ episodes_by_feed:
     episode_uid: 6a327365883f9289e9015e40
     episode_slug: world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m
     episode_key: world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-real-science-of-sport/world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m/"
   - episode_title: 800m Plot Twists as History Beckons for Werro & Hodgkinson / Should the IOC Pay Olympic Athletes? / "Your computer screen is too big"
     episode_url: https://shows.acast.com/realscienceofsport/episodes/800m-plot-twists-and-beckoning-history-should-olympic-athlet
@@ -9072,7 +9084,7 @@ episodes_by_feed:
     episode_uid: 6a29169ba917ce4c70b260f9
     episode_slug: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
     episode_key: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-real-science-of-sport/800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too/"
   - episode_title: Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal
     episode_url: https://shows.acast.com/realscienceofsport/episodes/sleeping-your-way-to-more-epo-grand-slam-chaos-the-ucis-expe
@@ -9084,7 +9096,7 @@ episodes_by_feed:
     episode_uid: 6a1fefdbd610a77403d53ba8
     episode_slug: sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal
     episode_key: sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-real-science-of-sport/sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal/"
   - episode_title: Roland Garros' Zombie Heat Apocalypse / The Death of the Diversified Elite Athlete / World Athletics Raises the Performance Bar
     episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
@@ -9096,7 +9108,7 @@ episodes_by_feed:
     episode_uid: 6a17fdaa8fd07475b5578875
     episode_slug: roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b
     episode_key: roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-real-science-of-sport/roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b/"
   - episode_title: 'Welcome to our PED Talk: Sean Ingle Reflects on The Enhanced Games'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/welcome-to-our-ped-talk-sean-ingle-on-the-enhanced-games
@@ -9108,7 +9120,7 @@ episodes_by_feed:
     episode_uid: 6a16c52383dd9b6e11085ce7
     episode_slug: welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games
     episode_key: welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-real-science-of-sport/welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games/"
   - episode_title: Caution for Contact Sport Athletes and CTE / Women's Rugby Six Nations and Smaller Balls / Worst Sport to be Elite at?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/caution-for-contact-sport-athletes-and-cte-womens-rugby-six
@@ -9120,7 +9132,7 @@ episodes_by_feed:
     episode_uid: 6a0d6e4c0797376c6e587b95
     episode_slug: caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at
     episode_key: caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-real-science-of-sport/caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at/"
   - episode_title: A Huge Doping Bust in Georgia Rugby / Epic Climbs and Concussions in Cycling / Who is the Greatest Track Athlete of Them All?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussi
@@ -9132,7 +9144,7 @@ episodes_by_feed:
     episode_uid: 6a0626463fd6979bfc1cc386
     episode_slug: a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all
     episode_key: a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-real-science-of-sport/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all/"
   - episode_title: The Rise of Southern African Sprinting / London Marathon Pacing Blunders / Seixas to the Tour / Your Carb Questions Answered
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-rise-of-southern-african-sprinting-london-marathon-pacin
@@ -9144,7 +9156,7 @@ episodes_by_feed:
     episode_uid: 69fbb48d7272023359cbd4e7
     episode_slug: the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered
     episode_key: the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-real-science-of-sport/the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered/"
   - episode_title: Can You Trust AI For Health and Training Advice?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/can-you-trust-ai-for-health-and-training-advice
@@ -9156,7 +9168,7 @@ episodes_by_feed:
     episode_uid: 69fb5b168c59df7dd5d2e1f1
     episode_slug: can-you-trust-ai-for-health-and-training-advice
     episode_key: can-you-trust-ai-for-health-and-training-advice
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-real-science-of-sport/can-you-trust-ai-for-health-and-training-advice/"
   - episode_title: 'The Spotlight On The Sub-2: A Deep Dive Into Sawe''s Marathon Masterclass'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-spotlight-on-the-sub-2-a-deep-dive-into-sawes-marathon-m
@@ -9168,7 +9180,7 @@ episodes_by_feed:
     episode_uid: 69f1d25a8647f8587e446e78
     episode_slug: the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass
     episode_key: the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-real-science-of-sport/the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass/"
   - episode_title: 'The Sporting Mind: Overcoming Mental Barriers For Better Performance'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-sporting-mind-overcome-mental-barriers-for-better-perfor
@@ -9180,7 +9192,7 @@ episodes_by_feed:
     episode_uid: 69f0f6bdf8c663773751fe09
     episode_slug: the-sporting-mind-overcoming-mental-barriers-for-better-performance
     episode_key: the-sporting-mind-overcoming-mental-barriers-for-better-performance
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-real-science-of-sport/the-sporting-mind-overcoming-mental-barriers-for-better-performance/"
   - episode_title: 1:59:30! The Sub Two Hour Marathon Falls To Sabastian Sawe
     episode_url: https://shows.acast.com/realscienceofsport/episodes/15930-the-sub-two-hour-marathon-falls-to-sebastian-sawe
@@ -9192,7 +9204,7 @@ episodes_by_feed:
     episode_uid: 69ee01bfaa3f81e2b9fdffb6
     episode_slug: 1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe
     episode_key: 1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-real-science-of-sport/1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe/"
   - episode_title: Boston Bonanza - Course Record Analysis / Elite Runners Avoiding Carbs? / Acute Stress Anti-Doping Refusal
     episode_url: https://shows.acast.com/realscienceofsport/episodes/boston-bonanza-course-record-analysis-elite-runners-avoiding
@@ -9204,7 +9216,7 @@ episodes_by_feed:
     episode_uid: 69e761861e5fb1ae464899b6
     episode_slug: boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal
     episode_key: boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-real-science-of-sport/boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal/"
   - episode_title: Cobbled Coronations in Roubaix / Benji Naesen vs UCI / Marathon Majors and Sawe's Doping Credibility Campaign
     episode_url: https://shows.acast.com/realscienceofsport/episodes/cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon
@@ -9216,7 +9228,7 @@ episodes_by_feed:
     episode_uid: 69e0c90823929c3a2ab5b45f
     episode_slug: cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign
     episode_key: cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-real-science-of-sport/cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign/"
   - episode_title: 'The Norwegian Way: What We Can Learn From Their Success'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-norwegian-way-what-we-can-learn-from-their-success
@@ -9228,7 +9240,7 @@ episodes_by_feed:
     episode_uid: 69dfe0d8907e5a7cc215bd74
     episode_slug: the-norwegian-way-what-we-can-learn-from-their-success
     episode_key: the-norwegian-way-what-we-can-learn-from-their-success
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-real-science-of-sport/the-norwegian-way-what-we-can-learn-from-their-success/"
   - episode_title: Why Cobbles Cost Cyclists / Cheap Carbon Shoes Break Records / Doping Confessions and Cons
     episode_url: https://shows.acast.com/realscienceofsport/episodes/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-d
@@ -9240,20 +9252,8 @@ episodes_by_feed:
     episode_uid: 69d63e813ae78d6f1134a750
     episode_slug: why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons
     episode_key: why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-real-science-of-sport/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons/"
-  - episode_title: Cycling, Game Theory and Group 2 Syndrome / Kerr's 222 Attempt / Teenage Phenoms Set up to Fail
-    episode_url: https://shows.acast.com/realscienceofsport/episodes/cycling-game-theory-and-group-2-syndrome-kerrs-222-attempt-t
-    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69ccea3f3e12f8b0f0834f7e/media.mp3
-    published_at: '2026-04-01T09:49:51+00:00'
-    description_html: <p><a href="https://www.patreon.com/c/thescienceofsport" rel="noopener noreferrer" target="_blank"><strong>Support the Science of Sport - become a supporter,</strong></a> show your support, keep us ad free, and you get access to the best sports science community around!</p><p><strong><u>Show Notes</u></strong></p><p>In this Spotlight, we kick off with cycling, and wonder whether we're seeing a tactical evolution in cycling in response to long-range attacks. We also talk about Group 2 syndrome, and why elite cyclists could be a behavioural economist's ideal cohort. Cycling safety is in the Spotlight, after the inquest into the death of Muriel Furrer concludes, and new devices over-promise on risk reduction and head impact measurement.</p><p>In athletics, Josh Kerr is going for a mile world record, and it'll actually be legitimate, while teen phenom Gout Gout is in the news, though not for winning this time. We discuss how misplaced the general expectation of teenage progress is, and why we may be setting young talent up to fail, no matter how it succeeds. Speaking of failure, Albert Korir failed three drugs tests and confessed, and is now serving a ban. Do we even care?</p><p>And finally, another teenage phenom is in the news, as Indian 15-year old Vaibhav Sooryavanshi smashed a 15-ball half century to go with a 35-ball century last year. He's now old enough to play for India. But should he? That's a different question...</p><p><strong><u>Links</u></strong></p><ul><li><a href="https://www.cyclingnews.com/pro-cycling/safety/no-criminally-relevant-breach-of-duty-in-death-of-muriel-furrer-during-uci-road-world-championships-as-investigation-closed/" rel="noopener noreferrer" target="_blank">Article on the Muriel Furrer inquest</a></li><li>A <a href="https://www.bikeradar.com/features/tech/hit-connect-explained" rel="noopener noreferrer" target="_blank">device claims to measure head impact to protect MTBers</a></li><li><a href="https://citiusmag.com/articles/project-222-josh-kerr-targets-mile-world-record-london-diamond-league" rel="noopener noreferrer" target="_blank">Josh Kerr going for the mile World Record</a></li><li><a href="https://www.theguardian.com/sport/2026/mar/28/lachie-kennedy-upstages-gout-gout-to-win-200m-at-peter-norman-memorial" rel="noopener noreferrer" target="_blank">Gout Gout beaten in what is described as an "upset"</a>, but that betrays unreasonable expectations</li><li><a href="https://www.independent.co.uk/sport/general/athletics/albert-korir-doping-ban-new-york-marathon-b2948281.html" rel="noopener noreferrer" target="_blank">Article on Albert Korir's positive tests and ban</a></li><li><a href="https://www.wisden.com/series/ipl-2026/cricket-news/why-india-shouldnt-fast-track-vaibhav-sooryavanshi-t20i-side" rel="noopener noreferrer" target="_blank">Why Sooryavanshi should not be fast-tracked into the Indian T20 squad</a></li></ul><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
-    description_plain: Support the Science of Sport - become a supporter, show your support, keep us ad free, and you get access to the best sports science community around! Show Notes In this Spotlight, we kick off with cycling, and wonder whether we're seeing a tactical evolution in cycling in response to long-range attacks. We also talk about Group 2 syndrome, and why elite cyclists could be a behavioural economist's ideal cohort. Cycling safety is in the Spotlight, after the inquest into the death of Muriel Furrer concludes, and new devices over-promise on risk reduction and head impact measurement. In athletics, Josh Kerr is going for a mile world record, and it'll actually be legitimate, while teen phenom Gout Gout is in the news, though not for winning this time. We discuss how misplaced the general expectation of teenage progress is, and why we may be setting young talent up to fail, no matter how it succeeds. Speaking of failure, Albert Korir failed three drugs tests and confessed, and is now serving a ban. Do we even care? And finally, another teenage phenom is in the news, as Indian 15-year old Vaibhav Sooryavanshi smashed a 15-ball half century to go with a 35-ball century last year. He's now old enough to play for India. But should he? That's a different question... Links Article on the Muriel Furrer inquest A device claims to measure head impact to protect MTBers Josh Kerr going for the mile World Record Gout Gout beaten in what is described as an "upset" , but that betrays unreasonable expectations Article on Albert Korir's positive tests and ban Why Sooryavanshi should not be fast-tracked into the Indian T20 squad Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1775036125074-d3641095-7514-4210-81ea-6d10b219ce0a.jpeg
-    episode_uid: 69ccea3f3e12f8b0f0834f7e
-    episode_slug: cycling-game-theory-and-group-2-syndrome-kerr-s-222-attempt-teenage-phenoms-set-up-to-fail
-    episode_key: cycling-game-theory-and-group-2-syndrome-kerr-s-222-attempt-teenage-phenoms-set-up-to-fail
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-real-science-of-sport/cycling-game-theory-and-group-2-syndrome-kerr-s-222-attempt-teenage-phenoms-set-up-to-fail/"
+    episode_page_url: "/the-real-science-of-sport/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons/"
   https://anchor.fm/s/e4eabf84/podcast/rss: &28
   - episode_title: MidPacker Pod - Field Notes 04 | Western States Takeaways, Entrepreneur Life, & Chasing the Right Goals
     episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/MidPacker-Pod---Field-Notes-04--Western-States-Takeaways--Entrepreneur-Life---Chasing-the-Right-Goals-e3lt4hg
