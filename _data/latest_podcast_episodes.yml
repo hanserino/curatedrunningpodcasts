@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-14T09:40:30Z'
+generated_at: '2026-07-14T10:39:00Z'
 items:
+- podcast_title: Road to the Trials
+  podcast_page_url: "/road-to-the-trials/"
+  cover_image: "/media/roadtotrials.jpeg"
+  feed_url: https://anchor.fm/s/bba0468/podcast/rss
+  filter_category: road english
+  episode_title: Andrew Colley Knows His Best Marathon Is Still Ahead
+  episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Andrew-Colley-Knows-His-Best-Marathon-Is-Still-Ahead-e3m2jc1
+  audio_url: https://anchor.fm/s/bba0468/podcast/play/122817345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-14%2Fd41aba15-3416-cd68-43fb-1cb5f34fea0c.mp3
+  published_at: '2026-07-14T10:08:02+00:00'
+  episode_key: andrew-colley-knows-his-best-marathon-is-still-ahead
+  episode_slug: andrew-colley-knows-his-best-marathon-is-still-ahead
+  episode_page_url: "/road-to-the-trials/andrew-colley-knows-his-best-marathon-is-still-ahead/"
 - podcast_title: Long Run Labs
   podcast_page_url: "/long-run-labs/"
   cover_image: "/media/longrunlabs.jpeg"
@@ -337,18 +349,6 @@ items:
   episode_key: rising-british-star-innes-fitzgerald-i-started-running-during-lockdown
   episode_slug: rising-british-star-innes-fitzgerald-i-started-running-during-lockdown
   episode_page_url: "/the-way-of-the-runner/rising-british-star-innes-fitzgerald-i-started-running-during-lockdown/"
-- podcast_title: Road to the Trials
-  podcast_page_url: "/road-to-the-trials/"
-  cover_image: "/media/roadtotrials.jpeg"
-  feed_url: https://anchor.fm/s/bba0468/podcast/rss
-  filter_category: road english
-  episode_title: 'Alex Burks: Three Breakthroughs at the Same Course, a 2:15 OTQ, and Why Running Is Still Fun'
-  episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Alex-Burks-Three-Breakthroughs-at-the-Same-Course--a-215-OTQ--and-Why-Running-Is-Still-Fun-e3lqj22
-  audio_url: https://anchor.fm/s/bba0468/podcast/play/122554882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-8%2F427584229-44100-2-1a467a6bbb4b.mp3
-  published_at: '2026-07-09T07:19:00+00:00'
-  episode_key: alex-burks-three-breakthroughs-at-the-same-course-a-2-15-otq-and-why-running-is-still-fun
-  episode_slug: alex-burks-three-breakthroughs-at-the-same-course-a-2-15-otq-and-why-running-is-still-fun
-  episode_page_url: "/road-to-the-trials/alex-burks-three-breakthroughs-at-the-same-course-a-2-15-otq-and-why-running-is-still-fun/"
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty/"
   cover_image: "/media/distancetoempty.jpeg"
@@ -770,6 +770,18 @@ non_running_items:
   episode_key: ebba-kleberg-von-sydow
   episode_slug: ebba-kleberg-von-sydow
   episode_page_url: "/sommar-vinter-i-p1/ebba-kleberg-von-sydow/"
+- podcast_title: Pivot
+  podcast_page_url: "/pivot/"
+  cover_image: "/media/pivot.jpeg"
+  feed_url: https://feeds.megaphone.fm/pivot
+  filter_category: uncategorized english
+  episode_title: Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories
+  episode_url: ''
+  audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5509757808.mp3
+  published_at: '2026-07-14T10:00:00Z'
+  episode_key: apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories
+  episode_slug: apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories
+  episode_page_url: "/pivot/apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories/"
 - podcast_title: Pablo Torre Finds Out
   podcast_page_url: "/pablo-torre-finds-out/"
   cover_image: "/media/pablotorre.jpeg"
@@ -926,18 +938,6 @@ non_running_items:
   episode_key: do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time
   episode_slug: do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time
   episode_page_url: "/hard-fork/do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time/"
-- podcast_title: Pivot
-  podcast_page_url: "/pivot/"
-  cover_image: "/media/pivot.jpeg"
-  feed_url: https://feeds.megaphone.fm/pivot
-  filter_category: uncategorized english
-  episode_title: Netflix Chases YouTube, Meta's AI Photo Grab, and Disney Fights the FCC
-  episode_url: ''
-  audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4174534215.mp3
-  published_at: '2026-07-10T10:00:00Z'
-  episode_key: netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc
-  episode_slug: netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc
-  episode_page_url: "/pivot/netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc/"
 - podcast_title: My First Million
   podcast_page_url: "/my-first-million/"
   cover_image: "/media/myfirstmillion.jpeg"
@@ -17712,6 +17712,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-247-billy-corgan-how-he-built-smashing-pumpkins-into-a-30-million-album-empire/"
   https://anchor.fm/s/bba0468/podcast/rss: &58
+  - episode_title: Andrew Colley Knows His Best Marathon Is Still Ahead
+    episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Andrew-Colley-Knows-His-Best-Marathon-Is-Still-Ahead-e3m2jc1
+    audio_url: https://anchor.fm/s/bba0468/podcast/play/122817345/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-14%2Fd41aba15-3416-cd68-43fb-1cb5f34fea0c.mp3
+    published_at: '2026-07-14T10:08:02+00:00'
+    description_html: "<p>Andrew Colley has represented Team USA three times, won the USATF 25K Championships, and qualified for four U.S. Olympic Team Trials across the marathon, 5,000 meters, and 10,000 meters. Yet despite running 2:09 for the marathon and 60:47 for the half marathon, he believes his biggest breakthrough is still ahead.</p><p>In this crossover episode from <em>I&#39;ll Have Another with Lindsey Hein</em>, Lindsey sits down with Andrew in person to discuss his evolution as a professional runner, his years training with ZAP Endurance under Pete Rea, and why consistency and patience have become the foundation of his success. They also talk about balancing elite racing with new fatherhood alongside his wife, fellow professional runner Tristan Colley, winning the USATF 25K Championships, and why he&#39;s confident his fastest marathon is still to come as he builds toward the 2028 Olympic Marathon Trials.</p><p>Thank you to our sponsors:</p><p>Precision Fuel &amp; Hydration helps runners simplify fueling with personalized plans based on carbs, fluids, and sodium. Their science-backed tools and resources make it easier to train and race with confidence. Use code Trials26 for 15% off at precisionhydration.com.</p>"
+    description_plain: 'Andrew Colley has represented Team USA three times, won the USATF 25K Championships, and qualified for four U.S. Olympic Team Trials across the marathon, 5,000 meters, and 10,000 meters. Yet despite running 2:09 for the marathon and 60:47 for the half marathon, he believes his biggest breakthrough is still ahead. In this crossover episode from I&#39;ll Have Another with Lindsey Hein , Lindsey sits down with Andrew in person to discuss his evolution as a professional runner, his years training with ZAP Endurance under Pete Rea, and why consistency and patience have become the foundation of his success. They also talk about balancing elite racing with new fatherhood alongside his wife, fellow professional runner Tristan Colley, winning the USATF 25K Championships, and why he&#39;s confident his fastest marathon is still to come as he builds toward the 2028 Olympic Marathon Trials. Thank you to our sponsors: Precision Fuel &amp; Hydration helps runners simplify fueling with personalized plans based on carbs, fluids, and sodium. Their science-backed tools and resources make it easier to train and race with confidence. Use code Trials26 for 15% off at precisionhydration.com.'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1867402/1867402-1753554581715-ce224982f50fd.jpg
+    episode_uid: 3579aff0-7960-476a-85da-1b751e076bf2
+    episode_slug: andrew-colley-knows-his-best-marathon-is-still-ahead
+    episode_key: andrew-colley-knows-his-best-marathon-is-still-ahead
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/road-to-the-trials/andrew-colley-knows-his-best-marathon-is-still-ahead/"
   - episode_title: 'Alex Burks: Three Breakthroughs at the Same Course, a 2:15 OTQ, and Why Running Is Still Fun'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Alex-Burks-Three-Breakthroughs-at-the-Same-Course--a-215-OTQ--and-Why-Running-Is-Still-Fun-e3lqj22
     audio_url: https://anchor.fm/s/bba0468/podcast/play/122554882/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-8%2F427584229-44100-2-1a467a6bbb4b.mp3
@@ -17722,7 +17734,7 @@ episodes_by_feed:
     episode_uid: d4f54027-e6fa-4ae1-bb27-799470831ba4
     episode_slug: alex-burks-three-breakthroughs-at-the-same-course-a-2-15-otq-and-why-running-is-still-fun
     episode_key: alex-burks-three-breakthroughs-at-the-same-course-a-2-15-otq-and-why-running-is-still-fun
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/road-to-the-trials/alex-burks-three-breakthroughs-at-the-same-course-a-2-15-otq-and-why-running-is-still-fun/"
   - episode_title: 'Esteban Trujillo: A Decade Away from Running, Then a 2:14 Marathon at Age 40'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Esteban-Trujillo-A-Decade-Away-from-Running--Then-a-214-Marathon-at-Age-40-e3lochr
@@ -17734,7 +17746,7 @@ episodes_by_feed:
     episode_uid: 325b4c84-8150-4afc-b55b-a5bb4ee1edae
     episode_slug: esteban-trujillo-a-decade-away-from-running-then-a-2-14-marathon-at-age-40
     episode_key: esteban-trujillo-a-decade-away-from-running-then-a-2-14-marathon-at-age-40
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/road-to-the-trials/esteban-trujillo-a-decade-away-from-running-then-a-2-14-marathon-at-age-40/"
   - episode_title: 'Erin McDonald: Rediscovering Running and a 2:32 Marathon Breakthrough'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Erin-McDonald-Rediscovering-Running-and-a-232-Marathon-Breakthrough-e3lg1dk
@@ -17746,7 +17758,7 @@ episodes_by_feed:
     episode_uid: 0eac3004-98f0-4a55-b607-c67ffd4a4695
     episode_slug: erin-mcdonald-rediscovering-running-and-a-2-32-marathon-breakthrough
     episode_key: erin-mcdonald-rediscovering-running-and-a-2-32-marathon-breakthrough
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/road-to-the-trials/erin-mcdonald-rediscovering-running-and-a-2-32-marathon-breakthrough/"
   - episode_title: 'Ryan Smith: The Finish Line Reaction Everyone Was Talking About'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Ryan-Smith-The-Finish-Line-Reaction-Everyone-Was-Talking-About-e3leraj
@@ -17758,7 +17770,7 @@ episodes_by_feed:
     episode_uid: 39c09229-79c0-4d0b-9732-f593993b718a
     episode_slug: ryan-smith-the-finish-line-reaction-everyone-was-talking-about
     episode_key: ryan-smith-the-finish-line-reaction-everyone-was-talking-about
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/road-to-the-trials/ryan-smith-the-finish-line-reaction-everyone-was-talking-about/"
   - episode_title: 'Megan Connolly: The WWE Broadcaster Who Qualified for the Olympic Trials'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Megan-Connolly-The-WWE-Broadcaster-Who-Qualified-for-the-Olympic-Trials-e3l9535
@@ -17770,7 +17782,7 @@ episodes_by_feed:
     episode_uid: efbd8587-e9a9-45bf-853e-3e4b6828b92c
     episode_slug: megan-connolly-the-wwe-broadcaster-who-qualified-for-the-olympic-trials
     episode_key: megan-connolly-the-wwe-broadcaster-who-qualified-for-the-olympic-trials
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/road-to-the-trials/megan-connolly-the-wwe-broadcaster-who-qualified-for-the-olympic-trials/"
   - episode_title: 'Madey Dickson: From the Mile to a 2:28 Marathon and Learning to Take Risks'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Madey-Dickson-From-the-Mile-to-a-228-Marathon-and-Learning-to-Take-Risks-e3l46kt
@@ -17782,7 +17794,7 @@ episodes_by_feed:
     episode_uid: a15f4daf-03d4-411a-a774-14de27a13a28
     episode_slug: madey-dickson-from-the-mile-to-a-2-28-marathon-and-learning-to-take-risks
     episode_key: madey-dickson-from-the-mile-to-a-2-28-marathon-and-learning-to-take-risks
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/road-to-the-trials/madey-dickson-from-the-mile-to-a-2-28-marathon-and-learning-to-take-risks/"
   - episode_title: 'Annie Frisbie: A 2:22 Breakthrough and Another Boston Masterclass'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Annie-Frisbie-A-222-Breakthrough-and-Another-Boston-Masterclass-e3kr5st
@@ -17794,7 +17806,7 @@ episodes_by_feed:
     episode_uid: e37a41b3-2764-4675-ad99-2286019a18ae
     episode_slug: annie-frisbie-a-2-22-breakthrough-and-another-boston-masterclass
     episode_key: annie-frisbie-a-2-22-breakthrough-and-another-boston-masterclass
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/road-to-the-trials/annie-frisbie-a-2-22-breakthrough-and-another-boston-masterclass/"
   - episode_title: 'Erik Linden: Trusting the Process, Reinventing the Journey, and Running 2:12'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Erik-Linden-Trusting-the-Process--Reinventing-the-Journey--and-Running-212-e3kp65q
@@ -17806,7 +17818,7 @@ episodes_by_feed:
     episode_uid: dc746198-057e-4cc5-87ce-f4daed466e78
     episode_slug: erik-linden-trusting-the-process-reinventing-the-journey-and-running-2-12
     episode_key: erik-linden-trusting-the-process-reinventing-the-journey-and-running-2-12
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/road-to-the-trials/erik-linden-trusting-the-process-reinventing-the-journey-and-running-2-12/"
   - episode_title: 'Sarah Reiter: Three Olympic Trials, Staying Joyful, and Chasing Sub-2:30'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Sarah-Reiter-Three-Olympic-Trials--Staying-Joyful--and-Chasing-Sub-230-e3kl6kd
@@ -17818,7 +17830,7 @@ episodes_by_feed:
     episode_uid: d8ce192f-5c5d-44ed-b182-626b97a06c4a
     episode_slug: sarah-reiter-three-olympic-trials-staying-joyful-and-chasing-sub-2-30
     episode_key: sarah-reiter-three-olympic-trials-staying-joyful-and-chasing-sub-2-30
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/road-to-the-trials/sarah-reiter-three-olympic-trials-staying-joyful-and-chasing-sub-2-30/"
   - episode_title: 'Jax Siddall’s Marathon Debut Win: From 6th Grade Teacher to Eugene Marathon Win'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Jax-Siddalls-Marathon-Debut-Win-From-6th-Grade-Teacher-to-Eugene-Marathon-Win-e3kif7s
@@ -17830,7 +17842,7 @@ episodes_by_feed:
     episode_uid: ba9f320c-c910-4333-abe0-2244f76f8627
     episode_slug: jax-siddall-s-marathon-debut-win-from-6th-grade-teacher-to-eugene-marathon-win
     episode_key: jax-siddall-s-marathon-debut-win-from-6th-grade-teacher-to-eugene-marathon-win
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/road-to-the-trials/jax-siddall-s-marathon-debut-win-from-6th-grade-teacher-to-eugene-marathon-win/"
   - episode_title: 'Joey Whelan: 35 Marathons, 6 Course Records, and Still Finding Another Gear'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Joey-Whelan-35-Marathons--6-Course-Records--and-Still-Finding-Another-Gear-e3k51ss
@@ -17842,7 +17854,7 @@ episodes_by_feed:
     episode_uid: 390c4aa9-4d3e-4018-acb3-7672d40c6e38
     episode_slug: joey-whelan-35-marathons-6-course-records-and-still-finding-another-gear
     episode_key: joey-whelan-35-marathons-6-course-records-and-still-finding-another-gear
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/road-to-the-trials/joey-whelan-35-marathons-6-course-records-and-still-finding-another-gear/"
   - episode_title: 'Elena Hayday: From 2:30 to 2:24 at Boston and Chasing Something Bigger'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Elena-Hayday-From-230-to-224-at-Boston-and-Chasing-Something-Bigger-e3k3tgo
@@ -17854,7 +17866,7 @@ episodes_by_feed:
     episode_uid: 5a52f682-905f-4a2d-a032-e7c165949fef
     episode_slug: elena-hayday-from-2-30-to-2-24-at-boston-and-chasing-something-bigger
     episode_key: elena-hayday-from-2-30-to-2-24-at-boston-and-chasing-something-bigger
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/road-to-the-trials/elena-hayday-from-2-30-to-2-24-at-boston-and-chasing-something-bigger/"
   - episode_title: Amanda Martin on Winning Eugene and Learning How to Trust the Marathon
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Amanda-Martin-on-Winning-Eugene-and-Learning-How-to-Trust-the-Marathon-e3k0rah
@@ -17866,7 +17878,7 @@ episodes_by_feed:
     episode_uid: 056cfc6d-9d94-42c6-af36-eac93baf9aa9
     episode_slug: amanda-martin-on-winning-eugene-and-learning-how-to-trust-the-marathon
     episode_key: amanda-martin-on-winning-eugene-and-learning-how-to-trust-the-marathon
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/road-to-the-trials/amanda-martin-on-winning-eugene-and-learning-how-to-trust-the-marathon/"
   - episode_title: 'Luke Maher: Inside Puma Project 3 and the Rise of the Sub-Elite Marathoner'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Luke-Maher-Inside-Puma-Project-3-and-the-Rise-of-the-Sub-Elite-Marathoner-e3jsoq5
@@ -17878,7 +17890,7 @@ episodes_by_feed:
     episode_uid: 5913caba-cc87-4645-ab2c-a41e6eb2c2fe
     episode_slug: luke-maher-inside-puma-project-3-and-the-rise-of-the-sub-elite-marathoner
     episode_key: luke-maher-inside-puma-project-3-and-the-rise-of-the-sub-elite-marathoner
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/road-to-the-trials/luke-maher-inside-puma-project-3-and-the-rise-of-the-sub-elite-marathoner/"
   - episode_title: 'Aidan Reed: Chasing the Marathon While Falling in Love With the Half'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Aidan-Reed-Chasing-the-Marathon-While-Falling-in-Love-With-the-Half-e3jjska
@@ -17890,7 +17902,7 @@ episodes_by_feed:
     episode_uid: be1abbae-52d4-4b70-916d-8d2d797fa5ec
     episode_slug: aidan-reed-chasing-the-marathon-while-falling-in-love-with-the-half
     episode_key: aidan-reed-chasing-the-marathon-while-falling-in-love-with-the-half
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/road-to-the-trials/aidan-reed-chasing-the-marathon-while-falling-in-love-with-the-half/"
   - episode_title: 'Andie Cozzarelli: A 14-Year Journey Back to the Olympic Trials'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Andie-Cozzarelli-A-14-Year-Journey-Back-to-the-Olympic-Trials-e3jgsn1
@@ -17902,7 +17914,7 @@ episodes_by_feed:
     episode_uid: c5de3a0c-bd8e-4736-b2ec-b80e5a0a0ccc
     episode_slug: andie-cozzarelli-a-14-year-journey-back-to-the-olympic-trials
     episode_key: andie-cozzarelli-a-14-year-journey-back-to-the-olympic-trials
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/road-to-the-trials/andie-cozzarelli-a-14-year-journey-back-to-the-olympic-trials/"
   - episode_title: 'Sean Grossman: Chasing the OTQ for 2,303 Days'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Sean-Grossman-Chasing-the-OTQ-for-2-303-Days-e3jbgrq
@@ -17914,7 +17926,7 @@ episodes_by_feed:
     episode_uid: 8923b14d-4cd4-4557-8dcf-bfe224f28ab1
     episode_slug: sean-grossman-chasing-the-otq-for-2-303-days
     episode_key: sean-grossman-chasing-the-otq-for-2-303-days
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/road-to-the-trials/sean-grossman-chasing-the-otq-for-2-303-days/"
   - episode_title: 'Conner Peloquin: From Walking Away From the Sport to 2:15 and Back to the Trials'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Conner-Peloquin-From-Walking-Away-From-the-Sport-to-215-and-Back-to-the-Trials-e3j67e3
@@ -17926,7 +17938,7 @@ episodes_by_feed:
     episode_uid: 5a00c13c-104d-47cc-853e-32d6ce412185
     episode_slug: conner-peloquin-from-walking-away-from-the-sport-to-2-15-and-back-to-the-trials
     episode_key: conner-peloquin-from-walking-away-from-the-sport-to-2-15-and-back-to-the-trials
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/road-to-the-trials/conner-peloquin-from-walking-away-from-the-sport-to-2-15-and-back-to-the-trials/"
   - episode_title: 'Hannah Rowe: Back to the Trials After Six Years and a Trail Detour'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Hannah-Rowe-Back-to-the-Trials-After-Six-Years-and-a-Trail-Detour-e3j1sl7
@@ -17938,7 +17950,7 @@ episodes_by_feed:
     episode_uid: e715d352-0948-49f6-9eb0-241fdfcf0d1c
     episode_slug: hannah-rowe-back-to-the-trials-after-six-years-and-a-trail-detour
     episode_key: hannah-rowe-back-to-the-trials-after-six-years-and-a-trail-detour
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/road-to-the-trials/hannah-rowe-back-to-the-trials-after-six-years-and-a-trail-detour/"
   - episode_title: 'Mason Coppi: From Accomplished Trail Specialist to OTQ Surprise'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Mason-Coppi-From-Accomplished-Trail-Specialist-to-OTQ-Surprise-e3iru3c
@@ -17950,7 +17962,7 @@ episodes_by_feed:
     episode_uid: 758d898c-f45a-4624-ace5-372cf3dd9773
     episode_slug: mason-coppi-from-accomplished-trail-specialist-to-otq-surprise
     episode_key: mason-coppi-from-accomplished-trail-specialist-to-otq-surprise
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/road-to-the-trials/mason-coppi-from-accomplished-trail-specialist-to-otq-surprise/"
   - episode_title: 'Caitlin Phillips: 4th Olympic Trials Qualifier, Longevity in the Marathon, and Returning to Racing as a Mother'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Caitlin-Phillips-4th-Olympic-Trials-Qualifier--Longevity-in-the-Marathon--and-Returning-to-Racing-as-a-Mother-e3im56i
@@ -17962,7 +17974,7 @@ episodes_by_feed:
     episode_uid: dea1f4c4-8b86-41bd-b766-9a265304e6c7
     episode_slug: caitlin-phillips-4th-olympic-trials-qualifier-longevity-in-the-marathon-and-returning-to-racing-as-a-mother
     episode_key: caitlin-phillips-4th-olympic-trials-qualifier-longevity-in-the-marathon-and-returning-to-racing-as-a-mother
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/road-to-the-trials/caitlin-phillips-4th-olympic-trials-qualifier-longevity-in-the-marathon-and-returning-to-racing-as-a-mother/"
   - episode_title: 'Brooke Starn: From Med School Miles to a 2:35 Olympic Trials Qualifier'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Brooke-Starn-From-Med-School-Miles-to-a-235-Olympic-Trials-Qualifier-e3ihdst
@@ -17974,7 +17986,7 @@ episodes_by_feed:
     episode_uid: 81b7ea2e-787e-4ceb-9957-1f49d89eff4a
     episode_slug: brooke-starn-from-med-school-miles-to-a-2-35-olympic-trials-qualifier
     episode_key: brooke-starn-from-med-school-miles-to-a-2-35-olympic-trials-qualifier
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/road-to-the-trials/brooke-starn-from-med-school-miles-to-a-2-35-olympic-trials-qualifier/"
   - episode_title: Annabel Stafford’s OTQ in her Debut Marathon
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Annabel-Staffords-OTQ-in-her-Debut-Marathon-e3iat0p
@@ -17986,7 +17998,7 @@ episodes_by_feed:
     episode_uid: 4df66cc2-ac19-4ff8-86bb-cf7b60e8e315
     episode_slug: annabel-stafford-s-otq-in-her-debut-marathon
     episode_key: annabel-stafford-s-otq-in-her-debut-marathon
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/road-to-the-trials/annabel-stafford-s-otq-in-her-debut-marathon/"
   - episode_title: How Jess Donohue Turned a Tough Race into a 2:34 OTQ
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/How-Jess-Donohue-Turned-a-Tough-Race-into-a-234-OTQ-e3i61e8
@@ -17998,20 +18010,8 @@ episodes_by_feed:
     episode_uid: 4e59225e-181e-4793-b8c8-ae256d517d69
     episode_slug: how-jess-donohue-turned-a-tough-race-into-a-2-34-otq
     episode_key: how-jess-donohue-turned-a-tough-race-into-a-2-34-otq
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/road-to-the-trials/how-jess-donohue-turned-a-tough-race-into-a-2-34-otq/"
-  - episode_title: 'Rosa Moriello: Inside the Eugene Marathon - Where PRs and OTQs Happen'
-    episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Rosa-Moriello-Inside-the-Eugene-Marathon---Where-PRs-and-OTQs-Happen-e3i0n8j
-    audio_url: https://anchor.fm/s/bba0468/podcast/play/118561491/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-16%2F422209651-44100-2-711bd8daa79e9.mp3
-    published_at: '2026-04-16T16:42:09+00:00'
-    description_html: "<p>In this episode, Peter sits down with Rosa Moriello to break down everything that makes the Eugene Marathon such a special race. From the course itself to the atmosphere, Rosa shares her experience racing the half marathon, where she qualified for the Olympic Trials and soaked in one of the most unique finishes in running.</p><p>Rosa talks about why she chose Eugene, how the race environment compares to bigger marathons, and what stood out most about the course, especially the long, gradual hills that demand patience and smart pacing. She shares practical insights on how to approach those sections, why effort matters more than pace on this course, and how to stay engaged when the race gets quieter in the later miles.</p><p>The conversation also dives into what makes Eugene different. From the energy of the Pacific Northwest running culture to finishing inside Hayward Field, Rosa reflects on how the history of the sport adds to the experience and elevates race day. She also shares what it felt like to close hard on the track, narrowly hitting the OTQ standard, and why that moment stood out in her running journey.</p><p>Peter and Rosa discuss the mental side of racing, how to stay focused through changing race dynamics, and why this course offers a unique challenge that rewards both physical and mental strength. They also touch on the post-race atmosphere, the celebration inside the stadium, and why Eugene continues to build momentum as a destination race for runners chasing big goals.</p><p>This episode is both a course preview and a deeper look at what makes a race meaningful, whether you are chasing a time, competing for a win, or simply trying to get the most out of yourself on race day.</p><p>Thank you to our sponsors:</p><p>Precision Fuel and Hydration helps athletes take the guesswork out of fueling by breaking performance down into its essential components: carbohydrates, fluids, and sodium. Their science-backed approach allows runners to dial in each variable independently, making it easier to troubleshoot training issues and race-day execution. With extensive educational resources and practical tools, Precision supports athletes who want to fuel with intention rather than trial and error. Use code &quot;Trials26&quot; for 15% off at precisionhydration.com.</p><p>Wahoo continues to redefine indoor training with the KICKR RUN treadmill, designed to respond dynamically to how athletes actually run. With features like automatic pace control, terrain simulation, lateral tilt, and seamless connectivity to platforms like Zwift and Strava, it delivers a more realistic and engaging training experience. Trusted by world-class runners and triathletes alike, Wahoo builds tools that keep athletes training smarter, not just harder. Use code &quot;Trials28&quot; for a free bluetooth fan ($319 in value) at wahoofitness.com.</p>"
-    description_plain: 'In this episode, Peter sits down with Rosa Moriello to break down everything that makes the Eugene Marathon such a special race. From the course itself to the atmosphere, Rosa shares her experience racing the half marathon, where she qualified for the Olympic Trials and soaked in one of the most unique finishes in running. Rosa talks about why she chose Eugene, how the race environment compares to bigger marathons, and what stood out most about the course, especially the long, gradual hills that demand patience and smart pacing. She shares practical insights on how to approach those sections, why effort matters more than pace on this course, and how to stay engaged when the race gets quieter in the later miles. The conversation also dives into what makes Eugene different. From the energy of the Pacific Northwest running culture to finishing inside Hayward Field, Rosa reflects on how the history of the sport adds to the experience and elevates race day. She also shares what it felt like to close hard on the track, narrowly hitting the OTQ standard, and why that moment stood out in her running journey. Peter and Rosa discuss the mental side of racing, how to stay focused through changing race dynamics, and why this course offers a unique challenge that rewards both physical and mental strength. They also touch on the post-race atmosphere, the celebration inside the stadium, and why Eugene continues to build momentum as a destination race for runners chasing big goals. This episode is both a course preview and a deeper look at what makes a race meaningful, whether you are chasing a time, competing for a win, or simply trying to get the most out of yourself on race day. Thank you to our sponsors: Precision Fuel and Hydration helps athletes take the guesswork out of fueling by breaking performance down into its essential components: carbohydrates, fluids, and sodium. Their science-backed approach allows runners to dial in each variable independently, making it easier to troubleshoot training issues and race-day execution. With extensive educational resources and practical tools, Precision supports athletes who want to fuel with intention rather than trial and error. Use code &quot;Trials26&quot; for 15% off at precisionhydration.com. Wahoo continues to redefine indoor training with the KICKR RUN treadmill, designed to respond dynamically to how athletes actually run. With features like automatic pace control, terrain simulation, lateral tilt, and seamless connectivity to platforms like Zwift and Strava, it delivers a more realistic and engaging training experience. Trusted by world-class runners and triathletes alike, Wahoo builds tools that keep athletes training smarter, not just harder. Use code &quot;Trials28&quot; for a free bluetooth fan ($319 in value) at wahoofitness.com.'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/1867402/1867402-1753554581715-ce224982f50fd.jpg
-    episode_uid: 96b810b4-c398-409d-9b2d-78f7bac13953
-    episode_slug: rosa-moriello-inside-the-eugene-marathon-where-prs-and-otqs-happen
-    episode_key: rosa-moriello-inside-the-eugene-marathon-where-prs-and-otqs-happen
     legacy_numbered_slug: episode-25
-    episode_page_url: "/road-to-the-trials/rosa-moriello-inside-the-eugene-marathon-where-prs-and-otqs-happen/"
+    episode_page_url: "/road-to-the-trials/how-jess-donohue-turned-a-tough-race-into-a-2-34-otq/"
   https://anchor.fm/s/9085ecc/podcast/rss: &59
   - episode_title: 'This Week In Track & Field: Emmanuel Wanyonyi Breaks The 1000m WR; Julien Alfred Goes 21.51 In Monaco + London Diamond League Preview (Josh Kerr & Keely Hodgkinson WR Odds)'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Emmanuel-Wanyonyi-Breaks-The-1000m-WR-Julien-Alfred-Goes-21-51-In-Monaco--London-Diamond-League-Preview-Josh-Kerr--Keely-Hodgkinson-WR-Odds-e3m1tu3
@@ -28233,6 +28233,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/smosh-reads-reddit-stories/finally-a-happy-ending-reading-reddit-stories/"
   https://feeds.megaphone.fm/pivot: &95
+  - episode_title: Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories
+    episode_url: ''
+    audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5509757808.mp3
+    published_at: '2026-07-14T10:00:00Z'
+    description_html: <p>Kara and Scott discuss Lindsey Graham's legacy, the conspiracy theories around Mitch McConnell's new photo, and whether the Democrats can still pull off a victory in Maine. Then, Apple sues OpenAI over alleged trade secret theft, marking the company's latest setback. Plus, Kara sits down with California Attorney General Rob Bonta to unpack his multistate lawsuit challenging the Paramount–Warner Bros. Discovery merger.</p><p>Watch this episode on the ⁠<a href="https://www.youtube.com/@pivot">⁠Pivot YouTube channel⁠⁠</a>. Follow us on Instagram and Threads at ⁠<a href="https://www.threads.net/@pivotpodcastofficial">⁠@pivotpodcastofficial⁠⁠</a>. Follow us on Bluesky at <a href="https://bsky.app/profile/pivotpod.bsky.social">⁠⁠@pivotpod.bsky.social⁠⁠</a> Follow us on TikTok at <a href="https://www.tiktok.com/@pivotpodcast?_t=8eqFuISXr1a&amp;_r=1">⁠⁠@pivotpodcast⁠⁠</a>. Send us your questions by calling us at 855-51-PIVOT, or email <a href="mailto:Pivot@voxmedia.com">Pivot@voxmedia.com</a></p><p>Learn more about your ad choices. Visit <a href="https://podcastchoices.com/adchoices">podcastchoices.com/adchoices</a></p>
+    description_plain: Kara and Scott discuss Lindsey Graham's legacy, the conspiracy theories around Mitch McConnell's new photo, and whether the Democrats can still pull off a victory in Maine. Then, Apple sues OpenAI over alleged trade secret theft, marking the company's latest setback. Plus, Kara sits down with California Attorney General Rob Bonta to unpack his multistate lawsuit challenging the Paramount–Warner Bros. Discovery merger. Watch this episode on the ⁠ ⁠Pivot YouTube channel⁠⁠ . Follow us on Instagram and Threads at ⁠ ⁠@pivotpodcastofficial⁠⁠ . Follow us on Bluesky at ⁠⁠@pivotpod.bsky.social⁠⁠ Follow us on TikTok at ⁠⁠@pivotpodcast⁠⁠ . Send us your questions by calling us at 855-51-PIVOT, or email Pivot@voxmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices
+    episode_image_url: ''
+    episode_uid: 1cc4427a-d47d-11f0-95d3-6773d16e7a73
+    episode_slug: apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories
+    episode_key: apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/pivot/apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories/"
   - episode_title: Netflix Chases YouTube, Meta's AI Photo Grab, and Disney Fights the FCC
     episode_url: ''
     audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4174534215.mp3
@@ -28243,7 +28255,7 @@ episodes_by_feed:
     episode_uid: 1d0ec7f0-d47d-11f0-95d3-bb251fab554c
     episode_slug: netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc
     episode_key: netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/pivot/netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc/"
   - episode_title: World Cup Controversy, Trump Accounts, and DOGE Farewell
     episode_url: ''
@@ -28255,7 +28267,7 @@ episodes_by_feed:
     episode_uid: 1cb0b7e6-d47d-11f0-95d3-73cd6fe9544d
     episode_slug: world-cup-controversy-trump-accounts-and-doge-farewell
     episode_key: world-cup-controversy-trump-accounts-and-doge-farewell
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/pivot/world-cup-controversy-trump-accounts-and-doge-farewell/"
   - episode_title: Trump's Crypto Windfall, Dems' Anti-Establishment Wave, and the Supreme Court’s Big Week
     episode_url: ''
@@ -28267,7 +28279,7 @@ episodes_by_feed:
     episode_uid: 1cfc8518-d47d-11f0-95d3-fb0bafbbbdb3
     episode_slug: trump-s-crypto-windfall-dems-anti-establishment-wave-and-the-supreme-court-s-big-week
     episode_key: trump-s-crypto-windfall-dems-anti-establishment-wave-and-the-supreme-court-s-big-week
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/pivot/trump-s-crypto-windfall-dems-anti-establishment-wave-and-the-supreme-court-s-big-week/"
   - episode_title: Comcast Splits, OpenAI Weighs IPO Delay, and Buttigieg Targeted
     episode_url: ''
@@ -28279,7 +28291,7 @@ episodes_by_feed:
     episode_uid: dea8d572-c1b3-11f0-b75b-c36233557cfc
     episode_slug: comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted
     episode_key: comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/pivot/comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted/"
   - episode_title: Meta’s Prediction Market App, Europe vs. Big Tech, and Hollywood’s Comeback
     episode_url: ''
@@ -28291,7 +28303,7 @@ episodes_by_feed:
     episode_uid: de7c8d50-c1b3-11f0-b75b-b36c8cc88bf8
     episode_slug: meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback
     episode_key: meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/pivot/meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback/"
   - episode_title: Starmer Resigns, Reflecting Pool Fiasco, and Amazon Dumps OpenAI Movie
     episode_url: ''
@@ -28303,7 +28315,7 @@ episodes_by_feed:
     episode_uid: de6936e2-c1b3-11f0-b75b-7b7824eff5fd
     episode_slug: starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie
     episode_key: starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/pivot/starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie/"
   - episode_title: Trump's Iran Deal, SpaceX’s Wild Ride, and Snap’s Specs
     episode_url: ''
@@ -28315,7 +28327,7 @@ episodes_by_feed:
     episode_uid: de92c75a-c1b3-11f0-b75b-ff7eaf76155e
     episode_slug: trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs
     episode_key: trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/pivot/trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs/"
   - episode_title: The White House UFC Fight, SpaceX’s Big Pop, and Fox’s Roku Deal
     episode_url: ''
@@ -28327,7 +28339,7 @@ episodes_by_feed:
     episode_uid: de5399a4-c1b3-11f0-b75b-f31d4a72bd86
     episode_slug: the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal
     episode_key: the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/pivot/the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal/"
   - episode_title: 'SpaceX IPO: Markets, Morals, and What It Means for You'
     episode_url: ''
@@ -28339,7 +28351,7 @@ episodes_by_feed:
     episode_uid: de3d3e2a-c1b3-11f0-b75b-4ff85d358c6d
     episode_slug: spacex-ipo-markets-morals-and-what-it-means-for-you
     episode_key: spacex-ipo-markets-morals-and-what-it-means-for-you
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/pivot/spacex-ipo-markets-morals-and-what-it-means-for-you/"
   - episode_title: Trump's AI Stake, SpaceX's IPO Froth, and Apple's Siri Overhaul
     episode_url: ''
@@ -28351,7 +28363,7 @@ episodes_by_feed:
     episode_uid: de26c6ea-c1b3-11f0-b75b-fbf313bae6ca
     episode_slug: trump-s-ai-stake-spacex-s-ipo-froth-and-apple-s-siri-overhaul
     episode_key: trump-s-ai-stake-spacex-s-ipo-froth-and-apple-s-siri-overhaul
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/pivot/trump-s-ai-stake-spacex-s-ipo-froth-and-apple-s-siri-overhaul/"
   - episode_title: "'60 Minutes' Meltdown, Trump's Intel Chief Pick, and Apple’s Next Big Bet"
     episode_url: ''
@@ -28363,7 +28375,7 @@ episodes_by_feed:
     episode_uid: de1150d0-c1b3-11f0-b75b-5721ae3d6972
     episode_slug: 60-minutes-meltdown-trump-s-intel-chief-pick-and-apple-s-next-big-bet
     episode_key: 60-minutes-meltdown-trump-s-intel-chief-pick-and-apple-s-next-big-bet
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/pivot/60-minutes-meltdown-trump-s-intel-chief-pick-and-apple-s-next-big-bet/"
   - episode_title: Anthropic's IPO, Platner's Campaign Controversies, and Blue Origin's Setback
     episode_url: ''
@@ -28375,7 +28387,7 @@ episodes_by_feed:
     episode_uid: c5eb8354-dc39-11f0-8e28-37a53e6fd030
     episode_slug: anthropic-s-ipo-platner-s-campaign-controversies-and-blue-origin-s-setback
     episode_key: anthropic-s-ipo-platner-s-campaign-controversies-and-blue-origin-s-setback
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/pivot/anthropic-s-ipo-platner-s-campaign-controversies-and-blue-origin-s-setback/"
   - episode_title: Pope Leo’s AI Warning, UFC at the White House, and CBS Shakeups
     episode_url: ''
@@ -28387,7 +28399,7 @@ episodes_by_feed:
     episode_uid: ddfb8fb6-c1b3-11f0-b75b-533db02f8fe8
     episode_slug: pope-leo-s-ai-warning-ufc-at-the-white-house-and-cbs-shakeups
     episode_key: pope-leo-s-ai-warning-ufc-at-the-white-house-and-cbs-shakeups
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/pivot/pope-leo-s-ai-warning-ufc-at-the-white-house-and-cbs-shakeups/"
   - episode_title: 'Grading America''s First 250 Years: America, Actually with Astead Herndon'
     episode_url: ''
@@ -28399,7 +28411,7 @@ episodes_by_feed:
     episode_uid: 5f48cf40-4ff1-11f1-9d8c-0779e0ee885c
     episode_slug: grading-america-s-first-250-years-america-actually-with-astead-herndon
     episode_key: grading-america-s-first-250-years-america-actually-with-astead-herndon
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/pivot/grading-america-s-first-250-years-america-actually-with-astead-herndon/"
   - episode_title: James Murdoch & Vox Media, SpaceX IPO Predictions, and Bezos Gets Defensive
     episode_url: ''
@@ -28411,7 +28423,7 @@ episodes_by_feed:
     episode_uid: dde5a606-c1b3-11f0-b75b-7bab2a7b51cc
     episode_slug: james-murdoch-vox-media-spacex-ipo-predictions-and-bezos-gets-defensive
     episode_key: james-murdoch-vox-media-spacex-ipo-predictions-and-bezos-gets-defensive
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/pivot/james-murdoch-vox-media-spacex-ipo-predictions-and-bezos-gets-defensive/"
   - episode_title: Elon's Big Loss, Trump's Stock Trades, and OpenAI vs. Apple
     episode_url: ''
@@ -28423,7 +28435,7 @@ episodes_by_feed:
     episode_uid: ddcf80f6-c1b3-11f0-b75b-d7d55efa57f3
     episode_slug: elon-s-big-loss-trump-s-stock-trades-and-openai-vs-apple
     episode_key: elon-s-big-loss-trump-s-stock-trades-and-openai-vs-apple
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/pivot/elon-s-big-loss-trump-s-stock-trades-and-openai-vs-apple/"
   - episode_title: Trump’s China Summit, Inflation Shock, and Silicon Valley’s Midterm Money
     episode_url: ''
@@ -28435,7 +28447,7 @@ episodes_by_feed:
     episode_uid: ddb93e86-c1b3-11f0-b75b-979916145870
     episode_slug: trump-s-china-summit-inflation-shock-and-silicon-valley-s-midterm-money
     episode_key: trump-s-china-summit-inflation-shock-and-silicon-valley-s-midterm-money
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/pivot/trump-s-china-summit-inflation-shock-and-silicon-valley-s-midterm-money/"
   - episode_title: Midterm Map Wars, AirPods Revamp, and Trump Phone Grift
     episode_url: ''
@@ -28447,7 +28459,7 @@ episodes_by_feed:
     episode_uid: dda1573a-c1b3-11f0-b75b-5f9e7379f011
     episode_slug: midterm-map-wars-airpods-revamp-and-trump-phone-grift
     episode_key: midterm-map-wars-airpods-revamp-and-trump-phone-grift
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/pivot/midterm-map-wars-airpods-revamp-and-trump-phone-grift/"
   - episode_title: OpenAI Trial "Soap Opera," ChatGPT's Stock Picks, and Remembering Ted Turner
     episode_url: ''
@@ -28459,7 +28471,7 @@ episodes_by_feed:
     episode_uid: dd8bdb9e-c1b3-11f0-b75b-2b5e648a8713
     episode_slug: openai-trial-soap-opera-chatgpt-s-stock-picks-and-remembering-ted-turner
     episode_key: openai-trial-soap-opera-chatgpt-s-stock-picks-and-remembering-ted-turner
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/pivot/openai-trial-soap-opera-chatgpt-s-stock-picks-and-remembering-ted-turner/"
   - episode_title: GameStop's eBay Bid, AI and the Midterms, and Senate Prediction Market Ban
     episode_url: ''
@@ -28471,7 +28483,7 @@ episodes_by_feed:
     episode_uid: dd760a8a-c1b3-11f0-b75b-470e774172ed
     episode_slug: gamestop-s-ebay-bid-ai-and-the-midterms-and-senate-prediction-market-ban
     episode_key: gamestop-s-ebay-bid-ai-and-the-midterms-and-senate-prediction-market-ban
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/pivot/gamestop-s-ebay-bid-ai-and-the-midterms-and-senate-prediction-market-ban/"
   - episode_title: Big Tech’s Day of Reckoning, Elon Takes the Stand, and the FCC Targets Disney
     episode_url: ''
@@ -28483,7 +28495,7 @@ episodes_by_feed:
     episode_uid: dd62f882-c1b3-11f0-b75b-43c9deffd3b1
     episode_slug: big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney
     episode_key: big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/pivot/big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney/"
   - episode_title: WHCD Shooting Aftermath, Musk and Altman Face-Off, Spirit Airlines Bailout
     episode_url: ''
@@ -28495,7 +28507,7 @@ episodes_by_feed:
     episode_uid: dd502a22-c1b3-11f0-b75b-3f61b65e38a2
     episode_slug: whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout
     episode_key: whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/pivot/whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout/"
   - episode_title: Tucker Carlson's Rebrand, Apple’s New Era, and SpaceX’s AI Deal
     episode_url: ''
@@ -28507,7 +28519,7 @@ episodes_by_feed:
     episode_uid: dd3e2b10-c1b3-11f0-b75b-2bf60d9170bf
     episode_slug: tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal
     episode_key: tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/pivot/tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal/"
   - episode_title: Kash Patel Sues, Trump's Psychedelics Push, and Netflix’s Podcast Bet
     episode_url: ''
@@ -28519,20 +28531,8 @@ episodes_by_feed:
     episode_uid: dd2ba292-c1b3-11f0-b75b-e39eea52657c
     episode_slug: kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet
     episode_key: kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/pivot/kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet/"
-  - episode_title: Iran Market Disconnect, Vance v. Pope, and OpenAI Shades Microsoft and Anthropic
-    episode_url: ''
-    audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4738462156.mp3?updated=1776383986
-    published_at: '2026-04-17T10:00:00Z'
-    description_html: <p>Kara and Scott unpack the latest on Iran, why markets keep rising despite escalating tensions, and what VP Vance is risking by challenging the Pope. Then, Trump renews his attacks on Fed Chair Jerome Powell, Amazon makes a  big satellite move, and OpenAI takes shots at Microsoft and Anthropic. Plus, a potential United–American merger, and millions of kids sign up for Trump-backed investment accounts.</p><p>Watch this episode on the ⁠⁠<a href="https://www.youtube.com/@pivot">Pivot YouTube channel⁠⁠</a>. Follow us on Instagram and Threads at ⁠⁠<a href="https://www.threads.net/@pivotpodcastofficial">@pivotpodcastofficial⁠⁠</a>. Follow us on Bluesky at ⁠⁠<a href="https://bsky.app/profile/pivotpod.bsky.social">@pivotpod.bsky.social⁠⁠</a> Follow us on TikTok at ⁠⁠<a href="https://www.tiktok.com/@pivotpodcast?_t=8eqFuISXr1a&amp;_r=1">@pivotpodcast⁠⁠</a>. Send us your questions by calling us at 855-51-PIVOT, or email <a href="mailto:pivot@voxmedia.com">pivot@voxmedia.com</a></p><p>Learn more about your ad choices. Visit <a href="https://podcastchoices.com/adchoices">podcastchoices.com/adchoices</a></p>
-    description_plain: Kara and Scott unpack the latest on Iran, why markets keep rising despite escalating tensions, and what VP Vance is risking by challenging the Pope. Then, Trump renews his attacks on Fed Chair Jerome Powell, Amazon makes a big satellite move, and OpenAI takes shots at Microsoft and Anthropic. Plus, a potential United–American merger, and millions of kids sign up for Trump-backed investment accounts. Watch this episode on the ⁠⁠ Pivot YouTube channel⁠⁠ . Follow us on Instagram and Threads at ⁠⁠ @pivotpodcastofficial⁠⁠ . Follow us on Bluesky at ⁠⁠ @pivotpod.bsky.social⁠⁠ Follow us on TikTok at ⁠⁠ @pivotpodcast⁠⁠ . Send us your questions by calling us at 855-51-PIVOT, or email pivot@voxmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices
-    episode_image_url: ''
-    episode_uid: dd150302-c1b3-11f0-b75b-c3bf64934459
-    episode_slug: iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic
-    episode_key: iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic
     legacy_numbered_slug: episode-25
-    episode_page_url: "/pivot/iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic/"
+    episode_page_url: "/pivot/kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet/"
   https://feed.ausha.co/egpw5hzzonq3: &96
   - episode_title: 'RÉCAP D+ #56 avec LUDOVIC POMMERET, COURTNEY DAUWALTER et MANON BOHARD'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-56-ludovic-pommeret-courtney-dauwalter-manon-bohard
