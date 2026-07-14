@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-14T18:29:22Z'
+generated_at: '2026-07-14T19:35:58Z'
 items:
+- podcast_title: Uphill Athlete
+  podcast_page_url: "/uphill-athlete/"
+  cover_image: "/media/uphillathlete.jpeg"
+  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
+  filter_category: trail ultra skyrunning english
+  episode_title: 2026 Everest Trends with Steve House, Alan Arnette, and Martin Zohr
+  episode_url: https://zencastr.com/z/TeCtY3oS
+  audio_url: https://redirect.zencastr.com/r/episode/6a558edfd1719f32e0041c92/size/109069022/video-files/635358be4592c880860238fe/77a9c62b-caa3-44f2-8282-7d60bc5a1bb0.mp4
+  published_at: '2026-07-14T19:00:00+00:00'
+  episode_key: 2026-everest-trends-with-steve-house-alan-arnette-and-martin-zohr
+  episode_slug: 2026-everest-trends-with-steve-house-alan-arnette-and-martin-zohr
+  episode_page_url: "/uphill-athlete/2026-everest-trends-with-steve-house-alan-arnette-and-martin-zohr/"
 - podcast_title: Inside Running Podcast
   podcast_page_url: "/inside-running-podcast/"
   cover_image: "/media/insiderunning.jpeg"
@@ -433,18 +445,6 @@ items:
   episode_key: recap-jolster-calle-flyr-hoyt
   episode_slug: recap-jolster-calle-flyr-hoyt
   episode_page_url: "/team-macody-podcast/recap-jolster-calle-flyr-hoyt/"
-- podcast_title: Uphill Athlete
-  podcast_page_url: "/uphill-athlete/"
-  cover_image: "/media/uphillathlete.jpeg"
-  feed_url: https://feeds.zencastr.com/f/f-N7v7jW.rss
-  filter_category: trail ultra skyrunning english
-  episode_title: 'Voice of the Mountains: Shift Your Understanding with Lydia Bradey (Replay)'
-  episode_url: https://zencastr.com/z/UlCXzlCy
-  audio_url: https://redirect.zencastr.com/r/episode/6a4c54fe2d7ef623291f3bb4/size/153820371/video-files/635358be4592c880860238fe/5623bc8b-90b8-4044-9d89-a1fff36a23f3.mp4
-  published_at: '2026-07-07T19:00:00+00:00'
-  episode_key: voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay
-  episode_slug: voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay
-  episode_page_url: "/uphill-athlete/voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay/"
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw/"
   cover_image: "/media/crackabrew.jpeg"
@@ -10919,6 +10919,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/spring-snyggt/321-hampus-mansson-presenterar-sig/"
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &35
+  - episode_title: 2026 Everest Trends with Steve House, Alan Arnette, and Martin Zohr
+    episode_url: https://zencastr.com/z/TeCtY3oS
+    audio_url: https://redirect.zencastr.com/r/episode/6a558edfd1719f32e0041c92/size/109069022/video-files/635358be4592c880860238fe/77a9c62b-caa3-44f2-8282-7d60bc5a1bb0.mp4
+    published_at: '2026-07-14T19:00:00+00:00'
+    description_html: '<p>In this Everest 2026 season recap, Steve House talks with Alan Arnette (Summit Coach) and Uphill Athlete coach Martin Zohr about a record-breaking year on the mountain: roughly 1,008 South Col summits (up from 891 in 2019), nearly 500 Nepal permits issued, nine straight days of delays from a massive leaning serac in the Khumbu Icefall, and a brief government ban on drone use that was reversed within days. They cover five climbing deaths (well below historical averages), the shift toward "flash" expeditions using higher-flow supplemental oxygen and pre-acclimatization on trekking peaks instead of traditional rotations, the stalled 7,000-meter prerequisite bill in Nepal''s parliament, drones and helicopters replacing some Sherpa load-carrying, the unclear status of xenon use by climbers, Bartek Ziemkiewicz''s no-oxygen ski descents of both Everest and Lhotse, and Nepal''s roughly $8.5 million in permit revenue that largely bypasses local communities. The conversation closes with training advice — emphasizing a year or more of structured aerobic-first preparation, VAM tracking, and a mountaineering apprenticeship through progressively higher peaks — plus predictions for the 2027 season, including possible Tibet-side reopening.</p>'
+    description_plain: 'In this Everest 2026 season recap, Steve House talks with Alan Arnette (Summit Coach) and Uphill Athlete coach Martin Zohr about a record-breaking year on the mountain: roughly 1,008 South Col summits (up from 891 in 2019), nearly 500 Nepal permits issued, nine straight days of delays from a massive leaning serac in the Khumbu Icefall, and a brief government ban on drone use that was reversed within days. They cover five climbing deaths (well below historical averages), the shift toward "flash" expeditions using higher-flow supplemental oxygen and pre-acclimatization on trekking peaks instead of traditional rotations, the stalled 7,000-meter prerequisite bill in Nepal''s parliament, drones and helicopters replacing some Sherpa load-carrying, the unclear status of xenon use by climbers, Bartek Ziemkiewicz''s no-oxygen ski descents of both Everest and Lhotse, and Nepal''s roughly $8.5 million in permit revenue that largely bypasses local communities. The conversation closes with training advice — emphasizing a year or more of structured aerobic-first preparation, VAM tracking, and a mountaineering apprenticeship through progressively higher peaks — plus predictions for the 2027 season, including possible Tibet-side reopening.'
+    episode_image_url: https://media.zencastr.com/image-files/635358be4592c880860238fe/fe1ad1ce-e783-4838-8f4f-5e64fc5eb480.jpg
+    episode_uid: ca23bf17-c67a-4ea1-b9e4-486274bc24b5
+    episode_slug: 2026-everest-trends-with-steve-house-alan-arnette-and-martin-zohr
+    episode_key: 2026-everest-trends-with-steve-house-alan-arnette-and-martin-zohr
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/uphill-athlete/2026-everest-trends-with-steve-house-alan-arnette-and-martin-zohr/"
   - episode_title: 'Voice of the Mountains: Shift Your Understanding with Lydia Bradey (Replay)'
     episode_url: https://zencastr.com/z/UlCXzlCy
     audio_url: https://redirect.zencastr.com/r/episode/6a4c54fe2d7ef623291f3bb4/size/153820371/video-files/635358be4592c880860238fe/5623bc8b-90b8-4044-9d89-a1fff36a23f3.mp4
@@ -10929,7 +10941,7 @@ episodes_by_feed:
     episode_uid: 6fcc54db-a44d-4344-8aec-873890f35b2b
     episode_slug: voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay
     episode_key: voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-shift-your-understanding-with-lydia-bradey-replay/"
   - episode_title: 'The Evolution of Testing: Continuous AeT'
     episode_url: https://zencastr.com/z/3teOJy2n
@@ -10941,7 +10953,7 @@ episodes_by_feed:
     episode_uid: f13f7d1f-e0a6-42b7-8da4-f1ef68290fc0
     episode_slug: the-evolution-of-testing-continuous-aet
     episode_key: the-evolution-of-testing-continuous-aet
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/uphill-athlete/the-evolution-of-testing-continuous-aet/"
   - episode_title: Building the Aerobic Engine with Dr. Øyvind Sandbakk
     episode_url: https://zencastr.com/z/CE8BWuuq
@@ -10954,7 +10966,7 @@ episodes_by_feed:
     episode_slug: building-the-aerobic-engine-with-dr-oyvind-sandbakk
     episode_key: building-the-aerobic-engine-with-dr-oyvind-sandbakk
     legacy_unicode_slug: building-the-aerobic-engine-with-dr-øyvind-sandbakk
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/uphill-athlete/building-the-aerobic-engine-with-dr-oyvind-sandbakk/"
   - episode_title: 'Voice of the Mountains: My Axe May Be Your Paintbrush with Jimmy Chin (Replay)'
     episode_url: https://zencastr.com/z/j3OHYiVS
@@ -10966,7 +10978,7 @@ episodes_by_feed:
     episode_uid: 8e5049fd-91a7-4c61-ba5f-a4a77ba5bec3
     episode_slug: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
     episode_key: voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-my-axe-may-be-your-paintbrush-with-jimmy-chin-replay/"
   - episode_title: The Four Inputs that Determine Your Progress
     episode_url: https://zencastr.com/z/Ypw8aclS
@@ -10978,7 +10990,7 @@ episodes_by_feed:
     episode_uid: db276c04-8436-49d1-a9f0-5b7ba2f1ccad
     episode_slug: the-four-inputs-that-determine-your-progress
     episode_key: the-four-inputs-that-determine-your-progress
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/uphill-athlete/the-four-inputs-that-determine-your-progress/"
   - episode_title: Muscular Endurance Training with Uphill Athlete Coaches
     episode_url: https://zencastr.com/z/_mCbGJX0
@@ -10990,7 +11002,7 @@ episodes_by_feed:
     episode_uid: 05341ded-0fdd-494f-969b-bd8c04c33392
     episode_slug: muscular-endurance-training-with-uphill-athlete-coaches
     episode_key: muscular-endurance-training-with-uphill-athlete-coaches
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/uphill-athlete/muscular-endurance-training-with-uphill-athlete-coaches/"
   - episode_title: 'Voice of the Mountains: Season Two Recap'
     episode_url: https://zencastr.com/z/PbWFmrHu
@@ -11002,7 +11014,7 @@ episodes_by_feed:
     episode_uid: 32c04b8d-1775-4237-a74a-3625332d89c3
     episode_slug: voice-of-the-mountains-season-two-recap
     episode_key: voice-of-the-mountains-season-two-recap
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-season-two-recap/"
   - episode_title: Making Sense of the Data with Dr. Marco Altini
     episode_url: https://zencastr.com/z/a113SzsF
@@ -11014,7 +11026,7 @@ episodes_by_feed:
     episode_uid: 2cf82139-5904-477b-925c-a40536d681c2
     episode_slug: making-sense-of-the-data-with-dr-marco-altini
     episode_key: making-sense-of-the-data-with-dr-marco-altini
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/uphill-athlete/making-sense-of-the-data-with-dr-marco-altini/"
   - episode_title: 'Voice of the Mountains: Success is Not the Summit with Peter Metcalf (Director''s Cut)'
     episode_url: https://zencastr.com/z/V716voug
@@ -11026,7 +11038,7 @@ episodes_by_feed:
     episode_uid: 6cda18aa-e5b9-40e6-b73e-f544c9414149
     episode_slug: voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut
     episode_key: voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-success-is-not-the-summit-with-peter-metcalf-director-s-cut/"
   - episode_title: Understanding the Female Athlete
     episode_url: https://zencastr.com/z/QEvHUgqW
@@ -11038,7 +11050,7 @@ episodes_by_feed:
     episode_uid: 11a58f28-b3bc-448a-9d85-167b18777738
     episode_slug: understanding-the-female-athlete
     episode_key: understanding-the-female-athlete
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/uphill-athlete/understanding-the-female-athlete/"
   - episode_title: Strength for the Female Athlete
     episode_url: https://zencastr.com/z/stSN2Xrh
@@ -11050,7 +11062,7 @@ episodes_by_feed:
     episode_uid: f7c749f1-7040-4dc1-9055-53b45fb4f32f
     episode_slug: strength-for-the-female-athlete
     episode_key: strength-for-the-female-athlete
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/uphill-athlete/strength-for-the-female-athlete/"
   - episode_title: 'Voice of the Mountains: The Measure of Permission with Dr. Christine Theodorovics'
     episode_url: https://zencastr.com/z/rTIdzn_1
@@ -11062,7 +11074,7 @@ episodes_by_feed:
     episode_uid: 29b0b91f-73a6-4579-ae8c-6a167c016f39
     episode_slug: voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics
     episode_key: voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-measure-of-permission-with-dr-christine-theodorovics/"
   - episode_title: Gas Exchange and Altitude Acclimatization with Dr Patrycja Jonetzko
     episode_url: https://zencastr.com/z/qkyAHOpP
@@ -11074,7 +11086,7 @@ episodes_by_feed:
     episode_uid: 30d07596-4edd-4f45-88b3-2f8e504ef0b6
     episode_slug: gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko
     episode_key: gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/uphill-athlete/gas-exchange-and-altitude-acclimatization-with-dr-patrycja-jonetzko/"
   - episode_title: 'Voice of the Mountains: The Responsibility to Remain with Mark Twight (part two)'
     episode_url: https://zencastr.com/z/AUdtWUxw
@@ -11086,7 +11098,7 @@ episodes_by_feed:
     episode_uid: b6f7dfbf-4b56-4ee7-9f0b-148a4a6c6e45
     episode_slug: voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two
     episode_key: voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-responsibility-to-remain-with-mark-twight-part-two/"
   - episode_title: 'Voice of the Mountains: The Hunger for Redemption with Mark Twight (part one)'
     episode_url: https://zencastr.com/z/bfVFcKtP
@@ -11098,7 +11110,7 @@ episodes_by_feed:
     episode_uid: fbe98393-bc65-4148-93bb-feaac08b8d37
     episode_slug: voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one
     episode_key: voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-hunger-for-redemption-with-mark-twight-part-one/"
   - episode_title: '2026 Uphill Athlete Coaches: Goal Setting Summit'
     episode_url: https://zencastr.com/z/mDvPeta2
@@ -11110,7 +11122,7 @@ episodes_by_feed:
     episode_uid: b3d9a827-aac9-4777-9dd8-be72140648b2
     episode_slug: 2026-uphill-athlete-coaches-goal-setting-summit
     episode_key: 2026-uphill-athlete-coaches-goal-setting-summit
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/uphill-athlete/2026-uphill-athlete-coaches-goal-setting-summit/"
   - episode_title: 'Voice of the Mountains: Brilliance is Abundant with John Winsor'
     episode_url: https://zencastr.com/z/97sPck9A
@@ -11122,7 +11134,7 @@ episodes_by_feed:
     episode_uid: 5436e5d4-c5cf-4c19-9a43-317a7ed5743c
     episode_slug: voice-of-the-mountains-brilliance-is-abundant-with-john-winsor
     episode_key: voice-of-the-mountains-brilliance-is-abundant-with-john-winsor
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-brilliance-is-abundant-with-john-winsor/"
   - episode_title: 2025 Trail and Mountain Running Highlights with Gabe Joyes
     episode_url: https://zencastr.com/z/qPNkv2Ao
@@ -11134,7 +11146,7 @@ episodes_by_feed:
     episode_uid: fef125b2-2ebf-4c4d-83d7-021c4a441201
     episode_slug: 2025-trail-and-mountain-running-highlights-with-gabe-joyes
     episode_key: 2025-trail-and-mountain-running-highlights-with-gabe-joyes
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/uphill-athlete/2025-trail-and-mountain-running-highlights-with-gabe-joyes/"
   - episode_title: The Life Between Climbs with Scott Backes
     episode_url: https://zencastr.com/z/Ld--jcBg
@@ -11146,7 +11158,7 @@ episodes_by_feed:
     episode_uid: f9c35acf-00bb-4872-824d-01f05786cc32
     episode_slug: the-life-between-climbs-with-scott-backes
     episode_key: the-life-between-climbs-with-scott-backes
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/uphill-athlete/the-life-between-climbs-with-scott-backes/"
   - episode_title: 'Voice of the Mountains: The Geography of Risk with Kyle Lefkoff'
     episode_url: https://zencastr.com/z/_J2JnXxe
@@ -11158,7 +11170,7 @@ episodes_by_feed:
     episode_uid: 23b02a3a-44a2-4f5c-a4c8-b3c7f9abcef4
     episode_slug: voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff
     episode_key: voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-geography-of-risk-with-kyle-lefkoff/"
   - episode_title: 'Nutrition Tips for Athletes: Holiday Edition - Replay'
     episode_url: https://zencastr.com/z/PDI0phcw
@@ -11170,7 +11182,7 @@ episodes_by_feed:
     episode_uid: 84d7d820-7f2c-4f2a-839f-fa2653e44c41
     episode_slug: nutrition-tips-for-athletes-holiday-edition-replay
     episode_key: nutrition-tips-for-athletes-holiday-edition-replay
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/uphill-athlete/nutrition-tips-for-athletes-holiday-edition-replay/"
   - episode_title: 'Supplements: How to Choose Safe and Effective Products'
     episode_url: https://zencastr.com/z/NZvBA3A7
@@ -11182,7 +11194,7 @@ episodes_by_feed:
     episode_uid: daa8fbab-6d3d-4fea-8365-ebfdce3fb760
     episode_slug: supplements-how-to-choose-safe-and-effective-products
     episode_key: supplements-how-to-choose-safe-and-effective-products
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/uphill-athlete/supplements-how-to-choose-safe-and-effective-products/"
   - episode_title: 'Voice of the Mountains: The Poetry of the Long Game with Randy Leavitt'
     episode_url: https://zencastr.com/z/E6ZrCs5d
@@ -11194,7 +11206,7 @@ episodes_by_feed:
     episode_uid: a908dc3a-bc6e-4e65-a20d-c7186eadbc75
     episode_slug: voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt
     episode_key: voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/uphill-athlete/voice-of-the-mountains-the-poetry-of-the-long-game-with-randy-leavitt/"
   - episode_title: Should Endurance Athletes Use Supplements?
     episode_url: https://zencastr.com/z/dDzkrqOE
@@ -11206,20 +11218,8 @@ episodes_by_feed:
     episode_uid: eddcd688-f2b8-419b-97d8-020c2342fb68
     episode_slug: should-endurance-athletes-use-supplements
     episode_key: should-endurance-athletes-use-supplements
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/uphill-athlete/should-endurance-athletes-use-supplements/"
-  - episode_title: The Joy of Ski Training with Ben Morley
-    episode_url: https://zencastr.com/z/4eqW36RP
-    audio_url: https://redirect.zencastr.com/r/episode/68e896d087a8cc808dfca548/size/1099611094/video-files/635358be4592c880860238fe/27e0510d-8cbb-4c5f-8819-46bb939841ca.mp4
-    published_at: '2025-10-14T11:00:00+00:00'
-    description_html: '<p>In this episode, Alyssa sits down with Uphill Athlete Coach Ben Morley to discuss the ins and outs of skiing. Ben shares insights from his career coaching athletes from juniors to collegiate skiers and discusses ways to build durability, athleticism, and efficiency through ski training that translates into other mountain sports. The conversation explores the crossover between Nordic skiing, skimo, backcountry skiing, and trail running, highlighting the importance of technique, body position, and strength. Ben also breaks down preseason training, from aerobic base-building to ski-specific exercises like ski walking, bounding, and plyometrics. Above all, he reminds listeners that skiing is about joy, play, and the lifelong fitness it fosters.</p><p>If you''d like to check out our special offer for podcast listeners visit: <a href="http://uphillathlete.com/letsgo">uphillathlete.com/letsgo</a></p><p>You can also write to us at coach@uphillathlete.com</p>'
-    description_plain: 'In this episode, Alyssa sits down with Uphill Athlete Coach Ben Morley to discuss the ins and outs of skiing. Ben shares insights from his career coaching athletes from juniors to collegiate skiers and discusses ways to build durability, athleticism, and efficiency through ski training that translates into other mountain sports. The conversation explores the crossover between Nordic skiing, skimo, backcountry skiing, and trail running, highlighting the importance of technique, body position, and strength. Ben also breaks down preseason training, from aerobic base-building to ski-specific exercises like ski walking, bounding, and plyometrics. Above all, he reminds listeners that skiing is about joy, play, and the lifelong fitness it fosters. If you''d like to check out our special offer for podcast listeners visit: uphillathlete.com/letsgo You can also write to us at coach@uphillathlete.com'
-    episode_image_url: https://media.zencastr.com/image-files/635358be4592c880860238fe/134b2fbd-1cb6-4349-819e-e54878f8cffe.jpg
-    episode_uid: 757b0661-cc9f-4389-b9a5-2ad9ebebf84b
-    episode_slug: the-joy-of-ski-training-with-ben-morley
-    episode_key: the-joy-of-ski-training-with-ben-morley
     legacy_numbered_slug: episode-25
-    episode_page_url: "/uphill-athlete/the-joy-of-ski-training-with-ben-morley/"
+    episode_page_url: "/uphill-athlete/should-endurance-athletes-use-supplements/"
   https://anchor.fm/s/db96fa60/podcast/rss: &36
   - episode_title: 'The Rundown: Post WSER Hangover, Mont Blanc Marathon, Lavaredo and Quebec Mega Trail'
     episode_url: https://podcasters.spotify.com/pod/show/thesubhub/episodes/The-Rundown-Post-WSER-Hangover--Mont-Blanc-Marathon--Lavaredo-and-Quebec-Mega-Trail-e3lslod
