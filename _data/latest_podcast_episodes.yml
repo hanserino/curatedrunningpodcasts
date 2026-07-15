@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-15T08:52:50Z'
+generated_at: '2026-07-15T09:42:48Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us/"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  filter_category: track road english
+  episode_title: 4.30. Mile World Record Watch!
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/430-mile-world-record-watch
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_30_-_Audio_2.mp3?dest-id=3833748
+  published_at: '2026-07-15T09:00:00+00:00'
+  episode_key: 4-30-mile-world-record-watch
+  episode_slug: 4-30-mile-world-record-watch
+  episode_page_url: "/nobody-asked-us/4-30-mile-world-record-watch/"
 - podcast_title: The Real Science Of Sport
   podcast_page_url: "/the-real-science-of-sport/"
   cover_image: "/media/realscienceofsportpod.jpeg"
@@ -445,18 +457,6 @@ items:
   episode_key: paul-james-johnson-redefining-too-old-at-69-one-200-mile-race-and-pr-at-a-time
   episode_slug: paul-james-johnson-redefining-too-old-at-69-one-200-mile-race-and-pr-at-a-time
   episode_page_url: "/distance-to-empty/paul-james-johnson-redefining-too-old-at-69-one-200-mile-race-and-pr-at-a-time/"
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us/"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  filter_category: track road english
-  episode_title: 4.29. Horse Flies, Fireworks, and Fourth of July Track & Field
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/429-horse-flies-fireworks-and-fourth-of-july-track-field
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_29_-_Audio.mp3?dest-id=3833748
-  published_at: '2026-07-08T09:00:00+00:00'
-  episode_key: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
-  episode_slug: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
-  episode_page_url: "/nobody-asked-us/4-29-horse-flies-fireworks-and-fourth-of-july-track-field/"
 - podcast_title: Crack A Brew With AJW
   podcast_page_url: "/crack-a-brew-with-ajw/"
   cover_image: "/media/crackabrew.jpeg"
@@ -782,6 +782,18 @@ non_running_items:
   episode_key: bettan-byvald
   episode_slug: bettan-byvald
   episode_page_url: "/sommar-vinter-i-p1/bettan-byvald/"
+- podcast_title: My First Million
+  podcast_page_url: "/my-first-million/"
+  cover_image: "/media/myfirstmillion.jpeg"
+  feed_url: https://feeds.megaphone.fm/HS2300184645
+  filter_category: uncategorized english
+  episode_title: 'Howard Marks: 80 years of investing wisdom in 46 minutes'
+  episode_url: ''
+  audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS7019324451.mp3
+  published_at: '2026-07-15T09:00:00Z'
+  episode_key: howard-marks-80-years-of-investing-wisdom-in-46-minutes
+  episode_slug: howard-marks-80-years-of-investing-wisdom-in-46-minutes
+  episode_page_url: "/my-first-million/howard-marks-80-years-of-investing-wisdom-in-46-minutes/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -974,18 +986,6 @@ non_running_items:
   episode_key: do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time
   episode_slug: do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time
   episode_page_url: "/hard-fork/do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time/"
-- podcast_title: My First Million
-  podcast_page_url: "/my-first-million/"
-  cover_image: "/media/myfirstmillion.jpeg"
-  feed_url: https://feeds.megaphone.fm/HS2300184645
-  filter_category: uncategorized english
-  episode_title: Brainstorming business ideas with a billion-dollar founder
-  episode_url: ''
-  audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS5828054991.mp3
-  published_at: '2026-07-10T10:00:00Z'
-  episode_key: brainstorming-business-ideas-with-a-billion-dollar-founder
-  episode_slug: brainstorming-business-ideas-with-a-billion-dollar-founder
-  episode_page_url: "/my-first-million/brainstorming-business-ideas-with-a-billion-dollar-founder/"
 - podcast_title: 'Waveform: The MKBHD Podcast'
   podcast_page_url: "/waveform-the-mkbhd-podcast/"
   cover_image: "/media/waveform.jpeg"
@@ -3203,6 +3203,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/for-the-long-run/erin-ton-is-on-a-quest-for-mountain-speed-records/"
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &8
+  - episode_title: 4.30. Mile World Record Watch!
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/430-mile-world-record-watch
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_30_-_Audio_2.mp3?dest-id=3833748
+    published_at: '2026-07-15T09:00:00+00:00'
+    description_html: '<p>It''s an exciting week for our presenting sponsor as Brooks athlete Josh Kerr attempts to run the mile world record at the London Diamond League this weekend. Will he do it? Can anyone spoil the party? Of course, Des and Kara break it all down with predictions.</p><p>But first... we have a special gift for those who love good intro banter - a brilliantly-long and smile-inducing intro. Everyone else can go touch grass and then fast forward through the first ~40 minutes. We''ve got a proper catch-up on summer travels, July birthdays, a mini book club chat on <em>Yesteryear,</em> some good laughs over Kara''s Strava demotion, a Des training and sandpiper update, and some unhinged discussion of running neuroses. Can you handle a run that doesn''t end in a 1-mile or 0.5 mile increment?!</p><p>Now, we all need to lock in and cheer for Josh. Go get it done Josh!</p><p>To take advantage of our Ketone-IQ sponsorship, use this link: <a href= "https://ketone.com/pages/nobody-asked-us">https://ketone.com/pages/nobody-asked-us</a>.</p><p>You will receive 30% off on your subscription order so you can try the new flavors!</p>'
+    description_plain: 'It''s an exciting week for our presenting sponsor as Brooks athlete Josh Kerr attempts to run the mile world record at the London Diamond League this weekend. Will he do it? Can anyone spoil the party? Of course, Des and Kara break it all down with predictions. But first... we have a special gift for those who love good intro banter - a brilliantly-long and smile-inducing intro. Everyone else can go touch grass and then fast forward through the first ~40 minutes. We''ve got a proper catch-up on summer travels, July birthdays, a mini book club chat on Yesteryear, some good laughs over Kara''s Strava demotion, a Des training and sandpiper update, and some unhinged discussion of running neuroses. Can you handle a run that doesn''t end in a 1-mile or 0.5 mile increment?! Now, we all need to lock in and cheer for Josh. Go get it done Josh! To take advantage of our Ketone-IQ sponsorship, use this link: https://ketone.com/pages/nobody-asked-us . You will receive 30% off on your subscription order so you can try the new flavors!'
+    episode_image_url: https://static.libsyn.com/p/assets/6/0/1/e/601e3e23fa00a16216c3140a3186d450/Des_and_Kara_-_Square_-_New_2-20260714-me1d5adfaf.png
+    episode_uid: 239e7101-5b88-44b4-9c7d-e687590e8caa
+    episode_slug: 4-30-mile-world-record-watch
+    episode_key: 4-30-mile-world-record-watch
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/nobody-asked-us/4-30-mile-world-record-watch/"
   - episode_title: 4.29. Horse Flies, Fireworks, and Fourth of July Track & Field
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/429-horse-flies-fireworks-and-fourth-of-july-track-field
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_29_-_Audio.mp3?dest-id=3833748
@@ -3213,7 +3225,7 @@ episodes_by_feed:
     episode_uid: f9b4406e-c138-4833-bce5-4bf7bce7dfc4
     episode_slug: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
     episode_key: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/nobody-asked-us/4-29-horse-flies-fireworks-and-fourth-of-july-track-field/"
   - episode_title: 4.28. From Trails to Track!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/428-from-trails-to-track
@@ -3225,7 +3237,7 @@ episodes_by_feed:
     episode_uid: d216285d-e68d-4204-a957-5c38be250d33
     episode_slug: 4-28-from-trails-to-track
     episode_key: 4-28-from-trails-to-track
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/nobody-asked-us/4-28-from-trails-to-track/"
   - episode_title: '4.27. The Duluth Weekend Recap (+ Live Show #2)'
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/427-the-duluth-weekend-recap-live-show-2
@@ -3237,7 +3249,7 @@ episodes_by_feed:
     episode_uid: e12836e4-3e59-46b0-a8a4-cdda3b43e69d
     episode_slug: 4-27-the-duluth-weekend-recap-live-show-2
     episode_key: 4-27-the-duluth-weekend-recap-live-show-2
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/nobody-asked-us/4-27-the-duluth-weekend-recap-live-show-2/"
   - episode_title: 4.26. Live from Duluth featuring Dakotah Popehn (aka Des's Nemesis)
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/426-live-from-duluth-featuring-dakotah-popehn-aka-dess-nemesis
@@ -3249,7 +3261,7 @@ episodes_by_feed:
     episode_uid: 896593eb-73db-42fa-acc4-9028fc62af1d
     episode_slug: 4-26-live-from-duluth-featuring-dakotah-popehn-aka-des-s-nemesis
     episode_key: 4-26-live-from-duluth-featuring-dakotah-popehn-aka-des-s-nemesis
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/nobody-asked-us/4-26-live-from-duluth-featuring-dakotah-popehn-aka-des-s-nemesis/"
   - episode_title: 4.25. The NCAA Champs Recap Episode (aka It's Complicated)
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/425-the-ncaa-champs-recap-episode-aka-its-complicated
@@ -3261,7 +3273,7 @@ episodes_by_feed:
     episode_uid: 2c6a9b92-94a0-4580-8019-51bad8c9e7c5
     episode_slug: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
     episode_key: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/nobody-asked-us/4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated/"
   - episode_title: 4.24. The Diamond Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/424-the-diamond-episode
@@ -3273,7 +3285,7 @@ episodes_by_feed:
     episode_uid: ef87f92a-5796-4c78-b28f-7b6d336baf92
     episode_slug: 4-24-the-diamond-episode
     episode_key: 4-24-the-diamond-episode
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/nobody-asked-us/4-24-the-diamond-episode/"
   - episode_title: 4.23. High Standards
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/423-high-standards
@@ -3285,7 +3297,7 @@ episodes_by_feed:
     episode_uid: 070a48b1-2e40-4e2a-a7d1-f4d866ece541
     episode_slug: 4-23-high-standards
     episode_key: 4-23-high-standards
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/nobody-asked-us/4-23-high-standards/"
   - episode_title: 4.22. Real Track Talk
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
@@ -3297,7 +3309,7 @@ episodes_by_feed:
     episode_uid: 5da0265b-9035-4e18-bc5c-1dee2f468747
     episode_slug: 4-22-real-track-talk
     episode_key: 4-22-real-track-talk
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/nobody-asked-us/4-22-real-track-talk/"
   - episode_title: 4.21. The Hate Mail Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
@@ -3309,7 +3321,7 @@ episodes_by_feed:
     episode_uid: 7bc14ee8-034f-4b7b-950e-39dc08c91fe5
     episode_slug: 4-21-the-hate-mail-episode
     episode_key: 4-21-the-hate-mail-episode
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/nobody-asked-us/4-21-the-hate-mail-episode/"
   - episode_title: 4.20. The Colt and Cocodona Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/420-the-colt-and-cocodona-episode
@@ -3321,7 +3333,7 @@ episodes_by_feed:
     episode_uid: a415004f-4f26-493f-abad-3be65679d91a
     episode_slug: 4-20-the-colt-and-cocodona-episode
     episode_key: 4-20-the-colt-and-cocodona-episode
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/nobody-asked-us/4-20-the-colt-and-cocodona-episode/"
   - episode_title: 4.19. The Marathon des Sables Recap
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/419-the-marathon-des-sables-recap
@@ -3333,7 +3345,7 @@ episodes_by_feed:
     episode_uid: 55a6af20-5f35-4318-9c52-f29168f97373
     episode_slug: 4-19-the-marathon-des-sables-recap
     episode_key: 4-19-the-marathon-des-sables-recap
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/nobody-asked-us/4-19-the-marathon-des-sables-recap/"
   - episode_title: 4.18. Freshy Fresh for London 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
@@ -3345,7 +3357,7 @@ episodes_by_feed:
     episode_uid: 1ac66505-9f0c-4889-a183-5fd13c7232ce
     episode_slug: 4-18-freshy-fresh-for-london-2026
     episode_key: 4-18-freshy-fresh-for-london-2026
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/nobody-asked-us/4-18-freshy-fresh-for-london-2026/"
   - episode_title: 4.17. Live from London with Cynthia Erivo!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/417-live-from-london-with-cynthia-erivo
@@ -3357,7 +3369,7 @@ episodes_by_feed:
     episode_uid: bc4cbc48-b095-4832-a741-e8a75106d077
     episode_slug: 4-17-live-from-london-with-cynthia-erivo
     episode_key: 4-17-live-from-london-with-cynthia-erivo
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/nobody-asked-us/4-17-live-from-london-with-cynthia-erivo/"
   - episode_title: 4.16. Freshy Fresh from Boston 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/416-freshy-fresh-from-boston-2026
@@ -3369,7 +3381,7 @@ episodes_by_feed:
     episode_uid: 4dfbd385-8cdd-4a76-938c-bc5c83c07fe2
     episode_slug: 4-16-freshy-fresh-from-boston-2026
     episode_key: 4-16-freshy-fresh-from-boston-2026
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/nobody-asked-us/4-16-freshy-fresh-from-boston-2026/"
   - episode_title: 4.15. Live from Boston 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/415-live-from-boston-2026
@@ -3381,7 +3393,7 @@ episodes_by_feed:
     episode_uid: f497730b-f4e3-4b24-8bb1-83db02aa88df
     episode_slug: 4-15-live-from-boston-2026
     episode_key: 4-15-live-from-boston-2026
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/nobody-asked-us/4-15-live-from-boston-2026/"
   - episode_title: 4.14. The Boston Preview Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/414-the-boston-preview-episode
@@ -3393,7 +3405,7 @@ episodes_by_feed:
     episode_uid: c0a94974-5c71-46da-8703-26fac9f1c87c
     episode_slug: 4-14-the-boston-preview-episode
     episode_key: 4-14-the-boston-preview-episode
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/nobody-asked-us/4-14-the-boston-preview-episode/"
   - episode_title: 4.13. The Dropped Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/413-the-dropped-episode
@@ -3405,7 +3417,7 @@ episodes_by_feed:
     episode_uid: 13d14cd3-8b2d-4bc2-9aa7-b17a9bd3fc61
     episode_slug: 4-13-the-dropped-episode
     episode_key: 4-13-the-dropped-episode
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/nobody-asked-us/4-13-the-dropped-episode/"
   - episode_title: 4.12. The Cosmo Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/412-the-cosmo-episode
@@ -3417,7 +3429,7 @@ episodes_by_feed:
     episode_uid: 2f571d03-9551-48b6-af82-121c99a6e1b2
     episode_slug: 4-12-the-cosmo-episode
     episode_key: 4-12-the-cosmo-episode
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/nobody-asked-us/4-12-the-cosmo-episode/"
   - episode_title: 4.11. The Running Drama Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/411-the-running-drama-episode
@@ -3429,7 +3441,7 @@ episodes_by_feed:
     episode_uid: 0c27db94-3f7d-4236-b66d-902dccea69c6
     episode_slug: 4-11-the-running-drama-episode
     episode_key: 4-11-the-running-drama-episode
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/nobody-asked-us/4-11-the-running-drama-episode/"
   - episode_title: 4.10. Disney, US Indoors, and the Atlanta Kerfuffle
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/410-disney-us-indoors-and-the-atlanta-kerfuffle
@@ -3441,7 +3453,7 @@ episodes_by_feed:
     episode_uid: 447ffcb1-2492-476c-a0f6-2eb0fd1f4d6a
     episode_slug: 4-10-disney-us-indoors-and-the-atlanta-kerfuffle
     episode_key: 4-10-disney-us-indoors-and-the-atlanta-kerfuffle
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/nobody-asked-us/4-10-disney-us-indoors-and-the-atlanta-kerfuffle/"
   - episode_title: 4.9. The Olympics Withdrawal Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/49-the-olympics-withdrawal-episode
@@ -3453,7 +3465,7 @@ episodes_by_feed:
     episode_uid: 12781d93-bef8-4bca-81a7-7982576d2272
     episode_slug: 4-9-the-olympics-withdrawal-episode
     episode_key: 4-9-the-olympics-withdrawal-episode
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/nobody-asked-us/4-9-the-olympics-withdrawal-episode/"
   - episode_title: 4.8. Des's First Trail Ultra
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/48-dess-first-trail-ultra
@@ -3465,7 +3477,7 @@ episodes_by_feed:
     episode_uid: 1072b904-c5c7-4f4d-841b-f1ba8815a591
     episode_slug: 4-8-des-s-first-trail-ultra
     episode_key: 4-8-des-s-first-trail-ultra
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/nobody-asked-us/4-8-des-s-first-trail-ultra/"
   - episode_title: 4.7. The Winter Olympics Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/47-the-winter-olympics-episode
@@ -3477,7 +3489,7 @@ episodes_by_feed:
     episode_uid: 7fe158d1-f05e-44cc-9013-716fe39a3971
     episode_slug: 4-7-the-winter-olympics-episode
     episode_key: 4-7-the-winter-olympics-episode
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/nobody-asked-us/4-7-the-winter-olympics-episode/"
   - episode_title: 4.6. The Millrose Recap
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/46-the-millrose-recap
@@ -3489,20 +3501,8 @@ episodes_by_feed:
     episode_uid: 63ee455a-41f0-471d-849a-eab891b331db
     episode_slug: 4-6-the-millrose-recap
     episode_key: 4-6-the-millrose-recap
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/nobody-asked-us/4-6-the-millrose-recap/"
-  - episode_title: 4.5. The Brooks HQ Episode
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/45-the-brooks-hq-episode
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_5_-_Brooks_HQ.mp3?dest-id=3833748
-    published_at: '2026-01-28T09:00:00+00:00'
-    description_html: '<p>This episode is a fun one because it contains a big announcement about the future of of the pod. Spoiler alert... Brooks is involved (if the episode title didn''t give it away). Drum roll please...</p><p>Brooks will continue their presenting sponsorship of Nobody Asked Us through at least LA 2028! To celebrate, we bring on Garrett Heath who is the head of sports marketing for Brooks to talk about the partnership.</p><p>Des and Kara are excited to be together for this one at Brooks HQ. Before Garrett joins, they start by giving some love to Minnesota and the challenges that the community is facing there. They hope that compassion can rule the day - more of that please - and that this pod can be a fun/light respite from the news. They give short life updates and talk a little about the indoor results from the weekend. Indoor track is back and things are already fast and spicy!</p><p>Then, they bring on Garrett. He gives you a background on his running (and skiing) career. He grew up in Minnesota, was NOT recruited by Kara''s alma mater CU, but did have an amazing career at Stanford before signing with Brooks as a pro. He''s worked his way up at Brooks and is now head of sports marketing.</p><p>Garrett shares some fun stories of his running past (beating some of the all-time greats) and then gives you some behind-the-scenes intel on sports marketing and how Brooks chooses and partners with athletes. Plus, he tells you why Brooks is exciting to support the pod with some previews of fun/new stuff coming in 2026. If that''s not enough to buy some Brooks shoes, then we don''t know what is!</p><p>Finally, they finish with a Lever uplifting Top 5, where they also announce a fun Lever contest. You could win one! See details at the contest link below!</p><p>Lever contest link: <a href= "https://levermovement.com/pages/nau-giveaway-lp">https://levermovement.com/pages/nau-giveaway-lp</a>. Contest will be live until Friday, Feb 6th at 12 pm MT (2 pm ET).</p><p>Or to go ahead and get yours: Use code NOBODYASKEDUS for 20% off here...</p><p>Purchase link: <a href= "https://bit.ly/4bLI2tG">https://bit.ly/4bLI2tG</a>.</p>'
-    description_plain: 'This episode is a fun one because it contains a big announcement about the future of of the pod. Spoiler alert... Brooks is involved (if the episode title didn''t give it away). Drum roll please... Brooks will continue their presenting sponsorship of Nobody Asked Us through at least LA 2028! To celebrate, we bring on Garrett Heath who is the head of sports marketing for Brooks to talk about the partnership. Des and Kara are excited to be together for this one at Brooks HQ. Before Garrett joins, they start by giving some love to Minnesota and the challenges that the community is facing there. They hope that compassion can rule the day - more of that please - and that this pod can be a fun/light respite from the news. They give short life updates and talk a little about the indoor results from the weekend. Indoor track is back and things are already fast and spicy! Then, they bring on Garrett. He gives you a background on his running (and skiing) career. He grew up in Minnesota, was NOT recruited by Kara''s alma mater CU, but did have an amazing career at Stanford before signing with Brooks as a pro. He''s worked his way up at Brooks and is now head of sports marketing. Garrett shares some fun stories of his running past (beating some of the all-time greats) and then gives you some behind-the-scenes intel on sports marketing and how Brooks chooses and partners with athletes. Plus, he tells you why Brooks is exciting to support the pod with some previews of fun/new stuff coming in 2026. If that''s not enough to buy some Brooks shoes, then we don''t know what is! Finally, they finish with a Lever uplifting Top 5, where they also announce a fun Lever contest. You could win one! See details at the contest link below! Lever contest link: https://levermovement.com/pages/nau-giveaway-lp . Contest will be live until Friday, Feb 6th at 12 pm MT (2 pm ET). Or to go ahead and get yours: Use code NOBODYASKEDUS for 20% off here... Purchase link: https://bit.ly/4bLI2tG .'
-    episode_image_url: https://static.libsyn.com/p/assets/f/7/0/8/f70827dd707d239f16c3140a3186d450/Des_and_Kara_-_Square_-_New_2-20260128-3h6hpnshpn.png
-    episode_uid: 336880a4-21b9-4a42-b9bc-2544bb7c2cca
-    episode_slug: 4-5-the-brooks-hq-episode
-    episode_key: 4-5-the-brooks-hq-episode
     legacy_numbered_slug: episode-25
-    episode_page_url: "/nobody-asked-us/4-5-the-brooks-hq-episode/"
+    episode_page_url: "/nobody-asked-us/4-6-the-millrose-recap/"
   https://anchor.fm/s/fd56e778/podcast/rss: &9
   - episode_title: Racing the 90km du Mont Blanc (And my Revamped Un-orginal Training Approach)
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Racing-the-90km-du-Mont-Blanc-And-my-Revamped-Un-orginal-Training-Approach-e3lcij6
@@ -22980,6 +22980,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/lex-fridman-podcast/474-dhh-future-of-programming-ai-ruby-on-rails-productivity-parenting/"
   https://feeds.megaphone.fm/hs2300184645: &75
+  - episode_title: 'Howard Marks: 80 years of investing wisdom in 46 minutes'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS7019324451.mp3
+    published_at: '2026-07-15T09:00:00Z'
+    description_html: '<p><em>Investing Guide:</em><a href="https://clickhubspot.com/epkr"><em> https://clickhubspot.com/epkr</em></a></p><p>Episode 841: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) and Shaan Puri ( <a href="https://x.com/ShaanVP"><u>https://x.com/ShaanVP</u></a> ) talk to legendary investor Howard Marks about AI and making decisions in the face of fear and uncertainty.</p><p>—</p><p>Show Notes:</p><p>(0:00) AI Hurtles Ahead</p><p>(8:26) second level thinking</p><p>(10:21) investing through the end of the world</p><p>(14:47) raising $11B at a time of crisis</p><p>(17:54) investing with fear</p><p>(20:22) the key to a successful partnership</p><p>(25:01) being a good father</p><p>(27:37) only 1 success: to live your life your way</p><p>(34:17) Having lunch with Warren Buffett</p><p>(37:18) What people don''t know about Buffett</p><p>(39:37) cigar butt investing</p><p>(41:35) recommended reading</p><p>—</p><p>Links:</p><p>• AI Hurtles Ahead - <a href="https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead"><u>https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead</u></a></p><p>• A Short History of Financial Euphoria - <a href="https://www.amazon.com/History-Financial-Euphoria-Penguin-Business/dp/0140238565"><u>https://www.amazon.com/History-Financial-Euphoria-Penguin-Business/dp/0140238565</u></a></p><p>• Fooled by Randomness - <a href="https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219"><u>https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219</u></a></p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Shaan uses Mercury for banking across all of his companies. you can too: <a href="http://mercury.com/"><u>http://mercury.com/</u></a></p><p><em>Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p>beehiiv.com/mfm-challenge</p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
+    description_plain: 'Investing Guide: https://clickhubspot.com/epkr Episode 841: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to legendary investor Howard Marks about AI and making decisions in the face of fear and uncertainty. — Show Notes: (0:00) AI Hurtles Ahead (8:26) second level thinking (10:21) investing through the end of the world (14:47) raising $11B at a time of crisis (17:54) investing with fear (20:22) the key to a successful partnership (25:01) being a good father (27:37) only 1 success: to live your life your way (34:17) Having lunch with Warren Buffett (37:18) What people don''t know about Buffett (39:37) cigar butt investing (41:35) recommended reading — Links: • AI Hurtles Ahead - https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead • A Short History of Financial Euphoria - https://www.amazon.com/History-Financial-Euphoria-Penguin-Business/dp/0140238565 • Fooled by Randomness - https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219 — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
+    episode_image_url: ''
+    episode_uid: beff1954-7ffc-11f1-b8f8-43ca77576af4
+    episode_slug: howard-marks-80-years-of-investing-wisdom-in-46-minutes
+    episode_key: howard-marks-80-years-of-investing-wisdom-in-46-minutes
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/my-first-million/howard-marks-80-years-of-investing-wisdom-in-46-minutes/"
   - episode_title: Brainstorming business ideas with a billion-dollar founder
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS5828054991.mp3
@@ -22990,7 +23002,7 @@ episodes_by_feed:
     episode_uid: e2a073e8-7bf7-11f1-b5ed-b3c55d6ed861
     episode_slug: brainstorming-business-ideas-with-a-billion-dollar-founder
     episode_key: brainstorming-business-ideas-with-a-billion-dollar-founder
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/my-first-million/brainstorming-business-ideas-with-a-billion-dollar-founder/"
   - episode_title: 5 ruthless business lessons from one week in NYC
     episode_url: ''
@@ -23002,7 +23014,7 @@ episodes_by_feed:
     episode_uid: d95b3a5a-79a1-11f1-8680-fb4ebe10ab6a
     episode_slug: 5-ruthless-business-lessons-from-one-week-in-nyc
     episode_key: 5-ruthless-business-lessons-from-one-week-in-nyc
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/my-first-million/5-ruthless-business-lessons-from-one-week-in-nyc/"
   - episode_title: I dropped out of college and built a $3.6B company from scratch
     episode_url: ''
@@ -23014,7 +23026,7 @@ episodes_by_feed:
     episode_uid: b6ccae26-75a8-11f1-8ac7-ab096f1f1b31
     episode_slug: i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch
     episode_key: i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/my-first-million/i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch/"
   - episode_title: 3 weird businesses doing $10M, $20M, $30M
     episode_url: ''
@@ -23026,7 +23038,7 @@ episodes_by_feed:
     episode_uid: 106c7e2e-7433-11f1-ac50-1f340ebd34b2
     episode_slug: 3-weird-businesses-doing-10m-20m-30m
     episode_key: 3-weird-businesses-doing-10m-20m-30m
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/my-first-million/3-weird-businesses-doing-10m-20m-30m/"
   - episode_title: We found an app that lets you buy anything for $0
     episode_url: ''
@@ -23038,7 +23050,7 @@ episodes_by_feed:
     episode_uid: c14c4c08-6f45-11f1-91a3-7bd20ad5965e
     episode_slug: we-found-an-app-that-lets-you-buy-anything-for-0
     episode_key: we-found-an-app-that-lets-you-buy-anything-for-0
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/my-first-million/we-found-an-app-that-lets-you-buy-anything-for-0/"
   - episode_title: We decoded the business behind this influencer’s perfect life
     episode_url: ''
@@ -23050,7 +23062,7 @@ episodes_by_feed:
     episode_uid: b644de20-6b07-11f1-b5df-bf5984da0b60
     episode_slug: we-decoded-the-business-behind-this-influencer-s-perfect-life
     episode_key: we-decoded-the-business-behind-this-influencer-s-perfect-life
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/my-first-million/we-decoded-the-business-behind-this-influencer-s-perfect-life/"
   - episode_title: How the Ex-Goldman CEO actually invests his own money
     episode_url: ''
@@ -23062,7 +23074,7 @@ episodes_by_feed:
     episode_uid: 9f1a1bfa-6974-11f1-83f9-cf3323ff8a5a
     episode_slug: how-the-ex-goldman-ceo-actually-invests-his-own-money
     episode_key: how-the-ex-goldman-ceo-actually-invests-his-own-money
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/my-first-million/how-the-ex-goldman-ceo-actually-invests-his-own-money/"
   - episode_title: The most simplified breakdown of the SpaceX IPO on the internet
     episode_url: ''
@@ -23074,7 +23086,7 @@ episodes_by_feed:
     episode_uid: c68664a6-65f4-11f1-9de4-e37b68835eca
     episode_slug: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
     episode_key: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/my-first-million/the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet/"
   - episode_title: Brutally honest guide to not losing money in the market
     episode_url: ''
@@ -23086,7 +23098,7 @@ episodes_by_feed:
     episode_uid: 9e1c2478-64c4-11f1-84cd-772fbe16ca42
     episode_slug: brutally-honest-guide-to-not-losing-money-in-the-market
     episode_key: brutally-honest-guide-to-not-losing-money-in-the-market
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/my-first-million/brutally-honest-guide-to-not-losing-money-in-the-market/"
   - episode_title: 'The "Idiot Index": the simple math that made Elon Musk billions'
     episode_url: ''
@@ -23098,7 +23110,7 @@ episodes_by_feed:
     episode_uid: 6f819d98-5f90-11f1-801f-4b95257989f7
     episode_slug: the-idiot-index-the-simple-math-that-made-elon-musk-billions
     episode_key: the-idiot-index-the-simple-math-that-made-elon-musk-billions
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/my-first-million/the-idiot-index-the-simple-math-that-made-elon-musk-billions/"
   - episode_title: We found 7 business ideas that will blow up in 2026
     episode_url: ''
@@ -23110,7 +23122,7 @@ episodes_by_feed:
     episode_uid: 548f822c-5e71-11f1-8953-67690eb1a7e9
     episode_slug: we-found-7-business-ideas-that-will-blow-up-in-2026
     episode_key: we-found-7-business-ideas-that-will-blow-up-in-2026
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/my-first-million/we-found-7-business-ideas-that-will-blow-up-in-2026/"
   - episode_title: The insane true story behind MTV
     episode_url: ''
@@ -23122,7 +23134,7 @@ episodes_by_feed:
     episode_uid: 728780f2-5af4-11f1-9c0c-3f4651ea78e5
     episode_slug: the-insane-true-story-behind-mtv
     episode_key: the-insane-true-story-behind-mtv
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/my-first-million/the-insane-true-story-behind-mtv/"
   - episode_title: The 50 richest families in America are betting on this trend
     episode_url: ''
@@ -23134,7 +23146,7 @@ episodes_by_feed:
     episode_uid: 6d34df0a-5941-11f1-a122-871eda1ebd30
     episode_slug: the-50-richest-families-in-america-are-betting-on-this-trend
     episode_key: the-50-richest-families-in-america-are-betting-on-this-trend
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/my-first-million/the-50-richest-families-in-america-are-betting-on-this-trend/"
   - episode_title: 'Mohnish Pabrai: This will save you 10 years of bad investments'
     episode_url: ''
@@ -23146,7 +23158,7 @@ episodes_by_feed:
     episode_uid: 47fa4356-55d6-11f1-8e97-9f707faff290
     episode_slug: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
     episode_key: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/my-first-million/mohnish-pabrai-this-will-save-you-10-years-of-bad-investments/"
   - episode_title: How Gary Vee runs 7 businesses
     episode_url: ''
@@ -23158,7 +23170,7 @@ episodes_by_feed:
     episode_uid: dda1a364-5314-11f1-adfa-ff899d3d9bff
     episode_slug: how-gary-vee-runs-7-businesses
     episode_key: how-gary-vee-runs-7-businesses
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/my-first-million/how-gary-vee-runs-7-businesses/"
   - episode_title: We hit record on our private strategy session
     episode_url: ''
@@ -23170,7 +23182,7 @@ episodes_by_feed:
     episode_uid: cc8f8d78-5050-11f1-8627-67885a2431b6
     episode_slug: we-hit-record-on-our-private-strategy-session
     episode_key: we-hit-record-on-our-private-strategy-session
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/my-first-million/we-hit-record-on-our-private-strategy-session/"
   - episode_title: How to manufacture a billionaire childhood
     episode_url: ''
@@ -23182,7 +23194,7 @@ episodes_by_feed:
     episode_uid: 01e5975a-4ebd-11f1-bb47-ab5cba329297
     episode_slug: how-to-manufacture-a-billionaire-childhood
     episode_key: how-to-manufacture-a-billionaire-childhood
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/my-first-million/how-to-manufacture-a-billionaire-childhood/"
   - episode_title: I put 80% of my money in the S&P
     episode_url: ''
@@ -23194,7 +23206,7 @@ episodes_by_feed:
     episode_uid: bb4c9a48-4d2a-11f1-b25d-8b22698537a3
     episode_slug: i-put-80-of-my-money-in-the-s-p
     episode_key: i-put-80-of-my-money-in-the-s-p
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/my-first-million/i-put-80-of-my-money-in-the-s-p/"
   - episode_title: How Replit Agent made $1M on day one (then $250M in a year)
     episode_url: ''
@@ -23206,7 +23218,7 @@ episodes_by_feed:
     episode_uid: 2ee1169c-4a0a-11f1-a08c-07fbaacaa2a3
     episode_slug: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
     episode_key: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/my-first-million/how-replit-agent-made-1m-on-day-one-then-250m-in-a-year/"
   - episode_title: Spotting Billion Dollar Investments Was Hard Until I Learned These 3 Rules | Rohan Oza
     episode_url: ''
@@ -23218,7 +23230,7 @@ episodes_by_feed:
     episode_uid: 3f0047e0-481c-11f1-8396-87c0687b7af3
     episode_slug: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
     episode_key: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/my-first-million/spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza/"
   - episode_title: This Opportunity Is Hidden In Plain Sight
     episode_url: ''
@@ -23230,7 +23242,7 @@ episodes_by_feed:
     episode_uid: 913eb3fe-435b-11f1-9187-7fc70c93a52e
     episode_slug: this-opportunity-is-hidden-in-plain-sight
     episode_key: this-opportunity-is-hidden-in-plain-sight
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/my-first-million/this-opportunity-is-hidden-in-plain-sight/"
   - episode_title: How to find your thing
     episode_url: ''
@@ -23242,7 +23254,7 @@ episodes_by_feed:
     episode_uid: 4c7342ea-41a2-11f1-b3bf-9f18d66051ca
     episode_slug: how-to-find-your-thing
     episode_key: how-to-find-your-thing
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/my-first-million/how-to-find-your-thing/"
   - episode_title: This guy built a $1B+ brand in 3 years. The product? You'd never guess
     episode_url: ''
@@ -23254,7 +23266,7 @@ episodes_by_feed:
     episode_uid: 5c1c6b3c-3ff3-11f1-bedf-5761296b80f8
     episode_slug: this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess
     episode_key: this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/my-first-million/this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess/"
   - episode_title: 25% Of My Portfolio Is One Overvalued Stock, Here's Why
     episode_url: ''
@@ -23266,20 +23278,8 @@ episodes_by_feed:
     episode_uid: 8658da72-3e57-11f1-964d-a3588e93fc1c
     episode_slug: 25-of-my-portfolio-is-one-overvalued-stock-here-s-why
     episode_key: 25-of-my-portfolio-is-one-overvalued-stock-here-s-why
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/my-first-million/25-of-my-portfolio-is-one-overvalued-stock-here-s-why/"
-  - episode_title: "#1 Habit Expert: Here's how you become dramatically better"
-    episode_url: ''
-    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS8644042670.mp3
-    published_at: '2026-04-16T16:45:00Z'
-    description_html: '<p><strong>Run your life like a $100M business. Get the system here:</strong><a href="https://clickhubspot.com/cdew"><strong> https://clickhubspot.com/cdew</strong></a></p><p>Episode 815: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) talks to Charles Duhigg ( <a href="https://x.com/cduhigg"><u>https://x.com/cduhigg</u></a> ) about how to transform your life through habits.</p><p>—</p><p>Show Notes:</p><p>(0:00) the habit loop</p><p>(5:26) you fall to the levels of your systems</p><p>(11:06) replying to emails in your inbox</p><p>(14:44) chosen bad habits</p><p>(16:20) 1-line journaling</p><p>(19:30) supercommunication</p><p>(28:12) Trump''s supercommunication skill</p><p>(33:15) a case against authenticity</p><p>(37:44) famous speeches</p><p>(45:58) coldcalling 900 people</p><p>(47:43) 60-second productivity masterclass</p><p>(49:51) The best stuff Charles has read lately</p><p>(53:13) financial freedom</p><p>(56:17) bending the earth to your will</p><p>—</p><p>Links:</p><p>• Charles Duhigg - <a href="https://charlesduhigg.com/"><u>https://charlesduhigg.com/</u></a></p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Need a bank for your company? Go check out Mercury (<a href="http://mercury.com/">mercury.com</a>). Shaan uses it for all of his companies!</p><p><em>Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p>beehiiv.com/mfm-challenge</p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
-    description_plain: 'Run your life like a $100M business. Get the system here: https://clickhubspot.com/cdew Episode 815: Sam Parr ( https://x.com/theSamParr ) talks to Charles Duhigg ( https://x.com/cduhigg ) about how to transform your life through habits. — Show Notes: (0:00) the habit loop (5:26) you fall to the levels of your systems (11:06) replying to emails in your inbox (14:44) chosen bad habits (16:20) 1-line journaling (19:30) supercommunication (28:12) Trump''s supercommunication skill (33:15) a case against authenticity (37:44) famous speeches (45:58) coldcalling 900 people (47:43) 60-second productivity masterclass (49:51) The best stuff Charles has read lately (53:13) financial freedom (56:17) bending the earth to your will — Links: • Charles Duhigg - https://charlesduhigg.com/ — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury ( mercury.com ). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
-    episode_image_url: ''
-    episode_uid: 612c71e2-39a1-11f1-a443-0b57f56ee0b0
-    episode_slug: 1-habit-expert-here-s-how-you-become-dramatically-better
-    episode_key: 1-habit-expert-here-s-how-you-become-dramatically-better
     legacy_numbered_slug: episode-25
-    episode_page_url: "/my-first-million/1-habit-expert-here-s-how-you-become-dramatically-better/"
+    episode_page_url: "/my-first-million/25-of-my-portfolio-is-one-overvalued-stock-here-s-why/"
   https://feed.podbean.com/mathiasmacody/feed.xml: &76
   - episode_title: Q and A med Team Macody
     episode_url: https://mathiasmacody.podbean.com/e/q-and-a-med-team-macody/
