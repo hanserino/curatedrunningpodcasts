@@ -15,12 +15,12 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="{{ about_href }}"
-            class="main-nav__link"
-            {%- if page.path == 'about.md' or page.layout == 'about' %} aria-current="page"{% endif %}
-            >About</a>
-        </li>
+            <a
+              href="{{ latest_href }}"
+              class="main-nav__link"
+              {%- if page.path == 'latest-episodes.md' or page.layout == 'latest' %} aria-current="page"{% endif %}
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="{{ runners_picks_href }}"
@@ -29,12 +29,13 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="{{ latest_href }}"
-            class="main-nav__link"
-            {%- if page.path == 'latest-episodes.md' or page.layout == 'latest' %} aria-current="page"{% endif %}
-            >Latest episodes</a>
-        </li>
+            <a
+              href="{{ about_href }}"
+              class="main-nav__link"
+              {%- if page.path == 'about.md' or page.layout == 'about' %} aria-current="page"{% endif %}
+              >About</a>
+          </li>
+        {% include user-auth.html %}
       </ul>
     </nav>
   </div>

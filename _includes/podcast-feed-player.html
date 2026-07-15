@@ -47,7 +47,7 @@
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
         <div class="latest-episodes__episode-main">
-          {% include episode-page-link.html episode=episode podcast_slug=page.slug class="latest-episodes__episode-title" %}
+          {% include episode-page-link.html episode=episode podcast_slug=page.slug podcast_page_url=page.url class="latest-episodes__episode-title" %}
           {%- if published_label != "" -%}
           <time class="latest-episodes__episode-date" datetime="{{ episode.published_at }}">{{ published_label }}</time>
           {%- endif -%}

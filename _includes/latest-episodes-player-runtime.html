@@ -60,14 +60,22 @@
 
     var STORAGE_KEY = 'brp-listen-progress-v1';
     var STORAGE_KEY_LAST = 'brp-last-listened-v1';
-    var MAX_PROGRESS_ENTRIES = 100;
     var MIN_RESUME_SEC = 5;
     var END_MARGIN_SEC = 15;
-    var TIMEUPDATE_SAVE_MS = 8000;
+    var TIMEUPDATE_SAVE_MS = 5000;
     var SKIP_BACK_SEC = 15;
     var SKIP_FORWARD_SEC = 30;
     var lastTimeupdateSave = 0;
     var resumeAppliedForSrc = '';
+
+    function notifyUserSync(immediate) {
+      if (!window.BrpUserSync) return;
+      if (immediate && window.BrpUserSync.flushLocalChange) {
+        window.BrpUserSync.flushLocalChange();
+      } else if (window.BrpUserSync.notifyLocalChange) {
+        window.BrpUserSync.notifyLocalChange();
+      }
+    }
 
     function formatTime(seconds) {
       if (!isFinite(seconds) || seconds < 0) return '0:00';
@@ -110,20 +118,17 @@
       }
     }
 
-    function pruneProgressMap(map) {
-      var keys = Object.keys(map);
-      if (keys.length <= MAX_PROGRESS_ENTRIES) return;
-      keys.sort(function (a, b) {
-        return (map[a].u || 0) - (map[b].u || 0);
-      });
-      for (var i = 0; i < keys.length - MAX_PROGRESS_ENTRIES; i++) {
-        delete map[keys[i]];
-      }
+    function isProgressComplete(row) {
+      if (!row) return false;
+      if (row.c === true) return true;
+      if (!isFinite(row.d) || row.d <= 0) return false;
+      return isFinite(row.t) && row.t >= row.d - END_MARGIN_SEC;
     }
 
     function persistProgressMap(map) {
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
+        notifyUserSync();
       } catch (e) {}
     }
 
@@ -137,7 +142,20 @@
 
     function getSavedProgressSeconds(url) {
       var row = getSavedProgressRow(url);
-      return row ? row.t : null;
+      if (!row || isProgressComplete(row)) return null;
+      return row.t;
+    }
+
+    function markProgressComplete(url, duration) {
+      var key = storageUrlKey(url);
+      if (!key) return;
+      var dur = duration;
+      if (!isFinite(dur) || dur <= 0) {
+        var existing = getSavedProgressRow(url);
+        if (existing && isFinite(existing.d) && existing.d > 0) dur = existing.d;
+      }
+      if (!isFinite(dur) || dur <= 0) return;
+      saveProgressForUrl(url, dur, dur);
     }
 
     function removeProgressForUrl(url) {
@@ -156,20 +174,21 @@
         removeProgressForUrl(url);
         return;
       }
-      var dur = duration;
-      if (isFinite(dur) && dur > 0 && currentTime >= dur - END_MARGIN_SEC) {
-        removeProgressForUrl(url);
-        return;
-      }
       var map = loadProgressMap();
       var existing = map[key] || {};
-      var dStored = undefined;
-      if (isFinite(duration) && duration > 0) dStored = duration;
-      else if (isFinite(existing.d) && existing.d > 0) dStored = existing.d;
-      var entry = { t: currentTime, u: Date.now() };
-      if (dStored != null) entry.d = dStored;
+      var dur = duration;
+      if (!isFinite(dur) || dur <= 0) {
+        if (isFinite(existing.d) && existing.d > 0) dur = existing.d;
+      }
+      var entry;
+      if (isFinite(dur) && dur > 0 && currentTime >= dur - END_MARGIN_SEC) {
+        entry = { t: dur, d: dur, u: Date.now(), c: true };
+      } else {
+        entry = { t: currentTime, u: Date.now() };
+        if (isFinite(dur) && dur > 0) entry.d = dur;
+        else if (isFinite(existing.d) && existing.d > 0) entry.d = existing.d;
+      }
       map[key] = entry;
-      pruneProgressMap(map);
       persistProgressMap(map);
     }
 
@@ -189,9 +208,10 @@
         return Math.min(100, Math.max(0, (cur / dur) * 100));
       }
       var row = getSavedProgressRow(url);
-      if (!row || !isFinite(row.d) || row.d <= 0) return null;
+      if (!row) return null;
+      if (isProgressComplete(row)) return 100;
+      if (!isFinite(row.d) || row.d <= 0) return null;
       if (row.t < MIN_RESUME_SEC) return null;
-      if (row.t >= row.d - END_MARGIN_SEC) return null;
       return Math.min(100, Math.max(0, (row.t / row.d) * 100));
     }
 
@@ -227,7 +247,6 @@
       var dur = player.duration;
       if (!isFinite(dur) || dur <= 0) return;
       if (saved < MIN_RESUME_SEC || saved >= dur - END_MARGIN_SEC) {
-        if (saved >= dur - END_MARGIN_SEC) removeProgressForUrl(url);
         resumeAppliedForSrc = url;
         return;
       }
@@ -273,6 +292,7 @@
             u: Date.now(),
           })
         );
+        notifyUserSync();
       } catch (e) {}
     }
 
@@ -282,6 +302,7 @@
       if (urlsMatch(last.url, url)) {
         try {
           localStorage.removeItem(STORAGE_KEY_LAST);
+          notifyUserSync(true);
         } catch (e) {}
       }
     }
@@ -1007,6 +1028,7 @@
       if (root.classList.contains('latest-episodes--episode-page')) return;
       var last = loadLastListened();
       if (!last) return;
+      if (isProgressComplete(getSavedProgressRow(last.url))) return;
       var btn = findButtonForStoredUrl(last.url);
       if (!btn) return;
       var t = getSavedProgressSeconds(last.url);
@@ -1050,6 +1072,10 @@
 
     refreshAllListenProgress();
     setupMediaSessionHandlers();
+
+    document.addEventListener('brp-user-synced', function () {
+      refreshAllListenProgress();
+    });
 
     player.addEventListener('loadedmetadata', function () {
       applyResumeIfNeeded();
@@ -1101,12 +1127,14 @@
       setMediaSessionPlaybackState('paused');
       var u = playerActiveUrl();
       if (u) saveProgressForUrl(u, player.currentTime, player.duration);
+      notifyUserSync(true);
       refreshAllListenProgress();
     });
 
     player.addEventListener('seeked', function () {
       var u = playerActiveUrl();
       if (u) saveProgressForUrl(u, player.currentTime, player.duration);
+      notifyUserSync(true);
       updateTransportTimes();
       updateMediaSessionPosition();
       refreshAllListenProgress();
@@ -1115,11 +1143,17 @@
     window.addEventListener('pagehide', function () {
       var u = playerActiveUrl();
       if (u && !player.ended) saveProgressForUrl(u, player.currentTime, player.duration);
+      notifyUserSync(true);
       suspendWaveAudioContext();
     });
 
     document.addEventListener('visibilitychange', function () {
       if (document.visibilityState === 'hidden') {
+        var hiddenUrl = playerActiveUrl();
+        if (hiddenUrl && !player.paused && !player.ended) {
+          saveProgressForUrl(hiddenUrl, player.currentTime, player.duration);
+        }
+        notifyUserSync(true);
         suspendWaveAudioContext();
         return;
       }
@@ -1162,8 +1196,9 @@
       setMediaSessionPlaybackState('paused');
       var u = playerActiveUrl();
       if (u) {
-        removeProgressForUrl(u);
+        markProgressComplete(u, player.duration);
         clearLastListenedIfUrl(u);
+        notifyUserSync(true);
       }
       resumeAppliedForSrc = '';
       if (currentLi) {

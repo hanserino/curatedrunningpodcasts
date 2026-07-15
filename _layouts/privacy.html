@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+	{% include head.html %}
+	{% include schema-page.html %}
+</head>
+<body class="post-page post-page--privacy" data-box-grid="true">
+	{% include skip-link.html %}
+	<main id="main-content">
+		<article class="privacy-page">
+			<header class="privacy-page__intro">
+				{% include post-page-nav.html %}
+				<p class="privacy-page__kicker">Your data on this site</p>
+				<h1 class="privacy-page__title">{{ page.title }}</h1>
+				{% if page.description %}
+				<p class="privacy-page__lede">{{ page.description }}</p>
+				{% endif %}
+			</header>
+			<div class="privacy-page__content post-article__content">
+				<div class="privacy-prose">
+					{{- content | replace: '<img ', '<img fetchpriority="high" decoding="async" ' -}}
+				</div>
+			</div>
+			<footer class="post-article__footer">
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
+			</footer>
+		</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>

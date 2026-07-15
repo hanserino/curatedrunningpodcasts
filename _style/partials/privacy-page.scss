@@ -1,0 +1,215 @@
+.post-page--privacy {
+    .privacy-page {
+        padding: 0 1rem 2rem;
+        max-width: none;
+    }
+
+    .privacy-page__intro {
+        margin-bottom: 1.5rem;
+        padding: 1.15rem 1.2rem 1.25rem;
+        @include brutal-surface;
+        @include lane-ticker;
+
+        .post-page__intro-bar {
+            margin-bottom: 0.85rem;
+        }
+    }
+
+    .privacy-page__kicker {
+        @include timer-label;
+        margin: 0 0 0.5rem;
+    }
+
+    .privacy-page__title {
+        margin: 0 0 0.55rem;
+        font-family: $font-display;
+        font-size: clamp(1.75rem, 4vw, 2.45rem);
+        font-weight: 700;
+        color: $color-ink;
+        letter-spacing: -0.03em;
+        line-height: 1.05;
+    }
+
+    .privacy-page__lede {
+        margin: 0;
+        max-width: 40rem;
+        color: $color-muted;
+        font-size: 1.08rem;
+        line-height: 1.6;
+    }
+
+    .privacy-page__content {
+        padding: 0;
+        border: none;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .privacy-prose {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1.35rem 1.4rem 1.5rem;
+        overflow: visible;
+        @include brutal-surface;
+        font-size: 1.02rem;
+        line-height: 1.7;
+        color: $color-ink;
+
+        > :first-child {
+            margin-top: 0;
+        }
+
+        > :last-child {
+            margin-bottom: 0;
+        }
+
+        p {
+            margin: 0 0 1rem;
+        }
+
+        p + h2 {
+            margin-top: 2rem;
+        }
+
+        em {
+            color: $color-muted;
+            font-size: 0.95rem;
+        }
+
+        h2 {
+            margin: 2.25rem 0 0.75rem;
+            padding-top: 1.5rem;
+            border-top: $border-width solid rgba($color-ink, 0.12);
+            font-family: $font-display;
+            font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            color: $color-ink;
+
+            &:first-child {
+                margin-top: 0;
+                padding-top: 0;
+                border-top: 0;
+            }
+        }
+
+        h2 + p {
+            margin-top: 0;
+        }
+
+        ul {
+            margin: 0 0 1.15rem 0.35rem;
+            padding-left: 1.85rem;
+            list-style-position: outside;
+            display: grid;
+            gap: 0.45rem;
+        }
+
+        li {
+            padding-left: 0.25rem;
+        }
+
+        li::marker {
+            color: $color-muted;
+        }
+
+        a {
+            color: $color-ink;
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+
+            &:hover,
+            &:focus-visible {
+                background: $color-lane;
+            }
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+        code {
+            font-family: $font-mono;
+            font-size: 0.88em;
+            padding: 0.12rem 0.35rem;
+            border-radius: $radius-sm;
+            background: rgba($color-lane, 0.85);
+            border: 1px solid rgba($color-ink, 0.12);
+            word-break: break-word;
+        }
+
+        table {
+            width: 100%;
+            margin: 0 0 1.25rem;
+            border-collapse: collapse;
+            font-size: 0.96rem;
+            line-height: 1.45;
+        }
+
+        thead th {
+            text-align: left;
+            font-family: $font-mono;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: $color-muted;
+            padding: 0.55rem 0.75rem;
+            border-bottom: $border-heavy;
+            background: rgba($color-lane, 0.55);
+        }
+
+        tbody td {
+            padding: 0.7rem 0.75rem;
+            vertical-align: top;
+            border-bottom: 1px solid rgba($color-ink, 0.12);
+        }
+
+        tbody tr:last-child td {
+            border-bottom: 0;
+        }
+
+        tbody td:first-child {
+            font-weight: 700;
+            width: 34%;
+            min-width: 7.5rem;
+        }
+    }
+
+    .post-article__footer {
+        max-width: 42rem;
+        margin: 2rem auto 0;
+        padding-top: 1.25rem;
+        border-top: $border-heavy;
+    }
+}
+
+@include allBelow(medium) {
+    .post-page--privacy {
+        .privacy-page {
+            padding: 0 $page-gutter-mobile 1.75rem;
+        }
+
+        .privacy-page__intro {
+            padding: 1rem 1.05rem 1.1rem;
+        }
+
+        .privacy-prose {
+            padding: 1rem 1.05rem 1.15rem;
+            font-size: 1rem;
+
+            table {
+                display: block;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            tbody td:first-child {
+                min-width: 6.5rem;
+            }
+        }
+    }
+}

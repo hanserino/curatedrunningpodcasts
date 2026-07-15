@@ -5,6 +5,7 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="{{ '/privacy/' | relative_url }}">Privacy</a> ·
     <a href="{{ '/admin/' | relative_url }}" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p>
     {%- assign rss_data = site.data.latest_podcast_episodes -%}
     {%- if rss_data and rss_data.generated_at -%}
@@ -21,4 +22,14 @@
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
 </script>
+{%- if site.supabase.url and site.supabase.url != '' and site.supabase.anon_key and site.supabase.anon_key != '' -%}
+<script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: {{ site.supabase.url | jsonify }},
+    anonKey: {{ site.supabase.anon_key | jsonify }}
+  };
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="{{ '/assets/scripts/user-sync.js' | relative_url }}" defer></script>
+{%- endif -%}
 <script src="{{ "/assets/scripts/main.js" | relative_url }}" defer></script>

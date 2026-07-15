@@ -31,6 +31,10 @@ org_url: "https://www.naerdetalvor.no"
 lang: en
 # Set true when Runners' picks should appear in nav and home callout.
 runners_picks_public: true
+# Google sign-in + cross-device sync (see admin/AUTH-SETUP.md). Leave empty to disable.
+supabase:
+  url: "https://xoqzcozyzikraqhmnhvo.supabase.co"
+  anon_key: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
 collections:
   runner_picks:
     output: false

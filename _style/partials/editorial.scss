@@ -698,6 +698,17 @@ $ep-play-compact: 2.25rem;
     &__episode-title {
         font-weight: bold;
         line-height: 1.35;
+
+        &:is(a) {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover,
+            &:focus-visible {
+                color: $color-speed;
+                text-decoration: underline;
+            }
+        }
     }
 
     &__episode-date {
@@ -779,6 +790,17 @@ $ep-play-compact: 2.25rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+
+        &:is(a) {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover,
+            &:focus-visible {
+                color: $color-speed;
+                text-decoration: underline;
+            }
+        }
     }
 
     &__meta--stacked {

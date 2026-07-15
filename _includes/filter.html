@@ -4,6 +4,14 @@
 {%- endif -%}
 {%- assign _filter_title = include.title | default: 'Find a podcast' -%}
 {%- assign _filter_noun = include.noun | default: 'podcast' -%}
+{%- assign _filter_page = include.filter_page -%}
+{%- if _filter_page == nil -%}
+  {%- if _filter_noun == 'episode' -%}
+    {%- assign _filter_page = 'latest' -%}
+  {%- else -%}
+    {%- assign _filter_page = 'home' -%}
+  {%- endif -%}
+{%- endif -%}
 {%- assign _filter_item = include.filter_item | default: '.podcast-loop__item:not(.no-podcast-found)' -%}
 {%- assign _show_opml_favorites = include.show_opml_favorites -%}
 {%- if _show_opml_favorites == nil -%}
@@ -32,6 +40,7 @@
     aria-labelledby="filter-heading"
     data-filter-item="{{ _filter_item }}"
     data-filter-noun="{{ _filter_noun }}"
+    data-filter-page="{{ _filter_page }}"
 >
     <div class="filter__bar">
         <div class="filter__intro">

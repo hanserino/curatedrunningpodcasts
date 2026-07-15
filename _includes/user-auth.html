@@ -1,0 +1,43 @@
+{%- if site.supabase.url and site.supabase.url != '' and site.supabase.anon_key and site.supabase.anon_key != '' -%}
+<li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
+{%- endif -%}
