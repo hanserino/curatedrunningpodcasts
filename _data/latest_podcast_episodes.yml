@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-15T07:42:12Z'
+generated_at: '2026-07-15T08:52:50Z'
 items:
+- podcast_title: The Real Science Of Sport
+  podcast_page_url: "/the-real-science-of-sport/"
+  cover_image: "/media/realscienceofsportpod.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
+  filter_category: science english
+  episode_title: A "Concussion Sensor" Comes to the Tour de France / Spain Dismantle France / Does SA Rugby Have a Doping Problem?
+  episode_url: https://shows.acast.com/realscienceofsport/episodes/a-concussion-sensor-comes-to-the-tour-de-france-spain-disman
+  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a573d2fc90e948cc40236d8/media.mp3
+  published_at: '2026-07-15T07:56:31+00:00'
+  episode_key: a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem
+  episode_slug: a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem
+  episode_page_url: "/the-real-science-of-sport/a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem/"
 - podcast_title: Team Macody Podcast
   podcast_page_url: "/team-macody-podcast/"
   cover_image: "/media/teammacody.jpeg"
@@ -181,18 +193,6 @@ items:
   episode_key: this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-
   episode_slug: this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-
   episode_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-/"
-- podcast_title: The Real Science Of Sport
-  podcast_page_url: "/the-real-science-of-sport/"
-  cover_image: "/media/realscienceofsportpod.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24
-  filter_category: science english
-  episode_title: The Science of a Pro Cycling Team
-  episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-science-of-a-pro-cycling-team
-  audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a550be175790d5f016d7a2f/media.mp3
-  published_at: '2026-07-13T16:01:36+00:00'
-  episode_key: the-science-of-a-pro-cycling-team
-  episode_slug: the-science-of-a-pro-cycling-team
-  episode_page_url: "/the-real-science-of-sport/the-science-of-a-pro-cycling-team/"
 - podcast_title: La Bande à D+
   podcast_page_url: "/la-bande-a-d/"
   cover_image: "/media/labandeadplus.jpeg"
@@ -782,6 +782,18 @@ non_running_items:
   episode_key: bettan-byvald
   episode_slug: bettan-byvald
   episode_page_url: "/sommar-vinter-i-p1/bettan-byvald/"
+- podcast_title: When We Were Kings
+  podcast_page_url: "/when-we-were-kings/"
+  cover_image: "/media/whenwewerekings.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
+  filter_category: uncategorized swedish
+  episode_title: 'Matchdag 32: Argentina - England 1986'
+  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-32-argentina-england-1986
+  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a5746ec7e01c44e38e1666f/media.mp3
+  published_at: '2026-07-15T08:38:04+00:00'
+  episode_key: matchdag-32-argentina-england-1986
+  episode_slug: matchdag-32-argentina-england-1986
+  episode_page_url: "/when-we-were-kings/matchdag-32-argentina-england-1986/"
 - podcast_title: Normal Gossip
   podcast_page_url: "/normal-gossip/"
   cover_image: "/media/normalgossip.jpeg"
@@ -878,18 +890,6 @@ non_running_items:
   episode_key: the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder
   episode_slug: the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder
   episode_page_url: "/pablo-torre-finds-out/the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder/"
-- podcast_title: When We Were Kings
-  podcast_page_url: "/when-we-were-kings/"
-  cover_image: "/media/whenwewerekings.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4
-  filter_category: uncategorized swedish
-  episode_title: 'Matchdag 31: När Jesús Navas blev upptäckt'
-  episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-31-nar-jesus-navas-blev-upptackt
-  audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a55efa6957ea5916f3093f9/media.mp3
-  published_at: '2026-07-14T08:13:26+00:00'
-  episode_key: matchdag-31-nar-jesus-navas-blev-upptackt
-  episode_slug: matchdag-31-nar-jesus-navas-blev-upptackt
-  episode_page_url: "/when-we-were-kings/matchdag-31-nar-jesus-navas-blev-upptackt/"
 - podcast_title: Huberman Lab
   podcast_page_url: "/huberman-lab/"
   cover_image: "/media/huberman.jpeg"
@@ -8966,6 +8966,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-extramilest-show/106-running-after-40-lessons-to-improve-at-any-age-with-sean-lee/"
   https://feeds.acast.com/public/shows/f3fb5c75-b943-4f5d-bd87-27c91611dd24: &27
+  - episode_title: A "Concussion Sensor" Comes to the Tour de France / Spain Dismantle France / Does SA Rugby Have a Doping Problem?
+    episode_url: https://shows.acast.com/realscienceofsport/episodes/a-concussion-sensor-comes-to-the-tour-de-france-spain-disman
+    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a573d2fc90e948cc40236d8/media.mp3
+    published_at: '2026-07-15T07:56:31+00:00'
+    description_html: '<p><a href="https://www.patreon.com/c/thescienceofsport/membership" rel="noopener noreferrer" target="_blank">Become a Supporter of the Science of Sport</a> and you''ll get the Applied show every week, ad-free listening, and a seat in the best community in sports science, all for the price of a coffee a month (or a gel if you''re a cyclist). Here are <a href="https://drive.google.com/file/d/1aI1yNxmhdrDg45mGKVNrgtatUOtSWTBV/view?usp=sharing" rel="noopener noreferrer" target="_blank">all the membership benefits</a>, join now!</p><p><strong><u>Show notes</u></strong></p><p>This week our headline topic is a "concussion sensor" being trialled by some teams at the Tour de France, and why it is a welcome innovation, but one that, for now, invites potentially dangerous false hope. We also take a spin through the rest of the week in sport, covering football, cycling, tennis and track and field. Oh, and hotdogs.</p><ul><li>(00:00:20) The World Cup nears its finale, and Spain utterly outplayed France to reach the final, making fools of our predictions after Gareth handed France to Ross. We get into why the France-Spain dynamic flipped so completely, the scarcity of penalty shootouts this tournament, the mooted expansion to 64 teams, hydration-break ad money paying for the broadcast rights, the ref cam, and the goal-line technology row over the England-Norway "wire" incident.</li><li>(00:16:18) Following our <a href="https://podcasts.apple.com/za/podcast/the-science-of-a-pro-cycling-team/id1461719225?i=1000776622539" rel="noopener noreferrer" target="_blank">David Bailey podcast</a>, we ask whether the peloton is simply scared of Tadej Pogačar, whose dominance at the Tour has riders like Ben Healy and Florian Lipowitz shaking their heads in bewilderment. We also unpack why "marginal gains" and sports science only ever matter as a point of difference, borrowing points-of-parity and points-of-difference thinking from marketing.</li><li>(00:24:16) Our headline piece. A "<a href="https://www.cyclingweekly.com/news/nsn-cycling-team-and-uno-x-mobility-are-testing-a-concussion-sensor-at-the-tour-de-france-but-what-does-this-mean-for-rider-safety?utm_source=facebook&amp;utm_medium=social&amp;utm_campaign=dhfacebook&amp;utm_content=null" rel="noopener noreferrer" target="_blank">concussion" sensor sitting behind the helmet''s BOA dial</a> is being trialled by some teams the Tour, and we explain why the name is a dangerous misnomer. A helmet-mounted device measures helmet acceleration, not the brain, may be triggered off by cobbles, and can never be diagnostic. We explain that it could be used as a triage tool, not a diagnostic one that replaces road-side assessments. Drawing on rugby''s mouthguard data, hundreds of thousands of head-acceleration events with poor sensitivity and predictive value, and the case of Torstein Traen, who passed a roadside check yet was later diagnosed with concussion, Ross explains that this is a genuine safety opportunity, but only if cycling gets the framing and the use of it right.</li><li>(00:40:06) A wrap of the Wimbledon finals, with remarkable mental resilience from the new women''s champion Linda Noskova, and Jannik Sinner''s dominant serve. We look at Sinner''s serve speed and placement, and how Zverev manages type 1 diabetes on court.</li><li>(00:45:53) A rush of track action from the Monaco Diamond League, including Emmanuel Wanyonyi''s 1000m world record and a brave but doomed attempt at the 3000m WR by Birke Haylom, who paid for what ended up being a pacing error by coming last. We also look ahead to the London Diamond League, headlined by <a href="https://www.youtube.com/watch?v=BmbTpynkpnM" rel="noopener noreferrer" target="_blank">Josh Kerr''s much-hyped mile world record attempt</a>, the women''s 800m with Hodgkinson and Bol, and a stacked men''s 800m.</li><li>(00:57:50) Does South African rugby have a doping problem? A new positive for junior Springbok prop Kai Pratt, <a href="https://www.sarugbymag.co.za/drug-watchdog-defends-sa-rugby/" rel="noopener noreferrer" target="_blank">SAIDS rejecting the "witch hunt" framing</a>, and Ross <a href="https://drugfreesport.org.za/wp-content/uploads/2025/10/2024-2025-SAIDS-Annual-Report.pdf" rel="noopener noreferrer" target="_blank">digs into the numbers</a>: testing down more than six-fold in a decade, South Africa accounting for one in five rugby doping cases worldwide, and an anti-doping body whose budget has flatlined. We argue why "sour grapes" is no defence, and why the answer is to test more, not deflect.</li><li>(01:04:57) And Finally, Joey Chestnut wins another July 4th hot dog title, with the Kobayashi method as competitive eating''s "super shoes", and an Ironman in Swansea sends us down the rabbit hole of how organisers conjure those economic-impact and "media value" figures, plus the leader who rode straight into a stationary ambulance.</li></ul><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
+    description_plain: 'Become a Supporter of the Science of Sport and you''ll get the Applied show every week, ad-free listening, and a seat in the best community in sports science, all for the price of a coffee a month (or a gel if you''re a cyclist). Here are all the membership benefits , join now! Show notes This week our headline topic is a "concussion sensor" being trialled by some teams at the Tour de France, and why it is a welcome innovation, but one that, for now, invites potentially dangerous false hope. We also take a spin through the rest of the week in sport, covering football, cycling, tennis and track and field. Oh, and hotdogs. (00:00:20) The World Cup nears its finale, and Spain utterly outplayed France to reach the final, making fools of our predictions after Gareth handed France to Ross. We get into why the France-Spain dynamic flipped so completely, the scarcity of penalty shootouts this tournament, the mooted expansion to 64 teams, hydration-break ad money paying for the broadcast rights, the ref cam, and the goal-line technology row over the England-Norway "wire" incident. (00:16:18) Following our David Bailey podcast , we ask whether the peloton is simply scared of Tadej Pogačar, whose dominance at the Tour has riders like Ben Healy and Florian Lipowitz shaking their heads in bewilderment. We also unpack why "marginal gains" and sports science only ever matter as a point of difference, borrowing points-of-parity and points-of-difference thinking from marketing. (00:24:16) Our headline piece. A " concussion" sensor sitting behind the helmet''s BOA dial is being trialled by some teams the Tour, and we explain why the name is a dangerous misnomer. A helmet-mounted device measures helmet acceleration, not the brain, may be triggered off by cobbles, and can never be diagnostic. We explain that it could be used as a triage tool, not a diagnostic one that replaces road-side assessments. Drawing on rugby''s mouthguard data, hundreds of thousands of head-acceleration events with poor sensitivity and predictive value, and the case of Torstein Traen, who passed a roadside check yet was later diagnosed with concussion, Ross explains that this is a genuine safety opportunity, but only if cycling gets the framing and the use of it right. (00:40:06) A wrap of the Wimbledon finals, with remarkable mental resilience from the new women''s champion Linda Noskova, and Jannik Sinner''s dominant serve. We look at Sinner''s serve speed and placement, and how Zverev manages type 1 diabetes on court. (00:45:53) A rush of track action from the Monaco Diamond League, including Emmanuel Wanyonyi''s 1000m world record and a brave but doomed attempt at the 3000m WR by Birke Haylom, who paid for what ended up being a pacing error by coming last. We also look ahead to the London Diamond League, headlined by Josh Kerr''s much-hyped mile world record attempt , the women''s 800m with Hodgkinson and Bol, and a stacked men''s 800m. (00:57:50) Does South African rugby have a doping problem? A new positive for junior Springbok prop Kai Pratt, SAIDS rejecting the "witch hunt" framing , and Ross digs into the numbers : testing down more than six-fold in a decade, South Africa accounting for one in five rugby doping cases worldwide, and an anti-doping body whose budget has flatlined. We argue why "sour grapes" is no defence, and why the answer is to test more, not deflect. (01:04:57) And Finally, Joey Chestnut wins another July 4th hot dog title, with the Kobayashi method as competitive eating''s "super shoes", and an Ironman in Swansea sends us down the rabbit hole of how organisers conjure those economic-impact and "media value" figures, plus the leader who rode straight into a stationary ambulance. Hosted on Acast. See acast.com/privacy for more information.'
+    episode_image_url: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1784099782462-13a5b86c-27eb-4393-bbff-2a3799e55013.jpeg
+    episode_uid: 6a573d2fc90e948cc40236d8
+    episode_slug: a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem
+    episode_key: a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-real-science-of-sport/a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem/"
   - episode_title: The Science of a Pro Cycling Team
     episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-science-of-a-pro-cycling-team
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a550be175790d5f016d7a2f/media.mp3
@@ -8976,7 +8988,7 @@ episodes_by_feed:
     episode_uid: 6a550be175790d5f016d7a2f
     episode_slug: the-science-of-a-pro-cycling-team
     episode_key: the-science-of-a-pro-cycling-team
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-real-science-of-sport/the-science-of-a-pro-cycling-team/"
   - episode_title: 'Stop Watching the Ball: Michael Cox Unlocks the Fascinating Hidden Sides of Football'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/stop-watching-the-ball-michael-cox-unlocks-the-hidden-side-o
@@ -8988,7 +9000,7 @@ episodes_by_feed:
     episode_uid: 6a4ea6782b60482dd2042a0c
     episode_slug: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
     episode_key: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-real-science-of-sport/stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football/"
   - episode_title: England Survive Altitude and Mexico / The Doctor's Dilemma in Elite Sport - When Is Enough? / How Women Out "Pace" Men in Marathons
     episode_url: https://shows.acast.com/realscienceofsport/episodes/englands-survive-altitude-and-mexico-the-doctor-dilemma-in-e
@@ -9000,7 +9012,7 @@ episodes_by_feed:
     episode_uid: 6a4e15c642872185cc26ddc3
     episode_slug: england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho
     episode_key: england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-real-science-of-sport/england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho/"
   - episode_title: 'Inside the World of F1 Racing: An Engineer''s Perspective'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-world-of-f1-racing
@@ -9012,7 +9024,7 @@ episodes_by_feed:
     episode_uid: 6a477c5b0069388b7a124e72
     episode_slug: inside-the-world-of-f1-racing-an-engineer-s-perspective
     episode_key: inside-the-world-of-f1-racing-an-engineer-s-perspective
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-real-science-of-sport/inside-the-world-of-f1-racing-an-engineer-s-perspective/"
   - episode_title: 'BONUS SHORT: Altitude and the Mexico Problem. The Science Behind England''s Sunday Showdown'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/bonus-short-altitude-and-the-mexico-problem-the-science-behi
@@ -9024,7 +9036,7 @@ episodes_by_feed:
     episode_uid: 6a47a7fc5ef16cb804f9cc81
     episode_slug: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
     episode_key: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-real-science-of-sport/bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown/"
   - episode_title: Durability - Trialled, Tested and Explained / Werro Edges Closer to the World Record / The World Cup's Extra-Time Problem / TDF and Heat Fears
     episode_url: https://shows.acast.com/realscienceofsport/episodes/durability-trialed-tested-and-explained-werro-edges-closer-t
@@ -9036,7 +9048,7 @@ episodes_by_feed:
     episode_uid: 6a44cc3106fb5d326d797253
     episode_slug: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
     episode_key: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-real-science-of-sport/durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a/"
   - episode_title: The Creatine Episode
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-creatine-episode
@@ -9048,7 +9060,7 @@ episodes_by_feed:
     episode_uid: 6a428003c2fe1c7f49b4edb5
     episode_slug: the-creatine-episode
     episode_key: the-creatine-episode
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-real-science-of-sport/the-creatine-episode/"
   - episode_title: 'Re-Release: The Art and Science of the Perfect Football Penalty'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/re-release-the-art-and-science-of-the-perfect-football-penal
@@ -9060,7 +9072,7 @@ episodes_by_feed:
     episode_uid: 6a3d774c26d5a6687a4ae19a
     episode_slug: re-release-the-art-and-science-of-the-perfect-football-penalty
     episode_key: re-release-the-art-and-science-of-the-perfect-football-penalty
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-real-science-of-sport/re-release-the-art-and-science-of-the-perfect-football-penalty/"
   - episode_title: A Doping Refusal and Four Year Ban That Divided Tennis / Hodgkinson's Hamstring Scare / World Cup Science
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgk
@@ -9072,7 +9084,7 @@ episodes_by_feed:
     episode_uid: 6a3b926bd80106fbdf55a828
     episode_slug: a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science
     episode_key: a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-real-science-of-sport/a-doping-refusal-and-four-year-ban-that-divided-tennis-hodgkinson-s-hamstring-scare-world-cup-science/"
   - episode_title: World Cup Water Breaks / What Will It Take to Break the 800m WR? / College Sprinting Goes Wild / Does Remco Have the Watts to Match Pogacar?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/world-cup-water-breaks-college-sprinting-goes-wild-what-will
@@ -9084,7 +9096,7 @@ episodes_by_feed:
     episode_uid: 6a327365883f9289e9015e40
     episode_slug: world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m
     episode_key: world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-real-science-of-sport/world-cup-water-breaks-what-will-it-take-to-break-the-800m-wr-college-sprinting-goes-wild-does-remco-have-the-watts-to-m/"
   - episode_title: 800m Plot Twists as History Beckons for Werro & Hodgkinson / Should the IOC Pay Olympic Athletes? / "Your computer screen is too big"
     episode_url: https://shows.acast.com/realscienceofsport/episodes/800m-plot-twists-and-beckoning-history-should-olympic-athlet
@@ -9096,7 +9108,7 @@ episodes_by_feed:
     episode_uid: 6a29169ba917ce4c70b260f9
     episode_slug: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
     episode_key: 800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-real-science-of-sport/800m-plot-twists-as-history-beckons-for-werro-hodgkinson-should-the-ioc-pay-olympic-athletes-your-computer-screen-is-too/"
   - episode_title: Sleeping Your Way to More EPO / Grand Slam Chaos / The UCI's Expensive Regulatory Defeat and a Weighing Scandal
     episode_url: https://shows.acast.com/realscienceofsport/episodes/sleeping-your-way-to-more-epo-grand-slam-chaos-the-ucis-expe
@@ -9108,7 +9120,7 @@ episodes_by_feed:
     episode_uid: 6a1fefdbd610a77403d53ba8
     episode_slug: sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal
     episode_key: sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-real-science-of-sport/sleeping-your-way-to-more-epo-grand-slam-chaos-the-uci-s-expensive-regulatory-defeat-and-a-weighing-scandal/"
   - episode_title: Roland Garros' Zombie Heat Apocalypse / The Death of the Diversified Elite Athlete / World Athletics Raises the Performance Bar
     episode_url: https://shows.acast.com/realscienceofsport/episodes/roland-garros-zombie-heat-apocalypse-the-death-of-the-divers
@@ -9120,7 +9132,7 @@ episodes_by_feed:
     episode_uid: 6a17fdaa8fd07475b5578875
     episode_slug: roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b
     episode_key: roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-real-science-of-sport/roland-garros-zombie-heat-apocalypse-the-death-of-the-diversified-elite-athlete-world-athletics-raises-the-performance-b/"
   - episode_title: 'Welcome to our PED Talk: Sean Ingle Reflects on The Enhanced Games'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/welcome-to-our-ped-talk-sean-ingle-on-the-enhanced-games
@@ -9132,7 +9144,7 @@ episodes_by_feed:
     episode_uid: 6a16c52383dd9b6e11085ce7
     episode_slug: welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games
     episode_key: welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-real-science-of-sport/welcome-to-our-ped-talk-sean-ingle-reflects-on-the-enhanced-games/"
   - episode_title: Caution for Contact Sport Athletes and CTE / Women's Rugby Six Nations and Smaller Balls / Worst Sport to be Elite at?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/caution-for-contact-sport-athletes-and-cte-womens-rugby-six
@@ -9144,7 +9156,7 @@ episodes_by_feed:
     episode_uid: 6a0d6e4c0797376c6e587b95
     episode_slug: caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at
     episode_key: caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-real-science-of-sport/caution-for-contact-sport-athletes-and-cte-women-s-rugby-six-nations-and-smaller-balls-worst-sport-to-be-elite-at/"
   - episode_title: A Huge Doping Bust in Georgia Rugby / Epic Climbs and Concussions in Cycling / Who is the Greatest Track Athlete of Them All?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussi
@@ -9156,7 +9168,7 @@ episodes_by_feed:
     episode_uid: 6a0626463fd6979bfc1cc386
     episode_slug: a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all
     episode_key: a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-real-science-of-sport/a-huge-doping-bust-in-georgia-rugby-epic-climbs-and-concussions-in-cycling-who-is-the-greatest-track-athlete-of-them-all/"
   - episode_title: The Rise of Southern African Sprinting / London Marathon Pacing Blunders / Seixas to the Tour / Your Carb Questions Answered
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-rise-of-southern-african-sprinting-london-marathon-pacin
@@ -9168,7 +9180,7 @@ episodes_by_feed:
     episode_uid: 69fbb48d7272023359cbd4e7
     episode_slug: the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered
     episode_key: the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-real-science-of-sport/the-rise-of-southern-african-sprinting-london-marathon-pacing-blunders-seixas-to-the-tour-your-carb-questions-answered/"
   - episode_title: Can You Trust AI For Health and Training Advice?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/can-you-trust-ai-for-health-and-training-advice
@@ -9180,7 +9192,7 @@ episodes_by_feed:
     episode_uid: 69fb5b168c59df7dd5d2e1f1
     episode_slug: can-you-trust-ai-for-health-and-training-advice
     episode_key: can-you-trust-ai-for-health-and-training-advice
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-real-science-of-sport/can-you-trust-ai-for-health-and-training-advice/"
   - episode_title: 'The Spotlight On The Sub-2: A Deep Dive Into Sawe''s Marathon Masterclass'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-spotlight-on-the-sub-2-a-deep-dive-into-sawes-marathon-m
@@ -9192,7 +9204,7 @@ episodes_by_feed:
     episode_uid: 69f1d25a8647f8587e446e78
     episode_slug: the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass
     episode_key: the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-real-science-of-sport/the-spotlight-on-the-sub-2-a-deep-dive-into-sawe-s-marathon-masterclass/"
   - episode_title: 'The Sporting Mind: Overcoming Mental Barriers For Better Performance'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-sporting-mind-overcome-mental-barriers-for-better-perfor
@@ -9204,7 +9216,7 @@ episodes_by_feed:
     episode_uid: 69f0f6bdf8c663773751fe09
     episode_slug: the-sporting-mind-overcoming-mental-barriers-for-better-performance
     episode_key: the-sporting-mind-overcoming-mental-barriers-for-better-performance
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-real-science-of-sport/the-sporting-mind-overcoming-mental-barriers-for-better-performance/"
   - episode_title: 1:59:30! The Sub Two Hour Marathon Falls To Sabastian Sawe
     episode_url: https://shows.acast.com/realscienceofsport/episodes/15930-the-sub-two-hour-marathon-falls-to-sebastian-sawe
@@ -9216,7 +9228,7 @@ episodes_by_feed:
     episode_uid: 69ee01bfaa3f81e2b9fdffb6
     episode_slug: 1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe
     episode_key: 1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-real-science-of-sport/1-59-30-the-sub-two-hour-marathon-falls-to-sabastian-sawe/"
   - episode_title: Boston Bonanza - Course Record Analysis / Elite Runners Avoiding Carbs? / Acute Stress Anti-Doping Refusal
     episode_url: https://shows.acast.com/realscienceofsport/episodes/boston-bonanza-course-record-analysis-elite-runners-avoiding
@@ -9228,7 +9240,7 @@ episodes_by_feed:
     episode_uid: 69e761861e5fb1ae464899b6
     episode_slug: boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal
     episode_key: boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-real-science-of-sport/boston-bonanza-course-record-analysis-elite-runners-avoiding-carbs-acute-stress-anti-doping-refusal/"
   - episode_title: Cobbled Coronations in Roubaix / Benji Naesen vs UCI / Marathon Majors and Sawe's Doping Credibility Campaign
     episode_url: https://shows.acast.com/realscienceofsport/episodes/cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon
@@ -9240,7 +9252,7 @@ episodes_by_feed:
     episode_uid: 69e0c90823929c3a2ab5b45f
     episode_slug: cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign
     episode_key: cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-real-science-of-sport/cobbled-coronations-in-roubaix-benji-naesen-vs-uci-marathon-majors-and-sawe-s-doping-credibility-campaign/"
   - episode_title: 'The Norwegian Way: What We Can Learn From Their Success'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-norwegian-way-what-we-can-learn-from-their-success
@@ -9252,20 +9264,8 @@ episodes_by_feed:
     episode_uid: 69dfe0d8907e5a7cc215bd74
     episode_slug: the-norwegian-way-what-we-can-learn-from-their-success
     episode_key: the-norwegian-way-what-we-can-learn-from-their-success
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-real-science-of-sport/the-norwegian-way-what-we-can-learn-from-their-success/"
-  - episode_title: Why Cobbles Cost Cyclists / Cheap Carbon Shoes Break Records / Doping Confessions and Cons
-    episode_url: https://shows.acast.com/realscienceofsport/episodes/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-d
-    audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/69d63e813ae78d6f1134a750/media.mp3
-    published_at: '2026-04-08T11:39:45+00:00'
-    description_html: <p><a href="https://www.patreon.com/c/thescienceofsport" rel="noopener noreferrer" target="_blank"><strong>Become a Science of Sport Supporter by making a small monthly pledge</strong></a>. You'll show your support, help us stay "athletic-greens-free", and get access to our world-class discussion forums</p><p>In this Spotlight, we start on the cobbled roads of Belgium to explore why riding on cobbles is so hard, and how not so good vibrations compromise mechanical power, cost more energy and require more exertion to produce the same power output. It's Pogacar vs van der Poel, Round 3 this week on the cobbles of Roubaix, and we wonder whether smart tactics will be enough to overcome the Slovenian's firepower, and whether van der Poel's larger size may tilt the balance in his favour?</p><p>We discuss Jimmy Gressier's return, in Decathlon's own version of a super-shoe, as he runs an exceptional 5k road time. Speaking of Decathlon, a good week for the brand with Paul Seixas continuing his rise, this time with dominance in the Tour of the Basque Country, and hope for a challenger to Pogacar.</p><p>A new research paper suggests doping prevalence among University students of 13.7%, but it uses novel statistical methods to get there, after only 3.4% of the athletes admit to PED use. We discuss that study, and what it means for anti-doping knowledge. Less covert (but only a little) about doping are the athletes of the upcoming Enhanced Games, recently valued at $1.2 billion, but now being transparently spoken about as a 'product launch' for longevity and performance enhancement drugs. The recently disclosed peptide stack of one competitor, world's strongest man Mitchell Hooper, is the basis for a chat about the grift those Games.</p><p>Finally, our teen phenom watch list has two more names, 14-year old girls who broke 23s last week. Ross and Gareth wonder if the gap between adults and children is narrowing, or whether we're just caught in a cycle of noticing more and more such performances.</p><p><strong><u>Links</u></strong></p><ul><li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3737925/" rel="noopener noreferrer" target="_blank">Study on the effect of vibrations on physiology during cycling</a></li><li>Another <a href="https://jsc-journal.com/index.php/JSC/article/view/680/661" rel="noopener noreferrer" target="_blank">study simulating vibrations, this time showing how much oxygen cost goes up</a></li><li><a href="https://athleticsweekly.com/news/jimmy-gressier-sets-1251-european-5km-record-1040010732/" rel="noopener noreferrer" target="_blank">Article on Gressier, including his struggles with chocolate after his World title last year</a></li><li><a href="https://worldathletics.org/news/press-releases/athens-2030-world-marathon-championships" rel="noopener noreferrer" target="_blank">World Athletics concept on the Marathon as a standalone event</a></li><li>The <a href="https://link.springer.com/article/10.1186/s13011-025-00699-x" rel="noopener noreferrer" target="_blank">Performance Enhancing drug survey that inspired our Bayesian stats discussion</a></li><li><a href="https://www.bbc.co.uk/sport/articles/ce8jzpj6nyko" rel="noopener noreferrer" target="_blank">Zero positives in the 2026 Olympics - the clean games?</a></li><li><a href="https://barbend.com/news/mitchell-hooper-peptide-stack/" rel="noopener noreferrer" target="_blank">Mitchell Hooper's peptide stack</a></li><li><a href="https://www.forbes.com/sites/josipamajic/2026/04/06/pro-doping-enhanced-games-raise-12-billion-before-a-single-race/" rel="noopener noreferrer" target="_blank">Forbes article on The Enhanced Games</a></li><li><a href="https://www.wada-ama.org/en/prohibited-list#search-anchor" rel="noopener noreferrer" target="_blank">WADA's prohibited list</a></li></ul><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
-    description_plain: Become a Science of Sport Supporter by making a small monthly pledge . You'll show your support, help us stay "athletic-greens-free", and get access to our world-class discussion forums In this Spotlight, we start on the cobbled roads of Belgium to explore why riding on cobbles is so hard, and how not so good vibrations compromise mechanical power, cost more energy and require more exertion to produce the same power output. It's Pogacar vs van der Poel, Round 3 this week on the cobbles of Roubaix, and we wonder whether smart tactics will be enough to overcome the Slovenian's firepower, and whether van der Poel's larger size may tilt the balance in his favour? We discuss Jimmy Gressier's return, in Decathlon's own version of a super-shoe, as he runs an exceptional 5k road time. Speaking of Decathlon, a good week for the brand with Paul Seixas continuing his rise, this time with dominance in the Tour of the Basque Country, and hope for a challenger to Pogacar. A new research paper suggests doping prevalence among University students of 13.7%, but it uses novel statistical methods to get there, after only 3.4% of the athletes admit to PED use. We discuss that study, and what it means for anti-doping knowledge. Less covert (but only a little) about doping are the athletes of the upcoming Enhanced Games, recently valued at $1.2 billion, but now being transparently spoken about as a 'product launch' for longevity and performance enhancement drugs. The recently disclosed peptide stack of one competitor, world's strongest man Mitchell Hooper, is the basis for a chat about the grift those Games. Finally, our teen phenom watch list has two more names, 14-year old girls who broke 23s last week. Ross and Gareth wonder if the gap between adults and children is narrowing, or whether we're just caught in a cycle of noticing more and more such performances. Links Study on the effect of vibrations on physiology during cycling Another study simulating vibrations, this time showing how much oxygen cost goes up Article on Gressier, including his struggles with chocolate after his World title last year World Athletics concept on the Marathon as a standalone event The Performance Enhancing drug survey that inspired our Bayesian stats discussion Zero positives in the 2026 Olympics - the clean games? Mitchell Hooper's peptide stack Forbes article on The Enhanced Games WADA's prohibited list Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/6100856531fd81f125b34dac/1775646757863-1551a560-6c7e-4547-93c2-49a33a312d61.jpeg
-    episode_uid: 69d63e813ae78d6f1134a750
-    episode_slug: why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons
-    episode_key: why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-real-science-of-sport/why-cobbles-cost-cyclists-cheap-carbon-shoes-break-records-doping-confessions-and-cons/"
+    episode_page_url: "/the-real-science-of-sport/the-norwegian-way-what-we-can-learn-from-their-success/"
   https://anchor.fm/s/e4eabf84/podcast/rss: &28
   - episode_title: MidPacker Pod - Field Notes 04 | Western States Takeaways, Entrepreneur Life, & Chasing the Right Goals
     episode_url: https://podcasters.spotify.com/pod/show/themidpackerpod/episodes/MidPacker-Pod---Field-Notes-04--Western-States-Takeaways--Entrepreneur-Life---Chasing-the-Right-Goals-e3lt4hg
@@ -26989,6 +26989,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/alex-og-sigges-podcast/718-drogad-pa-scen/"
   https://feeds.acast.com/public/shows/69ca617a8fc1c62479ee62c4: &90
+  - episode_title: 'Matchdag 32: Argentina - England 1986'
+    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-32-argentina-england-1986
+    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a5746ec7e01c44e38e1666f/media.mp3
+    published_at: '2026-07-15T08:38:04+00:00'
+    description_html: Detta är ett urklipp från avsnitten 60 Diego Maradona (2/3). För att få hela berättelsen. Lyssna på avsnitten i sin helhet.<hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>
+    description_plain: Detta är ett urklipp från avsnitten 60 Diego Maradona (2/3). För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
+    episode_uid: 6a5746ec7e01c44e38e1666f
+    episode_slug: matchdag-32-argentina-england-1986
+    episode_key: matchdag-32-argentina-england-1986
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/when-we-were-kings/matchdag-32-argentina-england-1986/"
   - episode_title: 'Matchdag 31: När Jesús Navas blev upptäckt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-31-nar-jesus-navas-blev-upptackt
     audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a55efa6957ea5916f3093f9/media.mp3
@@ -27000,7 +27012,7 @@ episodes_by_feed:
     episode_slug: matchdag-31-nar-jesus-navas-blev-upptackt
     episode_key: matchdag-31-nar-jesus-navas-blev-upptackt
     legacy_unicode_slug: matchdag-31-när-jesús-navas-blev-upptäckt
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/when-we-were-kings/matchdag-31-nar-jesus-navas-blev-upptackt/"
   - episode_title: 'Vilodag 3: När Kevin Keegan säljer Andy Cole och "Barcelona Of The North"'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/vilodag-3-nar-kevin-keegan-saljer-andy-cole-och-barcelona-of
@@ -27013,7 +27025,7 @@ episodes_by_feed:
     episode_slug: vilodag-3-nar-kevin-keegan-saljer-andy-cole-och-barcelona-of-the-north
     episode_key: vilodag-3-nar-kevin-keegan-saljer-andy-cole-och-barcelona-of-the-north
     legacy_unicode_slug: vilodag-3-när-kevin-keegan-säljer-andy-cole-och-barcelona-of-the-north
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/when-we-were-kings/vilodag-3-nar-kevin-keegan-saljer-andy-cole-och-barcelona-of-the-north/"
   - episode_title: 'Vilodag 2: Pep Guardiolas tid i Sinaloa'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/vilodag-2-pep-guardiolas-tid-i-sinaloa
@@ -27025,7 +27037,7 @@ episodes_by_feed:
     episode_uid: 6a53517ac2f78bb68906b6b6
     episode_slug: vilodag-2-pep-guardiolas-tid-i-sinaloa
     episode_key: vilodag-2-pep-guardiolas-tid-i-sinaloa
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/when-we-were-kings/vilodag-2-pep-guardiolas-tid-i-sinaloa/"
   - episode_title: 'Matchdag 30: Rooney, Moyes och VM 2014'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-30-rooney-moyes-och-vm-2014
@@ -27037,7 +27049,7 @@ episodes_by_feed:
     episode_uid: 6a520623c2f78bb689ac807e
     episode_slug: matchdag-30-rooney-moyes-och-vm-2014
     episode_key: matchdag-30-rooney-moyes-och-vm-2014
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/when-we-were-kings/matchdag-30-rooney-moyes-och-vm-2014/"
   - episode_title: 'Matchdag 29:  Kevin De Bruynes uppväxt'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-29-kevin-de-bruynes-uppvaxt
@@ -27050,7 +27062,7 @@ episodes_by_feed:
     episode_slug: matchdag-29-kevin-de-bruynes-uppvaxt
     episode_key: matchdag-29-kevin-de-bruynes-uppvaxt
     legacy_unicode_slug: matchdag-29-kevin-de-bruynes-uppväxt
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/when-we-were-kings/matchdag-29-kevin-de-bruynes-uppvaxt/"
   - episode_title: 'Matchdag 28: Den arabiska våren och ultras i Marocko'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-28-den-arabiskavaren-och-ultras-i-marocko
@@ -27063,7 +27075,7 @@ episodes_by_feed:
     episode_slug: matchdag-28-den-arabiska-varen-och-ultras-i-marocko
     episode_key: matchdag-28-den-arabiska-varen-och-ultras-i-marocko
     legacy_unicode_slug: matchdag-28-den-arabiska-våren-och-ultras-i-marocko
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/when-we-were-kings/matchdag-28-den-arabiska-varen-och-ultras-i-marocko/"
   - episode_title: 'Vilodag 1: Giants Stadium, Studio 54 och CBGB'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/vilodag-1-giants-stadium-studio-54-och-cbgb
@@ -27075,7 +27087,7 @@ episodes_by_feed:
     episode_uid: 6a4e066d42872185cc21247e
     episode_slug: vilodag-1-giants-stadium-studio-54-och-cbgb
     episode_key: vilodag-1-giants-stadium-studio-54-och-cbgb
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/when-we-were-kings/vilodag-1-giants-stadium-studio-54-och-cbgb/"
   - episode_title: 'Matchdag 27: När kartellen välkomnade det Argentinska domarteamet till Medellin'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarte
@@ -27088,7 +27100,7 @@ episodes_by_feed:
     episode_slug: matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin
     episode_key: matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin
     legacy_unicode_slug: matchdag-27-när-kartellen-välkomnade-det-argentinska-domarteamet-till-medellin
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/when-we-were-kings/matchdag-27-nar-kartellen-valkomnade-det-argentinska-domarteamet-till-medellin/"
   - episode_title: 'Matchdag 26: När Florentino Pérez tog Luís Figo till Real Madrid'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-mad
@@ -27101,7 +27113,7 @@ episodes_by_feed:
     episode_slug: matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-madrid
     episode_key: matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-madrid
     legacy_unicode_slug: matchdag-26-när-florentino-pérez-tog-luís-figo-till-real-madrid
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/when-we-were-kings/matchdag-26-nar-florentino-perez-tog-luis-figo-till-real-madrid/"
   - episode_title: 'Matchdag 25: Norge - Brasilien 1998 - Miraklet i Marseille'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-25-norge-brasilien-1998-miraklet-i-marseille
@@ -27113,7 +27125,7 @@ episodes_by_feed:
     episode_uid: 6a4a32088890f0eef3c72877
     episode_slug: matchdag-25-norge-brasilien-1998-miraklet-i-marseille
     episode_key: matchdag-25-norge-brasilien-1998-miraklet-i-marseille
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/when-we-were-kings/matchdag-25-norge-brasilien-1998-miraklet-i-marseille/"
   - episode_title: 'Matchdag 24: Copa Libertadores finalen 2014'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-24-san-lorenzo-vs-club-nacional-copa-libertadores-2
@@ -27125,7 +27137,7 @@ episodes_by_feed:
     episode_uid: 6a48c14e04fac73b240c7b52
     episode_slug: matchdag-24-copa-libertadores-finalen-2014
     episode_key: matchdag-24-copa-libertadores-finalen-2014
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/when-we-were-kings/matchdag-24-copa-libertadores-finalen-2014/"
   - episode_title: 'Matchdag 23: Jackson Irvine - Fußballgott'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-23-jackson-irvine-fuballgott
@@ -27138,7 +27150,7 @@ episodes_by_feed:
     episode_slug: matchdag-23-jackson-irvine-fussballgott
     episode_key: matchdag-23-jackson-irvine-fussballgott
     legacy_unicode_slug: matchdag-23-jackson-irvine-fußballgott
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/when-we-were-kings/matchdag-23-jackson-irvine-fussballgott/"
   - episode_title: 'Matchdag 22: Jesus Gil och La noches de tal y tal'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
@@ -27150,7 +27162,7 @@ episodes_by_feed:
     episode_uid: 6a463a47a2ba2718319f6139
     episode_slug: matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
     episode_key: matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/when-we-were-kings/matchdag-22-jesus-gil-och-la-noches-de-tal-y-tal/"
   - episode_title: 'Matchdag 21: Paul Gascoignes VM 1990'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-21-paul-gascoignes-vm-1990
@@ -27162,7 +27174,7 @@ episodes_by_feed:
     episode_uid: 6a44ccb9d668ce458534b743
     episode_slug: matchdag-21-paul-gascoignes-vm-1990
     episode_key: matchdag-21-paul-gascoignes-vm-1990
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/when-we-were-kings/matchdag-21-paul-gascoignes-vm-1990/"
   - episode_title: 'Matchdag 20: Artisten Erik Mykland'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-artisten-erik-mykland
@@ -27174,7 +27186,7 @@ episodes_by_feed:
     episode_uid: 6a4393b481f451b905505fab
     episode_slug: matchdag-20-artisten-erik-mykland
     episode_key: matchdag-20-artisten-erik-mykland
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/when-we-were-kings/matchdag-20-artisten-erik-mykland/"
   - episode_title: 'Matchdag 20: Mohammed VI Football Academy'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-20-mohammed-vi-football-academy
@@ -27186,7 +27198,7 @@ episodes_by_feed:
     episode_uid: 6a42319426d5a6687a67502c
     episode_slug: matchdag-20-mohammed-vi-football-academy
     episode_key: matchdag-20-mohammed-vi-football-academy
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/when-we-were-kings/matchdag-20-mohammed-vi-football-academy/"
   - episode_title: 'Matchdag 19: Ronaldinho 2010'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-19-ronaldinho-2010
@@ -27198,7 +27210,7 @@ episodes_by_feed:
     episode_uid: 6a4226a9cb67fc75eaaac835
     episode_slug: matchdag-19-ronaldinho-2010
     episode_key: matchdag-19-ronaldinho-2010
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/when-we-were-kings/matchdag-19-ronaldinho-2010/"
   - episode_title: 'Matchdag 18: Revolutionären Lucas Radebe'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-18-revolutionaren-lucas-radebe
@@ -27211,7 +27223,7 @@ episodes_by_feed:
     episode_slug: matchdag-18-revolutionaren-lucas-radebe
     episode_key: matchdag-18-revolutionaren-lucas-radebe
     legacy_unicode_slug: matchdag-18-revolutionären-lucas-radebe
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/when-we-were-kings/matchdag-18-revolutionaren-lucas-radebe/"
   - episode_title: 'Matchdag 17: Bokšić, Mihajlović och Arkan'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-17-boki-mihajlovi-och-arkan
@@ -27224,7 +27236,7 @@ episodes_by_feed:
     episode_slug: matchdag-17-boksic-mihajlovic-och-arkan
     episode_key: matchdag-17-boksic-mihajlovic-och-arkan
     legacy_unicode_slug: matchdag-17-bokšić-mihajlović-och-arkan
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/when-we-were-kings/matchdag-17-boksic-mihajlovic-och-arkan/"
   - episode_title: 'Matchdag 16: ”Kniksen” Jensen och ett bedrövligt Håkan-quiz'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
@@ -27237,7 +27249,7 @@ episodes_by_feed:
     episode_slug: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     episode_key: matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz
     legacy_unicode_slug: matchdag-16-kniksen-jensen-och-ett-bedrövligt-håkan-quiz
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/when-we-were-kings/matchdag-16-kniksen-jensen-och-ett-bedrovligt-hakan-quiz/"
   - episode_title: 'Matchdag 15: Operation Ökenstorm och Eriks kärlek till För-EM 1991'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em
@@ -27250,7 +27262,7 @@ episodes_by_feed:
     episode_slug: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     episode_key: matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991
     legacy_unicode_slug: matchdag-15-operation-ökenstorm-och-eriks-kärlek-till-för-em-1991
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/when-we-were-kings/matchdag-15-operation-okenstorm-och-eriks-karlek-till-for-em-1991/"
   - episode_title: 'Matchdag 14: När Djurgården scoutade i DR Kongo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
@@ -27263,7 +27275,7 @@ episodes_by_feed:
     episode_slug: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     episode_key: matchdag-14-nar-djurgarden-scoutade-i-dr-kongo
     legacy_unicode_slug: matchdag-14-när-djurgården-scoutade-i-dr-kongo
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/when-we-were-kings/matchdag-14-nar-djurgarden-scoutade-i-dr-kongo/"
   - episode_title: 'Matchdag 13: Den ghananska hardcore-coachen Herbert Addo'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
@@ -27275,7 +27287,7 @@ episodes_by_feed:
     episode_uid: 6a3a43ee00998a7fc8913318
     episode_slug: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
     episode_key: matchdag-13-den-ghananska-hardcore-coachen-herbert-addo
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/"
   - episode_title: 'Matchdag 12: USA:s invasion  av Irak 2003 och Uday Hussein'
     episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-12-usas-invasion-av-irak-2003-och-uday-hussein
@@ -27287,21 +27299,8 @@ episodes_by_feed:
     episode_uid: 6a3933089c43d66bc008df81
     episode_slug: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
     episode_key: matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
-  - episode_title: 'Matchdag 11: Europas längsta krig och den baskiska flaggan'
-    episode_url: https://shows.acast.com/when-we-were-kingspdm/episodes/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
-    audio_url: https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a37ba7b4a187774acb2d6cd/media.mp3
-    published_at: '2026-06-21T10:18:34+00:00'
-    description_html: "<p>Dagens avsnitt tar avstamp i Francos död 1975, ”La Transición” och det baskiska självstyret.</p><p><em>Detta är urklipp från avsnitten </em>20. Real Sociedad 1980/81<em>. För att få hela berättelsen. Lyssna på avsnitten i sin helhet.</em></p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
-    description_plain: Dagens avsnitt tar avstamp i Francos död 1975, ”La Transición” och det baskiska självstyret. Detta är urklipp från avsnitten 20. Real Sociedad 1980/81 . För att få hela berättelsen. Lyssna på avsnitten i sin helhet. Hosted on Acast. See acast.com/privacy for more information.
-    episode_image_url: https://assets.pippa.io/shows/69ca617a8fc1c62479ee62c4/show-cover.jpg
-    episode_uid: 6a37ba7b4a187774acb2d6cd
-    episode_slug: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
-    episode_key: matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan
-    legacy_unicode_slug: matchdag-11-europas-längsta-krig-och-den-baskiska-flaggan
     legacy_numbered_slug: episode-25
-    episode_page_url: "/when-we-were-kings/matchdag-11-europas-langsta-krig-och-den-baskiska-flaggan/"
+    episode_page_url: "/when-we-were-kings/matchdag-12-usa-s-invasion-av-irak-2003-och-uday-hussein/"
   https://api.substack.com/feed/podcast/10845.rss: &91
   - episode_title: What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)
     episode_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
