@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-15T12:34:32Z'
+generated_at: '2026-07-15T13:38:08Z'
 items:
 - podcast_title: The Freetrail Podcast
   podcast_page_url: "/the-freetrail-podcast/"
@@ -770,6 +770,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Forklart
+  podcast_page_url: "/forklart/"
+  cover_image: "/media/forklart.jpeg"
+  feed_url: https://podcast.stream.schibsted.media/ap/100194
+  filter_category: uncategorized norwegian
+  episode_title: 'Kort Forklart: Trump med kraftige trusler, og kritikk mot VM-show'
+  episode_url: ''
+  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/ancy2fv6pg49f3dnjn9j2/podcast_128.mp3
+  published_at: '2026-07-15T13:26:18+00:00'
+  episode_key: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
+  episode_slug: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
+  episode_page_url: "/forklart/kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show/"
 - podcast_title: Dear Hank & John
   podcast_page_url: "/dear-hank-john/"
   cover_image: "/media/dearhank.jpeg"
@@ -854,18 +866,6 @@ non_running_items:
   episode_key: ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
   episode_slug: ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
   episode_page_url: "/and-the-writer-is-with-ross-golan/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s/"
-- podcast_title: Forklart
-  podcast_page_url: "/forklart/"
-  cover_image: "/media/forklart.jpeg"
-  feed_url: https://podcast.stream.schibsted.media/ap/100194
-  filter_category: uncategorized norwegian
-  episode_title: 'Kort Forklart: Høiby er kommet hjem, og hvor ble det av Haaland?'
-  episode_url: ''
-  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/7l2rgs6jckyqpw5km52ev/podcast_128.mp3
-  published_at: '2026-07-14T14:15:35+00:00'
-  episode_key: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
-  episode_slug: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
-  episode_page_url: "/forklart/kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland/"
 - podcast_title: Oppdatert
   podcast_page_url: "/oppdatert/"
   cover_image: "/media/oppdatert.jpeg"
@@ -18779,6 +18779,21 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/i-refuse-to-share-my-location-aita/"
   https://podcast.stream.schibsted.media/ap/100194: &61
+  - episode_title: 'Kort Forklart: Trump med kraftige trusler, og kritikk mot VM-show'
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/ancy2fv6pg49f3dnjn9j2/podcast_128.mp3
+    published_at: '2026-07-15T13:26:18+00:00'
+    description_html: |-
+      Donald Trump sier USA vil gjennomføre kraftige angrep mot Iran og bombe broer og kraftverk. Men vil det få Iran til forhandlingsbordet? Og pauseshowet under VM-finalen, med blant andre Shakira og Justin Bieber, høster kritikk.
+
+      Foto: Eduardo Verdugo, AP/NTB
+    description_plain: 'Donald Trump sier USA vil gjennomføre kraftige angrep mot Iran og bombe broer og kraftverk. Men vil det få Iran til forhandlingsbordet? Og pauseshowet under VM-finalen, med blant andre Shakira og Justin Bieber, høster kritikk. Foto: Eduardo Verdugo, AP/NTB'
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/dfe6931c7c614dab2644307dfda9362f.jpg?t%5B%5D=1440q80
+    episode_uid: ap-140020
+    episode_slug: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
+    episode_key: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show/"
   - episode_title: 'Kort Forklart: Høiby er kommet hjem, og hvor ble det av Haaland?'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/7l2rgs6jckyqpw5km52ev/podcast_128.mp3
@@ -18790,7 +18805,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
     episode_key: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
     legacy_unicode_slug: kort-forklart-høiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland/"
   - episode_title: 'Bassengtabbe og gullstatuer: Slik trumpifiseres USA'
     episode_url: ''
@@ -18802,7 +18817,7 @@ episodes_by_feed:
     episode_uid: ap-139903
     episode_slug: bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa
     episode_key: bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa/"
   - episode_title: 'Kort Forklart fotballspesial: Ble Norge urettferdig dømt?'
     episode_url: ''
@@ -18815,7 +18830,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-ble-norge-urettferdig-domt
     episode_key: kort-forklart-fotballspesial-ble-norge-urettferdig-domt
     legacy_unicode_slug: kort-forklart-fotballspesial-ble-norge-urettferdig-dømt
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/kort-forklart-fotballspesial-ble-norge-urettferdig-domt/"
   - episode_title: 'Norge-England: Kan vi sende dem hjem?'
     episode_url: ''
@@ -18829,7 +18844,7 @@ episodes_by_feed:
     episode_uid: ap-139911
     episode_slug: norge-england-kan-vi-sende-dem-hjem
     episode_key: norge-england-kan-vi-sende-dem-hjem
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/norge-england-kan-vi-sende-dem-hjem/"
   - episode_title: Kort Forklart: Reform UK-lederen blir utfordret av «Count Binface», og pengene flyr i VM.
     episode_url: ''
@@ -18841,7 +18856,7 @@ episodes_by_feed:
     episode_uid: ap-139915
     episode_slug: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
     episode_key: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm/"
   - episode_title: Gina var eneste norske journalist i ayatollahens begravelse
     episode_url: ''
@@ -18856,7 +18871,7 @@ episodes_by_feed:
     episode_uid: ap-139901
     episode_slug: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
     episode_key: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/gina-var-eneste-norske-journalist-i-ayatollahens-begravelse/"
   - episode_title: 'Sommer, utepils og VM-fyll: Når blir alkohol skadelig?'
     episode_url: ''
@@ -18872,7 +18887,7 @@ episodes_by_feed:
     episode_slug: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     episode_key: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     legacy_unicode_slug: sommer-utepils-og-vm-fyll-når-blir-alkohol-skadelig
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig/"
   - episode_title: 'Kort Forklart: Trump «tror» våpenhvilen er over, og mer kritikk av Fifa'
     episode_url: ''
@@ -18885,7 +18900,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     episode_key: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     legacy_unicode_slug: kort-forklart-trump-tror-våpenhvilen-er-over-og-mer-kritikk-av-fifa
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa/"
   - episode_title: 'Kort Forklart: Le Pen får mildere straff, og skandale preger fotball-VM'
     episode_url: ''
@@ -18898,7 +18913,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     episode_key: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     legacy_unicode_slug: kort-forklart-le-pen-får-mildere-straff-og-skandale-preger-fotball-vm
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm/"
   - episode_title: På innsiden av koranskolene
     episode_url: ''
@@ -18911,7 +18926,7 @@ episodes_by_feed:
     episode_slug: pa-innsiden-av-koranskolene
     episode_key: pa-innsiden-av-koranskolene
     legacy_unicode_slug: på-innsiden-av-koranskolene
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/pa-innsiden-av-koranskolene/"
   - episode_title: 'Kort Forklart fotballspesial: Norge gjorde det umulige. - Nå kan alt skje.'
     episode_url: ''
@@ -18924,7 +18939,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     episode_key: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     legacy_unicode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-nå-kan-alt-skje
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje/"
   - episode_title: 'Norge-Brasil: Klarer vi det igjen?'
     episode_url: ''
@@ -18936,7 +18951,7 @@ episodes_by_feed:
     episode_uid: ap-139743
     episode_slug: norge-brasil-klarer-vi-det-igjen
     episode_key: norge-brasil-klarer-vi-det-igjen
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/norge-brasil-klarer-vi-det-igjen/"
   - episode_title: 'Annonsørinnhold fra Gartner: Grønnsaker i sesong'
     episode_url: ''
@@ -18953,7 +18968,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     episode_key: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     legacy_unicode_slug: annonsørinnhold-fra-gartner-grønnsaker-i-sesong
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/annonsorinnhold-fra-gartner-gronnsaker-i-sesong/"
   - episode_title: 'Kort Forklart: Først nå begraves Irans øverste leder. Ingen vet om etterfølgeren dukker opp.'
     episode_url: ''
@@ -18966,7 +18981,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     episode_key: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     legacy_unicode_slug: kort-forklart-først-nå-begraves-irans-øverste-leder-ingen-vet-om-etterfølgeren-dukker-opp
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp/"
   - episode_title: "«Økonomisk dødsstraff»: Livet på Trumps svarteliste"
     episode_url: ''
@@ -18979,7 +18994,7 @@ episodes_by_feed:
     episode_slug: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     episode_key: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     legacy_unicode_slug: økonomisk-dødsstraff-livet-på-trumps-svarteliste
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/okonomisk-dodsstraff-livet-pa-trumps-svarteliste/"
   - episode_title: 'Kort Forklart: Trump tapte en av sine hjertesaker'
     episode_url: ''
@@ -18991,7 +19006,7 @@ episodes_by_feed:
     episode_uid: ap-139687
     episode_slug: kort-forklart-trump-tapte-en-av-sine-hjertesaker
     episode_key: kort-forklart-trump-tapte-en-av-sine-hjertesaker
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/kort-forklart-trump-tapte-en-av-sine-hjertesaker/"
   - episode_title: 'Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?'
     episode_url: ''
@@ -19004,7 +19019,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     episode_key: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     legacy_unicode_slug: kort-forklart-fotballspesial-nå-venter-nytt-møte-med-brasil-men-var-de-bedre-før
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
   - episode_title: 'Kort Forklart: De kalles «pervobriller». Derfor er Metas briller kontroversielle.'
     episode_url: ''
@@ -19016,7 +19031,7 @@ episodes_by_feed:
     episode_uid: ap-139642
     episode_slug: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
     episode_key: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle/"
   - episode_title: Er det Iphonens feil at vi får færre barn?
     episode_url: ''
@@ -19029,7 +19044,7 @@ episodes_by_feed:
     episode_slug: er-det-iphonens-feil-at-vi-far-faerre-barn
     episode_key: er-det-iphonens-feil-at-vi-far-faerre-barn
     legacy_unicode_slug: er-det-iphonens-feil-at-vi-får-færre-barn
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/er-det-iphonens-feil-at-vi-far-faerre-barn/"
   - episode_title: 'Kort Forklart fotballspesial: Var det riktig å benke de beste?'
     episode_url: ''
@@ -19042,7 +19057,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste
     episode_key: kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste
     legacy_unicode_slug: kort-forklart-fotballspesial-var-det-riktig-å-benke-de-beste
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste/"
   - episode_title: 'Kort Forklart: Rød alarm i London, og spiller Haaland i kveld?'
     episode_url: ''
@@ -19055,7 +19070,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
     episode_key: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
     legacy_unicode_slug: kort-forklart-rød-alarm-i-london-og-spiller-haaland-i-kveld
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld/"
   - episode_title: Synes du pride tar for stor plass? Nesten halve Norge er enig med deg.
     episode_url: ''
@@ -19070,7 +19085,7 @@ episodes_by_feed:
     episode_uid: ap-139562
     episode_slug: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
     episode_key: synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg/"
   - episode_title: 'Kort Forklart: Du kan få lavere skatt - men noe blir også dyrere'
     episode_url: ''
@@ -19083,7 +19098,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere
     episode_key: kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere
     legacy_unicode_slug: kort-forklart-du-kan-få-lavere-skatt-men-noe-blir-også-dyrere
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere/"
   - episode_title: 'Kort Forklart: Derfor skiller denne hetebølgen seg ut'
     episode_url: ''
@@ -19096,21 +19111,8 @@ episodes_by_feed:
     episode_slug: kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut
     episode_key: kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut
     legacy_unicode_slug: kort-forklart-derfor-skiller-denne-hetebølgen-seg-ut
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut/"
-  - episode_title: 'Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt'
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/bekzf7fl55qhbgr4hskq3/podcast_128.mp3
-    published_at: '2026-06-23T04:42:42+00:00'
-    description_html: En innbytter ble VM-helt og lagkaptein Ødegaard har våknet. I denne ekstraepisoden av Kort Forklart får du høydepunktene fra nattens seier mot Senegal.
-    description_plain: En innbytter ble VM-helt og lagkaptein Ødegaard har våknet. I denne ekstraepisoden av Kort Forklart får du høydepunktene fra nattens seier mot Senegal.
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/17f29bd31aa8c04bfaf4defe120b2cb0.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139530
-    episode_slug: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
-    episode_key: kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt
-    legacy_unicode_slug: kort-forklart-fotballspesial-tror-ikke-han-så-for-seg-å-bli-vm-helt
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt/"
+    episode_page_url: "/forklart/kort-forklart-derfor-skiller-denne-hetebolgen-seg-ut/"
   https://feeds.megaphone.fm/hubermanlab: &62
   - episode_title: How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel
     episode_url: https://www.hubermanlab.com/episode/how-to-improve-your-memory-and-cognitive-function-at-any-age-alan-castel
