@@ -83,7 +83,25 @@ On sign-in, local and cloud data are **merged** (newer timestamps win for progre
 
 ---
 
-## 6. Privacy
+## 6. Google OAuth verification
+
+Google's OAuth consent screen asks for an **application home page** on your domain. That URL does **not** have to be the site root.
+
+Use this dedicated page (same styling as Privacy/Terms):
+
+- **Application home page:** `https://bestrunningpodcasts.com/app/`
+- **Privacy policy:** `https://bestrunningpodcasts.com/privacy/`
+- **Terms of service:** `https://bestrunningpodcasts.com/terms/`
+
+In [Google Cloud Console → OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent), set **Application home page** to `/app/`, not `/`. The public podcast directory at `/` stays unchanged.
+
+If verification still stalls, reply to Google's email confirming the homepage URL was updated.
+
+**Testing mode:** While the app is in *Testing*, only users you add as test users can sign in — and full brand verification is not required. Switch to *Production* only when you need public Google sign-in.
+
+---
+
+## 7. Privacy
 
 A public privacy page is published at **`/privacy/`** (`privacy.md`). It covers:
 

@@ -6,10 +6,10 @@
         border-bottom: $border-heavy;
         box-shadow: $shadow-brutal;
         isolation: isolate;
-        min-height: 42vh;
+        min-height: 55vh;
 
         @include allAbove(medium) {
-            min-height: 52vh;
+            min-height: 80vh;
         }
     }
 
@@ -204,16 +204,6 @@
         }
     }
 
-    &__app-summary {
-        margin: 0 0 0.55rem;
-        max-width: 34rem;
-        font-size: 1.02rem;
-        font-weight: 600;
-        color: rgba(255, 255, 255, 0.96);
-        line-height: 1.45;
-        text-shadow: 0 1px 12px rgba(0, 0, 0, 0.28);
-    }
-
     &__lede {
         max-width: 34rem;
         color: rgba(255, 255, 255, 0.9);
@@ -239,55 +229,6 @@
             color: #fff;
             background: linear-gradient(180deg, transparent 62%, rgba($color-speed, 0.55) 62%);
         }
-    }
-
-    &__purpose {
-        margin: 0 1rem 1.35rem;
-        padding: 0;
-    }
-
-    &__purpose-inner {
-        @include brutal-surface;
-        box-shadow: $shadow-brutal-sm;
-        max-width: $site-max-width;
-        margin: 0 auto;
-        padding: 1rem 1.1rem;
-        line-height: 1.55;
-        color: $color-muted;
-        font-size: 0.98rem;
-
-        @include allAbove(medium) {
-            padding: 1.15rem 1.25rem;
-            font-size: 1rem;
-        }
-
-        p {
-            margin: 0 0 0.75rem;
-
-            &:last-child {
-                margin-bottom: 0;
-            }
-        }
-
-        a {
-            color: $color-ink;
-            text-decoration: underline;
-            text-underline-offset: 2px;
-
-            &:hover,
-            &:focus-visible {
-                color: $color-speed;
-            }
-        }
-    }
-
-    &__purpose-title {
-        margin: 0 0 0.65rem;
-        font-family: $font-display;
-        font-size: 1.35rem;
-        font-weight: 700;
-        color: $color-ink;
-        letter-spacing: -0.02em;
     }
 
     &__callout {
