@@ -52,11 +52,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -64,11 +64,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -82,6 +123,9 @@
 
 			<section class="episode-archive" aria-labelledby="episode-archive-title">
 				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2><ol class="episode-archive__list"><li class="episode-archive__item">
+						<a href="/lennys-podcast/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal/" class="episode-archive__link">How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)</a><time class="episode-archive__date" datetime="2026-07-12T12:32:14+00:00">July 12, 2026</time></li><li class="episode-archive__item">
+						<a href="/lennys-podcast/adam-mosseri-ai-is-a-tailwind-for-authenticity/" class="episode-archive__link">Adam Mosseri: AI is a tailwind for authenticity</a><time class="episode-archive__date" datetime="2026-07-09T12:32:21+00:00">July 9, 2026</time></li><li class="episode-archive__item">
+						<a href="/lennys-podcast/openai-codex-lead-on-the-new-shape-of-product-work-andrew-ambrosino/" class="episode-archive__link">OpenAI Codex lead on the new shape of product work | Andrew Ambrosino</a><time class="episode-archive__date" datetime="2026-06-28T12:31:54+00:00">June 28, 2026</time></li><li class="episode-archive__item">
 						<a href="/lennys-podcast/what-happens-after-coding-is-solved-fiona-fung-manager-of-the-claude-code-and-cowork-teams/" class="episode-archive__link">What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)</a><time class="episode-archive__date" datetime="2026-06-21T12:31:43+00:00">June 21, 2026</time></li><li class="episode-archive__item">
 						<a href="/lennys-podcast/the-hidden-pattern-behind-successful-products-mark-pincus-founder-of-zynga/" class="episode-archive__link">The hidden pattern behind successful products | Mark Pincus (founder of Zynga)</a><time class="episode-archive__date" datetime="2026-06-14T12:31:44+00:00">June 14, 2026</time></li><li class="episode-archive__item">
 						<a href="/lennys-podcast/father-of-the-ipod-and-iphone-on-building-taste-judgment-and-creativity-in-the-ai-era-tony-fadell/" class="episode-archive__link">Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell</a><time class="episode-archive__date" datetime="2026-06-07T12:31:29+00:00">June 7, 2026</time></li><li class="episode-archive__item">
@@ -103,10 +147,7 @@
 						<a href="/lennys-podcast/the-most-successful-ai-company-you-ve-never-heard-of-qasar-younis/" class="episode-archive__link">The most successful AI company you’ve never heard of | Qasar Younis</a><time class="episode-archive__date" datetime="2026-03-08T12:31:38+00:00">March 8, 2026</time></li><li class="episode-archive__item">
 						<a href="/lennys-podcast/the-design-process-is-dead-here-s-what-s-replacing-it-jenny-wen-head-of-design-at-claude/" class="episode-archive__link">The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)</a><time class="episode-archive__date" datetime="2026-03-01T13:31:18+00:00">March 1, 2026</time></li><li class="episode-archive__item">
 						<a href="/lennys-podcast/ai-is-critical-for-humanity-s-survival-cisco-president-on-the-ai-revolution-jeetu-patel/" class="episode-archive__link">AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel</a><time class="episode-archive__date" datetime="2026-02-26T13:31:32+00:00">February 26, 2026</time></li><li class="episode-archive__item">
-						<a href="/lennys-podcast/head-of-claude-code-what-happens-after-coding-is-solved-boris-cherny/" class="episode-archive__link">Head of Claude Code: What happens after coding is solved | Boris Cherny</a><time class="episode-archive__date" datetime="2026-02-19T13:31:57+00:00">February 19, 2026</time></li><li class="episode-archive__item">
-						<a href="/lennys-podcast/sequoia-ceo-coach-why-it-s-never-been-easier-to-start-a-company-and-never-been-harder-to-scale-one-brian-halligan-co-fou/" class="episode-archive__link">Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)</a><time class="episode-archive__date" datetime="2026-02-15T13:31:20+00:00">February 15, 2026</time></li><li class="episode-archive__item">
-						<a href="/lennys-podcast/engineers-are-becoming-sorcerers-the-future-of-software-development-with-openai-s-sherwin-wu/" class="episode-archive__link">“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu</a><time class="episode-archive__date" datetime="2026-02-12T13:31:43+00:00">February 12, 2026</time></li><li class="episode-archive__item">
-						<a href="/lennys-podcast/the-rise-of-the-professional-vibe-coder-a-new-ai-era-job-lazar-jovanovic-professional-vibe-coder/" class="episode-archive__link">The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)</a><time class="episode-archive__date" datetime="2026-02-08T13:31:22+00:00">February 8, 2026</time></li></ol></section>
+						<a href="/lennys-podcast/head-of-claude-code-what-happens-after-coding-is-solved-boris-cherny/" class="episode-archive__link">Head of Claude Code: What happens after coding is solved | Boris Cherny</a><time class="episode-archive__date" datetime="2026-02-19T13:31:57+00:00">February 19, 2026</time></li></ol></section>
 		</article>
 	</main>
 	<footer class="footer" role="contentinfo">
@@ -117,18 +158,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>

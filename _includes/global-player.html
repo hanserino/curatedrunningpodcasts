@@ -1,0 +1,57 @@
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>

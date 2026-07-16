@@ -69,38 +69,99 @@
     }
 
     &__player {
+        width: 100%;
         margin: 0 0 1.25rem;
     }
 
     .latest-episodes--episode-page {
+        width: 100%;
         margin: 0;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
 
-        .latest-episodes__player-shell {
-            padding: 1rem 1.1rem;
-            @include brutal-surface;
+        .latest-episodes__list--episode-page {
+            margin: 0;
+            padding: 0;
+            list-style: none;
         }
 
-        .latest-episodes__player-art-wrap {
-            width: 7.5rem;
-            height: 7.5rem;
+        .latest-episodes__item--solo {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            background: transparent;
         }
 
-        .latest-episodes__player-art,
-        .latest-episodes__player-art-wrap .latest-episodes__player-art {
-            width: 7.5rem;
-            height: 7.5rem;
-        }
+        .episode-page__listen-btn.latest-episodes__play {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 0.65rem;
+            width: 100%;
+            max-width: none;
+            min-width: 0;
+            height: auto;
+            min-height: 2.75rem;
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0.85rem 1.15rem;
+            border: $border-heavy;
+            border-radius: $radius-sm;
+            background: $color-speed;
+            box-shadow: $shadow-brutal-sm;
+            cursor: pointer;
+            font-family: $font-body;
+            font-size: 0.95rem;
+            font-weight: 700;
+            line-height: 1.2;
+            color: $color-ink;
+            text-align: left;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
+            flex-shrink: 1;
 
-        .latest-episodes__now-playing {
-            font-family: $font-display;
-            font-size: 1rem;
-            font-weight: 600;
-            line-height: 1.35;
-        }
+            &:hover,
+            &:focus-visible {
+                background: $color-warm;
+                color: $color-surface;
 
-        .latest-episodes__now-playing--idle {
-            display: none;
+                .latest-episodes__play-glyph {
+                    border-color: transparent transparent transparent currentColor;
+                }
+            }
+
+            &.latest-episodes__play--playing {
+                background: $color-warm;
+                color: $color-surface;
+
+                .latest-episodes__play-glyph {
+                    width: 11px;
+                    height: 14px;
+                    margin-left: 0;
+                    border: none;
+                    background: linear-gradient(
+                        90deg,
+                        currentColor 0,
+                        currentColor 3px,
+                        transparent 3px,
+                        transparent 7px,
+                        currentColor 7px,
+                        currentColor 11px
+                    );
+                }
+            }
         }
+    }
+
+    &__listen-glyph {
+        flex-shrink: 0;
+    }
+
+    &__listen-label {
+        min-width: 0;
     }
 
     &__intro {

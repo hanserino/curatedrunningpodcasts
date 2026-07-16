@@ -11,6 +11,19 @@ var isTouchDevice = function () {
 };
 
 var OPML_FAVORITES_STORAGE_KEY = 'brp-opml-favorites';
+var FILTER_PREFS_STORAGE_KEY = 'brp-filter-prefs-v1';
+var restoringFilterPrefs = false;
+
+function notifyUserSync(immediate) {
+    if (!window.BrpUserSync) {
+        return;
+    }
+    if (immediate && window.BrpUserSync.flushLocalChange) {
+        window.BrpUserSync.flushLocalChange();
+    } else if (window.BrpUserSync.notifyLocalChange) {
+        window.BrpUserSync.notifyLocalChange();
+    }
+}
 
 function init() {}
 
@@ -55,6 +68,12 @@ function wireHeaderNav() {
 
         shell.querySelectorAll('.main-nav__link').forEach(function (link) {
             link.addEventListener('click', function () {
+                setOpen(false);
+            });
+        });
+
+        shell.querySelectorAll('[data-user-auth-sign-in], [data-user-auth-sign-out]').forEach(function (btn) {
+            btn.addEventListener('click', function () {
                 setOpen(false);
             });
         });
@@ -107,6 +126,142 @@ var podcastLoopInitialOrder = null;
 
 function getFilterRoot() {
     return document.getElementById('filter');
+}
+
+function getFilterPageKey() {
+    var filter = getFilterRoot();
+    if (!filter) {
+        return '';
+    }
+    var page = (filter.getAttribute('data-filter-page') || '').trim();
+    if (page) {
+        return page;
+    }
+    var noun = filter.getAttribute('data-filter-noun') || 'podcast';
+    return noun === 'episode' ? 'latest' : 'home';
+}
+
+function copyFilterStateForPage(state, includeGrid) {
+    if (!state || typeof state !== 'object') {
+        return null;
+    }
+
+    var copy = {
+        categories: Array.isArray(state.categories) ? state.categories.slice() : [],
+        language: state.language || '',
+        u: state.u || 0,
+    };
+
+    if (includeGrid && (state.grid === 'true' || state.grid === 'false')) {
+        copy.grid = state.grid;
+    }
+
+    return copy;
+}
+
+function getSavedFilterState(pageKey) {
+    var map = readFilterPrefsMap();
+    var state = map[pageKey];
+
+    if (!state && pageKey === 'latest' && map.home) {
+        state = copyFilterStateForPage(map.home, false);
+    }
+
+    return state || null;
+}
+
+function readFilterPrefsMap() {
+    try {
+        var raw = localStorage.getItem(FILTER_PREFS_STORAGE_KEY);
+        if (!raw) {
+            return {};
+        }
+        var parsed = JSON.parse(raw);
+        return parsed && typeof parsed === 'object' ? parsed : {};
+    } catch (_e) {
+        return {};
+    }
+}
+
+function writeFilterPrefsMap(map) {
+    try {
+        localStorage.setItem(FILTER_PREFS_STORAGE_KEY, JSON.stringify(map || {}));
+    } catch (_e) {
+        /* ignore quota errors */
+    }
+}
+
+function captureFilterState() {
+    var categories = [];
+    document.querySelectorAll('input[name="category"]:checked').forEach(function (inp) {
+        if (inp.id) {
+            categories.push(inp.id);
+        }
+    });
+
+    var langInput = document.querySelector('input[name="language_filter"]:checked');
+    var language = langInput ? langInput.value : '';
+
+    var state = {
+        categories: categories,
+        language: language,
+        u: Date.now(),
+    };
+
+    if (document.getElementById('grid-switch')) {
+        state.grid = document.body.getAttribute('data-box-grid') || 'false';
+    }
+
+    return state;
+}
+
+function restoreFilterPrefs() {
+    var pageKey = getFilterPageKey();
+    if (!pageKey) {
+        return false;
+    }
+
+    var state = getSavedFilterState(pageKey);
+    if (!state) {
+        return false;
+    }
+
+    restoringFilterPrefs = true;
+
+    if (Array.isArray(state.categories)) {
+        document.querySelectorAll('input[name="category"]').forEach(function (inp) {
+            inp.checked = state.categories.indexOf(inp.id) !== -1;
+        });
+    }
+
+    setLanguageFilterValue(state.language || '');
+
+    if (
+        (state.grid === 'true' || state.grid === 'false') &&
+        document.getElementById('grid-switch')
+    ) {
+        document.body.setAttribute('data-box-grid', state.grid);
+        syncGridAria();
+    }
+
+    restoringFilterPrefs = false;
+    return true;
+}
+
+function persistFilterPrefs() {
+    if (restoringFilterPrefs) {
+        return;
+    }
+
+    var pageKey = getFilterPageKey();
+    if (!pageKey) {
+        return;
+    }
+
+    var map = readFilterPrefsMap();
+    map[pageKey] = captureFilterState();
+    writeFilterPrefsMap(map);
+    notifyUserSync(true);
 }
 
 function getFilterConfig() {
@@ -235,9 +390,10 @@ function readOpmlFavoriteIds() {
     }
 }
 
-function writeOpmlFavoriteIds(ids) {
+function writeOpmlFavoriteIds(ids, immediateSync) {
     try {
         localStorage.setItem(OPML_FAVORITES_STORAGE_KEY, JSON.stringify(ids));
+        notifyUserSync(immediateSync !== false);
     } catch (_e) {
         /* ignore */
     }
@@ -261,13 +417,29 @@ function getOpmlFavoritePodcasts() {
 }
 
 function saveCurrentOpmlFavorites() {
-    var ids = filterListItems()
+    var storedIds = readOpmlFavoriteIds();
+    var items = filterListItems();
+    var visibleIds = {};
+    items.forEach(function (li) {
+        var id = getOpmlFavoriteId(li);
+        if (id) {
+            visibleIds[id] = true;
+        }
+    });
+
+    // Keep favorites for podcasts that are not on this page (e.g. after filter or on another route).
+    var preserved = storedIds.filter(function (id) {
+        return id && !visibleIds[id];
+    });
+
+    var currentPageFavorites = items
         .filter(function (li) {
             return li.classList.contains('is-opml-favorite') && !!getOpmlPodcastFromItem(li);
         })
-        .map(getOpmlFavoriteId);
+        .map(getOpmlFavoriteId)
+        .filter(Boolean);
 
-    writeOpmlFavoriteIds(ids);
+    writeOpmlFavoriteIds(preserved.concat(currentPageFavorites));
 }
 
 function setOpmlFavorite(li, favorited) {
@@ -360,13 +532,16 @@ function updateOpmlFavoritesUi() {
     renderOpmlFavoritesList(podcasts);
 }
 
-function syncOpmlFavoritesFromStorage() {
+function applyOpmlFavoritesFromStorage() {
     var favoriteIds = readOpmlFavoriteIds();
     filterListItems().forEach(function (li) {
         setOpmlFavorite(li, favoriteIds.indexOf(getOpmlFavoriteId(li)) !== -1);
     });
-    saveCurrentOpmlFavorites();
     updateOpmlFavoritesUi();
+}
+
+function syncOpmlFavoritesFromStorage() {
+    applyOpmlFavoritesFromStorage();
 }
 
 function toggleOpmlFavorite(li) {
@@ -393,7 +568,7 @@ function clearOpmlFavorites() {
     filterListItems().forEach(function (li) {
         setOpmlFavorite(li, false);
     });
-    saveCurrentOpmlFavorites();
+    writeOpmlFavoriteIds([]);
     updateOpmlFavoritesUi();
 }
 
@@ -729,6 +904,7 @@ function resetAllFilters() {
 
     updateFilterResultsCount();
     updateOpmlFavoritesUi();
+    persistFilterPrefs();
 }
 
 function setInitialGridModeByViewport() {
@@ -796,13 +972,17 @@ function wireFilterAndGrid() {
         return;
     }
 
-    setInitialGridModeByViewport();
-    var boxGrid = document.body.getAttribute('data-box-grid');
-
     syncGridAria();
     cachePodcastLoopOrder();
     wireFilterCollapse();
     wireOpmlExport();
+
+    var hadSaved = restoreFilterPrefs();
+    if (!hadSaved) {
+        setInitialGridModeByViewport();
+    }
+
+    var boxGrid = document.body.getAttribute('data-box-grid');
 
     document.addEventListener('change', function (e) {
         var target = e.target;
@@ -811,9 +991,11 @@ function wireFilterAndGrid() {
         }
         if (target.name === 'category') {
             applyDirectoryFilter();
+            persistFilterPrefs();
         }
         if (target.name === 'language_filter') {
             applyDirectoryFilter();
+            persistFilterPrefs();
         }
     });
 
@@ -827,6 +1009,7 @@ function wireFilterAndGrid() {
             boxGrid = boxGrid === 'true' ? 'false' : 'true';
             document.body.setAttribute('data-box-grid', boxGrid);
             syncGridAria();
+            persistFilterPrefs();
         });
     }
 
@@ -837,6 +1020,22 @@ function wireDomReady() {
     wireFilterAndGrid();
     wireHeaderNav();
     wireContextualReturnLinks();
+
+    window.addEventListener('pageshow', function () {
+        if (!getFilterRoot()) {
+            return;
+        }
+        restoreFilterPrefs();
+        applyDirectoryFilter();
+    });
+
+    document.addEventListener('brp-user-synced', function () {
+        applyOpmlFavoritesFromStorage();
+        if (getFilterRoot()) {
+            restoreFilterPrefs();
+            applyDirectoryFilter();
+        }
+    });
 }
 
 if (document.readyState === 'loading') {

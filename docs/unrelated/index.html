@@ -77,11 +77,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link" aria-current="page"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -89,11 +89,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link" aria-current="page"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -115,7 +156,7 @@
 
 
 
-<section class="filter filter--panel" id="filter" aria-labelledby="filter-heading" data-filter-item=".latest-episodes__item" data-filter-noun="episode">
+<section class="filter filter--panel" id="filter" aria-labelledby="filter-heading" data-filter-item=".latest-episodes__item" data-filter-noun="episode" data-filter-page="unrelated">
     <div class="filter__bar">
         <div class="filter__intro">
             <h2 class="filter__title" id="filter-heading">Filter episodes</h2>
@@ -169,7 +210,7 @@
 
 </div>
 
-<section class="latest-episodes" id="unrelated-episodes-page" aria-labelledby="unrelated-episodes-page-title">
+<section class="latest-episodes" id="unrelated-episodes-page" data-brp-player-deck="unrelated-episodes-page" aria-labelledby="unrelated-episodes-page-title">
   <!-- <h2 class="latest-episodes__title" id="unrelated-episodes-page-title">Latest unrelated episodes</h2> --><div class="latest-episodes__player-shell">
   <canvas class="latest-episodes__player-waves" data-player-waves="" aria-hidden="true"></canvas>
   <div class="latest-episodes__player-art-wrap" data-player-art-wrap="" data-default-cover="/media/sommarochvinter.jpg"><picture><source type="image/webp" srcset="/media/sommarochvinter.webp" /><img fetchpriority="high" decoding="async" src="/media/sommarochvinter.jpg" alt="" class="latest-episodes__player-art" data-player-art="" decoding="async" width="96" height="96" loading="lazy" /></picture></div>
@@ -200,7 +241,6 @@
         <span class="latest-episodes__time" data-player-duration="" aria-hidden="true">0:00</span>
       </div>
     </div>
-    <audio preload="none" playsinline="" webkit-playsinline="" data-latest-player="" class="latest-episodes__player"></audio>
   </div>
 </div>
 
@@ -209,117 +249,337 @@
     <li class="latest-episodes__empty" role="status" aria-live="polite" hidden="">
       <p>No episodes match these filters. Try clearing filters or choose fewer categories.</p>
     </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/sommar-vinter-i-p1/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/sommarochvinter.webp" /><img fetchpriority="high" decoding="async" src="/media/sommarochvinter.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Amanda Romare" data-audio-url="https://static-cdn.sr.se/laddahem/podradio/2026/06/program_amanda_romare_podd_20260618_1429326974.mp3" data-episode-title="Amanda Romare" data-podcast-title="Sommar &amp; Vinter i P1" data-cover-url="/media/sommarochvinter.jpg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/sommarochvinter.webp" /><img fetchpriority="high" decoding="async" src="/media/sommarochvinter.jpg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Elaf Ali" data-audio-url="https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_elaf_ali_podd_20260710_1701021072.mp3" data-episode-title="Elaf Ali" data-podcast-title="Sommar &amp; Vinter i P1" data-cover-url="/media/sommarochvinter.jpg" data-episode-url="/sommar-vinter-i-p1/elaf-ali/" data-podcast-url="/sommar-vinter-i-p1/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/sommar-vinter-i-p1/amanda-romare/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Amanda Romare</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/sommar-vinter-i-p1/" class="latest-episodes__podcast-link">Sommar &amp; Vinter i P1</a> • Jun 23, 2026
+        <a href="/sommar-vinter-i-p1/elaf-ali/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Elaf Ali</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/sommar-vinter-i-p1/" class="latest-episodes__podcast-link">Sommar &amp; Vinter i P1</a> • Jul 16, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/pivot/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/pivot.webp" /><img fetchpriority="high" decoding="async" src="/media/pivot.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Starmer Resigns, Reflecting Pool Fiasco, and Amazon Dumps OpenAI Movie" data-audio-url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP2240287948.mp3" data-episode-title="Starmer Resigns, Reflecting Pool Fiasco, and Amazon Dumps OpenAI Movie" data-podcast-title="Pivot" data-cover-url="/media/pivot.jpeg">
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/that-triathlon-show/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/thattriathlonshow.webp" /><img fetchpriority="high" decoding="async" src="/media/thattriathlonshow.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Why 90 Grams of Carbs Still Beats 120 | Paul Booth, UTMB-Winning Performance Nutritionist" data-audio-url="https://injector.simplecastaudio.com/c49b0edd-c4fc-4053-b426-68d0567a8445/episodes/94861746-d621-43da-84d9-7e65be94d988/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=c49b0edd-c4fc-4053-b426-68d0567a8445&amp;awEpisodeId=94861746-d621-43da-84d9-7e65be94d988&amp;feed=RxABNZH0" data-episode-title="Why 90 Grams of Carbs Still Beats 120 | Paul Booth, UTMB-Winning Performance Nutritionist" data-podcast-title="That Triathlon Show" data-cover-url="/media/thattriathlonshow.jpeg" data-episode-url="/that-triathlon-show/why-90-grams-of-carbs-still-beats-120-paul-booth-utmb-winning-performance-nutritionist/" data-podcast-url="/that-triathlon-show/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/pivot/starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Starmer Resigns, Reflecting Pool Fiasco, and Amazon Dumps OpenAI Movie</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pivot/" class="latest-episodes__podcast-link">Pivot</a> • Jun 23, 2026
+        <a href="/that-triathlon-show/why-90-grams-of-carbs-still-beats-120-paul-booth-utmb-winning-performance-nutritionist/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Why 90 Grams of Carbs Still Beats 120 | Paul Booth, UTMB-Winning Performance Nutritionist</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/that-triathlon-show/" class="latest-episodes__podcast-link">That Triathlon Show</a> • Jul 16, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/pablo-torre-finds-out/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/pablotorre.webp" /><img fetchpriority="high" decoding="async" src="/media/pablotorre.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Sarah Jessica Parker on the Seductive Power of Sports and the City" data-audio-url="https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a39824275d929e13d857535/media.mp3" data-episode-title="Sarah Jessica Parker on the Seductive Power of Sports and the City" data-podcast-title="Pablo Torre Finds Out" data-cover-url="/media/pablotorre.jpeg">
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-diary-of-a-ceo/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/diaryofaceo.webp" /><img fetchpriority="high" decoding="async" src="/media/diaryofaceo.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Leading Cancer Researcher: They’re Ignoring My Research, Cancer Patients Must Know This!" data-audio-url="https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KXKGX4APG508169A9ZNDBKKZ.mp3" data-episode-title="Leading Cancer Researcher: They’re Ignoring My Research, Cancer Patients Must Know This!" data-podcast-title="The Diary Of A CEO" data-cover-url="/media/diaryofaceo.jpeg" data-episode-url="/the-diary-of-a-ceo/leading-cancer-researcher-they-re-ignoring-my-research-cancer-patients-must-know-this/" data-podcast-url="/the-diary-of-a-ceo/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/pablo-torre-finds-out/sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Sarah Jessica Parker on the Seductive Power of Sports and the City</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pablo-torre-finds-out/" class="latest-episodes__podcast-link">Pablo Torre Finds Out</a> • Jun 23, 2026
+        <a href="/the-diary-of-a-ceo/leading-cancer-researcher-they-re-ignoring-my-research-cancer-patients-must-know-this/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Leading Cancer Researcher: They’re Ignoring My Research, Cancer Patients Must Know This!</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-diary-of-a-ceo/" class="latest-episodes__podcast-link">The Diary Of A CEO</a> • Jul 16, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/when-we-were-kings/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/whenwewerekings.webp" /><img fetchpriority="high" decoding="async" src="/media/whenwewerekings.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Matchdag 13: Den ghananska hardcore-coachen Herbert Addo" data-audio-url="https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a3a43ee00998a7fc8913318/media.mp3" data-episode-title="Matchdag 13: Den ghananska hardcore-coachen Herbert Addo" data-podcast-title="When We Were Kings" data-cover-url="/media/whenwewerekings.jpeg">
+    </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/p3-dokumentar/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/p3dokumentar.webp" /><img fetchpriority="high" decoding="async" src="/media/p3dokumentar.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Skogsbranden i Västmanland" data-audio-url="https://static-cdn.sr.se/laddahem/podradio/2026/06/p3_dokumentar_skogsbranden_i_vastmanland_20260624_1312157137.mp3" data-episode-title="Skogsbranden i Västmanland" data-podcast-title="P3 Dokumentär" data-cover-url="/media/p3dokumentar.jpeg" data-episode-url="/p3-dokumentar/skogsbranden-i-vastmanland/" data-podcast-url="/p3-dokumentar/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/when-we-were-kings/matchdag-13-den-ghananska-hardcore-coachen-herbert-addo/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Matchdag 13: Den ghananska hardcore-coachen Herbert Addo</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/when-we-were-kings/" class="latest-episodes__podcast-link">When We Were Kings</a> • Jun 23, 2026
+        <a href="/p3-dokumentar/skogsbranden-i-vastmanland/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Skogsbranden i Västmanland</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/p3-dokumentar/" class="latest-episodes__podcast-link">P3 Dokumentär</a> • Jul 16, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li><li class="latest-episodes__item" data-category="uncategorized norwegian" data-podcast-url="/forklart/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/forklart.webp" /><img fetchpriority="high" decoding="async" src="/media/forklart.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt" data-audio-url="https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/bekzf7fl55qhbgr4hskq3/podcast_128.mp3" data-episode-title="Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt" data-podcast-title="Forklart" data-cover-url="/media/forklart.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/forklart.webp" /><img fetchpriority="high" decoding="async" src="/media/forklart.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Er kanselleringskulturen død?" data-audio-url="https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/an3lo2t5isxjjhkdypq7v/podcast_128.mp3" data-episode-title="Er kanselleringskulturen død?" data-podcast-title="Forklart" data-cover-url="/media/forklart.jpeg" data-episode-url="/forklart/er-kanselleringskulturen-dod/" data-podcast-url="/forklart/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/forklart/kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/forklart/" class="latest-episodes__podcast-link">Forklart</a> • Jun 23, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized norwegian" data-podcast-url="/oppdatert/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/oppdatert.webp" /><img fetchpriority="high" decoding="async" src="/media/oppdatert.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Katastrofebrannen i LA: Sto en 29-åring bak?" data-audio-url="https://podkast.nrk.no/fil/oppdatert/1af4468c-5041-4c2a-b446-8c50417c2afe_1_ID192MP3.mp3" data-episode-title="Katastrofebrannen i LA: Sto en 29-åring bak?" data-podcast-title="Oppdatert" data-cover-url="/media/oppdatert.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/oppdatert/katastrofebrannen-i-la-sto-en-29-aring-bak/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Katastrofebrannen i LA: Sto en 29-åring bak?</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/oppdatert/" class="latest-episodes__podcast-link">Oppdatert</a> • Jun 23, 2026
+        <a href="/forklart/er-kanselleringskulturen-dod/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Er kanselleringskulturen død?</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/forklart/" class="latest-episodes__podcast-link">Forklart</a> • Jul 16, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/themove/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/themove.webp" /><img fetchpriority="high" decoding="async" src="/media/themove.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Best Pogačar Ever? | Tour de Suisse Review | THEMOVE" data-audio-url="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/The_Best_Pogacar_Ever__Tour_de_Suisse_Review__THEMOVE.mp3?dest-id=535577" data-episode-title="The Best Pogačar Ever? | Tour de Suisse Review | THEMOVE" data-podcast-title="THEMOVE" data-cover-url="/media/themove.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/themove.webp" /><img fetchpriority="high" decoding="async" src="/media/themove.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: How an Ultra-Fast Stage Led to a Shocking Upset | TdF Stage 11 | THEMOVE+" data-audio-url="https://pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/mgln.ai/e/35/clrtpod.com/m/pscrb.fm/rss/p/traffic.libsyn.com/secure/stages/test_3.mp3?dest-id=535577" data-episode-title="How an Ultra-Fast Stage Led to a Shocking Upset | TdF Stage 11 | THEMOVE+" data-podcast-title="THEMOVE" data-cover-url="/media/themove.jpeg" data-episode-url="/themove/how-an-ultra-fast-stage-led-to-a-shocking-upset-tdf-stage-11-themove/" data-podcast-url="/themove/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/themove/the-best-pogacar-ever-tour-de-suisse-review-themove/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Best Pogačar Ever? | Tour de Suisse Review | THEMOVE</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/themove/" class="latest-episodes__podcast-link">THEMOVE</a> • Jun 22, 2026
+        <a href="/themove/how-an-ultra-fast-stage-led-to-a-shocking-upset-tdf-stage-11-themove/" class="latest-episodes__episode-title latest-episodes__episode-title--row">How an Ultra-Fast Stage Led to a Shocking Upset | TdF Stage 11 | THEMOVE+</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/themove/" class="latest-episodes__podcast-link">THEMOVE</a> • Jul 15, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-colin-and-samir-show/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/colinandsamirshow.webp" /><img fetchpriority="high" decoding="async" src="/media/colinandsamirshow.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Cannes Lions Day 1: Anthpo, Ramp, and The Best Ads of the Year" data-audio-url="https://traffic.megaphone.fm/LUHUC8679680619.mp3" data-episode-title="Cannes Lions Day 1: Anthpo, Ramp, and The Best Ads of the Year" data-podcast-title="The Colin and Samir Show" data-cover-url="/media/colinandsamirshow.jpeg">
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/talking-over-you/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/talkingoveryou.webp" /><img fetchpriority="high" decoding="async" src="/media/talkingoveryou.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Elephant seals, grabbling davils, and the Hardrock 100" data-audio-url="https://www.buzzsprout.com/2529065/episodes/19498913-elephant-seals-grabbling-davils-and-the-hardrock-100.mp3" data-episode-title="Elephant seals, grabbling davils, and the Hardrock 100" data-podcast-title="Talking Over You" data-cover-url="/media/talkingoveryou.jpeg" data-episode-url="/talking-over-you/elephant-seals-grabbling-davils-and-the-hardrock-100/" data-podcast-url="/talking-over-you/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/the-colin-and-samir-show/cannes-lions-day-1-anthpo-ramp-and-the-best-ads-of-the-year/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Cannes Lions Day 1: Anthpo, Ramp, and The Best Ads of the Year</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-colin-and-samir-show/" class="latest-episodes__podcast-link">The Colin and Samir Show</a> • Jun 22, 2026
+        <a href="/talking-over-you/elephant-seals-grabbling-davils-and-the-hardrock-100/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Elephant seals, grabbling davils, and the Hardrock 100</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/talking-over-you/" class="latest-episodes__podcast-link">Talking Over You</a> • Jul 15, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/dear-hank-john/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/dearhank.webp" /><img fetchpriority="high" decoding="async" src="/media/dearhank.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 460: Light as a Feather, Stiff as a Board" data-audio-url="https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/087accfe-f123-4709-bb1a-355d3bd569dd.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94" data-episode-title="460: Light as a Feather, Stiff as a Board" data-podcast-title="Dear Hank &amp; John" data-cover-url="/media/dearhank.jpeg" data-episode-url="/dear-hank-john/460-light-as-a-feather-stiff-as-a-board/" data-podcast-url="/dear-hank-john/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/dear-hank-john/460-light-as-a-feather-stiff-as-a-board/" class="latest-episodes__episode-title latest-episodes__episode-title--row">460: Light as a Feather, Stiff as a Board</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/dear-hank-john/" class="latest-episodes__podcast-link">Dear Hank &amp; John</a> • Jul 15, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/my-first-million/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/myfirstmillion.webp" /><img fetchpriority="high" decoding="async" src="/media/myfirstmillion.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Howard Marks: how I make money while you worry about a market crash" data-audio-url="https://pdst.fm/e/traffic.megaphone.fm/HS7019324451.mp3" data-episode-title="Howard Marks: how I make money while you worry about a market crash" data-podcast-title="My First Million" data-cover-url="/media/myfirstmillion.jpeg" data-episode-url="/my-first-million/howard-marks-how-i-make-money-while-you-worry-about-a-market-crash/" data-podcast-url="/my-first-million/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/my-first-million/howard-marks-how-i-make-money-while-you-worry-about-a-market-crash/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Howard Marks: how I make money while you worry about a market crash</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/my-first-million/" class="latest-episodes__podcast-link">My First Million</a> • Jul 15, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/when-we-were-kings/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/whenwewerekings.webp" /><img fetchpriority="high" decoding="async" src="/media/whenwewerekings.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Matchdag 32: Argentina - England 1986" data-audio-url="https://sphinx.acast.com/p/open/s/69ca617a8fc1c62479ee62c4/e/6a5746ec7e01c44e38e1666f/media.mp3" data-episode-title="Matchdag 32: Argentina - England 1986" data-podcast-title="When We Were Kings" data-cover-url="/media/whenwewerekings.jpeg" data-episode-url="/when-we-were-kings/matchdag-32-argentina-england-1986/" data-podcast-url="/when-we-were-kings/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/when-we-were-kings/matchdag-32-argentina-england-1986/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Matchdag 32: Argentina - England 1986</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/when-we-were-kings/" class="latest-episodes__podcast-link">When We Were Kings</a> • Jul 15, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/normal-gossip/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/normalgossip.webp" /><img fetchpriority="high" decoding="async" src="/media/normalgossip.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: A Guncle’s Tale with Griff Stark Ennis" data-audio-url="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/sblTq32fyWAjsHzze2LG/dovetail.prxu.org/3492/e67a3ae0-65af-4a3d-b911-fb80d1f88abc/02_10C_Griff_Stark_Ennis_SSRV2_SGMIX1.mp3" data-episode-title="A Guncle’s Tale with Griff Stark Ennis" data-podcast-title="Normal Gossip" data-cover-url="/media/normalgossip.jpeg" data-episode-url="/normal-gossip/a-guncle-s-tale-with-griff-stark-ennis/" data-podcast-url="/normal-gossip/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/normal-gossip/a-guncle-s-tale-with-griff-stark-ennis/" class="latest-episodes__episode-title latest-episodes__episode-title--row">A Guncle’s Tale with Griff Stark Ennis</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/normal-gossip/" class="latest-episodes__podcast-link">Normal Gossip</a> • Jul 15, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/and-the-writer-is-with-ross-golan/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/andthewriteris.webp" /><img fetchpriority="high" decoding="async" src="/media/andthewriteris.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Ep. 256: Gavin Rossdale (Bush) | &quot;Glycerine&quot; &amp; Surviving the &apos;90s" data-audio-url="https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a565e1a70c881d75cf49ddf/media.mp3" data-episode-title="Ep. 256: Gavin Rossdale (Bush) | &quot;Glycerine&quot; &amp; Surviving the &#39;90s" data-podcast-title="And The Writer Is...with Ross Golan" data-cover-url="/media/andthewriteris.jpeg" data-episode-url="/and-the-writer-is-with-ross-golan/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s/" data-podcast-url="/and-the-writer-is-with-ross-golan/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/and-the-writer-is-with-ross-golan/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Ep. 256: Gavin Rossdale (Bush) | "Glycerine" &amp; Surviving the '90s</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/and-the-writer-is-with-ross-golan/" class="latest-episodes__podcast-link">And The Writer Is...with Ross Golan</a> • Jul 14, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized norwegian" data-podcast-url="/oppdatert/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/oppdatert.webp" /><img fetchpriority="high" decoding="async" src="/media/oppdatert.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Norges VM-exit: Har VAR blitt et maktmiddel?" data-audio-url="https://podkast.nrk.no/fil/oppdatert/b86181a2-2b93-4a47-a181-a22b937a472b_1_ID192MP3.mp3" data-episode-title="Norges VM-exit: Har VAR blitt et maktmiddel?" data-podcast-title="Oppdatert" data-cover-url="/media/oppdatert.jpeg" data-episode-url="/oppdatert/norges-vm-exit-har-var-blitt-et-maktmiddel/" data-podcast-url="/oppdatert/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/oppdatert/norges-vm-exit-har-var-blitt-et-maktmiddel/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Norges VM-exit: Har VAR blitt et maktmiddel?</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/oppdatert/" class="latest-episodes__podcast-link">Oppdatert</a> • Jul 14, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-lonely-island-and-seth-meyers-podcast/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lonelyisland.webp" /><img fetchpriority="high" decoding="async" src="/media/lonelyisland.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Pee Wee and Andy&apos;s Night Out" data-audio-url="https://sphinx.acast.com/p/open/s/6a47d3ed5ef16cb8040a8c6e/e/6a558bfc75790d5f0191197c/media.mp3" data-episode-title="Pee Wee and Andy&#39;s Night Out" data-podcast-title="The Lonely Island and Seth Meyers Podcast" data-cover-url="/media/lonelyisland.jpeg" data-episode-url="/the-lonely-island-and-seth-meyers-podcast/pee-wee-and-andy-s-night-out/" data-podcast-url="/the-lonely-island-and-seth-meyers-podcast/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/the-lonely-island-and-seth-meyers-podcast/pee-wee-and-andy-s-night-out/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Pee Wee and Andy's Night Out</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-lonely-island-and-seth-meyers-podcast/" class="latest-episodes__podcast-link">The Lonely Island and Seth Meyers Podcast</a> • Jul 14, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/pivot/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/pivot.webp" /><img fetchpriority="high" decoding="async" src="/media/pivot.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories" data-audio-url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5509757808.mp3" data-episode-title="Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories" data-podcast-title="Pivot" data-cover-url="/media/pivot.jpeg" data-episode-url="/pivot/apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories/" data-podcast-url="/pivot/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/pivot/apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pivot/" class="latest-episodes__podcast-link">Pivot</a> • Jul 14, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/pablo-torre-finds-out/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/pablotorre.webp" /><img fetchpriority="high" decoding="async" src="/media/pablotorre.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The &quot;Pay-to-Play&quot; Scheme That (Almost) Ruined Video Games, with Dan Soder" data-audio-url="https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a552396287363c6c82e3f58/media.mp3" data-episode-title="The &quot;Pay-to-Play&quot; Scheme That (Almost) Ruined Video Games, with Dan Soder" data-podcast-title="Pablo Torre Finds Out" data-cover-url="/media/pablotorre.jpeg" data-episode-url="/pablo-torre-finds-out/the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder/" data-podcast-url="/pablo-torre-finds-out/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/pablo-torre-finds-out/the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The "Pay-to-Play" Scheme That (Almost) Ruined Video Games, with Dan Soder</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/pablo-torre-finds-out/" class="latest-episodes__podcast-link">Pablo Torre Finds Out</a> • Jul 14, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/huberman-lab/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/huberman.webp" /><img fetchpriority="high" decoding="async" src="/media/huberman.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Science of Attraction, Compatibility &amp; Romance | Dr. Paul Eastwick" data-audio-url="https://traffic.megaphone.fm/SCIM9984287085.mp3" data-episode-title="Science of Attraction, Compatibility &amp; Romance | Dr. Paul Eastwick" data-podcast-title="Huberman Lab" data-cover-url="/media/huberman.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/huberman.webp" /><img fetchpriority="high" decoding="async" src="/media/huberman.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: How to Improve Your Memory &amp; Cognitive Function at Any Age | Dr. Alan Castel" data-audio-url="https://traffic.megaphone.fm/SCIM5781519002.mp3" data-episode-title="How to Improve Your Memory &amp; Cognitive Function at Any Age | Dr. Alan Castel" data-podcast-title="Huberman Lab" data-cover-url="/media/huberman.jpeg" data-episode-url="/huberman-lab/how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel/" data-podcast-url="/huberman-lab/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/huberman-lab/science-of-attraction-compatibility-romance-dr-paul-eastwick/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Science of Attraction, Compatibility &amp; Romance | Dr. Paul Eastwick</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/huberman-lab/" class="latest-episodes__podcast-link">Huberman Lab</a> • Jun 22, 2026
+        <a href="/huberman-lab/how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel/" class="latest-episodes__episode-title latest-episodes__episode-title--row">How to Improve Your Memory &amp; Cognitive Function at Any Age | Dr. Alan Castel</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/huberman-lab/" class="latest-episodes__podcast-link">Huberman Lab</a> • Jul 13, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/how-i-built-this/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/howibuiltthis.webp" /><img fetchpriority="high" decoding="async" src="/media/howibuiltthis.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct" data-audio-url="https://rss.art19.com/episodes/6c0eb387-4722-4284-aded-23bbd0a9e6f4.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94" data-episode-title="STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct" data-podcast-title="How I Built This" data-cover-url="/media/howibuiltthis.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/howibuiltthis.webp" /><img fetchpriority="high" decoding="async" src="/media/howibuiltthis.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)" data-audio-url="https://rss.art19.com/episodes/77ab41eb-99a8-4dd2-ae39-d066818afc21.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94" data-episode-title="Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)" data-podcast-title="How I Built This" data-cover-url="/media/howibuiltthis.jpeg" data-episode-url="/how-i-built-this/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/" data-podcast-url="/how-i-built-this/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
-        <a href="/how-i-built-this/starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct/" class="latest-episodes__episode-title latest-episodes__episode-title--row">STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/how-i-built-this/" class="latest-episodes__podcast-link">How I Built This</a> • Jun 22, 2026
+        <a href="/how-i-built-this/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/how-i-built-this/" class="latest-episodes__podcast-link">How I Built This</a> • Jul 13, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/lennys-podcast/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lennyspodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/lennyspodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)" data-audio-url="https://api.substack.com/feed/podcast/205673536/858a4d7ec0a2ab1461d7d30b989cc671.mp3" data-episode-title="How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)" data-podcast-title="Lenny&#39;s Podcast" data-cover-url="/media/lennyspodcast.jpeg" data-episode-url="/lennys-podcast/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal/" data-podcast-url="/lennys-podcast/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/lennys-podcast/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal/" class="latest-episodes__episode-title latest-episodes__episode-title--row">How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/lennys-podcast/" class="latest-episodes__podcast-link">Lenny's Podcast</a> • Jul 12, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/diabolic-lies/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/diaboliclies.webp" /><img fetchpriority="high" decoding="async" src="/media/diaboliclies.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: How &apos;The Botox Psyop&apos; Broke Our Brains in the Name of Beauty" data-audio-url="https://api.substack.com/feed/podcast/206346894/88c471a01cc99826a370797edd3363e8.mp3" data-episode-title="How &#39;The Botox Psyop&#39; Broke Our Brains in the Name of Beauty" data-podcast-title="Diabolic Lies" data-cover-url="/media/diaboliclies.jpeg" data-episode-url="/diabolic-lies/how-the-botox-psyop-broke-our-brains-in-the-name-of-beauty/" data-podcast-url="/diabolic-lies/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/diabolic-lies/how-the-botox-psyop-broke-our-brains-in-the-name-of-beauty/" class="latest-episodes__episode-title latest-episodes__episode-title--row">How 'The Botox Psyop' Broke Our Brains in the Name of Beauty</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/diabolic-lies/" class="latest-episodes__podcast-link">Diabolic Lies</a> • Jul 12, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/hysteria/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/hysteria.webp" /><img fetchpriority="high" decoding="async" src="/media/hysteria.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: This F*cking Guy: Ronald Reagan" data-audio-url="https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917506.mp3?modified=1783883078&amp;sid=5166619&amp;source=rss" data-episode-title="This F*cking Guy: Ronald Reagan" data-podcast-title="Hysteria" data-cover-url="/media/hysteria.jpeg" data-episode-url="/hysteria/this-f-cking-guy-ronald-reagan/" data-podcast-url="/hysteria/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/hysteria/this-f-cking-guy-ronald-reagan/" class="latest-episodes__episode-title latest-episodes__episode-title--row">This F*cking Guy: Ronald Reagan</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/hysteria/" class="latest-episodes__podcast-link">Hysteria</a> • Jul 12, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/smosh-reads-reddit-stories/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/smoshreadsredditstories.webp" /><img fetchpriority="high" decoding="async" src="/media/smoshreadsredditstories.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: A New Level Of Entitlement | Reading Reddit Stories" data-audio-url="https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8926066.mp3?modified=1783703367&amp;sid=5148149&amp;source=rss" data-episode-title="A New Level Of Entitlement | Reading Reddit Stories" data-podcast-title="Smosh Reads Reddit Stories" data-cover-url="/media/smoshreadsredditstories.jpeg" data-episode-url="/smosh-reads-reddit-stories/a-new-level-of-entitlement-reading-reddit-stories/" data-podcast-url="/smosh-reads-reddit-stories/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/smosh-reads-reddit-stories/a-new-level-of-entitlement-reading-reddit-stories/" class="latest-episodes__episode-title latest-episodes__episode-title--row">A New Level Of Entitlement | Reading Reddit Stories</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/smosh-reads-reddit-stories/" class="latest-episodes__podcast-link">Smosh Reads Reddit Stories</a> • Jul 11, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/offline-with-jon-favreau/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/offline.webp" /><img fetchpriority="high" decoding="async" src="/media/offline.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Billionaires vs. Journalists" data-audio-url="https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8925559.mp3?modified=1783550438&amp;sid=5166623&amp;source=rss" data-episode-title="Billionaires vs. Journalists" data-podcast-title="Offline with Jon Favreau" data-cover-url="/media/offline.jpeg" data-episode-url="/offline-with-jon-favreau/billionaires-vs-journalists/" data-podcast-url="/offline-with-jon-favreau/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/offline-with-jon-favreau/billionaires-vs-journalists/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Billionaires vs. Journalists</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/offline-with-jon-favreau/" class="latest-episodes__podcast-link">Offline with Jon Favreau</a> • Jul 11, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/hard-fork/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/hardfork.webp" /><img fetchpriority="high" decoding="async" src="/media/hardfork.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Do Social Media Bans Work? + A Conversation About A.I. Consciousness + Tool Time" data-audio-url="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/66388e1d-5945-46ac-8ff4-81c64aa56dbf/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&amp;awEpisodeId=66388e1d-5945-46ac-8ff4-81c64aa56dbf&amp;feed=6HKOhNgS" data-episode-title="Do Social Media Bans Work? + A Conversation About A.I. Consciousness + Tool Time" data-podcast-title="Hard Fork" data-cover-url="/media/hardfork.jpeg" data-episode-url="/hard-fork/do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time/" data-podcast-url="/hard-fork/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/hard-fork/do-social-media-bans-work-a-conversation-about-a-i-consciousness-tool-time/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Do Social Media Bans Work? + A Conversation About A.I. Consciousness + Tool Time</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/hard-fork/" class="latest-episodes__podcast-link">Hard Fork</a> • Jul 10, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/waveform-the-mkbhd-podcast/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/waveform.webp" /><img fetchpriority="high" decoding="async" src="/media/waveform.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Nothing Beats Phone 4b with Ear 3a?" data-audio-url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP8062474703.mp3" data-episode-title="Nothing Beats Phone 4b with Ear 3a?" data-podcast-title="Waveform: The MKBHD Podcast" data-cover-url="/media/waveform.jpeg" data-episode-url="/waveform-the-mkbhd-podcast/nothing-beats-phone-4b-with-ear-3a/" data-podcast-url="/waveform-the-mkbhd-podcast/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/waveform-the-mkbhd-podcast/nothing-beats-phone-4b-with-ear-3a/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Nothing Beats Phone 4b with Ear 3a?</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/waveform-the-mkbhd-podcast/" class="latest-episodes__podcast-link">Waveform: The MKBHD Podcast</a> • Jul 10, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/alex-og-sigges-podcast/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/alexochsigge.webp" /><img fetchpriority="high" decoding="async" src="/media/alexochsigge.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 738. Otrohetsanteckningar i marginalen" data-audio-url="https://media.pod.space/alexosigge/aos738_260709.mp3" data-episode-title="738. Otrohetsanteckningar i marginalen" data-podcast-title="Alex och Sigges podcast" data-cover-url="/media/alexochsigge.jpeg" data-episode-url="/alex-og-sigges-podcast/738-otrohetsanteckningar-i-marginalen/" data-podcast-url="/alex-og-sigges-podcast/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/alex-og-sigges-podcast/738-otrohetsanteckningar-i-marginalen/" class="latest-episodes__episode-title latest-episodes__episode-title--row">738. Otrohetsanteckningar i marginalen</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/alex-og-sigges-podcast/" class="latest-episodes__podcast-link">Alex och Sigges podcast</a> • Jul 9, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-colin-and-samir-show/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/colinandsamirshow.webp" /><img fetchpriority="high" decoding="async" src="/media/colinandsamirshow.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Tom Segura and Fox Creator Studios: Inside Hollywood&apos;s New Business Model" data-audio-url="https://traffic.megaphone.fm/LUHUC3792242766.mp3" data-episode-title="Tom Segura and Fox Creator Studios: Inside Hollywood&#39;s New Business Model" data-podcast-title="The Colin and Samir Show" data-cover-url="/media/colinandsamirshow.jpeg" data-episode-url="/the-colin-and-samir-show/tom-segura-and-fox-creator-studios-inside-hollywood-s-new-business-model/" data-podcast-url="/the-colin-and-samir-show/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/the-colin-and-samir-show/tom-segura-and-fox-creator-studios-inside-hollywood-s-new-business-model/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Tom Segura and Fox Creator Studios: Inside Hollywood's New Business Model</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-colin-and-samir-show/" class="latest-episodes__podcast-link">The Colin and Samir Show</a> • Jul 9, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/enormocast/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/enormocast.webp" /><img fetchpriority="high" decoding="async" src="/media/enormocast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Enormocast 326: Julia Cassou – Telling True Stories" data-audio-url="https://media.blubrry.com/enormocast/media.blubrry.com/enormocast/content.blubrry.com/enormocast/Enormo_326_Julia_Cassou.mp3" data-episode-title="Enormocast 326: Julia Cassou – Telling True Stories" data-podcast-title="Enormocast" data-cover-url="/media/enormocast.jpeg" data-episode-url="/enormocast/enormocast-326-julia-cassou-telling-true-stories/" data-podcast-url="/enormocast/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/enormocast/enormocast-326-julia-cassou-telling-true-stories/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Enormocast 326: Julia Cassou – Telling True Stories</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/enormocast/" class="latest-episodes__podcast-link">Enormocast</a> • Jul 7, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-cutting-edge/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/cuttingedgepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/cuttingedgepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Legendary Bombé Bleu Project, with Erwan Legrand, Ben Moon, and Matt Samet" data-audio-url="https://feeds.soundcloud.com/stream/2354182235-american-alpine-journal-the-legendary-bombe-bleu.mp3" data-episode-title="The Legendary Bombé Bleu Project, with Erwan Legrand, Ben Moon, and Matt Samet" data-podcast-title="The Cutting Edge" data-cover-url="/media/cuttingedgepodcast.jpeg" data-episode-url="/the-cutting-edge/the-legendary-bombe-bleu-project-with-erwan-legrand-ben-moon-and-matt-samet/" data-podcast-url="/the-cutting-edge/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/the-cutting-edge/the-legendary-bombe-bleu-project-with-erwan-legrand-ben-moon-and-matt-samet/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Legendary Bombé Bleu Project, with Erwan Legrand, Ben Moon, and Matt Samet</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-cutting-edge/" class="latest-episodes__podcast-link">The Cutting Edge</a> • Jul 6, 2026
+        </p>
+      </div>
+      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
+        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
+      </div>
+    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/lex-fridman-podcast/">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lexfriedman.webp" /><img fetchpriority="high" decoding="async" src="/media/lexfriedman.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise &amp; Fall of Empires" data-audio-url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_anthony_kaldellis.mp3" data-episode-title="#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise &amp; Fall of Empires" data-podcast-title="Lex Fridman Podcast" data-cover-url="/media/lexfriedman.jpeg" data-episode-url="/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires/" data-podcast-url="/lex-fridman-podcast/">
+          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        </button>
+        <a href="/lex-fridman-podcast/498-anthony-kaldellis-roman-empire-byzantine-empire-rise-fall-of-empires/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise &amp; Fall of Empires</a>
+        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/lex-fridman-podcast/" class="latest-episodes__podcast-link">Lex Fridman Podcast</a> • Jun 30, 2026
         </p>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/acquired/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/aquired.webp" /><img fetchpriority="high" decoding="async" src="/media/aquired.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Walt Disney Company" data-audio-url="https://pscrb.fm/rss/p/media.transistor.fm/04eefe71/39c635fd.mp3" data-episode-title="The Walt Disney Company" data-podcast-title="Acquired" data-cover-url="/media/aquired.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/aquired.webp" /><img fetchpriority="high" decoding="async" src="/media/aquired.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Walt Disney Company" data-audio-url="https://pscrb.fm/rss/p/media.transistor.fm/04eefe71/39c635fd.mp3" data-episode-title="The Walt Disney Company" data-podcast-title="Acquired" data-cover-url="/media/aquired.jpeg" data-episode-url="/acquired/the-walt-disney-company/" data-podcast-url="/acquired/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
         <a href="/acquired/the-walt-disney-company/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Walt Disney Company</a>
@@ -329,217 +589,8 @@
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-diary-of-a-ceo/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/diaryofaceo.webp" /><img fetchpriority="high" decoding="async" src="/media/diaryofaceo.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!" data-audio-url="https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KVM73TKXB3XPJ4YM5S9GWBG8.mp3" data-episode-title="Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!" data-podcast-title="The Diary Of A CEO" data-cover-url="/media/diaryofaceo.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/the-diary-of-a-ceo/dr-rachel-rubin-women-s-sexual-health-menopause-hormone-replacement-therapy-hrt-and-orgasms/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Dr Rachel Rubin: Women’s Sexual Health, Menopause, Hormone Replacement Therapy (HRT), and Orgasms!</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-diary-of-a-ceo/" class="latest-episodes__podcast-link">The Diary Of A CEO</a> • Jun 22, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/lennys-podcast/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lennyspodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/lennyspodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)" data-audio-url="https://api.substack.com/feed/podcast/201226747/9fbb1159224a2e3b7046f2aba1bcef16.mp3" data-episode-title="What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)" data-podcast-title="Lenny&#39;s Podcast" data-cover-url="/media/lennyspodcast.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/lennys-podcast/what-happens-after-coding-is-solved-fiona-fung-manager-of-the-claude-code-and-cowork-teams/" class="latest-episodes__episode-title latest-episodes__episode-title--row">What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/lennys-podcast/" class="latest-episodes__podcast-link">Lenny's Podcast</a> • Jun 21, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/hysteria/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/hysteria.webp" /><img fetchpriority="high" decoding="async" src="/media/hysteria.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: This F*cking Guy: John Roberts" data-audio-url="https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8915628.mp3?modified=1781995908&amp;sid=5166619&amp;source=rss" data-episode-title="This F*cking Guy: John Roberts" data-podcast-title="Hysteria" data-cover-url="/media/hysteria.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/hysteria/this-f-cking-guy-john-roberts/" class="latest-episodes__episode-title latest-episodes__episode-title--row">This F*cking Guy: John Roberts</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/hysteria/" class="latest-episodes__podcast-link">Hysteria</a> • Jun 21, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/smosh-reads-reddit-stories/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/smoshreadsredditstories.webp" /><img fetchpriority="high" decoding="async" src="/media/smoshreadsredditstories.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Parents Just Don&apos;t Understand | Reading Reddit Stories" data-audio-url="https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8918444.mp3?modified=1781828292&amp;sid=5148149&amp;source=rss" data-episode-title="Parents Just Don&#39;t Understand | Reading Reddit Stories" data-podcast-title="Smosh Reads Reddit Stories" data-cover-url="/media/smoshreadsredditstories.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/smosh-reads-reddit-stories/parents-just-don-t-understand-reading-reddit-stories/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Parents Just Don't Understand | Reading Reddit Stories</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/smosh-reads-reddit-stories/" class="latest-episodes__podcast-link">Smosh Reads Reddit Stories</a> • Jun 20, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/offline-with-jon-favreau/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/offline.webp" /><img fetchpriority="high" decoding="async" src="/media/offline.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Why You Should Love America" data-audio-url="https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8918402.mp3?modified=1781995540&amp;sid=5166623&amp;source=rss" data-episode-title="Why You Should Love America" data-podcast-title="Offline with Jon Favreau" data-cover-url="/media/offline.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/offline-with-jon-favreau/why-you-should-love-america/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Why You Should Love America</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/offline-with-jon-favreau/" class="latest-episodes__podcast-link">Offline with Jon Favreau</a> • Jun 20, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-cutting-edge/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/cuttingedgepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/cuttingedgepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Cutting Edge Trailer" data-audio-url="https://feeds.soundcloud.com/stream/2342666321-american-alpine-journal-cutting-edge_trailer.mp3" data-episode-title="Cutting Edge Trailer" data-podcast-title="The Cutting Edge" data-cover-url="/media/cuttingedgepodcast.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/the-cutting-edge/cutting-edge-trailer/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Cutting Edge Trailer</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-cutting-edge/" class="latest-episodes__podcast-link">The Cutting Edge</a> • Jun 19, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/and-the-writer-is-with-ross-golan/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/andthewriteris.webp" /><img fetchpriority="high" decoding="async" src="/media/andthewriteris.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: And The Update Is...Heartbreak In The Writing Community, Chart Toppers &amp; Goats" data-audio-url="https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a357f814a187774ac1da2a1/media.mp3" data-episode-title="And The Update Is...Heartbreak In The Writing Community, Chart Toppers &amp; Goats" data-podcast-title="And The Writer Is...with Ross Golan" data-cover-url="/media/andthewriteris.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/and-the-writer-is-with-ross-golan/and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats/" class="latest-episodes__episode-title latest-episodes__episode-title--row">And The Update Is...Heartbreak In The Writing Community, Chart Toppers &amp; Goats</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/and-the-writer-is-with-ross-golan/" class="latest-episodes__podcast-link">And The Writer Is...with Ross Golan</a> • Jun 19, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/hard-fork/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/hardfork.webp" /><img fetchpriority="high" decoding="async" src="/media/hardfork.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: ‘Hard Fork’ Live, Part 3: Differing Visions of an A.I. Future" data-audio-url="https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/3e43d072-f8a5-430f-bc8e-4c70aafdf3c7/episodes/b33df0cb-d4fc-4587-b402-09c2551fbd22/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=3e43d072-f8a5-430f-bc8e-4c70aafdf3c7&amp;awEpisodeId=b33df0cb-d4fc-4587-b402-09c2551fbd22&amp;feed=6HKOhNgS" data-episode-title="‘Hard Fork’ Live, Part 3: Differing Visions of an A.I. Future" data-podcast-title="Hard Fork" data-cover-url="/media/hardfork.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/hard-fork/hard-fork-live-part-3-differing-visions-of-an-a-i-future/" class="latest-episodes__episode-title latest-episodes__episode-title--row">‘Hard Fork’ Live, Part 3: Differing Visions of an A.I. Future</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/hard-fork/" class="latest-episodes__podcast-link">Hard Fork</a> • Jun 19, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/waveform-the-mkbhd-podcast/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/waveform.webp" /><img fetchpriority="high" decoding="async" src="/media/waveform.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: This is the Best Android Update Ever" data-audio-url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP7984784272.mp3" data-episode-title="This is the Best Android Update Ever" data-podcast-title="Waveform: The MKBHD Podcast" data-cover-url="/media/waveform.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/waveform-the-mkbhd-podcast/this-is-the-best-android-update-ever/" class="latest-episodes__episode-title latest-episodes__episode-title--row">This is the Best Android Update Ever</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/waveform-the-mkbhd-podcast/" class="latest-episodes__podcast-link">Waveform: The MKBHD Podcast</a> • Jun 19, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/alex-og-sigges-podcast/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/alexochsigge.webp" /><img fetchpriority="high" decoding="async" src="/media/alexochsigge.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 735. Parterapi inför miljonpublik" data-audio-url="https://media.pod.space/alexosigge/aos735_260619.mp3" data-episode-title="735. Parterapi inför miljonpublik" data-podcast-title="Alex och Sigges podcast" data-cover-url="/media/alexochsigge.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/alex-og-sigges-podcast/735-parterapi-infor-miljonpublik/" class="latest-episodes__episode-title latest-episodes__episode-title--row">735. Parterapi inför miljonpublik</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/alex-og-sigges-podcast/" class="latest-episodes__podcast-link">Alex och Sigges podcast</a> • Jun 19, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/the-lonely-island-and-seth-meyers-podcast/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lonelyisland.webp" /><img fetchpriority="high" decoding="async" src="/media/lonelyisland.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: I Just Had Sex (Part 1)" data-audio-url="https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/10/clrtpod.com/m/arttrk.com/p/SMPL7/arttrk.com/p/ARTS0/traffic.megaphone.fm/RGP7928744804.mp3" data-episode-title="I Just Had Sex (Part 1)" data-podcast-title="The Lonely Island and Seth Meyers Podcast" data-cover-url="/media/lonelyisland.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/the-lonely-island-and-seth-meyers-podcast/i-just-had-sex-part-1/" class="latest-episodes__episode-title latest-episodes__episode-title--row">I Just Had Sex (Part 1)</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/the-lonely-island-and-seth-meyers-podcast/" class="latest-episodes__podcast-link">The Lonely Island and Seth Meyers Podcast</a> • Jun 18, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/my-first-million/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/myfirstmillion.webp" /><img fetchpriority="high" decoding="async" src="/media/myfirstmillion.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: We decoded the business behind this influencer’s perfect life" data-audio-url="https://pdst.fm/e/traffic.megaphone.fm/HS5399607582.mp3" data-episode-title="We decoded the business behind this influencer’s perfect life" data-podcast-title="My First Million" data-cover-url="/media/myfirstmillion.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/my-first-million/we-decoded-the-business-behind-this-influencer-s-perfect-life/" class="latest-episodes__episode-title latest-episodes__episode-title--row">We decoded the business behind this influencer’s perfect life</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/my-first-million/" class="latest-episodes__podcast-link">My First Million</a> • Jun 18, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/that-triathlon-show/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/thattriathlonshow.webp" /><img fetchpriority="high" decoding="async" src="/media/thattriathlonshow.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Effective training on 7 hours per week, using running power to test and compare shoes, and Ironman training for fast-twitch dominant athletes | Q&amp;A" data-audio-url="https://injector.simplecastaudio.com/c49b0edd-c4fc-4053-b426-68d0567a8445/episodes/2d7cba44-c7c4-430f-91e7-673bd110faa5/audio/128/default.mp3?aid=rss_feed&amp;awCollectionId=c49b0edd-c4fc-4053-b426-68d0567a8445&amp;awEpisodeId=2d7cba44-c7c4-430f-91e7-673bd110faa5&amp;feed=RxABNZH0" data-episode-title="Effective training on 7 hours per week, using running power to test and compare shoes, and Ironman training for fast-twitch dominant athletes | Q&amp;A" data-podcast-title="That Triathlon Show" data-cover-url="/media/thattriathlonshow.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/that-triathlon-show/effective-training-on-7-hours-per-week-using-running-power-to-test-and-compare-shoes-and-ironman-training-for-fast-twitc/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Effective training on 7 hours per week, using running power to test and compare shoes, and Ironman training for fast-twitch dominant athletes | Q&amp;A</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/that-triathlon-show/" class="latest-episodes__podcast-link">That Triathlon Show</a> • Jun 18, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized swedish" data-podcast-url="/p3-dokumentar/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/p3dokumentar.webp" /><img fetchpriority="high" decoding="async" src="/media/p3dokumentar.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Fallet Kapten Klänning - hela serien" data-audio-url="https://static-cdn.sr.se/laddahem/podradio/2026/06/p3_dokumentar_fallet_kapten_klanning__hela_20260617_1631070038.mp3" data-episode-title="Fallet Kapten Klänning - hela serien" data-podcast-title="P3 Dokumentär" data-cover-url="/media/p3dokumentar.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/p3-dokumentar/fallet-kapten-klanning-hela-serien/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Fallet Kapten Klänning - hela serien</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/p3-dokumentar/" class="latest-episodes__podcast-link">P3 Dokumentär</a> • Jun 18, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/talking-over-you/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/talkingoveryou.webp" /><img fetchpriority="high" decoding="async" src="/media/talkingoveryou.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Hospital people, World Cup drama, and Strava" data-audio-url="https://www.buzzsprout.com/2529065/episodes/19361486-hospital-people-world-cup-drama-and-strava.mp3" data-episode-title="Hospital people, World Cup drama, and Strava" data-podcast-title="Talking Over You" data-cover-url="/media/talkingoveryou.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/talking-over-you/hospital-people-world-cup-drama-and-strava/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Hospital people, World Cup drama, and Strava</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/talking-over-you/" class="latest-episodes__podcast-link">Talking Over You</a> • Jun 17, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/dear-hank-john/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/dearhank.webp" /><img fetchpriority="high" decoding="async" src="/media/dearhank.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 457: Big Ball Curators" data-audio-url="https://s.gum.fm/s-60e858131e222f001d9bcc97/rss.art19.com/episodes/e2c764b9-624e-4a1b-bd8a-8a4bd27bf021.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94" data-episode-title="457: Big Ball Curators" data-podcast-title="Dear Hank &amp; John" data-cover-url="/media/dearhank.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/dear-hank-john/457-big-ball-curators/" class="latest-episodes__episode-title latest-episodes__episode-title--row">457: Big Ball Curators</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/dear-hank-john/" class="latest-episodes__podcast-link">Dear Hank &amp; John</a> • Jun 17, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/diabolic-lies/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/diaboliclies.webp" /><img fetchpriority="high" decoding="async" src="/media/diaboliclies.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: How Reality TV Makes Us All Republicans" data-audio-url="https://api.substack.com/feed/podcast/201703528/fdb40608a3b6066277524e7e5c0b3f15.mp3" data-episode-title="How Reality TV Makes Us All Republicans" data-podcast-title="Diabolic Lies" data-cover-url="/media/diaboliclies.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/diabolic-lies/how-reality-tv-makes-us-all-republicans/" class="latest-episodes__episode-title latest-episodes__episode-title--row">How Reality TV Makes Us All Republicans</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/diabolic-lies/" class="latest-episodes__podcast-link">Diabolic Lies</a> • Jun 14, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/enormocast/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/enormocast.webp" /><img fetchpriority="high" decoding="async" src="/media/enormocast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Enormocast 325: Bradley Brooks – Hunting for Clarity" data-audio-url="https://media.blubrry.com/enormocast/media.blubrry.com/enormocast/content.blubrry.com/enormocast/Enormo_325_Bradley_Brooks.mp3" data-episode-title="Enormocast 325: Bradley Brooks – Hunting for Clarity" data-podcast-title="Enormocast" data-cover-url="/media/enormocast.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/enormocast/enormocast-325-bradley-brooks-hunting-for-clarity/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Enormocast 325: Bradley Brooks – Hunting for Clarity</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/enormocast/" class="latest-episodes__podcast-link">Enormocast</a> • Jun 9, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/lex-fridman-podcast/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/lexfriedman.webp" /><img fetchpriority="high" decoding="async" src="/media/lexfriedman.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: #497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln" data-audio-url="https://media.blubrry.com/takeituneasy/ins.blubrry.com/takeituneasy/lex_ai_don_lincoln.mp3" data-episode-title="#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln" data-podcast-title="Lex Fridman Podcast" data-cover-url="/media/lexfriedman.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/lex-fridman-podcast/497-biggest-mysteries-in-physics-antimatter-dark-energy-toe-don-lincoln/" class="latest-episodes__episode-title latest-episodes__episode-title--row">#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy &amp; ToE – Don Lincoln</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/lex-fridman-podcast/" class="latest-episodes__podcast-link">Lex Fridman Podcast</a> • May 29, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/up-and-vanished/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/upandvanished.webp" /><img fetchpriority="high" decoding="async" src="/media/upandvanished.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Friendly Universe | High Strange Season 2" data-audio-url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/h6pX3NT2bz1ODwXop9xU/dts.podtrac.com/redirect.mp3/serve.castfire.com/audio/8386403/8386403_2026-05-15-223103.192.mp3?rssID=6283" data-episode-title="Friendly Universe | High Strange Season 2" data-podcast-title="Up and Vanished" data-cover-url="/media/upandvanished.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/upandvanished.webp" /><img fetchpriority="high" decoding="async" src="/media/upandvanished.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Friendly Universe | High Strange Season 2" data-audio-url="https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/swap.fm/track/h6pX3NT2bz1ODwXop9xU/dts.podtrac.com/redirect.mp3/serve.castfire.com/audio/8386403/8386403_2026-05-15-223103.192.mp3?rssID=6283" data-episode-title="Friendly Universe | High Strange Season 2" data-podcast-title="Up and Vanished" data-cover-url="/media/upandvanished.jpeg" data-episode-url="/up-and-vanished/friendly-universe-high-strange-season-2/" data-podcast-url="/up-and-vanished/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
         <a href="/up-and-vanished/friendly-universe-high-strange-season-2/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Friendly Universe | High Strange Season 2</a>
@@ -549,19 +600,8 @@
       <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
-    </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/normal-gossip/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/normalgossip.webp" /><img fetchpriority="high" decoding="async" src="/media/normalgossip.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: Bonus Episode: Shout Out to the Divas with Jonquilyn Hill" data-audio-url="https://dts.podtrac.com/redirect.mp3/tracking.swap.fm/track/sblTq32fyWAjsHzze2LG/dovetail.prxu.org/3492/e4a16514-75a4-4f0c-ac9c-1898b540d825/13_09_Bonus_EPMAR_20260325_SSRV1MX.mp3" data-episode-title="Bonus Episode: Shout Out to the Divas with Jonquilyn Hill" data-podcast-title="Normal Gossip" data-cover-url="/media/normalgossip.jpeg">
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <a href="/normal-gossip/bonus-episode-shout-out-to-the-divas-with-jonquilyn-hill/" class="latest-episodes__episode-title latest-episodes__episode-title--row">Bonus Episode: Shout Out to the Divas with Jonquilyn Hill</a>
-        <p class="latest-episodes__meta latest-episodes__meta--stacked"><a href="/normal-gossip/" class="latest-episodes__podcast-link">Normal Gossip</a> • Mar 25, 2026
-        </p>
-      </div>
-      <div class="latest-episodes__listen-track" data-listen-progress-track="" hidden="">
-        <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
-      </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/in-our-time-science/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/inourtimesciencepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/inourtimesciencepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Mariana Trench" data-audio-url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0mw2pfd.mp3" data-episode-title="The Mariana Trench" data-podcast-title="In Our Time: Science" data-cover-url="/media/inourtimesciencepodcast.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/inourtimesciencepodcast.webp" /><img fetchpriority="high" decoding="async" src="/media/inourtimesciencepodcast.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: The Mariana Trench" data-audio-url="http://open.live.bbc.co.uk/mediaselector/6/redir/version/2.0/mediaset/audio-nondrm-download-rss/proto/http/vpid/p0mw2pfd.mp3" data-episode-title="The Mariana Trench" data-podcast-title="In Our Time: Science" data-cover-url="/media/inourtimesciencepodcast.jpeg" data-episode-url="/in-our-time-science/the-mariana-trench/" data-podcast-url="/in-our-time-science/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
         <a href="/in-our-time-science/the-mariana-trench/" class="latest-episodes__episode-title latest-episodes__episode-title--row">The Mariana Trench</a>
@@ -572,7 +612,7 @@
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li><li class="latest-episodes__item" data-category="uncategorized english" data-podcast-url="/one-percent-better/">
-      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/onepercentbetter.webp" /><img fetchpriority="high" decoding="async" src="/media/onepercentbetter.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 8 Years of One Percent Better" data-audio-url="https://traffic.libsyn.com/secure/onepercentbetterpodcast/301_-_62325_11.08AM.mp3?dest-id=536756" data-episode-title="8 Years of One Percent Better" data-podcast-title="One Percent Better" data-cover-url="/media/onepercentbetter.jpeg">
+      <div class="latest-episodes__episode-stack"><span class="latest-episodes__cover-slot"><picture><source type="image/webp" srcset="/media/onepercentbetter.webp" /><img fetchpriority="high" decoding="async" src="/media/onepercentbetter.jpeg" alt="" class="latest-episodes__cover" decoding="async" width="40" height="40" loading="lazy" /></picture></span><button type="button" class="latest-episodes__play latest-episodes__play--compact" aria-pressed="false" aria-label="Play episode: 8 Years of One Percent Better" data-audio-url="https://traffic.libsyn.com/secure/onepercentbetterpodcast/301_-_62325_11.08AM.mp3?dest-id=536756" data-episode-title="8 Years of One Percent Better" data-podcast-title="One Percent Better" data-cover-url="/media/onepercentbetter.jpeg" data-episode-url="/one-percent-better/8-years-of-one-percent-better/" data-podcast-url="/one-percent-better/">
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
         <a href="/one-percent-better/8-years-of-one-percent-better/" class="latest-episodes__episode-title latest-episodes__episode-title--row">8 Years of One Percent Better</a>
@@ -583,1188 +623,6 @@
         <div class="latest-episodes__listen-fill" data-listen-progress="" style="width: 0%"></div>
       </div>
     </li></ol></section>
-<script>
-  (function () {
-    var root = document.getElementById('unrelated-episodes-page');
-    if (!root) return;
-
-    var player = root.querySelector('[data-latest-player]');
-    var nowPlaying = root.querySelector('[data-now-playing]');
-    var art = root.querySelector('[data-player-art]');
-    var artWrap = root.querySelector('[data-player-art-wrap]');
-    var transport = root.querySelector('[data-player-transport]');
-    var deckPlay = root.querySelector('[data-deck-play]');
-    var deckSkipBack = root.querySelector('[data-deck-skip-back]');
-    var deckSkipForward = root.querySelector('[data-deck-skip-forward]');
-    var scrubInput = root.querySelector('[data-player-scrub]');
-    var scrubProgress = root.querySelector('[data-player-scrub-progress]');
-    var currentEl = root.querySelector('[data-player-current]');
-    var durationEl = root.querySelector('[data-player-duration]');
-    var waveCanvas = root.querySelector('[data-player-waves]');
-    if (!player || !nowPlaying) return;
-
-    player.playsInline = true;
-    player.setAttribute('playsinline', '');
-
-    if (player.dataset.brpWaveHook === '1') {
-      var restoredPlayer = player.cloneNode(false);
-      restoredPlayer.className = player.className;
-      restoredPlayer.setAttribute('data-latest-player', '');
-      restoredPlayer.preload = player.preload || 'none';
-      restoredPlayer.setAttribute('playsinline', '');
-      restoredPlayer.playsInline = true;
-      if (player.src) restoredPlayer.src = player.src;
-      player.parentNode.replaceChild(restoredPlayer, player);
-      player = restoredPlayer;
-    }
-
-    var isIOS =
-      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-      (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var waveUsesFallbackMotion = false;
-    var currentLi = null;
-    var currentMeta = {
-      episodeTitle: '',
-      podcastTitle: '',
-      coverUrl: '',
-    };
-    var mediaSessionReady = false;
-    var scrubbing = false;
-    var waveCtx = waveCanvas ? waveCanvas.getContext('2d') : null;
-    var audioCtx = null;
-    var analyser = null;
-    var waveSource = null;
-    var waveAnimId = null;
-    var waveResizeObserver = null;
-    var freqBuffer = null;
-    var timeBuffer = null;
-    var waveHeights = null;
-    var waveColumnCount = 64;
-    var waveTapReady = false;
-
-    var STORAGE_KEY = 'brp-listen-progress-v1';
-    var STORAGE_KEY_LAST = 'brp-last-listened-v1';
-    var MAX_PROGRESS_ENTRIES = 100;
-    var MIN_RESUME_SEC = 5;
-    var END_MARGIN_SEC = 15;
-    var TIMEUPDATE_SAVE_MS = 8000;
-    var SKIP_BACK_SEC = 15;
-    var SKIP_FORWARD_SEC = 30;
-    var lastTimeupdateSave = 0;
-    var resumeAppliedForSrc = '';
-
-    function formatTime(seconds) {
-      if (!isFinite(seconds) || seconds < 0) return '0:00';
-      var total = Math.floor(seconds);
-      var h = Math.floor(total / 3600);
-      var m = Math.floor((total % 3600) / 60);
-      var s = total % 60;
-      if (h > 0) {
-        return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
-      }
-      return m + ':' + String(s).padStart(2, '0');
-    }
-
-    function absoluteAssetUrl(url) {
-      if (!url) return '';
-      try {
-        return new URL(url, window.location.origin).href;
-      } catch (e) {
-        return url;
-      }
-    }
-
-    function storageUrlKey(url) {
-      if (!url) return '';
-      try {
-        return new URL(url, window.location.href).href;
-      } catch (e) {
-        return url;
-      }
-    }
-
-    function loadProgressMap() {
-      try {
-        var raw = localStorage.getItem(STORAGE_KEY);
-        if (!raw) return {};
-        var data = JSON.parse(raw);
-        return data && typeof data === 'object' && !Array.isArray(data) ? data : {};
-      } catch (e) {
-        return {};
-      }
-    }
-
-    function pruneProgressMap(map) {
-      var keys = Object.keys(map);
-      if (keys.length <= MAX_PROGRESS_ENTRIES) return;
-      keys.sort(function (a, b) {
-        return (map[a].u || 0) - (map[b].u || 0);
-      });
-      for (var i = 0; i < keys.length - MAX_PROGRESS_ENTRIES; i++) {
-        delete map[keys[i]];
-      }
-    }
-
-    function persistProgressMap(map) {
-      try {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
-      } catch (e) {}
-    }
-
-    function getSavedProgressRow(url) {
-      var key = storageUrlKey(url);
-      if (!key) return null;
-      var row = loadProgressMap()[key];
-      if (!row || typeof row.t !== 'number' || !isFinite(row.t)) return null;
-      return row;
-    }
-
-    function getSavedProgressSeconds(url) {
-      var row = getSavedProgressRow(url);
-      return row ? row.t : null;
-    }
-
-    function removeProgressForUrl(url) {
-      var key = storageUrlKey(url);
-      if (!key) return;
-      var map = loadProgressMap();
-      if (!map[key]) return;
-      delete map[key];
-      persistProgressMap(map);
-    }
-
-    function saveProgressForUrl(url, currentTime, duration) {
-      var key = storageUrlKey(url);
-      if (!key || !isFinite(currentTime)) return;
-      if (currentTime < MIN_RESUME_SEC) {
-        removeProgressForUrl(url);
-        return;
-      }
-      var dur = duration;
-      if (isFinite(dur) && dur > 0 && currentTime >= dur - END_MARGIN_SEC) {
-        removeProgressForUrl(url);
-        return;
-      }
-      var map = loadProgressMap();
-      var existing = map[key] || {};
-      var dStored = undefined;
-      if (isFinite(duration) && duration > 0) dStored = duration;
-      else if (isFinite(existing.d) && existing.d > 0) dStored = existing.d;
-      var entry = { t: currentTime, u: Date.now() };
-      if (dStored != null) entry.d = dStored;
-      map[key] = entry;
-      pruneProgressMap(map);
-      persistProgressMap(map);
-    }
-
-    function playerActiveUrl() {
-      return player.currentSrc || player.src || '';
-    }
-
-    function listenPctForButton(button) {
-      if (!button) return null;
-      var url = button.getAttribute('data-audio-url');
-      if (!url) return null;
-      var keyNorm = storageUrlKey(url);
-      var liveKey = storageUrlKey(playerActiveUrl());
-      var cur = player.currentTime;
-      var dur = player.duration;
-      if (keyNorm && keyNorm === liveKey && isFinite(dur) && dur > 0) {
-        return Math.min(100, Math.max(0, (cur / dur) * 100));
-      }
-      var row = getSavedProgressRow(url);
-      if (!row || !isFinite(row.d) || row.d <= 0) return null;
-      if (row.t < MIN_RESUME_SEC) return null;
-      if (row.t >= row.d - END_MARGIN_SEC) return null;
-      return Math.min(100, Math.max(0, (row.t / row.d) * 100));
-    }
-
-    function updateListenProgressForButton(button) {
-      var li = button.closest('.latest-episodes__item');
-      if (!li) return;
-      var track = li.querySelector('[data-listen-progress-track]');
-      var fill = li.querySelector('[data-listen-progress]');
-      if (!track || !fill) return;
-      var pct = listenPctForButton(button);
-      if (pct == null) {
-        track.hidden = true;
-        fill.style.width = '0%';
-        return;
-      }
-      track.hidden = false;
-      fill.style.width = pct + '%';
-    }
-
-    function refreshAllListenProgress() {
-      root.querySelectorAll('[data-audio-url]').forEach(updateListenProgressForButton);
-    }
-
-    function applyResumeIfNeeded() {
-      var url = playerActiveUrl();
-      if (!url) return;
-      if (resumeAppliedForSrc === url) return;
-      var saved = getSavedProgressSeconds(url);
-      if (saved == null) {
-        resumeAppliedForSrc = url;
-        return;
-      }
-      var dur = player.duration;
-      if (!isFinite(dur) || dur <= 0) return;
-      if (saved < MIN_RESUME_SEC || saved >= dur - END_MARGIN_SEC) {
-        if (saved >= dur - END_MARGIN_SEC) removeProgressForUrl(url);
-        resumeAppliedForSrc = url;
-        return;
-      }
-      try {
-        player.currentTime = saved;
-      } catch (e) {}
-      resumeAppliedForSrc = url;
-    }
-
-    function urlsMatch(a, b) {
-      if (!a || !b) return false;
-      if (a === b) return true;
-      try {
-        return new URL(a, window.location.href).href === new URL(b, window.location.href).href;
-      } catch (e) {
-        return false;
-      }
-    }
-
-    function loadLastListened() {
-      try {
-        var raw = localStorage.getItem(STORAGE_KEY_LAST);
-        if (!raw) return null;
-        var row = JSON.parse(raw);
-        if (!row || typeof row.url !== 'string' || !row.url) return null;
-        return row;
-      } catch (e) {
-        return null;
-      }
-    }
-
-    function saveLastListened(audioUrl, episodeTitle, podcastTitle, coverUrl) {
-      var key = storageUrlKey(audioUrl);
-      if (!key) return;
-      try {
-        localStorage.setItem(
-          STORAGE_KEY_LAST,
-          JSON.stringify({
-            url: key,
-            episodeTitle: episodeTitle || 'Episode',
-            podcastTitle: podcastTitle || 'Podcast',
-            coverUrl: (coverUrl || '').trim(),
-            u: Date.now(),
-          })
-        );
-      } catch (e) {}
-    }
-
-    function clearLastListenedIfUrl(url) {
-      var last = loadLastListened();
-      if (!last || !url) return;
-      if (urlsMatch(last.url, url)) {
-        try {
-          localStorage.removeItem(STORAGE_KEY_LAST);
-        } catch (e) {}
-      }
-    }
-
-    function findButtonForStoredUrl(storedUrl) {
-      var buttons = root.querySelectorAll('[data-audio-url]');
-      for (var i = 0; i < buttons.length; i++) {
-        var u = buttons[i].getAttribute('data-audio-url');
-        if (urlsMatch(u, storedUrl)) return buttons[i];
-      }
-      return null;
-    }
-
-    function clearCurrent() {
-      root.querySelectorAll('.latest-episodes__item--current').forEach(function (el) {
-        el.classList.remove('latest-episodes__item--current', 'latest-episodes__item--playing');
-      });
-      root.querySelectorAll('.latest-episodes__play').forEach(function (el) {
-        el.classList.remove('latest-episodes__play--playing');
-        el.setAttribute('aria-pressed', 'false');
-      });
-      currentLi = null;
-    }
-
-    function showTransport() {
-      if (transport) transport.hidden = false;
-    }
-
-    function syncDeckPlayButton() {
-      if (!deckPlay) return;
-      var playing = !player.paused && !player.ended;
-      deckPlay.classList.toggle('latest-episodes__deck-play--playing', playing);
-      deckPlay.setAttribute('aria-pressed', playing ? 'true' : 'false');
-      deckPlay.setAttribute('aria-label', playing ? 'Pause' : 'Play');
-    }
-
-    function resetAudioGraph() {
-      stopWaveAnimation();
-      waveTapReady = false;
-      waveUsesFallbackMotion = false;
-
-      if (waveSource) {
-        try {
-          waveSource.disconnect();
-        } catch (e) {}
-        waveSource = null;
-      }
-      analyser = null;
-      freqBuffer = null;
-      timeBuffer = null;
-      waveHeights = null;
-    }
-
-    function suspendWaveAudioContext() {
-      if (!audioCtx || audioCtx.state !== 'running') return;
-      audioCtx.suspend().catch(function () {});
-    }
-
-    function resumeWaveAudioContext() {
-      if (!audioCtx || audioCtx.state !== 'suspended') return;
-      audioCtx.resume().catch(function () {});
-    }
-
-    function ensureAudioContext() {
-      if (audioCtx) return audioCtx;
-      var AC = window.AudioContext || window.webkitAudioContext;
-      if (!AC) return null;
-      audioCtx = new AC();
-      return audioCtx;
-    }
-
-    function buildAnalyserNode(ctx) {
-      if (analyser && freqBuffer && timeBuffer && waveHeights) return;
-      analyser = ctx.createAnalyser();
-      analyser.fftSize = 512;
-      analyser.smoothingTimeConstant = 0.52;
-      analyser.minDecibels = -88;
-      analyser.maxDecibels = -28;
-      freqBuffer = new Uint8Array(analyser.frequencyBinCount);
-      timeBuffer = new Uint8Array(analyser.fftSize);
-      waveHeights = new Float32Array(waveColumnCount);
-    }
-
-    function connectStreamAnalyser(ctx) {
-      if (waveSource) return true;
-      var capture =
-        typeof player.captureStream === 'function'
-          ? player.captureStream.bind(player)
-          : typeof player.mozCaptureStream === 'function'
-            ? player.mozCaptureStream.bind(player)
-            : null;
-      if (!capture) return false;
-      if (player.paused || player.ended) return false;
-      try {
-        var stream = capture();
-        if (!stream || stream.getAudioTracks().length === 0) return false;
-        waveSource = ctx.createMediaStreamSource(stream);
-        waveSource.connect(analyser);
-        return true;
-      } catch (e) {
-        return false;
-      }
-    }
-
-    function ensureWaveAnalyser() {
-      if (isIOS) return false;
-
-      if (waveTapReady && analyser && waveSource) {
-        resumeWaveAudioContext();
-        return true;
-      }
-
-      var ctx = ensureAudioContext();
-      if (!ctx) return false;
-      buildAnalyserNode(ctx);
-
-      if (connectStreamAnalyser(ctx)) {
-        waveTapReady = true;
-        waveUsesFallbackMotion = false;
-        resumeWaveAudioContext();
-        return true;
-      }
-
-      return false;
-    }
-
-    function refreshAudioSamples() {
-      if (waveUsesFallbackMotion) return true;
-      if (!analyser || !freqBuffer || !timeBuffer) return false;
-      analyser.getByteFrequencyData(freqBuffer);
-      analyser.getByteTimeDomainData(timeBuffer);
-      return true;
-    }
-
-    function ensureWaveHeights() {
-      if (!waveHeights) waveHeights = new Float32Array(waveColumnCount);
-    }
-
-    function updateWaveColumnsFallback() {
-      ensureWaveHeights();
-      var t = performance.now() / 1000;
-      var c;
-      for (c = 0; c < waveColumnCount; c++) {
-        var nx = c / (waveColumnCount - 1);
-        var target =
-          0.05 +
-          0.09 * Math.abs(Math.sin(t * 1.6 + nx * 5.1)) +
-          0.05 * Math.abs(Math.sin(t * 0.85 + nx * 2.4));
-        var current = waveHeights[c];
-        var k = target > current ? 0.55 : 0.42;
-        waveHeights[c] = current + (target - current) * k;
-      }
-      return true;
-    }
-
-    function resizeWaveCanvas() {
-      if (!waveCanvas || !waveCtx) return;
-      var shell = waveCanvas.parentElement;
-      if (!shell) return;
-      var dpr = Math.min(window.devicePixelRatio || 1, 2);
-      var w = shell.clientWidth;
-      var h = shell.clientHeight;
-      if (w <= 0 || h <= 0) return;
-      waveCanvas.width = Math.round(w * dpr);
-      waveCanvas.height = Math.round(h * dpr);
-      waveCanvas.style.width = w + 'px';
-      waveCanvas.style.height = h + 'px';
-      waveCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    }
-
-    function freqLevelAt(nx) {
-      if (!freqBuffer || freqBuffer.length === 0) return 0;
-      // Slight log curve: a bit more mid-band detail without losing bass motion.
-      var t = nx * 0.72 + nx * nx * 0.28;
-      var idx = Math.min(freqBuffer.length - 1, Math.floor(t * freqBuffer.length * 0.9));
-      var sum = 0;
-      var weight = 0;
-      var i;
-      for (i = -2; i <= 2; i++) {
-        var j = idx + i;
-        if (j < 0 || j >= freqBuffer.length) continue;
-        var w = i === 0 ? 0.42 : 0.145;
-        sum += freqBuffer[j] * w;
-        weight += w;
-      }
-      return weight > 0 ? sum / weight / 255 : 0;
-    }
-
-    function compressWaveLevel(raw) {
-      var x = Math.max(0, Math.min(1, raw));
-      // Soft knee: quiet bands stay visible, loud peaks stay below the rim.
-      return Math.pow(x, 0.78) * 0.52;
-    }
-
-    function timeRmsLevel() {
-      if (!timeBuffer || timeBuffer.length === 0) return 0;
-      var rms = 0;
-      var i;
-      for (i = 0; i < timeBuffer.length; i++) {
-        var sample = (timeBuffer[i] - 128) / 128;
-        rms += sample * sample;
-      }
-      rms = Math.sqrt(rms / timeBuffer.length);
-      return Math.min(1, rms * 2.1);
-    }
-
-    function updateWaveColumns() {
-      ensureWaveHeights();
-      if (waveUsesFallbackMotion) {
-        updateWaveColumnsFallback();
-        return;
-      }
-      if (!refreshAudioSamples()) return;
-      var rms = timeRmsLevel();
-      var c;
-      for (c = 0; c < waveColumnCount; c++) {
-        var nx = c / (waveColumnCount - 1);
-        var freq = freqLevelAt(nx);
-        var target = compressWaveLevel(freq * 0.9 + rms * 0.12);
-        var current = waveHeights[c];
-        var k = target > current ? 0.72 : 0.48;
-        waveHeights[c] = current + (target - current) * k;
-      }
-    }
-
-    function columnHeightAt(nx) {
-      if (!waveHeights || waveHeights.length === 0) return 0;
-      var pos = nx * (waveColumnCount - 1);
-      var idx = Math.min(waveColumnCount - 1, Math.floor(pos));
-      var next = Math.min(waveColumnCount - 1, idx + 1);
-      var t = pos - idx;
-      return waveHeights[idx] * (1 - t) + waveHeights[next] * t;
-    }
-
-    function drawWaves() {
-      if (!waveCanvas || !waveCtx) return;
-      var w = waveCanvas.clientWidth;
-      var h = waveCanvas.clientHeight;
-      if (w <= 0 || h <= 0) return;
-
-      if (!waveTapReady) {
-        ensureWaveAnalyser();
-        if (!waveTapReady && !waveUsesFallbackMotion) {
-          waveUsesFallbackMotion = true;
-          ensureWaveHeights();
-        }
-      }
-      updateWaveColumns();
-
-      var layers = [
-        { color: 'rgba(29, 29, 29, 0.05)', base: 0.9, lift: 0.24 },
-        { color: 'rgba(30, 215, 96, 0.07)', base: 0.93, lift: 0.19 },
-        { color: 'rgba(184, 67, 47, 0.04)', base: 0.96, lift: 0.14 },
-      ];
-
-      waveCtx.clearRect(0, 0, w, h);
-
-      for (var li = 0; li < layers.length; li++) {
-        var layer = layers[li];
-        waveCtx.beginPath();
-        waveCtx.moveTo(0, h);
-        for (var x = 0; x <= w; x += 2) {
-          var nx = x / w;
-          var col = columnHeightAt(nx);
-          var y = h * layer.base - col * h * layer.lift;
-          waveCtx.lineTo(x, y);
-        }
-        waveCtx.lineTo(w, h);
-        waveCtx.closePath();
-        waveCtx.fillStyle = layer.color;
-        waveCtx.fill();
-      }
-    }
-
-    function stopWaveAnimation() {
-      if (waveAnimId) {
-        cancelAnimationFrame(waveAnimId);
-        waveAnimId = null;
-      }
-      root.classList.remove('latest-episodes--waves-active');
-      suspendWaveAudioContext();
-      if (waveCtx && waveCanvas) {
-        waveCtx.clearRect(0, 0, waveCanvas.clientWidth, waveCanvas.clientHeight);
-      }
-    }
-
-    function startWaveAnimation() {
-      if (prefersReducedMotion || !waveCanvas || !waveCtx) return;
-      resizeWaveCanvas();
-      root.classList.add('latest-episodes--waves-active');
-      ensureWaveHeights();
-      if (!isIOS) {
-        if (!waveTapReady) {
-          ensureWaveAnalyser();
-          if (!waveTapReady) waveUsesFallbackMotion = true;
-        } else {
-          resumeWaveAudioContext();
-        }
-      } else {
-        waveUsesFallbackMotion = true;
-      }
-      if (waveAnimId) return;
-      function loop() {
-        if (player.paused || player.ended) {
-          stopWaveAnimation();
-          return;
-        }
-        if (!waveTapReady && !waveUsesFallbackMotion) ensureWaveAnalyser();
-        drawWaves();
-        waveAnimId = requestAnimationFrame(loop);
-      }
-      waveAnimId = requestAnimationFrame(loop);
-    }
-
-    function ensureWaveResizeObserver() {
-      if (!waveCanvas || waveResizeObserver || typeof ResizeObserver === 'undefined') return;
-      var shell = waveCanvas.parentElement;
-      if (!shell) return;
-      waveResizeObserver = new ResizeObserver(function () {
-        if (root.classList.contains('latest-episodes--waves-active')) resizeWaveCanvas();
-      });
-      waveResizeObserver.observe(shell);
-    }
-
-    ensureWaveResizeObserver();
-
-    function updateScrubVisual(pct) {
-      var clamped = Math.min(100, Math.max(0, pct));
-      if (scrubProgress) scrubProgress.style.width = clamped + '%';
-    }
-
-    function updateTransportTimes() {
-      var dur = player.duration;
-      var cur = player.currentTime;
-      if (currentEl) currentEl.textContent = formatTime(cur);
-      if (durationEl) durationEl.textContent = isFinite(dur) && dur > 0 ? formatTime(dur) : '0:00';
-      if (scrubInput && isFinite(dur) && dur > 0 && !scrubbing) {
-        var scaled = Math.round((cur / dur) * 1000);
-        scrubInput.value = String(scaled);
-        scrubInput.setAttribute('aria-valuenow', String(scaled));
-        scrubInput.setAttribute('aria-valuetext', formatTime(cur) + ' of ' + formatTime(dur));
-        updateScrubVisual((cur / dur) * 100);
-      }
-    }
-
-    function updateMediaSessionPosition() {
-      if (!('mediaSession' in navigator)) return;
-      if (!player.src || player.paused) return;
-      var dur = player.duration;
-      if (!isFinite(dur) || dur <= 0) return;
-      try {
-        navigator.mediaSession.setPositionState({
-          duration: dur,
-          playbackRate: player.playbackRate || 1,
-          position: Math.min(player.currentTime, dur),
-        });
-      } catch (e) {}
-    }
-
-    function updateMediaSessionMetadata() {
-      if (!('mediaSession' in navigator)) return;
-      var title = currentMeta.episodeTitle || 'Episode';
-      var artist = currentMeta.podcastTitle || 'Podcast';
-      var cover = absoluteAssetUrl(currentMeta.coverUrl);
-      var artwork = [];
-      if (cover) {
-        ['96x96', '256x256', '512x512'].forEach(function (size) {
-          artwork.push({ src: cover, sizes: size, type: 'image/jpeg' });
-        });
-      }
-      try {
-        navigator.mediaSession.metadata = new MediaMetadata({
-          title: title,
-          artist: artist,
-          album: artist,
-          artwork: artwork,
-        });
-      } catch (e) {}
-    }
-
-    function playFromMediaSession() {
-      updateMediaSessionMetadata();
-      var playPromise = player.play();
-      if (playPromise && typeof playPromise.then === 'function') {
-        playPromise
-          .then(function () {
-            syncPlayingClass();
-            setMediaSessionPlaybackState('playing');
-            updateMediaSessionPosition();
-            startWaveAnimation();
-          })
-          .catch(function () {
-            setMediaSessionPlaybackState('paused');
-            syncPlayingClass();
-          });
-        return;
-      }
-      syncPlayingClass();
-      setMediaSessionPlaybackState('playing');
-      updateMediaSessionPosition();
-      startWaveAnimation();
-    }
-
-    function pauseFromMediaSession() {
-      player.pause();
-      syncPlayingClass();
-      setMediaSessionPlaybackState('paused');
-    }
-
-    function setupMediaSessionHandlers() {
-      if (!('mediaSession' in navigator) || mediaSessionReady) return;
-      mediaSessionReady = true;
-
-      navigator.mediaSession.setActionHandler('play', function () {
-        playFromMediaSession();
-      });
-
-      navigator.mediaSession.setActionHandler('pause', function () {
-        pauseFromMediaSession();
-      });
-
-      try {
-        navigator.mediaSession.setActionHandler('stop', function () {
-          pauseFromMediaSession();
-        });
-      } catch (e) {}
-
-      navigator.mediaSession.setActionHandler('seekbackward', function (details) {
-        var offset = details && details.seekOffset ? details.seekOffset : SKIP_BACK_SEC;
-        player.currentTime = Math.max(0, player.currentTime - offset);
-        updateTransportTimes();
-        updateMediaSessionPosition();
-      });
-
-      navigator.mediaSession.setActionHandler('seekforward', function (details) {
-        var offset = details && details.seekOffset ? details.seekOffset : SKIP_FORWARD_SEC;
-        var dur = player.duration;
-        var next = player.currentTime + offset;
-        if (isFinite(dur) && dur > 0) next = Math.min(next, dur);
-        player.currentTime = next;
-        updateTransportTimes();
-        updateMediaSessionPosition();
-      });
-
-      navigator.mediaSession.setActionHandler('seekto', function (details) {
-        if (details && details.seekTime != null && isFinite(details.seekTime)) {
-          player.currentTime = details.seekTime;
-          updateTransportTimes();
-          updateMediaSessionPosition();
-        }
-      });
-    }
-
-    function setMediaSessionPlaybackState(state) {
-      if (!('mediaSession' in navigator)) return;
-      try {
-        navigator.mediaSession.playbackState = state;
-      } catch (e) {}
-    }
-
-    function setNowPlaying(episodeTitle, podcastTitle, kickerLabel) {
-      nowPlaying.classList.remove('latest-episodes__now-playing--idle');
-      if (kickerLabel === false) {
-        nowPlaying.innerHTML =
-          '<span class="latest-episodes__now-playing-line">' +
-          '<span class="latest-episodes__now-playing-episode">' +
-          episodeTitle +
-          '</span>' +
-          '</span>';
-        showTransport();
-        return;
-      }
-      kickerLabel = kickerLabel || 'Now playing';
-      nowPlaying.innerHTML =
-        '<span class="latest-episodes__now-playing-kicker">' +
-        kickerLabel +
-        '</span>' +
-        '<span class="latest-episodes__now-playing-line">' +
-        '<span class="latest-episodes__now-playing-episode">' +
-        episodeTitle +
-        '</span>' +
-        '<span class="latest-episodes__now-playing-sep"> — </span>' +
-        '<span class="latest-episodes__now-playing-show">' +
-        podcastTitle +
-        '</span>' +
-        '</span>';
-      showTransport();
-    }
-
-    function imagePathname(url) {
-      if (!url) return '';
-      try {
-        return new URL(url, window.location.href).pathname;
-      } catch (e) {
-        return String(url).split(/[?#]/)[0];
-      }
-    }
-
-    function localWebpCandidate(url) {
-      var value = (url || '').trim();
-      var path = imagePathname(value);
-      if (!value || !path) return '';
-      if (/\.webp$/i.test(path)) return value;
-      if (/^[a-z][a-z0-9+.-]*:\/\//i.test(value)) return '';
-      if (!/\.(jpe?g|png)$/i.test(path)) return '';
-      return value.replace(/\.(jpe?g|png)(?=([?#]|$))/i, '.webp');
-    }
-
-    function updatePictureSource(url) {
-      if (!art) return;
-      var picture = art.closest('picture');
-      if (!picture) return;
-      var source = picture.querySelector('source');
-      if (!source) return;
-
-      var srcset = localWebpCandidate(url);
-      if (srcset) {
-        source.setAttribute('type', 'image/webp');
-        source.setAttribute('srcset', srcset);
-      } else {
-        source.removeAttribute('srcset');
-      }
-    }
-
-    function updateArt(url) {
-      if (!art || !artWrap) return;
-      var effective = (url || '').trim();
-      if (effective) {
-        updatePictureSource(effective);
-        art.src = effective;
-        art.removeAttribute('hidden');
-        artWrap.classList.remove('latest-episodes__player-art-wrap--empty');
-      } else {
-        updatePictureSource('');
-        art.removeAttribute('src');
-        art.setAttribute('hidden', '');
-        artWrap.classList.add('latest-episodes__player-art-wrap--empty');
-      }
-    }
-
-    function syncPlayingClass() {
-      if (!currentLi) return;
-      if (!player.paused) {
-        currentLi.classList.add('latest-episodes__item--playing');
-        var btn = currentLi.querySelector('.latest-episodes__play');
-        if (btn) {
-          btn.classList.add('latest-episodes__play--playing');
-          btn.setAttribute('aria-pressed', 'true');
-        }
-      } else {
-        currentLi.classList.remove('latest-episodes__item--playing');
-        var btn2 = currentLi.querySelector('.latest-episodes__play');
-        if (btn2) {
-          btn2.classList.remove('latest-episodes__play--playing');
-          btn2.setAttribute('aria-pressed', 'false');
-        }
-      }
-      syncDeckPlayButton();
-    }
-
-    function setEpisodeSource(audioUrl) {
-      player.removeAttribute('crossorigin');
-      player.src = audioUrl;
-    }
-
-    function playEpisode(options) {
-      options = options || {};
-      updateMediaSessionMetadata();
-      var playPromise = player.play();
-      if (playPromise && typeof playPromise.then === 'function') {
-        playPromise
-          .then(function () {
-            if (options.onSuccess) options.onSuccess();
-          })
-          .catch(function () {
-            setMediaSessionPlaybackState('paused');
-            syncPlayingClass();
-          });
-        return playPromise;
-      }
-      return null;
-    }
-
-    function rememberEpisodeMeta(episodeTitle, podcastTitle, coverUrl) {
-      currentMeta.episodeTitle = episodeTitle || 'Episode';
-      currentMeta.podcastTitle = podcastTitle || 'Podcast';
-      currentMeta.coverUrl = (coverUrl || '').trim();
-      setupMediaSessionHandlers();
-      updateMediaSessionMetadata();
-    }
-
-    function activateEpisode(button, options) {
-      options = options || {};
-      var userGesture = !!options.userGesture;
-      var shouldPlay = options.play !== false;
-
-      var audioUrl = button.getAttribute('data-audio-url');
-      var episodeTitle = button.getAttribute('data-episode-title') || 'Episode';
-      var podcastTitle = button.getAttribute('data-podcast-title') || 'Podcast';
-      var coverUrl = button.getAttribute('data-cover-url') || '';
-      var clickedLi = button.closest('.latest-episodes__item');
-
-      if (!audioUrl) return;
-
-      var playerSrc = player.src || '';
-      if (
-        userGesture &&
-        urlsMatch(playerSrc, audioUrl) &&
-        currentLi &&
-        clickedLi === currentLi
-      ) {
-        if (!player.paused) {
-          player.pause();
-        } else {
-          playEpisode();
-        }
-        syncPlayingClass();
-        return;
-      }
-
-      clearCurrent();
-      currentLi = clickedLi;
-      if (currentLi) {
-        currentLi.classList.add('latest-episodes__item--current');
-      }
-
-      updateArt(coverUrl);
-      rememberEpisodeMeta(episodeTitle, podcastTitle, coverUrl);
-
-      var kicker;
-      if (Object.prototype.hasOwnProperty.call(options, 'kicker')) {
-        kicker = options.kicker;
-      } else {
-        kicker =
-          shouldPlay || userGesture ? 'Now playing' : 'Continue listening';
-      }
-      setNowPlaying(episodeTitle, podcastTitle, kicker);
-
-      saveLastListened(audioUrl, episodeTitle, podcastTitle, coverUrl);
-
-      if (!urlsMatch(playerSrc, audioUrl)) {
-        resumeAppliedForSrc = '';
-        resetAudioGraph();
-        setEpisodeSource(audioUrl);
-      }
-
-      if (shouldPlay) {
-        playEpisode();
-      }
-      syncPlayingClass();
-      updateTransportTimes();
-      refreshAllListenProgress();
-    }
-
-    if (deckPlay) {
-      deckPlay.addEventListener('click', function () {
-        if (!player.src) return;
-        if (!player.paused) {
-          player.pause();
-        } else {
-          playEpisode();
-        }
-        syncPlayingClass();
-      });
-    }
-
-    if (deckSkipBack) {
-      deckSkipBack.addEventListener('click', function () {
-        if (!player.src) return;
-        player.currentTime = Math.max(0, player.currentTime - SKIP_BACK_SEC);
-        updateTransportTimes();
-        updateMediaSessionPosition();
-      });
-    }
-
-    if (deckSkipForward) {
-      deckSkipForward.addEventListener('click', function () {
-        if (!player.src) return;
-        var dur = player.duration;
-        var next = player.currentTime + SKIP_FORWARD_SEC;
-        if (isFinite(dur) && dur > 0) next = Math.min(next, dur);
-        player.currentTime = next;
-        updateTransportTimes();
-        updateMediaSessionPosition();
-      });
-    }
-
-    if (scrubInput) {
-      scrubInput.addEventListener('input', function () {
-        scrubbing = true;
-        var dur = player.duration;
-        if (!isFinite(dur) || dur <= 0) return;
-        var scaled = Number(scrubInput.value);
-        var pct = scaled / 10;
-        updateScrubVisual(pct);
-        if (currentEl) currentEl.textContent = formatTime((scaled / 1000) * dur);
-      });
-
-      scrubInput.addEventListener('change', function () {
-        var dur = player.duration;
-        if (isFinite(dur) && dur > 0) {
-          var scaled = Number(scrubInput.value);
-          player.currentTime = (scaled / 1000) * dur;
-        }
-        scrubbing = false;
-        updateTransportTimes();
-        updateMediaSessionPosition();
-        refreshAllListenProgress();
-      });
-
-      scrubInput.addEventListener('pointerdown', function () {
-        scrubbing = true;
-      });
-    }
-
-    root.addEventListener('click', function (event) {
-      var button = event.target.closest('[data-audio-url]');
-      if (!button) return;
-      activateEpisode(button, { userGesture: true, play: true });
-    });
-
-    (function hydrateFromLastVisit() {
-      if (root.classList.contains('latest-episodes--episode-page')) return;
-      var last = loadLastListened();
-      if (!last) return;
-      var btn = findButtonForStoredUrl(last.url);
-      if (!btn) return;
-      var t = getSavedProgressSeconds(last.url);
-      if (t == null && (!last.u || Date.now() - last.u > 1000 * 60 * 60 * 24 * 14)) {
-        return;
-      }
-      if (last.coverUrl && !btn.getAttribute('data-cover-url')) {
-        btn.setAttribute('data-cover-url', last.coverUrl);
-      }
-      activateEpisode(btn, { userGesture: false, play: false });
-    })();
-
-    (function primeLatestForMainPlayer() {
-      if (currentLi) return;
-      if (root.classList.contains('latest-episodes--episode-page')) return;
-      var firstBtn = root.querySelector('.latest-episodes__list .latest-episodes__item [data-audio-url]');
-      if (!firstBtn) return;
-      activateEpisode(firstBtn, {
-        userGesture: false,
-        play: false,
-        kicker: 'Latest episode',
-      });
-      try {
-        player.preload = 'metadata';
-      } catch (e) {}
-    })();
-
-    (function initEpisodePagePlayer() {
-      if (!root.classList.contains('latest-episodes--episode-page')) return;
-      var btn = root.querySelector('.latest-episodes__list--episode-page [data-audio-url]');
-      if (!btn) return;
-      activateEpisode(btn, {
-        userGesture: false,
-        play: false,
-        kicker: false,
-      });
-      try {
-        player.preload = 'metadata';
-      } catch (e) {}
-    })();
-
-    refreshAllListenProgress();
-    setupMediaSessionHandlers();
-
-    player.addEventListener('loadedmetadata', function () {
-      applyResumeIfNeeded();
-      updateTransportTimes();
-      refreshAllListenProgress();
-    });
-    player.addEventListener('durationchange', function () {
-      var url = playerActiveUrl();
-      if (url && resumeAppliedForSrc !== url) applyResumeIfNeeded();
-      updateTransportTimes();
-      refreshAllListenProgress();
-    });
-
-    player.addEventListener('timeupdate', function () {
-      if (!scrubbing) updateTransportTimes();
-      if (!player.paused) updateMediaSessionPosition();
-      if (!player.paused) {
-        var now = Date.now();
-        if (now - lastTimeupdateSave >= TIMEUPDATE_SAVE_MS) {
-          lastTimeupdateSave = now;
-          var uSave = playerActiveUrl();
-          if (uSave) saveProgressForUrl(uSave, player.currentTime, player.duration);
-        }
-      }
-      if (currentLi) {
-        var curBtn = currentLi.querySelector('[data-audio-url]');
-        if (curBtn) updateListenProgressForButton(curBtn);
-      }
-    });
-
-    player.addEventListener('play', function () {
-      root.classList.add('latest-episodes--transport-active');
-      var kick = nowPlaying.querySelector('.latest-episodes__now-playing-kicker');
-      if (kick && kick.textContent.trim() === 'Continue listening') {
-        kick.textContent = 'Now playing';
-      }
-      syncPlayingClass();
-      setMediaSessionPlaybackState('playing');
-      updateMediaSessionMetadata();
-      updateMediaSessionPosition();
-      startWaveAnimation();
-      refreshAllListenProgress();
-    });
-
-    player.addEventListener('pause', function () {
-      root.classList.remove('latest-episodes--transport-active');
-      stopWaveAnimation();
-      syncPlayingClass();
-      setMediaSessionPlaybackState('paused');
-      var u = playerActiveUrl();
-      if (u) saveProgressForUrl(u, player.currentTime, player.duration);
-      refreshAllListenProgress();
-    });
-
-    player.addEventListener('seeked', function () {
-      var u = playerActiveUrl();
-      if (u) saveProgressForUrl(u, player.currentTime, player.duration);
-      updateTransportTimes();
-      updateMediaSessionPosition();
-      refreshAllListenProgress();
-    });
-
-    window.addEventListener('pagehide', function () {
-      var u = playerActiveUrl();
-      if (u && !player.ended) saveProgressForUrl(u, player.currentTime, player.duration);
-      suspendWaveAudioContext();
-    });
-
-    document.addEventListener('visibilitychange', function () {
-      if (document.visibilityState === 'hidden') {
-        suspendWaveAudioContext();
-        return;
-      }
-      if (player.paused || player.ended || !player.src) return;
-      resumeWaveAudioContext();
-      if (isIOS) recoverPlaybackAfterBackground();
-    });
-
-    function recoverPlaybackAfterBackground() {
-      if (!player.src || player.paused || player.ended) return;
-      var t0 = player.currentTime;
-      window.setTimeout(function () {
-        if (player.paused || player.ended) return;
-        if (player.currentTime - t0 < 0.05 && !player.seeking) {
-          try {
-            player.pause();
-          } catch (e) {}
-          playEpisode();
-        }
-      }, 450);
-    }
-
-    player.addEventListener('stalled', function () {
-      if (isIOS && !player.paused && !player.ended) recoverPlaybackAfterBackground();
-    });
-
-    player.addEventListener('waiting', function () {
-      if (isIOS && !player.paused && !player.ended) {
-        window.setTimeout(function () {
-          if (!player.paused && !player.ended && player.readyState < 3) {
-            recoverPlaybackAfterBackground();
-          }
-        }, 1200);
-      }
-    });
-
-    player.addEventListener('ended', function () {
-      root.classList.remove('latest-episodes--transport-active');
-      stopWaveAnimation();
-      setMediaSessionPlaybackState('paused');
-      var u = playerActiveUrl();
-      if (u) {
-        removeProgressForUrl(u);
-        clearLastListenedIfUrl(u);
-      }
-      resumeAppliedForSrc = '';
-      if (currentLi) {
-        currentLi.classList.remove('latest-episodes__item--playing');
-        var b = currentLi.querySelector('.latest-episodes__play');
-        if (b) {
-          b.classList.remove('latest-episodes__play--playing');
-          b.setAttribute('aria-pressed', 'false');
-        }
-      }
-      syncDeckPlayButton();
-      refreshAllListenProgress();
-    });
-
-  })();
-</script>
 
 </div>
 			</section>
@@ -1781,18 +639,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>

@@ -52,11 +52,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -64,11 +64,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -82,6 +123,13 @@
 
 			<section class="episode-archive" aria-labelledby="episode-archive-title">
 				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2><ol class="episode-archive__list"><li class="episode-archive__item">
+						<a href="/inside-running-podcast/454-monaco-diamond-league-vic-nsw-xc-state-championships-morton-games/" class="episode-archive__link">454: Monaco Diamond League | VIC & NSW XC State Championships | Morton Games</a><time class="episode-archive__date" datetime="2026-07-15T04:00:00+10:00">July 15, 2026</time></li><li class="episode-archive__item">
+						<a href="/inside-running-podcast/interview-lee-troop/" class="episode-archive__link">Interview: Lee Troop</a><time class="episode-archive__date" datetime="2026-07-11T12:15:00+10:00">July 11, 2026</time></li><li class="episode-archive__item">
+						<a href="/inside-running-podcast/interview-haftu-strintzos/" class="episode-archive__link">Interview: Haftu Strintzos</a><time class="episode-archive__date" datetime="2026-07-09T07:33:27+10:00">July 9, 2026</time></li><li class="episode-archive__item">
+						<a href="/inside-running-podcast/453-caitlin-scott-gold-coast-marathon-pre-classic-diamond-league/" class="episode-archive__link">453: Caitlin Scott | Gold Coast Marathon | Pre Classic Diamond League</a><time class="episode-archive__date" datetime="2026-07-08T04:00:00+10:00">July 8, 2026</time></li><li class="episode-archive__item">
+						<a href="/inside-running-podcast/452-national-records-at-paris-dl-calder-park-road-relays-sydney-elite-field-announcement/" class="episode-archive__link">452: National Records at Paris DL | Calder Park Road Relays |  Sydney Elite Field Announcement</a><time class="episode-archive__date" datetime="2026-07-01T04:00:00+10:00">July 1, 2026</time></li><li class="episode-archive__item">
+						<a href="/inside-running-podcast/shoe-geeks-june-july-2026/" class="episode-archive__link">Shoe Geeks - June/July 2026</a><time class="episode-archive__date" datetime="2026-06-27T05:51:00+10:00">June 27, 2026</time></li><li class="episode-archive__item">
+						<a href="/inside-running-podcast/451-commonwealth-games-team-announcement-nsw-xc-championships-ostrava-hengelo/" class="episode-archive__link">451: Commonwealth Games Team Announcement | NSW XC Championships | Ostrava & Hengelo</a><time class="episode-archive__date" datetime="2026-06-24T04:00:00+10:00">June 24, 2026</time></li><li class="episode-archive__item">
 						<a href="/inside-running-podcast/interview-jess-stenson/" class="episode-archive__link">Interview: Jess Stenson</a><time class="episode-archive__date" datetime="2026-06-20T06:00:00+10:00">June 20, 2026</time></li><li class="episode-archive__item">
 						<a href="/inside-running-podcast/450-oslo-diamond-league-la-grand-prix-cruden-farm/" class="episode-archive__link">450: Oslo Diamond League | LA Grand Prix | Cruden Farm</a><time class="episode-archive__date" datetime="2026-06-17T05:00:00+10:00">June 17, 2026</time></li><li class="episode-archive__item">
 						<a href="/inside-running-podcast/interview-andy-buchanan/" class="episode-archive__link">Interview: Andy Buchanan</a><time class="episode-archive__date" datetime="2026-06-13T06:00:00+10:00">June 13, 2026</time></li><li class="episode-archive__item">
@@ -99,14 +147,7 @@
 						<a href="/inside-running-podcast/interview-alfie-manthorpe/" class="episode-archive__link">Interview: Alfie Manthorpe</a><time class="episode-archive__date" datetime="2026-05-01T19:39:00+10:00">May 1, 2026</time></li><li class="episode-archive__item">
 						<a href="/inside-running-podcast/interview-izzi-batt-doyle/" class="episode-archive__link">Interview: Izzi Batt-Doyle</a><time class="episode-archive__date" datetime="2026-04-30T16:33:24+10:00">April 30, 2026</time></li><li class="episode-archive__item">
 						<a href="/inside-running-podcast/443-ballarat-boston-london-marathons-run-the-tan/" class="episode-archive__link">443: Ballarat, Boston & London Marathons | Run The Tan</a><time class="episode-archive__date" datetime="2026-04-29T06:00:00+10:00">April 29, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/road-to-somewhere-ep-9-featuring-phil-from-meteopace/" class="episode-archive__link">Road to Somewhere Ep 9 featuring Phil from MeteoPace</a><time class="episode-archive__date" datetime="2026-04-23T14:37:10+10:00">April 23, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/442-cam-myers-run-wollongong-5k-world-athletics-blocks-turkiye-transfers/" class="episode-archive__link">442: Cam Myers | Run Wollongong 5K | World Athletics blocks Turkiye transfers</a><time class="episode-archive__date" datetime="2026-04-21T22:31:06+10:00">April 21, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/441-national-track-field-championships-canberra-marathon-one-running-kit-review/" class="episode-archive__link">441: National Track & Field Championships | Canberra Marathon | One Running Kit Review</a><time class="episode-archive__date" datetime="2026-04-15T06:00:00+10:00">April 15, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/440-urban-traile-de-lille-vic-milers-club-herb-hedemann/" class="episode-archive__link">440: Urban Traile de Lille | Vic Milers Club | Herb Hedemann</a><time class="episode-archive__date" datetime="2026-04-08T06:00:00+10:00">April 8, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/interview-andy-blow-ceo-and-founder-of-precision-fuel-and-hydration/" class="episode-archive__link">Interview: Andy Blow (CEO and Founder of Precision Fuel and Hydration)</a><time class="episode-archive__date" datetime="2026-04-04T13:16:58+11:00">April 4, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/439-maurie-plant-meet-the-ten-run-for-the-kids/" class="episode-archive__link">439: Maurie Plant Meet | The Ten | Run for the Kids</a><time class="episode-archive__date" datetime="2026-04-01T06:00:00+11:00">April 1, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/438-indoor-world-championships-nsw-vic-state-championships-maurie-plant-preview/" class="episode-archive__link">438: Indoor World Championships | NSW & Vic State Championships | Maurie Plant Preview</a><time class="episode-archive__date" datetime="2026-03-25T06:00:00+11:00">March 25, 2026</time></li><li class="episode-archive__item">
-						<a href="/inside-running-podcast/interview-marius-bakken/" class="episode-archive__link">Interview: Marius Bakken</a><time class="episode-archive__date" datetime="2026-03-22T11:26:59+11:00">March 22, 2026</time></li></ol></section>
+						<a href="/inside-running-podcast/road-to-somewhere-ep-9-featuring-phil-from-meteopace/" class="episode-archive__link">Road to Somewhere Ep 9 featuring Phil from MeteoPace</a><time class="episode-archive__date" datetime="2026-04-23T14:37:10+10:00">April 23, 2026</time></li></ol></section>
 		</article>
 	</main>
 	<footer class="footer" role="contentinfo">
@@ -117,18 +158,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>

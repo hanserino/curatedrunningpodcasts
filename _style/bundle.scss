@@ -24,6 +24,7 @@
 @import 'partials/privacy-page';
 @import 'partials/runner-picks';
 @import 'partials/mobile-spacing';
+@import 'partials/global-player';
 
 [data-touch="false"] .mobileOnly {
     display: none;
@@ -43,7 +44,6 @@ html {
 }
 
 body {
-    transform-style: preserve-3d;
     background-color: $color-paper;
     @include track-stripes(0.035);
 }

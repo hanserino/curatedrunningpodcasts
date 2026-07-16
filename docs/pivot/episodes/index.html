@@ -52,11 +52,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -64,11 +64,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -82,6 +123,12 @@
 
 			<section class="episode-archive" aria-labelledby="episode-archive-title">
 				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2><ol class="episode-archive__list"><li class="episode-archive__item">
+						<a href="/pivot/apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories/" class="episode-archive__link">Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories</a><time class="episode-archive__date" datetime="2026-07-14T10:00:00Z">July 14, 2026</time></li><li class="episode-archive__item">
+						<a href="/pivot/netflix-chases-youtube-meta-s-ai-photo-grab-and-disney-fights-the-fcc/" class="episode-archive__link">Netflix Chases YouTube, Meta's AI Photo Grab, and Disney Fights the FCC</a><time class="episode-archive__date" datetime="2026-07-10T10:00:00Z">July 10, 2026</time></li><li class="episode-archive__item">
+						<a href="/pivot/world-cup-controversy-trump-accounts-and-doge-farewell/" class="episode-archive__link">World Cup Controversy, Trump Accounts, and DOGE Farewell</a><time class="episode-archive__date" datetime="2026-07-07T10:00:00Z">July 7, 2026</time></li><li class="episode-archive__item">
+						<a href="/pivot/trump-s-crypto-windfall-dems-anti-establishment-wave-and-the-supreme-court-s-big-week/" class="episode-archive__link">Trump's Crypto Windfall, Dems' Anti-Establishment Wave, and the Supreme Court’s Big Week</a><time class="episode-archive__date" datetime="2026-07-03T10:00:00Z">July 3, 2026</time></li><li class="episode-archive__item">
+						<a href="/pivot/comcast-splits-openai-weighs-ipo-delay-and-buttigieg-targeted/" class="episode-archive__link">Comcast Splits, OpenAI Weighs IPO Delay, and Buttigieg Targeted</a><time class="episode-archive__date" datetime="2026-06-30T10:00:00Z">June 30, 2026</time></li><li class="episode-archive__item">
+						<a href="/pivot/meta-s-prediction-market-app-europe-vs-big-tech-and-hollywood-s-comeback/" class="episode-archive__link">Meta’s Prediction Market App, Europe vs. Big Tech, and Hollywood’s Comeback</a><time class="episode-archive__date" datetime="2026-06-26T10:00:00Z">June 26, 2026</time></li><li class="episode-archive__item">
 						<a href="/pivot/starmer-resigns-reflecting-pool-fiasco-and-amazon-dumps-openai-movie/" class="episode-archive__link">Starmer Resigns, Reflecting Pool Fiasco, and Amazon Dumps OpenAI Movie</a><time class="episode-archive__date" datetime="2026-06-23T10:00:00Z">June 23, 2026</time></li><li class="episode-archive__item">
 						<a href="/pivot/trump-s-iran-deal-spacex-s-wild-ride-and-snap-s-specs/" class="episode-archive__link">Trump's Iran Deal, SpaceX’s Wild Ride, and Snap’s Specs</a><time class="episode-archive__date" datetime="2026-06-19T10:00:00Z">June 19, 2026</time></li><li class="episode-archive__item">
 						<a href="/pivot/the-white-house-ufc-fight-spacex-s-big-pop-and-fox-s-roku-deal/" class="episode-archive__link">The White House UFC Fight, SpaceX’s Big Pop, and Fox’s Roku Deal</a><time class="episode-archive__date" datetime="2026-06-16T10:00:00Z">June 16, 2026</time></li><li class="episode-archive__item">
@@ -100,13 +147,7 @@
 						<a href="/pivot/big-tech-s-day-of-reckoning-elon-takes-the-stand-and-the-fcc-targets-disney/" class="episode-archive__link">Big Tech’s Day of Reckoning, Elon Takes the Stand, and the FCC Targets Disney</a><time class="episode-archive__date" datetime="2026-05-01T10:00:00Z">May 1, 2026</time></li><li class="episode-archive__item">
 						<a href="/pivot/whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout/" class="episode-archive__link">WHCD Shooting Aftermath, Musk and Altman Face-Off, Spirit Airlines Bailout</a><time class="episode-archive__date" datetime="2026-04-28T10:00:00Z">April 28, 2026</time></li><li class="episode-archive__item">
 						<a href="/pivot/tucker-carlson-s-rebrand-apple-s-new-era-and-spacex-s-ai-deal/" class="episode-archive__link">Tucker Carlson's Rebrand, Apple’s New Era, and SpaceX’s AI Deal</a><time class="episode-archive__date" datetime="2026-04-24T10:00:00Z">April 24, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet/" class="episode-archive__link">Kash Patel Sues, Trump's Psychedelics Push, and Netflix’s Podcast Bet</a><time class="episode-archive__date" datetime="2026-04-21T10:00:00Z">April 21, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/iran-market-disconnect-vance-v-pope-and-openai-shades-microsoft-and-anthropic/" class="episode-archive__link">Iran Market Disconnect, Vance v. Pope, and OpenAI Shades Microsoft and Anthropic</a><time class="episode-archive__date" datetime="2026-04-17T10:00:00Z">April 17, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/pope-s-pushback-orban-s-concession-and-bessent-s-anthropic-warning/" class="episode-archive__link">Pope's Pushback, Orban's Concession, and Bessent's Anthropic Warning</a><time class="episode-archive__date" datetime="2026-04-14T10:00:00Z">April 14, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/iran-ceasefire-uncertainty-democratic-wins-and-musk-vs-altman/" class="episode-archive__link">Iran Ceasefire Uncertainty, Democratic Wins, and Musk vs. Altman</a><time class="episode-archive__date" datetime="2026-04-10T10:00:00Z">April 10, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/f-bomb-diplomacy-cabinet-shake-up-signals-and-openai-s-podcast-play/" class="episode-archive__link">F-Bomb Diplomacy, Cabinet Shake-Up Signals, and OpenAI’s Podcast Play</a><time class="episode-archive__date" datetime="2026-04-07T10:00:00Z">April 7, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/iran-war-spin-trump-s-legal-losses-and-tmz-targets-politicians/" class="episode-archive__link">Iran War Spin, Trump's Legal Losses, and TMZ Targets Politicians</a><time class="episode-archive__date" datetime="2026-04-03T10:00:00Z">April 3, 2026</time></li><li class="episode-archive__item">
-						<a href="/pivot/iran-quagmire-questions-spacex-ipo-plans-and-the-white-house-app/" class="episode-archive__link">Iran Quagmire Questions, SpaceX IPO Plans, and The White House App</a><time class="episode-archive__date" datetime="2026-03-31T10:00:00Z">March 31, 2026</time></li></ol></section>
+						<a href="/pivot/kash-patel-sues-trump-s-psychedelics-push-and-netflix-s-podcast-bet/" class="episode-archive__link">Kash Patel Sues, Trump's Psychedelics Push, and Netflix’s Podcast Bet</a><time class="episode-archive__date" datetime="2026-04-21T10:00:00Z">April 21, 2026</time></li></ol></section>
 		</article>
 	</main>
 	<footer class="footer" role="contentinfo">
@@ -117,18 +158,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>

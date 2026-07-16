@@ -1,17 +1,23 @@
 {%- assign section_id = "episode-single-player" -%}
-{%- assign deck_cover = page.episode_image_url | default: '' | strip -%}
-<section class="latest-episodes latest-episodes--embedded latest-episodes--episode-page" id="{{ section_id }}" aria-label="Episode player">
-  {% include latest-episodes-player-chrome.html deck_cover=deck_cover %}
-  <ol class="latest-episodes__list latest-episodes__list--episode-page" hidden aria-hidden="true">
-    <li class="latest-episodes__item">
+{%- assign deck_cover = page.episode_image_url | default: page.cover_image | default: '' | strip -%}
+<section
+  class="latest-episodes latest-episodes--sticky-only latest-episodes--episode-page"
+  id="{{ section_id }}"
+  data-brp-player-deck="{{ section_id }}"
+  aria-label="Episode player"
+>
+  <ol class="latest-episodes__list latest-episodes__list--episode-page">
+    <li class="latest-episodes__item latest-episodes__item--solo">
       <button
         type="button"
-        class="latest-episodes__play"
+        class="episode-page__listen-btn latest-episodes__play"
         aria-pressed="false"
         aria-label="Play episode: {{ page.episode_title | xml_escape }}"
         data-audio-url="{{ page.audio_url | escape }}"
         data-episode-title="{{ page.episode_title | escape }}"
         data-podcast-title="{{ page.podcast_title | escape }}"
+        data-episode-url="{{ page.url | relative_url | escape }}"
+        data-podcast-url="{{ page.podcast_url | relative_url | escape }}"
         {% if deck_cover != "" %}
           {% if deck_cover contains '://' %}
         data-cover-url="{{ deck_cover | escape }}"
@@ -20,9 +26,9 @@
           {% endif %}
         {% endif %}
       >
-        <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+        <span class="episode-page__listen-glyph latest-episodes__play-glyph" aria-hidden="true"></span>
+        <span class="episode-page__listen-label">Play episode</span>
       </button>
     </li>
   </ol>
 </section>
-{% include latest-episodes-player-runtime.html section_id=section_id %}

@@ -155,6 +155,12 @@ $ep-play-compact: 2.25rem;
         margin-top: 1.25rem;
     }
 
+    &--sticky-only {
+        .latest-episodes__title {
+            margin-bottom: 0.75rem;
+        }
+    }
+
     @include allAbove(medium) {
         padding: 1.15rem 1.15rem 1.45rem;
     }
@@ -323,6 +329,8 @@ $ep-play-compact: 2.25rem;
         transition:
             transform 0.12s ease,
             box-shadow 0.12s ease;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
 
         &:hover {
             @include brutal-surface-hover;
@@ -379,6 +387,8 @@ $ep-play-compact: 2.25rem;
             background 0.15s ease,
             border-color 0.15s ease,
             transform 0.12s ease;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
 
         &:hover {
             background: rgba($color-speed, 0.16);
@@ -421,6 +431,7 @@ $ep-play-compact: 2.25rem;
         display: block;
         height: 1.25rem;
         margin: 0;
+        touch-action: pan-y;
     }
 
     &__scrub-track {
@@ -586,6 +597,8 @@ $ep-play-compact: 2.25rem;
         transition:
             transform 0.12s ease,
             box-shadow 0.12s ease;
+        touch-action: manipulation;
+        -webkit-tap-highlight-color: transparent;
 
         &:hover {
             @include brutal-surface-hover;
@@ -894,5 +907,22 @@ $ep-play-compact: 2.25rem;
 
     .latest-episodes__scrub {
         width: 100%;
+    }
+}
+
+@media (hover: none) and (pointer: coarse), screen and (max-width: 720px) {
+    .latest-episodes__scrub-track-wrap {
+        height: 2.75rem;
+    }
+
+    .latest-episodes__play--compact {
+        width: $ep-play-size;
+        height: $ep-play-size;
+        min-width: $ep-play-size;
+    }
+
+    .latest-episodes__deck-skip {
+        width: 2.75rem;
+        height: 2.75rem;
     }
 }

@@ -52,11 +52,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -64,11 +64,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -82,31 +123,31 @@
 
 			<section class="episode-archive" aria-labelledby="episode-archive-title">
 				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2><ol class="episode-archive__list"><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-fotballspesial-tror-ikke-han-sa-for-seg-a-bli-vm-helt/" class="episode-archive__link">Kort Forklart fotballspesial: – Tror ikke han så for seg å bli VM-helt</a><time class="episode-archive__date" datetime="2026-06-23T04:42:42+00:00">June 23, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/god-sovn-det-nye-klasseprivilegiet/" class="episode-archive__link">God søvn: Det nye klasseprivilegiet</a><time class="episode-archive__date" datetime="2026-06-22T03:00:04+00:00">June 22, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-ingen-dukket-opp-til-fredsmotet-og-kritikken-oker-mot-trump/" class="episode-archive__link">Kort Forklart: Ingen dukket opp til fredsmøtet, og kritikken øker mot Trump</a><time class="episode-archive__date" datetime="2026-06-19T12:31:23+00:00">June 19, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/alien-files-har-usa-trodd-pa-romvesener-i-50-ar/" class="episode-archive__link">Alien-files: Har USA trodd på romvesener i 50 år?</a><time class="episode-archive__date" datetime="2026-06-19T03:00:01+00:00">June 19, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-ukraina-slar-tilbake-na-kan-krigen-vaere-i-ferd-med-a-snu/" class="episode-archive__link">Kort Forklart: Ukraina slår tilbake. Nå kan krigen være i ferd med å snu.</a><time class="episode-archive__date" datetime="2026-06-18T11:39:43+00:00">June 18, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/han-er-rikere-enn-halve-verden-hva-betyr-det-for-oss/" class="episode-archive__link">Han er rikere enn halve verden – hva betyr det for oss?</a><time class="episode-archive__date" datetime="2026-06-18T03:00:03+00:00">June 18, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-kronprinsessen-har-fatt-nye-lunger-na-venter-flere-avgjorende-uker/" class="episode-archive__link">Kort Forklart: Kronprinsessen har fått nye lunger. Nå venter flere avgjørende uker.</a><time class="episode-archive__date" datetime="2026-06-17T12:30:59+00:00">June 17, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/knivangrepet-i-belfast-skapte-opptoyer-na-vil-nytt-parti-ha-dodsstraff/" class="episode-archive__link">Knivangrepet i Belfast skapte opptøyer. Nå vil nytt parti ha dødsstraff.</a><time class="episode-archive__date" datetime="2026-06-17T04:00:02+00:00">June 17, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-fotballspesial-det-er-lov-a-dromme-na/" class="episode-archive__link">Kort Forklart fotballspesial: – Det er lov å drømme nå</a><time class="episode-archive__date" datetime="2026-06-17T03:21:23+00:00">June 17, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-trump-har-sagt-det-nesten-40-ganger-for-er-avtalen-naer-na/" class="episode-archive__link">Kort Forklart: Trump har sagt det nesten 40 ganger før. Er avtalen nær nå?</a><time class="episode-archive__date" datetime="2026-06-16T13:11:13+00:00">June 16, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/mishandling-rus-og-voldtekt-dette-felte-hoiby/" class="episode-archive__link">Mishandling, rus og voldtekt: Dette felte Høiby</a><time class="episode-archive__date" datetime="2026-06-16T03:00:02+00:00">June 16, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-dette-er-dommen-mot-marius-borg-hoiby/" class="episode-archive__link">Kort Forklart: Dette er dommen mot Marius Borg Høiby</a><time class="episode-archive__date" datetime="2026-06-15T12:03:50+00:00">June 15, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/vm-optimismen-nar-nye-hoyder-blir-vi-skuffa/" class="episode-archive__link">VM-optimismen når nye høyder. Blir vi skuffa?</a><time class="episode-archive__date" datetime="2026-06-15T03:00:02+00:00">June 15, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-i-dag-er-elons-musks-spacex-pa-bors-det-er-helt-vilt/" class="episode-archive__link">Kort Forklart: I dag er Elons Musks SpaceX på børs. – Det er helt vilt</a><time class="episode-archive__date" datetime="2026-06-12T12:35:49+00:00">June 12, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/okonomisk-opptur-i-et-av-verdens-verste-regimer/" class="episode-archive__link">Økonomisk opptur i et av verdens verste regimer</a><time class="episode-archive__date" datetime="2026-06-12T03:00:02+00:00">June 12, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-norsk-19-aring-i-foxtrot-sak-i-england-overbevist-om-at-de-ville-drepe-meg/" class="episode-archive__link">Kort Forklart: Norsk 19-åring i Foxtrot-sak i England: – Overbevist om at de ville drepe meg</a><time class="episode-archive__date" datetime="2026-06-11T13:47:45+00:00">June 11, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/ice-iran-krig-og-skyhoye-priser-slik-blir-fotball-vm-i-usa/" class="episode-archive__link">ICE, Iran-krig og skyhøye priser: Slik blir fotball-VM i USA</a><time class="episode-archive__date" datetime="2026-06-11T03:00:06+00:00">June 11, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-folk-er-rasende-i-storbritannia-dommedagsaktig/" class="episode-archive__link">Kort Forklart: Folk er rasende i Storbritannia: – Dommedagsaktig</a><time class="episode-archive__date" datetime="2026-06-10T13:39:39+00:00">June 10, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/okt-polarisering-to-leirer-som-i-okende-grad-er-uenige-om-alt/" class="episode-archive__link">Økt polarisering: To leirer som i økende grad er uenige om alt</a><time class="episode-archive__date" datetime="2026-06-10T03:05:04+00:00">June 10, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-dette-fikk-retten-til-a-si-ja-til-hoiby/" class="episode-archive__link">Kort Forklart: Dette fikk retten til å si ja til Høiby</a><time class="episode-archive__date" datetime="2026-06-09T12:35:13+00:00">June 9, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/okningen-i-iq-har-snudd-blir-vi-dummere-og-dummere/" class="episode-archive__link">Økningen i IQ har snudd. Blir vi dummere og dummere?</a><time class="episode-archive__date" datetime="2026-06-09T03:00:03+00:00">June 9, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-vil-retten-tro-pa-at-tamimas-drapsmann-har-endret-seg/" class="episode-archive__link">Kort Forklart: Vil retten tro på at Tamimas drapsmann har endret seg?</a><time class="episode-archive__date" datetime="2026-06-08T12:54:14+00:00">June 8, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/dette-venter-mette-marit-na/" class="episode-archive__link">Dette venter Mette-Marit nå</a><time class="episode-archive__date" datetime="2026-06-08T03:00:04+00:00">June 8, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/annonsorinnhold-fra-helsedirektoratet-du-trenger-ikke-baere-dette-alene/" class="episode-archive__link">Annonsørinnhold fra Helsedirektoratet: Du trenger ikke bære dette alene</a><time class="episode-archive__date" datetime="2026-06-06T05:00:04+00:00">June 6, 2026</time></li><li class="episode-archive__item">
-						<a href="/forklart/kort-forklart-kronprinsessen-pa-transplantasjonsliste-en-operasjon-med-stor-risiko/" class="episode-archive__link">Kort Forklart: Kronprinsessen på transplantasjonsliste: – En operasjon med stor risiko</a><time class="episode-archive__date" datetime="2026-06-05T13:52:02+00:00">June 5, 2026</time></li></ol></section>
+						<a href="/forklart/er-kanselleringskulturen-dod/" class="episode-archive__link">Er kanselleringskulturen død?</a><time class="episode-archive__date" datetime="2026-07-16T03:00:04+00:00">July 16, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show/" class="episode-archive__link">Kort Forklart: Trump med kraftige trusler, og kritikk mot VM-show</a><time class="episode-archive__date" datetime="2026-07-15T13:26:18+00:00">July 15, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland/" class="episode-archive__link">Kort Forklart: Høiby er kommet hjem, og hvor ble det av Haaland?</a><time class="episode-archive__date" datetime="2026-07-14T14:15:35+00:00">July 14, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa/" class="episode-archive__link">Bassengtabbe og gullstatuer: Slik trumpifiseres USA</a><time class="episode-archive__date" datetime="2026-07-13T03:00:03+00:00">July 13, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-fotballspesial-ble-norge-urettferdig-domt/" class="episode-archive__link">Kort Forklart fotballspesial: Ble Norge urettferdig dømt?</a><time class="episode-archive__date" datetime="2026-07-12T04:15:28+00:00">July 12, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/norge-england-kan-vi-sende-dem-hjem/" class="episode-archive__link">Norge-England: Kan vi sende dem hjem?</a><time class="episode-archive__date" datetime="2026-07-11T03:00:03+00:00">July 11, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm/" class="episode-archive__link">Kort Forklart: Reform UK-lederen blir utfordret av «Count Binface», og pengene flyr i VM.</a><time class="episode-archive__date" datetime="2026-07-10T13:48:02+00:00">July 10, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/gina-var-eneste-norske-journalist-i-ayatollahens-begravelse/" class="episode-archive__link">Gina var eneste norske journalist i ayatollahens begravelse</a><time class="episode-archive__date" datetime="2026-07-10T03:00:03+00:00">July 10, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig/" class="episode-archive__link">Sommer, utepils og VM-fyll: Når blir alkohol skadelig?</a><time class="episode-archive__date" datetime="2026-07-09T03:00:02+00:00">July 9, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa/" class="episode-archive__link">Kort Forklart: Trump «tror» våpenhvilen er over, og mer kritikk av Fifa</a><time class="episode-archive__date" datetime="2026-07-08T13:56:09+00:00">July 8, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm/" class="episode-archive__link">Kort Forklart: Le Pen får mildere straff, og skandale preger fotball-VM</a><time class="episode-archive__date" datetime="2026-07-07T14:21:38+00:00">July 7, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/pa-innsiden-av-koranskolene/" class="episode-archive__link">På innsiden av koranskolene</a><time class="episode-archive__date" datetime="2026-07-06T03:00:05+00:00">July 6, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje/" class="episode-archive__link">Kort Forklart fotballspesial: Norge gjorde det umulige. - Nå kan alt skje.</a><time class="episode-archive__date" datetime="2026-07-06T02:19:34+00:00">July 6, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/norge-brasil-klarer-vi-det-igjen/" class="episode-archive__link">Norge-Brasil: Klarer vi det igjen?</a><time class="episode-archive__date" datetime="2026-07-05T03:05:04+00:00">July 5, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/annonsorinnhold-fra-gartner-gronnsaker-i-sesong/" class="episode-archive__link">Annonsørinnhold fra Gartner: Grønnsaker i sesong</a><time class="episode-archive__date" datetime="2026-07-04T05:30:03+00:00">July 4, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp/" class="episode-archive__link">Kort Forklart: Først nå begraves Irans øverste leder. Ingen vet om etterfølgeren dukker opp.</a><time class="episode-archive__date" datetime="2026-07-03T13:26:14+00:00">July 3, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/okonomisk-dodsstraff-livet-pa-trumps-svarteliste/" class="episode-archive__link">«Økonomisk dødsstraff»: Livet på Trumps svarteliste</a><time class="episode-archive__date" datetime="2026-07-02T03:00:02+00:00">July 2, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-trump-tapte-en-av-sine-hjertesaker/" class="episode-archive__link">Kort Forklart: Trump tapte en av sine hjertesaker</a><time class="episode-archive__date" datetime="2026-07-01T14:05:09+00:00">July 1, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/" class="episode-archive__link">Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?</a><time class="episode-archive__date" datetime="2026-06-30T22:43:42+00:00">June 30, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle/" class="episode-archive__link">Kort Forklart: De kalles «pervobriller». Derfor er Metas briller kontroversielle.</a><time class="episode-archive__date" datetime="2026-06-30T13:28:46+00:00">June 30, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/er-det-iphonens-feil-at-vi-far-faerre-barn/" class="episode-archive__link">Er det Iphonens feil at vi får færre barn?</a><time class="episode-archive__date" datetime="2026-06-29T03:05:03+00:00">June 29, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste/" class="episode-archive__link">Kort Forklart fotballspesial: Var det riktig å benke de beste?</a><time class="episode-archive__date" datetime="2026-06-26T23:50:12+00:00">June 26, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld/" class="episode-archive__link">Kort Forklart: Rød alarm i London, og spiller Haaland i kveld?</a><time class="episode-archive__date" datetime="2026-06-26T13:02:05+00:00">June 26, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/synes-du-pride-tar-for-stor-plass-nesten-halve-norge-er-enig-med-deg/" class="episode-archive__link">Synes du pride tar for stor plass? Nesten halve Norge er enig med deg.</a><time class="episode-archive__date" datetime="2026-06-25T03:00:03+00:00">June 25, 2026</time></li><li class="episode-archive__item">
+						<a href="/forklart/kort-forklart-du-kan-fa-lavere-skatt-men-noe-blir-ogsa-dyrere/" class="episode-archive__link">Kort Forklart: Du kan få lavere skatt - men noe blir også dyrere</a><time class="episode-archive__date" datetime="2026-06-24T13:44:40+00:00">June 24, 2026</time></li></ol></section>
 		</article>
 	</main>
 	<footer class="footer" role="contentinfo">
@@ -117,18 +158,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>

@@ -14,24 +14,30 @@
 {%- assign max_items = include.limit | default: 10 -%}
 {%- assign archive_url = include.archive_url | default: "" | strip -%}
 {%- assign show_cover = include.cover_image | default: "" | strip -%}
-{%- assign deck_cover = show_cover -%}
-{%- if deck_cover == "" and feed_data.items -%}
-  {%- assign cover_row = feed_data.items | where: "feed_url", feed_url | first -%}
-  {%- if cover_row and cover_row.cover_image and cover_row.cover_image != "" -%}
-    {%- assign deck_cover = cover_row.cover_image -%}
-  {%- endif -%}
-{%- endif -%}
 
 {%- if feed_url != "" -%}
-<section class="latest-episodes latest-episodes--embedded" id="{{ section_id }}" aria-labelledby="{{ section_id }}-title">
+<section class="latest-episodes latest-episodes--embedded latest-episodes--sticky-only" id="{{ section_id }}" data-brp-player-deck="{{ section_id }}" aria-labelledby="{{ section_id }}-title">
   <h3 class="latest-episodes__title" id="{{ section_id }}-title">{{ heading }}</h3>
 
   {%- if episodes.size > 0 -%}
-  {% include latest-episodes-player-chrome.html deck_cover=deck_cover %}
 
   <ol class="latest-episodes__list">
     {%- for episode in episodes limit: max_items -%}
     {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
+    {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
+    {%- assign _item_cover = episode.episode_image_url | default: '' | strip -%}
+    {%- if _item_cover == '' -%}
+      {%- assign _item_cover = show_cover -%}
+    {%- endif -%}
+    {%- if _ep_path == '' -%}
+      {%- assign _key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
+      {%- if _key == '' -%}
+        {%- assign _key = episode.episode_title | slugify -%}
+      {%- endif -%}
+      {%- if page.slug != '' and _key != '' -%}
+        {%- assign _ep_path = '/' | append: page.slug | append: '/' | append: _key | append: '/' -%}
+      {%- endif -%}
+    {%- endif -%}
     <li class="latest-episodes__item">
       <div class="latest-episodes__row latest-episodes__row--episode">
         <button
@@ -42,7 +48,15 @@
           data-audio-url="{{ episode.audio_url | escape }}"
           data-episode-title="{{ episode.episode_title | escape }}"
           data-podcast-title="{{ include.podcast_title | default: 'Podcast' | escape }}"
-          {% if show_cover != "" %}data-cover-url="{{ show_cover | relative_url | escape }}"{% endif %}
+          data-podcast-url="{{ page.url | relative_url | escape }}"
+          {% if _item_cover != "" %}
+            {% if _item_cover contains '://' %}
+          data-cover-url="{{ _item_cover | escape }}"
+            {% else %}
+          data-cover-url="{{ _item_cover | relative_url | escape }}"
+            {% endif %}
+          {% endif %}
+          {% if _ep_path != "" %}data-episode-url="{{ _ep_path | relative_url | escape }}"{% endif %}
         >
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
@@ -71,8 +85,4 @@
   </p>
   {%- endif -%}
 </section>
-
-{%- if episodes.size > 0 -%}
-{% include latest-episodes-player-runtime.html section_id=section_id %}
-{%- endif -%}
 {%- endif -%}

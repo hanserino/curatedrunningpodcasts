@@ -52,11 +52,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -64,11 +64,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -82,6 +123,8 @@
 
 			<section class="episode-archive" aria-labelledby="episode-archive-title">
 				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2><ol class="episode-archive__list"><li class="episode-archive__item">
+						<a href="/diabolic-lies/how-the-botox-psyop-broke-our-brains-in-the-name-of-beauty/" class="episode-archive__link">How 'The Botox Psyop' Broke Our Brains in the Name of Beauty</a><time class="episode-archive__date" datetime="2026-07-12T10:30:59+00:00">July 12, 2026</time></li><li class="episode-archive__item">
+						<a href="/diabolic-lies/alex-cooper-alix-earle-the-business-of-relatability/" class="episode-archive__link">Alex Cooper, Alix Earle, & the Business of Relatability</a><time class="episode-archive__date" datetime="2026-06-28T11:00:00+00:00">June 28, 2026</time></li><li class="episode-archive__item">
 						<a href="/diabolic-lies/how-reality-tv-makes-us-all-republicans/" class="episode-archive__link">How Reality TV Makes Us All Republicans</a><time class="episode-archive__date" datetime="2026-06-14T11:23:16+00:00">June 14, 2026</time></li><li class="episode-archive__item">
 						<a href="/diabolic-lies/the-rise-and-fall-of-the-girlboss/" class="episode-archive__link">The "Rise" and Fall of the Girlboss</a><time class="episode-archive__date" datetime="2026-05-31T11:00:00+00:00">May 31, 2026</time></li><li class="episode-archive__item">
 						<a href="/diabolic-lies/how-to-give-birth-in-america-pt-2/" class="episode-archive__link">How to Give Birth in America, Pt. 2</a><time class="episode-archive__date" datetime="2026-05-17T11:00:45+00:00">May 17, 2026</time></li><li class="episode-archive__item">
@@ -104,9 +147,7 @@
 						<a href="/diabolic-lies/ethical-consumption-the-history-of-selling-out/" class="episode-archive__link">"Ethical Consumption" & the History of "Selling Out"</a><time class="episode-archive__date" datetime="2025-11-02T13:00:00+00:00">November 2, 2025</time></li><li class="episode-archive__item">
 						<a href="/diabolic-lies/how-to-give-birth-in-america-pt-1/" class="episode-archive__link">How to Give Birth in America, Pt. 1</a><time class="episode-archive__date" datetime="2025-10-19T11:04:44+00:00">October 19, 2025</time></li><li class="episode-archive__item">
 						<a href="/diabolic-lies/bonus-taylor-swift-s-rumspringa-reviewed/" class="episode-archive__link">BONUS: Taylor Swift's Rumspringa, Reviewed</a><time class="episode-archive__date" datetime="2025-10-09T21:32:49+00:00">October 9, 2025</time></li><li class="episode-archive__item">
-						<a href="/diabolic-lies/biblical-womanhood-maga-girlbosses-and-the-useful-myth-of-tradition/" class="episode-archive__link">Biblical Womanhood, MAGA Girlbosses, and the Useful Myth of "Tradition"</a><time class="episode-archive__date" datetime="2025-10-05T11:30:00+00:00">October 5, 2025</time></li><li class="episode-archive__item">
-						<a href="/diabolic-lies/bonus-charlie-kirk-part-deux/" class="episode-archive__link">BONUS: Charlie Kirk, Part Deux</a><time class="episode-archive__date" datetime="2025-09-28T11:35:23+00:00">September 28, 2025</time></li><li class="episode-archive__item">
-						<a href="/diabolic-lies/charlie-kirk-the-end-of-debate-in-america/" class="episode-archive__link">Charlie Kirk & the End of Debate in America</a><time class="episode-archive__date" datetime="2025-09-21T11:09:19+00:00">September 21, 2025</time></li></ol></section>
+						<a href="/diabolic-lies/biblical-womanhood-maga-girlbosses-and-the-useful-myth-of-tradition/" class="episode-archive__link">Biblical Womanhood, MAGA Girlbosses, and the Useful Myth of "Tradition"</a><time class="episode-archive__date" datetime="2025-10-05T11:30:00+00:00">October 5, 2025</time></li></ol></section>
 		</article>
 	</main>
 	<footer class="footer" role="contentinfo">
@@ -117,18 +158,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>

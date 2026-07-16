@@ -52,11 +52,11 @@
     <nav class="main-nav" aria-label="Main">
       <ul class="main-nav__list">
         <li>
-          <a
-            href="/about/"
-            class="main-nav__link"
-            >About</a>
-        </li>
+            <a
+              href="/latest-episodes/"
+              class="main-nav__link"
+              >Latest episodes</a>
+          </li>
         <li>
           <a
             href="/runners-picks/"
@@ -64,11 +64,52 @@
             >Runners' picks</a>
         </li>
         <li>
-          <a
-            href="/latest-episodes/"
-            class="main-nav__link"
-            >Latest episodes</a>
-        </li>
+            <a
+              href="/about/"
+              class="main-nav__link"
+              >About</a>
+          </li>
+        <li class="main-nav__item main-nav__item--auth">
+  <div class="user-auth" data-user-auth>
+    <div class="user-auth__identity" data-user-auth-identity>
+      <span class="user-auth__avatar user-auth__avatar--guest" data-user-auth-guest aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="8" r="4"></circle>
+          <path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+        </svg>
+      </span>
+      <img
+        class="user-auth__avatar user-auth__avatar--photo"
+        data-user-auth-photo
+        alt=""
+        width="36"
+        height="36"
+        decoding="async"
+        hidden
+      >
+    </div>
+    <button
+      type="button"
+      class="user-auth__toggle"
+      data-user-auth-toggle
+      aria-expanded="false"
+      aria-controls="user-auth-menu"
+      aria-haspopup="menu"
+      aria-label="Account menu"
+    >
+      <span class="visuallyhidden">Account menu</span>
+    </button>
+    <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
+      <p class="user-auth__email" data-user-auth-email hidden></p>
+      <button type="button" class="user-auth__action" data-user-auth-sign-in role="menuitem">
+        Sign in with Google
+      </button>
+      <button type="button" class="user-auth__action" data-user-auth-sign-out role="menuitem" hidden>
+        Sign out
+      </button>
+    </div>
+  </div>
+</li>
       </ul>
     </nav>
   </div>
@@ -82,31 +123,31 @@
 
 			<section class="episode-archive" aria-labelledby="episode-archive-title">
 				<h2 class="episode-archive__title" id="episode-archive-title">All indexed episodes</h2><ol class="episode-archive__list"><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/amanda-romare/" class="episode-archive__link">Amanda Romare</a><time class="episode-archive__date" datetime="2026-06-23T11:00:00Z">June 23, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/martin-kragh/" class="episode-archive__link">Martin Kragh</a><time class="episode-archive__date" datetime="2026-06-22T11:00:00Z">June 22, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/sebastian-ingrosso/" class="episode-archive__link">Sebastian Ingrosso</a><time class="episode-archive__date" datetime="2026-06-21T11:00:00Z">June 21, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/helena-bergstrom/" class="episode-archive__link">Helena Bergström</a><time class="episode-archive__date" datetime="2026-06-20T11:00:00Z">June 20, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/hor-arets-sommarpratare-presenteras/" class="episode-archive__link">Hör årets Sommarpratare presenteras</a><time class="episode-archive__date" datetime="2026-06-09T11:00:00Z">June 9, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/poddtips-jag-skjuter-mig-om-jag-inte-far-sommarprata-hor-nya-dramaserien-othello/" class="episode-archive__link">Poddtips: ”Jag skjuter mig om jag inte får Sommarprata” – hör nya dramaserien Othello</a><time class="episode-archive__date" datetime="2026-04-20T04:30:00Z">April 20, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/camilla-lif/" class="episode-archive__link">Camilla Lif</a><time class="episode-archive__date" datetime="2026-01-01T12:00:00Z">January 1, 2026</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/claes-eriksson/" class="episode-archive__link">Claes Eriksson</a><time class="episode-archive__date" datetime="2025-12-31T12:00:00Z">December 31, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/dilsa-demirbag-sten/" class="episode-archive__link">Dilsa Demirbag-Sten</a><time class="episode-archive__date" datetime="2025-12-30T12:00:00Z">December 30, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/ulf-ellervik/" class="episode-archive__link">Ulf Ellervik</a><time class="episode-archive__date" datetime="2025-12-29T12:00:00Z">December 29, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/denise-rudberg/" class="episode-archive__link">Denise Rudberg</a><time class="episode-archive__date" datetime="2025-12-28T12:00:00Z">December 28, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/bert-sundstrom/" class="episode-archive__link">Bert Sundström</a><time class="episode-archive__date" datetime="2025-12-27T12:00:00Z">December 27, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/linnea-henriksson/" class="episode-archive__link">Linnea Henriksson</a><time class="episode-archive__date" datetime="2025-12-26T12:00:00Z">December 26, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/thomas-bodstrom/" class="episode-archive__link">Thomas Bodström</a><time class="episode-archive__date" datetime="2025-12-25T12:00:00Z">December 25, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/vintervardarna-2025-presenteras/" class="episode-archive__link">Vintervärdarna 2025 presenteras</a><time class="episode-archive__date" datetime="2025-12-16T12:00:00Z">December 16, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/roland-pontinen/" class="episode-archive__link">Roland Pöntinen</a><time class="episode-archive__date" datetime="2025-08-17T11:00:00Z">August 17, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/ella-carlsson/" class="episode-archive__link">Ella Carlsson</a><time class="episode-archive__date" datetime="2025-08-16T11:00:00Z">August 16, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/aya-kanbar/" class="episode-archive__link">Aya Kanbar</a><time class="episode-archive__date" datetime="2025-08-15T11:00:00Z">August 15, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/isabelle-haak/" class="episode-archive__link">Isabelle Haak</a><time class="episode-archive__date" datetime="2025-08-14T11:00:00Z">August 14, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/mikael-wiehe/" class="episode-archive__link">Mikael Wiehe</a><time class="episode-archive__date" datetime="2025-08-13T11:00:00Z">August 13, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/fraga-varden-clas-svahn/" class="episode-archive__link">Fråga Värden – Clas Svahn</a><time class="episode-archive__date" datetime="2025-08-12T16:35:00Z">August 12, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/clas-svahn/" class="episode-archive__link">Clas Svahn</a><time class="episode-archive__date" datetime="2025-08-12T11:00:00Z">August 12, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/lotta-klemming/" class="episode-archive__link">Lotta Klemming</a><time class="episode-archive__date" datetime="2025-08-11T11:00:00Z">August 11, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/britt-ekland/" class="episode-archive__link">Britt Ekland</a><time class="episode-archive__date" datetime="2025-08-10T11:00:00Z">August 10, 2025</time></li><li class="episode-archive__item">
-						<a href="/sommar-vinter-i-p1/jonna-sundling/" class="episode-archive__link">Jonna Sundling</a><time class="episode-archive__date" datetime="2025-08-09T11:00:00Z">August 9, 2025</time></li></ol></section>
+						<a href="/sommar-vinter-i-p1/elaf-ali/" class="episode-archive__link">Elaf Ali</a><time class="episode-archive__date" datetime="2026-07-16T11:00:00Z">July 16, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/poddtips-p3-id-om-melania-trump/" class="episode-archive__link">Poddtips: P3 ID om Melania Trump</a><time class="episode-archive__date" datetime="2026-07-15T15:00:00Z">July 15, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/bettan-byvald/" class="episode-archive__link">Bettan Byvald</a><time class="episode-archive__date" datetime="2026-07-15T11:00:00Z">July 15, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/ebba-kleberg-von-sydow/" class="episode-archive__link">Ebba Kleberg von Sydow</a><time class="episode-archive__date" datetime="2026-07-14T11:00:00Z">July 14, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/emil-hansius/" class="episode-archive__link">Emil Hansius</a><time class="episode-archive__date" datetime="2026-07-13T11:00:00Z">July 13, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/martin-modeus/" class="episode-archive__link">Martin Modéus</a><time class="episode-archive__date" datetime="2026-07-12T11:00:00Z">July 12, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/amanda-jansson/" class="episode-archive__link">Amanda Jansson</a><time class="episode-archive__date" datetime="2026-07-11T11:00:00Z">July 11, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/carl-skau/" class="episode-archive__link">Carl Skau</a><time class="episode-archive__date" datetime="2026-07-10T11:00:00Z">July 10, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/evelyn-mok/" class="episode-archive__link">Evelyn Mok</a><time class="episode-archive__date" datetime="2026-07-09T11:00:00Z">July 9, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/sebastian-siemiatkowski/" class="episode-archive__link">Sebastian Siemiatkowski</a><time class="episode-archive__date" datetime="2026-07-08T11:00:00Z">July 8, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/behrang-safari/" class="episode-archive__link">Behrang Safari</a><time class="episode-archive__date" datetime="2026-07-07T11:00:00Z">July 7, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/erika-bjerstrom/" class="episode-archive__link">Erika Bjerström</a><time class="episode-archive__date" datetime="2026-07-06T11:00:00Z">July 6, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/marie-goranzon/" class="episode-archive__link">Marie Göranzon</a><time class="episode-archive__date" datetime="2026-07-05T11:00:00Z">July 5, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/olof-wretling/" class="episode-archive__link">Olof Wretling</a><time class="episode-archive__date" datetime="2026-07-04T11:00:00Z">July 4, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/ann-heberlein/" class="episode-archive__link">Ann Heberlein</a><time class="episode-archive__date" datetime="2026-07-03T11:00:00Z">July 3, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/maria-maunsbach/" class="episode-archive__link">Maria Maunsbach</a><time class="episode-archive__date" datetime="2026-07-02T11:00:00Z">July 2, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/" class="episode-archive__link">Poddtips: Dagens Eko förklarar en stor nyhet varje vardag</a><time class="episode-archive__date" datetime="2026-07-01T15:00:00Z">July 1, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/sarah-sheppard/" class="episode-archive__link">Sarah Sheppard</a><time class="episode-archive__date" datetime="2026-07-01T11:00:00Z">July 1, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/johan-eriksson/" class="episode-archive__link">Johan Eriksson</a><time class="episode-archive__date" datetime="2026-06-30T11:00:00Z">June 30, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/patrik-norqvist/" class="episode-archive__link">Patrik Norqvist</a><time class="episode-archive__date" datetime="2026-06-29T11:00:00Z">June 29, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/ginna-lindberg/" class="episode-archive__link">Ginna Lindberg</a><time class="episode-archive__date" datetime="2026-06-28T11:00:00Z">June 28, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/alexander-karim/" class="episode-archive__link">Alexander Karim</a><time class="episode-archive__date" datetime="2026-06-27T11:00:00Z">June 27, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/carolina-dybeck-happe/" class="episode-archive__link">Carolina Dybeck Happe</a><time class="episode-archive__date" datetime="2026-06-26T11:00:00Z">June 26, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/jonas-gren/" class="episode-archive__link">Jonas Gren</a><time class="episode-archive__date" datetime="2026-06-25T11:00:00Z">June 25, 2026</time></li><li class="episode-archive__item">
+						<a href="/sommar-vinter-i-p1/jonas-bonnier/" class="episode-archive__link">Jonas Bonnier</a><time class="episode-archive__date" datetime="2026-06-24T11:00:00Z">June 24, 2026</time></li></ol></section>
 		</article>
 	</main>
 	<footer class="footer" role="contentinfo">
@@ -117,18 +158,85 @@
     <span>Contact: <a href="mailto:alvorpodcast@gmail.com" rel="me">alvorpodcast@gmail.com</a></span> ·
     Code: <a href="https://github.com/hanserino/curatedrunningpodcasts" rel="noopener noreferrer" target="_blank" aria-label="View site source on GitHub (opens in a new tab)">GitHub</a> ·
     <a href="/llms.txt">llms.txt</a> (for tools &amp; assistants) ·
+    <a href="/privacy/">Privacy</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-06-23T11:55:51Z">2026-06-23 11:55 UTC</time>
+      <time datetime="2026-07-16T06:02:04Z">2026-07-16 06:02 UTC</time>
     </p></footer>
 
+<div
+  id="brp-global-player"
+  class="brp-global-player"
+  data-turbo-permanent
+  hidden
+  aria-live="polite"
+  aria-label="Now playing"
+>
+  <div class="brp-global-player__inner">
+    <div class="brp-global-player__art-wrap brp-global-player__art-wrap--empty" data-global-player-art-wrap>
+      <img class="brp-global-player__art" data-global-player-art alt="" width="48" height="48" decoding="async">
+    </div>
+    <div class="brp-global-player__meta">
+      <p class="brp-global-player__title" data-global-player-title></p>
+      <p class="brp-global-player__show" data-global-player-show></p>
+    </div>
+    <div class="brp-global-player__controls">
+      <button
+        type="button"
+        class="brp-global-player__play"
+        data-global-player-play
+        aria-pressed="false"
+        aria-label="Play"
+      >
+        <span class="brp-global-player__play-glyph" aria-hidden="true"></span>
+      </button>
+    </div>
+    <div class="brp-global-player__scrub">
+      <span class="brp-global-player__time" data-global-player-current aria-hidden="true">0:00</span>
+      <label class="brp-global-player__scrub-wrap">
+        <input
+          type="range"
+          class="brp-global-player__scrub-input"
+          data-global-player-scrub
+          min="0"
+          max="1000"
+          value="0"
+          step="1"
+          aria-label="Seek playback position"
+        >
+        <span class="brp-global-player__scrub-track" aria-hidden="true"></span>
+        <span class="brp-global-player__scrub-progress" data-global-player-scrub-progress style="width: 0%">
+          <span class="brp-global-player__scrub-fill"></span>
+        </span>
+      </label>
+      <span class="brp-global-player__time" data-global-player-duration aria-hidden="true">0:00</span>
+    </div>
+  </div>
+  <audio
+    id="brp-global-audio"
+    preload="none"
+    playsinline
+    webkit-playsinline
+    x-webkit-airplay="allow"
+    class="brp-global-player__audio"
+  ></audio>
+</div>
+
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-9K8N2QJRNZ');
+</script><script>
+  window.BRP_SUPABASE_CONFIG = {
+    url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
+  };
 </script>
-<script src="/assets/scripts/main.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js" defer></script>
+<script src="/assets/scripts/user-sync.js" defer></script><script src="/assets/scripts/main.js" defer></script>
 
 </body>
 </html>
