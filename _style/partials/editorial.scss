@@ -431,7 +431,7 @@ $ep-play-compact: 2.25rem;
         display: block;
         height: 1.25rem;
         margin: 0;
-        touch-action: pan-y;
+        touch-action: none;
     }
 
     &__scrub-track {
