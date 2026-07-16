@@ -10,7 +10,7 @@
 		<article class="privacy-page">
 			<header class="privacy-page__intro">
 				{% include post-page-nav.html %}
-				<p class="privacy-page__kicker">Your data on this site</p>
+				<p class="privacy-page__kicker">{{ page.kicker | default: "Your data on this site" }}</p>
 				<h1 class="privacy-page__title">{{ page.title }}</h1>
 				{% if page.description %}
 				<p class="privacy-page__lede">{{ page.description }}</p>
