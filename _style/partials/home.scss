@@ -6,6 +6,11 @@
         border-bottom: $border-heavy;
         box-shadow: $shadow-brutal;
         isolation: isolate;
+        min-height: 42vh;
+
+        @include allAbove(medium) {
+            min-height: 52vh;
+        }
     }
 
     &__hero-bg {
@@ -199,6 +204,16 @@
         }
     }
 
+    &__app-summary {
+        margin: 0 0 0.55rem;
+        max-width: 34rem;
+        font-size: 1.02rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.96);
+        line-height: 1.45;
+        text-shadow: 0 1px 12px rgba(0, 0, 0, 0.28);
+    }
+
     &__lede {
         max-width: 34rem;
         color: rgba(255, 255, 255, 0.9);
@@ -227,21 +242,22 @@
     }
 
     &__purpose {
-        margin: 1.15rem 0 0;
-        max-width: 42rem;
-        padding: 1rem 1.05rem;
-        background: rgba($color-ink, 0.62);
-        border: 2px solid rgba(255, 255, 255, 0.88);
-        border-radius: $radius-sm;
-        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.32);
-        color: rgba(255, 255, 255, 0.94);
-        font-size: 0.95rem;
+        margin: 0 1rem 1.35rem;
+        padding: 0;
+    }
+
+    &__purpose-inner {
+        @include brutal-surface;
+        box-shadow: $shadow-brutal-sm;
+        max-width: $site-max-width;
+        margin: 0 auto;
+        padding: 1rem 1.1rem;
         line-height: 1.55;
-        backdrop-filter: blur(6px);
+        color: $color-muted;
+        font-size: 0.98rem;
 
         @include allAbove(medium) {
-            margin-top: 1.35rem;
-            padding: 1.15rem 1.2rem;
+            padding: 1.15rem 1.25rem;
             font-size: 1rem;
         }
 
@@ -254,13 +270,13 @@
         }
 
         a {
-            color: #fff;
+            color: $color-ink;
             text-decoration: underline;
             text-underline-offset: 2px;
 
             &:hover,
             &:focus-visible {
-                color: $color-flash;
+                color: $color-speed;
             }
         }
     }
@@ -268,9 +284,9 @@
     &__purpose-title {
         margin: 0 0 0.65rem;
         font-family: $font-display;
-        font-size: 1.15rem;
+        font-size: 1.35rem;
         font-weight: 700;
-        color: #fff;
+        color: $color-ink;
         letter-spacing: -0.02em;
     }
 
