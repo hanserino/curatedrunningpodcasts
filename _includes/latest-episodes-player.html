@@ -39,18 +39,9 @@
       {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
     >
       <div class="latest-episodes__episode-stack">
-        {%- if episode.cover_image and episode.cover_image != "" -%}
-        <span class="latest-episodes__cover-slot">
-          {%- include local-media-picture.html raw=episode.cover_image alt="" high_priority=false width=40 height=40 img_class="latest-episodes__cover" -%}
-        </span>
-        {%- else -%}
-        <span class="latest-episodes__cover-slot latest-episodes__cover-slot--empty" aria-hidden="true">
-          <span class="latest-episodes__cover-placeholder"></span>
-        </span>
-        {%- endif -%}
         <button
           type="button"
-          class="latest-episodes__play latest-episodes__play--compact"
+          class="latest-episodes__play latest-episodes__play--art"
           aria-pressed="false"
           aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
           data-audio-url="{{ episode.audio_url | escape }}"
@@ -60,8 +51,16 @@
           {% if episode.episode_page_url and episode.episode_page_url != "" %}data-episode-url="{{ episode.episode_page_url | relative_url | escape }}"{% endif %}
           {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
         >
+          <span class="latest-episodes__play-art" aria-hidden="true">
+            {%- if episode.cover_image and episode.cover_image != "" -%}
+            {%- include local-media-picture.html raw=episode.cover_image alt="" high_priority=false width=40 height=40 img_class="latest-episodes__cover" -%}
+            {%- else -%}
+            <span class="latest-episodes__play-art-placeholder"></span>
+            {%- endif -%}
+          </span>
           <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
         </button>
+        <div class="latest-episodes__episode-copy">
         {% include episode-page-link.html episode=episode podcast_page_url=episode.podcast_page_url class="latest-episodes__episode-title latest-episodes__episode-title--row" %}
         <p class="latest-episodes__meta latest-episodes__meta--stacked">
         {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
@@ -71,6 +70,7 @@
         {%- endif -%}
         {% if published_label and published_label != "" %} • {{ published_label }}{% endif %}
         </p>
+        </div>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track hidden>
         <div class="latest-episodes__listen-fill" data-listen-progress style="width: 0%"></div>
