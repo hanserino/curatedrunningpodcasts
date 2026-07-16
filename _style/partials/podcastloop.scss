@@ -50,12 +50,23 @@
             font-size: 1.35rem;
             font-weight: 600;
             line-height: 1.2;
+            position: relative;
+            z-index: 2;
+            touch-action: manipulation;
+            -webkit-tap-highlight-color: transparent;
 
-            &:hover,
             &:focus-visible {
                 color: $color-ink;
                 outline: 3px solid $color-speed;
                 outline-offset: 2px;
+            }
+
+            @media (hover: hover) and (pointer: fine) {
+                &:hover {
+                    color: $color-ink;
+                    outline: 3px solid $color-speed;
+                    outline-offset: 2px;
+                }
             }
 
             &[aria-pressed="true"] {
@@ -278,4 +289,14 @@
 
 [data-box-grid="true"] .podcast-loop__item__tags {
     margin-top: 0.65rem;
+}
+
+@media (hover: none) and (pointer: coarse), screen and (max-width: 720px) {
+    .podcast-loop__item .podcast-loop__favorite {
+        width: 2.75rem;
+        height: 2.75rem;
+        min-width: 2.75rem;
+        min-height: 2.75rem;
+        font-size: 1.5rem;
+    }
 }

@@ -307,8 +307,10 @@
                 transform 0.12s ease,
                 box-shadow 0.12s ease;
 
-            &:hover {
-                @include brutal-surface-hover;
+            @media (hover: hover) and (pointer: fine) {
+                &:hover {
+                    @include brutal-surface-hover;
+                }
             }
 
             header h2,
@@ -318,11 +320,15 @@
                 font-weight: 700;
             }
 
-            &__teaser-link:hover {
-                h2,
-                .podcast-loop__item__title {
-                    color: $color-warm;
-                    background: transparent;
+            &__teaser-link {
+                @media (hover: hover) and (pointer: fine) {
+                    &:hover {
+                        h2,
+                        .podcast-loop__item__title {
+                            color: $color-warm;
+                            background: transparent;
+                        }
+                    }
                 }
             }
         }

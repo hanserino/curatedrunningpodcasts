@@ -13,6 +13,8 @@ var isTouchDevice = function () {
 var OPML_FAVORITES_STORAGE_KEY = 'brp-opml-favorites';
 var FILTER_PREFS_STORAGE_KEY = 'brp-filter-prefs-v1';
 var restoringFilterPrefs = false;
+var opmlFavoriteInteractionWired = false;
+var opmlPanelWired = false;
 
 function notifyUserSync(immediate) {
     if (!window.BrpUserSync) {
@@ -586,29 +588,53 @@ function exportFavoritePodcastsAsOpml() {
     );
 }
 
-function wireOpmlExport() {
-    if (!document.querySelector('[data-opml-favorites]')) {
+function handleOpmlFavoriteInteraction(e) {
+    var target = e.target;
+    var favoriteBtn = target ? target.closest('[data-opml-favorite]') : null;
+    var removeBtn = target ? target.closest('[data-opml-remove]') : null;
+
+    if (favoriteBtn && !favoriteBtn.disabled) {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleOpmlFavorite(favoriteBtn.closest('.podcast-loop__item'));
         return;
     }
 
-    document.querySelector('[data-opml-clear]').addEventListener('click', clearOpmlFavorites);
-    document.querySelector('[data-opml-export]').addEventListener('click', exportFavoritePodcastsAsOpml);
+    if (removeBtn) {
+        e.preventDefault();
+        e.stopPropagation();
+        removeOpmlFavoriteById(removeBtn.getAttribute('data-opml-remove'));
+    }
+}
 
-    document.addEventListener('click', function (e) {
-        var target = e.target;
-        var favoriteBtn = target ? target.closest('[data-opml-favorite]') : null;
-        var removeBtn = target ? target.closest('[data-opml-remove]') : null;
+function wireOpmlFavoriteInteraction() {
+    if (opmlFavoriteInteractionWired) {
+        return;
+    }
 
-        if (favoriteBtn) {
-            toggleOpmlFavorite(favoriteBtn.closest('.podcast-loop__item'));
-            return;
-        }
+    opmlFavoriteInteractionWired = true;
+    document.addEventListener('click', handleOpmlFavoriteInteraction, true);
+}
 
-        if (removeBtn) {
-            removeOpmlFavoriteById(removeBtn.getAttribute('data-opml-remove'));
-        }
-    });
+function wireOpmlPanel() {
+    if (opmlPanelWired || !document.querySelector('[data-opml-favorites]')) {
+        return;
+    }
 
+    var clearBtn = document.querySelector('[data-opml-clear]');
+    var exportBtn = document.querySelector('[data-opml-export]');
+    if (!clearBtn || !exportBtn) {
+        return;
+    }
+
+    opmlPanelWired = true;
+    clearBtn.addEventListener('click', clearOpmlFavorites);
+    exportBtn.addEventListener('click', exportFavoritePodcastsAsOpml);
+}
+
+function wireOpmlExport() {
+    wireOpmlFavoriteInteraction();
+    wireOpmlPanel();
     syncOpmlFavoritesFromStorage();
 }
 
@@ -1017,9 +1043,17 @@ function wireFilterAndGrid() {
 }
 
 function wireDomReady() {
+    wireOpmlFavoriteInteraction();
     wireFilterAndGrid();
     wireHeaderNav();
     wireContextualReturnLinks();
+
+    document.addEventListener('turbo:load', function () {
+        wireOpmlPanel();
+        if (document.querySelector('[data-opml-favorite]')) {
+            syncOpmlFavoritesFromStorage();
+        }
+    });
 
     window.addEventListener('pageshow', function () {
         if (!getFilterRoot()) {

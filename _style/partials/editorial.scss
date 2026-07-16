@@ -820,7 +820,15 @@ $ep-play-art: $ep-row-art;
     }
 
     &__podcast-link {
-        font-weight: bold;
+        font-weight: 600;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover,
+        &:focus-visible {
+            color: $color-speed;
+            text-decoration: underline;
+        }
     }
 
     /* /latest-episodes/ list: art+play button + title; meta on second row */
@@ -873,11 +881,6 @@ $ep-play-art: $ep-row-art;
         font-size: 0.68rem;
         line-height: 1.3;
         color: $color-muted;
-
-        .latest-episodes__podcast-link {
-            font-size: inherit;
-            font-weight: 600;
-        }
     }
 
     &__layout {

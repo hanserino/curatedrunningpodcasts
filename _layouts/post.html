@@ -38,11 +38,17 @@
 					</div>
 					<div class="post-page__details">
 						{%- if page.tags and page.tags.size > 0 -%}
-						<p class="post-page__kicker">
-							{%- for tag in page.tags -%}
-							<span class="post-page__tag">{{ tag }}</span>
-							{%- endfor -%}
-						</p>
+						{%- capture _post_page_tags -%}
+						{%- for tag in page.tags -%}
+						{%- if page.not_running_related != true or tag != 'uncategorized' -%}
+						<span class="post-page__tag">{{ tag }}</span>
+						{%- endif -%}
+						{%- endfor -%}
+						{%- endcapture -%}
+						{%- assign _post_page_tags = _post_page_tags | strip -%}
+						{%- if _post_page_tags != '' -%}
+						<p class="post-page__kicker">{{ _post_page_tags }}</p>
+						{%- endif -%}
 						{%- else -%}
 						<p class="post-page__kicker">Running podcast</p>
 						{%- endif -%}
