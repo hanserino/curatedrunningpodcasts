@@ -1,6 +1,7 @@
 ---
 layout: privacy
-title: Privacy
+title: Privacy Policy
+kicker: Your data on this site
 permalink: /privacy/
 description: >-
   How this site handles analytics, optional Google sign-in, and synced listening data.
@@ -8,7 +9,7 @@ seo_description: >-
   How Best Running Podcasts handles analytics, optional Google sign-in, and synced listening data.
 ---
 
-**Best Running Podcasts** is published by **[NEDA](https://www.naerdetalvor.no/)**. This page explains what data the site uses and how you can control it.
+**Best Running Podcasts** is published by **[NEDA](https://www.naerdetalvor.no/)**. This privacy policy explains what data the site uses, including optional Google sign-in, and how you can control it.
 
 Last updated: July 2026.
 

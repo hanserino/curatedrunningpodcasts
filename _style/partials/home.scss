@@ -231,6 +231,24 @@
         }
     }
 
+    &__legal {
+        margin: 0.85rem 0 0;
+        font-size: 0.92rem;
+        color: rgba(255, 255, 255, 0.88);
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+            text-underline-offset: 2px;
+            text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+
+            &:hover,
+            &:focus-visible {
+                color: $color-flash;
+            }
+        }
+    }
+
     &__callout {
         margin-top: 1.15rem;
         padding: 0.95rem 1.1rem;

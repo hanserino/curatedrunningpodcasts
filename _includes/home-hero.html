@@ -8,5 +8,10 @@
 		<p class="home-page__kicker"><span class="home-page__kicker-dot" aria-hidden="true"></span> Human-curated directory · Est. 2026</p>
 		<h1 class="home-page__title">{{ site.heading | default: site.title | default: 'The Best Running Podcasts' | escape_once }}</h1>
 		<div class="home-page__lede">{{ site.header_tagline | default: "A hand picked selection of *running related podcasts* worth listening to on your long run." | markdownify }}</div>
+		<p class="home-page__legal">
+			<a href="{{ '/privacy/' | relative_url }}">Privacy policy</a>
+			<span aria-hidden="true"> · </span>
+			<a href="{{ '/terms/' | relative_url }}">Terms of service</a>
+		</p>
 	</div>
 </header>
