@@ -16,7 +16,6 @@
     box-shadow: 0 -4px 24px rgba($color-ink, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    padding-bottom: env(safe-area-inset-bottom, 0);
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     font-family: $font-body;
@@ -267,13 +266,27 @@
 }
 
 @media (hover: none) and (pointer: coarse), screen and (max-width: 720px) {
-    .brp-global-player__scrub-wrap {
+    .brp-global-player__inner {
+        gap: 0.25rem 0.6rem;
+        padding: 0.4rem 0.75rem calc(0.35rem + env(safe-area-inset-bottom, 0));
+    }
+
+    .brp-global-player__art-wrap {
+        width: 2.75rem;
         height: 2.75rem;
+    }
+
+    .brp-global-player__scrub-wrap {
+        height: 1.5rem;
     }
 
     .brp-global-player__title-link,
     .brp-global-player__show-link {
-        padding: 0.15rem 0;
+        padding: 0.1rem 0;
+    }
+
+    body.brp-global-player-visible {
+        padding-bottom: calc(4.85rem + env(safe-area-inset-bottom, 0));
     }
 }
 

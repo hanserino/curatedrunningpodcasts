@@ -36,6 +36,7 @@
     var engineReady = false;
     var deckShellVisible = false;
     var deckVisibilityObserver = null;
+    var metaSourceUrl = '';
 
     var isIOS =
         /iPad|iPhone|iPod/.test(navigator.userAgent) ||
@@ -234,7 +235,29 @@
 
     function playerActiveUrl() {
         if (!player) return '';
-        return player.currentSrc || player.src || '';
+        // Prefer the assigned episode URL (feed enclosure) over CDN redirect currentSrc.
+        return player.src || player.currentSrc || '';
+    }
+
+    function urlsMatchEpisode(a, b) {
+        if (!a || !b) return false;
+        if (urlsMatch(a, b)) return true;
+        if (!player) return false;
+        var assigned = player.src || '';
+        var resolved = player.currentSrc || '';
+        if (assigned && urlsMatch(a, assigned) && urlsMatch(b, assigned)) return true;
+        if (resolved && urlsMatch(a, resolved) && urlsMatch(b, resolved)) return true;
+        return false;
+    }
+
+    function playerMatchesEpisodeUrl(episodeUrl) {
+        if (!episodeUrl || !player) return false;
+        return urlsMatchEpisode(episodeUrl, playerActiveUrl());
+    }
+
+    function metaMatchesActivePlayer() {
+        if (!metaSourceUrl || !playerActiveUrl()) return false;
+        return urlsMatchEpisode(metaSourceUrl, playerActiveUrl());
     }
 
     function loadLastListened() {
@@ -351,6 +374,7 @@
         currentMeta.coverUrl = (coverUrl || '').trim();
         currentMeta.episodePageUrl = (episodePageUrl || '').trim();
         currentMeta.podcastPageUrl = (podcastPageUrl || '').trim();
+        metaSourceUrl = storageUrlKey(audioUrl || playerActiveUrl());
         persistPlaybackMeta(audioUrl);
         setupMediaSessionHandlers();
         updateMediaSessionMetadata();
@@ -372,13 +396,14 @@
         } catch (e) {}
     }
 
-    function applyMetaFully(meta) {
+    function applyMetaFully(meta, sourceUrl) {
         if (!meta) return;
         currentMeta.episodeTitle = meta.episodeTitle || 'Episode';
         currentMeta.podcastTitle = meta.podcastTitle || 'Podcast';
         currentMeta.coverUrl = (meta.coverUrl || '').trim();
         currentMeta.episodePageUrl = (meta.episodePageUrl || '').trim();
         currentMeta.podcastPageUrl = (meta.podcastPageUrl || '').trim();
+        if (sourceUrl) metaSourceUrl = storageUrlKey(sourceUrl);
     }
 
     function hydrateMetaFromPageButtons() {
@@ -387,13 +412,14 @@
         var buttons = document.querySelectorAll('[data-audio-url]');
         for (var i = 0; i < buttons.length; i++) {
             var btn = buttons[i];
-            if (!urlsMatch(btn.getAttribute('data-audio-url'), url)) continue;
+            var btnUrl = btn.getAttribute('data-audio-url');
+            if (!playerMatchesEpisodeUrl(btnUrl)) continue;
             var urls = readMetaUrlsFromButton(btn);
             rememberEpisodeMeta(
                 btn.getAttribute('data-episode-title') || 'Episode',
                 btn.getAttribute('data-podcast-title') || 'Podcast',
                 btn.getAttribute('data-cover-url') || '',
-                url,
+                btnUrl || url,
                 urls.episodePageUrl,
                 urls.podcastPageUrl
             );
@@ -406,24 +432,31 @@
         var url = playerActiveUrl();
         if (!url) return;
 
+        if (metaMatchesActivePlayer() && (currentMeta.episodeTitle || currentMeta.podcastTitle)) {
+            return;
+        }
+
         try {
             var raw = sessionStorage.getItem(SESSION_META_KEY);
             if (raw) {
                 var saved = JSON.parse(raw);
-                if (saved && saved.meta && urlsMatch(saved.url, url)) {
-                    applyMetaFully(saved.meta);
+                if (saved && saved.meta && urlsMatchEpisode(saved.url, url)) {
+                    applyMetaFully(saved.meta, saved.url);
                     return;
                 }
             }
         } catch (e) {}
 
         var last = loadLastListened();
-        if (last && urlsMatch(last.url, url)) {
-            applyMetaFully({
-                episodeTitle: last.episodeTitle,
-                podcastTitle: last.podcastTitle,
-                coverUrl: last.coverUrl,
-            });
+        if (last && urlsMatchEpisode(last.url, url)) {
+            applyMetaFully(
+                {
+                    episodeTitle: last.episodeTitle,
+                    podcastTitle: last.podcastTitle,
+                    coverUrl: last.coverUrl,
+                },
+                last.url
+            );
             return;
         }
 
@@ -472,13 +505,7 @@
     }
 
     function resolveCoverUrl(url) {
-        var effective = absoluteAssetUrl((url || '').trim());
-        if (effective) return effective;
-        var last = loadLastListened();
-        if (last && last.coverUrl) {
-            return absoluteAssetUrl(last.coverUrl);
-        }
-        return '';
+        return absoluteAssetUrl((url || '').trim());
     }
 
     function updateGlobalBarVisibility() {
@@ -583,8 +610,7 @@
         }
     }
 
-    function syncGlobalBarFromMeta() {
-        restorePlaybackMeta();
+    function renderGlobalBarFromMeta() {
         if (globalTitle) {
             setGlobalMetaLine(
                 globalTitle,
@@ -605,6 +631,17 @@
         syncGlobalPlayButton();
         updateGlobalTransportTimes();
         updateGlobalBarVisibility();
+    }
+
+    function syncGlobalBarFromMeta() {
+        restorePlaybackMeta();
+        renderGlobalBarFromMeta();
+    }
+
+    function reconcilePlaybackAfterNavigation() {
+        if (!playerActiveUrl()) return;
+        restorePlaybackMeta();
+        renderGlobalBarFromMeta();
     }
 
     function updateMediaSessionPosition() {
@@ -819,13 +856,16 @@
             var handoff = JSON.parse(raw);
             if (!handoff || !handoff.url || !handoff.playing) return;
             if (handoff.meta) {
-                currentMeta = {
-                    episodeTitle: handoff.meta.episodeTitle || 'Episode',
-                    podcastTitle: handoff.meta.podcastTitle || 'Podcast',
-                    coverUrl: handoff.meta.coverUrl || '',
-                    episodePageUrl: handoff.meta.episodePageUrl || '',
-                    podcastPageUrl: handoff.meta.podcastPageUrl || '',
-                };
+                applyMetaFully(
+                    {
+                        episodeTitle: handoff.meta.episodeTitle || 'Episode',
+                        podcastTitle: handoff.meta.podcastTitle || 'Podcast',
+                        coverUrl: handoff.meta.coverUrl || '',
+                        episodePageUrl: handoff.meta.episodePageUrl || '',
+                        podcastPageUrl: handoff.meta.podcastPageUrl || '',
+                    },
+                    handoff.url
+                );
             }
             resumeAppliedForSrc = storageUrlKey(handoff.url);
             setEpisodeSource(handoff.url);
@@ -924,6 +964,8 @@
 
         player.addEventListener('loadedmetadata', function () {
             applyResumeIfNeeded();
+            restorePlaybackMeta();
+            renderGlobalBarFromMeta();
             updateGlobalTransportTimes();
             if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
             refreshAllListenProgress();
@@ -1066,15 +1108,20 @@
 
         if (!audioUrl) return;
 
+        var playerEpisode = playerActiveUrl();
+        var switchingEpisode = !urlsMatchEpisode(audioUrl, playerEpisode);
+        if (switchingEpisode && !shouldPlay && !userGesture && playerEpisode) {
+            return;
+        }
+
         if (deck) {
             activeDeck = deck;
             document.body.classList.add('brp-deck-active');
         }
 
-        var playerSrc = player.src || '';
         if (
             userGesture &&
-            urlsMatch(playerSrc, audioUrl) &&
+            !switchingEpisode &&
             deck &&
             ((deck.currentLi && clickedLi === deck.currentLi) ||
                 (deck.stickyOnly && clickedLi && deck.currentLi === clickedLi))
@@ -1106,6 +1153,12 @@
         );
         }
 
+        if (switchingEpisode) {
+            resumeAppliedForSrc = '';
+            if (deck && deck.resetAudioGraph) deck.resetAudioGraph();
+            setEpisodeSource(audioUrl);
+        }
+
         rememberEpisodeMeta(
             episodeTitle,
             podcastTitle,
@@ -1115,12 +1168,6 @@
             metaUrls.podcastPageUrl
         );
         saveLastListened(audioUrl, episodeTitle, podcastTitle, coverUrl);
-
-        if (!urlsMatch(playerSrc, audioUrl)) {
-            resumeAppliedForSrc = '';
-            if (deck && deck.resetAudioGraph) deck.resetAudioGraph();
-            setEpisodeSource(audioUrl);
-        }
 
         if (shouldPlay) {
             playEpisode();
@@ -1166,8 +1213,10 @@
         function findButtonForStoredUrl(storedUrl) {
             var buttons = root.querySelectorAll('[data-audio-url]');
             for (var i = 0; i < buttons.length; i++) {
-                var u = buttons[i].getAttribute('data-audio-url');
-                if (urlsMatch(u, storedUrl)) return buttons[i];
+                var btnUrl = buttons[i].getAttribute('data-audio-url');
+                if (playerMatchesEpisodeUrl(btnUrl) || (storedUrl && urlsMatchEpisode(btnUrl, storedUrl))) {
+                    return buttons[i];
+                }
             }
             return null;
         }
@@ -1778,8 +1827,10 @@
         function findButtonForStoredUrl(storedUrl) {
             var buttons = root.querySelectorAll('[data-audio-url]');
             for (var i = 0; i < buttons.length; i++) {
-                var u = buttons[i].getAttribute('data-audio-url');
-                if (urlsMatch(u, storedUrl)) return buttons[i];
+                var btnUrl = buttons[i].getAttribute('data-audio-url');
+                if (playerMatchesEpisodeUrl(btnUrl) || (storedUrl && urlsMatchEpisode(btnUrl, storedUrl))) {
+                    return buttons[i];
+                }
             }
             return null;
         }
@@ -1999,19 +2050,19 @@
 
     function refreshGlobalPlayerUi() {
         if (!bindDom()) return;
-        syncGlobalBarFromMeta();
+        reconcilePlaybackAfterNavigation();
         requestAnimationFrame(function () {
-            if (bindDom()) syncGlobalBarFromMeta();
+            if (bindDom()) reconcilePlaybackAfterNavigation();
         });
     }
 
     function onPageReady() {
         initEngine();
-        scanForDecks();
         if (playerActiveUrl()) {
             restorePlaybackMeta();
-            syncGlobalBarFromMeta();
         }
+        scanForDecks();
+        reconcilePlaybackAfterNavigation();
         updateGlobalBarVisibility();
     }
 

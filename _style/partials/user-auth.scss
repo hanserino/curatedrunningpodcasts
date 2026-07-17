@@ -93,13 +93,92 @@
         top: calc(100% + 0.5rem);
         right: 0;
         z-index: 230;
-        min-width: 11.5rem;
+        min-width: 16.5rem;
         padding: 0.55rem;
         @include brutal-surface;
 
         &[hidden] {
             display: none !important;
         }
+    }
+
+    &__sign-in {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.35rem;
+
+        &[hidden] {
+            display: none !important;
+        }
+    }
+
+    &__sign-in-note {
+        margin: 0;
+        padding: 0 0.15rem;
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 1.35;
+        color: $color-muted;
+        text-align: center;
+    }
+
+    &__google-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        width: 100%;
+        min-height: 2.5rem;
+        margin: 0;
+        padding: 0.4rem 0.85rem;
+        border: 1px solid #747775;
+        border-radius: 999px;
+        background: #fff;
+        color: #1f1f1f;
+        font-family: $font-body;
+        font-size: 0.875rem;
+        font-weight: 500;
+        line-height: 1.2;
+        white-space: nowrap;
+        cursor: pointer;
+        box-shadow: none;
+        transition:
+            background-color 0.12s ease,
+            border-color 0.12s ease,
+            box-shadow 0.12s ease;
+
+        &:hover {
+            background: #f8f9fa;
+            border-color: #5f6368;
+        }
+
+        &:focus-visible {
+            outline: none;
+            border-color: #4285f4;
+            box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.35);
+        }
+
+        &[hidden] {
+            display: none !important;
+        }
+    }
+
+    &__google-icon {
+        display: flex;
+        flex-shrink: 0;
+        width: 1.125rem;
+        height: 1.125rem;
+
+        svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__google-label {
+        font-weight: 500;
     }
 
     &__email {
@@ -243,6 +322,22 @@
             }
         }
 
+        &__sign-in {
+            width: 100%;
+        }
+
+        &__sign-in-note {
+            padding: 0 0.15rem;
+            font-size: 0.78rem;
+            text-align: left;
+        }
+
+        &__google-btn {
+            justify-content: flex-start;
+            min-height: 2.75rem;
+            padding-inline: 0.9rem;
+        }
+
         &__email {
             order: -1;
             margin: 0;
@@ -289,6 +384,10 @@
             color: rgba(255, 255, 255, 0.88);
         }
 
+        &__sign-in-note {
+            color: rgba(255, 255, 255, 0.72);
+        }
+
         &__action {
             color: #fff;
 
@@ -329,6 +428,10 @@
             .user-auth__email {
                 color: rgba(255, 255, 255, 0.78);
                 border-bottom-color: rgba(255, 255, 255, 0.18);
+            }
+
+            .user-auth__sign-in-note {
+                color: rgba(255, 255, 255, 0.72);
             }
 
             .user-auth__action {

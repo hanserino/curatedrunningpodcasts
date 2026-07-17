@@ -493,6 +493,10 @@
             if (signInBtn) {
                 signInBtn.hidden = signedIn;
             }
+            var signInPanel = root.querySelector('[data-user-auth-sign-in-panel]');
+            if (signInPanel) {
+                signInPanel.hidden = signedIn;
+            }
             if (signOutBtn) {
                 signOutBtn.hidden = !signedIn;
             }
