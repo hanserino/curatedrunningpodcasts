@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-17T18:30:44Z'
+generated_at: '2026-07-17T19:33:02Z'
 items:
 - podcast_title: FKT Podcast
   podcast_page_url: "/fkt-podcast/"
@@ -770,6 +770,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: And The Writer Is...with Ross Golan
+  podcast_page_url: "/and-the-writer-is-with-ross-golan/"
+  cover_image: "/media/andthewriteris.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034
+  filter_category: uncategorized english
+  episode_title: 'Rewind: The Benny Blanco Episode [Patreon Exclusive]'
+  episode_url: https://shows.acast.com/andthewriteris/episodes/rewind-the-benny-blanco-episode-patreon-exclusive
+  audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a5a76c662e50b14bdb47ed2/media.mp3
+  published_at: '2026-07-17T18:39:01+00:00'
+  episode_key: rewind-the-benny-blanco-episode-patreon-exclusive
+  episode_slug: rewind-the-benny-blanco-episode-patreon-exclusive
+  episode_page_url: "/and-the-writer-is-with-ross-golan/rewind-the-benny-blanco-episode-patreon-exclusive/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -1010,18 +1022,6 @@ non_running_items:
   episode_key: a-guncle-s-tale-with-griff-stark-ennis
   episode_slug: a-guncle-s-tale-with-griff-stark-ennis
   episode_page_url: "/normal-gossip/a-guncle-s-tale-with-griff-stark-ennis/"
-- podcast_title: And The Writer Is...with Ross Golan
-  podcast_page_url: "/and-the-writer-is-with-ross-golan/"
-  cover_image: "/media/andthewriteris.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034
-  filter_category: uncategorized english
-  episode_title: 'Ep. 256: Gavin Rossdale (Bush) | "Glycerine" & Surviving the ''90s'
-  episode_url: https://shows.acast.com/andthewriteris/episodes/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
-  audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a565e1a70c881d75cf49ddf/media.mp3
-  published_at: '2026-07-14T16:04:42+00:00'
-  episode_key: ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
-  episode_slug: ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
-  episode_page_url: "/and-the-writer-is-with-ross-golan/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s/"
 - podcast_title: The Lonely Island and Seth Meyers Podcast
   podcast_page_url: "/the-lonely-island-and-seth-meyers-podcast/"
   cover_image: "/media/lonelyisland.jpeg"
@@ -17421,6 +17421,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/second-nature/the-outdoor-brand-spending-1-million-on-ads-every-month/"
   https://feeds.acast.com/public/shows/05db9598-9baf-443a-ab69-21a77284c034: &57
+  - episode_title: 'Rewind: The Benny Blanco Episode [Patreon Exclusive]'
+    episode_url: https://shows.acast.com/andthewriteris/episodes/rewind-the-benny-blanco-episode-patreon-exclusive
+    audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a5a76c662e50b14bdb47ed2/media.mp3
+    published_at: '2026-07-17T18:39:01+00:00'
+    description_html: "<p>Today's episode is a rewind to our conversation with Benny Blanco.</p><p>To hear the rest of this episode, join our Patreon, where you'll find our full library of archived episodes with legends like Babyface, Shania Twain, Sabrina Carpenter, Benny Blanco, and many more. Members also get access to our monthly Writers Room on Zoom, where we play your demos and answer your biggest industry questions.</p><p>We hope to see you there.</p><p>Thank you for listening to And The Writer Is.</p><p>And The Writer Is...</p><p>is presented by the National Music Publishers' Association</p><p>Hosted by Ross Golan</p><p>Produced by Joe London and Jad Saad</p><hr><p style='color:grey; font-size:0.75em;'>Hosted on Acast. See <a style='color:grey;' target='_blank' rel='noopener noreferrer' href='https://acast.com/privacy'>acast.com/privacy</a> for more information.</p>"
+    description_plain: Today's episode is a rewind to our conversation with Benny Blanco. To hear the rest of this episode, join our Patreon, where you'll find our full library of archived episodes with legends like Babyface, Shania Twain, Sabrina Carpenter, Benny Blanco, and many more. Members also get access to our monthly Writers Room on Zoom, where we play your demos and answer your biggest industry questions. We hope to see you there. Thank you for listening to And The Writer Is. And The Writer Is... is presented by the National Music Publishers' Association Hosted by Ross Golan Produced by Joe London and Jad Saad Hosted on Acast. See acast.com/privacy for more information.
+    episode_image_url: https://assets.pippa.io/shows/61b76666169562d85de9508f/1784313247009-06862310-2b04-4b1e-92c1-07e1215c69b5.jpeg
+    episode_uid: 6a5a76c662e50b14bdb47ed2
+    episode_slug: rewind-the-benny-blanco-episode-patreon-exclusive
+    episode_key: rewind-the-benny-blanco-episode-patreon-exclusive
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/and-the-writer-is-with-ross-golan/rewind-the-benny-blanco-episode-patreon-exclusive/"
   - episode_title: 'Ep. 256: Gavin Rossdale (Bush) | "Glycerine" & Surviving the ''90s'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
     audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/6a565e1a70c881d75cf49ddf/media.mp3
@@ -17431,7 +17443,7 @@ episodes_by_feed:
     episode_uid: 6a565e1a70c881d75cf49ddf
     episode_slug: ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
     episode_key: ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-256-gavin-rossdale-bush-glycerine-surviving-the-90s/"
   - episode_title: And The Update Is...Fake Streams, Billion-Dollar Deals & Ed Sheeran's Biggest Career Move Yet
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isfake-streams-billion-dollar-deals-ed-sheera
@@ -17443,7 +17455,7 @@ episodes_by_feed:
     episode_uid: 6a513368c2f78bb68970eee3
     episode_slug: and-the-update-is-fake-streams-billion-dollar-deals-ed-sheeran-s-biggest-career-move-yet
     episode_key: and-the-update-is-fake-streams-billion-dollar-deals-ed-sheeran-s-biggest-career-move-yet
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-fake-streams-billion-dollar-deals-ed-sheeran-s-biggest-career-move-yet/"
   - episode_title: 'Ep. 255: Brittany Howard | How Alabama Shakes Went From a Garbage Truck to Playing with Prince'
     episode_url: https://shows.acast.com/andthewriteris/episodes/brittany-howard-how-alabama-shakes-went-from-a-garbage-truck
@@ -17455,7 +17467,7 @@ episodes_by_feed:
     episode_uid: 6a4d248dad78abcff1c1d9e7
     episode_slug: ep-255-brittany-howard-how-alabama-shakes-went-from-a-garbage-truck-to-playing-with-prince
     episode_key: ep-255-brittany-howard-how-alabama-shakes-went-from-a-garbage-truck-to-playing-with-prince
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-255-brittany-howard-how-alabama-shakes-went-from-a-garbage-truck-to-playing-with-prince/"
   - episode_title: And The Update Is...Spotify Deletes 500K Streams ,TIDAL Takes a Stand Against AI,The Charts Have a New Enemy
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isspotify-deletes-500k-streams-tidal-takes-a
@@ -17467,7 +17479,7 @@ episodes_by_feed:
     episode_uid: 6a492eff0069388b7aa55976
     episode_slug: and-the-update-is-spotify-deletes-500k-streams-tidal-takes-a-stand-against-ai-the-charts-have-a-new-enemy
     episode_key: and-the-update-is-spotify-deletes-500k-streams-tidal-takes-a-stand-against-ai-the-charts-have-a-new-enemy
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-spotify-deletes-500k-streams-tidal-takes-a-stand-against-ai-the-charts-have-a-new-enemy/"
   - episode_title: And The update Is...AI Lawsuits Are Coming, Clive Davis Remembered & Olivia Rodrigo Makes History
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isai-lawsuits-are-coming-clive-davis-remember
@@ -17479,7 +17491,7 @@ episodes_by_feed:
     episode_uid: 6a3ff0f76b6690f46a462f07
     episode_slug: and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history
     episode_key: and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-ai-lawsuits-are-coming-clive-davis-remembered-olivia-rodrigo-makes-history/"
   - episode_title: 'Ep. 254: Zooey Deschanel | Her Secret Identity + The Journey of She & Him'
     episode_url: https://shows.acast.com/andthewriteris/episodes/zooey-deschanel-atwi
@@ -17491,7 +17503,7 @@ episodes_by_feed:
     episode_uid: 6a3aab69d1eb16a425ad14ec
     episode_slug: ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him
     episode_key: ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-254-zooey-deschanel-her-secret-identity-the-journey-of-she-him/"
   - episode_title: And The Update Is...Heartbreak In The Writing Community, Chart Toppers & Goats
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isheartbreak-in-the-writing-community-chart-t
@@ -17503,7 +17515,7 @@ episodes_by_feed:
     episode_uid: 6a357f814a187774ac1da2a1
     episode_slug: and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats
     episode_key: and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-heartbreak-in-the-writing-community-chart-toppers-goats/"
   - episode_title: 'Ep. 253: Nessa Barrett on Fame, Music, and Finding Herself in Public'
     episode_url: https://shows.acast.com/andthewriteris/episodes/nessa
@@ -17515,7 +17527,7 @@ episodes_by_feed:
     episode_uid: 6a315c6f780d0f7579b144b0
     episode_slug: ep-253-nessa-barrett-on-fame-music-and-finding-herself-in-public
     episode_key: ep-253-nessa-barrett-on-fame-music-and-finding-herself-in-public
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-253-nessa-barrett-on-fame-music-and-finding-herself-in-public/"
   - episode_title: And The Update Is...Taylor & Drake Make History, AI Makes Headlines
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-istaylor-drake-make-history-ai-makes-headline
@@ -17527,7 +17539,7 @@ episodes_by_feed:
     episode_uid: 6a2ddb430592e825450a0c67
     episode_slug: and-the-update-is-taylor-drake-make-history-ai-makes-headlines
     episode_key: and-the-update-is-taylor-drake-make-history-ai-makes-headlines
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-taylor-drake-make-history-ai-makes-headlines/"
   - episode_title: 'Ep. 252: Lizzo | Rock Bottom, #1, and the Game Nobody Explains'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
@@ -17539,7 +17551,7 @@ episodes_by_feed:
     episode_uid: 6a2763d8ec7c103dca73724e
     episode_slug: ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
     episode_key: ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-252-lizzo-rock-bottom-1-and-the-game-nobody-explains/"
   - episode_title: The Realest Conversation About Songwriting In 2026 | Gino The Ghost | Patreon Exclusive
     episode_url: https://shows.acast.com/andthewriteris/episodes/patreon-exclusive-the-realest-conversation-about-songwriting
@@ -17551,7 +17563,7 @@ episodes_by_feed:
     episode_uid: 6a270327ec7c103dca50f3e1
     episode_slug: the-realest-conversation-about-songwriting-in-2026-gino-the-ghost-patreon-exclusive
     episode_key: the-realest-conversation-about-songwriting-in-2026-gino-the-ghost-patreon-exclusive
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/and-the-writer-is-with-ross-golan/the-realest-conversation-about-songwriting-in-2026-gino-the-ghost-patreon-exclusive/"
   - episode_title: And The Update Is…Drake, AI, and a $5.4 Billion Question
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isdrake-ai-and-a-54-billion-question
@@ -17563,7 +17575,7 @@ episodes_by_feed:
     episode_uid: 6a2323754330c50bd346b550
     episode_slug: and-the-update-is-drake-ai-and-a-5-4-billion-question
     episode_key: and-the-update-is-drake-ai-and-a-5-4-billion-question
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-drake-ai-and-a-5-4-billion-question/"
   - episode_title: 'And The Update Is...Universal''s Big Week: AI, TikTok While Drake Dominates'
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-isuniversals-big-week-ai-tiktok-while-drake-d
@@ -17575,7 +17587,7 @@ episodes_by_feed:
     episode_uid: 6a19ed0cad55909da6d23211
     episode_slug: and-the-update-is-universal-s-big-week-ai-tiktok-while-drake-dominates
     episode_key: and-the-update-is-universal-s-big-week-ai-tiktok-while-drake-dominates
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-universal-s-big-week-ai-tiktok-while-drake-dominates/"
   - episode_title: 'Ep. 251: Myles Smith | Stargazing, Therapy, and The Secret Cost of Success'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of
@@ -17587,7 +17599,7 @@ episodes_by_feed:
     episode_uid: 6a15c7b68ff41815a885f30f
     episode_slug: ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of-success
     episode_key: ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of-success
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-251-myles-smith-stargazing-therapy-and-the-secret-cost-of-success/"
   - episode_title: And The Update Is... AI Covers, Drake’s New Era & Why Michael Jackson Is STILL Charting in 2026
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-is-ai-covers-drakes-new-era-why-michael-jacks
@@ -17599,7 +17611,7 @@ episodes_by_feed:
     episode_uid: 6a10e78f80978431da15ffb0
     episode_slug: and-the-update-is-ai-covers-drake-s-new-era-why-michael-jackson-is-still-charting-in-2026
     episode_key: and-the-update-is-ai-covers-drake-s-new-era-why-michael-jackson-is-still-charting-in-2026
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-ai-covers-drake-s-new-era-why-michael-jackson-is-still-charting-in-2026/"
   - episode_title: 'Ep. 250: Niall Horan | Outlasting Pop''s Biggest Band, "Dinner Party" & More'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-250-niall-horan-outlasting-pops-biggest-band-dinner-party
@@ -17611,7 +17623,7 @@ episodes_by_feed:
     episode_uid: 6a0c8479760dd4444459ade2
     episode_slug: ep-250-niall-horan-outlasting-pop-s-biggest-band-dinner-party-more
     episode_key: ep-250-niall-horan-outlasting-pop-s-biggest-band-dinner-party-more
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-250-niall-horan-outlasting-pop-s-biggest-band-dinner-party-more/"
   - episode_title: And The Update Is...Pop Stars, Lawsuits & Billion-Dollar Moves
     episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-ispop-stars-lawsuits-billion-dollar-moves
@@ -17623,7 +17635,7 @@ episodes_by_feed:
     episode_uid: 6a075ec4efd1f558b0af1f7f
     episode_slug: and-the-update-is-pop-stars-lawsuits-billion-dollar-moves
     episode_key: and-the-update-is-pop-stars-lawsuits-billion-dollar-moves
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-pop-stars-lawsuits-billion-dollar-moves/"
   - episode_title: 'Rewind: Jack Antonoff | How to Pick the Artists Who''ll Define Your Career'
     episode_url: https://shows.acast.com/andthewriteris/episodes/jack-antonoff-how-to-pick-the-artists-wholl-define-your-care
@@ -17635,7 +17647,7 @@ episodes_by_feed:
     episode_uid: 6a035156a257c57500c749e7
     episode_slug: rewind-jack-antonoff-how-to-pick-the-artists-who-ll-define-your-career
     episode_key: rewind-jack-antonoff-how-to-pick-the-artists-who-ll-define-your-career
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/and-the-writer-is-with-ross-golan/rewind-jack-antonoff-how-to-pick-the-artists-who-ll-define-your-career/"
   - episode_title: 'And The Update Is…May the 4th Be With the Charts: Hits, Headlines & Industry Chaos'
     episode_url: https://shows.acast.com/andthewriteris/episodes/may-the-4th-be-with-the-charts-hits-headlines-industry-chaos
@@ -17647,7 +17659,7 @@ episodes_by_feed:
     episode_uid: 69fe3b542ba0ef2ccaf8db57
     episode_slug: and-the-update-is-may-the-4th-be-with-the-charts-hits-headlines-industry-chaos
     episode_key: and-the-update-is-may-the-4th-be-with-the-charts-hits-headlines-industry-chaos
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-may-the-4th-be-with-the-charts-hits-headlines-industry-chaos/"
   - episode_title: 'Ep. 249: Rick Beato | Songwriters Got Poorer. AI Is Next. So Where Is Music Going?'
     episode_url: https://shows.acast.com/andthewriteris/episodes/ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where
@@ -17659,7 +17671,7 @@ episodes_by_feed:
     episode_uid: 69fa17f082781c7c457dc19c
     episode_slug: ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where-is-music-going
     episode_key: ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where-is-music-going
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-249-rick-beato-songwriters-got-poorer-ai-is-next-so-where-is-music-going/"
   - episode_title: And The Update Is...No Fakes Act, Trademark Protection, and Today's ChartToppers
     episode_url: https://shows.acast.com/andthewriteris/episodes/chart-toppers-trademark-protection-and-75000-ai-songs-a-day
@@ -17671,7 +17683,7 @@ episodes_by_feed:
     episode_uid: 69f5fbc38dd960ac615afba3
     episode_slug: and-the-update-is-no-fakes-act-trademark-protection-and-today-s-charttoppers
     episode_key: and-the-update-is-no-fakes-act-trademark-protection-and-today-s-charttoppers
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-no-fakes-act-trademark-protection-and-today-s-charttoppers/"
   - episode_title: 'Ep. 248: Rogét Chahayed | From Pianist to Sicko Mode, Kiss Me More & APT.'
     episode_url: https://shows.acast.com/andthewriteris/episodes/roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
@@ -17684,7 +17696,7 @@ episodes_by_feed:
     episode_slug: ep-248-roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
     episode_key: ep-248-roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
     legacy_unicode_slug: ep-248-rogét-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/and-the-writer-is-with-ross-golan/ep-248-roget-chahayed-from-pianist-to-sicko-mode-kiss-me-more-apt/"
   - episode_title: And The Update Is...The Charts Are Country. The Industry Is AI. Now What?
     episode_url: https://shows.acast.com/andthewriteris/episodes/the-charts-are-country-the-industry-is-ai-now-what
@@ -17696,7 +17708,7 @@ episodes_by_feed:
     episode_uid: 69ebaead0b4baf3bf2f282e8
     episode_slug: and-the-update-is-the-charts-are-country-the-industry-is-ai-now-what
     episode_key: and-the-update-is-the-charts-are-country-the-industry-is-ai-now-what
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-the-charts-are-country-the-industry-is-ai-now-what/"
   - episode_title: How Dan Nigro Builds Superstars | Ep. 195 | Rewind
     episode_url: https://shows.acast.com/andthewriteris/episodes/rewind-how-dan-nigro-builds-superstars-ep-195
@@ -17708,20 +17720,8 @@ episodes_by_feed:
     episode_uid: 69ea3b41abe143da5bbd4f1c
     episode_slug: how-dan-nigro-builds-superstars-ep-195-rewind
     episode_key: how-dan-nigro-builds-superstars-ep-195-rewind
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/and-the-writer-is-with-ross-golan/how-dan-nigro-builds-superstars-ep-195-rewind/"
-  - episode_title: And The Update Is… Live Nation Ruled an Illegal Monopoly, D4VD Arrested for Murder, Udio Pays Up on AI
-    episode_url: https://shows.acast.com/andthewriteris/episodes/and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd
-    audio_url: https://sphinx.acast.com/p/acast/s/andthewriteris/e/69e2c7ef6e5b90839a292964/media.mp3
-    published_at: '2026-04-17T23:53:19+00:00'
-    description_html: '<p>Every week, And the Writer Is brings you the most important news moving through the music industry — straight, sharp, and no fluff. This week: a jury ruled Live Nation and Ticketmaster violated antitrust laws and operate as illegal monopolies, with a judge now weighing whether to force a breakup or sale. Max Lousada and Julie Greenwald — the A&amp;R legends behind Warner''s modern run — launched a new long-term international label with Sony Music investment and distribution. And Udio signed a licensing deal with Kobalt, becoming one of the first AI companies actually paying creatives for training on their work. Plus: D4vd arrested on murder charges and dropped by Interscope, Foster the People ink a new deal, and Ella Langley''s "Choosin'' Texas" holds the #1 song. Follow us on socials and don''t miss our new episodes every Tuesday — the hottest conversations in music, with the people making it.</p><p>This week:</p><ul><li>Jury finds Live Nation and Ticketmaster violated antitrust laws — a judge will now decide whether to break them up</li><li>Max Lousada and Julie Greenwald launch a new international label with Sony Music</li><li>Udio signs a licensing deal with Kobalt — the first real AI-pays-creatives move of the cycle</li><li>D4vd arrested on murder charges; Interscope removes him from their roster</li><li>Foster the People sign a new deal</li><li>Ella Langley''s "Choosin'' Texas" remains #1 song of the week</li><li>Ross previews live episodes coming from Stagecoach and the week''s Billy Corgan drop</li></ul><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
-    description_plain: 'Every week, And the Writer Is brings you the most important news moving through the music industry — straight, sharp, and no fluff. This week: a jury ruled Live Nation and Ticketmaster violated antitrust laws and operate as illegal monopolies, with a judge now weighing whether to force a breakup or sale. Max Lousada and Julie Greenwald — the A&amp;R legends behind Warner''s modern run — launched a new long-term international label with Sony Music investment and distribution. And Udio signed a licensing deal with Kobalt, becoming one of the first AI companies actually paying creatives for training on their work. Plus: D4vd arrested on murder charges and dropped by Interscope, Foster the People ink a new deal, and Ella Langley''s "Choosin'' Texas" holds the #1 song. Follow us on socials and don''t miss our new episodes every Tuesday — the hottest conversations in music, with the people making it. This week: Jury finds Live Nation and Ticketmaster violated antitrust laws — a judge will now decide whether to break them up Max Lousada and Julie Greenwald launch a new international label with Sony Music Udio signs a licensing deal with Kobalt — the first real AI-pays-creatives move of the cycle D4vd arrested on murder charges; Interscope removes him from their roster Foster the People sign a new deal Ella Langley''s "Choosin'' Texas" remains #1 song of the week Ross previews live episodes coming from Stagecoach and the week''s Billy Corgan drop Hosted on Acast. See acast.com/privacy for more information.'
-    episode_image_url: https://assets.pippa.io/shows/61b76666169562d85de9508f/1776469821608-80265b3b-eed2-432d-9e27-d3462d63a720.jpeg
-    episode_uid: 69e2c7ef6e5b90839a292964
-    episode_slug: and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd-arrested-for-murder-udio-pays-up-on-ai
-    episode_key: and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd-arrested-for-murder-udio-pays-up-on-ai
     legacy_numbered_slug: episode-25
-    episode_page_url: "/and-the-writer-is-with-ross-golan/and-the-update-is-live-nation-ruled-an-illegal-monopoly-d4vd-arrested-for-murder-udio-pays-up-on-ai/"
+    episode_page_url: "/and-the-writer-is-with-ross-golan/how-dan-nigro-builds-superstars-ep-195-rewind/"
   https://anchor.fm/s/bba0468/podcast/rss: &58
   - episode_title: 'Lily Anderson: From Teaching in Brooklyn Classrooms to Brooklyn Track Club & an OTQ'
     episode_url: https://podcasters.spotify.com/pod/show/roadtothetrials/episodes/Lily-Anderson-From-Teaching-in-Brooklyn-Classrooms-to-Brooklyn-Track-Club--an-OTQ-e3m5hfc
