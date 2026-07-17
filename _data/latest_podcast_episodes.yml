@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-17T08:49:44Z'
+generated_at: '2026-07-17T09:41:01Z'
 items:
 - podcast_title: Dans la Tête d’un Coureur
   podcast_page_url: "/dans-la-t-te-d-un-coureur/"
@@ -782,6 +782,30 @@ non_running_items:
   episode_key: anders-rosengren
   episode_slug: anders-rosengren
   episode_page_url: "/sommar-vinter-i-p1/anders-rosengren/"
+- podcast_title: My First Million
+  podcast_page_url: "/my-first-million/"
+  cover_image: "/media/myfirstmillion.jpeg"
+  feed_url: https://feeds.megaphone.fm/HS2300184645
+  filter_category: uncategorized english
+  episode_title: 'Ray Dalio: The principles that made me a billionaire'
+  episode_url: ''
+  audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS4992688292.mp3
+  published_at: '2026-07-17T09:00:00Z'
+  episode_key: ray-dalio-the-principles-that-made-me-a-billionaire
+  episode_slug: ray-dalio-the-principles-that-made-me-a-billionaire
+  episode_page_url: "/my-first-million/ray-dalio-the-principles-that-made-me-a-billionaire/"
+- podcast_title: Pablo Torre Finds Out
+  podcast_page_url: "/pablo-torre-finds-out/"
+  cover_image: "/media/pablotorre.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/pablo-torre-finds-out
+  filter_category: uncategorized english
+  episode_title: He Funded Jeffrey Epstein. Why Is This Billionaire's Name All Over College Campuses?
+  episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/he-funded-jeffrey-epstein-why-is-this-billionaires-name-all
+  audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a599aec8f2a873a9dd08fd3/media.mp3
+  published_at: '2026-07-17T09:00:00+00:00'
+  episode_key: he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses
+  episode_slug: he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses
+  episode_page_url: "/pablo-torre-finds-out/he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -854,18 +878,6 @@ non_running_items:
   episode_key: is-the-battle-for-green-over-tdf-2026-stage-12-themove
   episode_slug: is-the-battle-for-green-over-tdf-2026-stage-12-themove
   episode_page_url: "/themove/is-the-battle-for-green-over-tdf-2026-stage-12-themove/"
-- podcast_title: Pablo Torre Finds Out
-  podcast_page_url: "/pablo-torre-finds-out/"
-  cover_image: "/media/pablotorre.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/pablo-torre-finds-out
-  filter_category: uncategorized english
-  episode_title: Decoding the Kawhi Leonard Investigation, with DeMaurice Smith
-  episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/decoding-the-kawhi-leonard-investigation-with-demaurice-smit
-  audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a582afb845fe5cb6dd39cea/media.mp3
-  published_at: '2026-07-16T09:00:00+00:00'
-  episode_key: decoding-the-kawhi-leonard-investigation-with-demaurice-smith
-  episode_slug: decoding-the-kawhi-leonard-investigation-with-demaurice-smith
-  episode_page_url: "/pablo-torre-finds-out/decoding-the-kawhi-leonard-investigation-with-demaurice-smith/"
 - podcast_title: Huberman Lab
   podcast_page_url: "/huberman-lab/"
   cover_image: "/media/huberman.jpeg"
@@ -962,18 +974,6 @@ non_running_items:
   episode_key: 460-light-as-a-feather-stiff-as-a-board
   episode_slug: 460-light-as-a-feather-stiff-as-a-board
   episode_page_url: "/dear-hank-john/460-light-as-a-feather-stiff-as-a-board/"
-- podcast_title: My First Million
-  podcast_page_url: "/my-first-million/"
-  cover_image: "/media/myfirstmillion.jpeg"
-  feed_url: https://feeds.megaphone.fm/HS2300184645
-  filter_category: uncategorized english
-  episode_title: 'Howard Marks: how I make money while you worry about a market crash'
-  episode_url: ''
-  audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS7019324451.mp3
-  published_at: '2026-07-15T09:00:00Z'
-  episode_key: howard-marks-how-i-make-money-while-you-worry-about-a-market-crash
-  episode_slug: howard-marks-how-i-make-money-while-you-worry-about-a-market-crash
-  episode_page_url: "/my-first-million/howard-marks-how-i-make-money-while-you-worry-about-a-market-crash/"
 - podcast_title: Normal Gossip
   podcast_page_url: "/normal-gossip/"
   cover_image: "/media/normalgossip.jpeg"
@@ -15605,6 +15605,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/out-and-back/23-sophia-schwartz-and-sean-mccoy-gearjunkie-backcountry-skiing-gear/"
   https://feeds.acast.com/public/shows/pablo-torre-finds-out: &51
+  - episode_title: He Funded Jeffrey Epstein. Why Is This Billionaire's Name All Over College Campuses?
+    episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/he-funded-jeffrey-epstein-why-is-this-billionaires-name-all
+    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a599aec8f2a873a9dd08fd3/media.mp3
+    published_at: '2026-07-17T09:00:00+00:00'
+    description_html: '<p>Victoria''s Secret mogul turned mega-donor Leslie Wexner introduced Epstein to Harvard. Now, a growing protest movement to strip his name from university buildings is getting shut down. What did Epstein''s money man know? When did he know it? And who really calls the shots in higher education? The Harvard Crimson''s Dhruv Patel returns for Part 3 in our series on America''s most prestigious school and most notorious predator, to examine Wexner and Epstein''s "friendship," plus an exclusive interview and a new tranche of internal fundraising transactions that reveals $100 million in publicly unaccounted donations.</p><p>• Part 1: <a href="https://pod.link/1685093486/episode/NjlmMmJkZWMzZDIxZWUyMjhjNmFiMjRh" rel="noopener noreferrer" target="_blank">"The Jeffrey E. Epstein Fund for Women''s Athletics"</a></p><p>• Part 2: <a href="https://pod.link/1685093486/episode/NjlmNDAzYzg3MGU2M2NlYWEwMDIwYWJi" rel="noopener noreferrer" target="_blank">How Harvard Whitewashed Jeffrey Epstein''s Millions</a></p><p>(Pablo Torre Finds Out is independently produced by Meadowlark Media and distributed by The Athletic. The views, research and reporting expressed in this episode are solely those of Pablo Torre Finds Out and The Harvard Crimson and do not reflect the work or editorial input of The Athletic or its journalists.)</p><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
+    description_plain: 'Victoria''s Secret mogul turned mega-donor Leslie Wexner introduced Epstein to Harvard. Now, a growing protest movement to strip his name from university buildings is getting shut down. What did Epstein''s money man know? When did he know it? And who really calls the shots in higher education? The Harvard Crimson''s Dhruv Patel returns for Part 3 in our series on America''s most prestigious school and most notorious predator, to examine Wexner and Epstein''s "friendship," plus an exclusive interview and a new tranche of internal fundraising transactions that reveals $100 million in publicly unaccounted donations. • Part 1: "The Jeffrey E. Epstein Fund for Women''s Athletics" • Part 2: How Harvard Whitewashed Jeffrey Epstein''s Millions (Pablo Torre Finds Out is independently produced by Meadowlark Media and distributed by The Athletic. The views, research and reporting expressed in this episode are solely those of Pablo Torre Finds Out and The Harvard Crimson and do not reflect the work or editorial input of The Athletic or its journalists.) Hosted on Acast. See acast.com/privacy for more information.'
+    episode_image_url: https://assets.pippa.io/shows/68b1d0ea993d10acb9c3fe4f/1784257329818-91bce862-e297-46c7-804c-11ffd78a937a.jpeg
+    episode_uid: 6a599aec8f2a873a9dd08fd3
+    episode_slug: he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses
+    episode_key: he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/pablo-torre-finds-out/he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses/"
   - episode_title: Decoding the Kawhi Leonard Investigation, with DeMaurice Smith
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/decoding-the-kawhi-leonard-investigation-with-demaurice-smit
     audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a582afb845fe5cb6dd39cea/media.mp3
@@ -15615,7 +15627,7 @@ episodes_by_feed:
     episode_uid: 6a582afb845fe5cb6dd39cea
     episode_slug: decoding-the-kawhi-leonard-investigation-with-demaurice-smith
     episode_key: decoding-the-kawhi-leonard-investigation-with-demaurice-smith
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/pablo-torre-finds-out/decoding-the-kawhi-leonard-investigation-with-demaurice-smith/"
   - episode_title: The "Pay-to-Play" Scheme That (Almost) Ruined Video Games, with Dan Soder
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-pay-to-play-scheme-that-almost-ruined-video-games-with-d
@@ -15627,7 +15639,7 @@ episodes_by_feed:
     episode_uid: 6a552396287363c6c82e3f58
     episode_slug: the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder
     episode_key: the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/pablo-torre-finds-out/the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder/"
   - episode_title: The Best, Worst and Sexiest Trophies in Sports, with Legendary Art Critic Jerry Saltz
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/draft-the-best-worst-and-sexiest-trophies-in-sports-with-leg
@@ -15639,7 +15651,7 @@ episodes_by_feed:
     episode_uid: 6a5015045186ad1e651dcf16
     episode_slug: the-best-worst-and-sexiest-trophies-in-sports-with-legendary-art-critic-jerry-saltz
     episode_key: the-best-worst-and-sexiest-trophies-in-sports-with-legendary-art-critic-jerry-saltz
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/pablo-torre-finds-out/the-best-worst-and-sexiest-trophies-in-sports-with-legendary-art-critic-jerry-saltz/"
   - episode_title: Share & Risk & Tell with Jay Jurden and Katie Nolan
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/share-risk-tell-with-jay-jurden-and-katie-nolan
@@ -15651,7 +15663,7 @@ episodes_by_feed:
     episode_uid: 6a4e6ab29a10afd974603d79
     episode_slug: share-risk-tell-with-jay-jurden-and-katie-nolan
     episode_key: share-risk-tell-with-jay-jurden-and-katie-nolan
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/pablo-torre-finds-out/share-risk-tell-with-jay-jurden-and-katie-nolan/"
   - episode_title: We Visited Death Row for the Super Bowl. You Can Help Save This Fan's Life. (PTFO Vault)
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/we-visited-death-row-for-the-super-bowl-you-can-help-save
@@ -15663,7 +15675,7 @@ episodes_by_feed:
     episode_uid: 6a4bed7c4607c274de7d52f9
     episode_slug: we-visited-death-row-for-the-super-bowl-you-can-help-save-this-fan-s-life-ptfo-vault
     episode_key: we-visited-death-row-for-the-super-bowl-you-can-help-save-this-fan-s-life-ptfo-vault
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/pablo-torre-finds-out/we-visited-death-row-for-the-super-bowl-you-can-help-save-this-fan-s-life-ptfo-vault/"
   - episode_title: Uncovering Phil Mickelson's Misconduct Allegations, with Alan Shipnuck
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/uncovering-phil-mickelsons-misconduct-allegations-with-alan
@@ -15675,7 +15687,7 @@ episodes_by_feed:
     episode_uid: 6a46ae61800be9313b6f6822
     episode_slug: uncovering-phil-mickelson-s-misconduct-allegations-with-alan-shipnuck
     episode_key: uncovering-phil-mickelson-s-misconduct-allegations-with-alan-shipnuck
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/pablo-torre-finds-out/uncovering-phil-mickelson-s-misconduct-allegations-with-alan-shipnuck/"
   - episode_title: 'The Sporting Class: Hydration Breaks, FIFA Trials and a Condo Full of Cats'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-sporting-class-hydration-breaks-fifa-trials-and-a-condo
@@ -15687,7 +15699,7 @@ episodes_by_feed:
     episode_uid: 6a43f92967f07c2631637c0f
     episode_slug: the-sporting-class-hydration-breaks-fifa-trials-and-a-condo-full-of-cats
     episode_key: the-sporting-class-hydration-breaks-fifa-trials-and-a-condo-full-of-cats
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/pablo-torre-finds-out/the-sporting-class-hydration-breaks-fifa-trials-and-a-condo-full-of-cats/"
   - episode_title: "“Please Enjoy It Or You Are Fired”: Inside PTFO, with Dan Le Batard"
     episode_url: https://pablo.show
@@ -15699,7 +15711,7 @@ episodes_by_feed:
     episode_uid: 6a4310276596e9b70ca9008f
     episode_slug: please-enjoy-it-or-you-are-fired-inside-ptfo-with-dan-le-batard
     episode_key: please-enjoy-it-or-you-are-fired-inside-ptfo-with-dan-le-batard
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/pablo-torre-finds-out/please-enjoy-it-or-you-are-fired-inside-ptfo-with-dan-le-batard/"
   - episode_title: The Missing Ambassador of the World Cup
     episode_url: https://pablo.show
@@ -15711,7 +15723,7 @@ episodes_by_feed:
     episode_uid: 6a3d76185ad54a32109cdd61
     episode_slug: the-missing-ambassador-of-the-world-cup
     episode_key: the-missing-ambassador-of-the-world-cup
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/pablo-torre-finds-out/the-missing-ambassador-of-the-world-cup/"
   - episode_title: What the World Cup Can Teach the American Fan, with John Green and Daniel Alarcón
     episode_url: https://pablo.show
@@ -15724,7 +15736,7 @@ episodes_by_feed:
     episode_slug: what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcon
     episode_key: what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcon
     legacy_unicode_slug: what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcón
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/pablo-torre-finds-out/what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcon/"
   - episode_title: Sarah Jessica Parker on the Seductive Power of Sports and the City
     episode_url: https://pablo.show
@@ -15736,7 +15748,7 @@ episodes_by_feed:
     episode_uid: 6a39824275d929e13d857535
     episode_slug: sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city
     episode_key: sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/pablo-torre-finds-out/sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city/"
   - episode_title: USMNT's Tim Weah on World Cup Dreams, the American Idea... and Wu-Tang
     episode_url: https://pablo.show
@@ -15748,7 +15760,7 @@ episodes_by_feed:
     episode_uid: 6a34542a949ad24a48426f25
     episode_slug: usmnt-s-tim-weah-on-world-cup-dreams-the-american-idea-and-wu-tang
     episode_key: usmnt-s-tim-weah-on-world-cup-dreams-the-american-idea-and-wu-tang
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/pablo-torre-finds-out/usmnt-s-tim-weah-on-world-cup-dreams-the-american-idea-and-wu-tang/"
   - episode_title: 'The (Summer School) Sporting Class: Sex, Dolan and Contract Haircuts'
     episode_url: https://pablo.show
@@ -15760,7 +15772,7 @@ episodes_by_feed:
     episode_uid: 6a32ca1be37ee26ba5b089c7
     episode_slug: the-summer-school-sporting-class-sex-dolan-and-contract-haircuts
     episode_key: the-summer-school-sporting-class-sex-dolan-and-contract-haircuts
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/pablo-torre-finds-out/the-summer-school-sporting-class-sex-dolan-and-contract-haircuts/"
   - episode_title: '"Reverse 9/11": Celebrating These Knicks Title Vibes, with Desus Nice'
     episode_url: https://pablo.show
@@ -15772,7 +15784,7 @@ episodes_by_feed:
     episode_uid: 6a31b9d7cc559732cf42a9f3
     episode_slug: reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice
     episode_key: reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/pablo-torre-finds-out/reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice/"
   - episode_title: 'UFC at the White House: How Dana White and Donald Trump Cashed In'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ufc-at-the-white-house-how-dana-white-and-donald-trump-cashe
@@ -15784,7 +15796,7 @@ episodes_by_feed:
     episode_uid: 6a2b2c7ff2e26d5f939d181f
     episode_slug: ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in
     episode_key: ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/pablo-torre-finds-out/ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in/"
   - episode_title: America Signed Up for the World Cup. FIFA Stuck You with the Tab.
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/america-signed-up-for-the-world-cup-fifa-stuck-you-with-the
@@ -15796,7 +15808,7 @@ episodes_by_feed:
     episode_uid: 6a2a06babc36e5cc01463061
     episode_slug: america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab
     episode_key: america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/pablo-torre-finds-out/america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab/"
   - episode_title: 'Linsanity Is Dead. Long Live Linsanity: Jeremy Lin on the Finals, the Garden and the Healing Power of These Knicks'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-fina
@@ -15808,7 +15820,7 @@ episodes_by_feed:
     episode_uid: 6a281fbc8e157b3f7c98518d
     episode_slug: linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks
     episode_key: linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/pablo-torre-finds-out/linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks/"
   - episode_title: 'Ballmer''s Secret I.O.U., Aspiration''s "Web of Lies" and the Zenith of Fraud: Kawhi-Gate, Part XI'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ballmers-secret-iou-aspirations-web-of-lies-and-the-zenith-o
@@ -15820,7 +15832,7 @@ episodes_by_feed:
     episode_uid: 6a22296ab0f2962be4810901
     episode_slug: ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi
     episode_key: ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/pablo-torre-finds-out/ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi/"
   - episode_title: Do Not Mess with the Reporter Who Took Down Jeffrey Epstein
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
@@ -15832,7 +15844,7 @@ episodes_by_feed:
     episode_uid: 6a20cc591d75a957bfc42800
     episode_slug: do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
     episode_key: do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/pablo-torre-finds-out/do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein/"
   - episode_title: 'Exclusive: Inside Zohran Mamdani''s NYC Sports Equinox (feat. Adam Friedland)'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/exclusive-inside-zohran-mamdanis-nyc-sports-equinox-feat-ada
@@ -15844,7 +15856,7 @@ episodes_by_feed:
     episode_uid: 6a1df85b5dacba3f0ae13fa8
     episode_slug: exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland
     episode_key: exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/pablo-torre-finds-out/exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland/"
   - episode_title: Share & Eat the Rich & Tell with Tim Miller and Stephanie Ruhle
     episode_url: https://pablo.show
@@ -15856,7 +15868,7 @@ episodes_by_feed:
     episode_uid: 6a18e051e9800206fbccd5aa
     episode_slug: share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle
     episode_key: share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/pablo-torre-finds-out/share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle/"
   - episode_title: 'Exclusive: The Harambe Tapes, Revealed'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ep378-placeholder
@@ -15868,7 +15880,7 @@ episodes_by_feed:
     episode_uid: 6a1777d2a3de744e8eb2fd83
     episode_slug: exclusive-the-harambe-tapes-revealed
     episode_key: exclusive-the-harambe-tapes-revealed
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/pablo-torre-finds-out/exclusive-the-harambe-tapes-revealed/"
   - episode_title: '"Celebrity Jeopardy!" Film Study (Championship Edition) with Mina Kimes and Domonique Foxworth'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/celebrity-jeopardy-film-study-championship-edition-with-mina
@@ -15880,7 +15892,7 @@ episodes_by_feed:
     episode_uid: 6a1497850eddd1a22513a8ad
     episode_slug: celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth
     episode_key: celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/pablo-torre-finds-out/celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth/"
   - episode_title: Unlocking the State Secrets of College Football, with FOIAball's "King of the Bros"
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/unlocking-the-state-secrets-of-college-football-with-foiabal
@@ -15892,20 +15904,8 @@ episodes_by_feed:
     episode_uid: 6a0f936151a683b506b937a2
     episode_slug: unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros
     episode_key: unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/pablo-torre-finds-out/unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros/"
-  - episode_title: Share & Walk Alone & Tell with Mike Schur and Joe Posnanski
-    episode_url: https://pablo.show
-    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a0dc8f6ff17e979a891e04d/media.mp3
-    published_at: '2026-05-21T09:00:00+00:00'
-    description_html: '<p>Have billionaire owners left us in the twilight of American fandom? Are crying Liverpool fans actually the cure for male loneliness? And is the NFL offseason running out of juice? Would you get married during the Super Bowl on Valentine''s Day? Plus: Jim Thome''s farm adjacency, Regis Philbin analytics, Gerry and the Pacemakers, institutional investors, the worst pandemic crowd... and feeding a sandwich to Stugotz on Microsoft Teams.</p><p>• Read <a href="https://www.penguinrandomhouse.com/books/778607/big-fan-by-michael-schur-and-joe-posnanski-foreword-by-tom-hanks/" rel="noopener noreferrer" target="_blank">"Big Fan" </a></p><p>• Subscribe to <a href="https://pod.link/1595575940" rel="noopener noreferrer" target="_blank">The PosCast</a></p><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
-    description_plain: 'Have billionaire owners left us in the twilight of American fandom? Are crying Liverpool fans actually the cure for male loneliness? And is the NFL offseason running out of juice? Would you get married during the Super Bowl on Valentine''s Day? Plus: Jim Thome''s farm adjacency, Regis Philbin analytics, Gerry and the Pacemakers, institutional investors, the worst pandemic crowd... and feeding a sandwich to Stugotz on Microsoft Teams. • Read "Big Fan" • Subscribe to The PosCast Hosted on Acast. See acast.com/privacy for more information.'
-    episode_image_url: https://assets.pippa.io/shows/68b1d0ea993d10acb9c3fe4f/1779330338361-8a63cdb8-2458-42e9-b28f-92cca5e95cfe.jpeg
-    episode_uid: 6a0dc8f6ff17e979a891e04d
-    episode_slug: share-walk-alone-tell-with-mike-schur-and-joe-posnanski
-    episode_key: share-walk-alone-tell-with-mike-schur-and-joe-posnanski
     legacy_numbered_slug: episode-25
-    episode_page_url: "/pablo-torre-finds-out/share-walk-alone-tell-with-mike-schur-and-joe-posnanski/"
+    episode_page_url: "/pablo-torre-finds-out/unlocking-the-state-secrets-of-college-football-with-foiaball-s-king-of-the-bros/"
   https://rss.buzzsprout.com/2529065.rss: &52
   - episode_title: Elephant seals, grabbling davils, and the Hardrock 100
     episode_url: ''
@@ -22984,6 +22984,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/lex-fridman-podcast/474-dhh-future-of-programming-ai-ruby-on-rails-productivity-parenting/"
   https://feeds.megaphone.fm/hs2300184645: &75
+  - episode_title: 'Ray Dalio: The principles that made me a billionaire'
+    episode_url: ''
+    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS4992688292.mp3
+    published_at: '2026-07-17T09:00:00Z'
+    description_html: '<p><strong>Ray Dalio''s rules for building wealth:</strong><a href="https://clickhubspot.com/rgsk"><strong> https://clickhubspot.com/rgsk</strong></a></p><p>Episode 842: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) and Shaan Puri ( <a href="https://x.com/ShaanVP"><u>https://x.com/ShaanVP</u></a> ) sit down with Ray Dalio ( <a href="https://x.com/RayDalio"><u>https://x.com/RayDalio</u></a> ) to talk about the holy grail of investing strategies.</p><p>—</p><p>Show Notes:</p><p>(0:00) Intro</p><p>(0:49) Hitting rock bottom</p><p>(8:28) Personality traits of the 1%</p><p>(14:22) Partnerships that win</p><p>(18:25) Pain + Reflection = Progress</p><p>(23:30) What’s the money for anyway?</p><p>(26:26) Principles</p><p>(28:41) Ray’s hiring philosophy</p><p>(30:43) Being a caddy</p><p>(35:16) Mistakes smart investors make</p><p>(37:01) What Ray spends his money on</p><p>(39:13) Aliens</p><p>(41:00) The 5 Big Forces</p><p>(46:35) Investing in Gold and Bubble Mechanics</p><p>(52:55) How Bridgewater became the biggest hedge fund</p><p>(55:40) The gap between the best and everyone else</p><p>(59:26) The 1 Big Takeaway</p><p>—</p><p>Links:</p><p>• Ray’s Personality Test - <a href="https://principlesyou.com/"><u>https://principlesyou.com/</u></a></p><p>• Bridgewater Associates - <a href="https://www.bridgewater.com/"><u>https://www.bridgewater.com/</u></a></p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Shaan uses Mercury across all of his companies. you can too: <a href="http://mercury.com/"><u>http://mercury.com/</u></a></p><p><em>Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p>beehiiv.com/mfm-challenge</p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
+    description_plain: 'Ray Dalio''s rules for building wealth: https://clickhubspot.com/rgsk Episode 842: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) sit down with Ray Dalio ( https://x.com/RayDalio ) to talk about the holy grail of investing strategies. — Show Notes: (0:00) Intro (0:49) Hitting rock bottom (8:28) Personality traits of the 1% (14:22) Partnerships that win (18:25) Pain + Reflection = Progress (23:30) What’s the money for anyway? (26:26) Principles (28:41) Ray’s hiring philosophy (30:43) Being a caddy (35:16) Mistakes smart investors make (37:01) What Ray spends his money on (39:13) Aliens (41:00) The 5 Big Forces (46:35) Investing in Gold and Bubble Mechanics (52:55) How Bridgewater became the biggest hedge fund (55:40) The gap between the best and everyone else (59:26) The 1 Big Takeaway — Links: • Ray’s Personality Test - https://principlesyou.com/ • Bridgewater Associates - https://www.bridgewater.com/ — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
+    episode_image_url: ''
+    episode_uid: 7aafbfa4-8157-11f1-b961-47ded74887a7
+    episode_slug: ray-dalio-the-principles-that-made-me-a-billionaire
+    episode_key: ray-dalio-the-principles-that-made-me-a-billionaire
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/my-first-million/ray-dalio-the-principles-that-made-me-a-billionaire/"
   - episode_title: 'Howard Marks: how I make money while you worry about a market crash'
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS7019324451.mp3
@@ -22994,7 +23006,7 @@ episodes_by_feed:
     episode_uid: beff1954-7ffc-11f1-b8f8-43ca77576af4
     episode_slug: howard-marks-how-i-make-money-while-you-worry-about-a-market-crash
     episode_key: howard-marks-how-i-make-money-while-you-worry-about-a-market-crash
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/my-first-million/howard-marks-how-i-make-money-while-you-worry-about-a-market-crash/"
   - episode_title: Brainstorming business ideas with a billion-dollar founder
     episode_url: ''
@@ -23006,7 +23018,7 @@ episodes_by_feed:
     episode_uid: e2a073e8-7bf7-11f1-b5ed-b3c55d6ed861
     episode_slug: brainstorming-business-ideas-with-a-billion-dollar-founder
     episode_key: brainstorming-business-ideas-with-a-billion-dollar-founder
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/my-first-million/brainstorming-business-ideas-with-a-billion-dollar-founder/"
   - episode_title: 5 ruthless business lessons from one week in NYC
     episode_url: ''
@@ -23018,7 +23030,7 @@ episodes_by_feed:
     episode_uid: d95b3a5a-79a1-11f1-8680-fb4ebe10ab6a
     episode_slug: 5-ruthless-business-lessons-from-one-week-in-nyc
     episode_key: 5-ruthless-business-lessons-from-one-week-in-nyc
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/my-first-million/5-ruthless-business-lessons-from-one-week-in-nyc/"
   - episode_title: I dropped out of college and built a $3.6B company from scratch
     episode_url: ''
@@ -23030,7 +23042,7 @@ episodes_by_feed:
     episode_uid: b6ccae26-75a8-11f1-8ac7-ab096f1f1b31
     episode_slug: i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch
     episode_key: i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/my-first-million/i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch/"
   - episode_title: 3 weird businesses doing $10M, $20M, $30M
     episode_url: ''
@@ -23042,7 +23054,7 @@ episodes_by_feed:
     episode_uid: 106c7e2e-7433-11f1-ac50-1f340ebd34b2
     episode_slug: 3-weird-businesses-doing-10m-20m-30m
     episode_key: 3-weird-businesses-doing-10m-20m-30m
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/my-first-million/3-weird-businesses-doing-10m-20m-30m/"
   - episode_title: We found an app that lets you buy anything for $0
     episode_url: ''
@@ -23054,7 +23066,7 @@ episodes_by_feed:
     episode_uid: c14c4c08-6f45-11f1-91a3-7bd20ad5965e
     episode_slug: we-found-an-app-that-lets-you-buy-anything-for-0
     episode_key: we-found-an-app-that-lets-you-buy-anything-for-0
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/my-first-million/we-found-an-app-that-lets-you-buy-anything-for-0/"
   - episode_title: We decoded the business behind this influencer’s perfect life
     episode_url: ''
@@ -23066,7 +23078,7 @@ episodes_by_feed:
     episode_uid: b644de20-6b07-11f1-b5df-bf5984da0b60
     episode_slug: we-decoded-the-business-behind-this-influencer-s-perfect-life
     episode_key: we-decoded-the-business-behind-this-influencer-s-perfect-life
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/my-first-million/we-decoded-the-business-behind-this-influencer-s-perfect-life/"
   - episode_title: How the Ex-Goldman CEO actually invests his own money
     episode_url: ''
@@ -23078,7 +23090,7 @@ episodes_by_feed:
     episode_uid: 9f1a1bfa-6974-11f1-83f9-cf3323ff8a5a
     episode_slug: how-the-ex-goldman-ceo-actually-invests-his-own-money
     episode_key: how-the-ex-goldman-ceo-actually-invests-his-own-money
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/my-first-million/how-the-ex-goldman-ceo-actually-invests-his-own-money/"
   - episode_title: The most simplified breakdown of the SpaceX IPO on the internet
     episode_url: ''
@@ -23090,7 +23102,7 @@ episodes_by_feed:
     episode_uid: c68664a6-65f4-11f1-9de4-e37b68835eca
     episode_slug: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
     episode_key: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/my-first-million/the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet/"
   - episode_title: Brutally honest guide to not losing money in the market
     episode_url: ''
@@ -23102,7 +23114,7 @@ episodes_by_feed:
     episode_uid: 9e1c2478-64c4-11f1-84cd-772fbe16ca42
     episode_slug: brutally-honest-guide-to-not-losing-money-in-the-market
     episode_key: brutally-honest-guide-to-not-losing-money-in-the-market
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/my-first-million/brutally-honest-guide-to-not-losing-money-in-the-market/"
   - episode_title: 'The "Idiot Index": the simple math that made Elon Musk billions'
     episode_url: ''
@@ -23114,7 +23126,7 @@ episodes_by_feed:
     episode_uid: 6f819d98-5f90-11f1-801f-4b95257989f7
     episode_slug: the-idiot-index-the-simple-math-that-made-elon-musk-billions
     episode_key: the-idiot-index-the-simple-math-that-made-elon-musk-billions
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/my-first-million/the-idiot-index-the-simple-math-that-made-elon-musk-billions/"
   - episode_title: We found 7 business ideas that will blow up in 2026
     episode_url: ''
@@ -23126,7 +23138,7 @@ episodes_by_feed:
     episode_uid: 548f822c-5e71-11f1-8953-67690eb1a7e9
     episode_slug: we-found-7-business-ideas-that-will-blow-up-in-2026
     episode_key: we-found-7-business-ideas-that-will-blow-up-in-2026
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/my-first-million/we-found-7-business-ideas-that-will-blow-up-in-2026/"
   - episode_title: The insane true story behind MTV
     episode_url: ''
@@ -23138,7 +23150,7 @@ episodes_by_feed:
     episode_uid: 728780f2-5af4-11f1-9c0c-3f4651ea78e5
     episode_slug: the-insane-true-story-behind-mtv
     episode_key: the-insane-true-story-behind-mtv
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/my-first-million/the-insane-true-story-behind-mtv/"
   - episode_title: The 50 richest families in America are betting on this trend
     episode_url: ''
@@ -23150,7 +23162,7 @@ episodes_by_feed:
     episode_uid: 6d34df0a-5941-11f1-a122-871eda1ebd30
     episode_slug: the-50-richest-families-in-america-are-betting-on-this-trend
     episode_key: the-50-richest-families-in-america-are-betting-on-this-trend
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/my-first-million/the-50-richest-families-in-america-are-betting-on-this-trend/"
   - episode_title: 'Mohnish Pabrai: This will save you 10 years of bad investments'
     episode_url: ''
@@ -23162,7 +23174,7 @@ episodes_by_feed:
     episode_uid: 47fa4356-55d6-11f1-8e97-9f707faff290
     episode_slug: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
     episode_key: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/my-first-million/mohnish-pabrai-this-will-save-you-10-years-of-bad-investments/"
   - episode_title: How Gary Vee runs 7 businesses
     episode_url: ''
@@ -23174,7 +23186,7 @@ episodes_by_feed:
     episode_uid: dda1a364-5314-11f1-adfa-ff899d3d9bff
     episode_slug: how-gary-vee-runs-7-businesses
     episode_key: how-gary-vee-runs-7-businesses
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/my-first-million/how-gary-vee-runs-7-businesses/"
   - episode_title: We hit record on our private strategy session
     episode_url: ''
@@ -23186,7 +23198,7 @@ episodes_by_feed:
     episode_uid: cc8f8d78-5050-11f1-8627-67885a2431b6
     episode_slug: we-hit-record-on-our-private-strategy-session
     episode_key: we-hit-record-on-our-private-strategy-session
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/my-first-million/we-hit-record-on-our-private-strategy-session/"
   - episode_title: How to manufacture a billionaire childhood
     episode_url: ''
@@ -23198,7 +23210,7 @@ episodes_by_feed:
     episode_uid: 01e5975a-4ebd-11f1-bb47-ab5cba329297
     episode_slug: how-to-manufacture-a-billionaire-childhood
     episode_key: how-to-manufacture-a-billionaire-childhood
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/my-first-million/how-to-manufacture-a-billionaire-childhood/"
   - episode_title: I put 80% of my money in the S&P
     episode_url: ''
@@ -23210,7 +23222,7 @@ episodes_by_feed:
     episode_uid: bb4c9a48-4d2a-11f1-b25d-8b22698537a3
     episode_slug: i-put-80-of-my-money-in-the-s-p
     episode_key: i-put-80-of-my-money-in-the-s-p
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/my-first-million/i-put-80-of-my-money-in-the-s-p/"
   - episode_title: How Replit Agent made $1M on day one (then $250M in a year)
     episode_url: ''
@@ -23222,7 +23234,7 @@ episodes_by_feed:
     episode_uid: 2ee1169c-4a0a-11f1-a08c-07fbaacaa2a3
     episode_slug: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
     episode_key: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/my-first-million/how-replit-agent-made-1m-on-day-one-then-250m-in-a-year/"
   - episode_title: Spotting Billion Dollar Investments Was Hard Until I Learned These 3 Rules | Rohan Oza
     episode_url: ''
@@ -23234,7 +23246,7 @@ episodes_by_feed:
     episode_uid: 3f0047e0-481c-11f1-8396-87c0687b7af3
     episode_slug: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
     episode_key: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/my-first-million/spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza/"
   - episode_title: This Opportunity Is Hidden In Plain Sight
     episode_url: ''
@@ -23246,7 +23258,7 @@ episodes_by_feed:
     episode_uid: 913eb3fe-435b-11f1-9187-7fc70c93a52e
     episode_slug: this-opportunity-is-hidden-in-plain-sight
     episode_key: this-opportunity-is-hidden-in-plain-sight
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/my-first-million/this-opportunity-is-hidden-in-plain-sight/"
   - episode_title: How to find your thing
     episode_url: ''
@@ -23258,7 +23270,7 @@ episodes_by_feed:
     episode_uid: 4c7342ea-41a2-11f1-b3bf-9f18d66051ca
     episode_slug: how-to-find-your-thing
     episode_key: how-to-find-your-thing
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/my-first-million/how-to-find-your-thing/"
   - episode_title: This guy built a $1B+ brand in 3 years. The product? You'd never guess
     episode_url: ''
@@ -23270,20 +23282,8 @@ episodes_by_feed:
     episode_uid: 5c1c6b3c-3ff3-11f1-bedf-5761296b80f8
     episode_slug: this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess
     episode_key: this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/my-first-million/this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess/"
-  - episode_title: 25% Of My Portfolio Is One Overvalued Stock, Here's Why
-    episode_url: ''
-    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS3510955015.mp3
-    published_at: '2026-04-22T14:28:00Z'
-    description_html: '<p><strong>Get our investing playbook (with 35+ insights from top investors):</strong><a href="https://clickhubspot.com/rwpt"><strong> https://clickhubspot.com/rwpt</strong></a></p><p>Episode 816: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) and Shaan Puri ( <a href="https://x.com/ShaanVP"><u>https://x.com/ShaanVP</u></a> ) talk about the opportunities with AI and longevity.</p><p>—</p><p>Show Notes:</p><p>(0:00) Hal Finney</p><p>(9:30) Aubrey De Grey</p><p>(23:10) Be Here Now</p><p>(33:31) Oz Pearlman</p><p>(42:55) When Kevin Hart met Jeff Bezos</p><p>(50:46) Shaan reads The Art of The Deal</p><p>—</p><p>Links:</p><p>• The Prospect of Immortality - <a href="https://a.co/d/0d2jc81i"><u>https://a.co/d/0d2jc81i</u></a></p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Need a bank for your company? Go check out Mercury (<a href="http://mercury.com/">mercury.com</a>). Shaan uses it for all of his companies!</p><p><em>Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p>beehiiv.com/mfm-challenge</p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
-    description_plain: 'Get our investing playbook (with 35+ insights from top investors): https://clickhubspot.com/rwpt Episode 816: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about the opportunities with AI and longevity. — Show Notes: (0:00) Hal Finney (9:30) Aubrey De Grey (23:10) Be Here Now (33:31) Oz Pearlman (42:55) When Kevin Hart met Jeff Bezos (50:46) Shaan reads The Art of The Deal — Links: • The Prospect of Immortality - https://a.co/d/0d2jc81i — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury ( mercury.com ). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
-    episode_image_url: ''
-    episode_uid: 8658da72-3e57-11f1-964d-a3588e93fc1c
-    episode_slug: 25-of-my-portfolio-is-one-overvalued-stock-here-s-why
-    episode_key: 25-of-my-portfolio-is-one-overvalued-stock-here-s-why
     legacy_numbered_slug: episode-25
-    episode_page_url: "/my-first-million/25-of-my-portfolio-is-one-overvalued-stock-here-s-why/"
+    episode_page_url: "/my-first-million/this-guy-built-a-1b-brand-in-3-years-the-product-you-d-never-guess/"
   https://feed.podbean.com/mathiasmacody/feed.xml: &76
   - episode_title: Q and A med Team Macody
     episode_url: https://mathiasmacody.podbean.com/e/q-and-a-med-team-macody/
