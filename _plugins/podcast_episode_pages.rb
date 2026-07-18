@@ -145,20 +145,25 @@ class PodcastEpisodeArchivePage < Jekyll::Page
     @name = "index.html"
 
     podcast_title = podcast_doc.data["title"].to_s.strip
+    seo_show_name = podcast_title
+    seo_show_name = "#{seo_show_name} Podcast" unless seo_show_name.downcase.include?("podcast")
+    latest_published = episodes.first&.dig("published_at").to_s.strip
 
     self.data = {
       "layout" => "podcast-episode-archive",
       "category" => "podcast_episode_archive",
       "sitemap" => podcast_doc.data["not_running_related"] != true,
-      "title" => "#{podcast_title} episode archive",
-      "seo_description" => "Browse recent episodes from #{podcast_title} on Best Running Podcasts.",
+      "title" => "#{seo_show_name} episodes",
+      "seo_description" => "Browse all indexed episodes of #{seo_show_name}. Listen in your browser on Best Running Podcasts.",
       "podcast_title" => podcast_doc.data["title"],
       "podcast_url" => podcast_doc.url,
       "podcast_slug" => podcast_slug,
+      "cover_image" => podcast_doc.data["cover_image"],
       "rss_feed" => podcast_doc.data["rss_feed"],
       "tags" => podcast_doc.data["tags"],
       "language" => podcast_doc.data["language"],
       "episodes" => episodes,
+      "date" => latest_published.empty? ? nil : latest_published,
       "permalink" => "/#{podcast_slug}/episodes/"
     }
     process(@name)

@@ -1,10 +1,18 @@
-{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
-{%- assign desc = page.description | default: page.excerpt | strip_html | strip -%}
+{%- assign site_name = site.heading_base | default: site.title_base | default: site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- assign desc = page.seo_description | default: page.description | default: page.excerpt | strip_html | strip -%}
 {%- if desc == '' and page.title and page.title != '' -%}
   {%- assign desc = page.title | append: ' — a running podcast curated on ' | append: site_name | append: '.' -%}
 {%- endif -%}
 {%- if desc == '' -%}
   {%- assign desc = site.description | strip_html | strip -%}
+{%- endif -%}
+{%- assign page_url = page.url | absolute_url -%}
+{%- assign webpage_id = page_url | append: '#webpage' -%}
+{%- assign breadcrumb_id = page_url | append: '#breadcrumb' -%}
+{%- assign series_id = page_url | append: '#show' -%}
+{%- assign site_id = site.url | append: '/#website' -%}
+{%- if page.category == 'podcast' -%}
+  {%- include seo-podcast-title.liquid -%}
 {%- endif -%}
 <script type="application/ld+json">
 {
@@ -12,22 +20,44 @@
   "@graph": [
     {
       "@type": "BreadcrumbList",
+      "@id": {{ breadcrumb_id | jsonify }},
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ site.url | jsonify }} },
-        { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page.url | absolute_url | jsonify }} }
+        { "@type": "ListItem", "position": 2, "name": {{ page.title | jsonify }}, "item": {{ page_url | jsonify }} }
       ]
     },
     {
+      "@type": "WebPage",
+      "@id": {{ webpage_id | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "name": {{ seo_podcast_title | default: page.title | jsonify }},
+      "description": {{ desc | jsonify }},
+      "isPartOf": { "@type": "WebSite", "@id": {{ site_id | jsonify }}, "name": {{ site_name | jsonify }}, "url": {{ site.url | jsonify }} },
+      "breadcrumb": { "@id": {{ breadcrumb_id | jsonify }} },
+      "mainEntity": { "@id": {{ series_id | jsonify }} }
+{%- if page.date -%}
+      ,"dateModified": {{ page.date | date_to_xmlschema | jsonify }}
+{%- endif -%}
+    },
+    {
       "@type": "PodcastSeries",
-      "@id": {{ page.url | absolute_url | append: "#show" | jsonify }},
+      "@id": {{ series_id | jsonify }},
       "name": {{ page.title | jsonify }},
       "description": {{ desc | jsonify }},
-      "url": {{ page.url | absolute_url | jsonify }}
+      "url": {{ page_url | jsonify }}
+{%- if page.category == 'podcast' and seo_podcast_title and seo_podcast_title != page.title -%}
+      ,"alternateName": {{ seo_podcast_title | jsonify }}
+{%- elsif page.alternate_name and page.alternate_name != '' -%}
+      ,"alternateName": {{ page.alternate_name | jsonify }}
+{%- endif -%}
 {%- if page.cover_image and page.cover_image != '' -%}
       ,"image": {{ page.cover_image | absolute_url | jsonify }}
 {%- endif -%}
 {%- if page.publisher -%}
-      ,"author": { "@type": "Organization", "name": {{ page.publisher | jsonify }} }
+      ,"author": { "@type": "Person", "name": {{ page.publisher | jsonify }} }
+{%- endif -%}
+{%- if page.rss_feed and page.rss_feed != '' -%}
+      ,"webFeed": {{ page.rss_feed | jsonify }}
 {%- endif -%}
 {%- if page.spotify_link or page.apple_podcast_link or page.youtube_link or page.patreon_link -%}
       ,"sameAs": [
@@ -36,6 +66,16 @@
 {%- if page.youtube_link -%}{% if page.spotify_link or page.apple_podcast_link %}, {% endif %}{{ page.youtube_link | jsonify }}{%- endif -%}
 {%- if page.patreon_link -%}{% if page.spotify_link or page.apple_podcast_link or page.youtube_link %}, {% endif %}{{ page.patreon_link | jsonify }}{%- endif -%}
       ]
+{%- endif -%}
+{%- if page.tags and page.tags.size > 0 -%}
+{%- assign _schema_genres = page.tags | where_exp: "tag", "tag != 'uncategorized'" -%}
+{%- if _schema_genres.size > 0 -%}
+      ,"genre": [
+{%- for tag in _schema_genres -%}
+        {{ tag | jsonify }}{% unless forloop.last %}, {% endunless %}
+{%- endfor -%}
+      ]
+{%- endif -%}
 {%- endif -%}
 {%- if page.language and page.language.size > 0 -%}
       ,"inLanguage": [

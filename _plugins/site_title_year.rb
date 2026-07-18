@@ -21,11 +21,15 @@ Jekyll::Hooks.register :site, :after_init do |site|
 
   full_title = SiteTitleYear.with_current_year(base_title)
   site.config["title"] = full_title
+  site.config["title_base"] = base_title
 
   heading = site.config["heading"].to_s.strip
-  if heading.empty? || heading.sub(SiteTitleYear::YEAR_SUFFIX, "") == base_title
+  base_heading = heading.sub(SiteTitleYear::YEAR_SUFFIX, "")
+  if heading.empty? || base_heading == base_title
     site.config["heading"] = full_title
+    site.config["heading_base"] = base_title
   else
     site.config["heading"] = SiteTitleYear.with_current_year(heading)
+    site.config["heading_base"] = base_heading
   end
 end

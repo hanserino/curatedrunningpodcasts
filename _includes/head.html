@@ -1,6 +1,3 @@
-{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
-{%- assign site_tagline_safe = site.tagline | default: 'The best running podcasts, trail, ultra, and track podcast directory' -%}
-
 {%- assign is_home = false -%}
 {%- if page.layout == 'home' or page.url == '/' or page.url == '/index.html' -%}
 {%- assign is_home = true -%}
@@ -11,6 +8,22 @@
 {%- assign is_episode = true -%}
 {%- endif -%}
 
+{%- assign is_podcast = false -%}
+{%- if page.category == 'podcast' -%}
+{%- assign is_podcast = true -%}
+{%- endif -%}
+
+{%- if is_home -%}
+  {%- assign seo_site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- else -%}
+  {%- assign seo_site_name = site.heading_base | default: site.title_base | default: site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- endif -%}
+{%- assign site_tagline_safe = site.tagline | default: 'The best running podcasts, trail, ultra, and track podcast directory' -%}
+
+{%- if is_podcast -%}
+  {%- include seo-podcast-title.liquid -%}
+{%- endif -%}
+
 {%- assign seo_desc = page.seo_description | default: page.description | default: page.excerpt | default: '' -%}
 {%- assign seo_desc = seo_desc | strip_html | strip -%}
 {%- if seo_desc == '' -%}
@@ -19,10 +32,12 @@
     {%- if _episode_snippet != '' -%}
       {%- assign seo_desc = 'Listen to "' | append: page.episode_title | append: '" from ' | append: page.podcast_title | append: '. ' | append: _episode_snippet -%}
     {%- else -%}
-      {%- assign seo_desc = 'Listen to "' | append: page.episode_title | append: '" from ' | append: page.podcast_title | append: ' on ' | append: site_name | append: '.' -%}
+      {%- assign seo_desc = 'Listen to "' | append: page.episode_title | append: '" from ' | append: page.podcast_title | append: ' on ' | append: seo_site_name | append: '.' -%}
     {%- endif -%}
+  {%- elsif is_podcast -%}
+    {%- assign seo_desc = seo_podcast_title | append: ' — a running podcast you can listen to in your browser. Find Spotify, Apple Podcasts, and latest episodes on ' | append: seo_site_name | append: '.' -%}
   {%- elsif page.layout == 'post' and page.title and page.title != '' -%}
-    {%- assign seo_desc = page.title | append: ' — a running podcast curated on ' | append: site_name | append: '.' -%}
+    {%- assign seo_desc = page.title | append: ' — a running podcast curated on ' | append: seo_site_name | append: '.' -%}
   {%- else -%}
     {%- assign seo_desc = site.description -%}
   {%- endif -%}
@@ -30,13 +45,15 @@
 {%- assign seo_desc = seo_desc | truncate: 300 -%}
 
 {%- if is_home -%}
-  {%- assign seo_page_title = site_name | append: ' | ' | append: site_tagline_safe -%}
+  {%- assign seo_page_title = seo_site_name | append: ' | ' | append: site_tagline_safe -%}
 {%- elsif is_episode and page.episode_title and page.episode_title != '' -%}
-  {%- assign seo_page_title = page.episode_title | append: ' | ' | append: page.podcast_title | append: ' | ' | append: site_name -%}
+  {%- assign seo_page_title = page.episode_title | append: ' | ' | append: page.podcast_title | append: ' | ' | append: seo_site_name -%}
+{%- elsif is_podcast -%}
+  {%- assign seo_page_title = seo_podcast_title | append: ' | ' | append: seo_site_name -%}
 {%- elsif page.title and page.title != '' -%}
-  {%- assign seo_page_title = page.title | append: ' | ' | append: site_name -%}
+  {%- assign seo_page_title = page.title | append: ' | ' | append: seo_site_name -%}
 {%- else -%}
-  {%- assign seo_page_title = site_name | append: ' | ' | append: site_tagline_safe -%}
+  {%- assign seo_page_title = seo_site_name | append: ' | ' | append: site_tagline_safe -%}
 {%- endif -%}
 {%- assign seo_page_title = seo_page_title | strip -%}
 
@@ -61,11 +78,11 @@
 {%- else -%}
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 {%- endif -%}
-<meta name="application-name" content="{{ site_name | xml_escape }}">
+<meta name="application-name" content="{{ seo_site_name | xml_escape }}">
 {%- include head-meta-og.liquid -%}
 
 <!-- Open Graph -->
-<meta property="og:site_name" content="{{ site_name | xml_escape }}">
+<meta property="og:site_name" content="{{ seo_site_name | xml_escape }}">
 <meta property="og:title" content="{{ seo_page_title | xml_escape }}">
 <meta property="og:description" content="{{ seo_desc | xml_escape }}">
 <meta property="og:type" content="{{ og_type }}">
@@ -86,6 +103,9 @@
 {%- endif -%}
 {%- if is_episode -%}
 {%- include head-episode-meta.liquid -%}
+{%- endif -%}
+{%- if is_podcast and page.rss_feed and page.rss_feed != '' -%}
+<link rel="alternate" type="application/rss+xml" title="{{ seo_podcast_title | xml_escape }} feed" href="{{ page.rss_feed | xml_escape }}">
 {%- endif -%}
 
 <!-- Twitter (X) Card -->
@@ -108,4 +128,4 @@
 {%- else -%}
 <link rel="stylesheet" href="{{ '/assets/style/main.css' | relative_url }}">
 {%- endif -%}
-<link rel="alternate" type="application/rss+xml" title="{{ site_name | xml_escape }} feed" href="{{ "/feed.xml" | absolute_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ seo_site_name | xml_escape }} feed" href="{{ "/feed.xml" | absolute_url }}">

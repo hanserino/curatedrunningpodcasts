@@ -1,0 +1,22 @@
+{%- comment -%}
+  Sets seo_podcast_title (for <title> / OG) and seo_podcast_h1 (visible heading).
+  Optional front matter: seo_title, seo_h1
+{%- endcomment -%}
+{%- if page.seo_title and page.seo_title != '' -%}
+  {%- assign seo_podcast_title = page.seo_title | strip -%}
+{%- else -%}
+  {%- assign seo_podcast_title = page.title | strip -%}
+  {%- assign _title_lower = seo_podcast_title | downcase -%}
+  {%- unless _title_lower contains 'podcast' -%}
+    {%- assign seo_podcast_title = seo_podcast_title | append: ' Podcast' -%}
+  {%- endunless -%}
+{%- endif -%}
+{%- if page.seo_h1 and page.seo_h1 != '' -%}
+  {%- assign seo_podcast_h1 = page.seo_h1 | strip -%}
+{%- else -%}
+  {%- assign seo_podcast_h1 = page.title | strip -%}
+  {%- assign _h1_lower = seo_podcast_h1 | downcase -%}
+  {%- unless _h1_lower contains 'podcast' -%}
+    {%- assign seo_podcast_h1 = seo_podcast_h1 | append: ' Podcast' -%}
+  {%- endunless -%}
+{%- endif -%}

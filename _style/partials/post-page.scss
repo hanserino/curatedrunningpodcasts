@@ -108,6 +108,37 @@
         border: $border-width solid $color-ink;
     }
 
+    &__body {
+        margin-top: 1.25rem;
+    }
+
+    &__editorial {
+        margin-bottom: 1.25rem;
+        padding: 1rem 1.05rem;
+        @include brutal-surface;
+    }
+
+    &__editorial-heading {
+        margin: 0 0 0.75rem;
+        font-family: $font-display;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: $color-ink;
+        letter-spacing: -0.02em;
+    }
+
+    &__editorial-body {
+        line-height: 1.55;
+
+        p {
+            margin: 0 0 0.75rem;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
     &__details {
         min-width: 0;
 

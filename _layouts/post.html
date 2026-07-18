@@ -23,6 +23,7 @@
 		{%- endunless -%}
 		<article class="post-article">
 			{%- if _is_podcast -%}
+			{%- include seo-podcast-title.liquid -%}
 			<header class="post-page__intro">
 				{% include post-page-nav.html %}
 				<div class="post-page__hero">
@@ -52,7 +53,7 @@
 						{%- else -%}
 						<p class="post-page__kicker">Running podcast</p>
 						{%- endif -%}
-						<h1 class="post-article__title">{{ page.title }}</h1>
+						<h1 class="post-article__title">{{ seo_podcast_h1 | default: page.title }}</h1>
 						{% if page.description %}
 						<p class="post-article__lede">{{ page.description }}</p>
 						{% endif %}
@@ -63,6 +64,15 @@
 					</div>
 				</div>
 			</header>
+			{%- assign _editorial_body = content | strip -%}
+			{%- if _editorial_body != '' and page.infer_cover_from_body != true -%}
+			<section class="post-page__editorial" aria-labelledby="post-editorial-heading">
+				<h2 id="post-editorial-heading" class="post-page__editorial-heading">About this podcast</h2>
+				<div class="post-page__editorial-body post-article__content">
+					{{ content }}
+				</div>
+			</section>
+			{%- endif -%}
 			<section class="post-page__body" aria-label="Podcast details">
 				<div class="post-article__content">
 					{% if page.rss_feed and page.rss_feed != '' %}

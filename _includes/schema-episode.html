@@ -1,4 +1,4 @@
-{%- assign site_name = site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
+{%- assign site_name = site.heading_base | default: site.title_base | default: site.heading | default: site.title | default: 'The Best Running Podcasts' -%}
 {%- assign desc = page.description_plain | default: page.description | strip_html | strip -%}
 {%- if desc == '' -%}
   {%- assign desc = page.episode_title | append: ' — ' | append: page.podcast_title | append: ' on ' | append: site_name -%}

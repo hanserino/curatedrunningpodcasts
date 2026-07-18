@@ -34,6 +34,9 @@ rebuild_site() {
 
 save_source_patch() {
   git fetch origin "$BRANCH"
+  git ls-files --others --exclude-standard -z | while IFS= read -r -d '' f; do
+    git add -N "$f"
+  done
   git diff "origin/${BRANCH}" -- . \
     ':(exclude)docs' \
     ':(exclude)_data/latest_podcast_episodes.yml' \
