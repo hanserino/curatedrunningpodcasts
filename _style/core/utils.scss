@@ -12,3 +12,8 @@
   }
 }
 
+@mixin break-long-words {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+

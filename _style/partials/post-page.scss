@@ -14,6 +14,7 @@
         position: relative;
         margin-bottom: 1.5rem;
         padding: 1.15rem 1.2rem 1.25rem;
+        overflow-x: clip;
         @include brutal-surface;
         @include lane-ticker;
     }
@@ -126,6 +127,7 @@
             color: $color-muted;
             line-height: 1.55;
             font-size: 1.05rem;
+            @include break-long-words;
         }
     }
 

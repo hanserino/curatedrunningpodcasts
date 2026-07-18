@@ -91,6 +91,7 @@
             color: $color-muted;
             font-size: 0.95rem;
             line-height: 1.45;
+            @include break-long-words;
         }
 
         &__link-title {
@@ -158,6 +159,7 @@
         grid-template-columns: minmax(0, 1fr) auto;
         gap: 0.45rem;
         align-items: start;
+        min-width: 0;
 
         [data-box-grid="false"] & {
             h2 + .podcast-loop__item__media,
