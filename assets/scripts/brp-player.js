@@ -31,6 +31,7 @@
         podcastPageUrl: '',
     };
     var mediaSessionReady = false;
+    var iosMediaSessionResumeTime = 0;
     var lastTimeupdateSave = 0;
     var resumeAppliedForSrc = '';
     var engineReady = false;
@@ -757,41 +758,129 @@
         return null;
     }
 
-    function playFromMediaSession() {
-        updateMediaSessionMetadata();
-        var playPromise = player.play();
-        if (playPromise && typeof playPromise.then === 'function') {
-            playPromise
-                .then(function () {
-                    if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
-                    setMediaSessionPlaybackState('playing');
-                    updateMediaSessionPosition();
-                    syncGlobalBarFromMeta();
-                })
-                .catch(function () {
-                    setMediaSessionPlaybackState('paused');
-                    if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
-                    syncGlobalBarFromMeta();
-                });
-            return;
-        }
+    function finishMediaSessionPlaySuccess() {
         if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
         setMediaSessionPlaybackState('playing');
         updateMediaSessionPosition();
         syncGlobalBarFromMeta();
     }
 
+    function finishMediaSessionPlayFailure() {
+        setMediaSessionPlaybackState('paused');
+        if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
+        syncGlobalBarFromMeta();
+    }
+
+    function refreshMediaSessionHandlersForIOS() {
+        if (!isIOS || !('mediaSession' in navigator)) return;
+        mediaSessionReady = false;
+        setupMediaSessionHandlers();
+    }
+
+    function reloadPlayerForIOSLockScreenResume(callback) {
+        var url = playerActiveUrl();
+        if (!url) {
+            callback(new Error('no active url'));
+            return;
+        }
+
+        var resumeTime = player.currentTime;
+        if (!isFinite(resumeTime) || resumeTime < 0) resumeTime = 0;
+        if (iosMediaSessionResumeTime > 0) {
+            resumeTime = iosMediaSessionResumeTime;
+        } else {
+            var saved = getSavedProgressSeconds(url);
+            if (saved != null) resumeTime = saved;
+        }
+
+        resumeAppliedForSrc = '';
+        setEpisodeSource(url);
+        var settled = false;
+        function done(err) {
+            if (settled) return;
+            settled = true;
+            callback(err || null);
+        }
+
+        function onMeta() {
+            player.removeEventListener('loadedmetadata', onMeta);
+            try {
+                if (resumeTime >= MIN_RESUME_SEC) player.currentTime = resumeTime;
+            } catch (e) {}
+            done(null);
+        }
+
+        player.addEventListener('loadedmetadata', onMeta);
+        window.setTimeout(function () {
+            done(new Error('metadata timeout'));
+        }, 8000);
+
+        try {
+            player.load();
+        } catch (e) {
+            done(e);
+        }
+    }
+
+    function attemptPlayFromMediaSession(retryLevel) {
+        if (!player || !playerActiveUrl()) {
+            finishMediaSessionPlayFailure();
+            return;
+        }
+
+        updateMediaSessionMetadata();
+        refreshMediaSessionHandlersForIOS();
+
+        var playPromise = player.play();
+        if (!playPromise || typeof playPromise.then !== 'function') {
+            finishMediaSessionPlaySuccess();
+            return;
+        }
+
+        playPromise
+            .then(function () {
+                iosMediaSessionResumeTime = 0;
+                finishMediaSessionPlaySuccess();
+            })
+            .catch(function () {
+                if (!isIOS || retryLevel >= 2) {
+                    finishMediaSessionPlayFailure();
+                    return;
+                }
+                if (retryLevel === 0) {
+                    window.setTimeout(function () {
+                        attemptPlayFromMediaSession(1);
+                    }, 150);
+                    return;
+                }
+                reloadPlayerForIOSLockScreenResume(function (err) {
+                    if (err) {
+                        finishMediaSessionPlayFailure();
+                        return;
+                    }
+                    attemptPlayFromMediaSession(2);
+                });
+            });
+    }
+
+    function playFromMediaSession() {
+        attemptPlayFromMediaSession(0);
+    }
+
     function pauseFromMediaSession() {
+        var url = playerActiveUrl();
+        if (url) {
+            iosMediaSessionResumeTime = player.currentTime;
+            saveProgressForUrl(url, player.currentTime, player.duration);
+        }
         player.pause();
         if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
         setMediaSessionPlaybackState('paused');
         syncGlobalBarFromMeta();
+        refreshMediaSessionHandlersForIOS();
     }
 
-    function setupMediaSessionHandlers() {
-        if (!('mediaSession' in navigator) || mediaSessionReady) return;
-        mediaSessionReady = true;
-
+    function bindMediaSessionActionHandlers() {
         navigator.mediaSession.setActionHandler('play', function () {
             playFromMediaSession();
         });
@@ -833,6 +922,12 @@
                 updateMediaSessionPosition();
             }
         });
+    }
+
+    function setupMediaSessionHandlers() {
+        if (!('mediaSession' in navigator) || mediaSessionReady) return;
+        mediaSessionReady = true;
+        bindMediaSessionActionHandlers();
     }
 
     function refreshAllListenProgress() {
@@ -1053,10 +1148,14 @@
             if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
             setMediaSessionPlaybackState('paused');
             var u = playerActiveUrl();
-            if (u) saveProgressForUrl(u, player.currentTime, player.duration);
+            if (u) {
+                if (isIOS) iosMediaSessionResumeTime = player.currentTime;
+                saveProgressForUrl(u, player.currentTime, player.duration);
+            }
             notifyUserSync(true);
             syncGlobalBarFromMeta();
             refreshAllListenProgress();
+            if (isIOS) refreshMediaSessionHandlersForIOS();
         });
 
         player.addEventListener('seeked', function () {
@@ -1117,7 +1216,10 @@
                 if (activeDeck && activeDeck.suspendWaveAudioContext) activeDeck.suspendWaveAudioContext();
                 return;
             }
-            if (player.paused || player.ended || !player.src) return;
+            if (player.paused || player.ended || !player.src) {
+                if (isIOS && player && player.src) refreshMediaSessionHandlersForIOS();
+                return;
+            }
             if (activeDeck && activeDeck.resumeWaveAudioContext) activeDeck.resumeWaveAudioContext();
             if (isIOS) recoverPlaybackAfterBackground();
         });

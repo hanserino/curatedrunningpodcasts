@@ -11,6 +11,14 @@ on:
       - "_posts/**"
       - "_runner_picks/**"
       - "media/**"
+      - "_style/**"
+      - "_includes/**"
+      - "_layouts/**"
+      - "_plugins/**"
+      - "assets/**"
+      - "_config.yml"
+      - "*.md"
+      - "!docs/**"
   workflow_dispatch:
 
 permissions:
