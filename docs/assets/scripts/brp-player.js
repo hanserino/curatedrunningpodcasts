@@ -239,6 +239,21 @@
         return player.src || player.currentSrc || '';
     }
 
+    function isPlaybackActive() {
+        return !!(player && !player.paused && !player.ended);
+    }
+
+    function hasLoadedPlayback() {
+        return !!playerActiveUrl();
+    }
+
+    function refreshMediaSessionFromPlayback() {
+        if (!hasLoadedPlayback()) return;
+        restorePlaybackMeta();
+        updateMediaSessionMetadata();
+        if (isPlaybackActive()) updateMediaSessionPosition();
+    }
+
     function urlsMatchEpisode(a, b) {
         if (!a || !b) return false;
         if (urlsMatch(a, b)) return true;
@@ -406,26 +421,57 @@
         if (sourceUrl) metaSourceUrl = storageUrlKey(sourceUrl);
     }
 
-    function hydrateMetaFromPageButtons() {
-        var url = playerActiveUrl();
-        if (!url) return false;
-        var buttons = document.querySelectorAll('[data-audio-url]');
+    function metaFromPlayButton(button, fallbackUrl) {
+        if (!button) return null;
+        var urls = readMetaUrlsFromButton(button);
+        return {
+            episodeTitle: button.getAttribute('data-episode-title') || 'Episode',
+            podcastTitle: button.getAttribute('data-podcast-title') || 'Podcast',
+            coverUrl: button.getAttribute('data-cover-url') || '',
+            audioUrl: button.getAttribute('data-audio-url') || fallbackUrl || '',
+            episodePageUrl: urls.episodePageUrl,
+            podcastPageUrl: urls.podcastPageUrl,
+        };
+    }
+
+    function findPlayButtonForUrl(searchRoot, storedUrl) {
+        var url = storedUrl || playerActiveUrl();
+        if (!url) return null;
+        var scope = searchRoot || document;
+        var buttons = scope.querySelectorAll('[data-audio-url]');
         for (var i = 0; i < buttons.length; i++) {
             var btn = buttons[i];
             var btnUrl = btn.getAttribute('data-audio-url');
-            if (!playerMatchesEpisodeUrl(btnUrl)) continue;
-            var urls = readMetaUrlsFromButton(btn);
-            rememberEpisodeMeta(
-                btn.getAttribute('data-episode-title') || 'Episode',
-                btn.getAttribute('data-podcast-title') || 'Podcast',
-                btn.getAttribute('data-cover-url') || '',
-                btnUrl || url,
-                urls.episodePageUrl,
-                urls.podcastPageUrl
-            );
-            return true;
+            if (playerMatchesEpisodeUrl(btnUrl) || urlsMatchEpisode(btnUrl, url)) {
+                return btn;
+            }
         }
-        return false;
+        return null;
+    }
+
+    function findPlayButtonForActiveEpisode(searchRoot) {
+        return findPlayButtonForUrl(searchRoot, playerActiveUrl());
+    }
+
+    function hydrateMetaFromPageButtons() {
+        var url = playerActiveUrl();
+        if (!url) return false;
+        var btn = null;
+        if (activeDeck && activeDeck.root) {
+            btn = findPlayButtonForActiveEpisode(activeDeck.root);
+        }
+        if (!btn) btn = findPlayButtonForActiveEpisode(document);
+        if (!btn) return false;
+        var meta = metaFromPlayButton(btn, url);
+        rememberEpisodeMeta(
+            meta.episodeTitle,
+            meta.podcastTitle,
+            meta.coverUrl,
+            meta.audioUrl,
+            meta.episodePageUrl,
+            meta.podcastPageUrl
+        );
+        return true;
     }
 
     function restorePlaybackMeta() {
@@ -640,7 +686,7 @@
 
     function reconcilePlaybackAfterNavigation() {
         if (!playerActiveUrl()) return;
-        restorePlaybackMeta();
+        refreshMediaSessionFromPlayback();
         renderGlobalBarFromMeta();
     }
 
@@ -966,6 +1012,7 @@
             applyResumeIfNeeded();
             restorePlaybackMeta();
             renderGlobalBarFromMeta();
+            if (isPlaybackActive()) refreshMediaSessionFromPlayback();
             updateGlobalTransportTimes();
             if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
             refreshAllListenProgress();
@@ -1064,6 +1111,7 @@
                 if (hiddenUrl && !player.paused && !player.ended) {
                     saveProgressForUrl(hiddenUrl, player.currentTime, player.duration);
                 }
+                refreshMediaSessionFromPlayback();
                 savePlaybackHandoff();
                 notifyUserSync(true);
                 if (activeDeck && activeDeck.suspendWaveAudioContext) activeDeck.suspendWaveAudioContext();
@@ -1091,17 +1139,7 @@
         var podcastTitle = button.getAttribute('data-podcast-title') || 'Podcast';
         var coverUrl = button.getAttribute('data-cover-url') || '';
         if (!coverUrl) {
-            var coverImg = button.closest('.latest-episodes__item, .latest-episodes__episode-stack');
-            if (coverImg) {
-                var img = coverImg.querySelector('.latest-episodes__cover, img[data-cover-src]');
-                if (img) {
-                    coverUrl =
-                        img.getAttribute('data-cover-src') ||
-                        img.currentSrc ||
-                        img.getAttribute('src') ||
-                        '';
-                }
-            }
+            coverUrl = coverUrlFromPlayButton(button);
         }
         var metaUrls = readMetaUrlsFromButton(button);
         var clickedLi = button.closest('.latest-episodes__item');
@@ -1110,7 +1148,7 @@
 
         var playerEpisode = playerActiveUrl();
         var switchingEpisode = !urlsMatchEpisode(audioUrl, playerEpisode);
-        if (switchingEpisode && !shouldPlay && !userGesture && playerEpisode) {
+        if (switchingEpisode && !shouldPlay && !userGesture && (playerEpisode || isPlaybackActive())) {
             return;
         }
 
@@ -1180,6 +1218,42 @@
         refreshAllListenProgress();
     }
 
+    function coverUrlFromPlayButton(button) {
+        if (!button) return '';
+        var coverUrl = button.getAttribute('data-cover-url') || '';
+        if (coverUrl) return coverUrl;
+        var coverImg = button.closest('.latest-episodes__item, .latest-episodes__episode-stack');
+        if (!coverImg) return '';
+        var img = coverImg.querySelector('.latest-episodes__cover, img[data-cover-src]');
+        if (!img) return '';
+        return img.getAttribute('data-cover-src') || img.currentSrc || img.getAttribute('src') || '';
+    }
+
+    function primeDeckIdlePreview(button, deck, kickerLabel) {
+        if (hasLoadedPlayback() || isPlaybackActive()) return false;
+        if (loadLastListened()) return false;
+
+        var audioUrl = button.getAttribute('data-audio-url');
+        if (!audioUrl) return false;
+
+        var meta = metaFromPlayButton(button, audioUrl);
+        var coverUrl = coverUrlFromPlayButton(button) || meta.coverUrl;
+        var clickedLi = button.closest('.latest-episodes__item');
+
+        deck.clearCurrent();
+        deck.currentLi = clickedLi;
+        if (deck.currentLi) deck.currentLi.classList.add('latest-episodes__item--current');
+        if (deck.updateArt) deck.updateArt(coverUrl);
+        if (deck.setNowPlaying) {
+            deck.setNowPlaying(meta.episodeTitle, meta.podcastTitle, kickerLabel || 'Latest episode');
+        }
+        setEpisodeSource(audioUrl);
+        try {
+            player.preload = 'metadata';
+        } catch (e) {}
+        return true;
+    }
+
     function wireStickyOnlyDeck(root) {
         root.setAttribute('data-brp-deck-wired', 'true');
 
@@ -1211,14 +1285,7 @@
         }
 
         function findButtonForStoredUrl(storedUrl) {
-            var buttons = root.querySelectorAll('[data-audio-url]');
-            for (var i = 0; i < buttons.length; i++) {
-                var btnUrl = buttons[i].getAttribute('data-audio-url');
-                if (playerMatchesEpisodeUrl(btnUrl) || (storedUrl && urlsMatchEpisode(btnUrl, storedUrl))) {
-                    return buttons[i];
-                }
-            }
-            return null;
+            return findPlayButtonForUrl(root, storedUrl);
         }
 
         function syncListPlayingState() {
@@ -1825,14 +1892,7 @@
         }
 
         function findButtonForStoredUrl(storedUrl) {
-            var buttons = root.querySelectorAll('[data-audio-url]');
-            for (var i = 0; i < buttons.length; i++) {
-                var btnUrl = buttons[i].getAttribute('data-audio-url');
-                if (playerMatchesEpisodeUrl(btnUrl) || (storedUrl && urlsMatchEpisode(btnUrl, storedUrl))) {
-                    return buttons[i];
-                }
-            }
-            return null;
+            return findPlayButtonForUrl(root, storedUrl);
         }
 
         function syncDeckFromPlayer() {
@@ -1844,30 +1904,31 @@
             var btn = findButtonForStoredUrl(url);
             if (!btn) {
                 resetDeckIdle();
-                syncGlobalBarFromMeta();
+                refreshMediaSessionFromPlayback();
+                renderGlobalBarFromMeta();
                 return;
             }
             clearCurrent();
             deck.currentLi = btn.closest('.latest-episodes__item');
             if (deck.currentLi) deck.currentLi.classList.add('latest-episodes__item--current');
-            var btnMetaUrls = readMetaUrlsFromButton(btn);
+            var meta = metaFromPlayButton(btn, url);
             rememberEpisodeMeta(
-                btn.getAttribute('data-episode-title') || 'Episode',
-                btn.getAttribute('data-podcast-title') || 'Podcast',
-                btn.getAttribute('data-cover-url') || '',
-                btn.getAttribute('data-audio-url') || url,
-                btnMetaUrls.episodePageUrl,
-                btnMetaUrls.podcastPageUrl
+                meta.episodeTitle,
+                meta.podcastTitle,
+                meta.coverUrl,
+                meta.audioUrl,
+                meta.episodePageUrl,
+                meta.podcastPageUrl
             );
-            updateArt(btn.getAttribute('data-cover-url') || '');
+            updateArt(meta.coverUrl || coverUrlFromPlayButton(btn));
             setNowPlaying(
-                btn.getAttribute('data-episode-title') || 'Episode',
-                btn.getAttribute('data-podcast-title') || 'Podcast',
+                meta.episodeTitle,
+                meta.podcastTitle,
                 player.paused ? 'Continue listening' : 'Now playing'
             );
             syncPlayingClass();
             updateTransportTimes();
-            syncGlobalBarFromMeta();
+            renderGlobalBarFromMeta();
         }
 
         if (deckPlay) {
@@ -1966,19 +2027,11 @@
 
         (function primeLatestForMainPlayer() {
             if (deck.currentLi) return;
-            var activeUrl = playerActiveUrl();
-            if (activeUrl) return;
+            if (hasLoadedPlayback() || isPlaybackActive()) return;
             if (root.classList.contains('latest-episodes--episode-page')) return;
             var firstBtn = root.querySelector('.latest-episodes__list .latest-episodes__item [data-audio-url]');
             if (!firstBtn) return;
-            activateEpisode(firstBtn, {
-                userGesture: false,
-                play: false,
-                kicker: 'Latest episode',
-            }, deck);
-            try {
-                player.preload = 'metadata';
-            } catch (e) {}
+            primeDeckIdlePreview(firstBtn, deck, 'Latest episode');
         })();
 
         (function initEpisodePagePlayer() {
@@ -1998,6 +2051,7 @@
         activeDeck = deck;
         document.body.classList.add('brp-deck-active');
         syncDeckFromPlayer();
+        if (hasLoadedPlayback()) refreshMediaSessionFromPlayback();
         refreshAllListenProgress();
         updateGlobalBarVisibility();
 
@@ -2068,6 +2122,7 @@
 
     function onBeforeTurboRender() {
         persistPlaybackMeta();
+        savePlaybackHandoff();
         activeDeck = null;
         deckShellVisible = false;
         if (deckVisibilityObserver) {
