@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-19T11:31:00Z'
+generated_at: '2026-07-19T12:23:54Z'
 items:
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public/"
@@ -205,6 +205,18 @@ items:
   episode_key: has-trail-running-lost-its-soul-ep-790
   episode_slug: has-trail-running-lost-its-soul-ep-790
   episode_page_url: "/trail-runner-nation/has-trail-running-lost-its-soul-ep-790/"
+- podcast_title: The Freetrail Podcast
+  podcast_page_url: "/the-freetrail-podcast/"
+  cover_image: "/media/freetrail2.jpeg"
+  feed_url: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
+  filter_category: ultra trail business english
+  episode_title: Hardrock 100 DNF | Dylan's Race Recap
+  episode_url: https://thewellwithdylanbowman.libsyn.com/hardrock-100-dnf-dylans-race-recap
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Hardrock_100_DNF__Dylans_Race_Recap.mp3?dest-id=1746794
+  published_at: '2026-07-15T12:00:00+00:00'
+  episode_key: hardrock-100-dnf-dylan-s-race-recap
+  episode_slug: hardrock-100-dnf-dylan-s-race-recap
+  episode_page_url: "/the-freetrail-podcast/hardrock-100-dnf-dylan-s-race-recap/"
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running/"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -30531,9 +30543,6 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/black-hat-ultra/03-alaska-rozmowy-ze-soba-audiobook-kamil-dabkowski/"
 errors:
-- podcast: The Freetrail Podcast
-  rss_feed: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
-  error: No parseable episodes found
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
