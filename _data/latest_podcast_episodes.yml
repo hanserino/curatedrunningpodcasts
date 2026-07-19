@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-07-19T01:40:24Z'
+generated_at: '2026-07-19T03:09:32Z'
 items:
+- podcast_title: The Running Public
+  podcast_page_url: "/the-running-public/"
+  cover_image: "/media/runningpublic.jpeg"
+  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
+  filter_category: ultra english
+  episode_title: 'Episode 629: Brooke & Andrew Vigorito'
+  episode_url: https://therunningpublic.podbean.com/e/episode-629-brooke-andrew-vigorito/
+  audio_url: https://mcdn.podbean.com/mf/web/qrk9za4zi2iw8jr5/3_clips_Edit_4_7p1cj.mp3
+  published_at: '2026-07-18T21:23:53-05:00'
+  episode_key: episode-629-brooke-andrew-vigorito
+  episode_slug: episode-629-brooke-andrew-vigorito
+  episode_page_url: "/the-running-public/episode-629-brooke-andrew-vigorito/"
+- podcast_title: Life in Stride
+  podcast_page_url: "/life-in-stride/"
+  cover_image: "/media/lifeinstride.jpeg"
+  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
+  filter_category: road english
+  episode_title: "#340 Tommie Runz - Run Culture Court + Recapping Solo Speed Project & Western States 100"
+  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/340-Tommie-Runz---Run-Culture-Court--Recapping-Solo-Speed-Project--Western-States-100-e3m8dhv
+  audio_url: https://traffic.megaphone.fm/APO9309010372.mp3
+  published_at: '2026-07-18T18:36:38+00:00'
+  episode_key: 340-tommie-runz-run-culture-court-recapping-solo-speed-project-western-states-100
+  episode_slug: 340-tommie-runz-run-culture-court-recapping-solo-speed-project-western-states-100
+  episode_page_url: "/life-in-stride/340-tommie-runz-run-culture-court-recapping-solo-speed-project-western-states-100/"
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
   cover_image: "/media/citiusmag.jpeg"
@@ -145,18 +169,6 @@ items:
   episode_key: the-truth-about-the-supplement-industry
   episode_slug: the-truth-about-the-supplement-industry
   episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
-- podcast_title: Life in Stride
-  podcast_page_url: "/life-in-stride/"
-  cover_image: "/media/lifeinstride.jpeg"
-  feed_url: https://anchor.fm/s/f1fb88c/podcast/rss
-  filter_category: road english
-  episode_title: "#339 Daniel Michalski - From Division II Running to World Class Steeplechaser Training with Ed Eyestone"
-  episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/339-Daniel-Michalski---From-Division-II-Running-to-World-Class-Steeplechaser-Training-with-Ed-Eyestone-e3m5qnu
-  audio_url: https://traffic.megaphone.fm/APO1195108968.mp3
-  published_at: '2026-07-16T15:59:29+00:00'
-  episode_key: 339-daniel-michalski-from-division-ii-running-to-world-class-steeplechaser-training-with-ed-eyestone
-  episode_slug: 339-daniel-michalski-from-division-ii-running-to-world-class-steeplechaser-training-with-ed-eyestone
-  episode_page_url: "/life-in-stride/339-daniel-michalski-from-division-ii-running-to-world-class-steeplechaser-training-with-ed-eyestone/"
 - podcast_title: Road to the Trials
   podcast_page_url: "/road-to-the-trials/"
   cover_image: "/media/roadtotrials.jpeg"
@@ -169,18 +181,6 @@ items:
   episode_key: lily-anderson-from-teaching-in-brooklyn-classrooms-to-brooklyn-track-club-an-otq
   episode_slug: lily-anderson-from-teaching-in-brooklyn-classrooms-to-brooklyn-track-club-an-otq
   episode_page_url: "/road-to-the-trials/lily-anderson-from-teaching-in-brooklyn-classrooms-to-brooklyn-track-club-an-otq/"
-- podcast_title: The Running Public
-  podcast_page_url: "/the-running-public/"
-  cover_image: "/media/runningpublic.jpeg"
-  feed_url: https://feed.podbean.com/therunningpublic/feed.xml
-  filter_category: ultra english
-  episode_title: 'Training Tuesday: Q&A!'
-  episode_url: https://therunningpublic.podbean.com/e/training-tuesday-qa-1784173233/
-  audio_url: https://mcdn.podbean.com/mf/web/bv4wn7rwhq88fcp5/3_clips_Edit_3_aukjg.mp3
-  published_at: '2026-07-15T22:40:33-05:00'
-  episode_key: training-tuesday-q-a
-  episode_slug: training-tuesday-q-a
-  episode_page_url: "/the-running-public/training-tuesday-q-a/"
 - podcast_title: La Bande à D+
   podcast_page_url: "/la-bande-a-d/"
   cover_image: "/media/labandeadplus.jpeg"
@@ -3817,6 +3817,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/speed-dhiman-radio/ama-nov-2024/"
   https://feed.podbean.com/therunningpublic/feed.xml: &10
+  - episode_title: 'Episode 629: Brooke & Andrew Vigorito'
+    episode_url: https://therunningpublic.podbean.com/e/episode-629-brooke-andrew-vigorito/
+    audio_url: https://mcdn.podbean.com/mf/web/qrk9za4zi2iw8jr5/3_clips_Edit_4_7p1cj.mp3
+    published_at: '2026-07-18T21:23:53-05:00'
+    description_html: "<p>The Vigorito family built a lifestyle based upon chasing their fitness goals and pushing their limits. Along the way, they started a race that allows others to do the same.</p>"
+    description_plain: The Vigorito family built a lifestyle based upon chasing their fitness goals and pushing their limits. Along the way, they started a race that allows others to do the same.
+    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Copy_of_Copy_of_Untitled_Design6xto9.png
+    episode_uid: therunningpublic-podbean-com-8c1801d9-d6e1-30d6-97c4-494ef8ec0866
+    episode_slug: episode-629-brooke-andrew-vigorito
+    episode_key: episode-629-brooke-andrew-vigorito
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/the-running-public/episode-629-brooke-andrew-vigorito/"
   - episode_title: 'Training Tuesday: Q&A!'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-qa-1784173233/
     audio_url: https://mcdn.podbean.com/mf/web/bv4wn7rwhq88fcp5/3_clips_Edit_3_aukjg.mp3
@@ -3827,7 +3839,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09e85b0d-704e-36fe-bcc8-b4785cb02093
     episode_slug: training-tuesday-q-a
     episode_key: training-tuesday-q-a
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/the-running-public/training-tuesday-q-a/"
   - episode_title: 'Training Tuesday: Kirk’s 50k + Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-kirk-s-50k-listener-questions/
@@ -3839,7 +3851,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-eaba3980-d535-3eda-a12b-e67bd69b9eee
     episode_slug: training-tuesday-kirk-s-50k-listener-questions
     episode_key: training-tuesday-kirk-s-50k-listener-questions
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/the-running-public/training-tuesday-kirk-s-50k-listener-questions/"
   - episode_title: 'Episode 626: Brett Petersen'
     episode_url: https://therunningpublic.podbean.com/e/episode-626-brett-petersen/
@@ -3851,7 +3863,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7004e7b9-88c9-3386-a2da-a442ef27cadc
     episode_slug: episode-626-brett-petersen
     episode_key: episode-626-brett-petersen
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/the-running-public/episode-626-brett-petersen/"
   - episode_title: 'Episode 625: Sue Reynolds'
     episode_url: https://therunningpublic.podbean.com/e/episode-625-sue-reynolds/
@@ -3863,7 +3875,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-dbdaaa51-1441-36fa-b572-9f0bda0b6122
     episode_slug: episode-625-sue-reynolds
     episode_key: episode-625-sue-reynolds
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/the-running-public/episode-625-sue-reynolds/"
   - episode_title: 'Episode 624: Dani Moreno'
     episode_url: https://therunningpublic.podbean.com/e/episode-624-dani-moreno/
@@ -3875,7 +3887,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-2b48242f-a351-3876-8e39-3432fe4baf9a
     episode_slug: episode-624-dani-moreno
     episode_key: episode-624-dani-moreno
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/the-running-public/episode-624-dani-moreno/"
   - episode_title: 'Episode 623: Race Anxiety'
     episode_url: https://therunningpublic.podbean.com/e/episode-623-race-anxiety/
@@ -3887,7 +3899,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-393af6e1-9220-31cb-b19b-7bd84e38fb1e
     episode_slug: episode-623-race-anxiety
     episode_key: episode-623-race-anxiety
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/the-running-public/episode-623-race-anxiety/"
   - episode_title: 'Training Tuesday: Trail Supershoes & Hyrox State of Sport'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-trail-supershoes-hyrox-state-of-sport/
@@ -3899,7 +3911,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-d7aa37b9-ce81-3082-beed-e87fc31fa3d1
     episode_slug: training-tuesday-trail-supershoes-hyrox-state-of-sport
     episode_key: training-tuesday-trail-supershoes-hyrox-state-of-sport
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/the-running-public/training-tuesday-trail-supershoes-hyrox-state-of-sport/"
   - episode_title: 'Episode 621: Summer Running'
     episode_url: https://therunningpublic.podbean.com/e/episode-621-summer-running/
@@ -3911,7 +3923,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-03c831ae-4404-3d38-bb00-b3c085ad6cfb
     episode_slug: episode-621-summer-running
     episode_key: episode-621-summer-running
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/the-running-public/episode-621-summer-running/"
   - episode_title: 'Training Tuesday: How to Execute an “X Day” Workout'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-how-to-execute-an-x-day-workout/
@@ -3923,7 +3935,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-21dbecf9-3965-3b2b-a625-fc02fdfefed8
     episode_slug: training-tuesday-how-to-execute-an-x-day-workout
     episode_key: training-tuesday-how-to-execute-an-x-day-workout
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/the-running-public/training-tuesday-how-to-execute-an-x-day-workout/"
   - episode_title: 'Episode 619: Listener Questions'
     episode_url: https://therunningpublic.podbean.com/e/episode-619-listener-questions/
@@ -3935,7 +3947,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-20dede78-83f8-327e-9f25-33479c2404bd
     episode_slug: episode-619-listener-questions
     episode_key: episode-619-listener-questions
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/the-running-public/episode-619-listener-questions/"
   - episode_title: 'Episode 618: How Soon is Too Soon (between long races)?'
     episode_url: https://therunningpublic.podbean.com/e/episode-618-how-soon-is-too-soon-between-long-races/
@@ -3947,7 +3959,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7a91930f-7463-35d9-858a-453fbc73630d
     episode_slug: episode-618-how-soon-is-too-soon-between-long-races
     episode_key: episode-618-how-soon-is-too-soon-between-long-races
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/the-running-public/episode-618-how-soon-is-too-soon-between-long-races/"
   - episode_title: 'Training Tuesday: Our Coaching Journey'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-our-coaching-journey/
@@ -3959,7 +3971,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-75418fbb-c6ba-365a-b282-c643c18cea4a
     episode_slug: training-tuesday-our-coaching-journey
     episode_key: training-tuesday-our-coaching-journey
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/the-running-public/training-tuesday-our-coaching-journey/"
   - episode_title: 'Episode 616: DJ Fox'
     episode_url: https://therunningpublic.podbean.com/e/episode-616-dj-fox/
@@ -3971,7 +3983,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-006989ef-d4c3-38f4-96fc-b1451f191d3c
     episode_slug: episode-616-dj-fox
     episode_key: episode-616-dj-fox
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/the-running-public/episode-616-dj-fox/"
   - episode_title: 'Episode 615: Drug Use Among Amateurs'
     episode_url: https://therunningpublic.podbean.com/e/episode-615-drug-use-among-amateurs/
@@ -3983,7 +3995,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-09864ed5-27fe-34b7-85fc-9bd821c026d8
     episode_slug: episode-615-drug-use-among-amateurs
     episode_key: episode-615-drug-use-among-amateurs
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/the-running-public/episode-615-drug-use-among-amateurs/"
   - episode_title: 'Training Tuesday: Superior Trail 50k Recap & Learnings'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-superior-trail-50k-recap-learnings/
@@ -3995,7 +4007,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-5a667df6-52ae-3ce2-acb5-bac6a5aeb800
     episode_slug: training-tuesday-superior-trail-50k-recap-learnings
     episode_key: training-tuesday-superior-trail-50k-recap-learnings
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/the-running-public/training-tuesday-superior-trail-50k-recap-learnings/"
   - episode_title: 'Episode 613: Superior 50k Preview!'
     episode_url: https://therunningpublic.podbean.com/e/episode-613-superior-59k-preview/
@@ -4007,7 +4019,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-7ee6787f-f7e8-3f04-936d-dbf31ca64942
     episode_slug: episode-613-superior-50k-preview
     episode_key: episode-613-superior-50k-preview
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/the-running-public/episode-613-superior-50k-preview/"
   - episode_title: 'Training Tuesday: Hyrox with Lizzie May'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-hyrox-with-lizzie-may/
@@ -4019,7 +4031,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-4b39c8b9-f82e-3bc7-b119-f7fa215693af
     episode_slug: training-tuesday-hyrox-with-lizzie-may
     episode_key: training-tuesday-hyrox-with-lizzie-may
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/the-running-public/training-tuesday-hyrox-with-lizzie-may/"
   - episode_title: 'Episode 611: Q&A Session'
     episode_url: https://therunningpublic.podbean.com/e/episode-611-qa-session/
@@ -4031,7 +4043,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-ce11125c-60e8-3cb3-9b89-e4f2349fa165
     episode_slug: episode-611-q-a-session
     episode_key: episode-611-q-a-session
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/the-running-public/episode-611-q-a-session/"
   - episode_title: 'Training Tuesday: Should You Ignore Heart Rate During Trail Races?'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-should-you-ignore-heart-rate-during-trail-races/
@@ -4043,7 +4055,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b9d17edc-b29c-35e4-8e0c-7f15780b6ae0
     episode_slug: training-tuesday-should-you-ignore-heart-rate-during-trail-races
     episode_key: training-tuesday-should-you-ignore-heart-rate-during-trail-races
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/the-running-public/training-tuesday-should-you-ignore-heart-rate-during-trail-races/"
   - episode_title: 'Episode 609: Natalie Hatch'
     episode_url: https://therunningpublic.podbean.com/e/episode-609-natalie-hatch/
@@ -4055,7 +4067,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-a5f0a569-c829-376d-848f-e17ab01d4d21
     episode_slug: episode-609-natalie-hatch
     episode_key: episode-609-natalie-hatch
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/the-running-public/episode-609-natalie-hatch/"
   - episode_title: 'Training Tuesday: Why Has Running Become So Dang Fast??'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-why-has-running-become-so-dang-fast/
@@ -4067,7 +4079,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-30122d0b-c1d2-3f51-a4b0-eeb19103098c
     episode_slug: training-tuesday-why-has-running-become-so-dang-fast
     episode_key: training-tuesday-why-has-running-become-so-dang-fast
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/the-running-public/training-tuesday-why-has-running-become-so-dang-fast/"
   - episode_title: 'Episode 607: Hans Troyer'
     episode_url: https://therunningpublic.podbean.com/e/episode-607-hans-troyer/
@@ -4079,7 +4091,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-b88451ad-982e-3f58-bb98-f34a73e06dee
     episode_slug: episode-607-hans-troyer
     episode_key: episode-607-hans-troyer
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/the-running-public/episode-607-hans-troyer/"
   - episode_title: 'Training Tuesday: Overuse Injuries & Lower Body Strengthening with Dr Patrick'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-brian/
@@ -4091,7 +4103,7 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-bb100ec9-df93-3bde-bb6c-dd68235048cd
     episode_slug: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
     episode_key: training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/the-running-public/training-tuesday-overuse-injuries-lower-body-strengthening-with-dr-patrick/"
   - episode_title: 'Training Tuesday: Fueling for Ultras'
     episode_url: https://therunningpublic.podbean.com/e/training-tuesday-fueling-for-ultras/
@@ -4103,20 +4115,8 @@ episodes_by_feed:
     episode_uid: therunningpublic-podbean-com-31ac0353-109f-35ea-92aa-b0e623683f6b
     episode_slug: training-tuesday-fueling-for-ultras
     episode_key: training-tuesday-fueling-for-ultras
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
-  - episode_title: 'Episode 604: Talkin’ Shop!'
-    episode_url: https://therunningpublic.podbean.com/e/episode-604-talkin-shop/
-    audio_url: https://mcdn.podbean.com/mf/web/y2z97nva2ukvsvhg/2_clips_Edit_28_b821b.mp3
-    published_at: '2026-04-10T21:29:04-05:00'
-    description_html: "<p>The boys are reunited so it’s time to catch up with some training talk!</p>"
-    description_plain: The boys are reunited so it’s time to catch up with some training talk!
-    episode_image_url: https://pbcdn1.podbean.com/imglogo/ep-logo/pbblog7193256/Listener_Submitted_Q_Aa4ib4.png
-    episode_uid: therunningpublic-podbean-com-bdd48273-55a5-3db8-9232-8287be664f72
-    episode_slug: episode-604-talkin-shop
-    episode_key: episode-604-talkin-shop
     legacy_numbered_slug: episode-25
-    episode_page_url: "/the-running-public/episode-604-talkin-shop/"
+    episode_page_url: "/the-running-public/training-tuesday-fueling-for-ultras/"
   https://anchor.fm/s/f9f56780/podcast/rss: &11
   - episode_title: 'Take Off Your Shoes: Toni McCann'
     episode_url: https://podcasters.spotify.com/pod/show/boraergor/episodes/Take-Off-Your-Shoes-Toni-McCann-e3l7i9s
@@ -14319,6 +14319,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/hysteria/the-manosphere-grift/"
   https://anchor.fm/s/f1fb88c/podcast/rss: &47
+  - episode_title: "#340 Tommie Runz - Run Culture Court + Recapping Solo Speed Project & Western States 100"
+    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/340-Tommie-Runz---Run-Culture-Court--Recapping-Solo-Speed-Project--Western-States-100-e3m8dhv
+    audio_url: https://traffic.megaphone.fm/APO9309010372.mp3
+    published_at: '2026-07-18T18:36:38+00:00'
+    description_html: '<p>TRACK MEET SIGNUP:</p><p>https://runsignup.com/Race/KY/Louisville/LifeInStriderTrackNight</p><p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had special guest Tommie Runz on the podcast! Tommie is a running content creator + inspiring athlete! He has run many marathons, including 6 of the World Marathon Majors, but recently completed both the solo Speed Project run from Los Angeles to Las Vegas and Western States 100!</p><p>We talked about leaving his job to go full-time content recently, his recent big races + had a very funny and long rapid fire on this episode. Enjoy!</p><p>FOLLOW TOMMIE</p><p>IG: <a href="https://www.instagram.com/tommie_runz/?hl=en" target="_blank" rel="ugc noopener noreferrer">https://www.instagram.com/tommie_runz/?hl=en</a></p>'
+    description_plain: 'TRACK MEET SIGNUP: https://runsignup.com/Race/KY/Louisville/LifeInStriderTrackNight Visit lisrunning.com to be coached by us! On this episode, we had special guest Tommie Runz on the podcast! Tommie is a running content creator + inspiring athlete! He has run many marathons, including 6 of the World Marathon Majors, but recently completed both the solo Speed Project run from Los Angeles to Las Vegas and Western States 100! We talked about leaving his job to go full-time content recently, his recent big races + had a very funny and long rapid fire on this episode. Enjoy! FOLLOW TOMMIE IG: https://www.instagram.com/tommie_runz/?hl=en'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
+    episode_uid: 7a987cc8-5776-4911-afb1-889e67575ca0
+    episode_slug: 340-tommie-runz-run-culture-court-recapping-solo-speed-project-western-states-100
+    episode_key: 340-tommie-runz-run-culture-court-recapping-solo-speed-project-western-states-100
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/life-in-stride/340-tommie-runz-run-culture-court-recapping-solo-speed-project-western-states-100/"
   - episode_title: "#339 Daniel Michalski - From Division II Running to World Class Steeplechaser Training with Ed Eyestone"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/339-Daniel-Michalski---From-Division-II-Running-to-World-Class-Steeplechaser-Training-with-Ed-Eyestone-e3m5qnu
     audio_url: https://traffic.megaphone.fm/APO1195108968.mp3
@@ -14329,7 +14341,7 @@ episodes_by_feed:
     episode_uid: 57db4165-e3dd-4e84-8e4c-b9671763ea5a
     episode_slug: 339-daniel-michalski-from-division-ii-running-to-world-class-steeplechaser-training-with-ed-eyestone
     episode_key: 339-daniel-michalski-from-division-ii-running-to-world-class-steeplechaser-training-with-ed-eyestone
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/life-in-stride/339-daniel-michalski-from-division-ii-running-to-world-class-steeplechaser-training-with-ed-eyestone/"
   - episode_title: "#338 - Josh Kerr Mile WR Preview, Charles Hicks American Record at Chicago?, Monaco DL Recap"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/338---Josh-Kerr-Mile-WR-Preview--Charles-Hicks-American-Record-at-Chicago---Monaco-DL-Recap-e3m34f4
@@ -14341,7 +14353,7 @@ episodes_by_feed:
     episode_uid: d8d1d90d-8059-4f2c-b0a7-0ffa53a0e61e
     episode_slug: 338-josh-kerr-mile-wr-preview-charles-hicks-american-record-at-chicago-monaco-dl-recap
     episode_key: 338-josh-kerr-mile-wr-preview-charles-hicks-american-record-at-chicago-monaco-dl-recap
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/life-in-stride/338-josh-kerr-mile-wr-preview-charles-hicks-american-record-at-chicago-monaco-dl-recap/"
   - episode_title: "#337 Dr. Bill Evans - Improving VO2 Max, Structuring a Marathon Build, Heat Training + Does Nomio Really Work?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/337-Dr--Bill-Evans---Improving-VO2-Max--Structuring-a-Marathon-Build--Heat-Training--Does-Nomio-Really-Work-e3m0ke3
@@ -14353,7 +14365,7 @@ episodes_by_feed:
     episode_uid: 1de62021-fef9-4c94-b6da-1505c93a32c2
     episode_slug: 337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work
     episode_key: 337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/life-in-stride/337-dr-bill-evans-improving-vo2-max-structuring-a-marathon-build-heat-training-does-nomio-really-work/"
   - episode_title: "#336 Rory Leonard - Why the British 10k Record Holder is Making a Team Change + New Training Setup"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/336-Rory-Leonard---Why-the-British-10k-Record-Holder-is-Making-a-Team-Change--New-Training-Setup-e3lv2cq
@@ -14365,7 +14377,7 @@ episodes_by_feed:
     episode_uid: 0b5c07ff-ff9c-477e-bcad-ddf7516d3f75
     episode_slug: 336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup
     episode_key: 336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/life-in-stride/336-rory-leonard-why-the-british-10k-record-holder-is-making-a-team-change-new-training-setup/"
   - episode_title: "#335 - We Are Hosting a Track Meet, Should You Use HR in Training, Danny & Scotty Doing Hyrox?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/335---We-Are-Hosting-a-Track-Meet--Should-You-Use-HR-in-Training--Danny--Scotty-Doing-Hyrox-e3lscb2
@@ -14377,7 +14389,7 @@ episodes_by_feed:
     episode_uid: 6c18a8e2-804c-4775-aa93-7af273e0481e
     episode_slug: 335-we-are-hosting-a-track-meet-should-you-use-hr-in-training-danny-scotty-doing-hyrox
     episode_key: 335-we-are-hosting-a-track-meet-should-you-use-hr-in-training-danny-scotty-doing-hyrox
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/life-in-stride/335-we-are-hosting-a-track-meet-should-you-use-hr-in-training-danny-scotty-doing-hyrox/"
   - episode_title: "#334 - Pre Classic Recap, Strieg’s 10k Race, Ethan Shuley vs Vincent Mauri"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/334---Pre-Classic-Recap--Striegs-10k-Race--Ethan-Shuley-vs-Vincent-Mauri-e3loidu
@@ -14389,7 +14401,7 @@ episodes_by_feed:
     episode_uid: 57bfa169-101a-4eb0-9554-c38481a0af91
     episode_slug: 334-pre-classic-recap-strieg-s-10k-race-ethan-shuley-vs-vincent-mauri
     episode_key: 334-pre-classic-recap-strieg-s-10k-race-ethan-shuley-vs-vincent-mauri
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/life-in-stride/334-pre-classic-recap-strieg-s-10k-race-ethan-shuley-vs-vincent-mauri/"
   - episode_title: "#333 Alex Beach - 4:30 to 2:24 in the Marathon in 3 Years, Heat Training Tips From Doing 100 Mile Weeks in Miami"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/333-Alex-Beach---430-to-224-in-the-Marathon-in-3-Years--Heat-Training-Tips-From-Doing-100-Mile-Weeks-in-Miami-e3lmuae
@@ -14401,7 +14413,7 @@ episodes_by_feed:
     episode_uid: 1e26eb24-db10-448c-b237-1a3d17b1e561
     episode_slug: 333-alex-beach-4-30-to-2-24-in-the-marathon-in-3-years-heat-training-tips-from-doing-100-mile-weeks-in-miami
     episode_key: 333-alex-beach-4-30-to-2-24-in-the-marathon-in-3-years-heat-training-tips-from-doing-100-mile-weeks-in-miami
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/life-in-stride/333-alex-beach-4-30-to-2-24-in-the-marathon-in-3-years-heat-training-tips-from-doing-100-mile-weeks-in-miami/"
   - episode_title: "#332 - Hot Takes on Satisfy Running, Chicago Marathon & Western States, Responding to the Comments, Berlin Marathon Planning"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/332---Hot-Takes-on-Satisfy-Running--Chicago-Marathon--Western-States--Responding-to-the-Comments--Berlin-Marathon-Planning-e3lkndu
@@ -14413,7 +14425,7 @@ episodes_by_feed:
     episode_uid: 4a514492-1bc4-41b6-8f0f-33277f9b00a5
     episode_slug: 332-hot-takes-on-satisfy-running-chicago-marathon-western-states-responding-to-the-comments-berlin-marathon-planning
     episode_key: 332-hot-takes-on-satisfy-running-chicago-marathon-western-states-responding-to-the-comments-berlin-marathon-planning
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/life-in-stride/332-hot-takes-on-satisfy-running-chicago-marathon-western-states-responding-to-the-comments-berlin-marathon-planning/"
   - episode_title: "#331 - Corbin Goes 2:20 at Grandma's, Western States 100 + Paris Diamond League Recap, Mile WR Next Weekend?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/331---Corbin-Goes-220-at-Grandmas--Western-States-100--Paris-Diamond-League-Recap--Mile-WR-Next-Weekend-e3lhni0
@@ -14425,7 +14437,7 @@ episodes_by_feed:
     episode_uid: 8dfe336e-8286-4e5a-a10a-8fdbeff30442
     episode_slug: 331-corbin-goes-2-20-at-grandma-s-western-states-100-paris-diamond-league-recap-mile-wr-next-weekend
     episode_key: 331-corbin-goes-2-20-at-grandma-s-western-states-100-paris-diamond-league-recap-mile-wr-next-weekend
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/life-in-stride/331-corbin-goes-2-20-at-grandma-s-western-states-100-paris-diamond-league-recap-mile-wr-next-weekend/"
   - episode_title: "#330 - Hanes/Canaday Drama on Rogan, London Marathon Goes Two Days, Mile vs Marathon Fitness"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/330---HanesCanaday-Drama-on-Rogan--London-Marathon-Goes-Two-Days--Mile-vs-Marathon-Fitness-e3lflat
@@ -14437,7 +14449,7 @@ episodes_by_feed:
     episode_uid: 8604c838-5d71-4103-a298-958e41742e3b
     episode_slug: 330-hanes-canaday-drama-on-rogan-london-marathon-goes-two-days-mile-vs-marathon-fitness
     episode_key: 330-hanes-canaday-drama-on-rogan-london-marathon-goes-two-days-mile-vs-marathon-fitness
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/life-in-stride/330-hanes-canaday-drama-on-rogan-london-marathon-goes-two-days-mile-vs-marathon-fitness/"
   - episode_title: "#329 - Dominic Schlueter Banters With the Boys"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/329---Dominic-Schlueter-Banters-With-the-Boys-e3ldhlr
@@ -14449,7 +14461,7 @@ episodes_by_feed:
     episode_uid: da6836fa-e5ed-430f-9cc3-6e5ca52c7663
     episode_slug: 329-dominic-schlueter-banters-with-the-boys
     episode_key: 329-dominic-schlueter-banters-with-the-boys
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/life-in-stride/329-dominic-schlueter-banters-with-the-boys/"
   - episode_title: "#328 Gabby Hentemann - Grandma’s Marathon Recap, Running 140 Mile Weeks in Texas, Thoughts on Olympic Trials in St. Louis"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/328-Gabby-Hentemann---Grandmas-Marathon-Recap--Running-140-Mile-Weeks-in-Texas--Thoughts-on-Olympic-Trials-in-St--Louis-e3lbqjq
@@ -14461,7 +14473,7 @@ episodes_by_feed:
     episode_uid: 15c4299d-e4d3-4c8a-8bef-2b89766eada6
     episode_slug: 328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis
     episode_key: 328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/life-in-stride/328-gabby-hentemann-grandma-s-marathon-recap-running-140-mile-weeks-in-texas-thoughts-on-olympic-trials-in-st-louis/"
   - episode_title: "#327 Ryan Carney - How to Structure a Marathon Block + Run PRs in Your Late 30s/40s"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/327-Ryan-Carney---How-to-Structure-a-Marathon-Block--Run-PRs-in-Your-Late-30s40s-e3l9cv5
@@ -14473,7 +14485,7 @@ episodes_by_feed:
     episode_uid: 626b4e4e-1e34-4724-b557-bad7624769be
     episode_slug: 327-ryan-carney-how-to-structure-a-marathon-block-run-prs-in-your-late-30s-40s
     episode_key: 327-ryan-carney-how-to-structure-a-marathon-block-run-prs-in-your-late-30s-40s
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/life-in-stride/327-ryan-carney-how-to-structure-a-marathon-block-run-prs-in-your-late-30s-40s/"
   - episode_title: "#326 Brady Holmer - 2:27 at Grandma’s Marathon with Heavy Cross-Training & No Structured Long Runs + Thoughts on Ketones, Creatine & Sauna Protocol"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/326-Brady-Holmer---227-at-Grandmas-Marathon-with-Heavy-Cross-Training--No-Structured-Long-Runs--Thoughts-on-Ketones--Creatine--Sauna-Protocol-e3l6ppq
@@ -14485,7 +14497,7 @@ episodes_by_feed:
     episode_uid: 41475011-d960-414e-a053-daae444ff15e
     episode_slug: 326-brady-holmer-2-27-at-grandma-s-marathon-with-heavy-cross-training-no-structured-long-runs-thoughts-on-ketones-creati
     episode_key: 326-brady-holmer-2-27-at-grandma-s-marathon-with-heavy-cross-training-no-structured-long-runs-thoughts-on-ketones-creati
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/life-in-stride/326-brady-holmer-2-27-at-grandma-s-marathon-with-heavy-cross-training-no-structured-long-runs-thoughts-on-ketones-creati/"
   - episode_title: "#325 Devin Meyrer - How to Win the Mental Battle, The Michigan Workout Story, Grandma's Marathon Preview"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/325-Devin-Meyrer---How-to-Win-the-Mental-Battle--The-Michigan-Workout-Story--Grandmas-Marathon-Preview-e3l56m7
@@ -14497,7 +14509,7 @@ episodes_by_feed:
     episode_uid: 4432b65a-98a3-4a6e-aa76-c7ab9c633722
     episode_slug: 325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview
     episode_key: 325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/life-in-stride/325-devin-meyrer-how-to-win-the-mental-battle-the-michigan-workout-story-grandma-s-marathon-preview/"
   - episode_title: "#324 - Strieg Becomes a Dad, Danny Goes on the Today Show in Europe, Is Climbing Mt. Everest Impressive?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/324---Strieg-Becomes-a-Dad--Danny-Goes-on-the-Today-Show-in-Europe--Is-Climbing-Mt--Everest-Impressive-e3l27mr
@@ -14509,7 +14521,7 @@ episodes_by_feed:
     episode_uid: f227f64c-e60c-4b8d-be67-b5b95556372a
     episode_slug: 324-strieg-becomes-a-dad-danny-goes-on-the-today-show-in-europe-is-climbing-mt-everest-impressive
     episode_key: 324-strieg-becomes-a-dad-danny-goes-on-the-today-show-in-europe-is-climbing-mt-everest-impressive
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/life-in-stride/324-strieg-becomes-a-dad-danny-goes-on-the-today-show-in-europe-is-climbing-mt-everest-impressive/"
   - episode_title: "#323 Alex Scearce - Scotty Interviews His Wife on Her Running Journey & Chasing the OTQ + How They Balance Family & Training"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/323-Alex-Scearce---Scotty-Interviews-His-Wife-on-Her-Running-Journey--Chasing-the-OTQ--How-They-Balance-Family--Training-e3kvknf
@@ -14521,7 +14533,7 @@ episodes_by_feed:
     episode_uid: 21cd9e4f-2f5c-4eb8-a80e-b5d85897417d
     episode_slug: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
     episode_key: 323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/life-in-stride/323-alex-scearce-scotty-interviews-his-wife-on-her-running-journey-chasing-the-otq-how-they-balance-family-training/"
   - episode_title: "#322 Toni Roca Diaz - 3:26 to 2:23 in the Marathon, Working at Saysky as Athlete/PR Manager + the 17k Run Interview To Get the Job"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/322-Toni-Roca-Diaz---326-to-223-in-the-Marathon--Working-at-Saysky-as-AthletePR-Manager--the-17k-Run-Interview-To-Get-the-Job-e3ksjda
@@ -14533,7 +14545,7 @@ episodes_by_feed:
     episode_uid: 3b0089d1-317a-49a3-ba8a-ba032d75e88e
     episode_slug: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
     episode_key: 322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/life-in-stride/322-toni-roca-diaz-3-26-to-2-23-in-the-marathon-working-at-saysky-as-athlete-pr-manager-the-17k-run-interview-to-get-the/"
   - episode_title: "#321 - NCAA Track Champs, Cole Hocker Injury + Parker Valby Impresses, USA Best 800/1500 Country?"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/321---NCAA-Track-Champs--Cole-Hocker-Injury--Parker-Valby-Impresses--USA-Best-8001500-Country-e3krabm
@@ -14545,7 +14557,7 @@ episodes_by_feed:
     episode_uid: 6c77c09f-0e3d-401b-97e3-f86419bc25ea
     episode_slug: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
     episode_key: 321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/life-in-stride/321-ncaa-track-champs-cole-hocker-injury-parker-valby-impresses-usa-best-800-1500-country/"
   - episode_title: "#320 Will Loevner - From MTB/Gravel Cyclist to 2:13 Marathon, OTQ Marathon + Winning 2026 Pittsburgh Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/320-Will-Loevner---From-MTBGravel-Cyclist-to-213-Marathon--OTQ-Marathon--Winning-2026-Pittsburgh-Marathon-e3kpgg2
@@ -14557,7 +14569,7 @@ episodes_by_feed:
     episode_uid: 60888aa9-c59a-4a18-84f1-39e4938c0cdf
     episode_slug: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
     episode_key: 320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/life-in-stride/320-will-loevner-from-mtb-gravel-cyclist-to-2-13-marathon-otq-marathon-winning-2026-pittsburgh-marathon/"
   - episode_title: "#319 Bats in the Basement, Top Running Vacation Spot, Scotty is Getting Jet Skis"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/319-Bats-in-the-Basement--Top-Running-Vacation-Spot--Scotty-is-Getting-Jet-Skis-e3knljd
@@ -14569,7 +14581,7 @@ episodes_by_feed:
     episode_uid: 89a23aa3-91f8-4394-84c9-80f5ef5e8508
     episode_slug: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
     episode_key: 319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/life-in-stride/319-bats-in-the-basement-top-running-vacation-spot-scotty-is-getting-jet-skis/"
   - episode_title: "#318 Vince Ciattei - Running 3:30 in the 1500m, What a Diamond League Meet is Really Like, Full Training Breakdown"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/318-Vince-Ciattei---Running-330-in-the-1500m--What-a-Diamond-League-Meet-is-Really-Like--Full-Training-Breakdown-e3kkrru
@@ -14581,7 +14593,7 @@ episodes_by_feed:
     episode_uid: 360e1502-3822-460e-a9ad-95133f8be633
     episode_slug: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
     episode_key: 318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/life-in-stride/318-vince-ciattei-running-3-30-in-the-1500m-what-a-diamond-league-meet-is-really-like-full-training-breakdown/"
   - episode_title: "#317 - European Running Etiquette, Different Dialed Levels, Strieg Final Pre-Parent Thoughts"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/317---European-Running-Etiquette--Different-Dialed-Levels--Strieg-Final-Pre-Parent-Thoughts-e3kj32m
@@ -14593,7 +14605,7 @@ episodes_by_feed:
     episode_uid: b3d4320e-10ca-4970-bf45-82a7d71777c4
     episode_slug: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
     episode_key: 317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/life-in-stride/317-european-running-etiquette-different-dialed-levels-strieg-final-pre-parent-thoughts/"
   - episode_title: "#316 John Bizzell - Winning the Area 51 Marathon, 2:56 Marathons Back to Back at Newport/Boston, Louisville Running Community"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/316-John-Bizzell---Winning-the-Area-51-Marathon--256-Marathons-Back-to-Back-at-NewportBoston--Louisville-Running-Community-e3kfbtb
@@ -14605,20 +14617,8 @@ episodes_by_feed:
     episode_uid: 2047b626-5a75-4db1-a14f-8a8c3066cce3
     episode_slug: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
     episode_key: 316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/life-in-stride/316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community/"
-  - episode_title: "#315 Dylan Belles - 2:18 for 2nd Place at the Bayshore Marathon, Fast Finish Long Runs, Carb Load Worth It?"
-    episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/315-Dylan-Belles---218-for-2nd-Place-at-the-Bayshore-Marathon--Fast-Finish-Long-Runs--Carb-Load-Worth-It-e3ke741
-    audio_url: https://traffic.megaphone.fm/APO5910115089.mp3
-    published_at: '2026-06-06T20:14:40+00:00'
-    description_html: '<p>Visit <a href="http://lisrunning.com" target="_blank" rel="ugc noopener noreferrer">lisrunning.com</a> to be coached by us!</p><p>On this episode, we had our good friend Dylan Belles on after the Bayshore Marathon where he took second place in a time of 2 hours and 18 minutes! Dylan is a 2x Olympic Trials Qualifier and is hoping for round three this time around!</p><p>Dylan changed his training stimulus up a bit this block, doing more 10k-half marathon styled training to see how it went for the full. His main objective was to win Bayshore + have a great half-marathon tune up race! His tune up went great -running a quick 1:05:43 half marathon PR in Indy!</p><p>We went through Dylan’s race recap, training block, and heard how his carb load went. This was a fun one - it’s always more banter than interview style with Dylan! Enjoy!</p><p>FOLLOW DYLAN:</p><p>IG: <a href="https://www.instagram.com/runlikedylan/?hl=en" target="_blank" rel="ugc noopener noreferrer">https://www.instagram.com/runlikedylan/?hl=en</a></p><p>FOLLOW US ON STRAVA</p><p>Chris</p><p>https://www.strava.com/athletes/29985667</p><p>Scotty</p><p>https://www.strava.com/athletes/98633526</p><p>Danny</p><p>https://www.strava.com/athletes/23504210</p><p>CHECK OUT OUR INSTAGRAM</p><p>https://www.instagram.com/lifeinstridepodcast/</p><p>QALO QRNT SMART RING 10% OFF</p><p><a href="http://qalo.com/lifeinstride">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>SWIFTWICK SOCKS</p><p>https://swiftwick.com/</p><p>15% off code: LIFEINSTRIDE</p><p>KEN COMBS RUNNING STORE</p><p>https://www.kencombsrunningstore.com/</p><p>10% off code: LIFEINSTRIDE</p><p>MASON CONSTRUCTION</p><p>https://www.masonconstructionanddev.com/</p><p>INSTA360 Affiliate code:</p><p>INRSGUOCSXX</p><p>CARBS FUEL</p><p>carbsfuel.com</p><p>15% off: LIFEINSTRIDE</p><p>SWITCHBACK ELECTROLYTES</p><p>https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ</p><p>15% Off Code: OTQBOYZ</p><p>CHECK OUT OUR YOUTUBE CHANNEL:</p><p>https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX</p>'
-    description_plain: 'Visit lisrunning.com to be coached by us! On this episode, we had our good friend Dylan Belles on after the Bayshore Marathon where he took second place in a time of 2 hours and 18 minutes! Dylan is a 2x Olympic Trials Qualifier and is hoping for round three this time around! Dylan changed his training stimulus up a bit this block, doing more 10k-half marathon styled training to see how it went for the full. His main objective was to win Bayshore + have a great half-marathon tune up race! His tune up went great -running a quick 1:05:43 half marathon PR in Indy! We went through Dylan’s race recap, training block, and heard how his carb load went. This was a fun one - it’s always more banter than interview style with Dylan! Enjoy! FOLLOW DYLAN: IG: https://www.instagram.com/runlikedylan/?hl=en FOLLOW US ON STRAVA Chris https://www.strava.com/athletes/29985667 Scotty https://www.strava.com/athletes/98633526 Danny https://www.strava.com/athletes/23504210 CHECK OUT OUR INSTAGRAM https://www.instagram.com/lifeinstridepodcast/ QALO QRNT SMART RING 10% OFF ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠qalo.com/lifeinstride⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ SWIFTWICK SOCKS https://swiftwick.com/ 15% off code: LIFEINSTRIDE KEN COMBS RUNNING STORE https://www.kencombsrunningstore.com/ 10% off code: LIFEINSTRIDE MASON CONSTRUCTION https://www.masonconstructionanddev.com/ INSTA360 Affiliate code: INRSGUOCSXX CARBS FUEL carbsfuel.com 15% off: LIFEINSTRIDE SWITCHBACK ELECTROLYTES https://goswitchback.co?sca_ref=6278891.uVBEGmtjbbUlcGPZ 15% Off Code: OTQBOYZ CHECK OUT OUR YOUTUBE CHANNEL: https://youtube.com/@LifeInStridePodcast?si=icd7XfQ4HMmuBRyX'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2437371/2437371-1702857926231-282b4b74ade4d.jpg
-    episode_uid: bc51a5f5-c39f-40b4-99c0-c429374bdf7b
-    episode_slug: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
-    episode_key: 315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it
     legacy_numbered_slug: episode-25
-    episode_page_url: "/life-in-stride/315-dylan-belles-2-18-for-2nd-place-at-the-bayshore-marathon-fast-finish-long-runs-carb-load-worth-it/"
+    episode_page_url: "/life-in-stride/316-john-bizzell-winning-the-area-51-marathon-2-56-marathons-back-to-back-at-newport-boston-louisville-running-community/"
   https://publicfeeds.net/f/3492/feed-rss.xml: &48
   - episode_title: A Guncle’s Tale with Griff Stark Ennis
     episode_url: https://play.prx.org/listen?ge=prx_3492_e67a3ae0-65af-4a3d-b911-fb80d1f88abc&uf=https%3A%2F%2Fpublicfeeds.net%2Ff%2F3492%2Ffeed-rss.xml
@@ -23992,18 +23992,18 @@ episodes_by_feed:
     episode_key: most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track
     legacy_numbered_slug: episode-07
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track/"
-  - episode_title: 'Dr. Martin Picard: How Stress Physically Drains Your Cells, Why You’re Tired & How to Reverse It'
+  - episode_title: 'Anti-Aging Expert: This Reverses Gray Hair & Boosts Your Energy!'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=wk2nwlsq4lgk2wy3i3q7nxfa
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=mlxyarlx12omk7tsqga9msuf
     published_at: '2026-07-02T05:22:37Z'
     description_html: '<p class="text-node">The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age!</p><p class="text-node">Dr Martin Picard is a Professor of Behavioral Medicine and Director of the Mitochondrial Psychobiology Group, who specialises in how stress, emotions and lived experiences affect your mitochondria. He recently published the world''s first map of mitochondria in the human brain and is also the author of the upcoming book, ‘Energy’.</p><p class="text-node">He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them</p><p class="text-node">Follow Dr Martin: Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/BqY0OhF">https://link.thediaryofaceo.com/BqY0OhF</a> Substack - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/4aOc0rk">https://link.thediaryofaceo.com/4aOc0rk</a> Metabolic Psychiatry and Ketogenic Diet - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/GexHJoI">https://link.thediaryofaceo.com/GexHJoI</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/Fs8WGvj">https://link.thediaryofaceo.com/Fs8WGvj</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/BsNZ7vH">https://link.thediaryofaceo.com/BsNZ7vH</a> You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/5jW5yUA">https://link.thediaryofaceo.com/5jW5yUA</a></p><p class="text-node">The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a> ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a> ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a> ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a> ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a> ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a>  Sponsors: KetoneIQ - Visit <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/STEVEN">https://ketone.com/STEVEN</a> for 30% off your subscription order Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://cometeer.com/DOAC">https://cometeer.com/DOAC</a> use code DOAC for $20 off Bon Charge: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://boncharge.com/DOAC">https://boncharge.com/DOAC</a> for 20% off</p>'
     description_plain: 'The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age! Dr Martin Picard is a Professor of Behavioral Medicine and Director of the Mitochondrial Psychobiology Group, who specialises in how stress, emotions and lived experiences affect your mitochondria. He recently published the world''s first map of mitochondria in the human brain and is also the author of the upcoming book, ‘Energy’. He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them Follow Dr Martin: Website - https://link.thediaryofaceo.com/BqY0OhF Substack - https://link.thediaryofaceo.com/4aOc0rk Metabolic Psychiatry and Ketogenic Diet - https://link.thediaryofaceo.com/GexHJoI X - https://link.thediaryofaceo.com/Fs8WGvj Instagram - https://link.thediaryofaceo.com/BsNZ7vH You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: https://link.thediaryofaceo.com/5jW5yUA The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: KetoneIQ - Visit https://ketone.com/STEVEN for 30% off your subscription order Cometeer - https://cometeer.com/DOAC use code DOAC for $20 off Bon Charge: https://boncharge.com/DOAC for 20% off'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KWGKWEFH9HN2N2T5TXV4NKGX/dr._martin_plcard.ep_cover_.jpg
     episode_uid: flightcast-01kwgkvp7ck70b0v0tba66ndaa
-    episode_slug: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
-    episode_key: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
+    episode_slug: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
+    episode_key: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
     legacy_numbered_slug: episode-08
-    episode_page_url: "/the-diary-of-a-ceo/dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it/"
+    episode_page_url: "/the-diary-of-a-ceo/anti-aging-expert-this-reverses-gray-hair-boosts-your-energy/"
   - episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KW360AZ5WMQFTCMQBDWEDQ1A.mp3
