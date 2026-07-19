@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-19T05:09:59Z'
+generated_at: '2026-07-19T06:58:04Z'
 items:
 - podcast_title: The Running Public
   podcast_page_url: "/the-running-public/"
@@ -782,6 +782,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Ruth Kvarnström-Jones
+  episode_url: https://www.sverigesradio.se/avsnitt/2815520
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_ruth_kvarnstro_20260716_0915348061.mp3
+  published_at: '2026-07-19T11:00:00Z'
+  episode_key: ruth-kvarnstrom-jones
+  episode_slug: ruth-kvarnstrom-jones
+  episode_page_url: "/sommar-vinter-i-p1/ruth-kvarnstrom-jones/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -830,18 +842,6 @@ non_running_items:
   episode_key: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
   episode_slug: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
   episode_page_url: "/forklart/kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Jan Rippe
-  episode_url: https://www.sverigesradio.se/avsnitt/2815469
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_jan_rippe_podd_ny_20260708_1412380380.mp3
-  published_at: '2026-07-18T11:00:00Z'
-  episode_key: jan-rippe
-  episode_slug: jan-rippe
-  episode_page_url: "/sommar-vinter-i-p1/jan-rippe/"
 - podcast_title: Offline with Jon Favreau
   podcast_page_url: "/offline-with-jon-favreau/"
   cover_image: "/media/offline.jpeg"
@@ -19554,6 +19554,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/jobben-ingen-mestrer-er-burnham-britenes-nye-hap/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Ruth Kvarnström-Jones
+    episode_url: https://www.sverigesradio.se/avsnitt/2815520
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_ruth_kvarnstro_20260716_0915348061.mp3
+    published_at: '2026-07-19T11:00:00Z'
+    description_html: <p>Författaren om ödet som ledde henne från Storbritannien till Sverige.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Författaren om ödet som ledde henne från Storbritannien till Sverige. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815520
+    episode_slug: ruth-kvarnstrom-jones
+    episode_key: ruth-kvarnstrom-jones
+    legacy_unicode_slug: ruth-kvarnström-jones
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/ruth-kvarnstrom-jones/"
   - episode_title: Jan Rippe
     episode_url: https://www.sverigesradio.se/avsnitt/2815469
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_jan_rippe_podd_ny_20260708_1412380380.mp3
@@ -19564,7 +19577,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815469
     episode_slug: jan-rippe
     episode_key: jan-rippe
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/jan-rippe/"
   - episode_title: Anders Rosengren
     episode_url: https://www.sverigesradio.se/avsnitt/2815518
@@ -19576,7 +19589,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815518
     episode_slug: anders-rosengren
     episode_key: anders-rosengren
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/anders-rosengren/"
   - episode_title: Elaf Ali
     episode_url: https://www.sverigesradio.se/avsnitt/2815517
@@ -19588,7 +19601,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815517
     episode_slug: elaf-ali
     episode_key: elaf-ali
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/elaf-ali/"
   - episode_title: 'Poddtips: P3 ID om Melania Trump'
     episode_url: https://www.sverigesradio.se/avsnitt/2830731
@@ -19600,7 +19613,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2830731
     episode_slug: poddtips-p3-id-om-melania-trump
     episode_key: poddtips-p3-id-om-melania-trump
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/poddtips-p3-id-om-melania-trump/"
   - episode_title: Bettan Byvald
     episode_url: https://www.sverigesradio.se/avsnitt/2815516
@@ -19612,7 +19625,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815516
     episode_slug: bettan-byvald
     episode_key: bettan-byvald
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/bettan-byvald/"
   - episode_title: Ebba Kleberg von Sydow
     episode_url: https://www.sverigesradio.se/avsnitt/2815515
@@ -19624,7 +19637,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815515
     episode_slug: ebba-kleberg-von-sydow
     episode_key: ebba-kleberg-von-sydow
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/ebba-kleberg-von-sydow/"
   - episode_title: Emil Hansius
     episode_url: https://www.sverigesradio.se/avsnitt/2815511
@@ -19636,7 +19649,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815511
     episode_slug: emil-hansius
     episode_key: emil-hansius
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/emil-hansius/"
   - episode_title: Martin Modéus
     episode_url: https://www.sverigesradio.se/avsnitt/2815510
@@ -19649,7 +19662,7 @@ episodes_by_feed:
     episode_slug: martin-modeus
     episode_key: martin-modeus
     legacy_unicode_slug: martin-modéus
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/martin-modeus/"
   - episode_title: Amanda Jansson
     episode_url: https://www.sverigesradio.se/avsnitt/2815509
@@ -19661,7 +19674,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815509
     episode_slug: amanda-jansson
     episode_key: amanda-jansson
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/amanda-jansson/"
   - episode_title: Carl Skau
     episode_url: https://www.sverigesradio.se/avsnitt/2815488
@@ -19673,7 +19686,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815488
     episode_slug: carl-skau
     episode_key: carl-skau
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/carl-skau/"
   - episode_title: Evelyn Mok
     episode_url: https://www.sverigesradio.se/avsnitt/2815484
@@ -19685,7 +19698,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815484
     episode_slug: evelyn-mok
     episode_key: evelyn-mok
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
   - episode_title: Sebastian Siemiatkowski
     episode_url: https://www.sverigesradio.se/avsnitt/2815483
@@ -19697,7 +19710,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815483
     episode_slug: sebastian-siemiatkowski
     episode_key: sebastian-siemiatkowski
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
   - episode_title: Behrang Safari
     episode_url: https://www.sverigesradio.se/avsnitt/2815479
@@ -19709,7 +19722,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815479
     episode_slug: behrang-safari
     episode_key: behrang-safari
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/behrang-safari/"
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
@@ -19722,7 +19735,7 @@ episodes_by_feed:
     episode_slug: erika-bjerstrom
     episode_key: erika-bjerstrom
     legacy_unicode_slug: erika-bjerström
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/erika-bjerstrom/"
   - episode_title: Marie Göranzon
     episode_url: https://www.sverigesradio.se/avsnitt/2815477
@@ -19735,7 +19748,7 @@ episodes_by_feed:
     episode_slug: marie-goranzon
     episode_key: marie-goranzon
     legacy_unicode_slug: marie-göranzon
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/marie-goranzon/"
   - episode_title: Olof Wretling
     episode_url: https://www.sverigesradio.se/avsnitt/2815476
@@ -19747,7 +19760,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815476
     episode_slug: olof-wretling
     episode_key: olof-wretling
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/olof-wretling/"
   - episode_title: Ann Heberlein
     episode_url: https://www.sverigesradio.se/avsnitt/2815475
@@ -19759,7 +19772,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815475
     episode_slug: ann-heberlein
     episode_key: ann-heberlein
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
   - episode_title: Maria Maunsbach
     episode_url: https://www.sverigesradio.se/avsnitt/2815526
@@ -19771,7 +19784,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815526
     episode_slug: maria-maunsbach
     episode_key: maria-maunsbach
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
   - episode_title: 'Poddtips: Dagens Eko förklarar en stor nyhet varje vardag'
     episode_url: https://www.sverigesradio.se/avsnitt/2830718
@@ -19784,7 +19797,7 @@ episodes_by_feed:
     episode_slug: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     episode_key: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     legacy_unicode_slug: poddtips-dagens-eko-förklarar-en-stor-nyhet-varje-vardag
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/"
   - episode_title: Sarah Sheppard
     episode_url: https://www.sverigesradio.se/avsnitt/2815473
@@ -19796,7 +19809,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815473
     episode_slug: sarah-sheppard
     episode_key: sarah-sheppard
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
   - episode_title: Johan Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2815472
@@ -19808,7 +19821,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815472
     episode_slug: johan-eriksson
     episode_key: johan-eriksson
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
   - episode_title: Patrik Norqvist
     episode_url: https://www.sverigesradio.se/avsnitt/2815471
@@ -19820,7 +19833,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815471
     episode_slug: patrik-norqvist
     episode_key: patrik-norqvist
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
   - episode_title: Ginna Lindberg
     episode_url: https://www.sverigesradio.se/avsnitt/2815470
@@ -19832,7 +19845,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815470
     episode_slug: ginna-lindberg
     episode_key: ginna-lindberg
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/ginna-lindberg/"
   - episode_title: Alexander Karim
     episode_url: https://www.sverigesradio.se/avsnitt/2815519
@@ -19844,20 +19857,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815519
     episode_slug: alexander-karim
     episode_key: alexander-karim
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
-  - episode_title: Carolina Dybeck Happe
-    episode_url: https://www.sverigesradio.se/avsnitt/2815474
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_sommar_i_p1_med_carolina_dybec_20260625_1505040761.mp3
-    published_at: '2026-06-26T11:00:00Z'
-    description_html: <p>Företagsledaren om att rädda ett miljardbolag och att kapprusta inom AI.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Företagsledaren om att rädda ett miljardbolag och att kapprusta inom AI. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2815474
-    episode_slug: carolina-dybeck-happe
-    episode_key: carolina-dybeck-happe
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/carolina-dybeck-happe/"
+    episode_page_url: "/sommar-vinter-i-p1/alexander-karim/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -24100,18 +24101,18 @@ episodes_by_feed:
     episode_key: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
     legacy_numbered_slug: episode-16
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting/"
-  - episode_title: 'Graham Hancock: The Case for a Lost Civilization'
+  - episode_title: 'Archaeology WARNING:  They Secretly Found Antarctica 300 Years Before Us - Graham Hancock'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KTSQ9B3VNZRMYKZ83P85TQGP.mp3?fcv=were0erxl0q6gc9ya7y2at20
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KTSQ9B3VNZRMYKZ83P85TQGP.mp3?fcv=ukwrmks81rzijabkkce7bc2r
     published_at: '2026-06-11T05:00:00Z'
     description_html: '<p class="text-node">What is ancient astronomy hiding about our true history? Graham Hancock reveals the catastrophe that erased 12,800 years of our past, what the Great Pyramid is actually trying to tell us, and what he refuses to leave unsaid with heart surgery just weeks away.</p><p class="text-node">Graham Hancock is a best selling writer and journalist who has spent 3 decades investigating evidence for a lost prehistoric civilisation. He is the author of international bestsellers including ''Fingerprints of the Gods'', and is the presenter of the Netflix documentary series ''Ancient Apocalypse''.</p><p class="text-node">He explains: ◼ Why the Great Pyramid contains knowledge humans shouldn''t have had for another 2,500 years ◼ The ancient maps that show a continent nobody should have known existed yet ◼ How the Amazon rainforest is actually a man-made landscape hiding what''s buried beneath ◼ What 80 ayahuasca ceremonies taught him</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:19</strong> Do Humans Have A Hidden Past?</li><li><strong>00:06:18</strong> Did A Global Cataclysm Reset Humanity?</li><li><strong>00:11:09</strong> Why Have This Conversation Now?</li><li><strong>00:12:17</strong> Why Is Your Work So Controversial?</li><li><strong>00:14:35</strong> How Old Is Humanity Really?</li><li><strong>00:18:40</strong> The Evidence Behind The Lost Comet Theory</li><li><strong>00:19:56</strong> What Truly Defines A Civilization?</li><li><strong>00:22:59</strong> Did Humans Survive The Ice Age?</li><li><strong>00:24:18</strong> What Were Early Humans Really Like?</li><li><strong>00:28:04</strong> The Missing Chapter In Human History</li><li><strong>00:29:38</strong> Could We Become The Next Lost Civilization?</li><li><strong>00:34:53</strong> How Do We Know These Stories Are True?</li><li><strong>00:37:38</strong> The Unsolved Mystery Of The Great Pyramid</li><li><strong>00:41:42</strong> The Real Meaning Of The Age Of Aquarius</li><li><strong>00:46:47</strong> Did The Ancients Know The Size Of Earth?</li><li><strong>00:49:26</strong> Were Ancient Secrets Passed Down Through Time?</li><li><strong>00:51:42</strong> Where Did Humanity''s Lost Knowledge Go?</li><li><strong>00:53:47</strong> Do The Pyramids Point To A Lost Civilization?</li><li><strong>00:55:03</strong> Is Something Hidden Beneath The Great Pyramid?</li><li><strong>00:56:59</strong> Why Mainstream Science Pushes Back</li><li><strong>00:58:21</strong> Alone Inside The Great Pyramid</li><li><strong>01:00:04</strong> Ads</li><li><strong>01:02:05</strong> What A Lost Civilization Means Today</li><li><strong>01:03:02</strong> Should We Rethink Astrology And Telepathy?</li><li><strong>01:05:08</strong> New Discoveries Beneath The Amazon</li><li><strong>01:08:31</strong> What Shamanism Gets Right</li><li><strong>01:09:18</strong> A Journey With Ayahuasca</li><li><strong>01:12:26</strong> Strange Experiences From Childhood</li><li><strong>01:15:19</strong> Did You Have Nightmares?</li><li><strong>01:16:35</strong> Why Being An Outsider Matters</li><li><strong>01:17:51</strong> Don''t Let Life Pass You By</li><li><strong>01:19:51</strong> Are Religion And Spirituality The Same?</li><li><strong>01:22:00</strong> Why Do People Experience The Same Psychedelic Visions?</li><li><strong>01:25:01</strong> Why Humanity Must Look Inward First</li><li><strong>01:28:47</strong> Ads</li><li><strong>01:29:48</strong> What Consciousness Really Is</li><li><strong>01:32:36</strong> How Illness Changed My Perspective</li><li><strong>01:33:30</strong> Why Love Matters Most</li><li><strong>01:39:36</strong> What Ancient Civilizations Teach Us Today</li><li><strong>01:44:14</strong> The Power Of Independent Thinking</li><li><strong>01:46:33</strong> What Will Matter On Your Last Day?</li><li><strong>01:47:13</strong> Living Without Judging Others</li><li><strong>01:49:36</strong> Will We One Day Worship AI?</li></ul></p><p class="text-node">Enjoyed the episode? Share this link and earn points for every referral - redeem them for exclusive prizes: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doac-perks.com">https://doac-perks.com</a></p><p class="text-node">Follow Graham: Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/CDCJTRS">https://link.thediaryofaceo.com/CDCJTRS</a> Facebook - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/9n9OEkv">https://link.thediaryofaceo.com/9n9OEkv</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/7xRxeaW">https://link.thediaryofaceo.com/7xRxeaW</a> YouTube - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/8UehPfG">https://link.thediaryofaceo.com/8UehPfG</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/DDp55T2">https://link.thediaryofaceo.com/DDp55T2</a></p><p class="text-node">You can purchase Graham’s book, ‘Visionary: The Mysterious Origins of Human Consciousness’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/3m3QlBS">https://link.thediaryofaceo.com/3m3QlBS</a></p><p class="text-node">The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a> ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a> ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a> ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a> ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a> ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors: Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://cometeer.com/doac">https://cometeer.com/doac</a> use code DOAC for $20 off Shopify - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://shopify.com/bartlett">https://shopify.com/bartlett</a></p>'
     description_plain: 'What is ancient astronomy hiding about our true history? Graham Hancock reveals the catastrophe that erased 12,800 years of our past, what the Great Pyramid is actually trying to tell us, and what he refuses to leave unsaid with heart surgery just weeks away. Graham Hancock is a best selling writer and journalist who has spent 3 decades investigating evidence for a lost prehistoric civilisation. He is the author of international bestsellers including ''Fingerprints of the Gods'', and is the presenter of the Netflix documentary series ''Ancient Apocalypse''. He explains: ◼ Why the Great Pyramid contains knowledge humans shouldn''t have had for another 2,500 years ◼ The ancient maps that show a continent nobody should have known existed yet ◼ How the Amazon rainforest is actually a man-made landscape hiding what''s buried beneath ◼ What 80 ayahuasca ceremonies taught him Chapters 00:00:00 Intro 00:02:19 Do Humans Have A Hidden Past? 00:06:18 Did A Global Cataclysm Reset Humanity? 00:11:09 Why Have This Conversation Now? 00:12:17 Why Is Your Work So Controversial? 00:14:35 How Old Is Humanity Really? 00:18:40 The Evidence Behind The Lost Comet Theory 00:19:56 What Truly Defines A Civilization? 00:22:59 Did Humans Survive The Ice Age? 00:24:18 What Were Early Humans Really Like? 00:28:04 The Missing Chapter In Human History 00:29:38 Could We Become The Next Lost Civilization? 00:34:53 How Do We Know These Stories Are True? 00:37:38 The Unsolved Mystery Of The Great Pyramid 00:41:42 The Real Meaning Of The Age Of Aquarius 00:46:47 Did The Ancients Know The Size Of Earth? 00:49:26 Were Ancient Secrets Passed Down Through Time? 00:51:42 Where Did Humanity''s Lost Knowledge Go? 00:53:47 Do The Pyramids Point To A Lost Civilization? 00:55:03 Is Something Hidden Beneath The Great Pyramid? 00:56:59 Why Mainstream Science Pushes Back 00:58:21 Alone Inside The Great Pyramid 01:00:04 Ads 01:02:05 What A Lost Civilization Means Today 01:03:02 Should We Rethink Astrology And Telepathy? 01:05:08 New Discoveries Beneath The Amazon 01:08:31 What Shamanism Gets Right 01:09:18 A Journey With Ayahuasca 01:12:26 Strange Experiences From Childhood 01:15:19 Did You Have Nightmares? 01:16:35 Why Being An Outsider Matters 01:17:51 Don''t Let Life Pass You By 01:19:51 Are Religion And Spirituality The Same? 01:22:00 Why Do People Experience The Same Psychedelic Visions? 01:25:01 Why Humanity Must Look Inward First 01:28:47 Ads 01:29:48 What Consciousness Really Is 01:32:36 How Illness Changed My Perspective 01:33:30 Why Love Matters Most 01:39:36 What Ancient Civilizations Teach Us Today 01:44:14 The Power Of Independent Thinking 01:46:33 What Will Matter On Your Last Day? 01:47:13 Living Without Judging Others 01:49:36 Will We One Day Worship AI? Enjoyed the episode? Share this link and earn points for every referral - redeem them for exclusive prizes: https://doac-perks.com Follow Graham: Website - https://link.thediaryofaceo.com/CDCJTRS Facebook - https://link.thediaryofaceo.com/9n9OEkv X - https://link.thediaryofaceo.com/7xRxeaW YouTube - https://link.thediaryofaceo.com/8UehPfG Instagram - https://link.thediaryofaceo.com/DDp55T2 You can purchase Graham’s book, ‘Visionary: The Mysterious Origins of Human Consciousness’, here: https://link.thediaryofaceo.com/3m3QlBS The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Cometeer - https://cometeer.com/doac use code DOAC for $20 off Shopify - https://shopify.com/bartlett'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KTSQA7BWS5KSQVR4Z3GR4YR8/graham_hancock_ep_cover.finaljpg.jpg
     episode_uid: flightcast-01ktsq9b3v53jfegbr8ddybsmm
-    episode_slug: graham-hancock-the-case-for-a-lost-civilization
-    episode_key: graham-hancock-the-case-for-a-lost-civilization
+    episode_slug: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
+    episode_key: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
     legacy_numbered_slug: episode-17
-    episode_page_url: "/the-diary-of-a-ceo/graham-hancock-the-case-for-a-lost-civilization/"
+    episode_page_url: "/the-diary-of-a-ceo/archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock/"
   - episode_title: 'Death of the Middle Class: Billionaire vs Entrepreneur DEBATE - Daniel Priestley v Nick Hanauer'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KTHX7WCR04XQT2EPM2QKDRBX.mp3
