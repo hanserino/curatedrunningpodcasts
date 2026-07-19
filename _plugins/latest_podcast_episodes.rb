@@ -8,6 +8,7 @@
 # Only running-directory shows (not_running_related != true) appear in items
 # (for /latest-episodes/ and the home directory snapshot).
 
+require "cgi"
 require "fileutils"
 require "open-uri"
 require "rss"
@@ -24,6 +25,15 @@ module LatestPodcastEpisodes
   NBSP_ENTITY_RX = /(?:&nbsp;|&#0*160;|&#x0*a0;|&amp;nbsp;|\u00A0)/i.freeze
   PARAGRAPH_ONLY_NBSP_RX =
     %r{<p(\s[^>]*)?>(?:\s|<br\s*/?>|#{NBSP_ENTITY_RX.source})*</p>}im.freeze
+  HTML_TOKEN_RX = /(<[^>]+>)/i.freeze
+  AUTOLINK_URL_RX = %r{
+    (?<![\w@/])
+    (
+      (?:https?://|www\.)[^\s<>"']+
+      |
+      (?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+(?:[a-z]{2,63})(?:/[^\s<>"']*)?
+    )
+  }ix.freeze
 
   module_function
 
@@ -177,6 +187,54 @@ module LatestPodcastEpisodes
     cleaned
   end
 
+  def normalize_autolink_href(url)
+    href = url.to_s.strip
+    if href.match?(/\Awww\./i)
+      "https://#{href}"
+    elsif href.match?(/\Ahttps?:\/\//i)
+      href
+    else
+      "https://#{href}"
+    end
+  end
+
+  def strip_trailing_url_punctuation(url)
+    trimmed = url.to_s
+    trailing = +""
+    while trimmed.match?(/[.,;:!?)+\]}]+\z/)
+      trailing = trimmed[-1] + trailing
+      trimmed = trimmed[0..-2]
+    end
+    [trimmed, trailing]
+  end
+
+  def linkify_bare_urls_in_text(text)
+    text.gsub(AUTOLINK_URL_RX) do
+      url, trailing = strip_trailing_url_punctuation(Regexp.last_match(1))
+      next Regexp.last_match(0) if url.empty?
+
+      href = normalize_autolink_href(url)
+      label = CGI.escapeHTML(url)
+      %(<a href="#{CGI.escapeHTML(href)}" rel="noopener noreferrer" target="_blank">#{label}</a>) + trailing
+    end
+  end
+
+  def linkify_bare_urls_in_html(html)
+    inside_anchor = false
+
+    html.to_s.split(HTML_TOKEN_RX).map do |part|
+      if part.start_with?("<")
+        inside_anchor = true if part.match?(/<\s*a[\s>]/i)
+        inside_anchor = false if part.match?(/<\s*\/\s*a\s*>/i)
+        part
+      elsif inside_anchor
+        part
+      else
+        linkify_bare_urls_in_text(part)
+      end
+    end.join
+  end
+
   def sanitize_episode_description_html(html)
     cleaned = html.to_s.strip
     return "" if cleaned.empty?
@@ -199,7 +257,7 @@ module LatestPodcastEpisodes
     cleaned = cleaned.gsub(/<(p|div|li)(\s[^>]*)?>\s+/, '<\1\2>')
     cleaned = cleaned.gsub(/\s+<\/(p|div|li)>/, "</\\1>")
     cleaned = cleaned.gsub(/>\s+</, "><")
-    cleaned.strip
+    linkify_bare_urls_in_html(cleaned.strip)
   end
 
   def episode_image_url(item)
