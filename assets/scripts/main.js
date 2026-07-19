@@ -12,6 +12,7 @@ var isTouchDevice = function () {
 
 var OPML_FAVORITES_STORAGE_KEY = 'brp-opml-favorites';
 var FILTER_PREFS_STORAGE_KEY = 'brp-filter-prefs-v1';
+var RETURN_CONTEXT_KEY = 'brp-nav-return-v1';
 var restoringFilterPrefs = false;
 var opmlFavoriteInteractionWired = false;
 var opmlPanelWired = false;
@@ -98,20 +99,78 @@ function normalizedPath(path) {
     return cleaned || '/';
 }
 
-function wireContextualReturnLinks() {
-    if (!document.body.classList.contains('post-page--podcast')) {
-        return;
+function returnContextForPath(path) {
+    if (path === '/latest-episodes') {
+        return { href: '/latest-episodes/', label: 'Latest episodes' };
     }
+    if (path === '/unrelated') {
+        return { href: '/unrelated/', label: 'Unrelated to running' };
+    }
+    return null;
+}
 
-    var referrerPath = normalizedPath(pathFromUrl(document.referrer));
-    if (referrerPath !== '/unrelated') {
+function readStoredReturnContext() {
+    try {
+        var raw = sessionStorage.getItem(RETURN_CONTEXT_KEY);
+        if (!raw) {
+            return null;
+        }
+        var parsed = JSON.parse(raw);
+        if (!parsed || typeof parsed.href !== 'string' || typeof parsed.label !== 'string') {
+            return null;
+        }
+        return parsed;
+    } catch (_e) {
+        return null;
+    }
+}
+
+function resolveReturnContext() {
+    var ctx = readStoredReturnContext();
+    if (ctx) {
+        return ctx;
+    }
+    return returnContextForPath(normalizedPath(pathFromUrl(document.referrer)));
+}
+
+function applyReturnContextLinks(ctx) {
+    if (!ctx) {
         return;
     }
 
     document.querySelectorAll('[data-contextual-return-link]').forEach(function (link) {
-        link.setAttribute('href', '/unrelated/');
+        link.setAttribute('href', ctx.href);
         link.removeAttribute('rel');
-        link.textContent = '← Unrelated to running';
+        link.textContent = '← ' + ctx.label;
+    });
+}
+
+function wireContextualReturnLinks() {
+    if (document.body.classList.contains('post-page--episode')) {
+        var episodeCtx = resolveReturnContext();
+        applyReturnContextLinks(episodeCtx);
+        if (episodeCtx) {
+            sessionStorage.removeItem(RETURN_CONTEXT_KEY);
+        }
+        return;
+    }
+
+    if (!document.body.classList.contains('post-page--podcast')) {
+        return;
+    }
+
+    var showCtx = returnContextForPath(normalizedPath(pathFromUrl(document.referrer)));
+    applyReturnContextLinks(showCtx);
+}
+
+function wireReturnContextTracking() {
+    document.addEventListener('turbo:before-visit', function () {
+        var ctx = returnContextForPath(normalizedPath(window.location.pathname));
+        if (ctx) {
+            sessionStorage.setItem(RETURN_CONTEXT_KEY, JSON.stringify(ctx));
+        } else {
+            sessionStorage.removeItem(RETURN_CONTEXT_KEY);
+        }
     });
 }
 
@@ -1046,9 +1105,11 @@ function wireDomReady() {
     wireOpmlFavoriteInteraction();
     wireFilterAndGrid();
     wireHeaderNav();
+    wireReturnContextTracking();
     wireContextualReturnLinks();
 
     document.addEventListener('turbo:load', function () {
+        wireContextualReturnLinks();
         wireOpmlPanel();
         if (document.querySelector('[data-opml-favorite]')) {
             syncOpmlFavoritesFromStorage();

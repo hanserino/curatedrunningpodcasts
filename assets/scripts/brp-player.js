@@ -1062,17 +1062,27 @@
         updateGlobalTransportTimes();
     }
 
+    function toggleGlobalPlayback() {
+        if (!player || !playerActiveUrl()) return;
+        if (!player.paused && !player.ended) {
+            player.pause();
+        } else {
+            playEpisode();
+        }
+    }
+
     function wireGlobalControls() {
         if (!globalPlay || globalPlay.getAttribute('data-brp-controls-wired') === 'true') return;
         globalPlay.setAttribute('data-brp-controls-wired', 'true');
 
-        globalPlay.addEventListener('click', function () {
-            if (!player.src) return;
-            if (!player.paused) {
-                player.pause();
-            } else {
-                playEpisode();
-            }
+        globalPlay.addEventListener('pointerdown', function (e) {
+            e.stopPropagation();
+        });
+
+        globalPlay.addEventListener('click', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            toggleGlobalPlayback();
         });
 
         if (globalScrub) {

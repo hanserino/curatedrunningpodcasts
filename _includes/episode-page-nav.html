@@ -1,6 +1,6 @@
 <div class="post-page__intro-bar">
 	<p class="post-page__back">
-		<a href="{{ page.podcast_url | relative_url }}">← {{ page.podcast_title | escape }}</a>
+		<a href="{{ page.podcast_url | relative_url }}" data-contextual-return-link>← {{ page.podcast_title | escape }}</a>
 	</p>
 	{% include main-nav.html %}
 </div>
