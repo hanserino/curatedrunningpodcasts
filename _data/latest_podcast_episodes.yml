@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-20T07:09:57Z'
+generated_at: '2026-07-20T09:08:42Z'
 items:
+- podcast_title: Centurion Running
+  podcast_page_url: "/centurion-running/"
+  cover_image: "/media/centurionrunningpodast.jpg"
+  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
+  filter_category: ultra trail english
+  episode_title: 'Weekly News Ep.45: SDW100 & 50km Open for 2027 | Record Attempt News |'
+  episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep45-sdw100-and-50km-open-for-2027-or-record-attempt-news-or
+  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a5de44119d9211f540aa059.mp3
+  published_at: '2026-07-20T09:06:53+00:00'
+  episode_key: weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news
+  episode_slug: weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news
+  episode_page_url: "/centurion-running/weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -229,18 +241,6 @@ items:
   episode_key: hardrock-100-dnf-dylan-s-race-recap
   episode_slug: hardrock-100-dnf-dylan-s-race-recap
   episode_page_url: "/the-freetrail-podcast/hardrock-100-dnf-dylan-s-race-recap/"
-- podcast_title: Centurion Running
-  podcast_page_url: "/centurion-running/"
-  cover_image: "/media/centurionrunningpodast.jpg"
-  feed_url: https://www.centurionrunning.com/podcast/podcast.xml
-  filter_category: ultra trail english
-  episode_title: 'Centurion Coaching Podcast: Post-Race Reflections'
-  episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-post-race-reflections
-  audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a57694e31bba37277bff365.mp3
-  published_at: '2026-07-15T11:06:53+00:00'
-  episode_key: centurion-coaching-podcast-post-race-reflections
-  episode_slug: centurion-coaching-podcast-post-race-reflections
-  episode_page_url: "/centurion-running/centurion-coaching-podcast-post-race-reflections/"
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us/"
   cover_image: "/media/nobodyaskedus.jpg"
@@ -794,6 +794,30 @@ non_running_items:
   episode_key: iqra-idow
   episode_slug: iqra-idow
   episode_page_url: "/sommar-vinter-i-p1/iqra-idow/"
+- podcast_title: Huberman Lab
+  podcast_page_url: "/huberman-lab/"
+  cover_image: "/media/huberman.jpeg"
+  feed_url: https://feeds.megaphone.fm/hubermanlab
+  filter_category: uncategorized english
+  episode_title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
+  episode_url: https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood
+  audio_url: https://traffic.megaphone.fm/SCIM4201272551.mp3
+  published_at: '2026-07-20T08:00:00Z'
+  episode_key: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
+  episode_slug: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
+  episode_page_url: "/huberman-lab/accelerate-learning-increase-cognitive-capacity-dr-tommy-wood/"
+- podcast_title: How I Built This
+  podcast_page_url: "/how-i-built-this/"
+  cover_image: "/media/howibuiltthis.jpeg"
+  feed_url: https://rss.art19.com/how-i-built-this
+  filter_category: uncategorized english
+  episode_title: 'Toast: Aman Narang. How a Long Wait for the Dinner Check Launched a $2 Billion Business.'
+  episode_url: ''
+  audio_url: https://rss.art19.com/episodes/6eca81bc-b0e1-47e2-a87d-f3b243e76a97.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+  published_at: '2026-07-20T07:10:00Z'
+  episode_key: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
+  episode_slug: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
+  episode_page_url: "/how-i-built-this/toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business/"
 - podcast_title: The Diary Of A CEO
   podcast_page_url: "/the-diary-of-a-ceo/"
   cover_image: "/media/diaryofaceo.jpeg"
@@ -962,30 +986,6 @@ non_running_items:
   episode_key: 739-huvudet-pa-spiken
   episode_slug: 739-huvudet-pa-spiken
   episode_page_url: "/alex-og-sigges-podcast/739-huvudet-pa-spiken/"
-- podcast_title: Huberman Lab
-  podcast_page_url: "/huberman-lab/"
-  cover_image: "/media/huberman.jpeg"
-  feed_url: https://feeds.megaphone.fm/hubermanlab
-  filter_category: uncategorized english
-  episode_title: 'Essentials: The Science & Treatment of Bipolar Disorder'
-  episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-bipolar-disorder
-  audio_url: https://traffic.megaphone.fm/SCIM8821948371.mp3
-  published_at: '2026-07-16T08:00:00Z'
-  episode_key: essentials-the-science-treatment-of-bipolar-disorder
-  episode_slug: essentials-the-science-treatment-of-bipolar-disorder
-  episode_page_url: "/huberman-lab/essentials-the-science-treatment-of-bipolar-disorder/"
-- podcast_title: How I Built This
-  podcast_page_url: "/how-i-built-this/"
-  cover_image: "/media/howibuiltthis.jpeg"
-  feed_url: https://rss.art19.com/how-i-built-this
-  filter_category: uncategorized english
-  episode_title: Advice Line with Kenneth Cole
-  episode_url: ''
-  audio_url: https://rss.art19.com/episodes/83717cb6-e000-4cde-898d-792249545f88.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-  published_at: '2026-07-16T07:10:00Z'
-  episode_key: advice-line-with-kenneth-cole
-  episode_slug: advice-line-with-kenneth-cole
-  episode_page_url: "/how-i-built-this/advice-line-with-kenneth-cole/"
 - podcast_title: Hysteria
   podcast_page_url: "/hysteria/"
   cover_image: "/media/hysteria.jpeg"
@@ -2612,6 +2612,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/fokk-asfalt/247-sebastian-mamaj-black-lake-race/"
   https://www.centurionrunning.com/podcast/podcast.xml: &6
+  - episode_title: 'Weekly News Ep.45: SDW100 & 50km Open for 2027 | Record Attempt News |'
+    episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep45-sdw100-and-50km-open-for-2027-or-record-attempt-news-or
+    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a5de44119d9211f540aa059.mp3
+    published_at: '2026-07-20T09:06:53+00:00'
+    description_html: '<p>In this weeks news we discuss the launch of the 2027 South Downs Way 100 and 50km. There'' s a look ahead to Lakeland 100. A brief view on recent UK record attempts from Damian Hall and in the Alps, from our coach Sophie Grant. Hardrock and High Loneseome 100 get a mention too.</p><p>The 2027 South Downs Way 100 details <a href="https://www.centurionrunning.com/races/south-downs-way-100-2027" target="_blank">are available here</a>. The <a href="https://www.centurionrunning.com/races/south-downs-way-50km-2027" target="_blank">50km here.</a></p><p>Follow Sophie Grant''s adventure <a href="https://www.instagram.com/sophieamygrant/" target="_blank">on her instagram here</a>.</p><p><a href="https://www.centurionultrarunningstore.com/discount/PODCAST10?redirect=%2Fcollections%2Frrp" target="_blank">Visit the store here and enter code PODCAST10</a> for 10% off all RRP items</p><p>Find our show partners Precision Fuel and Hydration Planner here: <a href="https://www.precisionhydration.com/planner/" target="_blank">https://www.precisionhydration.com/planner/</a></p><p>Visit the PF&amp;H collection at our store here: <a href="https://www.centurionultrarunningstore.com/collections/precision-hydration" target="_blank">https://www.centurionultrarunningstore.com/collections/precision-hydration</a></p>'
+    description_plain: 'In this weeks news we discuss the launch of the 2027 South Downs Way 100 and 50km. There'' s a look ahead to Lakeland 100. A brief view on recent UK record attempts from Damian Hall and in the Alps, from our coach Sophie Grant. Hardrock and High Loneseome 100 get a mention too. The 2027 South Downs Way 100 details are available here . The 50km here. Follow Sophie Grant''s adventure on her instagram here . Visit the store here and enter code PODCAST10 for 10% off all RRP items Find our show partners Precision Fuel and Hydration Planner here: https://www.precisionhydration.com/planner/ Visit the PF&amp;H collection at our store here: https://www.centurionultrarunningstore.com/collections/precision-hydration'
+    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1784538418/vldx23iqaeqeert2sic6.png
+    episode_uid: weekly-news-ep45-sdw100-and-50km-open-for-2027-or-record-attempt-news-or
+    episode_slug: weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news
+    episode_key: weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/centurion-running/weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news/"
   - episode_title: 'Centurion Coaching Podcast: Post-Race Reflections'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-post-race-reflections
     audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/6a57694e31bba37277bff365.mp3
@@ -2622,7 +2634,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-post-race-reflections
     episode_slug: centurion-coaching-podcast-post-race-reflections
     episode_key: centurion-coaching-podcast-post-race-reflections
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/centurion-running/centurion-coaching-podcast-post-race-reflections/"
   - episode_title: 'Weekly News Ep.44: Hardrock 100 | Cape Wrath | FKTs & Records |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep44-hardrock-100-or-cape-wrath-or-fkts-and-records-or
@@ -2634,7 +2646,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep44-hardrock-100-or-cape-wrath-or-fkts-and-records-or
     episode_slug: weekly-news-ep-44-hardrock-100-cape-wrath-fkts-records
     episode_key: weekly-news-ep-44-hardrock-100-cape-wrath-fkts-records
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/centurion-running/weekly-news-ep-44-hardrock-100-cape-wrath-fkts-records/"
   - episode_title: 'Weekly News Ep.43: Western States | QMT | Hardrock | UTMB UK |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep43-western-states-or-qmt-or-hardrock-or-utmb-uk-or
@@ -2646,7 +2658,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep43-western-states-or-qmt-or-hardrock-or-utmb-uk-or
     episode_slug: weekly-news-ep-43-western-states-qmt-hardrock-utmb-uk
     episode_key: weekly-news-ep-43-western-states-qmt-hardrock-utmb-uk
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/centurion-running/weekly-news-ep-43-western-states-qmt-hardrock-utmb-uk/"
   - episode_title: 'World Trail Majors Interview: Jean Fortier - RD for Quebec Mega Trail'
     episode_url: https://www.centurionrunning.com/podcast/world-trail-majors-interview-jean-fortier-rd-for-quebec-mega-trail
@@ -2658,7 +2670,7 @@ episodes_by_feed:
     episode_uid: world-trail-majors-interview-jean-fortier-rd-for-quebec-mega-trail
     episode_slug: world-trail-majors-interview-jean-fortier-rd-for-quebec-mega-trail
     episode_key: world-trail-majors-interview-jean-fortier-rd-for-quebec-mega-trail
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/centurion-running/world-trail-majors-interview-jean-fortier-rd-for-quebec-mega-trail/"
   - episode_title: 'Weekly News Ep.42: Western States | West Highland Way Race Review |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep42-western-states-or-west-highland-way-race-review-or
@@ -2670,7 +2682,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep42-western-states-or-west-highland-way-race-review-or
     episode_slug: weekly-news-ep-42-western-states-west-highland-way-race-review
     episode_key: weekly-news-ep-42-western-states-west-highland-way-race-review
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/centurion-running/weekly-news-ep-42-western-states-west-highland-way-race-review/"
   - episode_title: 'SDW100 2026 Post-Race: Interview with Mens Champion David Green'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-post-race-interview-with-mens-champion-david-green
@@ -2682,7 +2694,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-post-race-interview-with-mens-champion-david-green
     episode_slug: sdw100-2026-post-race-interview-with-mens-champion-david-green
     episode_key: sdw100-2026-post-race-interview-with-mens-champion-david-green
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/centurion-running/sdw100-2026-post-race-interview-with-mens-champion-david-green/"
   - episode_title: 'SDW100 and 50km Debrief: Tales from the Sharp End of the 2026 Race for the Ages'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
@@ -2694,7 +2706,7 @@ episodes_by_feed:
     episode_uid: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
     episode_slug: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
     episode_key: sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/centurion-running/sdw100-and-50km-debrief-tales-from-the-sharp-end-of-the-2026-race-for-the-ages/"
   - episode_title: 'Weekly News Ep. 41: SDW50km and 100 RD Recap'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-41-sdw50km-and-100-rd-recap
@@ -2706,7 +2718,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-41-sdw50km-and-100-rd-recap
     episode_slug: weekly-news-ep-41-sdw50km-and-100-rd-recap
     episode_key: weekly-news-ep-41-sdw50km-and-100-rd-recap
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/centurion-running/weekly-news-ep-41-sdw50km-and-100-rd-recap/"
   - episode_title: 'SDW100 2026 Post-Race: Interview with Womens Champion Sarah Webster'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
@@ -2718,7 +2730,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
     episode_slug: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
     episode_key: sdw100-2026-post-race-interview-with-womens-champion-sarah-webster
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/centurion-running/sdw100-2026-post-race-interview-with-womens-champion-sarah-webster/"
   - episode_title: 'SDW100 and 50km 2026 Race Previews: Who will take the crowns this weekend!'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
@@ -2730,7 +2742,7 @@ episodes_by_feed:
     episode_uid: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     episode_slug: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
     episode_key: sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/centurion-running/sdw100-and-50km-2026-race-previews-who-will-take-the-crowns-this-weekend/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Nicole Funnell'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-nicole-funnell
@@ -2742,7 +2754,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-nicole-funnell
     episode_slug: sdw50km-2026-pre-race-interviews-nicole-funnell
     episode_key: sdw50km-2026-pre-race-interviews-nicole-funnell
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-nicole-funnell/"
   - episode_title: 'Weekly News Ep. 40 & Race Review: Comrades'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep-40-and-race-review-comrades
@@ -2754,7 +2766,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep-40-and-race-review-comrades
     episode_slug: weekly-news-ep-40-race-review-comrades
     episode_key: weekly-news-ep-40-race-review-comrades
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/centurion-running/weekly-news-ep-40-race-review-comrades/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-autumn-100-champion
@@ -2766,7 +2778,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-and-aut
     episode_slug: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
     episode_key: sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
   - episode_title: 'SDW100 Pre-Race Interviews: Robyn Cassidy. Lakeland 100 and Dragons Back Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
@@ -2778,7 +2790,7 @@ episodes_by_feed:
     episode_uid: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_slug: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
     episode_key: sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/centurion-running/sdw100-pre-race-interviews-robyn-cassidy-lakeland-100-and-dragons-back-champion/"
   - episode_title: 'SDW50km 2026 Pre-Race Interviews: Antonio Martinez - 2023 SkyRunning World Champ. 2026 TGC Marathon Winner.'
     episode_url: https://www.centurionrunning.com/podcast/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
@@ -2790,7 +2802,7 @@ episodes_by_feed:
     episode_uid: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-
     episode_slug: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
     episode_key: sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/centurion-running/sdw50km-2026-pre-race-interviews-antonio-martinez-2023-skyrunning-world-champ-2026-tgc-marathon-winner/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Henry Hart - 2025 British 100km Champion.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
@@ -2802,7 +2814,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_slug: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
     episode_key: sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-henry-hart-2025-british-100km-champion/"
   - episode_title: 'SDW100 2026 Pre-Race Interviews: Sarah Webster. World 24hr Record Holder.'
     episode_url: https://www.centurionrunning.com/podcast/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
@@ -2814,7 +2826,7 @@ episodes_by_feed:
     episode_uid: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_slug: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
     episode_key: sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-sarah-webster-world-24hr-record-holder/"
   - episode_title: 'Weekly News Ep.39: SDW100&50km ''Pre''-Preview | GUCR | Other News'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
@@ -2826,7 +2838,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep39-sdw100and50km-pre-preview-or-gucr-or-other-news
     episode_slug: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
     episode_key: weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/centurion-running/weekly-news-ep-39-sdw100-50km-pre-preview-gucr-other-news/"
   - episode_title: 'Centurion Coaching Podcast: Athletes and Menopause - Practical Discussions and Advice'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
@@ -2838,7 +2850,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_slug: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
     episode_key: centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/centurion-running/centurion-coaching-podcast-athletes-and-menopause-practical-discussions-and-advice/"
   - episode_title: 'Weekly News Ep.38: North Downs Way 50 Recap | UTS |'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep38-north-downs-way-50-recap-or-uts-or
@@ -2850,7 +2862,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep38-north-downs-way-50-recap-or-uts-or
     episode_slug: weekly-news-ep-38-north-downs-way-50-recap-uts
     episode_key: weekly-news-ep-38-north-downs-way-50-recap-uts
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/centurion-running/weekly-news-ep-38-north-downs-way-50-recap-uts/"
   - episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
     episode_url: https://www.centurionrunning.com/podcast/weekly-news-ep37-north-downs-way-50-preview
@@ -2862,7 +2874,7 @@ episodes_by_feed:
     episode_uid: weekly-news-ep37-north-downs-way-50-preview
     episode_slug: weekly-news-ep-37-north-downs-way-50-preview
     episode_key: weekly-news-ep-37-north-downs-way-50-preview
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
   - episode_title: 'Interview: Martin Stone - Mountain, Fell and Ultrarunning Records'
     episode_url: https://www.centurionrunning.com/podcast/interview-martin-stone-mountain-fell-and-ultrarunning-records
@@ -2874,7 +2886,7 @@ episodes_by_feed:
     episode_uid: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_slug: interview-martin-stone-mountain-fell-and-ultrarunning-records
     episode_key: interview-martin-stone-mountain-fell-and-ultrarunning-records
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/centurion-running/interview-martin-stone-mountain-fell-and-ultrarunning-records/"
   - episode_title: 'Centurion Coaching Podcast: Imo Boddy'
     episode_url: https://www.centurionrunning.com/podcast/centurion-coaching-podcast-imo-boddy
@@ -2886,7 +2898,7 @@ episodes_by_feed:
     episode_uid: centurion-coaching-podcast-imo-boddy
     episode_slug: centurion-coaching-podcast-imo-boddy
     episode_key: centurion-coaching-podcast-imo-boddy
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/centurion-running/centurion-coaching-podcast-imo-boddy/"
   - episode_title: Thames Path 100 2026 Results and Recap
     episode_url: https://www.centurionrunning.com/podcast/thames-path-100-2026-results-and-recap
@@ -2898,20 +2910,8 @@ episodes_by_feed:
     episode_uid: thames-path-100-2026-results-and-recap
     episode_slug: thames-path-100-2026-results-and-recap
     episode_key: thames-path-100-2026-results-and-recap
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/centurion-running/thames-path-100-2026-results-and-recap/"
-  - episode_title: Mt Fuji 100 Report with Robbie Britton | MIUT | Canyons |
-    episode_url: https://www.centurionrunning.com/podcast/mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
-    audio_url: https://dts.podtrac.com/redirect.m4a/www.centurionrunning.com/podcast/69f450af842c1f5f43946a17.mp3
-    published_at: '2026-05-01T07:39:21+00:00'
-    description_html: "<p>In this episode, James chats to Robbie Britton about his recent 11th place finish at Mt. Fuji 100. The two also discuss the other international results from the weekend, MIUT and Canyons.</p>"
-    description_plain: In this episode, James chats to Robbie Britton about his recent 11th place finish at Mt. Fuji 100. The two also discuss the other international results from the weekend, MIUT and Canyons.
-    episode_image_url: http://res.cloudinary.com/centurion/image/upload/v1777621235/vc1rnnmxxyeszajmaogq.png
-    episode_uid: mt-fuji-100-report-with-robbie-britton-or-miut-or-canyons-or
-    episode_slug: mt-fuji-100-report-with-robbie-britton-miut-canyons
-    episode_key: mt-fuji-100-report-with-robbie-britton-miut-canyons
     legacy_numbered_slug: episode-25
-    episode_page_url: "/centurion-running/mt-fuji-100-report-with-robbie-britton-miut-canyons/"
+    episode_page_url: "/centurion-running/thames-path-100-2026-results-and-recap/"
   https://anchor.fm/s/81032c4/podcast/rss: &7
   - episode_title: Shad Mika on What Two Decades of Ultras Actually Teaches You
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/shad_mika_on_what_two_decades_of_ultras_actually_teaches_you
@@ -19128,6 +19128,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/forklart/kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste/"
   https://feeds.megaphone.fm/hubermanlab: &62
+  - episode_title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
+    episode_url: https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood
+    audio_url: https://traffic.megaphone.fm/SCIM4201272551.mp3
+    published_at: '2026-07-20T08:00:00Z'
+    description_html: '<p>Dr. Tommy Wood, BM, BCh, PhD, is a professor of neuroscience at the University of Washington and an expert on brain health, neuroplasticity, and cognitive performance. Dr. Wood explains how to use specific forms of exercise, dietary strategies, and compounds to enhance the rate and stability of mental and/or physical skill development. We also discuss science-based tools to preserve cognitive function, reduce dementia risk, and offset loss of memory after a concussion or other brain injury. This episode provides practical, science-based tools for learning new information and skills and for improving your overall ability to learn.</p><p>Read the episode show notes at <a href="https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood">hubermanlab.com</a>.</p><p><strong>Thank you to our sponsors</strong></p><p>AG1: <a href="https://drinkag1.com/huberman">https://drinkag1.com/huberman</a></p><p>David: <a href="https://davidprotein.com/huberman">https://davidprotein.com/huberman</a></p><p>Function: <a href="https://functionhealth.com/huberman">https://functionhealth.com/huberman</a></p><p>Rorra: <a href="https://rorra.com/huberman">https://rorra.com/huberman</a></p><p><strong>Timestamps</strong></p><p>(00:00:00) Tommy Wood</p><p>(00:04:05) Neuroplasticity; Neurogenesis; Synaptic Pruning</p><p>(00:11:11) Aging &amp; Neuroplasticity; Familiar vs Novel Tasks</p><p>(00:14:33) Protocols Book; Sponsor: David</p><p>(00:16:49) Aging, Training &amp; Processing Speed</p><p>(00:21:56) Enhancing Neuroplasticity with Age, Tool: Motor &amp; Cognitive Challenge</p><p>(00:26:56) Learning New Skills, Dance, Sports, Arts; Psychological Benefits of Challenge</p><p>(00:36:50) Flow, Clutch States; Virtuosity</p><p>(00:46:59) Power of Practice</p><p>(00:50:55) Sponsor: AG1</p><p>(00:52:14) Tools for Focused Work &amp; Learning; Distractions</p><p>(01:00:17) Nutrition for Brain Health, Dementia; Critical Nutrients</p><p>(01:06:56) Nutrient Timing, Supplementation; Omega-3s, Tool: Blood Tests</p><p>(01:16:41) Sponsor: Function</p><p>(01:18:19) Enhancing Brain Health, Nutrition &amp; Supplements</p><p>(01:23:10) GLP-1s, Peptides, Supplements &amp; Evaluating Efficacy</p><p>(01:32:56) Stimulants: Feeling vs Performance</p><p>(01:37:18) Exercise &amp; Enhancing Cognitive Function, Tool: Optimize Exercise Volume</p><p>(01:43:18) Long-Term Cognitive Health &amp; Exercise, HIIT</p><p>(01:47:17) Sponsor: Rorra</p><p>(01:48:31) Cortisol Benefits, Acute vs Chronic Stress</p><p>(01:54:24) Resistance &amp; Aerobic Exercise, Brain Gray &amp; White Matter, Cognitive Health</p><p>(02:03:37) Cognitive Decline, Dementia, Alzheimer''s Disease, Modifiable Risk Factors</p><p>(02:09:47) Shingles Vaccine &amp; Dementia Risk; Tool: Avoid Illness for Cognitive Health</p><p>(02:18:28) Concussion, Traumatic Brain Injury (TBI), Creatine</p><p>(02:24:04) Treating TBI, Supplements, Physical Therapy</p><p>(02:32:16) Strongman Competition</p><p>(02:38:51) Zero-Cost Support, YouTube, Spotify &amp; Apple Follow, Reviews &amp; Feedback, Sponsors, Protocols Book, Social Media, Neural Network Newsletter</p><p><a href="https://www.hubermanlab.com/disclaimer">Disclaimer &amp; Disclosures</a></p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>'
+    description_plain: 'Dr. Tommy Wood, BM, BCh, PhD, is a professor of neuroscience at the University of Washington and an expert on brain health, neuroplasticity, and cognitive performance. Dr. Wood explains how to use specific forms of exercise, dietary strategies, and compounds to enhance the rate and stability of mental and/or physical skill development. We also discuss science-based tools to preserve cognitive function, reduce dementia risk, and offset loss of memory after a concussion or other brain injury. This episode provides practical, science-based tools for learning new information and skills and for improving your overall ability to learn. Read the episode show notes at hubermanlab.com . Thank you to our sponsors AG1: https://drinkag1.com/huberman David: https://davidprotein.com/huberman Function: https://functionhealth.com/huberman Rorra: https://rorra.com/huberman Timestamps (00:00:00) Tommy Wood (00:04:05) Neuroplasticity; Neurogenesis; Synaptic Pruning (00:11:11) Aging &amp; Neuroplasticity; Familiar vs Novel Tasks (00:14:33) Protocols Book; Sponsor: David (00:16:49) Aging, Training &amp; Processing Speed (00:21:56) Enhancing Neuroplasticity with Age, Tool: Motor &amp; Cognitive Challenge (00:26:56) Learning New Skills, Dance, Sports, Arts; Psychological Benefits of Challenge (00:36:50) Flow, Clutch States; Virtuosity (00:46:59) Power of Practice (00:50:55) Sponsor: AG1 (00:52:14) Tools for Focused Work &amp; Learning; Distractions (01:00:17) Nutrition for Brain Health, Dementia; Critical Nutrients (01:06:56) Nutrient Timing, Supplementation; Omega-3s, Tool: Blood Tests (01:16:41) Sponsor: Function (01:18:19) Enhancing Brain Health, Nutrition &amp; Supplements (01:23:10) GLP-1s, Peptides, Supplements &amp; Evaluating Efficacy (01:32:56) Stimulants: Feeling vs Performance (01:37:18) Exercise &amp; Enhancing Cognitive Function, Tool: Optimize Exercise Volume (01:43:18) Long-Term Cognitive Health &amp; Exercise, HIIT (01:47:17) Sponsor: Rorra (01:48:31) Cortisol Benefits, Acute vs Chronic Stress (01:54:24) Resistance &amp; Aerobic Exercise, Brain Gray &amp; White Matter, Cognitive Health (02:03:37) Cognitive Decline, Dementia, Alzheimer''s Disease, Modifiable Risk Factors (02:09:47) Shingles Vaccine &amp; Dementia Risk; Tool: Avoid Illness for Cognitive Health (02:18:28) Concussion, Traumatic Brain Injury (TBI), Creatine (02:24:04) Treating TBI, Supplements, Physical Therapy (02:32:16) Strongman Competition (02:38:51) Zero-Cost Support, YouTube, Spotify &amp; Apple Follow, Reviews &amp; Feedback, Sponsors, Protocols Book, Social Media, Neural Network Newsletter Disclaimer &amp; Disclosures Learn more about your ad choices. Visit megaphone.fm/adchoices'
+    episode_image_url: ''
+    episode_uid: 8e4c082a-83e0-11f1-afd8-cbd1b539c5b4
+    episode_slug: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
+    episode_key: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/huberman-lab/accelerate-learning-increase-cognitive-capacity-dr-tommy-wood/"
   - episode_title: 'Essentials: The Science & Treatment of Bipolar Disorder'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-bipolar-disorder
     audio_url: https://traffic.megaphone.fm/SCIM8821948371.mp3
@@ -19138,7 +19150,7 @@ episodes_by_feed:
     episode_uid: e614eff6-80d7-11f1-a215-df69293e9c50
     episode_slug: essentials-the-science-treatment-of-bipolar-disorder
     episode_key: essentials-the-science-treatment-of-bipolar-disorder
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/huberman-lab/essentials-the-science-treatment-of-bipolar-disorder/"
   - episode_title: How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel
     episode_url: https://www.hubermanlab.com/episode/how-to-improve-your-memory-and-cognitive-function-at-any-age-alan-castel
@@ -19150,7 +19162,7 @@ episodes_by_feed:
     episode_uid: 0a5ad55a-7e72-11f1-a40f-6b63a7775e54
     episode_slug: how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel
     episode_key: how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/huberman-lab/how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel/"
   - episode_title: 'Essentials: The Science & Treatment of Obsessive Compulsive Disorder (OCD)'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder
@@ -19162,7 +19174,7 @@ episodes_by_feed:
     episode_uid: 4770a1ce-7b55-11f1-b552-7395758b62d8
     episode_slug: essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd
     episode_key: essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/huberman-lab/essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd/"
   - episode_title: Raising a Dog & Mastering Calm Assertive Energy | Cesar Millan
     episode_url: https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan
@@ -19174,7 +19186,7 @@ episodes_by_feed:
     episode_uid: 83991e1e-78f9-11f1-bfc9-d73c9dfa501c
     episode_slug: raising-a-dog-mastering-calm-assertive-energy-cesar-millan
     episode_key: raising-a-dog-mastering-calm-assertive-energy-cesar-millan
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/huberman-lab/raising-a-dog-mastering-calm-assertive-energy-cesar-millan/"
   - episode_title: 'Essentials: Tools for Hormone Optimization in Males | Dr. Kyle Gillett'
     episode_url: https://www.hubermanlab.com/episode/essentials-tools-for-hormone-optimization-in-males-kyle-gillett
@@ -19186,7 +19198,7 @@ episodes_by_feed:
     episode_uid: 3447d81e-75d4-11f1-bdd9-fff21f539a49
     episode_slug: essentials-tools-for-hormone-optimization-in-males-dr-kyle-gillett
     episode_key: essentials-tools-for-hormone-optimization-in-males-dr-kyle-gillett
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/huberman-lab/essentials-tools-for-hormone-optimization-in-males-dr-kyle-gillett/"
   - episode_title: Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal
     episode_url: https://www.hubermanlab.com/episode/movement-practice-to-strengthen-your-mind-body-connection-ido-portal
@@ -19198,7 +19210,7 @@ episodes_by_feed:
     episode_uid: fa3d1314-7362-11f1-a179-677e57742768
     episode_slug: movement-practice-to-strengthen-your-mind-body-connection-ido-portal
     episode_key: movement-practice-to-strengthen-your-mind-body-connection-ido-portal
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/huberman-lab/movement-practice-to-strengthen-your-mind-body-connection-ido-portal/"
   - episode_title: 'Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle | Dr. Layne Norton'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton
@@ -19210,7 +19222,7 @@ episodes_by_feed:
     episode_uid: c53f0060-7041-11f1-8287-d3035b745a86
     episode_slug: essentials-the-science-of-eating-for-health-fat-loss-lean-muscle-dr-layne-norton
     episode_key: essentials-the-science-of-eating-for-health-fat-loss-lean-muscle-dr-layne-norton
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/huberman-lab/essentials-the-science-of-eating-for-health-fat-loss-lean-muscle-dr-layne-norton/"
   - episode_title: Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick
     episode_url: https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick
@@ -19222,7 +19234,7 @@ episodes_by_feed:
     episode_uid: de50ed7a-6dfd-11f1-8316-4bc06a8aa415
     episode_slug: science-of-attraction-compatibility-romance-dr-paul-eastwick
     episode_key: science-of-attraction-compatibility-romance-dr-paul-eastwick
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/huberman-lab/science-of-attraction-compatibility-romance-dr-paul-eastwick/"
   - episode_title: 'Essentials: Improve Flexibility with Research-Supported Stretching Protocols'
     episode_url: https://www.hubermanlab.com/episode/essentials-improve-flexibility-with-research-supported-stretching-protocols
@@ -19234,7 +19246,7 @@ episodes_by_feed:
     episode_uid: 3b42bd84-6a51-11f1-b442-0f78f81b3455
     episode_slug: essentials-improve-flexibility-with-research-supported-stretching-protocols
     episode_key: essentials-improve-flexibility-with-research-supported-stretching-protocols
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/huberman-lab/essentials-improve-flexibility-with-research-supported-stretching-protocols/"
   - episode_title: The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf
     episode_url: ''
@@ -19248,7 +19260,7 @@ episodes_by_feed:
     episode_uid: 84659344-6563-11f1-a849-0b2be3348f8d
     episode_slug: the-mental-frame-specific-daily-actions-to-succeed-andy-stumpf
     episode_key: the-mental-frame-specific-daily-actions-to-succeed-andy-stumpf
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/huberman-lab/the-mental-frame-specific-daily-actions-to-succeed-andy-stumpf/"
   - episode_title: 'Essentials: Sleep Toolkit for Optimizing Sleep & Sleep-Wake Timing'
     episode_url: https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing
@@ -19260,7 +19272,7 @@ episodes_by_feed:
     episode_uid: f70fb0f4-64b5-11f1-a007-8f725da7d012
     episode_slug: essentials-sleep-toolkit-for-optimizing-sleep-sleep-wake-timing
     episode_key: essentials-sleep-toolkit-for-optimizing-sleep-sleep-wake-timing
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/huberman-lab/essentials-sleep-toolkit-for-optimizing-sleep-sleep-wake-timing/"
   - episode_title: Eating for Better Sleep & Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge
     episode_url: https://www.hubermanlab.com/episode/eating-for-better-sleep-and-foods-that-improve-metabolic-health-marie-pierre-st-onge
@@ -19272,7 +19284,7 @@ episodes_by_feed:
     episode_uid: 541f4308-62c8-11f1-91f3-dbdc64ae390a
     episode_slug: eating-for-better-sleep-foods-that-improve-metabolic-health-dr-marie-pierre-st-onge
     episode_key: eating-for-better-sleep-foods-that-improve-metabolic-health-dr-marie-pierre-st-onge
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/huberman-lab/eating-for-better-sleep-foods-that-improve-metabolic-health-dr-marie-pierre-st-onge/"
   - episode_title: 'Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams'
     episode_url: https://www.hubermanlab.com/episode/essentials-psychedelics-neurostimulation-for-brain-rewiring-nolan-williams
@@ -19284,7 +19296,7 @@ episodes_by_feed:
     episode_uid: 2d042ec8-5fd0-11f1-a583-d34f98bf1200
     episode_slug: essentials-psychedelics-neurostimulation-for-brain-rewiring-dr-nolan-williams
     episode_key: essentials-psychedelics-neurostimulation-for-brain-rewiring-dr-nolan-williams
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/huberman-lab/essentials-psychedelics-neurostimulation-for-brain-rewiring-dr-nolan-williams/"
   - episode_title: 'Peptides: The Science, Uses & Safety | Dr. Abud Bakri'
     episode_url: https://www.hubermanlab.com/episode/peptides-the-science-uses-and-safety-abud-bakri
@@ -19296,7 +19308,7 @@ episodes_by_feed:
     episode_uid: 96b9863a-5d71-11f1-b345-0f1957d0ce33
     episode_slug: peptides-the-science-uses-safety-dr-abud-bakri
     episode_key: peptides-the-science-uses-safety-dr-abud-bakri
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/huberman-lab/peptides-the-science-uses-safety-dr-abud-bakri/"
   - episode_title: 'Essentials: The Science & Process of Healing from Grief'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-process-of-healing-from-grief
@@ -19308,7 +19320,7 @@ episodes_by_feed:
     episode_uid: 99e90962-5a5f-11f1-ba4d-eb43c61a17f9
     episode_slug: essentials-the-science-process-of-healing-from-grief
     episode_key: essentials-the-science-process-of-healing-from-grief
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/huberman-lab/essentials-the-science-process-of-healing-from-grief/"
   - episode_title: Build Muscle, Great Posture & Resilience to Injury | Jeff Cavaliere
     episode_url: https://www.hubermanlab.com/episode/build-muscle-great-posture-and-resilience-to-injury-jeff-cavaliere
@@ -19320,7 +19332,7 @@ episodes_by_feed:
     episode_uid: 486de24e-578d-11f1-ba69-6f7bd4573b0d
     episode_slug: build-muscle-great-posture-resilience-to-injury-jeff-cavaliere
     episode_key: build-muscle-great-posture-resilience-to-injury-jeff-cavaliere
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/huberman-lab/build-muscle-great-posture-resilience-to-injury-jeff-cavaliere/"
   - episode_title: 'Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang
@@ -19332,7 +19344,7 @@ episodes_by_feed:
     episode_uid: 763cf880-54cd-11f1-873c-5798e0b960a6
     episode_slug: essentials-the-science-of-learning-speaking-languages-dr-eddie-chang
     episode_key: essentials-the-science-of-learning-speaking-languages-dr-eddie-chang
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/huberman-lab/essentials-the-science-of-learning-speaking-languages-dr-eddie-chang/"
   - episode_title: How to Overcome Social Anxiety | Dr. Nick Epley
     episode_url: https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley
@@ -19344,7 +19356,7 @@ episodes_by_feed:
     episode_uid: 95a58356-4f17-11f1-bc49-cfdf160a55ae
     episode_slug: how-to-overcome-social-anxiety-dr-nick-epley
     episode_key: how-to-overcome-social-anxiety-dr-nick-epley
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/huberman-lab/how-to-overcome-social-anxiety-dr-nick-epley/"
   - episode_title: 'Essentials: Understanding & Controlling Aggression'
     episode_url: https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression
@@ -19356,7 +19368,7 @@ episodes_by_feed:
     episode_uid: 2f4d884c-4f26-11f1-ba88-474650216222
     episode_slug: essentials-understanding-controlling-aggression
     episode_key: essentials-understanding-controlling-aggression
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/huberman-lab/essentials-understanding-controlling-aggression/"
   - episode_title: Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita
     episode_url: https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita
@@ -19368,7 +19380,7 @@ episodes_by_feed:
     episode_uid: '09353758-4cf2-11f1-bfe6-7be31117ba20'
     episode_slug: master-self-control-overcome-procrastination-dr-kentaro-fujita
     episode_key: master-self-control-overcome-procrastination-dr-kentaro-fujita
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/huberman-lab/master-self-control-overcome-procrastination-dr-kentaro-fujita/"
   - episode_title: 'Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern'
     episode_url: https://www.hubermanlab.com/episode/essentials-compulsive-behaviors-deep-brain-stimulation-casey-halpern
@@ -19380,7 +19392,7 @@ episodes_by_feed:
     episode_uid: 46facd70-496c-11f1-be87-afc03e1435f1
     episode_slug: essentials-compulsive-behaviors-deep-brain-stimulation-dr-casey-halpern
     episode_key: essentials-compulsive-behaviors-deep-brain-stimulation-dr-casey-halpern
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/huberman-lab/essentials-compulsive-behaviors-deep-brain-stimulation-dr-casey-halpern/"
   - episode_title: Tools to Bolster Your Mental Health & Confidence | Dr. Paul Conti
     episode_url: ''
@@ -19392,7 +19404,7 @@ episodes_by_feed:
     episode_uid: c3a2dab6-475a-11f1-9ec4-4ff354be9c5e
     episode_slug: tools-to-bolster-your-mental-health-confidence-dr-paul-conti
     episode_key: tools-to-bolster-your-mental-health-confidence-dr-paul-conti
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/huberman-lab/tools-to-bolster-your-mental-health-confidence-dr-paul-conti/"
   - episode_title: 'Essentials: Control Sugar Cravings & Metabolism with Science-Based Tools'
     episode_url: https://www.hubermanlab.com/episode/essentials-control-sugar-cravings-and-metabolism-with-science-based-tools
@@ -19404,7 +19416,7 @@ episodes_by_feed:
     episode_uid: 996cb320-444e-11f1-9918-8b74615a3b82
     episode_slug: essentials-control-sugar-cravings-metabolism-with-science-based-tools
     episode_key: essentials-control-sugar-cravings-metabolism-with-science-based-tools
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/huberman-lab/essentials-control-sugar-cravings-metabolism-with-science-based-tools/"
   - episode_title: Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway
     episode_url: ''
@@ -19416,20 +19428,8 @@ episodes_by_feed:
     episode_uid: 4721d474-41e2-11f1-a56d-87a62715859a
     episode_slug: male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway
     episode_key: male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/huberman-lab/male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway/"
-  - episode_title: 'Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis'
-    episode_url: https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis
-    audio_url: https://traffic.megaphone.fm/SCIM1556675193.mp3?updated=1776925537
-    published_at: '2026-04-23T08:00:00Z'
-    description_html: '<p>In this <a href="https://www.hubermanlab.com/essentials">Huberman Lab Essentials</a> episode, my guest is Dr. Erich Jarvis, PhD, a professor and Head of the Laboratory of Neurogenetics of Language at Rockefeller University and an investigator at the Howard Hughes Medical Institute (HHMI). We discuss the brain circuits and genes underlying spoken language and why the ability to learn and produce vocalizations is extraordinarily rare in the animal kingdom. We also explore why song likely evolved before language, how gesture and movement share deep neural roots with speech, the neurobiology of stuttering, why childhood is the optimal window for language acquisition, and how physical movement — including dance — may help preserve speech and cognitive function across a lifetime.</p><p>Read the show notes at <a href="https://www.hubermanlab.com/episode/essentials-the-neuroscience-of-speech-language-and-music-erich-jarvis">hubermanlab.com</a>.</p><p><strong>Thank you to our sponsors</strong></p><p>AG1: <a href="https://drinkag1.com/huberman">https://drinkag1.com/huberman</a></p><p>Function: <a href="https://functionhealth.com/huberman">https://functionhealth.com/huberman</a></p><p>Eight Sleep: <a href="https://eightsleep.com/huberman">https://eightsleep.com/huberman</a></p><p><strong>Timestamps</strong></p><p>(00:00:00) Speech &amp; Language</p><p>(00:00:23) Speech vs. Language; Brain Pathways for Communication</p><p>(00:01:57) Gesture, Hand Movement &amp; Speech Evolution</p><p>(00:04:31) Sponsor: Function</p><p>(00:05:59) Innate Vocalizations vs. Learned Speech</p><p>(00:08:01) Evolution of Spoken Language; Neanderthals &amp; Vocal Learning</p><p>(00:09:29) Birdsong &amp; Human Speech; Brain Circuit Parallels</p><p>(00:13:22) Hummingbirds; Vocal Learning Species &amp; Complex Traits</p><p>(00:14:32) Critical Periods &amp; Learning Your Native Song</p><p>(00:16:50) Pidgin Language &amp; Cultural-Genetic Convergence</p><p>(00:18:36) Sponsor: AG1</p><p>(00:20:01) Genes Specialized in Speech Circuits</p><p>(00:23:05) Critical Period for Language Learning; Multilingualism</p><p>(00:25:17) Music, Emotion &amp; Semantic vs. Affective Communication</p><p>(00:28:14) Sponsor: Eight Sleep</p><p>(00:29:49) Facial Expression &amp; Speech Circuitry</p><p>(00:31:07) Written Language &amp; Neural Pathways</p><p>(00:32:47) Stuttering; Basal Ganglia &amp; Neurobiological Basis</p><p>(00:35:03) Texting &amp; Language Evolution</p><p>(00:36:36) Tool: Movement, Dancing &amp; Singing to Maintain Cognitive Health</p><p>(00:38:43) Recap</p><p><a href="https://www.hubermanlab.com/disclaimer">Disclaimer &amp; Disclosures</a></p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>'
-    description_plain: 'In this Huberman Lab Essentials episode, my guest is Dr. Erich Jarvis, PhD, a professor and Head of the Laboratory of Neurogenetics of Language at Rockefeller University and an investigator at the Howard Hughes Medical Institute (HHMI). We discuss the brain circuits and genes underlying spoken language and why the ability to learn and produce vocalizations is extraordinarily rare in the animal kingdom. We also explore why song likely evolved before language, how gesture and movement share deep neural roots with speech, the neurobiology of stuttering, why childhood is the optimal window for language acquisition, and how physical movement — including dance — may help preserve speech and cognitive function across a lifetime. Read the show notes at hubermanlab.com . Thank you to our sponsors AG1: https://drinkag1.com/huberman Function: https://functionhealth.com/huberman Eight Sleep: https://eightsleep.com/huberman Timestamps (00:00:00) Speech &amp; Language (00:00:23) Speech vs. Language; Brain Pathways for Communication (00:01:57) Gesture, Hand Movement &amp; Speech Evolution (00:04:31) Sponsor: Function (00:05:59) Innate Vocalizations vs. Learned Speech (00:08:01) Evolution of Spoken Language; Neanderthals &amp; Vocal Learning (00:09:29) Birdsong &amp; Human Speech; Brain Circuit Parallels (00:13:22) Hummingbirds; Vocal Learning Species &amp; Complex Traits (00:14:32) Critical Periods &amp; Learning Your Native Song (00:16:50) Pidgin Language &amp; Cultural-Genetic Convergence (00:18:36) Sponsor: AG1 (00:20:01) Genes Specialized in Speech Circuits (00:23:05) Critical Period for Language Learning; Multilingualism (00:25:17) Music, Emotion &amp; Semantic vs. Affective Communication (00:28:14) Sponsor: Eight Sleep (00:29:49) Facial Expression &amp; Speech Circuitry (00:31:07) Written Language &amp; Neural Pathways (00:32:47) Stuttering; Basal Ganglia &amp; Neurobiological Basis (00:35:03) Texting &amp; Language Evolution (00:36:36) Tool: Movement, Dancing &amp; Singing to Maintain Cognitive Health (00:38:43) Recap Disclaimer &amp; Disclosures Learn more about your ad choices. Visit megaphone.fm/adchoices'
-    episode_image_url: https://megaphone.imgix.net/podcasts/c43eecb2-3ec7-11f1-ba1c-678e21968de5/image/c939ff80ce31857dd7c3855498b342f4.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
-    episode_uid: c43eecb2-3ec7-11f1-ba1c-678e21968de5
-    episode_slug: essentials-the-neuroscience-of-speech-language-music-dr-erich-jarvis
-    episode_key: essentials-the-neuroscience-of-speech-language-music-dr-erich-jarvis
     legacy_numbered_slug: episode-25
-    episode_page_url: "/huberman-lab/essentials-the-neuroscience-of-speech-language-music-dr-erich-jarvis/"
+    episode_page_url: "/huberman-lab/male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &63
   - episode_title: 'Skrev bok om sorg: Skjulte forfatteren et drap?'
     episode_url: ''
@@ -22392,6 +22392,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/acquired/chase-center-summer-update/"
   https://rss.art19.com/how-i-built-this: &73
+  - episode_title: 'Toast: Aman Narang. How a Long Wait for the Dinner Check Launched a $2 Billion Business.'
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/6eca81bc-b0e1-47e2-a87d-f3b243e76a97.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-07-20T07:10:00Z'
+    description_html: '<p>After waiting too long to pay his restaurant bill, <strong>Aman Narang</strong> thought there had to be a better way. His first idea—a mobile payment app—flopped.</p><p>But that failure revealed a much bigger opportunity.</p><p>Restaurants were struggling with outdated software that many owners hated. Payment systems were expensive, unreliable, and trapped on servers hidden in back offices. Replacing them cost time and money.</p><p>But that’s exactly what Aman and his co-founders set out to do: create an entirely new POS system for restaurants—from scratch.</p><p>They worked from an unfinished basement, answered customer calls on their own phones, crashed their first restaurant on day one, survived years of rejection from investors—and eventually grew <strong>Toast</strong> into a business that generates more than $2 billion in annual revenue.</p><p>In this episode, Aman shares how a failed product became a billion-dollar company.</p><p><strong>What you''ll learn:</strong></p><ul><li>How to know when it''s time to pivot</li><li>Why investors rejected Toast again and again</li><li>How to convince customers to replace mission-critical software</li><li>Why Toast intentionally stayed small before scaling</li><li>The leadership lesson Aman learned after almost breaking the company</li><li>How Toast survived COVID after restaurants shut down</li><li>What founders should look for when choosing a co-founder</li></ul><p><strong>Timestamps:</strong></p><ul><li>11:25 — The frustrating restaurant experience that inspires Toast</li><li>15:41 — The first product fails—and reveals a bigger opportunity</li><li>16:43 — Building Toast: “We grossly underappreciated what it would take.”</li><li>26:05 — Why nearly every investor said “No.”</li><li>32:31 — Toast’s disastrous first launch: writing credit card numbers by hand</li><li>34:18 — Pitching hundreds of restaurant owners before finding believers</li><li>38:08 — Why customer obsession beats competitor obsession</li><li>44:17 — Bringing in a new CEO: “We need to rethink how we do things here.”</li><li>52:31 — The biggest lessons from building a $2 billion company</li></ul><p>This episode was produced by Sam Paulson with music by Ramtin Arablouei. It was edited by Neva Grant with research help from Casey Herman. Our engineer was Kwesi Lee.</p><p><strong>Follow How I Built This:</strong></p><p>Instagram → <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">@howibuiltthis</a></p><p>X → <a href="https://x.com/howibuiltthis" rel="noopener noreferrer" target="_blank">@HowIBuiltThis</a></p><p>Facebook → <a href="https://www.facebook.com/howibuiltthis" rel="noopener noreferrer" target="_blank">How I Built This</a></p><p><strong>Follow Guy Raz:</strong></p><p>Instagram → <a href="https://www.instagram.com/guy.raz/" rel="noopener noreferrer" target="_blank">@guy.raz</a></p><p>YouTube → <a href="https://www.youtube.com/channel/UCNSfrxNEmCruNtjIzxCBHjg" rel="noopener noreferrer" target="_blank">guy_raz</a></p><p>X → <a href="https://x.com/guyraz" rel="noopener noreferrer" target="_blank">@guyraz</a></p><p>Substack → <a href="http://guyraz.substack.com" rel="noopener noreferrer" target="_blank">guyraz.substack.com</a></p><p>Website → <a href="http://guyraz.com" rel="noopener noreferrer" target="_blank">guyraz.com</a></p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
+    description_plain: 'After waiting too long to pay his restaurant bill, Aman Narang thought there had to be a better way. His first idea—a mobile payment app—flopped. But that failure revealed a much bigger opportunity. Restaurants were struggling with outdated software that many owners hated. Payment systems were expensive, unreliable, and trapped on servers hidden in back offices. Replacing them cost time and money. But that’s exactly what Aman and his co-founders set out to do: create an entirely new POS system for restaurants—from scratch. They worked from an unfinished basement, answered customer calls on their own phones, crashed their first restaurant on day one, survived years of rejection from investors—and eventually grew Toast into a business that generates more than $2 billion in annual revenue. In this episode, Aman shares how a failed product became a billion-dollar company. What you''ll learn: How to know when it''s time to pivot Why investors rejected Toast again and again How to convince customers to replace mission-critical software Why Toast intentionally stayed small before scaling The leadership lesson Aman learned after almost breaking the company How Toast survived COVID after restaurants shut down What founders should look for when choosing a co-founder Timestamps: 11:25 — The frustrating restaurant experience that inspires Toast 15:41 — The first product fails—and reveals a bigger opportunity 16:43 — Building Toast: “We grossly underappreciated what it would take.” 26:05 — Why nearly every investor said “No.” 32:31 — Toast’s disastrous first launch: writing credit card numbers by hand 34:18 — Pitching hundreds of restaurant owners before finding believers 38:08 — Why customer obsession beats competitor obsession 44:17 — Bringing in a new CEO: “We need to rethink how we do things here.” 52:31 — The biggest lessons from building a $2 billion company This episode was produced by Sam Paulson with music by Ramtin Arablouei. It was edited by Neva Grant with research help from Casey Herman. Our engineer was Kwesi Lee. Follow How I Built This: Instagram → @howibuiltthis X → @HowIBuiltThis Facebook → How I Built This Follow Guy Raz: Instagram → @guy.raz YouTube → guy_raz X → @guyraz Substack → guyraz.substack.com Website → guyraz.com See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
+    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
+    episode_uid: egg039qu0ogswop-3hhaghai9x7jy7x-6gkms2o9alm
+    episode_slug: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
+    episode_key: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/how-i-built-this/toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business/"
   - episode_title: Advice Line with Kenneth Cole
     episode_url: ''
     audio_url: https://rss.art19.com/episodes/83717cb6-e000-4cde-898d-792249545f88.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
@@ -22402,7 +22414,7 @@ episodes_by_feed:
     episode_uid: sleutgzfxjyo-rrudjv0v9yyh09zn26ue4qdwoybema
     episode_slug: advice-line-with-kenneth-cole
     episode_key: advice-line-with-kenneth-cole
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/how-i-built-this/advice-line-with-kenneth-cole/"
   - episode_title: 'Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)'
     episode_url: ''
@@ -22414,7 +22426,7 @@ episodes_by_feed:
     episode_uid: y7qftuceid7jce8jvtplgnhixui40ngwg4itljux9gk
     episode_slug: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
     episode_key: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/how-i-built-this/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/"
   - episode_title: Advice Line with Jeni Britton of Jeni's Splendid Ice Creams (2025)
     episode_url: ''
@@ -22426,7 +22438,7 @@ episodes_by_feed:
     episode_uid: gftd5xyydg6qzbuktfhnzpp6arlg-sefghtdip3qe
     episode_slug: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
     episode_key: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/how-i-built-this/advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025/"
   - episode_title: 'Catalina Crunch: Krishna Kaliannan. From Homemade Keto Cocoa Puffs to Breakfast Aisle Breakthrough'
     episode_url: ''
@@ -22438,7 +22450,7 @@ episodes_by_feed:
     episode_uid: fgb-e35uhoyskmeodpjdxwgfbvnzkrobi27eax6iqsm
     episode_slug: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
     episode_key: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/how-i-built-this/catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough/"
   - episode_title: Advice Line with Ronnen Harary of Spin Master/PAW Patrol
     episode_url: ''
@@ -22450,7 +22462,7 @@ episodes_by_feed:
     episode_uid: ip0vy2yexavz2hs40reul-oey40aipj6tp5gw91vwjg
     episode_slug: advice-line-with-ronnen-harary-of-spin-master-paw-patrol
     episode_key: advice-line-with-ronnen-harary-of-spin-master-paw-patrol
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/how-i-built-this/advice-line-with-ronnen-harary-of-spin-master-paw-patrol/"
   - episode_title: 'e.l.f. Cosmetics: Joey Shamah. The Dollar Store Formula That Built a Cosmetics Giant'
     episode_url: ''
@@ -22462,7 +22474,7 @@ episodes_by_feed:
     episode_uid: zillwlpg8hzveaqbrkziq6pjjyccx0t4vhh-nqpbnve
     episode_slug: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
     episode_key: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/how-i-built-this/e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant/"
   - episode_title: Advice Line with Susan Griffin-Black of EO Products
     episode_url: ''
@@ -22474,7 +22486,7 @@ episodes_by_feed:
     episode_uid: o6j6dwehdd7amk7jxbrnvwv-a1tzbi6khnejfibcvxe
     episode_slug: advice-line-with-susan-griffin-black-of-eo-products
     episode_key: advice-line-with-susan-griffin-black-of-eo-products
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/how-i-built-this/advice-line-with-susan-griffin-black-of-eo-products/"
   - episode_title: 'STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct'
     episode_url: ''
@@ -22486,7 +22498,7 @@ episodes_by_feed:
     episode_uid: jlsenest4p7hw8kfouvvu50usn8gmu-wxhzoxwdydg8
     episode_slug: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
     episode_key: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/how-i-built-this/starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct/"
   - episode_title: Advice Line with Shazi Visram of Happy Family Organics
     episode_url: ''
@@ -22498,7 +22510,7 @@ episodes_by_feed:
     episode_uid: pzk4jbulxl5hsniwomgt-c9boxmlmdjusfx0zkilc2o
     episode_slug: advice-line-with-shazi-visram-of-happy-family-organics
     episode_key: advice-line-with-shazi-visram-of-happy-family-organics
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/how-i-built-this/advice-line-with-shazi-visram-of-happy-family-organics/"
   - episode_title: 'Build-A-Bear: Maxine Clark. A Former Shoe Executive Launches a Stuffed Animal Empire'
     episode_url: ''
@@ -22510,7 +22522,7 @@ episodes_by_feed:
     episode_uid: tmp4tjl9nxpytdg9f4gfoyxv6qz6u2cn2ydgpazzzs8
     episode_slug: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
     episode_key: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/how-i-built-this/build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire/"
   - episode_title: Advice Line with Christina Tosi of Milk Bar
     episode_url: ''
@@ -22522,7 +22534,7 @@ episodes_by_feed:
     episode_uid: hhjeehzmmivsosdeaivhgwyyvpp-ddqkpr4htdvlku8
     episode_slug: advice-line-with-christina-tosi-of-milk-bar
     episode_key: advice-line-with-christina-tosi-of-milk-bar
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/how-i-built-this/advice-line-with-christina-tosi-of-milk-bar/"
   - episode_title: 'Shopify: Tobias Lütke. How a snowboarder built a $150 billion business (2019)'
     episode_url: ''
@@ -22535,7 +22547,7 @@ episodes_by_feed:
     episode_slug: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     episode_key: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     legacy_unicode_slug: shopify-tobias-lütke-how-a-snowboarder-built-a-150-billion-business-2019
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/how-i-built-this/shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019/"
   - episode_title: Advice Line with Tim Ferriss (August 2025)
     episode_url: ''
@@ -22547,7 +22559,7 @@ episodes_by_feed:
     episode_uid: b9ee3my6tjy1ceqbdtb5wenwgy3ordtifo2-if3e0ay
     episode_slug: advice-line-with-tim-ferriss-august-2025
     episode_key: advice-line-with-tim-ferriss-august-2025
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/how-i-built-this/advice-line-with-tim-ferriss-august-2025/"
   - episode_title: 'UGG: Brian Smith. How an epiphany, surfers, and $500 launched an iconic sheepskin footwear company.'
     episode_url: ''
@@ -22559,7 +22571,7 @@ episodes_by_feed:
     episode_uid: 5s0vonn-opsk1zpat1nxn-vo2zcdme8lt7jxguqkmy
     episode_slug: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
     episode_key: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/how-i-built-this/ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company/"
   - episode_title: Advice Line with Jeffrey Hollender of Seventh Generation
     episode_url: ''
@@ -22571,7 +22583,7 @@ episodes_by_feed:
     episode_uid: 4wcue-17ogbw5el-mbnx-ki9ijworouprz5pdewq7xi
     episode_slug: advice-line-with-jeffrey-hollender-of-seventh-generation
     episode_key: advice-line-with-jeffrey-hollender-of-seventh-generation
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/how-i-built-this/advice-line-with-jeffrey-hollender-of-seventh-generation/"
   - episode_title: 'Justin’s Nut Butter: Justin Gold. He Was Waiting Tables, Then...He Reinvented Peanut Butter.'
     episode_url: ''
@@ -22583,7 +22595,7 @@ episodes_by_feed:
     episode_uid: yqzw16h2ktk2olnhz-uuhe82fcwwot0sixwalkx2km
     episode_slug: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
     episode_key: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/how-i-built-this/justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter/"
   - episode_title: Advice Line with Sarah LaFleur of M.M. LaFleur
     episode_url: ''
@@ -22595,7 +22607,7 @@ episodes_by_feed:
     episode_uid: zswlybn8gfviu2ih2g9x4uvgvityooc1djles4a926o
     episode_slug: advice-line-with-sarah-lafleur-of-m-m-lafleur
     episode_key: advice-line-with-sarah-lafleur-of-m-m-lafleur
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/how-i-built-this/advice-line-with-sarah-lafleur-of-m-m-lafleur/"
   - episode_title: 'NVIDIA: Jensen Huang. From near collapse to becoming the world’s biggest company'
     episode_url: ''
@@ -22607,7 +22619,7 @@ episodes_by_feed:
     episode_uid: bpikpn-q7wrffq1h-x6g3o2ecadpyq6otwp6fwspdbq
     episode_slug: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
     episode_key: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/how-i-built-this/nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company/"
   - episode_title: 'Advice Line: New Offerings, Bigger Markets'
     episode_url: ''
@@ -22619,7 +22631,7 @@ episodes_by_feed:
     episode_uid: d3whyvzhetkd1ekwdk8occgpyou669hscg02gp68px4
     episode_slug: advice-line-new-offerings-bigger-markets
     episode_key: advice-line-new-offerings-bigger-markets
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/how-i-built-this/advice-line-new-offerings-bigger-markets/"
   - episode_title: 'Room & Board: John Gabbert. A Broken Deal, a Family Rift, and the Birth of a Furniture Giant'
     episode_url: ''
@@ -22631,7 +22643,7 @@ episodes_by_feed:
     episode_uid: nufmnrpeqyz9yn2-rxzl7tscz389nskiuirlnyhwhgs
     episode_slug: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
     episode_key: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/how-i-built-this/room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant/"
   - episode_title: Advice Line with Jonah Peretti of Buzzfeed
     episode_url: ''
@@ -22643,7 +22655,7 @@ episodes_by_feed:
     episode_uid: chfjg48l1clzorvmtfcdvybr-u5z1kyh-zynrwal7cu
     episode_slug: advice-line-with-jonah-peretti-of-buzzfeed
     episode_key: advice-line-with-jonah-peretti-of-buzzfeed
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/how-i-built-this/advice-line-with-jonah-peretti-of-buzzfeed/"
   - episode_title: 'Beautycounter: Gregg Renfrew. She Built Beautycounter to $1B… Then Got Fired From Her Own Company'
     episode_url: ''
@@ -22655,7 +22667,7 @@ episodes_by_feed:
     episode_uid: zoucdhzsff4qac4xrsr7ucc6cgcypqrp7tkktyxyi7o
     episode_slug: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
     episode_key: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/how-i-built-this/beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company/"
   - episode_title: Advice Line with David Neeleman of JetBlue
     episode_url: ''
@@ -22667,7 +22679,7 @@ episodes_by_feed:
     episode_uid: ukzbnk2zh6n4tug0iemjkhpo9ous3wgjg0dkyduj7xe
     episode_slug: advice-line-with-david-neeleman-of-jetblue
     episode_key: advice-line-with-david-neeleman-of-jetblue
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/how-i-built-this/advice-line-with-david-neeleman-of-jetblue/"
   - episode_title: 'Shep and Ian Murray: Vineyard Vines. A Stale Product Transforms into a Lifestyle Brand.'
     episode_url: ''
@@ -22679,20 +22691,8 @@ episodes_by_feed:
     episode_uid: 8ftwrlam7ypq-6-bkrgyizwoplu3afpp3r5zopt0sis
     episode_slug: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
     episode_key: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/how-i-built-this/shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand/"
-  - episode_title: Advice Line with Eric Ryan of Method returns
-    episode_url: ''
-    audio_url: https://rss.art19.com/episodes/e21691a9-29c3-4af2-b232-d380f776847b.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-    published_at: '2026-04-23T07:00:00Z'
-    description_html: '<p>Today’s callers: Christina from California wonders how to build trust with her fragrance brand formulated without allergens. Then, James, also from California, assesses how he can create more brand awareness for his kids'' flip flop company. And Ben from Florida evaluates whether he should raise outside capital for his light-up jewelry products.</p><p>Plus, Eric’s philosophy on identifying strong founders and the brands now that he’s moved from being an entrepreneur to being an investor.</p><p>Thank you to the founders of Havyn, Pidgin Toes, and Reserved for Humans for being a part of our show.</p><p>If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to <a href="mailto:hibt@id.wondery.com" rel="noopener noreferrer" target="_blank">hibt@id.wondery.com</a> or call 1-800-433-1298.</p><p>And be sure to listen to <a href="https://art19.com/shows/831bd173-0992-41b7-b1eb-112db904d947/episodes/8d3ce6b4-53b5-42be-aac7-904e387a3f9e/embed" rel="noopener noreferrer" target="_blank">Method’s founding story</a> as told by Eric Ryan and Adam Lowry on the show in 2018.</p><p>This episode was produced by Noor Gill with music by Ramtin Arablouei. It was edited by Casey Herman. Our audio engineer was Cena Loffredo.</p><p>You can follow HIBT on <a href="https://x.com/HowIBuiltThis" rel="noopener noreferrer" target="_blank">X</a> &amp; <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">Instagram</a> and sign up for Guy''s free newsletter at <a href="http://guyraz.com/" rel="noopener noreferrer" target="_blank">guyraz.com</a> and on <a href="https://guyraz.substack.com/" rel="noopener noreferrer" target="_blank">Substack</a>.</p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
-    description_plain: 'Today’s callers: Christina from California wonders how to build trust with her fragrance brand formulated without allergens. Then, James, also from California, assesses how he can create more brand awareness for his kids'' flip flop company. And Ben from Florida evaluates whether he should raise outside capital for his light-up jewelry products. Plus, Eric’s philosophy on identifying strong founders and the brands now that he’s moved from being an entrepreneur to being an investor. Thank you to the founders of Havyn, Pidgin Toes, and Reserved for Humans for being a part of our show. If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to hibt@id.wondery.com or call 1-800-433-1298. And be sure to listen to Method’s founding story as told by Eric Ryan and Adam Lowry on the show in 2018. This episode was produced by Noor Gill with music by Ramtin Arablouei. It was edited by Casey Herman. Our audio engineer was Cena Loffredo. You can follow HIBT on X &amp; Instagram and sign up for Guy''s free newsletter at guyraz.com and on Substack . See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
-    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
-    episode_uid: qzdjhb-m6boi7tmwxd1t-ralpyujjiyiwkyyw1bulcg
-    episode_slug: advice-line-with-eric-ryan-of-method-returns
-    episode_key: advice-line-with-eric-ryan-of-method-returns
     legacy_numbered_slug: episode-25
-    episode_page_url: "/how-i-built-this/advice-line-with-eric-ryan-of-method-returns/"
+    episode_page_url: "/how-i-built-this/shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand/"
   https://lexfridman.com/feed/podcast/: &74
   - episode_title: "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires"
     episode_url: https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis
