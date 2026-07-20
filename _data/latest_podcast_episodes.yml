@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-20T02:20:19Z'
+generated_at: '2026-07-20T03:10:34Z'
 items:
 - podcast_title: Singletrack
   podcast_page_url: "/singletrack/"
@@ -782,6 +782,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Forklart
+  podcast_page_url: "/forklart/"
+  cover_image: "/media/forklart.jpeg"
+  feed_url: https://podcast.stream.schibsted.media/ap/100194
+  filter_category: uncategorized norwegian
+  episode_title: Lara overlevde Utøya, søsteren ble drept. Nå er hun bekymret.
+  episode_url: ''
+  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/0qmc1v1acr2xunuquko9p/podcast_128.mp3
+  published_at: '2026-07-20T03:00:05+00:00'
+  episode_key: lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret
+  episode_slug: lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret
+  episode_page_url: "/forklart/lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret/"
 - podcast_title: And The Writer Is...with Ross Golan
   podcast_page_url: "/and-the-writer-is-with-ross-golan/"
   cover_image: "/media/andthewriteris.jpeg"
@@ -842,18 +854,6 @@ non_running_items:
   episode_key: we-re-judging-you-w-amber-singletary-reading-reddit-stories
   episode_slug: we-re-judging-you-w-amber-singletary-reading-reddit-stories
   episode_page_url: "/smosh-reads-reddit-stories/we-re-judging-you-w-amber-singletary-reading-reddit-stories/"
-- podcast_title: Forklart
-  podcast_page_url: "/forklart/"
-  cover_image: "/media/forklart.jpeg"
-  feed_url: https://podcast.stream.schibsted.media/ap/100194
-  filter_category: uncategorized norwegian
-  episode_title: 'Kort Forklart: Storbrannen i Krokstadelva: – Den verste natten i mitt liv'
-  episode_url: ''
-  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/vkudnczj6fzwelpneei3j/podcast_128.mp3
-  published_at: '2026-07-18T14:07:47+00:00'
-  episode_key: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
-  episode_slug: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
-  episode_page_url: "/forklart/kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv/"
 - podcast_title: Offline with Jon Favreau
   podcast_page_url: "/offline-with-jon-favreau/"
   cover_image: "/media/offline.jpeg"
@@ -18790,6 +18790,22 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/samsung-galaxy-unpacked-no-peeking/"
   https://podcast.stream.schibsted.media/ap/100194: &61
+  - episode_title: Lara overlevde Utøya, søsteren ble drept. Nå er hun bekymret.
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/0qmc1v1acr2xunuquko9p/podcast_128.mp3
+    published_at: '2026-07-20T03:00:05+00:00'
+    description_html: |-
+      15 år etter 22. juli: Hvor står vi? PST advarer mot en økning i høyreekstreme som hyller Breivik, og kaller Tiktok en motorvei til radikalisering. Lara Rashid overlevde Utøya, men mistet søsteren Bano i terroren. Hvilket Norge skal hennes nyfødte sønn vokse opp i?
+
+      Foto: Sara Aarøen Lien
+    description_plain: '15 år etter 22. juli: Hvor står vi? PST advarer mot en økning i høyreekstreme som hyller Breivik, og kaller Tiktok en motorvei til radikalisering. Lara Rashid overlevde Utøya, men mistet søsteren Bano i terroren. Hvilket Norge skal hennes nyfødte sønn vokse opp i? Foto: Sara Aarøen Lien'
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/1d68b2ab92a0f7c3a86771b27eda8791.jpg?t%5B%5D=1440q80
+    episode_uid: ap-140045
+    episode_slug: lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret
+    episode_key: lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret
+    legacy_unicode_slug: lara-overlevde-utøya-søsteren-ble-drept-nå-er-hun-bekymret
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret/"
   - episode_title: 'Kort Forklart: Storbrannen i Krokstadelva: – Den verste natten i mitt liv'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/vkudnczj6fzwelpneei3j/podcast_128.mp3
@@ -18800,7 +18816,7 @@ episodes_by_feed:
     episode_uid: ap-140052
     episode_slug: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
     episode_key: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv/"
   - episode_title: 'Kort Forklart: Splitter 22. juli mer enn før?'
     episode_url: ''
@@ -18813,7 +18829,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-splitter-22-juli-mer-enn-for
     episode_key: kort-forklart-splitter-22-juli-mer-enn-for
     legacy_unicode_slug: kort-forklart-splitter-22-juli-mer-enn-før
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/kort-forklart-splitter-22-juli-mer-enn-for/"
   - episode_title: Er kanselleringskulturen død?
     episode_url: ''
@@ -18829,7 +18845,7 @@ episodes_by_feed:
     episode_slug: er-kanselleringskulturen-dod
     episode_key: er-kanselleringskulturen-dod
     legacy_unicode_slug: er-kanselleringskulturen-død
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/er-kanselleringskulturen-dod/"
   - episode_title: 'Kort Forklart: Trump med kraftige trusler, og kritikk mot VM-show'
     episode_url: ''
@@ -18844,7 +18860,7 @@ episodes_by_feed:
     episode_uid: ap-140020
     episode_slug: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
     episode_key: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show/"
   - episode_title: 'Kort Forklart: Høiby er kommet hjem, og hvor ble det av Haaland?'
     episode_url: ''
@@ -18857,7 +18873,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
     episode_key: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
     legacy_unicode_slug: kort-forklart-høiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland/"
   - episode_title: 'Bassengtabbe og gullstatuer: Slik trumpifiseres USA'
     episode_url: ''
@@ -18869,7 +18885,7 @@ episodes_by_feed:
     episode_uid: ap-139903
     episode_slug: bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa
     episode_key: bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa/"
   - episode_title: 'Kort Forklart fotballspesial: Ble Norge urettferdig dømt?'
     episode_url: ''
@@ -18882,7 +18898,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-ble-norge-urettferdig-domt
     episode_key: kort-forklart-fotballspesial-ble-norge-urettferdig-domt
     legacy_unicode_slug: kort-forklart-fotballspesial-ble-norge-urettferdig-dømt
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/kort-forklart-fotballspesial-ble-norge-urettferdig-domt/"
   - episode_title: 'Norge-England: Kan vi sende dem hjem?'
     episode_url: ''
@@ -18896,7 +18912,7 @@ episodes_by_feed:
     episode_uid: ap-139911
     episode_slug: norge-england-kan-vi-sende-dem-hjem
     episode_key: norge-england-kan-vi-sende-dem-hjem
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/norge-england-kan-vi-sende-dem-hjem/"
   - episode_title: Kort Forklart: Reform UK-lederen blir utfordret av «Count Binface», og pengene flyr i VM.
     episode_url: ''
@@ -18908,7 +18924,7 @@ episodes_by_feed:
     episode_uid: ap-139915
     episode_slug: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
     episode_key: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm/"
   - episode_title: Gina var eneste norske journalist i ayatollahens begravelse
     episode_url: ''
@@ -18923,7 +18939,7 @@ episodes_by_feed:
     episode_uid: ap-139901
     episode_slug: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
     episode_key: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/gina-var-eneste-norske-journalist-i-ayatollahens-begravelse/"
   - episode_title: 'Sommer, utepils og VM-fyll: Når blir alkohol skadelig?'
     episode_url: ''
@@ -18939,7 +18955,7 @@ episodes_by_feed:
     episode_slug: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     episode_key: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     legacy_unicode_slug: sommer-utepils-og-vm-fyll-når-blir-alkohol-skadelig
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig/"
   - episode_title: 'Kort Forklart: Trump «tror» våpenhvilen er over, og mer kritikk av Fifa'
     episode_url: ''
@@ -18952,7 +18968,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     episode_key: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     legacy_unicode_slug: kort-forklart-trump-tror-våpenhvilen-er-over-og-mer-kritikk-av-fifa
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa/"
   - episode_title: 'Kort Forklart: Le Pen får mildere straff, og skandale preger fotball-VM'
     episode_url: ''
@@ -18965,7 +18981,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     episode_key: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     legacy_unicode_slug: kort-forklart-le-pen-får-mildere-straff-og-skandale-preger-fotball-vm
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm/"
   - episode_title: På innsiden av koranskolene
     episode_url: ''
@@ -18978,7 +18994,7 @@ episodes_by_feed:
     episode_slug: pa-innsiden-av-koranskolene
     episode_key: pa-innsiden-av-koranskolene
     legacy_unicode_slug: på-innsiden-av-koranskolene
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/pa-innsiden-av-koranskolene/"
   - episode_title: 'Kort Forklart fotballspesial: Norge gjorde det umulige. - Nå kan alt skje.'
     episode_url: ''
@@ -18991,7 +19007,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     episode_key: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     legacy_unicode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-nå-kan-alt-skje
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje/"
   - episode_title: 'Norge-Brasil: Klarer vi det igjen?'
     episode_url: ''
@@ -19003,7 +19019,7 @@ episodes_by_feed:
     episode_uid: ap-139743
     episode_slug: norge-brasil-klarer-vi-det-igjen
     episode_key: norge-brasil-klarer-vi-det-igjen
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/norge-brasil-klarer-vi-det-igjen/"
   - episode_title: 'Annonsørinnhold fra Gartner: Grønnsaker i sesong'
     episode_url: ''
@@ -19020,7 +19036,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     episode_key: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     legacy_unicode_slug: annonsørinnhold-fra-gartner-grønnsaker-i-sesong
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/annonsorinnhold-fra-gartner-gronnsaker-i-sesong/"
   - episode_title: 'Kort Forklart: Først nå begraves Irans øverste leder. Ingen vet om etterfølgeren dukker opp.'
     episode_url: ''
@@ -19033,7 +19049,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     episode_key: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     legacy_unicode_slug: kort-forklart-først-nå-begraves-irans-øverste-leder-ingen-vet-om-etterfølgeren-dukker-opp
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp/"
   - episode_title: "«Økonomisk dødsstraff»: Livet på Trumps svarteliste"
     episode_url: ''
@@ -19046,7 +19062,7 @@ episodes_by_feed:
     episode_slug: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     episode_key: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     legacy_unicode_slug: økonomisk-dødsstraff-livet-på-trumps-svarteliste
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/okonomisk-dodsstraff-livet-pa-trumps-svarteliste/"
   - episode_title: 'Kort Forklart: Trump tapte en av sine hjertesaker'
     episode_url: ''
@@ -19058,7 +19074,7 @@ episodes_by_feed:
     episode_uid: ap-139687
     episode_slug: kort-forklart-trump-tapte-en-av-sine-hjertesaker
     episode_key: kort-forklart-trump-tapte-en-av-sine-hjertesaker
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/kort-forklart-trump-tapte-en-av-sine-hjertesaker/"
   - episode_title: 'Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?'
     episode_url: ''
@@ -19071,7 +19087,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     episode_key: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     legacy_unicode_slug: kort-forklart-fotballspesial-nå-venter-nytt-møte-med-brasil-men-var-de-bedre-før
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
   - episode_title: 'Kort Forklart: De kalles «pervobriller». Derfor er Metas briller kontroversielle.'
     episode_url: ''
@@ -19083,7 +19099,7 @@ episodes_by_feed:
     episode_uid: ap-139642
     episode_slug: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
     episode_key: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle/"
   - episode_title: Er det Iphonens feil at vi får færre barn?
     episode_url: ''
@@ -19096,7 +19112,7 @@ episodes_by_feed:
     episode_slug: er-det-iphonens-feil-at-vi-far-faerre-barn
     episode_key: er-det-iphonens-feil-at-vi-far-faerre-barn
     legacy_unicode_slug: er-det-iphonens-feil-at-vi-får-færre-barn
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/er-det-iphonens-feil-at-vi-far-faerre-barn/"
   - episode_title: 'Kort Forklart fotballspesial: Var det riktig å benke de beste?'
     episode_url: ''
@@ -19109,21 +19125,8 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste
     episode_key: kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste
     legacy_unicode_slug: kort-forklart-fotballspesial-var-det-riktig-å-benke-de-beste
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste/"
-  - episode_title: 'Kort Forklart: Rød alarm i London, og spiller Haaland i kveld?'
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/zyl9uk1i7zyhxddgcc1sb/podcast_128.mp3
-    published_at: '2026-06-26T13:02:05+00:00'
-    description_html: For første gang i historien er det sendt ut rødt varsel om ekstrem hete tre dager på rad i London, og i Paris er pride-paraden avlyst. Vi oppsummerer nyhetene for deg, i dag også om Norges lagoppstilling mot Frankrike.
-    description_plain: For første gang i historien er det sendt ut rødt varsel om ekstrem hete tre dager på rad i London, og i Paris er pride-paraden avlyst. Vi oppsummerer nyhetene for deg, i dag også om Norges lagoppstilling mot Frankrike.
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/b2d346c38f06e6bf3c29c4f6ad5aed05.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139603
-    episode_slug: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
-    episode_key: kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld
-    legacy_unicode_slug: kort-forklart-rød-alarm-i-london-og-spiller-haaland-i-kveld
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/kort-forklart-rod-alarm-i-london-og-spiller-haaland-i-kveld/"
+    episode_page_url: "/forklart/kort-forklart-fotballspesial-var-det-riktig-a-benke-de-beste/"
   https://feeds.megaphone.fm/hubermanlab: &62
   - episode_title: 'Essentials: The Science & Treatment of Bipolar Disorder'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-bipolar-disorder
@@ -23993,18 +23996,18 @@ episodes_by_feed:
     episode_key: most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track
     legacy_numbered_slug: episode-07
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track/"
-  - episode_title: 'Dr. Martin Picard: How Stress Physically Drains Your Cells, Why You’re Tired & How to Reverse It'
+  - episode_title: 'Anti-Aging Expert: This Reverses Gray Hair & Boosts Your Energy!'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=wk2nwlsq4lgk2wy3i3q7nxfa
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=mlxyarlx12omk7tsqga9msuf
     published_at: '2026-07-02T05:22:37Z'
     description_html: '<p class="text-node">The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age!</p><p class="text-node">Dr Martin Picard is a Professor of Behavioral Medicine and Director of the Mitochondrial Psychobiology Group, who specialises in how stress, emotions and lived experiences affect your mitochondria. He recently published the world''s first map of mitochondria in the human brain and is also the author of the upcoming book, ‘Energy’.</p><p class="text-node">He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them</p><p class="text-node">Follow Dr Martin: Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/BqY0OhF">https://link.thediaryofaceo.com/BqY0OhF</a> Substack - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/4aOc0rk">https://link.thediaryofaceo.com/4aOc0rk</a> Metabolic Psychiatry and Ketogenic Diet - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/GexHJoI">https://link.thediaryofaceo.com/GexHJoI</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/Fs8WGvj">https://link.thediaryofaceo.com/Fs8WGvj</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/BsNZ7vH">https://link.thediaryofaceo.com/BsNZ7vH</a> You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/5jW5yUA">https://link.thediaryofaceo.com/5jW5yUA</a></p><p class="text-node">The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a> ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a> ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a> ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a> ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a> ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a>  Sponsors: KetoneIQ - Visit <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/STEVEN">https://ketone.com/STEVEN</a> for 30% off your subscription order Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://cometeer.com/DOAC">https://cometeer.com/DOAC</a> use code DOAC for $20 off Bon Charge: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://boncharge.com/DOAC">https://boncharge.com/DOAC</a> for 20% off</p>'
     description_plain: 'The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age! Dr Martin Picard is a Professor of Behavioral Medicine and Director of the Mitochondrial Psychobiology Group, who specialises in how stress, emotions and lived experiences affect your mitochondria. He recently published the world''s first map of mitochondria in the human brain and is also the author of the upcoming book, ‘Energy’. He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them Follow Dr Martin: Website - https://link.thediaryofaceo.com/BqY0OhF Substack - https://link.thediaryofaceo.com/4aOc0rk Metabolic Psychiatry and Ketogenic Diet - https://link.thediaryofaceo.com/GexHJoI X - https://link.thediaryofaceo.com/Fs8WGvj Instagram - https://link.thediaryofaceo.com/BsNZ7vH You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: https://link.thediaryofaceo.com/5jW5yUA The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: KetoneIQ - Visit https://ketone.com/STEVEN for 30% off your subscription order Cometeer - https://cometeer.com/DOAC use code DOAC for $20 off Bon Charge: https://boncharge.com/DOAC for 20% off'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KWGKWEFH9HN2N2T5TXV4NKGX/dr._martin_plcard.ep_cover_.jpg
     episode_uid: flightcast-01kwgkvp7ck70b0v0tba66ndaa
-    episode_slug: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
-    episode_key: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
+    episode_slug: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
+    episode_key: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
     legacy_numbered_slug: episode-08
-    episode_page_url: "/the-diary-of-a-ceo/dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it/"
+    episode_page_url: "/the-diary-of-a-ceo/anti-aging-expert-this-reverses-gray-hair-boosts-your-energy/"
   - episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KW360AZ5WMQFTCMQBDWEDQ1A.mp3
