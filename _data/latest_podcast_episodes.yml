@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-21T12:40:19Z'
+generated_at: '2026-07-21T13:39:07Z'
 items:
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
@@ -30560,7 +30560,7 @@ errors:
   error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: Dwarkesh Podcast
   rss_feed: https://www.dwarkeshpatel.com/feed
-  error: 'Net::OpenTimeout: Failed to open TCP connection to www.dwarkeshpatel.com:443 (execution expired)'
+  error: 'RuntimeError: redirection forbidden: https://www.dwarkeshpatel.com/feed -> http://dwarkesh.com/feed'
 feed_episodes_list:
 - feed_key: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
   episodes: *1
