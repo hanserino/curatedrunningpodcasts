@@ -19,6 +19,7 @@ youtube_link: https://www.youtube.com/@SubHubPod
 tags:
   - trail
   - subultra
+  - skyrunning
 language:
   - english
 ---
