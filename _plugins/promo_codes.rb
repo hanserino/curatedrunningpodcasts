@@ -13,6 +13,34 @@ module PromoCodes
   BRAND_STOPWORDS = %w[
     the this that and for with from episode episodes podcast podcasts listeners listener
     check out visit download app website link bio merch community presented brought
+    all any you when here between every fast fuel run use using want become get save shop
+    order orders first your our their off discount gear solution september triathletes
+    insights listeners benefit supported conversation listening harder pillow
+  ].freeze
+  REJECT_BRAND_KEYS = %w[
+    all and any the with you when here between every fast fuel run use using want become
+    get save shop order orders first off gear solution september triathletes insights
+    listeners benefit supported conversation listening harder pillow become a
+    mount to coast here want to try vertpro on ios or android is is supported by
+    is a conversation worth listening to chasing big goals not just harder to benefit one
+    cooling sleep system code distancetoemptypod code hyperlyteliquidper
+    hyperlyteliquidperformance sally mcrae strength choose
+    nobody asked us podcast from kara goucher and des linden tifosijune
+    trail training analytics vert on ios or android cover photo ryan thrower
+    cover photo somer kreisman it yourself 15 at kavahaven technology trusted by elite runners
+    winner announced at end of with code btp10 with code choosestrong
+  ].freeze
+  FRAGMENT_BRAND_RX = /
+    \b(?:chasing\s+big\s+goals|cover\s+photo|cooling\s+sleep|distancetoempty|hyperlyte|
+       sally\s+mcrae\s+strength|nobody.?asked.?us|trail\s+training|worth\s+listening|
+       is\s+is\s+supported|is\s+a\s+conversation|vert\s+on\s+ios|want\s+to\s+try|
+       to\s+benefit\s+one|not\s+just\s+harder|with\s+code|checkout|rrp\s+items|
+       head\s+to|take\s+quiz|go\s+pick|winner\s+announced|technology\s+trusted|
+       it\s+yourself|photo\s*:|fast\s+pickle\s+juice|pickle\s+juice\s+shots|core\s+2|
+       sleep\s+system|vert\s+pro\s+just|just\s+\$|face\s+mask)\b
+  /ix.freeze
+  ALLOWED_SINGLE_WORD_BRANDS = %w[
+    janji maurten rabbit strava wahoo saily nordvpn olipop feisty altra shokz amazfit
   ].freeze
   CODE_PATTERNS = [
     /(?:use|enter)\s+(?:the\s+)?code\s*:?\s*["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?(?:\s+(?:at checkout|for|to|and))?/i,
@@ -52,15 +80,21 @@ module PromoCodes
     <\/p>
   /ix.freeze
   HEADING_REJECT_RX = /
-    \b(?:support(?:ing)?|sponsor(?:s|ed|ing)?|topics|stay connected|episode sponsor|chat about|looking for|make sure|join the|merch|newsletter|patreon|youtube|instagram|linkedin|spotify|apple podcasts)\b
+    \b(?:support(?:ing)?|sponsor(?:s|ed|ing)?|topics|stay connected|episode sponsor|chat about|looking for|make sure|join the|merch|newsletter|patreon|youtube|instagram|linkedin|spotify|apple podcasts|cover photo|photo:)\b
   /ix.freeze
   BRAND_IN_OFFER_RX = /
     \d{1,3}%\s*off\s+
     (?:
-      your\s+(?:first\s+)?order\s+of\s+
+      your\s+(?:first\s+)?order(?:s)?(?:\s+of\s+)?
     )?
-    ([A-Z][A-Za-z0-9-]{2,30})
-    (?:\s+nutrition|\s+products?)?
+    ([A-Za-z][A-Za-z0-9&'’+. -]{1,40}?)
+    (?:\s+(?:gear|nutrition|products?|subscription))?
+    (?=\s+(?:with|use)\s+code|\s+at\b|[,.]|$)
+  /ix.freeze
+  AT_BRAND_BEFORE_OFFER_RX = /
+    \bat\s+
+    ([A-Za-z0-9][A-Za-z0-9&'’+. -]{1,40}?)
+    \s+(?:and\s+)?(?:get|shop|save|\d{1,3}%)
   /ix.freeze
   BRAND_AFTER_OFF_RX = /
     (?:
@@ -204,7 +238,30 @@ module PromoCodes
     "drdirtbag" => "Dirtbag Bars",
     "lever" => "Lever Movement",
     "hdroptech" => "hDrop",
-    "wildstrides" => "Wild Strides Paper Co."
+    "wildstrides" => "Wild Strides Paper Co.",
+    "centurionrunning" => "Centurion Running",
+    "citiusmag" => "CITIUS MAG",
+    "livemomentous" => "Momentous",
+    "momentous" => "Momentous",
+    "dirtbagbars" => "Dirtbag Bars",
+    "nobodyaskedus" => "Nobody Asked Us",
+    "vertpro" => "VertPro",
+    "vertrun" => "Vert.run",
+    "boulderboys" => "The Boulder Boys",
+    "runtraillife" => "Runtraillife",
+    "hyperlyte" => "Hyperlyte",
+    "distancetoempty" => "Distance to Empty",
+    "extramilest" => "The Extramilest Show",
+    "choosestrong" => "Choose Strong",
+    "trailrunnernation" => "Trail Runner Nation",
+    "trailsociety" => "Trail Society",
+    "roadtothetrials" => "Road to the Trials",
+    "runninglong" => "Running long",
+    "thealbonway" => "The Albon Way",
+    "insiderunning" => "Inside Running Podcast",
+    "prproject" => "The PR Project",
+    "subhub" => "The Sub Hub",
+    "midpacker" => "The Midpacker Podcast"
   }.freeze
   PRODUCT_NAME_ALIASES = [
     [/janji/i, "Janji"],
@@ -219,7 +276,32 @@ module PromoCodes
     [/lever(?:\s+movement)?/i, "Lever Movement"],
     [/wild\s*strides/i, "Wild Strides Paper Co."],
     [/beekeeper/i, "Beekeeper's Naturals"],
-    [/hdrop/i, "hDrop"]
+    [/hdrop/i, "hDrop"],
+    [/dirtbag\s*bars?/i, "Dirtbag Bars"],
+    [/centurion/i, "Centurion Running"],
+    [/citius/i, "CITIUS MAG"],
+    [/momentous|livemomentous/i, "Momentous"],
+    [/mount\s*to\s*coast/i, "Mount to Coast"],
+    [/probio/i, "Probio Nutrition"],
+    [/go\s*brewing/i, "Go Brewing"],
+    [/tifosi/i, "Tifosi Optics"],
+    [/feisty/i, "Feisty"],
+    [/vert\.?run|vertpro|vert on ios/i, "Vert.run"],
+    [/nobody\s*asked\s*us/i, "Nobody Asked Us"],
+    [/bon\s*charge|boncharge/i, "BONCHARGE"],
+    [/distance\s*to\s*empty/i, "Distance to Empty"],
+    [/trail\s*runner\s*nation/i, "Trail Runner Nation"],
+    [/trail\s*society/i, "Trail Society"],
+    [/road\s*to\s*the\s*trials/i, "Road to the Trials"],
+    [/running\s*long/i, "Running long"],
+    [/albon\s*way/i, "The Albon Way"],
+    [/inside\s*running/i, "Inside Running Podcast"],
+    [/sub\s*hub/i, "The Sub Hub"],
+    [/midpacker/i, "The Midpacker Podcast"],
+    [/fast\s*pickle|pickle\s*juice/i, "Fast Pickle"],
+    [/boulder\s*boys/i, "The Boulder Boys"],
+    [/vacation\s*races/i, "Vacation Races"],
+    [/naturals|beekeeper/i, "Beekeeper's Naturals"]
   ].freeze
 
   module_function
@@ -285,14 +367,90 @@ module PromoCodes
     text = context.to_s
     if (match = text.match(BRAND_IN_OFFER_RX))
       finalized = finalize_product_name(match[1], extract_domains(text))
-      return finalized if finalized
+      return finalized if finalized && plausible_product_name?(finalized)
     end
     if (match = text.match(BRAND_AFTER_OFF_RX))
       finalized = finalize_product_name(match[1], extract_domains(text))
-      return finalized if finalized
+      return finalized if finalized && plausible_product_name?(finalized)
+    end
+    if (match = text.match(AT_BRAND_BEFORE_OFFER_RX))
+      finalized = finalize_product_name(match[1], extract_domains(text))
+      return finalized if finalized && plausible_product_name?(finalized)
     end
 
     nil
+  end
+
+  def plausible_product_name?(name)
+    text = name.to_s.strip
+    return false unless acceptable_brand_name?(text)
+
+    key = normalize_key(text)
+    return false if REJECT_BRAND_KEYS.include?(key)
+    return false if text.split.size == 1 && !ALLOWED_SINGLE_WORD_BRANDS.include?(text.downcase)
+    return false if text.match?(/\A(?:all|any)\s+order/i)
+
+    true
+  end
+
+  def publishable_brand?(name, domains)
+    text = name.to_s.strip
+    return false unless plausible_product_name?(text)
+    return false if text.match?(/\b(?:with code|use code|enter code|checkout|http|www\.)\b/i)
+    return false if text.match?(%r{[@/\\]|\.com\b|\.co\b}i)
+    return false if text.match?(/\p{Extended_Pictographic}/u)
+    return false if text.match?(/\A(?:is|a|to|on|at|pro|not|now|take|way|mask|all|any|the|and|with|you|when|here)\b/i)
+    return false if text.match?(/\b(?:is by|is is|worth listening|rrp items|head to|take quiz|go pick|buy wahoo|website)\b/i)
+    return false if text.match?(/\d{1,3}%\s*(?:of|off)\b/i)
+    return false if normalize_key(text).split.size > 6
+
+    high_confidence_product?(text, domains)
+  end
+
+  def extract_trailing_product(segment)
+    text = segment.to_s.strip
+    text = text.sub(/\d{1,3}%\s*off\s*/i, "")
+    text = text.sub(/\bsave\s+\$?\d+(?:\.\d{2})?[^.]*\s+on\s+/i, "")
+    text = text.sub(/\b(?:on|for)\s+(?:all|any)\s+orders?\z/i, "")
+    text = text.strip
+    return nil if text.empty?
+
+    words = text.split(/\s+/)
+    [3, 2, 1].each do |count|
+      candidate = words.last(count)&.join(" ")
+      next if candidate.nil? || candidate.empty?
+
+      cleaned = clean_brand_name(candidate)
+      return cleaned if cleaned && plausible_product_name?(cleaned)
+    end
+
+    nil
+  end
+
+  def brand_from_with_code(context, code)
+    sanitized = sanitize_show_notes(context)
+    trigger = sanitized.match(/with\s+code\s+#{Regexp.escape(code)}\b/i)
+    return nil unless trigger
+
+    before = sanitized[0, trigger.begin(0)].to_s.strip
+    segment = before.split(/\band\s+|\.\s+/).last.to_s.strip
+    return nil if segment.empty?
+    return nil if segment.match?(/\A(?:all|any)\s+orders?\z/i)
+
+    offer_brand = brand_from_product_in_offer(segment)
+    return offer_brand if offer_brand
+
+    extract_trailing_product(segment)
+  end
+
+  def brand_from_and_use_code(context, code)
+    match = sanitize_show_notes(context).match(
+      /([A-Za-z0-9][A-Za-z0-9&'’+. -]{1,50}?)\s+and\s+use\s+(?:the\s+)?code\s+#{Regexp.escape(code)}\b/i
+    )
+    return nil unless match
+
+    cleaned = clean_brand_name(match[1])
+    cleaned if cleaned && plausible_product_name?(cleaned)
   end
 
   def brand_from_leading_label(context)
@@ -313,11 +471,10 @@ module PromoCodes
     Array(domains).each do |host|
       label = domain_label(host)
       return true if CANONICAL_BY_DOMAIN[label]
-      return true if label.length >= 4 && !%w[linktr patreon youtube linkedin amzn].include?(label)
     end
 
     text = name.to_s.strip
-    return false unless acceptable_brand_name?(text)
+    return false unless plausible_product_name?(text)
     return false if text.split.size > 5
     return false if text.match?(/\b(?:joins|dive|highlights|order code|referral|texting|youtube|patreon|insoles code|bars code|trailrunning|personalised|plans data)\b/i)
     return false if text.match?(/\A(?:running|sur|us|tion|my|ascend)\z/i)
@@ -327,9 +484,17 @@ module PromoCodes
       token = word.downcase.delete(".")
       token.length <= 2 && !%w[co llc uk us go].include?(token) && !%w[ZBiotics MUD\WTR].include?(text)
     end
-    return true if text.match?(/\A[A-Z0-9&.-]{3,30}\z/)
 
-    true
+    Array(domains).each do |host|
+      label = domain_label(host)
+      return true if label.length >= 4 && !%w[linktr patreon youtube linkedin amzn].include?(label)
+    end
+
+    return true if text.match?(/\A[A-Z0-9&.-]{3,30}\z/)
+    return true if text.match?(/\A[A-Z][a-zA-Z0-9&.-]{2,24}\z/)
+    return true if text.split.size >= 2
+
+    ALLOWED_SINGLE_WORD_BRANDS.include?(text.downcase)
   end
 
   def canonical_product(name, domains, context: nil)
@@ -337,14 +502,14 @@ module PromoCodes
       offer_brand = brand_from_product_in_offer(context) || brand_from_leading_label(context)
       if offer_brand
         finalized = finalize_product_name(offer_brand, sponsor_domains(domains))
-        return finalized if finalized && high_confidence_product?(finalized, sponsor_domains(domains))
+        return finalized if finalized && publishable_brand?(finalized, sponsor_domains(domains))
       end
     end
 
     cleaned = clean_brand_name(name)
     if cleaned
       finalized = finalize_product_name(cleaned, sponsor_domains(domains))
-      if finalized && high_confidence_product?(finalized, sponsor_domains(domains))
+      if finalized && publishable_brand?(finalized, sponsor_domains(domains))
         return finalized
       end
     end
@@ -356,7 +521,7 @@ module PromoCodes
 
       brand = domain_to_brand(host)
       finalized = finalize_product_name(brand, domains) if brand
-      return finalized if finalized && high_confidence_product?(finalized, sponsor_domains(domains))
+      return finalized if finalized && publishable_brand?(finalized, sponsor_domains(domains))
     end
 
     nil
@@ -387,11 +552,16 @@ module PromoCodes
     return false if text.empty? || text.length < 2 || text.length > 60
     return false if text.match?(/\A\d+\z/)
     return false if text.match?(JUNK_BRAND_RX)
+    return false if text.match?(FRAGMENT_BRAND_RX)
+    return false if REJECT_BRAND_KEYS.include?(normalize_key(text))
     return false if text.split.size > 7
     return false if text.match?(/\buse code\b/i)
     return false if text.match?(/\benter code\b/i)
     return false if text.match?(/\bgear code\b/i)
     return false if text.match?(/\bwhen you\b/i)
+    return false if text.match?(/\A(?:become|want|using|benefit|order|save|shop|get|visit|listen|try)\b/i)
+    return false if text.match?(/\b(?:here|code)\z/i)
+    return false if text.split.all? { |word| BRAND_STOPWORDS.include?(word.downcase) }
 
     true
   end
@@ -410,6 +580,8 @@ module PromoCodes
     cleaned = words.join(" ").strip
     return nil if cleaned.length < 2
     return nil if cleaned.match?(/\buse code\b/i)
+    return nil if REJECT_BRAND_KEYS.include?(normalize_key(cleaned))
+    return nil if cleaned.split.all? { |word| BRAND_STOPWORDS.include?(word.downcase) }
 
     cleaned[0, 60]
   end
@@ -453,7 +625,7 @@ module PromoCodes
     return false if text.empty? || text.length > 60
     return false if text.match?(HEADING_REJECT_RX)
     return false if text.match?(/\buse code\b/i)
-    return false unless acceptable_brand_name?(text)
+    return false unless plausible_product_name?(text)
 
     words = text.split(/\s+/)
     return false if words.size > 6
@@ -616,13 +788,14 @@ module PromoCodes
   def sponsor_line_for_code(text, code)
     sanitized = sanitize_show_notes(text)
     trigger = sanitized.match(/(?:use|enter)\s+(?:the\s+)?code\s+#{Regexp.escape(code)}\b/i) ||
+              sanitized.match(/with\s+code\s+#{Regexp.escape(code)}\b/i) ||
               sanitized.match(/type in this code\s+#{Regexp.escape(code)}\b/i)
     return "" unless trigger
 
     idx = trigger.begin(0)
-    prefix_start = [idx - 70, 0].max
+    prefix_start = [idx - 90, 0].max
     prefix = sanitized[prefix_start, idx - prefix_start].to_s
-    prefix = prefix.split(/(?:\p{So}|(?:\.\s+))/u).last.to_s.strip
+    prefix = prefix.split(/(?:\p{So}|(?:\.\s+)|(?:,\s+))/u).last.to_s.strip
     segment = sanitized[idx, [trigger[0].length + 120, sanitized.length - idx].min].to_s.strip
     segment = segment.split(/\.\s+/).first.to_s.strip
     [prefix, segment].reject(&:empty?).join(" ").strip
@@ -723,12 +896,12 @@ module PromoCodes
 
     if (match = before.match(/([A-Z0-9][A-Za-z0-9&'’+. -]{2,50})\s*(?:—|–|-|:)\s*\z/))
       cleaned = clean_brand_name(match[1])
-      return cleaned if cleaned
+      return cleaned if cleaned && plausible_product_name?(cleaned)
     end
 
     if (match = before.match(/([A-Z][A-Za-z0-9&'’+. -]{2,40})\s*\z/))
       cleaned = clean_brand_name(match[1])
-      return cleaned if cleaned && cleaned.split.size <= 5
+      return cleaned if cleaned && plausible_product_name?(cleaned) && cleaned.split.size <= 5
     end
 
     brand_from_caps_before_use_code(context, code) ||
@@ -747,7 +920,9 @@ module PromoCodes
   def infer_brand(html, plain, code, context)
     sanitized_context = sanitize_show_notes(context)
 
-    brand_from_product_in_offer(sanitized_context) ||
+    brand_from_with_code(sanitized_context, code) ||
+      brand_from_and_use_code(sanitized_context, code) ||
+      brand_from_product_in_offer(sanitized_context) ||
       brand_from_leading_label(sanitized_context) ||
       brand_from_link_before_use_code(html, sanitized_context, code) ||
       brand_from_strong_html(html, code) ||
@@ -760,7 +935,15 @@ module PromoCodes
       brand_from_teamed_up(sanitized_context) ||
       brand_from_plain_context(sanitized_context, code) ||
       brand_from_brought_by(sanitized_context) ||
-      extract_domains(sanitized_context).map { |host| domain_to_brand(host) }.find { |name| acceptable_brand_name?(name) }
+      sponsor_domains(extract_domains(sanitized_context)).map { |host| CANONICAL_BY_DOMAIN[domain_label(host)] }.compact.first ||
+      sponsor_domains(extract_domains(sanitized_context)).filter_map do |host|
+        label = domain_label(host)
+        next if %w[linktr patreon youtube linkedin amzn spotify apple].include?(label)
+
+        brand = CANONICAL_BY_DOMAIN[label] || domain_to_brand(host)
+        cleaned = clean_brand_name(brand)
+        cleaned if cleaned && plausible_product_name?(cleaned)
+      end.first
   end
 
   def episode_time(episode)
