@@ -124,11 +124,14 @@ class PodcastEpisodePage < Jekyll::Page
       "cover_image" => podcast_doc.data["cover_image"],
       "episode_image_url" => episode["episode_image_url"].to_s.strip,
       "rss_feed" => podcast_doc.data["rss_feed"],
+      "spotify_link" => podcast_doc.data["spotify_link"].to_s.strip,
+      "apple_podcast_link" => podcast_doc.data["apple_podcast_link"].to_s.strip,
       "tags" => podcast_doc.data["tags"],
       "language" => podcast_doc.data["language"],
       "date" => episode["published_at"],
       "episode_page_url" => permalink,
-      "permalink" => permalink
+      "permalink" => permalink,
+      "youtube_video_id" => episode["youtube_video_id"].to_s.strip
     }
     process(@name)
   end

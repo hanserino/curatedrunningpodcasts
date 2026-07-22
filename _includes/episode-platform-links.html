@@ -1,0 +1,19 @@
+{%- assign spotify = page.spotify_link | default: '' | strip -%}
+{%- assign apple = page.apple_podcast_link | default: '' | strip -%}
+{%- if spotify != '' or apple != '' -%}
+<nav class="episode-page__platforms" aria-label="Listen on other platforms">
+	<p class="episode-page__platforms-label">Also on</p>
+	<ul class="episode-page__platforms-list">
+		{%- if spotify != '' -%}
+		<li>
+			<a href="{{ spotify | escape }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ page.podcast_title | xml_escape }} on Spotify (opens in a new tab)">Spotify</a>
+		</li>
+		{%- endif -%}
+		{%- if apple != '' -%}
+		<li>
+			<a href="{{ apple | escape }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ page.podcast_title | xml_escape }} on Apple Podcasts (opens in a new tab)">Apple Podcasts</a>
+		</li>
+		{%- endif -%}
+	</ul>
+</nav>
+{%- endif -%}

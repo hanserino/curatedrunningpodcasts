@@ -1,0 +1,14 @@
+{%- assign yt_id = include.video_id | default: page.youtube_video_id | strip -%}
+{%- if yt_id != '' -%}
+<section class="episode-page__video" aria-label="Watch on YouTube">
+	<div class="episode-page__video-frame">
+		<iframe
+			src="https://www.youtube-nocookie.com/embed/{{ yt_id | escape }}"
+			title="{{ page.episode_title | escape }} — YouTube video"
+			loading="lazy"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin"
+			allowfullscreen></iframe>
+	</div>
+</section>
+{%- endif -%}
