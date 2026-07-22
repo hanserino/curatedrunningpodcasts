@@ -22,6 +22,7 @@ module YoutubeEpisodeMatcher
   CHANNEL_ID_RX = /channel_id=(UC[\w-]{20,})|"channelId":"(UC[\w-]{20,})"/.freeze
   PLAYLIST_ID_RX = %r{[?&]list=(PL[\w-]{10,})}.freeze
   CHANNEL_PATH_RX = %r{youtube\.com/channel/(UC[\w-]{20,})}i.freeze
+  EPISODE_NUMBER_RX = /\A(?:#?\s*)?(?:ep\.?|episode)\s*#?\s*(\d+)\b/i.freeze
 
   module_function
 
@@ -190,6 +191,33 @@ module YoutubeEpisodeMatcher
     (episode_time - video_time).abs <= DATE_WINDOW_SECONDS
   end
 
+  def episode_number(title)
+    match = title.to_s.match(EPISODE_NUMBER_RX)
+    match ? match[1].to_i : nil
+  end
+
+  def episode_numbers_compatible?(episode_title, video_title)
+    episode_num = episode_number(episode_title)
+    video_num = episode_number(video_title)
+    return true unless episode_num && episode_num.positive?
+    return true unless video_num && video_num.positive?
+
+    episode_num == video_num
+  end
+
+  def shared_show_notes_video_ids(episodes)
+    counts = Hash.new(0)
+
+    Array(episodes).each do |episode|
+      next unless episode.is_a?(Hash)
+
+      video_id = extract_video_id_from_html(episode["description_html"])
+      counts[video_id] += 1 if video_id.to_s.strip != ""
+    end
+
+    counts.select { |_video_id, count| count > 1 }.keys
+  end
+
   def extract_video_id_from_html(html)
     ids = html.to_s.scan(YOUTUBE_WATCH_RX).flatten
     ids = ids.reject { |id| id.to_s.strip.empty? }.uniq
@@ -207,9 +235,18 @@ module YoutubeEpisodeMatcher
     nil
   end
 
-  def match_episode_candidates(episode, videos)
+  def html_video_id_trusted?(video_id, videos)
+    return false if video_id.to_s.strip.empty?
+
+    # When we have the channel feed, only trust show-notes links that appear on it.
+    return videos.any? { |video| video[:video_id] == video_id } unless videos.empty?
+
+    true
+  end
+
+  def match_episode_candidates(episode, videos, shared_html_video_ids: [])
     from_html = extract_video_id_from_html(episode["description_html"])
-    if from_html.to_s.strip != ""
+    if html_video_id_trusted?(from_html, videos) && !shared_html_video_ids.include?(from_html)
       return [{ video_id: from_html, score: 1.0 }]
     end
 
@@ -218,6 +255,7 @@ module YoutubeEpisodeMatcher
 
     videos.each do |video|
       next if video[:is_short]
+      next unless episode_numbers_compatible?(episode["episode_title"], video[:title])
       next unless within_date_window?(episode_time, video[:published_at])
 
       score = title_similarity(episode["episode_title"], video[:title])
@@ -232,11 +270,16 @@ module YoutubeEpisodeMatcher
 
   def assign_videos_to_episodes!(episodes, videos)
     pairs = []
+    shared_html_video_ids = shared_show_notes_video_ids(episodes)
 
     Array(episodes).each do |episode|
       next unless episode.is_a?(Hash)
 
-      match_episode_candidates(episode, videos).each do |candidate|
+      match_episode_candidates(
+        episode,
+        videos,
+        shared_html_video_ids: shared_html_video_ids
+      ).each do |candidate|
         pairs << {
           episode: episode,
           video_id: candidate[:video_id],
