@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-21T23:25:22Z'
+generated_at: '2026-07-22T00:33:02Z'
 items:
+- podcast_title: Spring Snyggt
+  podcast_page_url: "/spring-snyggt/"
+  cover_image: "/media/springsnyggt.jpeg"
+  feed_url: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
+  filter_category: track road swedish
+  episode_title: 347. Tillbaka till toppen med Emelie Forsberg
+  episode_url: https://springsnyggt.libsyn.com/347-tillbaka-till-toppen-med-emelie-forsberg
+  audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_22juli.mp3?dest-id=1729274
+  published_at: '2026-07-22T00:00:00+00:00'
+  episode_key: 347-tillbaka-till-toppen-med-emelie-forsberg
+  episode_slug: 347-tillbaka-till-toppen-med-emelie-forsberg
+  episode_page_url: "/spring-snyggt/347-tillbaka-till-toppen-med-emelie-forsberg/"
 - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
   podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
   cover_image: "/media/citiusmag.jpeg"
@@ -349,18 +361,6 @@ items:
   episode_key: 4-30-mile-world-record-watch
   episode_slug: 4-30-mile-world-record-watch
   episode_page_url: "/nobody-asked-us/4-30-mile-world-record-watch/"
-- podcast_title: Spring Snyggt
-  podcast_page_url: "/spring-snyggt/"
-  cover_image: "/media/springsnyggt.jpeg"
-  feed_url: https://rss.libsyn.com/shows/233666/destinations/1729274.xml
-  filter_category: track road swedish
-  episode_title: 346. Jesper Lundberg om att justera träning efter skada
-  episode_url: https://springsnyggt.libsyn.com/346-jesper-lundberg-om-att-justera-trning-efter-skada
-  audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_15_juli.mp3?dest-id=1729274
-  published_at: '2026-07-15T01:00:00+00:00'
-  episode_key: 346-jesper-lundberg-om-att-justera-traning-efter-skada
-  episode_slug: 346-jesper-lundberg-om-att-justera-traning-efter-skada
-  episode_page_url: "/spring-snyggt/346-jesper-lundberg-om-att-justera-traning-efter-skada/"
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong/"
   cover_image: "/media/choosestrongpodcast.jpeg"
@@ -10613,6 +10613,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/women-of-distance/jade-belzberg-the-unexpected-path/"
   https://rss.libsyn.com/shows/233666/destinations/1729274.xml: &34
+  - episode_title: 347. Tillbaka till toppen med Emelie Forsberg
+    episode_url: https://springsnyggt.libsyn.com/347-tillbaka-till-toppen-med-emelie-forsberg
+    audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_22juli.mp3?dest-id=1729274
+    published_at: '2026-07-22T00:00:00+00:00'
+    description_html: '<p>Emelie Forsberg var vår första världsstjärna i ultrabergslöpning när hon slog igenom 2013.</p><p>Sedan dess har hon vunnit internationella mästerskap, slagit rekord, flyttat till Måndalen, odlat sin trädgård, startat företag och fött tre barn.</p><p>I helgen kom hon tvåa i UTMB Monte Rosa Walserwaeg 82k.</p><p>Hur är det att fortsätta satsa efter 15 år som elitutövare när konkurrensen hela tiden hårdnar? Vad är målsättningarna framöver? Vilken träning tog henne tillbaka till storform? Och hur är det att leva med Kilian Jornet?</p><p>John har sprungit i platta pinjeskogar med tråkiga hälsenor och fattat ett svårt och tråkigt beslut.</p><p>Manne har tävlat i Trogsta, lassat på för mycket volym och även han fatt ett svårt och tråkigt beslut. Spoiler alert: Skiergen är tillbaka i hans hem för första gången på länge.</p><p><a href= "https://www.apollo.se/resor/traningsresor/traningskalender/loparresan-med-spring-snyggt-podden"> Följa med på vår resa till Playitas i Fuerteventura den 4-11 december! </a></p><p><a href="https://goodr.se/">Köp Goodr mycket fina och prisvärda solglasögon med 25 procent rabatt!</a> Kod: springsnyggt25</p><p><a href= "https://www.loplabbet.se/landningssida/loplabbets-skoguide-2026-daily-trainer"> Kolla in Löplabbets nya skoguider!</a></p>'
+    description_plain: 'Emelie Forsberg var vår första världsstjärna i ultrabergslöpning när hon slog igenom 2013. Sedan dess har hon vunnit internationella mästerskap, slagit rekord, flyttat till Måndalen, odlat sin trädgård, startat företag och fött tre barn. I helgen kom hon tvåa i UTMB Monte Rosa Walserwaeg 82k. Hur är det att fortsätta satsa efter 15 år som elitutövare när konkurrensen hela tiden hårdnar? Vad är målsättningarna framöver? Vilken träning tog henne tillbaka till storform? Och hur är det att leva med Kilian Jornet? John har sprungit i platta pinjeskogar med tråkiga hälsenor och fattat ett svårt och tråkigt beslut. Manne har tävlat i Trogsta, lassat på för mycket volym och även han fatt ett svårt och tråkigt beslut. Spoiler alert: Skiergen är tillbaka i hans hem för första gången på länge. Följa med på vår resa till Playitas i Fuerteventura den 4-11 december! Köp Goodr mycket fina och prisvärda solglasögon med 25 procent rabatt! Kod: springsnyggt25 Kolla in Löplabbets nya skoguider!'
+    episode_image_url: ''
+    episode_uid: 0bb4dac9-7fd5-40a9-8238-eafd51c24bc7
+    episode_slug: 347-tillbaka-till-toppen-med-emelie-forsberg
+    episode_key: 347-tillbaka-till-toppen-med-emelie-forsberg
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/spring-snyggt/347-tillbaka-till-toppen-med-emelie-forsberg/"
   - episode_title: 346. Jesper Lundberg om att justera träning efter skada
     episode_url: https://springsnyggt.libsyn.com/346-jesper-lundberg-om-att-justera-trning-efter-skada
     audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_15_juli.mp3?dest-id=1729274
@@ -10624,7 +10636,7 @@ episodes_by_feed:
     episode_slug: 346-jesper-lundberg-om-att-justera-traning-efter-skada
     episode_key: 346-jesper-lundberg-om-att-justera-traning-efter-skada
     legacy_unicode_slug: 346-jesper-lundberg-om-att-justera-träning-efter-skada
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/spring-snyggt/346-jesper-lundberg-om-att-justera-traning-efter-skada/"
   - episode_title: 345. Sommarträning med löpningstungviktaren Edvin Anger
     episode_url: https://springsnyggt.libsyn.com/345-sommartrning-med-lpningstungviktaren-edvin-anger
@@ -10637,7 +10649,7 @@ episodes_by_feed:
     episode_slug: 345-sommartraning-med-lopningstungviktaren-edvin-anger
     episode_key: 345-sommartraning-med-lopningstungviktaren-edvin-anger
     legacy_unicode_slug: 345-sommarträning-med-löpningstungviktaren-edvin-anger
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/spring-snyggt/345-sommartraning-med-lopningstungviktaren-edvin-anger/"
   - episode_title: 344. Aging like fine wine - Kajsa Berg och det nya svenska rekordet på 100 miles
     episode_url: https://springsnyggt.libsyn.com/344-aging-like-fine-wine-kajsa-berg-och-det-nya-svenska-rekordet-p-100-miles
@@ -10650,7 +10662,7 @@ episodes_by_feed:
     episode_slug: 344-aging-like-fine-wine-kajsa-berg-och-det-nya-svenska-rekordet-pa-100-miles
     episode_key: 344-aging-like-fine-wine-kajsa-berg-och-det-nya-svenska-rekordet-pa-100-miles
     legacy_unicode_slug: 344-aging-like-fine-wine-kajsa-berg-och-det-nya-svenska-rekordet-på-100-miles
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/spring-snyggt/344-aging-like-fine-wine-kajsa-berg-och-det-nya-svenska-rekordet-pa-100-miles/"
   - episode_title: 343. Att bygga vidare från livets prestation med Leo Magnusson
     episode_url: https://springsnyggt.libsyn.com/343-att-bygga-vidare-frn-livets-prestation-med-leo-magnusson
@@ -10663,7 +10675,7 @@ episodes_by_feed:
     episode_slug: 343-att-bygga-vidare-fran-livets-prestation-med-leo-magnusson
     episode_key: 343-att-bygga-vidare-fran-livets-prestation-med-leo-magnusson
     legacy_unicode_slug: 343-att-bygga-vidare-från-livets-prestation-med-leo-magnusson
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/spring-snyggt/343-att-bygga-vidare-fran-livets-prestation-med-leo-magnusson/"
   - episode_title: 342. Emma Eriksson tog stigen till ett EM-brons
     episode_url: https://springsnyggt.libsyn.com/342-emma-eriksson-tog-stigen-till-ett-em-brons
@@ -10675,7 +10687,7 @@ episodes_by_feed:
     episode_uid: 10bb94e4-ba50-45f7-a8a3-eef9d6ad9c3d
     episode_slug: 342-emma-eriksson-tog-stigen-till-ett-em-brons
     episode_key: 342-emma-eriksson-tog-stigen-till-ett-em-brons
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/spring-snyggt/342-emma-eriksson-tog-stigen-till-ett-em-brons/"
   - episode_title: 341. Berättelsen om Inger Knutsson
     episode_url: https://springsnyggt.libsyn.com/341-berttelsen-om-inger-knutsson
@@ -10688,7 +10700,7 @@ episodes_by_feed:
     episode_slug: 341-berattelsen-om-inger-knutsson
     episode_key: 341-berattelsen-om-inger-knutsson
     legacy_unicode_slug: 341-berättelsen-om-inger-knutsson
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/spring-snyggt/341-berattelsen-om-inger-knutsson/"
   - episode_title: 340. Stockholm Marathon Special 2026
     episode_url: https://springsnyggt.libsyn.com/340-stockholm-marathon-special-2026
@@ -10700,7 +10712,7 @@ episodes_by_feed:
     episode_uid: a1ce6e16-400a-4c94-addc-94de303389a9
     episode_slug: 340-stockholm-marathon-special-2026
     episode_key: 340-stockholm-marathon-special-2026
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/spring-snyggt/340-stockholm-marathon-special-2026/"
   - episode_title: 339. De senaste rönen om energi och kolhydratsladdning med Tobias Christensson
     episode_url: https://springsnyggt.libsyn.com/339-de-senaste-rnen-om-energi-och-kolhydratsladdning-med-tobias-christensson
@@ -10713,7 +10725,7 @@ episodes_by_feed:
     episode_slug: 339-de-senaste-ronen-om-energi-och-kolhydratsladdning-med-tobias-christensson
     episode_key: 339-de-senaste-ronen-om-energi-och-kolhydratsladdning-med-tobias-christensson
     legacy_unicode_slug: 339-de-senaste-rönen-om-energi-och-kolhydratsladdning-med-tobias-christensson
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/spring-snyggt/339-de-senaste-ronen-om-energi-och-kolhydratsladdning-med-tobias-christensson/"
   - episode_title: 338. Tilda springer, cyklar och simmar snabbare än någonsin förut!
     episode_url: https://springsnyggt.libsyn.com/338-tilda-springer-cyklar-och-simmar-snabbare-n-ngonsin-frut
@@ -10726,7 +10738,7 @@ episodes_by_feed:
     episode_slug: 338-tilda-springer-cyklar-och-simmar-snabbare-an-nagonsin-forut
     episode_key: 338-tilda-springer-cyklar-och-simmar-snabbare-an-nagonsin-forut
     legacy_unicode_slug: 338-tilda-springer-cyklar-och-simmar-snabbare-än-någonsin-förut
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/spring-snyggt/338-tilda-springer-cyklar-och-simmar-snabbare-an-nagonsin-forut/"
   - episode_title: 337. Carmens framfart
     episode_url: https://springsnyggt.libsyn.com/337-carmens-framfart
@@ -10738,7 +10750,7 @@ episodes_by_feed:
     episode_uid: 5c5c168b-5b23-455a-ba99-3de2a501c8cf
     episode_slug: 337-carmens-framfart
     episode_key: 337-carmens-framfart
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/spring-snyggt/337-carmens-framfart/"
   - episode_title: 336. Spring Snabbare med Andreas Almgren
     episode_url: https://springsnyggt.libsyn.com/336-spring-snabbare-med-andreas-almgren
@@ -10750,7 +10762,7 @@ episodes_by_feed:
     episode_uid: 74d18241-2334-4b67-8cf4-728349a114ab
     episode_slug: 336-spring-snabbare-med-andreas-almgren
     episode_key: 336-spring-snabbare-med-andreas-almgren
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/spring-snyggt/336-spring-snabbare-med-andreas-almgren/"
   - episode_title: 335. Nomio 10k-special
     episode_url: https://springsnyggt.libsyn.com/335-nomio-10k-special
@@ -10762,7 +10774,7 @@ episodes_by_feed:
     episode_uid: b329e28f-92c4-489b-9074-3dd5c8252d14
     episode_slug: 335-nomio-10k-special
     episode_key: 335-nomio-10k-special
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/spring-snyggt/335-nomio-10k-special/"
   - episode_title: 334. Footing tar Liv till nya höjder!
     episode_url: https://springsnyggt.libsyn.com/334-fotting-tar-liv-till-nya-hjder
@@ -10775,7 +10787,7 @@ episodes_by_feed:
     episode_slug: 334-footing-tar-liv-till-nya-hojder
     episode_key: 334-footing-tar-liv-till-nya-hojder
     legacy_unicode_slug: 334-footing-tar-liv-till-nya-höjder
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/spring-snyggt/334-footing-tar-liv-till-nya-hojder/"
   - episode_title: 333. Gjert Ingebrigtsen
     episode_url: https://springsnyggt.libsyn.com/333-gjert-ingebrigtsen
@@ -10787,7 +10799,7 @@ episodes_by_feed:
     episode_uid: 766a4d2c-09dc-42ac-a08d-cfaf1a95fbc8
     episode_slug: 333-gjert-ingebrigtsen
     episode_key: 333-gjert-ingebrigtsen
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/spring-snyggt/333-gjert-ingebrigtsen/"
   - episode_title: 332. Att sluta på topp!
     episode_url: https://springsnyggt.libsyn.com/332-att-sluta-p-topp
@@ -10800,7 +10812,7 @@ episodes_by_feed:
     episode_slug: 332-att-sluta-pa-topp
     episode_key: 332-att-sluta-pa-topp
     legacy_unicode_slug: 332-att-sluta-på-topp
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/spring-snyggt/332-att-sluta-pa-topp/"
   - episode_title: 331. Emils väg tillbaka
     episode_url: https://springsnyggt.libsyn.com/331-emils-vg-tillbaka
@@ -10813,7 +10825,7 @@ episodes_by_feed:
     episode_slug: 331-emils-vag-tillbaka
     episode_key: 331-emils-vag-tillbaka
     legacy_unicode_slug: 331-emils-väg-tillbaka
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/spring-snyggt/331-emils-vag-tillbaka/"
   - episode_title: 330. Marius Bakken och grunden till den norska modellen
     episode_url: https://springsnyggt.libsyn.com/330-marius-bakken-och-grunden-till-den-norska-modellen
@@ -10825,7 +10837,7 @@ episodes_by_feed:
     episode_uid: e8936ae1-5998-4e56-a9c1-d988be226d55
     episode_slug: 330-marius-bakken-och-grunden-till-den-norska-modellen
     episode_key: 330-marius-bakken-och-grunden-till-den-norska-modellen
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/spring-snyggt/330-marius-bakken-och-grunden-till-den-norska-modellen/"
   - episode_title: 329. Löpningens ekonomiska värld
     episode_url: https://springsnyggt.libsyn.com/330-lpningens-ekonomiska-vrld
@@ -10838,7 +10850,7 @@ episodes_by_feed:
     episode_slug: 329-lopningens-ekonomiska-varld
     episode_key: 329-lopningens-ekonomiska-varld
     legacy_unicode_slug: 329-löpningens-ekonomiska-värld
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/spring-snyggt/329-lopningens-ekonomiska-varld/"
   - episode_title: 328. De största misstagen inför ett maraton
     episode_url: https://springsnyggt.libsyn.com/328-de-strsta-misstagen-infr-ett-maraton
@@ -10851,7 +10863,7 @@ episodes_by_feed:
     episode_slug: 328-de-storsta-misstagen-infor-ett-maraton
     episode_key: 328-de-storsta-misstagen-infor-ett-maraton
     legacy_unicode_slug: 328-de-största-misstagen-inför-ett-maraton
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/spring-snyggt/328-de-storsta-misstagen-infor-ett-maraton/"
   - episode_title: 327. 2026 års Vasaloppsvinnare - Oskar Kardin!
     episode_url: https://springsnyggt.libsyn.com/327-2026-rs-vasaloppsvinnare-oskar-kardin
@@ -10864,7 +10876,7 @@ episodes_by_feed:
     episode_slug: 327-2026-ars-vasaloppsvinnare-oskar-kardin
     episode_key: 327-2026-ars-vasaloppsvinnare-oskar-kardin
     legacy_unicode_slug: 327-2026-års-vasaloppsvinnare-oskar-kardin
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/spring-snyggt/327-2026-ars-vasaloppsvinnare-oskar-kardin/"
   - episode_title: 326. Världens snabbaste Andreas efter 10K i Castellón
     episode_url: https://springsnyggt.libsyn.com/326-vrldens-snabbaste-andreas-efter-10k-i-castelln
@@ -10877,7 +10889,7 @@ episodes_by_feed:
     episode_slug: 326-varldens-snabbaste-andreas-efter-10k-i-castellon
     episode_key: 326-varldens-snabbaste-andreas-efter-10k-i-castellon
     legacy_unicode_slug: 326-världens-snabbaste-andreas-efter-10k-i-castellón
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/spring-snyggt/326-varldens-snabbaste-andreas-efter-10k-i-castellon/"
   - episode_title: 325. 9 av 10 gånger går det åt helvete!
     episode_url: https://springsnyggt.libsyn.com/325-9-av-10-gnger-gr-det-t-helvete
@@ -10890,7 +10902,7 @@ episodes_by_feed:
     episode_slug: 325-9-av-10-ganger-gar-det-at-helvete
     episode_key: 325-9-av-10-ganger-gar-det-at-helvete
     legacy_unicode_slug: 325-9-av-10-gånger-går-det-åt-helvete
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/spring-snyggt/325-9-av-10-ganger-gar-det-at-helvete/"
   - episode_title: 324. Yolanda Ngarambe - "Folk är alldeles för rädda för att vila"
     episode_url: https://springsnyggt.libsyn.com/324-yolanda-ngarambe-folk-r-alldeles-fr-rdda-fr-att-vila
@@ -10903,7 +10915,7 @@ episodes_by_feed:
     episode_slug: 324-yolanda-ngarambe-folk-ar-alldeles-for-radda-for-att-vila
     episode_key: 324-yolanda-ngarambe-folk-ar-alldeles-for-radda-for-att-vila
     legacy_unicode_slug: 324-yolanda-ngarambe-folk-är-alldeles-för-rädda-för-att-vila
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/spring-snyggt/324-yolanda-ngarambe-folk-ar-alldeles-for-radda-for-att-vila/"
   - episode_title: 323. Uppladdning för 10 snabba kilometer med Sebastian Lörstad
     episode_url: https://springsnyggt.libsyn.com/323-uppladdning-fr-10-snabba-kilometer-med-sebastian-lrstad
@@ -10916,21 +10928,8 @@ episodes_by_feed:
     episode_slug: 323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad
     episode_key: 323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad
     legacy_unicode_slug: 323-uppladdning-för-10-snabba-kilometer-med-sebastian-lörstad
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/spring-snyggt/323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad/"
-  - episode_title: 322. Graviditet och elitlöpning med Ingrid Kristiansen
-    episode_url: https://springsnyggt.libsyn.com/322-graviditet-och-elitlpning-med-ingrid-kristiansen
-    audio_url: https://traffic.libsyn.com/secure/springsnyggt/Spring_Snyggt_28jan_1.mp3?dest-id=1729274
-    published_at: '2026-01-28T02:00:00+00:00'
-    description_html: '<p>Ingrid Kristiansen hade vid en tidpunkt världsrekorden på 5000m, 10 000m och maraton, samtidigt! Hon har vunnit Chicago Marathon, London Marathon, New York Marathon. Vunnit VM på 10 000m, VM i terräng löpning och VM i landsvägslöpning. Den meritlistan gör henne till en av de allra främsta någonsin och någon som tillsammans med Grete Waitz startade det norska löparundret. Ingrid var en väldigt duktig löpare tidigt i sin karriär, men inte på ett sätt där hon utmanade den absoluta världseliten. Detta vände efter att sonen Gaute kom till världen 1983. Ingrids karriär tar fart på allvar och hon slår flertalet världsrekord och vinner lopp på de stora scenerna runt om i världen. I veckans avsnitt tittar vi närmare på graviditet och elitlöpning. I Ingrids fall var det unikt att en kvinna på den tiden kunde komma tillbaka, dessutom bättre än någonsin, efter att ha fött barn. Ingrid berättar om hur förbundet inte trodde att det var möjligt, hur hon fick anpassa träningen och hur vägen tillbaka till den absoluta världstoppen såg ut. Hon berättar också om hur hon upplevde att kroppen förändrades Vi får också höra kortare historier från några svenska elitlöpare som blivit mammor - Johanna Bäcklund, Lisa Havell, Sara Trané, Moa Gustafsson och Louise Wiker.</p><p>Manne fortsätter sitt LT-fokus och har börjat se vinster i träningen. Planen är snart färdig för att prestera på topp i Hannover! John har haft sin bästa vecka sedan 2022 och gläds åt en kropp som faktiskt svarar när farten skruvas upp.</p><p>Veckans Sponsorer: Nomio - Intervju med Filip Larsen om fördelarna med att bruka Nomio över tid. Koden springnomio10k ger 20% rabatt på ett köp och gäller <a href="https://t.om" rel="noopener noreferrer" target="_blank">t.om</a>. 28/1.</p><p>STC Löplabbet</p><p>Bli Patreon och ta del av träningsprogram som kommer varje vecka - <a href="https://www.patreon.com/c/Springsnyggt823">Spring Snyggt Patreon</a></p>'
-    description_plain: 'Ingrid Kristiansen hade vid en tidpunkt världsrekorden på 5000m, 10 000m och maraton, samtidigt! Hon har vunnit Chicago Marathon, London Marathon, New York Marathon. Vunnit VM på 10 000m, VM i terräng löpning och VM i landsvägslöpning. Den meritlistan gör henne till en av de allra främsta någonsin och någon som tillsammans med Grete Waitz startade det norska löparundret. Ingrid var en väldigt duktig löpare tidigt i sin karriär, men inte på ett sätt där hon utmanade den absoluta världseliten. Detta vände efter att sonen Gaute kom till världen 1983. Ingrids karriär tar fart på allvar och hon slår flertalet världsrekord och vinner lopp på de stora scenerna runt om i världen. I veckans avsnitt tittar vi närmare på graviditet och elitlöpning. I Ingrids fall var det unikt att en kvinna på den tiden kunde komma tillbaka, dessutom bättre än någonsin, efter att ha fött barn. Ingrid berättar om hur förbundet inte trodde att det var möjligt, hur hon fick anpassa träningen och hur vägen tillbaka till den absoluta världstoppen såg ut. Hon berättar också om hur hon upplevde att kroppen förändrades Vi får också höra kortare historier från några svenska elitlöpare som blivit mammor - Johanna Bäcklund, Lisa Havell, Sara Trané, Moa Gustafsson och Louise Wiker. Manne fortsätter sitt LT-fokus och har börjat se vinster i träningen. Planen är snart färdig för att prestera på topp i Hannover! John har haft sin bästa vecka sedan 2022 och gläds åt en kropp som faktiskt svarar när farten skruvas upp. Veckans Sponsorer: Nomio - Intervju med Filip Larsen om fördelarna med att bruka Nomio över tid. Koden springnomio10k ger 20% rabatt på ett köp och gäller t.om . 28/1. STC Löplabbet Bli Patreon och ta del av träningsprogram som kommer varje vecka - Spring Snyggt Patreon'
-    episode_image_url: ''
-    episode_uid: eacbeeb0-3887-49c5-8809-ac0fbed219b3
-    episode_slug: 322-graviditet-och-elitlopning-med-ingrid-kristiansen
-    episode_key: 322-graviditet-och-elitlopning-med-ingrid-kristiansen
-    legacy_unicode_slug: 322-graviditet-och-elitlöpning-med-ingrid-kristiansen
     legacy_numbered_slug: episode-25
-    episode_page_url: "/spring-snyggt/322-graviditet-och-elitlopning-med-ingrid-kristiansen/"
+    episode_page_url: "/spring-snyggt/323-uppladdning-for-10-snabba-kilometer-med-sebastian-lorstad/"
   https://feeds.zencastr.com/f/f-n7v7jw.rss: &35
   - episode_title: 2026 Everest Trends with Steve House, Alan Arnette, and Martin Zohr
     episode_url: https://zencastr.com/z/TeCtY3oS
@@ -24037,18 +24036,18 @@ episodes_by_feed:
     episode_key: most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track
     legacy_numbered_slug: episode-08
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track/"
-  - episode_title: 'Why You’re Tired: How Stress Drains Your Cells - Dr. Martin Picard'
+  - episode_title: 'Dr. Martin Picard: How Stress Physically Drains Your Cells, Why You’re Tired & How to Reverse It'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=z6doyt0nphbncvp6enlqd9co
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=wk2nwlsq4lgk2wy3i3q7nxfa
     published_at: '2026-07-02T05:22:37Z'
     description_html: '<p class="text-node">The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age!</p><p class="text-node">Dr Martin Picard is a Professor of Behavioral Medicine and Director of the Mitochondrial Psychobiology Group, who specialises in how stress, emotions and lived experiences affect your mitochondria. He recently published the world''s first map of mitochondria in the human brain and is also the author of the upcoming book, ‘Energy’.</p><p class="text-node">He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them</p><p class="text-node">Follow Dr Martin: Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/BqY0OhF">https://link.thediaryofaceo.com/BqY0OhF</a> Substack - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/4aOc0rk">https://link.thediaryofaceo.com/4aOc0rk</a> Metabolic Psychiatry and Ketogenic Diet - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/GexHJoI">https://link.thediaryofaceo.com/GexHJoI</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/Fs8WGvj">https://link.thediaryofaceo.com/Fs8WGvj</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/BsNZ7vH">https://link.thediaryofaceo.com/BsNZ7vH</a> You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/5jW5yUA">https://link.thediaryofaceo.com/5jW5yUA</a></p><p class="text-node">The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a> ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a> ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a> ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a> ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a> ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a>  Sponsors: KetoneIQ - Visit <a target="_blank" rel="noopener noreferrer" class="link" href="https://ketone.com/STEVEN">https://ketone.com/STEVEN</a> for 30% off your subscription order Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://cometeer.com/DOAC">https://cometeer.com/DOAC</a> use code DOAC for $20 off Bon Charge: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://boncharge.com/DOAC">https://boncharge.com/DOAC</a> for 20% off</p>'
     description_plain: 'The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age! Dr Martin Picard is a Professor of Behavioral Medicine and Director of the Mitochondrial Psychobiology Group, who specialises in how stress, emotions and lived experiences affect your mitochondria. He recently published the world''s first map of mitochondria in the human brain and is also the author of the upcoming book, ‘Energy’. He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them Follow Dr Martin: Website - https://link.thediaryofaceo.com/BqY0OhF Substack - https://link.thediaryofaceo.com/4aOc0rk Metabolic Psychiatry and Ketogenic Diet - https://link.thediaryofaceo.com/GexHJoI X - https://link.thediaryofaceo.com/Fs8WGvj Instagram - https://link.thediaryofaceo.com/BsNZ7vH You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: https://link.thediaryofaceo.com/5jW5yUA The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: KetoneIQ - Visit https://ketone.com/STEVEN for 30% off your subscription order Cometeer - https://cometeer.com/DOAC use code DOAC for $20 off Bon Charge: https://boncharge.com/DOAC for 20% off'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KWGKWEFH9HN2N2T5TXV4NKGX/dr._martin_plcard.ep_cover_.jpg
     episode_uid: flightcast-01kwgkvp7ck70b0v0tba66ndaa
-    episode_slug: why-you-re-tired-how-stress-drains-your-cells-dr-martin-picard
-    episode_key: why-you-re-tired-how-stress-drains-your-cells-dr-martin-picard
+    episode_slug: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
+    episode_key: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
     legacy_numbered_slug: episode-09
-    episode_page_url: "/the-diary-of-a-ceo/why-you-re-tired-how-stress-drains-your-cells-dr-martin-picard/"
+    episode_page_url: "/the-diary-of-a-ceo/dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it/"
   - episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KW360AZ5WMQFTCMQBDWEDQ1A.mp3
