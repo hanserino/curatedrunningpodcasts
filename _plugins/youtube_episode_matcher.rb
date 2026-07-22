@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 # Matches RSS podcast episodes to YouTube uploads for shows with youtube_link.
-# Prototype scope: singletrack, pr-project, black-hat-ultra (expand via YOUTUBE_MATCH_ALL=1).
 
 require "rexml/document"
 require "yaml"
@@ -12,7 +11,6 @@ module YoutubeEpisodeMatcher
   READ_TIMEOUT = 12
   DATE_WINDOW_SECONDS = 14 * 24 * 60 * 60
   MIN_TITLE_SCORE = 0.42
-  PROTOTYPE_SLUGS = %w[singletrack pr-project black-hat-ultra].freeze
   STOPWORDS = %w[
     the and for with from that this podcast project singletrack episode ep part
     about into your you our their they them were was are has have had will just
@@ -33,15 +31,8 @@ module YoutubeEpisodeMatcher
     ENV["YOUTUBE_MATCH"].to_s == "1" || LatestPodcastEpisodes.rss_fetch_enabled?
   end
 
-  def match_all_slugs?
-    ENV["YOUTUBE_MATCH_ALL"].to_s == "1"
-  end
-
   def enabled_for_podcast?(doc)
-    return false unless doc.data["youtube_link"].to_s.strip != ""
-
-    slug = doc.data["slug"].to_s
-    match_all_slugs? || PROTOTYPE_SLUGS.include?(slug)
+    doc.data["youtube_link"].to_s.strip != ""
   end
 
   def channel_cache_path(site)
