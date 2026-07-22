@@ -1,4 +1,5 @@
 ---
+patreon_link: https://www.patreon.com/dylanbowman
 rss_feed: https://rss.libsyn.com/shows/235580/destinations/1746794.xml
 redirect_from:
   - /podcast/2026/04/28/the-freetrail-podcast.html
