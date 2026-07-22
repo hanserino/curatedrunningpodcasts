@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-22T09:15:37Z'
+generated_at: '2026-07-22T09:55:19Z'
 items:
+- podcast_title: Nobody Asked Us
+  podcast_page_url: "/nobody-asked-us/"
+  cover_image: "/media/nobodyaskedus.jpg"
+  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
+  filter_category: track road english
+  episode_title: 4.31. The Shotcaller's Episode
+  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/431-the-shotcallers-episode
+  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_31_-_Audio_-_2.mp3?dest-id=3833748
+  published_at: '2026-07-22T09:00:00+00:00'
+  episode_key: 4-31-the-shotcaller-s-episode
+  episode_slug: 4-31-the-shotcaller-s-episode
+  episode_page_url: "/nobody-asked-us/4-31-the-shotcaller-s-episode/"
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
   cover_image: "/media/courseepique.jpeg"
@@ -349,18 +361,6 @@ items:
   episode_key: has-trail-running-lost-its-soul-ep-790
   episode_slug: has-trail-running-lost-its-soul-ep-790
   episode_page_url: "/trail-runner-nation/has-trail-running-lost-its-soul-ep-790/"
-- podcast_title: Nobody Asked Us
-  podcast_page_url: "/nobody-asked-us/"
-  cover_image: "/media/nobodyaskedus.jpg"
-  feed_url: https://rss.libsyn.com/shows/455619/destinations/3833748.xml
-  filter_category: track road english
-  episode_title: 4.30. Mile World Record Watch!
-  episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/430-mile-world-record-watch
-  audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_30_-_Audio_2.mp3?dest-id=3833748
-  published_at: '2026-07-15T09:00:00+00:00'
-  episode_key: 4-30-mile-world-record-watch
-  episode_slug: 4-30-mile-world-record-watch
-  episode_page_url: "/nobody-asked-us/4-30-mile-world-record-watch/"
 - podcast_title: Choose Strong
   podcast_page_url: "/choose-strong/"
   cover_image: "/media/choosestrongpodcast.jpeg"
@@ -2934,6 +2934,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/for-the-long-run/ultra-running-success-over-age-40-lauren-puretz-s-high-achieving-approach/"
   https://rss.libsyn.com/shows/455619/destinations/3833748.xml: &7
+  - episode_title: 4.31. The Shotcaller's Episode
+    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/431-the-shotcallers-episode
+    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_31_-_Audio_-_2.mp3?dest-id=3833748
+    published_at: '2026-07-22T09:00:00+00:00'
+    description_html: '<p>There are callers and then there are SHOTcallers. Which are you?</p><p>Josh called his shot in the mile. 222! Kara is calling her shot in the half marathon (sort-of), and Des is backing them both up. She predicted that Josh would get the World Record, and now she is predicting that Kara will get her goal.</p><p>This episode starts with the "normal" catch-up chat where Kara discusses her half marathon training (!), and Des shares the chaos of Ryan''s sailing race. Thankfully, he made it back safely, but it was touch and go there for a moment.</p><p>Then, they discuss Kara''s experience joining the Flotrack Athlete''s Lounge to follow the London DL. She gives some BTS intel and calls out all of the silly haters who love to watch, but then turn into online trolls. She is calling her shot by saying she would go toe-to-toe with any of you and win.</p><p>Finally, they dig into all things London Diamond League. Keely v Femke! Brandon Miller! And, yes, of course they break down everything about the mile World Record. Josh called his shot and then controlled every single detail to make it look easy, even though we know it wasn''t. He is a master of peaking for a single goal and showed that again here with absolute class. Congrats to Josh, his team, and to Brooks! It was a performance for the ages!</p><p>To support the pod and get your LEVER Movement system, use code NOBODYASKEDUS for 20% off here... Purchase link: <a href="https://bit.ly/4bLI2tG" rel="noopener noreferrer" target="_blank">https://bit.ly/4bLI2tG</a>.</p>'
+    description_plain: 'There are callers and then there are SHOTcallers. Which are you? Josh called his shot in the mile. 222! Kara is calling her shot in the half marathon (sort-of), and Des is backing them both up. She predicted that Josh would get the World Record, and now she is predicting that Kara will get her goal. This episode starts with the "normal" catch-up chat where Kara discusses her half marathon training (!), and Des shares the chaos of Ryan''s sailing race. Thankfully, he made it back safely, but it was touch and go there for a moment. Then, they discuss Kara''s experience joining the Flotrack Athlete''s Lounge to follow the London DL. She gives some BTS intel and calls out all of the silly haters who love to watch, but then turn into online trolls. She is calling her shot by saying she would go toe-to-toe with any of you and win. Finally, they dig into all things London Diamond League. Keely v Femke! Brandon Miller! And, yes, of course they break down everything about the mile World Record. Josh called his shot and then controlled every single detail to make it look easy, even though we know it wasn''t. He is a master of peaking for a single goal and showed that again here with absolute class. Congrats to Josh, his team, and to Brooks! It was a performance for the ages! To support the pod and get your LEVER Movement system, use code NOBODYASKEDUS for 20% off here... Purchase link: https://bit.ly/4bLI2tG .'
+    episode_image_url: https://static.libsyn.com/p/assets/d/3/2/6/d326f8deb7055039d959afa2a1bf1c87/Des_and_Kara_-_Square_-_New_2-20260721-7zb42baj6o.png
+    episode_uid: 9f51467c-17ee-4000-afcc-5f5aaa346d2e
+    episode_slug: 4-31-the-shotcaller-s-episode
+    episode_key: 4-31-the-shotcaller-s-episode
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/nobody-asked-us/4-31-the-shotcaller-s-episode/"
+    youtube_video_id: fkxC8BsP5oo
   - episode_title: 4.30. Mile World Record Watch!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/430-mile-world-record-watch
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_30_-_Audio_2.mp3?dest-id=3833748
@@ -2944,7 +2957,7 @@ episodes_by_feed:
     episode_uid: 239e7101-5b88-44b4-9c7d-e687590e8caa
     episode_slug: 4-30-mile-world-record-watch
     episode_key: 4-30-mile-world-record-watch
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/nobody-asked-us/4-30-mile-world-record-watch/"
     youtube_video_id: "-LDhk2vPpxs"
   - episode_title: 4.29. Horse Flies, Fireworks, and Fourth of July Track & Field
@@ -2957,7 +2970,7 @@ episodes_by_feed:
     episode_uid: f9b4406e-c138-4833-bce5-4bf7bce7dfc4
     episode_slug: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
     episode_key: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/nobody-asked-us/4-29-horse-flies-fireworks-and-fourth-of-july-track-field/"
     youtube_video_id: _l-LvcY-ypA
   - episode_title: 4.28. From Trails to Track!
@@ -2970,7 +2983,7 @@ episodes_by_feed:
     episode_uid: d216285d-e68d-4204-a957-5c38be250d33
     episode_slug: 4-28-from-trails-to-track
     episode_key: 4-28-from-trails-to-track
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/nobody-asked-us/4-28-from-trails-to-track/"
     youtube_video_id: SiZdkHBDjho
   - episode_title: '4.27. The Duluth Weekend Recap (+ Live Show #2)'
@@ -2983,7 +2996,7 @@ episodes_by_feed:
     episode_uid: e12836e4-3e59-46b0-a8a4-cdda3b43e69d
     episode_slug: 4-27-the-duluth-weekend-recap-live-show-2
     episode_key: 4-27-the-duluth-weekend-recap-live-show-2
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/nobody-asked-us/4-27-the-duluth-weekend-recap-live-show-2/"
     youtube_video_id: bf-CL8vl1xc
   - episode_title: 4.26. Live from Duluth featuring Dakotah Popehn (aka Des's Nemesis)
@@ -2996,7 +3009,7 @@ episodes_by_feed:
     episode_uid: 896593eb-73db-42fa-acc4-9028fc62af1d
     episode_slug: 4-26-live-from-duluth-featuring-dakotah-popehn-aka-des-s-nemesis
     episode_key: 4-26-live-from-duluth-featuring-dakotah-popehn-aka-des-s-nemesis
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/nobody-asked-us/4-26-live-from-duluth-featuring-dakotah-popehn-aka-des-s-nemesis/"
   - episode_title: 4.25. The NCAA Champs Recap Episode (aka It's Complicated)
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/425-the-ncaa-champs-recap-episode-aka-its-complicated
@@ -3008,7 +3021,7 @@ episodes_by_feed:
     episode_uid: 2c6a9b92-94a0-4580-8019-51bad8c9e7c5
     episode_slug: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
     episode_key: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/nobody-asked-us/4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated/"
     youtube_video_id: B6sjNMcTu-Q
   - episode_title: 4.24. The Diamond Episode
@@ -3021,7 +3034,7 @@ episodes_by_feed:
     episode_uid: ef87f92a-5796-4c78-b28f-7b6d336baf92
     episode_slug: 4-24-the-diamond-episode
     episode_key: 4-24-the-diamond-episode
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/nobody-asked-us/4-24-the-diamond-episode/"
     youtube_video_id: n2ZgW7OMH50
   - episode_title: 4.23. High Standards
@@ -3034,7 +3047,7 @@ episodes_by_feed:
     episode_uid: 070a48b1-2e40-4e2a-a7d1-f4d866ece541
     episode_slug: 4-23-high-standards
     episode_key: 4-23-high-standards
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/nobody-asked-us/4-23-high-standards/"
     youtube_video_id: owWinWrFxog
   - episode_title: 4.22. Real Track Talk
@@ -3047,7 +3060,7 @@ episodes_by_feed:
     episode_uid: 5da0265b-9035-4e18-bc5c-1dee2f468747
     episode_slug: 4-22-real-track-talk
     episode_key: 4-22-real-track-talk
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/nobody-asked-us/4-22-real-track-talk/"
     youtube_video_id: PEan7idPojY
   - episode_title: 4.21. The Hate Mail Episode
@@ -3060,7 +3073,7 @@ episodes_by_feed:
     episode_uid: 7bc14ee8-034f-4b7b-950e-39dc08c91fe5
     episode_slug: 4-21-the-hate-mail-episode
     episode_key: 4-21-the-hate-mail-episode
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/nobody-asked-us/4-21-the-hate-mail-episode/"
     youtube_video_id: LcyTjxTje18
   - episode_title: 4.20. The Colt and Cocodona Episode
@@ -3073,7 +3086,7 @@ episodes_by_feed:
     episode_uid: a415004f-4f26-493f-abad-3be65679d91a
     episode_slug: 4-20-the-colt-and-cocodona-episode
     episode_key: 4-20-the-colt-and-cocodona-episode
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/nobody-asked-us/4-20-the-colt-and-cocodona-episode/"
     youtube_video_id: cly8poMVr6I
   - episode_title: 4.19. The Marathon des Sables Recap
@@ -3086,7 +3099,7 @@ episodes_by_feed:
     episode_uid: 55a6af20-5f35-4318-9c52-f29168f97373
     episode_slug: 4-19-the-marathon-des-sables-recap
     episode_key: 4-19-the-marathon-des-sables-recap
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/nobody-asked-us/4-19-the-marathon-des-sables-recap/"
     youtube_video_id: 4MZZHvNcTHU
   - episode_title: 4.18. Freshy Fresh for London 2026!
@@ -3099,7 +3112,7 @@ episodes_by_feed:
     episode_uid: 1ac66505-9f0c-4889-a183-5fd13c7232ce
     episode_slug: 4-18-freshy-fresh-for-london-2026
     episode_key: 4-18-freshy-fresh-for-london-2026
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/nobody-asked-us/4-18-freshy-fresh-for-london-2026/"
     youtube_video_id: DpYyNyiihw8
   - episode_title: 4.17. Live from London with Cynthia Erivo!
@@ -3112,7 +3125,7 @@ episodes_by_feed:
     episode_uid: bc4cbc48-b095-4832-a741-e8a75106d077
     episode_slug: 4-17-live-from-london-with-cynthia-erivo
     episode_key: 4-17-live-from-london-with-cynthia-erivo
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/nobody-asked-us/4-17-live-from-london-with-cynthia-erivo/"
     youtube_video_id: gx2qU_t8emw
   - episode_title: 4.16. Freshy Fresh from Boston 2026!
@@ -3125,7 +3138,7 @@ episodes_by_feed:
     episode_uid: 4dfbd385-8cdd-4a76-938c-bc5c83c07fe2
     episode_slug: 4-16-freshy-fresh-from-boston-2026
     episode_key: 4-16-freshy-fresh-from-boston-2026
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/nobody-asked-us/4-16-freshy-fresh-from-boston-2026/"
     youtube_video_id: 5JUyVfEnUWA
   - episode_title: 4.15. Live from Boston 2026!
@@ -3138,7 +3151,7 @@ episodes_by_feed:
     episode_uid: f497730b-f4e3-4b24-8bb1-83db02aa88df
     episode_slug: 4-15-live-from-boston-2026
     episode_key: 4-15-live-from-boston-2026
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/nobody-asked-us/4-15-live-from-boston-2026/"
   - episode_title: 4.14. The Boston Preview Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/414-the-boston-preview-episode
@@ -3150,7 +3163,7 @@ episodes_by_feed:
     episode_uid: c0a94974-5c71-46da-8703-26fac9f1c87c
     episode_slug: 4-14-the-boston-preview-episode
     episode_key: 4-14-the-boston-preview-episode
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/nobody-asked-us/4-14-the-boston-preview-episode/"
   - episode_title: 4.13. The Dropped Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/413-the-dropped-episode
@@ -3162,7 +3175,7 @@ episodes_by_feed:
     episode_uid: 13d14cd3-8b2d-4bc2-9aa7-b17a9bd3fc61
     episode_slug: 4-13-the-dropped-episode
     episode_key: 4-13-the-dropped-episode
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/nobody-asked-us/4-13-the-dropped-episode/"
   - episode_title: 4.12. The Cosmo Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/412-the-cosmo-episode
@@ -3174,7 +3187,7 @@ episodes_by_feed:
     episode_uid: 2f571d03-9551-48b6-af82-121c99a6e1b2
     episode_slug: 4-12-the-cosmo-episode
     episode_key: 4-12-the-cosmo-episode
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/nobody-asked-us/4-12-the-cosmo-episode/"
   - episode_title: 4.11. The Running Drama Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/411-the-running-drama-episode
@@ -3186,7 +3199,7 @@ episodes_by_feed:
     episode_uid: 0c27db94-3f7d-4236-b66d-902dccea69c6
     episode_slug: 4-11-the-running-drama-episode
     episode_key: 4-11-the-running-drama-episode
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/nobody-asked-us/4-11-the-running-drama-episode/"
   - episode_title: 4.10. Disney, US Indoors, and the Atlanta Kerfuffle
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/410-disney-us-indoors-and-the-atlanta-kerfuffle
@@ -3198,7 +3211,7 @@ episodes_by_feed:
     episode_uid: 447ffcb1-2492-476c-a0f6-2eb0fd1f4d6a
     episode_slug: 4-10-disney-us-indoors-and-the-atlanta-kerfuffle
     episode_key: 4-10-disney-us-indoors-and-the-atlanta-kerfuffle
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/nobody-asked-us/4-10-disney-us-indoors-and-the-atlanta-kerfuffle/"
   - episode_title: 4.9. The Olympics Withdrawal Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/49-the-olympics-withdrawal-episode
@@ -3210,7 +3223,7 @@ episodes_by_feed:
     episode_uid: 12781d93-bef8-4bca-81a7-7982576d2272
     episode_slug: 4-9-the-olympics-withdrawal-episode
     episode_key: 4-9-the-olympics-withdrawal-episode
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/nobody-asked-us/4-9-the-olympics-withdrawal-episode/"
   - episode_title: 4.8. Des's First Trail Ultra
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/48-dess-first-trail-ultra
@@ -3222,7 +3235,7 @@ episodes_by_feed:
     episode_uid: 1072b904-c5c7-4f4d-841b-f1ba8815a591
     episode_slug: 4-8-des-s-first-trail-ultra
     episode_key: 4-8-des-s-first-trail-ultra
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/nobody-asked-us/4-8-des-s-first-trail-ultra/"
   - episode_title: 4.7. The Winter Olympics Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/47-the-winter-olympics-episode
@@ -3234,20 +3247,8 @@ episodes_by_feed:
     episode_uid: 7fe158d1-f05e-44cc-9013-716fe39a3971
     episode_slug: 4-7-the-winter-olympics-episode
     episode_key: 4-7-the-winter-olympics-episode
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/nobody-asked-us/4-7-the-winter-olympics-episode/"
-  - episode_title: 4.6. The Millrose Recap
-    episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/46-the-millrose-recap
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_6_-_Audio.mp3?dest-id=3833748
-    published_at: '2026-02-04T10:00:00+00:00'
-    description_html: '<p>This is about the Millrose Games, but it''s also not about the Millrose Games. We promise you are going to love it.</p><p>As usual, they start with some life updates including an update on Des''s training for MDS (Marathon de Sables). She gives us a little BTS on prepping for the pack she will carry during the race. There is a weight vest involved so she can prepare for the supplies she will bring en route. It''s a self-supported race after all. This <em>might</em> mean that Des finally does some strength work, and Kara volunteers to be here personal accountability partner on that. Someone check the Vegas odds!</p><p>Kara shares some beta on Millrose travel and time in NYC with Colt, and then they get into the fun details of the meet itself. There is talk of the results, but there is also so much more. They break down results from the key races and also give BTS on the production meeting, Kara''s make-up, Sonya''s return to the booth, that ONE particular commercial, and Colt''s Millrose escapades meeting all of the athletes. They talk about the meet as only they can.</p><p>Finally, they end with a teaser on the winter Olympics and their <a href= "https://podcasts.apple.com/us/podcast/how-is-this-my-life-with-kara-goucher-and-des-linden/id1752100672?i=1000747675760" target="_blank" rel="noopener">podcast with Sara Spain</a>, before ending with a top 5.</p><p>As a reminder, don''t forget to register for the Lever contest before Friday, Feb 6th at 12 pm MT (2 pm ET).</p><p>Lever contest link: <a href="https://levermovement.com/pages/nau-giveaway-lp" rel="noopener noreferrer" target="_blank">https://levermovement.com/pages/nau-giveaway-lp</a>.</p><p>Or to go ahead and get yours: Use code NOBODYASKEDUS for 20% off here... Purchase link: <a href="https://bit.ly/4bLI2tG" rel="noopener noreferrer" target="_blank">https://bit.ly/4bLI2tG</a></p>'
-    description_plain: 'This is about the Millrose Games, but it''s also not about the Millrose Games. We promise you are going to love it. As usual, they start with some life updates including an update on Des''s training for MDS (Marathon de Sables). She gives us a little BTS on prepping for the pack she will carry during the race. There is a weight vest involved so she can prepare for the supplies she will bring en route. It''s a self-supported race after all. This might mean that Des finally does some strength work, and Kara volunteers to be here personal accountability partner on that. Someone check the Vegas odds! Kara shares some beta on Millrose travel and time in NYC with Colt, and then they get into the fun details of the meet itself. There is talk of the results, but there is also so much more. They break down results from the key races and also give BTS on the production meeting, Kara''s make-up, Sonya''s return to the booth, that ONE particular commercial, and Colt''s Millrose escapades meeting all of the athletes. They talk about the meet as only they can. Finally, they end with a teaser on the winter Olympics and their podcast with Sara Spain , before ending with a top 5. As a reminder, don''t forget to register for the Lever contest before Friday, Feb 6th at 12 pm MT (2 pm ET). Lever contest link: https://levermovement.com/pages/nau-giveaway-lp . Or to go ahead and get yours: Use code NOBODYASKEDUS for 20% off here... Purchase link: https://bit.ly/4bLI2tG'
-    episode_image_url: https://static.libsyn.com/p/assets/0/a/f/7/0af7b12f2e6c9d88d959afa2a1bf1c87/Des_and_Kara_-_Square_-_New_2-20260204-tob7he0gkv.png
-    episode_uid: 63ee455a-41f0-471d-849a-eab891b331db
-    episode_slug: 4-6-the-millrose-recap
-    episode_key: 4-6-the-millrose-recap
     legacy_numbered_slug: episode-25
-    episode_page_url: "/nobody-asked-us/4-6-the-millrose-recap/"
+    episode_page_url: "/nobody-asked-us/4-7-the-winter-olympics-episode/"
   https://anchor.fm/s/fd56e778/podcast/rss: &8
   - episode_title: Racing the 90km du Mont Blanc (And my Revamped Un-orginal Training Approach)
     episode_url: https://podcasters.spotify.com/pod/show/speed-dhiman-radio/episodes/Racing-the-90km-du-Mont-Blanc-And-my-Revamped-Un-orginal-Training-Approach-e3lcij6
