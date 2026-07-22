@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-22T12:46:43Z'
+generated_at: '2026-07-22T12:58:09Z'
 items:
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us/"
@@ -114,13 +114,13 @@ items:
   cover_image: "/media/blackhatultra.jpeg"
   feed_url: https://anchor.fm/s/10013986c/podcast/rss
   filter_category: trail ultra polish
-  episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, biega ponad 200km"
-  episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--biega-ponad-200km-e3mbsf5
+  episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, 200km + ultra"
+  episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--200km--ultra-e3mbsf5
   audio_url: https://anchor.fm/s/10013986c/podcast/play/123121573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F6182c2cf-746f-1db7-9e6e-1f14b4dd4801.mp3
   published_at: '2026-07-21T13:22:22+00:00'
-  episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
-  episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
-  episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km/"
+  episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
+  episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
+  episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra/"
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
   cover_image: "/media/swap.jpeg"
@@ -878,18 +878,6 @@ non_running_items:
   episode_key: china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift
   episode_slug: china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift
   episode_page_url: "/pivot/china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift/"
-- podcast_title: Pablo Torre Finds Out
-  podcast_page_url: "/pablo-torre-finds-out/"
-  cover_image: "/media/pablotorre.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/pablo-torre-finds-out
-  filter_category: uncategorized english
-  episode_title: '"Play, Don''t Pay": Meet the College-Football YouTuber Who Led a Gaming Revolt'
-  episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/play-dont-pay-meet-the-college-football-youtuber-who-led-a-g
-  audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a5e9844ebe2800f50f33e4d/media.mp3
-  published_at: '2026-07-21T09:00:00+00:00'
-  episode_key: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
-  episode_slug: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
-  episode_page_url: "/pablo-torre-finds-out/play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt/"
 - podcast_title: My First Million
   podcast_page_url: "/my-first-million/"
   cover_image: "/media/myfirstmillion.jpeg"
@@ -902,6 +890,18 @@ non_running_items:
   episode_key: i-spent-24hrs-with-a-blue-collar-millionaire
   episode_slug: i-spent-24hrs-with-a-blue-collar-millionaire
   episode_page_url: "/my-first-million/i-spent-24hrs-with-a-blue-collar-millionaire/"
+- podcast_title: Pablo Torre Finds Out
+  podcast_page_url: "/pablo-torre-finds-out/"
+  cover_image: "/media/pablotorre.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/pablo-torre-finds-out
+  filter_category: uncategorized english
+  episode_title: '"Play, Don''t Pay": Meet the College-Football YouTuber Who Led a Gaming Revolt'
+  episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/play-dont-pay-meet-the-college-football-youtuber-who-led-a-g
+  audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a5e9844ebe2800f50f33e4d/media.mp3
+  published_at: '2026-07-21T09:00:00+00:00'
+  episode_key: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
+  episode_slug: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
+  episode_page_url: "/pablo-torre-finds-out/play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt/"
 - podcast_title: 'Waveform: The MKBHD Podcast'
   podcast_page_url: "/waveform-the-mkbhd-podcast/"
   cover_image: "/media/waveform.jpeg"
@@ -10285,18 +10285,6 @@ episodes_by_feed:
     episode_key: heather-jackson-who-you-share-it-with
     legacy_numbered_slug: episode-17
     episode_page_url: "/women-of-distance/heather-jackson-who-you-share-it-with/"
-  - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
-    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
-    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114995288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417422489-44100-2-dd9c8fc289124.mp3
-    published_at: '2026-02-04T11:00:00+00:00'
-    description_html: '<p>Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running!</p><p>On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance.</p><p>You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race.</p><p>Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time.</p><p>After listening to the episode, check out the accompanying playlist created by the elite field, just for you!</p><p><a href="https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&pi=MdlaNcL4Skizo">⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠</a></p><p>In this episode:</p><p>-Anne Flower (&quot;Thunderstruck&quot;, AC/DC)</p><p>-Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren)</p><p>-Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard)</p><p>-Tabor Hemming (&quot;WAP&quot;, Cardi B.)</p><p>-Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit)</p><p>-Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again)</p><p>-Sydney Welch (&quot;Make of it&quot;, Half Alive)</p><p>-Imogen Ainsworth (&quot;Dancer&quot;, IDLES)</p><p>-Deanna Doane (&quot;Lets Go&quot;, Trick Daddy)</p><p>*This project is present by <a href="https://www.soarrunning.com/">⁠Soar Running⁠</a></p><p>SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners.</p><p>Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance.</p><p>Find them at <a href="https://soarrunning.com" rel="noopener noreferrer" target="_blank">soarrunning.com</a></p><p>Women of Distance is also supported by <a href="https://openfuel.co/discount/WOD">⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠</a>!</p><p>Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠<a href="https://openfuel.co/discount/WOD">⁠⁠⁠openfuel.co⁠⁠⁠</a>⁠</p><p>Use code: WOD for 20% off your order, every time!</p><p>We&#39;re kept caffeinated by our friends, and fellow trail runners, at <a href="http://www.summit-roasters.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Use code WOD15 for 15% off your order every time!<a href="http://www.moremilestogo.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us!</p>'
-    description_plain: 'Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running! On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance. You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race. Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time. After listening to the episode, check out the accompanying playlist created by the elite field, just for you! ⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠ In this episode: -Anne Flower (&quot;Thunderstruck&quot;, AC/DC) -Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren) -Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard) -Tabor Hemming (&quot;WAP&quot;, Cardi B.) -Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit) -Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again) -Sydney Welch (&quot;Make of it&quot;, Half Alive) -Imogen Ainsworth (&quot;Dancer&quot;, IDLES) -Deanna Doane (&quot;Lets Go&quot;, Trick Daddy) *This project is present by ⁠Soar Running⁠ SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners. Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance. Find them at soarrunning.com Women of Distance is also supported by ⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠ ! Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠ ⁠⁠⁠openfuel.co⁠⁠⁠ ⁠ Use code: WOD for 20% off your order, every time! We&#39;re kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time! ⁠⁠⁠⁠⁠⁠⁠⁠⁠ We&#39;d love to see Women of Distance listeners supporting those, supporting us!'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
-    episode_uid: 4ad8d31f-f80a-4cbd-81c4-79fe59a8e62f
-    episode_slug: black-canyon-100k-women-s-elite-field-preview-first-timers
-    episode_key: black-canyon-100k-women-s-elite-field-preview-first-timers
-    legacy_numbered_slug: episode-18
-    episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-first-timers/"
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (Veterans)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-Veterans-e3ejrvi
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114994610/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417421607-44100-2-3603d426ce53.mp3
@@ -10307,8 +10295,20 @@ episodes_by_feed:
     episode_uid: 50695b07-0b12-4f7a-a686-5028c56ac734
     episode_slug: black-canyon-100k-women-s-elite-field-preview-veterans
     episode_key: black-canyon-100k-women-s-elite-field-preview-veterans
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-18
     episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-veterans/"
+  - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
+    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
+    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114995288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417422489-44100-2-dd9c8fc289124.mp3
+    published_at: '2026-02-04T11:00:00+00:00'
+    description_html: '<p>Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running!</p><p>On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance.</p><p>You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race.</p><p>Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time.</p><p>After listening to the episode, check out the accompanying playlist created by the elite field, just for you!</p><p><a href="https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&pi=MdlaNcL4Skizo">⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠</a></p><p>In this episode:</p><p>-Anne Flower (&quot;Thunderstruck&quot;, AC/DC)</p><p>-Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren)</p><p>-Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard)</p><p>-Tabor Hemming (&quot;WAP&quot;, Cardi B.)</p><p>-Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit)</p><p>-Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again)</p><p>-Sydney Welch (&quot;Make of it&quot;, Half Alive)</p><p>-Imogen Ainsworth (&quot;Dancer&quot;, IDLES)</p><p>-Deanna Doane (&quot;Lets Go&quot;, Trick Daddy)</p><p>*This project is present by <a href="https://www.soarrunning.com/">⁠Soar Running⁠</a></p><p>SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners.</p><p>Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance.</p><p>Find them at <a href="https://soarrunning.com" rel="noopener noreferrer" target="_blank">soarrunning.com</a></p><p>Women of Distance is also supported by <a href="https://openfuel.co/discount/WOD">⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠</a>!</p><p>Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠<a href="https://openfuel.co/discount/WOD">⁠⁠⁠openfuel.co⁠⁠⁠</a>⁠</p><p>Use code: WOD for 20% off your order, every time!</p><p>We&#39;re kept caffeinated by our friends, and fellow trail runners, at <a href="http://www.summit-roasters.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Use code WOD15 for 15% off your order every time!<a href="http://www.moremilestogo.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us!</p>'
+    description_plain: 'Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running! On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance. You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race. Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time. After listening to the episode, check out the accompanying playlist created by the elite field, just for you! ⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠ In this episode: -Anne Flower (&quot;Thunderstruck&quot;, AC/DC) -Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren) -Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard) -Tabor Hemming (&quot;WAP&quot;, Cardi B.) -Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit) -Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again) -Sydney Welch (&quot;Make of it&quot;, Half Alive) -Imogen Ainsworth (&quot;Dancer&quot;, IDLES) -Deanna Doane (&quot;Lets Go&quot;, Trick Daddy) *This project is present by ⁠Soar Running⁠ SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners. Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance. Find them at soarrunning.com Women of Distance is also supported by ⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠ ! Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠ ⁠⁠⁠openfuel.co⁠⁠⁠ ⁠ Use code: WOD for 20% off your order, every time! We&#39;re kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time! ⁠⁠⁠⁠⁠⁠⁠⁠⁠ We&#39;d love to see Women of Distance listeners supporting those, supporting us!'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
+    episode_uid: 4ad8d31f-f80a-4cbd-81c4-79fe59a8e62f
+    episode_slug: black-canyon-100k-women-s-elite-field-preview-first-timers
+    episode_key: black-canyon-100k-women-s-elite-field-preview-first-timers
+    legacy_numbered_slug: episode-19
+    episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-first-timers/"
   - episode_title: Tina Muir - Do The Next Right Thing
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tina-Muir---Do-The-Next-Right-Thing-e3dr6th
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114186609/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-18%2F416359956-44100-2-4188f6563f067.mp3
@@ -29761,18 +29761,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/pr-project/100/"
   https://anchor.fm/s/10013986c/podcast/rss: &100
-  - episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, biega ponad 200km"
-    episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--biega-ponad-200km-e3mbsf5
+  - episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, 200km + ultra"
+    episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--200km--ultra-e3mbsf5
     audio_url: https://anchor.fm/s/10013986c/podcast/play/123121573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F6182c2cf-746f-1db7-9e6e-1f14b4dd4801.mp3
     published_at: '2026-07-21T13:22:22+00:00'
     description_html: "<p><strong>Karolina Mroczek – wszechstronność, odwaga i &quot;jeśli nie spróbujesz, to się nie dowiesz&quot;</strong></p><p>Zaprosiłem Karolinę do podcastu z kilku powodów. Po pierwsze - wygrała HardąSukę, wykręcając najlepszy kobiecy czas biorąc pod uwagę wszystkie edycje tej imprezy. Po drugie - zapisała się na Hardą, gdy jeszcze nie umiała dobrze pływać i zaczynała właściwie od zera. Po trzecie - wygrała Bieg 7 Szczytów i Demona, czyli dwa biegi powyżej 200 km.</p><p>To wszystko pokazuje, że Karolina jest wszechstronna, otwarta na nowe wyzwania i nie boi się porażki. Jak sama mówi: &quot;jeśli nie spróbujesz, to się nie dowiesz&quot;. Bardzo lubię takie podejście - bez napinki, ale z dużą dozą ciekawości do świata i do siebie.</p><p>\U0001F399️ O czym rozmawiamy w tym odcinku:</p><ul><li>Najpierw zapisy na Hardą, potem pływanie</li><li>Droga na szczyt HardejSuki i najlepszy kobiecy czas w historii imprezy</li><li>Trening rowerowy</li><li>Zwycięstwa w Biegu 7 Szczytów i Demonie - co łączy dwa biegi powyżej 200 km</li><li>O Suplementach i hiperwitaminozie</li><li>Czy start w Demonie miał sens?</li><li>Wszechstronność jako strategia i styl życia w ultra</li></ul><p>\U0001F64F Podziękowania dla Patronów i Patronek podcastu Black Hat Ultra za wsparcie — witam w naszym gronie Darka Zbyrada! Patroni są główną siłą napędową tego podcastu, więc jeśli chcecie nas wesprzeć: <a href=\"http://patronite.pl/blackhatultra\">patronite.pl/blackhatultra</a></p><p>\U0001F3A7 Chcesz nagrać własny podcast? Moje studio jest teraz dostępne do wynajęcia — audio pamiętnik z podróży, temat, w którym jesteś ekspertem, albo własny podcast od zera. Każdy powód jest dobry. Napisz: <a href=\"mailto:ultra@blackhatultra.pl\">ultra@blackhatultra.pl</a></p><p>#BlackHatUltra #podcast #ultrarunning #HardaSuka #Demon #Bieg7Szczytów</p>"
     description_plain: "Karolina Mroczek – wszechstronność, odwaga i &quot;jeśli nie spróbujesz, to się nie dowiesz&quot; Zaprosiłem Karolinę do podcastu z kilku powodów. Po pierwsze - wygrała HardąSukę, wykręcając najlepszy kobiecy czas biorąc pod uwagę wszystkie edycje tej imprezy. Po drugie - zapisała się na Hardą, gdy jeszcze nie umiała dobrze pływać i zaczynała właściwie od zera. Po trzecie - wygrała Bieg 7 Szczytów i Demona, czyli dwa biegi powyżej 200 km. To wszystko pokazuje, że Karolina jest wszechstronna, otwarta na nowe wyzwania i nie boi się porażki. Jak sama mówi: &quot;jeśli nie spróbujesz, to się nie dowiesz&quot;. Bardzo lubię takie podejście - bez napinki, ale z dużą dozą ciekawości do świata i do siebie. \U0001F399️ O czym rozmawiamy w tym odcinku: Najpierw zapisy na Hardą, potem pływanie Droga na szczyt HardejSuki i najlepszy kobiecy czas w historii imprezy Trening rowerowy Zwycięstwa w Biegu 7 Szczytów i Demonie - co łączy dwa biegi powyżej 200 km O Suplementach i hiperwitaminozie Czy start w Demonie miał sens? Wszechstronność jako strategia i styl życia w ultra \U0001F64F Podziękowania dla Patronów i Patronek podcastu Black Hat Ultra za wsparcie — witam w naszym gronie Darka Zbyrada! Patroni są główną siłą napędową tego podcastu, więc jeśli chcecie nas wesprzeć: patronite.pl/blackhatultra \U0001F3A7 Chcesz nagrać własny podcast? Moje studio jest teraz dostępne do wynajęcia — audio pamiętnik z podróży, temat, w którym jesteś ekspertem, albo własny podcast od zera. Każdy powód jest dobry. Napisz: ultra@blackhatultra.pl #BlackHatUltra #podcast #ultrarunning #HardaSuka #Demon #Bieg7Szczytów"
     episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42862515/42862515-1784639852463-3687bd52212c3.jpg
     episode_uid: ac11a575-8796-4a86-ac0b-fa4c8e95bd06
-    episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
-    episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
+    episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
+    episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
     legacy_numbered_slug: episode-01
-    episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km/"
+    episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra/"
     youtube_video_id: jCICBGCLgAA
   - episode_title: "#165 Michał Asperski - 250km w 7 dni - Biegi etapowe po pustyniach i dżunglach"
     episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/165-Micha-Asperski---250km-w-7-dni---Biegi-etapowe-po-pustyniach-i-dunglach-e3m3821
@@ -30160,6 +30160,7 @@ episodes_by_feed:
     episode_key: vincent-bouillard-western-states-100-champion-s-interview
     legacy_numbered_slug: episode-06
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-western-states-100-champion-s-interview/"
+    youtube_video_id: eOPBI31oNjo
   - episode_title: Western States 100 Recap Show
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-recap-show
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Western_States_100_Recap_Show.mp3?dest-id=1746794
@@ -30377,7 +30378,6 @@ episodes_by_feed:
     episode_key: vincent-bouillard-2026-western-states-pre-race-interview
     legacy_numbered_slug: episode-24
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-2026-western-states-pre-race-interview/"
-    youtube_video_id: eOPBI31oNjo
   - episode_title: Jeff Mogavero | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/jeff-mogavero-2026-western-states-pre-race-interview
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Jeff_Mogavero__2026_Western_States_Pre-Race_Interview.mp3?dest-id=1746794
@@ -30709,9 +30709,15 @@ errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
+- podcast: Diabolic Lies
+  rss_feed: https://api.substack.com/feed/podcast/2836327.rss
+  error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: EvokeCast
   rss_feed: https://evokeendurance.com/media-type/evokecast/feed/
   error: Latest episode has no enclosure URL
+- podcast: Lenny's Podcast
+  rss_feed: https://api.substack.com/feed/podcast/10845.rss
+  error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: Dwarkesh Podcast
   rss_feed: https://www.dwarkeshpatel.com/feed
   error: 'RuntimeError: redirection forbidden: https://www.dwarkeshpatel.com/feed -> http://dwarkesh.com/feed'
