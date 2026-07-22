@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-22T05:10:04Z'
+generated_at: '2026-07-22T06:58:24Z'
 items:
 - podcast_title: Course Épique
   podcast_page_url: "/course-equipe/"
@@ -782,6 +782,30 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Robin Larmérus
+  episode_url: https://www.sverigesradio.se/avsnitt/2815524
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/sommar__vinter_i_p1_robin_larmrus_20260712_1909124521.mp3
+  published_at: '2026-07-22T11:00:00Z'
+  episode_key: robin-larmerus
+  episode_slug: robin-larmerus
+  episode_page_url: "/sommar-vinter-i-p1/robin-larmerus/"
+- podcast_title: Oppdatert
+  podcast_page_url: "/oppdatert/"
+  cover_image: "/media/oppdatert.jpeg"
+  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
+  filter_category: uncategorized norwegian
+  episode_title: '22. juli-terroren: Helenes navn sto i manifestet'
+  episode_url: ''
+  audio_url: https://podkast.nrk.no/fil/oppdatert/0356457f-bd78-44b1-9645-7fbd7854b1eb_1_ID192MP3.mp3
+  published_at: '2026-07-22T05:59:00+02:00'
+  episode_key: 22-juli-terroren-helenes-navn-sto-i-manifestet
+  episode_slug: 22-juli-terroren-helenes-navn-sto-i-manifestet
+  episode_page_url: "/oppdatert/22-juli-terroren-helenes-navn-sto-i-manifestet/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -818,18 +842,6 @@ non_running_items:
   episode_key: kort-forklart-tate-brodrene-kjemper-mot-utlevering
   episode_slug: kort-forklart-tate-brodrene-kjemper-mot-utlevering
   episode_page_url: "/forklart/kort-forklart-tate-brodrene-kjemper-mot-utlevering/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Maria Sid
-  episode_url: https://www.sverigesradio.se/avsnitt/2815523
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/sommar__vinter_i_p1_maria_sid_20260712_1907509544.mp3
-  published_at: '2026-07-21T11:00:00Z'
-  episode_key: maria-sid
-  episode_slug: maria-sid
-  episode_page_url: "/sommar-vinter-i-p1/maria-sid/"
 - podcast_title: Pivot
   podcast_page_url: "/pivot/"
   cover_image: "/media/pivot.jpeg"
@@ -914,18 +926,6 @@ non_running_items:
   episode_key: the-man-who-made-100m-before-32-the-secret-was-to-stop-letting-them-control-me-alex-hormozi
   episode_slug: the-man-who-made-100m-before-32-the-secret-was-to-stop-letting-them-control-me-alex-hormozi
   episode_page_url: "/the-diary-of-a-ceo/the-man-who-made-100m-before-32-the-secret-was-to-stop-letting-them-control-me-alex-hormozi/"
-- podcast_title: Oppdatert
-  podcast_page_url: "/oppdatert/"
-  cover_image: "/media/oppdatert.jpeg"
-  feed_url: https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml
-  filter_category: uncategorized norwegian
-  episode_title: 'Skrev bok om sorg: Skjulte forfatteren et drap?'
-  episode_url: ''
-  audio_url: https://podkast.nrk.no/fil/oppdatert/6fae21a0-0a1b-410b-ae21-a00a1b610b28_1_ID192MP3.mp3
-  published_at: '2026-07-20T05:59:00+02:00'
-  episode_key: skrev-bok-om-sorg-skjulte-forfatteren-et-drap
-  episode_slug: skrev-bok-om-sorg-skjulte-forfatteren-et-drap
-  episode_page_url: "/oppdatert/skrev-bok-om-sorg-skjulte-forfatteren-et-drap/"
 - podcast_title: When We Were Kings
   podcast_page_url: "/when-we-were-kings/"
   cover_image: "/media/whenwewerekings.jpeg"
@@ -19459,6 +19459,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/huberman-lab/male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &63
+  - episode_title: '22. juli-terroren: Helenes navn sto i manifestet'
+    episode_url: ''
+    audio_url: https://podkast.nrk.no/fil/oppdatert/0356457f-bd78-44b1-9645-7fbd7854b1eb_1_ID192MP3.mp3
+    published_at: '2026-07-22T05:59:00+02:00'
+    description_html: Siden terrorangrepet har en stor del av artisten ligget gjemt bort. Nå tar hun musikken tilbake.
+    description_plain: Siden terrorangrepet har en stor del av artisten ligget gjemt bort. Nå tar hun musikken tilbake.
+    episode_image_url: https://gfx.nrk.no/xPjyjvDvD-gn6tNFKoSH3Qaw3dL2jUbK3XFKJrh1jnXA.jpg
+    episode_uid: 0356457f-bd78-44b1-9645-7fbd7854b1eb-1-id192mp3-mp3
+    episode_slug: 22-juli-terroren-helenes-navn-sto-i-manifestet
+    episode_key: 22-juli-terroren-helenes-navn-sto-i-manifestet
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/oppdatert/22-juli-terroren-helenes-navn-sto-i-manifestet/"
   - episode_title: 'Skrev bok om sorg: Skjulte forfatteren et drap?'
     episode_url: ''
     audio_url: https://podkast.nrk.no/fil/oppdatert/6fae21a0-0a1b-410b-ae21-a00a1b610b28_1_ID192MP3.mp3
@@ -19469,7 +19481,7 @@ episodes_by_feed:
     episode_uid: 6fae21a0-0a1b-410b-ae21-a00a1b610b28-1-id192mp3-mp3
     episode_slug: skrev-bok-om-sorg-skjulte-forfatteren-et-drap
     episode_key: skrev-bok-om-sorg-skjulte-forfatteren-et-drap
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/oppdatert/skrev-bok-om-sorg-skjulte-forfatteren-et-drap/"
   - episode_title: 'Tvunget til å legge opp: Hva skjedde med BTS?'
     episode_url: ''
@@ -19482,7 +19494,7 @@ episodes_by_feed:
     episode_slug: tvunget-til-a-legge-opp-hva-skjedde-med-bts
     episode_key: tvunget-til-a-legge-opp-hva-skjedde-med-bts
     legacy_unicode_slug: tvunget-til-å-legge-opp-hva-skjedde-med-bts
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/oppdatert/tvunget-til-a-legge-opp-hva-skjedde-med-bts/"
   - episode_title: 'Norges VM-exit: Har VAR blitt et maktmiddel?'
     episode_url: ''
@@ -19494,7 +19506,7 @@ episodes_by_feed:
     episode_uid: b86181a2-2b93-4a47-a181-a22b937a472b-1-id192mp3-mp3
     episode_slug: norges-vm-exit-har-var-blitt-et-maktmiddel
     episode_key: norges-vm-exit-har-var-blitt-et-maktmiddel
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/oppdatert/norges-vm-exit-har-var-blitt-et-maktmiddel/"
   - episode_title: 'Fant rosa belegg i dusjen: Så kom sjokkbeskjeden'
     episode_url: ''
@@ -19507,7 +19519,7 @@ episodes_by_feed:
     episode_slug: fant-rosa-belegg-i-dusjen-sa-kom-sjokkbeskjeden
     episode_key: fant-rosa-belegg-i-dusjen-sa-kom-sjokkbeskjeden
     legacy_unicode_slug: fant-rosa-belegg-i-dusjen-så-kom-sjokkbeskjeden
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/oppdatert/fant-rosa-belegg-i-dusjen-sa-kom-sjokkbeskjeden/"
   - episode_title: 'Hele verden ror: Dette er mannen bak'
     episode_url: ''
@@ -19519,7 +19531,7 @@ episodes_by_feed:
     episode_uid: 8e8e5909-1aa4-47a0-8e59-091aa4f7a014-1-id192mp3-mp3
     episode_slug: hele-verden-ror-dette-er-mannen-bak
     episode_key: hele-verden-ror-dette-er-mannen-bak
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/oppdatert/hele-verden-ror-dette-er-mannen-bak/"
   - episode_title: Spion under vann?
     episode_url: ''
@@ -19531,7 +19543,7 @@ episodes_by_feed:
     episode_uid: d447fc16-3077-4eb7-87fc-1630773eb70c-1-id192mp3-mp3
     episode_slug: spion-under-vann
     episode_key: spion-under-vann
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/oppdatert/spion-under-vann/"
   - episode_title: 'Jordskjelv-katastrofen: Dette møtte NRK i ruinene'
     episode_url: ''
@@ -19544,7 +19556,7 @@ episodes_by_feed:
     episode_slug: jordskjelv-katastrofen-dette-motte-nrk-i-ruinene
     episode_key: jordskjelv-katastrofen-dette-motte-nrk-i-ruinene
     legacy_unicode_slug: jordskjelv-katastrofen-dette-møtte-nrk-i-ruinene
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/oppdatert/jordskjelv-katastrofen-dette-motte-nrk-i-ruinene/"
   - episode_title: 'Kampen vi aldri glemmer: Kan historien gjenta seg?'
     episode_url: ''
@@ -19556,7 +19568,7 @@ episodes_by_feed:
     episode_uid: b6381c0b-180a-443c-b81c-0b180a043cfd-1-id192mp3-mp3
     episode_slug: kampen-vi-aldri-glemmer-kan-historien-gjenta-seg
     episode_key: kampen-vi-aldri-glemmer-kan-historien-gjenta-seg
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/oppdatert/kampen-vi-aldri-glemmer-kan-historien-gjenta-seg/"
   - episode_title: 'Tvang kvinner til sex: En telefon endret alt'
     episode_url: ''
@@ -19568,22 +19580,22 @@ episodes_by_feed:
     episode_uid: 1ca05453-77c2-470a-a054-5377c2870a90-3-id192mp3-mp3
     episode_slug: tvang-kvinner-til-sex-en-telefon-endret-alt
     episode_key: tvang-kvinner-til-sex-en-telefon-endret-alt
-    legacy_numbered_slug: episode-09
-    episode_page_url: "/oppdatert/tvang-kvinner-til-sex-en-telefon-endret-alt/"
-  - episode_title: Ivanka Trumps luksusdrøm fyrer opp Albania
-    episode_url: ''
-    audio_url: https://podkast.nrk.no/fil/oppdatert/e40361e8-9e02-4a8b-8361-e89e029a8b82_1_ID192MP3.mp3
-    published_at: '2026-06-29T05:59:00+02:00'
-    description_html: Trumps datter og svigersønn har falt pladask for en av Albanias kystperler. Det møter store problemer.
-    description_plain: Trumps datter og svigersønn har falt pladask for en av Albanias kystperler. Det møter store problemer.
-    episode_image_url: https://gfx.nrk.no/k_TZDECBdiYGipFmWhUR6grWWj42TbRbXcI0K6SvW8Sg.jpg
-    episode_uid: e40361e8-9e02-4a8b-8361-e89e029a8b82-1-id192mp3-mp3
-    episode_slug: ivanka-trumps-luksusdrom-fyrer-opp-albania
-    episode_key: ivanka-trumps-luksusdrom-fyrer-opp-albania
-    legacy_unicode_slug: ivanka-trumps-luksusdrøm-fyrer-opp-albania
     legacy_numbered_slug: episode-10
-    episode_page_url: "/oppdatert/ivanka-trumps-luksusdrom-fyrer-opp-albania/"
+    episode_page_url: "/oppdatert/tvang-kvinner-til-sex-en-telefon-endret-alt/"
   https://sr-restored.se/rss/2071: &64
+  - episode_title: Robin Larmérus
+    episode_url: https://www.sverigesradio.se/avsnitt/2815524
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/sommar__vinter_i_p1_robin_larmrus_20260712_1909124521.mp3
+    published_at: '2026-07-22T11:00:00Z'
+    description_html: <p>Brandmannen och Lyssnarnas Sommarvärd om kallet att hjälpa till där det behövs.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Brandmannen och Lyssnarnas Sommarvärd om kallet att hjälpa till där det behövs. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815524
+    episode_slug: robin-larmerus
+    episode_key: robin-larmerus
+    legacy_unicode_slug: robin-larmérus
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/robin-larmerus/"
   - episode_title: Maria Sid
     episode_url: https://www.sverigesradio.se/avsnitt/2815523
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/sommar__vinter_i_p1_maria_sid_20260712_1907509544.mp3
@@ -19594,7 +19606,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815523
     episode_slug: maria-sid
     episode_key: maria-sid
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/maria-sid/"
   - episode_title: Iqra Idow
     episode_url: https://www.sverigesradio.se/avsnitt/2815522
@@ -19606,7 +19618,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815522
     episode_slug: iqra-idow
     episode_key: iqra-idow
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/iqra-idow/"
   - episode_title: Ruth Kvarnström-Jones
     episode_url: https://www.sverigesradio.se/avsnitt/2815520
@@ -19619,7 +19631,7 @@ episodes_by_feed:
     episode_slug: ruth-kvarnstrom-jones
     episode_key: ruth-kvarnstrom-jones
     legacy_unicode_slug: ruth-kvarnström-jones
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/ruth-kvarnstrom-jones/"
   - episode_title: Jan Rippe
     episode_url: https://www.sverigesradio.se/avsnitt/2815469
@@ -19631,7 +19643,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815469
     episode_slug: jan-rippe
     episode_key: jan-rippe
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/jan-rippe/"
   - episode_title: Anders Rosengren
     episode_url: https://www.sverigesradio.se/avsnitt/2815518
@@ -19643,7 +19655,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815518
     episode_slug: anders-rosengren
     episode_key: anders-rosengren
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/anders-rosengren/"
   - episode_title: Elaf Ali
     episode_url: https://www.sverigesradio.se/avsnitt/2815517
@@ -19655,7 +19667,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815517
     episode_slug: elaf-ali
     episode_key: elaf-ali
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/elaf-ali/"
   - episode_title: 'Poddtips: P3 ID om Melania Trump'
     episode_url: https://www.sverigesradio.se/avsnitt/2830731
@@ -19667,7 +19679,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2830731
     episode_slug: poddtips-p3-id-om-melania-trump
     episode_key: poddtips-p3-id-om-melania-trump
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/poddtips-p3-id-om-melania-trump/"
   - episode_title: Bettan Byvald
     episode_url: https://www.sverigesradio.se/avsnitt/2815516
@@ -19679,7 +19691,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815516
     episode_slug: bettan-byvald
     episode_key: bettan-byvald
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/bettan-byvald/"
   - episode_title: Ebba Kleberg von Sydow
     episode_url: https://www.sverigesradio.se/avsnitt/2815515
@@ -19691,7 +19703,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815515
     episode_slug: ebba-kleberg-von-sydow
     episode_key: ebba-kleberg-von-sydow
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/ebba-kleberg-von-sydow/"
   - episode_title: Emil Hansius
     episode_url: https://www.sverigesradio.se/avsnitt/2815511
@@ -19703,7 +19715,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815511
     episode_slug: emil-hansius
     episode_key: emil-hansius
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/emil-hansius/"
   - episode_title: Martin Modéus
     episode_url: https://www.sverigesradio.se/avsnitt/2815510
@@ -19716,7 +19728,7 @@ episodes_by_feed:
     episode_slug: martin-modeus
     episode_key: martin-modeus
     legacy_unicode_slug: martin-modéus
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/martin-modeus/"
   - episode_title: Amanda Jansson
     episode_url: https://www.sverigesradio.se/avsnitt/2815509
@@ -19728,7 +19740,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815509
     episode_slug: amanda-jansson
     episode_key: amanda-jansson
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/amanda-jansson/"
   - episode_title: Carl Skau
     episode_url: https://www.sverigesradio.se/avsnitt/2815488
@@ -19740,7 +19752,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815488
     episode_slug: carl-skau
     episode_key: carl-skau
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/carl-skau/"
   - episode_title: Evelyn Mok
     episode_url: https://www.sverigesradio.se/avsnitt/2815484
@@ -19752,7 +19764,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815484
     episode_slug: evelyn-mok
     episode_key: evelyn-mok
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
   - episode_title: Sebastian Siemiatkowski
     episode_url: https://www.sverigesradio.se/avsnitt/2815483
@@ -19764,7 +19776,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815483
     episode_slug: sebastian-siemiatkowski
     episode_key: sebastian-siemiatkowski
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
   - episode_title: Behrang Safari
     episode_url: https://www.sverigesradio.se/avsnitt/2815479
@@ -19776,7 +19788,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815479
     episode_slug: behrang-safari
     episode_key: behrang-safari
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/behrang-safari/"
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
@@ -19789,7 +19801,7 @@ episodes_by_feed:
     episode_slug: erika-bjerstrom
     episode_key: erika-bjerstrom
     legacy_unicode_slug: erika-bjerström
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/erika-bjerstrom/"
   - episode_title: Marie Göranzon
     episode_url: https://www.sverigesradio.se/avsnitt/2815477
@@ -19802,7 +19814,7 @@ episodes_by_feed:
     episode_slug: marie-goranzon
     episode_key: marie-goranzon
     legacy_unicode_slug: marie-göranzon
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/marie-goranzon/"
   - episode_title: Olof Wretling
     episode_url: https://www.sverigesradio.se/avsnitt/2815476
@@ -19814,7 +19826,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815476
     episode_slug: olof-wretling
     episode_key: olof-wretling
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/olof-wretling/"
   - episode_title: Ann Heberlein
     episode_url: https://www.sverigesradio.se/avsnitt/2815475
@@ -19826,7 +19838,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815475
     episode_slug: ann-heberlein
     episode_key: ann-heberlein
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
   - episode_title: Maria Maunsbach
     episode_url: https://www.sverigesradio.se/avsnitt/2815526
@@ -19838,7 +19850,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815526
     episode_slug: maria-maunsbach
     episode_key: maria-maunsbach
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
   - episode_title: 'Poddtips: Dagens Eko förklarar en stor nyhet varje vardag'
     episode_url: https://www.sverigesradio.se/avsnitt/2830718
@@ -19851,7 +19863,7 @@ episodes_by_feed:
     episode_slug: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     episode_key: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
     legacy_unicode_slug: poddtips-dagens-eko-förklarar-en-stor-nyhet-varje-vardag
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/"
   - episode_title: Sarah Sheppard
     episode_url: https://www.sverigesradio.se/avsnitt/2815473
@@ -19863,7 +19875,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815473
     episode_slug: sarah-sheppard
     episode_key: sarah-sheppard
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/sarah-sheppard/"
   - episode_title: Johan Eriksson
     episode_url: https://www.sverigesradio.se/avsnitt/2815472
@@ -19875,20 +19887,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815472
     episode_slug: johan-eriksson
     episode_key: johan-eriksson
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
-  - episode_title: Patrik Norqvist
-    episode_url: https://www.sverigesradio.se/avsnitt/2815471
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/program_patrik_norqvist_podd_ny_20260624_1305342545.mp3
-    published_at: '2026-06-29T11:00:00Z'
-    description_html: <p>Rymdfysikern ger svar på frågorna vi grubblat på i åratal.</p><hr><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Rymdfysikern ger svar på frågorna vi grubblat på i åratal. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2815471
-    episode_slug: patrik-norqvist
-    episode_key: patrik-norqvist
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/patrik-norqvist/"
+    episode_page_url: "/sommar-vinter-i-p1/johan-eriksson/"
   https://feeds.megaphone.fm/90gramosmethub: &65
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
