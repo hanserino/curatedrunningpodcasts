@@ -1,0 +1,228 @@
+{%- assign promo_data = site.data.promo_codes -%}
+{%- assign entries = promo_data.entries -%}
+{%- assign brands = promo_data.brands | default: empty -%}
+{%- assign stats = promo_data.stats | default: empty -%}
+{%- assign has_entries = false -%}
+{%- if entries and entries.size > 0 -%}
+	{%- assign has_entries = true -%}
+{%- elsif brands.size > 0 -%}
+	{%- assign has_entries = true -%}
+{%- endif -%}
+
+{% unless has_entries %}
+<p class="promo-codes__empty">No promo codes found in running podcast show notes yet.</p>
+{% else %}
+{%- assign code_total = stats.code_count -%}
+{%- if code_total == nil or code_total == 0 -%}
+	{%- assign code_total = entries.size -%}
+{%- endif -%}
+{%- assign brand_total = stats.brand_count | default: brands.size -%}
+{%- assign mention_total = stats.mention_count | default: 0 -%}
+
+<div class="promo-codes__toolbar" data-promo-panel aria-label="Browse promo codes">
+	<div class="promo-codes__toolbar-inner">
+		<div class="promo-codes__toolbar-top">
+			<ul class="promo-codes__stats" aria-label="Overview">
+				<li class="promo-codes__stat promo-codes__stat--codes">
+					<span class="promo-codes__stat-value">{{ code_total }}</span>
+					<span class="promo-codes__stat-label">codes</span>
+				</li>
+				<li class="promo-codes__stat promo-codes__stat--brands">
+					<span class="promo-codes__stat-value">{{ brand_total }}</span>
+					<span class="promo-codes__stat-label">brands</span>
+				</li>
+				<li class="promo-codes__stat promo-codes__stat--mentions">
+					<span class="promo-codes__stat-value">{% if mention_total > 0 %}{{ mention_total }}{% else %}—{% endif %}</span>
+					<span class="promo-codes__stat-label">mentions</span>
+				</li>
+			</ul>
+			<p class="promo-codes__results" id="promo-codes-results" role="status" aria-live="polite" aria-atomic="true"></p>
+		</div>
+		<div class="promo-codes__toolbar-controls">
+			<label class="visuallyhidden" for="promo-codes-search">Search brands, codes, or podcasts</label>
+			<div class="promo-codes__search-wrap">
+				<span class="promo-codes__search-icon" aria-hidden="true"></span>
+				<input
+					type="search"
+					id="promo-codes-search"
+					class="promo-codes__search"
+					placeholder="Search brands, codes, podcasts…"
+					autocomplete="off"
+					spellcheck="false"
+					data-promo-codes-search
+				>
+			</div>
+			<div class="promo-codes__filters">
+				{% if brands.size > 0 %}
+				<div class="promo-codes__filter-wrap">
+					<label class="promo-codes__filter-label" for="promo-codes-brand">Brand</label>
+					<select id="promo-codes-brand" class="promo-codes__select" data-promo-brand-filter>
+						<option value="">All brands</option>
+						{% for brand in brands %}
+						<option value="{{ brand.brand_key | default: brand.brand | slugify }}">{{ brand.brand }}</option>
+						{% endfor %}
+					</select>
+				</div>
+				{% endif %}
+				<div class="promo-codes__filter-wrap">
+					<label class="promo-codes__filter-label" for="promo-codes-sort">Sort</label>
+					<select id="promo-codes-sort" class="promo-codes__select" data-promo-codes-sort>
+						<option value="brand">Brand A–Z</option>
+						<option value="codes">Most codes</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<p class="promo-codes__no-results" data-promo-no-results hidden>No codes match your search. Try another brand or keyword.</p>
+
+<div class="promo-codes__catalog" data-promo-catalog>
+	{% if brands.size > 0 %}
+		{% for brand in brands %}
+			{% assign accent = forloop.index0 | modulo: 6 %}
+			{% include promo-brand-section.html brand=brand accent=accent %}
+		{% endfor %}
+	{% else %}
+		{% comment %} Fallback when only flat entries exist {% endcomment %}
+		<section class="promo-brand promo-brand--accent-0" data-brand-section data-brand="all">
+			<ul class="promo-brand__codes">
+				{% for entry in entries %}
+					{% include promo-code-entry.html brand=entry.brand brand_key=entry.brand_key code=entry.code podcasts=entry.podcasts accent=0 %}
+				{% endfor %}
+			</ul>
+		</section>
+	{% endif %}
+</div>
+
+<div class="promo-codes__toast" data-promo-toast role="status" aria-live="polite" hidden>
+	<span data-promo-toast-text>Copied</span>
+</div>
+{% endunless %}
+
+<script>
+(function () {
+	var catalog = document.querySelector('[data-promo-catalog]');
+	if (!catalog) return;
+
+	var input = document.querySelector('[data-promo-codes-search]');
+	var sortSelect = document.querySelector('[data-promo-codes-sort]');
+	var resultsEl = document.getElementById('promo-codes-results');
+	var noResultsEl = document.querySelector('[data-promo-no-results]');
+	var toast = document.querySelector('[data-promo-toast]');
+	var toastText = document.querySelector('[data-promo-toast-text]');
+	var brandSelect = document.querySelector('[data-promo-brand-filter]');
+	var brandSections = Array.prototype.slice.call(document.querySelectorAll('[data-brand-section]'));
+	var tickets = Array.prototype.slice.call(document.querySelectorAll('[data-promo-entry]'));
+	var activeBrand = '';
+	var toastTimer;
+
+	function showToast(message) {
+		if (!toast || !toastText) return;
+		toastText.textContent = message;
+		toast.hidden = false;
+		window.clearTimeout(toastTimer);
+		toastTimer = window.setTimeout(function () {
+			toast.hidden = true;
+		}, 1600);
+	}
+
+	function ticketMatches(ticket, query) {
+		if (activeBrand && ticket.getAttribute('data-brand') !== activeBrand) return false;
+		if (!query) return true;
+		return ticket.textContent.toLowerCase().indexOf(query) !== -1;
+	}
+
+	function updateResults() {
+		var query = input ? input.value.trim().toLowerCase() : '';
+		var visibleTickets = 0;
+
+		tickets.forEach(function (ticket) {
+			var show = ticketMatches(ticket, query);
+			ticket.hidden = !show;
+			if (show) visibleTickets += 1;
+		});
+
+		brandSections.forEach(function (section) {
+			if (activeBrand && section.getAttribute('data-brand') !== activeBrand) {
+				section.hidden = true;
+				return;
+			}
+
+			var visibleInSection = Array.prototype.slice.call(
+				section.querySelectorAll('[data-promo-entry]:not([hidden])')
+			).length;
+			section.hidden = visibleInSection === 0;
+		});
+
+		if (resultsEl) {
+			if (query || activeBrand) {
+				resultsEl.textContent = visibleTickets + ' of ' + tickets.length + ' codes';
+			} else {
+				resultsEl.textContent = tickets.length + ' codes · ' + brandSections.length + ' brands';
+			}
+		}
+
+		if (noResultsEl) {
+			noResultsEl.hidden = visibleTickets !== 0;
+		}
+	}
+
+	function sortSections(mode) {
+		var sorted = brandSections.slice().sort(function (a, b) {
+			if (mode === 'codes') {
+				var countDiff = b.querySelectorAll('[data-promo-entry]').length - a.querySelectorAll('[data-promo-entry]').length;
+				if (countDiff !== 0) return countDiff;
+			}
+			var nameA = a.querySelector('.promo-brand__name');
+			var nameB = b.querySelector('.promo-brand__name');
+			return (nameA ? nameA.textContent : '').localeCompare(nameB ? nameB.textContent : '', undefined, { sensitivity: 'base' });
+		});
+
+		sorted.forEach(function (section) {
+			catalog.appendChild(section);
+		});
+		brandSections = sorted;
+		updateResults();
+	}
+
+	if (input) {
+		input.addEventListener('input', updateResults);
+	}
+
+	if (sortSelect) {
+		sortSelect.addEventListener('change', function () {
+			sortSections(sortSelect.value);
+		});
+	}
+
+	if (brandSelect) {
+		brandSelect.addEventListener('change', function () {
+			activeBrand = brandSelect.value || '';
+			updateResults();
+		});
+	}
+
+	document.querySelectorAll('[data-copy-code]').forEach(function (button) {
+		button.addEventListener('click', function () {
+			var code = button.getAttribute('data-copy-code');
+			if (!code) return;
+
+			var copied = function () {
+				button.classList.add('is-copied');
+				showToast('Copied ' + code);
+				window.setTimeout(function () {
+					button.classList.remove('is-copied');
+				}, 1400);
+			};
+
+			if (navigator.clipboard && navigator.clipboard.writeText) {
+				navigator.clipboard.writeText(code).then(copied).catch(function () {});
+			}
+		});
+	});
+
+	updateResults();
+})();
+</script>

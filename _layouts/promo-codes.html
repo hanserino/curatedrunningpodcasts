@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}" translate="no" class="notranslate">
+<head>
+	{% include head.html %}
+	{% include schema-page.html %}
+</head>
+<body class="post-page promo-codes-page" data-box-grid="true">
+	{% include skip-link.html %}
+	<main id="main-content">
+		<article class="promo-codes">
+			<header class="promo-codes__intro">
+				{% include post-page-nav.html %}
+				<p class="promo-codes__kicker">Extracted from the show notes</p>
+				<h1 class="promo-codes__title">{{ page.title }}</h1>
+				{% if page.description %}
+				<p class="promo-codes__lede">{{ page.description }}</p>
+				{% endif %}
+				{% if page.disclaimer %}
+				<p class="promo-codes__disclaimer">{{ page.disclaimer }}</p>
+				{% endif %}
+			</header>
+			<section class="promo-codes__content" aria-label="Promo codes">
+				{{ content }}
+			</section>
+			<footer class="post-article__footer">
+				<p class="post-article__back"><a href="{{ '/' | relative_url }}" rel="home">← Back to the podcast directory</a></p>
+			</footer>
+		</article>
+	</main>
+	{% include footer.html %}
+</body>
+</html>

@@ -5,8 +5,8 @@ redirect_from:
   - /podcast/the-sub-hub.html
 date: 2026-05-29
 title: The Sub Hub
-url_slug: the-sub-hub
 category: podcast
+url_slug: the-sub-hub
 published: true
 description: Dani Moreno and and EmKay Sullivan brings you your hub for all
   things sub-ultra mountain and trail running.
@@ -15,11 +15,10 @@ cover_image: /media/subhubpodcast.jpeg
 publisher: Freetrail
 spotify_link: https://open.spotify.com/show/7meiWEODkZgkF07DOpJzQK?si=01edddbd94574a7d
 apple_podcast_link: https://podcasts.apple.com/us/podcast/the-sub-hub-podcast/id1675123343
-youtube_link: https://www.youtube.com/@SubHubPod
 tags:
   - trail
   - subultra
-  - skyrunning
 language:
   - english
 ---
+
