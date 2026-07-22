@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-22T12:58:09Z'
+generated_at: '2026-07-22T13:43:35Z'
 items:
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us/"
@@ -114,13 +114,13 @@ items:
   cover_image: "/media/blackhatultra.jpeg"
   feed_url: https://anchor.fm/s/10013986c/podcast/rss
   filter_category: trail ultra polish
-  episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, 200km + ultra"
-  episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--200km--ultra-e3mbsf5
+  episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, biega ponad 200km"
+  episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--biega-ponad-200km-e3mbsf5
   audio_url: https://anchor.fm/s/10013986c/podcast/play/123121573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F6182c2cf-746f-1db7-9e6e-1f14b4dd4801.mp3
   published_at: '2026-07-21T13:22:22+00:00'
-  episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
-  episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
-  episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra/"
+  episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
+  episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
+  episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km/"
 - podcast_title: Some Work, All Play
   podcast_page_url: "/some-work-all-play/"
   cover_image: "/media/swap.jpeg"
@@ -782,6 +782,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Forklart
+  podcast_page_url: "/forklart/"
+  cover_image: "/media/forklart.jpeg"
+  feed_url: https://podcast.stream.schibsted.media/ap/100194
+  filter_category: uncategorized norwegian
+  episode_title: 'Kort Forklart: Nytt 22. juli-senter skaper reaksjoner'
+  episode_url: ''
+  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/9wuttjm9ocb4wwbtwpc45/podcast_128.mp3
+  published_at: '2026-07-22T13:19:33+00:00'
+  episode_key: kort-forklart-nytt-22-juli-senter-skaper-reaksjoner
+  episode_slug: kort-forklart-nytt-22-juli-senter-skaper-reaksjoner
+  episode_page_url: "/forklart/kort-forklart-nytt-22-juli-senter-skaper-reaksjoner/"
 - podcast_title: Sommar & Vinter i P1
   podcast_page_url: "/sommar-vinter-i-p1/"
   cover_image: "/media/sommarochvinter.jpg"
@@ -854,18 +866,6 @@ non_running_items:
   episode_key: ep-257-adam-lambert-on-idol-fronting-queen-and-opting-out-of-the-industry-game
   episode_slug: ep-257-adam-lambert-on-idol-fronting-queen-and-opting-out-of-the-industry-game
   episode_page_url: "/and-the-writer-is-with-ross-golan/ep-257-adam-lambert-on-idol-fronting-queen-and-opting-out-of-the-industry-game/"
-- podcast_title: Forklart
-  podcast_page_url: "/forklart/"
-  cover_image: "/media/forklart.jpeg"
-  feed_url: https://podcast.stream.schibsted.media/ap/100194
-  filter_category: uncategorized norwegian
-  episode_title: 'Kort Forklart: Tate-brødrene kjemper mot utlevering'
-  episode_url: ''
-  audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/bisah2ac6zaktmk7yqbvp/podcast_128.mp3
-  published_at: '2026-07-21T13:42:26+00:00'
-  episode_key: kort-forklart-tate-brodrene-kjemper-mot-utlevering
-  episode_slug: kort-forklart-tate-brodrene-kjemper-mot-utlevering
-  episode_page_url: "/forklart/kort-forklart-tate-brodrene-kjemper-mot-utlevering/"
 - podcast_title: Pivot
   podcast_page_url: "/pivot/"
   cover_image: "/media/pivot.jpeg"
@@ -6028,6 +6028,7 @@ episodes_by_feed:
     episode_key: how-john-fitzgerald-coached-jennifer-lichter-to-a-western-states-course-record
     legacy_numbered_slug: episode-01
     episode_page_url: "/singletrack/how-john-fitzgerald-coached-jennifer-lichter-to-a-western-states-course-record/"
+    youtube_video_id: 5kTBNPGwhog
   - episode_title: ESPN's Wright Thompson on the Cost of Athletic Greatness (Sunday Conversation)
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19513439-espn-s-wright-thompson-on-the-cost-of-athletic-greatness-sunday-conversation.mp3
@@ -6196,7 +6197,6 @@ episodes_by_feed:
     episode_key: scott-jurek-on-the-golden-age-of-ultra-dean-potter-and-the-dark-wizard-200-milers-and-the-odds-of-a-sub-14-at-western-st
     legacy_numbered_slug: episode-14
     episode_page_url: "/singletrack/scott-jurek-on-the-golden-age-of-ultra-dean-potter-and-the-dark-wizard-200-milers-and-the-odds-of-a-sub-14-at-western-st/"
-    youtube_video_id: HHYAy5OQVjQ
   - episode_title: 2026 Western States 100 Final Power Rankings
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19388600-2026-western-states-100-final-power-rankings.mp3
@@ -18304,6 +18304,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/waveform-the-mkbhd-podcast/nothing-like-a-new-macbook/"
   https://podcast.stream.schibsted.media/ap/100194: &59
+  - episode_title: 'Kort Forklart: Nytt 22. juli-senter skaper reaksjoner'
+    episode_url: ''
+    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/9wuttjm9ocb4wwbtwpc45/podcast_128.mp3
+    published_at: '2026-07-22T13:19:33+00:00'
+    description_html: 15 år etter terrorangrepene i regjeringskvartalet og på Utøya, åpner et nytt 22. juli-senter. I hovedutstillingen vises uniformen terroristen brukte. Hvor går grensen mellom nødvendig dokumentasjon og en iscenesettelse av terroristen? I dagens Kort Forklart snakker vi også om idrettshelten Olaf Tuftes bortgang.
+    description_plain: 15 år etter terrorangrepene i regjeringskvartalet og på Utøya, åpner et nytt 22. juli-senter. I hovedutstillingen vises uniformen terroristen brukte. Hvor går grensen mellom nødvendig dokumentasjon og en iscenesettelse av terroristen? I dagens Kort Forklart snakker vi også om idrettshelten Olaf Tuftes bortgang.
+    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/1297ad3c9d82b161fbe9db76b85e0ace.jpg?t%5B%5D=1440q80
+    episode_uid: ap-140081
+    episode_slug: kort-forklart-nytt-22-juli-senter-skaper-reaksjoner
+    episode_key: kort-forklart-nytt-22-juli-senter-skaper-reaksjoner
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/forklart/kort-forklart-nytt-22-juli-senter-skaper-reaksjoner/"
   - episode_title: 'Kort Forklart: Tate-brødrene kjemper mot utlevering'
     episode_url: ''
     audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/07/bisah2ac6zaktmk7yqbvp/podcast_128.mp3
@@ -18315,7 +18327,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-tate-brodrene-kjemper-mot-utlevering
     episode_key: kort-forklart-tate-brodrene-kjemper-mot-utlevering
     legacy_unicode_slug: kort-forklart-tate-brødrene-kjemper-mot-utlevering
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/forklart/kort-forklart-tate-brodrene-kjemper-mot-utlevering/"
   - episode_title: Lara overlevde Utøya, søsteren ble drept. Nå er hun bekymret.
     episode_url: ''
@@ -18331,7 +18343,7 @@ episodes_by_feed:
     episode_slug: lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret
     episode_key: lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret
     legacy_unicode_slug: lara-overlevde-utøya-søsteren-ble-drept-nå-er-hun-bekymret
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/forklart/lara-overlevde-utoya-sosteren-ble-drept-na-er-hun-bekymret/"
   - episode_title: 'Kort Forklart: Storbrannen i Krokstadelva: – Den verste natten i mitt liv'
     episode_url: ''
@@ -18343,7 +18355,7 @@ episodes_by_feed:
     episode_uid: ap-140052
     episode_slug: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
     episode_key: kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/forklart/kort-forklart-storbrannen-i-krokstadelva-den-verste-natten-i-mitt-liv/"
   - episode_title: 'Kort Forklart: Splitter 22. juli mer enn før?'
     episode_url: ''
@@ -18356,7 +18368,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-splitter-22-juli-mer-enn-for
     episode_key: kort-forklart-splitter-22-juli-mer-enn-for
     legacy_unicode_slug: kort-forklart-splitter-22-juli-mer-enn-før
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/forklart/kort-forklart-splitter-22-juli-mer-enn-for/"
   - episode_title: Er kanselleringskulturen død?
     episode_url: ''
@@ -18372,7 +18384,7 @@ episodes_by_feed:
     episode_slug: er-kanselleringskulturen-dod
     episode_key: er-kanselleringskulturen-dod
     legacy_unicode_slug: er-kanselleringskulturen-død
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/forklart/er-kanselleringskulturen-dod/"
   - episode_title: 'Kort Forklart: Trump med kraftige trusler, og kritikk mot VM-show'
     episode_url: ''
@@ -18387,7 +18399,7 @@ episodes_by_feed:
     episode_uid: ap-140020
     episode_slug: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
     episode_key: kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/forklart/kort-forklart-trump-med-kraftige-trusler-og-kritikk-mot-vm-show/"
   - episode_title: 'Kort Forklart: Høiby er kommet hjem, og hvor ble det av Haaland?'
     episode_url: ''
@@ -18400,7 +18412,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
     episode_key: kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
     legacy_unicode_slug: kort-forklart-høiby-er-kommet-hjem-og-hvor-ble-det-av-haaland
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/forklart/kort-forklart-hoiby-er-kommet-hjem-og-hvor-ble-det-av-haaland/"
   - episode_title: 'Bassengtabbe og gullstatuer: Slik trumpifiseres USA'
     episode_url: ''
@@ -18412,7 +18424,7 @@ episodes_by_feed:
     episode_uid: ap-139903
     episode_slug: bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa
     episode_key: bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/forklart/bassengtabbe-og-gullstatuer-slik-trumpifiseres-usa/"
   - episode_title: 'Kort Forklart fotballspesial: Ble Norge urettferdig dømt?'
     episode_url: ''
@@ -18425,7 +18437,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-ble-norge-urettferdig-domt
     episode_key: kort-forklart-fotballspesial-ble-norge-urettferdig-domt
     legacy_unicode_slug: kort-forklart-fotballspesial-ble-norge-urettferdig-dømt
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/forklart/kort-forklart-fotballspesial-ble-norge-urettferdig-domt/"
   - episode_title: 'Norge-England: Kan vi sende dem hjem?'
     episode_url: ''
@@ -18439,7 +18451,7 @@ episodes_by_feed:
     episode_uid: ap-139911
     episode_slug: norge-england-kan-vi-sende-dem-hjem
     episode_key: norge-england-kan-vi-sende-dem-hjem
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/forklart/norge-england-kan-vi-sende-dem-hjem/"
   - episode_title: Kort Forklart: Reform UK-lederen blir utfordret av «Count Binface», og pengene flyr i VM.
     episode_url: ''
@@ -18451,7 +18463,7 @@ episodes_by_feed:
     episode_uid: ap-139915
     episode_slug: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
     episode_key: kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/forklart/kort-forklart-reform-uk-lederen-blir-utfordret-av-count-binface-og-pengene-flyr-i-vm/"
   - episode_title: Gina var eneste norske journalist i ayatollahens begravelse
     episode_url: ''
@@ -18466,7 +18478,7 @@ episodes_by_feed:
     episode_uid: ap-139901
     episode_slug: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
     episode_key: gina-var-eneste-norske-journalist-i-ayatollahens-begravelse
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/forklart/gina-var-eneste-norske-journalist-i-ayatollahens-begravelse/"
   - episode_title: 'Sommer, utepils og VM-fyll: Når blir alkohol skadelig?'
     episode_url: ''
@@ -18482,7 +18494,7 @@ episodes_by_feed:
     episode_slug: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     episode_key: sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig
     legacy_unicode_slug: sommer-utepils-og-vm-fyll-når-blir-alkohol-skadelig
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/forklart/sommer-utepils-og-vm-fyll-nar-blir-alkohol-skadelig/"
   - episode_title: 'Kort Forklart: Trump «tror» våpenhvilen er over, og mer kritikk av Fifa'
     episode_url: ''
@@ -18495,7 +18507,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     episode_key: kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa
     legacy_unicode_slug: kort-forklart-trump-tror-våpenhvilen-er-over-og-mer-kritikk-av-fifa
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/forklart/kort-forklart-trump-tror-vapenhvilen-er-over-og-mer-kritikk-av-fifa/"
   - episode_title: 'Kort Forklart: Le Pen får mildere straff, og skandale preger fotball-VM'
     episode_url: ''
@@ -18508,7 +18520,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     episode_key: kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm
     legacy_unicode_slug: kort-forklart-le-pen-får-mildere-straff-og-skandale-preger-fotball-vm
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/forklart/kort-forklart-le-pen-far-mildere-straff-og-skandale-preger-fotball-vm/"
   - episode_title: På innsiden av koranskolene
     episode_url: ''
@@ -18521,7 +18533,7 @@ episodes_by_feed:
     episode_slug: pa-innsiden-av-koranskolene
     episode_key: pa-innsiden-av-koranskolene
     legacy_unicode_slug: på-innsiden-av-koranskolene
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/forklart/pa-innsiden-av-koranskolene/"
   - episode_title: 'Kort Forklart fotballspesial: Norge gjorde det umulige. - Nå kan alt skje.'
     episode_url: ''
@@ -18534,7 +18546,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     episode_key: kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje
     legacy_unicode_slug: kort-forklart-fotballspesial-norge-gjorde-det-umulige-nå-kan-alt-skje
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/forklart/kort-forklart-fotballspesial-norge-gjorde-det-umulige-na-kan-alt-skje/"
   - episode_title: 'Norge-Brasil: Klarer vi det igjen?'
     episode_url: ''
@@ -18546,7 +18558,7 @@ episodes_by_feed:
     episode_uid: ap-139743
     episode_slug: norge-brasil-klarer-vi-det-igjen
     episode_key: norge-brasil-klarer-vi-det-igjen
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/forklart/norge-brasil-klarer-vi-det-igjen/"
   - episode_title: 'Annonsørinnhold fra Gartner: Grønnsaker i sesong'
     episode_url: ''
@@ -18563,7 +18575,7 @@ episodes_by_feed:
     episode_slug: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     episode_key: annonsorinnhold-fra-gartner-gronnsaker-i-sesong
     legacy_unicode_slug: annonsørinnhold-fra-gartner-grønnsaker-i-sesong
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/forklart/annonsorinnhold-fra-gartner-gronnsaker-i-sesong/"
   - episode_title: 'Kort Forklart: Først nå begraves Irans øverste leder. Ingen vet om etterfølgeren dukker opp.'
     episode_url: ''
@@ -18576,7 +18588,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     episode_key: kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp
     legacy_unicode_slug: kort-forklart-først-nå-begraves-irans-øverste-leder-ingen-vet-om-etterfølgeren-dukker-opp
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/forklart/kort-forklart-forst-na-begraves-irans-overste-leder-ingen-vet-om-etterfolgeren-dukker-opp/"
   - episode_title: "«Økonomisk dødsstraff»: Livet på Trumps svarteliste"
     episode_url: ''
@@ -18589,7 +18601,7 @@ episodes_by_feed:
     episode_slug: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     episode_key: okonomisk-dodsstraff-livet-pa-trumps-svarteliste
     legacy_unicode_slug: økonomisk-dødsstraff-livet-på-trumps-svarteliste
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/forklart/okonomisk-dodsstraff-livet-pa-trumps-svarteliste/"
   - episode_title: 'Kort Forklart: Trump tapte en av sine hjertesaker'
     episode_url: ''
@@ -18601,7 +18613,7 @@ episodes_by_feed:
     episode_uid: ap-139687
     episode_slug: kort-forklart-trump-tapte-en-av-sine-hjertesaker
     episode_key: kort-forklart-trump-tapte-en-av-sine-hjertesaker
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/forklart/kort-forklart-trump-tapte-en-av-sine-hjertesaker/"
   - episode_title: 'Kort Forklart fotballspesial: Nå venter nytt møte med Brasil - men var de bedre før?'
     episode_url: ''
@@ -18614,7 +18626,7 @@ episodes_by_feed:
     episode_slug: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     episode_key: kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for
     legacy_unicode_slug: kort-forklart-fotballspesial-nå-venter-nytt-møte-med-brasil-men-var-de-bedre-før
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
   - episode_title: 'Kort Forklart: De kalles «pervobriller». Derfor er Metas briller kontroversielle.'
     episode_url: ''
@@ -18626,21 +18638,8 @@ episodes_by_feed:
     episode_uid: ap-139642
     episode_slug: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
     episode_key: kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/forklart/kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle/"
-  - episode_title: Er det Iphonens feil at vi får færre barn?
-    episode_url: ''
-    audio_url: https://flex2.acast.com/s/forklart/u/dd-abo.akamaized.net/ap/vod/2026/06/e1x5hif6yhlwn70go2dm3/podcast_128.mp3
-    published_at: '2026-06-29T03:05:03+00:00'
-    description_html: 'Steve Jobs lanserte Iphonen i 2007. Samme år begynte fruktbarheten i USA å falle. Nå mener forskere at smarttelefonen er én av grunnene til at vi får færre barn. I tillegg påvirker den alt fra søvn og oppmerksomhet til «FOMO». Hva gjør mobilen egentlig med oss? Og er alt negativt? Med journalist Jeanette Sjøberg og medieforsker Marika Lüders. Foto: Paul Sakuma/AP.'
-    description_plain: 'Steve Jobs lanserte Iphonen i 2007. Samme år begynte fruktbarheten i USA å falle. Nå mener forskere at smarttelefonen er én av grunnene til at vi får færre barn. I tillegg påvirker den alt fra søvn og oppmerksomhet til «FOMO». Hva gjør mobilen egentlig med oss? Og er alt negativt? Med journalist Jeanette Sjøberg og medieforsker Marika Lüders. Foto: Paul Sakuma/AP.'
-    episode_image_url: https://images.stream.schibsted.media/users/ap_/images/e108afea3323b4b344bcf978b94d4bf6.jpg?t%5B%5D=1440q80
-    episode_uid: ap-139585
-    episode_slug: er-det-iphonens-feil-at-vi-far-faerre-barn
-    episode_key: er-det-iphonens-feil-at-vi-far-faerre-barn
-    legacy_unicode_slug: er-det-iphonens-feil-at-vi-får-færre-barn
     legacy_numbered_slug: episode-25
-    episode_page_url: "/forklart/er-det-iphonens-feil-at-vi-far-faerre-barn/"
+    episode_page_url: "/forklart/kort-forklart-de-kalles-pervobriller-derfor-er-metas-briller-kontroversielle/"
   https://feeds.megaphone.fm/hubermanlab: &60
   - episode_title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
     episode_url: https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood
@@ -29761,18 +29760,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/pr-project/100/"
   https://anchor.fm/s/10013986c/podcast/rss: &100
-  - episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, 200km + ultra"
-    episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--200km--ultra-e3mbsf5
+  - episode_title: "#166 Karolina Mroczek - najszybsza na Hardej Suce, biega ponad 200km"
+    episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/166-Karolina-Mroczek---najszybsza-na-Hardej-Suce--biega-ponad-200km-e3mbsf5
     audio_url: https://anchor.fm/s/10013986c/podcast/play/123121573/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-21%2F6182c2cf-746f-1db7-9e6e-1f14b4dd4801.mp3
     published_at: '2026-07-21T13:22:22+00:00'
     description_html: "<p><strong>Karolina Mroczek – wszechstronność, odwaga i &quot;jeśli nie spróbujesz, to się nie dowiesz&quot;</strong></p><p>Zaprosiłem Karolinę do podcastu z kilku powodów. Po pierwsze - wygrała HardąSukę, wykręcając najlepszy kobiecy czas biorąc pod uwagę wszystkie edycje tej imprezy. Po drugie - zapisała się na Hardą, gdy jeszcze nie umiała dobrze pływać i zaczynała właściwie od zera. Po trzecie - wygrała Bieg 7 Szczytów i Demona, czyli dwa biegi powyżej 200 km.</p><p>To wszystko pokazuje, że Karolina jest wszechstronna, otwarta na nowe wyzwania i nie boi się porażki. Jak sama mówi: &quot;jeśli nie spróbujesz, to się nie dowiesz&quot;. Bardzo lubię takie podejście - bez napinki, ale z dużą dozą ciekawości do świata i do siebie.</p><p>\U0001F399️ O czym rozmawiamy w tym odcinku:</p><ul><li>Najpierw zapisy na Hardą, potem pływanie</li><li>Droga na szczyt HardejSuki i najlepszy kobiecy czas w historii imprezy</li><li>Trening rowerowy</li><li>Zwycięstwa w Biegu 7 Szczytów i Demonie - co łączy dwa biegi powyżej 200 km</li><li>O Suplementach i hiperwitaminozie</li><li>Czy start w Demonie miał sens?</li><li>Wszechstronność jako strategia i styl życia w ultra</li></ul><p>\U0001F64F Podziękowania dla Patronów i Patronek podcastu Black Hat Ultra za wsparcie — witam w naszym gronie Darka Zbyrada! Patroni są główną siłą napędową tego podcastu, więc jeśli chcecie nas wesprzeć: <a href=\"http://patronite.pl/blackhatultra\">patronite.pl/blackhatultra</a></p><p>\U0001F3A7 Chcesz nagrać własny podcast? Moje studio jest teraz dostępne do wynajęcia — audio pamiętnik z podróży, temat, w którym jesteś ekspertem, albo własny podcast od zera. Każdy powód jest dobry. Napisz: <a href=\"mailto:ultra@blackhatultra.pl\">ultra@blackhatultra.pl</a></p><p>#BlackHatUltra #podcast #ultrarunning #HardaSuka #Demon #Bieg7Szczytów</p>"
     description_plain: "Karolina Mroczek – wszechstronność, odwaga i &quot;jeśli nie spróbujesz, to się nie dowiesz&quot; Zaprosiłem Karolinę do podcastu z kilku powodów. Po pierwsze - wygrała HardąSukę, wykręcając najlepszy kobiecy czas biorąc pod uwagę wszystkie edycje tej imprezy. Po drugie - zapisała się na Hardą, gdy jeszcze nie umiała dobrze pływać i zaczynała właściwie od zera. Po trzecie - wygrała Bieg 7 Szczytów i Demona, czyli dwa biegi powyżej 200 km. To wszystko pokazuje, że Karolina jest wszechstronna, otwarta na nowe wyzwania i nie boi się porażki. Jak sama mówi: &quot;jeśli nie spróbujesz, to się nie dowiesz&quot;. Bardzo lubię takie podejście - bez napinki, ale z dużą dozą ciekawości do świata i do siebie. \U0001F399️ O czym rozmawiamy w tym odcinku: Najpierw zapisy na Hardą, potem pływanie Droga na szczyt HardejSuki i najlepszy kobiecy czas w historii imprezy Trening rowerowy Zwycięstwa w Biegu 7 Szczytów i Demonie - co łączy dwa biegi powyżej 200 km O Suplementach i hiperwitaminozie Czy start w Demonie miał sens? Wszechstronność jako strategia i styl życia w ultra \U0001F64F Podziękowania dla Patronów i Patronek podcastu Black Hat Ultra za wsparcie — witam w naszym gronie Darka Zbyrada! Patroni są główną siłą napędową tego podcastu, więc jeśli chcecie nas wesprzeć: patronite.pl/blackhatultra \U0001F3A7 Chcesz nagrać własny podcast? Moje studio jest teraz dostępne do wynajęcia — audio pamiętnik z podróży, temat, w którym jesteś ekspertem, albo własny podcast od zera. Każdy powód jest dobry. Napisz: ultra@blackhatultra.pl #BlackHatUltra #podcast #ultrarunning #HardaSuka #Demon #Bieg7Szczytów"
     episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/42862515/42862515-1784639852463-3687bd52212c3.jpg
     episode_uid: ac11a575-8796-4a86-ac0b-fa4c8e95bd06
-    episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
-    episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra
+    episode_slug: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
+    episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
     legacy_numbered_slug: episode-01
-    episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-200km-ultra/"
+    episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km/"
     youtube_video_id: jCICBGCLgAA
   - episode_title: "#165 Michał Asperski - 250km w 7 dni - Biegi etapowe po pustyniach i dżunglach"
     episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/165-Micha-Asperski---250km-w-7-dni---Biegi-etapowe-po-pustyniach-i-dunglach-e3m3821
