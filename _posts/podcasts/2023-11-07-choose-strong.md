@@ -5,8 +5,8 @@ redirect_from:
   - /podcast/choose-strong.html
 date: 2026-05-29
 title: Choose Strong
-category: podcast
 url_slug: choose-strong
+category: podcast
 published: true
 description: "The host, Sally McRae, is a pro athlete , wife, mother, and biz
   owner. She seeks to encourage others to live a strong and courageous life and
@@ -18,10 +18,10 @@ cover_image: /media/choosestrongpodcast.jpeg
 publisher: Sally McRae
 spotify_link: https://open.spotify.com/show/0b3F87c5WWeMCmrx3Uzdlv?si=912cc9271294479e
 apple_podcast_link: Choose Strong by Sally McRae
+youtube_link: https://www.youtube.com/@choosestrongpodcast
 tags:
   - trail
   - ultra
 language:
   - english
 ---
-
