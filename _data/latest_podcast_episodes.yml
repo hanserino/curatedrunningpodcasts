@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-23T11:44:17Z'
+generated_at: '2026-07-23T12:39:48Z'
 items:
+- podcast_title: Talk Ultra
+  podcast_page_url: "/talk-ultra/"
+  cover_image: "/media/talkultrapodcast.jpeg"
+  feed_url: https://rss.libsyn.com/shows/35424/destinations/88544.xml
+  filter_category: trail ultra english
+  episode_title: Episode 255 - Shane Ohly
+  episode_url: https://talkultra.libsyn.com/episode-255-shane-ohly
+  audio_url: https://traffic.libsyn.com/secure/talkultra/Episode_255_-_Shane_Ohly.mp3?dest-id=88544
+  published_at: '2026-07-23T11:37:00+00:00'
+  episode_key: episode-255-shane-ohly
+  episode_slug: episode-255-shane-ohly
+  episode_page_url: "/talk-ultra/episode-255-shane-ohly/"
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
   cover_image: "/media/lifeinstride.jpeg"
@@ -685,18 +697,6 @@ items:
   episode_key: koop-ai-unboxed
   episode_slug: koop-ai-unboxed
   episode_page_url: "/koopcast/koop-ai-unboxed/"
-- podcast_title: Talk Ultra
-  podcast_page_url: "/talk-ultra/"
-  cover_image: "/media/talkultrapodcast.jpeg"
-  feed_url: https://rss.libsyn.com/shows/35424/destinations/88544.xml
-  filter_category: trail ultra english
-  episode_title: Episode 254 - Amy McCulloch - RUNNER 13
-  episode_url: https://talkultra.libsyn.com/episode-254-amy-mcculloch-runner-13
-  audio_url: https://traffic.libsyn.com/secure/talkultra/Amy_McCulloch.mp3?dest-id=88544
-  published_at: '2025-09-17T09:20:00+00:00'
-  episode_key: episode-254-amy-mcculloch-runner-13
-  episode_slug: episode-254-amy-mcculloch-runner-13
-  episode_page_url: "/talk-ultra/episode-254-amy-mcculloch-runner-13/"
 - podcast_title: Pionieri
   podcast_page_url: "/pionieri/"
   cover_image: "/media/pioneri.jpeg"
@@ -9498,6 +9498,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-04
     episode_page_url: "/strength-running-podcast/the-best-recovery-strategies-learned-from-15-years-of-coaching/"
   https://rss.libsyn.com/shows/35424/destinations/88544.xml: &30
+  - episode_title: Episode 255 - Shane Ohly
+    episode_url: https://talkultra.libsyn.com/episode-255-shane-ohly
+    audio_url: https://traffic.libsyn.com/secure/talkultra/Episode_255_-_Shane_Ohly.mp3?dest-id=88544
+    published_at: '2026-07-23T11:37:00+00:00'
+    description_html: "<p>Early in 2026, Shane Ohly made an announcement that Ourea Events would cease trading.</p><p>With events such as The Dragons Backk Race, Cape Wrath Ultra, Northern Traverse and Skyline Scotland, this news was a bombshell to the UK and worldwide run scene.</p><p>The dust has settled and while Ourea Events will not emerge from the ashes, the future of Dragons Back and Northern Traverse has been secured by Ultra-X, and Skyline Scotland will be saved by UTMB. The Cape Wrath Ultra will disappear, but a new event, WRATH (by the SPINE team) will see a non-stop race in 2027.</p><p>I catch up with Shane and discuss what has been a very difficult time.</p>"
+    description_plain: Early in 2026, Shane Ohly made an announcement that Ourea Events would cease trading. With events such as The Dragons Backk Race, Cape Wrath Ultra, Northern Traverse and Skyline Scotland, this news was a bombshell to the UK and worldwide run scene. The dust has settled and while Ourea Events will not emerge from the ashes, the future of Dragons Back and Northern Traverse has been secured by Ultra-X, and Skyline Scotland will be saved by UTMB. The Cape Wrath Ultra will disappear, but a new event, WRATH (by the SPINE team) will see a non-stop race in 2027. I catch up with Shane and discuss what has been a very difficult time.
+    episode_image_url: https://static.libsyn.com/p/assets/2/f/3/2/2f32ebcd23e326d7d959afa2a1bf1c87/A_GRAVATAR-20260723-re0rijc8q7.jpg
+    episode_uid: 477fd18a-2057-48b9-8331-9dff3884ec57
+    episode_slug: episode-255-shane-ohly
+    episode_key: episode-255-shane-ohly
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/talk-ultra/episode-255-shane-ohly/"
   - episode_title: Episode 254 - Amy McCulloch - RUNNER 13
     episode_url: https://talkultra.libsyn.com/episode-254-amy-mcculloch-runner-13
     audio_url: https://traffic.libsyn.com/secure/talkultra/Amy_McCulloch.mp3?dest-id=88544
@@ -9508,7 +9520,7 @@ episodes_by_feed:
     episode_uid: d3ac4eba-07c5-4e61-8879-2b840997a114
     episode_slug: episode-254-amy-mcculloch-runner-13
     episode_key: episode-254-amy-mcculloch-runner-13
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/talk-ultra/episode-254-amy-mcculloch-runner-13/"
   - episode_title: Episode 253 - Lydia Oldham
     episode_url: https://talkultra.libsyn.com/episode-253-lydia-oldham
@@ -9520,7 +9532,7 @@ episodes_by_feed:
     episode_uid: 50989d12-7ab3-4c5c-b84a-fe87b62cae6a
     episode_slug: episode-253-lydia-oldham
     episode_key: episode-253-lydia-oldham
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/talk-ultra/episode-253-lydia-oldham/"
   - episode_title: Episode 252 - Abelone Lyng DNT Massiv Trail (FKT) 'Funnest Known Time'
     episode_url: https://talkultra.libsyn.com/episode-252-abelone-lyng-dnt-massiv-trail-fkt-funnest-known-time
@@ -9532,7 +9544,7 @@ episodes_by_feed:
     episode_uid: b30aff69-c5ac-4d9b-b5fd-5717d4410506
     episode_slug: episode-252-abelone-lyng-dnt-massiv-trail-fkt-funnest-known-time
     episode_key: episode-252-abelone-lyng-dnt-massiv-trail-fkt-funnest-known-time
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/talk-ultra/episode-252-abelone-lyng-dnt-massiv-trail-fkt-funnest-known-time/"
   - episode_title: Episode 251 - Elisabet Barnes and MDS The Legendary 2025
     episode_url: https://talkultra.libsyn.com/episode-251-elisabet-barnes-and-mds-the-legendary-2025
@@ -9544,7 +9556,7 @@ episodes_by_feed:
     episode_uid: 81ea99c6-fea7-4fb9-8586-c4cafc7828e8
     episode_slug: episode-251-elisabet-barnes-and-mds-the-legendary-2025
     episode_key: episode-251-elisabet-barnes-and-mds-the-legendary-2025
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/talk-ultra/episode-251-elisabet-barnes-and-mds-the-legendary-2025/"
   - episode_title: Episode 250  - Cyril Gauthier MDS
     episode_url: https://talkultra.libsyn.com/episode-250-cyril-gauthier-mds
@@ -9556,7 +9568,7 @@ episodes_by_feed:
     episode_uid: 1a575f9a-7218-4aba-8df8-c935284d09c5
     episode_slug: episode-250-cyril-gauthier-mds
     episode_key: episode-250-cyril-gauthier-mds
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/talk-ultra/episode-250-cyril-gauthier-mds/"
   - episode_title: Episode 249 - Kilian Jornet ALPINE CONNECTIONS Special
     episode_url: https://talkultra.libsyn.com/episode-249-kilian-jornet-alpine-connections-special
@@ -9568,7 +9580,7 @@ episodes_by_feed:
     episode_uid: 7098d0b4-9027-4e20-aaf1-e7596ca43be2
     episode_slug: episode-249-kilian-jornet-alpine-connections-special
     episode_key: episode-249-kilian-jornet-alpine-connections-special
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/talk-ultra/episode-249-kilian-jornet-alpine-connections-special/"
   - episode_title: Episode 248 - Liz Ward, MDS Cappadocia
     episode_url: https://talkultra.libsyn.com/episode-248-liz-ward-mds-cappadocia
@@ -9580,7 +9592,7 @@ episodes_by_feed:
     episode_uid: 7367b926-585d-4f4e-b244-e2a294b9d96e
     episode_slug: episode-248-liz-ward-mds-cappadocia
     episode_key: episode-248-liz-ward-mds-cappadocia
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/talk-ultra/episode-248-liz-ward-mds-cappadocia/"
   - episode_title: Episode 247 - MDS The Legendary Feedback
     episode_url: https://talkultra.libsyn.com/episode-247-mds-the-legendary-feedback
@@ -9592,7 +9604,7 @@ episodes_by_feed:
     episode_uid: 0255c462-1818-4855-a6f2-d021001bc7e4
     episode_slug: episode-247-mds-the-legendary-feedback
     episode_key: episode-247-mds-the-legendary-feedback
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/talk-ultra/episode-247-mds-the-legendary-feedback/"
   - episode_title: 'Episode 246 : Nicki Marsh - MDS The Legendary'
     episode_url: https://talkultra.libsyn.com/episode-246-nicki-marsh-mds-the-legendary
@@ -9604,7 +9616,7 @@ episodes_by_feed:
     episode_uid: 9f3dcebe-678d-43bb-8aa5-bcd99981e5ea
     episode_slug: episode-246-nicki-marsh-mds-the-legendary
     episode_key: episode-246-nicki-marsh-mds-the-legendary
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/talk-ultra/episode-246-nicki-marsh-mds-the-legendary/"
   - episode_title: 'Episode 245 - Ferdinand Charriau : Marathon des Sable - The Legendary'
     episode_url: https://talkultra.libsyn.com/episode-245-ferdinand-charriau-marathon-des-sable-the-legendary
@@ -9616,7 +9628,7 @@ episodes_by_feed:
     episode_uid: d51023bb-5ffa-4703-b5be-d883100e2337
     episode_slug: episode-245-ferdinand-charriau-marathon-des-sable-the-legendary
     episode_key: episode-245-ferdinand-charriau-marathon-des-sable-the-legendary
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/talk-ultra/episode-245-ferdinand-charriau-marathon-des-sable-the-legendary/"
   - episode_title: Episode 244 - Alexander Welch MDS - The Legendary
     episode_url: https://talkultra.libsyn.com/episode-244-alexander-welch-mds-the-legendary
@@ -9628,7 +9640,7 @@ episodes_by_feed:
     episode_uid: 9532415e-9b7a-41c2-96b1-662a991e58af
     episode_slug: episode-244-alexander-welch-mds-the-legendary
     episode_key: episode-244-alexander-welch-mds-the-legendary
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/talk-ultra/episode-244-alexander-welch-mds-the-legendary/"
   - episode_title: Episode 243 - Marie-Christine Barnett-Lonergan, MDS Legendary
     episode_url: https://talkultra.libsyn.com/episode-243-marie-christine-barnett-lonergan-mds-legendary
@@ -9640,7 +9652,7 @@ episodes_by_feed:
     episode_uid: b5e60a95-9e5e-474c-95d0-54c1dac93302
     episode_slug: episode-243-marie-christine-barnett-lonergan-mds-legendary
     episode_key: episode-243-marie-christine-barnett-lonergan-mds-legendary
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/talk-ultra/episode-243-marie-christine-barnett-lonergan-mds-legendary/"
   - episode_title: Episode 242 - El Kott Twins and The Coastal Challenge, Costa Rica.
     episode_url: https://talkultra.libsyn.com/episode-242-el-kott-twins-and-the-coastal-challenge-costa-rica
@@ -9652,7 +9664,7 @@ episodes_by_feed:
     episode_uid: 8ce4c6bf-2256-4e08-85f9-e18afebb4baf
     episode_slug: episode-242-el-kott-twins-and-the-coastal-challenge-costa-rica
     episode_key: episode-242-el-kott-twins-and-the-coastal-challenge-costa-rica
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/talk-ultra/episode-242-el-kott-twins-and-the-coastal-challenge-costa-rica/"
   - episode_title: Episode 241  - Natalya Platonova
     episode_url: https://talkultra.libsyn.com/episode-241-natalya-platonova
@@ -9664,7 +9676,7 @@ episodes_by_feed:
     episode_uid: aabb86d4-1c93-4c05-a5c3-ab2eac3de295
     episode_slug: episode-241-natalya-platonova
     episode_key: episode-241-natalya-platonova
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/talk-ultra/episode-241-natalya-platonova/"
   - episode_title: Episode 240 - Eoin Keith and 360 The Challenge
     episode_url: https://talkultra.libsyn.com/episode-240-eoin-keith-and-360-the-challenge
@@ -9676,7 +9688,7 @@ episodes_by_feed:
     episode_uid: dc936d20-4dd3-48dc-92c4-8ceda961ae4a
     episode_slug: episode-240-eoin-keith-and-360-the-challenge
     episode_key: episode-240-eoin-keith-and-360-the-challenge
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/talk-ultra/episode-240-eoin-keith-and-360-the-challenge/"
   - episode_title: Episode 239 - Andy Blow
     episode_url: https://talkultra.libsyn.com/episode-239-andy-blow
@@ -9688,7 +9700,7 @@ episodes_by_feed:
     episode_uid: 4fe3d221-f8bd-4870-99f5-b9698cbbb0cb
     episode_slug: episode-239-andy-blow
     episode_key: episode-239-andy-blow
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/talk-ultra/episode-239-andy-blow/"
   - episode_title: Episode 238 - MDS Special with CYRIL GAUTHIER
     episode_url: https://talkultra.libsyn.com/episode-238-mds-special-with-cyril-gauthier
@@ -9700,7 +9712,7 @@ episodes_by_feed:
     episode_uid: ed6f3edd-13ad-4294-985f-f1ce035a31b5
     episode_slug: episode-238-mds-special-with-cyril-gauthier
     episode_key: episode-238-mds-special-with-cyril-gauthier
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/talk-ultra/episode-238-mds-special-with-cyril-gauthier/"
   - episode_title: Episode 237 - Corina Sommer
     episode_url: https://talkultra.libsyn.com/episode-237-corina-sommer
@@ -9712,7 +9724,7 @@ episodes_by_feed:
     episode_uid: 16220f0e-b017-4dc7-97ea-87ad72c5212b
     episode_slug: episode-237-corina-sommer
     episode_key: episode-237-corina-sommer
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/talk-ultra/episode-237-corina-sommer/"
   - episode_title: Episode 236 - Sabrina Stanley
     episode_url: https://talkultra.libsyn.com/episode-236-sabrina-stanley
@@ -9724,7 +9736,7 @@ episodes_by_feed:
     episode_uid: c5356401-50e4-4459-92a6-42d8f818a68b
     episode_slug: episode-236-sabrina-stanley
     episode_key: episode-236-sabrina-stanley
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/talk-ultra/episode-236-sabrina-stanley/"
   - episode_title: Episode 235 - Katy Young
     episode_url: https://talkultra.libsyn.com/episode-235-katy-young
@@ -9736,7 +9748,7 @@ episodes_by_feed:
     episode_uid: 425ef574-0aec-4bba-8bdb-6285c80d5228
     episode_slug: episode-235-katy-young
     episode_key: episode-235-katy-young
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/talk-ultra/episode-235-katy-young/"
   - episode_title: 'Episode 234 - Jasmin Paris #BM100'
     episode_url: https://talkultra.libsyn.com/episode-234-jasmin-paris-bm100
@@ -9748,7 +9760,7 @@ episodes_by_feed:
     episode_uid: 5fd2feb0-f59e-44a8-8616-3247b2262e62
     episode_slug: episode-234-jasmin-paris-bm100
     episode_key: episode-234-jasmin-paris-bm100
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/talk-ultra/episode-234-jasmin-paris-bm100/"
   - episode_title: Episode 233 - Courtney Dauwalter
     episode_url: https://talkultra.libsyn.com/episode-233-courtney-dauwalter
@@ -9760,7 +9772,7 @@ episodes_by_feed:
     episode_uid: e13013e1-74cf-4924-938a-497bb4361dd0
     episode_slug: episode-233-courtney-dauwalter
     episode_key: episode-233-courtney-dauwalter
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/talk-ultra/episode-233-courtney-dauwalter/"
   - episode_title: Episode 232 - Petter Engdahl Special
     episode_url: https://talkultra.libsyn.com/episode-232-petter-engdahl-special
@@ -9772,7 +9784,7 @@ episodes_by_feed:
     episode_uid: 9600057b-5b3c-422e-bfa5-d8083b32009d
     episode_slug: episode-232-petter-engdahl-special
     episode_key: episode-232-petter-engdahl-special
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/talk-ultra/episode-232-petter-engdahl-special/"
   - episode_title: Episode 231 - Tom Evans and Shane Ohly
     episode_url: https://talkultra.libsyn.com/episode-231-tom-evans-and-shane-ohly
@@ -9784,20 +9796,8 @@ episodes_by_feed:
     episode_uid: 59890b19-bbf9-4209-b36c-a6d5a15d055d
     episode_slug: episode-231-tom-evans-and-shane-ohly
     episode_key: episode-231-tom-evans-and-shane-ohly
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/talk-ultra/episode-231-tom-evans-and-shane-ohly/"
-  - episode_title: Episode 230 – The Chamonix Tapes – Tom Evans
-    episode_url: https://talkultra.libsyn.com/episode-230-the-chamonix-tapes-tom-evans
-    audio_url: https://traffic.libsyn.com/secure/talkultra/Tom_Evans_Podcast.mp3?dest-id=88544
-    published_at: '2022-08-25T18:49:17+00:00'
-    description_html: Welcome to 'The Chamonix Tapes' an inside look at the adidas Terrex Team during the 2022 UTMB. Starting on Sunday August 21st and running through to UTMB 2022, there will be a series of podcast releases for your audio pleasure in 'The Chamonix Tapes.' In episode 5, we speak with Tom Evans who battled a stressful injury and surgery... A process that started 12-months ago. <em>" What can I do, how do I control the controllables...</em><em>Western States is more like a 100km in comparison to UTMB... I can't begin to imagine how many nights I have spent without a head torch... I Can't wait for the night... The night is coming, like it or not!"</em><em>#oneteam</em><em>#unitedbysummits</em>
-    description_plain: 'Welcome to ''The Chamonix Tapes'' an inside look at the adidas Terrex Team during the 2022 UTMB. Starting on Sunday August 21st and running through to UTMB 2022, there will be a series of podcast releases for your audio pleasure in ''The Chamonix Tapes.'' In episode 5, we speak with Tom Evans who battled a stressful injury and surgery... A process that started 12-months ago. " What can I do, how do I control the controllables... Western States is more like a 100km in comparison to UTMB... I can''t begin to imagine how many nights I have spent without a head torch... I Can''t wait for the night... The night is coming, like it or not!" #oneteam #unitedbysummits'
-    episode_image_url: https://static.libsyn.com/p/assets/0/a/c/e/0ace34a936b84d52d959afa2a1bf1c87/Tom_Evans.jpg
-    episode_uid: 4e3dd1f9-f00a-4cd4-9c6a-627ef26bd6ce
-    episode_slug: episode-230-the-chamonix-tapes-tom-evans
-    episode_key: episode-230-the-chamonix-tapes-tom-evans
     legacy_numbered_slug: episode-25
-    episode_page_url: "/talk-ultra/episode-230-the-chamonix-tapes-tom-evans/"
+    episode_page_url: "/talk-ultra/episode-231-tom-evans-and-shane-ohly/"
   https://anchor.fm/s/674e5298/podcast/rss: &31
   - episode_title: "#147 | From Failure to Triple Crown Champion | Kilian Korth on Mental Toughness & Never Quitting"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/147--From-Failure-to-Triple-Crown-Champion--Kilian-Korth-on-Mental-Toughness--Never-Quitting-e3mcsvd
