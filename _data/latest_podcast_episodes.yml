@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-23T15:43:42Z'
+generated_at: '2026-07-23T15:54:29Z'
 items:
+- podcast_title: La Bande à D+
+  podcast_page_url: "/la-bande-a-d/"
+  cover_image: "/media/labandeadplus.jpeg"
+  feed_url: https://feed.ausha.co/egpW5HzzONq3
+  filter_category: trail ultra french
+  episode_title: Pourquoi devriez-vous courir une course de trail à étapes ?
+  episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e20-trail-running-course-a-etapes
+  audio_url: https://audio.ausha.co/B1dRQcEp6wq1.mp3?t=1784817649
+  published_at: '2026-07-23T15:41:59+00:00'
+  episode_key: pourquoi-devriez-vous-courir-une-course-de-trail-a-etapes
+  episode_slug: pourquoi-devriez-vous-courir-une-course-de-trail-a-etapes
+  episode_page_url: "/la-bande-a-d/pourquoi-devriez-vous-courir-une-course-de-trail-a-etapes/"
 - podcast_title: Talk Ultra
   podcast_page_url: "/talk-ultra/"
   cover_image: "/media/talkultrapodcast.jpeg"
@@ -277,18 +289,6 @@ items:
   episode_key: the-tour-de-france-2am-drug-test-controversy-why-pogacar-and-vingegaard-were-woken-to-test-josh-kerr-s-mile-world-record
   episode_slug: the-tour-de-france-2am-drug-test-controversy-why-pogacar-and-vingegaard-were-woken-to-test-josh-kerr-s-mile-world-record
   episode_page_url: "/the-real-science-of-sport/the-tour-de-france-2am-drug-test-controversy-why-pogacar-and-vingegaard-were-woken-to-test-josh-kerr-s-mile-world-record/"
-- podcast_title: La Bande à D+
-  podcast_page_url: "/la-bande-a-d/"
-  cover_image: "/media/labandeadplus.jpeg"
-  feed_url: https://feed.ausha.co/egpW5HzzONq3
-  filter_category: trail ultra french
-  episode_title: 'RÉCAP D+ #57 avec LOUIS THERON, MAHAULD GRANIER et CAPUCINE ARBEZ GINDRE'
-  episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-57-avec-blandine-l-hirondel
-  audio_url: https://audio.ausha.co/BDr8kCxvpG2M.mp3?t=1784550061
-  published_at: '2026-07-20T13:25:17+00:00'
-  episode_key: recap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre
-  episode_slug: recap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre
-  episode_page_url: "/la-bande-a-d/recap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre/"
 - podcast_title: Centurion Running
   podcast_page_url: "/centurion-running/"
   cover_image: "/media/centurionrunningpodast.jpg"
@@ -818,18 +818,6 @@ non_running_items:
   episode_key: we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz
   episode_slug: we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz
   episode_page_url: "/pablo-torre-finds-out/we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz/"
-- podcast_title: Huberman Lab
-  podcast_page_url: "/huberman-lab/"
-  cover_image: "/media/huberman.jpeg"
-  feed_url: https://feeds.megaphone.fm/hubermanlab
-  filter_category: uncategorized english
-  episode_title: 'Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris'
-  episode_url: https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris
-  audio_url: https://traffic.megaphone.fm/SCIM7293799235.mp3
-  published_at: '2026-07-23T08:00:00Z'
-  episode_key: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
-  episode_slug: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
-  episode_page_url: "/huberman-lab/essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris/"
 - podcast_title: My First Million
   podcast_page_url: "/my-first-million/"
   cover_image: "/media/myfirstmillion.jpeg"
@@ -842,6 +830,18 @@ non_running_items:
   episode_key: the-150b-dollar-business-hiding-in-plain-sight
   episode_slug: the-150b-dollar-business-hiding-in-plain-sight
   episode_page_url: "/my-first-million/the-150b-dollar-business-hiding-in-plain-sight/"
+- podcast_title: Huberman Lab
+  podcast_page_url: "/huberman-lab/"
+  cover_image: "/media/huberman.jpeg"
+  feed_url: https://feeds.megaphone.fm/hubermanlab
+  filter_category: uncategorized english
+  episode_title: 'Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris'
+  episode_url: https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris
+  audio_url: https://traffic.megaphone.fm/SCIM7293799235.mp3
+  published_at: '2026-07-23T08:00:00Z'
+  episode_key: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
+  episode_slug: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
+  episode_page_url: "/huberman-lab/essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris/"
 - podcast_title: How I Built This
   podcast_page_url: "/how-i-built-this/"
   cover_image: "/media/howibuiltthis.jpeg"
@@ -878,18 +878,6 @@ non_running_items:
   episode_key: urgent-update-iran-war-expert-70-chance-us-sends-troops-to-iran-this-week-robert-pape
   episode_slug: urgent-update-iran-war-expert-70-chance-us-sends-troops-to-iran-this-week-robert-pape
   episode_page_url: "/the-diary-of-a-ceo/urgent-update-iran-war-expert-70-chance-us-sends-troops-to-iran-this-week-robert-pape/"
-- podcast_title: That Triathlon Show
-  podcast_page_url: "/that-triathlon-show/"
-  cover_image: "/media/thattriathlonshow.jpeg"
-  feed_url: https://feeds.simplecast.com/RxABNZH0
-  filter_category: uncategorized english
-  episode_title: Physiology Over FTP | Robbie Deckard, Pro Triathlete & Coach
-  episode_url: https://scientifictriathlon.com/tts707
-  audio_url: https://injector.simplecastaudio.com/c49b0edd-c4fc-4053-b426-68d0567a8445/episodes/4e06a3d0-f4b7-4eab-9642-0f2c7d05bd5b/audio/128/default.mp3?aid=rss_feed&awCollectionId=c49b0edd-c4fc-4053-b426-68d0567a8445&awEpisodeId=4e06a3d0-f4b7-4eab-9642-0f2c7d05bd5b&feed=RxABNZH0
-  published_at: '2026-07-23T04:00:00+00:00'
-  episode_key: physiology-over-ftp-robbie-deckard-pro-triathlete-coach
-  episode_slug: physiology-over-ftp-robbie-deckard-pro-triathlete-coach
-  episode_page_url: "/that-triathlon-show/physiology-over-ftp-robbie-deckard-pro-triathlete-coach/"
 - podcast_title: P3 Dokumentär
   podcast_page_url: "/p3-dokumentar/"
   cover_image: "/media/p3dokumentar.jpeg"
@@ -902,6 +890,18 @@ non_running_items:
   episode_key: ny-fbi-s-hemliga-spionprogram
   episode_slug: ny-fbi-s-hemliga-spionprogram
   episode_page_url: "/p3-dokumentar/ny-fbi-s-hemliga-spionprogram/"
+- podcast_title: That Triathlon Show
+  podcast_page_url: "/that-triathlon-show/"
+  cover_image: "/media/thattriathlonshow.jpeg"
+  feed_url: https://feeds.simplecast.com/RxABNZH0
+  filter_category: uncategorized english
+  episode_title: Physiology Over FTP | Robbie Deckard, Pro Triathlete & Coach
+  episode_url: https://scientifictriathlon.com/tts707
+  audio_url: https://injector.simplecastaudio.com/c49b0edd-c4fc-4053-b426-68d0567a8445/episodes/4e06a3d0-f4b7-4eab-9642-0f2c7d05bd5b/audio/128/default.mp3?aid=rss_feed&awCollectionId=c49b0edd-c4fc-4053-b426-68d0567a8445&awEpisodeId=4e06a3d0-f4b7-4eab-9642-0f2c7d05bd5b&feed=RxABNZH0
+  published_at: '2026-07-23T04:00:00+00:00'
+  episode_key: physiology-over-ftp-robbie-deckard-pro-triathlete-coach
+  episode_slug: physiology-over-ftp-robbie-deckard-pro-triathlete-coach
+  episode_page_url: "/that-triathlon-show/physiology-over-ftp-robbie-deckard-pro-triathlete-coach/"
 - podcast_title: Forklart
   podcast_page_url: "/forklart/"
   cover_image: "/media/forklart.jpeg"
@@ -10320,18 +10320,6 @@ episodes_by_feed:
     episode_key: heather-jackson-who-you-share-it-with
     legacy_numbered_slug: episode-17
     episode_page_url: "/women-of-distance/heather-jackson-who-you-share-it-with/"
-  - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
-    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
-    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114995288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417422489-44100-2-dd9c8fc289124.mp3
-    published_at: '2026-02-04T11:00:00+00:00'
-    description_html: '<p>Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running!</p><p>On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance.</p><p>You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race.</p><p>Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time.</p><p>After listening to the episode, check out the accompanying playlist created by the elite field, just for you!</p><p><a href="https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&pi=MdlaNcL4Skizo">⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠</a></p><p>In this episode:</p><p>-Anne Flower (&quot;Thunderstruck&quot;, AC/DC)</p><p>-Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren)</p><p>-Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard)</p><p>-Tabor Hemming (&quot;WAP&quot;, Cardi B.)</p><p>-Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit)</p><p>-Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again)</p><p>-Sydney Welch (&quot;Make of it&quot;, Half Alive)</p><p>-Imogen Ainsworth (&quot;Dancer&quot;, IDLES)</p><p>-Deanna Doane (&quot;Lets Go&quot;, Trick Daddy)</p><p>*This project is present by <a href="https://www.soarrunning.com/">⁠Soar Running⁠</a></p><p>SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners.</p><p>Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance.</p><p>Find them at <a href="https://soarrunning.com" rel="noopener noreferrer" target="_blank">soarrunning.com</a></p><p>Women of Distance is also supported by <a href="https://openfuel.co/discount/WOD">⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠</a>!</p><p>Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠<a href="https://openfuel.co/discount/WOD">⁠⁠⁠openfuel.co⁠⁠⁠</a>⁠</p><p>Use code: WOD for 20% off your order, every time!</p><p>We&#39;re kept caffeinated by our friends, and fellow trail runners, at <a href="http://www.summit-roasters.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Use code WOD15 for 15% off your order every time!<a href="http://www.moremilestogo.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us!</p>'
-    description_plain: 'Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running! On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance. You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race. Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time. After listening to the episode, check out the accompanying playlist created by the elite field, just for you! ⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠ In this episode: -Anne Flower (&quot;Thunderstruck&quot;, AC/DC) -Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren) -Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard) -Tabor Hemming (&quot;WAP&quot;, Cardi B.) -Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit) -Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again) -Sydney Welch (&quot;Make of it&quot;, Half Alive) -Imogen Ainsworth (&quot;Dancer&quot;, IDLES) -Deanna Doane (&quot;Lets Go&quot;, Trick Daddy) *This project is present by ⁠Soar Running⁠ SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners. Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance. Find them at soarrunning.com Women of Distance is also supported by ⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠ ! Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠ ⁠⁠⁠openfuel.co⁠⁠⁠ ⁠ Use code: WOD for 20% off your order, every time! We&#39;re kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time! ⁠⁠⁠⁠⁠⁠⁠⁠⁠ We&#39;d love to see Women of Distance listeners supporting those, supporting us!'
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
-    episode_uid: 4ad8d31f-f80a-4cbd-81c4-79fe59a8e62f
-    episode_slug: black-canyon-100k-women-s-elite-field-preview-first-timers
-    episode_key: black-canyon-100k-women-s-elite-field-preview-first-timers
-    legacy_numbered_slug: episode-18
-    episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-first-timers/"
   - episode_title: Black Canyon 100k - Women's Elite Field Preview (Veterans)
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-Veterans-e3ejrvi
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114994610/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417421607-44100-2-3603d426ce53.mp3
@@ -10342,8 +10330,20 @@ episodes_by_feed:
     episode_uid: 50695b07-0b12-4f7a-a686-5028c56ac734
     episode_slug: black-canyon-100k-women-s-elite-field-preview-veterans
     episode_key: black-canyon-100k-women-s-elite-field-preview-veterans
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-18
     episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-veterans/"
+  - episode_title: Black Canyon 100k - Women's Elite Field Preview (First-Timers)
+    episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Black-Canyon-100k---Womens-Elite-Field-Preview-First-Timers-e3ejsko
+    audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114995288/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-4%2F417422489-44100-2-dd9c8fc289124.mp3
+    published_at: '2026-02-04T11:00:00+00:00'
+    description_html: '<p>Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running!</p><p>On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance.</p><p>You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race.</p><p>Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time.</p><p>After listening to the episode, check out the accompanying playlist created by the elite field, just for you!</p><p><a href="https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&pi=MdlaNcL4Skizo">⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠</a></p><p>In this episode:</p><p>-Anne Flower (&quot;Thunderstruck&quot;, AC/DC)</p><p>-Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren)</p><p>-Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard)</p><p>-Tabor Hemming (&quot;WAP&quot;, Cardi B.)</p><p>-Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit)</p><p>-Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again)</p><p>-Sydney Welch (&quot;Make of it&quot;, Half Alive)</p><p>-Imogen Ainsworth (&quot;Dancer&quot;, IDLES)</p><p>-Deanna Doane (&quot;Lets Go&quot;, Trick Daddy)</p><p>*This project is present by <a href="https://www.soarrunning.com/">⁠Soar Running⁠</a></p><p>SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners.</p><p>Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance.</p><p>Find them at <a href="https://soarrunning.com" rel="noopener noreferrer" target="_blank">soarrunning.com</a></p><p>Women of Distance is also supported by <a href="https://openfuel.co/discount/WOD">⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠</a>!</p><p>Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠<a href="https://openfuel.co/discount/WOD">⁠⁠⁠openfuel.co⁠⁠⁠</a>⁠</p><p>Use code: WOD for 20% off your order, every time!</p><p>We&#39;re kept caffeinated by our friends, and fellow trail runners, at <a href="http://www.summit-roasters.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>Use code WOD15 for 15% off your order every time!<a href="http://www.moremilestogo.com/">⁠⁠⁠⁠⁠⁠⁠⁠⁠</a></p><p>We&#39;d love to see Women of Distance listeners supporting those, supporting us!</p>'
+    description_plain: 'Welcome to The Black Canyon 100k Women&#39;s Elite Field Preview - presented by SOAR Running! On Women of Distance, our race previews are different: You&#39;ll hear from a deep field of athletes including those you may already recognize, those you may not - but should, and even familiar faces who are new to this race or distance. You won&#39;t hear outside opinions, analysis, or predictions - but rather directly from each athlete: their own words, thoughts, feelings, and goals heading into the February 14th race. Because of the depth, we&#39;ve split this preview into two separate episodes. This one features the athletes coming to the Black Canyon 100k and/or the 100k distance for the first time. After listening to the episode, check out the accompanying playlist created by the elite field, just for you! ⁠https://open.spotify.com/playlist/6Wqfum2986zufkHMJLOByZ?si=_8Oc1RYRSBSg5wVRe2jb7w&amp;pi=MdlaNcL4Skizo⁠ In this episode: -Anne Flower (&quot;Thunderstruck&quot;, AC/DC) -Jennifer Lichter (&quot;Seventeen&quot;, Sjowgren) -Caitriona Jennings (&quot;Oats in the Water&quot;, Ben Howard) -Tabor Hemming (&quot;WAP&quot;, Cardi B.) -Sofie Schunk (&quot;Take a Look Around&quot;, Limp Bizkit) -Ellaney Matarese (&quot;Victory Lap&quot;, Fred Again) -Sydney Welch (&quot;Make of it&quot;, Half Alive) -Imogen Ainsworth (&quot;Dancer&quot;, IDLES) -Deanna Doane (&quot;Lets Go&quot;, Trick Daddy) *This project is present by ⁠Soar Running⁠ SOAR design and produce running apparel that does justice to the commitment and passion of runners globally. Encompassing textile innovation, pioneering design technology, sports science and the real-world experiences of runners. Their collections are designed specifically for running, for high performance racing, and also for off-road adventure and endurance. Find them at soarrunning.com Women of Distance is also supported by ⁠⁠⁠⁠Open Fuel⁠⁠⁠⁠ ! Fueling your needs, for your adventure - check out their Ultra Fuel (60g carbs, 500mg sodium) at ⁠ ⁠⁠⁠openfuel.co⁠⁠⁠ ⁠ Use code: WOD for 20% off your order, every time! We&#39;re kept caffeinated by our friends, and fellow trail runners, at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠www.summit-roasters.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Use code WOD15 for 15% off your order every time! ⁠⁠⁠⁠⁠⁠⁠⁠⁠ We&#39;d love to see Women of Distance listeners supporting those, supporting us!'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39327075/39327075-1767219159182-e8a53a7ae263.jpg
+    episode_uid: 4ad8d31f-f80a-4cbd-81c4-79fe59a8e62f
+    episode_slug: black-canyon-100k-women-s-elite-field-preview-first-timers
+    episode_key: black-canyon-100k-women-s-elite-field-preview-first-timers
+    legacy_numbered_slug: episode-19
+    episode_page_url: "/women-of-distance/black-canyon-100k-women-s-elite-field-preview-first-timers/"
   - episode_title: Tina Muir - Do The Next Right Thing
     episode_url: https://podcasters.spotify.com/pod/show/womenofdistance/episodes/Tina-Muir---Do-The-Next-Right-Thing-e3dr6th
     audio_url: https://anchor.fm/s/eb00f12c/podcast/play/114186609/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-0-18%2F416359956-44100-2-4188f6563f067.mp3
@@ -28434,6 +28434,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/pivot/whcd-shooting-aftermath-musk-and-altman-face-off-spirit-airlines-bailout/"
   https://feed.ausha.co/egpw5hzzonq3: &94
+  - episode_title: Pourquoi devriez-vous courir une course de trail à étapes ?
+    episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e20-trail-running-course-a-etapes
+    audio_url: https://audio.ausha.co/B1dRQcEp6wq1.mp3?t=1784817649
+    published_at: '2026-07-23T15:41:59+00:00'
+    description_html: "<p>Voici le sommaire du 20e épisode de la saison 5 du talk-show du trail et de l’ultra-trail, présenté par <b>Franck Berteau</b> de Distances+, consacré aux courses de trail à étapes.</p><p>À noter qu’il s’agit de la 100e émission régulière du podcast, qui a récemment dépassé la barre des 3 millions d’auditeurs !</p><p>Qu’est-ce que les épreuves sur plusieurs jours ont-elles de plus que les compétitions d’une traite ? Pourquoi celles et ceux qui aspirent à courir des ultra-trails, ou à gagner en expérience sur les longues distances, ont-ils intérêt à se pencher sur les courses à étapes ?</p><p>Pour répondre à ces questions, et à bien d’autres, La Bande à D+ reçoit <b>Laurent Sabot</b>, cofondateur de l’association Les 2 Alpes Trail, qui organise deux courses à étapes estivales : le Défi de la Muzelle en juillet, avec deux formats en quatre étapes (un 50 km et un 100 km), et le Tour des 6 Vallées de l’Oisans sur une semaine, en août.</p><p>Les membres de La Bande à D+ à retrouver également dans cet épisode :</p><p>\U0001F449 <b>Sylvaine Cussot</b>, 2e du Marathon des Sables en 2022 et vainqueure du Half Marathon des Sables en Jordanie en 2024</p><p>\U0001F449 <b>Ugo Ferrari</b>, adepte des courses à étapes à vélo</p><p>\U0001F449 <b>Florence Morisseau</b>, grande amatrice de ces aventures multijours</p><p>Également au programme :</p><p>\U0001F449 La rubrique « Off et aventure », présentée par Wise, avec <b>Amandine Decorne</b>, participante et finisseuse de la dernière édition du Coastal Challenge, au Costa Rica, l’une des courses à étapes les plus redoutables au monde.</p><p>\U0001F449 La chronique nutrition avec l’athlète et diététicienne-nutritionniste <b>Manon Bohard</b>, présentée par Näak.</p><p>\U0001F449 Le Sortez le pop-corn, avec une recommandation vidéo de notre journaliste <b>Chloé Rebaudo</b>.</p><p>\U0001F310 Liens utiles :</p><p>\U0001F449 Extra D+, la newsletter gratuite de Distances+ : <a href=\"https://extradistancesplus.kessel.media/\">https://extradistancesplus.kessel.media/</a></p><p>\U0001F449 Le film de Sam Laidlow, Head Above Water : <a href=\"https://www.youtube.com/watch?v=5i4LxtYFFyk&amp;t=1235s\">https://www.youtube.com/watch?v=5i4LxtYFFyk&amp;t=1235s</a></p><p>LES PARTENAIRES OFFICIELS DE LA BANDE À D+</p><p>\U0001F449 Näak, nutrition sportive / –15 % sur commande avec le NOUVEAU code DPLUS</p><p>\U0001F449 Miles Republic, agenda et plateforme d’inscriptions : <a href=\"http://milesrepublic.com\">milesrepublic.com</a></p><p>\U0001F449 RunMotion Coach, application d’entraînement personnalisé / 10 % de rabais sur tous les abonnements en cliquant sur ce lien : <a href=\"https://go.run-motion.com/?coupon_code=DPLUS10\">https://go.run-motion.com/?coupon_code=DPLUS10</a></p><p>\U0001F449 Wise, vêtements techniques premium : <a href=\"http://wiseultrarunning.com\">wiseultrarunning.com</a></p><p>Hébergé par Ausha. Visitez <a href=\"https://ausha.co/politique-de-confidentialite\">ausha.co/politique-de-confidentialite</a> pour plus d'informations.</p>"
+    description_plain: "Voici le sommaire du 20e épisode de la saison 5 du talk-show du trail et de l’ultra-trail, présenté par Franck Berteau de Distances+, consacré aux courses de trail à étapes. À noter qu’il s’agit de la 100e émission régulière du podcast, qui a récemment dépassé la barre des 3 millions d’auditeurs ! Qu’est-ce que les épreuves sur plusieurs jours ont-elles de plus que les compétitions d’une traite ? Pourquoi celles et ceux qui aspirent à courir des ultra-trails, ou à gagner en expérience sur les longues distances, ont-ils intérêt à se pencher sur les courses à étapes ? Pour répondre à ces questions, et à bien d’autres, La Bande à D+ reçoit Laurent Sabot , cofondateur de l’association Les 2 Alpes Trail, qui organise deux courses à étapes estivales : le Défi de la Muzelle en juillet, avec deux formats en quatre étapes (un 50 km et un 100 km), et le Tour des 6 Vallées de l’Oisans sur une semaine, en août. Les membres de La Bande à D+ à retrouver également dans cet épisode : \U0001F449 Sylvaine Cussot , 2e du Marathon des Sables en 2022 et vainqueure du Half Marathon des Sables en Jordanie en 2024 \U0001F449 Ugo Ferrari , adepte des courses à étapes à vélo \U0001F449 Florence Morisseau , grande amatrice de ces aventures multijours Également au programme : \U0001F449 La rubrique « Off et aventure », présentée par Wise, avec Amandine Decorne , participante et finisseuse de la dernière édition du Coastal Challenge, au Costa Rica, l’une des courses à étapes les plus redoutables au monde. \U0001F449 La chronique nutrition avec l’athlète et diététicienne-nutritionniste Manon Bohard , présentée par Näak. \U0001F449 Le Sortez le pop-corn, avec une recommandation vidéo de notre journaliste Chloé Rebaudo . \U0001F310 Liens utiles : \U0001F449 Extra D+, la newsletter gratuite de Distances+ : https://extradistancesplus.kessel.media/ \U0001F449 Le film de Sam Laidlow, Head Above Water : https://www.youtube.com/watch?v=5i4LxtYFFyk&amp;t=1235s LES PARTENAIRES OFFICIELS DE LA BANDE À D+ \U0001F449 Näak, nutrition sportive / –15 % sur commande avec le NOUVEAU code DPLUS \U0001F449 Miles Republic, agenda et plateforme d’inscriptions : milesrepublic.com \U0001F449 RunMotion Coach, application d’entraînement personnalisé / 10 % de rabais sur tous les abonnements en cliquant sur ce lien : https://go.run-motion.com/?coupon_code=DPLUS10 \U0001F449 Wise, vêtements techniques premium : wiseultrarunning.com Hébergé par Ausha. Visitez ausha.co/politique-de-confidentialite pour plus d'informations."
+    episode_image_url: https://image.ausha.co/tfwg5claQR66gUXC3VxtGNiDSIak9UrwPc9N5pSl_1400x1400.jpeg?t=1784819495
+    episode_uid: cc6c0acaf73626604b8b074c378e224cb150ec91
+    episode_slug: pourquoi-devriez-vous-courir-une-course-de-trail-a-etapes
+    episode_key: pourquoi-devriez-vous-courir-une-course-de-trail-a-etapes
+    legacy_unicode_slug: pourquoi-devriez-vous-courir-une-course-de-trail-à-étapes
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/la-bande-a-d/pourquoi-devriez-vous-courir-une-course-de-trail-a-etapes/"
   - episode_title: 'RÉCAP D+ #57 avec LOUIS THERON, MAHAULD GRANIER et CAPUCINE ARBEZ GINDRE'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-57-avec-blandine-l-hirondel
     audio_url: https://audio.ausha.co/BDr8kCxvpG2M.mp3?t=1784550061
@@ -28445,7 +28458,7 @@ episodes_by_feed:
     episode_slug: recap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre
     episode_key: recap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre
     legacy_unicode_slug: récap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/la-bande-a-d/recap-d-57-avec-louis-theron-mahauld-granier-et-capucine-arbez-gindre/"
   - episode_title: La VO2max est-elle vraiment utile pour les traileurs ?
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e19-vo2max
@@ -28457,7 +28470,7 @@ episodes_by_feed:
     episode_uid: bff03bbe2fec1e3fb2c86815ead798432645d266
     episode_slug: la-vo2max-est-elle-vraiment-utile-pour-les-traileurs
     episode_key: la-vo2max-est-elle-vraiment-utile-pour-les-traileurs
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/la-bande-a-d/la-vo2max-est-elle-vraiment-utile-pour-les-traileurs/"
     youtube_video_id: CFBKk5ymhWY
   - episode_title: 'RÉCAP D+ #56 avec LUDOVIC POMMERET, COURTNEY DAUWALTER et MANON BOHARD'
@@ -28471,7 +28484,7 @@ episodes_by_feed:
     episode_slug: recap-d-56-avec-ludovic-pommeret-courtney-dauwalter-et-manon-bohard
     episode_key: recap-d-56-avec-ludovic-pommeret-courtney-dauwalter-et-manon-bohard
     legacy_unicode_slug: récap-d-56-avec-ludovic-pommeret-courtney-dauwalter-et-manon-bohard
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/la-bande-a-d/recap-d-56-avec-ludovic-pommeret-courtney-dauwalter-et-manon-bohard/"
   - episode_title: 'GR20, Western States : deux mythes du trail'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e18-98-trail-gr20-western-states
@@ -28483,7 +28496,7 @@ episodes_by_feed:
     episode_uid: 0b411b1b55e5c7222c16ff2ce338d18814b968ac
     episode_slug: gr20-western-states-deux-mythes-du-trail
     episode_key: gr20-western-states-deux-mythes-du-trail
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/la-bande-a-d/gr20-western-states-deux-mythes-du-trail/"
   - episode_title: 'RÉCAP D+ #55 avec MARIE NIVET, GAUTIER BONNECARRÈRE, ADRIEN JACQUES et ALEXANDRA CASSAN-FERRIER'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-55-marie-nivet-gautier-bonnecarrere-adrien-jacques-alexandra-cassan-ferrier
@@ -28496,7 +28509,7 @@ episodes_by_feed:
     episode_slug: recap-d-55-avec-marie-nivet-gautier-bonnecarrere-adrien-jacques-et-alexandra-cassan-ferrier
     episode_key: recap-d-55-avec-marie-nivet-gautier-bonnecarrere-adrien-jacques-et-alexandra-cassan-ferrier
     legacy_unicode_slug: récap-d-55-avec-marie-nivet-gautier-bonnecarrère-adrien-jacques-et-alexandra-cassan-ferrier
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/la-bande-a-d/recap-d-55-avec-marie-nivet-gautier-bonnecarrere-adrien-jacques-et-alexandra-cassan-ferrier/"
   - episode_title: Grand Debrief du Big Week-end de trail (Western States, 90 km du Mont-Blanc, Marathon du Mont-Blanc...)
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e17-97-grand-debrief-western-states-90-km-du-mont-blanc-marathon-du-mont-blanc
@@ -28508,7 +28521,7 @@ episodes_by_feed:
     episode_uid: 65c09b31d8cd1948280a107faa71546f8c28bc37
     episode_slug: grand-debrief-du-big-week-end-de-trail-western-states-90-km-du-mont-blanc-marathon-du-mont-blanc
     episode_key: grand-debrief-du-big-week-end-de-trail-western-states-90-km-du-mont-blanc-marathon-du-mont-blanc
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/la-bande-a-d/grand-debrief-du-big-week-end-de-trail-western-states-90-km-du-mont-blanc-marathon-du-mont-blanc/"
   - episode_title: 'RÉCAP D+ #54 avec VINCENT BOUILLARD, MARIANNE HOGAN, THOMAS CARDIN, LOUISON COIFFET et CANDICE FERTIN'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-54-vincent-bouillard-marianne-hogan-louison-coiffet-candice-fertin
@@ -28521,7 +28534,7 @@ episodes_by_feed:
     episode_slug: recap-d-54-avec-vincent-bouillard-marianne-hogan-thomas-cardin-louison-coiffet-et-candice-fertin
     episode_key: recap-d-54-avec-vincent-bouillard-marianne-hogan-thomas-cardin-louison-coiffet-et-candice-fertin
     legacy_unicode_slug: récap-d-54-avec-vincent-bouillard-marianne-hogan-thomas-cardin-louison-coiffet-et-candice-fertin
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/la-bande-a-d/recap-d-54-avec-vincent-bouillard-marianne-hogan-thomas-cardin-louison-coiffet-et-candice-fertin/"
   - episode_title: 'RÉCAP D+ #53 avec SIMON GOSSELIN et JEAN-FRANÇOIS TAPP du GASPESIA 100'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-22-06-2026-simon-gosselin-jean-francois-tapp-gaspesia-100
@@ -28534,7 +28547,7 @@ episodes_by_feed:
     episode_slug: recap-d-53-avec-simon-gosselin-et-jean-francois-tapp-du-gaspesia-100
     episode_key: recap-d-53-avec-simon-gosselin-et-jean-francois-tapp-du-gaspesia-100
     legacy_unicode_slug: récap-d-53-avec-simon-gosselin-et-jean-françois-tapp-du-gaspesia-100
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/la-bande-a-d/recap-d-53-avec-simon-gosselin-et-jean-francois-tapp-du-gaspesia-100/"
   - episode_title: REGARDONS-NOUS DANS LE MIROIR !
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e15-95-regardons-nous-dans-le-miroir-alexis-berg-frederic-berg
@@ -28546,7 +28559,7 @@ episodes_by_feed:
     episode_uid: 77664fedb6aaff8f2d750925ec6e81c6f6f440fc
     episode_slug: regardons-nous-dans-le-miroir
     episode_key: regardons-nous-dans-le-miroir
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/la-bande-a-d/regardons-nous-dans-le-miroir/"
   - episode_title: 'RÉCAP D+ #52 avec ANAÏS DACHET et SAMUEL PONCE'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-52-15-06-2026-anais-dachet-samuel-ponce
@@ -28559,7 +28572,7 @@ episodes_by_feed:
     episode_slug: recap-d-52-avec-anais-dachet-et-samuel-ponce
     episode_key: recap-d-52-avec-anais-dachet-et-samuel-ponce
     legacy_unicode_slug: récap-d-52-avec-anaïs-dachet-et-samuel-ponce
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/la-bande-a-d/recap-d-52-avec-anais-dachet-et-samuel-ponce/"
   - episode_title: 'GRAND DEBRIEF DES CHAMPIONNATS D''EUROPE : Moisson de médailles pour l''équipe de France de trail et de course en montagne'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e14-94-debrief-championnats-europe-trail-equipe-de-france
@@ -28572,7 +28585,7 @@ episodes_by_feed:
     episode_slug: grand-debrief-des-championnats-d-europe-moisson-de-medailles-pour-l-equipe-de-france-de-trail-et-de-course-en-montagne
     episode_key: grand-debrief-des-championnats-d-europe-moisson-de-medailles-pour-l-equipe-de-france-de-trail-et-de-course-en-montagne
     legacy_unicode_slug: grand-debrief-des-championnats-d-europe-moisson-de-médailles-pour-l-équipe-de-france-de-trail-et-de-course-en-montagne
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/la-bande-a-d/grand-debrief-des-championnats-d-europe-moisson-de-medailles-pour-l-equipe-de-france-de-trail-et-de-course-en-montagne/"
   - episode_title: RÉCAP D+ 51 avec FRED TRANCHAND, NÉLIE CLÉMENT, AUDREY TANGUY, ANTOINE CHARVOLIN et YANNICK MEMHELD
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/08-06-2026-tranchand-nelie-clement-audrey-tanguy-charvolin-memheld
@@ -28585,7 +28598,7 @@ episodes_by_feed:
     episode_slug: recap-d-51-avec-fred-tranchand-nelie-clement-audrey-tanguy-antoine-charvolin-et-yannick-memheld
     episode_key: recap-d-51-avec-fred-tranchand-nelie-clement-audrey-tanguy-antoine-charvolin-et-yannick-memheld
     legacy_unicode_slug: récap-d-51-avec-fred-tranchand-nélie-clément-audrey-tanguy-antoine-charvolin-et-yannick-memheld
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/la-bande-a-d/recap-d-51-avec-fred-tranchand-nelie-clement-audrey-tanguy-antoine-charvolin-et-yannick-memheld/"
   - episode_title: À QUOI RESSEMBLERAIT LE TRAILEUR IMBATTABLE ?
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/93-s5-e13-traileur-ultime
@@ -28598,7 +28611,7 @@ episodes_by_feed:
     episode_slug: a-quoi-ressemblerait-le-traileur-imbattable
     episode_key: a-quoi-ressemblerait-le-traileur-imbattable
     legacy_unicode_slug: à-quoi-ressemblerait-le-traileur-imbattable
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/la-bande-a-d/a-quoi-ressemblerait-le-traileur-imbattable/"
   - episode_title: Pourquoi faut-il vivre cet événement trail au moins une fois dans sa vie ?
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e12-92-lozere-trail
@@ -28611,7 +28624,7 @@ episodes_by_feed:
     episode_slug: pourquoi-faut-il-vivre-cet-evenement-trail-au-moins-une-fois-dans-sa-vie
     episode_key: pourquoi-faut-il-vivre-cet-evenement-trail-au-moins-une-fois-dans-sa-vie
     legacy_unicode_slug: pourquoi-faut-il-vivre-cet-événement-trail-au-moins-une-fois-dans-sa-vie
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/la-bande-a-d/pourquoi-faut-il-vivre-cet-evenement-trail-au-moins-une-fois-dans-sa-vie/"
   - episode_title: 'RÉCAP D+ #50 avec HUGO DECK, TONI MCCANN, SIMON PACCARD et RUTH CROFT'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-50-avec-hugo-deck-toni-mccann-simon-paccard-et-ruth-croft
@@ -28624,7 +28637,7 @@ episodes_by_feed:
     episode_slug: recap-d-50-avec-hugo-deck-toni-mccann-simon-paccard-et-ruth-croft
     episode_key: recap-d-50-avec-hugo-deck-toni-mccann-simon-paccard-et-ruth-croft
     legacy_unicode_slug: récap-d-50-avec-hugo-deck-toni-mccann-simon-paccard-et-ruth-croft
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/la-bande-a-d/recap-d-50-avec-hugo-deck-toni-mccann-simon-paccard-et-ruth-croft/"
   - episode_title: 'RÉCAP D+ #49 avec MATTHIS GRANET, EVA DELAFOSSE et BAPTISTE MASSOT'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-49-matthis-granet-eva-delafosse-baptiste-massot
@@ -28637,7 +28650,7 @@ episodes_by_feed:
     episode_slug: recap-d-49-avec-matthis-granet-eva-delafosse-et-baptiste-massot
     episode_key: recap-d-49-avec-matthis-granet-eva-delafosse-et-baptiste-massot
     legacy_unicode_slug: récap-d-49-avec-matthis-granet-eva-delafosse-et-baptiste-massot
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/la-bande-a-d/recap-d-49-avec-matthis-granet-eva-delafosse-et-baptiste-massot/"
   - episode_title: Raconter le trail autrement qu'en 30 secondes, avec Frédéric et Alexis Berg de la revue Grand Trail
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e11-91-raconter-le-trail-revue-grand-trail
@@ -28650,7 +28663,7 @@ episodes_by_feed:
     episode_slug: raconter-le-trail-autrement-qu-en-30-secondes-avec-frederic-et-alexis-berg-de-la-revue-grand-trail
     episode_key: raconter-le-trail-autrement-qu-en-30-secondes-avec-frederic-et-alexis-berg-de-la-revue-grand-trail
     legacy_unicode_slug: raconter-le-trail-autrement-qu-en-30-secondes-avec-frédéric-et-alexis-berg-de-la-revue-grand-trail
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/la-bande-a-d/raconter-le-trail-autrement-qu-en-30-secondes-avec-frederic-et-alexis-berg-de-la-revue-grand-trail/"
   - episode_title: 'RÉCAP D+ #48 avec ELHOUSINE ELAZZAOUI, LUCILLE GERMAIN, BENJAMIN ROUBIOL, MANON BOHARD ET LOUIS CALAIS'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-48-17-05-2026
@@ -28663,7 +28676,7 @@ episodes_by_feed:
     episode_slug: recap-d-48-avec-elhousine-elazzaoui-lucille-germain-benjamin-roubiol-manon-bohard-et-louis-calais
     episode_key: recap-d-48-avec-elhousine-elazzaoui-lucille-germain-benjamin-roubiol-manon-bohard-et-louis-calais
     legacy_unicode_slug: récap-d-48-avec-elhousine-elazzaoui-lucille-germain-benjamin-roubiol-manon-bohard-et-louis-calais
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/la-bande-a-d/recap-d-48-avec-elhousine-elazzaoui-lucille-germain-benjamin-roubiol-manon-bohard-et-louis-calais/"
   - episode_title: 'TRANSVULCANIA : POURQUOI LES CHRONOS ONT ÉTÉ FRACASSÉS ?'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e10-90-debrief-transvulcania-record-blandine-lhirondel
@@ -28676,7 +28689,7 @@ episodes_by_feed:
     episode_slug: transvulcania-pourquoi-les-chronos-ont-ete-fracasses
     episode_key: transvulcania-pourquoi-les-chronos-ont-ete-fracasses
     legacy_unicode_slug: transvulcania-pourquoi-les-chronos-ont-été-fracassés
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/la-bande-a-d/transvulcania-pourquoi-les-chronos-ont-ete-fracasses/"
   - episode_title: 'RÉCAP D+ #47 avec BLANDINE L''HIRONDEL, DAMIEN HUMBERT, ANTHONY FELBER et CHARLOTTE ALLAIN'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-11-05-2026-lhirondel-humbert-felber-allain
@@ -28689,7 +28702,7 @@ episodes_by_feed:
     episode_slug: recap-d-47-avec-blandine-l-hirondel-damien-humbert-anthony-felber-et-charlotte-allain
     episode_key: recap-d-47-avec-blandine-l-hirondel-damien-humbert-anthony-felber-et-charlotte-allain
     legacy_unicode_slug: récap-d-47-avec-blandine-l-hirondel-damien-humbert-anthony-felber-et-charlotte-allain
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/la-bande-a-d/recap-d-47-avec-blandine-l-hirondel-damien-humbert-anthony-felber-et-charlotte-allain/"
   - episode_title: 'UTMB : les dessous du nouvel index et des évolutions du plus grand circuit de trail au monde'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e9-89-index-utmb-world-series-ce-qui-change
@@ -28702,7 +28715,7 @@ episodes_by_feed:
     episode_slug: utmb-les-dessous-du-nouvel-index-et-des-evolutions-du-plus-grand-circuit-de-trail-au-monde
     episode_key: utmb-les-dessous-du-nouvel-index-et-des-evolutions-du-plus-grand-circuit-de-trail-au-monde
     legacy_unicode_slug: utmb-les-dessous-du-nouvel-index-et-des-évolutions-du-plus-grand-circuit-de-trail-au-monde
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/la-bande-a-d/utmb-les-dessous-du-nouvel-index-et-des-evolutions-du-plus-grand-circuit-de-trail-au-monde/"
   - episode_title: 'RÉCAP D+ #46 avec NÉLIE CLÉMENT, ROMAIN DISCHER, FRED TRANCHAND, LUCIEN MERMILLION, EVA DELAFOSSE et THIBAULT ATHANÉ'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-04-05-2026
@@ -28715,7 +28728,7 @@ episodes_by_feed:
     episode_slug: recap-d-46-avec-nelie-clement-romain-discher-fred-tranchand-lucien-mermillion-eva-delafosse-et-thibault-athane
     episode_key: recap-d-46-avec-nelie-clement-romain-discher-fred-tranchand-lucien-mermillion-eva-delafosse-et-thibault-athane
     legacy_unicode_slug: récap-d-46-avec-nélie-clément-romain-discher-fred-tranchand-lucien-mermillion-eva-delafosse-et-thibault-athané
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/la-bande-a-d/recap-d-46-avec-nelie-clement-romain-discher-fred-tranchand-lucien-mermillion-eva-delafosse-et-thibault-athane/"
   - episode_title: DOCU-REPORTAGE sur le MDS LEGENDARY et GRAND CONCOURS LA BANDE À D+
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/hs-concours-docu-reportage-mds-legendary
@@ -28728,7 +28741,7 @@ episodes_by_feed:
     episode_slug: docu-reportage-sur-le-mds-legendary-et-grand-concours-la-bande-a-d
     episode_key: docu-reportage-sur-le-mds-legendary-et-grand-concours-la-bande-a-d
     legacy_unicode_slug: docu-reportage-sur-le-mds-legendary-et-grand-concours-la-bande-à-d
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/la-bande-a-d/docu-reportage-sur-le-mds-legendary-et-grand-concours-la-bande-a-d/"
   - episode_title: 'RÉCAP D+ #45 avec Camille BRUYAS, Baptiste CHASSAGNE, Vincent ESMIOL, Candice FERTIN, Michel POLETTI et Fred TRANCHAND'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-27-04-2026-bruyas-chassagne-esmiol-fertin-poletti-tranchand
@@ -28741,20 +28754,8 @@ episodes_by_feed:
     episode_slug: recap-d-45-avec-camille-bruyas-baptiste-chassagne-vincent-esmiol-candice-fertin-michel-poletti-et-fred-tranchand
     episode_key: recap-d-45-avec-camille-bruyas-baptiste-chassagne-vincent-esmiol-candice-fertin-michel-poletti-et-fred-tranchand
     legacy_unicode_slug: récap-d-45-avec-camille-bruyas-baptiste-chassagne-vincent-esmiol-candice-fertin-michel-poletti-et-fred-tranchand
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/la-bande-a-d/recap-d-45-avec-camille-bruyas-baptiste-chassagne-vincent-esmiol-candice-fertin-michel-poletti-et-fred-tranchand/"
-  - episode_title: SOMMES-NOUS TOUS CAPABLES DE COURIR UN ULTRA-TRAIL OU UN MARATHON ?
-    episode_url: https://podcast.ausha.co/la-bande-a-d-plus/s5-e8-88-marathon-pour-tous-courir-ultra-trail
-    audio_url: https://audio.ausha.co/BQ0MWFYJGem8.mp3?t=1776952143
-    published_at: '2026-04-23T16:07:52+00:00'
-    description_html: "<p>\U0001F449GRAND DÉBAT avec <b>Sylvaine Cussot</b>, <b>Sabine Ehrström</b>, <b>Ludo Collet</b> et <b>Anthony Costa</b>, dans le cadre du 8e épisode de la saison 5 (#88) du <b>talk-show du trail</b>, animé par <b>Nicolas Fréret</b> du média d’information Distances+.</p><p>Également au sommaire :</p><p>\U0001F449 Le conseil nutrition de <b>Manon Bohard</b>, présenté par Näak : Doit-on faire attention à son poids quand on court pour être performant ?</p><p>\U0001F449  La rubrique <b>off et aventure</b>, présentée par Wise, avec <b>Fleury Roux</b> et <b>Pierre Martinez.</b> Avec un troisième ami orienteur, ilsont traversé la France d’est en ouest, entre l’Alsace et la Bretagne, soit 1150 km et 12 600 m D+ en 7 jours, sans GPS, à pied, en vélo et parfois même en kayak.</p><p>\U0001F449 <b>Sortez le popcorn !</b> La rédaction de Distances+, par la voix de <b>Franck Berteau</b>, vous recommande le premier épisode d’une série de vidéos sur l’Américain des Pyrénées <b>Ben Dhiman</b>, qui ambitionne de remporter l’UTMB.</p><p>\U0001F310 Liens utiles :</p><p>\U0001F449 Extra D+, la newsletter gratuite de Distances+ : <a href=\"https://extradistancesplus.kessel.media/\">https://extradistancesplus.kessel.media/</a></p><p>LES PARTENAIRES OFFICIELS DE LA BANDE À D+</p><p>\U0001F449 Näak, nutrition sportive / –15 % à la première commande avec le <a href=\"http://naak.com/\">code LBAD+</a></p><p>\U0001F449 Miles Republic, agenda et plateforme d’inscriptions : <a href=\"http://milesrepublic.com\">milesrepublic.com</a></p><p>\U0001F449 RunMotion Coach, application d’entraînement personnalisé / 10 euros de rabais sur les 6 ou 12 mois d’abonnement avec le code DPLUS10 \U0001F449 <a href=\"https://go.run-motion.com/?coupon_code=DPLUS10\"><u>https://go.run-motion.com/?coupon_code=DPLUS10</u></a></p><p>\U0001F449 Wise, vêtements techniques premium : <a href=\"http://wiseultrarunning.com\"><u>wiseultrarunning.com</u></a></p><p>Hébergé par Ausha. Visitez <a href=\"https://ausha.co/politique-de-confidentialite\">ausha.co/politique-de-confidentialite</a> pour plus d'informations.</p>"
-    description_plain: "\U0001F449GRAND DÉBAT avec Sylvaine Cussot , Sabine Ehrström , Ludo Collet et Anthony Costa , dans le cadre du 8e épisode de la saison 5 (#88) du talk-show du trail , animé par Nicolas Fréret du média d’information Distances+. Également au sommaire : \U0001F449 Le conseil nutrition de Manon Bohard , présenté par Näak : Doit-on faire attention à son poids quand on court pour être performant ? \U0001F449 La rubrique off et aventure , présentée par Wise, avec Fleury Roux et Pierre Martinez. Avec un troisième ami orienteur, ilsont traversé la France d’est en ouest, entre l’Alsace et la Bretagne, soit 1150 km et 12 600 m D+ en 7 jours, sans GPS, à pied, en vélo et parfois même en kayak. \U0001F449 Sortez le popcorn ! La rédaction de Distances+, par la voix de Franck Berteau , vous recommande le premier épisode d’une série de vidéos sur l’Américain des Pyrénées Ben Dhiman , qui ambitionne de remporter l’UTMB. \U0001F310 Liens utiles : \U0001F449 Extra D+, la newsletter gratuite de Distances+ : https://extradistancesplus.kessel.media/ LES PARTENAIRES OFFICIELS DE LA BANDE À D+ \U0001F449 Näak, nutrition sportive / –15 % à la première commande avec le code LBAD+ \U0001F449 Miles Republic, agenda et plateforme d’inscriptions : milesrepublic.com \U0001F449 RunMotion Coach, application d’entraînement personnalisé / 10 euros de rabais sur les 6 ou 12 mois d’abonnement avec le code DPLUS10 \U0001F449 https://go.run-motion.com/?coupon_code=DPLUS10 \U0001F449 Wise, vêtements techniques premium : wiseultrarunning.com Hébergé par Ausha. Visitez ausha.co/politique-de-confidentialite pour plus d'informations."
-    episode_image_url: https://image.ausha.co/U9t0kKiOjhwUQhJTi251PQxp8nptg3xLTBd3IlWQ_1400x1400.jpeg?t=1776954756
-    episode_uid: 20021530df29d6bb60f2da0cd0f9d440981dac55
-    episode_slug: sommes-nous-tous-capables-de-courir-un-ultra-trail-ou-un-marathon
-    episode_key: sommes-nous-tous-capables-de-courir-un-ultra-trail-ou-un-marathon
     legacy_numbered_slug: episode-25
-    episode_page_url: "/la-bande-a-d/sommes-nous-tous-capables-de-courir-un-ultra-trail-ou-un-marathon/"
+    episode_page_url: "/la-bande-a-d/recap-d-45-avec-camille-bruyas-baptiste-chassagne-vincent-esmiol-candice-fertin-michel-poletti-et-fred-tranchand/"
   https://rss.libsyn.com/shows/355028/destinations/2901566.xml: &95
   - episode_title: '349: ''The Art of Ultrarunning'', with Ian Sharman'
     episode_url: https://singletrack.fm/ep349/
@@ -30497,6 +30498,7 @@ episodes_by_feed:
     episode_key: vincent-bouillard-western-states-100-champion-s-interview
     legacy_numbered_slug: episode-06
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-western-states-100-champion-s-interview/"
+    youtube_video_id: eOPBI31oNjo
   - episode_title: Western States 100 Recap Show
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-recap-show
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Western_States_100_Recap_Show.mp3?dest-id=1746794
@@ -30714,7 +30716,6 @@ episodes_by_feed:
     episode_key: vincent-bouillard-2026-western-states-pre-race-interview
     legacy_numbered_slug: episode-24
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-2026-western-states-pre-race-interview/"
-    youtube_video_id: eOPBI31oNjo
   - episode_title: Jeff Mogavero | 2026 Western States Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/jeff-mogavero-2026-western-states-pre-race-interview
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Jeff_Mogavero__2026_Western_States_Pre-Race_Interview.mp3?dest-id=1746794
@@ -31046,6 +31047,12 @@ errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
   error: Latest episode has no enclosure URL
+- podcast: Diabolic Lies
+  rss_feed: https://api.substack.com/feed/podcast/2836327.rss
+  error: 'OpenURI::HTTPError: 403 Forbidden'
+- podcast: Lenny's Podcast
+  rss_feed: https://api.substack.com/feed/podcast/10845.rss
+  error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: Dwarkesh Podcast
   rss_feed: https://www.dwarkeshpatel.com/feed
   error: 'RuntimeError: redirection forbidden: https://www.dwarkeshpatel.com/feed -> http://dwarkesh.com/feed'
