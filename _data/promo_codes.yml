@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-23T11:13:46Z'
+generated_at: '2026-07-23T15:43:57Z'
 brands:
 - brand: ALLOY HEALTH
   brand_key: alloy health
@@ -60,7 +60,7 @@ brands:
   - podcast_title: For The Long Run
     podcast_page_url: "/for-the-long-run/"
     podcast_slug: for-the-long-run
-    episode_count: 2
+    episode_count: 1
     latest_episode_title: 'Run Your First 200 Mile Race: Tips for Consistency, Accountability, and Running Toward What Scares You'
     latest_episode_page_url: "/for-the-long-run/run-your-first-200-mile-race-tips-for-consistency-accountability-and-running-toward-what-scares-you/"
     latest_published_at: '2026-03-27T10:00:00+00:00'
@@ -89,7 +89,7 @@ brands:
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
-      episode_count: 2
+      episode_count: 1
       latest_episode_title: 'Run Your First 200 Mile Race: Tips for Consistency, Accountability, and Running Toward What Scares You'
       latest_episode_page_url: "/for-the-long-run/run-your-first-200-mile-race-tips-for-consistency-accountability-and-running-toward-what-scares-you/"
       latest_published_at: '2026-03-27T10:00:00+00:00'
@@ -143,43 +143,20 @@ brands:
       latest_published_at: '2026-07-18T06:05:27+00:00'
     podcast_count: 1
   podcast_count: 2
-- brand: Bon Charge
-  brand_key: bon charge
-  podcasts:
-  - podcast_title: Choose Strong
-    podcast_page_url: "/choose-strong/"
-    podcast_slug: choose-strong
-    episode_count: 2
-    latest_episode_title: "#127 | Greg Kelley | Turning Graveyards into Gardens"
-    latest_episode_page_url: "/choose-strong/127-greg-kelley-turning-graveyards-into-gardens/"
-    latest_published_at: '2025-12-23T00:36:36+00:00'
-  codes:
-  - code: SALLY
-    offer:
-    podcasts: &7
-    - podcast_title: Choose Strong
-      podcast_page_url: "/choose-strong/"
-      podcast_slug: choose-strong
-      episode_count: 2
-      latest_episode_title: "#127 | Greg Kelley | Turning Graveyards into Gardens"
-      latest_episode_page_url: "/choose-strong/127-greg-kelley-turning-graveyards-into-gardens/"
-      latest_published_at: '2025-12-23T00:36:36+00:00'
-    podcast_count: 1
-  podcast_count: 1
 - brand: Boulderthon
   brand_key: boulderthon
   podcasts:
   - podcast_title: For The Long Run
     podcast_page_url: "/for-the-long-run/"
     podcast_slug: for-the-long-run
-    episode_count: 8
-    latest_episode_title: Building a Life Around the Process and Choosing Hard Things with Joe Corcione
-    latest_episode_page_url: "/for-the-long-run/building-a-life-around-the-process-and-choosing-hard-things-with-joe-corcione/"
-    latest_published_at: '2026-05-08T07:00:00+00:00'
+    episode_count: 3
+    latest_episode_title: The Truth About Fueling for Runners with Stevie Lyn Smith
+    latest_episode_page_url: "/for-the-long-run/the-truth-about-fueling-for-runners-with-stevie-lyn-smith/"
+    latest_published_at: '2026-04-24T07:00:00+00:00'
   codes:
   - code: FTLR20
     offer: "$20 off the marathon or half marathon when you register at www"
-    podcasts: &8
+    podcasts: &7
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
@@ -190,37 +167,14 @@ brands:
     podcast_count: 1
   - code: FTLR2026
     offer: "$20 off the marathon or half marathon when you register at www"
-    podcasts: &9
+    podcasts: &8
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
-      episode_count: 7
-      latest_episode_title: Building a Life Around the Process and Choosing Hard Things with Joe Corcione
-      latest_episode_page_url: "/for-the-long-run/building-a-life-around-the-process-and-choosing-hard-things-with-joe-corcione/"
-      latest_published_at: '2026-05-08T07:00:00+00:00'
-    podcast_count: 1
-  podcast_count: 1
-- brand: Centurion Running
-  brand_key: centurion running
-  podcasts:
-  - podcast_title: Centurion Running
-    podcast_page_url: "/centurion-running/"
-    podcast_slug: centurion-running
-    episode_count: 2
-    latest_episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
-    latest_episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
-    latest_published_at: '2026-06-07T07:35:12+00:00'
-  codes:
-  - code: PODCAST10
-    offer: 10% off
-    podcasts: &10
-    - podcast_title: Centurion Running
-      podcast_page_url: "/centurion-running/"
-      podcast_slug: centurion-running
       episode_count: 2
-      latest_episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
-      latest_episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
-      latest_published_at: '2026-06-07T07:35:12+00:00'
+      latest_episode_title: The Truth About Fueling for Runners with Stevie Lyn Smith
+      latest_episode_page_url: "/for-the-long-run/the-truth-about-fueling-for-runners-with-stevie-lyn-smith/"
+      latest_published_at: '2026-04-24T07:00:00+00:00'
     podcast_count: 1
   podcast_count: 1
 - brand: Cirque Series
@@ -229,13 +183,35 @@ brands:
   - podcast_title: The Sub Hub
     podcast_page_url: "/the-sub-hub/"
     podcast_slug: the-sub-hub
-    episode_count: 1
+    episode_count: 3
     latest_episode_title: Cirque Series Announces Two New Races!!
     latest_episode_page_url: "/the-sub-hub/cirque-series-announces-two-new-races/"
     latest_published_at: '2026-03-06T07:00:01+00:00'
   codes:
+  - code: SUBHUB15
+    offer: 15% off your purchase
+    podcasts: &9
+    - podcast_title: The Sub Hub
+      podcast_page_url: "/the-sub-hub/"
+      podcast_slug: the-sub-hub
+      episode_count: 1
+      latest_episode_title: Cirque Series Announces Two New Races!!
+      latest_episode_page_url: "/the-sub-hub/cirque-series-announces-two-new-races/"
+      latest_published_at: '2026-03-06T07:00:01+00:00'
+    podcast_count: 1
   - code: SUBHUB25
     offer: 25% off your purchase
+    podcasts: &10
+    - podcast_title: The Sub Hub
+      podcast_page_url: "/the-sub-hub/"
+      podcast_slug: the-sub-hub
+      episode_count: 1
+      latest_episode_title: Cirque Series Announces Two New Races!!
+      latest_episode_page_url: "/the-sub-hub/cirque-series-announces-two-new-races/"
+      latest_published_at: '2026-03-06T07:00:01+00:00'
+    podcast_count: 1
+  - code: THESUBHUBP10
+    offer: "$25 off your purchase of an hdrop device \U0001F308 Wild Strides Paper Co"
     podcasts: &11
     - podcast_title: The Sub Hub
       podcast_page_url: "/the-sub-hub/"
@@ -269,29 +245,6 @@ brands:
       latest_published_at: '2026-07-22T17:21:31+00:00'
     podcast_count: 1
   podcast_count: 1
-- brand: every month after with an active
-  brand_key: every month after with an active
-  podcasts:
-  - podcast_title: COFFEECLUB
-    podcast_page_url: "/coffeeclub/"
-    podcast_slug: coffeeclub
-    episode_count: 1
-    latest_episode_title: THE TRUTH ABOUT THE SUPPLEMENT INDUSTRY
-    latest_episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
-    latest_published_at: '2026-07-16T20:00:00+00:00'
-  codes:
-  - code: MORGAN20
-    offer: 25% off
-    podcasts: &13
-    - podcast_title: COFFEECLUB
-      podcast_page_url: "/coffeeclub/"
-      podcast_slug: coffeeclub
-      episode_count: 1
-      latest_episode_title: THE TRUTH ABOUT THE SUPPLEMENT INDUSTRY
-      latest_episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
-      latest_published_at: '2026-07-16T20:00:00+00:00'
-    podcast_count: 1
-  podcast_count: 1
 - brand: Fast Pickle
   brand_key: fast pickle
   podcasts:
@@ -305,7 +258,7 @@ brands:
   codes:
   - code: BETWEENTWOPICKLES20
     offer: 20% off
-    podcasts: &14
+    podcasts: &13
     - podcast_title: Between Two Pines
       podcast_page_url: "/between-two-pines/"
       podcast_slug: between-two-pines
@@ -321,11 +274,22 @@ brands:
   - podcast_title: Trail Society
     podcast_page_url: "/trail-society/"
     podcast_slug: trail-society
-    episode_count: 1
+    episode_count: 2
     latest_episode_title: 'Episode 128: Is it fatigue or is it anemia?'
     latest_episode_page_url: "/trail-society/episode-128-is-it-fatigue-or-is-it-anemia/"
     latest_published_at: '2026-04-07T03:15:00-04:00'
   codes:
+  - code: FEISTY2026
+    offer: 20% off
+    podcasts: &14
+    - podcast_title: Trail Society
+      podcast_page_url: "/trail-society/"
+      podcast_slug: trail-society
+      episode_count: 1
+      latest_episode_title: 'Episode 128: Is it fatigue or is it anemia?'
+      latest_episode_page_url: "/trail-society/episode-128-is-it-fatigue-or-is-it-anemia/"
+      latest_published_at: '2026-04-07T03:15:00-04:00'
+    podcast_count: 1
   - code: TRAIL20
     offer:
     podcasts: &15
@@ -344,14 +308,25 @@ brands:
   - podcast_title: The Extramilest Show
     podcast_page_url: "/the-extramilest-show/"
     podcast_slug: the-extramilest-show
-    episode_count: 1
+    episode_count: 2
     latest_episode_title: "#107: Injury-Free Running: Rehab & Prevention with Jay Dicharry"
     latest_episode_page_url: "/the-extramilest-show/107-injury-free-running-rehab-prevention-with-jay-dicharry/"
     latest_published_at: '2025-08-30T17:07:00+00:00'
   codes:
+  - code: FLO10
+    offer: 10% off
+    podcasts: &16
+    - podcast_title: The Extramilest Show
+      podcast_page_url: "/the-extramilest-show/"
+      podcast_slug: the-extramilest-show
+      episode_count: 1
+      latest_episode_title: "#107: Injury-Free Running: Rehab & Prevention with Jay Dicharry"
+      latest_episode_page_url: "/the-extramilest-show/107-injury-free-running-rehab-prevention-with-jay-dicharry/"
+      latest_published_at: '2025-08-30T17:07:00+00:00'
+    podcast_count: 1
   - code: FLORIS100
     offer:
-    podcasts: &16
+    podcasts: &17
     - podcast_title: The Extramilest Show
       podcast_page_url: "/the-extramilest-show/"
       podcast_slug: the-extramilest-show
@@ -374,7 +349,7 @@ brands:
   codes:
   - code: FTLR2026
     offer: 20% off your first order
-    podcasts: &17
+    podcasts: &18
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
@@ -397,10 +372,10 @@ brands:
   - podcast_title: For The Long Run
     podcast_page_url: "/for-the-long-run/"
     podcast_slug: for-the-long-run
-    episode_count: 5
-    latest_episode_title: Tommie Runz on Western States, Running as a Black Man on Trail, and Trusting the Long Game
-    latest_episode_page_url: "/for-the-long-run/tommie-runz-on-western-states-running-as-a-black-man-on-trail-and-trusting-the-long-game/"
-    latest_published_at: '2026-06-12T07:10:00+00:00'
+    episode_count: 4
+    latest_episode_title: What Happens When You Choose the Hard Thing with Brendan Morgan
+    latest_episode_page_url: "/for-the-long-run/what-happens-when-you-choose-the-hard-thing-with-brendan-morgan/"
+    latest_published_at: '2026-05-01T07:00:00+00:00'
   - podcast_title: Trail Society
     podcast_page_url: "/trail-society/"
     podcast_slug: trail-society
@@ -411,7 +386,7 @@ brands:
   codes:
   - code: DISTANCE
     offer:
-    podcasts: &18
+    podcasts: &19
     - podcast_title: Distance to Empty
       podcast_page_url: "/distance-to-empty/"
       podcast_slug: distance-to-empty
@@ -421,8 +396,8 @@ brands:
       latest_published_at: '2026-04-28T18:00:01+00:00'
     podcast_count: 1
   - code: IRON
-    offer: Save $25 on your first order, plus receive a free protein of your choice
-    podcasts: &19
+    offer: "$25 off plus a free protein each month"
+    podcasts: &20
     - podcast_title: Distance to Empty
       podcast_page_url: "/distance-to-empty/"
       podcast_slug: distance-to-empty
@@ -433,10 +408,10 @@ brands:
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
-      episode_count: 5
-      latest_episode_title: Tommie Runz on Western States, Running as a Black Man on Trail, and Trusting the Long Game
-      latest_episode_page_url: "/for-the-long-run/tommie-runz-on-western-states-running-as-a-black-man-on-trail-and-trusting-the-long-game/"
-      latest_published_at: '2026-06-12T07:10:00+00:00'
+      episode_count: 4
+      latest_episode_title: What Happens When You Choose the Hard Thing with Brendan Morgan
+      latest_episode_page_url: "/for-the-long-run/what-happens-when-you-choose-the-hard-thing-with-brendan-morgan/"
+      latest_published_at: '2026-05-01T07:00:00+00:00'
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -446,27 +421,73 @@ brands:
       latest_published_at: '2026-07-14T03:15:00-04:00'
     podcast_count: 3
   podcast_count: 3
+- brand: half marathons
+  brand_key: half marathons
+  podcasts:
+  - podcast_title: For The Long Run
+    podcast_page_url: "/for-the-long-run/"
+    podcast_slug: for-the-long-run
+    episode_count: 1
+    latest_episode_title: How to Stop Evening Food Binges and Choose the Right Supplements to Improve Your Running
+    latest_episode_page_url: "/for-the-long-run/how-to-stop-evening-food-binges-and-choose-the-right-supplements-to-improve-your-running/"
+    latest_published_at: '2026-03-20T10:00:00+00:00'
+  codes:
+  - code: FTLR2026
+    offer: "$20 off the marathon or half marathon when you register at www"
+    podcasts: &21
+    - podcast_title: For The Long Run
+      podcast_page_url: "/for-the-long-run/"
+      podcast_slug: for-the-long-run
+      episode_count: 1
+      latest_episode_title: How to Stop Evening Food Binges and Choose the Right Supplements to Improve Your Running
+      latest_episode_page_url: "/for-the-long-run/how-to-stop-evening-food-binges-and-choose-the-right-supplements-to-improve-your-running/"
+      latest_published_at: '2026-03-20T10:00:00+00:00'
+    podcast_count: 1
+  podcast_count: 1
 - brand: Heavenly Heat Saunas
   brand_key: heavenly heat saunas
   podcasts:
   - podcast_title: The Extramilest Show
     podcast_page_url: "/the-extramilest-show/"
     podcast_slug: the-extramilest-show
-    episode_count: 5
-    latest_episode_title: "#128: How to Overcome Race Nerves and Anxiety with Jude Brewer"
-    latest_episode_page_url: "/the-extramilest-show/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer/"
-    latest_published_at: '2026-06-05T16:28:00+00:00'
+    episode_count: 4
+    latest_episode_title: "#127: Jakob Ingebrigtsen's Advice to Run Faster, For Non-Elites"
+    latest_episode_page_url: "/the-extramilest-show/127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites/"
+    latest_published_at: '2026-05-15T13:28:00+00:00'
   codes:
   - code: FLO
     offer: 6% off
-    podcasts: &20
+    podcasts: &22
     - podcast_title: The Extramilest Show
       podcast_page_url: "/the-extramilest-show/"
       podcast_slug: the-extramilest-show
-      episode_count: 5
-      latest_episode_title: "#128: How to Overcome Race Nerves and Anxiety with Jude Brewer"
-      latest_episode_page_url: "/the-extramilest-show/128-how-to-overcome-race-nerves-and-anxiety-with-jude-brewer/"
-      latest_published_at: '2026-06-05T16:28:00+00:00'
+      episode_count: 4
+      latest_episode_title: "#127: Jakob Ingebrigtsen's Advice to Run Faster, For Non-Elites"
+      latest_episode_page_url: "/the-extramilest-show/127-jakob-ingebrigtsen-s-advice-to-run-faster-for-non-elites/"
+      latest_published_at: '2026-05-15T13:28:00+00:00'
+    podcast_count: 1
+  podcast_count: 1
+- brand: Injinji
+  brand_key: injinji
+  podcasts:
+  - podcast_title: Trail Society
+    podcast_page_url: "/trail-society/"
+    podcast_slug: trail-society
+    episode_count: 1
+    latest_episode_title: 'Episode 127: Strong As a Mother with Jess Dorrington and Shannon Rowbury'
+    latest_episode_page_url: "/trail-society/episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury/"
+    latest_published_at: '2026-03-31T03:15:00-04:00'
+  codes:
+  - code: FEISTY2026
+    offer: 20% off
+    podcasts: &23
+    - podcast_title: Trail Society
+      podcast_page_url: "/trail-society/"
+      podcast_slug: trail-society
+      episode_count: 1
+      latest_episode_title: 'Episode 127: Strong As a Mother with Jess Dorrington and Shannon Rowbury'
+      latest_episode_page_url: "/trail-society/episode-127-strong-as-a-mother-with-jess-dorrington-and-shannon-rowbury/"
+      latest_published_at: '2026-03-31T03:15:00-04:00'
     podcast_count: 1
   podcast_count: 1
 - brand: Intrepid Camp Gear
@@ -482,7 +503,7 @@ brands:
   codes:
   - code: BOULDERBOYS
     offer: 10% off
-    podcasts: &21
+    podcasts: &24
     - podcast_title: The Boulder Boys
       podcast_page_url: "/the-boulder-boys/"
       podcast_slug: the-boulder-boys
@@ -498,29 +519,18 @@ brands:
   - podcast_title: Choose Strong
     podcast_page_url: "/choose-strong/"
     podcast_slug: choose-strong
-    episode_count: 6
+    episode_count: 2
     latest_episode_title: "#136 | Champion's Mindset | Getting Through the Tough Parts"
     latest_episode_page_url: "/choose-strong/136-champion-s-mindset-getting-through-the-tough-parts/"
     latest_published_at: '2026-03-10T06:28:18+00:00'
   codes:
-  - code: SALLY
-    offer:
-    podcasts: &22
-    - podcast_title: Choose Strong
-      podcast_page_url: "/choose-strong/"
-      podcast_slug: choose-strong
-      episode_count: 1
-      latest_episode_title: "#124 | Start Now"
-      latest_episode_page_url: "/choose-strong/124-start-now/"
-      latest_published_at: '2025-12-01T01:57:48+00:00'
-    podcast_count: 1
   - code: STRONG
     offer: 15% off
-    podcasts: &23
+    podcasts: &25
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
-      episode_count: 5
+      episode_count: 2
       latest_episode_title: "#136 | Champion's Mindset | Getting Through the Tough Parts"
       latest_episode_page_url: "/choose-strong/136-champion-s-mindset-getting-through-the-tough-parts/"
       latest_published_at: '2026-03-10T06:28:18+00:00'
@@ -532,7 +542,7 @@ brands:
   - podcast_title: Between Two Pines
     podcast_page_url: "/between-two-pines/"
     podcast_slug: between-two-pines
-    episode_count: 11
+    episode_count: 9
     latest_episode_title: UltraSignup CEO David Callahan, Tim Tollfeson the Caveman, and Cocodona Reflections
     latest_episode_page_url: "/between-two-pines/ultrasignup-ceo-david-callahan-tim-tollfeson-the-caveman-and-cocodona-reflections/"
     latest_published_at: '2025-05-15T13:35:00+00:00'
@@ -553,18 +563,18 @@ brands:
   codes:
   - code: BTP10
     offer: 10% off
-    podcasts: &24
+    podcasts: &26
     - podcast_title: Between Two Pines
       podcast_page_url: "/between-two-pines/"
       podcast_slug: between-two-pines
-      episode_count: 9
+      episode_count: 7
       latest_episode_title: UltraSignup CEO David Callahan, Tim Tollfeson the Caveman, and Cocodona Reflections
       latest_episode_page_url: "/between-two-pines/ultrasignup-ceo-david-callahan-tim-tollfeson-the-caveman-and-cocodona-reflections/"
       latest_published_at: '2025-05-15T13:35:00+00:00'
     podcast_count: 1
   - code: CHOOSESTRONG
     offer: 10% off
-    podcasts: &25
+    podcasts: &27
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
@@ -575,7 +585,7 @@ brands:
     podcast_count: 1
   - code: DISTANCE
     offer:
-    podcasts: &26
+    podcasts: &28
     - podcast_title: Distance to Empty
       podcast_page_url: "/distance-to-empty/"
       podcast_slug: distance-to-empty
@@ -586,7 +596,7 @@ brands:
     podcast_count: 1
   - code: ULTRADIRTBAG20
     offer: 10% off
-    podcasts: &27
+    podcasts: &29
     - podcast_title: Between Two Pines
       podcast_page_url: "/between-two-pines/"
       podcast_slug: between-two-pines
@@ -597,7 +607,7 @@ brands:
     podcast_count: 1
   - code: USIGNUP10
     offer: 10% off
-    podcasts: &28
+    podcasts: &30
     - podcast_title: Between Two Pines
       podcast_page_url: "/between-two-pines/"
       podcast_slug: between-two-pines
@@ -620,7 +630,7 @@ brands:
   codes:
   - code: ROADOFTHETRIALS15
     offer: 15% off your first order
-    podcasts: &29
+    podcasts: &31
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
@@ -631,7 +641,7 @@ brands:
     podcast_count: 1
   - code: ROADTOTHETRIALS15
     offer: 15% off your first order
-    podcasts: &30
+    podcasts: &32
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
@@ -642,7 +652,7 @@ brands:
     podcast_count: 1
   - code: ROADTOTRIALS15
     offer: 15% off your first order
-    podcasts: &31
+    podcasts: &33
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
@@ -658,18 +668,18 @@ brands:
   - podcast_title: The Freetrail Podcast
     podcast_page_url: "/the-freetrail-podcast/"
     podcast_slug: the-freetrail-podcast
-    episode_count: 4
+    episode_count: 3
     latest_episode_title: European FKT Madness, Trail Running Industry News, Recent Race Results, & Speedgoat 50k Preview
     latest_episode_page_url: "/the-freetrail-podcast/european-fkt-madness-trail-running-industry-news-recent-race-results-speedgoat-50k-preview/"
     latest_published_at: '2026-07-21T11:13:00+00:00'
   codes:
   - code: FREETRAIL30
-    offer: 25% off your first order
-    podcasts: &32
+    offer:
+    podcasts: &34
     - podcast_title: The Freetrail Podcast
       podcast_page_url: "/the-freetrail-podcast/"
       podcast_slug: the-freetrail-podcast
-      episode_count: 4
+      episode_count: 3
       latest_episode_title: European FKT Madness, Trail Running Industry News, Recent Race Results, & Speedgoat 50k Preview
       latest_episode_page_url: "/the-freetrail-podcast/european-fkt-madness-trail-running-industry-news-recent-race-results-speedgoat-50k-preview/"
       latest_published_at: '2026-07-21T11:13:00+00:00'
@@ -681,43 +691,43 @@ brands:
   - podcast_title: Choose Strong
     podcast_page_url: "/choose-strong/"
     podcast_slug: choose-strong
-    episode_count: 3
+    episode_count: 2
     latest_episode_title: "# 138 | Rattlesnakes & Gear Reviews"
     latest_episode_page_url: "/choose-strong/138-rattlesnakes-gear-reviews/"
     latest_published_at: '2026-03-31T23:23:32+00:00'
   - podcast_title: Nobody Asked Us
     podcast_page_url: "/nobody-asked-us/"
     podcast_slug: nobody-asked-us
-    episode_count: 3
+    episode_count: 4
     latest_episode_title: 4.29. Horse Flies, Fireworks, and Fourth of July Track & Field
     latest_episode_page_url: "/nobody-asked-us/4-29-horse-flies-fireworks-and-fourth-of-july-track-field/"
     latest_published_at: '2026-07-08T09:00:00+00:00'
   codes:
   - code: CHOOSESTRONG
     offer: 15% off
-    podcasts: &33
+    podcasts: &35
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
-      episode_count: 2
-      latest_episode_title: "# 138 | Rattlesnakes & Gear Reviews"
-      latest_episode_page_url: "/choose-strong/138-rattlesnakes-gear-reviews/"
-      latest_published_at: '2026-03-31T23:23:32+00:00'
+      episode_count: 1
+      latest_episode_title: "#136 | Champion's Mindset | Getting Through the Tough Parts"
+      latest_episode_page_url: "/choose-strong/136-champion-s-mindset-getting-through-the-tough-parts/"
+      latest_published_at: '2026-03-10T06:28:18+00:00'
     podcast_count: 1
   - code: NOBODYASKEDUS
     offer: 15% off
-    podcasts: &34
+    podcasts: &36
     - podcast_title: Nobody Asked Us
       podcast_page_url: "/nobody-asked-us/"
       podcast_slug: nobody-asked-us
-      episode_count: 3
+      episode_count: 4
       latest_episode_title: 4.29. Horse Flies, Fireworks, and Fourth of July Track & Field
       latest_episode_page_url: "/nobody-asked-us/4-29-horse-flies-fireworks-and-fourth-of-july-track-field/"
       latest_published_at: '2026-07-08T09:00:00+00:00'
     podcast_count: 1
   - code: SALLY
     offer: 50% off
-    podcasts: &35
+    podcasts: &37
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
@@ -740,7 +750,7 @@ brands:
   codes:
   - code: NOBODYASKEDUS
     offer: 20% off
-    podcasts: &36
+    podcasts: &38
     - podcast_title: Nobody Asked Us
       podcast_page_url: "/nobody-asked-us/"
       podcast_slug: nobody-asked-us
@@ -763,7 +773,7 @@ brands:
   codes:
   - code: ULTRASOUND20
     offer: 20% off
-    podcasts: &37
+    podcasts: &39
     - podcast_title: The Ultra Sound Podcast
       podcast_page_url: "/the-ultra-sound-podcast/"
       podcast_slug: the-ultra-sound-podcast
@@ -793,14 +803,14 @@ brands:
   - podcast_title: For The Long Run
     podcast_page_url: "/for-the-long-run/"
     podcast_slug: for-the-long-run
-    episode_count: 1
+    episode_count: 2
     latest_episode_title: Building a Life Around the Process and Choosing Hard Things with Joe Corcione
     latest_episode_page_url: "/for-the-long-run/building-a-life-around-the-process-and-choosing-hard-things-with-joe-corcione/"
     latest_published_at: '2026-05-08T07:00:00+00:00'
   codes:
   - code: CHOOSESTRONG
     offer:
-    podcasts: &38
+    podcasts: &40
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
@@ -811,7 +821,7 @@ brands:
     podcast_count: 1
   - code: DISTANCE
     offer:
-    podcasts: &39
+    podcasts: &41
     - podcast_title: Distance to Empty
       podcast_page_url: "/distance-to-empty/"
       podcast_slug: distance-to-empty
@@ -822,7 +832,18 @@ brands:
     podcast_count: 1
   - code: FTLR
     offer: 10% off
-    podcasts: &40
+    podcasts: &42
+    - podcast_title: For The Long Run
+      podcast_page_url: "/for-the-long-run/"
+      podcast_slug: for-the-long-run
+      episode_count: 1
+      latest_episode_title: Building a Life Around the Process and Choosing Hard Things with Joe Corcione
+      latest_episode_page_url: "/for-the-long-run/building-a-life-around-the-process-and-choosing-hard-things-with-joe-corcione/"
+      latest_published_at: '2026-05-08T07:00:00+00:00'
+    podcast_count: 1
+  - code: FTLR2026
+    offer: "$20 off the marathon or half marathon when you register at www"
+    podcasts: &43
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
@@ -833,7 +854,7 @@ brands:
     podcast_count: 1
   - code: STRONG
     offer: "$35 off your first box of wild-caught, sustainable seafood—delivered"
-    podcasts: &41
+    podcasts: &44
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
@@ -849,21 +870,21 @@ brands:
   - podcast_title: Choose Strong
     podcast_page_url: "/choose-strong/"
     podcast_slug: choose-strong
-    episode_count: 4
-    latest_episode_title: "#145 | LIVE with RACHEL ENTREKIN | TrailCon 2026"
-    latest_episode_page_url: "/choose-strong/145-live-with-rachel-entrekin-trailcon-2026/"
-    latest_published_at: '2026-06-30T23:37:21+00:00'
+    episode_count: 1
+    latest_episode_title: "# 138 | Rattlesnakes & Gear Reviews"
+    latest_episode_page_url: "/choose-strong/138-rattlesnakes-gear-reviews/"
+    latest_published_at: '2026-03-31T23:23:32+00:00'
   codes:
-  - code: STRONG
-    offer: 43% off
-    podcasts: &42
+  - code: CHOOSESTRONG
+    offer: 15% off
+    podcasts: &45
     - podcast_title: Choose Strong
       podcast_page_url: "/choose-strong/"
       podcast_slug: choose-strong
-      episode_count: 4
-      latest_episode_title: "#145 | LIVE with RACHEL ENTREKIN | TrailCon 2026"
-      latest_episode_page_url: "/choose-strong/145-live-with-rachel-entrekin-trailcon-2026/"
-      latest_published_at: '2026-06-30T23:37:21+00:00'
+      episode_count: 1
+      latest_episode_title: "# 138 | Rattlesnakes & Gear Reviews"
+      latest_episode_page_url: "/choose-strong/138-rattlesnakes-gear-reviews/"
+      latest_published_at: '2026-03-31T23:23:32+00:00'
     podcast_count: 1
   podcast_count: 1
 - brand: Neversecond
@@ -872,21 +893,32 @@ brands:
   - podcast_title: The Freetrail Podcast
     podcast_page_url: "/the-freetrail-podcast/"
     podcast_slug: the-freetrail-podcast
-    episode_count: 5
-    latest_episode_title: European FKT Madness, Trail Running Industry News, Recent Race Results, & Speedgoat 50k Preview
-    latest_episode_page_url: "/the-freetrail-podcast/european-fkt-madness-trail-running-industry-news-recent-race-results-speedgoat-50k-preview/"
-    latest_published_at: '2026-07-21T11:13:00+00:00'
+    episode_count: 2
+    latest_episode_title: Hardrock 100 DNF | Dylan's Race Recap
+    latest_episode_page_url: "/the-freetrail-podcast/hardrock-100-dnf-dylan-s-race-recap/"
+    latest_published_at: '2026-07-15T12:00:00+00:00'
   codes:
   - code: FREETRAIL25
     offer: 25% off your first order
-    podcasts: &43
+    podcasts: &46
     - podcast_title: The Freetrail Podcast
       podcast_page_url: "/the-freetrail-podcast/"
       podcast_slug: the-freetrail-podcast
-      episode_count: 5
-      latest_episode_title: European FKT Madness, Trail Running Industry News, Recent Race Results, & Speedgoat 50k Preview
-      latest_episode_page_url: "/the-freetrail-podcast/european-fkt-madness-trail-running-industry-news-recent-race-results-speedgoat-50k-preview/"
-      latest_published_at: '2026-07-21T11:13:00+00:00'
+      episode_count: 1
+      latest_episode_title: Hardrock 100 DNF | Dylan's Race Recap
+      latest_episode_page_url: "/the-freetrail-podcast/hardrock-100-dnf-dylan-s-race-recap/"
+      latest_published_at: '2026-07-15T12:00:00+00:00'
+    podcast_count: 1
+  - code: FREETRAIL30
+    offer: 25% off your first order
+    podcasts: &47
+    - podcast_title: The Freetrail Podcast
+      podcast_page_url: "/the-freetrail-podcast/"
+      podcast_slug: the-freetrail-podcast
+      episode_count: 1
+      latest_episode_title: Western States 100 Recap Show
+      latest_episode_page_url: "/the-freetrail-podcast/western-states-100-recap-show/"
+      latest_published_at: '2026-06-30T02:13:00+00:00'
     podcast_count: 1
   podcast_count: 1
 - brand: OLIPOP
@@ -902,7 +934,7 @@ brands:
   codes:
   - code: CITIUS25
     offer: 25% off your order
-    podcasts: &44
+    podcasts: &48
     - podcast_title: The CITIUS MAG Podcast | A Running + Track and Field Show
       podcast_page_url: "/the-citius-mag-podcast-a-running-track-and-field-show/"
       podcast_slug: the-citius-mag-podcast-a-running-track-and-field-show
@@ -912,20 +944,89 @@ brands:
       latest_published_at: '2026-06-15T21:23:22+00:00'
     podcast_count: 1
   podcast_count: 1
+- brand: Open Fuel
+  brand_key: open fuel
+  podcasts:
+  - podcast_title: Women of Distance
+    podcast_page_url: "/women-of-distance/"
+    podcast_slug: women-of-distance
+    episode_count: 5
+    latest_episode_title: Dani Moreno - "I'm Betting On Myself"
+    latest_episode_page_url: "/women-of-distance/dani-moreno-i-m-betting-on-myself/"
+    latest_published_at: '2026-07-10T10:00:00+00:00'
+  codes:
+  - code: WOD15
+    offer: 15% off your order
+    podcasts: &49
+    - podcast_title: Women of Distance
+      podcast_page_url: "/women-of-distance/"
+      podcast_slug: women-of-distance
+      episode_count: 5
+      latest_episode_title: Dani Moreno - "I'm Betting On Myself"
+      latest_episode_page_url: "/women-of-distance/dani-moreno-i-m-betting-on-myself/"
+      latest_published_at: '2026-07-10T10:00:00+00:00'
+    podcast_count: 1
+  podcast_count: 1
+- brand: PF&H collection at store
+  brand_key: pf h collection at store
+  podcasts:
+  - podcast_title: Centurion Running
+    podcast_page_url: "/centurion-running/"
+    podcast_slug: centurion-running
+    episode_count: 2
+    latest_episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
+    latest_episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
+    latest_published_at: '2026-06-07T07:35:12+00:00'
+  codes:
+  - code: PODCAST10
+    offer: 10% off
+    podcasts: &50
+    - podcast_title: Centurion Running
+      podcast_page_url: "/centurion-running/"
+      podcast_slug: centurion-running
+      episode_count: 2
+      latest_episode_title: 'SDW100 2026 Pre-Race Interviews: Hugh Tibbs. Two time second place SDW100. Arc of Attrition & Autumn 100 Champion.'
+      latest_episode_page_url: "/centurion-running/sdw100-2026-pre-race-interviews-hugh-tibbs-two-time-second-place-sdw100-arc-of-attrition-autumn-100-champion/"
+      latest_published_at: '2026-06-07T07:35:12+00:00'
+    podcast_count: 1
+  podcast_count: 1
+- brand: Phos Performance
+  brand_key: phos performance
+  podcasts:
+  - podcast_title: COFFEECLUB
+    podcast_page_url: "/coffeeclub/"
+    podcast_slug: coffeeclub
+    episode_count: 1
+    latest_episode_title: THE TRUTH ABOUT THE SUPPLEMENT INDUSTRY
+    latest_episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
+    latest_published_at: '2026-07-16T20:00:00+00:00'
+  codes:
+  - code: MORGAN20
+    offer: 50% off your first month and 25% off every month after
+    podcasts: &51
+    - podcast_title: COFFEECLUB
+      podcast_page_url: "/coffeeclub/"
+      podcast_slug: coffeeclub
+      episode_count: 1
+      latest_episode_title: THE TRUTH ABOUT THE SUPPLEMENT INDUSTRY
+      latest_episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
+      latest_published_at: '2026-07-16T20:00:00+00:00'
+    podcast_count: 1
+  podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   podcasts:
   - podcast_title: Centurion Running
     podcast_page_url: "/centurion-running/"
     podcast_slug: centurion-running
-    episode_count: 1
-    latest_episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
-    latest_episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
-    latest_published_at: '2026-05-14T10:04:26+00:00'
+    episode_count: 15
+    latest_episode_title: 'Weekly News Ep.45: SDW100 & 50km Open for 2027 | Record Attempt News |'
+    latest_episode_page_url: "/centurion-running/weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news/"
+    latest_published_at: '2026-07-20T09:06:53+00:00'
   - podcast_title: For The Long Run
     podcast_page_url: "/for-the-long-run/"
     podcast_slug: for-the-long-run
-    episode_count: 3
+    episode_count: 7
     latest_episode_title: Shad Mika on What Two Decades of Ultras Actually Teaches You
     latest_episode_page_url: "/for-the-long-run/shad-mika-on-what-two-decades-of-ultras-actually-teaches-you/"
     latest_published_at: '2026-07-17T12:34:34+00:00'
@@ -939,7 +1040,7 @@ brands:
   - podcast_title: Road to the Trials
     podcast_page_url: "/road-to-the-trials/"
     podcast_slug: road-to-the-trials
-    episode_count: 23
+    episode_count: 24
     latest_episode_title: How Rachel Schilkowsky Finally Solved the Marathon
     latest_episode_page_url: "/road-to-the-trials/how-rachel-schilkowsky-finally-solved-the-marathon/"
     latest_published_at: '2026-07-21T16:16:05+00:00'
@@ -952,19 +1053,19 @@ brands:
     latest_published_at: '2026-07-21T13:00:00-06:00'
   codes:
   - code: FTLR2026
-    offer: 15% off your first order
-    podcasts: &45
+    offer: "$20 off the marathon or half marathon when you register at www"
+    podcasts: &52
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
-      episode_count: 1
-      latest_episode_title: Shea Aquilano's Journey from Imposter Syndrome to Nike Athlete
-      latest_episode_page_url: "/for-the-long-run/shea-aquilano-s-journey-from-imposter-syndrome-to-nike-athlete/"
-      latest_published_at: '2026-02-13T11:00:00+00:00'
+      episode_count: 5
+      latest_episode_title: What Happens When You Choose the Hard Thing with Brendan Morgan
+      latest_episode_page_url: "/for-the-long-run/what-happens-when-you-choose-the-hard-thing-with-brendan-morgan/"
+      latest_published_at: '2026-05-01T07:00:00+00:00'
     podcast_count: 1
   - code: IRP2026
     offer: 15% off
-    podcasts: &46
+    podcasts: &53
     - podcast_title: Inside Running Podcast
       podcast_page_url: "/inside-running-podcast/"
       podcast_slug: inside-running-podcast
@@ -975,7 +1076,7 @@ brands:
     podcast_count: 1
   - code: LONGRUN26
     offer: 15% off your order
-    podcasts: &47
+    podcasts: &54
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
@@ -986,18 +1087,18 @@ brands:
     podcast_count: 1
   - code: PODCAST10
     offer: 10% off
-    podcasts: &48
+    podcasts: &55
     - podcast_title: Centurion Running
       podcast_page_url: "/centurion-running/"
       podcast_slug: centurion-running
-      episode_count: 1
-      latest_episode_title: 'Weekly News Ep.37: North Downs Way 50 Preview'
-      latest_episode_page_url: "/centurion-running/weekly-news-ep-37-north-downs-way-50-preview/"
-      latest_published_at: '2026-05-14T10:04:26+00:00'
+      episode_count: 15
+      latest_episode_title: 'Weekly News Ep.45: SDW100 & 50km Open for 2027 | Record Attempt News |'
+      latest_episode_page_url: "/centurion-running/weekly-news-ep-45-sdw100-50km-open-for-2027-record-attempt-news/"
+      latest_published_at: '2026-07-20T09:06:53+00:00'
     podcast_count: 1
   - code: SINGLETRACK
     offer: 15% off
-    podcasts: &49
+    podcasts: &56
     - podcast_title: Singletrack
       podcast_page_url: "/singletrack/"
       podcast_slug: singletrack
@@ -1008,7 +1109,7 @@ brands:
     podcast_count: 1
   - code: TRIALS26
     offer: 15% off
-    podcasts: &50
+    podcasts: &57
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
@@ -1017,30 +1118,18 @@ brands:
       latest_episode_page_url: "/road-to-the-trials/how-rachel-schilkowsky-finally-solved-the-marathon/"
       latest_published_at: '2026-07-21T16:16:05+00:00'
     podcast_count: 1
-  podcast_count: 5
-- brand: Probio Nutrition
-  brand_key: probio nutrition
-  podcasts:
-  - podcast_title: Trail Society
-    podcast_page_url: "/trail-society/"
-    podcast_slug: trail-society
-    episode_count: 4
-    latest_episode_title: 'Episode 125: Why do some athletes choke on the world''s biggest stage?'
-    latest_episode_page_url: "/trail-society/episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage/"
-    latest_published_at: '2026-03-17T04:00:00-04:00'
-  codes:
-  - code: TRAIL20
+  - code: TRIALS28
     offer:
-    podcasts: &51
-    - podcast_title: Trail Society
-      podcast_page_url: "/trail-society/"
-      podcast_slug: trail-society
-      episode_count: 4
-      latest_episode_title: 'Episode 125: Why do some athletes choke on the world''s biggest stage?'
-      latest_episode_page_url: "/trail-society/episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage/"
-      latest_published_at: '2026-03-17T04:00:00-04:00'
+    podcasts: &58
+    - podcast_title: Road to the Trials
+      podcast_page_url: "/road-to-the-trials/"
+      podcast_slug: road-to-the-trials
+      episode_count: 1
+      latest_episode_title: 'Sarah Reiter: Three Olympic Trials, Staying Joyful, and Chasing Sub-2:30'
+      latest_episode_page_url: "/road-to-the-trials/sarah-reiter-three-olympic-trials-staying-joyful-and-chasing-sub-2-30/"
+      latest_published_at: '2026-06-11T10:47:53+00:00'
     podcast_count: 1
-  podcast_count: 1
+  podcast_count: 5
 - brand: rabbit
   brand_key: rabbit
   podcasts:
@@ -1054,7 +1143,7 @@ brands:
   codes:
   - code: FEBTRAIL
     offer: 10% off
-    podcasts: &52
+    podcasts: &59
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1065,7 +1154,7 @@ brands:
     podcast_count: 1
   - code: JULYTRAIL10
     offer: 10% off
-    podcasts: &53
+    podcasts: &60
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1076,7 +1165,7 @@ brands:
     podcast_count: 1
   - code: TSMARCH
     offer: 10% off
-    podcasts: &54
+    podcasts: &61
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1092,14 +1181,14 @@ brands:
   - podcast_title: Trail Society
     podcast_page_url: "/trail-society/"
     podcast_slug: trail-society
-    episode_count: 4
-    latest_episode_title: 'Episode 123: Are female athletes more injury-prone? Here''s what the research says'
-    latest_episode_page_url: "/trail-society/episode-123-are-female-athletes-more-injury-prone-here-s-what-the-research-says/"
-    latest_published_at: '2026-03-03T04:00:00-04:00'
+    episode_count: 8
+    latest_episode_title: 'Episode 125: Why do some athletes choke on the world''s biggest stage?'
+    latest_episode_page_url: "/trail-society/episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage/"
+    latest_published_at: '2026-03-17T04:00:00-04:00'
   codes:
   - code: FEBTRAIL
     offer: 10% off
-    podcasts: &55
+    podcasts: &62
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1108,9 +1197,20 @@ brands:
       latest_episode_page_url: "/trail-society/episode-121-stress-the-science-of-cortisol-and-updates-on-the-female-athlete-triad/"
       latest_published_at: '2026-02-17T03:00:00-04:00'
     podcast_count: 1
+  - code: TRAIL20
+    offer:
+    podcasts: &63
+    - podcast_title: Trail Society
+      podcast_page_url: "/trail-society/"
+      podcast_slug: trail-society
+      episode_count: 4
+      latest_episode_title: 'Episode 125: Why do some athletes choke on the world''s biggest stage?'
+      latest_episode_page_url: "/trail-society/episode-125-why-do-some-athletes-choke-on-the-world-s-biggest-stage/"
+      latest_published_at: '2026-03-17T04:00:00-04:00'
+    podcast_count: 1
   - code: TSMARCH
     offer: 10% off
-    podcasts: &56
+    podcasts: &64
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1133,7 +1233,7 @@ brands:
   codes:
   - code: MIDPACKERPOD
     offer: 20% off
-    podcasts: &57
+    podcasts: &65
     - podcast_title: The Midpacker Podcast
       podcast_page_url: "/the-midpacker-podcast/"
       podcast_slug: the-midpacker-podcast
@@ -1156,7 +1256,7 @@ brands:
   codes:
   - code: INSIDERUNNING
     offer:
-    podcasts: &58
+    podcasts: &66
     - podcast_title: Inside Running Podcast
       podcast_page_url: "/inside-running-podcast/"
       podcast_slug: inside-running-podcast
@@ -1179,7 +1279,7 @@ brands:
   codes:
   - code: IRP15
     offer: 32% off
-    podcasts: &59
+    podcasts: &67
     - podcast_title: Inside Running Podcast
       podcast_page_url: "/inside-running-podcast/"
       podcast_slug: inside-running-podcast
@@ -1202,7 +1302,7 @@ brands:
   codes:
   - code: TRIALS28
     offer:
-    podcasts: &60
+    podcasts: &68
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
@@ -1218,21 +1318,21 @@ brands:
   - podcast_title: Women of Distance
     podcast_page_url: "/women-of-distance/"
     podcast_slug: women-of-distance
-    episode_count: 25
-    latest_episode_title: Dani Moreno - "I'm Betting On Myself"
-    latest_episode_page_url: "/women-of-distance/dani-moreno-i-m-betting-on-myself/"
-    latest_published_at: '2026-07-10T10:00:00+00:00'
+    episode_count: 20
+    latest_episode_title: Sydney Petersen - A Strong Sense of Belonging
+    latest_episode_page_url: "/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/"
+    latest_published_at: '2026-05-25T10:00:00+00:00'
   codes:
   - code: WOD15
     offer: 15% off your order
-    podcasts: &61
+    podcasts: &69
     - podcast_title: Women of Distance
       podcast_page_url: "/women-of-distance/"
       podcast_slug: women-of-distance
-      episode_count: 25
-      latest_episode_title: Dani Moreno - "I'm Betting On Myself"
-      latest_episode_page_url: "/women-of-distance/dani-moreno-i-m-betting-on-myself/"
-      latest_published_at: '2026-07-10T10:00:00+00:00'
+      episode_count: 20
+      latest_episode_title: Sydney Petersen - A Strong Sense of Belonging
+      latest_episode_page_url: "/women-of-distance/sydney-petersen-a-strong-sense-of-belonging/"
+      latest_published_at: '2026-05-25T10:00:00+00:00'
     podcast_count: 1
   podcast_count: 1
 - brand: Tifosi Optics
@@ -1245,28 +1345,10 @@ brands:
     latest_episode_title: Shad Mika on What Two Decades of Ultras Actually Teaches You
     latest_episode_page_url: "/for-the-long-run/shad-mika-on-what-two-decades-of-ultras-actually-teaches-you/"
     latest_published_at: '2026-07-17T12:34:34+00:00'
-  - podcast_title: Trail Society
-    podcast_page_url: "/trail-society/"
-    podcast_slug: trail-society
-    episode_count: 2
-    latest_episode_title: 'Episode 128: Is it fatigue or is it anemia?'
-    latest_episode_page_url: "/trail-society/episode-128-is-it-fatigue-or-is-it-anemia/"
-    latest_published_at: '2026-04-07T03:15:00-04:00'
   codes:
-  - code: FEISTY2026
-    offer: 20% off
-    podcasts: &62
-    - podcast_title: Trail Society
-      podcast_page_url: "/trail-society/"
-      podcast_slug: trail-society
-      episode_count: 2
-      latest_episode_title: 'Episode 128: Is it fatigue or is it anemia?'
-      latest_episode_page_url: "/trail-society/episode-128-is-it-fatigue-or-is-it-anemia/"
-      latest_published_at: '2026-04-07T03:15:00-04:00'
-    podcast_count: 1
   - code: FTLR2026
     offer: Save 20% on your order
-    podcasts: &63
+    podcasts: &70
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
@@ -1275,7 +1357,7 @@ brands:
       latest_episode_page_url: "/for-the-long-run/shad-mika-on-what-two-decades-of-ultras-actually-teaches-you/"
       latest_published_at: '2026-07-17T12:34:34+00:00'
     podcast_count: 1
-  podcast_count: 2
+  podcast_count: 1
 - brand: True Nutrition
   brand_key: true nutrition
   podcasts:
@@ -1289,7 +1371,7 @@ brands:
   codes:
   - code: TRNSUMMER
     offer: 25% off
-    podcasts: &64
+    podcasts: &71
     - podcast_title: Trail Runner Nation
       podcast_page_url: "/trail-runner-nation/"
       podcast_slug: trail-runner-nation
@@ -1319,7 +1401,7 @@ brands:
   codes:
   - code: FEISTY2026
     offer: 20% off
-    podcasts: &65
+    podcasts: &72
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1330,7 +1412,7 @@ brands:
     podcast_count: 1
   - code: FTLR
     offer:
-    podcasts: &66
+    podcasts: &73
     - podcast_title: For The Long Run
       podcast_page_url: "/for-the-long-run/"
       podcast_slug: for-the-long-run
@@ -1341,7 +1423,7 @@ brands:
     podcast_count: 1
   - code: TRAIL20
     offer: 15% off
-    podcasts: &67
+    podcasts: &74
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1352,7 +1434,7 @@ brands:
     podcast_count: 1
   - code: TRAILSOCIETY
     offer: 20% off
-    podcasts: &68
+    podcasts: &75
     - podcast_title: Trail Society
       podcast_page_url: "/trail-society/"
       podcast_slug: trail-society
@@ -1375,7 +1457,7 @@ brands:
   codes:
   - code: RUNNINGLONG30
     offer: 30% off
-    podcasts: &69
+    podcasts: &76
     - podcast_title: Running long - A trail & ultra running talk
       podcast_page_url: "/running-long-a-trail-ultra-running-talk/"
       podcast_slug: running-long-a-trail-ultra-running-talk
@@ -1391,7 +1473,7 @@ brands:
   - podcast_title: Road to the Trials
     podcast_page_url: "/road-to-the-trials/"
     podcast_slug: road-to-the-trials
-    episode_count: 11
+    episode_count: 10
     latest_episode_title: 'Annie Frisbie: A 2:22 Breakthrough and Another Boston Masterclass'
     latest_episode_page_url: "/road-to-the-trials/annie-frisbie-a-2-22-breakthrough-and-another-boston-masterclass/"
     latest_published_at: '2026-06-18T07:00:00+00:00'
@@ -1405,18 +1487,18 @@ brands:
   codes:
   - code: TRIALS28
     offer:
-    podcasts: &70
+    podcasts: &77
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
-      episode_count: 11
+      episode_count: 10
       latest_episode_title: 'Annie Frisbie: A 2:22 Breakthrough and Another Boston Masterclass'
       latest_episode_page_url: "/road-to-the-trials/annie-frisbie-a-2-22-breakthrough-and-another-boston-masterclass/"
       latest_published_at: '2026-06-18T07:00:00+00:00'
     podcast_count: 1
   - code: WAHOOULTRA
     offer:
-    podcasts: &71
+    podcasts: &78
     - podcast_title: The Buzz
       podcast_page_url: "/the-buzz/"
       podcast_slug: the-buzz
@@ -1426,29 +1508,6 @@ brands:
       latest_published_at: '2026-03-10T13:59:00+00:00'
     podcast_count: 1
   podcast_count: 2
-- brand: Wild Strides Paper Co.
-  brand_key: wild strides paper co
-  podcasts:
-  - podcast_title: The Sub Hub
-    podcast_page_url: "/the-sub-hub/"
-    podcast_slug: the-sub-hub
-    episode_count: 21
-    latest_episode_title: Daniel Pattis - Men’s Lavaredo 50k CR, Zegama 2nd place, Brooks, and more
-    latest_episode_page_url: "/the-sub-hub/daniel-pattis-men-s-lavaredo-50k-cr-zegama-2nd-place-brooks-and-more/"
-    latest_published_at: '2026-07-18T06:05:27+00:00'
-  codes:
-  - code: SUBHUB15
-    offer: 15% off your purchase
-    podcasts: &72
-    - podcast_title: The Sub Hub
-      podcast_page_url: "/the-sub-hub/"
-      podcast_slug: the-sub-hub
-      episode_count: 21
-      latest_episode_title: Daniel Pattis - Men’s Lavaredo 50k CR, Zegama 2nd place, Brooks, and more
-      latest_episode_page_url: "/the-sub-hub/daniel-pattis-men-s-lavaredo-50k-cr-zegama-2nd-place-brooks-and-more/"
-      latest_published_at: '2026-07-18T06:05:27+00:00'
-    podcast_count: 1
-  podcast_count: 1
 - brand: ZBiotics
   brand_key: zbiotics
   podcasts:
@@ -1462,7 +1521,7 @@ brands:
   codes:
   - code: TRIALS26
     offer: 15% off your first order
-    podcasts: &73
+    podcasts: &79
     - podcast_title: Road to the Trials
       podcast_page_url: "/road-to-the-trials/"
       podcast_slug: road-to-the-trials
@@ -1509,34 +1568,34 @@ entries:
   offer: 20% off your purchase
   podcasts: *6
   podcast_count: 1
-- brand: Bon Charge
-  brand_key: bon charge
-  code: SALLY
-  offer:
-  podcasts: *7
-  podcast_count: 1
 - brand: Boulderthon
   brand_key: boulderthon
   code: FTLR20
   offer: "$20 off the marathon or half marathon when you register at www"
-  podcasts: *8
+  podcasts: *7
   podcast_count: 1
 - brand: Boulderthon
   brand_key: boulderthon
   code: FTLR2026
   offer: "$20 off the marathon or half marathon when you register at www"
-  podcasts: *9
+  podcasts: *8
   podcast_count: 1
-- brand: Centurion Running
-  brand_key: centurion running
-  code: PODCAST10
-  offer: 10% off
-  podcasts: *10
+- brand: Cirque Series
+  brand_key: cirque series
+  code: SUBHUB15
+  offer: 15% off your purchase
+  podcasts: *9
   podcast_count: 1
 - brand: Cirque Series
   brand_key: cirque series
   code: SUBHUB25
   offer: 25% off your purchase
+  podcasts: *10
+  podcast_count: 1
+- brand: Cirque Series
+  brand_key: cirque series
+  code: THESUBHUBP10
+  offer: "$25 off your purchase of an hdrop device \U0001F308 Wild Strides Paper Co"
   podcasts: *11
   podcast_count: 1
 - brand: CORE 2 Body Temperature Sensor
@@ -1545,15 +1604,15 @@ entries:
   offer: 10% off
   podcasts: *12
   podcast_count: 1
-- brand: every month after with an active
-  brand_key: every month after with an active
-  code: MORGAN20
-  offer: 25% off
-  podcasts: *13
-  podcast_count: 1
 - brand: Fast Pickle
   brand_key: fast pickle
   code: BETWEENTWOPICKLES20
+  offer: 20% off
+  podcasts: *13
+  podcast_count: 1
+- brand: Feisty
+  brand_key: feisty
+  code: FEISTY2026
   offer: 20% off
   podcasts: *14
   podcast_count: 1
@@ -1565,353 +1624,389 @@ entries:
   podcast_count: 1
 - brand: Function Health
   brand_key: function health
+  code: FLO10
+  offer: 10% off
+  podcasts: *16
+  podcast_count: 1
+- brand: Function Health
+  brand_key: function health
   code: FLORIS100
   offer:
-  podcasts: *16
+  podcasts: *17
   podcast_count: 1
 - brand: Go Brewing
   brand_key: go brewing
   code: FTLR2026
   offer: 20% off your first order
-  podcasts: *17
+  podcasts: *18
   podcast_count: 1
 - brand: Good Ranchers
   brand_key: good ranchers
   code: DISTANCE
   offer:
-  podcasts: *18
+  podcasts: *19
   podcast_count: 1
 - brand: Good Ranchers
   brand_key: good ranchers
   code: IRON
-  offer: Save $25 on your first order, plus receive a free protein of your choice
-  podcasts: *19
+  offer: "$25 off plus a free protein each month"
+  podcasts: *20
   podcast_count: 3
+- brand: half marathons
+  brand_key: half marathons
+  code: FTLR2026
+  offer: "$20 off the marathon or half marathon when you register at www"
+  podcasts: *21
+  podcast_count: 1
 - brand: Heavenly Heat Saunas
   brand_key: heavenly heat saunas
   code: FLO
   offer: 6% off
-  podcasts: *20
+  podcasts: *22
+  podcast_count: 1
+- brand: Injinji
+  brand_key: injinji
+  code: FEISTY2026
+  offer: 20% off
+  podcasts: *23
   podcast_count: 1
 - brand: Intrepid Camp Gear
   brand_key: intrepid camp gear
   code: BOULDERBOYS
   offer: 10% off
-  podcasts: *21
-  podcast_count: 1
-- brand: iRestore
-  brand_key: irestore
-  code: SALLY
-  offer:
-  podcasts: *22
+  podcasts: *24
   podcast_count: 1
 - brand: iRestore
   brand_key: irestore
   code: STRONG
   offer: 15% off
-  podcasts: *23
+  podcasts: *25
   podcast_count: 1
 - brand: Janji
   brand_key: janji
   code: BTP10
   offer: 10% off
-  podcasts: *24
-  podcast_count: 1
-- brand: Janji
-  brand_key: janji
-  code: CHOOSESTRONG
-  offer: 10% off
-  podcasts: *25
-  podcast_count: 1
-- brand: Janji
-  brand_key: janji
-  code: DISTANCE
-  offer:
   podcasts: *26
   podcast_count: 1
 - brand: Janji
   brand_key: janji
-  code: ULTRADIRTBAG20
+  code: CHOOSESTRONG
   offer: 10% off
   podcasts: *27
   podcast_count: 1
 - brand: Janji
   brand_key: janji
+  code: DISTANCE
+  offer:
+  podcasts: *28
+  podcast_count: 1
+- brand: Janji
+  brand_key: janji
+  code: ULTRADIRTBAG20
+  offer: 10% off
+  podcasts: *29
+  podcast_count: 1
+- brand: Janji
+  brand_key: janji
   code: USIGNUP10
   offer: 10% off
-  podcasts: *28
+  podcasts: *30
   podcast_count: 1
 - brand: Kava Haven
   brand_key: kava haven
   code: ROADOFTHETRIALS15
   offer: 15% off your first order
-  podcasts: *29
+  podcasts: *31
   podcast_count: 1
 - brand: Kava Haven
   brand_key: kava haven
   code: ROADTOTHETRIALS15
   offer: 15% off your first order
-  podcasts: *30
+  podcasts: *32
   podcast_count: 1
 - brand: Kava Haven
   brand_key: kava haven
   code: ROADTOTRIALS15
   offer: 15% off your first order
-  podcasts: *31
+  podcasts: *33
   podcast_count: 1
 - brand: Ketone-IQ
   brand_key: ketone iq
   code: FREETRAIL30
-  offer: 25% off your first order
-  podcasts: *32
+  offer:
+  podcasts: *34
   podcast_count: 1
 - brand: Lagoon Sleep
   brand_key: lagoon sleep
   code: CHOOSESTRONG
   offer: 15% off
-  podcasts: *33
+  podcasts: *35
   podcast_count: 1
 - brand: Lagoon Sleep
   brand_key: lagoon sleep
   code: NOBODYASKEDUS
   offer: 15% off
-  podcasts: *34
+  podcasts: *36
   podcast_count: 1
 - brand: Lagoon Sleep
   brand_key: lagoon sleep
   code: SALLY
   offer: 50% off
-  podcasts: *35
+  podcasts: *37
   podcast_count: 1
 - brand: Lever Movement
   brand_key: lever movement
   code: NOBODYASKEDUS
   offer: 20% off
-  podcasts: *36
+  podcasts: *38
   podcast_count: 1
 - brand: Maurten
   brand_key: maurten
   code: ULTRASOUND20
   offer: 20% off
-  podcasts: *37
+  podcasts: *39
   podcast_count: 1
 - brand: Mount to Coast
   brand_key: mount to coast
   code: CHOOSESTRONG
   offer:
-  podcasts: *38
+  podcasts: *40
   podcast_count: 1
 - brand: Mount to Coast
   brand_key: mount to coast
   code: DISTANCE
   offer:
-  podcasts: *39
+  podcasts: *41
   podcast_count: 1
 - brand: Mount to Coast
   brand_key: mount to coast
   code: FTLR
   offer: 10% off
-  podcasts: *40
+  podcasts: *42
+  podcast_count: 1
+- brand: Mount to Coast
+  brand_key: mount to coast
+  code: FTLR2026
+  offer: "$20 off the marathon or half marathon when you register at www"
+  podcasts: *43
   podcast_count: 1
 - brand: Mount to Coast
   brand_key: mount to coast
   code: STRONG
   offer: "$35 off your first box of wild-caught, sustainable seafood—delivered"
-  podcasts: *41
+  podcasts: *44
   podcast_count: 1
 - brand: MUD\WTR
   brand_key: mud wtr
-  code: STRONG
-  offer: 43% off
-  podcasts: *42
+  code: CHOOSESTRONG
+  offer: 15% off
+  podcasts: *45
   podcast_count: 1
 - brand: Neversecond
   brand_key: neversecond
   code: FREETRAIL25
   offer: 25% off your first order
-  podcasts: *43
+  podcasts: *46
+  podcast_count: 1
+- brand: Neversecond
+  brand_key: neversecond
+  code: FREETRAIL30
+  offer: 25% off your first order
+  podcasts: *47
   podcast_count: 1
 - brand: OLIPOP
   brand_key: olipop
   code: CITIUS25
   offer: 25% off your order
-  podcasts: *44
+  podcasts: *48
+  podcast_count: 1
+- brand: Open Fuel
+  brand_key: open fuel
+  code: WOD15
+  offer: 15% off your order
+  podcasts: *49
+  podcast_count: 1
+- brand: PF&H collection at store
+  brand_key: pf h collection at store
+  code: PODCAST10
+  offer: 10% off
+  podcasts: *50
+  podcast_count: 1
+- brand: Phos Performance
+  brand_key: phos performance
+  code: MORGAN20
+  offer: 50% off your first month and 25% off every month after
+  podcasts: *51
   podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   code: FTLR2026
-  offer: 15% off your first order
-  podcasts: *45
+  offer: "$20 off the marathon or half marathon when you register at www"
+  podcasts: *52
   podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   code: IRP2026
   offer: 15% off
-  podcasts: *46
+  podcasts: *53
   podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   code: LONGRUN26
   offer: 15% off your order
-  podcasts: *47
+  podcasts: *54
   podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   code: PODCAST10
   offer: 10% off
-  podcasts: *48
+  podcasts: *55
   podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   code: SINGLETRACK
   offer: 15% off
-  podcasts: *49
+  podcasts: *56
   podcast_count: 1
 - brand: Precision Fuel & Hydration
   brand_key: precision fuel hydration
   code: TRIALS26
   offer: 15% off
-  podcasts: *50
+  podcasts: *57
   podcast_count: 1
-- brand: Probio Nutrition
-  brand_key: probio nutrition
-  code: TRAIL20
+- brand: Precision Fuel & Hydration
+  brand_key: precision fuel hydration
+  code: TRIALS28
   offer:
-  podcasts: *51
+  podcasts: *58
   podcast_count: 1
 - brand: rabbit
   brand_key: rabbit
   code: FEBTRAIL
   offer: 10% off
-  podcasts: *52
+  podcasts: *59
   podcast_count: 1
 - brand: rabbit
   brand_key: rabbit
   code: JULYTRAIL10
   offer: 10% off
-  podcasts: *53
+  podcasts: *60
   podcast_count: 1
 - brand: rabbit
   brand_key: rabbit
   code: TSMARCH
   offer: 10% off
-  podcasts: *54
+  podcasts: *61
   podcast_count: 1
 - brand: Run in rabbit
   brand_key: run in rabbit
   code: FEBTRAIL
   offer: 10% off
-  podcasts: *55
+  podcasts: *62
+  podcast_count: 1
+- brand: Run in rabbit
+  brand_key: run in rabbit
+  code: TRAIL20
+  offer:
+  podcasts: *63
   podcast_count: 1
 - brand: Run in rabbit
   brand_key: run in rabbit
   code: TSMARCH
   offer: 10% off
-  podcasts: *56
+  podcasts: *64
   podcast_count: 1
 - brand: Runtraillife
   brand_key: runtraillife
   code: MIDPACKERPOD
   offer: 20% off
-  podcasts: *57
+  podcasts: *65
   podcast_count: 1
 - brand: Saily
   brand_key: saily
   code: INSIDERUNNING
   offer:
-  podcasts: *58
+  podcasts: *66
   podcast_count: 1
 - brand: Shokz
   brand_key: shokz
   code: IRP15
   offer: 32% off
-  podcasts: *59
+  podcasts: *67
   podcast_count: 1
 - brand: Strava
   brand_key: strava
   code: TRIALS28
   offer:
-  podcasts: *60
+  podcasts: *68
   podcast_count: 1
 - brand: Summit Roasters
   brand_key: summit roasters
   code: WOD15
   offer: 15% off your order
-  podcasts: *61
-  podcast_count: 1
-- brand: Tifosi Optics
-  brand_key: tifosi optics
-  code: FEISTY2026
-  offer: 20% off
-  podcasts: *62
+  podcasts: *69
   podcast_count: 1
 - brand: Tifosi Optics
   brand_key: tifosi optics
   code: FTLR2026
   offer: Save 20% on your order
-  podcasts: *63
+  podcasts: *70
   podcast_count: 1
 - brand: True Nutrition
   brand_key: true nutrition
   code: TRNSUMMER
   offer: 25% off
-  podcasts: *64
+  podcasts: *71
   podcast_count: 1
 - brand: Vacation Races
   brand_key: vacation races
   code: FEISTY2026
   offer: 20% off
-  podcasts: *65
+  podcasts: *72
   podcast_count: 1
 - brand: Vacation Races
   brand_key: vacation races
   code: FTLR
   offer:
-  podcasts: *66
+  podcasts: *73
   podcast_count: 1
 - brand: Vacation Races
   brand_key: vacation races
   code: TRAIL20
   offer: 15% off
-  podcasts: *67
+  podcasts: *74
   podcast_count: 1
 - brand: Vacation Races
   brand_key: vacation races
   code: TRAILSOCIETY
   offer: 20% off
-  podcasts: *68
+  podcasts: *75
   podcast_count: 1
 - brand: Vert.run
   brand_key: vert run
   code: RUNNINGLONG30
   offer: 30% off
-  podcasts: *69
+  podcasts: *76
   podcast_count: 1
 - brand: Wahoo
   brand_key: wahoo
   code: TRIALS28
   offer:
-  podcasts: *70
+  podcasts: *77
   podcast_count: 1
 - brand: Wahoo
   brand_key: wahoo
   code: WAHOOULTRA
   offer:
-  podcasts: *71
-  podcast_count: 1
-- brand: Wild Strides Paper Co.
-  brand_key: wild strides paper co
-  code: SUBHUB15
-  offer: 15% off your purchase
-  podcasts: *72
+  podcasts: *78
   podcast_count: 1
 - brand: ZBiotics
   brand_key: zbiotics
   code: TRIALS26
   offer: 15% off your first order
-  podcasts: *73
+  podcasts: *79
   podcast_count: 1
 stats:
   brand_count: 44
-  code_count: 73
-  mention_count: 465
+  code_count: 79
+  mention_count: 444

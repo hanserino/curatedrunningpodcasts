@@ -127,6 +127,19 @@ module PromoCodes
     \s*[-–—:]\s*
     ([^.!\n<]{2,60})
   /ix.freeze
+  EPISODE_WAS_SPONSORED_BY_RX = /
+    (?:this\s+)?episode\s+was\s+sponsored\s+by\s+
+    ([^.!\n<]{2,60})
+  /ix.freeze
+  SUBSCRIPTION_OFFER_RX = /
+    (?:get\s+)?
+    \d{1,3}%\s*off\s+your\s+first\s+month\s+and\s+\d{1,3}%\s*off\s+every\s+month\s+after
+    (?:\s+with\s+an\s+active\s+subscription)?
+  /ix.freeze
+  OFFER_BRAND_FRAGMENT_RX = /
+    \A(?:every|each|month|after|with\s+an\s+active|first\s+month|your\s+first)
+    |\bevery\s+month\s+after\b
+  /ix.freeze
   GET_YOUR_PRODUCT_RX = /
     get\s+your\s+
     ([^.!\n<]{2,60}?)
@@ -291,6 +304,7 @@ module PromoCodes
     [/hdrop/i, "hDrop"],
     [/dirtbag\s*bars?/i, "Dirtbag Bars"],
     [/centurion/i, "Centurion Running"],
+    [/\bphos(?:\s+performance)?\b/i, "Phos Performance"],
     [/\bcitius(?:\s+mag)?\b/i, "CITIUS MAG"],
     [/momentous|livemomentous/i, "Momentous"],
     [/mount\s*to\s*coast/i, "Mount to Coast"],
@@ -404,7 +418,8 @@ module PromoCodes
     end
     if (match = text.match(BRAND_IN_OFFER_RX))
       candidate = match[1].to_s
-      unless candidate.match?(/\b(?:with|use)\s+(?:the\s+)?code\b/i)
+      unless candidate.match?(/\b(?:with|use)\s+(?:the\s+)?code\b/i) ||
+             candidate.match?(OFFER_BRAND_FRAGMENT_RX)
         finalized = finalize_product_name(candidate, extract_domains(text))
         candidates << finalized if finalized && plausible_product_name?(finalized)
       end
@@ -544,7 +559,8 @@ module PromoCodes
   def canonical_product(name, domains, context: nil)
     if context
       domains_for_context = sponsor_domains(extract_domains(context.to_s))
-      offer_brand = brand_from_trying_product(context) ||
+      offer_brand = brand_from_episode_was_sponsored(context) ||
+                    brand_from_trying_product(context) ||
                     brand_from_code_at_domain(context) ||
                     brand_from_product_in_offer(context) ||
                     brand_from_leading_label(context)
@@ -649,6 +665,13 @@ module PromoCodes
   def extract_offer(context)
     text = context.to_s.gsub(/\s+/, " ").strip
 
+    if (match = text.match(SUBSCRIPTION_OFFER_RX))
+      offer = match[0].to_s.gsub(/\s+/, " ").strip
+      offer = offer.sub(/\Aget\s+/i, "")
+      offer = offer.sub(/\s+with\s+an\s+active\s+subscription\z/i, "")
+      return offer
+    end
+
     OFFER_PATTERNS.each do |pattern|
       match = text.match(pattern)
       next unless match
@@ -744,6 +767,22 @@ module PromoCodes
     blocks
   end
 
+  def combined_show_notes(plain, html)
+    sanitize_show_notes("#{plain} #{CGI.unescapeHTML(html.to_s.gsub(/<[^>]+>/, ' '))}")
+  end
+
+  def sponsor_context_before_code(plain, html, index)
+    combined = combined_show_notes(plain, html)
+    before = combined[0, index.to_i] || ""
+    return "" if before.empty?
+
+    if (match = before.match(/(?:(?:this\s+)?episode\s+was\s+sponsored\s+by|sponsored\s+by|brought\s+to\s+you\s+by|presented\s+by)[\s\S]{0,500}$/i))
+      return match[0].strip
+    end
+
+    context_before_code(combined, index, 350)
+  end
+
   def context_for_code(plain, html, code)
     index = plain.index(/#{Regexp.escape(code)}/i) ||
             html.index(/#{Regexp.escape(code)}/i) ||
@@ -751,10 +790,23 @@ module PromoCodes
             html.index(%r{ketone\.com/#{Regexp.escape(code)}}i) ||
             0
     line_context = sponsor_line_for_code(plain, code)
-    combined = "#{plain} #{CGI.unescapeHTML(html.gsub(/<[^>]+>/, ' '))}"
+    combined = combined_show_notes(plain, html)
+    sponsor_context = sponsor_context_before_code(plain, html, index)
     context = context_around(combined, index)
-    brand_context = line_context.length >= 12 ? line_context : context_before_code(combined, index)
-    offer_context = line_context.length >= 12 ? line_context : context
+    brand_context = if sponsor_context.length >= 20
+                      sponsor_context
+                    elsif line_context.length >= 12
+                      line_context
+                    else
+                      context_before_code(combined, index)
+                    end
+    offer_context = if sponsor_context.match?(SUBSCRIPTION_OFFER_RX)
+                      sponsor_context
+                    elsif line_context.length >= 12
+                      line_context
+                    else
+                      context
+                    end
     [brand_context, offer_context, index]
   end
 
@@ -878,6 +930,13 @@ module PromoCodes
     clean_brand_name(match[1])
   end
 
+  def brand_from_episode_was_sponsored(context)
+    match = sanitize_show_notes(context).match(EPISODE_WAS_SPONSORED_BY_RX)
+    return nil unless match
+
+    clean_brand_name(match[1])
+  end
+
   def brand_from_get_your_product(context)
     match = context.match(GET_YOUR_PRODUCT_RX)
     return nil unless match
@@ -968,7 +1027,8 @@ module PromoCodes
   def infer_brand(html, plain, code, context)
     sanitized_context = sanitize_show_notes(context)
 
-    brand_from_trying_product(sanitized_context) ||
+    brand_from_episode_was_sponsored(sanitized_context) ||
+      brand_from_trying_product(sanitized_context) ||
       brand_from_code_at_domain(sanitized_context) ||
       brand_from_with_code(sanitized_context, code) ||
       brand_from_and_use_code(sanitized_context, code) ||
