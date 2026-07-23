@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-23T07:55:43Z'
+generated_at: '2026-07-23T08:59:51Z'
 items:
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
@@ -806,6 +806,30 @@ non_running_items:
   episode_key: kajsa-ollongren
   episode_slug: kajsa-ollongren
   episode_page_url: "/sommar-vinter-i-p1/kajsa-ollongren/"
+- podcast_title: My First Million
+  podcast_page_url: "/my-first-million/"
+  cover_image: "/media/myfirstmillion.jpeg"
+  feed_url: https://feeds.megaphone.fm/HS2300184645
+  filter_category: uncategorized english
+  episode_title: The $150B dollar business hiding in plain sight
+  episode_url: ''
+  audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS3371361063.mp3
+  published_at: '2026-07-23T08:00:00Z'
+  episode_key: the-150b-dollar-business-hiding-in-plain-sight
+  episode_slug: the-150b-dollar-business-hiding-in-plain-sight
+  episode_page_url: "/my-first-million/the-150b-dollar-business-hiding-in-plain-sight/"
+- podcast_title: Huberman Lab
+  podcast_page_url: "/huberman-lab/"
+  cover_image: "/media/huberman.jpeg"
+  feed_url: https://feeds.megaphone.fm/hubermanlab
+  filter_category: uncategorized english
+  episode_title: 'Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris'
+  episode_url: https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris
+  audio_url: https://traffic.megaphone.fm/SCIM7293799235.mp3
+  published_at: '2026-07-23T08:00:00Z'
+  episode_key: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
+  episode_slug: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
+  episode_page_url: "/huberman-lab/essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris/"
 - podcast_title: How I Built This
   podcast_page_url: "/how-i-built-this/"
   cover_image: "/media/howibuiltthis.jpeg"
@@ -974,18 +998,6 @@ non_running_items:
   episode_key: china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift
   episode_slug: china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift
   episode_page_url: "/pivot/china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift/"
-- podcast_title: My First Million
-  podcast_page_url: "/my-first-million/"
-  cover_image: "/media/myfirstmillion.jpeg"
-  feed_url: https://feeds.megaphone.fm/HS2300184645
-  filter_category: uncategorized english
-  episode_title: I spent 24hrs with a blue collar millionaire
-  episode_url: ''
-  audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS6226616717.mp3
-  published_at: '2026-07-21T09:00:00Z'
-  episode_key: i-spent-24hrs-with-a-blue-collar-millionaire
-  episode_slug: i-spent-24hrs-with-a-blue-collar-millionaire
-  episode_page_url: "/my-first-million/i-spent-24hrs-with-a-blue-collar-millionaire/"
 - podcast_title: Pablo Torre Finds Out
   podcast_page_url: "/pablo-torre-finds-out/"
   cover_image: "/media/pablotorre.jpeg"
@@ -1010,18 +1022,6 @@ non_running_items:
   episode_key: that-s-a-totally-normal-thing-to-say-trivia-extravaganza-2026
   episode_slug: that-s-a-totally-normal-thing-to-say-trivia-extravaganza-2026
   episode_page_url: "/waveform-the-mkbhd-podcast/that-s-a-totally-normal-thing-to-say-trivia-extravaganza-2026/"
-- podcast_title: Huberman Lab
-  podcast_page_url: "/huberman-lab/"
-  cover_image: "/media/huberman.jpeg"
-  feed_url: https://feeds.megaphone.fm/hubermanlab
-  filter_category: uncategorized english
-  episode_title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
-  episode_url: https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood
-  audio_url: https://traffic.megaphone.fm/SCIM4201272551.mp3
-  published_at: '2026-07-20T08:00:00Z'
-  episode_key: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
-  episode_slug: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
-  episode_page_url: "/huberman-lab/accelerate-learning-increase-cognitive-capacity-dr-tommy-wood/"
 - podcast_title: Lenny's Podcast
   podcast_page_url: "/lennys-podcast/"
   cover_image: "/media/lennyspodcast.jpeg"
@@ -18669,6 +18669,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/forklart/kort-forklart-fotballspesial-na-venter-nytt-mote-med-brasil-men-var-de-bedre-for/"
   https://feeds.megaphone.fm/hubermanlab: &60
+  - episode_title: 'Essentials: Using Meditation to Focus, View Consciousness & Expand Your Mind | Dr. Sam Harris'
+    episode_url: https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris
+    audio_url: https://traffic.megaphone.fm/SCIM7293799235.mp3
+    published_at: '2026-07-23T08:00:00Z'
+    description_html: '<p>In this <a href="https://www.hubermanlab.com/essentials">Huberman Lab Essentials</a> episode, my guest is Dr. Sam Harris, PhD, a neuroscientist, bestselling author, and world-renowned meditation teacher whose work focuses on consciousness, ethics, and religion. We discuss how meditation can help us better understand the nature of the self and transform the conscious experience. Sam also explains how meditation can help overcome universal challenges such as distractibility, mental chatter and emotional reactivity, which can allow for greater focus and fulfillment in the present moment.</p><p>Read the episode show notes at <a href="https://www.hubermanlab.com/episode/essentials-using-meditation-to-focus-view-consciousness-and-expand-your-mind-sam-harris">hubermanlab.com</a>.</p><p><strong>Thank you to our sponsors</strong></p><p>AG1: <a href="https://drinkag1.com/huberman">https://drinkag1.com/huberman</a></p><p>Eight Sleep: <a href="https://eightsleep.com/huberman">https://eightsleep.com/huberman</a></p><p>Waking Up: <a href="https://wakingup.com/huberman">https://wakingup.com/huberman</a></p><p><strong>Timestamps</strong></p><p>(00:00:00) Sam Harris</p><p>(00:00:21) Sense of Self, Meditation Purpose; Flow</p><p>(00:08:37) Sponsor: Eight Sleep</p><p>(00:09:55) Self Awareness, Self-Talk &amp; Mental Chatter</p><p>(00:14:44) Mindfulness, Distractibility</p><p>(00:19:55) Sponsor: Waking Up</p><p>(00:21:30) Meditation, Benefits, "Sky-like Mind"; States of Self</p><p>(00:27:33) Meditation Practice, Mindfulness &amp; Freedom</p><p>(00:30:17) Psychedelics, Consciousness</p><p>(00:34:15) Sponsor: AG1</p><p>(00:35:34) Process vs Achieving Goals, Fulfillment in Present</p><p><a href="https://www.hubermanlab.com/disclaimer">Disclaimer &amp; Disclosures</a></p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>'
+    description_plain: 'In this Huberman Lab Essentials episode, my guest is Dr. Sam Harris, PhD, a neuroscientist, bestselling author, and world-renowned meditation teacher whose work focuses on consciousness, ethics, and religion. We discuss how meditation can help us better understand the nature of the self and transform the conscious experience. Sam also explains how meditation can help overcome universal challenges such as distractibility, mental chatter and emotional reactivity, which can allow for greater focus and fulfillment in the present moment. Read the episode show notes at hubermanlab.com . Thank you to our sponsors AG1: https://drinkag1.com/huberman Eight Sleep: https://eightsleep.com/huberman Waking Up: https://wakingup.com/huberman Timestamps (00:00:00) Sam Harris (00:00:21) Sense of Self, Meditation Purpose; Flow (00:08:37) Sponsor: Eight Sleep (00:09:55) Self Awareness, Self-Talk &amp; Mental Chatter (00:14:44) Mindfulness, Distractibility (00:19:55) Sponsor: Waking Up (00:21:30) Meditation, Benefits, "Sky-like Mind"; States of Self (00:27:33) Meditation Practice, Mindfulness &amp; Freedom (00:30:17) Psychedelics, Consciousness (00:34:15) Sponsor: AG1 (00:35:34) Process vs Achieving Goals, Fulfillment in Present Disclaimer &amp; Disclosures Learn more about your ad choices. Visit megaphone.fm/adchoices'
+    episode_image_url: https://megaphone.imgix.net/podcasts/4cce45d0-8650-11f1-bfef-b3259654b6b2/image/c939ff80ce31857dd7c3855498b342f4.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress
+    episode_uid: 4cce45d0-8650-11f1-bfef-b3259654b6b2
+    episode_slug: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
+    episode_key: essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/huberman-lab/essentials-using-meditation-to-focus-view-consciousness-expand-your-mind-dr-sam-harris/"
   - episode_title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
     episode_url: https://www.hubermanlab.com/episode/accelerate-learning-and-increase-cognitive-capacity-tommy-wood
     audio_url: https://traffic.megaphone.fm/SCIM4201272551.mp3
@@ -18679,7 +18691,7 @@ episodes_by_feed:
     episode_uid: 8e4c082a-83e0-11f1-afd8-cbd1b539c5b4
     episode_slug: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
     episode_key: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/huberman-lab/accelerate-learning-increase-cognitive-capacity-dr-tommy-wood/"
   - episode_title: 'Essentials: The Science & Treatment of Bipolar Disorder'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-bipolar-disorder
@@ -18691,7 +18703,7 @@ episodes_by_feed:
     episode_uid: e614eff6-80d7-11f1-a215-df69293e9c50
     episode_slug: essentials-the-science-treatment-of-bipolar-disorder
     episode_key: essentials-the-science-treatment-of-bipolar-disorder
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/huberman-lab/essentials-the-science-treatment-of-bipolar-disorder/"
   - episode_title: How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel
     episode_url: https://www.hubermanlab.com/episode/how-to-improve-your-memory-and-cognitive-function-at-any-age-alan-castel
@@ -18703,7 +18715,7 @@ episodes_by_feed:
     episode_uid: 0a5ad55a-7e72-11f1-a40f-6b63a7775e54
     episode_slug: how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel
     episode_key: how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/huberman-lab/how-to-improve-your-memory-cognitive-function-at-any-age-dr-alan-castel/"
   - episode_title: 'Essentials: The Science & Treatment of Obsessive Compulsive Disorder (OCD)'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-treatment-of-obsessive-compulsive-disorder
@@ -18715,7 +18727,7 @@ episodes_by_feed:
     episode_uid: 4770a1ce-7b55-11f1-b552-7395758b62d8
     episode_slug: essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd
     episode_key: essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/huberman-lab/essentials-the-science-treatment-of-obsessive-compulsive-disorder-ocd/"
   - episode_title: Raising a Dog & Mastering Calm Assertive Energy | Cesar Millan
     episode_url: https://www.hubermanlab.com/episode/raising-a-dog-and-mastering-calm-assertive-energy-cesar-millan
@@ -18727,7 +18739,7 @@ episodes_by_feed:
     episode_uid: 83991e1e-78f9-11f1-bfc9-d73c9dfa501c
     episode_slug: raising-a-dog-mastering-calm-assertive-energy-cesar-millan
     episode_key: raising-a-dog-mastering-calm-assertive-energy-cesar-millan
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/huberman-lab/raising-a-dog-mastering-calm-assertive-energy-cesar-millan/"
   - episode_title: 'Essentials: Tools for Hormone Optimization in Males | Dr. Kyle Gillett'
     episode_url: https://www.hubermanlab.com/episode/essentials-tools-for-hormone-optimization-in-males-kyle-gillett
@@ -18739,7 +18751,7 @@ episodes_by_feed:
     episode_uid: 3447d81e-75d4-11f1-bdd9-fff21f539a49
     episode_slug: essentials-tools-for-hormone-optimization-in-males-dr-kyle-gillett
     episode_key: essentials-tools-for-hormone-optimization-in-males-dr-kyle-gillett
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/huberman-lab/essentials-tools-for-hormone-optimization-in-males-dr-kyle-gillett/"
   - episode_title: Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal
     episode_url: https://www.hubermanlab.com/episode/movement-practice-to-strengthen-your-mind-body-connection-ido-portal
@@ -18751,7 +18763,7 @@ episodes_by_feed:
     episode_uid: fa3d1314-7362-11f1-a179-677e57742768
     episode_slug: movement-practice-to-strengthen-your-mind-body-connection-ido-portal
     episode_key: movement-practice-to-strengthen-your-mind-body-connection-ido-portal
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/huberman-lab/movement-practice-to-strengthen-your-mind-body-connection-ido-portal/"
   - episode_title: 'Essentials: The Science of Eating for Health, Fat Loss & Lean Muscle | Dr. Layne Norton'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-of-eating-for-health-fat-loss-and-lean-muscle-layne-norton
@@ -18763,7 +18775,7 @@ episodes_by_feed:
     episode_uid: c53f0060-7041-11f1-8287-d3035b745a86
     episode_slug: essentials-the-science-of-eating-for-health-fat-loss-lean-muscle-dr-layne-norton
     episode_key: essentials-the-science-of-eating-for-health-fat-loss-lean-muscle-dr-layne-norton
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/huberman-lab/essentials-the-science-of-eating-for-health-fat-loss-lean-muscle-dr-layne-norton/"
   - episode_title: Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick
     episode_url: https://www.hubermanlab.com/episode/science-of-attraction-compatibility-and-romance-dr-paul-eastwick
@@ -18775,7 +18787,7 @@ episodes_by_feed:
     episode_uid: de50ed7a-6dfd-11f1-8316-4bc06a8aa415
     episode_slug: science-of-attraction-compatibility-romance-dr-paul-eastwick
     episode_key: science-of-attraction-compatibility-romance-dr-paul-eastwick
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/huberman-lab/science-of-attraction-compatibility-romance-dr-paul-eastwick/"
   - episode_title: 'Essentials: Improve Flexibility with Research-Supported Stretching Protocols'
     episode_url: https://www.hubermanlab.com/episode/essentials-improve-flexibility-with-research-supported-stretching-protocols
@@ -18787,7 +18799,7 @@ episodes_by_feed:
     episode_uid: 3b42bd84-6a51-11f1-b442-0f78f81b3455
     episode_slug: essentials-improve-flexibility-with-research-supported-stretching-protocols
     episode_key: essentials-improve-flexibility-with-research-supported-stretching-protocols
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/huberman-lab/essentials-improve-flexibility-with-research-supported-stretching-protocols/"
   - episode_title: The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf
     episode_url: ''
@@ -18801,7 +18813,7 @@ episodes_by_feed:
     episode_uid: 84659344-6563-11f1-a849-0b2be3348f8d
     episode_slug: the-mental-frame-specific-daily-actions-to-succeed-andy-stumpf
     episode_key: the-mental-frame-specific-daily-actions-to-succeed-andy-stumpf
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/huberman-lab/the-mental-frame-specific-daily-actions-to-succeed-andy-stumpf/"
   - episode_title: 'Essentials: Sleep Toolkit for Optimizing Sleep & Sleep-Wake Timing'
     episode_url: https://www.hubermanlab.com/episode/essentials-sleep-toolkit-for-optimizing-sleep-and-sleep-wake-timing
@@ -18813,7 +18825,7 @@ episodes_by_feed:
     episode_uid: f70fb0f4-64b5-11f1-a007-8f725da7d012
     episode_slug: essentials-sleep-toolkit-for-optimizing-sleep-sleep-wake-timing
     episode_key: essentials-sleep-toolkit-for-optimizing-sleep-sleep-wake-timing
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/huberman-lab/essentials-sleep-toolkit-for-optimizing-sleep-sleep-wake-timing/"
   - episode_title: Eating for Better Sleep & Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge
     episode_url: https://www.hubermanlab.com/episode/eating-for-better-sleep-and-foods-that-improve-metabolic-health-marie-pierre-st-onge
@@ -18825,7 +18837,7 @@ episodes_by_feed:
     episode_uid: 541f4308-62c8-11f1-91f3-dbdc64ae390a
     episode_slug: eating-for-better-sleep-foods-that-improve-metabolic-health-dr-marie-pierre-st-onge
     episode_key: eating-for-better-sleep-foods-that-improve-metabolic-health-dr-marie-pierre-st-onge
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/huberman-lab/eating-for-better-sleep-foods-that-improve-metabolic-health-dr-marie-pierre-st-onge/"
   - episode_title: 'Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams'
     episode_url: https://www.hubermanlab.com/episode/essentials-psychedelics-neurostimulation-for-brain-rewiring-nolan-williams
@@ -18837,7 +18849,7 @@ episodes_by_feed:
     episode_uid: 2d042ec8-5fd0-11f1-a583-d34f98bf1200
     episode_slug: essentials-psychedelics-neurostimulation-for-brain-rewiring-dr-nolan-williams
     episode_key: essentials-psychedelics-neurostimulation-for-brain-rewiring-dr-nolan-williams
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/huberman-lab/essentials-psychedelics-neurostimulation-for-brain-rewiring-dr-nolan-williams/"
   - episode_title: 'Peptides: The Science, Uses & Safety | Dr. Abud Bakri'
     episode_url: https://www.hubermanlab.com/episode/peptides-the-science-uses-and-safety-abud-bakri
@@ -18849,7 +18861,7 @@ episodes_by_feed:
     episode_uid: 96b9863a-5d71-11f1-b345-0f1957d0ce33
     episode_slug: peptides-the-science-uses-safety-dr-abud-bakri
     episode_key: peptides-the-science-uses-safety-dr-abud-bakri
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/huberman-lab/peptides-the-science-uses-safety-dr-abud-bakri/"
   - episode_title: 'Essentials: The Science & Process of Healing from Grief'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-and-process-of-healing-from-grief
@@ -18861,7 +18873,7 @@ episodes_by_feed:
     episode_uid: 99e90962-5a5f-11f1-ba4d-eb43c61a17f9
     episode_slug: essentials-the-science-process-of-healing-from-grief
     episode_key: essentials-the-science-process-of-healing-from-grief
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/huberman-lab/essentials-the-science-process-of-healing-from-grief/"
   - episode_title: Build Muscle, Great Posture & Resilience to Injury | Jeff Cavaliere
     episode_url: https://www.hubermanlab.com/episode/build-muscle-great-posture-and-resilience-to-injury-jeff-cavaliere
@@ -18873,7 +18885,7 @@ episodes_by_feed:
     episode_uid: 486de24e-578d-11f1-ba69-6f7bd4573b0d
     episode_slug: build-muscle-great-posture-resilience-to-injury-jeff-cavaliere
     episode_key: build-muscle-great-posture-resilience-to-injury-jeff-cavaliere
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/huberman-lab/build-muscle-great-posture-resilience-to-injury-jeff-cavaliere/"
   - episode_title: 'Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang'
     episode_url: https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang
@@ -18885,7 +18897,7 @@ episodes_by_feed:
     episode_uid: 763cf880-54cd-11f1-873c-5798e0b960a6
     episode_slug: essentials-the-science-of-learning-speaking-languages-dr-eddie-chang
     episode_key: essentials-the-science-of-learning-speaking-languages-dr-eddie-chang
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/huberman-lab/essentials-the-science-of-learning-speaking-languages-dr-eddie-chang/"
   - episode_title: How to Overcome Social Anxiety | Dr. Nick Epley
     episode_url: https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley
@@ -18897,7 +18909,7 @@ episodes_by_feed:
     episode_uid: 95a58356-4f17-11f1-bc49-cfdf160a55ae
     episode_slug: how-to-overcome-social-anxiety-dr-nick-epley
     episode_key: how-to-overcome-social-anxiety-dr-nick-epley
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/huberman-lab/how-to-overcome-social-anxiety-dr-nick-epley/"
   - episode_title: 'Essentials: Understanding & Controlling Aggression'
     episode_url: https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression
@@ -18909,7 +18921,7 @@ episodes_by_feed:
     episode_uid: 2f4d884c-4f26-11f1-ba88-474650216222
     episode_slug: essentials-understanding-controlling-aggression
     episode_key: essentials-understanding-controlling-aggression
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/huberman-lab/essentials-understanding-controlling-aggression/"
   - episode_title: Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita
     episode_url: https://www.hubermanlab.com/episode/master-self-control-overcome-procrastination-kentaro-fujita
@@ -18921,7 +18933,7 @@ episodes_by_feed:
     episode_uid: '09353758-4cf2-11f1-bfe6-7be31117ba20'
     episode_slug: master-self-control-overcome-procrastination-dr-kentaro-fujita
     episode_key: master-self-control-overcome-procrastination-dr-kentaro-fujita
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/huberman-lab/master-self-control-overcome-procrastination-dr-kentaro-fujita/"
   - episode_title: 'Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern'
     episode_url: https://www.hubermanlab.com/episode/essentials-compulsive-behaviors-deep-brain-stimulation-casey-halpern
@@ -18933,7 +18945,7 @@ episodes_by_feed:
     episode_uid: 46facd70-496c-11f1-be87-afc03e1435f1
     episode_slug: essentials-compulsive-behaviors-deep-brain-stimulation-dr-casey-halpern
     episode_key: essentials-compulsive-behaviors-deep-brain-stimulation-dr-casey-halpern
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/huberman-lab/essentials-compulsive-behaviors-deep-brain-stimulation-dr-casey-halpern/"
   - episode_title: Tools to Bolster Your Mental Health & Confidence | Dr. Paul Conti
     episode_url: ''
@@ -18945,7 +18957,7 @@ episodes_by_feed:
     episode_uid: c3a2dab6-475a-11f1-9ec4-4ff354be9c5e
     episode_slug: tools-to-bolster-your-mental-health-confidence-dr-paul-conti
     episode_key: tools-to-bolster-your-mental-health-confidence-dr-paul-conti
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/huberman-lab/tools-to-bolster-your-mental-health-confidence-dr-paul-conti/"
   - episode_title: 'Essentials: Control Sugar Cravings & Metabolism with Science-Based Tools'
     episode_url: https://www.hubermanlab.com/episode/essentials-control-sugar-cravings-and-metabolism-with-science-based-tools
@@ -18957,20 +18969,8 @@ episodes_by_feed:
     episode_uid: 996cb320-444e-11f1-9918-8b74615a3b82
     episode_slug: essentials-control-sugar-cravings-metabolism-with-science-based-tools
     episode_key: essentials-control-sugar-cravings-metabolism-with-science-based-tools
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/huberman-lab/essentials-control-sugar-cravings-metabolism-with-science-based-tools/"
-  - episode_title: Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway
-    episode_url: ''
-    audio_url: https://traffic.megaphone.fm/SCIM7501986841.mp3?updated=1777260985
-    published_at: '2026-04-27T08:00:00Z'
-    description_html: '<p>Scott Galloway is a professor of marketing at New York University''s Stern School of Business. We discuss masculine roles and obligations of past, present and future. We explore which are timeless and which are changing, and positive steps boys and men can take to create meaning and stability in their lives. We cover work, finances, health and relationships to build a grounded, purposeful life. We also discuss tech, social media, alcohol, cannabis and porn. Throughout, we emphasize specific daily practices for building mental, physical and economic resilience, compassion for others, and for navigating key life decisions in every realm.</p><p><strong>Thank you to our sponsors</strong></p><p>AG1:<a href="%20https://drinkag1.com/huberman"> https://drinkag1.com/huberman</a></p><p>David: <a href="https://davidprotein.com/huberman">https://davidprotein.com/huberman</a></p><p>Wealthfront*: <a href="https://wealthfront.com/huberman">https://wealthfront.com/huberman</a></p><p>Function: <a href="https://functionhealth.com/huberman">https://functionhealth.com/huberman</a></p><p>LMNT: <a href="https://drinklmnt.com/huberman">https://drinklmnt.com/huberman</a></p><p><strong>Timestamps</strong></p><p>(00:00:00) Scott Galloway</p><p>(00:02:45) Mentoring Young Men</p><p>(00:06:16) Positive Masculinity Defined</p><p>(00:13:37) Sponsors: David &amp; Wealthfront</p><p>(00:16:33) Men &amp; Goals, Role Models, Technology; Relationships</p><p>(00:26:34) Elon Musk; Big Tech</p><p>(00:31:53) Varying Role Models, Flaws; Criticism, Big Tech &amp; Incendiary Content</p><p>(00:43:33) Sponsor: AG1</p><p>(00:44:57) Fear, Dating &amp; Rejection, Relationship Dynamics</p><p>(00:53:39) Social Media Impacts on Kids; Regulation</p><p>(01:06:03) Phone, Dopamine &amp; Pseudo-OCD; Solutions</p><p>(01:14:03) Sponsor: Function</p><p>(01:15:14) Naval Academy &amp; Lifestyle Protocols, Mandatory National Service</p><p>(01:23:08) Alcohol Phones &amp; Professional Considerations</p><p>(01:33:43) Drinking Age; Cannabis, THC</p><p>(01:37:16) Sponsor: LMNT</p><p>(01:38:36) Cannabis; Porn, Addiction</p><p>(01:46:14) Anger; Testosterone; Aspirational Masculinity, Toxic Femininity</p><p>(01:56:25) Advocating for Young Men, Economic Opportunity, Gerontocracy</p><p>(02:04:43) Generation Gaps, Retirement, "Vampire" Generation</p><p>(02:10:30) Bet on Unremarkable, Universities &amp; Vocations; Gerontocracy</p><p>(02:18:48) Aging; Paying it Forward &amp; Male Mentorship</p><p>(02:25:33) Seeking Mentors, Young Men; Acknowledgments</p><p>(02:33:13) Zero-Cost Support, YouTube, Spotify &amp; Apple Follow, Reviews &amp; Feedback, Sponsors, Protocols Book, Social Media, Neural Network Newsletter</p><p>*<em>This experience may not be representative of other Wealthfront clients, and there is no guarantee of future performance or success. Experiences will vary. Andrew Huberman receives cash compensation from Wealthfront Brokerage for paid testimonials in his podcast, creating a conflict of interest. The Cash Account, which is not a deposit account, is offered by Wealthfront Brokerage LLC, member FINRA/SIPC.  Wealthfront Brokerage is not a bank. The base APY is 3.30% on cash deposits as of January 30, 2026, is representative, subject to change, and requires no minimum. If eligible for the overall boosted rate of 4.05% offered in connection with this promo, your boosted rate is also subject to change if the base rate decreases during the 3 month promo period. Additional terms and conditions apply, which can be found on <a href="https://Wealthfront.com/Huberman" rel="noopener noreferrer" target="_blank">Wealthfront.com/Huberman</a>.  Funds in the Cash Account are swept to program banks, where it earns the variable APY. Same-day withdrawal or instant payment transfers may be limited by destination institutions, daily transaction caps, and by participating entities such as Wells Fargo, the RTP® Network, and FedNow® Service. New Cash Account deposits are subject to a 2-4 day holding period before becoming available for transfer. Investment advisory services are provided by Wealthfront Advisers LLC, an SEC-registered investment adviser. Securities investments: not bank deposits, bank-guaranteed or FDIC-insured, and may lose value.</em></p><p><a href="https://www.hubermanlab.com/disclaimer">Disclaimer &amp; Disclosures</a></p><p>Learn more about your ad choices. Visit <a href="https://megaphone.fm/adchoices">megaphone.fm/adchoices</a></p>'
-    description_plain: 'Scott Galloway is a professor of marketing at New York University''s Stern School of Business. We discuss masculine roles and obligations of past, present and future. We explore which are timeless and which are changing, and positive steps boys and men can take to create meaning and stability in their lives. We cover work, finances, health and relationships to build a grounded, purposeful life. We also discuss tech, social media, alcohol, cannabis and porn. Throughout, we emphasize specific daily practices for building mental, physical and economic resilience, compassion for others, and for navigating key life decisions in every realm. Thank you to our sponsors AG1: https://drinkag1.com/huberman David: https://davidprotein.com/huberman Wealthfront*: https://wealthfront.com/huberman Function: https://functionhealth.com/huberman LMNT: https://drinklmnt.com/huberman Timestamps (00:00:00) Scott Galloway (00:02:45) Mentoring Young Men (00:06:16) Positive Masculinity Defined (00:13:37) Sponsors: David &amp; Wealthfront (00:16:33) Men &amp; Goals, Role Models, Technology; Relationships (00:26:34) Elon Musk; Big Tech (00:31:53) Varying Role Models, Flaws; Criticism, Big Tech &amp; Incendiary Content (00:43:33) Sponsor: AG1 (00:44:57) Fear, Dating &amp; Rejection, Relationship Dynamics (00:53:39) Social Media Impacts on Kids; Regulation (01:06:03) Phone, Dopamine &amp; Pseudo-OCD; Solutions (01:14:03) Sponsor: Function (01:15:14) Naval Academy &amp; Lifestyle Protocols, Mandatory National Service (01:23:08) Alcohol Phones &amp; Professional Considerations (01:33:43) Drinking Age; Cannabis, THC (01:37:16) Sponsor: LMNT (01:38:36) Cannabis; Porn, Addiction (01:46:14) Anger; Testosterone; Aspirational Masculinity, Toxic Femininity (01:56:25) Advocating for Young Men, Economic Opportunity, Gerontocracy (02:04:43) Generation Gaps, Retirement, "Vampire" Generation (02:10:30) Bet on Unremarkable, Universities &amp; Vocations; Gerontocracy (02:18:48) Aging; Paying it Forward &amp; Male Mentorship (02:25:33) Seeking Mentors, Young Men; Acknowledgments (02:33:13) Zero-Cost Support, YouTube, Spotify &amp; Apple Follow, Reviews &amp; Feedback, Sponsors, Protocols Book, Social Media, Neural Network Newsletter * This experience may not be representative of other Wealthfront clients, and there is no guarantee of future performance or success. Experiences will vary. Andrew Huberman receives cash compensation from Wealthfront Brokerage for paid testimonials in his podcast, creating a conflict of interest. The Cash Account, which is not a deposit account, is offered by Wealthfront Brokerage LLC, member FINRA/SIPC. Wealthfront Brokerage is not a bank. The base APY is 3.30% on cash deposits as of January 30, 2026, is representative, subject to change, and requires no minimum. If eligible for the overall boosted rate of 4.05% offered in connection with this promo, your boosted rate is also subject to change if the base rate decreases during the 3 month promo period. Additional terms and conditions apply, which can be found on Wealthfront.com/Huberman . Funds in the Cash Account are swept to program banks, where it earns the variable APY. Same-day withdrawal or instant payment transfers may be limited by destination institutions, daily transaction caps, and by participating entities such as Wells Fargo, the RTP® Network, and FedNow® Service. New Cash Account deposits are subject to a 2-4 day holding period before becoming available for transfer. Investment advisory services are provided by Wealthfront Advisers LLC, an SEC-registered investment adviser. Securities investments: not bank deposits, bank-guaranteed or FDIC-insured, and may lose value. Disclaimer &amp; Disclosures Learn more about your ad choices. Visit megaphone.fm/adchoices'
-    episode_image_url: ''
-    episode_uid: 4721d474-41e2-11f1-a56d-87a62715859a
-    episode_slug: male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway
-    episode_key: male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway
     legacy_numbered_slug: episode-25
-    episode_page_url: "/huberman-lab/male-roles-obligations-and-options-for-building-a-fulfilling-life-scott-galloway/"
+    episode_page_url: "/huberman-lab/essentials-control-sugar-cravings-metabolism-with-science-based-tools/"
   https://sindrel.github.io/nrk-pod-feeds/rss/oppdatert.xml: &61
   - episode_title: '22. juli-terroren: Helenes navn sto i manifestet'
     episode_url: ''
@@ -22537,6 +22537,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/lex-fridman-podcast/474-dhh-future-of-programming-ai-ruby-on-rails-productivity-parenting/"
   https://feeds.megaphone.fm/hs2300184645: &73
+  - episode_title: The $150B dollar business hiding in plain sight
+    episode_url: ''
+    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS3371361063.mp3
+    published_at: '2026-07-23T08:00:00Z'
+    description_html: '<p><strong>Unsexy Business Ideas Database:</strong><a href="https://clickhubspot.com/kpfm"><strong> https://clickhubspot.com/kpfm</strong></a></p><p>Episode 844: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) and Shaan Puri ( <a href="https://x.com/ShaanVP"><u>https://x.com/ShaanVP</u></a> ) talk about how one of the richest families in America makes its money.</p><p>—</p><p>Show Notes:</p><p>(0:00) The Cargill family</p><p>(13:15) projects vs empires</p><p>(15:00) family meetings create family dynasties</p><p>(22:55) Jevon''s paradox</p><p>(29:00) the story of Luddites</p><p>(39:19) Where''s the opportunity</p><p>(49:00) the phrases we tell ourselves</p><p>(52:00) The ice king</p><p>—</p><p>Links:</p><p>• The Medici effect - <a href="https://www.amazon.com/dp/1591391865" rel="noopener noreferrer" target="_blank">https://www.amazon.com/dp/1591391865</a></p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Shaan uses Mercury across all of his companies. you can too: <a href="http://mercury.com/"><u>http://mercury.com/</u></a></p><p><em>Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p><a href="https://beehiiv.com/mfm-challenge" rel="noopener noreferrer" target="_blank">beehiiv.com/mfm-challenge</a></p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
+    description_plain: 'Unsexy Business Ideas Database: https://clickhubspot.com/kpfm Episode 844: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about how one of the richest families in America makes its money. — Show Notes: (0:00) The Cargill family (13:15) projects vs empires (15:00) family meetings create family dynasties (22:55) Jevon''s paradox (29:00) the story of Luddites (39:19) Where''s the opportunity (49:00) the phrases we tell ourselves (52:00) The ice king — Links: • The Medici effect - https://www.amazon.com/dp/1591391865 — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
+    episode_image_url: ''
+    episode_uid: 456376f8-8632-11f1-8843-13b1dbfb89c8
+    episode_slug: the-150b-dollar-business-hiding-in-plain-sight
+    episode_key: the-150b-dollar-business-hiding-in-plain-sight
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/my-first-million/the-150b-dollar-business-hiding-in-plain-sight/"
   - episode_title: I spent 24hrs with a blue collar millionaire
     episode_url: ''
     audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS6226616717.mp3
@@ -22547,7 +22559,7 @@ episodes_by_feed:
     episode_uid: 024a5b9a-8478-11f1-875f-6bb7491cb174
     episode_slug: i-spent-24hrs-with-a-blue-collar-millionaire
     episode_key: i-spent-24hrs-with-a-blue-collar-millionaire
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/my-first-million/i-spent-24hrs-with-a-blue-collar-millionaire/"
   - episode_title: 'Ray Dalio: The principles that made me a billionaire'
     episode_url: ''
@@ -22559,7 +22571,7 @@ episodes_by_feed:
     episode_uid: 7aafbfa4-8157-11f1-b961-47ded74887a7
     episode_slug: ray-dalio-the-principles-that-made-me-a-billionaire
     episode_key: ray-dalio-the-principles-that-made-me-a-billionaire
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/my-first-million/ray-dalio-the-principles-that-made-me-a-billionaire/"
   - episode_title: 'Howard Marks: how I make money while you worry about a market crash'
     episode_url: ''
@@ -22571,7 +22583,7 @@ episodes_by_feed:
     episode_uid: beff1954-7ffc-11f1-b8f8-43ca77576af4
     episode_slug: howard-marks-how-i-make-money-while-you-worry-about-a-market-crash
     episode_key: howard-marks-how-i-make-money-while-you-worry-about-a-market-crash
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/my-first-million/howard-marks-how-i-make-money-while-you-worry-about-a-market-crash/"
   - episode_title: Brainstorming business ideas with a billion-dollar founder
     episode_url: ''
@@ -22583,7 +22595,7 @@ episodes_by_feed:
     episode_uid: e2a073e8-7bf7-11f1-b5ed-b3c55d6ed861
     episode_slug: brainstorming-business-ideas-with-a-billion-dollar-founder
     episode_key: brainstorming-business-ideas-with-a-billion-dollar-founder
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/my-first-million/brainstorming-business-ideas-with-a-billion-dollar-founder/"
   - episode_title: 5 ruthless business lessons from one week in NYC
     episode_url: ''
@@ -22595,7 +22607,7 @@ episodes_by_feed:
     episode_uid: d95b3a5a-79a1-11f1-8680-fb4ebe10ab6a
     episode_slug: 5-ruthless-business-lessons-from-one-week-in-nyc
     episode_key: 5-ruthless-business-lessons-from-one-week-in-nyc
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/my-first-million/5-ruthless-business-lessons-from-one-week-in-nyc/"
   - episode_title: I dropped out of college and built a $3.6B company from scratch
     episode_url: ''
@@ -22607,7 +22619,7 @@ episodes_by_feed:
     episode_uid: b6ccae26-75a8-11f1-8ac7-ab096f1f1b31
     episode_slug: i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch
     episode_key: i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/my-first-million/i-dropped-out-of-college-and-built-a-3-6b-company-from-scratch/"
   - episode_title: 3 weird businesses doing $10M, $20M, $30M
     episode_url: ''
@@ -22619,7 +22631,7 @@ episodes_by_feed:
     episode_uid: 106c7e2e-7433-11f1-ac50-1f340ebd34b2
     episode_slug: 3-weird-businesses-doing-10m-20m-30m
     episode_key: 3-weird-businesses-doing-10m-20m-30m
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/my-first-million/3-weird-businesses-doing-10m-20m-30m/"
   - episode_title: We found an app that lets you buy anything for $0
     episode_url: ''
@@ -22631,7 +22643,7 @@ episodes_by_feed:
     episode_uid: c14c4c08-6f45-11f1-91a3-7bd20ad5965e
     episode_slug: we-found-an-app-that-lets-you-buy-anything-for-0
     episode_key: we-found-an-app-that-lets-you-buy-anything-for-0
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/my-first-million/we-found-an-app-that-lets-you-buy-anything-for-0/"
   - episode_title: We decoded the business behind this influencer’s perfect life
     episode_url: ''
@@ -22643,7 +22655,7 @@ episodes_by_feed:
     episode_uid: b644de20-6b07-11f1-b5df-bf5984da0b60
     episode_slug: we-decoded-the-business-behind-this-influencer-s-perfect-life
     episode_key: we-decoded-the-business-behind-this-influencer-s-perfect-life
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/my-first-million/we-decoded-the-business-behind-this-influencer-s-perfect-life/"
   - episode_title: How the Ex-Goldman CEO actually invests his own money
     episode_url: ''
@@ -22655,7 +22667,7 @@ episodes_by_feed:
     episode_uid: 9f1a1bfa-6974-11f1-83f9-cf3323ff8a5a
     episode_slug: how-the-ex-goldman-ceo-actually-invests-his-own-money
     episode_key: how-the-ex-goldman-ceo-actually-invests-his-own-money
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/my-first-million/how-the-ex-goldman-ceo-actually-invests-his-own-money/"
   - episode_title: The most simplified breakdown of the SpaceX IPO on the internet
     episode_url: ''
@@ -22667,7 +22679,7 @@ episodes_by_feed:
     episode_uid: c68664a6-65f4-11f1-9de4-e37b68835eca
     episode_slug: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
     episode_key: the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/my-first-million/the-most-simplified-breakdown-of-the-spacex-ipo-on-the-internet/"
   - episode_title: Brutally honest guide to not losing money in the market
     episode_url: ''
@@ -22679,7 +22691,7 @@ episodes_by_feed:
     episode_uid: 9e1c2478-64c4-11f1-84cd-772fbe16ca42
     episode_slug: brutally-honest-guide-to-not-losing-money-in-the-market
     episode_key: brutally-honest-guide-to-not-losing-money-in-the-market
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/my-first-million/brutally-honest-guide-to-not-losing-money-in-the-market/"
   - episode_title: 'The "Idiot Index": the simple math that made Elon Musk billions'
     episode_url: ''
@@ -22691,7 +22703,7 @@ episodes_by_feed:
     episode_uid: 6f819d98-5f90-11f1-801f-4b95257989f7
     episode_slug: the-idiot-index-the-simple-math-that-made-elon-musk-billions
     episode_key: the-idiot-index-the-simple-math-that-made-elon-musk-billions
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/my-first-million/the-idiot-index-the-simple-math-that-made-elon-musk-billions/"
   - episode_title: We found 7 business ideas that will blow up in 2026
     episode_url: ''
@@ -22703,7 +22715,7 @@ episodes_by_feed:
     episode_uid: 548f822c-5e71-11f1-8953-67690eb1a7e9
     episode_slug: we-found-7-business-ideas-that-will-blow-up-in-2026
     episode_key: we-found-7-business-ideas-that-will-blow-up-in-2026
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/my-first-million/we-found-7-business-ideas-that-will-blow-up-in-2026/"
   - episode_title: The insane true story behind MTV
     episode_url: ''
@@ -22715,7 +22727,7 @@ episodes_by_feed:
     episode_uid: 728780f2-5af4-11f1-9c0c-3f4651ea78e5
     episode_slug: the-insane-true-story-behind-mtv
     episode_key: the-insane-true-story-behind-mtv
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/my-first-million/the-insane-true-story-behind-mtv/"
   - episode_title: The 50 richest families in America are betting on this trend
     episode_url: ''
@@ -22727,7 +22739,7 @@ episodes_by_feed:
     episode_uid: 6d34df0a-5941-11f1-a122-871eda1ebd30
     episode_slug: the-50-richest-families-in-america-are-betting-on-this-trend
     episode_key: the-50-richest-families-in-america-are-betting-on-this-trend
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/my-first-million/the-50-richest-families-in-america-are-betting-on-this-trend/"
   - episode_title: 'Mohnish Pabrai: This will save you 10 years of bad investments'
     episode_url: ''
@@ -22739,7 +22751,7 @@ episodes_by_feed:
     episode_uid: 47fa4356-55d6-11f1-8e97-9f707faff290
     episode_slug: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
     episode_key: mohnish-pabrai-this-will-save-you-10-years-of-bad-investments
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/my-first-million/mohnish-pabrai-this-will-save-you-10-years-of-bad-investments/"
   - episode_title: How Gary Vee runs 7 businesses
     episode_url: ''
@@ -22751,7 +22763,7 @@ episodes_by_feed:
     episode_uid: dda1a364-5314-11f1-adfa-ff899d3d9bff
     episode_slug: how-gary-vee-runs-7-businesses
     episode_key: how-gary-vee-runs-7-businesses
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/my-first-million/how-gary-vee-runs-7-businesses/"
   - episode_title: We hit record on our private strategy session
     episode_url: ''
@@ -22763,7 +22775,7 @@ episodes_by_feed:
     episode_uid: cc8f8d78-5050-11f1-8627-67885a2431b6
     episode_slug: we-hit-record-on-our-private-strategy-session
     episode_key: we-hit-record-on-our-private-strategy-session
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/my-first-million/we-hit-record-on-our-private-strategy-session/"
   - episode_title: How to manufacture a billionaire childhood
     episode_url: ''
@@ -22775,7 +22787,7 @@ episodes_by_feed:
     episode_uid: 01e5975a-4ebd-11f1-bb47-ab5cba329297
     episode_slug: how-to-manufacture-a-billionaire-childhood
     episode_key: how-to-manufacture-a-billionaire-childhood
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/my-first-million/how-to-manufacture-a-billionaire-childhood/"
   - episode_title: I put 80% of my money in the S&P
     episode_url: ''
@@ -22787,7 +22799,7 @@ episodes_by_feed:
     episode_uid: bb4c9a48-4d2a-11f1-b25d-8b22698537a3
     episode_slug: i-put-80-of-my-money-in-the-s-p
     episode_key: i-put-80-of-my-money-in-the-s-p
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/my-first-million/i-put-80-of-my-money-in-the-s-p/"
   - episode_title: How Replit Agent made $1M on day one (then $250M in a year)
     episode_url: ''
@@ -22799,7 +22811,7 @@ episodes_by_feed:
     episode_uid: 2ee1169c-4a0a-11f1-a08c-07fbaacaa2a3
     episode_slug: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
     episode_key: how-replit-agent-made-1m-on-day-one-then-250m-in-a-year
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/my-first-million/how-replit-agent-made-1m-on-day-one-then-250m-in-a-year/"
   - episode_title: Spotting Billion Dollar Investments Was Hard Until I Learned These 3 Rules | Rohan Oza
     episode_url: ''
@@ -22811,7 +22823,7 @@ episodes_by_feed:
     episode_uid: 3f0047e0-481c-11f1-8396-87c0687b7af3
     episode_slug: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
     episode_key: spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/my-first-million/spotting-billion-dollar-investments-was-hard-until-i-learned-these-3-rules-rohan-oza/"
   - episode_title: This Opportunity Is Hidden In Plain Sight
     episode_url: ''
@@ -22823,20 +22835,8 @@ episodes_by_feed:
     episode_uid: 913eb3fe-435b-11f1-9187-7fc70c93a52e
     episode_slug: this-opportunity-is-hidden-in-plain-sight
     episode_key: this-opportunity-is-hidden-in-plain-sight
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/my-first-million/this-opportunity-is-hidden-in-plain-sight/"
-  - episode_title: How to find your thing
-    episode_url: ''
-    audio_url: https://pdst.fm/e/traffic.megaphone.fm/HS6154285228.mp3
-    published_at: '2026-04-27T10:00:00Z'
-    description_html: '<p><strong>Run your life like a $100M business. Get the system here:</strong><a href="https://clickhubspot.com/ehw2c"><strong> https://clickhubspot.com/ehw2c</strong></a></p><p>Episode 818: Sam Parr ( <a href="https://x.com/theSamParr"><u>https://x.com/theSamParr</u></a> ) and Shaan Puri ( <a href="https://x.com/ShaanVP"><u>https://x.com/ShaanVP</u></a> ) talk about how to design a life worth living.</p><p>—</p><p>Show Notes:</p><p>(0:00) Follow your bliss</p><p>(3:33) enthusiasm, enduring enthusiasm, mastery, passion</p><p>(16:23) Find a loop that you love</p><p>(24:49) The top 5 regrets of the dying</p><p>—</p><p>Links:</p><p>• The Top 5 Regrets of The Dying - <a href="https://a.co/d/07V6Zze9"><u>https://a.co/d/07V6Zze9</u></a></p><p>—</p><p>Check Out Sam''s Stuff:</p><p>• Hampton (<a href="http://joinhampton.com">joinhampton.com</a>): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: <a href="http://joinhampton.com/mfm">http://joinhampton.com/mfm</a></p><p>—</p><p>Check Out Shaan''s Stuff:</p><p>• Shaan''s weekly email - <a href="https://www.shaanpuri.com"><u>https://www.shaanpuri.com</u></a></p><p>• Visit <a href="https://www.somewhere.com/mfm"><u>https://www.somewhere.com/mfm</u></a> to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents.</p><p>• Mercury - Need a bank for your company? Go check out Mercury (<a href="http://mercury.com/">mercury.com</a>). Shaan uses it for all of his companies!</p><p><em>Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC</em></p><p>• I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out:</p><p><a href="https://beehiiv.com/mfm-challenge" rel="noopener noreferrer" target="_blank">beehiiv.com/mfm-challenge</a></p><p><em>My First Million</em> is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /</p>'
-    description_plain: 'Run your life like a $100M business. Get the system here: https://clickhubspot.com/ehw2c Episode 818: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about how to design a life worth living. — Show Notes: (0:00) Follow your bliss (3:33) enthusiasm, enduring enthusiasm, mastery, passion (16:23) Find a loop that you love (24:49) The top 5 regrets of the dying — Links: • The Top 5 Regrets of The Dying - https://a.co/d/07V6Zze9 — Check Out Sam''s Stuff: • Hampton ( joinhampton.com ): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan''s Stuff: • Shaan''s weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury ( mercury.com ). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank &amp; Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we''re giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /'
-    episode_image_url: ''
-    episode_uid: 4c7342ea-41a2-11f1-b3bf-9f18d66051ca
-    episode_slug: how-to-find-your-thing
-    episode_key: how-to-find-your-thing
     legacy_numbered_slug: episode-25
-    episode_page_url: "/my-first-million/how-to-find-your-thing/"
+    episode_page_url: "/my-first-million/this-opportunity-is-hidden-in-plain-sight/"
   https://feed.podbean.com/mathiasmacody/feed.xml: &74
   - episode_title: Sirkulærøkonomi 101
     episode_url: https://mathiasmacody.podbean.com/e/sirkul%c3%a6r%c3%b8konomi-101/
@@ -31046,7 +31046,7 @@ errors:
   error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: Dwarkesh Podcast
   rss_feed: https://www.dwarkeshpatel.com/feed
-  error: 'OpenURI::HTTPError: 503 Service Unavailable'
+  error: 'RuntimeError: redirection forbidden: https://www.dwarkeshpatel.com/feed -> http://dwarkesh.com/feed'
 feed_episodes_list:
 - feed_key: https://feed.podbean.com/insiderunningpodcast/feed.xml
   episodes: *1
