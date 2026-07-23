@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-23T08:59:51Z'
+generated_at: '2026-07-23T09:41:03Z'
 items:
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
@@ -806,6 +806,18 @@ non_running_items:
   episode_key: kajsa-ollongren
   episode_slug: kajsa-ollongren
   episode_page_url: "/sommar-vinter-i-p1/kajsa-ollongren/"
+- podcast_title: Pablo Torre Finds Out
+  podcast_page_url: "/pablo-torre-finds-out/"
+  cover_image: "/media/pablotorre.jpeg"
+  feed_url: https://feeds.acast.com/public/shows/pablo-torre-finds-out
+  filter_category: uncategorized english
+  episode_title: 'We Go Deep with the Unlikeliest of Performance-Enhancing Drugs: Smooth Jazz'
+  episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/we-go-deep-with-the-unlikeliest-of-performance-enhancing-dru
+  audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a6198b4a505bb315541079b/media.mp3
+  published_at: '2026-07-23T09:00:00+00:00'
+  episode_key: we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz
+  episode_slug: we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz
+  episode_page_url: "/pablo-torre-finds-out/we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz/"
 - podcast_title: My First Million
   podcast_page_url: "/my-first-million/"
   cover_image: "/media/myfirstmillion.jpeg"
@@ -998,18 +1010,6 @@ non_running_items:
   episode_key: china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift
   episode_slug: china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift
   episode_page_url: "/pivot/china-s-ai-threat-spacex-s-plunge-and-trump-s-truth-social-grift/"
-- podcast_title: Pablo Torre Finds Out
-  podcast_page_url: "/pablo-torre-finds-out/"
-  cover_image: "/media/pablotorre.jpeg"
-  feed_url: https://feeds.acast.com/public/shows/pablo-torre-finds-out
-  filter_category: uncategorized english
-  episode_title: '"Play, Don''t Pay": Meet the College-Football YouTuber Who Led a Gaming Revolt'
-  episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/play-dont-pay-meet-the-college-football-youtuber-who-led-a-g
-  audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a5e9844ebe2800f50f33e4d/media.mp3
-  published_at: '2026-07-21T09:00:00+00:00'
-  episode_key: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
-  episode_slug: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
-  episode_page_url: "/pablo-torre-finds-out/play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt/"
 - podcast_title: 'Waveform: The MKBHD Podcast'
   podcast_page_url: "/waveform-the-mkbhd-podcast/"
   cover_image: "/media/waveform.jpeg"
@@ -8772,6 +8772,7 @@ episodes_by_feed:
     legacy_unicode_slug: the-tour-de-france-2am-drug-test-controversy-why-pogačar-and-vingegaard-were-woken-to-test-josh-kerr-s-mile-world-record
     legacy_numbered_slug: episode-01
     episode_page_url: "/the-real-science-of-sport/the-tour-de-france-2am-drug-test-controversy-why-pogacar-and-vingegaard-were-woken-to-test-josh-kerr-s-mile-world-record/"
+    youtube_video_id: 5QMi0YxRtvE
   - episode_title: A "Concussion Sensor" Comes to the Tour de France / Spain Dismantle France / Does SA Rugby Have a Doping Problem?
     episode_url: https://shows.acast.com/realscienceofsport/episodes/a-concussion-sensor-comes-to-the-tour-de-france-spain-disman
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a573d2fc90e948cc40236d8/media.mp3
@@ -8784,6 +8785,7 @@ episodes_by_feed:
     episode_key: a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem
     legacy_numbered_slug: episode-02
     episode_page_url: "/the-real-science-of-sport/a-concussion-sensor-comes-to-the-tour-de-france-spain-dismantle-france-does-sa-rugby-have-a-doping-problem/"
+    youtube_video_id: EGyGLRVpXOM
   - episode_title: The Science Behind a Pro Cycling Team
     episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-science-of-a-pro-cycling-team
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a550be175790d5f016d7a2f/media.mp3
@@ -8796,6 +8798,7 @@ episodes_by_feed:
     episode_key: the-science-behind-a-pro-cycling-team
     legacy_numbered_slug: episode-03
     episode_page_url: "/the-real-science-of-sport/the-science-behind-a-pro-cycling-team/"
+    youtube_video_id: d14m8ZoFz3k
   - episode_title: 'Stop Watching the Ball: Michael Cox Unlocks the Fascinating Hidden Sides of Football'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/stop-watching-the-ball-michael-cox-unlocks-the-hidden-side-o
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a4ea6782b60482dd2042a0c/media.mp3
@@ -8808,6 +8811,7 @@ episodes_by_feed:
     episode_key: stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football
     legacy_numbered_slug: episode-04
     episode_page_url: "/the-real-science-of-sport/stop-watching-the-ball-michael-cox-unlocks-the-fascinating-hidden-sides-of-football/"
+    youtube_video_id: RwbrY3CpZ68
   - episode_title: England Survive Altitude and Mexico / The Doctor's Dilemma in Elite Sport - When Is Enough? / How Women Out "Pace" Men in Marathons
     episode_url: https://shows.acast.com/realscienceofsport/episodes/englands-survive-altitude-and-mexico-the-doctor-dilemma-in-e
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a4e15c642872185cc26ddc3/media.mp3
@@ -8820,6 +8824,7 @@ episodes_by_feed:
     episode_key: england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho
     legacy_numbered_slug: episode-05
     episode_page_url: "/the-real-science-of-sport/england-survive-altitude-and-mexico-the-doctor-s-dilemma-in-elite-sport-when-is-enough-how-women-out-pace-men-in-maratho/"
+    youtube_video_id: 5lbRDkKdEZ4
   - episode_title: 'Inside the World of F1 Racing: An Engineer''s Perspective'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/inside-the-world-of-f1-racing
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a477c5b0069388b7a124e72/media.mp3
@@ -8844,6 +8849,7 @@ episodes_by_feed:
     episode_key: bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown
     legacy_numbered_slug: episode-07
     episode_page_url: "/the-real-science-of-sport/bonus-short-altitude-and-the-mexico-problem-the-science-behind-england-s-sunday-showdown/"
+    youtube_video_id: X0GFgJFFTp4
   - episode_title: Durability - Trialled, Tested and Explained / Werro Edges Closer to the World Record / The World Cup's Extra-Time Problem / TDF and Heat Fears
     episode_url: https://shows.acast.com/realscienceofsport/episodes/durability-trialed-tested-and-explained-werro-edges-closer-t
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a44cc3106fb5d326d797253/media.mp3
@@ -8856,6 +8862,7 @@ episodes_by_feed:
     episode_key: durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a
     legacy_numbered_slug: episode-08
     episode_page_url: "/the-real-science-of-sport/durability-trialled-tested-and-explained-werro-edges-closer-to-the-world-record-the-world-cup-s-extra-time-problem-tdf-a/"
+    youtube_video_id: ueHxwRUstHw
   - episode_title: The Creatine Episode
     episode_url: https://shows.acast.com/realscienceofsport/episodes/the-creatine-episode
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a428003c2fe1c7f49b4edb5/media.mp3
@@ -8868,6 +8875,7 @@ episodes_by_feed:
     episode_key: the-creatine-episode
     legacy_numbered_slug: episode-09
     episode_page_url: "/the-real-science-of-sport/the-creatine-episode/"
+    youtube_video_id: jkA2DqYSGcA
   - episode_title: 'Re-Release: The Art and Science of the Perfect Football Penalty'
     episode_url: https://shows.acast.com/realscienceofsport/episodes/re-release-the-art-and-science-of-the-perfect-football-penal
     audio_url: https://sphinx.acast.com/p/acast/s/realscienceofsport/e/6a3d774c26d5a6687a4ae19a/media.mp3
@@ -15122,6 +15130,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/out-and-back/23-sophia-schwartz-and-sean-mccoy-gearjunkie-backcountry-skiing-gear/"
   https://feeds.acast.com/public/shows/pablo-torre-finds-out: &49
+  - episode_title: 'We Go Deep with the Unlikeliest of Performance-Enhancing Drugs: Smooth Jazz'
+    episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/we-go-deep-with-the-unlikeliest-of-performance-enhancing-dru
+    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a6198b4a505bb315541079b/media.mp3
+    published_at: '2026-07-23T09:00:00+00:00'
+    description_html: '<p>Forget hold music and Kenny G. Move over Michael Jordan and HGH. Smooth jazz — yes, smooth jazz — is the "stimulax" you''ve been sleeping on. From geriatric hotel ballrooms to the moneymaker-shaking high seas, correspondent Mickey Duzyj fights off the jazz police to report on the communal power of a comeback genre... then outs a closeted, world-champion super-fan.</p><p>• <a href="https://smoothworldfilm.com/" rel="noopener noreferrer" target="_blank">Learn more about "Smooth World"</a></p><p>• <a href="https://www.youtube.com/@PabloTorreFindsOut" rel="noopener noreferrer" target="_blank">Subscribe to PTFO on YouTube</a></p><p>• Previously on PTFO: <a href="https://pod.link/1685093486/episode/OTUyYzhmZGMtODRkZC0xMWYwLWFjNDUtODc4MDdhMjVkMzc3" rel="noopener noreferrer" target="_blank">"Bird-Watching Will Blow Your Mind"</a></p><p>("A New Day," "Give It Up," "Honey-Dipped," and "Side by Side" by Dave Koz and "Doctor''s Orders" by Phillip Doc Martin licensed with permission. Additional music by Jon Natchez for "Smooth World.")</p><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
+    description_plain: 'Forget hold music and Kenny G. Move over Michael Jordan and HGH. Smooth jazz — yes, smooth jazz — is the "stimulax" you''ve been sleeping on. From geriatric hotel ballrooms to the moneymaker-shaking high seas, correspondent Mickey Duzyj fights off the jazz police to report on the communal power of a comeback genre... then outs a closeted, world-champion super-fan. • Learn more about "Smooth World" • Subscribe to PTFO on YouTube • Previously on PTFO: "Bird-Watching Will Blow Your Mind" ("A New Day," "Give It Up," "Honey-Dipped," and "Side by Side" by Dave Koz and "Doctor''s Orders" by Phillip Doc Martin licensed with permission. Additional music by Jon Natchez for "Smooth World.") Hosted on Acast. See acast.com/privacy for more information.'
+    episode_image_url: https://assets.pippa.io/shows/68b1d0ea993d10acb9c3fe4f/1784782642263-866cd9d2-d344-494e-94c3-e2c17d3e7512.jpeg
+    episode_uid: 6a6198b4a505bb315541079b
+    episode_slug: we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz
+    episode_key: we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/pablo-torre-finds-out/we-go-deep-with-the-unlikeliest-of-performance-enhancing-drugs-smooth-jazz/"
   - episode_title: '"Play, Don''t Pay": Meet the College-Football YouTuber Who Led a Gaming Revolt'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/play-dont-pay-meet-the-college-football-youtuber-who-led-a-g
     audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a5e9844ebe2800f50f33e4d/media.mp3
@@ -15132,7 +15152,7 @@ episodes_by_feed:
     episode_uid: 6a5e9844ebe2800f50f33e4d
     episode_slug: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
     episode_key: play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/pablo-torre-finds-out/play-don-t-pay-meet-the-college-football-youtuber-who-led-a-gaming-revolt/"
   - episode_title: He Funded Jeffrey Epstein. Why Is This Billionaire's Name All Over College Campuses?
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/he-funded-jeffrey-epstein-why-is-this-billionaires-name-all
@@ -15144,7 +15164,7 @@ episodes_by_feed:
     episode_uid: 6a599aec8f2a873a9dd08fd3
     episode_slug: he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses
     episode_key: he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/pablo-torre-finds-out/he-funded-jeffrey-epstein-why-is-this-billionaire-s-name-all-over-college-campuses/"
   - episode_title: Decoding the Kawhi Leonard Investigation, with DeMaurice Smith
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/decoding-the-kawhi-leonard-investigation-with-demaurice-smit
@@ -15156,7 +15176,7 @@ episodes_by_feed:
     episode_uid: 6a582afb845fe5cb6dd39cea
     episode_slug: decoding-the-kawhi-leonard-investigation-with-demaurice-smith
     episode_key: decoding-the-kawhi-leonard-investigation-with-demaurice-smith
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/pablo-torre-finds-out/decoding-the-kawhi-leonard-investigation-with-demaurice-smith/"
   - episode_title: The "Pay-to-Play" Scheme That (Almost) Ruined Video Games, with Dan Soder
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-pay-to-play-scheme-that-almost-ruined-video-games-with-d
@@ -15168,7 +15188,7 @@ episodes_by_feed:
     episode_uid: 6a552396287363c6c82e3f58
     episode_slug: the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder
     episode_key: the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/pablo-torre-finds-out/the-pay-to-play-scheme-that-almost-ruined-video-games-with-dan-soder/"
   - episode_title: The Best, Worst and Sexiest Trophies in Sports, with Legendary Art Critic Jerry Saltz
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/draft-the-best-worst-and-sexiest-trophies-in-sports-with-leg
@@ -15180,7 +15200,7 @@ episodes_by_feed:
     episode_uid: 6a5015045186ad1e651dcf16
     episode_slug: the-best-worst-and-sexiest-trophies-in-sports-with-legendary-art-critic-jerry-saltz
     episode_key: the-best-worst-and-sexiest-trophies-in-sports-with-legendary-art-critic-jerry-saltz
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/pablo-torre-finds-out/the-best-worst-and-sexiest-trophies-in-sports-with-legendary-art-critic-jerry-saltz/"
   - episode_title: Share & Risk & Tell with Jay Jurden and Katie Nolan
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/share-risk-tell-with-jay-jurden-and-katie-nolan
@@ -15192,7 +15212,7 @@ episodes_by_feed:
     episode_uid: 6a4e6ab29a10afd974603d79
     episode_slug: share-risk-tell-with-jay-jurden-and-katie-nolan
     episode_key: share-risk-tell-with-jay-jurden-and-katie-nolan
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/pablo-torre-finds-out/share-risk-tell-with-jay-jurden-and-katie-nolan/"
   - episode_title: We Visited Death Row for the Super Bowl. You Can Help Save This Fan's Life. (PTFO Vault)
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/we-visited-death-row-for-the-super-bowl-you-can-help-save
@@ -15204,7 +15224,7 @@ episodes_by_feed:
     episode_uid: 6a4bed7c4607c274de7d52f9
     episode_slug: we-visited-death-row-for-the-super-bowl-you-can-help-save-this-fan-s-life-ptfo-vault
     episode_key: we-visited-death-row-for-the-super-bowl-you-can-help-save-this-fan-s-life-ptfo-vault
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/pablo-torre-finds-out/we-visited-death-row-for-the-super-bowl-you-can-help-save-this-fan-s-life-ptfo-vault/"
   - episode_title: Uncovering Phil Mickelson's Misconduct Allegations, with Alan Shipnuck
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/uncovering-phil-mickelsons-misconduct-allegations-with-alan
@@ -15216,7 +15236,7 @@ episodes_by_feed:
     episode_uid: 6a46ae61800be9313b6f6822
     episode_slug: uncovering-phil-mickelson-s-misconduct-allegations-with-alan-shipnuck
     episode_key: uncovering-phil-mickelson-s-misconduct-allegations-with-alan-shipnuck
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/pablo-torre-finds-out/uncovering-phil-mickelson-s-misconduct-allegations-with-alan-shipnuck/"
   - episode_title: 'The Sporting Class: Hydration Breaks, FIFA Trials and a Condo Full of Cats'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/the-sporting-class-hydration-breaks-fifa-trials-and-a-condo
@@ -15228,7 +15248,7 @@ episodes_by_feed:
     episode_uid: 6a43f92967f07c2631637c0f
     episode_slug: the-sporting-class-hydration-breaks-fifa-trials-and-a-condo-full-of-cats
     episode_key: the-sporting-class-hydration-breaks-fifa-trials-and-a-condo-full-of-cats
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/pablo-torre-finds-out/the-sporting-class-hydration-breaks-fifa-trials-and-a-condo-full-of-cats/"
   - episode_title: "“Please Enjoy It Or You Are Fired”: Inside PTFO, with Dan Le Batard"
     episode_url: https://pablo.show
@@ -15240,7 +15260,7 @@ episodes_by_feed:
     episode_uid: 6a4310276596e9b70ca9008f
     episode_slug: please-enjoy-it-or-you-are-fired-inside-ptfo-with-dan-le-batard
     episode_key: please-enjoy-it-or-you-are-fired-inside-ptfo-with-dan-le-batard
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/pablo-torre-finds-out/please-enjoy-it-or-you-are-fired-inside-ptfo-with-dan-le-batard/"
   - episode_title: The Missing Ambassador of the World Cup
     episode_url: https://pablo.show
@@ -15252,7 +15272,7 @@ episodes_by_feed:
     episode_uid: 6a3d76185ad54a32109cdd61
     episode_slug: the-missing-ambassador-of-the-world-cup
     episode_key: the-missing-ambassador-of-the-world-cup
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/pablo-torre-finds-out/the-missing-ambassador-of-the-world-cup/"
   - episode_title: What the World Cup Can Teach the American Fan, with John Green and Daniel Alarcón
     episode_url: https://pablo.show
@@ -15265,7 +15285,7 @@ episodes_by_feed:
     episode_slug: what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcon
     episode_key: what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcon
     legacy_unicode_slug: what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcón
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/pablo-torre-finds-out/what-the-world-cup-can-teach-the-american-fan-with-john-green-and-daniel-alarcon/"
   - episode_title: Sarah Jessica Parker on the Seductive Power of Sports and the City
     episode_url: https://pablo.show
@@ -15277,7 +15297,7 @@ episodes_by_feed:
     episode_uid: 6a39824275d929e13d857535
     episode_slug: sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city
     episode_key: sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/pablo-torre-finds-out/sarah-jessica-parker-on-the-seductive-power-of-sports-and-the-city/"
   - episode_title: USMNT's Tim Weah on World Cup Dreams, the American Idea... and Wu-Tang
     episode_url: https://pablo.show
@@ -15289,7 +15309,7 @@ episodes_by_feed:
     episode_uid: 6a34542a949ad24a48426f25
     episode_slug: usmnt-s-tim-weah-on-world-cup-dreams-the-american-idea-and-wu-tang
     episode_key: usmnt-s-tim-weah-on-world-cup-dreams-the-american-idea-and-wu-tang
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/pablo-torre-finds-out/usmnt-s-tim-weah-on-world-cup-dreams-the-american-idea-and-wu-tang/"
   - episode_title: 'The (Summer School) Sporting Class: Sex, Dolan and Contract Haircuts'
     episode_url: https://pablo.show
@@ -15301,7 +15321,7 @@ episodes_by_feed:
     episode_uid: 6a32ca1be37ee26ba5b089c7
     episode_slug: the-summer-school-sporting-class-sex-dolan-and-contract-haircuts
     episode_key: the-summer-school-sporting-class-sex-dolan-and-contract-haircuts
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/pablo-torre-finds-out/the-summer-school-sporting-class-sex-dolan-and-contract-haircuts/"
   - episode_title: '"Reverse 9/11": Celebrating These Knicks Title Vibes, with Desus Nice'
     episode_url: https://pablo.show
@@ -15313,7 +15333,7 @@ episodes_by_feed:
     episode_uid: 6a31b9d7cc559732cf42a9f3
     episode_slug: reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice
     episode_key: reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/pablo-torre-finds-out/reverse-9-11-celebrating-these-knicks-title-vibes-with-desus-nice/"
   - episode_title: 'UFC at the White House: How Dana White and Donald Trump Cashed In'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ufc-at-the-white-house-how-dana-white-and-donald-trump-cashe
@@ -15325,7 +15345,7 @@ episodes_by_feed:
     episode_uid: 6a2b2c7ff2e26d5f939d181f
     episode_slug: ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in
     episode_key: ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/pablo-torre-finds-out/ufc-at-the-white-house-how-dana-white-and-donald-trump-cashed-in/"
   - episode_title: America Signed Up for the World Cup. FIFA Stuck You with the Tab.
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/america-signed-up-for-the-world-cup-fifa-stuck-you-with-the
@@ -15337,7 +15357,7 @@ episodes_by_feed:
     episode_uid: 6a2a06babc36e5cc01463061
     episode_slug: america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab
     episode_key: america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/pablo-torre-finds-out/america-signed-up-for-the-world-cup-fifa-stuck-you-with-the-tab/"
   - episode_title: 'Linsanity Is Dead. Long Live Linsanity: Jeremy Lin on the Finals, the Garden and the Healing Power of These Knicks'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-fina
@@ -15349,7 +15369,7 @@ episodes_by_feed:
     episode_uid: 6a281fbc8e157b3f7c98518d
     episode_slug: linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks
     episode_key: linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/pablo-torre-finds-out/linsanity-is-dead-long-live-linsanity-jeremy-lin-on-the-finals-the-garden-and-the-healing-power-of-these-knicks/"
   - episode_title: 'Ballmer''s Secret I.O.U., Aspiration''s "Web of Lies" and the Zenith of Fraud: Kawhi-Gate, Part XI'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ballmers-secret-iou-aspirations-web-of-lies-and-the-zenith-o
@@ -15361,7 +15381,7 @@ episodes_by_feed:
     episode_uid: 6a22296ab0f2962be4810901
     episode_slug: ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi
     episode_key: ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/pablo-torre-finds-out/ballmer-s-secret-i-o-u-aspiration-s-web-of-lies-and-the-zenith-of-fraud-kawhi-gate-part-xi/"
   - episode_title: Do Not Mess with the Reporter Who Took Down Jeffrey Epstein
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
@@ -15373,7 +15393,7 @@ episodes_by_feed:
     episode_uid: 6a20cc591d75a957bfc42800
     episode_slug: do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
     episode_key: do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/pablo-torre-finds-out/do-not-mess-with-the-reporter-who-took-down-jeffrey-epstein/"
   - episode_title: 'Exclusive: Inside Zohran Mamdani''s NYC Sports Equinox (feat. Adam Friedland)'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/exclusive-inside-zohran-mamdanis-nyc-sports-equinox-feat-ada
@@ -15385,7 +15405,7 @@ episodes_by_feed:
     episode_uid: 6a1df85b5dacba3f0ae13fa8
     episode_slug: exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland
     episode_key: exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/pablo-torre-finds-out/exclusive-inside-zohran-mamdani-s-nyc-sports-equinox-feat-adam-friedland/"
   - episode_title: Share & Eat the Rich & Tell with Tim Miller and Stephanie Ruhle
     episode_url: https://pablo.show
@@ -15397,7 +15417,7 @@ episodes_by_feed:
     episode_uid: 6a18e051e9800206fbccd5aa
     episode_slug: share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle
     episode_key: share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/pablo-torre-finds-out/share-eat-the-rich-tell-with-tim-miller-and-stephanie-ruhle/"
   - episode_title: 'Exclusive: The Harambe Tapes, Revealed'
     episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/ep378-placeholder
@@ -15409,20 +15429,8 @@ episodes_by_feed:
     episode_uid: 6a1777d2a3de744e8eb2fd83
     episode_slug: exclusive-the-harambe-tapes-revealed
     episode_key: exclusive-the-harambe-tapes-revealed
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/pablo-torre-finds-out/exclusive-the-harambe-tapes-revealed/"
-  - episode_title: '"Celebrity Jeopardy!" Film Study (Championship Edition) with Mina Kimes and Domonique Foxworth'
-    episode_url: https://shows.acast.com/pablo-torre-finds-out/episodes/celebrity-jeopardy-film-study-championship-edition-with-mina
-    audio_url: https://sphinx.acast.com/p/open/s/68b1d0ea993d10acb9c3fe4f/e/6a1497850eddd1a22513a8ad/media.mp3
-    published_at: '2026-05-26T09:00:00+00:00'
-    description_html: '<p>How is preparing for a game show like playing in the NFL? What''s the first rule of "Jeopardy!" Fight Club? And why would you bet zero dollars with a million on the line? Plus: Katie Nolan''s secret pep talk, Daily Double brain glitch, Spygate... and a buzzer bibliography.</p><p>Previously on PTFO:</p><p>• <a href="https://pod.link/1685093486/episode/NjllOTUzZDBjNWZiZjA0ZjRhMWNhNjdk" rel="noopener noreferrer" target="_blank">"Celebrity Jeopardy!" Film Study with Mina Kimes and Timothy Simons</a></p><p>• <a href="https://pod.link/1685093486/episode/OTUyYzVlNjgtODRkZC0xMWYwLWFjNDUtYmI1YmNlMzc5M2Nk" rel="noopener noreferrer" target="_blank">Behind the Scenes of Pablo''s History-Making "Family Feud" Adventure</a></p><p>Plus:</p><p>• Subscribe to <a href="https://pod.link/1437647915" rel="noopener noreferrer" target="_blank">"The Mina Kimes Show featuring Lenny"</a></p><p>• Subscribe to <a href="https://pod.link/1642566714" rel="noopener noreferrer" target="_blank">"The Domonique Foxworth Show"</a></p><p>• Support <a href="https://secure.qgiv.com/for/selahdoublejeopardy/" rel="noopener noreferrer" target="_blank">SELAH Neighborhood Homeless Coalition</a></p><hr><p style=''color:grey; font-size:0.75em;''>Hosted on Acast. See <a style=''color:grey;'' target=''_blank'' rel=''noopener noreferrer'' href=''https://acast.com/privacy''>acast.com/privacy</a> for more information.</p>'
-    description_plain: 'How is preparing for a game show like playing in the NFL? What''s the first rule of "Jeopardy!" Fight Club? And why would you bet zero dollars with a million on the line? Plus: Katie Nolan''s secret pep talk, Daily Double brain glitch, Spygate... and a buzzer bibliography. Previously on PTFO: • "Celebrity Jeopardy!" Film Study with Mina Kimes and Timothy Simons • Behind the Scenes of Pablo''s History-Making "Family Feud" Adventure Plus: • Subscribe to "The Mina Kimes Show featuring Lenny" • Subscribe to "The Domonique Foxworth Show" • Support SELAH Neighborhood Homeless Coalition Hosted on Acast. See acast.com/privacy for more information.'
-    episode_image_url: https://assets.pippa.io/shows/68b1d0ea993d10acb9c3fe4f/1780068483865-d50285ee-6ce2-442c-91e9-bdba7571a76a.jpeg
-    episode_uid: 6a1497850eddd1a22513a8ad
-    episode_slug: celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth
-    episode_key: celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth
     legacy_numbered_slug: episode-25
-    episode_page_url: "/pablo-torre-finds-out/celebrity-jeopardy-film-study-championship-edition-with-mina-kimes-and-domonique-foxworth/"
+    episode_page_url: "/pablo-torre-finds-out/exclusive-the-harambe-tapes-revealed/"
   https://rss.buzzsprout.com/2529065.rss: &50
   - episode_title: Jimothy, the Tour de France, and Sarah’s RPE
     episode_url: ''
