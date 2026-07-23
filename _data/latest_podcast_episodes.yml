@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-23T06:57:00Z'
+generated_at: '2026-07-23T07:55:43Z'
 items:
 - podcast_title: Life in Stride
   podcast_page_url: "/life-in-stride/"
@@ -806,6 +806,30 @@ non_running_items:
   episode_key: kajsa-ollongren
   episode_slug: kajsa-ollongren
   episode_page_url: "/sommar-vinter-i-p1/kajsa-ollongren/"
+- podcast_title: How I Built This
+  podcast_page_url: "/how-i-built-this/"
+  cover_image: "/media/howibuiltthis.jpeg"
+  feed_url: https://rss.art19.com/how-i-built-this
+  filter_category: uncategorized english
+  episode_title: Advice Line with Curt Richardson of OtterBox
+  episode_url: ''
+  audio_url: https://rss.art19.com/episodes/e94bf774-de11-4434-843b-a551309a6773.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+  published_at: '2026-07-23T07:10:00Z'
+  episode_key: advice-line-with-curt-richardson-of-otterbox
+  episode_slug: advice-line-with-curt-richardson-of-otterbox
+  episode_page_url: "/how-i-built-this/advice-line-with-curt-richardson-of-otterbox/"
+- podcast_title: Hysteria
+  podcast_page_url: "/hysteria/"
+  cover_image: "/media/hysteria.jpeg"
+  feed_url: https://audioboom.com/channels/5166619.rss
+  filter_category: uncategorized english
+  episode_title: Auf Wiederseh'n, Goodbye
+  episode_url: https://audioboom.com/posts/8917508
+  audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917508.mp3?modified=1784766121&sid=5166619&source=rss
+  published_at: '2026-07-23T07:05:00+00:00'
+  episode_key: auf-wiederseh-n-goodbye
+  episode_slug: auf-wiederseh-n-goodbye
+  episode_page_url: "/hysteria/auf-wiederseh-n-goodbye/"
 - podcast_title: The Diary Of A CEO
   podcast_page_url: "/the-diary-of-a-ceo/"
   cover_image: "/media/diaryofaceo.jpeg"
@@ -998,18 +1022,6 @@ non_running_items:
   episode_key: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
   episode_slug: accelerate-learning-increase-cognitive-capacity-dr-tommy-wood
   episode_page_url: "/huberman-lab/accelerate-learning-increase-cognitive-capacity-dr-tommy-wood/"
-- podcast_title: How I Built This
-  podcast_page_url: "/how-i-built-this/"
-  cover_image: "/media/howibuiltthis.jpeg"
-  feed_url: https://rss.art19.com/how-i-built-this
-  filter_category: uncategorized english
-  episode_title: 'Toast: Aman Narang. How a Long Wait for the Dinner Check Launched a $2 Billion Business.'
-  episode_url: ''
-  audio_url: https://rss.art19.com/episodes/6eca81bc-b0e1-47e2-a87d-f3b243e76a97.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-  published_at: '2026-07-20T07:10:00Z'
-  episode_key: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
-  episode_slug: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
-  episode_page_url: "/how-i-built-this/toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business/"
 - podcast_title: Lenny's Podcast
   podcast_page_url: "/lennys-podcast/"
   cover_image: "/media/lennyspodcast.jpeg"
@@ -1082,18 +1094,6 @@ non_running_items:
   episode_key: 739-huvudet-pa-spiken
   episode_slug: 739-huvudet-pa-spiken
   episode_page_url: "/alex-og-sigges-podcast/739-huvudet-pa-spiken/"
-- podcast_title: Hysteria
-  podcast_page_url: "/hysteria/"
-  cover_image: "/media/hysteria.jpeg"
-  feed_url: https://audioboom.com/channels/5166619.rss
-  filter_category: uncategorized english
-  episode_title: A Bombshell Has Left the Villa w. Heather Gardner
-  episode_url: https://audioboom.com/posts/8917507
-  audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917507.mp3?modified=1784180784&sid=5166619&source=rss
-  published_at: '2026-07-16T07:05:00+00:00'
-  episode_key: a-bombshell-has-left-the-villa-w-heather-gardner
-  episode_slug: a-bombshell-has-left-the-villa-w-heather-gardner
-  episode_page_url: "/hysteria/a-bombshell-has-left-the-villa-w-heather-gardner/"
 - podcast_title: Dear Hank & John
   podcast_page_url: "/dear-hank-john/"
   cover_image: "/media/dearhank.jpeg"
@@ -1727,6 +1727,7 @@ episodes_by_feed:
     episode_key: the-return-of-skyrunning-skyrunner-world-series-a-new-national-series
     legacy_numbered_slug: episode-01
     episode_page_url: "/trail-talk/the-return-of-skyrunning-skyrunner-world-series-a-new-national-series/"
+    youtube_video_id: jMSGDSjx9Lc
   - episode_title: How UTMB Racing Has Changed | Scotty Hawker on Injury & Recovery
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/How-UTMB-Racing-Has-Changed--Scotty-Hawker-on-Injury--Recovery-e3m1ub9
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/122795817/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-13%2F427905862-44100-2-2f9646f9c10da.mp3
@@ -1739,6 +1740,7 @@ episodes_by_feed:
     episode_key: how-utmb-racing-has-changed-scotty-hawker-on-injury-recovery
     legacy_numbered_slug: episode-02
     episode_page_url: "/trail-talk/how-utmb-racing-has-changed-scotty-hawker-on-injury-recovery/"
+    youtube_video_id: 1Y8LRKXNU4M
   - episode_title: Kilian vs Jim at UTMB | Hardrock 100 in Doubt | UTMB Recce
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Kilian-vs-Jim-at-UTMB--Hardrock-100-in-Doubt--UTMB-Recce-e3log3l
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/122486325/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-7%2F427492958-44100-2-3f6d8bd108228.mp3
@@ -1751,6 +1753,7 @@ episodes_by_feed:
     episode_key: kilian-vs-jim-at-utmb-hardrock-100-in-doubt-utmb-recce
     legacy_numbered_slug: episode-03
     episode_page_url: "/trail-talk/kilian-vs-jim-at-utmb-hardrock-100-in-doubt-utmb-recce/"
+    youtube_video_id: B482hHILMog
   - episode_title: Trail Running Has Hype Men, Not Journalists | Are We Becoming The Bike Industry? | TrailCon 2026
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Trail-Running-Has-Hype-Men--Not-Journalists--Are-We-Becoming-The-Bike-Industry---TrailCon-2026-e3li32h
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/122276369/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-2%2F427209276-44100-2-97349002d6ff1.mp3
@@ -1763,6 +1766,7 @@ episodes_by_feed:
     episode_key: trail-running-has-hype-men-not-journalists-are-we-becoming-the-bike-industry-trailcon-2026
     legacy_numbered_slug: episode-04
     episode_page_url: "/trail-talk/trail-running-has-hype-men-not-journalists-are-we-becoming-the-bike-industry-trailcon-2026/"
+    youtube_video_id: 9T7r85VN6oM
   - episode_title: The Biggest Week in Trail Running | Western States, Lavaredo & Mont Blanc 90k
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/The-Biggest-Week-in-Trail-Running--Western-States--Lavaredo--Mont-Blanc-90k-e3l59d3
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/121856867/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-23%2F426648551-44100-2-4548caca3c085.mp3
@@ -1775,6 +1779,7 @@ episodes_by_feed:
     episode_key: the-biggest-week-in-trail-running-western-states-lavaredo-mont-blanc-90k
     legacy_numbered_slug: episode-05
     episode_page_url: "/trail-talk/the-biggest-week-in-trail-running-western-states-lavaredo-mont-blanc-90k/"
+    youtube_video_id: jSP-zRMMqlE
   - episode_title: Marjo Liikanen | SCT 111k Champion | Self-Coached Mum of Two
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Marjo-Liikanen--SCT-111k-Champion--Self-Coached-Mum-of-Two-e3k95q1
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120935681/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-3%2F425416053-44100-2-4fae75d777269.mp3
@@ -1787,6 +1792,7 @@ episodes_by_feed:
     episode_key: marjo-liikanen-sct-111k-champion-self-coached-mum-of-two
     legacy_numbered_slug: episode-06
     episode_page_url: "/trail-talk/marjo-liikanen-sct-111k-champion-self-coached-mum-of-two/"
+    youtube_video_id: jeupP8Fiohg
   - episode_title: Swiss Canyon Trail Weekend Debrief
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Weekend-Debrief-e3k71oo
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120866008/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-2%2F425327706-44100-2-8388a6fd12158.mp3
@@ -1799,6 +1805,7 @@ episodes_by_feed:
     episode_key: swiss-canyon-trail-weekend-debrief
     legacy_numbered_slug: episode-07
     episode_page_url: "/trail-talk/swiss-canyon-trail-weekend-debrief/"
+    youtube_video_id: 17t6Mr08v_0
   - episode_title: Race Week Live from Chamonix | Satisfy Circle Pit
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Race-Week-Live-from-Chamonix--Satisfy-Circle-Pit-e3jssqe
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120533262/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-25%2F424879170-44100-2-472cdf2384113.mp3
@@ -1811,6 +1818,7 @@ episodes_by_feed:
     episode_key: race-week-live-from-chamonix-satisfy-circle-pit
     legacy_numbered_slug: episode-08
     episode_page_url: "/trail-talk/race-week-live-from-chamonix-satisfy-circle-pit/"
+    youtube_video_id: ZyM8fHGVQaI
   - episode_title: Charlotte Fisher's UTS 100 Mile Debrief | Tove Alexandersson's Zegama Record | Croft vs Yao at UTA
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fishers-UTS-100-Mile-Debrief--Tove-Alexanderssons-Zegama-Record--Croft-vs-Yao-at-UTA-e3jijao
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/120195864/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-18%2F424428910-44100-2-9f8ddc8dae985.mp3
@@ -1823,6 +1831,7 @@ episodes_by_feed:
     episode_key: charlotte-fisher-s-uts-100-mile-debrief-tove-alexandersson-s-zegama-record-croft-vs-yao-at-uta
     legacy_numbered_slug: episode-09
     episode_page_url: "/trail-talk/charlotte-fisher-s-uts-100-mile-debrief-tove-alexandersson-s-zegama-record-croft-vs-yao-at-uta/"
+    youtube_video_id: zr_77dWltu4
   - episode_title: Swiss Canyon Trail Elites | History Made at Cocodona 250
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Swiss-Canyon-Trail-Elites--History-Made-at-Cocodona-250-e3j80g1
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119848897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-11%2F423963840-44100-2-694a94ce0e738.mp3
@@ -1835,6 +1844,7 @@ episodes_by_feed:
     episode_key: swiss-canyon-trail-elites-history-made-at-cocodona-250
     legacy_numbered_slug: episode-10
     episode_page_url: "/trail-talk/swiss-canyon-trail-elites-history-made-at-cocodona-250/"
+    youtube_video_id: LbdZLxoZL90
   - episode_title: The Hardest Ultra on Earth | Prototype Shoes at Western States | Walmsley's Wildcard
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/The-Hardest-Ultra-on-Earth--Prototype-Shoes-at-Western-States--Walmsleys-Wildcard-e3isuui
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119486866/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-5%2F423471468-44100-2-7bf57190117a4.mp3
@@ -1847,6 +1857,7 @@ episodes_by_feed:
     episode_key: the-hardest-ultra-on-earth-prototype-shoes-at-western-states-walmsley-s-wildcard
     legacy_numbered_slug: episode-11
     episode_page_url: "/trail-talk/the-hardest-ultra-on-earth-prototype-shoes-at-western-states-walmsley-s-wildcard/"
+    youtube_video_id: mHmQleDMrwA
   - episode_title: Gavan Hennigan | The Iditarod — 1000 Miles Across Alaska
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Gavan-Hennigan--The-Iditarod--1000-Miles-Across-Alaska-e3igogo
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/119087064/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-26%2F422925226-44100-2-0aee2ab4346cc.mp3
@@ -1859,6 +1870,7 @@ episodes_by_feed:
     episode_key: gavan-hennigan-the-iditarod-1000-miles-across-alaska
     legacy_numbered_slug: episode-12
     episode_page_url: "/trail-talk/gavan-hennigan-the-iditarod-1000-miles-across-alaska/"
+    youtube_video_id: Ktng1_owZLs
   - episode_title: Charlotte Fisher | Grit, UTMB & the Journey to Elite Ultra Running
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/Charlotte-Fisher--Grit--UTMB--the-Journey-to-Elite-Ultra-Running-e3i70hf
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/118767599/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-21%2F422484164-44100-2-b8d76bcfcce1e.mp3
@@ -1871,6 +1883,7 @@ episodes_by_feed:
     episode_key: charlotte-fisher-grit-utmb-the-journey-to-elite-ultra-running
     legacy_numbered_slug: episode-13
     episode_page_url: "/trail-talk/charlotte-fisher-grit-utmb-the-journey-to-elite-ultra-running/"
+    youtube_video_id: 2op9dnagktI
   - episode_title: HOKA Speedgoat 7 First Impressions | Swiss Canyon Trail & UTA Training
     episode_url: https://podcasters.spotify.com/pod/show/trailtalkshow/episodes/HOKA-Speedgoat-7-First-Impressions--Swiss-Canyon-Trail--UTA-Training-e3htvg8
     audio_url: https://anchor.fm/s/ed80b02c/podcast/play/118471624/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-15%2F422090893-44100-2-7bdb2897c9ba6.mp3
@@ -2053,6 +2066,7 @@ episodes_by_feed:
     legacy_unicode_slug: 252-petter-engdahl-boston-marathon-2026-planer-helsetrøbbel-løpesko-carbs-state-of-the-sport
     legacy_numbered_slug: episode-03
     episode_page_url: "/fokk-asfalt/252-petter-engdahl-boston-marathon-2026-planer-helsetrobbel-lopesko-carbs-state-of-the-sport/"
+    youtube_video_id: MTkaseUrUQo
   - episode_title: NEDA Chronicles Vol. 2
     episode_url: ''
     audio_url: https://www.buzzsprout.com/145661/episodes/18717216-neda-chronicles-vol-2.mp3
@@ -2637,6 +2651,7 @@ episodes_by_feed:
     episode_key: shad-mika-on-what-two-decades-of-ultras-actually-teaches-you
     legacy_numbered_slug: episode-01
     episode_page_url: "/for-the-long-run/shad-mika-on-what-two-decades-of-ultras-actually-teaches-you/"
+    youtube_video_id: wRNNzGgVZ7g
   - episode_title: What Elite Athletes Actually Eat — A Live Panel with Charlie Sweeney, Dr. Marc Bubbs, and Jason Fitzgerald
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/what_elite_athletes_actually_eat_a_live_panel_with_charlie_sweeney_dr_marc_bubbs_and_jason_fitzgerald
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019d72cf-9148-72c6-af04-ecc861656e5c/019f41fa-f615-7ba8-9a7a-115febc9aa2b/019f41fa-f6e7-7a7c-8ab9-c4d7dafcdd89.mp3
@@ -2661,6 +2676,7 @@ episodes_by_feed:
     episode_key: andy-blow-on-fueling-smarter-building-a-brand-athletes-trust-and-high-carb-fueling
     legacy_numbered_slug: episode-03
     episode_page_url: "/for-the-long-run/andy-blow-on-fueling-smarter-building-a-brand-athletes-trust-and-high-carb-fueling/"
+    youtube_video_id: KwRn_ugk2bQ
   - episode_title: 'Lindsey Dwyer: The Runner Who Always Chose Longer (And Never Checks Her Watch)'
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/lindsey_dwyer_the_runner_who_always_chose_longer_and_never_checks_her_watch
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019d72cf-9148-72c6-af04-ecc861656e5c/019f0200-d3f7-7c22-b142-9dd376103e99/019f0200-d4c2-7865-97f2-cb059f56bc90.mp3
@@ -2673,6 +2689,7 @@ episodes_by_feed:
     episode_key: lindsey-dwyer-the-runner-who-always-chose-longer-and-never-checks-her-watch
     legacy_numbered_slug: episode-04
     episode_page_url: "/for-the-long-run/lindsey-dwyer-the-runner-who-always-chose-longer-and-never-checks-her-watch/"
+    youtube_video_id: XSuQsIPJKwQ
   - episode_title: Zach Miller on Punching His Golden Ticket, Training Curiosity, and Racing Western States
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/zach_miller_on_punching_his_golden_ticket_training_curiosity_and_racing_western_states
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019d72cf-9148-72c6-af04-ecc861656e5c/019edb2a-9304-728d-83c1-7e2e6e525edf/019edb2a-ef52-7334-ba28-4d7ec446ad48.mp3
@@ -2685,6 +2702,7 @@ episodes_by_feed:
     episode_key: zach-miller-on-punching-his-golden-ticket-training-curiosity-and-racing-western-states
     legacy_numbered_slug: episode-05
     episode_page_url: "/for-the-long-run/zach-miller-on-punching-his-golden-ticket-training-curiosity-and-racing-western-states/"
+    youtube_video_id: oX6qNSpLcbs
   - episode_title: Tommie Runz on Western States, Running as a Black Man on Trail, and Trusting the Long Game
     episode_url: https://www.forthelong.run/podcast/s/for_the_long_run_exploring_the_why_behind_running/tommie_runz_on_western_states_running_as_a_black_man_on_trail_and_trusting_the_long_game
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019d72cf-9148-72c6-af04-ecc861656e5c/019eb9aa-3dae-72aa-a181-08d02dc2079b/019eb9aa-3f0f-70c5-9a7b-729f2796a187.mp3
@@ -2939,6 +2957,7 @@ episodes_by_feed:
     episode_key: 4-31-the-shotcaller-s-episode
     legacy_numbered_slug: episode-01
     episode_page_url: "/nobody-asked-us/4-31-the-shotcaller-s-episode/"
+    youtube_video_id: fkxC8BsP5oo
   - episode_title: 4.30. Mile World Record Watch!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/430-mile-world-record-watch
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_30_-_Audio_2.mp3?dest-id=3833748
@@ -2951,6 +2970,7 @@ episodes_by_feed:
     episode_key: 4-30-mile-world-record-watch
     legacy_numbered_slug: episode-02
     episode_page_url: "/nobody-asked-us/4-30-mile-world-record-watch/"
+    youtube_video_id: "-LDhk2vPpxs"
   - episode_title: 4.29. Horse Flies, Fireworks, and Fourth of July Track & Field
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/429-horse-flies-fireworks-and-fourth-of-july-track-field
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_29_-_Audio.mp3?dest-id=3833748
@@ -2963,6 +2983,7 @@ episodes_by_feed:
     episode_key: 4-29-horse-flies-fireworks-and-fourth-of-july-track-field
     legacy_numbered_slug: episode-03
     episode_page_url: "/nobody-asked-us/4-29-horse-flies-fireworks-and-fourth-of-july-track-field/"
+    youtube_video_id: _l-LvcY-ypA
   - episode_title: 4.28. From Trails to Track!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/428-from-trails-to-track
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_28_-_Audio.mp3?dest-id=3833748
@@ -2975,6 +2996,7 @@ episodes_by_feed:
     episode_key: 4-28-from-trails-to-track
     legacy_numbered_slug: episode-04
     episode_page_url: "/nobody-asked-us/4-28-from-trails-to-track/"
+    youtube_video_id: SiZdkHBDjho
   - episode_title: '4.27. The Duluth Weekend Recap (+ Live Show #2)'
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/427-the-duluth-weekend-recap-live-show-2
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_27_-_V2_-_Audio.mp3?dest-id=3833748
@@ -2987,6 +3009,7 @@ episodes_by_feed:
     episode_key: 4-27-the-duluth-weekend-recap-live-show-2
     legacy_numbered_slug: episode-05
     episode_page_url: "/nobody-asked-us/4-27-the-duluth-weekend-recap-live-show-2/"
+    youtube_video_id: bf-CL8vl1xc
   - episode_title: 4.26. Live from Duluth featuring Dakotah Popehn (aka Des's Nemesis)
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/426-live-from-duluth-featuring-dakotah-popehn-aka-dess-nemesis
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_26_-_Audio.mp3?dest-id=3833748
@@ -3011,6 +3034,7 @@ episodes_by_feed:
     episode_key: 4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated
     legacy_numbered_slug: episode-07
     episode_page_url: "/nobody-asked-us/4-25-the-ncaa-champs-recap-episode-aka-it-s-complicated/"
+    youtube_video_id: B6sjNMcTu-Q
   - episode_title: 4.24. The Diamond Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/424-the-diamond-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_24_-_Audio.mp3?dest-id=3833748
@@ -3023,6 +3047,7 @@ episodes_by_feed:
     episode_key: 4-24-the-diamond-episode
     legacy_numbered_slug: episode-08
     episode_page_url: "/nobody-asked-us/4-24-the-diamond-episode/"
+    youtube_video_id: n2ZgW7OMH50
   - episode_title: 4.23. High Standards
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/423-high-standards
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_23_-_Audio.mp3?dest-id=3833748
@@ -3035,6 +3060,7 @@ episodes_by_feed:
     episode_key: 4-23-high-standards
     legacy_numbered_slug: episode-09
     episode_page_url: "/nobody-asked-us/4-23-high-standards/"
+    youtube_video_id: owWinWrFxog
   - episode_title: 4.22. Real Track Talk
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/422-real-track-talk
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_22_-_Audio.mp3?dest-id=3833748
@@ -3047,6 +3073,7 @@ episodes_by_feed:
     episode_key: 4-22-real-track-talk
     legacy_numbered_slug: episode-10
     episode_page_url: "/nobody-asked-us/4-22-real-track-talk/"
+    youtube_video_id: PEan7idPojY
   - episode_title: 4.21. The Hate Mail Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/421-the-hate-mail-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_21_-_Audio.mp3?dest-id=3833748
@@ -3059,6 +3086,7 @@ episodes_by_feed:
     episode_key: 4-21-the-hate-mail-episode
     legacy_numbered_slug: episode-11
     episode_page_url: "/nobody-asked-us/4-21-the-hate-mail-episode/"
+    youtube_video_id: LcyTjxTje18
   - episode_title: 4.20. The Colt and Cocodona Episode
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/420-the-colt-and-cocodona-episode
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_20_-_Audio.mp3?dest-id=3833748
@@ -3071,6 +3099,7 @@ episodes_by_feed:
     episode_key: 4-20-the-colt-and-cocodona-episode
     legacy_numbered_slug: episode-12
     episode_page_url: "/nobody-asked-us/4-20-the-colt-and-cocodona-episode/"
+    youtube_video_id: cly8poMVr6I
   - episode_title: 4.19. The Marathon des Sables Recap
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/419-the-marathon-des-sables-recap
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_14_Episode_19_-_Audio.mp3?dest-id=3833748
@@ -3083,6 +3112,7 @@ episodes_by_feed:
     episode_key: 4-19-the-marathon-des-sables-recap
     legacy_numbered_slug: episode-13
     episode_page_url: "/nobody-asked-us/4-19-the-marathon-des-sables-recap/"
+    youtube_video_id: 4MZZHvNcTHU
   - episode_title: 4.18. Freshy Fresh for London 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/418-freshy-fresh-for-london-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_18_-_London_-_Audio.mp3?dest-id=3833748
@@ -3095,6 +3125,7 @@ episodes_by_feed:
     episode_key: 4-18-freshy-fresh-for-london-2026
     legacy_numbered_slug: episode-14
     episode_page_url: "/nobody-asked-us/4-18-freshy-fresh-for-london-2026/"
+    youtube_video_id: DpYyNyiihw8
   - episode_title: 4.17. Live from London with Cynthia Erivo!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/417-live-from-london-with-cynthia-erivo
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_17_-_Live_from_London_-_Audio_2.mp3?dest-id=3833748
@@ -3107,6 +3138,7 @@ episodes_by_feed:
     episode_key: 4-17-live-from-london-with-cynthia-erivo
     legacy_numbered_slug: episode-15
     episode_page_url: "/nobody-asked-us/4-17-live-from-london-with-cynthia-erivo/"
+    youtube_video_id: gx2qU_t8emw
   - episode_title: 4.16. Freshy Fresh from Boston 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/416-freshy-fresh-from-boston-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_Episode_16_-_Freshy_Fresh_in_Boston_2026_-_Audio.mp3?dest-id=3833748
@@ -3119,6 +3151,7 @@ episodes_by_feed:
     episode_key: 4-16-freshy-fresh-from-boston-2026
     legacy_numbered_slug: episode-16
     episode_page_url: "/nobody-asked-us/4-16-freshy-fresh-from-boston-2026/"
+    youtube_video_id: 5JUyVfEnUWA
   - episode_title: 4.15. Live from Boston 2026!
     episode_url: https://59182682-80e0-43c9-81e0-0c35400a0254.libsyn.com/415-live-from-boston-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/59182682-80e0-43c9-81e0-0c35400a0254/Season_4_-_Episode_15_-_Live_from_Boston.mp3?dest-id=3833748
@@ -5074,6 +5107,7 @@ episodes_by_feed:
     episode_key: brain-endurance-training-with-scott-frey-phd-koopcast-244
     legacy_numbered_slug: episode-02
     episode_page_url: "/koopcast/brain-endurance-training-with-scott-frey-phd-koopcast-244/"
+    youtube_video_id: aH64zwm3sR0
   - episode_title: 'Insights from Ultramarathon Pacing Strategies with Baptiste Morale | KoopCast #243'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/17166850-insights-from-ultramarathon-pacing-strategies-with-baptiste-morale-koopcast-243.mp3
@@ -5086,6 +5120,7 @@ episodes_by_feed:
     episode_key: insights-from-ultramarathon-pacing-strategies-with-baptiste-morale-koopcast-243
     legacy_numbered_slug: episode-03
     episode_page_url: "/koopcast/insights-from-ultramarathon-pacing-strategies-with-baptiste-morale-koopcast-243/"
+    youtube_video_id: 9-Z4y7-Q6ko
   - episode_title: 'Monitoring for Overtraining Syndrome with Sophie Herzog, PhD | KoopCast #242'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/17124077-monitoring-for-overtraining-syndrome-with-sophie-herzog-phd-koopcast-242.mp3
@@ -5098,6 +5133,7 @@ episodes_by_feed:
     episode_key: monitoring-for-overtraining-syndrome-with-sophie-herzog-phd-koopcast-242
     legacy_numbered_slug: episode-04
     episode_page_url: "/koopcast/monitoring-for-overtraining-syndrome-with-sophie-herzog-phd-koopcast-242/"
+    youtube_video_id: ru40vknbzP0
   - episode_title: 'Training the Gut for Ultramarathons with Isabel Martinez #241'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/17030721-training-the-gut-for-ultramarathons-with-isabel-martinez-241.mp3
@@ -5110,6 +5146,7 @@ episodes_by_feed:
     episode_key: training-the-gut-for-ultramarathons-with-isabel-martinez-241
     legacy_numbered_slug: episode-05
     episode_page_url: "/koopcast/training-the-gut-for-ultramarathons-with-isabel-martinez-241/"
+    youtube_video_id: 3Jp7xMupv4o
   - episode_title: 'The Brain’s Role in Ultrarunning Performance with Scott Frey, PhD (2024) #240'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/16991742-the-brain-s-role-in-ultrarunning-performance-with-scott-frey-phd-2024-240.mp3
@@ -5122,6 +5159,7 @@ episodes_by_feed:
     episode_key: the-brain-s-role-in-ultrarunning-performance-with-scott-frey-phd-2024-240
     legacy_numbered_slug: episode-06
     episode_page_url: "/koopcast/the-brain-s-role-in-ultrarunning-performance-with-scott-frey-phd-2024-240/"
+    youtube_video_id: wkmjv7GEekY
   - episode_title: 'Durability in Ultrarunning with Michele Zanini, PhD | KoopCast #239'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/16944389-durability-in-ultrarunning-with-michele-zanini-phd-koopcast-239.mp3
@@ -5134,6 +5172,7 @@ episodes_by_feed:
     episode_key: durability-in-ultrarunning-with-michele-zanini-phd-koopcast-239
     legacy_numbered_slug: episode-07
     episode_page_url: "/koopcast/durability-in-ultrarunning-with-michele-zanini-phd-koopcast-239/"
+    youtube_video_id: jpUhkarwXcA
   - episode_title: 'Polarized or Pyramidal Training for Ultrarunning with Michael Rosenblat, PhD #238'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/16911699-polarized-or-pyramidal-training-for-ultrarunning-with-michael-rosenblat-phd-238.mp3
@@ -5146,6 +5185,7 @@ episodes_by_feed:
     episode_key: polarized-or-pyramidal-training-for-ultrarunning-with-michael-rosenblat-phd-238
     legacy_numbered_slug: episode-08
     episode_page_url: "/koopcast/polarized-or-pyramidal-training-for-ultrarunning-with-michael-rosenblat-phd-238/"
+    youtube_video_id: TMemRimIyA4
   - episode_title: 'High Carbohydrate Intake for Ultrarunners #237'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15986719-high-carbohydrate-intake-for-ultrarunners-237.mp3
@@ -5158,6 +5198,7 @@ episodes_by_feed:
     episode_key: high-carbohydrate-intake-for-ultrarunners-237
     legacy_numbered_slug: episode-09
     episode_page_url: "/koopcast/high-carbohydrate-intake-for-ultrarunners-237/"
+    youtube_video_id: ZzLKqPth_a4
   - episode_title: 'Elite Athlete Contracts with Kelly Newlon #236'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15837927-elite-athlete-contracts-with-kelly-newlon-236.mp3
@@ -5170,6 +5211,7 @@ episodes_by_feed:
     episode_key: elite-athlete-contracts-with-kelly-newlon-236
     legacy_numbered_slug: episode-10
     episode_page_url: "/koopcast/elite-athlete-contracts-with-kelly-newlon-236/"
+    youtube_video_id: nC4S4K3So6Q
   - episode_title: 'Thoughts on DNF with Coaches AJW and Neal Palles #235'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15788420-thoughts-on-dnf-with-coaches-ajw-and-neal-palles-235.mp3
@@ -5182,6 +5224,7 @@ episodes_by_feed:
     episode_key: thoughts-on-dnf-with-coaches-ajw-and-neal-palles-235
     legacy_numbered_slug: episode-11
     episode_page_url: "/koopcast/thoughts-on-dnf-with-coaches-ajw-and-neal-palles-235/"
+    youtube_video_id: Rb6UnSSzmEU
   - episode_title: 'Double Threshold Workouts for Ultrarunning with Rune Talsnes #234'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15738076-double-threshold-workouts-for-ultrarunning-with-rune-talsnes-234.mp3
@@ -5194,6 +5237,7 @@ episodes_by_feed:
     episode_key: double-threshold-workouts-for-ultrarunning-with-rune-talsnes-234
     legacy_numbered_slug: episode-12
     episode_page_url: "/koopcast/double-threshold-workouts-for-ultrarunning-with-rune-talsnes-234/"
+    youtube_video_id: H1H7u-r2EwU
   - episode_title: 'High Performance Coaching for Elite Ultrarunners Launch #233'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15708448-high-performance-coaching-for-elite-ultrarunners-launch-233.mp3
@@ -5230,6 +5274,7 @@ episodes_by_feed:
     episode_key: excelling-in-chamonix-coach-roundtable-cts-coaches-stephanie-howe-ryne-anderson-231
     legacy_numbered_slug: episode-15
     episode_page_url: "/koopcast/excelling-in-chamonix-coach-roundtable-cts-coaches-stephanie-howe-ryne-anderson-231/"
+    youtube_video_id: YeZSWKaAuYI
   - episode_title: 'Micro-Periodization Strategies with Luca Filipas, PhD #230'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15528014-micro-periodization-strategies-with-luca-filipas-phd-230.mp3
@@ -5242,6 +5287,7 @@ episodes_by_feed:
     episode_key: micro-periodization-strategies-with-luca-filipas-phd-230
     legacy_numbered_slug: episode-16
     episode_page_url: "/koopcast/micro-periodization-strategies-with-luca-filipas-phd-230/"
+    youtube_video_id: AzOJEiyKtlc
   - episode_title: 'Heat Mitigation Strategies with Julien Périard, PhD #229'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15298535-heat-mitigation-strategies-with-julien-periard-phd-229.mp3
@@ -5255,6 +5301,7 @@ episodes_by_feed:
     legacy_unicode_slug: heat-mitigation-strategies-with-julien-périard-phd-229
     legacy_numbered_slug: episode-17
     episode_page_url: "/koopcast/heat-mitigation-strategies-with-julien-periard-phd-229/"
+    youtube_video_id: V5HMsrGXpHs
   - episode_title: 'Western States 100 Masterclass with Coach AJW #228'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15234100-western-states-100-masterclass-with-coach-ajw-228.mp3
@@ -5267,6 +5314,7 @@ episodes_by_feed:
     episode_key: western-states-100-masterclass-with-coach-ajw-228
     legacy_numbered_slug: episode-18
     episode_page_url: "/koopcast/western-states-100-masterclass-with-coach-ajw-228/"
+    youtube_video_id: tZiV6lis8MQ
   - episode_title: 'Sports Nutrition Labels & Quality Control with Untapped CEO Doug Brown #227'
     episode_url: ''
     audio_url: https://dts.podtrac.com/redirect.mp3/www.buzzsprout.com/765419/episodes/15214019-sports-nutrition-labels-quality-control-with-untapped-ceo-doug-brown-227.mp3
@@ -5992,6 +6040,7 @@ episodes_by_feed:
     episode_key: how-john-fitzgerald-coached-jennifer-lichter-to-a-western-states-course-record
     legacy_numbered_slug: episode-01
     episode_page_url: "/singletrack/how-john-fitzgerald-coached-jennifer-lichter-to-a-western-states-course-record/"
+    youtube_video_id: 5kTBNPGwhog
   - episode_title: ESPN's Wright Thompson on the Cost of Athletic Greatness (Sunday Conversation)
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19513439-espn-s-wright-thompson-on-the-cost-of-athletic-greatness-sunday-conversation.mp3
@@ -6004,6 +6053,7 @@ episodes_by_feed:
     episode_key: espn-s-wright-thompson-on-the-cost-of-athletic-greatness-sunday-conversation
     legacy_numbered_slug: episode-02
     episode_page_url: "/singletrack/espn-s-wright-thompson-on-the-cost-of-athletic-greatness-sunday-conversation/"
+    youtube_video_id: hHfmsGke5iw
   - episode_title: 'Hardrock 100 Recap, 2026 Mid-Season Review + $15 Lactate Gels? (Long Run Archives #41)'
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19510208-hardrock-100-recap-2026-mid-season-review-15-lactate-gels-long-run-archives-41.mp3
@@ -6016,6 +6066,7 @@ episodes_by_feed:
     episode_key: hardrock-100-recap-2026-mid-season-review-15-lactate-gels-long-run-archives-41
     legacy_numbered_slug: episode-03
     episode_page_url: "/singletrack/hardrock-100-recap-2026-mid-season-review-15-lactate-gels-long-run-archives-41/"
+    youtube_video_id: 5mKGYp0_sIY
   - episode_title: Tom Evans | 2026 Hardrock 100 Pre-Run Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19434545-tom-evans-2026-hardrock-100-pre-run-interview.mp3
@@ -6028,6 +6079,7 @@ episodes_by_feed:
     episode_key: tom-evans-2026-hardrock-100-pre-run-interview
     legacy_numbered_slug: episode-04
     episode_page_url: "/singletrack/tom-evans-2026-hardrock-100-pre-run-interview/"
+    youtube_video_id: k6jos_HLWRI
   - episode_title: 2026 Western States 100 Recap
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19420631-2026-western-states-100-recap.mp3
@@ -6040,6 +6092,7 @@ episodes_by_feed:
     episode_key: 2026-western-states-100-recap
     legacy_numbered_slug: episode-05
     episode_page_url: "/singletrack/2026-western-states-100-recap/"
+    youtube_video_id: KIZ4a6Ev9FA
   - episode_title: Jennifer Lichter | 2026 Western States 100 Champion
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19419583-jennifer-lichter-2026-western-states-100-champion.mp3
@@ -6052,6 +6105,7 @@ episodes_by_feed:
     episode_key: jennifer-lichter-2026-western-states-100-champion
     legacy_numbered_slug: episode-06
     episode_page_url: "/singletrack/jennifer-lichter-2026-western-states-100-champion/"
+    youtube_video_id: 5eVBtENWtHA
   - episode_title: David Roche on the Cool-Year Revolution, the High-Carb Era, and the Odds of a Sub-14 at Western States
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19404371-david-roche-on-the-cool-year-revolution-the-high-carb-era-and-the-odds-of-a-sub-14-at-western-states.mp3
@@ -6064,6 +6118,7 @@ episodes_by_feed:
     episode_key: david-roche-on-the-cool-year-revolution-the-high-carb-era-and-the-odds-of-a-sub-14-at-western-states
     legacy_numbered_slug: episode-07
     episode_page_url: "/singletrack/david-roche-on-the-cool-year-revolution-the-high-carb-era-and-the-odds-of-a-sub-14-at-western-states/"
+    youtube_video_id: StUzZWJNEnI
   - episode_title: 2026 Western States 100 Men's Field Preview | Analysis, Storylines, Predictions
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19400106-2026-western-states-100-men-s-field-preview-analysis-storylines-predictions.mp3
@@ -6076,6 +6131,7 @@ episodes_by_feed:
     episode_key: 2026-western-states-100-men-s-field-preview-analysis-storylines-predictions
     legacy_numbered_slug: episode-08
     episode_page_url: "/singletrack/2026-western-states-100-men-s-field-preview-analysis-storylines-predictions/"
+    youtube_video_id: vnhA_2yoVZE
   - episode_title: Zach Miller | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19398917-zach-miller-2026-western-states-100-pre-race-interview.mp3
@@ -6088,6 +6144,7 @@ episodes_by_feed:
     episode_key: zach-miller-2026-western-states-100-pre-race-interview
     legacy_numbered_slug: episode-09
     episode_page_url: "/singletrack/zach-miller-2026-western-states-100-pre-race-interview/"
+    youtube_video_id: 4pJnNO1ha5E
   - episode_title: Tara Dower | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19398081-tara-dower-2026-western-states-100-pre-race-interview.mp3
@@ -6100,6 +6157,7 @@ episodes_by_feed:
     episode_key: tara-dower-2026-western-states-100-pre-race-interview
     legacy_numbered_slug: episode-10
     episode_page_url: "/singletrack/tara-dower-2026-western-states-100-pre-race-interview/"
+    youtube_video_id: zmAJNYSgb6k
   - episode_title: Jennifer Lichter | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19394242-jennifer-lichter-2026-western-states-100-pre-race-interview.mp3
@@ -6112,6 +6170,7 @@ episodes_by_feed:
     episode_key: jennifer-lichter-2026-western-states-100-pre-race-interview
     legacy_numbered_slug: episode-11
     episode_page_url: "/singletrack/jennifer-lichter-2026-western-states-100-pre-race-interview/"
+    youtube_video_id: zfGRvP1JVuI
   - episode_title: 2026 Western States 100 Women's Field Preview | Analysis, Storylines, Predictions
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19393642-2026-western-states-100-women-s-field-preview-analysis-storylines-predictions.mp3
@@ -6124,6 +6183,7 @@ episodes_by_feed:
     episode_key: 2026-western-states-100-women-s-field-preview-analysis-storylines-predictions
     legacy_numbered_slug: episode-12
     episode_page_url: "/singletrack/2026-western-states-100-women-s-field-preview-analysis-storylines-predictions/"
+    youtube_video_id: SileKOgEybs
   - episode_title: Kilian Jornet | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19392962-kilian-jornet-2026-western-states-100-pre-race-interview.mp3
@@ -6136,6 +6196,7 @@ episodes_by_feed:
     episode_key: kilian-jornet-2026-western-states-100-pre-race-interview
     legacy_numbered_slug: episode-13
     episode_page_url: "/singletrack/kilian-jornet-2026-western-states-100-pre-race-interview/"
+    youtube_video_id: llkcZtOR4tY
   - episode_title: Scott Jurek on the Golden Age of Ultra, Dean Potter and The Dark Wizard, 200-Milers, and the Odds of a Sub-14 at Western States (Sunday Conversation)
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19388589-scott-jurek-on-the-golden-age-of-ultra-dean-potter-and-the-dark-wizard-200-milers-and-the-odds-of-a-sub-14-at-western-states-sunday-conversation.mp3
@@ -6160,6 +6221,7 @@ episodes_by_feed:
     episode_key: 2026-western-states-100-final-power-rankings
     legacy_numbered_slug: episode-15
     episode_page_url: "/singletrack/2026-western-states-100-final-power-rankings/"
+    youtube_video_id: 7UsSwTMr6kI
   - episode_title: Lotti Brinks | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19388634-lotti-brinks-2026-western-states-100-pre-race-interview.mp3
@@ -6172,6 +6234,7 @@ episodes_by_feed:
     episode_key: lotti-brinks-2026-western-states-100-pre-race-interview
     legacy_numbered_slug: episode-16
     episode_page_url: "/singletrack/lotti-brinks-2026-western-states-100-pre-race-interview/"
+    youtube_video_id: IzRqrAwncPg
   - episode_title: Hans Troyer | 2026 Western States 100 Pre-Race Interview
     episode_url: ''
     audio_url: https://pscrb.fm/rss/p/www.buzzsprout.com/1794638/episodes/19382061-hans-troyer-2026-western-states-100-pre-race-interview.mp3
@@ -9740,6 +9803,7 @@ episodes_by_feed:
     episode_key: 147-from-failure-to-triple-crown-champion-kilian-korth-on-mental-toughness-never-quitting
     legacy_numbered_slug: episode-01
     episode_page_url: "/choose-strong/147-from-failure-to-triple-crown-champion-kilian-korth-on-mental-toughness-never-quitting/"
+    youtube_video_id: aMfTjpYlaQA
   - episode_title: "#146 | Shin Splints, Recovery, Motivation & Your First Ultra | Running Q&A"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/146--Shin-Splints--Recovery--Motivation--Your-First-Ultra--Running-QA-e3m3c1b
     audio_url: https://anchor.fm/s/674e5298/podcast/play/122842603/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-14%2F427969373-44100-2-a99b1d3f7b1f3.mp3
@@ -9752,6 +9816,7 @@ episodes_by_feed:
     episode_key: 146-shin-splints-recovery-motivation-your-first-ultra-running-q-a
     legacy_numbered_slug: episode-02
     episode_page_url: "/choose-strong/146-shin-splints-recovery-motivation-your-first-ultra-running-q-a/"
+    youtube_video_id: l4ej2HxZKOo
   - episode_title: "#145 | LIVE with RACHEL ENTREKIN | TrailCon 2026"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/145--LIVE-with-RACHEL-ENTREKIN--TrailCon-2026-e3lgc47
     audio_url: https://anchor.fm/s/674e5298/podcast/play/122220103/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-30%2F427132742-44100-2-b03f31b28bc95.mp3
@@ -9764,6 +9829,7 @@ episodes_by_feed:
     episode_key: 145-live-with-rachel-entrekin-trailcon-2026
     legacy_numbered_slug: episode-03
     episode_page_url: "/choose-strong/145-live-with-rachel-entrekin-trailcon-2026/"
+    youtube_video_id: zqRpn6wCT6o
   - episode_title: "#145 | LIVE with RACHEL ENTREKIN | TrailCon 2026"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/145--LIVE-with-RACHEL-ENTREKIN--TrailCon-2026-e3leruj
     audio_url: https://anchor.fm/s/674e5298/podcast/play/122170771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-30%2F427067194-44100-2-16e761364a7d9.mp3
@@ -9789,6 +9855,7 @@ episodes_by_feed:
     episode_key: 144-breaking-your-race-into-thirds-mindset-training-and-running-like-a-squirrel
     legacy_numbered_slug: episode-05
     episode_page_url: "/choose-strong/144-breaking-your-race-into-thirds-mindset-training-and-running-like-a-squirrel/"
+    youtube_video_id: nqaj2gAEWFc
   - episode_title: "#143 | Andy Glaze is Back"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/143--Andy-Glaze-is-Back-e3kdrvu
     audio_url: https://anchor.fm/s/674e5298/podcast/play/121089470/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-6%2F425622115-44100-2-f9f84cc58d1ba.mp3
@@ -9801,6 +9868,7 @@ episodes_by_feed:
     episode_key: 143-andy-glaze-is-back
     legacy_numbered_slug: episode-06
     episode_page_url: "/choose-strong/143-andy-glaze-is-back/"
+    youtube_video_id: pXOIOED_Vqg
   - episode_title: "#142 | What it feels like Recovering from a 200+ Mile race."
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/142--What-it-feels-like-Recovering-from-a-200-Mile-race-e3k4dd6
     audio_url: https://anchor.fm/s/674e5298/podcast/play/120779622/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-31%2F425208583-44100-2-54043e5d67221.mp3
@@ -9813,6 +9881,7 @@ episodes_by_feed:
     episode_key: 142-what-it-feels-like-recovering-from-a-200-mile-race
     legacy_numbered_slug: episode-07
     episode_page_url: "/choose-strong/142-what-it-feels-like-recovering-from-a-200-mile-race/"
+    youtube_video_id: "-dEq_M4mOPQ"
   - episode_title: "#141 | Sally's COCODONA 250 Race Recap"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/141--Sallys-COCODONA-250-Race-Recap-e3je3mr
     audio_url: https://anchor.fm/s/674e5298/podcast/play/120048795/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-4-15%2F424235006-44100-2-dacae04727e45.mp3
@@ -9825,6 +9894,7 @@ episodes_by_feed:
     episode_key: 141-sally-s-cocodona-250-race-recap
     legacy_numbered_slug: episode-08
     episode_page_url: "/choose-strong/141-sally-s-cocodona-250-race-recap/"
+    youtube_video_id: 4Z-RNbtjkaM
   - episode_title: "#140 | Cocodona 250 Shoe Line-Up, Lifting After a Run & Sparkling Water"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/140--Cocodona-250-Shoe-Line-Up--Lifting-After-a-Run--Sparkling-Water-e3iiimp
     audio_url: https://anchor.fm/s/674e5298/podcast/play/119146649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-28%2F423005645-44100-2-623488f3340c2.mp3
@@ -9837,6 +9907,7 @@ episodes_by_feed:
     episode_key: 140-cocodona-250-shoe-line-up-lifting-after-a-run-sparkling-water
     legacy_numbered_slug: episode-09
     episode_page_url: "/choose-strong/140-cocodona-250-shoe-line-up-lifting-after-a-run-sparkling-water/"
+    youtube_video_id: "-uzB65zkAu0"
   - episode_title: "#139 | How to Build Your Own Ultra Training Camp — Even If You’re Not a Pro"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/139--How-to-Build-Your-Own-Ultra-Training-Camp--Even-If-Youre-Not-a-Pro-e3i316i
     audio_url: https://anchor.fm/s/674e5298/podcast/play/118637202/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-3-18%2F422312595-44100-2-e9ef1f9ed5cae.mp3
@@ -9849,6 +9920,7 @@ episodes_by_feed:
     episode_key: 139-how-to-build-your-own-ultra-training-camp-even-if-you-re-not-a-pro
     legacy_numbered_slug: episode-10
     episode_page_url: "/choose-strong/139-how-to-build-your-own-ultra-training-camp-even-if-you-re-not-a-pro/"
+    youtube_video_id: E9dY7Oml-Pw
   - episode_title: "# 138 | Rattlesnakes & Gear Reviews"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/138--Rattlesnakes--Gear-Reviews-e3h88q9
     audio_url: https://anchor.fm/s/674e5298/podcast/play/117760265/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-31%2F421147001-44100-2-c3ced3f052cba.mp3
@@ -9861,6 +9933,7 @@ episodes_by_feed:
     episode_key: 138-rattlesnakes-gear-reviews
     legacy_numbered_slug: episode-11
     episode_page_url: "/choose-strong/138-rattlesnakes-gear-reviews/"
+    youtube_video_id: 2Jm-1nuzXGA
   - episode_title: "#137 | The End of Nike Trail"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/137--The-End-of-Nike-Trail-e3h2vld
     audio_url: https://anchor.fm/s/674e5298/podcast/play/117587053/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-28%2F420916217-44100-2-e9a37841db404.mp3
@@ -9873,6 +9946,7 @@ episodes_by_feed:
     episode_key: 137-the-end-of-nike-trail
     legacy_numbered_slug: episode-12
     episode_page_url: "/choose-strong/137-the-end-of-nike-trail/"
+    youtube_video_id: vZc0SHlxjHM
   - episode_title: "#136 | Champion's Mindset | Getting Through the Tough Parts"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/136--Champions-Mindset--Getting-Through-the-Tough-Parts-e3g66tr
     audio_url: https://anchor.fm/s/674e5298/podcast/play/116644219/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-9%2F419650191-44100-2-63b67b3f105cc.mp3
@@ -9885,6 +9959,7 @@ episodes_by_feed:
     episode_key: 136-champion-s-mindset-getting-through-the-tough-parts
     legacy_numbered_slug: episode-13
     episode_page_url: "/choose-strong/136-champion-s-mindset-getting-through-the-tough-parts/"
+    youtube_video_id: OGpphIqsTHs
   - episode_title: "#135 | Zone 2 Benefits, How Many Strength Sessions Are Enough? & Stomach Issues While Racing"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/135--Zone-2-Benefits--How-Many-Strength-Sessions-Are-Enough---Stomach-Issues-While-Racing-e3fq1rl
     audio_url: https://anchor.fm/s/674e5298/podcast/play/116245813/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-2%2F419092160-44100-2-38306cf1c8cda.mp3
@@ -9897,6 +9972,7 @@ episodes_by_feed:
     episode_key: 135-zone-2-benefits-how-many-strength-sessions-are-enough-stomach-issues-while-racing
     legacy_numbered_slug: episode-14
     episode_page_url: "/choose-strong/135-zone-2-benefits-how-many-strength-sessions-are-enough-stomach-issues-while-racing/"
+    youtube_video_id: wGlZ0zZXloI
   - episode_title: "#134 | Running Races as Training, Winter Olympics, & Running After Leg Day"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/134--Running-Races-as-Training--Winter-Olympics---Running-After-Leg-Day-e3ff6ft
     audio_url: https://anchor.fm/s/674e5298/podcast/play/115890109/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-23%2F418618046-44100-2-651e170e1c90a.mp3
@@ -9909,6 +9985,7 @@ episodes_by_feed:
     episode_key: 134-running-races-as-training-winter-olympics-running-after-leg-day
     legacy_numbered_slug: episode-15
     episode_page_url: "/choose-strong/134-running-races-as-training-winter-olympics-running-after-leg-day/"
+    youtube_video_id: kb23mVJF9T0
   - episode_title: "#133 | Andy Glaze | Goals & Hard Seasons"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/133--Andy-Glaze--Goals--Hard-Seasons-e3eqnmo
     audio_url: https://anchor.fm/s/674e5298/podcast/play/115219608/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-8%2F417723239-44100-2-6d17f5d9f2b22.mp3
@@ -9921,6 +9998,7 @@ episodes_by_feed:
     episode_key: 133-andy-glaze-goals-hard-seasons
     legacy_numbered_slug: episode-16
     episode_page_url: "/choose-strong/133-andy-glaze-goals-hard-seasons/"
+    youtube_video_id: 6ybdjb84MVg
   - episode_title: "#132 | Strength Training for Runners"
     episode_url: https://podcasters.spotify.com/pod/show/sallymcraepodcast/episodes/132--Strength-Training-for-Runners-e3egn5q
     audio_url: https://anchor.fm/s/674e5298/podcast/play/114891386/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-2%2F417286175-44100-2-29aa73eaf97cc.mp3
@@ -13445,6 +13523,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-03
     episode_page_url: "/hard-fork/what-s-a-hard-fork/"
   https://audioboom.com/channels/5166619.rss: &44
+  - episode_title: Auf Wiederseh'n, Goodbye
+    episode_url: https://audioboom.com/posts/8917508
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917508.mp3?modified=1784766121&sid=5166619&source=rss
+    published_at: '2026-07-23T07:05:00+00:00'
+    description_html: Erin and Alyssa get into Pete Hegseth’s new testosterone policy, and the latest on the Tate Brothers arrest. Then they do a supersized Sani-Petty with producer Caroline and sprinkle a little joy into the week to celebrate Alyssa’s last episode!
+    description_plain: Erin and Alyssa get into Pete Hegseth’s new testosterone policy, and the latest on the Tate Brothers arrest. Then they do a supersized Sani-Petty with producer Caroline and sprinkle a little joy into the week to celebrate Alyssa’s last episode!
+    episode_image_url: ''
+    episode_uid: audioboom-019ed2a5-3b33-7fb2-933f-0159a4cff3aa
+    episode_slug: auf-wiederseh-n-goodbye
+    episode_key: auf-wiederseh-n-goodbye
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/hysteria/auf-wiederseh-n-goodbye/"
   - episode_title: A Bombshell Has Left the Villa w. Heather Gardner
     episode_url: https://audioboom.com/posts/8917507
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917507.mp3?modified=1784180784&sid=5166619&source=rss
@@ -13455,7 +13545,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ed2a4-609e-7928-9883-7d982403ae04
     episode_slug: a-bombshell-has-left-the-villa-w-heather-gardner
     episode_key: a-bombshell-has-left-the-villa-w-heather-gardner
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/hysteria/a-bombshell-has-left-the-villa-w-heather-gardner/"
   - episode_title: 'This F*cking Guy: Ronald Reagan'
     episode_url: https://audioboom.com/posts/8917506
@@ -13467,7 +13557,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ed2a3-52f8-7e6c-bd4c-ed7dfef06bcc
     episode_slug: this-f-cking-guy-ronald-reagan
     episode_key: this-f-cking-guy-ronald-reagan
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/hysteria/this-f-cking-guy-ronald-reagan/"
   - episode_title: Platner Flatlines w. Christian LoBue
     episode_url: https://audioboom.com/posts/8917505
@@ -13479,11 +13569,11 @@ episodes_by_feed:
     episode_uid: audioboom-019ed2a2-9356-716a-82ec-0ba1bbc61083
     episode_slug: platner-flatlines-w-christian-lobue
     episode_key: platner-flatlines-w-christian-lobue
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/hysteria/platner-flatlines-w-christian-lobue/"
   - episode_title: The Other MAGA War… At Home
     episode_url: https://audioboom.com/posts/8917504
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917504.mp3?modified=1782771767&sid=5166619&source=rss
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8917504.mp3?modified=1783195889&sid=5166619&source=rss
     published_at: '2026-07-02T07:05:00+00:00'
     description_html: We’re off this week, but we're bringing you an episode of Runway Country with Alex Wagner. Every Thursday, the veteran journalist sits down with everyday Americans and political experts to cut through the noise and zero in on the stories that matter. In this episode, Alex speaks to former trad wife and host of “The Wake Her Up Podcast”, Sharon Johnson, about her upbringing in the Mormon Church, what it was like to discover she could have agency and choice in her late thirties, and how she feels about trad wives trending. Then Alex is joined by host of Crooked’s “Hysteria” podcast, Erin Ryan, to talk about the broader political goals behind the Heritage Foundation’s Project 2026 plan, and how it attempts to punish women who don’t fit their ideals. Catch Runaway Country with Alex Wagner on YouTube or wherever you listen to podcasts.
     description_plain: We’re off this week, but we're bringing you an episode of Runway Country with Alex Wagner. Every Thursday, the veteran journalist sits down with everyday Americans and political experts to cut through the noise and zero in on the stories that matter. In this episode, Alex speaks to former trad wife and host of “The Wake Her Up Podcast”, Sharon Johnson, about her upbringing in the Mormon Church, what it was like to discover she could have agency and choice in her late thirties, and how she feels about trad wives trending. Then Alex is joined by host of Crooked’s “Hysteria” podcast, Erin Ryan, to talk about the broader political goals behind the Heritage Foundation’s Project 2026 plan, and how it attempts to punish women who don’t fit their ideals. Catch Runaway Country with Alex Wagner on YouTube or wherever you listen to podcasts.
@@ -13491,7 +13581,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ed2a1-a664-7f59-a0c7-5dd898b59278
     episode_slug: the-other-maga-war-at-home
     episode_key: the-other-maga-war-at-home
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/hysteria/the-other-maga-war-at-home/"
   - episode_title: Choice Words w. Franchesca Ramsey
     episode_url: https://audioboom.com/posts/8917353
@@ -13503,7 +13593,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ed1a2-282f-7642-a1e3-2fe9a2a7b727
     episode_slug: choice-words-w-franchesca-ramsey
     episode_key: choice-words-w-franchesca-ramsey
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/hysteria/choice-words-w-franchesca-ramsey/"
   - episode_title: 'This F*cking Guy: John Roberts'
     episode_url: https://audioboom.com/posts/8915628
@@ -13515,7 +13605,7 @@ episodes_by_feed:
     episode_uid: audioboom-019eb82b-9e14-78bf-a57c-32fca892c22b
     episode_slug: this-f-cking-guy-john-roberts
     episode_key: this-f-cking-guy-john-roberts
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/hysteria/this-f-cking-guy-john-roberts/"
   - episode_title: What in the World (Cup) w. Megan Gailey
     episode_url: https://audioboom.com/posts/8915625
@@ -13527,7 +13617,7 @@ episodes_by_feed:
     episode_uid: audioboom-019eb82a-6904-7811-bf97-2d74dcc626a4
     episode_slug: what-in-the-world-cup-w-megan-gailey
     episode_key: what-in-the-world-cup-w-megan-gailey
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/hysteria/what-in-the-world-cup-w-megan-gailey/"
   - episode_title: Two Steps Forward, One Step Back w. Jennifer Siebel Newsom
     episode_url: https://audioboom.com/posts/8915177
@@ -13539,7 +13629,7 @@ episodes_by_feed:
     episode_uid: audioboom-019eb3ff-7620-7293-854b-d381f013a8fe
     episode_slug: two-steps-forward-one-step-back-w-jennifer-siebel-newsom
     episode_key: two-steps-forward-one-step-back-w-jennifer-siebel-newsom
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/hysteria/two-steps-forward-one-step-back-w-jennifer-siebel-newsom/"
   - episode_title: 'This F*cking Guy: Jared Kushner'
     episode_url: https://audioboom.com/posts/8913142
@@ -13551,7 +13641,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e99a8-e466-7122-af67-154c6bcb215c
     episode_slug: this-f-cking-guy-jared-kushner
     episode_key: this-f-cking-guy-jared-kushner
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/hysteria/this-f-cking-guy-jared-kushner/"
   - episode_title: Pratt Summer (Derogatory) w. Sepideh Moafi
     episode_url: https://audioboom.com/posts/8912035
@@ -13563,7 +13653,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e8ff8-a4a7-70d4-8ea6-8f71ff3644a2
     episode_slug: pratt-summer-derogatory-w-sepideh-moafi
     episode_key: pratt-summer-derogatory-w-sepideh-moafi
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/hysteria/pratt-summer-derogatory-w-sepideh-moafi/"
   - episode_title: Welcome to the Jungle Primary w. Reshma Saujani
     episode_url: https://audioboom.com/posts/8906144
@@ -13575,7 +13665,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e47a1-fc9e-7046-8dbd-7e6917e1efa6
     episode_slug: welcome-to-the-jungle-primary-w-reshma-saujani
     episode_key: welcome-to-the-jungle-primary-w-reshma-saujani
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/hysteria/welcome-to-the-jungle-primary-w-reshma-saujani/"
   - episode_title: 'This F*cking Guy: Bari Weiss'
     episode_url: https://audioboom.com/posts/8904311
@@ -13587,7 +13677,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e2de3-53f6-7e04-bb36-59b8f727a9ca
     episode_slug: this-f-cking-guy-bari-weiss
     episode_key: this-f-cking-guy-bari-weiss
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/hysteria/this-f-cking-guy-bari-weiss/"
   - episode_title: Runaway Virus w. Alex Wagner
     episode_url: https://audioboom.com/posts/8903329
@@ -13599,7 +13689,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e2403-7107-76dd-8308-981765f0bfe7
     episode_slug: runaway-virus-w-alex-wagner
     episode_key: runaway-virus-w-alex-wagner
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/hysteria/runaway-virus-w-alex-wagner/"
   - episode_title: The Pregnancy Scam w. Stephani Young
     episode_url: https://audioboom.com/posts/8900380
@@ -13611,7 +13701,7 @@ episodes_by_feed:
     episode_uid: audioboom-019dffc9-a244-7c86-b522-7fd6f9071f71
     episode_slug: the-pregnancy-scam-w-stephani-young
     episode_key: the-pregnancy-scam-w-stephani-young
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/hysteria/the-pregnancy-scam-w-stephani-young/"
   - episode_title: 'This F*cking Guy: Lindsey Graham'
     episode_url: https://audioboom.com/posts/8898264
@@ -13623,7 +13713,7 @@ episodes_by_feed:
     episode_uid: audioboom-019de5b3-a09a-7d7f-9b86-811ff5dc7dd4
     episode_slug: this-f-cking-guy-lindsey-graham
     episode_key: this-f-cking-guy-lindsey-graham
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/hysteria/this-f-cking-guy-lindsey-graham/"
   - episode_title: Kash Me Outside w. Naomi Ekperigin
     episode_url: https://audioboom.com/posts/8897286
@@ -13635,7 +13725,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ddba0-e75d-7fd9-beda-42225f0ae94b
     episode_slug: kash-me-outside-w-naomi-ekperigin
     episode_key: kash-me-outside-w-naomi-ekperigin
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/hysteria/kash-me-outside-w-naomi-ekperigin/"
   - episode_title: We Need Space w. Dr. Chanda Prescod-Weinstein
     episode_url: https://audioboom.com/posts/8894357
@@ -13647,7 +13737,7 @@ episodes_by_feed:
     episode_uid: audioboom-019db79a-974a-7791-9ddb-f247f04d47c6
     episode_slug: we-need-space-w-dr-chanda-prescod-weinstein
     episode_key: we-need-space-w-dr-chanda-prescod-weinstein
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/hysteria/we-need-space-w-dr-chanda-prescod-weinstein/"
   - episode_title: 'This F*cking Guy: Karoline Leavitt'
     episode_url: https://audioboom.com/posts/8891602
@@ -13659,7 +13749,7 @@ episodes_by_feed:
     episode_uid: audioboom-019d9db0-4261-770b-b483-87af5cb95e2e
     episode_slug: this-f-cking-guy-karoline-leavitt
     episode_key: this-f-cking-guy-karoline-leavitt
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/hysteria/this-f-cking-guy-karoline-leavitt/"
   - episode_title: Men vs. Consequences w. Kathy Griffin
     episode_url: https://audioboom.com/posts/8890613
@@ -13671,7 +13761,7 @@ episodes_by_feed:
     episode_uid: audioboom-019d93bf-02a3-7540-b343-220d50bd51e3
     episode_slug: men-vs-consequences-w-kathy-griffin
     episode_key: men-vs-consequences-w-kathy-griffin
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/hysteria/men-vs-consequences-w-kathy-griffin/"
   - episode_title: Breaking Trad
     episode_url: https://audioboom.com/posts/8885038
@@ -13683,7 +13773,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-09-posts-8885038
     episode_slug: breaking-trad
     episode_key: breaking-trad
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/hysteria/breaking-trad/"
   - episode_title: 'This F*cking Guy: Tulsi Gabbard'
     episode_url: https://audioboom.com/posts/8883087
@@ -13695,7 +13785,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-03-posts-8883087
     episode_slug: this-f-cking-guy-tulsi-gabbard
     episode_key: this-f-cking-guy-tulsi-gabbard
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/hysteria/this-f-cking-guy-tulsi-gabbard/"
   - episode_title: Trump’s Architectural Indigestion
     episode_url: https://audioboom.com/posts/8881964
@@ -13707,7 +13797,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-02-posts-8881964
     episode_slug: trump-s-architectural-indigestion
     episode_key: trump-s-architectural-indigestion
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/hysteria/trump-s-architectural-indigestion/"
   - episode_title: USA’s Boiling Points w. Megan Gailey
     episode_url: https://audioboom.com/posts/8878987
@@ -13719,7 +13809,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-26-posts-8878987
     episode_slug: usa-s-boiling-points-w-megan-gailey
     episode_key: usa-s-boiling-points-w-megan-gailey
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/hysteria/usa-s-boiling-points-w-megan-gailey/"
   - episode_title: 'This F*cking Guy: Naomi Campbell'
     episode_url: https://audioboom.com/posts/8876763
@@ -13731,20 +13821,8 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-20-posts-8876763
     episode_slug: this-f-cking-guy-naomi-campbell
     episode_key: this-f-cking-guy-naomi-campbell
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/hysteria/this-f-cking-guy-naomi-campbell/"
-  - episode_title: The Manosphere Grift
-    episode_url: https://audioboom.com/posts/8875935
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/prfx.byspotify.com/e/arttrk.com/p/CRMDA/mgln.ai/e/284/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8875935.mp3?modified=1773965374&sid=5166619&source=rss
-    published_at: '2026-03-19T07:00:00+00:00'
-    description_html: Erin and Alyssa react to the bombshell reporting on civil rights activist Cesar Chavez and the allegations of a lifelong pattern of sexual abuse. They also cover the election results out of Illinois, the latest on the SAVE Act in Congress, Louis Theroux’s new Netflix documentary on the Manosphere, and how the right is shaping culture from sex education to reality TV.
-    description_plain: Erin and Alyssa react to the bombshell reporting on civil rights activist Cesar Chavez and the allegations of a lifelong pattern of sexual abuse. They also cover the election results out of Illinois, the latest on the SAVE Act in Congress, Louis Theroux’s new Netflix documentary on the Manosphere, and how the right is shaping culture from sex education to reality TV.
-    episode_image_url: ''
-    episode_uid: tag-audioboom-com-2026-03-19-posts-8875935
-    episode_slug: the-manosphere-grift
-    episode_key: the-manosphere-grift
     legacy_numbered_slug: episode-25
-    episode_page_url: "/hysteria/the-manosphere-grift/"
+    episode_page_url: "/hysteria/this-f-cking-guy-naomi-campbell/"
   https://anchor.fm/s/f1fb88c/podcast/rss: &45
   - episode_title: "#343 - London Running Capital of the World?, Double T Overrated or Not, How to Train for a Sub-3 Marathon"
     episode_url: https://podcasters.spotify.com/pod/show/otqboyz/episodes/343---London-Running-Capital-of-the-World---Double-T-Overrated-or-Not--How-to-Train-for-a-Sub-3-Marathon-e3mdrh7
@@ -16572,6 +16650,7 @@ episodes_by_feed:
     episode_key: state-of-the-industry-trail-running-at-trailcon
     legacy_numbered_slug: episode-01
     episode_page_url: "/second-nature/state-of-the-industry-trail-running-at-trailcon/"
+    youtube_video_id: N4jZK5j1dag
   - episode_title: The Last Time Someone Reinvented Camping Was 1962
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-last-time-someone-reinvented-camping-was-1962
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Matt.mp3?dest-id=4458728
@@ -16584,6 +16663,7 @@ episodes_by_feed:
     episode_key: the-last-time-someone-reinvented-camping-was-1962
     legacy_numbered_slug: episode-02
     episode_page_url: "/second-nature/the-last-time-someone-reinvented-camping-was-1962/"
+    youtube_video_id: ahFqLCAyEvY
   - episode_title: Martyn Ashton on Rideable Now and the Future of Adaptive MTB
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/martyn-ashton-on-rideable-now-and-the-future-of-adaptive-mtb
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Martyn.mp3?dest-id=4458728
@@ -16596,6 +16676,7 @@ episodes_by_feed:
     episode_key: martyn-ashton-on-rideable-now-and-the-future-of-adaptive-mtb
     legacy_numbered_slug: episode-03
     episode_page_url: "/second-nature/martyn-ashton-on-rideable-now-and-the-future-of-adaptive-mtb/"
+    youtube_video_id: EtValS0oXFo
   - episode_title: You've Heard of Heat Training. Here's How It Actually Works.
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/youve-heard-of-heat-training-heres-how-it-actually-works
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Ross.mp3?dest-id=4458728
@@ -16608,6 +16689,7 @@ episodes_by_feed:
     episode_key: you-ve-heard-of-heat-training-here-s-how-it-actually-works
     legacy_numbered_slug: episode-04
     episode_page_url: "/second-nature/you-ve-heard-of-heat-training-here-s-how-it-actually-works/"
+    youtube_video_id: AIZMiQCgOVw
   - episode_title: The One Question Every Brand Needs to Answer
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-one-question-every-brand-needs-to-answer
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Mattie.mp3?dest-id=4458728
@@ -16620,6 +16702,7 @@ episodes_by_feed:
     episode_key: the-one-question-every-brand-needs-to-answer
     legacy_numbered_slug: episode-05
     episode_page_url: "/second-nature/the-one-question-every-brand-needs-to-answer/"
+    youtube_video_id: tJl441qcZLk
   - episode_title: The Sunscreen Brand That's Rewriting Performance Science
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/the-sunscreen-brand-thats-rewriting-performance-science
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-Pelotan.mp3?dest-id=4458728
@@ -16632,6 +16715,7 @@ episodes_by_feed:
     episode_key: the-sunscreen-brand-that-s-rewriting-performance-science
     legacy_numbered_slug: episode-06
     episode_page_url: "/second-nature/the-sunscreen-brand-that-s-rewriting-performance-science/"
+    youtube_video_id: p1zO8-5i1EQ
   - episode_title: 'Behind The Brand: Athletic Brewing'
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/behind-the-brand-athletic-brewing
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-AthleticBrewing.mp3?dest-id=4458728
@@ -16644,6 +16728,7 @@ episodes_by_feed:
     episode_key: behind-the-brand-athletic-brewing
     legacy_numbered_slug: episode-07
     episode_page_url: "/second-nature/behind-the-brand-athletic-brewing/"
+    youtube_video_id: LUZyMp1XsPs
   - episode_title: What Happens When You Actually Ask For Help
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/what-happens-when-you-actually-ask-for-help
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-158.mp3?dest-id=4458728
@@ -16656,6 +16741,7 @@ episodes_by_feed:
     episode_key: what-happens-when-you-actually-ask-for-help
     legacy_numbered_slug: episode-08
     episode_page_url: "/second-nature/what-happens-when-you-actually-ask-for-help/"
+    youtube_video_id: P1oyZe5ISy4
   - episode_title: You Can Just Build Things Now
     episode_url: https://8f1ff7ac-0e59-454d-8826-44717f4f9d19.libsyn.com/you-can-just-build-things-now
     audio_url: https://traffic.libsyn.com/secure/8f1ff7ac-0e59-454d-8826-44717f4f9d19/SN-157-Steve.mp3?dest-id=4458728
@@ -21847,6 +21933,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/acquired/chase-center-summer-update/"
   https://rss.art19.com/how-i-built-this: &71
+  - episode_title: Advice Line with Curt Richardson of OtterBox
+    episode_url: ''
+    audio_url: https://rss.art19.com/episodes/e94bf774-de11-4434-843b-a551309a6773.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
+    published_at: '2026-07-23T07:10:00Z'
+    description_html: '<p>Today’s callers: Andy from Sarasota weighs whether the path to scalability for his live game show business is through personality or product. Then, Marissa from Tampa wants to recapture sales for her fairy tale-inspired teas after taking a hiatus to focus on her family. And Vince from New Jersey wonders how to allocate marketing dollars for  his sustainable baby gear company..</p><p>Plus, Curt reflects on the importance of focus in sustaining OtterBox as a leading tech accessories brand over 30 years.</p><p>Thank you to the founders of Mr GameShow, Gilded Coach Teas, and Evrloop for being a part of our show.</p><p>If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to <a href="mailto:hibt@id.wondery.com" rel="noopener noreferrer" target="_blank">hibt@id.wondery.com</a> or call 1-800-433-1298.</p><p>And be sure to listen to <a href="https://art19.com/shows/831bd173-0992-41b7-b1eb-112db904d947/episodes/6af71551-3c72-4d02-9d91-2c6174a0a154/embed" rel="noopener noreferrer" target="_blank">OtterBox''s founding story</a> as told by Curt on the show in 2019.</p><p>This episode was produced by Carla Esteves with music by Ramtin Arablouei. It was edited by John Isabella. Our audio engineer was Robert Rodriguez.</p><p>You can follow HIBT on <a href="https://x.com/HowIBuiltThis" rel="noopener noreferrer" target="_blank">X</a> &amp; <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">Instagram</a> and sign up for Guy''s free newsletter at <a href="http://guyraz.com/" rel="noopener noreferrer" target="_blank">guyraz.com</a> and on <a href="https://guyraz.substack.com/" rel="noopener noreferrer" target="_blank">Substack</a>.</p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
+    description_plain: 'Today’s callers: Andy from Sarasota weighs whether the path to scalability for his live game show business is through personality or product. Then, Marissa from Tampa wants to recapture sales for her fairy tale-inspired teas after taking a hiatus to focus on her family. And Vince from New Jersey wonders how to allocate marketing dollars for his sustainable baby gear company.. Plus, Curt reflects on the importance of focus in sustaining OtterBox as a leading tech accessories brand over 30 years. Thank you to the founders of Mr GameShow, Gilded Coach Teas, and Evrloop for being a part of our show. If you’d like to be featured on a future Advice Line episode—where Guy and former show guests take questions from early-stage founders—leave us a one-minute message that tells us about your business and a specific question you’d like answered. Send a voice memo to hibt@id.wondery.com or call 1-800-433-1298. And be sure to listen to OtterBox''s founding story as told by Curt on the show in 2019. This episode was produced by Carla Esteves with music by Ramtin Arablouei. It was edited by John Isabella. Our audio engineer was Robert Rodriguez. You can follow HIBT on X &amp; Instagram and sign up for Guy''s free newsletter at guyraz.com and on Substack . See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
+    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
+    episode_uid: cak31lxamrjzlpenlxl1hayorn7taayo3d8x81ceiz4
+    episode_slug: advice-line-with-curt-richardson-of-otterbox
+    episode_key: advice-line-with-curt-richardson-of-otterbox
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/how-i-built-this/advice-line-with-curt-richardson-of-otterbox/"
   - episode_title: 'Toast: Aman Narang. How a Long Wait for the Dinner Check Launched a $2 Billion Business.'
     episode_url: ''
     audio_url: https://rss.art19.com/episodes/6eca81bc-b0e1-47e2-a87d-f3b243e76a97.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
@@ -21857,7 +21955,7 @@ episodes_by_feed:
     episode_uid: egg039qu0ogswop-3hhaghai9x7jy7x-6gkms2o9alm
     episode_slug: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
     episode_key: toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/how-i-built-this/toast-aman-narang-how-a-long-wait-for-the-dinner-check-launched-a-2-billion-business/"
   - episode_title: Advice Line with Kenneth Cole
     episode_url: ''
@@ -21869,7 +21967,7 @@ episodes_by_feed:
     episode_uid: sleutgzfxjyo-rrudjv0v9yyh09zn26ue4qdwoybema
     episode_slug: advice-line-with-kenneth-cole
     episode_key: advice-line-with-kenneth-cole
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/how-i-built-this/advice-line-with-kenneth-cole/"
   - episode_title: 'Sun Bum: Tom Rinks. The Secrets of a Master Brand Builder (2023)'
     episode_url: ''
@@ -21881,7 +21979,7 @@ episodes_by_feed:
     episode_uid: y7qftuceid7jce8jvtplgnhixui40ngwg4itljux9gk
     episode_slug: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
     episode_key: sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/how-i-built-this/sun-bum-tom-rinks-the-secrets-of-a-master-brand-builder-2023/"
   - episode_title: Advice Line with Jeni Britton of Jeni's Splendid Ice Creams (2025)
     episode_url: ''
@@ -21893,7 +21991,7 @@ episodes_by_feed:
     episode_uid: gftd5xyydg6qzbuktfhnzpp6arlg-sefghtdip3qe
     episode_slug: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
     episode_key: advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/how-i-built-this/advice-line-with-jeni-britton-of-jeni-s-splendid-ice-creams-2025/"
   - episode_title: 'Catalina Crunch: Krishna Kaliannan. From Homemade Keto Cocoa Puffs to Breakfast Aisle Breakthrough'
     episode_url: ''
@@ -21905,7 +22003,7 @@ episodes_by_feed:
     episode_uid: fgb-e35uhoyskmeodpjdxwgfbvnzkrobi27eax6iqsm
     episode_slug: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
     episode_key: catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/how-i-built-this/catalina-crunch-krishna-kaliannan-from-homemade-keto-cocoa-puffs-to-breakfast-aisle-breakthrough/"
   - episode_title: Advice Line with Ronnen Harary of Spin Master/PAW Patrol
     episode_url: ''
@@ -21917,7 +22015,7 @@ episodes_by_feed:
     episode_uid: ip0vy2yexavz2hs40reul-oey40aipj6tp5gw91vwjg
     episode_slug: advice-line-with-ronnen-harary-of-spin-master-paw-patrol
     episode_key: advice-line-with-ronnen-harary-of-spin-master-paw-patrol
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/how-i-built-this/advice-line-with-ronnen-harary-of-spin-master-paw-patrol/"
   - episode_title: 'e.l.f. Cosmetics: Joey Shamah. The Dollar Store Formula That Built a Cosmetics Giant'
     episode_url: ''
@@ -21929,7 +22027,7 @@ episodes_by_feed:
     episode_uid: zillwlpg8hzveaqbrkziq6pjjyccx0t4vhh-nqpbnve
     episode_slug: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
     episode_key: e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/how-i-built-this/e-l-f-cosmetics-joey-shamah-the-dollar-store-formula-that-built-a-cosmetics-giant/"
   - episode_title: Advice Line with Susan Griffin-Black of EO Products
     episode_url: ''
@@ -21941,7 +22039,7 @@ episodes_by_feed:
     episode_uid: o6j6dwehdd7amk7jxbrnvwv-a1tzbi6khnejfibcvxe
     episode_slug: advice-line-with-susan-griffin-black-of-eo-products
     episode_key: advice-line-with-susan-griffin-black-of-eo-products
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/how-i-built-this/advice-line-with-susan-griffin-black-of-eo-products/"
   - episode_title: 'STARR Restaurants: Stephen Starr. How a Non-Foodie Built Thriving Restaurants on Gut Instinct'
     episode_url: ''
@@ -21953,7 +22051,7 @@ episodes_by_feed:
     episode_uid: jlsenest4p7hw8kfouvvu50usn8gmu-wxhzoxwdydg8
     episode_slug: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
     episode_key: starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/how-i-built-this/starr-restaurants-stephen-starr-how-a-non-foodie-built-thriving-restaurants-on-gut-instinct/"
   - episode_title: Advice Line with Shazi Visram of Happy Family Organics
     episode_url: ''
@@ -21965,7 +22063,7 @@ episodes_by_feed:
     episode_uid: pzk4jbulxl5hsniwomgt-c9boxmlmdjusfx0zkilc2o
     episode_slug: advice-line-with-shazi-visram-of-happy-family-organics
     episode_key: advice-line-with-shazi-visram-of-happy-family-organics
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/how-i-built-this/advice-line-with-shazi-visram-of-happy-family-organics/"
   - episode_title: 'Build-A-Bear: Maxine Clark. A Former Shoe Executive Launches a Stuffed Animal Empire'
     episode_url: ''
@@ -21977,7 +22075,7 @@ episodes_by_feed:
     episode_uid: tmp4tjl9nxpytdg9f4gfoyxv6qz6u2cn2ydgpazzzs8
     episode_slug: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
     episode_key: build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/how-i-built-this/build-a-bear-maxine-clark-a-former-shoe-executive-launches-a-stuffed-animal-empire/"
   - episode_title: Advice Line with Christina Tosi of Milk Bar
     episode_url: ''
@@ -21989,7 +22087,7 @@ episodes_by_feed:
     episode_uid: hhjeehzmmivsosdeaivhgwyyvpp-ddqkpr4htdvlku8
     episode_slug: advice-line-with-christina-tosi-of-milk-bar
     episode_key: advice-line-with-christina-tosi-of-milk-bar
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/how-i-built-this/advice-line-with-christina-tosi-of-milk-bar/"
   - episode_title: 'Shopify: Tobias Lütke. How a snowboarder built a $150 billion business (2019)'
     episode_url: ''
@@ -22002,7 +22100,7 @@ episodes_by_feed:
     episode_slug: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     episode_key: shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019
     legacy_unicode_slug: shopify-tobias-lütke-how-a-snowboarder-built-a-150-billion-business-2019
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/how-i-built-this/shopify-tobias-lutke-how-a-snowboarder-built-a-150-billion-business-2019/"
   - episode_title: Advice Line with Tim Ferriss (August 2025)
     episode_url: ''
@@ -22014,7 +22112,7 @@ episodes_by_feed:
     episode_uid: b9ee3my6tjy1ceqbdtb5wenwgy3ordtifo2-if3e0ay
     episode_slug: advice-line-with-tim-ferriss-august-2025
     episode_key: advice-line-with-tim-ferriss-august-2025
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/how-i-built-this/advice-line-with-tim-ferriss-august-2025/"
   - episode_title: 'UGG: Brian Smith. How an epiphany, surfers, and $500 launched an iconic sheepskin footwear company.'
     episode_url: ''
@@ -22026,7 +22124,7 @@ episodes_by_feed:
     episode_uid: 5s0vonn-opsk1zpat1nxn-vo2zcdme8lt7jxguqkmy
     episode_slug: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
     episode_key: ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/how-i-built-this/ugg-brian-smith-how-an-epiphany-surfers-and-500-launched-an-iconic-sheepskin-footwear-company/"
   - episode_title: Advice Line with Jeffrey Hollender of Seventh Generation
     episode_url: ''
@@ -22038,7 +22136,7 @@ episodes_by_feed:
     episode_uid: 4wcue-17ogbw5el-mbnx-ki9ijworouprz5pdewq7xi
     episode_slug: advice-line-with-jeffrey-hollender-of-seventh-generation
     episode_key: advice-line-with-jeffrey-hollender-of-seventh-generation
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/how-i-built-this/advice-line-with-jeffrey-hollender-of-seventh-generation/"
   - episode_title: 'Justin’s Nut Butter: Justin Gold. He Was Waiting Tables, Then...He Reinvented Peanut Butter.'
     episode_url: ''
@@ -22050,7 +22148,7 @@ episodes_by_feed:
     episode_uid: yqzw16h2ktk2olnhz-uuhe82fcwwot0sixwalkx2km
     episode_slug: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
     episode_key: justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/how-i-built-this/justin-s-nut-butter-justin-gold-he-was-waiting-tables-then-he-reinvented-peanut-butter/"
   - episode_title: Advice Line with Sarah LaFleur of M.M. LaFleur
     episode_url: ''
@@ -22062,7 +22160,7 @@ episodes_by_feed:
     episode_uid: zswlybn8gfviu2ih2g9x4uvgvityooc1djles4a926o
     episode_slug: advice-line-with-sarah-lafleur-of-m-m-lafleur
     episode_key: advice-line-with-sarah-lafleur-of-m-m-lafleur
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/how-i-built-this/advice-line-with-sarah-lafleur-of-m-m-lafleur/"
   - episode_title: 'NVIDIA: Jensen Huang. From near collapse to becoming the world’s biggest company'
     episode_url: ''
@@ -22074,7 +22172,7 @@ episodes_by_feed:
     episode_uid: bpikpn-q7wrffq1h-x6g3o2ecadpyq6otwp6fwspdbq
     episode_slug: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
     episode_key: nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/how-i-built-this/nvidia-jensen-huang-from-near-collapse-to-becoming-the-world-s-biggest-company/"
   - episode_title: 'Advice Line: New Offerings, Bigger Markets'
     episode_url: ''
@@ -22086,7 +22184,7 @@ episodes_by_feed:
     episode_uid: d3whyvzhetkd1ekwdk8occgpyou669hscg02gp68px4
     episode_slug: advice-line-new-offerings-bigger-markets
     episode_key: advice-line-new-offerings-bigger-markets
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/how-i-built-this/advice-line-new-offerings-bigger-markets/"
   - episode_title: 'Room & Board: John Gabbert. A Broken Deal, a Family Rift, and the Birth of a Furniture Giant'
     episode_url: ''
@@ -22098,7 +22196,7 @@ episodes_by_feed:
     episode_uid: nufmnrpeqyz9yn2-rxzl7tscz389nskiuirlnyhwhgs
     episode_slug: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
     episode_key: room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/how-i-built-this/room-board-john-gabbert-a-broken-deal-a-family-rift-and-the-birth-of-a-furniture-giant/"
   - episode_title: Advice Line with Jonah Peretti of Buzzfeed
     episode_url: ''
@@ -22110,7 +22208,7 @@ episodes_by_feed:
     episode_uid: chfjg48l1clzorvmtfcdvybr-u5z1kyh-zynrwal7cu
     episode_slug: advice-line-with-jonah-peretti-of-buzzfeed
     episode_key: advice-line-with-jonah-peretti-of-buzzfeed
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/how-i-built-this/advice-line-with-jonah-peretti-of-buzzfeed/"
   - episode_title: 'Beautycounter: Gregg Renfrew. She Built Beautycounter to $1B… Then Got Fired From Her Own Company'
     episode_url: ''
@@ -22122,7 +22220,7 @@ episodes_by_feed:
     episode_uid: zoucdhzsff4qac4xrsr7ucc6cgcypqrp7tkktyxyi7o
     episode_slug: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
     episode_key: beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/how-i-built-this/beautycounter-gregg-renfrew-she-built-beautycounter-to-1b-then-got-fired-from-her-own-company/"
   - episode_title: Advice Line with David Neeleman of JetBlue
     episode_url: ''
@@ -22134,20 +22232,8 @@ episodes_by_feed:
     episode_uid: ukzbnk2zh6n4tug0iemjkhpo9ous3wgjg0dkyduj7xe
     episode_slug: advice-line-with-david-neeleman-of-jetblue
     episode_key: advice-line-with-david-neeleman-of-jetblue
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/how-i-built-this/advice-line-with-david-neeleman-of-jetblue/"
-  - episode_title: 'Shep and Ian Murray: Vineyard Vines. A Stale Product Transforms into a Lifestyle Brand.'
-    episode_url: ''
-    audio_url: https://rss.art19.com/episodes/30577acd-0a96-4b5c-9301-d43b955cbb1a.mp3?rss_browser=BAhJIgxNb3ppbGxhBjoGRVQ%3D--4f04cd103bfdd3e94cbbb356ead53321a4d63e94
-    published_at: '2026-04-27T07:10:00Z'
-    description_html: '<p>In the late 1990s, Shep and Ian Murray looked at a shrinking category–men’s ties–and saw an opportunity: a necktie isn’t just functional. It’s expressive. It can signal identity, taste, aspiration.</p><p>With no fashion experience and no outside investors, the Murray brothers started making colorful ties inspired by their childhoods in Martha’s Vineyard — tiny whales, sailboats, island street signs. What began as a small, improbable tie business grew into Vineyard Vines: a half-billion-dollar lifestyle brand with more than 100 stores and major department store distribution.</p><p>In this episode, Shep and Ian talk about why they quit their stable jobs to turn a sleepy product into a national brand, which began as a family business and remains so to this day.</p><p>What you’ll learn:</p><ul><li>Why a great business can start in a category that everyone thinks is dying</li><li>How to build distribution when you have no roadmap and few connections</li><li>What bootstrapping teaches founders that outside capital often doesn’t</li><li>How improvised marketing can create outsized attention</li><li>Knowing the difference between a fashion brand and a “brand” brand</li></ul><p>Timestamps:</p><ul><li>00:10:22 - The brothers both hate their desk jobs: “How was your day?” “It sucked.”</li><li>00:11:20 - Vineyard Vines starts on a family trip, with a nudge from a hotel manager</li><li>00:13:46 - Early designs: whales, fish, jeeps, street signs</li><li>00:25:39 - Finally quitting their jobs– they’re thrilled, their parents–not so much</li><li>00:30:42 - Landing their first order for $1800. “We’re never gonna have to work anymore!”</li><li>00:34:40 - The brand gets a boost from a PR stunt during the Clinton-Lewinsky scandal</li><li>00:47:00 - The “Get to $5 million” mentor advice that kept them focused</li><li>00:49:23 - The brothers open their first store - and realize they have a lot to learn</li><li>01:01:18 - The 2008 financial crisis, and the brutal inventory decisions that help save the business</li><li>01:09:06 - Why stepping back from the CEO role didn’t work — and what it taught them about brand culture</li></ul><p>This episode was produced by Kerry Thompson with music composed by Ramtin Arablouei. It was edited by Neva Grant with research help from Casey Herman.</p><p><strong>Follow How I Built This:</strong></p><p>Instagram → <a href="https://www.instagram.com/howibuiltthis/" rel="noopener noreferrer" target="_blank">@howibuiltthis</a></p><p>X → <a href="https://x.com/howibuiltthis" rel="noopener noreferrer" target="_blank">@HowIBuiltThis</a></p><p>Facebook → <a href="https://www.facebook.com/howibuiltthis" rel="noopener noreferrer" target="_blank">How I Built This</a></p><p><strong>Follow Guy Raz:</strong></p><p>Instagram → <a href="https://www.instagram.com/guy.raz/" rel="noopener noreferrer" target="_blank">@guy.raz</a></p><p>Youtube →<a href="https://www.youtube.com/channel/UCNSfrxNEmCruNtjIzxCBHjg" rel="noopener noreferrer" target="_blank"> guy_raz</a></p><p>X → <a href="https://x.com/guyraz" rel="noopener noreferrer" target="_blank">@guyraz</a></p><p>Substack →<a href="https://urldefense.com/v3/__http:/guyraz.substack.com__;!!Iwwt!RZoD751oWzUzoqqdJiqaoL6HdJfRHDUO1TKvYJ424d3Udn7-Pw9Nj6nEsauh9zcgEvLjUEc$" rel="noopener noreferrer" target="_blank"></a><a href="http://guyraz.substack.com" rel="noopener noreferrer" target="_blank">guyraz.substack.com</a></p><p>Website →<a href="https://urldefense.com/v3/__http:/guyraz.substack.com__;!!Iwwt!RZoD751oWzUzoqqdJiqaoL6HdJfRHDUO1TKvYJ424d3Udn7-Pw9Nj6nEsauh9zcgEvLjUEc$" rel="noopener noreferrer" target="_blank"></a><a href="http://guyraz.com" rel="noopener noreferrer" target="_blank">guyraz.com</a></p><p>See Privacy Policy at <a href="https://art19.com/privacy" rel="noopener noreferrer" target="_blank">https://art19.com/privacy</a> and California Privacy Notice at <a href="https://art19.com/privacy#do-not-sell-my-info" rel="noopener noreferrer" target="_blank">https://art19.com/privacy#do-not-sell-my-info</a>.</p>'
-    description_plain: 'In the late 1990s, Shep and Ian Murray looked at a shrinking category–men’s ties–and saw an opportunity: a necktie isn’t just functional. It’s expressive. It can signal identity, taste, aspiration. With no fashion experience and no outside investors, the Murray brothers started making colorful ties inspired by their childhoods in Martha’s Vineyard — tiny whales, sailboats, island street signs. What began as a small, improbable tie business grew into Vineyard Vines: a half-billion-dollar lifestyle brand with more than 100 stores and major department store distribution. In this episode, Shep and Ian talk about why they quit their stable jobs to turn a sleepy product into a national brand, which began as a family business and remains so to this day. What you’ll learn: Why a great business can start in a category that everyone thinks is dying How to build distribution when you have no roadmap and few connections What bootstrapping teaches founders that outside capital often doesn’t How improvised marketing can create outsized attention Knowing the difference between a fashion brand and a “brand” brand Timestamps: 00:10:22 - The brothers both hate their desk jobs: “How was your day?” “It sucked.” 00:11:20 - Vineyard Vines starts on a family trip, with a nudge from a hotel manager 00:13:46 - Early designs: whales, fish, jeeps, street signs 00:25:39 - Finally quitting their jobs– they’re thrilled, their parents–not so much 00:30:42 - Landing their first order for $1800. “We’re never gonna have to work anymore!” 00:34:40 - The brand gets a boost from a PR stunt during the Clinton-Lewinsky scandal 00:47:00 - The “Get to $5 million” mentor advice that kept them focused 00:49:23 - The brothers open their first store - and realize they have a lot to learn 01:01:18 - The 2008 financial crisis, and the brutal inventory decisions that help save the business 01:09:06 - Why stepping back from the CEO role didn’t work — and what it taught them about brand culture This episode was produced by Kerry Thompson with music composed by Ramtin Arablouei. It was edited by Neva Grant with research help from Casey Herman. Follow How I Built This: Instagram → @howibuiltthis X → @HowIBuiltThis Facebook → How I Built This Follow Guy Raz: Instagram → @guy.raz Youtube → guy_raz X → @guyraz Substack → guyraz.substack.com Website → guyraz.com See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .'
-    episode_image_url: https://content.production.cdn.art19.com/images/56/ae/46/57/56ae4657-2aa7-4cfc-8ddf-9be24410d5ed/a42755c24a721ea0aaed99c400150d8e67da266430f4bf312684a4bd64e5a1b2f4be14f56746ce0633855e356d7a41a0973d96be2dd0f1d4a174bbe7f456aa4e.jpeg
-    episode_uid: 8ftwrlam7ypq-6-bkrgyizwoplu3afpp3r5zopt0sis
-    episode_slug: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
-    episode_key: shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand
     legacy_numbered_slug: episode-25
-    episode_page_url: "/how-i-built-this/shep-and-ian-murray-vineyard-vines-a-stale-product-transforms-into-a-lifestyle-brand/"
+    episode_page_url: "/how-i-built-this/advice-line-with-david-neeleman-of-jetblue/"
   https://lexfridman.com/feed/podcast/: &72
   - episode_title: "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires"
     episode_url: https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis
@@ -23583,18 +23669,18 @@ episodes_by_feed:
     episode_key: most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting
     legacy_numbered_slug: episode-18
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-is-milk-healthy-the-truth-about-dairy-sugar-fruit-and-fasting/"
-  - episode_title: 'Graham Hancock: The Case for a Lost Civilization'
+  - episode_title: 'Archaeology WARNING:  They Secretly Found Antarctica 300 Years Before Us - Graham Hancock'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KTSQ9B3VNZRMYKZ83P85TQGP.mp3?fcv=were0erxl0q6gc9ya7y2at20
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KTSQ9B3VNZRMYKZ83P85TQGP.mp3?fcv=ukwrmks81rzijabkkce7bc2r
     published_at: '2026-06-11T05:00:00Z'
     description_html: '<p class="text-node">What is ancient astronomy hiding about our true history? Graham Hancock reveals the catastrophe that erased 12,800 years of our past, what the Great Pyramid is actually trying to tell us, and what he refuses to leave unsaid with heart surgery just weeks away.</p><p class="text-node">Graham Hancock is a best selling writer and journalist who has spent 3 decades investigating evidence for a lost prehistoric civilisation. He is the author of international bestsellers including ''Fingerprints of the Gods'', and is the presenter of the Netflix documentary series ''Ancient Apocalypse''.</p><p class="text-node">He explains: ◼ Why the Great Pyramid contains knowledge humans shouldn''t have had for another 2,500 years ◼ The ancient maps that show a continent nobody should have known existed yet ◼ How the Amazon rainforest is actually a man-made landscape hiding what''s buried beneath ◼ What 80 ayahuasca ceremonies taught him</p><p class="text-node"><h3>Chapters</h3><ul><li><strong>00:00:00</strong> Intro</li><li><strong>00:02:19</strong> Do Humans Have A Hidden Past?</li><li><strong>00:06:18</strong> Did A Global Cataclysm Reset Humanity?</li><li><strong>00:11:09</strong> Why Have This Conversation Now?</li><li><strong>00:12:17</strong> Why Is Your Work So Controversial?</li><li><strong>00:14:35</strong> How Old Is Humanity Really?</li><li><strong>00:18:40</strong> The Evidence Behind The Lost Comet Theory</li><li><strong>00:19:56</strong> What Truly Defines A Civilization?</li><li><strong>00:22:59</strong> Did Humans Survive The Ice Age?</li><li><strong>00:24:18</strong> What Were Early Humans Really Like?</li><li><strong>00:28:04</strong> The Missing Chapter In Human History</li><li><strong>00:29:38</strong> Could We Become The Next Lost Civilization?</li><li><strong>00:34:53</strong> How Do We Know These Stories Are True?</li><li><strong>00:37:38</strong> The Unsolved Mystery Of The Great Pyramid</li><li><strong>00:41:42</strong> The Real Meaning Of The Age Of Aquarius</li><li><strong>00:46:47</strong> Did The Ancients Know The Size Of Earth?</li><li><strong>00:49:26</strong> Were Ancient Secrets Passed Down Through Time?</li><li><strong>00:51:42</strong> Where Did Humanity''s Lost Knowledge Go?</li><li><strong>00:53:47</strong> Do The Pyramids Point To A Lost Civilization?</li><li><strong>00:55:03</strong> Is Something Hidden Beneath The Great Pyramid?</li><li><strong>00:56:59</strong> Why Mainstream Science Pushes Back</li><li><strong>00:58:21</strong> Alone Inside The Great Pyramid</li><li><strong>01:00:04</strong> Ads</li><li><strong>01:02:05</strong> What A Lost Civilization Means Today</li><li><strong>01:03:02</strong> Should We Rethink Astrology And Telepathy?</li><li><strong>01:05:08</strong> New Discoveries Beneath The Amazon</li><li><strong>01:08:31</strong> What Shamanism Gets Right</li><li><strong>01:09:18</strong> A Journey With Ayahuasca</li><li><strong>01:12:26</strong> Strange Experiences From Childhood</li><li><strong>01:15:19</strong> Did You Have Nightmares?</li><li><strong>01:16:35</strong> Why Being An Outsider Matters</li><li><strong>01:17:51</strong> Don''t Let Life Pass You By</li><li><strong>01:19:51</strong> Are Religion And Spirituality The Same?</li><li><strong>01:22:00</strong> Why Do People Experience The Same Psychedelic Visions?</li><li><strong>01:25:01</strong> Why Humanity Must Look Inward First</li><li><strong>01:28:47</strong> Ads</li><li><strong>01:29:48</strong> What Consciousness Really Is</li><li><strong>01:32:36</strong> How Illness Changed My Perspective</li><li><strong>01:33:30</strong> Why Love Matters Most</li><li><strong>01:39:36</strong> What Ancient Civilizations Teach Us Today</li><li><strong>01:44:14</strong> The Power Of Independent Thinking</li><li><strong>01:46:33</strong> What Will Matter On Your Last Day?</li><li><strong>01:47:13</strong> Living Without Judging Others</li><li><strong>01:49:36</strong> Will We One Day Worship AI?</li></ul></p><p class="text-node">Enjoyed the episode? Share this link and earn points for every referral - redeem them for exclusive prizes: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doac-perks.com">https://doac-perks.com</a></p><p class="text-node">Follow Graham: Website - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/CDCJTRS">https://link.thediaryofaceo.com/CDCJTRS</a> Facebook - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/9n9OEkv">https://link.thediaryofaceo.com/9n9OEkv</a> X - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/7xRxeaW">https://link.thediaryofaceo.com/7xRxeaW</a> YouTube - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/8UehPfG">https://link.thediaryofaceo.com/8UehPfG</a> Instagram - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/DDp55T2">https://link.thediaryofaceo.com/DDp55T2</a></p><p class="text-node">You can purchase Graham’s book, ‘Visionary: The Mysterious Origins of Human Consciousness’, here: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://link.thediaryofaceo.com/3m3QlBS">https://link.thediaryofaceo.com/3m3QlBS</a></p><p class="text-node">The Diary Of A CEO: ◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://doaccircle.com/">https://doaccircle.com/</a> ◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a> ◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a> ◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a> ◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a> ◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></p><p class="text-node">Sponsors: Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://cometeer.com/doac">https://cometeer.com/doac</a> use code DOAC for $20 off Shopify - <a target="_blank" rel="noopener noreferrer nofollow" class="link" href="https://shopify.com/bartlett">https://shopify.com/bartlett</a></p>'
     description_plain: 'What is ancient astronomy hiding about our true history? Graham Hancock reveals the catastrophe that erased 12,800 years of our past, what the Great Pyramid is actually trying to tell us, and what he refuses to leave unsaid with heart surgery just weeks away. Graham Hancock is a best selling writer and journalist who has spent 3 decades investigating evidence for a lost prehistoric civilisation. He is the author of international bestsellers including ''Fingerprints of the Gods'', and is the presenter of the Netflix documentary series ''Ancient Apocalypse''. He explains: ◼ Why the Great Pyramid contains knowledge humans shouldn''t have had for another 2,500 years ◼ The ancient maps that show a continent nobody should have known existed yet ◼ How the Amazon rainforest is actually a man-made landscape hiding what''s buried beneath ◼ What 80 ayahuasca ceremonies taught him Chapters 00:00:00 Intro 00:02:19 Do Humans Have A Hidden Past? 00:06:18 Did A Global Cataclysm Reset Humanity? 00:11:09 Why Have This Conversation Now? 00:12:17 Why Is Your Work So Controversial? 00:14:35 How Old Is Humanity Really? 00:18:40 The Evidence Behind The Lost Comet Theory 00:19:56 What Truly Defines A Civilization? 00:22:59 Did Humans Survive The Ice Age? 00:24:18 What Were Early Humans Really Like? 00:28:04 The Missing Chapter In Human History 00:29:38 Could We Become The Next Lost Civilization? 00:34:53 How Do We Know These Stories Are True? 00:37:38 The Unsolved Mystery Of The Great Pyramid 00:41:42 The Real Meaning Of The Age Of Aquarius 00:46:47 Did The Ancients Know The Size Of Earth? 00:49:26 Were Ancient Secrets Passed Down Through Time? 00:51:42 Where Did Humanity''s Lost Knowledge Go? 00:53:47 Do The Pyramids Point To A Lost Civilization? 00:55:03 Is Something Hidden Beneath The Great Pyramid? 00:56:59 Why Mainstream Science Pushes Back 00:58:21 Alone Inside The Great Pyramid 01:00:04 Ads 01:02:05 What A Lost Civilization Means Today 01:03:02 Should We Rethink Astrology And Telepathy? 01:05:08 New Discoveries Beneath The Amazon 01:08:31 What Shamanism Gets Right 01:09:18 A Journey With Ayahuasca 01:12:26 Strange Experiences From Childhood 01:15:19 Did You Have Nightmares? 01:16:35 Why Being An Outsider Matters 01:17:51 Don''t Let Life Pass You By 01:19:51 Are Religion And Spirituality The Same? 01:22:00 Why Do People Experience The Same Psychedelic Visions? 01:25:01 Why Humanity Must Look Inward First 01:28:47 Ads 01:29:48 What Consciousness Really Is 01:32:36 How Illness Changed My Perspective 01:33:30 Why Love Matters Most 01:39:36 What Ancient Civilizations Teach Us Today 01:44:14 The Power Of Independent Thinking 01:46:33 What Will Matter On Your Last Day? 01:47:13 Living Without Judging Others 01:49:36 Will We One Day Worship AI? Enjoyed the episode? Share this link and earn points for every referral - redeem them for exclusive prizes: https://doac-perks.com Follow Graham: Website - https://link.thediaryofaceo.com/CDCJTRS Facebook - https://link.thediaryofaceo.com/9n9OEkv X - https://link.thediaryofaceo.com/7xRxeaW YouTube - https://link.thediaryofaceo.com/8UehPfG Instagram - https://link.thediaryofaceo.com/DDp55T2 You can purchase Graham’s book, ‘Visionary: The Mysterious Origins of Human Consciousness’, here: https://link.thediaryofaceo.com/3m3QlBS The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: Cometeer - https://cometeer.com/doac use code DOAC for $20 off Shopify - https://shopify.com/bartlett'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KTSQA7BWS5KSQVR4Z3GR4YR8/graham_hancock_ep_cover.finaljpg.jpg
     episode_uid: flightcast-01ktsq9b3v53jfegbr8ddybsmm
-    episode_slug: graham-hancock-the-case-for-a-lost-civilization
-    episode_key: graham-hancock-the-case-for-a-lost-civilization
+    episode_slug: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
+    episode_key: archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock
     legacy_numbered_slug: episode-19
-    episode_page_url: "/the-diary-of-a-ceo/graham-hancock-the-case-for-a-lost-civilization/"
+    episode_page_url: "/the-diary-of-a-ceo/archaeology-warning-they-secretly-found-antarctica-300-years-before-us-graham-hancock/"
   - episode_title: 'Death of the Middle Class: Billionaire vs Entrepreneur DEBATE - Daniel Priestley v Nick Hanauer'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KTHX7WCR04XQT2EPM2QKDRBX.mp3
@@ -27088,6 +27174,7 @@ episodes_by_feed:
     episode_key: why-netflix-is-betting-on-systems-thinkers-not-specialists-in-the-ai-era-elizabeth-stone-cpto
     legacy_numbered_slug: episode-01
     episode_page_url: "/lennys-podcast/why-netflix-is-betting-on-systems-thinkers-not-specialists-in-the-ai-era-elizabeth-stone-cpto/"
+    youtube_video_id: t0GiTyz4syY
   - episode_title: How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)
     episode_url: https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about
     audio_url: https://pscrb.fm/rss/p/api.substack.com/feed/podcast/205673536/858a4d7ec0a2ab1461d7d30b989cc671.mp3
@@ -27100,6 +27187,7 @@ episodes_by_feed:
     episode_key: how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal
     legacy_numbered_slug: episode-02
     episode_page_url: "/lennys-podcast/how-tech-workers-actually-feel-about-ai-in-2026-annual-ai-sentiment-survey-noam-segal/"
+    youtube_video_id: _cmpIveXnvE
   - episode_title: 'Adam Mosseri: AI is a tailwind for authenticity'
     episode_url: https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for
     audio_url: https://pscrb.fm/rss/p/api.substack.com/feed/podcast/203476809/2d6c24e2adae5b65d228587969b7b34a.mp3
@@ -27112,6 +27200,7 @@ episodes_by_feed:
     episode_key: adam-mosseri-ai-is-a-tailwind-for-authenticity
     legacy_numbered_slug: episode-03
     episode_page_url: "/lennys-podcast/adam-mosseri-ai-is-a-tailwind-for-authenticity/"
+    youtube_video_id: yQ_EWmtfWvQ
   - episode_title: OpenAI Codex lead on the new shape of product work | Andrew Ambrosino
     episode_url: https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape
     audio_url: https://pscrb.fm/rss/p/api.substack.com/feed/podcast/202769820/f1d1b9d8062b6e88e7f978a8e8763bde.mp3
@@ -27730,6 +27819,7 @@ episodes_by_feed:
     episode_key: we-re-judging-you-w-amber-singletary-reading-reddit-stories
     legacy_numbered_slug: episode-01
     episode_page_url: "/smosh-reads-reddit-stories/we-re-judging-you-w-amber-singletary-reading-reddit-stories/"
+    youtube_video_id: P30wlrPS3sc
   - episode_title: A New Level Of Entitlement | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8926066
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8926066.mp3?modified=1783703367&sid=5148149&source=rss
@@ -27742,6 +27832,7 @@ episodes_by_feed:
     episode_key: a-new-level-of-entitlement-reading-reddit-stories
     legacy_numbered_slug: episode-02
     episode_page_url: "/smosh-reads-reddit-stories/a-new-level-of-entitlement-reading-reddit-stories/"
+    youtube_video_id: cgD5eMHNYRI
   - episode_title: Around The World In 60 Minutes | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8921401
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8921401.mp3?modified=1782504678&sid=5148149&source=rss
@@ -27754,6 +27845,7 @@ episodes_by_feed:
     episode_key: around-the-world-in-60-minutes-reading-reddit-stories
     legacy_numbered_slug: episode-03
     episode_page_url: "/smosh-reads-reddit-stories/around-the-world-in-60-minutes-reading-reddit-stories/"
+    youtube_video_id: 3K0Cz2WVeFo
   - episode_title: Am I The Ally? | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8920995
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8920995.mp3?modified=1782432017&sid=5148149&source=rss
@@ -27766,6 +27858,7 @@ episodes_by_feed:
     episode_key: am-i-the-ally-reading-reddit-stories
     legacy_numbered_slug: episode-04
     episode_page_url: "/smosh-reads-reddit-stories/am-i-the-ally-reading-reddit-stories/"
+    youtube_video_id: UXzrjxriu94
   - episode_title: Parents Just Don't Understand | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8918444
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8918444.mp3?modified=1781828292&sid=5148149&source=rss
@@ -27778,6 +27871,7 @@ episodes_by_feed:
     episode_key: parents-just-don-t-understand-reading-reddit-stories
     legacy_numbered_slug: episode-05
     episode_page_url: "/smosh-reads-reddit-stories/parents-just-don-t-understand-reading-reddit-stories/"
+    youtube_video_id: WJiInfsJMmc
   - episode_title: Take It From Us | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8916138
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8916138.mp3?modified=1781305214&sid=5148149&source=rss
@@ -27790,6 +27884,7 @@ episodes_by_feed:
     episode_key: take-it-from-us-reading-reddit-stories
     legacy_numbered_slug: episode-06
     episode_page_url: "/smosh-reads-reddit-stories/take-it-from-us-reading-reddit-stories/"
+    youtube_video_id: e-lLyezgcYQ
   - episode_title: I Fear We're Not Reacting Enough | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8912703
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8912703.mp3?modified=1784610654&sid=5148149&source=rss
@@ -27802,6 +27897,7 @@ episodes_by_feed:
     episode_key: i-fear-we-re-not-reacting-enough-reading-reddit-stories
     legacy_numbered_slug: episode-07
     episode_page_url: "/smosh-reads-reddit-stories/i-fear-we-re-not-reacting-enough-reading-reddit-stories/"
+    youtube_video_id: c_urOUyCnA4
   - episode_title: I'll Be There For You | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8909681
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8909681.mp3?modified=1784005950&sid=5148149&source=rss
@@ -27814,6 +27910,7 @@ episodes_by_feed:
     episode_key: i-ll-be-there-for-you-reading-reddit-stories
     legacy_numbered_slug: episode-08
     episode_page_url: "/smosh-reads-reddit-stories/i-ll-be-there-for-you-reading-reddit-stories/"
+    youtube_video_id: RK_XvJorFy8
   - episode_title: Getting Messy w/ MacDoesIt | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8907112
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8907112.mp3?modified=1783401195&sid=5148149&source=rss
@@ -27826,6 +27923,7 @@ episodes_by_feed:
     episode_key: getting-messy-w-macdoesit-reading-reddit-stories
     legacy_numbered_slug: episode-09
     episode_page_url: "/smosh-reads-reddit-stories/getting-messy-w-macdoesit-reading-reddit-stories/"
+    youtube_video_id: KgGNW6VG6B0
   - episode_title: Confessions Of A Redditor | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8904217
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8904217.mp3?modified=1782796209&sid=5148149&source=rss
@@ -27838,6 +27936,7 @@ episodes_by_feed:
     episode_key: confessions-of-a-redditor-reading-reddit-stories
     legacy_numbered_slug: episode-10
     episode_page_url: "/smosh-reads-reddit-stories/confessions-of-a-redditor-reading-reddit-stories/"
+    youtube_video_id: kN-iEJ3Sbsc
   - episode_title: Raise The Red Flag | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8901367
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8901367.mp3?modified=1782191220&sid=5148149&source=rss
@@ -27850,6 +27949,7 @@ episodes_by_feed:
     episode_key: raise-the-red-flag-reading-reddit-stories
     legacy_numbered_slug: episode-11
     episode_page_url: "/smosh-reads-reddit-stories/raise-the-red-flag-reading-reddit-stories/"
+    youtube_video_id: 8dPQe9NqONM
   - episode_title: Dating Is Cooked | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8897613
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8897613.mp3?modified=1781586667&sid=5148149&source=rss
@@ -27862,6 +27962,7 @@ episodes_by_feed:
     episode_key: dating-is-cooked-reading-reddit-stories
     legacy_numbered_slug: episode-12
     episode_page_url: "/smosh-reads-reddit-stories/dating-is-cooked-reading-reddit-stories/"
+    youtube_video_id: RtN_tFPCO2s
   - episode_title: Am I The Only One? | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8894837
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8894837.mp3?modified=1780981842&sid=5148149&source=rss
@@ -27874,6 +27975,7 @@ episodes_by_feed:
     episode_key: am-i-the-only-one-reading-reddit-stories
     legacy_numbered_slug: episode-13
     episode_page_url: "/smosh-reads-reddit-stories/am-i-the-only-one-reading-reddit-stories/"
+    youtube_video_id: vZWvMjd6b5w
   - episode_title: A Walk On The Wild Side | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8891523
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8891523.mp3?modified=1780376778&sid=5148149&source=rss
@@ -27886,6 +27988,7 @@ episodes_by_feed:
     episode_key: a-walk-on-the-wild-side-reading-reddit-stories
     legacy_numbered_slug: episode-14
     episode_page_url: "/smosh-reads-reddit-stories/a-walk-on-the-wild-side-reading-reddit-stories/"
+    youtube_video_id: EwypN6s-M1s
   - episode_title: Will You Be My Work Wife? | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8886940
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8886940.mp3?modified=1779772118&sid=5148149&source=rss
@@ -27898,6 +28001,7 @@ episodes_by_feed:
     episode_key: will-you-be-my-work-wife-reading-reddit-stories
     legacy_numbered_slug: episode-15
     episode_page_url: "/smosh-reads-reddit-stories/will-you-be-my-work-wife-reading-reddit-stories/"
+    youtube_video_id: fbLUs5KyG_o
   - episode_title: Didn't See THAT Coming | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8882507
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8882507.mp3?modified=1779167283&sid=5148149&source=rss
@@ -28043,6 +28147,7 @@ episodes_by_feed:
     episode_key: military-testosterone-screenings-diarrhea-parasite-politics-and-data-center-debates
     legacy_numbered_slug: episode-02
     episode_page_url: "/pivot/military-testosterone-screenings-diarrhea-parasite-politics-and-data-center-debates/"
+    youtube_video_id: xUNueYsaRj0
   - episode_title: Apple Sues OpenAI, States Move to Block Paramount Deal, and McConnell Conspiracy Theories
     episode_url: ''
     audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP5509757808.mp3
@@ -28055,6 +28160,7 @@ episodes_by_feed:
     episode_key: apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories
     legacy_numbered_slug: episode-03
     episode_page_url: "/pivot/apple-sues-openai-states-move-to-block-paramount-deal-and-mcconnell-conspiracy-theories/"
+    youtube_video_id: FhkpWSHrirs
   - episode_title: Netflix Chases YouTube, Meta's AI Photo Grab, and Disney Fights the FCC
     episode_url: ''
     audio_url: https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/257/traffic.megaphone.fm/VMP4174534215.mp3
@@ -28345,6 +28451,7 @@ episodes_by_feed:
     episode_key: la-vo2max-est-elle-vraiment-utile-pour-les-traileurs
     legacy_numbered_slug: episode-02
     episode_page_url: "/la-bande-a-d/la-vo2max-est-elle-vraiment-utile-pour-les-traileurs/"
+    youtube_video_id: CFBKk5ymhWY
   - episode_title: 'RÉCAP D+ #56 avec LUDOVIC POMMERET, COURTNEY DAUWALTER et MANON BOHARD'
     episode_url: https://podcast.ausha.co/la-bande-a-d-plus/recap-d-plus-56-ludovic-pommeret-courtney-dauwalter-manon-bohard
     audio_url: https://audio.ausha.co/b55kgSl1321R.mp3?t=1783951940
@@ -29995,6 +30102,7 @@ episodes_by_feed:
     episode_key: 166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km
     legacy_numbered_slug: episode-01
     episode_page_url: "/black-hat-ultra/166-karolina-mroczek-najszybsza-na-hardej-suce-biega-ponad-200km/"
+    youtube_video_id: jCICBGCLgAA
   - episode_title: "#165 Michał Asperski - 250km w 7 dni - Biegi etapowe po pustyniach i dżunglach"
     episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/165-Micha-Asperski---250km-w-7-dni---Biegi-etapowe-po-pustyniach-i-dunglach-e3m3821
     audio_url: https://anchor.fm/s/10013986c/podcast/play/122838529/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-14%2Fe8e9a919-5872-ff74-7874-4aa065f46245.mp3
@@ -30008,6 +30116,7 @@ episodes_by_feed:
     legacy_unicode_slug: 165-michał-asperski-250km-w-7-dni-biegi-etapowe-po-pustyniach-i-dżunglach
     legacy_numbered_slug: episode-02
     episode_page_url: "/black-hat-ultra/165-michal-asperski-250km-w-7-dni-biegi-etapowe-po-pustyniach-i-dzunglach/"
+    youtube_video_id: tqwTtSI55oc
   - episode_title: "#164 Katarzyna Krym - 5xBieg 7 Szczytów, Kret Hardcore"
     episode_url: https://podcasters.spotify.com/pod/show/blackhatultra/episodes/164-Katarzyna-Krym---5xBieg-7-Szczytw--Kret-Hardcore-e3l4k78
     audio_url: https://anchor.fm/s/10013986c/podcast/play/121835176/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-5-22%2Fccb0d612-3cb9-2b40-f563-57585714db5f.mp3
@@ -30315,6 +30424,7 @@ episodes_by_feed:
     episode_key: european-fkt-madness-trail-running-industry-news-recent-race-results-speedgoat-50k-preview
     legacy_numbered_slug: episode-01
     episode_page_url: "/the-freetrail-podcast/european-fkt-madness-trail-running-industry-news-recent-race-results-speedgoat-50k-preview/"
+    youtube_video_id: bN-Cd_srXhA
   - episode_title: Hardrock 100 DNF | Dylan's Race Recap
     episode_url: https://thewellwithdylanbowman.libsyn.com/hardrock-100-dnf-dylans-race-recap
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Hardrock_100_DNF__Dylans_Race_Recap.mp3?dest-id=1746794
@@ -30327,6 +30437,7 @@ episodes_by_feed:
     episode_key: hardrock-100-dnf-dylan-s-race-recap
     legacy_numbered_slug: episode-02
     episode_page_url: "/the-freetrail-podcast/hardrock-100-dnf-dylan-s-race-recap/"
+    youtube_video_id: HlezYW6-anQ
   - episode_title: Ludovic Pommeret | Hardrock 100 Post-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/ludovic-pommeret-hardrock-100-post-race-interview-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Ludovic_Pommeret_Hardrock_100_Post-Race_Interview_2026.mp3?dest-id=1746794
@@ -30339,6 +30450,7 @@ episodes_by_feed:
     episode_key: ludovic-pommeret-hardrock-100-post-race-interview-2026
     legacy_numbered_slug: episode-03
     episode_page_url: "/the-freetrail-podcast/ludovic-pommeret-hardrock-100-post-race-interview-2026/"
+    youtube_video_id: ssTSn220MG0
   - episode_title: Courtney Dauwalter | Hardrock 100 Post-Race Interview 2026
     episode_url: https://thewellwithdylanbowman.libsyn.com/courtney-dauwalter-hardrock-100-post-race-interview-2026
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Courtney_Dauwalter__Hardrock_100_Post-Race_Interview_2026.mp3?dest-id=1746794
@@ -30351,6 +30463,7 @@ episodes_by_feed:
     episode_key: courtney-dauwalter-hardrock-100-post-race-interview-2026
     legacy_numbered_slug: episode-04
     episode_page_url: "/the-freetrail-podcast/courtney-dauwalter-hardrock-100-post-race-interview-2026/"
+    youtube_video_id: HQYa_fTw01w
   - episode_title: Jenn Lichter | Western States 100 Champion's Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/jenn-lichter-western-states-100-champions-interview
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Jenn_Lichter_Western_States_100_Champions_Interview.mp3?dest-id=1746794
@@ -30363,6 +30476,7 @@ episodes_by_feed:
     episode_key: jenn-lichter-western-states-100-champion-s-interview
     legacy_numbered_slug: episode-05
     episode_page_url: "/the-freetrail-podcast/jenn-lichter-western-states-100-champion-s-interview/"
+    youtube_video_id: rypgmAEwUEQ
   - episode_title: Vincent Bouillard | Western States 100 Champion's Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/vincent-bouillard-western-states-100-champions-interview
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Vincent_hero_wser.mp3?dest-id=1746794
@@ -30375,6 +30489,7 @@ episodes_by_feed:
     episode_key: vincent-bouillard-western-states-100-champion-s-interview
     legacy_numbered_slug: episode-06
     episode_page_url: "/the-freetrail-podcast/vincent-bouillard-western-states-100-champion-s-interview/"
+    youtube_video_id: eOPBI31oNjo
   - episode_title: Western States 100 Recap Show
     episode_url: https://thewellwithdylanbowman.libsyn.com/western-states-100-recap-show
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Western_States_100_Recap_Show.mp3?dest-id=1746794
@@ -30387,6 +30502,7 @@ episodes_by_feed:
     episode_key: western-states-100-recap-show
     legacy_numbered_slug: episode-07
     episode_page_url: "/the-freetrail-podcast/western-states-100-recap-show/"
+    youtube_video_id: 0ajboRq2b0g
   - episode_title: Tommie Runz | Western States 100 Pre-Race Interview
     episode_url: https://thewellwithdylanbowman.libsyn.com/tommie-runz-western-states-100-pre-race-interview
     audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/secure/thewellwithdylanbowman/Tommie_pre_race26.mp3?dest-id=1746794
@@ -30616,6 +30732,7 @@ episodes_by_feed:
     episode_key: ep-81-tales-of-lavaredo-moi-s-pre-race-workout-more
     legacy_numbered_slug: episode-01
     episode_page_url: "/the-boulder-boys/ep-81-tales-of-lavaredo-moi-s-pre-race-workout-more/"
+    youtube_video_id: D61ArtShJFk
   - episode_title: Ep. 80 The truth about Western States + should holding hands be penalized?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-80-the-truth-about-western-states-should-holding-hands-be-penalized
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._80.2.mp3?dest-id=4343338
@@ -30628,6 +30745,7 @@ episodes_by_feed:
     episode_key: ep-80-the-truth-about-western-states-should-holding-hands-be-penalized
     legacy_numbered_slug: episode-02
     episode_page_url: "/the-boulder-boys/ep-80-the-truth-about-western-states-should-holding-hands-be-penalized/"
+    youtube_video_id: 2-yCL-hQuIM
   - episode_title: Ep. 79 Who is Cade Michael?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-79-who-is-cade-michael
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._79.3.mp3?dest-id=4343338
@@ -30640,6 +30758,7 @@ episodes_by_feed:
     episode_key: ep-79-who-is-cade-michael
     legacy_numbered_slug: episode-03
     episode_page_url: "/the-boulder-boys/ep-79-who-is-cade-michael/"
+    youtube_video_id: 6YtOWGajOQs
   - episode_title: Ep. 78 Is Kilian going to race Western States? + We're not done talking about Sage and Cam
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-78-is-kilian-going-to-race-western-states-were-not-done-talking-about-sage-and-cam
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._78.mp3?dest-id=4343338
@@ -30652,6 +30771,7 @@ episodes_by_feed:
     episode_key: ep-78-is-kilian-going-to-race-western-states-we-re-not-done-talking-about-sage-and-cam
     legacy_numbered_slug: episode-04
     episode_page_url: "/the-boulder-boys/ep-78-is-kilian-going-to-race-western-states-we-re-not-done-talking-about-sage-and-cam/"
+    youtube_video_id: BrfWo9pJuOc
   - episode_title: Ep. 77  Cocodona 250, Circle Pit, Cam v. Sage + more!!
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-77-cocodona-250-circle-pit-cam-v-sage-more
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._77.1.mp3?dest-id=4343338
@@ -30664,6 +30784,7 @@ episodes_by_feed:
     episode_key: ep-77-cocodona-250-circle-pit-cam-v-sage-more
     legacy_numbered_slug: episode-05
     episode_page_url: "/the-boulder-boys/ep-77-cocodona-250-circle-pit-cam-v-sage-more/"
+    youtube_video_id: y-Q-jjDz20c
   - episode_title: Ep. 76  5:30 GAP for 50k!?, Jim in states, and do we know who @maxjolliffeunsolicitedmemes is?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-76-530-gap-for-50k-jim-in-states-and-do-we-know-who-maxjolliiffeunsolicitedmemes-is
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._76.mp3?dest-id=4343338
@@ -30676,6 +30797,7 @@ episodes_by_feed:
     episode_key: ep-76-5-30-gap-for-50k-jim-in-states-and-do-we-know-who-maxjolliffeunsolicitedmemes-is
     legacy_numbered_slug: episode-06
     episode_page_url: "/the-boulder-boys/ep-76-5-30-gap-for-50k-jim-in-states-and-do-we-know-who-maxjolliffeunsolicitedmemes-is/"
+    youtube_video_id: UASQ79WBI7c
   - episode_title: Ep. 75 canyons preview!! + do's and don'ts of cheering
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-75-canyons-preview-dos-and-donts-of-cheering
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._75.mp3?dest-id=4343338
@@ -30688,6 +30810,7 @@ episodes_by_feed:
     episode_key: ep-75-canyons-preview-do-s-and-don-ts-of-cheering
     legacy_numbered_slug: episode-07
     episode_page_url: "/the-boulder-boys/ep-75-canyons-preview-do-s-and-don-ts-of-cheering/"
+    youtube_video_id: bw-1oj29XTQ
   - episode_title: Ep. 74 Gorge Waterfalls Recap!! + is Killian's Strava data inflated?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-74-gorge-waterfalls-recap-is-killians-strava-data-inflated
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._74.mp3?dest-id=4343338
@@ -30700,6 +30823,7 @@ episodes_by_feed:
     episode_key: ep-74-gorge-waterfalls-recap-is-killian-s-strava-data-inflated
     legacy_numbered_slug: episode-08
     episode_page_url: "/the-boulder-boys/ep-74-gorge-waterfalls-recap-is-killian-s-strava-data-inflated/"
+    youtube_video_id: Qvbvv3tJajM
   - episode_title: Ep. 73 Catching up with Western States Champion Adam Peterman!!
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/catching-up-with-western-states-champion-adam-peterman
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._73.mp3?dest-id=4343338
@@ -30712,6 +30836,7 @@ episodes_by_feed:
     episode_key: ep-73-catching-up-with-western-states-champion-adam-peterman
     legacy_numbered_slug: episode-09
     episode_page_url: "/the-boulder-boys/ep-73-catching-up-with-western-states-champion-adam-peterman/"
+    youtube_video_id: 23Cy-xcBgE8
   - episode_title: Ep. 72  Boulder Boys first 200 miler?!?! + What is UTMB even doing?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-72-boulder-boys-first-200-miler-what-is-utmb-even-doing
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._72.mp3?dest-id=4343338
@@ -30724,6 +30849,7 @@ episodes_by_feed:
     episode_key: ep-72-boulder-boys-first-200-miler-what-is-utmb-even-doing
     legacy_numbered_slug: episode-10
     episode_page_url: "/the-boulder-boys/ep-72-boulder-boys-first-200-miler-what-is-utmb-even-doing/"
+    youtube_video_id: kxHflF5y2Og
   - episode_title: Ep. 71 spring racing update! + trail running meme drama!?!
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-71-spring-racing-update-trail-running-meme-drama
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._71.mp3?dest-id=4343338
@@ -30736,6 +30862,7 @@ episodes_by_feed:
     episode_key: ep-71-spring-racing-update-trail-running-meme-drama
     legacy_numbered_slug: episode-11
     episode_page_url: "/the-boulder-boys/ep-71-spring-racing-update-trail-running-meme-drama/"
+    youtube_video_id: 3br6zP-jUHs
   - episode_title: Ep. 70  Black Canyon Recap!!! + what is it like to be a ACG athlete?
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-70-black-canyon-recap-what-is-it-like-to-be-a-acg-athlete
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._70.2.mp3?dest-id=4343338
@@ -30748,6 +30875,7 @@ episodes_by_feed:
     episode_key: ep-70-black-canyon-recap-what-is-it-like-to-be-a-acg-athlete
     legacy_numbered_slug: episode-12
     episode_page_url: "/the-boulder-boys/ep-70-black-canyon-recap-what-is-it-like-to-be-a-acg-athlete/"
+    youtube_video_id: JlX8W94nEQ4
   - episode_title: Ep.69 The Truth About Running 200 miles w/ Dan Green
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-the-truth-about-running-200-miles-w-dan-green
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._69.2.mp3?dest-id=4343338
@@ -30760,6 +30888,7 @@ episodes_by_feed:
     episode_key: ep-69-the-truth-about-running-200-miles-w-dan-green
     legacy_numbered_slug: episode-13
     episode_page_url: "/the-boulder-boys/ep-69-the-truth-about-running-200-miles-w-dan-green/"
+    youtube_video_id: vkdwiFGNqFM
   - episode_title: ep. 68 socks over or under tights? + our favorite YouTube channels, and more!
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-68-socks-over-or-under-tights-our-favorite-youtube-channels-and-more
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._68.mp3?dest-id=4343338
@@ -30772,6 +30901,7 @@ episodes_by_feed:
     episode_key: ep-68-socks-over-or-under-tights-our-favorite-youtube-channels-and-more
     legacy_numbered_slug: episode-14
     episode_page_url: "/the-boulder-boys/ep-68-socks-over-or-under-tights-our-favorite-youtube-channels-and-more/"
+    youtube_video_id: pfGs4MszTqY
   - episode_title: Ep. 67  black canyon training camp recap, drug testing, and what's our dream race to win.
     episode_url: https://0016b664-5183-4ea5-a86d-704f46fe9d9f.libsyn.com/ep-67-black-canyon-training-camp-recap-drug-testing-and-whats-our-dream-race-to-win
     audio_url: https://traffic.libsyn.com/secure/0016b664-5183-4ea5-a86d-704f46fe9d9f/ep._67.mp3?dest-id=4343338
@@ -30916,7 +31046,7 @@ errors:
   error: 'OpenURI::HTTPError: 403 Forbidden'
 - podcast: Dwarkesh Podcast
   rss_feed: https://www.dwarkeshpatel.com/feed
-  error: 'RuntimeError: redirection forbidden: https://www.dwarkeshpatel.com/feed -> http://dwarkesh.com/feed'
+  error: 'OpenURI::HTTPError: 503 Service Unavailable'
 feed_episodes_list:
 - feed_key: https://feed.podbean.com/insiderunningpodcast/feed.xml
   episodes: *1
