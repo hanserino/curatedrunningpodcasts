@@ -18,6 +18,7 @@
 				{% if page.disclaimer %}
 				<p class="promo-codes__disclaimer">{{ page.disclaimer }}</p>
 				{% endif %}
+				{% include promo-codes-controls.html %}
 			</header>
 			<section class="promo-codes__content" aria-label="Promo codes">
 				{{ content }}

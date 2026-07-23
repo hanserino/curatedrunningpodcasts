@@ -174,143 +174,135 @@
 				
 				<p class="promo-codes__disclaimer">Codes are extracted automatically from public show notes and are not verified; offers may expire, change, or be incorrect.</p>
 				
-			</header>
-			<section class="promo-codes__content" aria-label="Promo codes">
-				<div class="promo-codes__toolbar" data-promo-panel="" aria-label="Browse promo codes">
-	<div class="promo-codes__toolbar-inner">
-		<div class="promo-codes__toolbar-top">
-			<ul class="promo-codes__stats" aria-label="Overview">
-				<li class="promo-codes__stat promo-codes__stat--codes">
-					<span class="promo-codes__stat-value">75</span>
-					<span class="promo-codes__stat-label">codes</span>
-				</li>
-				<li class="promo-codes__stat promo-codes__stat--brands">
-					<span class="promo-codes__stat-value">44</span>
-					<span class="promo-codes__stat-label">brands</span>
-				</li>
-				<li class="promo-codes__stat promo-codes__stat--mentions">
-					<span class="promo-codes__stat-value">454</span>
-					<span class="promo-codes__stat-label">mentions</span>
-				</li>
-			</ul>
-			<p class="promo-codes__results" id="promo-codes-results" role="status" aria-live="polite" aria-atomic="true"></p>
+				<div class="promo-codes__header-tools" aria-label="Browse promo codes">
+	<p class="promo-codes__results" id="promo-codes-results" role="status" aria-live="polite" aria-atomic="true">73 codes · 44 brands</p>
+	<div class="promo-codes__controls">
+		<label class="visuallyhidden" for="promo-codes-search">Search brands, codes, or podcasts</label>
+		<div class="promo-codes__search-wrap">
+			<span class="promo-codes__search-icon" aria-hidden="true"></span>
+			<input
+				type="search"
+				id="promo-codes-search"
+				class="promo-codes__search"
+				placeholder="Search brands, codes, podcasts…"
+				autocomplete="off"
+				spellcheck="false"
+				data-promo-codes-search
+			>
 		</div>
-		<div class="promo-codes__toolbar-controls">
-			<label class="visuallyhidden" for="promo-codes-search">Search brands, codes, or podcasts</label>
-			<div class="promo-codes__search-wrap">
-				<span class="promo-codes__search-icon" aria-hidden="true"></span>
-				<input type="search" id="promo-codes-search" class="promo-codes__search" placeholder="Search brands, codes, podcasts…" autocomplete="off" spellcheck="false" data-promo-codes-search="" />
+		<div class="promo-codes__filters">
+			
+			<div class="promo-codes__filter-wrap">
+				<label class="promo-codes__filter-label" for="promo-codes-brand">Brand</label>
+				<select id="promo-codes-brand" class="promo-codes__select" data-promo-brand-filter>
+					<option value="">All brands</option>
+					
+					<option value="alloy-health">ALLOY HEALTH</option>
+					
+					<option value="altra">ALTRA</option>
+					
+					<option value="amazfit">Amazfit</option>
+					
+					<option value="beekeeper-s-naturals">Beekeeper's Naturals</option>
+					
+					<option value="bon-charge">Bon Charge</option>
+					
+					<option value="boulderthon">Boulderthon</option>
+					
+					<option value="centurion-running">Centurion Running</option>
+					
+					<option value="cirque-series">Cirque Series</option>
+					
+					<option value="core-2-body-temperature-sensor">CORE 2 Body Temperature Sensor</option>
+					
+					<option value="every-month-after-with-an-active">every month after with an active</option>
+					
+					<option value="fast-pickle">Fast Pickle</option>
+					
+					<option value="feisty">Feisty</option>
+					
+					<option value="function-health">Function Health</option>
+					
+					<option value="go-brewing">Go Brewing</option>
+					
+					<option value="good-ranchers">Good Ranchers</option>
+					
+					<option value="heavenly-heat-saunas">Heavenly Heat Saunas</option>
+					
+					<option value="intrepid-camp-gear">Intrepid Camp Gear</option>
+					
+					<option value="irestore">iRestore</option>
+					
+					<option value="janji">Janji</option>
+					
+					<option value="kava-haven">Kava Haven</option>
+					
+					<option value="ketone-iq">Ketone-IQ</option>
+					
+					<option value="lagoon-sleep">Lagoon Sleep</option>
+					
+					<option value="lever-movement">Lever Movement</option>
+					
+					<option value="maurten">Maurten</option>
+					
+					<option value="mount-to-coast">Mount to Coast</option>
+					
+					<option value="mud-wtr">MUD\WTR</option>
+					
+					<option value="neversecond">Neversecond</option>
+					
+					<option value="olipop">OLIPOP</option>
+					
+					<option value="precision-fuel-hydration">Precision Fuel & Hydration</option>
+					
+					<option value="probio-nutrition">Probio Nutrition</option>
+					
+					<option value="rabbit">rabbit</option>
+					
+					<option value="run-in-rabbit">Run in rabbit</option>
+					
+					<option value="runtraillife">Runtraillife</option>
+					
+					<option value="saily">Saily</option>
+					
+					<option value="shokz">Shokz</option>
+					
+					<option value="strava">Strava</option>
+					
+					<option value="summit-roasters">Summit Roasters</option>
+					
+					<option value="tifosi-optics">Tifosi Optics</option>
+					
+					<option value="true-nutrition">True Nutrition</option>
+					
+					<option value="vacation-races">Vacation Races</option>
+					
+					<option value="vert-run">Vert.run</option>
+					
+					<option value="wahoo">Wahoo</option>
+					
+					<option value="wild-strides-paper-co">Wild Strides Paper Co.</option>
+					
+					<option value="zbiotics">ZBiotics</option>
+					
+				</select>
 			</div>
-			<div class="promo-codes__filters">
-				
-				<div class="promo-codes__filter-wrap">
-					<label class="promo-codes__filter-label" for="promo-codes-brand">Brand</label>
-					<select id="promo-codes-brand" class="promo-codes__select" data-promo-brand-filter="">
-						<option value="">All brands</option>
-						
-						<option value="alloy-health">ALLOY HEALTH</option>
-						
-						<option value="altra">ALTRA</option>
-						
-						<option value="amazfit">Amazfit</option>
-						
-						<option value="beekeeper-s-naturals">Beekeeper's Naturals</option>
-						
-						<option value="bon-charge">Bon Charge</option>
-						
-						<option value="boulderthon">Boulderthon</option>
-						
-						<option value="centurion-running">Centurion Running</option>
-						
-						<option value="cirque-series">Cirque Series</option>
-						
-						<option value="citius-mag">CITIUS MAG</option>
-						
-						<option value="core-body-temperature">CORE Body Temperature</option>
-						
-						<option value="fast-pickle">Fast Pickle</option>
-						
-						<option value="feisty">Feisty</option>
-						
-						<option value="function-health">Function Health</option>
-						
-						<option value="go-brewing">Go Brewing</option>
-						
-						<option value="good-ranchers">Good Ranchers</option>
-						
-						<option value="heavenly-heat-saunas">Heavenly Heat Saunas</option>
-						
-						<option value="intrepid-camp-gear">Intrepid Camp Gear</option>
-						
-						<option value="irestore">iRestore</option>
-						
-						<option value="janji">Janji</option>
-						
-						<option value="kava-haven">Kava Haven</option>
-						
-						<option value="ketone-iq">Ketone-IQ</option>
-						
-						<option value="lagoon-sleep">Lagoon Sleep</option>
-						
-						<option value="lever-movement">Lever Movement</option>
-						
-						<option value="maurten">Maurten</option>
-						
-						<option value="mount-to-coast">Mount to Coast</option>
-						
-						<option value="mud-wtr">MUD\WTR</option>
-						
-						<option value="neversecond">Neversecond</option>
-						
-						<option value="olipop">OLIPOP</option>
-						
-						<option value="precision-fuel-hydration">Precision Fuel &amp; Hydration</option>
-						
-						<option value="probio-nutrition">Probio Nutrition</option>
-						
-						<option value="rabbit">rabbit</option>
-						
-						<option value="run-in-rabbit">Run in rabbit</option>
-						
-						<option value="runtraillife">Runtraillife</option>
-						
-						<option value="saily">Saily</option>
-						
-						<option value="shokz">Shokz</option>
-						
-						<option value="strava">Strava</option>
-						
-						<option value="summit-roasters">Summit Roasters</option>
-						
-						<option value="tifosi-optics">Tifosi Optics</option>
-						
-						<option value="true-nutrition">True Nutrition</option>
-						
-						<option value="vacation-races">Vacation Races</option>
-						
-						<option value="vert-run">Vert.run</option>
-						
-						<option value="wahoo">Wahoo</option>
-						
-						<option value="wild-strides-paper-co">Wild Strides Paper Co.</option>
-						
-						<option value="zbiotics">ZBiotics</option>
-						
-					</select>
-				</div>
-				
-				<div class="promo-codes__filter-wrap">
-					<label class="promo-codes__filter-label" for="promo-codes-sort">Sort</label>
-					<select id="promo-codes-sort" class="promo-codes__select" data-promo-codes-sort="">
-						<option value="brand">Brand A–Z</option>
-						<option value="codes">Most codes</option>
-					</select>
-				</div>
+			
+			<div class="promo-codes__filter-wrap">
+				<label class="promo-codes__filter-label" for="promo-codes-sort">Sort</label>
+				<select id="promo-codes-sort" class="promo-codes__select" data-promo-codes-sort>
+					<option value="brand">Brand A–Z</option>
+					<option value="codes">Most codes</option>
+				</select>
 			</div>
 		</div>
 	</div>
 </div>
 
+
+			</header>
+			<section class="promo-codes__content" aria-label="Promo codes">
+				
 <p class="promo-codes__no-results" data-promo-no-results="" hidden="">No codes match your search. Try another brand or keyword.</p>
 
 <div class="promo-codes__catalog" data-promo-catalog="">
@@ -335,7 +327,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="alloy-health" data-code="STRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="alloy-health" data-brand-name="ALLOY HEALTH" data-code="STRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="STRONG" aria-label="Copy promo code STRONG">
 			<code class="promo-ticket__code">STRONG</code>
@@ -387,7 +379,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="altra" data-code="TRN10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="altra" data-brand-name="ALTRA" data-code="TRN10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRN10" aria-label="Copy promo code TRN10">
 			<code class="promo-ticket__code">TRN10</code>
@@ -439,7 +431,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="amazfit" data-code="COFFEE" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="amazfit" data-brand-name="Amazfit" data-code="COFFEE" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="COFFEE" aria-label="Copy promo code COFFEE">
 			<code class="promo-ticket__code">COFFEE</code>
@@ -468,7 +460,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="amazfit" data-code="FTLR2026" data-podcast-count="2">
+			<li class="promo-ticket" data-promo-entry="" data-brand="amazfit" data-brand-name="Amazfit" data-code="FTLR2026" data-podcast-count="2">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR2026" aria-label="Copy promo code FTLR2026">
 			<code class="promo-ticket__code">FTLR2026</code>
@@ -529,7 +521,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="beekeeper-s-naturals" data-code="SALLY" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="beekeeper-s-naturals" data-brand-name="Beekeeper's Naturals" data-code="SALLY" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SALLY" aria-label="Copy promo code SALLY">
 			<code class="promo-ticket__code">SALLY</code>
@@ -558,7 +550,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="beekeeper-s-naturals" data-code="SUBHUB20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="beekeeper-s-naturals" data-brand-name="Beekeeper's Naturals" data-code="SUBHUB20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SUBHUB20" aria-label="Copy promo code SUBHUB20">
 			<code class="promo-ticket__code">SUBHUB20</code>
@@ -610,7 +602,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="bon-charge" data-code="SALLY" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="bon-charge" data-brand-name="Bon Charge" data-code="SALLY" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SALLY" aria-label="Copy promo code SALLY">
 			<code class="promo-ticket__code">SALLY</code>
@@ -662,7 +654,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="boulderthon" data-code="FTLR20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="boulderthon" data-brand-name="Boulderthon" data-code="FTLR20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR20" aria-label="Copy promo code FTLR20">
 			<code class="promo-ticket__code">FTLR20</code>
@@ -691,7 +683,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="boulderthon" data-code="FTLR2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="boulderthon" data-brand-name="Boulderthon" data-code="FTLR2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR2026" aria-label="Copy promo code FTLR2026">
 			<code class="promo-ticket__code">FTLR2026</code>
@@ -743,7 +735,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="centurion-running" data-code="PODCAST10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="centurion-running" data-brand-name="Centurion Running" data-code="PODCAST10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="PODCAST10" aria-label="Copy promo code PODCAST10">
 			<code class="promo-ticket__code">PODCAST10</code>
@@ -795,7 +787,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="cirque-series" data-code="SUBHUB25" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="cirque-series" data-brand-name="Cirque Series" data-code="SUBHUB25" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SUBHUB25" aria-label="Copy promo code SUBHUB25">
 			<code class="promo-ticket__code">SUBHUB25</code>
@@ -829,12 +821,12 @@
 
 		
 			
-			<section class="promo-brand promo-brand--accent-2" data-brand-section="" data-brand="citius-mag" aria-labelledby="promo-brand-citius-mag">
+			<section class="promo-brand promo-brand--accent-2" data-brand-section="" data-brand="core-2-body-temperature-sensor" aria-labelledby="promo-brand-core-2-body-temperature-sensor">
 	<header class="promo-brand__header">
 		<div class="promo-brand__identity">
 			<span class="promo-brand__mark" aria-hidden="true">C</span>
 			<div class="promo-brand__titles">
-				<h2 class="promo-brand__name" id="promo-brand-citius-mag">CITIUS MAG</h2>
+				<h2 class="promo-brand__name" id="promo-brand-core-2-body-temperature-sensor">CORE 2 Body Temperature Sensor</h2>
 				<p class="promo-brand__meta">
 					1 code
 					
@@ -847,59 +839,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="citius-mag" data-code="CITIUS10" data-podcast-count="1">
-	<div class="promo-ticket__main">
-		<button type="button" class="promo-ticket__copy" data-copy-code="CITIUS10" aria-label="Copy promo code CITIUS10">
-			<code class="promo-ticket__code">CITIUS10</code>
-			<span class="promo-ticket__copy-label">Copy</span>
-		</button>
-	</div>
-
-	
-	
-	<div class="promo-ticket__podcasts">
-		<ul class="promo-ticket__podcast-list">
-			
-			<li class="promo-ticket__podcast-item">
-				<a class="promo-ticket__podcast-link" href="/the-citius-mag-podcast-a-running-track-and-field-show/">
-					The CITIUS MAG Podcast | A Running + Track and Field Show
-				</a>
-				
-				<a class="promo-ticket__episode-link" href="/the-citius-mag-podcast-a-running-track-and-field-show/the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core/">Latest</a>
-				
-			</li>
-			
-			
-		</ul>
-	</div>
-	
-</li>
-
-		
-	</ul>
-</section>
-
-		
-			
-			<section class="promo-brand promo-brand--accent-3" data-brand-section="" data-brand="core-body-temperature" aria-labelledby="promo-brand-core-body-temperature">
-	<header class="promo-brand__header">
-		<div class="promo-brand__identity">
-			<span class="promo-brand__mark" aria-hidden="true">C</span>
-			<div class="promo-brand__titles">
-				<h2 class="promo-brand__name" id="promo-brand-core-body-temperature">CORE Body Temperature</h2>
-				<p class="promo-brand__meta">
-					1 code
-					
-					· 1 podcast
-					
-				</p>
-			</div>
-		</div>
-	</header>
-
-	<ul class="promo-brand__codes">
-		
-			<li class="promo-ticket" data-promo-entry="" data-brand="core-body-temperature" data-code="CITIUS10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="core-2-body-temperature-sensor" data-brand-name="CORE 2 Body Temperature Sensor" data-code="CITIUS10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="CITIUS10" aria-label="Copy promo code CITIUS10">
 			<code class="promo-ticket__code">CITIUS10</code>
@@ -933,6 +873,58 @@
 
 		
 			
+			<section class="promo-brand promo-brand--accent-3" data-brand-section="" data-brand="every-month-after-with-an-active" aria-labelledby="promo-brand-every-month-after-with-an-active">
+	<header class="promo-brand__header">
+		<div class="promo-brand__identity">
+			<span class="promo-brand__mark" aria-hidden="true">E</span>
+			<div class="promo-brand__titles">
+				<h2 class="promo-brand__name" id="promo-brand-every-month-after-with-an-active">every month after with an active</h2>
+				<p class="promo-brand__meta">
+					1 code
+					
+					· 1 podcast
+					
+				</p>
+			</div>
+		</div>
+	</header>
+
+	<ul class="promo-brand__codes">
+		
+			<li class="promo-ticket" data-promo-entry="" data-brand="every-month-after-with-an-active" data-brand-name="every month after with an active" data-code="MORGAN20" data-podcast-count="1">
+	<div class="promo-ticket__main">
+		<button type="button" class="promo-ticket__copy" data-copy-code="MORGAN20" aria-label="Copy promo code MORGAN20">
+			<code class="promo-ticket__code">MORGAN20</code>
+			<span class="promo-ticket__copy-label">Copy</span>
+		</button>
+	</div>
+
+	
+	
+	<div class="promo-ticket__podcasts">
+		<ul class="promo-ticket__podcast-list">
+			
+			<li class="promo-ticket__podcast-item">
+				<a class="promo-ticket__podcast-link" href="/coffeeclub/">
+					COFFEECLUB
+				</a>
+				
+				<a class="promo-ticket__episode-link" href="/coffeeclub/the-truth-about-the-supplement-industry/">Latest</a>
+				
+			</li>
+			
+			
+		</ul>
+	</div>
+	
+</li>
+
+		
+	</ul>
+</section>
+
+		
+			
 			<section class="promo-brand promo-brand--accent-4" data-brand-section="" data-brand="fast-pickle" aria-labelledby="promo-brand-fast-pickle">
 	<header class="promo-brand__header">
 		<div class="promo-brand__identity">
@@ -951,7 +943,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="fast-pickle" data-code="BETWEENTWOPICKLES20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="fast-pickle" data-brand-name="Fast Pickle" data-code="BETWEENTWOPICKLES20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="BETWEENTWOPICKLES20" aria-label="Copy promo code BETWEENTWOPICKLES20">
 			<code class="promo-ticket__code">BETWEENTWOPICKLES20</code>
@@ -1003,7 +995,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="feisty" data-code="TRAIL20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="feisty" data-brand-name="Feisty" data-code="TRAIL20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRAIL20" aria-label="Copy promo code TRAIL20">
 			<code class="promo-ticket__code">TRAIL20</code>
@@ -1055,7 +1047,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="function-health" data-code="FLORIS100" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="function-health" data-brand-name="Function Health" data-code="FLORIS100" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FLORIS100" aria-label="Copy promo code FLORIS100">
 			<code class="promo-ticket__code">FLORIS100</code>
@@ -1107,7 +1099,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="go-brewing" data-code="FTLR2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="go-brewing" data-brand-name="Go Brewing" data-code="FTLR2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR2026" aria-label="Copy promo code FTLR2026">
 			<code class="promo-ticket__code">FTLR2026</code>
@@ -1148,9 +1140,9 @@
 			<div class="promo-brand__titles">
 				<h2 class="promo-brand__name" id="promo-brand-good-ranchers">Good Ranchers</h2>
 				<p class="promo-brand__meta">
-					1 code
+					2 codes
 					
-					· 1 podcast
+					· 3 podcasts
 					
 				</p>
 			</div>
@@ -1159,7 +1151,36 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="good-ranchers" data-code="IRON" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="good-ranchers" data-brand-name="Good Ranchers" data-code="DISTANCE" data-podcast-count="1">
+	<div class="promo-ticket__main">
+		<button type="button" class="promo-ticket__copy" data-copy-code="DISTANCE" aria-label="Copy promo code DISTANCE">
+			<code class="promo-ticket__code">DISTANCE</code>
+			<span class="promo-ticket__copy-label">Copy</span>
+		</button>
+	</div>
+
+	
+	
+	<div class="promo-ticket__podcasts">
+		<ul class="promo-ticket__podcast-list">
+			
+			<li class="promo-ticket__podcast-item">
+				<a class="promo-ticket__podcast-link" href="/distance-to-empty/">
+					Distance to Empty
+				</a>
+				
+				<a class="promo-ticket__episode-link" href="/distance-to-empty/mike-mcknight-is-flagstaff-bound-at-the-2026-cocodona-250/">Latest</a>
+				
+			</li>
+			
+			
+		</ul>
+	</div>
+	
+</li>
+
+		
+			<li class="promo-ticket" data-promo-entry="" data-brand="good-ranchers" data-brand-name="Good Ranchers" data-code="IRON" data-podcast-count="3">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="IRON" aria-label="Copy promo code IRON">
 			<code class="promo-ticket__code">IRON</code>
@@ -1173,11 +1194,29 @@
 		<ul class="promo-ticket__podcast-list">
 			
 			<li class="promo-ticket__podcast-item">
+				<a class="promo-ticket__podcast-link" href="/distance-to-empty/">
+					Distance to Empty
+				</a>
+				
+				<a class="promo-ticket__episode-link" href="/distance-to-empty/paul-james-johnson-redefining-too-old-at-69-one-200-mile-race-and-pr-at-a-time/">Latest</a>
+				
+			</li>
+			
+			<li class="promo-ticket__podcast-item">
 				<a class="promo-ticket__podcast-link" href="/for-the-long-run/">
 					For The Long Run
 				</a>
 				
 				<a class="promo-ticket__episode-link" href="/for-the-long-run/tommie-runz-on-western-states-running-as-a-black-man-on-trail-and-trusting-the-long-game/">Latest</a>
+				
+			</li>
+			
+			<li class="promo-ticket__podcast-item">
+				<a class="promo-ticket__podcast-link" href="/trail-society/">
+					Trail Society
+				</a>
+				
+				<a class="promo-ticket__episode-link" href="/trail-society/episode-142-who-gets-to-feel-like-they-belong-with-daniella-chong/">Latest</a>
 				
 			</li>
 			
@@ -1211,7 +1250,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="heavenly-heat-saunas" data-code="FLO" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="heavenly-heat-saunas" data-brand-name="Heavenly Heat Saunas" data-code="FLO" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FLO" aria-label="Copy promo code FLO">
 			<code class="promo-ticket__code">FLO</code>
@@ -1263,7 +1302,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="intrepid-camp-gear" data-code="BOULDERBOYS" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="intrepid-camp-gear" data-brand-name="Intrepid Camp Gear" data-code="BOULDERBOYS" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="BOULDERBOYS" aria-label="Copy promo code BOULDERBOYS">
 			<code class="promo-ticket__code">BOULDERBOYS</code>
@@ -1315,7 +1354,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="irestore" data-code="SALLY" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="irestore" data-brand-name="iRestore" data-code="SALLY" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SALLY" aria-label="Copy promo code SALLY">
 			<code class="promo-ticket__code">SALLY</code>
@@ -1344,7 +1383,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="irestore" data-code="STRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="irestore" data-brand-name="iRestore" data-code="STRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="STRONG" aria-label="Copy promo code STRONG">
 			<code class="promo-ticket__code">STRONG</code>
@@ -1396,7 +1435,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-code="BTP10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-brand-name="Janji" data-code="BTP10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="BTP10" aria-label="Copy promo code BTP10">
 			<code class="promo-ticket__code">BTP10</code>
@@ -1425,7 +1464,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-code="CHOOSESTRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-brand-name="Janji" data-code="CHOOSESTRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="CHOOSESTRONG" aria-label="Copy promo code CHOOSESTRONG">
 			<code class="promo-ticket__code">CHOOSESTRONG</code>
@@ -1454,7 +1493,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-code="DISTANCE" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-brand-name="Janji" data-code="DISTANCE" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="DISTANCE" aria-label="Copy promo code DISTANCE">
 			<code class="promo-ticket__code">DISTANCE</code>
@@ -1483,7 +1522,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-code="ULTRADIRTBAG20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-brand-name="Janji" data-code="ULTRADIRTBAG20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="ULTRADIRTBAG20" aria-label="Copy promo code ULTRADIRTBAG20">
 			<code class="promo-ticket__code">ULTRADIRTBAG20</code>
@@ -1512,7 +1551,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-code="USIGNUP10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="janji" data-brand-name="Janji" data-code="USIGNUP10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="USIGNUP10" aria-label="Copy promo code USIGNUP10">
 			<code class="promo-ticket__code">USIGNUP10</code>
@@ -1564,7 +1603,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="kava-haven" data-code="ROADOFTHETRIALS15" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="kava-haven" data-brand-name="Kava Haven" data-code="ROADOFTHETRIALS15" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="ROADOFTHETRIALS15" aria-label="Copy promo code ROADOFTHETRIALS15">
 			<code class="promo-ticket__code">ROADOFTHETRIALS15</code>
@@ -1593,7 +1632,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="kava-haven" data-code="ROADTOTHETRIALS15" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="kava-haven" data-brand-name="Kava Haven" data-code="ROADTOTHETRIALS15" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="ROADTOTHETRIALS15" aria-label="Copy promo code ROADTOTHETRIALS15">
 			<code class="promo-ticket__code">ROADTOTHETRIALS15</code>
@@ -1622,7 +1661,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="kava-haven" data-code="ROADTOTRIALS15" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="kava-haven" data-brand-name="Kava Haven" data-code="ROADTOTRIALS15" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="ROADTOTRIALS15" aria-label="Copy promo code ROADTOTRIALS15">
 			<code class="promo-ticket__code">ROADTOTRIALS15</code>
@@ -1674,7 +1713,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="ketone-iq" data-code="FREETRAIL30" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="ketone-iq" data-brand-name="Ketone-IQ" data-code="FREETRAIL30" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FREETRAIL30" aria-label="Copy promo code FREETRAIL30">
 			<code class="promo-ticket__code">FREETRAIL30</code>
@@ -1726,7 +1765,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="lagoon-sleep" data-code="CHOOSESTRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="lagoon-sleep" data-brand-name="Lagoon Sleep" data-code="CHOOSESTRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="CHOOSESTRONG" aria-label="Copy promo code CHOOSESTRONG">
 			<code class="promo-ticket__code">CHOOSESTRONG</code>
@@ -1755,7 +1794,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="lagoon-sleep" data-code="NOBODYASKEDUS" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="lagoon-sleep" data-brand-name="Lagoon Sleep" data-code="NOBODYASKEDUS" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="NOBODYASKEDUS" aria-label="Copy promo code NOBODYASKEDUS">
 			<code class="promo-ticket__code">NOBODYASKEDUS</code>
@@ -1784,7 +1823,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="lagoon-sleep" data-code="SALLY" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="lagoon-sleep" data-brand-name="Lagoon Sleep" data-code="SALLY" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SALLY" aria-label="Copy promo code SALLY">
 			<code class="promo-ticket__code">SALLY</code>
@@ -1836,7 +1875,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="lever-movement" data-code="NOBODYASKEDUS" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="lever-movement" data-brand-name="Lever Movement" data-code="NOBODYASKEDUS" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="NOBODYASKEDUS" aria-label="Copy promo code NOBODYASKEDUS">
 			<code class="promo-ticket__code">NOBODYASKEDUS</code>
@@ -1888,7 +1927,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="maurten" data-code="ULTRASOUND20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="maurten" data-brand-name="Maurten" data-code="ULTRASOUND20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="ULTRASOUND20" aria-label="Copy promo code ULTRASOUND20">
 			<code class="promo-ticket__code">ULTRASOUND20</code>
@@ -1929,7 +1968,7 @@
 			<div class="promo-brand__titles">
 				<h2 class="promo-brand__name" id="promo-brand-mount-to-coast">Mount to Coast</h2>
 				<p class="promo-brand__meta">
-					5 codes
+					4 codes
 					
 					· 3 podcasts
 					
@@ -1940,7 +1979,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-code="CHOOSESTRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-brand-name="Mount to Coast" data-code="CHOOSESTRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="CHOOSESTRONG" aria-label="Copy promo code CHOOSESTRONG">
 			<code class="promo-ticket__code">CHOOSESTRONG</code>
@@ -1969,7 +2008,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-code="DISTANCE" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-brand-name="Mount to Coast" data-code="DISTANCE" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="DISTANCE" aria-label="Copy promo code DISTANCE">
 			<code class="promo-ticket__code">DISTANCE</code>
@@ -1998,7 +2037,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-code="FTLR" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-brand-name="Mount to Coast" data-code="FTLR" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR" aria-label="Copy promo code FTLR">
 			<code class="promo-ticket__code">FTLR</code>
@@ -2027,36 +2066,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-code="IRON" data-podcast-count="1">
-	<div class="promo-ticket__main">
-		<button type="button" class="promo-ticket__copy" data-copy-code="IRON" aria-label="Copy promo code IRON">
-			<code class="promo-ticket__code">IRON</code>
-			<span class="promo-ticket__copy-label">Copy</span>
-		</button>
-	</div>
-
-	
-	
-	<div class="promo-ticket__podcasts">
-		<ul class="promo-ticket__podcast-list">
-			
-			<li class="promo-ticket__podcast-item">
-				<a class="promo-ticket__podcast-link" href="/distance-to-empty/">
-					Distance to Empty
-				</a>
-				
-				<a class="promo-ticket__episode-link" href="/distance-to-empty/paul-james-johnson-redefining-too-old-at-69-one-200-mile-race-and-pr-at-a-time/">Latest</a>
-				
-			</li>
-			
-			
-		</ul>
-	</div>
-	
-</li>
-
-		
-			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-code="STRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="mount-to-coast" data-brand-name="Mount to Coast" data-code="STRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="STRONG" aria-label="Copy promo code STRONG">
 			<code class="promo-ticket__code">STRONG</code>
@@ -2108,7 +2118,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="mud-wtr" data-code="STRONG" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="mud-wtr" data-brand-name="MUD\WTR" data-code="STRONG" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="STRONG" aria-label="Copy promo code STRONG">
 			<code class="promo-ticket__code">STRONG</code>
@@ -2160,7 +2170,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="neversecond" data-code="FREETRAIL25" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="neversecond" data-brand-name="Neversecond" data-code="FREETRAIL25" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FREETRAIL25" aria-label="Copy promo code FREETRAIL25">
 			<code class="promo-ticket__code">FREETRAIL25</code>
@@ -2212,7 +2222,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="olipop" data-code="CITIUS25" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="olipop" data-brand-name="OLIPOP" data-code="CITIUS25" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="CITIUS25" aria-label="Copy promo code CITIUS25">
 			<code class="promo-ticket__code">CITIUS25</code>
@@ -2264,7 +2274,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-code="FTLR2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-brand-name="Precision Fuel &amp; Hydration" data-code="FTLR2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR2026" aria-label="Copy promo code FTLR2026">
 			<code class="promo-ticket__code">FTLR2026</code>
@@ -2293,7 +2303,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-code="IRP2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-brand-name="Precision Fuel &amp; Hydration" data-code="IRP2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="IRP2026" aria-label="Copy promo code IRP2026">
 			<code class="promo-ticket__code">IRP2026</code>
@@ -2322,7 +2332,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-code="LONGRUN26" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-brand-name="Precision Fuel &amp; Hydration" data-code="LONGRUN26" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="LONGRUN26" aria-label="Copy promo code LONGRUN26">
 			<code class="promo-ticket__code">LONGRUN26</code>
@@ -2351,7 +2361,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-code="PODCAST10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-brand-name="Precision Fuel &amp; Hydration" data-code="PODCAST10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="PODCAST10" aria-label="Copy promo code PODCAST10">
 			<code class="promo-ticket__code">PODCAST10</code>
@@ -2380,7 +2390,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-code="SINGLETRACK" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-brand-name="Precision Fuel &amp; Hydration" data-code="SINGLETRACK" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SINGLETRACK" aria-label="Copy promo code SINGLETRACK">
 			<code class="promo-ticket__code">SINGLETRACK</code>
@@ -2409,7 +2419,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-code="TRIALS26" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="precision-fuel-hydration" data-brand-name="Precision Fuel &amp; Hydration" data-code="TRIALS26" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRIALS26" aria-label="Copy promo code TRIALS26">
 			<code class="promo-ticket__code">TRIALS26</code>
@@ -2450,7 +2460,7 @@
 			<div class="promo-brand__titles">
 				<h2 class="promo-brand__name" id="promo-brand-probio-nutrition">Probio Nutrition</h2>
 				<p class="promo-brand__meta">
-					2 codes
+					1 code
 					
 					· 1 podcast
 					
@@ -2461,36 +2471,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="probio-nutrition" data-code="IRON" data-podcast-count="1">
-	<div class="promo-ticket__main">
-		<button type="button" class="promo-ticket__copy" data-copy-code="IRON" aria-label="Copy promo code IRON">
-			<code class="promo-ticket__code">IRON</code>
-			<span class="promo-ticket__copy-label">Copy</span>
-		</button>
-	</div>
-
-	
-	
-	<div class="promo-ticket__podcasts">
-		<ul class="promo-ticket__podcast-list">
-			
-			<li class="promo-ticket__podcast-item">
-				<a class="promo-ticket__podcast-link" href="/trail-society/">
-					Trail Society
-				</a>
-				
-				<a class="promo-ticket__episode-link" href="/trail-society/episode-129-the-science-of-cognitive-fatigue-in-running/">Latest</a>
-				
-			</li>
-			
-			
-		</ul>
-	</div>
-	
-</li>
-
-		
-			<li class="promo-ticket" data-promo-entry="" data-brand="probio-nutrition" data-code="TRAIL20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="probio-nutrition" data-brand-name="Probio Nutrition" data-code="TRAIL20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRAIL20" aria-label="Copy promo code TRAIL20">
 			<code class="promo-ticket__code">TRAIL20</code>
@@ -2542,7 +2523,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="rabbit" data-code="FEBTRAIL" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="rabbit" data-brand-name="rabbit" data-code="FEBTRAIL" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FEBTRAIL" aria-label="Copy promo code FEBTRAIL">
 			<code class="promo-ticket__code">FEBTRAIL</code>
@@ -2571,7 +2552,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="rabbit" data-code="JULYTRAIL10" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="rabbit" data-brand-name="rabbit" data-code="JULYTRAIL10" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="JULYTRAIL10" aria-label="Copy promo code JULYTRAIL10">
 			<code class="promo-ticket__code">JULYTRAIL10</code>
@@ -2600,7 +2581,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="rabbit" data-code="TSMARCH" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="rabbit" data-brand-name="rabbit" data-code="TSMARCH" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TSMARCH" aria-label="Copy promo code TSMARCH">
 			<code class="promo-ticket__code">TSMARCH</code>
@@ -2652,7 +2633,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="run-in-rabbit" data-code="FEBTRAIL" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="run-in-rabbit" data-brand-name="Run in rabbit" data-code="FEBTRAIL" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FEBTRAIL" aria-label="Copy promo code FEBTRAIL">
 			<code class="promo-ticket__code">FEBTRAIL</code>
@@ -2681,7 +2662,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="run-in-rabbit" data-code="TSMARCH" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="run-in-rabbit" data-brand-name="Run in rabbit" data-code="TSMARCH" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TSMARCH" aria-label="Copy promo code TSMARCH">
 			<code class="promo-ticket__code">TSMARCH</code>
@@ -2733,7 +2714,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="runtraillife" data-code="MIDPACKERPOD" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="runtraillife" data-brand-name="Runtraillife" data-code="MIDPACKERPOD" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="MIDPACKERPOD" aria-label="Copy promo code MIDPACKERPOD">
 			<code class="promo-ticket__code">MIDPACKERPOD</code>
@@ -2785,7 +2766,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="saily" data-code="INSIDERUNNING" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="saily" data-brand-name="Saily" data-code="INSIDERUNNING" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="INSIDERUNNING" aria-label="Copy promo code INSIDERUNNING">
 			<code class="promo-ticket__code">INSIDERUNNING</code>
@@ -2837,7 +2818,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="shokz" data-code="IRP15" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="shokz" data-brand-name="Shokz" data-code="IRP15" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="IRP15" aria-label="Copy promo code IRP15">
 			<code class="promo-ticket__code">IRP15</code>
@@ -2889,7 +2870,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="strava" data-code="TRIALS28" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="strava" data-brand-name="Strava" data-code="TRIALS28" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRIALS28" aria-label="Copy promo code TRIALS28">
 			<code class="promo-ticket__code">TRIALS28</code>
@@ -2941,7 +2922,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="summit-roasters" data-code="WOD15" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="summit-roasters" data-brand-name="Summit Roasters" data-code="WOD15" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="WOD15" aria-label="Copy promo code WOD15">
 			<code class="promo-ticket__code">WOD15</code>
@@ -2993,7 +2974,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="tifosi-optics" data-code="FEISTY2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="tifosi-optics" data-brand-name="Tifosi Optics" data-code="FEISTY2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FEISTY2026" aria-label="Copy promo code FEISTY2026">
 			<code class="promo-ticket__code">FEISTY2026</code>
@@ -3022,7 +3003,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="tifosi-optics" data-code="FTLR2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="tifosi-optics" data-brand-name="Tifosi Optics" data-code="FTLR2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR2026" aria-label="Copy promo code FTLR2026">
 			<code class="promo-ticket__code">FTLR2026</code>
@@ -3074,7 +3055,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="true-nutrition" data-code="TRNSUMMER" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="true-nutrition" data-brand-name="True Nutrition" data-code="TRNSUMMER" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRNSUMMER" aria-label="Copy promo code TRNSUMMER">
 			<code class="promo-ticket__code">TRNSUMMER</code>
@@ -3115,7 +3096,7 @@
 			<div class="promo-brand__titles">
 				<h2 class="promo-brand__name" id="promo-brand-vacation-races">Vacation Races</h2>
 				<p class="promo-brand__meta">
-					5 codes
+					4 codes
 					
 					· 2 podcasts
 					
@@ -3126,7 +3107,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-code="FEISTY2026" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-brand-name="Vacation Races" data-code="FEISTY2026" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FEISTY2026" aria-label="Copy promo code FEISTY2026">
 			<code class="promo-ticket__code">FEISTY2026</code>
@@ -3155,7 +3136,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-code="FTLR" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-brand-name="Vacation Races" data-code="FTLR" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="FTLR" aria-label="Copy promo code FTLR">
 			<code class="promo-ticket__code">FTLR</code>
@@ -3184,36 +3165,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-code="IRON" data-podcast-count="1">
-	<div class="promo-ticket__main">
-		<button type="button" class="promo-ticket__copy" data-copy-code="IRON" aria-label="Copy promo code IRON">
-			<code class="promo-ticket__code">IRON</code>
-			<span class="promo-ticket__copy-label">Copy</span>
-		</button>
-	</div>
-
-	
-	
-	<div class="promo-ticket__podcasts">
-		<ul class="promo-ticket__podcast-list">
-			
-			<li class="promo-ticket__podcast-item">
-				<a class="promo-ticket__podcast-link" href="/trail-society/">
-					Trail Society
-				</a>
-				
-				<a class="promo-ticket__episode-link" href="/trail-society/episode-142-who-gets-to-feel-like-they-belong-with-daniella-chong/">Latest</a>
-				
-			</li>
-			
-			
-		</ul>
-	</div>
-	
-</li>
-
-		
-			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-code="TRAIL20" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-brand-name="Vacation Races" data-code="TRAIL20" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRAIL20" aria-label="Copy promo code TRAIL20">
 			<code class="promo-ticket__code">TRAIL20</code>
@@ -3242,7 +3194,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-code="TRAILSOCIETY" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="vacation-races" data-brand-name="Vacation Races" data-code="TRAILSOCIETY" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRAILSOCIETY" aria-label="Copy promo code TRAILSOCIETY">
 			<code class="promo-ticket__code">TRAILSOCIETY</code>
@@ -3294,7 +3246,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="vert-run" data-code="RUNNINGLONG30" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="vert-run" data-brand-name="Vert.run" data-code="RUNNINGLONG30" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="RUNNINGLONG30" aria-label="Copy promo code RUNNINGLONG30">
 			<code class="promo-ticket__code">RUNNINGLONG30</code>
@@ -3346,7 +3298,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="wahoo" data-code="TRIALS28" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="wahoo" data-brand-name="Wahoo" data-code="TRIALS28" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRIALS28" aria-label="Copy promo code TRIALS28">
 			<code class="promo-ticket__code">TRIALS28</code>
@@ -3375,7 +3327,7 @@
 </li>
 
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="wahoo" data-code="WAHOOULTRA" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="wahoo" data-brand-name="Wahoo" data-code="WAHOOULTRA" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="WAHOOULTRA" aria-label="Copy promo code WAHOOULTRA">
 			<code class="promo-ticket__code">WAHOOULTRA</code>
@@ -3427,7 +3379,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="wild-strides-paper-co" data-code="SUBHUB15" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="wild-strides-paper-co" data-brand-name="Wild Strides Paper Co." data-code="SUBHUB15" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="SUBHUB15" aria-label="Copy promo code SUBHUB15">
 			<code class="promo-ticket__code">SUBHUB15</code>
@@ -3479,7 +3431,7 @@
 
 	<ul class="promo-brand__codes">
 		
-			<li class="promo-ticket" data-promo-entry="" data-brand="zbiotics" data-code="TRIALS26" data-podcast-count="1">
+			<li class="promo-ticket" data-promo-entry="" data-brand="zbiotics" data-brand-name="ZBiotics" data-code="TRIALS26" data-podcast-count="1">
 	<div class="promo-ticket__main">
 		<button type="button" class="promo-ticket__copy" data-copy-code="TRIALS26" aria-label="Copy promo code TRIALS26">
 			<code class="promo-ticket__code">TRIALS26</code>
@@ -3546,31 +3498,49 @@
 		}, 1600);
 	}
 
-	function ticketMatches(ticket, query) {
+	function normalizeSearch(text) {
+		return (text || '').trim().toLowerCase();
+	}
+
+	function sectionBrandText(section) {
+		var nameEl = section.querySelector('.promo-brand__name');
+		return normalizeSearch(nameEl ? nameEl.textContent : '');
+	}
+
+	function ticketMatches(ticket, query, sectionBrand) {
 		if (activeBrand && ticket.getAttribute('data-brand') !== activeBrand) return false;
 		if (!query) return true;
-		return ticket.textContent.toLowerCase().indexOf(query) !== -1;
+		if (sectionBrand && sectionBrand.indexOf(query) !== -1) return true;
+		if (normalizeSearch(ticket.getAttribute('data-brand-name')).indexOf(query) !== -1) return true;
+		if (normalizeSearch(ticket.getAttribute('data-code')).indexOf(query) !== -1) return true;
+		return normalizeSearch(ticket.textContent).indexOf(query) !== -1;
 	}
 
 	function updateResults() {
-		var query = input ? input.value.trim().toLowerCase() : '';
+		var query = input ? normalizeSearch(input.value) : '';
 		var visibleTickets = 0;
-
-		tickets.forEach(function (ticket) {
-			var show = ticketMatches(ticket, query);
-			ticket.hidden = !show;
-			if (show) visibleTickets += 1;
-		});
 
 		brandSections.forEach(function (section) {
 			if (activeBrand && section.getAttribute('data-brand') !== activeBrand) {
 				section.hidden = true;
+				Array.prototype.forEach.call(section.querySelectorAll('[data-promo-entry]'), function (ticket) {
+					ticket.hidden = true;
+				});
 				return;
 			}
 
-			var visibleInSection = Array.prototype.slice.call(
-				section.querySelectorAll('[data-promo-entry]:not([hidden])')
-			).length;
+			var sectionBrand = sectionBrandText(section);
+			var visibleInSection = 0;
+
+			Array.prototype.forEach.call(section.querySelectorAll('[data-promo-entry]'), function (ticket) {
+				var show = ticketMatches(ticket, query, sectionBrand);
+				ticket.hidden = !show;
+				if (show) {
+					visibleInSection += 1;
+					visibleTickets += 1;
+				}
+			});
+
 			section.hidden = visibleInSection === 0;
 		});
 
@@ -3663,7 +3633,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-07-23T10:51:38Z">2026-07-23 10:51 UTC</time>
+      <time datetime="2026-07-23T11:13:28Z">2026-07-23 11:13 UTC</time>
     </p></footer>
 
 <div

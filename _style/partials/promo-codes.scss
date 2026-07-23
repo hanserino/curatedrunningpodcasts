@@ -46,6 +46,22 @@
         font-size: 0.88rem;
     }
 
+    &__header-tools {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-top: 1rem;
+        padding-top: 0.95rem;
+        border-top: 1px dashed rgba($color-ink, 0.14);
+    }
+
+    &__controls {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.6rem 0.75rem;
+    }
+
     &__steps {
         display: flex;
         flex-wrap: wrap;
@@ -88,94 +104,6 @@
 
     &__content {
         margin: 0;
-    }
-
-    &__toolbar {
-        position: sticky;
-        top: 0.35rem;
-        z-index: 5;
-        margin: 0 0 1.15rem;
-    }
-
-    &__toolbar-inner {
-        padding: 0.85rem 0.95rem 0.95rem;
-        border: $border-heavy;
-        border-radius: $radius-sm;
-        background: rgba($color-surface, 0.97);
-        box-shadow: $shadow-brutal;
-        backdrop-filter: blur(8px);
-        @include lane-ticker;
-    }
-
-    &__toolbar-top {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        gap: 0.55rem 1rem;
-        margin-bottom: 0.8rem;
-        padding-bottom: 0.75rem;
-        border-bottom: 1px dashed rgba($color-ink, 0.12);
-    }
-
-    &__stats {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: baseline;
-        gap: 0.15rem 0;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    &__stat {
-        display: inline-flex;
-        align-items: baseline;
-        gap: 0.3rem;
-
-        &:not(:last-child)::after {
-            content: "·";
-            margin: 0 0.7rem;
-            color: rgba($color-muted, 0.55);
-            font-size: 1rem;
-            font-weight: 400;
-            line-height: 1;
-            transform: translateY(-0.05em);
-        }
-
-        &--codes .promo-codes__stat-value {
-            color: darken($color-speed-dark, 8%);
-        }
-
-        &--brands .promo-codes__stat-value {
-            color: $color-ink;
-        }
-
-        &--mentions .promo-codes__stat-value {
-            color: $color-warm;
-        }
-    }
-
-    &__stat-value {
-        font-family: $font-display;
-        font-size: clamp(1.45rem, 3.5vw, 1.85rem);
-        font-weight: 700;
-        letter-spacing: -0.04em;
-        line-height: 1;
-    }
-
-    &__stat-label {
-        font-size: 0.88rem;
-        font-weight: 500;
-        color: $color-muted;
-        line-height: 1.2;
-    }
-
-    &__toolbar-controls {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 0.6rem 0.75rem;
     }
 
     &__search-wrap {
@@ -230,17 +158,11 @@
 
     &__results {
         margin: 0;
-        padding: 0.22rem 0.55rem;
-        border: $border-heavy;
-        border-radius: 999px;
-        background: $color-paper;
         font-family: $font-mono;
-        font-size: 0.62rem;
-        font-weight: 700;
-        letter-spacing: 0.05em;
-        text-transform: uppercase;
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.03em;
         color: $color-muted;
-        box-shadow: $shadow-brutal-sm;
         white-space: nowrap;
     }
 
@@ -347,11 +269,6 @@
     }
 
     @include allBelow(medium) {
-        &__toolbar-top {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
         &__filters {
             width: 100%;
         }
@@ -362,16 +279,23 @@
     }
 
     @include allAbove(medium) {
-        &__toolbar-inner {
-            padding: 0.9rem 1rem 1rem;
+        &__header-tools {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem 1rem;
         }
 
-        &__toolbar-controls {
+        &__controls {
+            flex: 1 1 28rem;
             flex-wrap: nowrap;
+            justify-content: flex-end;
         }
 
         &__search-wrap {
             flex: 1 1 0;
+            min-width: 12rem;
         }
 
         &__filters {
@@ -384,16 +308,6 @@
 
         &__select {
             min-width: 9.5rem;
-        }
-    }
-
-    @include allAbove(large) {
-        &__toolbar-inner {
-            padding: 0.95rem 1.1rem 1.05rem;
-        }
-
-        &__stat-value {
-            font-size: 1.9rem;
         }
     }
 }

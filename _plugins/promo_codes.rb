@@ -36,7 +36,7 @@ module PromoCodes
        is\s+is\s+supported|is\s+a\s+conversation|vert\s+on\s+ios|want\s+to\s+try|
        to\s+benefit\s+one|not\s+just\s+harder|with\s+code|checkout|rrp\s+items|
        head\s+to|take\s+quiz|go\s+pick|winner\s+announced|technology\s+trusted|
-       it\s+yourself|photo\s*:|fast\s+pickle\s+juice|pickle\s+juice\s+shots|core\s+2|
+       it\s+yourself|photo\s*:|fast\s+pickle\s+juice|pickle\s+juice\s+shots|
        sleep\s+system|vert\s+pro\s+just|just\s+\$|face\s+mask)\b
   /ix.freeze
   ALLOWED_SINGLE_WORD_BRANDS = %w[
@@ -95,6 +95,17 @@ module PromoCodes
     \bat\s+
     ([A-Za-z0-9][A-Za-z0-9&'’+. -]{1,40}?)
     \s+(?:and\s+)?(?:get|shop|save|\d{1,3}%)
+  /ix.freeze
+  TRYING_PRODUCT_RX = /
+    trying\s+(?:the\s+)?
+    ([A-Za-z0-9][A-Za-z0-9&'’+. -]{2,55}?)
+    \s+yourself
+  /ix.freeze
+  CODE_AT_DOMAIN_RX = /
+    (?:with\s+(?:the\s+)?code|code)\s+
+    [A-Za-z0-9][A-Za-z0-9_-]*\s+
+    at\s+
+    ([a-z0-9.-]+\.[a-z]{2,})
   /ix.freeze
   BRAND_AFTER_OFF_RX = /
     (?:
@@ -212,7 +223,7 @@ module PromoCodes
     "mudwtr" => "MUD\\WTR",
     "drinkolipop" => "Olipop",
     "goodranchers" => "Good Ranchers",
-    "corebodytemp" => "CORE Body Temperature",
+    "corebodytemp" => "CORE 2 Body Temperature Sensor",
     "tifosioptics" => "Tifosi Optics",
     "vacationraces" => "Vacation Races",
     "zbiotics" => "ZBiotics",
@@ -264,6 +275,7 @@ module PromoCodes
     "midpacker" => "The Midpacker Podcast"
   }.freeze
   PRODUCT_NAME_ALIASES = [
+    [/\bcore\s*2(?:\s+body\s+temperature(?:\s+sensor)?)?\b|corebodytemp/i, "CORE 2 Body Temperature Sensor"],
     [/janji/i, "Janji"],
     [/precision|precisionhydration/i, "Precision Fuel & Hydration"],
     [/intrepid/i, "Intrepid Camp Gear"],
@@ -279,7 +291,7 @@ module PromoCodes
     [/hdrop/i, "hDrop"],
     [/dirtbag\s*bars?/i, "Dirtbag Bars"],
     [/centurion/i, "Centurion Running"],
-    [/citius/i, "CITIUS MAG"],
+    [/\bcitius(?:\s+mag)?\b/i, "CITIUS MAG"],
     [/momentous|livemomentous/i, "Momentous"],
     [/mount\s*to\s*coast/i, "Mount to Coast"],
     [/probio/i, "Probio Nutrition"],
@@ -363,22 +375,54 @@ module PromoCodes
     filtered.any? ? filtered : Array(domains)
   end
 
-  def brand_from_product_in_offer(context)
+  def brand_from_trying_product(context)
+    match = sanitize_show_notes(context).match(TRYING_PRODUCT_RX)
+    return nil unless match
+
+    cleaned = clean_brand_name(match[1])
+    cleaned if cleaned && plausible_product_name?(cleaned)
+  end
+
+  def brand_from_code_at_domain(context)
+    match = sanitize_show_notes(context).match(CODE_AT_DOMAIN_RX)
+    return nil unless match
+
+    brand = domain_to_brand(match[1])
+    finalized = finalize_product_name(brand, [match[1].to_s.downcase]) if brand
+    finalized if finalized && plausible_product_name?(finalized)
+  end
+
+  def offer_brand_candidates(context)
     text = context.to_s
+    candidates = []
+
+    if (brand = brand_from_trying_product(text))
+      candidates << brand
+    end
+    if (brand = brand_from_code_at_domain(text))
+      candidates << brand
+    end
     if (match = text.match(BRAND_IN_OFFER_RX))
-      finalized = finalize_product_name(match[1], extract_domains(text))
-      return finalized if finalized && plausible_product_name?(finalized)
+      candidate = match[1].to_s
+      unless candidate.match?(/\b(?:with|use)\s+(?:the\s+)?code\b/i)
+        finalized = finalize_product_name(candidate, extract_domains(text))
+        candidates << finalized if finalized && plausible_product_name?(finalized)
+      end
     end
     if (match = text.match(BRAND_AFTER_OFF_RX))
       finalized = finalize_product_name(match[1], extract_domains(text))
-      return finalized if finalized && plausible_product_name?(finalized)
+      candidates << finalized if finalized && plausible_product_name?(finalized)
     end
     if (match = text.match(AT_BRAND_BEFORE_OFFER_RX))
       finalized = finalize_product_name(match[1], extract_domains(text))
-      return finalized if finalized && plausible_product_name?(finalized)
+      candidates << finalized if finalized && plausible_product_name?(finalized)
     end
 
-    nil
+    candidates.compact.uniq
+  end
+
+  def brand_from_product_in_offer(context)
+    offer_brand_candidates(context).first
   end
 
   def plausible_product_name?(name)
@@ -499,10 +543,14 @@ module PromoCodes
 
   def canonical_product(name, domains, context: nil)
     if context
-      offer_brand = brand_from_product_in_offer(context) || brand_from_leading_label(context)
+      domains_for_context = sponsor_domains(extract_domains(context.to_s))
+      offer_brand = brand_from_trying_product(context) ||
+                    brand_from_code_at_domain(context) ||
+                    brand_from_product_in_offer(context) ||
+                    brand_from_leading_label(context)
       if offer_brand
-        finalized = finalize_product_name(offer_brand, sponsor_domains(domains))
-        return finalized if finalized && publishable_brand?(finalized, sponsor_domains(domains))
+        finalized = finalize_product_name(offer_brand, domains_for_context)
+        return finalized if finalized && publishable_brand?(finalized, domains_for_context)
       end
     end
 
@@ -920,7 +968,9 @@ module PromoCodes
   def infer_brand(html, plain, code, context)
     sanitized_context = sanitize_show_notes(context)
 
-    brand_from_with_code(sanitized_context, code) ||
+    brand_from_trying_product(sanitized_context) ||
+      brand_from_code_at_domain(sanitized_context) ||
+      brand_from_with_code(sanitized_context, code) ||
       brand_from_and_use_code(sanitized_context, code) ||
       brand_from_product_in_offer(sanitized_context) ||
       brand_from_leading_label(sanitized_context) ||

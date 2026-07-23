@@ -1,7 +1,6 @@
 {%- assign promo_data = site.data.promo_codes -%}
 {%- assign entries = promo_data.entries -%}
 {%- assign brands = promo_data.brands | default: empty -%}
-{%- assign stats = promo_data.stats | default: empty -%}
 {%- assign has_entries = false -%}
 {%- if entries and entries.size > 0 -%}
 	{%- assign has_entries = true -%}
@@ -12,69 +11,6 @@
 {% unless has_entries %}
 <p class="promo-codes__empty">No promo codes found in running podcast show notes yet.</p>
 {% else %}
-{%- assign code_total = stats.code_count -%}
-{%- if code_total == nil or code_total == 0 -%}
-	{%- assign code_total = entries.size -%}
-{%- endif -%}
-{%- assign brand_total = stats.brand_count | default: brands.size -%}
-{%- assign mention_total = stats.mention_count | default: 0 -%}
-
-<div class="promo-codes__toolbar" data-promo-panel aria-label="Browse promo codes">
-	<div class="promo-codes__toolbar-inner">
-		<div class="promo-codes__toolbar-top">
-			<ul class="promo-codes__stats" aria-label="Overview">
-				<li class="promo-codes__stat promo-codes__stat--codes">
-					<span class="promo-codes__stat-value">{{ code_total }}</span>
-					<span class="promo-codes__stat-label">codes</span>
-				</li>
-				<li class="promo-codes__stat promo-codes__stat--brands">
-					<span class="promo-codes__stat-value">{{ brand_total }}</span>
-					<span class="promo-codes__stat-label">brands</span>
-				</li>
-				<li class="promo-codes__stat promo-codes__stat--mentions">
-					<span class="promo-codes__stat-value">{% if mention_total > 0 %}{{ mention_total }}{% else %}—{% endif %}</span>
-					<span class="promo-codes__stat-label">mentions</span>
-				</li>
-			</ul>
-			<p class="promo-codes__results" id="promo-codes-results" role="status" aria-live="polite" aria-atomic="true"></p>
-		</div>
-		<div class="promo-codes__toolbar-controls">
-			<label class="visuallyhidden" for="promo-codes-search">Search brands, codes, or podcasts</label>
-			<div class="promo-codes__search-wrap">
-				<span class="promo-codes__search-icon" aria-hidden="true"></span>
-				<input
-					type="search"
-					id="promo-codes-search"
-					class="promo-codes__search"
-					placeholder="Search brands, codes, podcasts…"
-					autocomplete="off"
-					spellcheck="false"
-					data-promo-codes-search
-				>
-			</div>
-			<div class="promo-codes__filters">
-				{% if brands.size > 0 %}
-				<div class="promo-codes__filter-wrap">
-					<label class="promo-codes__filter-label" for="promo-codes-brand">Brand</label>
-					<select id="promo-codes-brand" class="promo-codes__select" data-promo-brand-filter>
-						<option value="">All brands</option>
-						{% for brand in brands %}
-						<option value="{{ brand.brand_key | default: brand.brand | slugify }}">{{ brand.brand }}</option>
-						{% endfor %}
-					</select>
-				</div>
-				{% endif %}
-				<div class="promo-codes__filter-wrap">
-					<label class="promo-codes__filter-label" for="promo-codes-sort">Sort</label>
-					<select id="promo-codes-sort" class="promo-codes__select" data-promo-codes-sort>
-						<option value="brand">Brand A–Z</option>
-						<option value="codes">Most codes</option>
-					</select>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
 
 <p class="promo-codes__no-results" data-promo-no-results hidden>No codes match your search. Try another brand or keyword.</p>
 
@@ -128,31 +64,49 @@
 		}, 1600);
 	}
 
-	function ticketMatches(ticket, query) {
+	function normalizeSearch(text) {
+		return (text || '').trim().toLowerCase();
+	}
+
+	function sectionBrandText(section) {
+		var nameEl = section.querySelector('.promo-brand__name');
+		return normalizeSearch(nameEl ? nameEl.textContent : '');
+	}
+
+	function ticketMatches(ticket, query, sectionBrand) {
 		if (activeBrand && ticket.getAttribute('data-brand') !== activeBrand) return false;
 		if (!query) return true;
-		return ticket.textContent.toLowerCase().indexOf(query) !== -1;
+		if (sectionBrand && sectionBrand.indexOf(query) !== -1) return true;
+		if (normalizeSearch(ticket.getAttribute('data-brand-name')).indexOf(query) !== -1) return true;
+		if (normalizeSearch(ticket.getAttribute('data-code')).indexOf(query) !== -1) return true;
+		return normalizeSearch(ticket.textContent).indexOf(query) !== -1;
 	}
 
 	function updateResults() {
-		var query = input ? input.value.trim().toLowerCase() : '';
+		var query = input ? normalizeSearch(input.value) : '';
 		var visibleTickets = 0;
-
-		tickets.forEach(function (ticket) {
-			var show = ticketMatches(ticket, query);
-			ticket.hidden = !show;
-			if (show) visibleTickets += 1;
-		});
 
 		brandSections.forEach(function (section) {
 			if (activeBrand && section.getAttribute('data-brand') !== activeBrand) {
 				section.hidden = true;
+				Array.prototype.forEach.call(section.querySelectorAll('[data-promo-entry]'), function (ticket) {
+					ticket.hidden = true;
+				});
 				return;
 			}
 
-			var visibleInSection = Array.prototype.slice.call(
-				section.querySelectorAll('[data-promo-entry]:not([hidden])')
-			).length;
+			var sectionBrand = sectionBrandText(section);
+			var visibleInSection = 0;
+
+			Array.prototype.forEach.call(section.querySelectorAll('[data-promo-entry]'), function (ticket) {
+				var show = ticketMatches(ticket, query, sectionBrand);
+				ticket.hidden = !show;
+				if (show) {
+					visibleInSection += 1;
+					visibleTickets += 1;
+				}
+			});
+
 			section.hidden = visibleInSection === 0;
 		});
 
