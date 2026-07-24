@@ -110,6 +110,23 @@ module LatestPodcastEpisodes
     (tags + langs).join(" ").strip
   end
 
+  def resanitize_episode_descriptions!(episodes_by_feed)
+    return unless episodes_by_feed.is_a?(Hash)
+
+    episodes_by_feed.each_value do |episodes|
+      Array(episodes).each do |entry|
+        next unless entry.is_a?(Hash)
+
+        html = entry["description_html"].to_s.strip
+        next if html.empty?
+
+        sanitized = sanitize_episode_description_html(html)
+        entry["description_html"] = sanitized
+        entry["description_plain"] = description_plain_from_html(sanitized)
+      end
+    end
+  end
+
   # Liquid cannot reliably resolve hash[variable_key] on nested site.data hashes, so we also
   # expose an array of { "feed_key", "episodes" } for the `where` filter in templates.
   def ensure_feed_episodes_list!(h)
@@ -219,6 +236,20 @@ module LatestPodcastEpisodes
     end
   end
 
+  # Buzzsprout (and some other hosts) occasionally wrap only the first letter of a
+  # sponsor name in <a>, e.g. <a href="...">N</a>orthcom — merge back into one link.
+  SPLIT_WORD_LINK_RX =
+    %r{<a\s+([^>]*?)>([A-Za-zÀ-ÖØ-öø-ÿ])</a>([a-zà-öø-ÿ][a-zA-ZÀ-ÖØ-öø-ÿ0-9&'’.\s-]*?)(?=<(?:/li|/p|/a|/ul|/ol|/div|/span|/h[1-6])|[,.;]|$|<)}i.freeze
+
+  def repair_split_word_links(html)
+    html.to_s.gsub(SPLIT_WORD_LINK_RX) do
+      attrs = Regexp.last_match(1)
+      first = Regexp.last_match(2)
+      rest = Regexp.last_match(3)
+      %(<a #{attrs}>#{first}#{rest}</a>)
+    end
+  end
+
   def linkify_bare_urls_in_html(html)
     inside_anchor = false
 
@@ -235,6 +266,200 @@ module LatestPodcastEpisodes
     end.join
   end
 
+  BLOCK_ELEMENT_RX = /<(p|ul|ol|div|h[1-6])(\s[^>]*)?>([\s\S]*?)<\/\1>/im.freeze
+  BLOCK_OPEN_RX = /<(p|ul|ol|div|h[1-6])(\s[^>]*)?>/i.freeze
+  SECTION_LABEL_SPLIT_RX = /
+    (?=
+      \b(?:Show\s+Notes|Episode\s+Sponsors?|Sponsors?|Links|Connect|Resources|
+           Topics\s+covered|Timestamps|Chapters|BPC\s*-\s*Brand,\s*Product,\s*Content|
+           (?:[A-Z][A-Za-z0-9'’&.-]{0,24}\s+){0,3}Links)
+      \s*:
+    )
+  /ix.freeze
+
+  def strip_presentation_attributes(html)
+    cleaned = html.to_s.gsub(/<(p|li|ul|ol|div|h[1-6])(\s+)([^>]*)>/i) do
+      tag = Regexp.last_match(1)
+      attrs = Regexp.last_match(3).to_s.gsub(
+        /\s*(?:style|class|data-[a-z0-9_-]+)=("[^"]*"|'[^']*'|[^\s>]+)/i,
+        ""
+      ).strip
+      attrs.empty? ? "<#{tag}>" : "<#{tag} #{attrs}>"
+    end
+
+    cleaned.gsub(/<a(\s+)([^>]*)>/i) do
+      attrs = Regexp.last_match(2).to_s
+      attrs = attrs.gsub(/\s*(?:style|class|data-[a-z0-9_-]+)=("[^"]*"|'[^']*'|[^\s>]+)/i, "")
+      attrs = attrs.gsub(/\btarget=(["'])_new\1/i, 'target="_blank"')
+      attrs = attrs.gsub(/\s+/, " ").strip
+      attrs.empty? ? "<a>" : "<a #{attrs}>"
+    end
+  end
+
+  def plain_fragment(html)
+    strip_nbsp_entities(CGI.unescapeHTML(html.to_s.gsub(/<[^>]+>/, " ")))
+      .gsub(/\s+/, " ")
+      .strip
+  end
+
+  def section_header_fragment?(plain, _html)
+    return false if plain.empty? || plain.length > 90
+    return false unless plain.match?(/\A.+:\s*\z/)
+    return false if plain.match?(/:\s*(?:https?|www\.)/i)
+    return false if plain.match?(/\|\s*(?:https?|www\.)/i)
+
+    true
+  end
+
+  def list_item_fragment?(plain, html)
+    return false if plain.empty?
+    return false if plain.match?(/\A.+:\s*\z/) && !plain.match?(/:\s*(?:https?|www\.)/i)
+
+    return true if plain.match?(/\A[^|]{1,80}\|\s*\S/i)
+    if plain.match?(/\A[^:]{1,80}:\s*\S/i) &&
+       (html.match?(/<a[\s>]/i) || plain.match?(%r{https?://|www\.}i))
+      return true
+    end
+
+    if plain.match?(
+         /\b(?:use code|use this link|go to|shop at|subscribe to|join us|follow us|meet us|available at)\b/i
+       ) && plain.match?(%r{https?://|www\.}i)
+      return true
+    end
+
+    plain.length <= 260 && html.match?(/<a[\s>]/i) && plain.match?(%r{https?://|www\.}i)
+  end
+
+  def format_section_header(inner)
+    plain = plain_fragment(inner)
+    label = plain.sub(/:\s*\z/, "")
+    %(<p><strong>#{CGI.escapeHTML(label)}:</strong></p>)
+  end
+
+  def format_list_item(inner)
+    %(<li>#{inner.strip}</li>)
+  end
+
+  def split_block_elements_on_breaks(html)
+    html.gsub(BLOCK_ELEMENT_RX) do
+      tag = Regexp.last_match(1)
+      attrs = Regexp.last_match(2).to_s
+      inner = Regexp.last_match(3).to_s
+      next Regexp.last_match(0) unless %w[p div].include?(tag.downcase)
+      next Regexp.last_match(0) unless inner.match?(/<br\s*\/?>/i)
+
+      parts = inner.split(/<br\s*\/?>/i).map(&:strip).reject { |part| html_inner_blank?(part) }
+      next Regexp.last_match(0) if parts.length <= 1
+
+      parts.map { |part| "<#{tag}#{attrs}>#{part}</#{tag}>" }.join
+    end
+  end
+
+  def split_leading_text_segments(text)
+    text.to_s.strip.split(SECTION_LABEL_SPLIT_RX).map(&:strip).reject(&:empty?)
+  end
+
+  def each_description_segment(html)
+    rest = html.to_s
+    until rest.empty?
+      if (block_match = rest.match(/\A\s*<(p|ul|ol|div|h[1-6])(\s[^>]*)?>[\s\S]*?<\/\1>/im))
+        yield :element, block_match[1].downcase, block_match[0]
+        rest = rest[block_match[0].length..]
+        next
+      end
+
+      next_block = rest.match(BLOCK_OPEN_RX)
+      if next_block
+        text = rest[0, next_block.begin(0)].strip
+        unless text.empty?
+          split_leading_text_segments(text).each do |segment|
+            yield :text, segment
+          end
+        end
+        rest = rest[next_block.begin(0)..]
+        next
+      end
+
+      split_leading_text_segments(rest).each do |segment|
+        yield :text, segment
+      end
+      break
+    end
+  end
+
+  def classify_segment(plain, html_inner)
+    return :header if section_header_fragment?(plain, html_inner)
+    return :list_item if list_item_fragment?(plain, html_inner)
+
+    :prose
+  end
+
+  def normalize_list_element_html(tag, element_html)
+    inner = element_html.match(BLOCK_ELEMENT_RX)&.captures&.last.to_s
+    inner.gsub(/<li(\s[^>]*)?>([\s\S]*?)<\/li>/im) do
+      li_inner = Regexp.last_match(2).to_s.strip
+      if (bare = li_inner.match(/\A<p(\s[^>]*)?>([\s\S]*?)<\/p>\z/im))
+        li_inner = bare[2].to_s.strip
+      end
+      format_list_item(li_inner)
+    end.then { |items| "<#{tag}>#{items}</#{tag}>" }
+  end
+
+  def structure_episode_description_html(html)
+    cleaned = strip_presentation_attributes(html.to_s)
+    cleaned = split_block_elements_on_breaks(cleaned)
+
+    output = []
+    list_buffer = []
+
+    flush_list = lambda do
+      next if list_buffer.empty?
+
+      output << "<ul>#{list_buffer.join}</ul>"
+      list_buffer.clear
+    end
+
+    process_inner = lambda do |inner|
+      plain = plain_fragment(inner)
+      case classify_segment(plain, inner)
+      when :header
+        flush_list.call
+        output << format_section_header(inner)
+      when :list_item
+        list_buffer << format_list_item(inner)
+      else
+        flush_list.call
+        output << "<p>#{inner.strip}</p>"
+      end
+    end
+
+    each_description_segment(cleaned) do |kind, value, element_html = nil|
+      case kind
+      when :text
+        plain = plain_fragment(value)
+        inner = value.match?(/<[^>]+>/) ? value : CGI.escapeHTML(plain)
+        process_inner.call(inner)
+      when :element
+        tag = value
+        if tag == "ul" || tag == "ol"
+          flush_list.call
+          output << normalize_list_element_html(tag, element_html)
+        elsif tag.start_with?("h")
+          flush_list.call
+          plain = plain_fragment(element_html.match(BLOCK_ELEMENT_RX)&.captures&.last)
+          output << format_section_header(plain)
+        else
+          inner = element_html.match(BLOCK_ELEMENT_RX)&.captures&.last.to_s
+          process_inner.call(inner)
+        end
+      end
+    end
+
+    flush_list.call
+    structured = output.join
+    structured.empty? ? cleaned : structured
+  end
+
   def sanitize_episode_description_html(html)
     cleaned = html.to_s.strip
     return "" if cleaned.empty?
@@ -242,8 +467,6 @@ module LatestPodcastEpisodes
     cleaned = cleaned.gsub(/\r\n?/, "\n")
     cleaned = strip_paragraphs_with_only_nbsp(cleaned)
     cleaned = strip_nbsp_entities(cleaned)
-    # Podcast show notes often use <br> for line breaks; remove and keep text flowing in blocks.
-    cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
 
     cleaned = strip_empty_block_tags(cleaned)
 
@@ -257,6 +480,9 @@ module LatestPodcastEpisodes
     cleaned = cleaned.gsub(/<(p|div|li)(\s[^>]*)?>\s+/, '<\1\2>')
     cleaned = cleaned.gsub(/\s+<\/(p|div|li)>/, "</\\1>")
     cleaned = cleaned.gsub(/>\s+</, "><")
+    cleaned = structure_episode_description_html(cleaned)
+    cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
+    cleaned = repair_split_word_links(cleaned)
     linkify_bare_urls_in_html(cleaned.strip)
   end
 
@@ -674,6 +900,7 @@ def build_latest_podcast_episodes_data(site)
           merged["episodes_by_feed"]
         )
       end
+      LatestPodcastEpisodes.resanitize_episode_descriptions!(merged["episodes_by_feed"])
       merged["non_running_items"] = LatestPodcastEpisodes.non_running_items_for_site(
         site,
         merged["episodes_by_feed"]
@@ -779,6 +1006,7 @@ def build_latest_podcast_episodes_data(site)
     prior_episodes,
     cache_episodes
   )
+  LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
 
   feeds_with_episodes = episodes_by_feed.count do |_, episodes|
     episodes.is_a?(Array) && !episodes.empty?

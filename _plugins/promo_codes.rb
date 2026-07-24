@@ -45,11 +45,15 @@ module PromoCodes
   CODE_PATTERNS = [
     /(?:use|enter)\s+(?:the\s+)?code\s*:?\s*["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?(?:\s+(?:at checkout|for|to|and))?/i,
     /(?:use|enter)\s+(?:the\s+)?code\s+([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?=for\b)/i,
+    /\b(?:bruk|use)\s+(?:koden|the\s+code)\s*:?\s*["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?/i,
+    /\b[A-Za-z][A-Za-z0-9&]*-kode\s*:?\s*["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?/i,
+    /\brabattkode\s+["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?/i,
     /\bcode\s*:?\s*["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?(?:\s+(?:for|at|to)\b)/i,
     /with\s+code\s+["']?(?:<[^>]+>)?\s*([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:<\/[^>]+>)?["']?/i,
     /type\s+in\s+this\s+code\s+([A-Za-z0-9][A-Za-z0-9_-]{2,29})/i,
     %r{/discount/([A-Za-z0-9][A-Za-z0-9_-]{2,29})(?:[/?\s"'<>]|$)}i
   ].freeze
+  LABELED_KODE_RX = /\b([A-Za-z][A-Za-z0-9&]*)\s*-kode\s*:?\s*$/i.freeze
   URL_PROMO_CODE_RX = [
     /utm_campaign=([A-Z0-9][A-Z0-9_-]{3,19})/,
     %r{ketone\.com/(?!pages/)([A-Za-z0-9]*[0-9][A-Za-z0-9_-]{2,18})(?:[/?\s"'<>]|$)}i
@@ -172,6 +176,7 @@ module PromoCodes
   OFFER_PATTERNS = [
     /\d{1,3}%\s*off(?:\s+your\s+(?:first\s+)?(?:order|purchase))(?:\s+at\s+checkout)?/i,
     /\d{1,3}%\s*off(?:\s+your\s+order)?/i,
+    /\d{1,3}\s*%\s*rabatt(?:\s+på\s+[^.!]{0,60})?/i,
     /save\s+\d{1,3}%\s+on\s+[^.!]{0,60}/i,
     /\d{1,3}%\s*off(?:\s+[^.!]{0,50})?/i,
     /(?:to\s+)?save\s+\$\s?\d+(?:\.\d{2})?(?:\s+on\s+[^.!]{0,60})?/i,
@@ -285,7 +290,9 @@ module PromoCodes
     "insiderunning" => "Inside Running Podcast",
     "prproject" => "The PR Project",
     "subhub" => "The Sub Hub",
-    "midpacker" => "The Midpacker Podcast"
+    "midpacker" => "The Midpacker Podcast",
+    "getpace" => "Pace",
+    "comfyballs" => "Comfyballs"
   }.freeze
   PRODUCT_NAME_ALIASES = [
     [/\bcore\s*2(?:\s+body\s+temperature(?:\s+sensor)?)?\b|corebodytemp/i, "CORE 2 Body Temperature Sensor"],
@@ -324,6 +331,7 @@ module PromoCodes
     [/inside\s*running/i, "Inside Running Podcast"],
     [/sub\s*hub/i, "The Sub Hub"],
     [/midpacker/i, "The Midpacker Podcast"],
+    [/\bstrava\b/i, "Strava"],
     [/fast\s*pickle|pickle\s*juice/i, "Fast Pickle"],
     [/boulder\s*boys/i, "The Boulder Boys"],
     [/vacation\s*races/i, "Vacation Races"],
@@ -686,6 +694,9 @@ module PromoCodes
 
   def sponsor_block_has_code?(text)
     text.to_s.match?(/(?:use|enter)\s+(?:the\s+)?code/i) ||
+      text.to_s.match?(/(?:bruk|use)\s+(?:koden|the\s+code)/i) ||
+      text.to_s.match?(/\b[A-Za-z][A-Za-z0-9&]*-kode\s*:/i) ||
+      text.to_s.match?(/\brabattkode\b/i) ||
       text.to_s.match?(/type\s+in\s+this\s+code/i) ||
       text.to_s.match?(/utm_campaign=/i) ||
       text.to_s.match?(%r{ketone\.com/[A-Za-z0-9]{4,}}i)
@@ -746,8 +757,10 @@ module PromoCodes
       plain_body = sanitize_show_notes(CGI.unescapeHTML(body_html.gsub(/<[^>]+>/, " ")))
       next unless sponsor_block_has_code?(plain_body)
 
+      codes = extract_codes("#{plain_body} #{body_html}")
       brand = brand_from_product_in_offer(plain_body) ||
               brand_from_leading_label(plain_body)
+      brand ||= brand_from_labeled_kode(plain_body, codes.first) if codes.any?
       domains = extract_domains("#{plain_body} #{body_html}")
       brand ||= domain_to_brand(sponsor_domains(domains).first) if sponsor_domains(domains).any?
       brand = clean_brand_name(brand) || brand
@@ -811,7 +824,7 @@ module PromoCodes
   end
 
   def promo_context?(text)
-    text.to_s.match?(/(?:\d{1,3}%\s*off|use\s+(?:this\s+)?link|discount|promo|save|subscription)/i) ||
+    text.to_s.match?(/(?:\d{1,3}%\s*off|\d{1,3}\s*%\s*rabatt|use\s+(?:this\s+)?link|discount|promo|save|subscription|rabattkode)/i) ||
       text.to_s.match?(/ketone\.com/i)
   end
 
@@ -888,6 +901,9 @@ module PromoCodes
   def sponsor_line_for_code(text, code)
     sanitized = sanitize_show_notes(text)
     trigger = sanitized.match(/(?:use|enter)\s+(?:the\s+)?code\s+#{Regexp.escape(code)}\b/i) ||
+              sanitized.match(/(?:bruk|use)\s+(?:koden|the\s+code)\s*:?\s*#{Regexp.escape(code)}\b/i) ||
+              sanitized.match(/\b[A-Za-z][A-Za-z0-9&]*-kode\s*:\s*#{Regexp.escape(code)}\b/i) ||
+              sanitized.match(/\brabattkode\s+#{Regexp.escape(code)}\b/i) ||
               sanitized.match(/with\s+code\s+#{Regexp.escape(code)}\b/i) ||
               sanitized.match(/type in this code\s+#{Regexp.escape(code)}\b/i)
     return "" unless trigger
@@ -997,6 +1013,15 @@ module PromoCodes
     clean_brand_name(match[1])
   end
 
+  def brand_from_labeled_kode(context, code)
+    before = sanitize_show_notes(context).split(/#{Regexp.escape(code)}/i).first.to_s
+    match = before.match(LABELED_KODE_RX)
+    return nil unless match
+
+    cleaned = clean_brand_name(match[1])
+    cleaned if cleaned && plausible_product_name?(cleaned)
+  end
+
   def brand_from_plain_context(context, code)
     before = sanitize_show_notes(context).split(/#{Regexp.escape(code)}/i).first.to_s
     before = before.split(/[.!?\n]/).last.to_s
@@ -1030,6 +1055,7 @@ module PromoCodes
     brand_from_episode_was_sponsored(sanitized_context) ||
       brand_from_trying_product(sanitized_context) ||
       brand_from_code_at_domain(sanitized_context) ||
+      brand_from_labeled_kode(sanitized_context, code) ||
       brand_from_with_code(sanitized_context, code) ||
       brand_from_and_use_code(sanitized_context, code) ||
       brand_from_product_in_offer(sanitized_context) ||
