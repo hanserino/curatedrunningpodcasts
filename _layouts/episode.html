@@ -15,6 +15,7 @@
 	<main id="main-content">
 		<article class="episode-page">
 			{% include episode-breadcrumb.html %}
+
 			<div class="episode-page__toolbar">
 				{% include episode-page-nav.html %}
 			</div>
@@ -23,11 +24,25 @@
 				{% include episode-single-player.html %}
 			</section>
 
-			{% include episode-platform-links.html %}
-
-			{% include episode-youtube-embed.html %}
-
+			{%- assign _episode_art = page.episode_image_url | default: page.cover_image | strip -%}
 			<header class="episode-page__intro">
+				{%- if _episode_art != '' -%}
+				<div class="episode-page__hero">
+					<div class="episode-page__cover">
+						{%- include episode-cover-img.html episode_image_url=page.episode_image_url cover_image=page.cover_image episode_title=page.episode_title podcast_title=page.podcast_title high_priority=true -%}
+					</div>
+					<div class="episode-page__details">
+						<h1 class="episode-page__title">{{ page.episode_title }}</h1>
+						<p class="episode-page__meta">
+							<a class="episode-page__podcast-link" href="{{ page.podcast_url | relative_url }}">{{ page.podcast_title }}</a>
+							{%- if page.published_at -%}
+							<span class="episode-page__meta-sep" aria-hidden="true"> · </span>
+							<time class="episode-page__date" datetime="{{ page.published_at }}">{{ page.published_at | date: "%B %-d, %Y" }}</time>
+							{%- endif -%}
+						</p>
+					</div>
+				</div>
+				{%- else -%}
 				<h1 class="episode-page__title">{{ page.episode_title }}</h1>
 				<p class="episode-page__meta">
 					<a class="episode-page__podcast-link" href="{{ page.podcast_url | relative_url }}">{{ page.podcast_title }}</a>
@@ -36,7 +51,12 @@
 					<time class="episode-page__date" datetime="{{ page.published_at }}">{{ page.published_at | date: "%B %-d, %Y" }}</time>
 					{%- endif -%}
 				</p>
+				{%- endif -%}
 			</header>
+
+			{% include episode-platform-links.html %}
+
+			{% include episode-youtube-embed.html %}
 
 			{%- if page.description_html and page.description_html != '' -%}
 			<section class="episode-page__description" aria-labelledby="episode-description-heading">

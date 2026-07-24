@@ -237,9 +237,49 @@
     }
 
     &__intro {
-        margin-bottom: 1.25rem;
-        padding-bottom: 1.25rem;
-        border-bottom: $border-heavy;
+        margin: 0 0 1.25rem;
+        padding: 0;
+        border: 0;
+    }
+
+    &__hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        align-items: start;
+
+        @include allAbove(medium) {
+            grid-template-columns: minmax(8rem, 160px) 1fr;
+            gap: 1.25rem;
+        }
+    }
+
+    &__cover {
+        display: flex;
+        justify-content: center;
+        line-height: 0;
+
+        @include allAbove(medium) {
+            justify-content: flex-start;
+        }
+
+        img {
+            width: 100%;
+            max-width: 160px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            display: block;
+            border: $border-heavy;
+            box-shadow: $shadow-brutal-sm;
+
+            @include allAbove(medium) {
+                max-width: 160px;
+            }
+        }
+    }
+
+    &__details {
+        min-width: 0;
     }
 
     &__title {

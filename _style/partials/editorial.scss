@@ -287,9 +287,38 @@ $ep-play-art: $ep-row-art;
         font-style: normal;
     }
 
-    &__now-playing-episode {
+    &__now-playing-episode,
+    &__now-playing-episode-link {
         font-weight: bold;
         color: #141414;
+    }
+
+    &__now-playing-episode-link,
+    &__now-playing-show-link {
+        text-decoration: none;
+        font-weight: inherit;
+        font-style: normal;
+        background: transparent;
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+        }
+
+        &:hover,
+        &:focus-visible {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+            background: transparent;
+        }
+    }
+
+    &__now-playing-episode-link {
+        &:link,
+        &:visited {
+            color: #141414;
+        }
     }
 
     &__now-playing-sep {
@@ -297,8 +326,16 @@ $ep-play-art: $ep-row-art;
         color: $color-muted;
     }
 
-    &__now-playing-show {
+    &__now-playing-show,
+    &__now-playing-show-link {
         color: $color-muted;
+    }
+
+    &__now-playing-show-link {
+        &:link,
+        &:visited {
+            color: $color-muted;
+        }
     }
 
     &__transport {

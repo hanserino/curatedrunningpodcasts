@@ -1,0 +1,12 @@
+{%- comment -%}
+  Episode artwork: RSS episode_image_url when set, else podcast cover_image.
+  Pass: episode_image_url, cover_image, episode_title, podcast_title, high_priority (optional).
+{%- endcomment -%}
+{%- assign _art = include.episode_image_url | default: '' | strip -%}
+{%- if _art == '' -%}
+  {%- assign _art = include.cover_image | default: '' | strip -%}
+{%- endif -%}
+{%- if _art != '' -%}
+{%- capture _cover_alt -%}{{ include.episode_title }} — {{ include.podcast_title }} episode artwork{%- endcapture -%}
+{%- include local-media-picture.html raw=_art alt=_cover_alt high_priority=include.high_priority wrap_in_podcast_cover=true -%}
+{%- endif -%}

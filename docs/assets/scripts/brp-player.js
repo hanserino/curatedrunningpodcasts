@@ -339,6 +339,29 @@
         }
     }
 
+    function metaLinkHtml(text, url, linkClass, appearanceClass) {
+        text = (text || '').trim();
+        url = resolveSitePath(url);
+        if (!text) return '';
+        if (url) {
+            var classes = linkClass;
+            if (appearanceClass) classes = appearanceClass + ' ' + linkClass;
+            return (
+                '<a class="' +
+                classes +
+                '" href="' +
+                escapeHtml(url) +
+                '">' +
+                escapeHtml(text) +
+                '</a>'
+            );
+        }
+        if (appearanceClass) {
+            return '<span class="' + appearanceClass + '">' + escapeHtml(text) + '</span>';
+        }
+        return escapeHtml(text);
+    }
+
     function setGlobalMetaLine(container, text, url, linkClass) {
         if (!container) return;
         text = (text || '').trim();
@@ -348,14 +371,7 @@
             return;
         }
         if (url) {
-            container.innerHTML =
-                '<a class="' +
-                linkClass +
-                '" href="' +
-                escapeHtml(url) +
-                '">' +
-                escapeHtml(text) +
-                '</a>';
+            container.innerHTML = metaLinkHtml(text, url, linkClass);
         } else {
             container.textContent = text;
         }
@@ -1299,7 +1315,9 @@
                 ? options.kicker
                 : shouldPlay || userGesture
                   ? 'Now playing'
-                  : 'Continue listening'
+                  : 'Continue listening',
+            metaUrls.episodePageUrl,
+            metaUrls.podcastPageUrl
         );
         }
 
@@ -1341,9 +1359,23 @@
         return img.getAttribute('data-cover-src') || img.currentSrc || img.getAttribute('src') || '';
     }
 
-    function primeDeckIdlePreview(button, deck, kickerLabel) {
-        if (hasLoadedPlayback() || isPlaybackActive()) return false;
-        if (loadLastListened()) return false;
+    function findFirstListEpisodeButton(root) {
+        if (!root) return null;
+        return root.querySelector('.latest-episodes__list .latest-episodes__item:not([hidden]) [data-audio-url]');
+    }
+
+    function shouldResumeLastEpisode(last, root) {
+        if (!last || !last.url) return false;
+        if (isProgressComplete(getSavedProgressRow(last.url))) return false;
+        if (!findPlayButtonForUrl(root, last.url)) return false;
+        var t = getSavedProgressSeconds(last.url);
+        if (t == null && (!last.u || Date.now() - last.u > 1000 * 60 * 60 * 24 * 14)) return false;
+        return true;
+    }
+
+    function primeDeckEpisodePreview(button, deck, kickerLabel) {
+        if (!button || !deck) return false;
+        if (isPlaybackActive()) return false;
 
         var audioUrl = button.getAttribute('data-audio-url');
         if (!audioUrl) return false;
@@ -1357,13 +1389,35 @@
         if (deck.currentLi) deck.currentLi.classList.add('latest-episodes__item--current');
         if (deck.updateArt) deck.updateArt(coverUrl);
         if (deck.setNowPlaying) {
-            deck.setNowPlaying(meta.episodeTitle, meta.podcastTitle, kickerLabel || 'Latest episode');
+            deck.setNowPlaying(
+                meta.episodeTitle,
+                meta.podcastTitle,
+                kickerLabel || 'Latest episode',
+                meta.episodePageUrl,
+                meta.podcastPageUrl
+            );
         }
+        rememberEpisodeMeta(
+            meta.episodeTitle,
+            meta.podcastTitle,
+            coverUrl,
+            audioUrl,
+            meta.episodePageUrl,
+            meta.podcastPageUrl
+        );
         setEpisodeSource(audioUrl);
         try {
             player.preload = 'metadata';
         } catch (e) {}
+        if (deck.updateTransportTimes) deck.updateTransportTimes();
+        if (deck.syncDeckPlayButton) deck.syncDeckPlayButton();
         return true;
+    }
+
+    function primeLatestEpisodePreview(deck, root) {
+        var btn = findFirstListEpisodeButton(root);
+        if (!btn) return false;
+        return primeDeckEpisodePreview(btn, deck, 'Latest episode');
     }
 
     function wireStickyOnlyDeck(root) {
@@ -1528,6 +1582,7 @@
             updateArt: updateArt,
             setNowPlaying: setNowPlaying,
             updateTransportTimes: updateTransportTimes,
+            syncDeckPlayButton: syncDeckPlayButton,
             resetAudioGraph: resetAudioGraph,
             suspendWaveAudioContext: suspendWaveAudioContext,
             resumeWaveAudioContext: resumeWaveAudioContext,
@@ -1851,14 +1906,25 @@
             }
         }
 
-        function setNowPlaying(episodeTitle, podcastTitle, kickerLabel) {
+        function setNowPlaying(episodeTitle, podcastTitle, kickerLabel, episodePageUrl, podcastPageUrl) {
+            episodePageUrl = (episodePageUrl || currentMeta.episodePageUrl || '').trim();
+            podcastPageUrl = (podcastPageUrl || currentMeta.podcastPageUrl || '').trim();
+            var episodeHtml = metaLinkHtml(
+                episodeTitle,
+                episodePageUrl,
+                'latest-episodes__now-playing-episode-link',
+                'latest-episodes__now-playing-episode'
+            );
+            var showHtml = metaLinkHtml(
+                podcastTitle,
+                podcastPageUrl,
+                'latest-episodes__now-playing-show-link',
+                'latest-episodes__now-playing-show'
+            );
             nowPlaying.classList.remove('latest-episodes__now-playing--idle');
             if (kickerLabel === false) {
                 nowPlaying.innerHTML =
-                    '<span class="latest-episodes__now-playing-line">' +
-                    '<span class="latest-episodes__now-playing-episode">' +
-                    episodeTitle +
-                    '</span></span>';
+                    '<span class="latest-episodes__now-playing-line">' + episodeHtml + '</span>';
                 showTransport();
                 return;
             }
@@ -1867,12 +1933,10 @@
                 '<span class="latest-episodes__now-playing-kicker">' +
                 kickerLabel +
                 '</span><span class="latest-episodes__now-playing-line">' +
-                '<span class="latest-episodes__now-playing-episode">' +
-                episodeTitle +
-                '</span><span class="latest-episodes__now-playing-sep"> — </span>' +
-                '<span class="latest-episodes__now-playing-show">' +
-                podcastTitle +
-                '</span></span>';
+                episodeHtml +
+                '<span class="latest-episodes__now-playing-sep"> — </span>' +
+                showHtml +
+                '</span>';
             showTransport();
         }
 
@@ -1988,6 +2052,10 @@
             clearCurrent();
             root.classList.remove('latest-episodes--transport-active');
             stopWaveAnimation();
+            if (!isPlaybackActive() && !hasLoadedPlayback() && primeLatestEpisodePreview(deck, root)) {
+                syncDeckPlayButton();
+                return;
+            }
             if (transport) transport.hidden = true;
             if (nowPlaying) {
                 nowPlaying.classList.add('latest-episodes__now-playing--idle');
@@ -2036,7 +2104,9 @@
             setNowPlaying(
                 meta.episodeTitle,
                 meta.podcastTitle,
-                player.paused ? 'Continue listening' : 'Now playing'
+                player.paused ? 'Continue listening' : 'Now playing',
+                meta.episodePageUrl,
+                meta.podcastPageUrl
             );
             syncPlayingClass();
             updateTransportTimes();
@@ -2045,6 +2115,15 @@
 
         if (deckPlay) {
             deckPlay.addEventListener('click', function () {
+                if (!player.src || !deckOwnsActiveEpisode()) {
+                    var previewBtn =
+                        (deck.currentLi && deck.currentLi.querySelector('[data-audio-url]')) ||
+                        findFirstListEpisodeButton(root);
+                    if (previewBtn) {
+                        activateEpisode(previewBtn, { userGesture: true, play: true }, deck);
+                        return;
+                    }
+                }
                 if (!player.src) return;
                 if (!player.paused) player.pause();
                 else playEpisode();
@@ -2125,25 +2204,13 @@
             }
             if (root.classList.contains('latest-episodes--episode-page')) return;
             var last = loadLastListened();
-            if (!last) return;
-            if (isProgressComplete(getSavedProgressRow(last.url))) return;
+            if (!shouldResumeLastEpisode(last, root)) return;
             var btn = findButtonForStoredUrl(last.url);
             if (!btn) return;
-            var t = getSavedProgressSeconds(last.url);
-            if (t == null && (!last.u || Date.now() - last.u > 1000 * 60 * 60 * 24 * 14)) return;
             if (last.coverUrl && !btn.getAttribute('data-cover-url')) {
                 btn.setAttribute('data-cover-url', last.coverUrl);
             }
             activateEpisode(btn, { userGesture: false, play: false, kicker: 'Continue listening' }, deck);
-        })();
-
-        (function primeLatestForMainPlayer() {
-            if (deck.currentLi) return;
-            if (hasLoadedPlayback() || isPlaybackActive()) return;
-            if (root.classList.contains('latest-episodes--episode-page')) return;
-            var firstBtn = root.querySelector('.latest-episodes__list .latest-episodes__item [data-audio-url]');
-            if (!firstBtn) return;
-            primeDeckIdlePreview(firstBtn, deck, 'Latest episode');
         })();
 
         (function initEpisodePagePlayer() {
