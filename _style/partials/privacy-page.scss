@@ -141,6 +141,28 @@
             word-break: break-word;
         }
 
+        &__consent-reopen {
+            display: inline-block;
+            margin: 0.5rem 0 0;
+            border: $border-heavy;
+            border-radius: $radius-sm;
+            padding: 0.45rem 0.85rem;
+            font-family: $font-mono;
+            font-size: 0.82rem;
+            font-weight: 600;
+            line-height: 1.2;
+            cursor: pointer;
+            box-shadow: $shadow-brutal-sm;
+            background: $color-surface;
+            color: $color-ink;
+            text-decoration: none;
+
+            &:hover,
+            &:focus-visible {
+                background: $color-lane;
+            }
+        }
+
         table {
             width: 100%;
             margin: 0 0 1.25rem;

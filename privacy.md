@@ -41,11 +41,15 @@ On sign-in, data already on your device is **merged** with your cloud library (n
 
 You can **Sign out** at any time from the header. Signing out stops further cloud sync; data already in the cloud remains until you ask us to delete it.
 
-## Analytics
+## Analytics {#analytics}
 
-The site uses **Google Analytics** (Google Tag Manager / gtag) to understand aggregate traffic, such as page views and referrers. Google may set cookies or similar identifiers according to [Google’s privacy policy](https://policies.google.com/privacy).
+The site can use **Google Analytics** to understand aggregate traffic, such as page views and referrers. Analytics is **optional**: we only load Google Analytics after you choose **Accept analytics** in the cookie banner. If you decline, analytics scripts are not loaded.
 
-You can limit analytics with a browser ad/tracker blocker or by adjusting cookie settings in your browser.
+When enabled, Google may set cookies or similar identifiers according to [Google’s privacy policy](https://policies.google.com/privacy). We ask Google Analytics to use IP anonymization.
+
+You can change your choice at any time using the button below, by clearing site data for this domain in your browser, or with a tracker blocker.
+
+<button type="button" class="privacy-prose__consent-reopen" data-analytics-consent-reopen>Change analytics choice</button>
 
 ## Third-party services
 

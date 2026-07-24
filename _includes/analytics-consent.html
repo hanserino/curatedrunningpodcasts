@@ -1,0 +1,31 @@
+{%- if site.google_analytics_id and site.google_analytics_id != "" -%}
+<div
+  id="brp-analytics-consent"
+  class="analytics-consent"
+  hidden
+  role="dialog"
+  aria-modal="false"
+  aria-labelledby="brp-analytics-consent-title"
+  aria-describedby="brp-analytics-consent-desc"
+>
+  <div class="analytics-consent__inner">
+    <p id="brp-analytics-consent-title" class="analytics-consent__title">Analytics cookies</p>
+    <p id="brp-analytics-consent-desc" class="analytics-consent__text">
+      We use optional Google Analytics to understand aggregate traffic. Accepting loads analytics; declining keeps the site working with browser-only storage only.
+      <a href="{{ '/privacy/' | relative_url }}#analytics">Privacy policy</a>
+    </p>
+    <div class="analytics-consent__actions">
+      <button type="button" class="analytics-consent__btn analytics-consent__btn--accept" data-analytics-consent-accept>
+        Accept analytics
+      </button>
+      <button type="button" class="analytics-consent__btn analytics-consent__btn--decline" data-analytics-consent-decline>
+        Decline
+      </button>
+    </div>
+  </div>
+</div>
+<script>
+  window.BRP_ANALYTICS_ID = {{ site.google_analytics_id | jsonify }};
+</script>
+<script src="{{ '/assets/scripts/analytics-consent.js' | relative_url }}" defer></script>
+{%- endif -%}

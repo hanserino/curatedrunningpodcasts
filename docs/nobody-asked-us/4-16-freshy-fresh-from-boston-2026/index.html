@@ -272,17 +272,7 @@
 		</li></ul>
 </nav>
 
-			<section class="episode-page__video" aria-label="Watch on YouTube">
-	<div class="episode-page__video-frame">
-		<iframe
-			src="https://www.youtube-nocookie.com/embed/5JUyVfEnUWA"
-			title="4.16. Freshy Fresh from Boston 2026! — YouTube video"
-			loading="lazy"
-			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			referrerpolicy="strict-origin-when-cross-origin"
-			allowfullscreen></iframe>
-	</div>
-</section><section class="episode-page__description" aria-labelledby="episode-description-heading">
+			<section class="episode-page__description" aria-labelledby="episode-description-heading">
 				<h2 id="episode-description-heading" class="episode-page__description-heading">About this episode</h2>
 				<div class="episode-page__description-body">
 					<p>Hot off the presses... it's another freshy fresh from Des and Kara. This was recorded just a few hours after Des ran 2:35 from the main field, and Kara finished commentating the world feed. So... the takes and reactions are as freshy fresh as they can be!</p><p>You get their thoughts on the races of the day with Korir and Lokedi both defending their titles, and Americans setting all sorts of records on this course. Plus, Des shares the details of her race pacing Ryan after bouncing back from MDS. She was the fastest woman in the main field and second masters on chip time, all with a beer cracked in Newton. Unbelievable running from her and what a day in Boston! Listen in and bask in the after glow with us!</p>
@@ -306,7 +296,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-07-24T04:51:26Z">2026-07-24 04:51 UTC</time>
+      <time datetime="2026-07-24T06:55:59Z">2026-07-24 06:55 UTC</time>
     </p></footer>
 
 <div
@@ -367,15 +357,37 @@
   ></audio>
 </div>
 
-<script src="/assets/scripts/turbo.min.js" defer></script>
-<script src="/assets/scripts/brp-player.js" defer></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9K8N2QJRNZ"></script>
+<div
+  id="brp-analytics-consent"
+  class="analytics-consent"
+  hidden
+  role="dialog"
+  aria-modal="false"
+  aria-labelledby="brp-analytics-consent-title"
+  aria-describedby="brp-analytics-consent-desc"
+>
+  <div class="analytics-consent__inner">
+    <p id="brp-analytics-consent-title" class="analytics-consent__title">Analytics cookies</p>
+    <p id="brp-analytics-consent-desc" class="analytics-consent__text">
+      We use optional Google Analytics to understand aggregate traffic. Accepting loads analytics; declining keeps the site working with browser-only storage only.
+      <a href="/privacy/#analytics">Privacy policy</a>
+    </p>
+    <div class="analytics-consent__actions">
+      <button type="button" class="analytics-consent__btn analytics-consent__btn--accept" data-analytics-consent-accept>
+        Accept analytics
+      </button>
+      <button type="button" class="analytics-consent__btn analytics-consent__btn--decline" data-analytics-consent-decline>
+        Decline
+      </button>
+    </div>
+  </div>
+</div>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-9K8N2QJRNZ');
-</script><script>
+  window.BRP_ANALYTICS_ID = "G-9K8N2QJRNZ";
+</script>
+<script src="/assets/scripts/analytics-consent.js" defer></script>
+<script src="/assets/scripts/turbo.min.js" defer></script>
+<script src="/assets/scripts/brp-player.js" defer></script><script>
   window.BRP_SUPABASE_CONFIG = {
     url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
