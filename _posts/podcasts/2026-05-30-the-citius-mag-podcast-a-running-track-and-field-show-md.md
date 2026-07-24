@@ -1,5 +1,5 @@
 ---
-date: 2026-05-31
+date: 2026-07-24
 title: The CITIUS MAG Podcast | A Running + Track and Field Show
 url_slug: citius-mag
 category: podcast
