@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-25T17:02:44Z'
+generated_at: '2026-07-25T17:28:59Z'
 items:
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
@@ -325,18 +325,6 @@ items:
   episode_key: episode-143-planning-big-adventures
   episode_slug: episode-143-planning-big-adventures
   episode_page_url: "/trail-society/episode-143-planning-big-adventures/"
-- podcast_title: Long Run Labs
-  podcast_page_url: "/long-run-labs/"
-  cover_image: "/media/longrunlabs.jpeg"
-  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
-  filter_category: business english
-  episode_title: Why Authenticity Is the Only Marketing Strategy That Lasts
-  episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_authenticity_is_the_only_marketing_strategy_that_lasts
-  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f82a3-8674-77e7-bc33-313b0ab4687b/019f82a3-881a-7e65-a040-7252053e47df.mp3
-  published_at: '2026-07-21T07:10:00+00:00'
-  episode_key: why-authenticity-is-the-only-marketing-strategy-that-lasts
-  episode_slug: why-authenticity-is-the-only-marketing-strategy-that-lasts
-  episode_page_url: "/long-run-labs/why-authenticity-is-the-only-marketing-strategy-that-lasts/"
 - podcast_title: Trail Talk
   podcast_page_url: "/trail-talk/"
   cover_image: "/media/trailtalk.jpg"
@@ -445,6 +433,18 @@ items:
   episode_key: dean-karnazes-on-greece-the-first-ultramarathon-and-running-strong-at-63
   episode_slug: dean-karnazes-on-greece-the-first-ultramarathon-and-running-strong-at-63
   episode_page_url: "/the-buzz/dean-karnazes-on-greece-the-first-ultramarathon-and-running-strong-at-63/"
+- podcast_title: Long Run Labs
+  podcast_page_url: "/long-run-labs/"
+  cover_image: "/media/longrunlabs.jpeg"
+  feed_url: https://anchor.fm/s/1061aabc4/podcast/rss
+  filter_category: business english
+  episode_title: Why Doing the Right Thing Is Also the Right Business Move
+  episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_doing_the_right_thing_is_also_the_right_business_move
+  audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f5ff4-ec52-77cf-8200-34b962ee11e9/019f5ff4-ef1d-7928-84b6-708cbd7d86ec.mp3
+  published_at: '2026-07-14T09:39:52+00:00'
+  episode_key: why-doing-the-right-thing-is-also-the-right-business-move
+  episode_slug: why-doing-the-right-thing-is-also-the-right-business-move
+  episode_page_url: "/long-run-labs/why-doing-the-right-thing-is-also-the-right-business-move/"
 - podcast_title: The PR Project Podcast
   podcast_page_url: "/pr-project/"
   cover_image: "/media/theprprojectpodcast.jpeg"
@@ -794,6 +794,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Smosh Reads Reddit Stories
+  podcast_page_url: "/smosh-reads-reddit-stories/"
+  cover_image: "/media/smoshreadsredditstories.jpeg"
+  feed_url: https://audioboom.com/channels/5148149.rss
+  filter_category: uncategorized english
+  episode_title: Ships That SUNK | Reading Reddit Stories
+  episode_url: https://audioboom.com/posts/8932276
+  audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8932276.mp3?modified=1784933850&sid=5148149&source=rss
+  published_at: '2026-07-25T17:00:00+00:00'
+  episode_key: ships-that-sunk-reading-reddit-stories
+  episode_slug: ships-that-sunk-reading-reddit-stories
+  episode_page_url: "/smosh-reads-reddit-stories/ships-that-sunk-reading-reddit-stories/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -1082,18 +1094,6 @@ non_running_items:
   episode_key: matchdag-34-vm-finalen-2022
   episode_slug: matchdag-34-vm-finalen-2022
   episode_page_url: "/when-we-were-kings/matchdag-34-vm-finalen-2022/"
-- podcast_title: Smosh Reads Reddit Stories
-  podcast_page_url: "/smosh-reads-reddit-stories/"
-  cover_image: "/media/smoshreadsredditstories.jpeg"
-  feed_url: https://audioboom.com/channels/5148149.rss
-  filter_category: uncategorized english
-  episode_title: We're Judging You w/ Amber Singletary | Reading Reddit Stories
-  episode_url: https://audioboom.com/posts/8929176
-  audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8929176.mp3?modified=1784333139&sid=5148149&source=rss
-  published_at: '2026-07-18T17:00:00+00:00'
-  episode_key: we-re-judging-you-w-amber-singletary-reading-reddit-stories
-  episode_slug: we-re-judging-you-w-amber-singletary-reading-reddit-stories
-  episode_page_url: "/smosh-reads-reddit-stories/we-re-judging-you-w-amber-singletary-reading-reddit-stories/"
 - podcast_title: Dear Hank & John
   podcast_page_url: "/dear-hank-john/"
   cover_image: "/media/dearhank.jpeg"
@@ -23566,18 +23566,6 @@ episodes_by_feed:
     legacy_numbered_slug: episode-16
     episode_page_url: "/historias-del-trail/1-especial-analisis-occ-desde-el-utmb-de-chamonix/"
   https://anchor.fm/s/1061aabc4/podcast/rss: &78
-  - episode_title: Why Authenticity Is the Only Marketing Strategy That Lasts
-    episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_authenticity_is_the_only_marketing_strategy_that_lasts
-    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f82a3-8674-77e7-bc33-313b0ab4687b/019f82a3-881a-7e65-a040-7252053e47df.mp3
-    published_at: '2026-07-21T07:10:00+00:00'
-    description_html: '<p>Alex Maier has spent his career building brands that actually listen. From Porsche and Audi to Nike to onX Maps to his current role as president of OnWater, he has consistently chosen the path of product led growth over marketing led noise. And the throughline across all of it is the same: get curious, listen to the customer, and build something worth talking about.</p><p>OnWater is building the operating system for water-based recreation globally. Two products, a fishing utility and a paddling platform, powered by community, conservation, and a genuinely different approach to how outdoor brands think about creators, consumer insights, and product feedback.</p><p><strong>Jon and Alex chat about:</strong></p><ul><li>what Porsche and Audi taught him about activating a brand at every level from global to local enthusiast club</li><li>why being a generalist is a competitive advantage in small outdoor marketing teams</li><li>the difference between product led growth, marketing led growth, and sales led growth</li><li>why consumer insights are the soul of every decision a company makes regardless of growth model</li><li>how OnWater brings creators and beta testers behind the curtain before they ever post a single piece of content</li><li>the gatekeeping problem in outdoor recreation and why fewer people doing the thing hurts conservation</li><li>how hunters and anglers are the number one contributor to conservation of clean water</li><li>finding common ground between paddlers and anglers, overlanders and hunters, left and right</li><li>why word of mouth moves mountains and bum rushing your way to growth does not</li><li>how OnWater is using AI to estimate fish length and weight from a photo to support fisheries conservation</li><li>why the data you own is the most powerful thing you can feed an AI model</li><li>the Strava MCP and where hyperpersonalization is headed</li><li>what a decade of blood work and running data revealed when fed into Claude</li><li>why the outdoor industry has needed a platform like Popfly for a long time</li></ul><p><strong>Stay connected:</strong></p><ul><li><a href="https://www.linkedin.com/in/alexmaier2/" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=linkedin.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Alex on LinkedIn</span></a></li></ul><p><strong>This episode is supported by:</strong></p><ul><li>The Huddle: If you''re at the point where going at it alone isn''t working or you''re ready to level things up in your business, go to <a href="https://findmyhuddle.com/">https://findmyhuddle.com/</a> and fill out the application</li><li>Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: <a href="https://popf.ly/longrunlabscreators">https://popf.ly/longrunlabscreators</a>. Brands click here: <a href="https://popf.ly/longrunlabsbrands">https://popf.ly/longrunlabsbrands</a></li></ul>'
-    description_plain: 'Alex Maier has spent his career building brands that actually listen. From Porsche and Audi to Nike to onX Maps to his current role as president of OnWater, he has consistently chosen the path of product led growth over marketing led noise. And the throughline across all of it is the same: get curious, listen to the customer, and build something worth talking about. OnWater is building the operating system for water-based recreation globally. Two products, a fishing utility and a paddling platform, powered by community, conservation, and a genuinely different approach to how outdoor brands think about creators, consumer insights, and product feedback. Jon and Alex chat about: what Porsche and Audi taught him about activating a brand at every level from global to local enthusiast club why being a generalist is a competitive advantage in small outdoor marketing teams the difference between product led growth, marketing led growth, and sales led growth why consumer insights are the soul of every decision a company makes regardless of growth model how OnWater brings creators and beta testers behind the curtain before they ever post a single piece of content the gatekeeping problem in outdoor recreation and why fewer people doing the thing hurts conservation how hunters and anglers are the number one contributor to conservation of clean water finding common ground between paddlers and anglers, overlanders and hunters, left and right why word of mouth moves mountains and bum rushing your way to growth does not how OnWater is using AI to estimate fish length and weight from a photo to support fisheries conservation why the data you own is the most powerful thing you can feed an AI model the Strava MCP and where hyperpersonalization is headed what a decade of blood work and running data revealed when fed into Claude why the outdoor industry has needed a platform like Popfly for a long time Stay connected: Alex on LinkedIn This episode is supported by: The Huddle: If you''re at the point where going at it alone isn''t working or you''re ready to level things up in your business, go to https://findmyhuddle.com/ and fill out the application Popfly: If you''re a brand trying to reach outdoor, travel, and adventure audiences, Popfly is where to do it. It connects you with the largest communities of adventure creators and handles the entire process from start to finish. Creators click here: https://popf.ly/longrunlabscreators . Brands click here: https://popf.ly/longrunlabsbrands'
-    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/c24781ba-f869-4345-9743-a1af541fa730/podcast_import_artwork_20260530-183-cd1hcl.jpg?t=1780149888
-    episode_uid: '019f82a3-8674-790c-9c11-91de923c11a3'
-    episode_slug: why-authenticity-is-the-only-marketing-strategy-that-lasts
-    episode_key: why-authenticity-is-the-only-marketing-strategy-that-lasts
-    legacy_numbered_slug: episode-01
-    episode_page_url: "/long-run-labs/why-authenticity-is-the-only-marketing-strategy-that-lasts/"
   - episode_title: Why Doing the Right Thing Is Also the Right Business Move
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_doing_the_right_thing_is_also_the_right_business_move
     audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019f5ff4-ec52-77cf-8200-34b962ee11e9/019f5ff4-ef1d-7928-84b6-708cbd7d86ec.mp3
@@ -23588,7 +23576,7 @@ episodes_by_feed:
     episode_uid: '019f5ff4-ec52-7cf5-a5d5-17d7fe656bcf'
     episode_slug: why-doing-the-right-thing-is-also-the-right-business-move
     episode_key: why-doing-the-right-thing-is-also-the-right-business-move
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-01
     episode_page_url: "/long-run-labs/why-doing-the-right-thing-is-also-the-right-business-move/"
   - episode_title: We Asked AI 2,200 Questions About Running. Here's What the Machines Actually Think.
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/we_asked_ai_2_200_questions_about_running_here_s_what_the_machines_actually_think
@@ -23600,7 +23588,7 @@ episodes_by_feed:
     episode_uid: '019f3862-1292-796e-86e5-a0b74ae81022'
     episode_slug: we-asked-ai-2-200-questions-about-running-here-s-what-the-machines-actually-think
     episode_key: we-asked-ai-2-200-questions-about-running-here-s-what-the-machines-actually-think
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-02
     episode_page_url: "/long-run-labs/we-asked-ai-2-200-questions-about-running-here-s-what-the-machines-actually-think/"
   - episode_title: 'From Olympic Rower to Employee #3 at Momentous to Building the Water Brand Doing What Nobody Else Will'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/from_olympic_rower_to_employee_3_at_momentous_to_building_the_water_brand_doing_what_nobody_else_will
@@ -23612,7 +23600,7 @@ episodes_by_feed:
     episode_uid: '019f0e42-e371-7cae-bc79-1728e09af261'
     episode_slug: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
     episode_key: from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-03
     episode_page_url: "/long-run-labs/from-olympic-rower-to-employee-3-at-momentous-to-building-the-water-brand-doing-what-nobody-else-will/"
   - episode_title: Why the Creator Economy Is Just Getting Started and What Investors Are Betting On
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_the_creator_economy_is_just_getting_started_and_what_investors_are_betting_on
@@ -23624,7 +23612,7 @@ episodes_by_feed:
     episode_uid: '019ef3f5-ccdc-788d-91df-4446d5fb733e'
     episode_slug: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
     episode_key: why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-04
     episode_page_url: "/long-run-labs/why-the-creator-economy-is-just-getting-started-and-what-investors-are-betting-on/"
   - episode_title: How LSKD Went from $3M to $200M by Going Back to Basics
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/how_lskd_went_from_3m_to_200m_by_going_back_to_basics
@@ -23636,7 +23624,7 @@ episodes_by_feed:
     episode_uid: '019ece2b-5ff1-7e96-bb3f-e9f32690436e'
     episode_slug: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
     episode_key: how-lskd-went-from-3m-to-200m-by-going-back-to-basics
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-05
     episode_page_url: "/long-run-labs/how-lskd-went-from-3m-to-200m-by-going-back-to-basics/"
   - episode_title: Building the Event Trail Running Has Been Missing
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/building_the_event_trail_running_has_been_missing
@@ -23648,7 +23636,7 @@ episodes_by_feed:
     episode_uid: '019eaa72-3e4c-7f69-830e-e45dee2f2ef9'
     episode_slug: building-the-event-trail-running-has-been-missing
     episode_key: building-the-event-trail-running-has-been-missing
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-06
     episode_page_url: "/long-run-labs/building-the-event-trail-running-has-been-missing/"
   - episode_title: The Accidental Business Owner Who Built the Science of Endurance Fueling
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/the_accidental_business_owner_who_built_the_science_of_endurance_fueling
@@ -23660,7 +23648,7 @@ episodes_by_feed:
     episode_uid: '019ea1cf-1582-7b18-a650-a23baf0440d5'
     episode_slug: the-accidental-business-owner-who-built-the-science-of-endurance-fueling
     episode_key: the-accidental-business-owner-who-built-the-science-of-endurance-fueling
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-07
     episode_page_url: "/long-run-labs/the-accidental-business-owner-who-built-the-science-of-endurance-fueling/"
   - episode_title: 'Des Linden: Build the Audience. The Deals Follow.'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/des_linden_build_the_audience_the_deals_follow
@@ -23672,7 +23660,7 @@ episodes_by_feed:
     episode_uid: f95c2168-d1cd-41fd-a5dc-a498f94f16d2
     episode_slug: des-linden-build-the-audience-the-deals-follow
     episode_key: des-linden-build-the-audience-the-deals-follow
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-08
     episode_page_url: "/long-run-labs/des-linden-build-the-audience-the-deals-follow/"
   - episode_title: Why the Future of Endurance Brands Is Community, Trust, and AI | Randi Zuckerberg
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_the_future_of_endurance_brands_is_community_trust_and_ai_randi_zuckerberg
@@ -23684,7 +23672,7 @@ episodes_by_feed:
     episode_uid: 7955b22d-7ba1-4e37-8acc-f6b20a562d2d
     episode_slug: why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg
     episode_key: why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-09
     episode_page_url: "/long-run-labs/why-the-future-of-endurance-brands-is-community-trust-and-ai-randi-zuckerberg/"
   - episode_title: Rethinking Outdoor Apparel for a Warming World | Doug Waters
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/rethinking_outdoor_apparel_for_a_warming_world_doug_waters
@@ -23696,7 +23684,7 @@ episodes_by_feed:
     episode_uid: 36d42fc6-399e-44ca-896d-ca5ed5858811
     episode_slug: rethinking-outdoor-apparel-for-a-warming-world-doug-waters
     episode_key: rethinking-outdoor-apparel-for-a-warming-world-doug-waters
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-10
     episode_page_url: "/long-run-labs/rethinking-outdoor-apparel-for-a-warming-world-doug-waters/"
   - episode_title: Why Entrepreneurs Stay Stuck (And How to Actually Move Forward) | Christian Rawles
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_entrepreneurs_stay_stuck_and_how_to_actually_move_forward_christian_rawles
@@ -23708,7 +23696,7 @@ episodes_by_feed:
     episode_uid: 0bc1f5e4-7d60-4ec5-8905-4c95c78ce61e
     episode_slug: why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles
     episode_key: why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-11
     episode_page_url: "/long-run-labs/why-entrepreneurs-stay-stuck-and-how-to-actually-move-forward-christian-rawles/"
   - episode_title: Turning Community Into a Running Brand That Lasts | Nick Dibos
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/turning_community_into_a_running_brand_that_lasts_nick_dibos
@@ -23720,7 +23708,7 @@ episodes_by_feed:
     episode_uid: 75896994-040a-4fa2-8afc-a676c85990ed
     episode_slug: turning-community-into-a-running-brand-that-lasts-nick-dibos
     episode_key: turning-community-into-a-running-brand-that-lasts-nick-dibos
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-12
     episode_page_url: "/long-run-labs/turning-community-into-a-running-brand-that-lasts-nick-dibos/"
   - episode_title: Building a Business in Trail Running Without Losing Trust | Seth LaReau
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/building_a_business_in_trail_running_without_losing_trust_seth_lareau
@@ -23732,7 +23720,7 @@ episodes_by_feed:
     episode_uid: 884666d2-1bd9-4980-8398-ea03244f47b2
     episode_slug: building-a-business-in-trail-running-without-losing-trust-seth-lareau
     episode_key: building-a-business-in-trail-running-without-losing-trust-seth-lareau
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-13
     episode_page_url: "/long-run-labs/building-a-business-in-trail-running-without-losing-trust-seth-lareau/"
   - episode_title: Why Most Brand Partnerships Fail (And How to Actually Get It Right)
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_most_brand_partnerships_fail_and_how_to_actually_get_it_right
@@ -23744,7 +23732,7 @@ episodes_by_feed:
     episode_uid: 5f0be72e-e729-413b-96cd-aa19c03d0253
     episode_slug: why-most-brand-partnerships-fail-and-how-to-actually-get-it-right
     episode_key: why-most-brand-partnerships-fail-and-how-to-actually-get-it-right
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-14
     episode_page_url: "/long-run-labs/why-most-brand-partnerships-fail-and-how-to-actually-get-it-right/"
   - episode_title: Why Authenticity Wins in Running Marketing
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/why_authenticity_wins_in_running_marketing
@@ -23756,7 +23744,7 @@ episodes_by_feed:
     episode_uid: a1891b01-8bc2-4454-8eef-e507517a89cf
     episode_slug: why-authenticity-wins-in-running-marketing
     episode_key: why-authenticity-wins-in-running-marketing
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-15
     episode_page_url: "/long-run-labs/why-authenticity-wins-in-running-marketing/"
   - episode_title: "$20K Launch Day: How Raide Built a Premium Gear Brand Through Word-of-Mouth and Elite Athletes"
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/20k_launch_day_how_raide_built_a_premium_gear_brand_through_word-of-mouth_and_elite_athletes
@@ -23768,7 +23756,7 @@ episodes_by_feed:
     episode_uid: 1dc2c55b-9b16-4bdd-8104-431df870f4f8
     episode_slug: 20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes
     episode_key: 20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-16
     episode_page_url: "/long-run-labs/20k-launch-day-how-raide-built-a-premium-gear-brand-through-word-of-mouth-and-elite-athletes/"
   - episode_title: The Custom Insoles Revolutionizing Elite Running Performance
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/the_custom_insoles_revolutionizing_elite_running_performance
@@ -23780,7 +23768,7 @@ episodes_by_feed:
     episode_uid: 0a1db445-3152-4cee-a445-e10fcc13767e
     episode_slug: the-custom-insoles-revolutionizing-elite-running-performance
     episode_key: the-custom-insoles-revolutionizing-elite-running-performance
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-17
     episode_page_url: "/long-run-labs/the-custom-insoles-revolutionizing-elite-running-performance/"
   - episode_title: 'From Kickstarter to a Brooks Partnership: PYNRS Founder’s Blueprint for Community-First Business Building'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/from_kickstarter_to_a_brooks_partnership_pynrs_founder_s_blueprint_for_community-first_business_building
@@ -23792,7 +23780,7 @@ episodes_by_feed:
     episode_uid: '09fb4b79-f89d-428a-bfd3-6ad4edc6a889'
     episode_slug: from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building
     episode_key: from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-18
     episode_page_url: "/long-run-labs/from-kickstarter-to-a-brooks-partnership-pynrs-founder-s-blueprint-for-community-first-business-building/"
   - episode_title: 'Consistency is a Competitive Advantage: Carbon Plates, Speciality Retail, and Smarter Marketing with Gelindo Bordin'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/consistency_is_a_competitive_advantage_carbon_plates_speciality_retail_and_smarter_marketing_with_gelindo_bordin
@@ -23804,7 +23792,7 @@ episodes_by_feed:
     episode_uid: 87a36385-fca7-405e-b693-801cbda70438
     episode_slug: consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin
     episode_key: consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-19
     episode_page_url: "/long-run-labs/consistency-is-a-competitive-advantage-carbon-plates-speciality-retail-and-smarter-marketing-with-gelindo-bordin/"
   - episode_title: How Wilderdog Turned Dog Gear into a Profitable Business
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/how_wilderdog_turned_dog_gear_into_a_profitable_business
@@ -23816,7 +23804,7 @@ episodes_by_feed:
     episode_uid: 18696823-a082-409a-ad22-1be5382814c6
     episode_slug: how-wilderdog-turned-dog-gear-into-a-profitable-business
     episode_key: how-wilderdog-turned-dog-gear-into-a-profitable-business
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-20
     episode_page_url: "/long-run-labs/how-wilderdog-turned-dog-gear-into-a-profitable-business/"
   - episode_title: The Evolution of Performance Marketing in Niche Markets
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/the_evolution_of_performance_marketing_in_niche_markets
@@ -23828,7 +23816,7 @@ episodes_by_feed:
     episode_uid: e2534a1c-f905-4af0-8ed9-2ffc548cdeee
     episode_slug: the-evolution-of-performance-marketing-in-niche-markets
     episode_key: the-evolution-of-performance-marketing-in-niche-markets
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-21
     episode_page_url: "/long-run-labs/the-evolution-of-performance-marketing-in-niche-markets/"
   - episode_title: Want to be a Sponsored Trail Runner? Listen to This
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/want_to_be_a_sponsored_trail_runner_listen_to_this
@@ -23840,7 +23828,7 @@ episodes_by_feed:
     episode_uid: fe6fcbf1-fdae-4854-9406-b09c083fdaf7
     episode_slug: want-to-be-a-sponsored-trail-runner-listen-to-this
     episode_key: want-to-be-a-sponsored-trail-runner-listen-to-this
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-22
     episode_page_url: "/long-run-labs/want-to-be-a-sponsored-trail-runner-listen-to-this/"
   - episode_title: How Michael Brandt Built Ketone-IQ by Failing Until He Won
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/how_michael_brandt_built_ketone-iq_by_failing_until_he_won
@@ -23852,7 +23840,7 @@ episodes_by_feed:
     episode_uid: 658724c7-727b-4279-9c8d-034c179a8cba
     episode_slug: how-michael-brandt-built-ketone-iq-by-failing-until-he-won
     episode_key: how-michael-brandt-built-ketone-iq-by-failing-until-he-won
-    legacy_numbered_slug: episode-24
+    legacy_numbered_slug: episode-23
     episode_page_url: "/long-run-labs/how-michael-brandt-built-ketone-iq-by-failing-until-he-won/"
   - episode_title: 'From Coca-Cola to KIPRUN: Launching a Running Brand the Hard Way'
     episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/from_coca-cola_to_kiprun_launching_a_running_brand_the_hard_way
@@ -23864,8 +23852,21 @@ episodes_by_feed:
     episode_uid: 57eea3c4-f74b-4882-b9e0-f9cf0b8f06bd
     episode_slug: from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way
     episode_key: from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way
-    legacy_numbered_slug: episode-25
+    legacy_numbered_slug: episode-24
     episode_page_url: "/long-run-labs/from-coca-cola-to-kiprun-launching-a-running-brand-the-hard-way/"
+  - episode_title: THE Problem-Solving Playbook for Entrepreneurs with Moisés Jimenez
+    episode_url: https://www.forthelong.run/podcast/s/long_run_labs_the_business_of_endurance/the_problem-solving_playbook_for_entrepreneurs_with_moises_jimenez
+    audio_url: https://podcasts.beehiiv.com/7ca775e8-db09-451e-8b04-a7f0484844bf/019e7933-9d34-7b3c-a441-b0fa61e3154b/019e7933-b25f-7fb1-808e-de6fbea5fc23/019e7933-b2bd-77e8-ac2f-ead3e69f1b4c.mp3
+    published_at: '2026-01-27T11:00:00+00:00'
+    description_html: <p>Being an entrepreneur and building a business is like being an athlete - you have no idea what's going to come out the other side, but you put everything you can into it and hope for the best.</p><p>As a Venezuelan trail runner raised in the Chilean Patagonia, Moises runs professionally with The North Face and co-founded <a href="https://Vert.run" rel="noopener noreferrer" target="_blank">Vert.run</a> to help make quality coaching more accessible for trail and ultra runners at every level. He’s currently based in Boulder, Colorado.</p><p><strong>Jon chats with Moises about:</strong></p><ul><li>entrepreneurship challenges and resilience in business</li><li>his running journey from Venezuela to competitive trail racing</li><li>Boulder Boys podcast creation with friends</li><li>Vert Run coaching app development and evolution</li><li>sponsorship relationships and brand partnership strategies</li></ul><p><strong>Stay connected:</strong></p><p><strong>Follow Moises:</strong></p><ul><li><a href="https://www.instagram.com/moises.jimenez/">https://www.instagram.com/moises.jimenez/</a></li><li><a href="https://www.linkedin.com/in/moises-jimenez-leon/">https://www.linkedin.com/in/moises-jimenez-leon/</a></li></ul><p><strong><a href="https://Vert.run" rel="noopener noreferrer" target="_blank">Vert.run</a> :</strong></p><ul><li><a href="https://www.instagram.com/vert.run/">https://www.instagram.com/vert.run/</a></li><li><a href="https://www.linkedin.com/company/vert-run/">https://www.linkedin.com/company/vert-run/</a></li><li><a href="https://podcasts.apple.com/us/podcast/the-boulder-boys-show/id1728762148" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=podcasts.apple.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Boulder Boys Show</span></a></li></ul><p>Share this episode on LinkedIn with someone who you think could also find it helpful!</p>
+    description_plain: 'Being an entrepreneur and building a business is like being an athlete - you have no idea what''s going to come out the other side, but you put everything you can into it and hope for the best. As a Venezuelan trail runner raised in the Chilean Patagonia, Moises runs professionally with The North Face and co-founded Vert.run to help make quality coaching more accessible for trail and ultra runners at every level. He’s currently based in Boulder, Colorado. Jon chats with Moises about: entrepreneurship challenges and resilience in business his running journey from Venezuela to competitive trail racing Boulder Boys podcast creation with friends Vert Run coaching app development and evolution sponsorship relationships and brand partnership strategies Stay connected: Follow Moises: https://www.instagram.com/moises.jimenez/ https://www.linkedin.com/in/moises-jimenez-leon/ Vert.run : https://www.instagram.com/vert.run/ https://www.linkedin.com/company/vert-run/ Boulder Boys Show Share this episode on LinkedIn with someone who you think could also find it helpful!'
+    episode_image_url: https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/dfac7ef9-c048-4c08-9a21-efb225d24ac3/podcast_import_artwork_20260530-203-4gsb8m.jpg?t=1780149895
+    episode_uid: c2dac13f-7742-4698-8511-52a172501146
+    episode_slug: the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez
+    episode_key: the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez
+    legacy_unicode_slug: the-problem-solving-playbook-for-entrepreneurs-with-moisés-jimenez
+    legacy_numbered_slug: episode-25
+    episode_page_url: "/long-run-labs/the-problem-solving-playbook-for-entrepreneurs-with-moises-jimenez/"
   https://feeds.feedburner.com/stevemagness: &79
   - episode_title: 'Unlocking Potential: The Power of Constraints in Coaching and Training'
     episode_url: https://www.scienceofrunning.com/2026/06/unlocking-potential-the-power-of-constraints-in-coaching-and-training.html
@@ -27053,6 +27054,18 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/up-and-vanished/kristal-reisinger-part-3-dead-men-still-talk/"
   https://audioboom.com/channels/5148149.rss: &91
+  - episode_title: Ships That SUNK | Reading Reddit Stories
+    episode_url: https://audioboom.com/posts/8932276
+    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8932276.mp3?modified=1784933850&sid=5148149&source=rss
+    published_at: '2026-07-25T17:00:00+00:00'
+    description_html: '<ul><li><p>These relationships are not unsinkable. Gotchu. delivered. DoorDash. <a href="https://doordash.com">https://doordash.com</a> Taking care of your health just got easier – start here with Zocdoc: <a href="https://zocdoc.com/PITREDDIT">https://zocdoc.com/PITREDDIT</a> #sponsored</p><p>0:00 Intro</li><li>2:48 I left my bf''s bday dinner after his mom took my seat <a href="https://www.reddit.com/r/BestofRedditorUpdates/comments/1shbwsw/aita_for_leaving_my_bf_bday_dinner_after_his_mom/">https://www.reddit.com/r/BestofRedditorUpdates/comments/1shbwsw/aita_for_leaving_my_bf_bday_dinner_after_his_mom/</a></li></ul><p>13:36 Sponsor</p><p>14:09 Back to the story</p><ul><li>18:32 My gf is going to prom with another guy while I''m in the hospital <a href="https://www.reddit.com/r/relationship_advice/comments/1tu7x1l/my_girlfriend_18f_is_going_to_prom_with_another/">https://www.reddit.com/r/relationship_advice/comments/1tu7x1l/my_girlfriend_18f_is_going_to_prom_with_another/</a></li></ul><p>32:56 Sponsor</p><ul><li>34:03 My gf broke up with me over a board game <a href="https://www.reddit.com/r/boardgames/comments/1rd8nzk/my_girlfriend_just_broke_up_with_me_over_a_board/">https://www.reddit.com/r/boardgames/comments/1rd8nzk/my_girlfriend_just_broke_up_with_me_over_a_board/</a></li><li>48:22 Bff doesn''t know his proposal speech is actually about me <a href="https://www.reddit.com/r/TrueOffMyChest/comments/1tmnbk1/best_friend_doesnt_know_his_proposal_speech_is/">https://www.reddit.com/r/TrueOffMyChest/comments/1tmnbk1/best_friend_doesnt_know_his_proposal_speech_is/</a></li><li>1:04:26 My bf keeps trying to impersonate my cat <a href="https://www.reddit.com/r/relationships/comments/7xed0w/my_28f_boyfriend_27m_of_3_years_keeps_doing_the/">https://www.reddit.com/r/relationships/comments/7xed0w/my_28f_boyfriend_27m_of_3_years_keeps_doing_the/</a></p><p>REDDIT PODCAST</li><li><a href="https://apple.co/4htgTkS" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=apple.co&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Apple</span></a></li><li>Spotify: <a href="https://bit.ly/4fvtzoV">https://bit.ly/4fvtzoV</a></p><p>SUBSCRIBE: <a href="https://bit.ly/4aZo6Wa">https://bit.ly/4aZo6Wa</a></p><p>WEAR OUR JOKES: <a href="https://smosh.com">https://smosh.com</a></p><p>WHO YOU HEAR</li><li>Shayne Topp // <a href="https://www.instagram.com/shaynetopp/">https://www.instagram.com/shaynetopp/</a></li><li>Damien Haas // <a href="https://www.instagram.com/damienhaas/">https://www.instagram.com/damienhaas/</a></li><li>Arasha // <a href="https://www.instagram.com/arashababy/">https://www.instagram.com/arashababy/</a></p><p>WHO YOU DON’T HEAR (usually)</li></ul><p>Director: Marcus Munguia</p><p>Editor: Andre Gardere</p><p>Channel Director, Pit: Emily Rose Jacobson</p><p>Producer, Pit: Matt Acevedo</p><p>Associate Producer, Pit: Marcus Munguia</p><p>Production Designer: Cassie Vance</p><p>Art Director: Adrian Sheen, Erin Kuschner, Josie Bellerby</p><p>Assistant Art Director: Courtney Chapman</p><p>Prop Master: Abigail Schmidt, Bridgette Baron, Emilie Anderson</p><p>Stage Manager: Alex Aguilar</p><p>Prop Assistant: Lunora Reyes</p><p>Director of Audio: Scott Neff</p><p>Audio Mixer: Matt Taylor</p><p>Audio Utility: Michael Alaynick</p><p>Director of Photography: James Hull, Brennan Iketani</p><p>Videographer: Eric Wann, James Hull</p><p>Camera Operator: Elaine Pusey</p><p>Assistant Director: Cameron Mitchell</p><p>Executive Vice President of Production: Amanda Barnes</p><p>Director of Production: Alexcina Figueroa</p><p>Production Manager: Jonathan Hyon, Tyler M. Kennedy</p><p>Production Coordinator: Oliver Wehlander, Zianne Hoover</p><p>Production Assistant: Caroline Smith, Michael Gomez</p><p>Director of Post Production: Luke Baker</p><p>DIT/Lead AE: Matt Duran</p><p>DIT/AE: Beni Kimuene</p><p>Post Production Coordinator: Ariana Martinez</p><p>Director of IT: Tim Baker</p><p>IT &amp; Equipment Coordinator: Lopati Ho Chee</p><p>Sound Editor: Gareth Hird</p><p>Director of Design: Ness Cardano</p><p>Senior Motion &amp; Branding Designer: Christie Hauck</p><p>Senior Graphic Designer: Jay Taylor</p><p>Graphic Designer: Monica Ravitch</p><p>Director of Channel Operations: Lizzy Jones</p><p>Channel Operations Manager: Audrey Carganilla</p><p>Channel Operations Coordinator: Sabrina Lieberman</p><p>Director of Social Media: Erica Noboa</p><p>Social Media Associate Producer: Peter Ditzler</p><p>Social Media Manager: Kim Wilborn</p><p>Social Media Coordinator: Margaux Bernales</p><p>Social Editor: Vida Robbins</p><p>Merchandising Manager: Mallory Myers</p><p>Brand Partnership Manager: Chloe Mays</p><p>Brand Partnerships Coordinating Producer: Liz Kummer</p><p>Operations Manager: Marshall A. Pease</p><p>Operations Coordinator: Sara Faltersack</p><p>Financial Operations Specialist: Natalie Lewis</p><p>Talent Coordinator: Danielle Moses</p><p>People &amp; Culture Manager: Katie Fink</p><p>People &amp; Culture Coordinator: Hannah Merritt</p><p>CEO: Alessandra Catanese</p><p>Executive Producers: Anthony Padilla, Ian Hecox</p><p>CCO: Cory Midgarden</p><p>EVP of Programming &amp; Development: Kiana Parker</p><p>Producer, Special Projects: Rachel Collis</p><p>Executive Coordinator: Katelyn Hempstead</p><p><strong>Executive Assistant: Jackie Reilly OTHER SMOSHES:</strong></p><ul><li><a href="https://bit.ly/4wUu0jH" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=bit.ly&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Smosh</span></a></li><li><a href="https://bit.ly/3TMpGVh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=bit.ly&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Smosh Games</span></a></li><li><a href="https://bit.ly/3TvXHJr" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=bit.ly&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Smosh Cast</span></a></li><li>Smosh Alike: <a href="https://bit.ly/4hpe1Wd">https://bit.ly/4hpe1Wd</a></p><p>FOLLOW US:</li><li><a href="https://www.tiktok.com/@smosh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=tiktok.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">TikTok</span></a></li><li><a href="https://instagram.com/smosh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=instagram.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Instagram</span></a></li><li><a href="https://facebook.com/smosh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=facebook.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Facebook</span></a></li></ul>'
+    description_plain: 'These relationships are not unsinkable. Gotchu. delivered. DoorDash. https://doordash.com Taking care of your health just got easier – start here with Zocdoc: https://zocdoc.com/PITREDDIT #sponsored 0:00 Intro 2:48 I left my bf''s bday dinner after his mom took my seat https://www.reddit.com/r/BestofRedditorUpdates/comments/1shbwsw/aita_for_leaving_my_bf_bday_dinner_after_his_mom/ 13:36 Sponsor 14:09 Back to the story 18:32 My gf is going to prom with another guy while I''m in the hospital https://www.reddit.com/r/relationship_advice/comments/1tu7x1l/my_girlfriend_18f_is_going_to_prom_with_another/ 32:56 Sponsor 34:03 My gf broke up with me over a board game https://www.reddit.com/r/boardgames/comments/1rd8nzk/my_girlfriend_just_broke_up_with_me_over_a_board/ 48:22 Bff doesn''t know his proposal speech is actually about me https://www.reddit.com/r/TrueOffMyChest/comments/1tmnbk1/best_friend_doesnt_know_his_proposal_speech_is/ 1:04:26 My bf keeps trying to impersonate my cat https://www.reddit.com/r/relationships/comments/7xed0w/my_28f_boyfriend_27m_of_3_years_keeps_doing_the/ REDDIT PODCAST Apple Spotify: https://bit.ly/4fvtzoV SUBSCRIBE: https://bit.ly/4aZo6Wa WEAR OUR JOKES: https://smosh.com WHO YOU HEAR Shayne Topp // https://www.instagram.com/shaynetopp/ Damien Haas // https://www.instagram.com/damienhaas/ Arasha // https://www.instagram.com/arashababy/ WHO YOU DON’T HEAR (usually) Director: Marcus Munguia Editor: Andre Gardere Channel Director, Pit: Emily Rose Jacobson Producer, Pit: Matt Acevedo Associate Producer, Pit: Marcus Munguia Production Designer: Cassie Vance Art Director: Adrian Sheen, Erin Kuschner, Josie Bellerby Assistant Art Director: Courtney Chapman Prop Master: Abigail Schmidt, Bridgette Baron, Emilie Anderson Stage Manager: Alex Aguilar Prop Assistant: Lunora Reyes Director of Audio: Scott Neff Audio Mixer: Matt Taylor Audio Utility: Michael Alaynick Director of Photography: James Hull, Brennan Iketani Videographer: Eric Wann, James Hull Camera Operator: Elaine Pusey Assistant Director: Cameron Mitchell Executive Vice President of Production: Amanda Barnes Director of Production: Alexcina Figueroa Production Manager: Jonathan Hyon, Tyler M. Kennedy Production Coordinator: Oliver Wehlander, Zianne Hoover Production Assistant: Caroline Smith, Michael Gomez Director of Post Production: Luke Baker DIT/Lead AE: Matt Duran DIT/AE: Beni Kimuene Post Production Coordinator: Ariana Martinez Director of IT: Tim Baker IT &amp; Equipment Coordinator: Lopati Ho Chee Sound Editor: Gareth Hird Director of Design: Ness Cardano Senior Motion &amp; Branding Designer: Christie Hauck Senior Graphic Designer: Jay Taylor Graphic Designer: Monica Ravitch Director of Channel Operations: Lizzy Jones Channel Operations Manager: Audrey Carganilla Channel Operations Coordinator: Sabrina Lieberman Director of Social Media: Erica Noboa Social Media Associate Producer: Peter Ditzler Social Media Manager: Kim Wilborn Social Media Coordinator: Margaux Bernales Social Editor: Vida Robbins Merchandising Manager: Mallory Myers Brand Partnership Manager: Chloe Mays Brand Partnerships Coordinating Producer: Liz Kummer Operations Manager: Marshall A. Pease Operations Coordinator: Sara Faltersack Financial Operations Specialist: Natalie Lewis Talent Coordinator: Danielle Moses People &amp; Culture Manager: Katie Fink People &amp; Culture Coordinator: Hannah Merritt CEO: Alessandra Catanese Executive Producers: Anthony Padilla, Ian Hecox CCO: Cory Midgarden EVP of Programming &amp; Development: Kiana Parker Producer, Special Projects: Rachel Collis Executive Coordinator: Katelyn Hempstead Executive Assistant: Jackie Reilly OTHER SMOSHES: Smosh Smosh Games Smosh Cast Smosh Alike: https://bit.ly/4hpe1Wd FOLLOW US: TikTok Instagram Facebook'
+    episode_image_url: ''
+    episode_uid: audioboom-019f9655-6ffa-7f85-9e62-da8bd8722566
+    episode_slug: ships-that-sunk-reading-reddit-stories
+    episode_key: ships-that-sunk-reading-reddit-stories
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/smosh-reads-reddit-stories/ships-that-sunk-reading-reddit-stories/"
   - episode_title: We're Judging You w/ Amber Singletary | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8929176
     audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8929176.mp3?modified=1784333139&sid=5148149&source=rss
@@ -27063,7 +27076,7 @@ episodes_by_feed:
     episode_uid: audioboom-019f6cc3-bb33-7758-b495-d245cae74496
     episode_slug: we-re-judging-you-w-amber-singletary-reading-reddit-stories
     episode_key: we-re-judging-you-w-amber-singletary-reading-reddit-stories
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/smosh-reads-reddit-stories/we-re-judging-you-w-amber-singletary-reading-reddit-stories/"
     youtube_video_id: P30wlrPS3sc
   - episode_title: A New Level Of Entitlement | Reading Reddit Stories
@@ -27076,7 +27089,7 @@ episodes_by_feed:
     episode_uid: audioboom-019f493f-0569-7d0a-82c3-491884c0e2af
     episode_slug: a-new-level-of-entitlement-reading-reddit-stories
     episode_key: a-new-level-of-entitlement-reading-reddit-stories
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/smosh-reads-reddit-stories/a-new-level-of-entitlement-reading-reddit-stories/"
     youtube_video_id: cgD5eMHNYRI
   - episode_title: Around The World In 60 Minutes | Reading Reddit Stories
@@ -27089,7 +27102,7 @@ episodes_by_feed:
     episode_uid: audioboom-019f04cb-e9ac-7822-94af-edbe91ca1771
     episode_slug: around-the-world-in-60-minutes-reading-reddit-stories
     episode_key: around-the-world-in-60-minutes-reading-reddit-stories
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/smosh-reads-reddit-stories/around-the-world-in-60-minutes-reading-reddit-stories/"
     youtube_video_id: 3K0Cz2WVeFo
   - episode_title: Am I The Ally? | Reading Reddit Stories
@@ -27102,7 +27115,7 @@ episodes_by_feed:
     episode_uid: audioboom-019efff0-7294-7e43-8f04-cf29ec212445
     episode_slug: am-i-the-ally-reading-reddit-stories
     episode_key: am-i-the-ally-reading-reddit-stories
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/smosh-reads-reddit-stories/am-i-the-ally-reading-reddit-stories/"
     youtube_video_id: UXzrjxriu94
   - episode_title: Parents Just Don't Understand | Reading Reddit Stories
@@ -27115,7 +27128,7 @@ episodes_by_feed:
     episode_uid: audioboom-019edd38-b605-7ab0-a35e-ccfa79af0388
     episode_slug: parents-just-don-t-understand-reading-reddit-stories
     episode_key: parents-just-don-t-understand-reading-reddit-stories
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/smosh-reads-reddit-stories/parents-just-don-t-understand-reading-reddit-stories/"
     youtube_video_id: WJiInfsJMmc
   - episode_title: Take It From Us | Reading Reddit Stories
@@ -27128,7 +27141,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ebd94-a940-7d29-8a0a-0483e4f74f93
     episode_slug: take-it-from-us-reading-reddit-stories
     episode_key: take-it-from-us-reading-reddit-stories
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/smosh-reads-reddit-stories/take-it-from-us-reading-reddit-stories/"
     youtube_video_id: e-lLyezgcYQ
   - episode_title: I Fear We're Not Reacting Enough | Reading Reddit Stories
@@ -27141,7 +27154,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e953d-bce8-7dcb-ba7a-776b2884c162
     episode_slug: i-fear-we-re-not-reacting-enough-reading-reddit-stories
     episode_key: i-fear-we-re-not-reacting-enough-reading-reddit-stories
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/smosh-reads-reddit-stories/i-fear-we-re-not-reacting-enough-reading-reddit-stories/"
     youtube_video_id: c_urOUyCnA4
   - episode_title: I'll Be There For You | Reading Reddit Stories
@@ -27154,7 +27167,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e7630-966f-72b9-8cb6-2760e2e9e54a
     episode_slug: i-ll-be-there-for-you-reading-reddit-stories
     episode_key: i-ll-be-there-for-you-reading-reddit-stories
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/smosh-reads-reddit-stories/i-ll-be-there-for-you-reading-reddit-stories/"
     youtube_video_id: RK_XvJorFy8
   - episode_title: Getting Messy w/ MacDoesIt | Reading Reddit Stories
@@ -27167,7 +27180,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e51e4-b596-7bbf-8f63-e5340970a5d9
     episode_slug: getting-messy-w-macdoesit-reading-reddit-stories
     episode_key: getting-messy-w-macdoesit-reading-reddit-stories
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/smosh-reads-reddit-stories/getting-messy-w-macdoesit-reading-reddit-stories/"
     youtube_video_id: KgGNW6VG6B0
   - episode_title: Confessions Of A Redditor | Reading Reddit Stories
@@ -27180,7 +27193,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e2d02-313e-7b71-bfeb-b68934e4f3ff
     episode_slug: confessions-of-a-redditor-reading-reddit-stories
     episode_key: confessions-of-a-redditor-reading-reddit-stories
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/smosh-reads-reddit-stories/confessions-of-a-redditor-reading-reddit-stories/"
     youtube_video_id: kN-iEJ3Sbsc
   - episode_title: Raise The Red Flag | Reading Reddit Stories
@@ -27193,7 +27206,7 @@ episodes_by_feed:
     episode_uid: audioboom-019e09aa-d31e-7876-ae7a-a867edd9644b
     episode_slug: raise-the-red-flag-reading-reddit-stories
     episode_key: raise-the-red-flag-reading-reddit-stories
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/smosh-reads-reddit-stories/raise-the-red-flag-reading-reddit-stories/"
     youtube_video_id: 8dPQe9NqONM
   - episode_title: Dating Is Cooked | Reading Reddit Stories
@@ -27206,7 +27219,7 @@ episodes_by_feed:
     episode_uid: audioboom-019ddf8e-c7be-7448-ab31-dec6bd19b7a8
     episode_slug: dating-is-cooked-reading-reddit-stories
     episode_key: dating-is-cooked-reading-reddit-stories
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/smosh-reads-reddit-stories/dating-is-cooked-reading-reddit-stories/"
     youtube_video_id: RtN_tFPCO2s
   - episode_title: Am I The Only One? | Reading Reddit Stories
@@ -27219,7 +27232,7 @@ episodes_by_feed:
     episode_uid: audioboom-019dbc87-408a-7465-a518-ab1a91320cba
     episode_slug: am-i-the-only-one-reading-reddit-stories
     episode_key: am-i-the-only-one-reading-reddit-stories
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/smosh-reads-reddit-stories/am-i-the-only-one-reading-reddit-stories/"
     youtube_video_id: vZWvMjd6b5w
   - episode_title: A Walk On The Wild Side | Reading Reddit Stories
@@ -27232,7 +27245,7 @@ episodes_by_feed:
     episode_uid: audioboom-019d9ce2-45b7-7716-a21e-402f2b4b82d7
     episode_slug: a-walk-on-the-wild-side-reading-reddit-stories
     episode_key: a-walk-on-the-wild-side-reading-reddit-stories
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/smosh-reads-reddit-stories/a-walk-on-the-wild-side-reading-reddit-stories/"
     youtube_video_id: EwypN6s-M1s
   - episode_title: Will You Be My Work Wife? | Reading Reddit Stories
@@ -27245,7 +27258,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-10-posts-8886940
     episode_slug: will-you-be-my-work-wife-reading-reddit-stories
     episode_key: will-you-be-my-work-wife-reading-reddit-stories
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/smosh-reads-reddit-stories/will-you-be-my-work-wife-reading-reddit-stories/"
     youtube_video_id: fbLUs5KyG_o
   - episode_title: Didn't See THAT Coming | Reading Reddit Stories
@@ -27258,7 +27271,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-04-03-posts-8882507
     episode_slug: didn-t-see-that-coming-reading-reddit-stories
     episode_key: didn-t-see-that-coming-reading-reddit-stories
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/smosh-reads-reddit-stories/didn-t-see-that-coming-reading-reddit-stories/"
   - episode_title: Here Comes The Drama | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8879496
@@ -27270,7 +27283,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-27-posts-8879496
     episode_slug: here-comes-the-drama-reading-reddit-stories
     episode_key: here-comes-the-drama-reading-reddit-stories
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/smosh-reads-reddit-stories/here-comes-the-drama-reading-reddit-stories/"
   - episode_title: Am Eye The A**hole w/ Jacksepticeye | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8876799
@@ -27282,7 +27295,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-20-posts-8876799
     episode_slug: am-eye-the-a-hole-w-jacksepticeye-reading-reddit-stories
     episode_key: am-eye-the-a-hole-w-jacksepticeye-reading-reddit-stories
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/smosh-reads-reddit-stories/am-eye-the-a-hole-w-jacksepticeye-reading-reddit-stories/"
   - episode_title: A Dish Best Served Cold | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8873739
@@ -27294,7 +27307,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-13-posts-8873739
     episode_slug: a-dish-best-served-cold-reading-reddit-stories
     episode_key: a-dish-best-served-cold-reading-reddit-stories
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/smosh-reads-reddit-stories/a-dish-best-served-cold-reading-reddit-stories/"
   - episode_title: You Can't Live With Them... | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8869137
@@ -27306,7 +27319,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-03-04-posts-8869137
     episode_slug: you-can-t-live-with-them-reading-reddit-stories
     episode_key: you-can-t-live-with-them-reading-reddit-stories
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/smosh-reads-reddit-stories/you-can-t-live-with-them-reading-reddit-stories/"
   - episode_title: The Lies Never End | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8865607
@@ -27318,7 +27331,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-24-posts-8865607
     episode_slug: the-lies-never-end-reading-reddit-stories
     episode_key: the-lies-never-end-reading-reddit-stories
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/smosh-reads-reddit-stories/the-lies-never-end-reading-reddit-stories/"
   - episode_title: They Are Cringe And Free | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8862947
@@ -27330,7 +27343,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-18-posts-8862947
     episode_slug: they-are-cringe-and-free-reading-reddit-stories
     episode_key: they-are-cringe-and-free-reading-reddit-stories
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/smosh-reads-reddit-stories/they-are-cringe-and-free-reading-reddit-stories/"
   - episode_title: Valentine's Day Special | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8861236
@@ -27342,7 +27355,7 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-13-posts-8861236
     episode_slug: valentine-s-day-special-reading-reddit-stories
     episode_key: valentine-s-day-special-reading-reddit-stories
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/smosh-reads-reddit-stories/valentine-s-day-special-reading-reddit-stories/"
   - episode_title: Did They Really Post That? w/ Mari Takahashi | Reading Reddit Stories
     episode_url: https://audioboom.com/posts/8857801
@@ -27354,20 +27367,8 @@ episodes_by_feed:
     episode_uid: tag-audioboom-com-2026-02-05-posts-8857801
     episode_slug: did-they-really-post-that-w-mari-takahashi-reading-reddit-stories
     episode_key: did-they-really-post-that-w-mari-takahashi-reading-reddit-stories
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/smosh-reads-reddit-stories/did-they-really-post-that-w-mari-takahashi-reading-reddit-stories/"
-  - episode_title: Reddit Is The Best Medicine | Reading Reddit Stories
-    episode_url: https://audioboom.com/posts/8854493
-    audio_url: https://clrtpod.com/m/pscrb.fm/rss/p/dts.podtrac.com/redirect.mp3/audioboom.com/posts/8854493.mp3?modified=1773724166&sid=5148149&source=rss
-    published_at: '2026-01-31T18:00:00+00:00'
-    description_html: '<ul><li><p>We are not professionals btw. <a href="https://live.smosh.com">https://live.smosh.com</a> Go to <a href="https://www.Zocdoc.com/PITREDDIT">https://www.Zocdoc.com/PITREDDIT</a> to find and instantly book a top-rated doctor today.</p><p>Today (1/31) is the LAST DAY to watch Smosh Hospital! Catch it before it''s gone at <a href="http://live.smosh.com">http://live.smosh.com</a></p><p>0:00 Intro</li><li>1:16 I shit so hard I can smell again <a href="https://www.reddit.com/r/AskDocs/comments/ukuuzs/comment/i7tdmbn/?utm_source=share">https://www.reddit.com/r/AskDocs/comments/ukuuzs/comment/i7tdmbn/?utm_source=share</a></li></ul><p>9:08 Sponsor</p><p>10:25 Back to the story</p><ul><li>19:14 My husband put martial arts ahead of my treatment <a href="https://www.reddit.com/r/relationship_advice/comments/1cbszuf/my_37f_husband_36m_put_martial_arts_training/">https://www.reddit.com/r/relationship_advice/comments/1cbszuf/my_37f_husband_36m_put_martial_arts_training/</a></li><li>27:21 I was ugly sobbing at the doctor''s <a href="https://www.reddit.com/r/TrueOffMyChest/comments/1neol54/removed_by_moderator/?sort=top">https://www.reddit.com/r/TrueOffMyChest/comments/1neol54/removed_by_moderator/?sort=top</a></li><li>32:40 I didn''t pay for my friend''s hospital bills after they tripped over my dog <a href="https://www.reddit.com/r/AmItheAsshole/comments/1cf7ea5/aita_for_not_paying_hospital_bills_after_my/">https://www.reddit.com/r/AmItheAsshole/comments/1cf7ea5/aita_for_not_paying_hospital_bills_after_my/</a></li><li>39:14 I refused to remove my medical equipment during a wedding <a href="https://www.reddit.com/r/AmItheAsshole/comments/111our6/aita_for_refusing_to_remove_my_medical_equipment/">https://www.reddit.com/r/AmItheAsshole/comments/111our6/aita_for_refusing_to_remove_my_medical_equipment/</a></li><li>49:57 Surgeon made fun of my penis <a href="https://www.reddit.com/r/TrueOffMyChest/comments/1j5dy51/surgeon_made_fun_of_my_penis/">https://www.reddit.com/r/TrueOffMyChest/comments/1j5dy51/surgeon_made_fun_of_my_penis/</a></p><p>WEAR OUR JOKES: <a href="https://smosh.com">https://smosh.com</a></p><p>WHO YOU HEAR</li><li>Ian Hecox // <a href="https://www.instagram.com/ianhecox/">https://www.instagram.com/ianhecox/</a></li><li>Shayne Topp // <a href="https://www.instagram.com/shaynetopp/">https://www.instagram.com/shaynetopp/</a></li><li>Trevor Evarts // <a href="https://www.instagram.com/trevorevarts/">https://www.instagram.com/trevorevarts/</a></p><p>WHO YOU DON’T HEAR (usually)</li></ul><p>Director: Emily Rose Jacobson</p><p>Editor: Andre Gardere</p><p>Director of Programming, Smosh Pit: Emily Rose Jacobson</p><p>Associate Producer, Smosh Pit: Bailey Petracek</p><p>Production Designer: Cassie Vance</p><p>Art Director: Erin Kuschner, Josie Bellerby</p><p>Stage Manager: Alex Aguilar</p><p>Prop Master: Courtney Chapman, Abby Schmidt</p><p>Art Coordinator: Alex Mollo</p><p>Art PA: Emilie Anderson</p><p>Audio Mixer: Scott Neff</p><p>Audio Utility: Michael Alaynick</p><p>Director of Photography: James Hull</p><p>Camera Operator: Reagan Frazier</p><p>Camera Operator: Cameron Dunbar</p><p>Assistant Director: Jonathan Hyon</p><p>Executive Vice President of Production: Amanda Barnes</p><p>Senior Production Manager: Alexcina Figueroa</p><p>Production Manager: Jonathan Hyon</p><p>Production Coordinator: Zianne Hoover</p><p>Operations &amp; Production Coordinator: Oliver Wehlander</p><p>Production Assistant: Caroline Smith, Charlie Coons</p><p>Director of Post Production: Luke Baker</p><p>DIT/Lead AE: Matt Duran</p><p>DIT/AE: Beni Kimuene</p><p>Post Production Coordinator: Ariana Martinez</p><p>IT: Tim Baker</p><p>IT &amp; Equipment Coordinator: Lopati Ho Chee</p><p>Sound Editor: Gareth Hird</p><p>Director of Design: Brittany Hobbs</p><p>Senior Motion &amp; Branding Designer: Christie Hauck</p><p>Graphic Designers: Ness Cardano, Monica Ravitch</p><p>Director of Channel Operations: Lizzy Jones</p><p>Channel Operations Manager: Audrey Carganilla</p><p>Channel Operations Coordinator: Sabrina Lieberman</p><p>Director of Social Media: Erica Noboa</p><p>Social Creative Producer: Peter Ditzler, Tommy Bowe</p><p>Merchandising Manager: Mallory Myers</p><p>Social Media Manager: Kim Wilborn</p><p>Social Media Coordinator: Margaux Bernales</p><p>Social Editor: Vida Robbins</p><p>Brand Partnership Manager: Chloe Mays</p><p>Brand Partnerships Coordinating Producer: Liz Kummer</p><p>Operations Manager: Selina Garcia</p><p>Financial Operations Specialist: Natalie Lewis</p><p>Talent Coordinator: Danielle Moses</p><p>People Operations Specialist: Katie Fink</p><p>Front Office Assistant: Sara Faltersack</p><p>CEO: Alessandra Catanese</p><p>Executive Producers: Anthony Padilla, Ian Hecox</p><p>EVP of Programming: Kiana Parker</p><p>Coordinator Producer of Programming: Marcus Munguia</p><p>Associate Producer, Special Projects: Rachel Collis</p><p><strong>Executive Assistant: Katelyn Hempstead OTHER SMOSHES:</strong></p><ul><li><a href="https://smo.sh/Sub2Smosh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=smo.sh&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Smosh</span></a></li><li><a href="https://smo.sh/Sub2SmoshGames" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=smo.sh&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Smosh Games</span></a></li><li><a href="https://smo.sh/Sub2SmoshCast" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=smo.sh&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">SmoshCast</span></a></li><li>Smosh Alike: <a href="https://bit.ly/SubToSmoshAlike">https://bit.ly/SubToSmoshAlike</a></p><p>FOLLOW US:</li><li><a href="https://smo.sh/TikTok" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=tiktok.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">TikTok</span></a></li><li><a href="https://instagram.com/smosh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=instagram.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Instagram</span></a></li><li><a href="https://facebook.com/smosh" rel="noopener noreferrer" target="_blank"><img class="episode-note-link__icon" src="https://www.google.com/s2/favicons?domain=facebook.com&amp;sz=32" alt="" width="16" height="16" loading="lazy" decoding="async"><span class="episode-note-link__label">Facebook</span></a></li></ul>'
-    description_plain: 'We are not professionals btw. https://live.smosh.com Go to https://www.Zocdoc.com/PITREDDIT to find and instantly book a top-rated doctor today. Today (1/31) is the LAST DAY to watch Smosh Hospital! Catch it before it''s gone at http://live.smosh.com 0:00 Intro 1:16 I shit so hard I can smell again https://www.reddit.com/r/AskDocs/comments/ukuuzs/comment/i7tdmbn/?utm_source=share 9:08 Sponsor 10:25 Back to the story 19:14 My husband put martial arts ahead of my treatment https://www.reddit.com/r/relationship_advice/comments/1cbszuf/my_37f_husband_36m_put_martial_arts_training/ 27:21 I was ugly sobbing at the doctor''s https://www.reddit.com/r/TrueOffMyChest/comments/1neol54/removed_by_moderator/?sort=top 32:40 I didn''t pay for my friend''s hospital bills after they tripped over my dog https://www.reddit.com/r/AmItheAsshole/comments/1cf7ea5/aita_for_not_paying_hospital_bills_after_my/ 39:14 I refused to remove my medical equipment during a wedding https://www.reddit.com/r/AmItheAsshole/comments/111our6/aita_for_refusing_to_remove_my_medical_equipment/ 49:57 Surgeon made fun of my penis https://www.reddit.com/r/TrueOffMyChest/comments/1j5dy51/surgeon_made_fun_of_my_penis/ WEAR OUR JOKES: https://smosh.com WHO YOU HEAR Ian Hecox // https://www.instagram.com/ianhecox/ Shayne Topp // https://www.instagram.com/shaynetopp/ Trevor Evarts // https://www.instagram.com/trevorevarts/ WHO YOU DON’T HEAR (usually) Director: Emily Rose Jacobson Editor: Andre Gardere Director of Programming, Smosh Pit: Emily Rose Jacobson Associate Producer, Smosh Pit: Bailey Petracek Production Designer: Cassie Vance Art Director: Erin Kuschner, Josie Bellerby Stage Manager: Alex Aguilar Prop Master: Courtney Chapman, Abby Schmidt Art Coordinator: Alex Mollo Art PA: Emilie Anderson Audio Mixer: Scott Neff Audio Utility: Michael Alaynick Director of Photography: James Hull Camera Operator: Reagan Frazier Camera Operator: Cameron Dunbar Assistant Director: Jonathan Hyon Executive Vice President of Production: Amanda Barnes Senior Production Manager: Alexcina Figueroa Production Manager: Jonathan Hyon Production Coordinator: Zianne Hoover Operations &amp; Production Coordinator: Oliver Wehlander Production Assistant: Caroline Smith, Charlie Coons Director of Post Production: Luke Baker DIT/Lead AE: Matt Duran DIT/AE: Beni Kimuene Post Production Coordinator: Ariana Martinez IT: Tim Baker IT &amp; Equipment Coordinator: Lopati Ho Chee Sound Editor: Gareth Hird Director of Design: Brittany Hobbs Senior Motion &amp; Branding Designer: Christie Hauck Graphic Designers: Ness Cardano, Monica Ravitch Director of Channel Operations: Lizzy Jones Channel Operations Manager: Audrey Carganilla Channel Operations Coordinator: Sabrina Lieberman Director of Social Media: Erica Noboa Social Creative Producer: Peter Ditzler, Tommy Bowe Merchandising Manager: Mallory Myers Social Media Manager: Kim Wilborn Social Media Coordinator: Margaux Bernales Social Editor: Vida Robbins Brand Partnership Manager: Chloe Mays Brand Partnerships Coordinating Producer: Liz Kummer Operations Manager: Selina Garcia Financial Operations Specialist: Natalie Lewis Talent Coordinator: Danielle Moses People Operations Specialist: Katie Fink Front Office Assistant: Sara Faltersack CEO: Alessandra Catanese Executive Producers: Anthony Padilla, Ian Hecox EVP of Programming: Kiana Parker Coordinator Producer of Programming: Marcus Munguia Associate Producer, Special Projects: Rachel Collis Executive Assistant: Katelyn Hempstead OTHER SMOSHES: Smosh Smosh Games SmoshCast Smosh Alike: https://bit.ly/SubToSmoshAlike FOLLOW US: TikTok Instagram Facebook'
-    episode_image_url: ''
-    episode_uid: tag-audioboom-com-2026-01-30-posts-8854493
-    episode_slug: reddit-is-the-best-medicine-reading-reddit-stories
-    episode_key: reddit-is-the-best-medicine-reading-reddit-stories
     legacy_numbered_slug: episode-25
-    episode_page_url: "/smosh-reads-reddit-stories/reddit-is-the-best-medicine-reading-reddit-stories/"
+    episode_page_url: "/smosh-reads-reddit-stories/did-they-really-post-that-w-mari-takahashi-reading-reddit-stories/"
   https://feeds.megaphone.fm/pivot: &92
   - episode_title: Trump's Tariffs Return, Kalshi's Midterms Hub, and Elon's AI "Odyssey"
     episode_url: ''
