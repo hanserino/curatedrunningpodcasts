@@ -1,6 +1,30 @@
 ---
-generated_at: '2026-07-25T12:27:03Z'
+generated_at: '2026-07-25T13:37:15Z'
 items:
+- podcast_title: COFFEECLUB
+  podcast_page_url: "/coffeeclub/"
+  cover_image: "/media/coffeeclub.jpeg"
+  feed_url: https://media.rss.com/coffeeclub/feed.xml
+  filter_category: track road english
+  episode_title: He called his shot (and we were wrong)
+  episode_url: https://rss.com/podcasts/coffeeclub/3020906
+  audio_url: https://content.rss.com/episodes/81443/3020906/coffeeclub/2026_07_25_05_30_40_764f92de-ca98-496b-a245-68c88a4aa0fa.mp3
+  published_at: '2026-07-25T13:06:13+00:00'
+  episode_key: he-called-his-shot-and-we-were-wrong
+  episode_slug: he-called-his-shot-and-we-were-wrong
+  episode_page_url: "/coffeeclub/he-called-his-shot-and-we-were-wrong/"
+- podcast_title: CITIUS MAG Podcast
+  podcast_page_url: "/citius-mag/"
+  cover_image: "/media/citiusmag.jpeg"
+  feed_url: https://anchor.fm/s/9085ecc/podcast/rss
+  filter_category: track road english
+  episode_title: 'USATF Outdoor Championships 2026: Day 2 Reactions | Noah Lyles Runs 9.79, Sha''Carri Wins 3rd 100m Title + More'
+  episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-Outdoor-Championships-2026-Day-2-Reactions--Noah-Lyles-Runs-9-79--ShaCarri-Wins-3rd-100m-Title--More-e3mh44b
+  audio_url: https://traffic.megaphone.fm/APO7638678170.mp3
+  published_at: '2026-07-25T02:16:05+00:00'
+  episode_key: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
+  episode_slug: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
+  episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more/"
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub/"
   cover_image: "/media/subhubpodcast.jpeg"
@@ -73,18 +97,6 @@ items:
   episode_key: ces-tabous-que-les-sportives-gardent-encore-pour-elles-w-marine-leleu
   episode_slug: ces-tabous-que-les-sportives-gardent-encore-pour-elles-w-marine-leleu
   episode_page_url: "/dans-la-t-te-d-un-coureur/ces-tabous-que-les-sportives-gardent-encore-pour-elles-w-marine-leleu/"
-- podcast_title: CITIUS MAG Podcast
-  podcast_page_url: "/citius-mag/"
-  cover_image: "/media/citiusmag.jpeg"
-  feed_url: https://anchor.fm/s/9085ecc/podcast/rss
-  filter_category: track road english
-  episode_title: 'USATF OUTDOOR CHAMPIONSHIPS 2026: DAY 1 REACTIONS | WOODY KINCAID SHOCKS GRANT FISHER FOR 10K TITLE + MORE'
-  episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-OUTDOOR-CHAMPIONSHIPS-2026-DAY-1-REACTIONS--WOODY-KINCAID-SHOCKS-GRANT-FISHER-FOR-10K-TITLE--MORE-e3mfmgh
-  audio_url: https://traffic.megaphone.fm/APO8337353260.mp3
-  published_at: '2026-07-24T01:43:50+00:00'
-  episode_key: usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more
-  episode_slug: usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more
-  episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more/"
 - podcast_title: Breaking Marathon Limits
   podcast_page_url: "/breaking-marathon-limits/"
   cover_image: "/media/bml.jpeg"
@@ -397,18 +409,6 @@ items:
   episode_key: patrick-kavanagh-and-ross-kiewiet-highline-trail-fkt-289
   episode_slug: patrick-kavanagh-and-ross-kiewiet-highline-trail-fkt-289
   episode_page_url: "/fkt-podcast/patrick-kavanagh-and-ross-kiewiet-highline-trail-fkt-289/"
-- podcast_title: COFFEECLUB
-  podcast_page_url: "/coffeeclub/"
-  cover_image: "/media/coffeeclub.jpeg"
-  feed_url: https://media.rss.com/coffeeclub/feed.xml
-  filter_category: track road english
-  episode_title: THE TRUTH ABOUT THE SUPPLEMENT INDUSTRY
-  episode_url: https://rss.com/podcasts/coffeeclub/2972474
-  audio_url: https://content.rss.com/episodes/81443/2972474/coffeeclub/2026_07_08_17_55_49_f687f6e7-bf57-4ab7-8b44-520f925ba522.mp3
-  published_at: '2026-07-16T20:00:00+00:00'
-  episode_key: the-truth-about-the-supplement-industry
-  episode_slug: the-truth-about-the-supplement-industry
-  episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
 - podcast_title: Uphill Athlete
   podcast_page_url: "/uphill-athlete/"
   cover_image: "/media/uphillathlete.jpeg"
@@ -11980,6 +11980,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/dans-la-t-te-d-un-coureur/hugo-deck-le-recit-de-son-duel-avec-theo-detienne-et-yannick-noel-a-la-maxi-race/"
   https://media.rss.com/coffeeclub/feed.xml: &38
+  - episode_title: He called his shot (and we were wrong)
+    episode_url: https://rss.com/podcasts/coffeeclub/3020906
+    audio_url: https://content.rss.com/episodes/81443/3020906/coffeeclub/2026_07_25_05_30_40_764f92de-ca98-496b-a245-68c88a4aa0fa.mp3
+    published_at: '2026-07-25T13:06:13+00:00'
+    description_html: '<p>Reacting to Josh Kerr''s special world record, the NCAA altitude ban, doping in the Tour de France, and the end of Morgan''s season.</p><p>This episode was sponsored by Stryd!</p><ul><li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.stryd.live/coffeeclub">https://www.stryd.live/coffeeclub</a></li><li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/strydrunning/?hl=en">https://www.instagram.com/strydrunning/?hl=en</a></li></ul><p>The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club and On.</p><p><strong>Thumbnail Photography: Danielle Alakija provided by FloTrack:</strong></p><ul><li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/daniellealakija/?hl=en">https://www.instagram.com/daniellealakija/?hl=en</a></li><li><a target="_blank" rel="noopener noreferrer nofollow" href="https://www.flotrack.org/">https://www.flotrack.org/</a></li></ul><p><strong>Follow us here:</strong></p><ul><li>Instagram: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/coffeeclubpod/">https://www.instagram.com/coffeeclubpod/</a></li><li>George Beamish: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/georgebeamish/">https://www.instagram.com/georgebeamish/</a></li><li>Morgan McDonald: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/morganmcdonald__/">https://www.instagram.com/morganmcdonald__/</a></li><li>Olli Hoare: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ollihoare/">https://www.instagram.com/ollihoare/</a></li><li>Tom Wang: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/womtang/">https://www.instagram.com/womtang/</a></li><li>Coffee Club Merch: <a target="_blank" rel="noopener noreferrer nofollow" href="https://coffeeclubpod.com">https://coffeeclubpod.com</a></li><li>Morgan''s discord: <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/uaCSeHDpgs">https://discord.gg/uaCSeHDpgs</a></li><li>Morgan''s YouTube: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@MorganMcDonaldisaloser">https://www.youtube.com/@MorganMcDonaldisaloser</a></li><li>Intro Artwork by The Orange Runner: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/theorangerunner/">https://www.instagram.com/theorangerunner/</a></li><li>Intro Music by Nick Harris: <a target="_blank" rel="noopener noreferrer nofollow" href="https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi">https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi</a></li></ul>'
+    description_plain: 'Reacting to Josh Kerr''s special world record, the NCAA altitude ban, doping in the Tour de France, and the end of Morgan''s season. This episode was sponsored by Stryd! https://www.stryd.live/coffeeclub https://www.instagram.com/strydrunning/?hl=en The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club and On. Thumbnail Photography: Danielle Alakija provided by FloTrack: https://www.instagram.com/daniellealakija/?hl=en https://www.flotrack.org/ Follow us here: Instagram: https://www.instagram.com/coffeeclubpod/ George Beamish: https://www.instagram.com/georgebeamish/ Morgan McDonald: https://www.instagram.com/morganmcdonald__/ Olli Hoare: https://www.instagram.com/ollihoare/ Tom Wang: https://www.instagram.com/womtang/ Coffee Club Merch: https://coffeeclubpod.com Morgan''s discord: https://discord.gg/uaCSeHDpgs Morgan''s YouTube: https://www.youtube.com/@MorganMcDonaldisaloser Intro Artwork by The Orange Runner: https://www.instagram.com/theorangerunner/ Intro Music by Nick Harris: https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi'
+    episode_image_url: https://media.rss.com/coffeeclub/ep_cover_20260725_052952_131754865235cf9be71f4d4b73d9d67b.png
+    episode_uid: 287e219d-a44e-4ce2-b796-f292874497f7
+    episode_slug: he-called-his-shot-and-we-were-wrong
+    episode_key: he-called-his-shot-and-we-were-wrong
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/coffeeclub/he-called-his-shot-and-we-were-wrong/"
+    youtube_video_id: ktfHuCAZvDw
   - episode_title: THE TRUTH ABOUT THE SUPPLEMENT INDUSTRY
     episode_url: https://rss.com/podcasts/coffeeclub/2972474
     audio_url: https://content.rss.com/episodes/81443/2972474/coffeeclub/2026_07_08_17_55_49_f687f6e7-bf57-4ab7-8b44-520f925ba522.mp3
@@ -11990,7 +12003,7 @@ episodes_by_feed:
     episode_uid: 0f6407a9-dce6-4519-9a08-b3a8ba5db963
     episode_slug: the-truth-about-the-supplement-industry
     episode_key: the-truth-about-the-supplement-industry
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/coffeeclub/the-truth-about-the-supplement-industry/"
     youtube_video_id: 1TU1U1vpApw
   - episode_title: 'Olli & Morgan Open Up: Political Divisions, Double Days, Selection Policies, & Heated Rivalries'
@@ -12003,7 +12016,7 @@ episodes_by_feed:
     episode_uid: 3b0f4d06-a878-4d9c-b059-6195c38153a2
     episode_slug: olli-morgan-open-up-political-divisions-double-days-selection-policies-heated-rivalries
     episode_key: olli-morgan-open-up-political-divisions-double-days-selection-policies-heated-rivalries
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/coffeeclub/olli-morgan-open-up-political-divisions-double-days-selection-policies-heated-rivalries/"
   - episode_title: Answering the hardest running questions... Threshold, HR Data, Quitting, and Body Weight Issues
     episode_url: https://rss.com/podcasts/coffeeclub/2961920
@@ -12015,7 +12028,7 @@ episodes_by_feed:
     episode_uid: 4c82af29-b5fc-41e6-928f-d4b0fda19659
     episode_slug: answering-the-hardest-running-questions-threshold-hr-data-quitting-and-body-weight-issues
     episode_key: answering-the-hardest-running-questions-threshold-hr-data-quitting-and-body-weight-issues
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/coffeeclub/answering-the-hardest-running-questions-threshold-hr-data-quitting-and-body-weight-issues/"
     youtube_video_id: 7dWe5-XRNsA
   - episode_title: 'Seth Ruhling Opens Up: High Carb Imposters, Zone 2 Threshold, & Western States Drama'
@@ -12028,7 +12041,7 @@ episodes_by_feed:
     episode_uid: 8253da44-1d67-40bd-8bee-e0c19941e880
     episode_slug: seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama
     episode_key: seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/coffeeclub/seth-ruhling-opens-up-high-carb-imposters-zone-2-threshold-western-states-drama/"
     youtube_video_id: KXk2yNhAI-s
   - episode_title: The Secret Genius of Marco Langon
@@ -12041,7 +12054,7 @@ episodes_by_feed:
     episode_uid: 9e762cc1-0767-4671-ae4c-f2b7ac80b6e6
     episode_slug: the-secret-genius-of-marco-langon
     episode_key: the-secret-genius-of-marco-langon
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/coffeeclub/the-secret-genius-of-marco-langon/"
     youtube_video_id: EFLiwxyY3ho
   - episode_title: Is Cooper Lutkenhaus already the GOAT?
@@ -12054,7 +12067,7 @@ episodes_by_feed:
     episode_uid: 155e8e45-1b50-4098-a4ac-ad225bb1cdbd
     episode_slug: is-cooper-lutkenhaus-already-the-goat
     episode_key: is-cooper-lutkenhaus-already-the-goat
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/coffeeclub/is-cooper-lutkenhaus-already-the-goat/"
     youtube_video_id: DYOxm_1AgXM
   - episode_title: What Really Happened to George Beamish in the Rabat Diamond League?
@@ -12067,7 +12080,7 @@ episodes_by_feed:
     episode_uid: ddeef96e-9156-4d29-82f4-b698fd568c2c
     episode_slug: what-really-happened-to-george-beamish-in-the-rabat-diamond-league
     episode_key: what-really-happened-to-george-beamish-in-the-rabat-diamond-league
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/coffeeclub/what-really-happened-to-george-beamish-in-the-rabat-diamond-league/"
     youtube_video_id: ZqYQQIHfck0
   - episode_title: Fake Records & Impossible Standards
@@ -12080,7 +12093,7 @@ episodes_by_feed:
     episode_uid: ac0205a0-fb68-4f95-8e23-0f7e3acba323
     episode_slug: fake-records-impossible-standards
     episode_key: fake-records-impossible-standards
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/coffeeclub/fake-records-impossible-standards/"
     youtube_video_id: FNoHoIJ7gPg
   - episode_title: The Problem with Running Influencers, Doping, and NIL Money
@@ -12093,7 +12106,7 @@ episodes_by_feed:
     episode_uid: 4bdb6c9b-7f5d-45c1-a65e-b5ecdb8c8b76
     episode_slug: the-problem-with-running-influencers-doping-and-nil-money
     episode_key: the-problem-with-running-influencers-doping-and-nil-money
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/coffeeclub/the-problem-with-running-influencers-doping-and-nil-money/"
     youtube_video_id: RRP09lDE6tI
   - episode_title: What's happened to Jakob Ingebrigtsen?
@@ -12106,7 +12119,7 @@ episodes_by_feed:
     episode_uid: 273fcdf1-2744-4201-97f8-f3cc36263c9e
     episode_slug: what-s-happened-to-jakob-ingebrigtsen
     episode_key: what-s-happened-to-jakob-ingebrigtsen
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/coffeeclub/what-s-happened-to-jakob-ingebrigtsen/"
     youtube_video_id: wEu2T1Aexas
   - episode_title: Why Rory Linkletter did Triples, Uphill Tempos, and Double Threshold to run 2:06 at Boston...
@@ -12119,9 +12132,8 @@ episodes_by_feed:
     episode_uid: 7d6e8e01-38a4-40b8-a106-205af3214221
     episode_slug: why-rory-linkletter-did-triples-uphill-tempos-and-double-threshold-to-run-2-06-at-boston
     episode_key: why-rory-linkletter-did-triples-uphill-tempos-and-double-threshold-to-run-2-06-at-boston
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/coffeeclub/why-rory-linkletter-did-triples-uphill-tempos-and-double-threshold-to-run-2-06-at-boston/"
-    youtube_video_id: 7zqw_d2YCUU
   - episode_title: Do Marathon Records Even Matter Anymore?
     episode_url: https://rss.com/podcasts/coffeeclub/2782130
     audio_url: https://content.rss.com/episodes/81443/2782130/coffeeclub/2026_04_30_18_27_08_f1d773bb-ee5f-49f5-84eb-8a2b2c4d9352.mp3
@@ -12132,7 +12144,7 @@ episodes_by_feed:
     episode_uid: 259a0167-5a91-44df-b1f5-ef6c3e8b1a91
     episode_slug: do-marathon-records-even-matter-anymore
     episode_key: do-marathon-records-even-matter-anymore
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/coffeeclub/do-marathon-records-even-matter-anymore/"
   - episode_title: The CRAZIEST Boston Marathon Ever (2:01 Pace!)
     episode_url: https://rss.com/podcasts/coffeeclub/2761226
@@ -12144,7 +12156,7 @@ episodes_by_feed:
     episode_uid: 3aa86243-5010-4ef4-9c01-bf0b0de32ce7
     episode_slug: the-craziest-boston-marathon-ever-2-01-pace
     episode_key: the-craziest-boston-marathon-ever-2-01-pace
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/coffeeclub/the-craziest-boston-marathon-ever-2-01-pace/"
   - episode_title: What actually happened at our National Championships? + Boston Marathon Preview
     episode_url: https://rss.com/podcasts/coffeeclub/2744150
@@ -12156,7 +12168,7 @@ episodes_by_feed:
     episode_uid: 6ce398fd-beff-4fe8-9380-ae9e95bd4fa2
     episode_slug: what-actually-happened-at-our-national-championships-boston-marathon-preview
     episode_key: what-actually-happened-at-our-national-championships-boston-marathon-preview
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/coffeeclub/what-actually-happened-at-our-national-championships-boston-marathon-preview/"
   - episode_title: How many miles per week do we run? + Our National Champs Preview
     episode_url: https://rss.com/podcasts/coffeeclub/2716723
@@ -12168,7 +12180,7 @@ episodes_by_feed:
     episode_uid: 3b76a8db-3012-4fa4-b2be-7db656c0b15e
     episode_slug: how-many-miles-per-week-do-we-run-our-national-champs-preview
     episode_key: how-many-miles-per-week-do-we-run-our-national-champs-preview
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/coffeeclub/how-many-miles-per-week-do-we-run-our-national-champs-preview/"
   - episode_title: What actually happened at Worlds/Maurie Plant/The TEN?
     episode_url: https://rss.com/podcasts/coffeeclub/2681907
@@ -12180,7 +12192,7 @@ episodes_by_feed:
     episode_uid: 16133942-629c-416a-9a5e-e4e137a49edd
     episode_slug: what-actually-happened-at-worlds-maurie-plant-the-ten
     episode_key: what-actually-happened-at-worlds-maurie-plant-the-ten
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/coffeeclub/what-actually-happened-at-worlds-maurie-plant-the-ten/"
   - episode_title: What you didn't know about Rocky Hansen... (NCAA & USA XC Runner Up, 13:07 5k)
     episode_url: https://rss.com/podcasts/coffeeclub/2646197
@@ -12192,7 +12204,7 @@ episodes_by_feed:
     episode_uid: 74637b4f-24c6-4ea7-b246-b0a9868620b1
     episode_slug: what-you-didn-t-know-about-rocky-hansen-ncaa-usa-xc-runner-up-13-07-5k
     episode_key: what-you-didn-t-know-about-rocky-hansen-ncaa-usa-xc-runner-up-13-07-5k
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/coffeeclub/what-you-didn-t-know-about-rocky-hansen-ncaa-usa-xc-runner-up-13-07-5k/"
   - episode_title: Grant Fisher is moving up in distance...
     episode_url: https://rss.com/podcasts/coffeeclub/2616649
@@ -12204,7 +12216,7 @@ episodes_by_feed:
     episode_uid: fb65cce9-4791-4d25-969e-914149a3a8b1
     episode_slug: grant-fisher-is-moving-up-in-distance
     episode_key: grant-fisher-is-moving-up-in-distance
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/coffeeclub/grant-fisher-is-moving-up-in-distance/"
   - episode_title: What the heck happened at the Atlanta Half?! + USA INDOORS FINISH
     episode_url: https://rss.com/podcasts/coffeeclub/2604603
@@ -12216,7 +12228,7 @@ episodes_by_feed:
     episode_uid: 06ad97bf-3c2a-4e13-ba55-cbf98be75074
     episode_slug: what-the-heck-happened-at-the-atlanta-half-usa-indoors-finish
     episode_key: what-the-heck-happened-at-the-atlanta-half-usa-indoors-finish
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/coffeeclub/what-the-heck-happened-at-the-atlanta-half-usa-indoors-finish/"
   - episode_title: Surviving the FLU as a Runner, Morgan's Aerobic Experiment, & Why You Should Train Slower
     episode_url: https://rss.com/podcasts/coffeeclub/2582026
@@ -12228,7 +12240,7 @@ episodes_by_feed:
     episode_uid: 7add2cfd-3a6e-452d-952b-f4dbf569cacf
     episode_slug: surviving-the-flu-as-a-runner-morgan-s-aerobic-experiment-why-you-should-train-slower
     episode_key: surviving-the-flu-as-a-runner-morgan-s-aerobic-experiment-why-you-should-train-slower
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/coffeeclub/surviving-the-flu-as-a-runner-morgan-s-aerobic-experiment-why-you-should-train-slower/"
   - episode_title: The Fastest Teenage Miler of All Time (feat. Sam Ruthe & Sam Tanner)
     episode_url: https://rss.com/podcasts/coffeeclub/2563729
@@ -12240,7 +12252,7 @@ episodes_by_feed:
     episode_uid: 18ba573d-b3f9-4361-b808-7b37fd03c4c9
     episode_slug: the-fastest-teenage-miler-of-all-time-feat-sam-ruthe-sam-tanner
     episode_key: the-fastest-teenage-miler-of-all-time-feat-sam-ruthe-sam-tanner
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/coffeeclub/the-fastest-teenage-miler-of-all-time-feat-sam-ruthe-sam-tanner/"
   - episode_title: What happened at the Millrose Games? + SAM "THE TRUTH" RUTHE'S 3:48 MILE
     episode_url: https://rss.com/podcasts/coffeeclub/2524261
@@ -12252,7 +12264,7 @@ episodes_by_feed:
     episode_uid: 13a9cdcd-5b8e-4496-b250-0d7b91f6a4e6
     episode_slug: what-happened-at-the-millrose-games-sam-the-truth-ruthe-s-3-48-mile
     episode_key: what-happened-at-the-millrose-games-sam-the-truth-ruthe-s-3-48-mile
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/coffeeclub/what-happened-at-the-millrose-games-sam-the-truth-ruthe-s-3-48-mile/"
   - episode_title: WE'RE GOING TO THE MILLROSE GAMES
     episode_url: https://rss.com/podcasts/coffeeclub/2504722
@@ -12264,7 +12276,7 @@ episodes_by_feed:
     episode_uid: 036b4b70-df83-4656-b32f-4a88ceec7c43
     episode_slug: we-re-going-to-the-millrose-games
     episode_key: we-re-going-to-the-millrose-games
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/coffeeclub/we-re-going-to-the-millrose-games/"
   - episode_title: 'Ryan & Patrick: Our New Teammates (SUB-60 HALF MARATHONERS!!!!)'
     episode_url: https://rss.com/podcasts/coffeeclub/2481447
@@ -12276,20 +12288,8 @@ episodes_by_feed:
     episode_uid: 02d600b1-a389-497c-b8a4-f2217401ebfb
     episode_slug: ryan-patrick-our-new-teammates-sub-60-half-marathoners
     episode_key: ryan-patrick-our-new-teammates-sub-60-half-marathoners
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/coffeeclub/ryan-patrick-our-new-teammates-sub-60-half-marathoners/"
-  - episode_title: OLLI HOARE IS A WORLD CHAMPION
-    episode_url: https://rss.com/podcasts/coffeeclub/2462285
-    audio_url: https://content.rss.com/episodes/81443/2462285/coffeeclub/2026_01_15_18_00_29_ed0a6119-153d-44ec-9c8a-c5441aafdde2.mp3
-    published_at: '2026-01-15T21:15:00+00:00'
-    description_html: '<ul><li>For the full experience, please watch the opening introduction on our YouTube channel: <a target="_blank" rel="noopener noreferrer nofollow" href="https://youtu.be/S_wIzRfrVTs">https://youtu.be/S_wIzRfrVTs</a></li></ul><p><strong>If you enjoyed this episode, please consider leaving us a 5 star review! </strong>It helps the pod a lot, and most importantly it helps Gus.</p><ul><li>Footage was borrowed from Morgan McDonald''s channel. Please subscribe to see his upcoming World XC video! <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@MorganMcDonaldisaChicken">https://www.youtube.com/@MorganMcDonaldisaChicken</a></li></ul><p><strong>Special thanks to:</strong></p><ul><li>Noah Hales (Cinematography) <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/noahhhales/">https://www.instagram.com/noahhhales/</a></li><li>Andrew LeMay (Photgraphy) <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/lemay.photo/">https://www.instagram.com/lemay.photo/</a></li><li>Jack Dickson (Graphics) <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/laneonegraphics/">https://www.instagram.com/laneonegraphics/</a></li></ul><p>Team Australia, Linden Hall, Jack Anstey, Jessica Hull</p><p>On Running, OAC, coaches and all of our professional support!</p><p>Jake Wightman, Cole Hocker, Jakob Ingebrigtsen, and Andreas Almgren</p><p>All of the fans who provided incredible footage and photos.</p><p><em>We do not own the rights to music or television coverage. This video is not monetized.</em></p><p>The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club and On.</p><p><strong>Follow us here:</strong></p><ul><li>Instagram: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/coffeeclub.pod/">https://www.instagram.com/coffeeclubpod/</a></li><li>George Beamish: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/georgebeamish/">https://www.instagram.com/georgebeamish/</a></li><li>Morgan McDonald: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/morganmcdonald__/">https://www.instagram.com/morganmcdonald__/</a></li><li>Olli Hoare: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ollihoare/">https://www.instagram.com/ollihoare/</a></li><li>Tom Wang: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/ollihoare/">https://www.instagram.com/womtang/</a></li><li>Coffee Club Merch: <a target="_blank" rel="noopener noreferrer nofollow" href="https://coffeeclubpod.com">https://coffeeclubpod.com</a></li><li>Morgan''s discord: <a target="_blank" rel="noopener noreferrer nofollow" href="https://discord.gg/uaCSeHDpgs">https://discord.gg/uaCSeHDpgs</a></li><li>Morgan''s YouTube: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.youtube.com/@MorganMcDonaldisaloser">https://www.youtube.com/@MorganMcDonaldisaloser</a></li><li>Intro Artwork by The Orange Runner: <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.instagram.com/theorangerunner/">https://www.instagram.com/theorangerunner/</a></li><li>Intro Music by Nick Harris: <a target="_blank" rel="noopener noreferrer nofollow" href="https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi">https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi</a></li></ul>'
-    description_plain: 'For the full experience, please watch the opening introduction on our YouTube channel: https://youtu.be/S_wIzRfrVTs If you enjoyed this episode, please consider leaving us a 5 star review! It helps the pod a lot, and most importantly it helps Gus. Footage was borrowed from Morgan McDonald''s channel. Please subscribe to see his upcoming World XC video! https://www.youtube.com/@MorganMcDonaldisaChicken Special thanks to: Noah Hales (Cinematography) https://www.instagram.com/noahhhales/ Andrew LeMay (Photgraphy) https://www.instagram.com/lemay.photo/ Jack Dickson (Graphics) https://www.instagram.com/laneonegraphics/ Team Australia, Linden Hall, Jack Anstey, Jessica Hull On Running, OAC, coaches and all of our professional support! Jake Wightman, Cole Hocker, Jakob Ingebrigtsen, and Andreas Almgren All of the fans who provided incredible footage and photos. We do not own the rights to music or television coverage. This video is not monetized. The Coffee Club Podcast is hosted by Oliver Hoare, George Beamish, and Morgan McDonald: 3 professional runners and olympians who train and live in Boulder, Colorado that compete for the On Athletics Club and On. Follow us here: Instagram: https://www.instagram.com/coffeeclubpod/ George Beamish: https://www.instagram.com/georgebeamish/ Morgan McDonald: https://www.instagram.com/morganmcdonald__/ Olli Hoare: https://www.instagram.com/ollihoare/ Tom Wang: https://www.instagram.com/womtang/ Coffee Club Merch: https://coffeeclubpod.com Morgan''s discord: https://discord.gg/uaCSeHDpgs Morgan''s YouTube: https://www.youtube.com/@MorganMcDonaldisaloser Intro Artwork by The Orange Runner: https://www.instagram.com/theorangerunner/ Intro Music by Nick Harris: https://open.spotify.com/artist/3Zab8WxvAPsDlhlBTcbuPi'
-    episode_image_url: https://media.rss.com/coffeeclub/ep_cover_20260116_120126_a225114a4355ef319fd34451c8638ec4.png
-    episode_uid: a14aadc4-42b5-496a-845d-662b6c5abb4b
-    episode_slug: olli-hoare-is-a-world-champion
-    episode_key: olli-hoare-is-a-world-champion
     legacy_numbered_slug: episode-25
-    episode_page_url: "/coffeeclub/olli-hoare-is-a-world-champion/"
+    episode_page_url: "/coffeeclub/ryan-patrick-our-new-teammates-sub-60-half-marathoners/"
   https://anchor.fm/s/fb539bd8/podcast/rss: &39
   - episode_title: UTS 50K Debrief, "Training Races", Poles & The Sugar Experiment
     episode_url: https://podcasters.spotify.com/pod/show/thealbonway/episodes/UTS-50K-Debrief--Training-Races--Poles--The-Sugar-Experiment-e3k516a
@@ -30331,6 +30331,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-boulder-boys/ep-57-a-very-nice-episode-is-rucking-the-new-craze/"
   https://anchor.fm/s/9085ecc/podcast/rss: &102
+  - episode_title: 'USATF Outdoor Championships 2026: Day 2 Reactions | Noah Lyles Runs 9.79, Sha''Carri Wins 3rd 100m Title + More'
+    episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-Outdoor-Championships-2026-Day-2-Reactions--Noah-Lyles-Runs-9-79--ShaCarri-Wins-3rd-100m-Title--More-e3mh44b
+    audio_url: https://traffic.megaphone.fm/APO7638678170.mp3
+    published_at: '2026-07-25T02:16:05+00:00'
+    description_html: '<p>The sprint finals delivered on every promise. Noah Lyles ran a world-leading 9.79 and Sha&#39;Carri Richardson put on a show in the women&#39;s 100m. The 800m prelims produced some genuine surprises.</p><p><strong>We discuss:</strong></p><p><strong>FINALS:</strong></p><p>- Women&#39;s 100m — Sha&#39;Carri Richardson, 10.77: Richardson was in a different gear, pulling away from the field by halfway to win in 10.77 — equaling her season&#39;s best and breaking the Icahn Stadium record. Star Athletics teammate Kayla White was second in 10.90, Tamari Davis third in 11.00. Richardson has now won three of the last four U.S. 100m titles.</p><p>- Men&#39;s 100m — Noah Lyles, 9.79: Lyles delivered when it mattered most — his eighth USATF outdoor title and a wind-legal world lead of 9.79, equaling his lifetime best. Ronnie Baker ran a strong season&#39;s best of 9.88 for second, Kenny Bednarek third just 0.005 seconds behind Baker, also at 9.88.</p><p><strong>PRELIMS:</strong></p><p>- Women&#39;s 400m heats: Aaliyah Butler leads all qualifiers winning heat 2 in 50.53, Sanaria Butler won the final heat from lane 1 in 51.10. Alexis Holmes took heat 1 in 51.71. Britton Wilson grabbed the last final spot in 52.12.</p><p>- Men&#39;s 400m heats: Christopher Bailey (45.14) looks like the favorite after a win from an inside lane. The big news — 2024 Olympic champion Quincy Hall fails to make the final, finishing sixth in 46.47. Hall has struggled all season.</p><ul><li>- Men&#39;s 800m heats: Cooper Lutkenhaus and Hobbs Kessler go 1-2 in heat 1 in <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=105s">1:45</a>.83 and <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=105s">1:45</a>.93; Wes Ferguson leads all qualifiers with a fierce homestretch move to win in <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=105s">1:45</a>.17; Atlanta Track Club goes 1-2 in another heat — Sean Dolan (<a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=106s">1:46</a>.11) and Camden Marshall (<a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=106s">1:46</a>.40); Defending champion Donavan Brazier fails to advance, finishing fourth outside the time qualifiers in <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=106s">1:46</a>.93.</li><li>- Women&#39;s 800m heats: Roisin Willis takes heat 1 in <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=119s">1:59</a>.83, overhauling Meghan Hunter in the final 50 meters; A tactical heat 2 produces only two qualifiers — Nia Akins (<a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=121s">2:01</a>.78) and Juliette Whittaker (<a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=122s">2:02</a>.22) advance. Ajee&#39; Wilson finishes third in <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=122s">2:02</a>.45 and does not make the final; High school standout Paige Sheppard of Union Catholic (NJ) runs <a href="https://www.youtube.com/watch?v=1qrlb3IFDxg&t=120s">2:00</a>.99 for fifth in heat 1 — fast enough for the last time qualifier spot, putting a high schooler in the final alongside the pros.</li></ul>'
+    description_plain: 'The sprint finals delivered on every promise. Noah Lyles ran a world-leading 9.79 and Sha&#39;Carri Richardson put on a show in the women&#39;s 100m. The 800m prelims produced some genuine surprises. We discuss: FINALS: - Women&#39;s 100m — Sha&#39;Carri Richardson, 10.77: Richardson was in a different gear, pulling away from the field by halfway to win in 10.77 — equaling her season&#39;s best and breaking the Icahn Stadium record. Star Athletics teammate Kayla White was second in 10.90, Tamari Davis third in 11.00. Richardson has now won three of the last four U.S. 100m titles. - Men&#39;s 100m — Noah Lyles, 9.79: Lyles delivered when it mattered most — his eighth USATF outdoor title and a wind-legal world lead of 9.79, equaling his lifetime best. Ronnie Baker ran a strong season&#39;s best of 9.88 for second, Kenny Bednarek third just 0.005 seconds behind Baker, also at 9.88. PRELIMS: - Women&#39;s 400m heats: Aaliyah Butler leads all qualifiers winning heat 2 in 50.53, Sanaria Butler won the final heat from lane 1 in 51.10. Alexis Holmes took heat 1 in 51.71. Britton Wilson grabbed the last final spot in 52.12. - Men&#39;s 400m heats: Christopher Bailey (45.14) looks like the favorite after a win from an inside lane. The big news — 2024 Olympic champion Quincy Hall fails to make the final, finishing sixth in 46.47. Hall has struggled all season. - Men&#39;s 800m heats: Cooper Lutkenhaus and Hobbs Kessler go 1-2 in heat 1 in 1:45 .83 and 1:45 .93; Wes Ferguson leads all qualifiers with a fierce homestretch move to win in 1:45 .17; Atlanta Track Club goes 1-2 in another heat — Sean Dolan ( 1:46 .11) and Camden Marshall ( 1:46 .40); Defending champion Donavan Brazier fails to advance, finishing fourth outside the time qualifiers in 1:46 .93. - Women&#39;s 800m heats: Roisin Willis takes heat 1 in 1:59 .83, overhauling Meghan Hunter in the final 50 meters; A tactical heat 2 produces only two qualifiers — Nia Akins ( 2:01 .78) and Juliette Whittaker ( 2:02 .22) advance. Ajee&#39; Wilson finishes third in 2:02 .45 and does not make the final; High school standout Paige Sheppard of Union Catholic (NJ) runs 2:00 .99 for fifth in heat 1 — fast enough for the last time qualifier spot, putting a high schooler in the final alongside the pros.'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1415435/1415435-1784945670802-495ddbbff4b01.jpg
+    episode_uid: 9b3534b9-10a2-4cda-82ce-d2b9af67d4a6
+    episode_slug: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
+    episode_key: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more/"
+    youtube_video_id: 1qrlb3IFDxg
   - episode_title: 'USATF OUTDOOR CHAMPIONSHIPS 2026: DAY 1 REACTIONS | WOODY KINCAID SHOCKS GRANT FISHER FOR 10K TITLE + MORE'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-OUTDOOR-CHAMPIONSHIPS-2026-DAY-1-REACTIONS--WOODY-KINCAID-SHOCKS-GRANT-FISHER-FOR-10K-TITLE--MORE-e3mfmgh
     audio_url: https://traffic.megaphone.fm/APO8337353260.mp3
@@ -30341,9 +30354,8 @@ episodes_by_feed:
     episode_uid: fa7cba1b-fff4-4310-8f37-f9b1152c1767
     episode_slug: usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more
     episode_key: usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more/"
-    youtube_video_id: 1qrlb3IFDxg
   - episode_title: Josh Kerr On How He Broke The Mile World Record In 3:42.66 | Full Race Recap, Breakdown + Reflections
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Josh-Kerr-On-How-He-Broke-The-Mile-World-Record-In-342-66--Full-Race-Recap--Breakdown--Reflections-e3mdm0m
     audio_url: https://traffic.megaphone.fm/APO5038413998.mp3
@@ -30354,7 +30366,7 @@ episodes_by_feed:
     episode_uid: 96451c65-c37d-4951-a6e3-b3b4e8d6ba2e
     episode_slug: josh-kerr-on-how-he-broke-the-mile-world-record-in-3-42-66-full-race-recap-breakdown-reflections
     episode_key: josh-kerr-on-how-he-broke-the-mile-world-record-in-3-42-66-full-race-recap-breakdown-reflections
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/citius-mag/josh-kerr-on-how-he-broke-the-mile-world-record-in-3-42-66-full-race-recap-breakdown-reflections/"
   - episode_title: 2026 USATF OUTDOOR CHAMPIONSHIPS PREVIEW
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/2026-USATF-OUTDOOR-CHAMPIONSHIPS-PREVIEW-e3mcikc
@@ -30366,7 +30378,7 @@ episodes_by_feed:
     episode_uid: b88b8e9f-b7bf-4b6e-ac59-aa722bf9702b
     episode_slug: 2026-usatf-outdoor-championships-preview
     episode_key: 2026-usatf-outdoor-championships-preview
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/citius-mag/2026-usatf-outdoor-championships-preview/"
   - episode_title: 'This Week In Track & Field: Recapping The Rest Of The London Diamond League + Preet’s Perspective Watching Josh Kerr’s World Record In-Stadium'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Recapping-The-Rest-Of-The-London-Diamond-League--Preets-Perspective-Watching-Josh-Kerrs-World-Record-In-Stadium-e3mb3ij
@@ -30378,7 +30390,7 @@ episodes_by_feed:
     episode_uid: a5b5227d-171e-4c3f-aa35-ba2c41fffdeb
     episode_slug: this-week-in-track-field-recapping-the-rest-of-the-london-diamond-league-preet-s-perspective-watching-josh-kerr-s-world-
     episode_key: this-week-in-track-field-recapping-the-rest-of-the-london-diamond-league-preet-s-perspective-watching-josh-kerr-s-world-
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/citius-mag/this-week-in-track-field-recapping-the-rest-of-the-london-diamond-league-preet-s-perspective-watching-josh-kerr-s-world-/"
   - episode_title: "\U0001F6A8 EMERGENCY PODCAST \U0001F6A8 JOSH KERR BREAKS THE MILE WORLD RECORD IN 3:42.66"
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/EMERGENCY-PODCAST--JOSH-KERR-BREAKS-THE-MILE-WORLD-RECORD-IN-342-66-e3m8bn9
@@ -30390,7 +30402,7 @@ episodes_by_feed:
     episode_uid: e3bdf985-e7d9-454e-8780-5b821c66ea1c
     episode_slug: emergency-podcast-josh-kerr-breaks-the-mile-world-record-in-3-42-66
     episode_key: emergency-podcast-josh-kerr-breaks-the-mile-world-record-in-3-42-66
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/citius-mag/emergency-podcast-josh-kerr-breaks-the-mile-world-record-in-3-42-66/"
   - episode_title: The Benefits Of Heat Training And Adaptation In Running With Clayton Young | Sponsored By CORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/The-Benefits-Of-Heat-Training-And-Adaptation-In-Running-With-Clayton-Young--Sponsored-By-CORE-e3m7r4p
@@ -30402,7 +30414,7 @@ episodes_by_feed:
     episode_uid: 489c85ea-f381-48db-a650-d48d95953c8b
     episode_slug: the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core
     episode_key: the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/citius-mag/the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core/"
   - episode_title: 'This Week In Track & Field: Emmanuel Wanyonyi Breaks The 1000m WR; Julien Alfred Goes 21.51 In Monaco + London Diamond League Preview (Josh Kerr & Keely Hodgkinson WR Odds)'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Emmanuel-Wanyonyi-Breaks-The-1000m-WR-Julien-Alfred-Goes-21-51-In-Monaco--London-Diamond-League-Preview-Josh-Kerr--Keely-Hodgkinson-WR-Odds-e3m1tu3
@@ -30414,7 +30426,7 @@ episodes_by_feed:
     episode_uid: fb4dc585-f412-4237-baca-5c4dc9ed04ea
     episode_slug: this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-
     episode_key: this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/citius-mag/this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-/"
   - episode_title: Marco Langon On Turning Pro, Signing With Diadora + Reflections On His NCAA Career At Villanova
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Marco-Langon-On-Turning-Pro--Signing-With-Diadora--Reflections-On-His-NCAA-Career-At-Villanova-e3lsf4t
@@ -30426,7 +30438,7 @@ episodes_by_feed:
     episode_uid: 4401638f-a612-4340-8e06-d41f7d2e2b9c
     episode_slug: marco-langon-on-turning-pro-signing-with-diadora-reflections-on-his-ncaa-career-at-villanova
     episode_key: marco-langon-on-turning-pro-signing-with-diadora-reflections-on-his-ncaa-career-at-villanova
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/citius-mag/marco-langon-on-turning-pro-signing-with-diadora-reflections-on-his-ncaa-career-at-villanova/"
   - episode_title: 'This Week In Track & Field: Prefontaine Classic Recap – Tate Taylor Goes 19.75; Nikki Hiltz Beats Faith Kipyegon; Cam Myers Wins The Bowerman Mile + More'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Prefontaine-Classic-Recap--Tate-Taylor-Goes-19-75-Nikki-Hiltz-Beats-Faith-Kipyegon-Cam-Myers-Wins-The-Bowerman-Mile--More-e3loc52
@@ -30438,7 +30450,7 @@ episodes_by_feed:
     episode_uid: 8e54ef27-d651-4254-a5e0-ef292f46bc6f
     episode_slug: this-week-in-track-field-prefontaine-classic-recap-tate-taylor-goes-19-75-nikki-hiltz-beats-faith-kipyegon-cam-myers-win
     episode_key: this-week-in-track-field-prefontaine-classic-recap-tate-taylor-goes-19-75-nikki-hiltz-beats-faith-kipyegon-cam-myers-win
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/citius-mag/this-week-in-track-field-prefontaine-classic-recap-tate-taylor-goes-19-75-nikki-hiltz-beats-faith-kipyegon-cam-myers-win/"
   - episode_title: 'CITIUS MAG | LIVE FROM EUGENE — DAY 2 AT PRE CLASSIC + SPECIAL GUESTS: DAWN STALEY, BRANDON MILLER, COOPER LUTKENHAUS, VAL ALLMAN, & SANDI MORRIS'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/CITIUS-MAG--LIVE-FROM-EUGENE--DAY-2-AT-PRE-CLASSIC--SPECIAL-GUESTS-DAWN-STALEY--BRANDON-MILLER--COOPER-LUTKENHAUS--VAL-ALLMAN---SANDI-MORRIS-e3llhcc
@@ -30450,7 +30462,7 @@ episodes_by_feed:
     episode_uid: 54dcab49-572f-42ad-8f70-c7542ee73892
     episode_slug: citius-mag-live-from-eugene-day-2-at-pre-classic-special-guests-dawn-staley-brandon-miller-cooper-lutkenhaus-val-allman-
     episode_key: citius-mag-live-from-eugene-day-2-at-pre-classic-special-guests-dawn-staley-brandon-miller-cooper-lutkenhaus-val-allman-
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/citius-mag/citius-mag-live-from-eugene-day-2-at-pre-classic-special-guests-dawn-staley-brandon-miller-cooper-lutkenhaus-val-allman-/"
   - episode_title: CITIUS MAG | LIVE FROM EUGENE — DAY 1 AT PRE CLASSIC
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/CITIUS-MAG--LIVE-FROM-EUGENE--DAY-1-AT-PRE-CLASSIC-e3lkr7b
@@ -30462,7 +30474,7 @@ episodes_by_feed:
     episode_uid: 26b7b3e7-2ab2-49a3-a909-4c94868aac92
     episode_slug: citius-mag-live-from-eugene-day-1-at-pre-classic
     episode_key: citius-mag-live-from-eugene-day-1-at-pre-classic
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/citius-mag/citius-mag-live-from-eugene-day-1-at-pre-classic/"
   - episode_title: Gary Martin On Turning Pro And Joining The Brooks Beasts
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Gary-Martin-On-Turning-Pro-And-Joining-The-Brooks-Beasts-e3lis0b
@@ -30474,7 +30486,7 @@ episodes_by_feed:
     episode_uid: 2a2f7f7b-152d-4d1a-83e9-c261ab27de87
     episode_slug: gary-martin-on-turning-pro-and-joining-the-brooks-beasts
     episode_key: gary-martin-on-turning-pro-and-joining-the-brooks-beasts
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/citius-mag/gary-martin-on-turning-pro-and-joining-the-brooks-beasts/"
   - episode_title: 2026 Prefontaine Classic Preview
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/2026-Prefontaine-Classic-Preview-e3li4os
@@ -30486,7 +30498,7 @@ episodes_by_feed:
     episode_uid: 77142103-6a3e-44a3-aedd-8616949f191e
     episode_slug: 2026-prefontaine-classic-preview
     episode_key: 2026-prefontaine-classic-preview
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/citius-mag/2026-prefontaine-classic-preview/"
   - episode_title: 'This Week In Track & Field: Three Diamond League Records In Paris; Audrey Werro Inches Closer To 800m WR; Femke Bol Goes 1:55; Cam Myers Solos A 3:28; Grant Fisher Gets His First Diamond League Win'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Three-Diamond-League-Records-In-Paris-Audrey-Werro-Inches-Closer-To-800m-WR-Femke-Bol-Goes-155-Cam-Myers-Solos-A-328-Grant-Fisher-Gets-His-First-Diamond-League-Win-e3lesnm
@@ -30498,7 +30510,7 @@ episodes_by_feed:
     episode_uid: 3eab4d9b-1edc-4820-9e98-a73618283bd2
     episode_slug: this-week-in-track-field-three-diamond-league-records-in-paris-audrey-werro-inches-closer-to-800m-wr-femke-bol-goes-1-55
     episode_key: this-week-in-track-field-three-diamond-league-records-in-paris-audrey-werro-inches-closer-to-800m-wr-femke-bol-goes-1-55
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/citius-mag/this-week-in-track-field-three-diamond-league-records-in-paris-audrey-werro-inches-closer-to-800m-wr-femke-bol-goes-1-55/"
   - episode_title: 'This Week In Track & Field: Is Cooper Lutkenhaus The Best 800m Runner In The World? NCAA Championships Goes Wild; What To Make Of Parker Valby’s 5K PR + Josh Kerr WR Odds Update'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Is-Cooper-Lutkenhaus-The-Best-800m-Runner-In-The-World--NCAA-Championships-Goes-Wild-What-To-Make-Of-Parker-Valbys-5K-PR--Josh-Kerr-WR-Odds-Update-e3kr2q2
@@ -30510,7 +30522,7 @@ episodes_by_feed:
     episode_uid: ae61366d-82b2-4399-bc19-a750bd35dd6c
     episode_slug: this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak
     episode_key: this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/citius-mag/this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak/"
   - episode_title: SANU JALLOW, DEJANEA OAKLEY & ADAEJAH HODGE SET NCAA RECORDS, DORIS LEMNGOLE DQ'D FROM 5K, GEORGIA WINS TEAM TITLE + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/SANU-JALLOW--DEJANEA-OAKLEY--ADAEJAH-HODGE-SET-NCAA-RECORDS--DORIS-LEMNGOLE-DQD-FROM-5K--GEORGIA-WINS-TEAM-TITLE--MORE-e3kopk5
@@ -30522,7 +30534,7 @@ episodes_by_feed:
     episode_uid: 684d9a69-b345-4f93-97db-6149535a5f44
     episode_slug: sanu-jallow-dejanea-oakley-adaejah-hodge-set-ncaa-records-doris-lemngole-dq-d-from-5k-georgia-wins-team-title-more
     episode_key: sanu-jallow-dejanea-oakley-adaejah-hodge-set-ncaa-records-doris-lemngole-dq-d-from-5k-georgia-wins-team-title-more
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/citius-mag/sanu-jallow-dejanea-oakley-adaejah-hodge-set-ncaa-records-doris-lemngole-dq-d-from-5k-georgia-wins-team-title-more/"
   - episode_title: SIMEON BIRNBAUM WINS 1500M TITLE ON HOME TRACK, SAMUEL OGAZI & JAIDEN REID SMASH NCAA SPRINT RECORDS, HABTOM SAMUEL COMPLETES THE DOUBLE + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/SIMEON-BIRNBAUM-WINS-1500M-TITLE-ON-HOME-TRACK--SAMUEL-OGAZI--JAIDEN-REID-SMASH-NCAA-SPRINT-RECORDS--HABTOM-SAMUEL-COMPLETES-THE-DOUBLE--MORE-e3knq2b
@@ -30534,7 +30546,7 @@ episodes_by_feed:
     episode_uid: 3bf30403-8c93-436b-ae89-cb602e139f05
     episode_slug: simeon-birnbaum-wins-1500m-title-on-home-track-samuel-ogazi-jaiden-reid-smash-ncaa-sprint-records-habtom-samuel-complete
     episode_key: simeon-birnbaum-wins-1500m-title-on-home-track-samuel-ogazi-jaiden-reid-smash-ncaa-sprint-records-habtom-samuel-complete
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/citius-mag/simeon-birnbaum-wins-1500m-title-on-home-track-samuel-ogazi-jaiden-reid-smash-ncaa-sprint-records-habtom-samuel-complete/"
   - episode_title: ADAEJAH HODGE’S 10.63 SHATTERS NCAA 100M RECORD, MERCYLINE KIRWA BEATS JANE HEDEGREN IN 10K, FASTEST 800M PRELIMS EVER + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/ADAEJAH-HODGES-10-63-SHATTERS-NCAA-100M-RECORD--MERCYLINE-KIRWA-BEATS-JANE-HEDEGREN-IN-10K--FASTEST-800M-PRELIMS-EVER--MORE-e3kmgjt
@@ -30546,7 +30558,7 @@ episodes_by_feed:
     episode_uid: 8486cb13-c6d0-47f3-bec7-7d098e2dd587
     episode_slug: adaejah-hodge-s-10-63-shatters-ncaa-100m-record-mercyline-kirwa-beats-jane-hedegren-in-10k-fastest-800m-prelims-ever-mor
     episode_key: adaejah-hodge-s-10-63-shatters-ncaa-100m-record-mercyline-kirwa-beats-jane-hedegren-in-10k-fastest-800m-prelims-ever-mor
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/citius-mag/adaejah-hodge-s-10-63-shatters-ncaa-100m-record-mercyline-kirwa-beats-jane-hedegren-in-10k-fastest-800m-prelims-ever-mor/"
   - episode_title: Agnes Ngetich On The Difficult Life & Upbringing That Made Her The World Record-Setting Runner She Is
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Agnes-Ngetich-On-The-Difficult-Life--Upbringing-That-Made-Her-The-World-Record-Setting-Runner-She-Is-e3klkh0
@@ -30558,7 +30570,7 @@ episodes_by_feed:
     episode_uid: 2ef6c175-fc8e-4e37-8447-d4dab89a68ae
     episode_slug: agnes-ngetich-on-the-difficult-life-upbringing-that-made-her-the-world-record-setting-runner-she-is
     episode_key: agnes-ngetich-on-the-difficult-life-upbringing-that-made-her-the-world-record-setting-runner-she-is
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/citius-mag/agnes-ngetich-on-the-difficult-life-upbringing-that-made-her-the-world-record-setting-runner-she-is/"
   - episode_title: JA’KOBE THARP RUNS 110H WORLD RECORD, HABTOM SAMUEL RECLAIMS 10K TITLE, DISTANCE FAVORITES MAKE IT THROUGH PRELIMS + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/JAKOBE-THARP-RUNS-110H-WORLD-RECORD--HABTOM-SAMUEL-RECLAIMS-10K-TITLE--DISTANCE-FAVORITES-MAKE-IT-THROUGH-PRELIMS--MORE-e3kkt3u
@@ -30570,7 +30582,7 @@ episodes_by_feed:
     episode_uid: ef8c607f-e9cd-44ab-8976-704edad2248c
     episode_slug: ja-kobe-tharp-runs-110h-world-record-habtom-samuel-reclaims-10k-title-distance-favorites-make-it-through-prelims-more
     episode_key: ja-kobe-tharp-runs-110h-world-record-habtom-samuel-reclaims-10k-title-distance-favorites-make-it-through-prelims-more
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/citius-mag/ja-kobe-tharp-runs-110h-world-record-habtom-samuel-reclaims-10k-title-distance-favorites-make-it-through-prelims-more/"
   - episode_title: 'This Week In Track & Field: Audrey Werro Stuns Keely Hodgkinson With 3rd Fastest 800m All-Time; Cooper Lutkenhaus Wins Diamond League Debut, Yared Nuguse Gets His Swagger Back + Stockholm & Rome Recap'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Audrey-Werro-Stuns-Keely-Hodgkinson-With-3rd-Fastest-800m-All-Time-Cooper-Lutkenhaus-Wins-Diamond-League-Debut--Yared-Nuguse-Gets-His-Swagger-Back--Stockholm--Rome-Recap-e3kh61i
@@ -30582,7 +30594,7 @@ episodes_by_feed:
     episode_uid: 1f04b68d-5500-46a1-a06d-a7e752d56503
     episode_slug: this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo
     episode_key: this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/citius-mag/this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo/"
   - episode_title: Why St. Louis Was Selected To Host The 2028 U.S. Olympic Marathon Trials, Beating Out Phoenix | Ft. USATF CEO Max Siegel, Jackie Joyner-Kersee + Marc Schreiber Of The St. Louis Sports Commission
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Why-St--Louis-Was-Selected-To-Host-The-2028-U-S--Olympic-Marathon-Trials--Beating-Out-Phoenix--Ft--USATF-CEO-Max-Siegel--Jackie-Joyner-Kersee--Marc-Schreiber-Of-The-St--Louis-Sports-Commission-e3kbagk
@@ -30594,7 +30606,7 @@ episodes_by_feed:
     episode_uid: bcfbb2bb-852a-4bea-b331-9693aabd011f
     episode_slug: why-st-louis-was-selected-to-host-the-2028-u-s-olympic-marathon-trials-beating-out-phoenix-ft-usatf-ceo-max-siegel-jacki
     episode_key: why-st-louis-was-selected-to-host-the-2028-u-s-olympic-marathon-trials-beating-out-phoenix-ft-usatf-ceo-max-siegel-jacki
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/citius-mag/why-st-louis-was-selected-to-host-the-2028-u-s-olympic-marathon-trials-beating-out-phoenix-ft-usatf-ceo-max-siegel-jacki/"
   - episode_title: 'This Week In Track & Field: Rabat Diamond League Takeaways + Rome & Stockholm Preview As Keely Hodgkinson, Melissa Jefferson-Wooden And Noah Lyles Are In Action'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Rabat-Diamond-League-Takeaways--Rome--Stockholm-Preview-As-Keely-Hodgkinson--Melissa-Jefferson-Wooden-And-Noah-Lyles-Are-In-Action-e3k9sh4
@@ -30606,7 +30618,7 @@ episodes_by_feed:
     episode_uid: 9b0233d2-d80d-4aba-b4d2-c410379c77a1
     episode_slug: this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo
     episode_key: this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/citius-mag/this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo/"
   - episode_title: 'Meet Sam Blaskowski: The D3 Kid Who Just Ran 9.89 For 100m'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Meet-Sam-Blaskowski-The-D3-Kid-Who-Just-Ran-9-89-For-100m-e3k6qlf
@@ -30618,20 +30630,8 @@ episodes_by_feed:
     episode_uid: cd82f11e-6e0e-4b4e-a052-92bfdb4ba7ed
     episode_slug: meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m
     episode_key: meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/citius-mag/meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m/"
-  - episode_title: Emma Grace Hurley On Her Breakout 2025 & 2026 Seasons, Making Team USA For World Road Running Championships, Breaking An American Record + Anticipation For Her Marathon Debut
-    episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Emma-Grace-Hurley-On-Her-Breakout-2025--2026-Seasons--Making-Team-USA-For-World-Road-Running-Championships--Breaking-An-American-Record--Anticipation-For-Her-Marathon-Debut-e3k1cob
-    audio_url: https://traffic.megaphone.fm/APO9481860268.mp3
-    published_at: '2026-05-28T17:40:00+00:00'
-    description_html: '<p><em>“By the time we get there, I don’t think we’ll leave any stone unturned for the first one. There’s still room to grow, but I do think I’ll be very ready.”</em></p><p>My guest for today’s episode is <strong>Emma Grace Hurley</strong>: an ASICS athlete and one of the most consistent American road racers of the last two years. She trains under Andrew and Amy Begley at Heartland Track Club in Indianapolis, and in 2026 she has already set the American Record at 8K (24:29 at the Shamrock Shuffle), won the USATF 10-Mile title at Cherry Blossom, won the 25K title at the Gate River Run and finished second at the USATF 5K Championships in her own city, running 15:00 flat to miss the sub-15 barrier by four-tenths of a second.</p><p>She is also, as of this week, officially confirmed as one of the scoring members of the U.S. half marathon team for Copenhagen — one of the three athletes who were misdirected in the closing mile of the USATF Half Marathon Championships in Atlanta in March. World Athletics granted a special exception that will allow seven American women to compete, with Jess McClain, Emma Grace, and Ednah Kurgat as the scoring athletes alongside Weini Kelati. The top three official finishers — Molly Born, Carrie Ellwood, and Annie Rodenfels — will make their international debuts as non-scoring athletes.</p><p>What makes Emma Grace one of the more interesting stories in American distance running right now is the shape of her career. She graduated from Furman in 2020 with a 15:57 5K personal best, quit running entirely, took a client associate job at JP Morgan, and did not think she was coming back to the sport. She is now a 15:00 road 5K runner, an 8K American record holder, a national 10-mile champion, and a two-event Worlds qualifier. She has not run a marathon yet — it’s happening this fall.</p><p>In this conversation, recorded in Brooklyn, we get into all of it: what it actually took to bounce back after Atlanta and immediately set a national record three weeks later, why she doesn’t love the track but is a 15-flat road 5K runner, the Cherry Blossom 10-mile where she lost the overall by one second to a woman who finished seventh in the 10,000m at the Tokyo Olympics, the moment she finally felt like the long slow build was paying off, and what scares her most about the marathon block ahead.</p><p>____________</p><ul><li><strong>Host:</strong> Chris Chavez | ⁠<a href="https://www.instagram.com/chris_j_chavez/" target="_blank" rel="ugc noopener noreferrer">⁠⁠@chris_j_chavez⁠</a></li><li><strong>Guest:</strong> Emma Grace Hurley | <a href="https://www.instagram.com/emmagracehurley/" target="_blank" rel="ugc noopener noreferrer">@emmagracehurley</a></li><li><strong>Produced by: </strong>Jasmine Fehr |<a href="https://www.instagram.com/jasminefehr/?hl=en" target="_blank" rel="ugc noopener noreferrer">⁠ ⁠⁠⁠@jasminefehr⁠</a></li></ul><p>____________</p><p><strong>SUPPORT OUR SPONSORS</strong></p><ul><li><strong>XENDURANCE:</strong> Xendurance Protein is designed specifically to help your body recover, rebuild, and get stronger after training. It combines four different types of protein, so your body gets both fast absorbing protein for immediate recovery and slower release protein to support muscle repair over time. ⁠⁠<a href="http://xendurance.com">⁠⁠⁠⁠⁠Check it out at Xendurance.com and use code CITIUS for 25% off your first order.⁠⁠⁠⁠⁠</a></li><li><strong>VELOUS: </strong>VELOUS makes recovery footwear designed to help runners bounce back faster between sessions. Their sandals feature Tri-Motion™ Technology: a technical three-density foam system and contoured footbed engineered to cushion impact, support your arches, and help your toes stretch and relax on every step. Run. Recover. Repeat. with VELOUS! <a href="https://www.velousfootwear.com/">⁠⁠⁠⁠⁠Get 20% off your VELOUS order with code CITIUSMAG20 at checkout including FREE Shipping!⁠⁠⁠⁠⁠</a></li><li><strong>OLIPOP: </strong>Raspberry Sherbet is a limited-edition, nostalgic new flavor that blends tangy raspberry with creamy vanilla. Every can of Olipop contains their Olismart blend, which includes ingredients designed to support digestive health and help feed your gut microbiome. If you haven&#39;t had tried Olipop yet, grab a can and see what the hype is all about!⁠⁠ <a href="https://olipop.pxf.io/GmBDD6">⁠⁠⁠⁠⁠⁠Head to DrinkOlipop.com and use code CITIUS25 at checkout to get 25% off your orders.⁠⁠</a></li></ul>'
-    description_plain: "“By the time we get there, I don’t think we’ll leave any stone unturned for the first one. There’s still room to grow, but I do think I’ll be very ready.” My guest for today’s episode is Emma Grace Hurley : an ASICS athlete and one of the most consistent American road racers of the last two years. She trains under Andrew and Amy Begley at Heartland Track Club in Indianapolis, and in 2026 she has already set the American Record at 8K (24:29 at the Shamrock Shuffle), won the USATF 10-Mile title at Cherry Blossom, won the 25K title at the Gate River Run and finished second at the USATF 5K Championships in her own city, running 15:00 flat to miss the sub-15 barrier by four-tenths of a second. She is also, as of this week, officially confirmed as one of the scoring members of the U.S. half marathon team for Copenhagen — one of the three athletes who were misdirected in the closing mile of the USATF Half Marathon Championships in Atlanta in March. World Athletics granted a special exception that will allow seven American women to compete, with Jess McClain, Emma Grace, and Ednah Kurgat as the scoring athletes alongside Weini Kelati. The top three official finishers — Molly Born, Carrie Ellwood, and Annie Rodenfels — will make their international debuts as non-scoring athletes. What makes Emma Grace one of the more interesting stories in American distance running right now is the shape of her career. She graduated from Furman in 2020 with a 15:57 5K personal best, quit running entirely, took a client associate job at JP Morgan, and did not think she was coming back to the sport. She is now a 15:00 road 5K runner, an 8K American record holder, a national 10-mile champion, and a two-event Worlds qualifier. She has not run a marathon yet — it’s happening this fall. In this conversation, recorded in Brooklyn, we get into all of it: what it actually took to bounce back after Atlanta and immediately set a national record three weeks later, why she doesn’t love the track but is a 15-flat road 5K runner, the Cherry Blossom 10-mile where she lost the overall by one second to a woman who finished seventh in the 10,000m at the Tokyo Olympics, the moment she finally felt like the long slow build was paying off, and what scares her most about the marathon block ahead. ____________ Host: Chris Chavez | ⁠ ⁠⁠@chris_j_chavez⁠ Guest: Emma Grace Hurley | @emmagracehurley Produced by: Jasmine Fehr | ⁠ ⁠⁠⁠@jasminefehr⁠ ____________ SUPPORT OUR SPONSORS XENDURANCE: Xendurance Protein is designed specifically to help your body recover, rebuild, and get stronger after training. It combines four different types of protein, so your body gets both fast absorbing protein for immediate recovery and slower release protein to support muscle repair over time. ⁠⁠ ⁠⁠⁠⁠⁠Check it out at Xendurance.com and use code CITIUS for 25% off your first order.⁠⁠⁠⁠⁠ VELOUS: VELOUS makes recovery footwear designed to help runners bounce back faster between sessions. Their sandals feature Tri-Motion™ Technology: a technical three-density foam system and contoured footbed engineered to cushion impact, support your arches, and help your toes stretch and relax on every step. Run. Recover. Repeat. with VELOUS! ⁠⁠⁠⁠⁠Get 20% off your VELOUS order with code CITIUSMAG20 at checkout including FREE Shipping!⁠⁠⁠⁠⁠ OLIPOP: Raspberry Sherbet is a limited-edition, nostalgic new flavor that blends tangy raspberry with creamy vanilla. Every can of Olipop contains their Olismart blend, which includes ingredients designed to support digestive health and help feed your gut microbiome. If you haven&#39;t had tried Olipop yet, grab a can and see what the hype is all about!⁠⁠ ⁠⁠⁠⁠⁠⁠Head to DrinkOlipop.com and use code CITIUS25 at checkout to get 25% off your orders.⁠⁠"
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1415435/1415435-1779989760979-c80d513fe65b6.jpg
-    episode_uid: cd780739-27ce-4286-ab0d-81af65510686
-    episode_slug: emma-grace-hurley-on-her-breakout-2025-2026-seasons-making-team-usa-for-world-road-running-championships-breaking-an-ame
-    episode_key: emma-grace-hurley-on-her-breakout-2025-2026-seasons-making-team-usa-for-world-road-running-championships-breaking-an-ame
     legacy_numbered_slug: episode-25
-    episode_page_url: "/citius-mag/emma-grace-hurley-on-her-breakout-2025-2026-seasons-making-team-usa-for-world-road-running-championships-breaking-an-ame/"
+    episode_page_url: "/citius-mag/meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m/"
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
