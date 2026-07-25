@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-25T05:10:41Z'
+generated_at: '2026-07-25T06:53:53Z'
 items:
 - podcast_title: CITIUS MAG Podcast
   podcast_page_url: "/citius-mag/"
@@ -794,6 +794,18 @@ items:
   episode_slug: ingravidos-5x18-08-01-2021
   episode_page_url: "/ingravidos/ingravidos-5x18-08-01-2021/"
 non_running_items:
+- podcast_title: Sommar & Vinter i P1
+  podcast_page_url: "/sommar-vinter-i-p1/"
+  cover_image: "/media/sommarochvinter.jpg"
+  feed_url: https://sr-restored.se/rss/2071
+  filter_category: uncategorized swedish
+  episode_title: Ewa Fröling
+  episode_url: https://www.sverigesradio.se/avsnitt/2815547
+  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_ewa_froling_podd_20260716_1200532361.mp3
+  published_at: '2026-07-25T11:00:00Z'
+  episode_key: ewa-froling
+  episode_slug: ewa-froling
+  episode_page_url: "/sommar-vinter-i-p1/ewa-froling/"
 - podcast_title: THEMOVE
   podcast_page_url: "/themove/"
   cover_image: "/media/themove.jpeg"
@@ -818,18 +830,6 @@ non_running_items:
   episode_key: kort-forklart-trump-pastar-at-norge-tar-for-lett-pa-tvangsarbeid-innforer-okt-toll
   episode_slug: kort-forklart-trump-pastar-at-norge-tar-for-lett-pa-tvangsarbeid-innforer-okt-toll
   episode_page_url: "/forklart/kort-forklart-trump-pastar-at-norge-tar-for-lett-pa-tvangsarbeid-innforer-okt-toll/"
-- podcast_title: Sommar & Vinter i P1
-  podcast_page_url: "/sommar-vinter-i-p1/"
-  cover_image: "/media/sommarochvinter.jpg"
-  feed_url: https://sr-restored.se/rss/2071
-  filter_category: uncategorized swedish
-  episode_title: Sara-Vide Ericson
-  episode_url: https://www.sverigesradio.se/avsnitt/2815548
-  audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_saravide_eric_20260721_1245116022.mp3
-  published_at: '2026-07-24T11:00:00Z'
-  episode_key: sara-vide-ericson
-  episode_slug: sara-vide-ericson
-  episode_page_url: "/sommar-vinter-i-p1/sara-vide-ericson/"
 - podcast_title: Hard Fork
   podcast_page_url: "/hard-fork/"
   cover_image: "/media/hardfork.jpeg"
@@ -18634,6 +18634,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-10
     episode_page_url: "/oppdatert/kampen-vi-aldri-glemmer-kan-historien-gjenta-seg/"
   https://sr-restored.se/rss/2071: &61
+  - episode_title: Ewa Fröling
+    episode_url: https://www.sverigesradio.se/avsnitt/2815547
+    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_ewa_froling_podd_20260716_1200532361.mp3
+    published_at: '2026-07-25T11:00:00Z'
+    description_html: <p>Skådespelaren om hur det tagit ett helt liv att bli till.</p><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
+    description_plain: Skådespelaren om hur det tagit ett helt liv att bli till. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
+    episode_image_url: https://static-cdn.sr.se/images/2071/26c851eb-70be-4004-b06d-a7bcc792c959.jpg?preset=api-default-square
+    episode_uid: rss-sr-se-pod-eid-2815547
+    episode_slug: ewa-froling
+    episode_key: ewa-froling
+    legacy_unicode_slug: ewa-fröling
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/sommar-vinter-i-p1/ewa-froling/"
   - episode_title: Sara-Vide Ericson
     episode_url: https://www.sverigesradio.se/avsnitt/2815548
     audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/07/program_sommar_i_p1_med_saravide_eric_20260721_1245116022.mp3
@@ -18644,7 +18657,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815548
     episode_slug: sara-vide-ericson
     episode_key: sara-vide-ericson
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/sommar-vinter-i-p1/sara-vide-ericson/"
   - episode_title: Kajsa Ollongren
     episode_url: https://www.sverigesradio.se/avsnitt/2815525
@@ -18656,7 +18669,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815525
     episode_slug: kajsa-ollongren
     episode_key: kajsa-ollongren
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/sommar-vinter-i-p1/kajsa-ollongren/"
   - episode_title: Robin Larmérus
     episode_url: https://www.sverigesradio.se/avsnitt/2815524
@@ -18669,7 +18682,7 @@ episodes_by_feed:
     episode_slug: robin-larmerus
     episode_key: robin-larmerus
     legacy_unicode_slug: robin-larmérus
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/sommar-vinter-i-p1/robin-larmerus/"
   - episode_title: Maria Sid
     episode_url: https://www.sverigesradio.se/avsnitt/2815523
@@ -18681,7 +18694,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815523
     episode_slug: maria-sid
     episode_key: maria-sid
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/sommar-vinter-i-p1/maria-sid/"
   - episode_title: Iqra Idow
     episode_url: https://www.sverigesradio.se/avsnitt/2815522
@@ -18693,7 +18706,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815522
     episode_slug: iqra-idow
     episode_key: iqra-idow
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/sommar-vinter-i-p1/iqra-idow/"
   - episode_title: Ruth Kvarnström-Jones
     episode_url: https://www.sverigesradio.se/avsnitt/2815520
@@ -18706,7 +18719,7 @@ episodes_by_feed:
     episode_slug: ruth-kvarnstrom-jones
     episode_key: ruth-kvarnstrom-jones
     legacy_unicode_slug: ruth-kvarnström-jones
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/sommar-vinter-i-p1/ruth-kvarnstrom-jones/"
   - episode_title: Jan Rippe
     episode_url: https://www.sverigesradio.se/avsnitt/2815469
@@ -18718,7 +18731,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815469
     episode_slug: jan-rippe
     episode_key: jan-rippe
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/sommar-vinter-i-p1/jan-rippe/"
   - episode_title: Anders Rosengren
     episode_url: https://www.sverigesradio.se/avsnitt/2815518
@@ -18730,7 +18743,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815518
     episode_slug: anders-rosengren
     episode_key: anders-rosengren
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/sommar-vinter-i-p1/anders-rosengren/"
   - episode_title: Elaf Ali
     episode_url: https://www.sverigesradio.se/avsnitt/2815517
@@ -18742,7 +18755,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815517
     episode_slug: elaf-ali
     episode_key: elaf-ali
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/sommar-vinter-i-p1/elaf-ali/"
   - episode_title: 'Poddtips: P3 ID om Melania Trump'
     episode_url: https://www.sverigesradio.se/avsnitt/2830731
@@ -18754,7 +18767,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2830731
     episode_slug: poddtips-p3-id-om-melania-trump
     episode_key: poddtips-p3-id-om-melania-trump
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/sommar-vinter-i-p1/poddtips-p3-id-om-melania-trump/"
   - episode_title: Bettan Byvald
     episode_url: https://www.sverigesradio.se/avsnitt/2815516
@@ -18766,7 +18779,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815516
     episode_slug: bettan-byvald
     episode_key: bettan-byvald
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/sommar-vinter-i-p1/bettan-byvald/"
   - episode_title: Ebba Kleberg von Sydow
     episode_url: https://www.sverigesradio.se/avsnitt/2815515
@@ -18778,7 +18791,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815515
     episode_slug: ebba-kleberg-von-sydow
     episode_key: ebba-kleberg-von-sydow
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/sommar-vinter-i-p1/ebba-kleberg-von-sydow/"
   - episode_title: Emil Hansius
     episode_url: https://www.sverigesradio.se/avsnitt/2815511
@@ -18790,7 +18803,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815511
     episode_slug: emil-hansius
     episode_key: emil-hansius
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/sommar-vinter-i-p1/emil-hansius/"
   - episode_title: Martin Modéus
     episode_url: https://www.sverigesradio.se/avsnitt/2815510
@@ -18803,7 +18816,7 @@ episodes_by_feed:
     episode_slug: martin-modeus
     episode_key: martin-modeus
     legacy_unicode_slug: martin-modéus
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/sommar-vinter-i-p1/martin-modeus/"
   - episode_title: Amanda Jansson
     episode_url: https://www.sverigesradio.se/avsnitt/2815509
@@ -18815,7 +18828,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815509
     episode_slug: amanda-jansson
     episode_key: amanda-jansson
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/sommar-vinter-i-p1/amanda-jansson/"
   - episode_title: Carl Skau
     episode_url: https://www.sverigesradio.se/avsnitt/2815488
@@ -18827,7 +18840,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815488
     episode_slug: carl-skau
     episode_key: carl-skau
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/sommar-vinter-i-p1/carl-skau/"
   - episode_title: Evelyn Mok
     episode_url: https://www.sverigesradio.se/avsnitt/2815484
@@ -18839,7 +18852,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815484
     episode_slug: evelyn-mok
     episode_key: evelyn-mok
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/sommar-vinter-i-p1/evelyn-mok/"
   - episode_title: Sebastian Siemiatkowski
     episode_url: https://www.sverigesradio.se/avsnitt/2815483
@@ -18851,7 +18864,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815483
     episode_slug: sebastian-siemiatkowski
     episode_key: sebastian-siemiatkowski
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/sommar-vinter-i-p1/sebastian-siemiatkowski/"
   - episode_title: Behrang Safari
     episode_url: https://www.sverigesradio.se/avsnitt/2815479
@@ -18863,7 +18876,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815479
     episode_slug: behrang-safari
     episode_key: behrang-safari
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/sommar-vinter-i-p1/behrang-safari/"
   - episode_title: Erika Bjerström
     episode_url: https://www.sverigesradio.se/avsnitt/2815478
@@ -18876,7 +18889,7 @@ episodes_by_feed:
     episode_slug: erika-bjerstrom
     episode_key: erika-bjerstrom
     legacy_unicode_slug: erika-bjerström
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/sommar-vinter-i-p1/erika-bjerstrom/"
   - episode_title: Marie Göranzon
     episode_url: https://www.sverigesradio.se/avsnitt/2815477
@@ -18889,7 +18902,7 @@ episodes_by_feed:
     episode_slug: marie-goranzon
     episode_key: marie-goranzon
     legacy_unicode_slug: marie-göranzon
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/sommar-vinter-i-p1/marie-goranzon/"
   - episode_title: Olof Wretling
     episode_url: https://www.sverigesradio.se/avsnitt/2815476
@@ -18901,7 +18914,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815476
     episode_slug: olof-wretling
     episode_key: olof-wretling
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/sommar-vinter-i-p1/olof-wretling/"
   - episode_title: Ann Heberlein
     episode_url: https://www.sverigesradio.se/avsnitt/2815475
@@ -18913,7 +18926,7 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815475
     episode_slug: ann-heberlein
     episode_key: ann-heberlein
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/sommar-vinter-i-p1/ann-heberlein/"
   - episode_title: Maria Maunsbach
     episode_url: https://www.sverigesradio.se/avsnitt/2815526
@@ -18925,21 +18938,8 @@ episodes_by_feed:
     episode_uid: rss-sr-se-pod-eid-2815526
     episode_slug: maria-maunsbach
     episode_key: maria-maunsbach
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
-  - episode_title: 'Poddtips: Dagens Eko förklarar en stor nyhet varje vardag'
-    episode_url: https://www.sverigesradio.se/avsnitt/2830718
-    audio_url: https://static-cdn.sr.se/laddahem/podradio/2026/06/sommar__vinter_i_p1_poddtips_dagens_eko_forklarar_20260630_1256379082.mp3
-    published_at: '2026-07-01T15:00:00Z'
-    description_html: <p>Dagens Eko fördjupar sig i en stor nyhet varje vardag, året om. Lyssna, och följ, för att få koll.</p><p>Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av <a href="https://sr-restored.se">SR-restored</a> då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på <a href="https://sr-restored.se">sr-restored.se</a>.</p>
-    description_plain: Dagens Eko fördjupar sig i en stor nyhet varje vardag, året om. Lyssna, och följ, för att få koll. Innehållet i denna podcast kommer från Sveriges Radio. Podcastflödet har tillgängliggjorts av SR-restored då Sveriges Radio ej publicerar alla poddar i sina RSS-flöden. Läs mer på sr-restored.se .
-    episode_image_url: https://static-cdn.sr.se/images/2071/1f00e152-ff3b-4f7d-a295-2260e6508c21.jpg?preset=api-default-square
-    episode_uid: rss-sr-se-pod-eid-2830718
-    episode_slug: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
-    episode_key: poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag
-    legacy_unicode_slug: poddtips-dagens-eko-förklarar-en-stor-nyhet-varje-vardag
     legacy_numbered_slug: episode-25
-    episode_page_url: "/sommar-vinter-i-p1/poddtips-dagens-eko-forklarar-en-stor-nyhet-varje-vardag/"
+    episode_page_url: "/sommar-vinter-i-p1/maria-maunsbach/"
   https://feeds.megaphone.fm/90gramosmethub: &62
   - episode_title: Episodio 10 - Kilian Jornet y el Everest
     episode_url: ''
@@ -22818,18 +22818,18 @@ episodes_by_feed:
     episode_key: most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track
     legacy_numbered_slug: episode-10
     episode_page_url: "/the-diary-of-a-ceo/most-replayed-moment-the-mid-year-reset-atomic-habits-author-on-how-to-get-back-on-track/"
-  - episode_title: 'Dr. Martin Picard: How Stress Physically Drains Your Cells, Why You’re Tired & How to Reverse It'
+  - episode_title: 'Anti-Aging Expert: This Reverses Gray Hair & Boosts Your Energy!'
     episode_url: ''
-    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=wk2nwlsq4lgk2wy3i3q7nxfa
+    audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KWGKVP7CVWP8XJKK31184WCA.mp3?fcv=mlxyarlx12omk7tsqga9msuf
     published_at: '2026-07-02T05:22:37Z'
     description_html: '<p>The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age!</p><p><strong>He explains:</strong></p><p>◼️Why depression is really an energy problem, not just in your head</p><p>◼️Why eating more food won''t give you more energy, and what actually will</p><p>◼️How training for a marathon can double the mitochondria in your muscles</p><p>◼️Why people with a strong sense of purpose have more powerful mitochondria</p><p>◼️Why cancer cells abandon their mitochondria, and what it means for treating them</p><p><strong>Follow Dr Martin:</strong></p><ul><li>Website - <a target="_blank" rel="noopener noreferrer nofollow" href="https://link.thediaryofaceo.com/BqY0OhF">https://link.thediaryofaceo.com/BqY0OhF</a></li><li>Substack - <a target="_blank" rel="noopener noreferrer nofollow" href="https://link.thediaryofaceo.com/4aOc0rk">https://link.thediaryofaceo.com/4aOc0rk</a></li><li>Metabolic Psychiatry and Ketogenic Diet - <a target="_blank" rel="noopener noreferrer nofollow" href="https://link.thediaryofaceo.com/GexHJoI">https://link.thediaryofaceo.com/GexHJoI</a></li><li>X - <a target="_blank" rel="noopener noreferrer nofollow" href="https://link.thediaryofaceo.com/Fs8WGvj">https://link.thediaryofaceo.com/Fs8WGvj</a></li><li>Instagram - <a target="_blank" rel="noopener noreferrer nofollow" href="https://link.thediaryofaceo.com/BsNZ7vH">https://link.thediaryofaceo.com/BsNZ7vH</a></li><li>You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: <a target="_blank" rel="noopener noreferrer nofollow" href="https://link.thediaryofaceo.com/5jW5yUA">https://link.thediaryofaceo.com/5jW5yUA</a></li></ul><p><strong>The Diary Of A CEO:</strong></p><ul><li>◼ Join DOAC circle here - <a target="_blank" rel="noopener noreferrer nofollow" href="https://doaccircle.com/">https://doaccircle.com/</a></li><li>◼ Buy The Diary Of A CEO book here - <a target="_blank" rel="noopener noreferrer nofollow" href="https://smarturl.it/DOACbook">https://smarturl.it/DOACbook</a></li><li>◼ The 1% Diary is back - limited time only: <a target="_blank" rel="noopener noreferrer nofollow" href="https://bit.ly/3YFbJbt">https://bit.ly/3YFbJbt</a></li><li>◼ The Diary Of A CEO Conversation Cards: <a target="_blank" rel="noopener noreferrer nofollow" href="https://linkly.link/2hm7r">https://linkly.link/2hm7r</a></li><li>◼ Get email updates - <a target="_blank" rel="noopener noreferrer nofollow" href="https://bit.ly/diary-of-a-ceo-yt">https://bit.ly/diary-of-a-ceo-yt</a></li><li>◼ Follow Steven - <a target="_blank" rel="noopener noreferrer nofollow" href="https://g2ul0.app.link/gnGqL4IsKKb">https://g2ul0.app.link/gnGqL4IsKKb</a></li></ul><p><strong>Sponsors:</strong></p><ul><li>KetoneIQ - Visit <a target="_blank" rel="noopener noreferrer" href="https://ketone.com/STEVEN">https://ketone.com/STEVEN</a> for 30% off your subscription order</li><li>Cometeer - <a target="_blank" rel="noopener noreferrer nofollow" href="https://cometeer.com/DOAC">https://cometeer.com/DOAC</a> use code DOAC for $20 off</li><li>Bon Charge: <a target="_blank" rel="noopener noreferrer nofollow" href="https://boncharge.com/DOAC">https://boncharge.com/DOAC</a> for 20% off</li></ul>'
     description_plain: 'The Mitochondria Scientist Dr Martin Picard reveals why stress is secretly burning 60% of your daily energy, the science behind reversing grey hair, and why your mitochondria - not your genes - determine how fast you age! He explains: ◼️Why depression is really an energy problem, not just in your head ◼️Why eating more food won''t give you more energy, and what actually will ◼️How training for a marathon can double the mitochondria in your muscles ◼️Why people with a strong sense of purpose have more powerful mitochondria ◼️Why cancer cells abandon their mitochondria, and what it means for treating them Follow Dr Martin: Website - https://link.thediaryofaceo.com/BqY0OhF Substack - https://link.thediaryofaceo.com/4aOc0rk Metabolic Psychiatry and Ketogenic Diet - https://link.thediaryofaceo.com/GexHJoI X - https://link.thediaryofaceo.com/Fs8WGvj Instagram - https://link.thediaryofaceo.com/BsNZ7vH You can find out more about Dr Martin’s upcoming book, ‘Energy’, here: https://link.thediaryofaceo.com/5jW5yUA The Diary Of A CEO: ◼ Join DOAC circle here - https://doaccircle.com/ ◼ Buy The Diary Of A CEO book here - https://smarturl.it/DOACbook ◼ The 1% Diary is back - limited time only: https://bit.ly/3YFbJbt ◼ The Diary Of A CEO Conversation Cards: https://linkly.link/2hm7r ◼ Get email updates - https://bit.ly/diary-of-a-ceo-yt ◼ Follow Steven - https://g2ul0.app.link/gnGqL4IsKKb Sponsors: KetoneIQ - Visit https://ketone.com/STEVEN for 30% off your subscription order Cometeer - https://cometeer.com/DOAC use code DOAC for $20 off Bon Charge: https://boncharge.com/DOAC for 20% off'
     episode_image_url: https://files.flightcast.com/workspaces/edpmsc3wdznn1aa2txug5e3p/01KWGKWEFH9HN2N2T5TXV4NKGX/dr._martin_plcard.ep_cover_.jpg
     episode_uid: flightcast-01kwgkvp7ck70b0v0tba66ndaa
-    episode_slug: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
-    episode_key: dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it
+    episode_slug: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
+    episode_key: anti-aging-expert-this-reverses-gray-hair-boosts-your-energy
     legacy_numbered_slug: episode-11
-    episode_page_url: "/the-diary-of-a-ceo/dr-martin-picard-how-stress-physically-drains-your-cells-why-you-re-tired-how-to-reverse-it/"
+    episode_page_url: "/the-diary-of-a-ceo/anti-aging-expert-this-reverses-gray-hair-boosts-your-energy/"
   - episode_title: 'Women’s Fitness Expert: What You NEED To Know About Dieting & Exercise | Dr. Stephanie Estima'
     episode_url: ''
     audio_url: https://pdst.fm/e/pscrb.fm/rss/p/mgln.ai/e/1390/claritaspod.com/measure/p.podderapp.com/2544644999/mgln.ai/e/1651/episode.flightcast.com/01KW360AZ5WMQFTCMQBDWEDQ1A.mp3
