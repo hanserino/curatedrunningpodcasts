@@ -7,15 +7,12 @@
 #
 # Alternative: set Source to "GitHub Actions" and run this workflow.
 # Do NOT click "Configure" on GitHub's suggested Jekyll workflow.
+#
+# This workflow runs after CI Jekyll builds only (not on every docs/ push) so
+# Pages deployments do not race with GitHub's built-in pages deployment.
 name: Deploy GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - "docs/**"
-      - "CNAME"
   workflow_dispatch:
   workflow_run:
     workflows:
@@ -33,7 +30,7 @@ permissions:
 
 concurrency:
   group: pages-deploy
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
