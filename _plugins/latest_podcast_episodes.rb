@@ -13,6 +13,7 @@ require "fileutils"
 require "open-uri"
 require "rss"
 require "time"
+require "uri"
 require "yaml"
 
 module LatestPodcastEpisodes
@@ -340,6 +341,85 @@ module LatestPodcastEpisodes
     %(<li>#{inner.strip}</li>)
   end
 
+  def format_external_link(href, label)
+    safe_href = CGI.escapeHTML(href.to_s.strip)
+    safe_label = CGI.escapeHTML(label.to_s.strip)
+    favicon = favicon_url_for_link(href, label)
+    icon_markup =
+      if favicon.empty?
+        ""
+      else
+        %(<img class="episode-note-link__icon" src="#{CGI.escapeHTML(favicon)}" alt="" width="16" height="16" loading="lazy" decoding="async">)
+      end
+    %(<a href="#{safe_href}" class="episode-note-link" rel="noopener noreferrer" target="_blank">#{icon_markup}<span class="episode-note-link__label">#{safe_label}</span></a>)
+  end
+
+  def favicon_domain_from_href(href)
+    host = URI.parse(href.to_s.strip).host.to_s.downcase
+    host.sub(/\Awww\./, "")
+  rescue URI::InvalidURIError
+    ""
+  end
+
+  def favicon_domain_for_link(href, label)
+    label_lower = label.to_s.downcase
+    return "instagram.com" if label_lower.include?("instagram")
+    return "youtube.com" if label_lower.match?(/youtube|youtu\.be/)
+    return "linkedin.com" if label_lower.include?("linkedin")
+    return "spotify.com" if label_lower.include?("spotify")
+    return "podcasts.apple.com" if label_lower.match?(/apple podcasts|podcasts\.apple/)
+    return "strava.com" if label_lower.include?("strava")
+    return "x.com" if label_lower.match?(/\btwitter\b|\bx\.com\b/)
+    return "facebook.com" if label_lower.include?("facebook")
+    return "tiktok.com" if label_lower.include?("tiktok")
+
+    domain = favicon_domain_from_href(href)
+    domain.empty? ? nil : domain
+  end
+
+  def favicon_url_for_link(href, label)
+    domain = favicon_domain_for_link(href, label)
+    return "" if domain.to_s.strip.empty?
+
+    "https://www.google.com/s2/favicons?domain=#{CGI.escape(domain)}&sz=32"
+  end
+
+  # "Tommie Runz: https://example.com" → linked label only (URL hidden).
+  def compact_label_url_link(fragment)
+    text = fragment.to_s.strip
+    return fragment if text.empty?
+
+    if text.match?(/<a[\s>]/i)
+      match = text.match(/\A([^:<\n|]{1,120}?)\s*(?::|\|)\s*(<a\s+[\s\S]*?<\/a>)\s*\z/im)
+      if match
+        label = plain_fragment(match[1]).strip
+        href_match = match[2].match(/href\s*=\s*(["'])(.*?)\1/im)
+        return format_external_link(href_match[2], label) if href_match && !label.empty?
+      end
+    end
+
+    plain = plain_fragment(text)
+    url_match = plain.match(/\A([^:\n|]{1,120}?)\s*(?::|\|)\s*((?:https?:\/\/|www\.)\S+)\z/i)
+    if url_match
+      label = url_match[1].strip
+      url = url_match[2]
+      url, = strip_trailing_url_punctuation(url)
+      return format_external_link(normalize_autolink_href(url), label) unless label.empty?
+    end
+
+    fragment
+  end
+
+  def compact_label_url_links_in_html(html)
+    html.to_s.gsub(/<(li|p)(\s[^>]*)?>([\s\S]*?)<\/\1>/im) do
+      tag = Regexp.last_match(1)
+      attrs = Regexp.last_match(2).to_s
+      inner = Regexp.last_match(3).to_s.strip
+      compacted = compact_label_url_link(inner)
+      compacted == inner ? Regexp.last_match(0) : "<#{tag}#{attrs}>#{compacted}</#{tag}>"
+    end
+  end
+
   def split_block_elements_on_breaks(html)
     html.gsub(BLOCK_ELEMENT_RX) do
       tag = Regexp.last_match(1)
@@ -483,7 +563,8 @@ module LatestPodcastEpisodes
     cleaned = structure_episode_description_html(cleaned)
     cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
     cleaned = repair_split_word_links(cleaned)
-    linkify_bare_urls_in_html(cleaned.strip)
+    cleaned = linkify_bare_urls_in_html(cleaned.strip)
+    compact_label_url_links_in_html(cleaned)
   end
 
   def episode_image_url(item)
