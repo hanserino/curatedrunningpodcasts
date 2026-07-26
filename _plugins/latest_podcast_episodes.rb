@@ -272,12 +272,6 @@ module LatestPodcastEpisodes
     end.join
   end
 
-  def format_inline_external_link(href, label)
-    safe_href = CGI.escapeHTML(href.to_s.strip)
-    safe_label = CGI.escapeHTML(label.to_s.strip)
-    %(<a href="#{safe_href}" rel="noopener noreferrer" target="_blank">#{safe_label}</a>)
-  end
-
   def social_profile_url_for_handle(platform, handle)
     user = handle.to_s.strip.sub(/\A@/, "")
     return "" if user.empty?
@@ -303,7 +297,7 @@ module LatestPodcastEpisodes
       url = social_profile_url_for_handle(platform, handle)
       next Regexp.last_match(0) if url.empty?
 
-      "#{platform}: #{format_inline_external_link(url, handle)}"
+      format_external_link(url, handle)
     end
   end
 
