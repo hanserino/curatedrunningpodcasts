@@ -11,9 +11,10 @@ on:
 permissions:
   contents: write
 
+# Same group as push-jekyll-build.yml — one build at a time, queued (never cancelled mid-run).
 concurrency:
-  group: scheduled-jekyll-build
-  cancel-in-progress: true
+  group: jekyll-build
+  cancel-in-progress: false
 
 jobs:
   build:

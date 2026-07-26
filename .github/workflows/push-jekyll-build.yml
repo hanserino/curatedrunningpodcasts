@@ -1,6 +1,7 @@
 # Rebuild when a new podcast post or media asset lands (Decap/Git push to main).
 # Paths are narrow so bot commits that only touch docs/ or _data/ do not re-trigger.
-# Shares concurrency with the scheduled workflow to avoid overlapping pushes.
+# Shares concurrency with the scheduled workflow so only one build pushes docs/ at a time.
+# Queue instead of cancel so Decap/content pushes are not dropped when the hourly build fires.
 name: Push Jekyll build (RSS)
 
 on:
@@ -25,8 +26,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: scheduled-jekyll-build
-  cancel-in-progress: true
+  group: jekyll-build
+  cancel-in-progress: false
 
 jobs:
   build:
