@@ -1,6 +1,18 @@
 ---
-generated_at: '2026-07-25T23:27:13Z'
+generated_at: '2026-07-26T00:37:41Z'
 items:
+- podcast_title: CITIUS MAG Podcast
+  podcast_page_url: "/citius-mag/"
+  cover_image: "/media/citiusmag.jpeg"
+  feed_url: https://anchor.fm/s/9085ecc/podcast/rss
+  filter_category: track road english
+  episode_title: 'USATF Outdoor Championships 2026: Day 3 Reactions | Nikki Hiltz & Nathan Green KICK To U.S. Titles + More'
+  episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-Outdoor-Championships-2026-Day-3-Reactions--Nikki-Hiltz--Nathan-Green-KICK-To-U-S--Titles--More-e3mi2ut
+  audio_url: https://traffic.megaphone.fm/APO4695842228.mp3
+  published_at: '2026-07-25T23:55:31+00:00'
+  episode_key: usatf-outdoor-championships-2026-day-3-reactions-nikki-hiltz-nathan-green-kick-to-u-s-titles-more
+  episode_slug: usatf-outdoor-championships-2026-day-3-reactions-nikki-hiltz-nathan-green-kick-to-u-s-titles-more
+  episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-3-reactions-nikki-hiltz-nathan-green-kick-to-u-s-titles-more/"
 - podcast_title: COFFEECLUB
   podcast_page_url: "/coffeeclub/"
   cover_image: "/media/coffeeclub.jpeg"
@@ -13,18 +25,6 @@ items:
   episode_key: he-called-his-shot-and-we-were-wrong
   episode_slug: he-called-his-shot-and-we-were-wrong
   episode_page_url: "/coffeeclub/he-called-his-shot-and-we-were-wrong/"
-- podcast_title: CITIUS MAG Podcast
-  podcast_page_url: "/citius-mag/"
-  cover_image: "/media/citiusmag.jpeg"
-  feed_url: https://anchor.fm/s/9085ecc/podcast/rss
-  filter_category: track road english
-  episode_title: 'USATF Outdoor Championships 2026: Day 2 Reactions | Noah Lyles Runs 9.79, Sha''Carri Wins 3rd 100m Title + More'
-  episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-Outdoor-Championships-2026-Day-2-Reactions--Noah-Lyles-Runs-9-79--ShaCarri-Wins-3rd-100m-Title--More-e3mh44b
-  audio_url: https://traffic.megaphone.fm/APO7638678170.mp3
-  published_at: '2026-07-25T02:16:05+00:00'
-  episode_key: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
-  episode_slug: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
-  episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more/"
 - podcast_title: The Sub Hub
   podcast_page_url: "/the-sub-hub/"
   cover_image: "/media/subhubpodcast.jpeg"
@@ -9488,18 +9488,6 @@ episodes_by_feed:
     episode_key: how-coach-of-the-year-sean-brosnan-revolutionized-newbury-park-s-cross-country-team
     legacy_numbered_slug: episode-03
     episode_page_url: "/strength-running-podcast/how-coach-of-the-year-sean-brosnan-revolutionized-newbury-park-s-cross-country-team/"
-  - episode_title: The Best Recovery Strategies (Learned from 15+ Years of Coaching)
-    episode_url: https://strengthrunning.com/2025/09/best-recovery-strategies/
-    audio_url: https://pscrb.fm/rss/p/traffic.libsyn.com/strengthrunning/SRP422.mp3
-    published_at: '2025-09-14T21:45:02+00:00'
-    description_html: <p>Recovery isn&#8217;t just an afterthought &#8211; it&#8217;s how you adapt to your run training and actually get faster!</p><p>Since 1998, I&#8217;ve been running workouts, racing, and trying to run high mileage. I&#8217;ve put myself through the rigors of cross country, &#8230;</p><p>The post <a href="https://strengthrunning.com/2025/09/best-recovery-strategies/">The Best Recovery Strategies (Learned from 15+ Years of Coaching)</a> appeared first on <a href="https://strengthrunning.com">Strength Running</a>.</p>
-    description_plain: Recovery isn&#8217;t just an afterthought &#8211; it&#8217;s how you adapt to your run training and actually get faster! Since 1998, I&#8217;ve been running workouts, racing, and trying to run high mileage. I&#8217;ve put myself through the rigors of cross country, &#8230; The post The Best Recovery Strategies (Learned from 15+ Years of Coaching) appeared first on Strength Running .
-    episode_image_url: ''
-    episode_uid: p-13723
-    episode_slug: the-best-recovery-strategies-learned-from-15-years-of-coaching
-    episode_key: the-best-recovery-strategies-learned-from-15-years-of-coaching
-    legacy_numbered_slug: episode-04
-    episode_page_url: "/strength-running-podcast/the-best-recovery-strategies-learned-from-15-years-of-coaching/"
   https://rss.libsyn.com/shows/35424/destinations/88544.xml: &30
   - episode_title: Episode 255 - Shane Ohly
     episode_url: https://talkultra.libsyn.com/episode-255-shane-ohly
@@ -30283,6 +30271,19 @@ episodes_by_feed:
     legacy_numbered_slug: episode-25
     episode_page_url: "/the-boulder-boys/ep-57-a-very-nice-episode-is-rucking-the-new-craze/"
   https://anchor.fm/s/9085ecc/podcast/rss: &102
+  - episode_title: 'USATF Outdoor Championships 2026: Day 3 Reactions | Nikki Hiltz & Nathan Green KICK To U.S. Titles + More'
+    episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-Outdoor-Championships-2026-Day-3-Reactions--Nikki-Hiltz--Nathan-Green-KICK-To-U-S--Titles--More-e3mi2ut
+    audio_url: https://traffic.megaphone.fm/APO4695842228.mp3
+    published_at: '2026-07-25T23:55:31+00:00'
+    description_html: "<p>Day 3 delivered upsets, dynasties extended, and a mayor in the stands — NYC&#39;s Zohran Mamdani made it out to Randall&#39;s Island for what has become the sports event of New York&#39;s summer, alongside the Knicks&#39; NBA title and the World Cup.</p><p><strong>We discuss:</strong></p><p><strong>FINALS:</strong></p><p>- Women&#39;s 400m — Aaliyah Butler, 49.93: In her first full season as a professional, the 22-year-old ran a perfectly executed race to win her first USATF outdoor title. Alexis Holmes was second in 50.47.</p><p>- Men&#39;s 400m — Chris Bailey, 44.39: Bailey adds an outdoor title to his 2025 U.S. indoor crown — but not without drama. Justin Robinson crossed first in 44.31 before being disqualified for a lane violation, promoting Bailey to gold.</p><p>- Women&#39;s steeplechase — Lexy Halladay-Lowry, 9:12.54: A stadium record and a successful title defense. Halladay-Lowry let Gabbi Jennings lead the first six laps before unleashing a devastating final 600m to pull away. Jennings held on for second in 9:17.42 — a career-best championship finish.</p><p>- Men&#39;s steeplechase — Nate Mountain, 8:13.81: The upset of the meet. Mountain finished ninth at NCAAs just six weeks ago. On Saturday, he dove for the line to beat Carson Williams by 0.07 seconds (8:13.88 — a lifetime best for Williams). A national champion nobody saw coming.</p><p>- Women&#39;s 1500m — Nikki Hiltz, 4:06.92: Eight consecutive U.S. 1500m titles, stretching back to 2023 indoors. Hiltz ran a 58.80 final 400m to hold off Addy Wiley by 0.04 seconds, who in turn beat Emily Mackay by 0.02. Three athletes separated by six hundredths of a second at the line.</p><p>- Men&#39;s 1500m — Nathan Green, 3:50.27: A comically slow tactical race set up a predictable conclusion — Green showed his tactical savvy with a 51.65 final 400m to take the win.</p><p>- Women&#39;s 100m hurdles — Alia Armstrong, 12.38: The unsponsored hurdler wins her first national title in a stacked final, running a season&#39;s best 12.38 to beat Alaysha Johnson by 0.04 seconds. A breakthrough moment for an athlete still without a shoe deal.</p><p>- Women&#39;s pole vault — Sandi Morris, 4.90m: Ten U.S. titles. Morris cleared 4.90m on her first attempt to defend her 2025 outdoor title.</p><p>- Men&#39;s javelin — Curtis Thompson, 87.59m: The greatest throw saved for last. Thompson trailed UGA&#39;s Davis after an 82.36m final-attempt effort, then launched 87.59m on his own last throw — improving his mark by over 10 meters — to win his sixth U.S. title and complete a four-peat.</p><p>+ More from the 200m and 400m hurdles prelims.</p>"
+    description_plain: 'Day 3 delivered upsets, dynasties extended, and a mayor in the stands — NYC&#39;s Zohran Mamdani made it out to Randall&#39;s Island for what has become the sports event of New York&#39;s summer, alongside the Knicks&#39; NBA title and the World Cup. We discuss: FINALS: - Women&#39;s 400m — Aaliyah Butler, 49.93: In her first full season as a professional, the 22-year-old ran a perfectly executed race to win her first USATF outdoor title. Alexis Holmes was second in 50.47. - Men&#39;s 400m — Chris Bailey, 44.39: Bailey adds an outdoor title to his 2025 U.S. indoor crown — but not without drama. Justin Robinson crossed first in 44.31 before being disqualified for a lane violation, promoting Bailey to gold. - Women&#39;s steeplechase — Lexy Halladay-Lowry, 9:12.54: A stadium record and a successful title defense. Halladay-Lowry let Gabbi Jennings lead the first six laps before unleashing a devastating final 600m to pull away. Jennings held on for second in 9:17.42 — a career-best championship finish. - Men&#39;s steeplechase — Nate Mountain, 8:13.81: The upset of the meet. Mountain finished ninth at NCAAs just six weeks ago. On Saturday, he dove for the line to beat Carson Williams by 0.07 seconds (8:13.88 — a lifetime best for Williams). A national champion nobody saw coming. - Women&#39;s 1500m — Nikki Hiltz, 4:06.92: Eight consecutive U.S. 1500m titles, stretching back to 2023 indoors. Hiltz ran a 58.80 final 400m to hold off Addy Wiley by 0.04 seconds, who in turn beat Emily Mackay by 0.02. Three athletes separated by six hundredths of a second at the line. - Men&#39;s 1500m — Nathan Green, 3:50.27: A comically slow tactical race set up a predictable conclusion — Green showed his tactical savvy with a 51.65 final 400m to take the win. - Women&#39;s 100m hurdles — Alia Armstrong, 12.38: The unsponsored hurdler wins her first national title in a stacked final, running a season&#39;s best 12.38 to beat Alaysha Johnson by 0.04 seconds. A breakthrough moment for an athlete still without a shoe deal. - Women&#39;s pole vault — Sandi Morris, 4.90m: Ten U.S. titles. Morris cleared 4.90m on her first attempt to defend her 2025 outdoor title. - Men&#39;s javelin — Curtis Thompson, 87.59m: The greatest throw saved for last. Thompson trailed UGA&#39;s Davis after an 82.36m final-attempt effort, then launched 87.59m on his own last throw — improving his mark by over 10 meters — to win his sixth U.S. title and complete a four-peat. + More from the 200m and 400m hurdles prelims.'
+    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1415435/1415435-1785023556674-373dbe1eab71d.jpg
+    episode_uid: 374d2a11-a53e-4f9e-a6e1-c03660fed0b5
+    episode_slug: usatf-outdoor-championships-2026-day-3-reactions-nikki-hiltz-nathan-green-kick-to-u-s-titles-more
+    episode_key: usatf-outdoor-championships-2026-day-3-reactions-nikki-hiltz-nathan-green-kick-to-u-s-titles-more
+    legacy_numbered_slug: episode-01
+    episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-3-reactions-nikki-hiltz-nathan-green-kick-to-u-s-titles-more/"
+    youtube_video_id: Ij7OS7GK1HQ
   - episode_title: 'USATF Outdoor Championships 2026: Day 2 Reactions | Noah Lyles Runs 9.79, Sha''Carri Wins 3rd 100m Title + More'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-Outdoor-Championships-2026-Day-2-Reactions--Noah-Lyles-Runs-9-79--ShaCarri-Wins-3rd-100m-Title--More-e3mh44b
     audio_url: https://traffic.megaphone.fm/APO7638678170.mp3
@@ -30293,7 +30294,7 @@ episodes_by_feed:
     episode_uid: 9b3534b9-10a2-4cda-82ce-d2b9af67d4a6
     episode_slug: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
     episode_key: usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more
-    legacy_numbered_slug: episode-01
+    legacy_numbered_slug: episode-02
     episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-2-reactions-noah-lyles-runs-9-79-sha-carri-wins-3rd-100m-title-more/"
   - episode_title: 'USATF OUTDOOR CHAMPIONSHIPS 2026: DAY 1 REACTIONS | WOODY KINCAID SHOCKS GRANT FISHER FOR 10K TITLE + MORE'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/USATF-OUTDOOR-CHAMPIONSHIPS-2026-DAY-1-REACTIONS--WOODY-KINCAID-SHOCKS-GRANT-FISHER-FOR-10K-TITLE--MORE-e3mfmgh
@@ -30305,7 +30306,7 @@ episodes_by_feed:
     episode_uid: fa7cba1b-fff4-4310-8f37-f9b1152c1767
     episode_slug: usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more
     episode_key: usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more
-    legacy_numbered_slug: episode-02
+    legacy_numbered_slug: episode-03
     episode_page_url: "/citius-mag/usatf-outdoor-championships-2026-day-1-reactions-woody-kincaid-shocks-grant-fisher-for-10k-title-more/"
   - episode_title: Josh Kerr On How He Broke The Mile World Record In 3:42.66 | Full Race Recap, Breakdown + Reflections
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Josh-Kerr-On-How-He-Broke-The-Mile-World-Record-In-342-66--Full-Race-Recap--Breakdown--Reflections-e3mdm0m
@@ -30317,7 +30318,7 @@ episodes_by_feed:
     episode_uid: 96451c65-c37d-4951-a6e3-b3b4e8d6ba2e
     episode_slug: josh-kerr-on-how-he-broke-the-mile-world-record-in-3-42-66-full-race-recap-breakdown-reflections
     episode_key: josh-kerr-on-how-he-broke-the-mile-world-record-in-3-42-66-full-race-recap-breakdown-reflections
-    legacy_numbered_slug: episode-03
+    legacy_numbered_slug: episode-04
     episode_page_url: "/citius-mag/josh-kerr-on-how-he-broke-the-mile-world-record-in-3-42-66-full-race-recap-breakdown-reflections/"
   - episode_title: 2026 USATF OUTDOOR CHAMPIONSHIPS PREVIEW
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/2026-USATF-OUTDOOR-CHAMPIONSHIPS-PREVIEW-e3mcikc
@@ -30329,7 +30330,7 @@ episodes_by_feed:
     episode_uid: b88b8e9f-b7bf-4b6e-ac59-aa722bf9702b
     episode_slug: 2026-usatf-outdoor-championships-preview
     episode_key: 2026-usatf-outdoor-championships-preview
-    legacy_numbered_slug: episode-04
+    legacy_numbered_slug: episode-05
     episode_page_url: "/citius-mag/2026-usatf-outdoor-championships-preview/"
   - episode_title: 'This Week In Track & Field: Recapping The Rest Of The London Diamond League + Preet’s Perspective Watching Josh Kerr’s World Record In-Stadium'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Recapping-The-Rest-Of-The-London-Diamond-League--Preets-Perspective-Watching-Josh-Kerrs-World-Record-In-Stadium-e3mb3ij
@@ -30341,7 +30342,7 @@ episodes_by_feed:
     episode_uid: a5b5227d-171e-4c3f-aa35-ba2c41fffdeb
     episode_slug: this-week-in-track-field-recapping-the-rest-of-the-london-diamond-league-preet-s-perspective-watching-josh-kerr-s-world-
     episode_key: this-week-in-track-field-recapping-the-rest-of-the-london-diamond-league-preet-s-perspective-watching-josh-kerr-s-world-
-    legacy_numbered_slug: episode-05
+    legacy_numbered_slug: episode-06
     episode_page_url: "/citius-mag/this-week-in-track-field-recapping-the-rest-of-the-london-diamond-league-preet-s-perspective-watching-josh-kerr-s-world-/"
   - episode_title: "\U0001F6A8 EMERGENCY PODCAST \U0001F6A8 JOSH KERR BREAKS THE MILE WORLD RECORD IN 3:42.66"
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/EMERGENCY-PODCAST--JOSH-KERR-BREAKS-THE-MILE-WORLD-RECORD-IN-342-66-e3m8bn9
@@ -30353,7 +30354,7 @@ episodes_by_feed:
     episode_uid: e3bdf985-e7d9-454e-8780-5b821c66ea1c
     episode_slug: emergency-podcast-josh-kerr-breaks-the-mile-world-record-in-3-42-66
     episode_key: emergency-podcast-josh-kerr-breaks-the-mile-world-record-in-3-42-66
-    legacy_numbered_slug: episode-06
+    legacy_numbered_slug: episode-07
     episode_page_url: "/citius-mag/emergency-podcast-josh-kerr-breaks-the-mile-world-record-in-3-42-66/"
   - episode_title: The Benefits Of Heat Training And Adaptation In Running With Clayton Young | Sponsored By CORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/The-Benefits-Of-Heat-Training-And-Adaptation-In-Running-With-Clayton-Young--Sponsored-By-CORE-e3m7r4p
@@ -30365,7 +30366,7 @@ episodes_by_feed:
     episode_uid: 489c85ea-f381-48db-a650-d48d95953c8b
     episode_slug: the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core
     episode_key: the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core
-    legacy_numbered_slug: episode-07
+    legacy_numbered_slug: episode-08
     episode_page_url: "/citius-mag/the-benefits-of-heat-training-and-adaptation-in-running-with-clayton-young-sponsored-by-core/"
   - episode_title: 'This Week In Track & Field: Emmanuel Wanyonyi Breaks The 1000m WR; Julien Alfred Goes 21.51 In Monaco + London Diamond League Preview (Josh Kerr & Keely Hodgkinson WR Odds)'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Emmanuel-Wanyonyi-Breaks-The-1000m-WR-Julien-Alfred-Goes-21-51-In-Monaco--London-Diamond-League-Preview-Josh-Kerr--Keely-Hodgkinson-WR-Odds-e3m1tu3
@@ -30377,7 +30378,7 @@ episodes_by_feed:
     episode_uid: fb4dc585-f412-4237-baca-5c4dc9ed04ea
     episode_slug: this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-
     episode_key: this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-
-    legacy_numbered_slug: episode-08
+    legacy_numbered_slug: episode-09
     episode_page_url: "/citius-mag/this-week-in-track-field-emmanuel-wanyonyi-breaks-the-1000m-wr-julien-alfred-goes-21-51-in-monaco-london-diamond-league-/"
   - episode_title: Marco Langon On Turning Pro, Signing With Diadora + Reflections On His NCAA Career At Villanova
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Marco-Langon-On-Turning-Pro--Signing-With-Diadora--Reflections-On-His-NCAA-Career-At-Villanova-e3lsf4t
@@ -30389,7 +30390,7 @@ episodes_by_feed:
     episode_uid: 4401638f-a612-4340-8e06-d41f7d2e2b9c
     episode_slug: marco-langon-on-turning-pro-signing-with-diadora-reflections-on-his-ncaa-career-at-villanova
     episode_key: marco-langon-on-turning-pro-signing-with-diadora-reflections-on-his-ncaa-career-at-villanova
-    legacy_numbered_slug: episode-09
+    legacy_numbered_slug: episode-10
     episode_page_url: "/citius-mag/marco-langon-on-turning-pro-signing-with-diadora-reflections-on-his-ncaa-career-at-villanova/"
   - episode_title: 'This Week In Track & Field: Prefontaine Classic Recap – Tate Taylor Goes 19.75; Nikki Hiltz Beats Faith Kipyegon; Cam Myers Wins The Bowerman Mile + More'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Prefontaine-Classic-Recap--Tate-Taylor-Goes-19-75-Nikki-Hiltz-Beats-Faith-Kipyegon-Cam-Myers-Wins-The-Bowerman-Mile--More-e3loc52
@@ -30401,7 +30402,7 @@ episodes_by_feed:
     episode_uid: 8e54ef27-d651-4254-a5e0-ef292f46bc6f
     episode_slug: this-week-in-track-field-prefontaine-classic-recap-tate-taylor-goes-19-75-nikki-hiltz-beats-faith-kipyegon-cam-myers-win
     episode_key: this-week-in-track-field-prefontaine-classic-recap-tate-taylor-goes-19-75-nikki-hiltz-beats-faith-kipyegon-cam-myers-win
-    legacy_numbered_slug: episode-10
+    legacy_numbered_slug: episode-11
     episode_page_url: "/citius-mag/this-week-in-track-field-prefontaine-classic-recap-tate-taylor-goes-19-75-nikki-hiltz-beats-faith-kipyegon-cam-myers-win/"
   - episode_title: 'CITIUS MAG | LIVE FROM EUGENE — DAY 2 AT PRE CLASSIC + SPECIAL GUESTS: DAWN STALEY, BRANDON MILLER, COOPER LUTKENHAUS, VAL ALLMAN, & SANDI MORRIS'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/CITIUS-MAG--LIVE-FROM-EUGENE--DAY-2-AT-PRE-CLASSIC--SPECIAL-GUESTS-DAWN-STALEY--BRANDON-MILLER--COOPER-LUTKENHAUS--VAL-ALLMAN---SANDI-MORRIS-e3llhcc
@@ -30413,7 +30414,7 @@ episodes_by_feed:
     episode_uid: 54dcab49-572f-42ad-8f70-c7542ee73892
     episode_slug: citius-mag-live-from-eugene-day-2-at-pre-classic-special-guests-dawn-staley-brandon-miller-cooper-lutkenhaus-val-allman-
     episode_key: citius-mag-live-from-eugene-day-2-at-pre-classic-special-guests-dawn-staley-brandon-miller-cooper-lutkenhaus-val-allman-
-    legacy_numbered_slug: episode-11
+    legacy_numbered_slug: episode-12
     episode_page_url: "/citius-mag/citius-mag-live-from-eugene-day-2-at-pre-classic-special-guests-dawn-staley-brandon-miller-cooper-lutkenhaus-val-allman-/"
   - episode_title: CITIUS MAG | LIVE FROM EUGENE — DAY 1 AT PRE CLASSIC
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/CITIUS-MAG--LIVE-FROM-EUGENE--DAY-1-AT-PRE-CLASSIC-e3lkr7b
@@ -30425,7 +30426,7 @@ episodes_by_feed:
     episode_uid: 26b7b3e7-2ab2-49a3-a909-4c94868aac92
     episode_slug: citius-mag-live-from-eugene-day-1-at-pre-classic
     episode_key: citius-mag-live-from-eugene-day-1-at-pre-classic
-    legacy_numbered_slug: episode-12
+    legacy_numbered_slug: episode-13
     episode_page_url: "/citius-mag/citius-mag-live-from-eugene-day-1-at-pre-classic/"
   - episode_title: Gary Martin On Turning Pro And Joining The Brooks Beasts
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Gary-Martin-On-Turning-Pro-And-Joining-The-Brooks-Beasts-e3lis0b
@@ -30437,7 +30438,7 @@ episodes_by_feed:
     episode_uid: 2a2f7f7b-152d-4d1a-83e9-c261ab27de87
     episode_slug: gary-martin-on-turning-pro-and-joining-the-brooks-beasts
     episode_key: gary-martin-on-turning-pro-and-joining-the-brooks-beasts
-    legacy_numbered_slug: episode-13
+    legacy_numbered_slug: episode-14
     episode_page_url: "/citius-mag/gary-martin-on-turning-pro-and-joining-the-brooks-beasts/"
   - episode_title: 2026 Prefontaine Classic Preview
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/2026-Prefontaine-Classic-Preview-e3li4os
@@ -30449,7 +30450,7 @@ episodes_by_feed:
     episode_uid: 77142103-6a3e-44a3-aedd-8616949f191e
     episode_slug: 2026-prefontaine-classic-preview
     episode_key: 2026-prefontaine-classic-preview
-    legacy_numbered_slug: episode-14
+    legacy_numbered_slug: episode-15
     episode_page_url: "/citius-mag/2026-prefontaine-classic-preview/"
   - episode_title: 'This Week In Track & Field: Three Diamond League Records In Paris; Audrey Werro Inches Closer To 800m WR; Femke Bol Goes 1:55; Cam Myers Solos A 3:28; Grant Fisher Gets His First Diamond League Win'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Three-Diamond-League-Records-In-Paris-Audrey-Werro-Inches-Closer-To-800m-WR-Femke-Bol-Goes-155-Cam-Myers-Solos-A-328-Grant-Fisher-Gets-His-First-Diamond-League-Win-e3lesnm
@@ -30461,7 +30462,7 @@ episodes_by_feed:
     episode_uid: 3eab4d9b-1edc-4820-9e98-a73618283bd2
     episode_slug: this-week-in-track-field-three-diamond-league-records-in-paris-audrey-werro-inches-closer-to-800m-wr-femke-bol-goes-1-55
     episode_key: this-week-in-track-field-three-diamond-league-records-in-paris-audrey-werro-inches-closer-to-800m-wr-femke-bol-goes-1-55
-    legacy_numbered_slug: episode-15
+    legacy_numbered_slug: episode-16
     episode_page_url: "/citius-mag/this-week-in-track-field-three-diamond-league-records-in-paris-audrey-werro-inches-closer-to-800m-wr-femke-bol-goes-1-55/"
   - episode_title: 'This Week In Track & Field: Is Cooper Lutkenhaus The Best 800m Runner In The World? NCAA Championships Goes Wild; What To Make Of Parker Valby’s 5K PR + Josh Kerr WR Odds Update'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Is-Cooper-Lutkenhaus-The-Best-800m-Runner-In-The-World--NCAA-Championships-Goes-Wild-What-To-Make-Of-Parker-Valbys-5K-PR--Josh-Kerr-WR-Odds-Update-e3kr2q2
@@ -30473,7 +30474,7 @@ episodes_by_feed:
     episode_uid: ae61366d-82b2-4399-bc19-a750bd35dd6c
     episode_slug: this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak
     episode_key: this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak
-    legacy_numbered_slug: episode-16
+    legacy_numbered_slug: episode-17
     episode_page_url: "/citius-mag/this-week-in-track-field-is-cooper-lutkenhaus-the-best-800m-runner-in-the-world-ncaa-championships-goes-wild-what-to-mak/"
   - episode_title: SANU JALLOW, DEJANEA OAKLEY & ADAEJAH HODGE SET NCAA RECORDS, DORIS LEMNGOLE DQ'D FROM 5K, GEORGIA WINS TEAM TITLE + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/SANU-JALLOW--DEJANEA-OAKLEY--ADAEJAH-HODGE-SET-NCAA-RECORDS--DORIS-LEMNGOLE-DQD-FROM-5K--GEORGIA-WINS-TEAM-TITLE--MORE-e3kopk5
@@ -30485,7 +30486,7 @@ episodes_by_feed:
     episode_uid: 684d9a69-b345-4f93-97db-6149535a5f44
     episode_slug: sanu-jallow-dejanea-oakley-adaejah-hodge-set-ncaa-records-doris-lemngole-dq-d-from-5k-georgia-wins-team-title-more
     episode_key: sanu-jallow-dejanea-oakley-adaejah-hodge-set-ncaa-records-doris-lemngole-dq-d-from-5k-georgia-wins-team-title-more
-    legacy_numbered_slug: episode-17
+    legacy_numbered_slug: episode-18
     episode_page_url: "/citius-mag/sanu-jallow-dejanea-oakley-adaejah-hodge-set-ncaa-records-doris-lemngole-dq-d-from-5k-georgia-wins-team-title-more/"
   - episode_title: SIMEON BIRNBAUM WINS 1500M TITLE ON HOME TRACK, SAMUEL OGAZI & JAIDEN REID SMASH NCAA SPRINT RECORDS, HABTOM SAMUEL COMPLETES THE DOUBLE + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/SIMEON-BIRNBAUM-WINS-1500M-TITLE-ON-HOME-TRACK--SAMUEL-OGAZI--JAIDEN-REID-SMASH-NCAA-SPRINT-RECORDS--HABTOM-SAMUEL-COMPLETES-THE-DOUBLE--MORE-e3knq2b
@@ -30497,7 +30498,7 @@ episodes_by_feed:
     episode_uid: 3bf30403-8c93-436b-ae89-cb602e139f05
     episode_slug: simeon-birnbaum-wins-1500m-title-on-home-track-samuel-ogazi-jaiden-reid-smash-ncaa-sprint-records-habtom-samuel-complete
     episode_key: simeon-birnbaum-wins-1500m-title-on-home-track-samuel-ogazi-jaiden-reid-smash-ncaa-sprint-records-habtom-samuel-complete
-    legacy_numbered_slug: episode-18
+    legacy_numbered_slug: episode-19
     episode_page_url: "/citius-mag/simeon-birnbaum-wins-1500m-title-on-home-track-samuel-ogazi-jaiden-reid-smash-ncaa-sprint-records-habtom-samuel-complete/"
   - episode_title: ADAEJAH HODGE’S 10.63 SHATTERS NCAA 100M RECORD, MERCYLINE KIRWA BEATS JANE HEDEGREN IN 10K, FASTEST 800M PRELIMS EVER + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/ADAEJAH-HODGES-10-63-SHATTERS-NCAA-100M-RECORD--MERCYLINE-KIRWA-BEATS-JANE-HEDEGREN-IN-10K--FASTEST-800M-PRELIMS-EVER--MORE-e3kmgjt
@@ -30509,7 +30510,7 @@ episodes_by_feed:
     episode_uid: 8486cb13-c6d0-47f3-bec7-7d098e2dd587
     episode_slug: adaejah-hodge-s-10-63-shatters-ncaa-100m-record-mercyline-kirwa-beats-jane-hedegren-in-10k-fastest-800m-prelims-ever-mor
     episode_key: adaejah-hodge-s-10-63-shatters-ncaa-100m-record-mercyline-kirwa-beats-jane-hedegren-in-10k-fastest-800m-prelims-ever-mor
-    legacy_numbered_slug: episode-19
+    legacy_numbered_slug: episode-20
     episode_page_url: "/citius-mag/adaejah-hodge-s-10-63-shatters-ncaa-100m-record-mercyline-kirwa-beats-jane-hedegren-in-10k-fastest-800m-prelims-ever-mor/"
   - episode_title: Agnes Ngetich On The Difficult Life & Upbringing That Made Her The World Record-Setting Runner She Is
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Agnes-Ngetich-On-The-Difficult-Life--Upbringing-That-Made-Her-The-World-Record-Setting-Runner-She-Is-e3klkh0
@@ -30521,7 +30522,7 @@ episodes_by_feed:
     episode_uid: 2ef6c175-fc8e-4e37-8447-d4dab89a68ae
     episode_slug: agnes-ngetich-on-the-difficult-life-upbringing-that-made-her-the-world-record-setting-runner-she-is
     episode_key: agnes-ngetich-on-the-difficult-life-upbringing-that-made-her-the-world-record-setting-runner-she-is
-    legacy_numbered_slug: episode-20
+    legacy_numbered_slug: episode-21
     episode_page_url: "/citius-mag/agnes-ngetich-on-the-difficult-life-upbringing-that-made-her-the-world-record-setting-runner-she-is/"
   - episode_title: JA’KOBE THARP RUNS 110H WORLD RECORD, HABTOM SAMUEL RECLAIMS 10K TITLE, DISTANCE FAVORITES MAKE IT THROUGH PRELIMS + MORE
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/JAKOBE-THARP-RUNS-110H-WORLD-RECORD--HABTOM-SAMUEL-RECLAIMS-10K-TITLE--DISTANCE-FAVORITES-MAKE-IT-THROUGH-PRELIMS--MORE-e3kkt3u
@@ -30533,7 +30534,7 @@ episodes_by_feed:
     episode_uid: ef8c607f-e9cd-44ab-8976-704edad2248c
     episode_slug: ja-kobe-tharp-runs-110h-world-record-habtom-samuel-reclaims-10k-title-distance-favorites-make-it-through-prelims-more
     episode_key: ja-kobe-tharp-runs-110h-world-record-habtom-samuel-reclaims-10k-title-distance-favorites-make-it-through-prelims-more
-    legacy_numbered_slug: episode-21
+    legacy_numbered_slug: episode-22
     episode_page_url: "/citius-mag/ja-kobe-tharp-runs-110h-world-record-habtom-samuel-reclaims-10k-title-distance-favorites-make-it-through-prelims-more/"
   - episode_title: 'This Week In Track & Field: Audrey Werro Stuns Keely Hodgkinson With 3rd Fastest 800m All-Time; Cooper Lutkenhaus Wins Diamond League Debut, Yared Nuguse Gets His Swagger Back + Stockholm & Rome Recap'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Audrey-Werro-Stuns-Keely-Hodgkinson-With-3rd-Fastest-800m-All-Time-Cooper-Lutkenhaus-Wins-Diamond-League-Debut--Yared-Nuguse-Gets-His-Swagger-Back--Stockholm--Rome-Recap-e3kh61i
@@ -30545,7 +30546,7 @@ episodes_by_feed:
     episode_uid: 1f04b68d-5500-46a1-a06d-a7e752d56503
     episode_slug: this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo
     episode_key: this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo
-    legacy_numbered_slug: episode-22
+    legacy_numbered_slug: episode-23
     episode_page_url: "/citius-mag/this-week-in-track-field-audrey-werro-stuns-keely-hodgkinson-with-3rd-fastest-800m-all-time-cooper-lutkenhaus-wins-diamo/"
   - episode_title: Why St. Louis Was Selected To Host The 2028 U.S. Olympic Marathon Trials, Beating Out Phoenix | Ft. USATF CEO Max Siegel, Jackie Joyner-Kersee + Marc Schreiber Of The St. Louis Sports Commission
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Why-St--Louis-Was-Selected-To-Host-The-2028-U-S--Olympic-Marathon-Trials--Beating-Out-Phoenix--Ft--USATF-CEO-Max-Siegel--Jackie-Joyner-Kersee--Marc-Schreiber-Of-The-St--Louis-Sports-Commission-e3kbagk
@@ -30557,7 +30558,7 @@ episodes_by_feed:
     episode_uid: bcfbb2bb-852a-4bea-b331-9693aabd011f
     episode_slug: why-st-louis-was-selected-to-host-the-2028-u-s-olympic-marathon-trials-beating-out-phoenix-ft-usatf-ceo-max-siegel-jacki
     episode_key: why-st-louis-was-selected-to-host-the-2028-u-s-olympic-marathon-trials-beating-out-phoenix-ft-usatf-ceo-max-siegel-jacki
-    legacy_numbered_slug: episode-23
+    legacy_numbered_slug: episode-24
     episode_page_url: "/citius-mag/why-st-louis-was-selected-to-host-the-2028-u-s-olympic-marathon-trials-beating-out-phoenix-ft-usatf-ceo-max-siegel-jacki/"
   - episode_title: 'This Week In Track & Field: Rabat Diamond League Takeaways + Rome & Stockholm Preview As Keely Hodgkinson, Melissa Jefferson-Wooden And Noah Lyles Are In Action'
     episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/This-Week-In-Track--Field-Rabat-Diamond-League-Takeaways--Rome--Stockholm-Preview-As-Keely-Hodgkinson--Melissa-Jefferson-Wooden-And-Noah-Lyles-Are-In-Action-e3k9sh4
@@ -30569,20 +30570,8 @@ episodes_by_feed:
     episode_uid: 9b0233d2-d80d-4aba-b4d2-c410379c77a1
     episode_slug: this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo
     episode_key: this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo
-    legacy_numbered_slug: episode-24
-    episode_page_url: "/citius-mag/this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo/"
-  - episode_title: 'Meet Sam Blaskowski: The D3 Kid Who Just Ran 9.89 For 100m'
-    episode_url: https://podcasters.spotify.com/pod/show/citius-mag-podcast/episodes/Meet-Sam-Blaskowski-The-D3-Kid-Who-Just-Ran-9-89-For-100m-e3k6qlf
-    audio_url: https://traffic.megaphone.fm/APO6493899729.mp3
-    published_at: '2026-06-01T19:38:25+00:00'
-    description_html: '<p><em>“Every day you go through these mental battles — how do I keep going? You’re in a sport where you don’t just leave college and start making a million dollars. You just got to build yourself, almost by yourself.”</em></p><p>My guest for today’s episode is <strong>Sam Blaskowski</strong>. Not a ton of you probably knew his name before this weekend. At the Music City Track Carnival in Cleveland, Tennessee last Saturday, he ran 9.89 seconds in the 100m: a wind-legal personal best that shaved 0.16 off his previous mark of 10.05, making him the fastest American of 2026 so far, and putting him at number two in the world this season. He skipped the 9.90s entirely.</p><p>Sam is 23 years old. He grew up in Wisconsin, went to the University of Wisconsin-La Crosse — a Division III program where his grandparents live a mile from the stadium and both his parents went to school — and graduated without ever contemplating leaving for a Division I program. He has 11 individual NCAA D3 titles. He spent the off-season working at a small regional airport to save money for his move to Florida, where he now trains with Star Athletics under Dennis Mitchell alongside Kenny Bednarek, Sha’Carri Richardson, and Melissa Jefferson-Wooden. This is his first season with the group.</p><p>The headline that took over the internet is that he is now the fastest white man in history, breaking Christophe Lemaître’s 9.92 from 2011. Sam’s own take on what he’d rather people focus on: he’s number two in the world right now. That’s the story he wants told.</p><p>In this conversation, recorded just 48 hours after the race, Sam walks us through the full arc: the soccer and swimming background, YMCA YouTube tutorials during COVID, and the steady year-over-year drops from 10.29 to 10.13 to 10.09 to 10.05 to 9.89. We also get into what his college coach Matt Gordy unlocked in him and what Star Athletics has done to fix the back half of his race.</p><p>____________</p><ul><li><strong>Host:</strong> Chris Chavez | ⁠<a href="https://www.instagram.com/chris_j_chavez/"><u>⁠@chris_j_chavez</u></a></li><li><strong>Guest:</strong> Sam Blaskowski | <a href="https://www.instagram.com/samblaskowski/?hl=en"><u>@samblaskowski</u></a></li><li><strong>Produced by: </strong>Jasmine Fehr |<a href="https://www.instagram.com/jasminefehr/?hl=en"><u>⁠⁠⁠@jasminefehr</u></a></li></ul><p>____________</p><p><strong>SUPPORT OUR SPONSORS</strong></p><ul><li><strong>XENDURANCE:</strong> When you finish a hard workout, the work isn&#39;t actually done. That&#39;s when recovery starts. Xendurance Protein is designed specifically to help your body recover, rebuild, and get stronger after training. It combines four different types of protein, so your body gets both fast absorbing protein for immediate recovery and slower release protein to support muscle repair over time. ⁠⁠<a href="http://xendurance.com"><u>Check it out at Xendurance.com and use code CITIUS for 25% off your first order.</u></a></li><li><strong>VELOUS: </strong>VELOUS makes recovery footwear designed to help runners bounce back faster between sessions. Their sandals feature Tri-Motion™ Technology: a technical three-density foam system and contoured footbed engineered to cushion impact, support your arches, and help your toes stretch and relax on every step. They keep your feet and legs properly aligned after you put in all of those weekly miles. Run. Recover. Repeat. with VELOUS! <a href="https://www.velousfootwear.com/"><u>Get 20% off your VELOUS order with code CITIUSMAG20 at checkout including FREE Shipping!</u></a></li><li><strong>OLIPOP: </strong>Raspberry Sherbet is a limited-edition, nostalgic new flavor that blends tangy raspberry with creamy vanilla. Every can of Olipop contains their Olismart blend, which includes ingredients designed to support digestive health and help feed your gut microbiome. If you haven&#39;t had tried Olipop yet, grab a can and see what the hype is all about!⁠⁠ <a href="https://olipop.pxf.io/GmBDD6"><u>Head to DrinkOlipop.com and use code CITIUS25 at checkout to get 25% off your orders.⁠⁠</u></a></li></ul>'
-    description_plain: "“Every day you go through these mental battles — how do I keep going? You’re in a sport where you don’t just leave college and start making a million dollars. You just got to build yourself, almost by yourself.” My guest for today’s episode is Sam Blaskowski . Not a ton of you probably knew his name before this weekend. At the Music City Track Carnival in Cleveland, Tennessee last Saturday, he ran 9.89 seconds in the 100m: a wind-legal personal best that shaved 0.16 off his previous mark of 10.05, making him the fastest American of 2026 so far, and putting him at number two in the world this season. He skipped the 9.90s entirely. Sam is 23 years old. He grew up in Wisconsin, went to the University of Wisconsin-La Crosse — a Division III program where his grandparents live a mile from the stadium and both his parents went to school — and graduated without ever contemplating leaving for a Division I program. He has 11 individual NCAA D3 titles. He spent the off-season working at a small regional airport to save money for his move to Florida, where he now trains with Star Athletics under Dennis Mitchell alongside Kenny Bednarek, Sha’Carri Richardson, and Melissa Jefferson-Wooden. This is his first season with the group. The headline that took over the internet is that he is now the fastest white man in history, breaking Christophe Lemaître’s 9.92 from 2011. Sam’s own take on what he’d rather people focus on: he’s number two in the world right now. That’s the story he wants told. In this conversation, recorded just 48 hours after the race, Sam walks us through the full arc: the soccer and swimming background, YMCA YouTube tutorials during COVID, and the steady year-over-year drops from 10.29 to 10.13 to 10.09 to 10.05 to 9.89. We also get into what his college coach Matt Gordy unlocked in him and what Star Athletics has done to fix the back half of his race. ____________ Host: Chris Chavez | ⁠ ⁠@chris_j_chavez Guest: Sam Blaskowski | @samblaskowski Produced by: Jasmine Fehr | ⁠⁠⁠@jasminefehr ____________ SUPPORT OUR SPONSORS XENDURANCE: When you finish a hard workout, the work isn&#39;t actually done. That&#39;s when recovery starts. Xendurance Protein is designed specifically to help your body recover, rebuild, and get stronger after training. It combines four different types of protein, so your body gets both fast absorbing protein for immediate recovery and slower release protein to support muscle repair over time. ⁠⁠ Check it out at Xendurance.com and use code CITIUS for 25% off your first order. VELOUS: VELOUS makes recovery footwear designed to help runners bounce back faster between sessions. Their sandals feature Tri-Motion™ Technology: a technical three-density foam system and contoured footbed engineered to cushion impact, support your arches, and help your toes stretch and relax on every step. They keep your feet and legs properly aligned after you put in all of those weekly miles. Run. Recover. Repeat. with VELOUS! Get 20% off your VELOUS order with code CITIUSMAG20 at checkout including FREE Shipping! OLIPOP: Raspberry Sherbet is a limited-edition, nostalgic new flavor that blends tangy raspberry with creamy vanilla. Every can of Olipop contains their Olismart blend, which includes ingredients designed to support digestive health and help feed your gut microbiome. If you haven&#39;t had tried Olipop yet, grab a can and see what the hype is all about!⁠⁠ Head to DrinkOlipop.com and use code CITIUS25 at checkout to get 25% off your orders.⁠⁠"
-    episode_image_url: https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/1415435/1415435-1780342691624-5c26bbef04587.jpg
-    episode_uid: cd82f11e-6e0e-4b4e-a052-92bfdb4ba7ed
-    episode_slug: meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m
-    episode_key: meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m
     legacy_numbered_slug: episode-25
-    episode_page_url: "/citius-mag/meet-sam-blaskowski-the-d3-kid-who-just-ran-9-89-for-100m/"
+    episode_page_url: "/citius-mag/this-week-in-track-field-rabat-diamond-league-takeaways-rome-stockholm-preview-as-keely-hodgkinson-melissa-jefferson-woo/"
 errors:
 - podcast: Strength Running Podcast
   rss_feed: https://feeds.feedburner.com/StrengthRunning
