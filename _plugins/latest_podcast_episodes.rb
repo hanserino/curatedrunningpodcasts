@@ -35,6 +35,11 @@ module LatestPodcastEpisodes
       (?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+(?:[a-z]{2,63})(?:/[^\s<>"']*)?
     )
   }ix.freeze
+  SOCIAL_LABEL_HANDLE_RX = /
+    \b(Instagram|Twitter|X|TikTok|YouTube)
+    \s*:\s*
+    (@[A-Za-z0-9_.]{1,30})
+  /ix.freeze
 
   module_function
 
@@ -263,6 +268,57 @@ module LatestPodcastEpisodes
         part
       else
         linkify_bare_urls_in_text(part)
+      end
+    end.join
+  end
+
+  def format_inline_external_link(href, label)
+    safe_href = CGI.escapeHTML(href.to_s.strip)
+    safe_label = CGI.escapeHTML(label.to_s.strip)
+    %(<a href="#{safe_href}" rel="noopener noreferrer" target="_blank">#{safe_label}</a>)
+  end
+
+  def social_profile_url_for_handle(platform, handle)
+    user = handle.to_s.strip.sub(/\A@/, "")
+    return "" if user.empty?
+
+    case platform.to_s.strip.downcase
+    when "instagram"
+      "https://www.instagram.com/#{user}/"
+    when "twitter", "x"
+      "https://x.com/#{user}"
+    when "tiktok"
+      "https://www.tiktok.com/@#{user}"
+    when "youtube"
+      "https://www.youtube.com/@#{user}"
+    else
+      ""
+    end
+  end
+
+  def linkify_social_handles_in_text(text)
+    text.gsub(SOCIAL_LABEL_HANDLE_RX) do
+      platform = Regexp.last_match(1)
+      handle = Regexp.last_match(2)
+      url = social_profile_url_for_handle(platform, handle)
+      next Regexp.last_match(0) if url.empty?
+
+      "#{platform}: #{format_inline_external_link(url, handle)}"
+    end
+  end
+
+  def linkify_social_handles_in_html(html)
+    inside_anchor = false
+
+    html.to_s.split(HTML_TOKEN_RX).map do |part|
+      if part.start_with?("<")
+        inside_anchor = true if part.match?(/<\s*a[\s>]/i)
+        inside_anchor = false if part.match?(/<\s*\/\s*a\s*>/i)
+        part
+      elsif inside_anchor
+        part
+      else
+        linkify_social_handles_in_text(part)
       end
     end.join
   end
@@ -564,6 +620,7 @@ module LatestPodcastEpisodes
     cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
     cleaned = repair_split_word_links(cleaned)
     cleaned = linkify_bare_urls_in_html(cleaned.strip)
+    cleaned = linkify_social_handles_in_html(cleaned)
     compact_label_url_links_in_html(cleaned)
   end
 
