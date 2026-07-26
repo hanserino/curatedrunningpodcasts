@@ -40,6 +40,7 @@ module LatestPodcastEpisodes
     \s*:\s*
     (@[A-Za-z0-9_.]{1,30})
   /ix.freeze
+  INSTAGRAM_RESERVED_PATHS = %w[p reel reels stories explore accounts direct tv popular].freeze
 
   module_function
 
@@ -460,12 +461,105 @@ module LatestPodcastEpisodes
     fragment
   end
 
+  def instagram_profile_username(href)
+    path = URI.parse(href.to_s.strip).path.to_s
+    segments = path.split("/").reject(&:empty?)
+    return nil if segments.empty?
+    return nil if INSTAGRAM_RESERVED_PATHS.include?(segments[0].downcase)
+
+    segments[0]
+  rescue URI::InvalidURIError
+    nil
+  end
+
+  def normalize_compact_href(href)
+    href = normalize_autolink_href(href.to_s.strip)
+    user = instagram_profile_username(href)
+    return "https://www.instagram.com/#{user}/" if user
+
+    uri = URI.parse(href)
+    path = uri.path.to_s
+    path = "/" if path.empty?
+    path = path.sub(%r{/+\z}, "")
+    path = "#{path}/" unless path.empty?
+    "#{uri.scheme}://#{uri.host}#{path}"
+  rescue URI::InvalidURIError
+    href
+  end
+
+  def compact_link_label_for_url(href)
+    href = href.to_s.strip
+    user = instagram_profile_username(href)
+    return "@#{user}" if user
+
+    if (match = href.match(%r{youtube\.com/@([A-Za-z0-9_.-]+)}i))
+      return "@#{match[1]}"
+    end
+
+    if (match = href.match(%r{(?:twitter|x)\.com/([A-Za-z0-9_]{1,15})(?:/|\?|\z)}i))
+      return "@#{match[1]}"
+    end
+
+    if (match = href.match(%r{tiktok\.com/@([A-Za-z0-9_.]+)}i))
+      return "@#{match[1]}"
+    end
+
+    domain = favicon_domain_from_href(href)
+    domain.empty? ? "" : domain
+  end
+
+  def url_like_anchor_text?(text, href)
+    plain = plain_fragment(text).strip
+    return true if plain.match?(/\A(?:https?:\/\/|www\.)/i)
+
+    normalize_url_for_compare(plain) == normalize_url_for_compare(href.to_s)
+  end
+
+  def normalize_url_for_compare(url)
+    normalized = normalize_autolink_href(url.to_s.strip)
+    normalized = normalized.sub(/\?.*\z/, "").sub(/#.*\z/, "")
+    normalized = normalized.sub(%r{/\z}, "")
+    normalized.downcase.sub(/\Ahttps?:\/\/www\./, "https://")
+  end
+
+  def compact_bare_url_link(fragment)
+    text = fragment.to_s.strip
+    return fragment if text.empty?
+    return fragment if text.include?("episode-note-link")
+
+    href = nil
+    anchor_match = text.match(/\A<a\s+[^>]*href\s*=\s*(["'])(.*?)\1[^>]*>([\s\S]*?)<\/a>\s*\z/im)
+    if anchor_match
+      href = anchor_match[2]
+      return fragment unless url_like_anchor_text?(anchor_match[3], href)
+    else
+      plain = plain_fragment(text)
+      url_match = plain.match(/\A((?:https?:\/\/|www\.)\S+)\z/i)
+      return fragment unless url_match
+
+      url = url_match[1]
+      url, = strip_trailing_url_punctuation(url)
+      href = normalize_autolink_href(url)
+    end
+
+    label = compact_link_label_for_url(href)
+    return fragment if label.empty?
+
+    format_external_link(normalize_compact_href(href), label)
+  end
+
+  def compact_show_note_link(fragment)
+    result = compact_label_url_link(fragment)
+    result = compact_bare_url_link(result) if result == fragment
+    result
+  end
+
   def compact_label_url_links_in_html(html)
     html.to_s.gsub(/<(li|p)(\s[^>]*)?>([\s\S]*?)<\/\1>/im) do
       tag = Regexp.last_match(1)
       attrs = Regexp.last_match(2).to_s
       inner = Regexp.last_match(3).to_s.strip
-      compacted = compact_label_url_link(inner)
+      compacted = compact_show_note_link(inner)
       compacted == inner ? Regexp.last_match(0) : "<#{tag}#{attrs}>#{compacted}</#{tag}>"
     end
   end
