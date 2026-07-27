@@ -1,7 +1,7 @@
 # Rebuild when a new podcast post or media asset lands (Decap/Git push to main).
 # Paths are narrow so bot commits that only touch docs/ or _data/ do not re-trigger.
-# Shares concurrency with the scheduled workflow so only one build pushes docs/ at a time.
-# Queue instead of cancel so Decap/content pushes are not dropped when the hourly build fires.
+# Uses committed episode data (no RSS fetch) so new podcasts ship in minutes, not hours.
+# Scheduled workflow refreshes feeds and episode pages every 6 hours.
 name: Push Jekyll build (RSS)
 
 on:
@@ -18,6 +18,9 @@ on:
       - "_plugins/**"
       - "assets/**"
       - "_config.yml"
+      - ".github/workflows/push-jekyll-build.yml"
+      - ".github/workflows/scheduled-jekyll-build.yml"
+      - "tools/ci-commit-push.sh"
       - "*.md"
       - "!docs/**"
   workflow_dispatch:
@@ -25,13 +28,15 @@ on:
 permissions:
   contents: write
 
+# Independent from scheduled RSS builds so Decap/content pushes are never blocked for hours.
 concurrency:
-  group: jekyll-build
+  group: jekyll-build-push
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -54,13 +59,12 @@ jobs:
           bundler: "2.3.24"
           bundler-cache: true
 
-      - name: Production Jekyll build (fetch RSS)
+      - name: Production Jekyll build
         env:
           JEKYLL_ENV: production
-          JEKYLL_FETCH_RSS: "1"
         run: bundle exec jekyll build --destination docs
 
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
-        run: 'bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs (post push)"'
+        run: 'bash tools/ci-commit-push.sh "chore: rebuild docs (post push)"'

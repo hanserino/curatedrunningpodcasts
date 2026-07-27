@@ -4,21 +4,23 @@ name: Scheduled Jekyll build (RSS)
 
 on:
   schedule:
-    # Every hour at :00 UTC (adjust as needed)
-    - cron: "0 * * * *"
+    # Every 6 hours — RSS rebuild often exceeds 1h; hourly runs queued forever and were cancelled.
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Same group as push-jekyll-build.yml — one build at a time, queued (never cancelled mid-run).
+# Separate group from push builds: a new scheduled run replaces a stuck previous one
+# instead of queuing indefinitely behind a zombie in-progress run.
 concurrency:
-  group: jekyll-build
-  cancel-in-progress: false
+  group: jekyll-build-scheduled
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     env:
       # Use Node 24 for JS-based actions (checkout, etc.); avoids Node 20 deprecation on runners.
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -51,4 +53,5 @@ jobs:
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
+          CI_FETCH_RSS: "1"
         run: 'bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs"'

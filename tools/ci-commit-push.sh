@@ -21,7 +21,11 @@ discard_local_noise() {
 
 rebuild_site() {
   npm run optimize-media
-  JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bundle exec jekyll build --destination docs
+  if [ "${CI_FETCH_RSS:-0}" = "1" ]; then
+    JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bundle exec jekyll build --destination docs
+  else
+    JEKYLL_ENV=production bundle exec jekyll build --destination docs
+  fi
 }
 
 for attempt in $(seq 1 "$MAX_ATTEMPTS"); do
