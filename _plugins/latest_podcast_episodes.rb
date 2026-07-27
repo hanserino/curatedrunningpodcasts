@@ -119,10 +119,12 @@ module LatestPodcastEpisodes
     (tags + langs).join(" ").strip
   end
 
-  def resanitize_episode_descriptions!(episodes_by_feed)
+  def resanitize_episode_descriptions!(episodes_by_feed, only_feed_keys: nil)
     return unless episodes_by_feed.is_a?(Hash)
 
-    episodes_by_feed.each_value do |episodes|
+    episodes_by_feed.each do |feed_key, episodes|
+      next if only_feed_keys && !only_feed_keys.map(&:to_s).include?(feed_key.to_s)
+
       Array(episodes).each do |entry|
         next unless entry.is_a?(Hash)
 
@@ -1143,11 +1145,13 @@ module LatestPodcastEpisodes
     File.file?(dest)
   end
 
-  def stamp_episode_fingerprints!(site, episodes_by_feed)
+  def stamp_episode_fingerprints!(site, episodes_by_feed, only_feed_keys: nil)
     return unless episodes_by_feed.is_a?(Hash)
 
     feed_to_podcast = feed_to_podcast_map(site)
     episodes_by_feed.each do |feed_key, episodes|
+      next if only_feed_keys && !only_feed_keys.map(&:to_s).include?(feed_key.to_s)
+
       doc = feed_to_podcast[feed_key.to_s]
       next unless doc && episode_pages_for_doc?(doc)
 
@@ -1158,6 +1162,109 @@ module LatestPodcastEpisodes
           episode_page_fingerprint(entry, doc)
       end
     end
+  end
+
+  def podcast_feeds_needing_refresh(site, episodes_by_feed)
+    keys = []
+    feed_to_podcast_map(site).each do |feed_key, doc|
+      next unless episode_pages_for_doc?(doc)
+
+      slug = doc.data["slug"].to_s
+      eps = episodes_by_feed.is_a?(Hash) ? episodes_by_feed[feed_key] : nil
+      missing = eps.nil? || (eps.is_a?(Array) && eps.empty?)
+      keys << feed_key if missing || dirty_podcast_slugs.include?(slug)
+    end
+    keys.uniq
+  end
+
+  def build_directory_item_for_doc(doc, xml, episodes)
+    latest_item = latest_item_from_feed(xml)
+    return nil unless latest_item
+
+    feed_url = doc.data["rss_feed"].to_s.strip
+    enclosure_url = latest_item.respond_to?(:enclosure) ? latest_item.enclosure&.url.to_s.strip : ""
+    return nil if enclosure_url.empty?
+
+    published_at = parse_time(latest_item) || Time.now
+    cover_image = doc.data["cover_image"].to_s.strip
+    cover_image = feed_image_from_xml(xml) if cover_image.empty?
+    latest_episode_meta = episodes.is_a?(Array) ? episodes.first : nil
+    {
+      "podcast_title" => doc.data["title"],
+      "podcast_page_url" => doc.url,
+      "cover_image" => cover_image,
+      "feed_url" => feed_url,
+      "filter_category" => filter_category_for_doc(doc),
+      "episode_title" => latest_item.title.to_s.strip,
+      "episode_url" => latest_item.link.to_s.strip,
+      "audio_url" => enclosure_url,
+      "published_at" => published_at.iso8601,
+      "episode_key" => latest_episode_meta&.dig("episode_slug"),
+      "episode_slug" => latest_episode_meta&.dig("episode_slug"),
+      "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
+    }
+  end
+
+  def sort_directory_items!(items)
+    items.sort_by! do |item|
+      Time.parse(item["published_at"].to_s)
+    rescue ArgumentError, TypeError
+      Time.at(0)
+    end
+    items.reverse!
+  end
+
+  # Fetch RSS for new/changed running podcasts during fast push builds.
+  def refresh_podcast_feeds!(site, payload)
+    episodes_by_feed = payload["episodes_by_feed"] ||= {}
+    items = payload["items"] ||= []
+    errors = payload["errors"] ||= []
+    feed_keys = podcast_feeds_needing_refresh(site, episodes_by_feed)
+    return 0 if feed_keys.empty?
+
+    feed_to_doc = feed_to_podcast_map(site)
+    refreshed = 0
+
+    feed_keys.each do |feed_key|
+      doc = feed_to_doc[feed_key.to_s]
+      next unless doc
+
+      feed_url = doc.data["rss_feed"].to_s.strip
+      Jekyll.logger.info(
+        "LatestPodcastEpisodes:",
+        "Fetching RSS for #{doc.data['title']} (#{feed_url})."
+      )
+      begin
+        xml = fetch_feed(feed_url)
+        podcast_slug = doc.data["slug"].to_s.strip
+        limit = episodes_per_podcast_limit_for(doc)
+        episodes = episodes_from_feed(xml, limit, podcast_slug: podcast_slug)
+        episodes_by_feed[feed_key] = episodes
+
+        if episode_pages_for_doc?(doc)
+          items.reject! { |item| normalize_feed_key(item["feed_url"].to_s) == feed_key.to_s }
+          item = build_directory_item_for_doc(doc, xml, episodes)
+          items << item if item
+        end
+        refreshed += 1
+      rescue StandardError => e
+        episodes_by_feed[feed_key] = []
+        errors << {
+          "podcast" => doc.data["title"],
+          "rss_feed" => feed_url,
+          "error" => "#{e.class}: #{e.message}"
+        }
+        Jekyll.logger.warn "LatestPodcastEpisodes:", "Feed failed #{feed_url}: #{e.class} #{e.message}"
+      end
+    end
+
+    return 0 if refreshed.zero?
+
+    resanitize_episode_descriptions!(episodes_by_feed, only_feed_keys: feed_keys)
+    stamp_episode_fingerprints!(site, episodes_by_feed, only_feed_keys: feed_keys)
+    sort_directory_items!(items)
+    payload["generated_at"] = Time.now.utc.iso8601
+    refreshed
   end
 
 
@@ -1241,12 +1348,22 @@ def build_latest_podcast_episodes_data(site)
         "generated_at" => Time.now.utc.iso8601,
         "directory_only_build" => true
       )
+      merged["episodes_by_feed"] ||= {}
+      refreshed = LatestPodcastEpisodes.refresh_podcast_feeds!(site, merged)
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
-      Jekyll.logger.info(
-        "LatestPodcastEpisodes:",
-        "Directory-only build; using committed episode data as-is."
-      )
+      if refreshed.positive?
+        LatestPodcastEpisodes.write_committed_data(site, merged)
+        Jekyll.logger.info(
+          "LatestPodcastEpisodes:",
+          "Directory build refreshed #{refreshed} podcast feed(s); updated committed episode data."
+        )
+      else
+        Jekyll.logger.info(
+          "LatestPodcastEpisodes:",
+          "Directory-only build; using committed episode data as-is."
+        )
+      end
       return
     end
 
