@@ -22,7 +22,9 @@ on:
       - ".github/workflows/push-jekyll-build.yml"
       - ".github/workflows/scheduled-jekyll-build.yml"
       - "tools/ci-commit-push.sh"
+      - "tools/ci-jekyll-build.sh"
       - "tools/ci-jekyll-env.sh"
+      - "tools/restore-episode-docs.sh"
       - "*.md"
       - "!docs/**"
   workflow_dispatch:
@@ -68,9 +70,10 @@ jobs:
         env:
           JEKYLL_ENV: production
           SKIP_EPISODE_PAGES: "1"
-        run: bundle exec jekyll build --destination docs
+        run: bash tools/ci-jekyll-build.sh docs
 
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
+          SKIP_EPISODE_PAGES: "1"
         run: 'bash tools/ci-commit-push.sh "chore: rebuild docs (post push)"'

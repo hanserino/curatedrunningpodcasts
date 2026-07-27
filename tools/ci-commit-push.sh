@@ -11,7 +11,12 @@ git config user.name "github-actions[bot]"
 git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
 stage_build_outputs() {
-  git add -A docs _data/latest_podcast_episodes.yml media
+  git add _data/latest_podcast_episodes.yml media
+  if [ "${SKIP_EPISODE_PAGES:-0}" = "1" ]; then
+    git add --ignore-removal -A docs
+  else
+    git add -A docs
+  fi
 }
 
 discard_local_noise() {
@@ -22,9 +27,9 @@ discard_local_noise() {
 rebuild_site() {
   npm run optimize-media
   if [ "${CI_FETCH_RSS:-0}" = "1" ]; then
-    JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bundle exec jekyll build --destination docs
+    JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bash tools/ci-jekyll-build.sh docs
   else
-    JEKYLL_ENV=production SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-1}" bundle exec jekyll build --destination docs
+    JEKYLL_ENV=production SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-1}" bash tools/ci-jekyll-build.sh docs
   fi
 }
 
