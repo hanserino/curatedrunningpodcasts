@@ -21,6 +21,7 @@ on:
       - ".github/workflows/push-jekyll-build.yml"
       - ".github/workflows/scheduled-jekyll-build.yml"
       - "tools/ci-commit-push.sh"
+      - "tools/ci-jekyll-env.sh"
       - "*.md"
       - "!docs/**"
   workflow_dispatch:
@@ -58,6 +59,9 @@ jobs:
           ruby-version: "3.2"
           bundler: "2.3.24"
           bundler-cache: true
+
+      - name: Configure Jekyll build flags
+        run: bash tools/ci-jekyll-env.sh
 
       - name: Production Jekyll build
         env:

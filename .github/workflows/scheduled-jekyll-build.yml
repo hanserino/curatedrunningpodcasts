@@ -44,7 +44,10 @@ jobs:
           bundler: "2.3.24"
           bundler-cache: true
 
-      - name: Production Jekyll build (fetch RSS)
+      - name: Configure Jekyll build flags
+        run: bash tools/ci-jekyll-env.sh
+
+      - name: Production Jekyll build (running podcasts RSS only)
         env:
           JEKYLL_ENV: production
           JEKYLL_FETCH_RSS: "1"

@@ -2,6 +2,9 @@
 
 # Generates a static page per RSS episode under /{podcast-slug}/{episode-title-slug}/
 # using episodes_by_feed from LatestPodcastEpisodes (production RSS or committed YAML).
+#
+# Incremental mode (default in production): skips episode pages whose on-disk HTML
+# matches the stored page_build_fingerprint. Set REBUILD_ALL_EPISODE_PAGES=1 to force.
 
 module PodcastEpisodeRedirects
   module_function
@@ -84,15 +87,8 @@ class PodcastEpisodePage < Jekyll::Page
     @redirect_paths =
       PodcastEpisodeRedirects.paths_for(podcast_slug, episode, episode_slug)
 
-    description_html = LatestPodcastEpisodes.sanitize_episode_description_html(
-      episode["description_html"]
-    )
-    description_plain =
-      if description_html.empty?
-        ""
-      else
-        LatestPodcastEpisodes.description_plain_from_html(description_html)
-      end
+    description_html = episode["description_html"].to_s
+    description_plain = episode["description_plain"].to_s
 
     episode_title = episode["episode_title"].to_s.strip
     podcast_title = podcast_doc.data["title"].to_s.strip
@@ -184,6 +180,38 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     Jekyll.env == "production"
   end
 
+  def prepare_episode(raw_episode)
+    episode = raw_episode.dup
+    episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(
+      episode["description_html"]
+    )
+    episode["description_plain"] =
+      if episode["description_html"].to_s.strip.empty?
+        ""
+      else
+        LatestPodcastEpisodes.description_plain_from_html(episode["description_html"])
+      end
+    episode
+  end
+
+  def skip_archive_page?(site, podcast_doc, prepared_episodes)
+    return false unless LatestPodcastEpisodes.incremental_episode_pages?
+    return false if prepared_episodes.empty?
+
+    podcast_slug = podcast_doc.data["slug"].to_s
+    return false if LatestPodcastEpisodes.dirty_podcast_slugs.include?(podcast_slug)
+
+    dest = site.in_dest_dir(podcast_slug, "episodes", "index.html")
+    return false unless File.file?(dest)
+
+    prepared_episodes.all? do |episode|
+      episode_slug = episode["episode_slug"].to_s.strip
+      next true if episode_slug.empty?
+
+      LatestPodcastEpisodes.skip_episode_page?(site, podcast_doc, episode, episode_slug)
+    end
+  end
+
   def generate(site)
     enabled = generate_episode_pages?
     site.config["podcast_episode_pages_enabled"] = enabled
@@ -201,26 +229,15 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     episodes_by_feed = feed_data["episodes_by_feed"]
     return unless episodes_by_feed.is_a?(Hash)
 
-    posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
-    feed_to_podcast = {}
-
-    posts.each do |doc|
-      next unless doc.data["category"] == "podcast"
-
-      feed_url = doc.data["rss_feed"].to_s.strip
-      next if feed_url.empty?
-
-      slug = doc.data["slug"].to_s.strip
-      next if slug.empty?
-
-      feed_to_podcast[LatestPodcastEpisodes.normalize_feed_key(feed_url)] = doc
-    end
+    feed_to_podcast = LatestPodcastEpisodes.feed_to_podcast_map(site)
 
     page_count = 0
+    skipped_count = 0
 
     episodes_by_feed.each do |feed_key, episodes|
-      podcast_doc = feed_to_podcast[feed_key]
+      podcast_doc = feed_to_podcast[feed_key.to_s]
       next unless podcast_doc
+      next unless LatestPodcastEpisodes.episode_pages_for_doc?(podcast_doc)
 
       podcast_slug = podcast_doc.data["slug"].to_s
       with_slugs = LatestPodcastEpisodes.assign_episode_slugs!(
@@ -228,26 +245,24 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
         podcast_slug: podcast_slug
       )
 
-      site.pages << PodcastEpisodeArchivePage.new(site, site.source, podcast_doc, with_slugs) unless with_slugs.empty?
+      prepared = with_slugs.map { |raw| prepare_episode(raw) }
 
-      with_slugs.each do |raw_episode|
-        audio = raw_episode["audio_url"].to_s.strip
-        title = raw_episode["episode_title"].to_s.strip
+      unless skip_archive_page?(site, podcast_doc, prepared)
+        site.pages << PodcastEpisodeArchivePage.new(site, site.source, podcast_doc, with_slugs) unless with_slugs.empty?
+      end
+
+      prepared.each do |episode|
+        audio = episode["audio_url"].to_s.strip
+        title = episode["episode_title"].to_s.strip
         next if audio.empty? || title.empty?
 
-        episode = raw_episode.dup
         episode_slug = episode["episode_slug"].to_s.strip
         next if episode_slug.empty?
 
-        episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(
-          episode["description_html"]
-        )
-        episode["description_plain"] =
-          if episode["description_html"].to_s.strip.empty?
-            ""
-          else
-            LatestPodcastEpisodes.description_plain_from_html(episode["description_html"])
-          end
+        if LatestPodcastEpisodes.skip_episode_page?(site, podcast_doc, episode, episode_slug)
+          skipped_count += 1
+          next
+        end
 
         page = PodcastEpisodePage.new(site, site.source, podcast_doc, episode, episode_slug)
         site.pages << page
@@ -259,6 +274,13 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
       end
     end
 
-    Jekyll.logger.info "PodcastEpisodePages:", "Generated #{page_count} episode page(s)."
+    if LatestPodcastEpisodes.incremental_episode_pages?
+      Jekyll.logger.info(
+        "PodcastEpisodePages:",
+        "Generated #{page_count} episode page(s); skipped #{skipped_count} unchanged."
+      )
+    else
+      Jekyll.logger.info "PodcastEpisodePages:", "Generated #{page_count} episode page(s)."
+    end
   end
 end

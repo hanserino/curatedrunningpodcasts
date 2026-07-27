@@ -4,11 +4,13 @@
 # Otherwise the build uses _data/latest_podcast_episodes.yml (from git) and/or
 # .jekyll-rss-cache/latest_podcast_episodes.yml so jekyll serve stays fast.
 #
-# All podcasts with rss_feed get episodes_by_feed (for single podcast pages).
-# Only running-directory shows (not_running_related != true) appear in items
-# (for /latest-episodes/ and the home directory snapshot).
+# Running-directory shows (not_running_related != true) get episodes_by_feed entries
+# (up to EPISODE_PAGES_PER_PODCAST, default 25) and static episode pages.
+# Unrelated shows keep a podcast landing page only — no RSS fetch and no episode pages
+# unless JEKYLL_FETCH_UNRELATED_RSS=1.
 
 require "cgi"
+require "digest"
 require "fileutils"
 require "open-uri"
 require "rss"
@@ -145,26 +147,29 @@ module LatestPodcastEpisodes
     h["feed_episodes_list"] = eb.map { |k, eps| { "feed_key" => k.to_s, "episodes" => eps } }
   end
 
-  # When a feed fetch fails, keep prior committed or disk-cache episodes for that feed key.
+  # When a feed fetch fails or is skipped, keep prior committed or disk-cache episodes for that feed key.
   def merge_episodes_by_feed(fresh, prior, cache)
-    return fresh unless fresh.is_a?(Hash)
+    fresh = {} unless fresh.is_a?(Hash)
+    prior = {} unless prior.is_a?(Hash)
+    cache = {} unless cache.is_a?(Hash)
 
-    fresh.each_with_object({}) do |(key, episodes), merged|
-      k = key.to_s
+    keys = (fresh.keys + prior.keys + cache.keys).map(&:to_s).uniq
+    keys.each_with_object({}) do |key, merged|
+      episodes = fresh[key]
       if episodes.is_a?(Array) && !episodes.empty?
-        merged[k] = episodes
+        merged[key] = episodes
         next
       end
 
-      from_prior = prior[k] if prior.is_a?(Hash)
-      from_cache = cache[k] if cache.is_a?(Hash)
+      from_prior = prior[key]
+      from_cache = cache[key]
       fallback =
         if from_prior.is_a?(Array) && !from_prior.empty?
           from_prior
         elsif from_cache.is_a?(Array) && !from_cache.empty?
           from_cache
         end
-      merged[k] = fallback || episodes
+      merged[key] = fallback || episodes || []
     end
   end
 
@@ -817,6 +822,8 @@ module LatestPodcastEpisodes
 
     backfilled_feeds = 0
     podcasts_with_feed.each do |doc|
+      next unless fetch_rss_for_doc?(doc)
+
       feed_url = doc.data["rss_feed"].to_s.strip
       next if feed_url.empty?
 
@@ -1025,6 +1032,130 @@ module LatestPodcastEpisodes
     25
   end
 
+  EPISODE_RENDER_VERSION = "1"
+
+  def not_running_related?(doc)
+    doc.data["not_running_related"] == true
+  end
+
+  def episode_pages_for_doc?(doc)
+    !not_running_related?(doc)
+  end
+
+  def fetch_rss_for_doc?(doc)
+    return true if fetch_unrelated_rss?
+
+    episode_pages_for_doc?(doc)
+  end
+
+  def fetch_unrelated_rss?
+    ENV["JEKYLL_FETCH_UNRELATED_RSS"].to_s == "1"
+  end
+
+  def episodes_per_podcast_limit_for(doc)
+    return 0 unless episode_pages_for_doc?(doc)
+
+    episodes_per_podcast_limit
+  end
+
+  def feed_to_podcast_map(site)
+    map = {}
+    podcast_posts_with_feed(site).each do |doc|
+      feed_url = doc.data["rss_feed"].to_s.strip
+      next if feed_url.empty?
+
+      map[normalize_feed_key(feed_url)] = doc
+    end
+    map
+  end
+
+  def normalize_episodes_by_feed!(site, episodes_by_feed)
+    return episodes_by_feed unless episodes_by_feed.is_a?(Hash)
+
+    feed_to_podcast = feed_to_podcast_map(site)
+    episodes_by_feed.each_key do |feed_key|
+      doc = feed_to_podcast[feed_key.to_s]
+      unless doc
+        next
+      end
+
+      if not_running_related?(doc)
+        episodes_by_feed[feed_key] = []
+        next
+      end
+
+      limit = episodes_per_podcast_limit_for(doc)
+      episodes_by_feed[feed_key] = Array(episodes_by_feed[feed_key]).first(limit)
+    end
+    episodes_by_feed
+  end
+
+  def incremental_episode_pages?
+    return false if ENV["REBUILD_ALL_EPISODE_PAGES"].to_s == "1"
+    return true if ENV["JEKYLL_INCREMENTAL_EPISODE_PAGES"].to_s == "1"
+
+    ENV["JEKYLL_ENV"].to_s == "production"
+  end
+
+  def dirty_podcast_slugs
+    ENV.fetch("CHANGED_PODCAST_SLUGS", "").split(",").map { |s| s.strip }.reject(&:empty?)
+  end
+
+  def episode_page_dest_path(site, permalink)
+    rel = permalink.to_s.sub(%r{\A/}, "").sub(%r{/+\z}, "")
+    site.in_dest_dir(rel, "index.html")
+  end
+
+  def episode_page_fingerprint(sanitized_episode, podcast_doc)
+    parts = [
+      EPISODE_RENDER_VERSION,
+      podcast_doc.data["slug"].to_s,
+      sanitized_episode["episode_slug"].to_s,
+      sanitized_episode["episode_title"].to_s,
+      sanitized_episode["audio_url"].to_s,
+      sanitized_episode["published_at"].to_s,
+      sanitized_episode["description_html"].to_s,
+      podcast_doc.data["cover_image"].to_s,
+      podcast_doc.data["spotify_link"].to_s,
+      podcast_doc.data["apple_podcast_link"].to_s
+    ]
+    Digest::SHA256.hexdigest(parts.join("\0"))[0, 16]
+  end
+
+  def skip_episode_page?(site, podcast_doc, sanitized_episode, episode_slug)
+    return false unless incremental_episode_pages?
+
+    podcast_slug = podcast_doc.data["slug"].to_s
+    return false if dirty_podcast_slugs.include?(podcast_slug)
+
+    fingerprint = episode_page_fingerprint(sanitized_episode, podcast_doc)
+    stored = sanitized_episode["page_build_fingerprint"].to_s
+    return false if stored.empty? || stored != fingerprint
+
+    dest = episode_page_dest_path(
+      site,
+      episode_page_path(podcast_slug, episode_slug)
+    )
+    File.file?(dest)
+  end
+
+  def stamp_episode_fingerprints!(site, episodes_by_feed)
+    return unless episodes_by_feed.is_a?(Hash)
+
+    feed_to_podcast = feed_to_podcast_map(site)
+    episodes_by_feed.each do |feed_key, episodes|
+      doc = feed_to_podcast[feed_key.to_s]
+      next unless doc && episode_pages_for_doc?(doc)
+
+      Array(episodes).each do |entry|
+        next unless entry.is_a?(Hash)
+
+        entry["page_build_fingerprint"] =
+          episode_page_fingerprint(entry, doc)
+      end
+    end
+  end
+
 
   def rss_cache_path(site)
     site.in_source_dir(".jekyll-rss-cache", "latest_podcast_episodes.yml")
@@ -1126,11 +1257,17 @@ def build_latest_podcast_episodes_data(site)
           merged["episodes_by_feed"]
         )
       end
+      LatestPodcastEpisodes.normalize_episodes_by_feed!(site, merged["episodes_by_feed"])
       LatestPodcastEpisodes.resanitize_episode_descriptions!(merged["episodes_by_feed"])
-      merged["non_running_items"] = LatestPodcastEpisodes.non_running_items_for_site(
-        site,
-        merged["episodes_by_feed"]
-      )
+      merged["non_running_items"] =
+        if prior_snapshot.is_a?(Hash) && prior_snapshot["non_running_items"].is_a?(Array)
+          prior_snapshot["non_running_items"]
+        else
+          LatestPodcastEpisodes.non_running_items_for_site(
+            site,
+            merged["episodes_by_feed"]
+          )
+        end
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
       Jekyll.logger.info(
@@ -1162,10 +1299,14 @@ def build_latest_podcast_episodes_data(site)
     feed_key = LatestPodcastEpisodes.normalize_feed_key(feed_url)
     include_in_directory = doc.data["not_running_related"] != true
 
+    unless LatestPodcastEpisodes.fetch_rss_for_doc?(doc)
+      next
+    end
+
     begin
       xml = LatestPodcastEpisodes.fetch_feed(feed_url)
       podcast_slug = doc.data["slug"].to_s.strip
-      episode_limit = LatestPodcastEpisodes.episodes_per_podcast_limit
+      episode_limit = LatestPodcastEpisodes.episodes_per_podcast_limit_for(doc)
       episodes = LatestPodcastEpisodes.episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug)
       episodes_by_feed[feed_key] = episodes
 
@@ -1221,9 +1362,10 @@ def build_latest_podcast_episodes_data(site)
     episodes.is_a?(Array) && !episodes.empty?
   end
   has_episodes_by_feed = feeds_with_episodes.positive?
+  fetchable_podcasts = podcasts_with_feed.count { |doc| LatestPodcastEpisodes.fetch_rss_for_doc?(doc) }
   fetch_looks_healthy =
     sorted.any? &&
-      (podcasts_with_feed.empty? || feeds_with_episodes >= (podcasts_with_feed.size * 0.5).ceil)
+      (fetchable_podcasts.zero? || feeds_with_episodes >= (fetchable_podcasts * 0.5).ceil)
 
   prior_episodes = prior_snapshot.is_a?(Hash) ? prior_snapshot["episodes_by_feed"] : nil
   cache_episodes = cached.is_a?(Hash) ? cached["episodes_by_feed"] : nil
@@ -1232,7 +1374,9 @@ def build_latest_podcast_episodes_data(site)
     prior_episodes,
     cache_episodes
   )
+  LatestPodcastEpisodes.normalize_episodes_by_feed!(site, episodes_by_feed)
   LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
+  LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
 
   feeds_with_episodes = episodes_by_feed.count do |_, episodes|
     episodes.is_a?(Array) && !episodes.empty?
