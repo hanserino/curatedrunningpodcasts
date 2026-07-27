@@ -18,6 +18,7 @@ on:
       - "_plugins/**"
       - "assets/**"
       - "_config.yml"
+      - "_data/latest_podcast_episodes.yml"
       - ".github/workflows/push-jekyll-build.yml"
       - ".github/workflows/scheduled-jekyll-build.yml"
       - "tools/ci-commit-push.sh"

@@ -24,7 +24,7 @@ rebuild_site() {
   if [ "${CI_FETCH_RSS:-0}" = "1" ]; then
     JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bundle exec jekyll build --destination docs
   else
-    JEKYLL_ENV=production bundle exec jekyll build --destination docs
+    JEKYLL_ENV=production SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-1}" bundle exec jekyll build --destination docs
   fi
 }
 
