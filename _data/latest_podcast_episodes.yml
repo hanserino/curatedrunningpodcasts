@@ -1,5 +1,5 @@
 ---
-generated_at: '2026-07-27T13:44:24Z'
+generated_at: '2026-07-27T13:53:07Z'
 items:
 - podcast_title: Run Long After 60
   podcast_page_url: "/run-long-after-60/"
@@ -87,7 +87,7 @@ items:
   episode_page_url: "/second-nature/he-never-wanted-to-go-viral-that-s-why-brands-trust-him/"
 - podcast_title: Bad Boy Running
   podcast_page_url: "/bad-boy-running/"
-  cover_image: "/media/badboy.jpeg"
+  cover_image: "/media/badboys.jpeg"
   feed_url: https://rss.buzzsprout.com/1614244.rss
   filter_category: trail subultra road skyrunning ultra english
   episode_title: Ep 740 | TBS - Is My Son Racist?
@@ -181,18 +181,6 @@ items:
   episode_key: 147-from-failure-to-triple-crown-champion-kilian-korth-on-mental-toughness-never-quitting
   episode_slug: 147-from-failure-to-triple-crown-champion-kilian-korth-on-mental-toughness-never-quitting
   episode_page_url: "/choose-strong/147-from-failure-to-triple-crown-champion-kilian-korth-on-mental-toughness-never-quitting/"
-- podcast_title: Find Your Everest by Javi Ordieres
-  podcast_page_url: "/find-your-everest/"
-  cover_image: "/media/findyoureverest.jpeg"
-  feed_url: https://feeds.ivoox.com/feed_fg_f11845321_filtro_1.xml
-  filter_category: trail spanish
-  episode_title: KILIAN NO ESTARÁ EN SIERRE ZINAL ❌ - ERRORES DEL TRAIL RUNNER | FIND YOUR EVEREST PODCAST by Javi Ordieres
-  episode_url: https://www.ivoox.com/kilian-no-estara-en-sierre-zinal-audios-mp3_rf_177733960_1.html
-  audio_url: https://www.ivoox.com/kilian-no-estara-en-sierre-zinal_mf_177733960_feed_1.mp3
-  published_at: '2026-07-22T18:00:00+02:00'
-  episode_key: kilian-no-estara-en-sierre-zinal-errores-del-trail-runner-find-your-everest-podcast-by-javi-ordieres
-  episode_slug: kilian-no-estara-en-sierre-zinal-errores-del-trail-runner-find-your-everest-podcast-by-javi-ordieres
-  episode_page_url: "/find-your-everest/kilian-no-estara-en-sierre-zinal-errores-del-trail-runner-find-your-everest-podcast-by-javi-ordieres/"
 - podcast_title: Distance to Empty
   podcast_page_url: "/distance-to-empty/"
   cover_image: "/media/distancetoempty.jpeg"
@@ -205,6 +193,18 @@ items:
   episode_key: cocodona-250-week-2026-recap-the-mba-volunteering-commentating-everything-in-between
   episode_slug: cocodona-250-week-2026-recap-the-mba-volunteering-commentating-everything-in-between
   episode_page_url: "/distance-to-empty/cocodona-250-week-2026-recap-the-mba-volunteering-commentating-everything-in-between/"
+- podcast_title: Find Your Everest by Javi Ordieres
+  podcast_page_url: "/find-your-everest/"
+  cover_image: "/media/findyoureverest.jpeg"
+  feed_url: https://feeds.ivoox.com/feed_fg_f11845321_filtro_1.xml
+  filter_category: trail spanish
+  episode_title: KILIAN NO ESTARÁ EN SIERRE ZINAL ❌ - ERRORES DEL TRAIL RUNNER | FIND YOUR EVEREST PODCAST by Javi Ordieres
+  episode_url: https://www.ivoox.com/kilian-no-estara-en-sierre-zinal-audios-mp3_rf_177733960_1.html
+  audio_url: https://www.ivoox.com/kilian-no-estara-en-sierre-zinal_mf_177733960_feed_1.mp3
+  published_at: '2026-07-22T18:00:00+02:00'
+  episode_key: kilian-no-estara-en-sierre-zinal-errores-del-trail-runner-find-your-everest-podcast-by-javi-ordieres
+  episode_slug: kilian-no-estara-en-sierre-zinal-errores-del-trail-runner-find-your-everest-podcast-by-javi-ordieres
+  episode_page_url: "/find-your-everest/kilian-no-estara-en-sierre-zinal-errores-del-trail-runner-find-your-everest-podcast-by-javi-ordieres/"
 - podcast_title: Nobody Asked Us
   podcast_page_url: "/nobody-asked-us/"
   cover_image: "/media/nobodyaskedus.jpg"
@@ -30609,7 +30609,7 @@ episodes_by_feed:
     episode_key: ep-740-tbs-is-my-son-racist
     legacy_numbered_slug: episode-01
     episode_page_url: "/bad-boy-running/ep-740-tbs-is-my-son-racist/"
-    page_build_fingerprint: f581ff42eda32686
+    page_build_fingerprint: 43c5336008d5549f
   - episode_title: Ep 739 | TBS Special - The Silly Scilly Sixty
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19511323-ep-739-tbs-special-the-silly-scilly-sixty.mp3
@@ -30622,7 +30622,7 @@ episodes_by_feed:
     episode_key: ep-739-tbs-special-the-silly-scilly-sixty
     legacy_numbered_slug: episode-02
     episode_page_url: "/bad-boy-running/ep-739-tbs-special-the-silly-scilly-sixty/"
-    page_build_fingerprint: ebc9b87fdd556807
+    page_build_fingerprint: 67dfac9760ea7848
   - episode_title: Ep 738 | TBS - Laz Lake Needs To Ban All Prize Money From Backyard Ultras
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19507341-ep-738-tbs-laz-lake-needs-to-ban-all-prize-money-from-backyard-ultras.mp3
@@ -30635,7 +30635,7 @@ episodes_by_feed:
     episode_key: ep-738-tbs-laz-lake-needs-to-ban-all-prize-money-from-backyard-ultras
     legacy_numbered_slug: episode-03
     episode_page_url: "/bad-boy-running/ep-738-tbs-laz-lake-needs-to-ban-all-prize-money-from-backyard-ultras/"
-    page_build_fingerprint: 7d9480d64a28b024
+    page_build_fingerprint: ad515ca14ebac539
   - episode_title: Ep 737 | When Maps Go Wrong  - Mark Cooper-Jones
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19480904-ep-737-when-maps-go-wrong-mark-cooper-jones.mp3
@@ -30648,7 +30648,7 @@ episodes_by_feed:
     episode_key: ep-737-when-maps-go-wrong-mark-cooper-jones
     legacy_numbered_slug: episode-04
     episode_page_url: "/bad-boy-running/ep-737-when-maps-go-wrong-mark-cooper-jones/"
-    page_build_fingerprint: 86a7b3f87ac8e8a5
+    page_build_fingerprint: 0d2e41e2921de7b1
   - episode_title: Ep 736 | Beating the Dragon's Back FKT by 27 Hours - Natalie Taylor
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19446070-ep-736-beating-the-dragon-s-back-fkt-by-27-hours-natalie-taylor.mp3
@@ -30661,7 +30661,7 @@ episodes_by_feed:
     episode_key: ep-736-beating-the-dragon-s-back-fkt-by-27-hours-natalie-taylor
     legacy_numbered_slug: episode-05
     episode_page_url: "/bad-boy-running/ep-736-beating-the-dragon-s-back-fkt-by-27-hours-natalie-taylor/"
-    page_build_fingerprint: 86d4872dec1689ea
+    page_build_fingerprint: cada2ba4e3785db5
   - episode_title: Ep 735 | TBS - The Sad Stuff
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19440089-ep-735-tbs-the-sad-stuff.mp3
@@ -30674,7 +30674,7 @@ episodes_by_feed:
     episode_key: ep-735-tbs-the-sad-stuff
     legacy_numbered_slug: episode-06
     episode_page_url: "/bad-boy-running/ep-735-tbs-the-sad-stuff/"
-    page_build_fingerprint: 6db672d859bc6158
+    page_build_fingerprint: 6bd529ec2cf48a77
   - episode_title: Ep 734 | 2nd at Western States - How to Improve - Rod Farvard
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19412402-ep-734-2nd-at-western-states-how-to-improve-rod-farvard.mp3
@@ -30687,7 +30687,7 @@ episodes_by_feed:
     episode_key: ep-734-2nd-at-western-states-how-to-improve-rod-farvard
     legacy_numbered_slug: episode-07
     episode_page_url: "/bad-boy-running/ep-734-2nd-at-western-states-how-to-improve-rod-farvard/"
-    page_build_fingerprint: f96217d7d0d78564
+    page_build_fingerprint: b4848a7d6999bad9
   - episode_title: Ep 733 | TBS - Double Trouble
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19403041-ep-733-tbs-double-trouble.mp3
@@ -30700,7 +30700,7 @@ episodes_by_feed:
     episode_key: ep-733-tbs-double-trouble
     legacy_numbered_slug: episode-08
     episode_page_url: "/bad-boy-running/ep-733-tbs-double-trouble/"
-    page_build_fingerprint: 8f9d5a0e70e5105a
+    page_build_fingerprint: ce6b0c2ea16146e5
   - episode_title: Ep 732 | 10 Years of Bad Boy Running - The Catch Up
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19377400-ep-732-10-years-of-bad-boy-running-the-catch-up.mp3
@@ -30713,7 +30713,7 @@ episodes_by_feed:
     episode_key: ep-732-10-years-of-bad-boy-running-the-catch-up
     legacy_numbered_slug: episode-09
     episode_page_url: "/bad-boy-running/ep-732-10-years-of-bad-boy-running-the-catch-up/"
-    page_build_fingerprint: f5b780329cfa68a0
+    page_build_fingerprint: 9b4ada32cb8b9e36
   - episode_title: Ep 731 | The Flawed Hero Project and What Needs to Change with The London Marathon - Phil Roberton
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19340413-ep-731-the-flawed-hero-project-and-what-needs-to-change-with-the-london-marathon-phil-roberton.mp3
@@ -30726,7 +30726,7 @@ episodes_by_feed:
     episode_key: ep-731-the-flawed-hero-project-and-what-needs-to-change-with-the-london-marathon-phil-roberton
     legacy_numbered_slug: episode-10
     episode_page_url: "/bad-boy-running/ep-731-the-flawed-hero-project-and-what-needs-to-change-with-the-london-marathon-phil-roberton/"
-    page_build_fingerprint: c63d8f8c46faa322
+    page_build_fingerprint: 0b89d9bc5cdfab01
   - episode_title: Ep 730 | The 24 Hr World Record Was Broken By Using Fewer Carbs - Robbie Britton
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19304188-ep-730-the-24-hr-world-record-was-broken-by-using-fewer-carbs-robbie-britton.mp3
@@ -30739,7 +30739,7 @@ episodes_by_feed:
     episode_key: ep-730-the-24-hr-world-record-was-broken-by-using-fewer-carbs-robbie-britton
     legacy_numbered_slug: episode-11
     episode_page_url: "/bad-boy-running/ep-730-the-24-hr-world-record-was-broken-by-using-fewer-carbs-robbie-britton/"
-    page_build_fingerprint: d481320f3d22cbd3
+    page_build_fingerprint: 99c725a6bf36b503
   - episode_title: Ep 728 | TBS - Enhanced Games - Mission Accomplished
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19259186-ep-728-tbs-enhanced-games-mission-accomplished.mp3
@@ -30752,7 +30752,7 @@ episodes_by_feed:
     episode_key: ep-728-tbs-enhanced-games-mission-accomplished
     legacy_numbered_slug: episode-12
     episode_page_url: "/bad-boy-running/ep-728-tbs-enhanced-games-mission-accomplished/"
-    page_build_fingerprint: f956492c7191fb5d
+    page_build_fingerprint: da96d68a62dafd93
   - episode_title: Ep 727 | The Dragon's Back - Exactly What Happened and Everything You Need to Know About Its Future - Sam Heward
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19226015-ep-727-the-dragon-s-back-exactly-what-happened-and-everything-you-need-to-know-about-its-future-sam-heward.mp3
@@ -30765,7 +30765,7 @@ episodes_by_feed:
     episode_key: ep-727-the-dragon-s-back-exactly-what-happened-and-everything-you-need-to-know-about-its-future-sam-heward
     legacy_numbered_slug: episode-13
     episode_page_url: "/bad-boy-running/ep-727-the-dragon-s-back-exactly-what-happened-and-everything-you-need-to-know-about-its-future-sam-heward/"
-    page_build_fingerprint: 3d5a574196c6153c
+    page_build_fingerprint: 56194fb8b60b798a
   - episode_title: Ep 726 | TBS - The Enhanced - What Does Success Look Like?
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19216438-ep-726-tbs-the-enhanced-what-does-success-look-like.mp3
@@ -30778,7 +30778,7 @@ episodes_by_feed:
     episode_key: ep-726-tbs-the-enhanced-what-does-success-look-like
     legacy_numbered_slug: episode-14
     episode_page_url: "/bad-boy-running/ep-726-tbs-the-enhanced-what-does-success-look-like/"
-    page_build_fingerprint: c6fb6c06dd584e53
+    page_build_fingerprint: e7912a0cfcd8a4fd
   - episode_title: Ep 725 | The First Episode Directors Commentary 10 Years on... (Part 2)
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19189608-ep-725-the-first-episode-directors-commentary-10-years-on-part-2.mp3
@@ -30791,7 +30791,7 @@ episodes_by_feed:
     episode_key: ep-725-the-first-episode-directors-commentary-10-years-on-part-2
     legacy_numbered_slug: episode-15
     episode_page_url: "/bad-boy-running/ep-725-the-first-episode-directors-commentary-10-years-on-part-2/"
-    page_build_fingerprint: e24bcbeafcebc122
+    page_build_fingerprint: 0bbe00e1b13b41e2
   - episode_title: Ep 724 | TBS - Is Cocadona reshaping our sport?
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19181232-ep-724-tbs-is-cocadona-reshaping-our-sport.mp3
@@ -30804,7 +30804,7 @@ episodes_by_feed:
     episode_key: ep-724-tbs-is-cocadona-reshaping-our-sport
     legacy_numbered_slug: episode-16
     episode_page_url: "/bad-boy-running/ep-724-tbs-is-cocadona-reshaping-our-sport/"
-    page_build_fingerprint: f69a154847871e92
+    page_build_fingerprint: 410e5bf905180706
   - episode_title: Ep 723 | The First Episode Directors Commentary 10 Years on...(Part 1)
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19149615-ep-723-the-first-episode-directors-commentary-10-years-on-part-1.mp3
@@ -30817,7 +30817,7 @@ episodes_by_feed:
     episode_key: ep-723-the-first-episode-directors-commentary-10-years-on-part-1
     legacy_numbered_slug: episode-17
     episode_page_url: "/bad-boy-running/ep-723-the-first-episode-directors-commentary-10-years-on-part-1/"
-    page_build_fingerprint: e4d09fe3c612cc7d
+    page_build_fingerprint: 7cd3e5e07578b88e
   - episode_title: Ep 722 | TBS - Should Brands be Jumping on the Last Runner Trend?
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19140255-ep-722-tbs-should-brands-be-jumping-on-the-last-runner-trend.mp3
@@ -30830,7 +30830,7 @@ episodes_by_feed:
     episode_key: ep-722-tbs-should-brands-be-jumping-on-the-last-runner-trend
     legacy_numbered_slug: episode-18
     episode_page_url: "/bad-boy-running/ep-722-tbs-should-brands-be-jumping-on-the-last-runner-trend/"
-    page_build_fingerprint: d939600f8224f1d7
+    page_build_fingerprint: 96d0666bc68fe8ce
   - episode_title: Ep 721 | Bringing Storytelling to Athletics - Lloyd Kempson
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19114987-ep-721-bringing-storytelling-to-athletics-lloyd-kempson.mp3
@@ -30843,7 +30843,7 @@ episodes_by_feed:
     episode_key: ep-721-bringing-storytelling-to-athletics-lloyd-kempson
     legacy_numbered_slug: episode-19
     episode_page_url: "/bad-boy-running/ep-721-bringing-storytelling-to-athletics-lloyd-kempson/"
-    page_build_fingerprint: 2334d2c9b19cdabf
+    page_build_fingerprint: 48be0cc57b84c4a8
   - episode_title: Ep 720 | TBS - How Did They Run Sub 2?
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19112312-ep-720-tbs-how-did-they-run-sub-2.mp3
@@ -30856,7 +30856,7 @@ episodes_by_feed:
     episode_key: ep-720-tbs-how-did-they-run-sub-2
     legacy_numbered_slug: episode-20
     episode_page_url: "/bad-boy-running/ep-720-tbs-how-did-they-run-sub-2/"
-    page_build_fingerprint: 0adb9e3fc1a8d979
+    page_build_fingerprint: 8fcb9a3d1aa77b86
   - episode_title: Ep 719 | How Safe Is Running For Women - Here's the Data - Prof Rosemary Broad and Dr Caroline Miles
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19074431-ep-719-how-safe-is-running-for-women-here-s-the-data-prof-rosemary-broad-and-dr-caroline-miles.mp3
@@ -30869,7 +30869,7 @@ episodes_by_feed:
     episode_key: ep-719-how-safe-is-running-for-women-here-s-the-data-prof-rosemary-broad-and-dr-caroline-miles
     legacy_numbered_slug: episode-21
     episode_page_url: "/bad-boy-running/ep-719-how-safe-is-running-for-women-here-s-the-data-prof-rosemary-broad-and-dr-caroline-miles/"
-    page_build_fingerprint: 6c0853bd4afc4604
+    page_build_fingerprint: a325b6a41ba46839
   - episode_title: Ep 718 | TBS - Joe Wicks, Nike, Paris The Who World's Furious
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19070219-ep-718-tbs-joe-wicks-nike-paris-the-who-world-s-furious.mp3
@@ -30882,7 +30882,7 @@ episodes_by_feed:
     episode_key: ep-718-tbs-joe-wicks-nike-paris-the-who-world-s-furious
     legacy_numbered_slug: episode-22
     episode_page_url: "/bad-boy-running/ep-718-tbs-joe-wicks-nike-paris-the-who-world-s-furious/"
-    page_build_fingerprint: 903a30bcd71318a7
+    page_build_fingerprint: 65cd3a94afd0700d
   - episode_title: Ep 717 | The story of iRunFar - Bryon Powell
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19038633-ep-717-the-story-of-irunfar-bryon-powell.mp3
@@ -30895,7 +30895,7 @@ episodes_by_feed:
     episode_key: ep-717-the-story-of-irunfar-bryon-powell
     legacy_numbered_slug: episode-23
     episode_page_url: "/bad-boy-running/ep-717-the-story-of-irunfar-bryon-powell/"
-    page_build_fingerprint: 2e688e2ce102f27b
+    page_build_fingerprint: 3cc1330a48ff779f
   - episode_title: Ep 716 | TBS - Harry Styles - Come Get My Watermleon Sugar
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/19030804-ep-716-tbs-harry-styles-come-get-my-watermleon-sugar.mp3
@@ -30908,7 +30908,7 @@ episodes_by_feed:
     episode_key: ep-716-tbs-harry-styles-come-get-my-watermleon-sugar
     legacy_numbered_slug: episode-24
     episode_page_url: "/bad-boy-running/ep-716-tbs-harry-styles-come-get-my-watermleon-sugar/"
-    page_build_fingerprint: bd4d015d2b932f2f
+    page_build_fingerprint: 66b3a5ad44e2fb75
   - episode_title: Ep 715 | Denied Olympic Gold By an Unknown Belorussian Sprinter - Lauryn Williams
     episode_url: ''
     audio_url: https://www.buzzsprout.com/1614244/episodes/18993806-ep-715-denied-olympic-gold-by-an-unknown-belorussian-sprinter-lauryn-williams.mp3
@@ -30921,7 +30921,7 @@ episodes_by_feed:
     episode_key: ep-715-denied-olympic-gold-by-an-unknown-belorussian-sprinter-lauryn-williams
     legacy_numbered_slug: episode-25
     episode_page_url: "/bad-boy-running/ep-715-denied-olympic-gold-by-an-unknown-belorussian-sprinter-lauryn-williams/"
-    page_build_fingerprint: 215476fd10183c0d
+    page_build_fingerprint: 46143dfebc348be1
   https://api.riverside.fm/hosting/nqkdmh4l.rss: &104
   - episode_title: Episode 39 - Ann Trason | Incurable.  Unstoppable. Champion.
     episode_url: ''
