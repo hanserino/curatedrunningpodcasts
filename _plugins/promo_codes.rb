@@ -1336,6 +1336,15 @@ class PromoCodesGenerator < Jekyll::Generator
   priority :low
 
   def generate(site)
+    if LatestPodcastEpisodes.directory_only_build?
+      path = site.in_source_dir("_data", "promo_codes.yml")
+      if File.file?(path)
+        site.data["promo_codes"] = LatestPodcastEpisodes.load_yaml_file(path)
+        Jekyll.logger.info "PromoCodes:", "Directory-only build; using committed promo_codes.yml."
+        return
+      end
+    end
+
     payload = PromoCodes.build_from_site(site)
     site.data["promo_codes"] = payload
     PromoCodes.write_committed_data(site, payload)

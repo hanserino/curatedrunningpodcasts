@@ -29,10 +29,10 @@ on:
 permissions:
   contents: write
 
-# Independent from scheduled RSS builds so Decap/content pushes are never blocked for hours.
+# Decap/content pushes only rebuild directory pages; episode HTML is refreshed on the scheduled RSS workflow.
 concurrency:
   group: jekyll-build-push
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -63,9 +63,10 @@ jobs:
       - name: Configure Jekyll build flags
         run: bash tools/ci-jekyll-env.sh
 
-      - name: Production Jekyll build
+      - name: Production Jekyll build (directory only)
         env:
           JEKYLL_ENV: production
+          SKIP_EPISODE_PAGES: "1"
         run: bundle exec jekyll build --destination docs
 
       - name: Commit and push if changed

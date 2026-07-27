@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# RSS feeds are fetched only when JEKYLL_ENV=production or JEKYLL_FETCH_RSS=1.
+# RSS feeds are fetched only when JEKYLL_FETCH_RSS=1 (scheduled CI). Push/directory builds use committed _data.
 # Otherwise the build uses _data/latest_podcast_episodes.yml (from git) and/or
 # .jekyll-rss-cache/latest_podcast_episodes.yml so jekyll serve stays fast.
 #
@@ -1052,6 +1052,10 @@ module LatestPodcastEpisodes
     ENV["JEKYLL_FETCH_UNRELATED_RSS"].to_s == "1"
   end
 
+  def directory_only_build?
+    ENV["SKIP_EPISODE_PAGES"].to_s == "1"
+  end
+
   def episodes_per_podcast_limit_for(doc)
     return 0 unless episode_pages_for_doc?(doc)
 
@@ -1212,9 +1216,9 @@ module LatestPodcastEpisodes
   end
 
   def rss_fetch_enabled?
-    return true if ENV["JEKYLL_FETCH_RSS"].to_s == "1"
+    return false if directory_only_build?
 
-    ENV["JEKYLL_ENV"].to_s == "production"
+    ENV["JEKYLL_FETCH_RSS"].to_s == "1"
   end
 end
 
@@ -1232,6 +1236,20 @@ def build_latest_podcast_episodes_data(site)
   cache_usable = cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?
 
   unless LatestPodcastEpisodes.rss_fetch_enabled?
+    if LatestPodcastEpisodes.directory_only_build? && prior_usable
+      merged = prior_snapshot.merge(
+        "generated_at" => Time.now.utc.iso8601,
+        "directory_only_build" => true
+      )
+      LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
+      site.data["latest_podcast_episodes"] = merged
+      Jekyll.logger.info(
+        "LatestPodcastEpisodes:",
+        "Directory-only build; using committed episode data as-is."
+      )
+      return
+    end
+
     merged = nil
     source = nil
     if cache_usable
@@ -1272,7 +1290,7 @@ def build_latest_podcast_episodes_data(site)
       site.data["latest_podcast_episodes"] = merged
       Jekyll.logger.info(
         "LatestPodcastEpisodes:",
-        "Skipped RSS network fetch; using #{source}. Fresh feeds: JEKYLL_ENV=production or JEKYLL_FETCH_RSS=1."
+        "Skipped RSS network fetch; using #{source}. Fresh feeds: JEKYLL_FETCH_RSS=1 on scheduled CI."
       )
       return
     end

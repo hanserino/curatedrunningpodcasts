@@ -368,6 +368,8 @@ class YoutubeEpisodeEnrichmentGenerator < Jekyll::Generator
   priority :normal
 
   def generate(site)
+    return if LatestPodcastEpisodes.directory_only_build?
+
     feed_data = site.data["latest_podcast_episodes"]
     return unless feed_data.is_a?(Hash)
 
