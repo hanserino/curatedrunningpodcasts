@@ -27,9 +27,14 @@ discard_local_noise() {
 rebuild_site() {
   npm run optimize-media
   if [ "${CI_FETCH_RSS:-0}" = "1" ]; then
-    JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bash tools/ci-jekyll-build.sh docs
+    JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 \
+      SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-0}" \
+      EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-25}" \
+      RSS_FETCH_CONCURRENCY="${RSS_FETCH_CONCURRENCY:-8}" \
+      bash tools/ci-jekyll-build.sh docs
   else
-    JEKYLL_ENV=production SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-1}" bash tools/ci-jekyll-build.sh docs
+    JEKYLL_ENV=production SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-1}" \
+      bash tools/ci-jekyll-build.sh docs
   fi
 }
 

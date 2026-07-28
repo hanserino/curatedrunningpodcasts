@@ -1,7 +1,7 @@
 # Rebuild when a new podcast post or media asset lands (Decap/Git push to main).
 # Paths are narrow so bot commits that only touch docs/ or _data/ do not re-trigger.
 # Uses committed episode data (no RSS fetch) so new podcasts ship in minutes, not hours.
-# Scheduled workflow refreshes feeds and episode pages every 6 hours.
+# Feed refresh runs every 2h; full episode HTML rebuild runs daily on the scheduled workflow.
 name: Push Jekyll build (RSS)
 
 on:
@@ -19,6 +19,7 @@ on:
       - "assets/**"
       - "_config.yml"
       - "_data/latest_podcast_episodes.yml"
+      - ".github/workflows/feed-jekyll-build.yml"
       - ".github/workflows/push-jekyll-build.yml"
       - ".github/workflows/scheduled-jekyll-build.yml"
       - "tools/ci-commit-push.sh"

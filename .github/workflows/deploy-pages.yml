@@ -17,6 +17,7 @@ on:
   workflow_run:
     workflows:
       - "Push Jekyll build (RSS)"
+      - "Feed Jekyll build (RSS)"
       - "Scheduled Jekyll build (RSS)"
     types:
       - completed

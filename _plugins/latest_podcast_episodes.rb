@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-# RSS feeds are fetched only when JEKYLL_FETCH_RSS=1 (scheduled CI). Push/directory builds use committed _data.
+# RSS feeds are fetched when JEKYLL_FETCH_RSS=1 (feed refresh + scheduled CI). Push builds without
+# that flag use committed _data and only network-fetch feeds for newly added podcasts.
 # Otherwise the build uses _data/latest_podcast_episodes.yml (from git) and/or
 # .jekyll-rss-cache/latest_podcast_episodes.yml so jekyll serve stays fast.
 #
@@ -1323,9 +1324,102 @@ module LatestPodcastEpisodes
   end
 
   def rss_fetch_enabled?
-    return false if directory_only_build?
-
     ENV["JEKYLL_FETCH_RSS"].to_s == "1"
+  end
+
+  def rss_fetch_concurrency
+    value = Integer(ENV.fetch("RSS_FETCH_CONCURRENCY", "8"))
+    value.positive? ? value : 1
+  rescue ArgumentError, TypeError
+    8
+  end
+
+  def process_podcast_feed_fetch(doc)
+    feed_url = doc.data["rss_feed"].to_s.strip
+    feed_key = normalize_feed_key(feed_url)
+    include_in_directory = doc.data["not_running_related"] != true
+    podcast_slug = doc.data["slug"].to_s.strip
+    episode_limit = episodes_per_podcast_limit_for(doc)
+
+    xml = fetch_feed(feed_url)
+    episodes = episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug)
+    result = { "feed_key" => feed_key, "episodes" => episodes }
+
+    unless include_in_directory
+      return result
+    end
+
+    latest_item = latest_item_from_feed(xml)
+    if latest_item.nil?
+      result["error"] = { "podcast" => doc.data["title"], "rss_feed" => feed_url, "error" => "No parseable episodes found" }
+      return result
+    end
+
+    enclosure_url = latest_item.respond_to?(:enclosure) ? latest_item.enclosure&.url.to_s.strip : ""
+    if enclosure_url.empty?
+      result["error"] = { "podcast" => doc.data["title"], "rss_feed" => feed_url, "error" => "Latest episode has no enclosure URL" }
+      return result
+    end
+
+    published_at = parse_time(latest_item) || Time.now
+    cover_image = doc.data["cover_image"].to_s.strip
+    cover_image = feed_image_from_xml(xml) if cover_image.empty?
+    latest_episode_meta = episodes.is_a?(Array) ? episodes.first : nil
+    result["item"] = {
+      "podcast_title" => doc.data["title"],
+      "podcast_page_url" => doc.url,
+      "cover_image" => cover_image,
+      "feed_url" => feed_url,
+      "filter_category" => filter_category_for_doc(doc),
+      "episode_title" => latest_item.title.to_s.strip,
+      "episode_url" => latest_item.link.to_s.strip,
+      "audio_url" => enclosure_url,
+      "published_at" => published_at.iso8601,
+      "episode_key" => latest_episode_meta&.dig("episode_slug"),
+      "episode_slug" => latest_episode_meta&.dig("episode_slug"),
+      "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
+    }
+    result
+  rescue StandardError => e
+    {
+      "feed_key" => normalize_feed_key(doc.data["rss_feed"].to_s),
+      "episodes" => [],
+      "error" => { "podcast" => doc.data["title"], "rss_feed" => doc.data["rss_feed"].to_s.strip, "error" => "#{e.class}: #{e.message}" }
+    }
+  end
+
+  def fetch_all_podcast_feeds!(podcasts_with_feed)
+    items = []
+    errors = []
+    episodes_by_feed = {}
+    docs = podcasts_with_feed.select { |doc| fetch_rss_for_doc?(doc) }
+    return [items, episodes_by_feed, errors] if docs.empty?
+
+    mutex = Mutex.new
+    queue = Queue.new
+    docs.each { |doc| queue << doc }
+    concurrency = [rss_fetch_concurrency, docs.size].min
+    concurrency.times { queue << nil }
+
+    workers = Array.new(concurrency) do
+      Thread.new do
+        loop do
+          doc = queue.pop
+          break unless doc
+
+          result = process_podcast_feed_fetch(doc)
+          mutex.synchronize do
+            feed_key = result["feed_key"]
+            episodes_by_feed[feed_key] = result["episodes"] if result.key?("episodes")
+            items << result["item"] if result["item"]
+            errors << result["error"] if result["error"]
+          end
+        end
+      end
+    end
+    workers.each(&:join)
+
+    [items, episodes_by_feed, errors]
   end
 end
 
@@ -1425,65 +1519,12 @@ def build_latest_podcast_episodes_data(site)
       doc.data["rss_feed"].to_s.strip != ""
   end
 
-  items = []
-  errors = []
-  episodes_by_feed = {}
-
-  podcasts_with_feed.each do |doc|
-    feed_url = doc.data["rss_feed"].to_s.strip
-    feed_key = LatestPodcastEpisodes.normalize_feed_key(feed_url)
-    include_in_directory = doc.data["not_running_related"] != true
-
-    unless LatestPodcastEpisodes.fetch_rss_for_doc?(doc)
-      next
-    end
-
-    begin
-      xml = LatestPodcastEpisodes.fetch_feed(feed_url)
-      podcast_slug = doc.data["slug"].to_s.strip
-      episode_limit = LatestPodcastEpisodes.episodes_per_podcast_limit_for(doc)
-      episodes = LatestPodcastEpisodes.episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug)
-      episodes_by_feed[feed_key] = episodes
-
-      next unless include_in_directory
-
-      latest_item = LatestPodcastEpisodes.latest_item_from_feed(xml)
-
-      if latest_item.nil?
-        errors << { "podcast" => doc.data["title"], "rss_feed" => feed_url, "error" => "No parseable episodes found" }
-        next
-      end
-
-      enclosure_url = latest_item.respond_to?(:enclosure) ? latest_item.enclosure&.url.to_s.strip : ""
-      if enclosure_url == ""
-        errors << { "podcast" => doc.data["title"], "rss_feed" => feed_url, "error" => "Latest episode has no enclosure URL" }
-        next
-      end
-
-      published_at = LatestPodcastEpisodes.parse_time(latest_item) || Time.now
-      cover_image = doc.data["cover_image"].to_s.strip
-      cover_image = LatestPodcastEpisodes.feed_image_from_xml(xml) if cover_image == ""
-      latest_episode_meta = episodes.is_a?(Array) ? episodes.first : nil
-      items << {
-        "podcast_title" => doc.data["title"],
-        "podcast_page_url" => doc.url,
-        "cover_image" => cover_image,
-        "feed_url" => feed_url,
-        "filter_category" => LatestPodcastEpisodes.filter_category_for_doc(doc),
-        "episode_title" => latest_item.title.to_s.strip,
-        "episode_url" => latest_item.link.to_s.strip,
-        "audio_url" => enclosure_url,
-        "published_at" => published_at.iso8601,
-        "episode_key" => latest_episode_meta&.dig("episode_slug"),
-        "episode_slug" => latest_episode_meta&.dig("episode_slug"),
-        "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
-      }
-    rescue StandardError => e
-      episodes_by_feed[feed_key] = []
-      errors << { "podcast" => doc.data["title"], "rss_feed" => feed_url, "error" => "#{e.class}: #{e.message}" }
-      Jekyll.logger.debug "LatestPodcastEpisodes:", "Feed failed #{feed_url}: #{e.class} #{e.message}"
-    end
-  end
+  items, episodes_by_feed, errors =
+    LatestPodcastEpisodes.fetch_all_podcast_feeds!(podcasts_with_feed)
+  Jekyll.logger.info(
+    "LatestPodcastEpisodes:",
+    "Fetched #{items.size} latest episode(s) from RSS (#{errors.size} feed error(s), concurrency #{LatestPodcastEpisodes.rss_fetch_concurrency})."
+  )
 
   sorted = items.sort_by do |item|
     begin
