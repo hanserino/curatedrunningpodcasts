@@ -191,14 +191,16 @@ module LatestPodcastEpisodes
         next unless prior
 
         copied_description = false
-        %w[description_html description_plain episode_image_url].each do |field|
+        copied_youtube = false
+        %w[description_html description_plain episode_image_url youtube_video_id].each do |field|
           next unless entry[field].to_s.strip.empty?
           next if prior[field].to_s.strip.empty?
 
           entry[field] = prior[field]
           copied_description = true if field == "description_html"
+          copied_youtube = true if field == "youtube_video_id"
         end
-        entry.delete("page_build_fingerprint") if copied_description
+        entry.delete("page_build_fingerprint") if copied_description || copied_youtube
         entry["description_sanitized"] = true if prior["description_html"].to_s.strip != ""
       end
     end
@@ -1478,6 +1480,14 @@ module LatestPodcastEpisodes
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
   end
 
+  def enrich_youtube_matches!(site)
+    return unless defined?(YoutubeEpisodeMatcher)
+
+    YoutubeEpisodeMatcher.enrich_site!(site)
+  rescue StandardError => e
+    Jekyll.logger.warn "YoutubeEpisodeMatcher:", "#{e.class}: #{e.message}"
+  end
+
   def load_yaml_file(path)
     content = File.read(path)
     YAML.load(content, aliases: true)
@@ -1638,6 +1648,7 @@ def build_latest_podcast_episodes_data(site)
       refreshed = LatestPodcastEpisodes.refresh_podcast_feeds!(site, merged)
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
+      LatestPodcastEpisodes.enrich_youtube_matches!(site)
       if refreshed.positive?
         LatestPodcastEpisodes.write_committed_data(site, merged)
         Jekyll.logger.info(
@@ -1701,6 +1712,7 @@ def build_latest_podcast_episodes_data(site)
       LatestPodcastEpisodes.reconcile_directory_items!(merged["items"], merged["episodes_by_feed"])
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
+      LatestPodcastEpisodes.enrich_youtube_matches!(site)
       Jekyll.logger.info(
         "LatestPodcastEpisodes:",
         "Skipped RSS network fetch; using #{source}. Fresh feeds: JEKYLL_FETCH_RSS=1 on scheduled CI."
@@ -1785,6 +1797,7 @@ def build_latest_podcast_episodes_data(site)
 
   if fetch_looks_healthy
     site.data["latest_podcast_episodes"] = payload
+    LatestPodcastEpisodes.enrich_youtube_matches!(site)
     LatestPodcastEpisodes.write_rss_cache(cache_path, payload)
     LatestPodcastEpisodes.write_committed_data(site, payload)
   elsif podcasts_with_feed.any? && !fetch_looks_healthy && cached.is_a?(Hash) && cached["items"].is_a?(Array) && !cached["items"].empty?

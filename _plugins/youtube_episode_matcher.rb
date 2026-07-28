@@ -6,7 +6,9 @@ require "rexml/document"
 require "yaml"
 
 module YoutubeEpisodeMatcher
-  USER_AGENT = LatestPodcastEpisodes::USER_AGENT
+  # YouTube serves 404 HTML to non-browser clients on feeds/videos.xml; use a normal browser UA.
+  YOUTUBE_USER_AGENT =
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36".freeze
   OPEN_TIMEOUT = 6
   READ_TIMEOUT = 12
   DATE_WINDOW_SECONDS = 14 * 24 * 60 * 60
@@ -42,11 +44,19 @@ module YoutubeEpisodeMatcher
     site.in_source_dir(".jekyll-rss-cache", "youtube_channel_ids.yml")
   end
 
-  def read_channel_cache(site)
-    path = channel_cache_path(site)
-    return {} unless File.file?(path)
+  def committed_channel_cache_path(site)
+    site.in_source_dir("_data", "youtube_channel_ids.yml")
+  end
 
-    YAML.safe_load(File.read(path), permitted_classes: [Time], aliases: true) || {}
+  def read_channel_cache(site)
+    merged = {}
+    [committed_channel_cache_path(site), channel_cache_path(site)].each do |path|
+      next unless File.file?(path)
+
+      data = YAML.safe_load(File.read(path), permitted_classes: [Time], aliases: true) || {}
+      merged.merge!(data) if data.is_a?(Hash)
+    end
+    merged
   rescue StandardError
     {}
   end
@@ -55,25 +65,51 @@ module YoutubeEpisodeMatcher
     path = channel_cache_path(site)
     FileUtils.mkdir_p(File.dirname(path))
     File.write(path, cache.to_yaml)
+
+    return unless ENV["JEKYLL_ENV"].to_s == "production"
+
+    committed_path = committed_channel_cache_path(site)
+    prior = File.file?(committed_path) ? (YAML.safe_load(File.read(committed_path), aliases: true) || {}) : {}
+    prior = {} unless prior.is_a?(Hash)
+    combined = prior.merge(cache)
+    return if combined == prior
+
+    File.write(committed_path, combined.to_yaml)
   rescue StandardError => e
-    Jekyll.logger.warn "YoutubeEpisodeMatcher:", "Could not write #{path}: #{e.message}"
+    Jekyll.logger.warn "YoutubeEpisodeMatcher:", "Could not write channel cache: #{e.message}"
   end
 
-  def fetch_url(url)
+  def fetch_youtube_body(url)
     URI.open(
       url,
-      "User-Agent" => USER_AGENT,
+      "User-Agent" => YOUTUBE_USER_AGENT,
+      "Accept" => "application/atom+xml,application/xml,text/xml,*/*;q=0.8",
       open_timeout: OPEN_TIMEOUT,
       read_timeout: READ_TIMEOUT
     ).read
   end
 
-  def resolve_feed_url(youtube_link, channel_cache)
-    link = youtube_link.to_s.strip
-    return nil if link.empty?
+  def youtube_feed_xml?(body)
+    text = body.to_s.lstrip
+    text.start_with?("<?xml", "<feed") && text.include?("<entry")
+  end
 
+  def feed_urls_for_channel(channel_id)
+    id = channel_id.to_s.strip
+    return [] if id.empty?
+
+    urls = ["https://www.youtube.com/feeds/videos.xml?channel_id=#{id}"]
+    urls << "https://www.youtube.com/feeds/videos.xml?playlist_id=UU#{id[2..]}" if id.start_with?("UC") && id.length > 2
+    urls
+  end
+
+  def feed_urls_for_youtube_link(youtube_link, channel_cache)
+    link = youtube_link.to_s.strip
+    return [] if link.empty?
+
+    urls = []
     if (playlist_id = link[PLAYLIST_ID_RX, 1])
-      return "https://www.youtube.com/feeds/videos.xml?playlist_id=#{playlist_id}"
+      urls << "https://www.youtube.com/feeds/videos.xml?playlist_id=#{playlist_id}"
     end
 
     channel_id =
@@ -81,16 +117,40 @@ module YoutubeEpisodeMatcher
       channel_cache[link] ||
       resolve_channel_id(link, channel_cache)
 
-    return nil if channel_id.to_s.strip.empty?
+    urls.concat(feed_urls_for_channel(channel_id)) if channel_id.to_s.strip != ""
+    urls.uniq
+  end
 
-    "https://www.youtube.com/feeds/videos.xml?channel_id=#{channel_id}"
+  def fetch_videos_for_youtube_link(youtube_link, channel_cache)
+    urls = feed_urls_for_youtube_link(youtube_link, channel_cache)
+    return [] if urls.empty?
+
+    last_error = nil
+    urls.each do |url|
+      body = fetch_youtube_body(url)
+      unless youtube_feed_xml?(body)
+        raise "Non-feed response from #{url}"
+      end
+
+      videos = parse_youtube_feed(body)
+      return videos if videos.any?
+    rescue StandardError => e
+      last_error = e
+      Jekyll.logger.debug "YoutubeEpisodeMatcher:", "Feed try failed #{url}: #{e.class}"
+    end
+
+    Jekyll.logger.warn(
+      "YoutubeEpisodeMatcher:",
+      "No YouTube videos parsed for #{youtube_link} (#{urls.size} feed URL(s) tried#{last_error ? ": #{last_error.class}" : ""})."
+    )
+    []
   end
 
   def resolve_channel_id(youtube_link, channel_cache)
     cached = channel_cache[youtube_link]
     return cached if cached.to_s.strip != ""
 
-    html = fetch_url(youtube_link)
+    html = fetch_youtube_body(youtube_link)
     channel_id = html[CHANNEL_ID_RX, 1] || html[CHANNEL_ID_RX, 2]
     channel_cache[youtube_link] = channel_id if channel_id.to_s.strip != ""
     channel_id
@@ -352,15 +412,15 @@ module YoutubeEpisodeMatcher
       next unless enabled_for_podcast?(podcast_doc)
 
       youtube_link = podcast_doc.data["youtube_link"].to_s.strip
-      feed_url = resolve_feed_url(youtube_link, channel_cache)
-      next if feed_url.to_s.strip.empty?
+      next if youtube_link.empty?
 
       videos = []
+      fetch_failed = false
       if fetch
         begin
-          xml = fetch_url(feed_url)
-          videos = parse_youtube_feed(xml)
+          videos = fetch_videos_for_youtube_link(youtube_link, channel_cache)
         rescue StandardError => e
+          fetch_failed = true
           Jekyll.logger.warn(
             "YoutubeEpisodeMatcher:",
             "YouTube feed failed for #{podcast_doc.data['title']}: #{e.class}"
@@ -375,6 +435,8 @@ module YoutubeEpisodeMatcher
       end
 
       if videos.empty?
+        next if fetch_failed
+
         episode_list.each { |episode| episode.delete("youtube_video_id") }
         next
       end
@@ -389,41 +451,26 @@ module YoutubeEpisodeMatcher
     write_channel_cache(site, channel_cache) if channel_cache != channel_cache_before
     matched_count
   end
-end
 
-class YoutubeEpisodeEnrichmentGenerator < Jekyll::Generator
-  safe true
-  priority :normal
-
-  def generate(site)
-    return unless YoutubeEpisodeMatcher.fetch_enabled?
+  def enrich_site!(site)
+    return 0 unless fetch_enabled?
 
     feed_data = site.data["latest_podcast_episodes"]
-    return unless feed_data.is_a?(Hash)
+    return 0 unless feed_data.is_a?(Hash)
 
     episodes_by_feed = feed_data["episodes_by_feed"]
-    return unless episodes_by_feed.is_a?(Hash)
+    return 0 unless episodes_by_feed.is_a?(Hash)
 
-    feed_to_podcast = {}
-    posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
-    posts.each do |doc|
-      next unless doc.data["category"] == "podcast"
+    feed_to_podcast = LatestPodcastEpisodes.feed_to_podcast_map(site)
+    matched = enrich_episodes_by_feed!(site, episodes_by_feed, feed_to_podcast)
 
-      feed_url = doc.data["rss_feed"].to_s.strip
-      next if feed_url.empty?
-
-      feed_to_podcast[LatestPodcastEpisodes.normalize_feed_key(feed_url)] = doc
+    if matched.positive?
+      LatestPodcastEpisodes.write_committed_data(site, feed_data)
+      Jekyll.logger.info "YoutubeEpisodeMatcher:", "Matched #{matched} episode(s) to YouTube videos."
+    else
+      Jekyll.logger.info "YoutubeEpisodeMatcher:", "YouTube matching finished with 0 new assignments."
     end
 
-    matched =
-      YoutubeEpisodeMatcher.enrich_episodes_by_feed!(site, episodes_by_feed, feed_to_podcast)
-
-    return if matched.zero?
-    return unless YoutubeEpisodeMatcher.fetch_enabled?
-
-    LatestPodcastEpisodes.write_committed_data(site, feed_data)
-    Jekyll.logger.info "YoutubeEpisodeMatcher:", "Matched #{matched} episode(s) to YouTube videos."
-  rescue StandardError => e
-    Jekyll.logger.warn "YoutubeEpisodeMatcher:", "#{e.class}: #{e.message}"
+    matched
   end
 end
