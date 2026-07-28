@@ -130,7 +130,7 @@ class PodcastEpisodePage < Jekyll::Page
       "youtube_video_id" => episode["youtube_video_id"].to_s.strip
     }
     if episode["youtube_video_id"].to_s.strip != ""
-      entry.delete("page_build_fingerprint")
+      episode.delete("page_build_fingerprint")
     end
     process(@name)
   end

@@ -437,9 +437,7 @@ module YoutubeEpisodeMatcher
       end
 
       if videos.empty?
-        next if fetch_failed
-
-        episode_list.each { |episode| episode.delete("youtube_video_id") }
+        matched_count += episode_list.count { |episode| episode["youtube_video_id"].to_s.strip != "" }
         next
       end
 
@@ -456,6 +454,7 @@ module YoutubeEpisodeMatcher
 
   def enrich_site!(site)
     return 0 unless fetch_enabled?
+    return 0 if ENV["YOUTUBE_PREMATCHED"].to_s == "1"
 
     feed_data = site.data["latest_podcast_episodes"]
     return 0 unless feed_data.is_a?(Hash)
