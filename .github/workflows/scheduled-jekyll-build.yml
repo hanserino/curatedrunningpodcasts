@@ -25,7 +25,8 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          # depth 2 so ci-jekyll-env can diff HEAD~1; full history is not needed for RSS builds.
+          fetch-depth: 2
 
       - uses: actions/setup-node@v4
         with:
