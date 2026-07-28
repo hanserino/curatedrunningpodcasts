@@ -1291,6 +1291,7 @@ module LatestPodcastEpisodes
       sanitized_episode["audio_url"].to_s,
       sanitized_episode["published_at"].to_s,
       sanitized_episode["description_html"].to_s,
+      sanitized_episode["youtube_video_id"].to_s,
       podcast_doc.data["cover_image"].to_s,
       podcast_doc.data["spotify_link"].to_s,
       podcast_doc.data["apple_podcast_link"].to_s

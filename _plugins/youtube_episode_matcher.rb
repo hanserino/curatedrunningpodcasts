@@ -28,8 +28,10 @@ module YoutubeEpisodeMatcher
 
   def fetch_enabled?
     return false if ENV["YOUTUBE_MATCH"].to_s == "0"
+    return true if ENV["YOUTUBE_MATCH"].to_s == "1"
+    return true if LatestPodcastEpisodes.episode_pages_build?
 
-    ENV["YOUTUBE_MATCH"].to_s == "1" || LatestPodcastEpisodes.rss_fetch_enabled?
+    LatestPodcastEpisodes.rss_fetch_enabled?
   end
 
   def enabled_for_podcast?(doc)
@@ -138,45 +140,65 @@ module YoutubeEpisodeMatcher
     []
   end
 
-  def normalize_title(title)
+  def normalize_title(title, podcast_title: nil)
     text = title.to_s.downcase
     text = text.gsub(/&amp;|&/i, " and ")
     text = text.gsub(/[''""]/, "")
     text = text.gsub(/\A(?:#?\s*)?(?:ep\.?|episode)\s*#?\s*\d+\s*[-–—:|]+\s*/i, "")
-    text = text.gsub(/\s*\|\s*[^|]+\z/, "")
-    text = text.gsub(/[^a-z0-9\s]/, " ")
-    text.gsub(/\s+/, " ").strip
+
+    parts =
+      text.split("|").map do |part|
+        part.gsub(/[^a-z0-9\s]/, " ").gsub(/\s+/, " ").strip
+      end.reject(&:empty?)
+
+    if podcast_title.to_s.strip != "" && parts.size > 1
+      show_key = normalize_show_key(podcast_title)
+      last_key = parts.last.gsub(/\bpodcast\b/, " ").gsub(/\s+/, " ").strip
+      parts.pop if show_key != "" && (last_key.include?(show_key) || show_key.include?(last_key))
+    end
+
+    parts.join(" ").gsub(/\s+/, " ").strip
   end
 
-  def title_tokens(title)
-    normalize_title(title)
+  def normalize_show_key(text)
+    text.to_s.downcase
+      .gsub(/&amp;|&/i, " and ")
+      .gsub(/[''""]/, "")
+      .gsub(/\bpodcast\b/, " ")
+      .gsub(/[^a-z0-9\s]/, " ")
+      .gsub(/\s+/, " ")
+      .strip
+  end
+
+  def title_tokens(title, podcast_title: nil)
+    normalize_title(title, podcast_title: podcast_title)
       .split(" ")
       .reject { |word| word.length < 3 || STOPWORDS.include?(word) }
   end
 
-  def title_similarity(left, right)
-    a = title_tokens(left)
-    b = title_tokens(right)
+  def title_similarity(left, right, podcast_title: nil)
+    a = title_tokens(left, podcast_title: podcast_title)
+    b = title_tokens(right, podcast_title: podcast_title)
     return 0.0 if a.empty? || b.empty?
 
     shared = (a & b).size
     shared.to_f / (a | b).size
   end
 
-  def normalized_prefix(text, length = 72)
-    normalize_title(text)[0, length]
+  def normalized_prefix(text, length = 72, podcast_title: nil)
+    normalize_title(text, podcast_title: podcast_title)[0, length]
   end
 
-  def descriptions_align?(episode, video)
+  def descriptions_align?(episode, video, podcast_title: nil)
     plain = episode["description_plain"].to_s
     yt_desc = video[:media_description].to_s
     return false if plain.length < 30 || yt_desc.length < 30
 
-    a = normalized_prefix(plain, 80)
-    b = normalized_prefix(yt_desc, 80)
+    a = normalized_prefix(plain, 80, podcast_title: podcast_title)
+    b = normalized_prefix(yt_desc, 80, podcast_title: podcast_title)
     return true if a.length >= 40 && b.length >= 40 && (a.start_with?(b[0, 40]) || b.start_with?(a[0, 40]))
 
-    title_similarity(plain, yt_desc) >= 0.55
+    title_similarity(plain, yt_desc, podcast_title: podcast_title) >= 0.55
   end
 
   def episode_time(episode)
@@ -244,7 +266,7 @@ module YoutubeEpisodeMatcher
     true
   end
 
-  def match_episode_candidates(episode, videos, shared_html_video_ids: [])
+  def match_episode_candidates(episode, videos, podcast_title: nil, shared_html_video_ids: [])
     from_html = extract_video_id_from_html(episode["description_html"])
     if html_video_id_trusted?(from_html, videos) && !shared_html_video_ids.include?(from_html)
       return [{ video_id: from_html, score: 1.0 }]
@@ -258,8 +280,8 @@ module YoutubeEpisodeMatcher
       next unless episode_numbers_compatible?(episode["episode_title"], video[:title])
       next unless within_date_window?(episode_time, video[:published_at])
 
-      score = title_similarity(episode["episode_title"], video[:title])
-      score = [score, 0.95].max if descriptions_align?(episode, video)
+      score = title_similarity(episode["episode_title"], video[:title], podcast_title: podcast_title)
+      score = [score, 0.95].max if descriptions_align?(episode, video, podcast_title: podcast_title)
       next if score < MIN_TITLE_SCORE
 
       candidates << { video_id: video[:video_id], score: score }
@@ -268,7 +290,7 @@ module YoutubeEpisodeMatcher
     candidates
   end
 
-  def assign_videos_to_episodes!(episodes, videos)
+  def assign_videos_to_episodes!(episodes, videos, podcast_title: nil)
     pairs = []
     shared_html_video_ids = shared_show_notes_video_ids(episodes)
 
@@ -278,6 +300,7 @@ module YoutubeEpisodeMatcher
       match_episode_candidates(
         episode,
         videos,
+        podcast_title: podcast_title,
         shared_html_video_ids: shared_html_video_ids
       ).each do |candidate|
         pairs << {
@@ -300,6 +323,7 @@ module YoutubeEpisodeMatcher
       next if used_episodes[episode_key] || used_videos[video_id]
 
       pair[:episode]["youtube_video_id"] = video_id
+      pair[:episode].delete("page_build_fingerprint")
       used_episodes[episode_key] = true
       used_videos[video_id] = true
     end
@@ -355,7 +379,11 @@ module YoutubeEpisodeMatcher
         next
       end
 
-      matched_count += assign_videos_to_episodes!(episode_list, videos)
+      matched_count += assign_videos_to_episodes!(
+        episode_list,
+        videos,
+        podcast_title: podcast_doc.data["title"]
+      )
     end
 
     write_channel_cache(site, channel_cache) if channel_cache != channel_cache_before
@@ -368,7 +396,7 @@ class YoutubeEpisodeEnrichmentGenerator < Jekyll::Generator
   priority :normal
 
   def generate(site)
-    return if LatestPodcastEpisodes.directory_only_build?
+    return unless YoutubeEpisodeMatcher.fetch_enabled?
 
     feed_data = site.data["latest_podcast_episodes"]
     return unless feed_data.is_a?(Hash)
