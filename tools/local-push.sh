@@ -24,11 +24,12 @@ trap cleanup EXIT
 
 rebuild_site() {
   if [ "${LOCAL_PUSH_FETCH_RSS:-0}" = "1" ]; then
-    echo "Building with RSS fetch (this may take several minutes)..."
-    JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 bundle exec jekyll build --destination docs
+    echo "Building with RSS + YouTube match + episode pages (this may take several minutes)..."
+    JEKYLL_ENV=production EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
+      bash tools/ci-feed-and-episode-build.sh
   else
-    echo "Building for production (using committed episode data; no RSS fetch)..."
-    JEKYLL_ENV=production bundle exec jekyll build --destination docs
+    echo "Building directory pages only (committed episode data; no RSS/YouTube/episode HTML)..."
+    bash tools/ci-directory-build.sh
   fi
 }
 

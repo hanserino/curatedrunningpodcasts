@@ -34,8 +34,7 @@ rebuild_site() {
     EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
       bash tools/ci-episode-pages-build.sh
   else
-    JEKYLL_ENV=production SKIP_EPISODE_PAGES="${SKIP_EPISODE_PAGES:-1}" \
-      bash tools/ci-jekyll-build.sh docs
+    bash tools/ci-directory-build.sh
   fi
 }
 

@@ -11,25 +11,29 @@ Use these from the project root. **Pick the row that matches what the user is do
 |-----------|---------|--------|
 | **Local dev / preview** (layouts, CSS, JS, content; fast, no RSS) | `bundle exec jekyll serve --destination /tmp/curatedrunningpodcasts-dev --incremental --force-polling` | Skips RSS; uses `_data/latest_podcast_episodes.yml` and/or `.jekyll-rss-cache/`. `--incremental` + Sass partial deps so `_style/` edits rebuild CSS; `--force-polling` if file watch is flaky. |
 | **Local full site build** (not deploying `docs/`) | `bundle exec jekyll build --destination <dir>` | Same fast path as serve unless production env set. |
-| **Refresh podcast RSS locally** (test players / latest episodes) | `JEKYLL_FETCH_RSS=1 bundle exec jekyll serve` or `... jekyll build --destination docs` | Network fetch of all feeds; slow. |
-| **Before commit/push** that includes built output (`docs/`) | `bash tools/local-push.sh "Your message"` | **Preferred.** Syncs to latest `origin/main`, applies your source changes, production-builds `docs/` **without** RSS fetch (avoids conflicts with hourly CI), retries push if CI wins the race. |
-| **Before commit/push** (manual / full RSS refresh) | `JEKYLL_ENV=production bundle exec jekyll build --destination docs` | Sets production URLs. With `JEKYLL_FETCH_RSS=1` refreshes all feeds (slow; competes with CI on `docs/`). Use `LOCAL_PUSH_FETCH_RSS=1 bash tools/local-push.sh "..."` if you need that locally. |
-| **Update committed episode data only** (after production build) | Same as manual push row | Production build rewrites `_data/latest_podcast_episodes.yml`; commit it with `docs/` when the build changed them. |
+| **Refresh podcast RSS locally** (test players / latest episodes) | `LOCAL_PUSH_FETCH_RSS=1 bash tools/local-push.sh "..."` or `bash tools/ci-feed-and-episode-build.sh` | RSS + YouTube match + episode HTML; slow. |
+| **Before commit/push** that includes built output (`docs/`) | `bash tools/local-push.sh "Your message"` | **Preferred.** Directory-only production build (`tools/ci-directory-build.sh`): no RSS, no YouTube, no episode HTML. Retries if CI wins the race. |
+| **Manual directory-only build** | `bash tools/ci-directory-build.sh` | Same as push CI: committed `_data`, `SKIP_EPISODE_PAGES=1`, finishes in minutes. |
+| **Update committed episode data** (RSS + YouTube + episode pages) | CI feed workflow (every 2h) or `LOCAL_PUSH_FETCH_RSS=1 bash tools/local-push.sh "..."` | Do not run full RSS builds locally unless testing the pipeline. |
 
 **Agent behavior**
 
-- If the user asks to **push**, **commit and push**, **deploy**, or **ship** the site: run **`bash tools/local-push.sh "…"`** with a clear commit message (production build + retry loop). Do **not** `git pull --no-rebase` on `docs/` manually unless the script fails repeatedly.
-- If the user is **only iterating locally** or asks to **run the site**: use **`bundle exec jekyll serve`** (or a non-production `jekyll build`); do not force `JEKYLL_ENV=production` unless they need production URLs or a fresh RSS pass.
-- If they need **fresh feeds** while developing without a full production deploy: **`JEKYLL_FETCH_RSS=1`** with `jekyll serve` or `jekyll build`.
+- If the user asks to **push**, **commit and push**, **deploy**, or **ship** the site: run **`bash tools/local-push.sh "…"`** with a clear commit message. Do **not** `git pull --no-rebase` on `docs/` manually unless the script fails repeatedly.
+- If the user is **only iterating locally** or asks to **run the site**: use **`bundle exec jekyll serve`** (or a non-production `jekyll build`); do not force `JEKYLL_ENV=production` unless they need production URLs.
+- Do **not** run `JEKYLL_ENV=production bundle exec jekyll build --destination docs` without `SKIP_EPISODE_PAGES=1` unless explicitly regenerating all episode HTML (CI handles that).
 
-## Why pushes conflicted
+## CI workflow split
 
-- **Hourly CI** (`.github/workflows/scheduled-jekyll-build.yml`) runs a full RSS fetch and commits regenerated **`docs/`** + **`_data/latest_podcast_episodes.yml`** to `main`.
-- A **local production build with RSS** produces a different snapshot of thousands of episode pages → merge conflicts on `git pull`.
-- **`tools/local-push.sh`** resets to latest origin, rebuilds **without** RSS (uses committed `_data`), commits only your source + resulting asset/layout output, and **retries** if CI pushes first — same pattern as `tools/ci-commit-push.sh`.
+| Workflow | When | What it does |
+|----------|------|----------------|
+| **Push Jekyll build** | Content/layout pushes | `ci-directory-build.sh` — fast directory pages only |
+| **Feed Jekyll build** | Every 2h | RSS → YouTube match → episode pages |
+| **Episode pages Jekyll build** | After feed / plugin changes | YouTube match → missing episode HTML |
+| **Scheduled Jekyll build** | Daily | Same as feed (full RSS + YouTube + episode pages) |
+
+Episode HTML, YouTube IDs, and RSS data are refreshed by CI — not by push builds or default local pushes.
 
 ## Git push checklist
 
 1. Run: `bash tools/local-push.sh "Your commit message"`
-2. Or manually: `JEKYLL_ENV=production bundle exec jekyll build --destination docs`, then commit source + **`docs/`** (expect conflicts unless you synced to origin first).
-3. Include **`_data/latest_podcast_episodes.yml`** only when you intentionally refreshed RSS (CI handles this hourly).
+2. Include **`docs/`** from the directory build; do **not** commit `_data/latest_podcast_episodes.yml` unless you ran `LOCAL_PUSH_FETCH_RSS=1`.

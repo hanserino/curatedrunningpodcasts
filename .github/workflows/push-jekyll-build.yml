@@ -26,6 +26,7 @@ on:
       - "tools/ci-commit-push.sh"
       - "tools/ci-feed-and-episode-build.sh"
       - "tools/ci-episode-pages-build.sh"
+      - "tools/ci-directory-build.sh"
       - "tools/ci-jekyll-build.sh"
       - "tools/ci-jekyll-env.sh"
       - "tools/restore-episode-docs.sh"
@@ -71,10 +72,7 @@ jobs:
         run: bash tools/ci-jekyll-env.sh
 
       - name: Production Jekyll build (directory only)
-        env:
-          JEKYLL_ENV: production
-          SKIP_EPISODE_PAGES: "1"
-        run: bash tools/ci-jekyll-build.sh docs
+        run: bash tools/ci-directory-build.sh
 
       - name: Commit and push if changed
         env:

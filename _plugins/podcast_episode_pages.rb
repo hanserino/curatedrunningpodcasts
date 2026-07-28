@@ -238,8 +238,6 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
       return
     end
 
-    LatestPodcastEpisodes.enrich_youtube_matches!(site)
-
     feed_data = site.data["latest_podcast_episodes"]
     return unless feed_data.is_a?(Hash)
 

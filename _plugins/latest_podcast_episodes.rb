@@ -1223,6 +1223,11 @@ module LatestPodcastEpisodes
     ENV["SKIP_EPISODE_PAGES"].to_s == "1"
   end
 
+  # Push/local builds: committed episode data, no network unless a podcast post changed.
+  def fast_directory_build?
+    directory_only_build? && !rss_fetch_enabled?
+  end
+
   # Fast CI path: refresh latest-episodes + podcast players without episode HTML or show notes.
   def feed_only_build?
     directory_only_build? && rss_fetch_enabled?
@@ -1497,6 +1502,7 @@ module LatestPodcastEpisodes
 
   def enrich_youtube_matches!(site)
     return unless defined?(YoutubeEpisodeMatcher)
+    return unless YoutubeEpisodeMatcher.fetch_enabled?
 
     YoutubeEpisodeMatcher.enrich_site!(site)
   rescue StandardError => e
@@ -1663,7 +1669,6 @@ def build_latest_podcast_episodes_data(site)
       refreshed = LatestPodcastEpisodes.refresh_podcast_feeds!(site, merged)
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
-      LatestPodcastEpisodes.enrich_youtube_matches!(site)
       if refreshed.positive?
         LatestPodcastEpisodes.write_committed_data(site, merged)
         Jekyll.logger.info(
@@ -1673,7 +1678,7 @@ def build_latest_podcast_episodes_data(site)
       else
         Jekyll.logger.info(
           "LatestPodcastEpisodes:",
-          "Directory-only build; using committed episode data as-is."
+          "Fast directory build; using committed episode data (no RSS/YouTube fetch)."
         )
       end
       return

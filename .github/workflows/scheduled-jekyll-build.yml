@@ -46,16 +46,17 @@ jobs:
       - name: Configure Jekyll build flags
         run: bash tools/ci-jekyll-env.sh
 
-      - name: Production Jekyll build (running podcasts RSS only)
+      - name: Feed refresh + episode pages
         env:
-          JEKYLL_ENV: production
-          JEKYLL_FETCH_RSS: "1"
-          RSS_FETCH_CONCURRENCY: "10"
           EPISODE_PAGES_PER_PODCAST: "10"
-        run: bash tools/ci-jekyll-build.sh docs
+          RSS_FETCH_CONCURRENCY: "10"
+        run: bash tools/ci-feed-and-episode-build.sh
 
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
           CI_FETCH_RSS: "1"
+          SKIP_EPISODE_PAGES: "1"
+          EPISODE_PAGES_PER_PODCAST: "10"
+          RSS_FETCH_CONCURRENCY: "10"
         run: 'bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs"'

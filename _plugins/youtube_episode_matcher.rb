@@ -32,10 +32,12 @@ module YoutubeEpisodeMatcher
 
   def fetch_enabled?
     return false if ENV["YOUTUBE_MATCH"].to_s == "0"
+    return false if ENV["YOUTUBE_PREMATCHED"].to_s == "1"
     return true if ENV["YOUTUBE_MATCH"].to_s == "1"
     return true if LatestPodcastEpisodes.episode_pages_build?
+    return true if LatestPodcastEpisodes.rss_fetch_enabled?
 
-    LatestPodcastEpisodes.rss_fetch_enabled?
+    false
   end
 
   def enabled_for_podcast?(doc)
@@ -417,12 +419,10 @@ module YoutubeEpisodeMatcher
       next if youtube_link.empty?
 
       videos = []
-      fetch_failed = false
       if fetch
         begin
           videos = fetch_videos_for_youtube_link(youtube_link, channel_cache)
         rescue StandardError => e
-          fetch_failed = true
           Jekyll.logger.warn(
             "YoutubeEpisodeMatcher:",
             "YouTube feed failed for #{podcast_doc.data['title']}: #{e.class}"
