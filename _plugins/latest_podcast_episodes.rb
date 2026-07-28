@@ -190,12 +190,15 @@ module LatestPodcastEpisodes
         prior = prior_by_audio[normalize_audio_key(entry["audio_url"])]
         next unless prior
 
-        %w[description_html description_plain page_build_fingerprint episode_image_url].each do |field|
+        copied_description = false
+        %w[description_html description_plain episode_image_url].each do |field|
           next unless entry[field].to_s.strip.empty?
           next if prior[field].to_s.strip.empty?
 
           entry[field] = prior[field]
+          copied_description = true if field == "description_html"
         end
+        entry.delete("page_build_fingerprint") if copied_description
         entry["description_sanitized"] = true if prior["description_html"].to_s.strip != ""
       end
     end
@@ -885,10 +888,13 @@ module LatestPodcastEpisodes
         unless html.empty?
           entry["description_html"] = html
           entry["description_plain"] = description_plain_from_html(html)
+          entry["description_sanitized"] = true
+          entry.delete("page_build_fingerprint")
         end
-      else
+      elsif !skip_data_resanitize?
         entry["description_html"] = sanitize_episode_description_html(entry["description_html"])
         entry["description_plain"] = description_plain_from_html(entry["description_html"])
+        entry["description_sanitized"] = true
       end
 
       next unless entry["episode_image_url"].to_s.strip.empty?
@@ -1611,21 +1617,19 @@ def build_latest_podcast_episodes_data(site)
 
     if merged
       podcasts_with_feed = LatestPodcastEpisodes.podcast_posts_with_feed(site)
-      unless LatestPodcastEpisodes.skip_data_resanitize?
-        if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
-          LatestPodcastEpisodes.backfill_episodes_from_feeds!(
-            site,
-            podcasts_with_feed,
-            merged["episodes_by_feed"]
-          )
-        end
+      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
+        LatestPodcastEpisodes.backfill_episodes_from_feeds!(
+          site,
+          podcasts_with_feed,
+          merged["episodes_by_feed"]
+        )
       end
       LatestPodcastEpisodes.normalize_episodes_by_feed!(site, merged["episodes_by_feed"])
       if LatestPodcastEpisodes.skip_data_resanitize?
         if LatestPodcastEpisodes.episode_pages_build?
           Jekyll.logger.info(
             "LatestPodcastEpisodes:",
-            "Episode-pages build: using committed show notes as-is (no resanitize)."
+            "Episode-pages build: backfilled missing show notes from RSS; skipped bulk resanitize."
           )
         end
       else
@@ -1697,14 +1701,17 @@ def build_latest_podcast_episodes_data(site)
   LatestPodcastEpisodes.normalize_episodes_by_feed!(site, episodes_by_feed)
   if LatestPodcastEpisodes.feed_only_build?
     LatestPodcastEpisodes.merge_prior_episode_metadata!(episodes_by_feed, prior_episodes)
+    LatestPodcastEpisodes.backfill_episodes_from_feeds!(site, podcasts_with_feed, episodes_by_feed)
     Jekyll.logger.info(
       "LatestPodcastEpisodes:",
-      "Feed-only build: skipped description sanitization; reused prior show notes where episodes match."
+      "Feed-only build: reused prior show notes and backfilled missing descriptions from RSS."
     )
   else
     LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
   end
-  LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
+  unless LatestPodcastEpisodes.feed_only_build?
+    LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
+  end
 
   feeds_with_episodes = episodes_by_feed.count do |_, episodes|
     episodes.is_a?(Array) && !episodes.empty?

@@ -294,5 +294,14 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     else
       Jekyll.logger.info "PodcastEpisodePages:", "Generated #{page_count} episode page(s)."
     end
+
+    return unless LatestPodcastEpisodes.episode_pages_build?
+
+    feed_data = site.data["latest_podcast_episodes"]
+    episodes_by_feed = feed_data.is_a?(Hash) ? feed_data["episodes_by_feed"] : nil
+    return unless episodes_by_feed.is_a?(Hash)
+
+    LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
+    LatestPodcastEpisodes.write_committed_data(site, feed_data)
   end
 end
