@@ -26,6 +26,26 @@ class PodcastDoc
   end
 end
 
+# youtube_episode_matcher.rb logs via Jekyll.logger; stub it for standalone runs.
+module Jekyll
+  class << self
+    def logger
+      @standalone_logger ||= Class.new do
+        def warn(*parts)
+          warn parts.join(": ")
+        end
+
+        def info(*parts)
+          puts parts.join(": ")
+        end
+
+        def debug(*parts)
+        end
+      end.new
+    end
+  end
+end
+
 module LatestPodcastEpisodes
   module_function
 
@@ -49,6 +69,7 @@ module LatestPodcastEpisodes
 
       feed_url = data["rss_feed"].to_s.strip
       next if feed_url.empty?
+      next if data["youtube_link"].to_s.strip.empty?
 
       map[normalize_feed_key(feed_url)] = PodcastDoc.new(data)
     end

@@ -13,7 +13,7 @@ JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 SKIP_EPISODE_PAGES=1 YOUTUBE_MATCH=1 \
 
 echo "==> YouTube episode matching"
 JEKYLL_ENV=production YOUTUBE_MATCH=1 EPISODE_PAGES_BUILD=1 \
-  ruby tools/match-youtube-episodes.rb
+  bundle exec ruby tools/match-youtube-episodes.rb
 
 echo "==> Episode pages (committed _data, missing HTML only)"
 JEKYLL_ENV=production EPISODE_PAGES_BUILD=1 SKIP_DATA_RESANITIZE=1 YOUTUBE_MATCH=1 \
