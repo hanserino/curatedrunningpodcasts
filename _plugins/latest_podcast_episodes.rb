@@ -128,6 +128,7 @@ module LatestPodcastEpisodes
 
       Array(episodes).each do |entry|
         next unless entry.is_a?(Hash)
+        next if entry["description_sanitized"] == true
 
         html = entry["description_html"].to_s.strip
         next if html.empty?
@@ -135,6 +136,67 @@ module LatestPodcastEpisodes
         sanitized = sanitize_episode_description_html(html)
         entry["description_html"] = sanitized
         entry["description_plain"] = description_plain_from_html(sanitized)
+        entry["description_sanitized"] = true
+      end
+    end
+  end
+
+  def mark_episode_descriptions_sanitized!(episodes_by_feed, only_feed_keys: nil)
+    return unless episodes_by_feed.is_a?(Hash)
+
+    episodes_by_feed.each do |feed_key, episodes|
+      next if only_feed_keys && !only_feed_keys.map(&:to_s).include?(feed_key.to_s)
+
+      Array(episodes).each do |entry|
+        next unless entry.is_a?(Hash)
+
+        entry["description_sanitized"] = true if entry["description_html"].to_s.strip != ""
+      end
+    end
+  end
+
+  def strip_internal_episode_keys!(payload)
+    return payload unless payload.is_a?(Hash)
+
+    eb = payload["episodes_by_feed"]
+    return payload unless eb.is_a?(Hash)
+
+    eb.each_value do |episodes|
+      Array(episodes).each do |entry|
+        entry.delete("description_sanitized") if entry.is_a?(Hash)
+      end
+    end
+    payload
+  end
+
+  def merge_prior_episode_metadata!(episodes_by_feed, prior_episodes_by_feed)
+    return unless episodes_by_feed.is_a?(Hash) && prior_episodes_by_feed.is_a?(Hash)
+
+    episodes_by_feed.each do |feed_key, episodes|
+      prior_eps = prior_episodes_by_feed[feed_key.to_s] || prior_episodes_by_feed[feed_key]
+      next unless prior_eps.is_a?(Array)
+
+      prior_by_audio = {}
+      prior_eps.each do |entry|
+        next unless entry.is_a?(Hash)
+
+        key = normalize_audio_key(entry["audio_url"])
+        prior_by_audio[key] = entry unless key.empty?
+      end
+
+      Array(episodes).each do |entry|
+        next unless entry.is_a?(Hash)
+
+        prior = prior_by_audio[normalize_audio_key(entry["audio_url"])]
+        next unless prior
+
+        %w[description_html description_plain page_build_fingerprint episode_image_url].each do |field|
+          next unless entry[field].to_s.strip.empty?
+          next if prior[field].to_s.strip.empty?
+
+          entry[field] = prior[field]
+        end
+        entry["description_sanitized"] = true if prior["description_html"].to_s.strip != ""
       end
     end
   end
@@ -700,6 +762,20 @@ module LatestPodcastEpisodes
     cleaned = strip_paragraphs_with_only_nbsp(cleaned)
     cleaned = strip_nbsp_entities(cleaned)
 
+    # Plain-text show notes: wrap paragraphs once; skip the heavy HTML pipeline.
+    unless cleaned.include?("<")
+      paragraphs = cleaned.split(/\n{2,}/).map(&:strip).reject(&:empty?)
+      return paragraphs.map { |para| "<p>#{CGI.escapeHTML(para)}</p>" }.join
+    end
+
+    # Single simple paragraph with no lists, headers, or links.
+    if cleaned.match?(/\A<p(\s[^>]*)?>[\s\S]*<\/p>\z/i) &&
+       !cleaned.match?(/<(ul|ol|li|h[1-6]|a[\s>])/i) &&
+       !cleaned.match?(%r{https?://|www\.}i)
+      cleaned = strip_empty_block_tags(cleaned)
+      return cleaned.strip
+    end
+
     cleaned = strip_empty_block_tags(cleaned)
 
     loop do
@@ -754,7 +830,7 @@ module LatestPodcastEpisodes
     ""
   end
 
-  def episode_description_html(item)
+  def episode_description_html(item, sanitize: true)
     candidates = []
     %i[content_encoded itunes_summary description itunes_subtitle dc_description summary].each do |meth|
       next unless item.respond_to?(meth)
@@ -764,6 +840,9 @@ module LatestPodcastEpisodes
     end
 
     raw = candidates.map(&:to_s).map(&:strip).find { |text| !text.empty? } || ""
+    return "" if raw.empty?
+    return raw unless sanitize
+
     sanitize_episode_description_html(raw)
   end
 
@@ -992,7 +1071,7 @@ module LatestPodcastEpisodes
     episodes
   end
 
-  def episodes_from_feed(xml, limit = 15, podcast_slug: nil)
+  def episodes_from_feed(xml, limit = 15, podcast_slug: nil, include_descriptions: true)
     parsed = RSS::Parser.parse(xml, false)
     items = Array(parsed&.items).compact
     return [] if items.empty?
@@ -1007,18 +1086,25 @@ module LatestPodcastEpisodes
           next if title.empty?
 
           published_at = parse_time(item) || Time.at(0)
-          description_html = episode_description_html(item)
+          description_html = ""
+          description_plain = ""
+          if include_descriptions
+            description_html = episode_description_html(item)
+            description_plain = description_plain_from_html(description_html)
+          end
           image_url = episode_image_url(item)
-          {
+          entry = {
             "episode_title" => title,
             "episode_url" => item.link.to_s.strip,
             "audio_url" => enclosure_url,
             "published_at" => published_at.iso8601,
             "description_html" => description_html,
-            "description_plain" => description_plain_from_html(description_html),
+            "description_plain" => description_plain,
             "episode_image_url" => image_url,
             "episode_uid" => episode_uid_from_item(item)
           }
+          entry["description_sanitized"] = true if include_descriptions && !description_html.empty?
+          entry
         end
         .compact
         .sort_by { |entry| Time.parse(entry["published_at"].to_s) rescue Time.at(0) }
@@ -1057,6 +1143,11 @@ module LatestPodcastEpisodes
 
   def directory_only_build?
     ENV["SKIP_EPISODE_PAGES"].to_s == "1"
+  end
+
+  # Fast CI path: refresh latest-episodes + podcast players without episode HTML or show notes.
+  def feed_only_build?
+    directory_only_build? && rss_fetch_enabled?
   end
 
   def episodes_per_podcast_limit_for(doc)
@@ -1239,7 +1330,8 @@ module LatestPodcastEpisodes
         xml = fetch_feed(feed_url)
         podcast_slug = doc.data["slug"].to_s.strip
         limit = episodes_per_podcast_limit_for(doc)
-        episodes = episodes_from_feed(xml, limit, podcast_slug: podcast_slug)
+        include_descriptions = !feed_only_build?
+        episodes = episodes_from_feed(xml, limit, podcast_slug: podcast_slug, include_descriptions: include_descriptions)
         episodes_by_feed[feed_key] = episodes
 
         if episode_pages_for_doc?(doc)
@@ -1282,7 +1374,7 @@ module LatestPodcastEpisodes
 
     path = committed_data_path(site)
     FileUtils.mkdir_p(File.dirname(path))
-    File.write(path, dump_yaml(payload))
+    File.write(path, dump_yaml(strip_internal_episode_keys!(payload)))
   rescue StandardError => e
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
   end
@@ -1318,7 +1410,7 @@ module LatestPodcastEpisodes
 
   def write_rss_cache(path, payload)
     FileUtils.mkdir_p(File.dirname(path))
-    File.write(path, dump_yaml(payload))
+    File.write(path, dump_yaml(strip_internal_episode_keys!(payload)))
   rescue StandardError => e
     Jekyll.logger.warn "LatestPodcastEpisodes:", "Could not write #{path}: #{e.message}"
   end
@@ -1342,7 +1434,8 @@ module LatestPodcastEpisodes
     episode_limit = episodes_per_podcast_limit_for(doc)
 
     xml = fetch_feed(feed_url)
-    episodes = episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug)
+    include_descriptions = !feed_only_build?
+    episodes = episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug, include_descriptions: include_descriptions)
     result = { "feed_key" => feed_key, "episodes" => episodes }
 
     unless include_in_directory
@@ -1521,9 +1614,10 @@ def build_latest_podcast_episodes_data(site)
 
   items, episodes_by_feed, errors =
     LatestPodcastEpisodes.fetch_all_podcast_feeds!(podcasts_with_feed)
+  feed_mode = LatestPodcastEpisodes.feed_only_build? ? "feed-only (no descriptions)" : "full"
   Jekyll.logger.info(
     "LatestPodcastEpisodes:",
-    "Fetched #{items.size} latest episode(s) from RSS (#{errors.size} feed error(s), concurrency #{LatestPodcastEpisodes.rss_fetch_concurrency})."
+    "Fetched #{items.size} latest episode(s) from RSS (#{errors.size} feed error(s), #{feed_mode}, concurrency #{LatestPodcastEpisodes.rss_fetch_concurrency})."
   )
 
   sorted = items.sort_by do |item|
@@ -1551,7 +1645,15 @@ def build_latest_podcast_episodes_data(site)
     cache_episodes
   )
   LatestPodcastEpisodes.normalize_episodes_by_feed!(site, episodes_by_feed)
-  LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
+  if LatestPodcastEpisodes.feed_only_build?
+    LatestPodcastEpisodes.merge_prior_episode_metadata!(episodes_by_feed, prior_episodes)
+    Jekyll.logger.info(
+      "LatestPodcastEpisodes:",
+      "Feed-only build: skipped description sanitization; reused prior show notes where episodes match."
+    )
+  else
+    LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
+  end
   LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
 
   feeds_with_episodes = episodes_by_feed.count do |_, episodes|
