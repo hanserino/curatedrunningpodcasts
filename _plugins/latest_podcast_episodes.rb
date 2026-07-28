@@ -853,6 +853,58 @@ module LatestPodcastEpisodes
     url.to_s.strip.downcase.sub(/\?.*\z/, "")
   end
 
+  def episode_meta_for_rss_item(episodes, item)
+    return nil unless item
+    return nil unless episodes.is_a?(Array)
+
+    audio = item.respond_to?(:enclosure) ? item.enclosure&.url.to_s.strip : ""
+    unless audio.empty?
+      matched =
+        episodes.find do |entry|
+          entry.is_a?(Hash) &&
+            normalize_audio_key(entry["audio_url"]) == normalize_audio_key(audio)
+        end
+      return matched if matched
+    end
+
+    uid = episode_uid_from_item(item)
+    unless uid.empty?
+      matched = episodes.find { |entry| entry.is_a?(Hash) && entry["episode_uid"].to_s == uid }
+      return matched if matched
+    end
+
+    title = item.title.to_s.strip
+    episodes.find { |entry| entry.is_a?(Hash) && entry["episode_title"].to_s.strip == title }
+  end
+
+  def reconcile_directory_items!(items, episodes_by_feed)
+    return unless items.is_a?(Array) && episodes_by_feed.is_a?(Hash)
+
+    items.each do |item|
+      next unless item.is_a?(Hash)
+
+      feed_key = normalize_feed_key(item["feed_url"].to_s)
+      episodes = episodes_by_feed[feed_key] || episodes_by_feed[feed_key.to_s]
+      next unless episodes.is_a?(Array)
+
+      audio = normalize_audio_key(item["audio_url"])
+      next if audio.empty?
+
+      match =
+        episodes.find do |entry|
+          entry.is_a?(Hash) && normalize_audio_key(entry["audio_url"]) == audio
+        end
+      next unless match
+
+      item["episode_title"] = match["episode_title"] if match["episode_title"].to_s.strip != ""
+      item["episode_slug"] = match["episode_slug"]
+      item["episode_key"] = match["episode_slug"]
+      item["episode_page_url"] = match["episode_page_url"]
+      item["episode_url"] = match["episode_url"] if match["episode_url"].to_s.strip != ""
+      item["published_at"] = match["published_at"] if match["published_at"].to_s.strip != ""
+    end
+  end
+
   def episodes_need_feed_backfill?(episodes_by_feed)
     return false unless episodes_by_feed.is_a?(Hash)
 
@@ -1325,7 +1377,7 @@ module LatestPodcastEpisodes
     published_at = parse_time(latest_item) || Time.now
     cover_image = doc.data["cover_image"].to_s.strip
     cover_image = feed_image_from_xml(xml) if cover_image.empty?
-    latest_episode_meta = episodes.is_a?(Array) ? episodes.first : nil
+    latest_episode_meta = episode_meta_for_rss_item(episodes, latest_item)
     {
       "podcast_title" => doc.data["title"],
       "podcast_page_url" => doc.url,
@@ -1401,6 +1453,7 @@ module LatestPodcastEpisodes
     resanitize_episode_descriptions!(episodes_by_feed, only_feed_keys: feed_keys)
     stamp_episode_fingerprints!(site, episodes_by_feed, only_feed_keys: feed_keys)
     sort_directory_items!(items)
+    reconcile_directory_items!(items, episodes_by_feed)
     payload["generated_at"] = Time.now.utc.iso8601
     refreshed
   end
@@ -1502,7 +1555,7 @@ module LatestPodcastEpisodes
     published_at = parse_time(latest_item) || Time.now
     cover_image = doc.data["cover_image"].to_s.strip
     cover_image = feed_image_from_xml(xml) if cover_image.empty?
-    latest_episode_meta = episodes.is_a?(Array) ? episodes.first : nil
+    latest_episode_meta = episode_meta_for_rss_item(episodes, latest_item)
     result["item"] = {
       "podcast_title" => doc.data["title"],
       "podcast_page_url" => doc.url,
@@ -1644,6 +1697,7 @@ def build_latest_podcast_episodes_data(site)
             merged["episodes_by_feed"]
           )
         end
+      LatestPodcastEpisodes.reconcile_directory_items!(merged["items"], merged["episodes_by_feed"])
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
       Jekyll.logger.info(
@@ -1709,6 +1763,7 @@ def build_latest_podcast_episodes_data(site)
   else
     LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
   end
+  LatestPodcastEpisodes.reconcile_directory_items!(sorted, episodes_by_feed)
   unless LatestPodcastEpisodes.feed_only_build?
     LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
   end
