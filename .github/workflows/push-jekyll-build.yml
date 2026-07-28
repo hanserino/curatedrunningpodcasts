@@ -24,6 +24,8 @@ on:
       - ".github/workflows/push-jekyll-build.yml"
       - ".github/workflows/scheduled-jekyll-build.yml"
       - "tools/ci-commit-push.sh"
+      - "tools/ci-feed-and-episode-build.sh"
+      - "tools/ci-episode-pages-build.sh"
       - "tools/ci-jekyll-build.sh"
       - "tools/ci-jekyll-env.sh"
       - "tools/restore-episode-docs.sh"

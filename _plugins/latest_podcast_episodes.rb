@@ -1050,6 +1050,17 @@ module LatestPodcastEpisodes
   def assign_episode_slugs!(episodes, podcast_slug: nil)
     used_slugs = []
     Array(episodes).each_with_index do |entry, index|
+      existing = entry["episode_slug"].to_s.strip
+      if !existing.empty?
+        used_slugs << existing
+        entry["episode_key"] = existing
+        entry["legacy_numbered_slug"] = legacy_numbered_episode_slug(index)
+        unless podcast_slug.to_s.strip.empty?
+          entry["episode_page_url"] = episode_page_path(podcast_slug, existing)
+        end
+        next
+      end
+
       title = entry["episode_title"].to_s
       published_at =
         begin
@@ -1150,6 +1161,15 @@ module LatestPodcastEpisodes
     directory_only_build? && rss_fetch_enabled?
   end
 
+  # Second CI pass: generate episode HTML from committed _data without RSS or resanitize.
+  def episode_pages_build?
+    ENV["EPISODE_PAGES_BUILD"].to_s == "1"
+  end
+
+  def skip_data_resanitize?
+    ENV["SKIP_DATA_RESANITIZE"].to_s == "1" || episode_pages_build?
+  end
+
   def episodes_per_podcast_limit_for(doc)
     return 0 unless episode_pages_for_doc?(doc)
 
@@ -1227,6 +1247,15 @@ module LatestPodcastEpisodes
       File.join(check_root, rel, "index.html")
     else
       episode_page_dest_path(site, permalink)
+    end
+  end
+
+  def archive_page_existing_path(site, podcast_slug)
+    check_root = ENV["EPISODE_PAGE_CHECK_DIR"].to_s.strip
+    if !check_root.empty?
+      File.join(check_root, podcast_slug, "episodes", "index.html")
+    else
+      site.in_dest_dir(podcast_slug, "episodes", "index.html")
     end
   end
 
@@ -1582,15 +1611,26 @@ def build_latest_podcast_episodes_data(site)
 
     if merged
       podcasts_with_feed = LatestPodcastEpisodes.podcast_posts_with_feed(site)
-      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
-        LatestPodcastEpisodes.backfill_episodes_from_feeds!(
-          site,
-          podcasts_with_feed,
-          merged["episodes_by_feed"]
-        )
+      unless LatestPodcastEpisodes.skip_data_resanitize?
+        if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
+          LatestPodcastEpisodes.backfill_episodes_from_feeds!(
+            site,
+            podcasts_with_feed,
+            merged["episodes_by_feed"]
+          )
+        end
       end
       LatestPodcastEpisodes.normalize_episodes_by_feed!(site, merged["episodes_by_feed"])
-      LatestPodcastEpisodes.resanitize_episode_descriptions!(merged["episodes_by_feed"])
+      if LatestPodcastEpisodes.skip_data_resanitize?
+        if LatestPodcastEpisodes.episode_pages_build?
+          Jekyll.logger.info(
+            "LatestPodcastEpisodes:",
+            "Episode-pages build: using committed show notes as-is (no resanitize)."
+          )
+        end
+      else
+        LatestPodcastEpisodes.resanitize_episode_descriptions!(merged["episodes_by_feed"])
+      end
       merged["non_running_items"] =
         if prior_snapshot.is_a?(Hash) && prior_snapshot["non_running_items"].is_a?(Array)
           prior_snapshot["non_running_items"]

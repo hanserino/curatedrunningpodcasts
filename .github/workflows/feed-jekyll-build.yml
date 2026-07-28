@@ -1,5 +1,4 @@
-# Lightweight RSS refresh: update _data, latest-episodes, and podcast landing players.
-# Skips individual episode HTML (refreshed daily by scheduled-jekyll-build.yml).
+# Lightweight RSS refresh: update _data, latest-episodes, podcast players, and missing episode pages.
 name: Feed Jekyll build (RSS)
 
 on:
@@ -17,7 +16,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 60
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -43,14 +42,11 @@ jobs:
       - name: Configure Jekyll build flags
         run: bash tools/ci-jekyll-env.sh
 
-      - name: Feed refresh Jekyll build (no episode pages)
+      - name: Feed refresh + episode pages
         env:
-          JEKYLL_ENV: production
-          JEKYLL_FETCH_RSS: "1"
-          SKIP_EPISODE_PAGES: "1"
           EPISODE_PAGES_PER_PODCAST: "10"
           RSS_FETCH_CONCURRENCY: "10"
-        run: bash tools/ci-jekyll-build.sh docs
+        run: bash tools/ci-feed-and-episode-build.sh
 
       - name: Commit and push if changed
         env:

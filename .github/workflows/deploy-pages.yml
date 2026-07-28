@@ -18,6 +18,7 @@ on:
     workflows:
       - "Push Jekyll build (RSS)"
       - "Feed Jekyll build (RSS)"
+      - "Episode pages Jekyll build"
       - "Scheduled Jekyll build (RSS)"
     types:
       - completed

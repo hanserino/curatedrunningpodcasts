@@ -182,6 +182,18 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
 
   def prepare_episode(raw_episode)
     episode = raw_episode.dup
+    html = episode["description_html"].to_s.strip
+    if LatestPodcastEpisodes.skip_data_resanitize? && !html.empty?
+      plain = episode["description_plain"].to_s.strip
+      episode["description_plain"] =
+        if plain.empty?
+          LatestPodcastEpisodes.description_plain_from_html(html)
+        else
+          plain
+        end
+      return episode
+    end
+
     episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(
       episode["description_html"]
     )
@@ -201,7 +213,7 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     podcast_slug = podcast_doc.data["slug"].to_s
     return false if LatestPodcastEpisodes.dirty_podcast_slugs.include?(podcast_slug)
 
-    dest = site.in_dest_dir(podcast_slug, "episodes", "index.html")
+    dest = LatestPodcastEpisodes.archive_page_existing_path(site, podcast_slug)
     return false unless File.file?(dest)
 
     prepared_episodes.all? do |episode|
