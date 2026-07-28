@@ -4,6 +4,18 @@ name: Episode pages Jekyll build
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "_plugins/youtube_episode_matcher.rb"
+      - "_plugins/latest_podcast_episodes.rb"
+      - "_plugins/podcast_episode_pages.rb"
+      - "_data/youtube_channel_ids.yml"
+      - "tools/match-youtube-episodes.rb"
+      - "tools/ci-episode-pages-build.sh"
+      - "tools/ci-feed-and-episode-build.sh"
+      - ".github/workflows/episode-pages-jekyll-build.yml"
   workflow_run:
     workflows:
       - "Feed Jekyll build (RSS)"

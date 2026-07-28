@@ -1000,7 +1000,14 @@ module LatestPodcastEpisodes
   end
 
   def podcast_posts_with_feed(site)
-    posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
+    posts =
+      if site.collections && site.collections["posts"]
+        site.collections["posts"].docs
+      elsif site.posts.respond_to?(:docs)
+        site.posts.docs
+      else
+        []
+      end
     posts.select do |doc|
       doc.data["category"] == "podcast" && doc.data["rss_feed"].to_s.strip != ""
     end
@@ -1334,7 +1341,15 @@ module LatestPodcastEpisodes
       site,
       episode_page_path(podcast_slug, episode_slug)
     )
-    File.file?(dest)
+    return false unless File.file?(dest)
+
+    yt_id = sanitized_episode["youtube_video_id"].to_s.strip
+    if yt_id != ""
+      html = File.read(dest, 262_144) rescue ""
+      return false unless html.include?("youtube-nocookie.com/embed/#{yt_id}")
+    end
+
+    true
   end
 
   def stamp_episode_fingerprints!(site, episodes_by_feed, only_feed_keys: nil)

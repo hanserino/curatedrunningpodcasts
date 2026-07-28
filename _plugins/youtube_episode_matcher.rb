@@ -2,6 +2,8 @@
 
 # Matches RSS podcast episodes to YouTube uploads for shows with youtube_link.
 
+require "fileutils"
+require "open-uri"
 require "rexml/document"
 require "yaml"
 
@@ -407,7 +409,7 @@ module YoutubeEpisodeMatcher
     matched_count = 0
 
     episodes_by_feed.each do |feed_key, episodes|
-      podcast_doc = feed_to_podcast[feed_key]
+      podcast_doc = feed_to_podcast[feed_key.to_s]
       next unless podcast_doc
       next unless enabled_for_podcast?(podcast_doc)
 
