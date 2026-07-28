@@ -1,32 +1,39 @@
-# Full RSS rebuild with individual episode HTML. Feed-only updates run every 2h via feed-jekyll-build.yml.
-name: Scheduled Jekyll build (RSS)
+# Generate individual episode HTML from committed _data (no RSS fetch).
+# Run after feed refresh when latest-episodes links to pages that are not built yet.
+name: Episode pages Jekyll build
 
 on:
-  schedule:
-    - cron: "0 4 * * *"
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Feed Jekyll build (RSS)"
+    types:
+      - completed
 
 permissions:
   contents: write
 
-# Separate group from push builds: a new scheduled run replaces a stuck previous one
-# instead of queuing indefinitely behind a zombie in-progress run.
 concurrency:
-  group: jekyll-build-scheduled
-  cancel-in-progress: true
+  group: jekyll-build-episode-pages
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 120
     env:
-      # Use Node 24 for JS-based actions (checkout, etc.); avoids Node 20 deprecation on runners.
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v6
         with:
-          # depth 2 so ci-jekyll-env can diff HEAD~1; full history is not needed for RSS builds.
+          ref: main
           fetch-depth: 2
+
+      - name: Sync latest main (feed workflow may have pushed)
+        run: git pull --ff-only origin main
 
       - uses: actions/setup-node@v4
         with:
@@ -46,16 +53,13 @@ jobs:
       - name: Configure Jekyll build flags
         run: bash tools/ci-jekyll-env.sh
 
-      - name: Production Jekyll build (running podcasts RSS only)
+      - name: Episode pages Jekyll build (committed episode data)
         env:
           JEKYLL_ENV: production
-          JEKYLL_FETCH_RSS: "1"
-          RSS_FETCH_CONCURRENCY: "10"
           EPISODE_PAGES_PER_PODCAST: "10"
         run: bash tools/ci-jekyll-build.sh docs
 
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
-          CI_FETCH_RSS: "1"
-        run: 'bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs"'
+        run: 'bash tools/ci-commit-push.sh "chore: generate missing episode pages"'

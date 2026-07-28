@@ -1220,6 +1220,16 @@ module LatestPodcastEpisodes
     Digest::SHA256.hexdigest(parts.join("\0"))[0, 16]
   end
 
+  def episode_page_existing_path(site, permalink)
+    rel = permalink.to_s.sub(%r{\A/}, "").sub(%r{/+\z}, "")
+    check_root = ENV["EPISODE_PAGE_CHECK_DIR"].to_s.strip
+    if !check_root.empty?
+      File.join(check_root, rel, "index.html")
+    else
+      episode_page_dest_path(site, permalink)
+    end
+  end
+
   def skip_episode_page?(site, podcast_doc, sanitized_episode, episode_slug)
     return false unless incremental_episode_pages?
 
@@ -1230,7 +1240,7 @@ module LatestPodcastEpisodes
     stored = sanitized_episode["page_build_fingerprint"].to_s
     return false if stored.empty? || stored != fingerprint
 
-    dest = episode_page_dest_path(
+    dest = episode_page_existing_path(
       site,
       episode_page_path(podcast_slug, episode_slug)
     )

@@ -19,6 +19,7 @@ on:
       - "assets/**"
       - "_config.yml"
       - "_data/latest_podcast_episodes.yml"
+      - ".github/workflows/episode-pages-jekyll-build.yml"
       - ".github/workflows/feed-jekyll-build.yml"
       - ".github/workflows/push-jekyll-build.yml"
       - ".github/workflows/scheduled-jekyll-build.yml"
