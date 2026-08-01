@@ -32,7 +32,7 @@ module Jekyll
     def logger
       @standalone_logger ||= Class.new do
         def warn(*parts)
-          warn parts.join(": ")
+          Kernel.warn(parts.join(": "))
         end
 
         def info(*parts)

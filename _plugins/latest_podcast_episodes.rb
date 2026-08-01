@@ -1788,11 +1788,18 @@ def build_latest_podcast_episodes_data(site)
   LatestPodcastEpisodes.normalize_episodes_by_feed!(site, episodes_by_feed)
   if LatestPodcastEpisodes.feed_only_build?
     LatestPodcastEpisodes.merge_prior_episode_metadata!(episodes_by_feed, prior_episodes)
-    LatestPodcastEpisodes.backfill_episodes_from_feeds!(site, podcasts_with_feed, episodes_by_feed)
-    Jekyll.logger.info(
-      "LatestPodcastEpisodes:",
-      "Feed-only build: reused prior show notes and backfilled missing descriptions from RSS."
-    )
+    unless LatestPodcastEpisodes.directory_only_build?
+      LatestPodcastEpisodes.backfill_episodes_from_feeds!(site, podcasts_with_feed, episodes_by_feed)
+      Jekyll.logger.info(
+        "LatestPodcastEpisodes:",
+        "Feed-only build: reused prior show notes and backfilled missing descriptions from RSS."
+      )
+    else
+      Jekyll.logger.info(
+        "LatestPodcastEpisodes:",
+        "Feed-only directory build: reused prior metadata; skipped per-feed description backfill."
+      )
+    end
   else
     LatestPodcastEpisodes.resanitize_episode_descriptions!(episodes_by_feed)
   end

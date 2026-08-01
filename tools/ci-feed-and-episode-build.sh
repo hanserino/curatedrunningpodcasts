@@ -6,7 +6,8 @@ EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}"
 RSS_FETCH_CONCURRENCY="${RSS_FETCH_CONCURRENCY:-10}"
 
 echo "==> Feed refresh (RSS, no episode HTML)"
-JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 SKIP_EPISODE_PAGES=1 YOUTUBE_MATCH=1 \
+# YouTube matching runs in the standalone step below; skip it during Jekyll to avoid duplicate fetches.
+JEKYLL_ENV=production JEKYLL_FETCH_RSS=1 SKIP_EPISODE_PAGES=1 YOUTUBE_MATCH=0 \
   EPISODE_PAGES_PER_PODCAST="$EPISODE_PAGES_PER_PODCAST" \
   RSS_FETCH_CONCURRENCY="$RSS_FETCH_CONCURRENCY" \
   bash tools/ci-jekyll-build.sh docs
