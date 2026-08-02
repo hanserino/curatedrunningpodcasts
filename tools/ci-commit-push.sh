@@ -30,6 +30,10 @@ rebuild_site() {
     EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
       RSS_FETCH_CONCURRENCY="${RSS_FETCH_CONCURRENCY:-8}" \
       bash tools/ci-feed-and-episode-build.sh
+  elif [ "${CI_FEED_ONLY:-0}" = "1" ]; then
+    EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
+      RSS_FETCH_CONCURRENCY="${RSS_FETCH_CONCURRENCY:-8}" \
+      bash tools/ci-feed-only-build.sh
   elif [ "${CI_EPISODE_PAGES:-0}" = "1" ]; then
     EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
       bash tools/ci-episode-pages-build.sh

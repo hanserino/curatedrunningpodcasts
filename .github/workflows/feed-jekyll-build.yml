@@ -16,7 +16,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 30
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -42,16 +42,16 @@ jobs:
       - name: Configure Jekyll build flags
         run: bash tools/ci-jekyll-env.sh
 
-      - name: Feed refresh + episode pages
+      - name: Feed refresh (RSS + YouTube; episode HTML runs in follow-up workflow)
         env:
           EPISODE_PAGES_PER_PODCAST: "10"
           RSS_FETCH_CONCURRENCY: "10"
-        run: bash tools/ci-feed-and-episode-build.sh
+        run: bash tools/ci-feed-only-build.sh
 
       - name: Commit and push if changed
         env:
           BRANCH: ${{ github.ref_name }}
-          CI_FETCH_RSS: "1"
+          CI_FEED_ONLY: "1"
           SKIP_EPISODE_PAGES: "1"
           EPISODE_PAGES_PER_PODCAST: "10"
           RSS_FETCH_CONCURRENCY: "10"

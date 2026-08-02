@@ -1702,7 +1702,8 @@ def build_latest_podcast_episodes_data(site)
 
     if merged
       podcasts_with_feed = LatestPodcastEpisodes.podcast_posts_with_feed(site)
-      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
+      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"]) &&
+         !LatestPodcastEpisodes.episode_pages_build?
         LatestPodcastEpisodes.backfill_episodes_from_feeds!(
           site,
           podcasts_with_feed,
