@@ -1,6 +1,5 @@
 {%- assign about_href = '/about/' | relative_url -%}
 {%- assign latest_href = '/latest-episodes/' | relative_url -%}
-{%- assign promo_codes_href = '/promo-codes/' | relative_url -%}
 {%- assign runners_picks_href = '/runners-picks/' | relative_url -%}
 <div class="header__nav-shell" data-header-actions>
   <button
@@ -28,13 +27,6 @@
             class="main-nav__link"
             {%- if page.layout == 'runners-picks-index' %} aria-current="page"{% endif %}
             >Runners' picks</a>
-        </li>
-        <li>
-          <a
-            href="{{ promo_codes_href }}"
-            class="main-nav__link"
-            {%- if page.layout == 'promo-codes' %} aria-current="page"{% endif %}
-            >Promo codes</a>
         </li>
         <li>
             <a
