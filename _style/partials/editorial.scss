@@ -133,7 +133,8 @@
 
 /* On-site podcast player (shared with /latest-episodes/ and post pages) */
 $ep-play-size: 2.75rem;
-$ep-row-art: 40px;
+$ep-row-art: 64px;
+$ep-feed-art: 96px;
 $ep-play-compact: 2.25rem;
 $ep-play-art: $ep-row-art;
 
@@ -149,7 +150,11 @@ $ep-play-art: $ep-row-art;
         width: 100%;
         margin-left: 0;
         margin-top: 0;
-        padding: 1rem 1rem 1.2rem;
+        padding: 0 0 1rem;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
     }
 
     &--embedded {
@@ -158,8 +163,52 @@ $ep-play-art: $ep-row-art;
     }
 
     &--sticky-only {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+
         .latest-episodes__title {
             margin-bottom: 0.75rem;
+        }
+
+        .latest-episodes__list--feed {
+            gap: 0.35rem;
+
+            .latest-episodes__item {
+                padding: 0.5rem 0 0.35rem;
+                border-bottom: none;
+
+                &:hover .latest-episodes__episode-card {
+                    background: #fcfcfc;
+                }
+
+                &:last-child {
+                    padding-bottom: 0.35rem;
+                }
+            }
+
+            .latest-episodes__episode-card {
+                padding: 0.65rem 0.5rem 0.55rem;
+                border: none;
+                background: $color-surface;
+                box-shadow: none;
+                transition: background 0.12s ease;
+
+                &:hover {
+                    background: #fcfcfc;
+                }
+
+                .latest-episodes__item--current &,
+                .latest-episodes__item--playing & {
+                    background: $color-surface;
+                    box-shadow: inset 0 0 0 2px rgba($color-speed, 0.55);
+                }
+            }
+
+            .latest-episodes__episode-art {
+                box-shadow: none;
+            }
         }
     }
 
@@ -563,8 +612,8 @@ $ep-play-art: $ep-row-art;
     }
 
     &__item {
-        margin-bottom: 0.25rem;
-        padding: 0.45rem 0.55rem;
+        margin-bottom: 0;
+        padding: 0;
         border-radius: $radius-sm;
         border: $border-width solid transparent;
         transition:
@@ -601,7 +650,6 @@ $ep-play-art: $ep-row-art;
 
     /* Heard / remaining (localStorage + live playback) */
     &__listen-track {
-        margin-top: 0.35rem;
         height: 4px;
         border-radius: 0;
         background: $color-lane;
@@ -869,23 +917,239 @@ $ep-play-art: $ep-row-art;
         }
     }
 
-    /* /latest-episodes/ list: art+play button + title; meta on second row */
-    &__episode-stack {
-        display: flex;
-        align-items: center;
-        gap: 0.45rem;
-    }
-
-    &__episode-copy {
-        min-width: 0;
-        flex: 1;
+    &__list--feed {
         display: flex;
         flex-direction: column;
-        gap: 0.12rem;
+        gap: 0.55rem;
+
+        .latest-episodes__feed-day {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+            margin: 0.5rem 0 0.35rem;
+            padding: 1.1rem 0.75rem 0.95rem;
+            text-align: center;
+            background: transparent;
+            border-bottom: $border-width solid rgba($color-ink, 0.2);
+
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+
+        .latest-episodes__feed-day-label {
+            display: block;
+            margin: 0;
+            width: 100%;
+            font-family: $font-display;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.25;
+            letter-spacing: -0.01em;
+            text-align: center;
+            color: $color-ink;
+        }
+
+        .latest-episodes__item {
+            padding: 0 0 0.55rem;
+            margin: 0;
+            border: none;
+            border-bottom: $border-width solid rgba($color-ink, 0.14);
+            background: transparent !important;
+            box-shadow: none;
+
+            &:last-child {
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+
+            &:hover {
+                background: transparent;
+            }
+
+            &--current,
+            &--playing {
+                background: transparent;
+                border-color: rgba($color-ink, 0.14);
+                box-shadow: none;
+            }
+        }
     }
 
-    &__episode-stack > .latest-episodes__play--art {
+    /* NRK-style feed card: picture + title, podcast, play */
+    &__episode-card {
+        position: relative;
+        display: grid;
+        grid-template-areas: "picture titles";
+        grid-template-columns: $ep-feed-art minmax(0, 1fr);
+        gap: 0.35rem 0.65rem;
+        padding: 0.45rem 0.5rem 0.4rem;
+        border-radius: $radius-sm;
+        border: $border-width solid rgba($color-ink, 0.12);
+        background: rgba($color-lane, 0.55);
+        box-shadow: $shadow-brutal-sm;
+        transition:
+            background 0.12s ease,
+            border-color 0.12s ease,
+            box-shadow 0.12s ease;
+
+        &--linked {
+            cursor: pointer;
+        }
+
+        .latest-episodes__item:hover & {
+            background: $color-lane;
+            border-color: rgba($color-ink, 0.22);
+        }
+
+        .latest-episodes__item--current &,
+        .latest-episodes__item--playing & {
+            background: rgba($color-speed, 0.16);
+            border-color: rgba($color-ink, 0.28);
+            box-shadow: $shadow-brutal-sm;
+        }
+    }
+
+    &__episode-hit {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        border-radius: inherit;
+        text-decoration: none;
+        color: transparent;
+
+        &:focus-visible {
+            outline: 3px solid $color-ink;
+            outline-offset: 2px;
+        }
+    }
+
+    &__episode-art {
+        grid-area: picture;
+        position: relative;
+        z-index: 2;
+        pointer-events: none;
+        width: $ep-feed-art;
+        height: $ep-feed-art;
+        min-width: $ep-feed-art;
         flex-shrink: 0;
+        border: $border-heavy;
+        border-radius: $radius-sm;
+        box-shadow: $shadow-brutal-sm;
+        overflow: hidden;
+        background: $color-lane;
+
+        picture,
+        img.latest-episodes__cover {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    }
+
+    &__episode-art-placeholder {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba($color-speed, 0.2) 0%, $color-lane 100%);
+    }
+
+    &__episode-titles {
+        grid-area: titles;
+        position: relative;
+        z-index: 2;
+        pointer-events: none;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.15rem;
+        align-self: start;
+        padding-top: 0.05rem;
+
+        .latest-episodes__podcast-link--feed,
+        .latest-episodes__podcast-label--feed {
+            position: relative;
+            z-index: 3;
+            pointer-events: auto;
+            align-self: flex-start;
+            width: fit-content;
+            max-width: 100%;
+            margin: 0;
+            font-size: 0.84rem;
+            line-height: 1.3;
+            color: $color-muted;
+        }
+
+        .latest-episodes__podcast-label--feed {
+            pointer-events: none;
+        }
+    }
+
+    &__episode-date {
+        margin: 0;
+        font-family: $font-mono;
+        font-size: 0.68rem;
+        line-height: 1.3;
+        color: $color-muted;
+    }
+
+    &__play--feed {
+        display: inline-flex;
+        position: relative;
+        z-index: 3;
+        pointer-events: auto;
+        width: $ep-play-compact;
+        height: $ep-play-compact;
+        min-width: $ep-play-compact;
+        margin: 0.1rem 0 0;
+        padding: 0;
+        border-radius: 50%;
+        justify-content: center;
+
+        .latest-episodes__play-glyph {
+            flex-shrink: 0;
+            margin-left: 2px;
+            border-width: 5px 0 5px 9px;
+        }
+
+        &.latest-episodes__play--playing .latest-episodes__play-glyph {
+            width: 9px;
+            height: 11px;
+            margin-left: 0;
+            border: none;
+            background: linear-gradient(
+                90deg,
+                currentColor 0,
+                currentColor 3px,
+                transparent 3px,
+                transparent 6px,
+                currentColor 6px,
+                currentColor 9px
+            );
+        }
+    }
+
+    &__episode-title--feed {
+        margin: 0;
+        font-family: $font-display;
+        font-size: 0.95rem;
+        font-weight: 700;
+        line-height: 1.25;
+        color: $color-ink;
+        min-width: 0;
+
+        &:is(a) {
+            text-decoration: none;
+            color: inherit;
+
+            &:hover,
+            &:focus-visible {
+                color: $color-speed;
+                text-decoration: underline;
+            }
+        }
     }
 
     &__episode-title--row {

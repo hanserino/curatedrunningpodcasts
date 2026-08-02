@@ -3,26 +3,26 @@
 {%- assign section_id = include.section_id | default: "latest-episodes-player" -%}
 {%- assign heading = include.heading | default: "Latest Episodes" -%}
 {%- assign max_items = include.limit | default: 25 -%}
-{%- assign deck_cover = "" -%}
-{%- if items.size > 0 -%}
-  {%- assign first_ep = items | first -%}
-  {%- if first_ep.cover_image and first_ep.cover_image != "" -%}
-    {%- assign deck_cover = first_ep.cover_image -%}
-  {%- endif -%}
-{%- endif -%}
 
-<section class="latest-episodes" id="{{ section_id }}" data-brp-player-deck="{{ section_id }}" aria-labelledby="{{ section_id }}-title">
+<section class="latest-episodes latest-episodes--sticky-only" id="{{ section_id }}" data-brp-player-deck="{{ section_id }}" aria-labelledby="{{ section_id }}-title">
   <!-- <h2 class="latest-episodes__title" id="{{ section_id }}-title">{{ heading }}</h2> -->
 
   {%- if items.size > 0 -%}
-  {% include latest-episodes-player-chrome.html deck_cover=deck_cover %}
 
-  <ol class="latest-episodes__list">
+  <ol class="latest-episodes__list latest-episodes__list--feed">
     <li class="latest-episodes__empty" role="status" aria-live="polite" hidden>
       <p>No episodes match these filters. Try clearing filters or choose fewer categories.</p>
     </li>
+    {%- assign _prev_feed_day = "" -%}
     {%- for episode in items limit: max_items -%}
-    {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
+    {%- assign _feed_day_key = episode.published_at | date: "%Y-%m-%d" -%}
+    {%- assign _feed_day_label = episode.published_at | date: "%A, %b %-d, %Y" -%}
+    {%- if _feed_day_key != "" and _feed_day_key != _prev_feed_day -%}
+    <li class="latest-episodes__feed-day">
+      <time class="latest-episodes__feed-day-label" datetime="{{ _feed_day_key }}">{{ _feed_day_label }}</time>
+    </li>
+    {%- assign _prev_feed_day = _feed_day_key -%}
+    {%- endif -%}
     {%- assign _filter_category = episode.filter_category | default: '' | strip -%}
     {%- assign _podcast_doc = nil -%}
     {%- if _filter_category == '' -%}
@@ -33,45 +33,60 @@
         {%- assign _podcast_doc = resolved_podcast -%}
       {%- endif -%}
     {%- endif -%}
+    {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
+    {%- if _ep_path == '' -%}
+      {%- assign _ep_key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
+      {%- if _ep_key == '' -%}
+        {%- assign _ep_key = episode.episode_title | slugify -%}
+      {%- endif -%}
+      {%- if _page_slug != '' and _ep_key != '' -%}
+        {%- assign _ep_path = '/' | append: _page_slug | append: '/' | append: _ep_key | append: '/' -%}
+      {%- endif -%}
+    {%- endif -%}
     <li
       class="latest-episodes__item"
       {% if _filter_category != '' %}data-category="{{ _filter_category }}"{% elsif _podcast_doc %}data-category="{% for tag in _podcast_doc.tags %}{{ tag }} {% endfor %}{% for language in _podcast_doc.language %}{{ language }} {% endfor %}"{% endif %}
       {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
+      {% if _ep_path != '' %}data-episode-url="{{ _ep_path | relative_url | escape }}"{% endif %}
     >
-      <div class="latest-episodes__episode-stack">
-        <button
-          type="button"
-          class="latest-episodes__play latest-episodes__play--art"
-          aria-pressed="false"
-          aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
-          data-audio-url="{{ episode.audio_url | escape }}"
-          data-episode-title="{{ episode.episode_title | escape }}"
-          data-podcast-title="{{ episode.podcast_title | escape }}"
-          {% if episode.cover_image and episode.cover_image != "" %}data-cover-url="{{ episode.cover_image | relative_url | escape }}"{% endif %}
-          {% if episode.episode_page_url and episode.episode_page_url != "" %}data-episode-url="{{ episode.episode_page_url | relative_url | escape }}"{% endif %}
-          {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
-        >
-          <span class="latest-episodes__play-art" aria-hidden="true">
-            {%- if episode.cover_image and episode.cover_image != "" -%}
-            {%- include local-media-picture.html raw=episode.cover_image alt="" high_priority=false width=40 height=40 img_class="latest-episodes__cover" -%}
-            {%- else -%}
-            <span class="latest-episodes__play-art-placeholder"></span>
-            {%- endif -%}
-          </span>
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
-        <div class="latest-episodes__episode-copy">
-        {% include episode-page-link.html episode=episode podcast_page_url=episode.podcast_page_url class="latest-episodes__episode-title latest-episodes__episode-title--row" %}
-        <p class="latest-episodes__meta latest-episodes__meta--stacked">
-        {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
-        <a href="{{ episode.podcast_page_url | relative_url }}" class="latest-episodes__podcast-link">{{ episode.podcast_title }}</a>
-        {%- else -%}
-        {{ episode.podcast_title }}
+      <article class="latest-episodes__episode-card{% if _ep_path != '' %} latest-episodes__episode-card--linked{% endif %}">
+        {%- if _ep_path != '' -%}
+        <a
+          href="{{ _ep_path | relative_url | escape }}"
+          class="latest-episodes__episode-hit"
+          aria-label="Open episode: {{ episode.episode_title | xml_escape }}"
+        ></a>
         {%- endif -%}
-        {% if published_label and published_label != "" %} • {{ published_label }}{% endif %}
-        </p>
+        <div class="latest-episodes__episode-art" aria-hidden="true">
+          {%- if episode.cover_image and episode.cover_image != "" -%}
+          {%- include local-media-picture.html raw=episode.cover_image alt="" high_priority=false width=96 height=96 img_class="latest-episodes__cover" -%}
+          {%- else -%}
+          <span class="latest-episodes__episode-art-placeholder"></span>
+          {%- endif -%}
         </div>
-      </div>
+        <div class="latest-episodes__episode-titles">
+          <span class="latest-episodes__episode-title latest-episodes__episode-title--feed">{{ episode.episode_title }}</span>
+          {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
+          <a href="{{ episode.podcast_page_url | relative_url }}" class="latest-episodes__podcast-link latest-episodes__podcast-link--feed">{{ episode.podcast_title }}</a>
+          {%- else -%}
+          <span class="latest-episodes__podcast-label latest-episodes__podcast-label--feed">{{ episode.podcast_title }}</span>
+          {%- endif -%}
+          <button
+            type="button"
+            class="latest-episodes__play latest-episodes__play--feed"
+            aria-pressed="false"
+            aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
+            data-audio-url="{{ episode.audio_url | escape }}"
+            data-episode-title="{{ episode.episode_title | escape }}"
+            data-podcast-title="{{ episode.podcast_title | escape }}"
+            {% if episode.cover_image and episode.cover_image != "" %}data-cover-url="{{ episode.cover_image | relative_url | escape }}"{% endif %}
+            {% if _ep_path != '' %}data-episode-url="{{ _ep_path | relative_url | escape }}"{% endif %}
+            {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
+          >
+            <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+          </button>
+        </div>
+      </article>
       <div class="latest-episodes__listen-track" data-listen-progress-track hidden>
         <div class="latest-episodes__listen-fill" data-listen-progress style="width: 0%"></div>
       </div>

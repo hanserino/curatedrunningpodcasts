@@ -22,6 +22,22 @@
     var globalDurationEl = null;
     var globalScrubbing = false;
 
+    var fullscreenRoot = null;
+    var fullscreenArt = null;
+    var fullscreenArtWrap = null;
+    var fullscreenTitle = null;
+    var fullscreenShow = null;
+    var fullscreenEpisodeLink = null;
+    var fullscreenPodcastLink = null;
+    var fullscreenPlay = null;
+    var fullscreenScrub = null;
+    var fullscreenScrubProgress = null;
+    var fullscreenCurrentEl = null;
+    var fullscreenDurationEl = null;
+    var fullscreenScrubbing = false;
+    var fullscreenOpen = false;
+    var fullscreenEscHandler = null;
+
     var activeDeck = null;
     var currentMeta = {
         episodeTitle: '',
@@ -383,8 +399,13 @@
         var podcastPageUrl = (button.getAttribute('data-podcast-url') || '').trim();
 
         if (!episodePageUrl && clickedLi) {
-            var epLink = clickedLi.querySelector('a.latest-episodes__episode-title[href]');
+            var epLink =
+                clickedLi.querySelector('a.latest-episodes__episode-hit[href]') ||
+                clickedLi.querySelector('a.latest-episodes__episode-title[href]');
             if (epLink) episodePageUrl = (epLink.getAttribute('href') || '').trim();
+            if (!episodePageUrl) {
+                episodePageUrl = (clickedLi.getAttribute('data-episode-url') || '').trim();
+            }
         }
         if (!podcastPageUrl && clickedLi) {
             podcastPageUrl = (clickedLi.getAttribute('data-podcast-url') || '').trim();
@@ -644,11 +665,18 @@
     }
 
     function syncGlobalPlayButton() {
-        if (!globalPlay || !player) return;
+        if (!player) return;
         var playing = !player.paused && !player.ended;
-        globalPlay.classList.toggle('brp-global-player__play--playing', playing);
-        globalPlay.setAttribute('aria-pressed', playing ? 'true' : 'false');
-        globalPlay.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+        if (globalPlay) {
+            globalPlay.classList.toggle('brp-global-player__play--playing', playing);
+            globalPlay.setAttribute('aria-pressed', playing ? 'true' : 'false');
+            globalPlay.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+        }
+        if (fullscreenPlay) {
+            fullscreenPlay.classList.toggle('brp-player-fullscreen__play--playing', playing);
+            fullscreenPlay.setAttribute('aria-pressed', playing ? 'true' : 'false');
+            fullscreenPlay.setAttribute('aria-label', playing ? 'Pause' : 'Play');
+        }
     }
 
     function updateGlobalScrubVisual(pct) {
@@ -657,20 +685,161 @@
         globalScrubProgress.style.width = clamped + '%';
     }
 
+    function updateFullscreenScrubVisual(pct) {
+        if (!fullscreenScrubProgress) return;
+        var clamped = Math.min(100, Math.max(0, pct));
+        fullscreenScrubProgress.style.width = clamped + '%';
+    }
+
+    function updateAllScrubVisuals(pct) {
+        updateGlobalScrubVisual(pct);
+        updateFullscreenScrubVisual(pct);
+    }
+
+    function syncScrubInputs(scaled) {
+        var value = String(scaled);
+        if (globalScrub) {
+            globalScrub.value = value;
+            globalScrub.setAttribute('aria-valuenow', value);
+        }
+        if (fullscreenScrub) {
+            fullscreenScrub.value = value;
+            fullscreenScrub.setAttribute('aria-valuenow', value);
+        }
+    }
+
     function updateGlobalTransportTimes() {
         if (!player) return;
         var dur = player.duration;
         var cur = player.currentTime;
-        if (globalCurrentEl) globalCurrentEl.textContent = formatTime(cur);
-        if (globalDurationEl) {
-            globalDurationEl.textContent = isFinite(dur) && dur > 0 ? formatTime(dur) : '0:00';
-        }
-        if (globalScrub && isFinite(dur) && dur > 0 && !globalScrubbing) {
+        var curLabel = formatTime(cur);
+        var durLabel = isFinite(dur) && dur > 0 ? formatTime(dur) : '0:00';
+        if (globalCurrentEl) globalCurrentEl.textContent = curLabel;
+        if (globalDurationEl) globalDurationEl.textContent = durLabel;
+        if (fullscreenCurrentEl) fullscreenCurrentEl.textContent = curLabel;
+        if (fullscreenDurationEl) fullscreenDurationEl.textContent = durLabel;
+        if (isFinite(dur) && dur > 0 && !globalScrubbing && !fullscreenScrubbing) {
             var scaled = Math.round((cur / dur) * 1000);
-            globalScrub.value = String(scaled);
-            globalScrub.setAttribute('aria-valuenow', String(scaled));
-            updateGlobalScrubVisual((cur / dur) * 100);
+            syncScrubInputs(scaled);
+            updateAllScrubVisuals((cur / dur) * 100);
         }
+    }
+
+    function syncFullscreenMeta() {
+        if (!fullscreenTitle || !fullscreenShow) return;
+        setGlobalMetaLine(
+            fullscreenTitle,
+            currentMeta.episodeTitle,
+            currentMeta.episodePageUrl,
+            'brp-player-fullscreen__title-link'
+        );
+        setGlobalMetaLine(
+            fullscreenShow,
+            currentMeta.podcastTitle,
+            currentMeta.podcastPageUrl,
+            'brp-player-fullscreen__show-link'
+        );
+        if (fullscreenEpisodeLink) {
+            var episodePath = resolveSitePath(currentMeta.episodePageUrl);
+            if (episodePath) {
+                fullscreenEpisodeLink.href = episodePath;
+                fullscreenEpisodeLink.hidden = false;
+            } else {
+                fullscreenEpisodeLink.hidden = true;
+            }
+        }
+        if (fullscreenPodcastLink) {
+            var podcastPath = resolveSitePath(currentMeta.podcastPageUrl);
+            if (podcastPath) {
+                fullscreenPodcastLink.href = podcastPath;
+                fullscreenPodcastLink.hidden = false;
+            } else {
+                fullscreenPodcastLink.hidden = true;
+            }
+        }
+        if (fullscreenArt && fullscreenArtWrap) {
+            var cover = resolveCoverUrl(currentMeta.coverUrl);
+            if (cover) {
+                fullscreenArt.onload = function () {
+                    fullscreenArt.onerror = null;
+                };
+                fullscreenArt.onerror = function () {
+                    var webp = localWebpCandidate(currentMeta.coverUrl || '');
+                    if (webp && fullscreenArt.src.indexOf('.webp') === -1) {
+                        fullscreenArt.src = absoluteAssetUrl(webp);
+                        return;
+                    }
+                    fullscreenArt.onerror = null;
+                    fullscreenArt.removeAttribute('src');
+                    fullscreenArtWrap.classList.add('brp-player-fullscreen__art-wrap--empty');
+                };
+                if (fullscreenArt.getAttribute('data-brp-cover-url') !== cover) {
+                    fullscreenArt.setAttribute('data-brp-cover-url', cover);
+                    fullscreenArt.src = cover;
+                }
+                fullscreenArtWrap.classList.remove('brp-player-fullscreen__art-wrap--empty');
+            } else {
+                fullscreenArt.onerror = null;
+                fullscreenArt.removeAttribute('data-brp-cover-url');
+                fullscreenArt.removeAttribute('src');
+                fullscreenArtWrap.classList.add('brp-player-fullscreen__art-wrap--empty');
+            }
+        }
+    }
+
+    function syncFullscreenUi() {
+        syncFullscreenMeta();
+        syncGlobalPlayButton();
+        updateGlobalTransportTimes();
+    }
+
+    function openPlayerFullscreen() {
+        if (!fullscreenRoot || !playerActiveUrl()) return;
+        syncFullscreenUi();
+        fullscreenRoot.hidden = false;
+        fullscreenRoot.setAttribute('aria-hidden', 'false');
+        document.body.classList.add('brp-player-fullscreen-open');
+        fullscreenOpen = true;
+        if (!fullscreenEscHandler) {
+            fullscreenEscHandler = function (event) {
+                if (event.key === 'Escape') {
+                    closePlayerFullscreen();
+                }
+            };
+        }
+        document.addEventListener('keydown', fullscreenEscHandler);
+        if (fullscreenPlay) {
+            fullscreenPlay.focus();
+        }
+    }
+
+    function closePlayerFullscreen() {
+        if (!fullscreenRoot || !fullscreenOpen) return;
+        fullscreenRoot.hidden = true;
+        fullscreenRoot.setAttribute('aria-hidden', 'true');
+        document.body.classList.remove('brp-player-fullscreen-open');
+        fullscreenOpen = false;
+        fullscreenScrubbing = false;
+        if (fullscreenEscHandler) {
+            document.removeEventListener('keydown', fullscreenEscHandler);
+        }
+        if (globalPlay) {
+            globalPlay.focus();
+        }
+    }
+
+    function handleGlobalScrubInput(scrubInput) {
+        if (!player || !scrubInput) return;
+        var dur = player.duration;
+        if (!isFinite(dur) || dur <= 0) return;
+        globalScrubbing = scrubInput === globalScrub;
+        fullscreenScrubbing = scrubInput === fullscreenScrub;
+        var scaled = Number(scrubInput.value);
+        syncScrubInputs(scaled);
+        updateAllScrubVisuals(scaled / 10);
+        var preview = formatTime((scaled / 1000) * dur);
+        if (globalCurrentEl) globalCurrentEl.textContent = preview;
+        if (fullscreenCurrentEl) fullscreenCurrentEl.textContent = preview;
     }
 
     function renderGlobalBarFromMeta() {
@@ -691,6 +860,7 @@
             );
         }
         updateGlobalArt(currentMeta.coverUrl);
+        syncFullscreenMeta();
         syncGlobalPlayButton();
         updateGlobalTransportTimes();
         updateGlobalBarVisibility();
@@ -1061,12 +1231,15 @@
     }
 
     function commitGlobalScrubSeek() {
-        if (!globalScrubbing || !globalScrub) return;
+        var scrubInput = fullscreenScrubbing ? fullscreenScrub : globalScrub;
+        if (!scrubInput) scrubInput = globalScrub;
+        if ((!globalScrubbing && !fullscreenScrubbing) || !scrubInput) return;
         var dur = player.duration;
         if (isFinite(dur) && dur > 0) {
-            player.currentTime = (Number(globalScrub.value) / 1000) * dur;
+            player.currentTime = (Number(scrubInput.value) / 1000) * dur;
         }
         globalScrubbing = false;
+        fullscreenScrubbing = false;
         updateGlobalTransportTimes();
         if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
         updateMediaSessionPosition();
@@ -1075,6 +1248,7 @@
 
     function cancelGlobalScrubGesture() {
         globalScrubbing = false;
+        fullscreenScrubbing = false;
         updateGlobalTransportTimes();
     }
 
@@ -1087,28 +1261,122 @@
         }
     }
 
+    function seekGlobalBySeconds(deltaSec) {
+        if (!player || !player.src) return;
+        var dur = player.duration;
+        var next = player.currentTime + deltaSec;
+        if (deltaSec < 0) {
+            next = Math.max(0, next);
+        } else if (isFinite(dur) && dur > 0) {
+            next = Math.min(next, dur);
+        }
+        player.currentTime = next;
+        updateGlobalTransportTimes();
+        if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
+        updateMediaSessionPosition();
+        refreshAllListenProgress();
+    }
+
+    function wireFullscreenControls() {
+        if (!fullscreenRoot || fullscreenRoot.getAttribute('data-brp-fullscreen-wired') === 'true') return;
+        fullscreenRoot.setAttribute('data-brp-fullscreen-wired', 'true');
+
+        var openBtn = globalRoot ? globalRoot.querySelector('[data-global-player-fullscreen]') : null;
+        var closeBtn = fullscreenRoot.querySelector('[data-fullscreen-close]');
+        var fsSkipBack = fullscreenRoot.querySelector('[data-fullscreen-skip-back]');
+        var fsSkipForward = fullscreenRoot.querySelector('[data-fullscreen-skip-forward]');
+
+        if (openBtn) {
+            openBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                openPlayerFullscreen();
+            });
+        }
+
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                closePlayerFullscreen();
+            });
+        }
+
+        if (fullscreenPlay) {
+            fullscreenPlay.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleGlobalPlayback();
+            });
+        }
+
+        if (fsSkipBack) {
+            fsSkipBack.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                seekGlobalBySeconds(-SKIP_BACK_SEC);
+            });
+        }
+
+        if (fsSkipForward) {
+            fsSkipForward.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                seekGlobalBySeconds(SKIP_FORWARD_SEC);
+            });
+        }
+
+        if (fullscreenScrub) {
+            fullscreenScrub.addEventListener('input', function () {
+                handleGlobalScrubInput(fullscreenScrub);
+            });
+            fullscreenScrub.addEventListener('change', commitGlobalScrubSeek);
+            fullscreenScrub.addEventListener('pointerdown', function () {
+                fullscreenScrubbing = true;
+            });
+            fullscreenScrub.addEventListener('pointerup', commitGlobalScrubSeek);
+            fullscreenScrub.addEventListener('pointercancel', cancelGlobalScrubGesture);
+        }
+    }
+
     function wireGlobalControls() {
-        if (!globalPlay || globalPlay.getAttribute('data-brp-controls-wired') === 'true') return;
-        globalPlay.setAttribute('data-brp-controls-wired', 'true');
+        if (!globalRoot || globalRoot.getAttribute('data-brp-controls-wired') === 'true') return;
+        globalRoot.setAttribute('data-brp-controls-wired', 'true');
 
-        globalPlay.addEventListener('pointerdown', function (e) {
-            e.stopPropagation();
-        });
+        var globalSkipBack = globalRoot.querySelector('[data-global-player-skip-back]');
+        var globalSkipForward = globalRoot.querySelector('[data-global-player-skip-forward]');
 
-        globalPlay.addEventListener('click', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-            toggleGlobalPlayback();
-        });
+        if (globalPlay) {
+            globalPlay.addEventListener('pointerdown', function (e) {
+                e.stopPropagation();
+            });
+
+            globalPlay.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                toggleGlobalPlayback();
+            });
+        }
+
+        if (globalSkipBack) {
+            globalSkipBack.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                seekGlobalBySeconds(-SKIP_BACK_SEC);
+            });
+        }
+
+        if (globalSkipForward) {
+            globalSkipForward.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                seekGlobalBySeconds(SKIP_FORWARD_SEC);
+            });
+        }
 
         if (globalScrub) {
             globalScrub.addEventListener('input', function () {
-                globalScrubbing = true;
-                var dur = player.duration;
-                if (!isFinite(dur) || dur <= 0) return;
-                var scaled = Number(globalScrub.value);
-                updateGlobalScrubVisual(scaled / 10);
-                if (globalCurrentEl) globalCurrentEl.textContent = formatTime((scaled / 1000) * dur);
+                handleGlobalScrubInput(globalScrub);
             });
 
             globalScrub.addEventListener('change', commitGlobalScrubSeek);
@@ -1120,6 +1388,8 @@
             globalScrub.addEventListener('pointerup', commitGlobalScrubSeek);
             globalScrub.addEventListener('pointercancel', cancelGlobalScrubGesture);
         }
+
+        wireFullscreenControls();
     }
 
     function wireEngineEvents() {
@@ -1352,7 +1622,7 @@
         if (!button) return '';
         var coverUrl = button.getAttribute('data-cover-url') || '';
         if (coverUrl) return coverUrl;
-        var coverImg = button.closest('.latest-episodes__item, .latest-episodes__episode-stack');
+        var coverImg = button.closest('.latest-episodes__item, .latest-episodes__episode-stack, .latest-episodes__episode-card');
         if (!coverImg) return '';
         var img = coverImg.querySelector('.latest-episodes__cover, img[data-cover-src]');
         if (!img) return '';
@@ -1506,6 +1776,8 @@
         root.addEventListener('click', function (event) {
             var button = event.target.closest('[data-audio-url]');
             if (!button) return;
+            event.preventDefault();
+            event.stopPropagation();
             activateEpisode(button, { userGesture: true, play: true }, deck);
         });
 
@@ -1515,20 +1787,66 @@
         refreshAllListenProgress();
         updateGlobalBarVisibility();
 
-        (function restoreEpisodePageListenState() {
-            if (!root.classList.contains('latest-episodes--episode-page')) return;
-            if (playerActiveUrl()) return;
-            var btn = root.querySelector('[data-audio-url]');
-            if (!btn) return;
-            var audioUrl = btn.getAttribute('data-audio-url');
-            if (!audioUrl) return;
+        (function restoreDeckListenState() {
+            if (playerActiveUrl()) {
+                syncListFromPlayer();
+                syncGlobalBarFromMeta();
+                return;
+            }
+
+            if (root.classList.contains('latest-episodes--episode-page')) {
+                var pageBtn = root.querySelector('[data-audio-url]');
+                if (!pageBtn) return;
+                var pageUrl = pageBtn.getAttribute('data-audio-url');
+                if (!pageUrl) return;
+                var lastEpisode = loadLastListened();
+                var saved = getSavedProgressRow(pageUrl);
+                var shouldPrime =
+                    (lastEpisode && urlsMatch(lastEpisode.url, pageUrl)) ||
+                    (saved && !isProgressComplete(saved) && saved.t >= MIN_RESUME_SEC);
+                if (!shouldPrime) return;
+                activateEpisode(pageBtn, { userGesture: false, play: false, kicker: 'Continue listening' }, deck);
+                return;
+            }
+
             var last = loadLastListened();
-            var saved = getSavedProgressRow(audioUrl);
-            var shouldPrime =
-                (last && urlsMatch(last.url, audioUrl)) ||
-                (saved && !isProgressComplete(saved) && saved.t >= MIN_RESUME_SEC);
-            if (!shouldPrime) return;
-            activateEpisode(btn, { userGesture: false, play: false, kicker: 'Continue listening' }, deck);
+            if (!last || !last.url) return;
+            if (isProgressComplete(getSavedProgressRow(last.url))) return;
+
+            var btn = findButtonForStoredUrl(last.url);
+            if (btn) {
+                if (last.coverUrl && !btn.getAttribute('data-cover-url')) {
+                    btn.setAttribute('data-cover-url', last.coverUrl);
+                }
+                activateEpisode(btn, { userGesture: false, play: false, kicker: 'Continue listening' }, deck);
+                return;
+            }
+
+            var savedSeconds = getSavedProgressSeconds(last.url);
+            if (savedSeconds == null && (!last.u || Date.now() - last.u > 1000 * 60 * 60 * 24 * 14)) return;
+
+            applyMetaFully(
+                {
+                    episodeTitle: last.episodeTitle,
+                    podcastTitle: last.podcastTitle,
+                    coverUrl: last.coverUrl,
+                },
+                last.url
+            );
+            rememberEpisodeMeta(
+                last.episodeTitle,
+                last.podcastTitle,
+                last.coverUrl,
+                last.url,
+                '',
+                ''
+            );
+            resumeAppliedForSrc = '';
+            setEpisodeSource(last.url);
+            try {
+                player.preload = 'metadata';
+            } catch (e) {}
+            syncGlobalBarFromMeta();
         })();
 
         return deck;
@@ -2192,6 +2510,8 @@
         root.addEventListener('click', function (event) {
             var button = event.target.closest('[data-audio-url]');
             if (!button) return;
+            event.preventDefault();
+            event.stopPropagation();
             activateEpisode(button, { userGesture: true, play: true }, deck);
         });
 
@@ -2258,6 +2578,27 @@
         globalScrubProgress = globalRoot.querySelector('[data-global-player-scrub-progress]');
         globalCurrentEl = globalRoot.querySelector('[data-global-player-current]');
         globalDurationEl = globalRoot.querySelector('[data-global-player-duration]');
+
+        var fullscreenRoots = document.querySelectorAll('#brp-player-fullscreen');
+        for (var j = 1; j < fullscreenRoots.length; j++) {
+            fullscreenRoots[j].remove();
+        }
+
+        fullscreenRoot = document.getElementById('brp-player-fullscreen');
+        if (fullscreenRoot) {
+            fullscreenArt = fullscreenRoot.querySelector('[data-fullscreen-art]');
+            fullscreenArtWrap = fullscreenRoot.querySelector('[data-fullscreen-art-wrap]');
+            fullscreenTitle = fullscreenRoot.querySelector('[data-fullscreen-title]');
+            fullscreenShow = fullscreenRoot.querySelector('[data-fullscreen-show]');
+            fullscreenEpisodeLink = fullscreenRoot.querySelector('[data-fullscreen-episode-link]');
+            fullscreenPodcastLink = fullscreenRoot.querySelector('[data-fullscreen-podcast-link]');
+            fullscreenPlay = fullscreenRoot.querySelector('[data-fullscreen-play]');
+            fullscreenScrub = fullscreenRoot.querySelector('[data-fullscreen-scrub]');
+            fullscreenScrubProgress = fullscreenRoot.querySelector('[data-fullscreen-scrub-progress]');
+            fullscreenCurrentEl = fullscreenRoot.querySelector('[data-fullscreen-current]');
+            fullscreenDurationEl = fullscreenRoot.querySelector('[data-fullscreen-duration]');
+        }
+
         return true;
     }
 
@@ -2302,6 +2643,7 @@
     function onBeforeTurboRender() {
         persistPlaybackMeta();
         savePlaybackHandoff();
+        closePlayerFullscreen();
         activeDeck = null;
         deckShellVisible = false;
         if (deckVisibilityObserver) {

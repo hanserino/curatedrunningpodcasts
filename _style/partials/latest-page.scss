@@ -48,6 +48,21 @@
             background: transparent;
             box-shadow: none;
         }
+
+        .filter__bar {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .filter__body {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .filter__opml-panel {
+            margin-left: 0;
+            margin-right: 0;
+        }
     }
 
     &__player {
@@ -76,8 +91,11 @@
     .latest-episodes {
         width: 100%;
         margin: 0;
-        padding: 1rem 1rem 1.2rem;
-        box-shadow: $shadow-brutal;
+        padding: 0 0 1rem;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
 
         &__title {
             display: flex;
@@ -130,6 +148,38 @@
 
         &[aria-current="page"] {
             border-bottom-color: $color-speed;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .latest-page .latest-episodes {
+        padding-bottom: 0.75rem;
+    }
+
+    .latest-episodes--sticky-only .latest-episodes__list--feed {
+        gap: 0.3rem;
+
+        .latest-episodes__feed-day {
+            padding-top: 1rem;
+            padding-bottom: 0.85rem;
+        }
+
+        .latest-episodes__item {
+            padding-top: 0.45rem;
+            padding-bottom: 0.35rem;
+        }
+
+        .latest-episodes__episode-card {
+            grid-template-columns: 4.75rem minmax(0, 1fr);
+            gap: 0.3rem 0.5rem;
+            padding: 0.6rem 0.5rem 0.5rem;
+        }
+
+        .latest-episodes__episode-art {
+            width: 4.75rem;
+            height: 4.75rem;
+            min-width: 4.75rem;
         }
     }
 }

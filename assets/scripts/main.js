@@ -762,6 +762,80 @@ function setFilterItemVisible(li, visible) {
     li.style.display = visible ? '' : 'none';
 }
 
+function localDateKey(date) {
+    var y = date.getFullYear();
+    var m = String(date.getMonth() + 1).padStart(2, '0');
+    var d = String(date.getDate()).padStart(2, '0');
+    return y + '-' + m + '-' + d;
+}
+
+function formatFeedDayLabel(isoDateKey) {
+    if (!isoDateKey) {
+        return '';
+    }
+
+    var parts = isoDateKey.split('-');
+    if (parts.length !== 3) {
+        return isoDateKey;
+    }
+
+    var date = new Date(Number(parts[0]), Number(parts[1]) - 1, Number(parts[2]));
+    if (isNaN(date.getTime())) {
+        return isoDateKey;
+    }
+
+    var today = new Date();
+    var yesterday = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 1);
+    var key = localDateKey(date);
+
+    if (key === localDateKey(today)) {
+        return 'Today';
+    }
+    if (key === localDateKey(yesterday)) {
+        return 'Yesterday';
+    }
+
+    return date.toLocaleDateString(undefined, {
+        weekday: 'long',
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+    });
+}
+
+function humanizeLatestEpisodesFeedDayLabels() {
+    document.querySelectorAll('.latest-episodes__feed-day-label').forEach(function (label) {
+        var iso = (label.getAttribute('datetime') || '').trim();
+        var friendly = formatFeedDayLabel(iso);
+        if (friendly) {
+            label.textContent = friendly;
+        }
+    });
+}
+
+/** Hide date group headers when every episode in that day is filtered out. */
+function syncLatestEpisodesFeedDayHeaders() {
+    humanizeLatestEpisodesFeedDayLabels();
+
+    document.querySelectorAll('.latest-episodes__feed-day').forEach(function (dayLi) {
+        var hasVisibleEpisode = false;
+        var el = dayLi.nextElementSibling;
+
+        while (el) {
+            if (el.classList.contains('latest-episodes__feed-day')) {
+                break;
+            }
+            if (el.classList.contains('latest-episodes__item') && isItemVisible(el)) {
+                hasVisibleEpisode = true;
+                break;
+            }
+            el = el.nextElementSibling;
+        }
+
+        dayLi.style.display = hasVisibleEpisode ? '' : 'none';
+    });
+}
+
 function itemMatchesOpmlFavorites(li, favoriteIds) {
     var url = li ? (li.getAttribute('data-podcast-url') || '').trim() : '';
     return !!url && favoriteIds.indexOf(url) !== -1;
@@ -951,6 +1025,8 @@ function applyDirectoryFilter() {
         emptyLatest.hidden = visibleCount >= 1;
     }
 
+    syncLatestEpisodesFeedDayHeaders();
+
     if (getPodcastLoop()) {
         if (visibleCount >= 1) {
             document.body.classList.remove('no-podcasts');
@@ -986,6 +1062,8 @@ function resetAllFilters() {
     if (emptyLatest) {
         emptyLatest.hidden = true;
     }
+
+    syncLatestEpisodesFeedDayHeaders();
 
     updateFilterResultsCount();
     updateOpmlFavoritesUi();
@@ -1111,6 +1189,7 @@ function wireDomReady() {
     document.addEventListener('turbo:load', function () {
         wireContextualReturnLinks();
         wireOpmlPanel();
+        humanizeLatestEpisodesFeedDayLabels();
         if (document.querySelector('[data-opml-favorite]')) {
             syncOpmlFavoritesFromStorage();
         }
