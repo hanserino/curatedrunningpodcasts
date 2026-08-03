@@ -1,0 +1,252 @@
+@mixin promo-cta-link {
+    display: inline;
+    width: auto;
+    max-width: 100%;
+    font-family: $font-mono;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    line-height: 1.35;
+    text-decoration: underline;
+    text-decoration-color: rgba($color-warm, 0.85);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    color: $color-ink;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+
+    span {
+        text-decoration: none;
+    }
+
+    &:hover,
+    &:focus-visible {
+        background: $color-lane;
+        text-decoration-color: $color-ink;
+    }
+}
+
+.podcast-loop__item--promo {
+    background: rgba($color-lane, 0.55);
+
+    .podcast-loop__item__promo-label {
+        margin: 0 0 0.35rem;
+        font-family: $font-mono;
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $color-muted;
+    }
+
+    .podcast-loop__item__promo-action {
+        margin: 0.55rem 0 0;
+    }
+
+    .podcast-loop__promo-cta {
+        @include promo-cta-link;
+    }
+}
+
+.home-page[data-box-grid="true"] .podcast-loop__item--promo {
+    .podcast-loop__item__list-content > header {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.35rem;
+        padding-bottom: 0.45rem;
+    }
+
+    .podcast-loop__item__promo-label {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .podcast-loop__item__teaser-link {
+        display: block;
+        width: 100%;
+        min-width: 0;
+    }
+
+    .podcast-loop__item__title {
+        margin: 0;
+    }
+
+    .podcast-loop__item__description {
+        display: block;
+        margin: 0;
+    }
+
+    .podcast-loop__item__promo-action {
+        order: 3;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0.65rem $grid-card-padding-x $grid-card-padding-y;
+        border-top: $border-width solid rgba($color-ink, 0.12);
+        box-sizing: border-box;
+    }
+
+    .podcast-loop__promo-cta {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.55rem 0.85rem;
+        border: $border-heavy;
+        border-radius: $radius-sm;
+        background: $color-speed;
+        box-shadow: $shadow-brutal-sm;
+        font-family: $font-body;
+        font-size: 0.88rem;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+        text-decoration: none;
+        color: $color-ink;
+
+        span {
+            text-decoration: none;
+        }
+
+        &:hover,
+        &:focus-visible {
+            background: $color-warm;
+            color: $color-surface;
+            text-decoration: none;
+            transform: translate(-1px, -1px);
+            box-shadow: $shadow-brutal;
+        }
+    }
+}
+
+.home-page[data-box-grid="false"] .podcast-loop__item--promo {
+    header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 0.45rem;
+        align-items: start;
+
+        .podcast-loop__item__promo-label {
+            grid-column: 2;
+            grid-row: 1;
+            margin: 0;
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .podcast-loop__item__teaser-link {
+            grid-column: 1;
+            grid-row: 1;
+            min-width: 0;
+        }
+
+        .podcast-loop__item__description {
+            grid-column: 1 / -1;
+            display: block;
+            margin-top: 0.35rem;
+        }
+    }
+
+    .podcast-loop__item__promo-action {
+        margin: 0.35rem 0 0;
+        padding-right: 0.15rem;
+    }
+
+    @include allBelow(medium) {
+        .podcast-loop__item__list-shell {
+            align-items: stretch;
+        }
+
+        .podcast-loop__item__list-cover {
+            flex: 0 0 5.5rem;
+            width: 5.5rem;
+        }
+
+        .podcast-loop__item__list-content {
+            padding: 0.75rem 0.85rem 0.75rem 0;
+        }
+    }
+}
+
+.latest-episodes__item--promo {
+    &:hover .latest-episodes__episode-card--promo {
+        background: rgba($color-lane, 0.55);
+        border-color: rgba($color-ink, 0.12);
+    }
+
+    .latest-episodes__episode-card--promo {
+        cursor: default;
+    }
+
+    .latest-episodes__promo-art-link {
+        pointer-events: auto;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover,
+        &:focus-visible {
+            background: transparent;
+        }
+
+        &:focus-visible {
+            outline: 3px solid $color-ink;
+            outline-offset: 2px;
+        }
+    }
+
+    .latest-episodes__promo-title-link {
+        pointer-events: auto;
+        text-decoration: none;
+        color: inherit;
+
+        &:hover,
+        &:focus-visible {
+            color: inherit;
+            background: transparent;
+            text-decoration: underline;
+            text-decoration-color: rgba($color-ink, 0.45);
+            text-underline-offset: 3px;
+        }
+
+        &:focus-visible {
+            outline: 3px solid $color-ink;
+            outline-offset: 2px;
+        }
+    }
+
+    .latest-episodes__episode-titles--promo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.15rem;
+        padding-top: 0.05rem;
+        pointer-events: auto;
+    }
+
+    .latest-episodes__promo-label {
+        margin: 0;
+        font-family: $font-mono;
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: $color-muted;
+    }
+
+    .latest-episodes__podcast-label--feed {
+        pointer-events: none;
+    }
+
+    .latest-episodes__promo-cta {
+        margin-top: 0.25rem;
+        @include promo-cta-link;
+
+        &:hover,
+        &:focus-visible {
+            background: transparent;
+            color: $color-ink;
+            text-decoration-color: rgba($color-ink, 0.45);
+        }
+    }
+}

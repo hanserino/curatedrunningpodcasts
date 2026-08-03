@@ -14,7 +14,10 @@
       <p>No episodes match these filters. Try clearing filters or choose fewer categories.</p>
     </li>
     {%- assign _prev_feed_day = "" -%}
+    {%- assign _promo_feed_index = 0 -%}
     {%- for episode in items limit: max_items -%}
+    {%- assign _promo_feed_index = _promo_feed_index | plus: 1 -%}
+    {%- include promo-slot.html variant="feed" slot="latest_episodes" index=_promo_feed_index -%}
     {%- assign _feed_day_key = episode.published_at | date: "%Y-%m-%d" -%}
     {%- assign _feed_day_label = episode.published_at | date: "%A, %b %-d, %Y" -%}
     {%- if _feed_day_key != "" and _feed_day_key != _prev_feed_day -%}

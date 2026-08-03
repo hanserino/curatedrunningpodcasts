@@ -707,6 +707,10 @@ function pluralFilterNoun(noun, count) {
     return noun + 's';
 }
 
+function isPromoFilterItem(li) {
+    return li && li.getAttribute('data-filter-exempt') === 'true';
+}
+
 function isFeaturedPodcastItem(li) {
     return li && li.getAttribute('data-featured') === 'true';
 }
@@ -741,6 +745,10 @@ function reorderVisiblePodcastsWithFeaturedFirst() {
     var hidden = [];
 
     filterListItems().forEach(function (li) {
+        if (isPromoFilterItem(li)) {
+            return;
+        }
+
         if (!isItemVisible(li)) {
             hidden.push(li);
             return;
@@ -880,10 +888,15 @@ function updateFilterResultsCount() {
     var config = getFilterConfig();
     var allItems = filterListItems();
     if (!filterTotalItems) {
-        filterTotalItems = allItems.length;
+        filterTotalItems = allItems.filter(function (li) {
+            return !isPromoFilterItem(li);
+        }).length;
     }
 
     var visible = allItems.reduce(function (n, li) {
+        if (isPromoFilterItem(li)) {
+            return n;
+        }
         return n + (isItemVisible(li) ? 1 : 0);
     }, 0);
 
@@ -996,6 +1009,11 @@ function applyDirectoryFilter() {
         });
 
         allItems.forEach(function (li) {
+            if (isPromoFilterItem(li)) {
+                setFilterItemVisible(li, true);
+                return;
+            }
+
             var matchesSelector = !selector;
             if (selector) {
                 try {
@@ -1019,16 +1037,21 @@ function applyDirectoryFilter() {
         });
     }
 
-    var visibleCount = filterListItems().filter(isItemVisible).length;
+    var visibleCount = filterListItems().filter(function (li) {
+        return isItemVisible(li) && !isPromoFilterItem(li);
+    }).length;
+    var hasVisiblePromo = filterListItems().some(function (li) {
+        return isPromoFilterItem(li) && isItemVisible(li);
+    });
     var emptyLatest = document.querySelector('.latest-episodes__empty');
     if (emptyLatest) {
-        emptyLatest.hidden = visibleCount >= 1;
+        emptyLatest.hidden = visibleCount >= 1 || hasVisiblePromo;
     }
 
     syncLatestEpisodesFeedDayHeaders();
 
     if (getPodcastLoop()) {
-        if (visibleCount >= 1) {
+        if (visibleCount >= 1 || hasVisiblePromo) {
             document.body.classList.remove('no-podcasts');
         } else {
             document.body.classList.add('no-podcasts');

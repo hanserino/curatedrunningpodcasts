@@ -1,0 +1,92 @@
+{%- assign promo = site.data.promotions[include.slot] -%}
+{%- assign variant = include.variant | default: 'grid' -%}
+{%- assign insert_at = include.index | default: 0 | plus: 0 -%}
+{%- assign promo_position = promo.position | default: 0 | plus: 0 -%}
+{%- assign should_render = false -%}
+{%- if promo.active -%}
+  {%- if variant == 'grid' -%}
+    {%- if include.force == 'true' -%}
+      {%- assign should_render = true -%}
+    {%- elsif promo_position > 0 and insert_at == promo_position -%}
+      {%- assign should_render = true -%}
+    {%- endif -%}
+  {%- elsif variant == 'feed' and insert_at == promo_position -%}
+    {%- assign should_render = true -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if should_render -%}
+  {%- if variant == 'grid' -%}
+<li class="podcast-loop__item podcast-loop__item--promo" data-promo-slot="{{ include.slot | escape }}" data-filter-exempt="true">
+  <article aria-labelledby="promo-title-{{ include.slot | slugify }}">
+    <div class="podcast-loop__item__list-shell">
+      <a
+        class="podcast-loop__item__list-cover"
+        href="{{ promo.url | escape }}"
+        rel="sponsored noopener noreferrer"
+        target="_blank"
+        aria-label="{{ promo.title | escape }} — {{ promo.cta | default: 'Visit site' | escape }} (opens in a new tab)"
+      >
+        <div class="podcast-loop__item__media">
+          {%- include local-media-picture.html raw=promo.image alt=promo.title wrap_in_podcast_cover=true -%}
+        </div>
+      </a>
+      <div class="podcast-loop__item__list-content">
+        <header>
+          <p class="podcast-loop__item__promo-label">{{ promo.label | default: 'Sponsored' }}</p>
+          <a
+            class="podcast-loop__item__teaser-link"
+            href="{{ promo.url | escape }}"
+            rel="sponsored noopener noreferrer"
+            target="_blank"
+            aria-labelledby="promo-title-{{ include.slot | slugify }}"
+          >
+            <h2 class="podcast-loop__item__title" id="promo-title-{{ include.slot | slugify }}">{{ promo.title }}</h2>
+          </a>
+          {%- if promo.description and promo.description != '' -%}
+          <p class="podcast-loop__item__description">{{ promo.description }}</p>
+          {%- endif -%}
+        </header>
+        <p class="podcast-loop__item__promo-action">
+          <a
+            class="podcast-loop__promo-cta"
+            href="{{ promo.url | escape }}"
+            rel="sponsored noopener noreferrer"
+            target="_blank"
+          >{{ promo.cta | default: 'Learn more' }} <span aria-hidden="true">→</span></a>
+        </p>
+      </div>
+    </div>
+  </article>
+</li>
+  {%- elsif variant == 'feed' -%}
+<li class="latest-episodes__item latest-episodes__item--promo" data-promo-slot="{{ include.slot | escape }}" data-filter-exempt="true">
+  <article class="latest-episodes__episode-card latest-episodes__episode-card--promo">
+    <a
+      class="latest-episodes__episode-art latest-episodes__promo-art-link"
+      href="{{ promo.url | escape }}"
+      rel="sponsored noopener noreferrer"
+      target="_blank"
+      aria-label="{{ promo.title | escape }} — {{ promo.cta | default: 'Visit site' | escape }} (opens in a new tab)"
+    >
+      {%- include local-media-picture.html raw=promo.image alt="" width=96 height=96 img_class="latest-episodes__cover" -%}
+    </a>
+    <div class="latest-episodes__episode-titles latest-episodes__episode-titles--promo">
+      <span class="latest-episodes__promo-label">{{ promo.label | default: 'Sponsored' }}</span>
+      <a
+        class="latest-episodes__episode-title latest-episodes__episode-title--feed latest-episodes__promo-title-link"
+        href="{{ promo.url | escape }}"
+        rel="sponsored noopener noreferrer"
+        target="_blank"
+      >{{ promo.title }}</a>
+      <span class="latest-episodes__podcast-label latest-episodes__podcast-label--feed">{{ promo.description }}</span>
+      <a
+        class="latest-episodes__promo-cta"
+        href="{{ promo.url | escape }}"
+        rel="sponsored noopener noreferrer"
+        target="_blank"
+      >{{ promo.cta | default: 'Learn more' }} <span aria-hidden="true">→</span></a>
+    </div>
+  </article>
+</li>
+  {%- endif -%}
+{%- endif -%}

@@ -18,15 +18,24 @@
 {%- else -%}
 {%- if _c contains '/media/' -%}
 {%- assign _src = _c | relative_url -%}
+{%- assign _use_webp = true -%}
 {%- elsif _c contains '/' -%}
 {%- assign _src = _c | relative_url -%}
+{%- assign _use_webp = false -%}
 {%- else -%}
 {%- assign _src = '/media/' | append: _c | relative_url -%}
+{%- assign _use_webp = true -%}
 {%- endif -%}
+{%- if _use_webp -%}
 {%- assign _webp = _src | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' | replace: '.JPEG', '.webp' | replace: '.JPG', '.webp' | replace: '.PNG', '.webp' -%}
 {%- capture _inner -%}
 <picture><source type="image/webp" srcset="{{ _webp }}" /><img src="{{ _src }}" alt="{{ include.alt | xml_escape }}" {% if _class_attr != '' %}class="{{ _class_attr }}" {% endif %}{% if _extra != '' %}{{ _extra }} {% endif %}decoding="async"{{ _dims }} {% if include.high_priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} /></picture>
 {%- endcapture -%}
+{%- else -%}
+{%- capture _inner -%}
+<img src="{{ _src }}" alt="{{ include.alt | xml_escape }}" {% if _class_attr != '' %}class="{{ _class_attr }}" {% endif %}{% if _extra != '' %}{{ _extra }} {% endif %}decoding="async"{{ _dims }} {% if include.high_priority %}fetchpriority="high"{% else %}loading="lazy"{% endif %} />
+{%- endcapture -%}
+{%- endif -%}
 {%- if include.wrap_in_podcast_cover -%}
 <p class="podcast-cover">{{ _inner }}</p>
 {%- else -%}

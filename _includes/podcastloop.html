@@ -8,6 +8,7 @@
     </li>
 
     {% for podcast in podcasts %}
+    {%- include promo-slot.html variant="grid" slot="home_grid" index=forloop.index -%}
     <li class="podcast-loop__item{% if podcast.featured == true or podcast.featured == 'true' %} podcast-loop__item--featured{% endif %}"{% if podcast.featured == true or podcast.featured == 'true' %} data-featured="true"{% endif %} data-category="{% for tag in podcast.tags %}{{ tag }} {% endfor %}{% for language in podcast.language %}{{ language }} {% endfor %}" data-podcast-title="{{ podcast.title | escape }}" data-podcast-url="{{ podcast.url | relative_url | escape }}"{% if podcast.rss_feed %} data-rss-feed="{{ podcast.rss_feed | escape }}"{% endif %}>
         <article aria-labelledby="podcast-title-{{ forloop.index }}">
             <div class="podcast-loop__item__list-shell">
@@ -70,5 +71,10 @@
         </article>
     </li>
     {% endfor %}
+    {%- assign _home_promo = site.data.promotions.home_grid -%}
+    {%- assign _home_promo_pos = _home_promo.position | default: 0 | plus: 0 -%}
+    {%- if _home_promo.active and _home_promo_pos > podcasts.size -%}
+    {%- include promo-slot.html variant="grid" slot="home_grid" force="true" -%}
+    {%- endif -%}
     </ul>
 </section>
