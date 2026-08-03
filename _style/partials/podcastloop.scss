@@ -110,14 +110,14 @@
 
         &__links {
             list-style: none;
-            display: block;
+            display: block; 
 
             [data-box-grid="false"] & {
                 li {
                     display: inline-block;
                     margin: 0 .25rem 0 0;
                 }
-            }
+            } 
 
             a {
                 display: inline-block;

@@ -884,20 +884,10 @@
 
     function renderGlobalBarFromMeta() {
         if (globalTitle) {
-            setGlobalMetaLine(
-                globalTitle,
-                currentMeta.episodeTitle,
-                currentMeta.episodePageUrl,
-                'brp-global-player__title-link'
-            );
+            setGlobalMetaLine(globalTitle, currentMeta.episodeTitle, null, null);
         }
         if (globalShow) {
-            setGlobalMetaLine(
-                globalShow,
-                currentMeta.podcastTitle,
-                currentMeta.podcastPageUrl,
-                'brp-global-player__show-link'
-            );
+            setGlobalMetaLine(globalShow, currentMeta.podcastTitle, null, null);
         }
         updateGlobalArt(currentMeta.coverUrl);
         syncFullscreenMeta();
@@ -1414,15 +1404,9 @@
             });
         }
 
-        if (globalArtWrap) {
-            globalArtWrap.addEventListener('click', function (e) {
-                e.preventDefault();
-                e.stopPropagation();
-                openPlayerFullscreen();
-            });
-
-            globalArtWrap.addEventListener('keydown', function (e) {
-                if (e.key !== 'Enter' && e.key !== ' ') return;
+        var globalNowPlaying = globalRoot.querySelector('[data-global-player-fullscreen-trigger]');
+        if (globalNowPlaying) {
+            globalNowPlaying.addEventListener('click', function (e) {
                 e.preventDefault();
                 openPlayerFullscreen();
             });

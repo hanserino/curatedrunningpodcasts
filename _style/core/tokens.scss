@@ -79,12 +79,3 @@ $grid-card-meta-bottom: 0.9rem;
     text-transform: uppercase;
     color: $color-muted;
 }
-
-@mixin hero-photo-scrim {
-    background: linear-gradient(
-        105deg,
-        rgba($color-ink, 0.42) 0%,
-        rgba($color-ink, 0.12) 38%,
-        transparent 62%
-    );
-}

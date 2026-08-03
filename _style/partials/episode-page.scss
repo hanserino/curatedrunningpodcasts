@@ -259,6 +259,18 @@
         justify-content: center;
         line-height: 0;
 
+        @include allBelow(medium) {
+            width: 100%;
+            justify-content: stretch;
+
+            .podcast-cover,
+            picture {
+                display: block;
+                width: 100%;
+                margin: 0;
+            }
+        }
+
         @include allAbove(medium) {
             justify-content: flex-start;
         }
@@ -271,6 +283,10 @@
             display: block;
             border: $border-heavy;
             box-shadow: $shadow-brutal-sm;
+
+            @include allBelow(medium) {
+                max-width: none;
+            }
 
             @include allAbove(medium) {
                 max-width: 160px;

@@ -24,14 +24,8 @@
         filter: saturate(1) contrast(1.04);
         
         @include allAbove(medium) {
-            background-position: 72% 20%;
+            background-position: 72% 72%;
         }
-    }
-
-    &__hero-scrim {
-        position: absolute;
-        inset: 0;
-        @include hero-photo-scrim;
     }
 
     &__hero-content {
@@ -502,10 +496,6 @@
     .home-page__hero-bg {
         opacity: 0.85;
         filter: none;
-    }
-
-    .home-page__hero-scrim {
-        background: rgba($color-ink, 0.55);
     }
 
     .home-page__hero-bar .main-nav__link {
