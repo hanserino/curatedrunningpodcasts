@@ -53,6 +53,15 @@
         background: $color-lane;
         flex-shrink: 0;
         align-self: center;
+        cursor: pointer;
+        touch-action: manipulation;
+
+        &:hover,
+        &:focus-visible {
+            box-shadow: $shadow-brutal-sm;
+            outline: 3px solid rgba($color-speed, 0.45);
+            outline-offset: 0;
+        }
 
         &--empty {
             background: repeating-linear-gradient(
@@ -428,14 +437,31 @@ body.brp-global-player-visible {
     position: fixed;
     inset: 0;
     z-index: 1300;
-    background: $color-paper;
+    background-color: $color-paper;
+    transform: translate3d(0, 0, 0);
     @include track-stripes(0.03);
 
     &[hidden] {
         display: none !important;
     }
 
+    &--opening {
+        animation: brp-player-fullscreen-enter 0.24s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+
+    &--closing {
+        animation: brp-player-fullscreen-exit 0.18s cubic-bezier(0.4, 0, 0.85, 1) both;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        &--opening,
+        &--closing {
+            animation: none;
+        }
+    }
+
     &__panel {
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -677,10 +703,9 @@ body.brp-global-player-visible {
     }
 
     &__controls {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        gap: 1rem;
+        display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     &__transport {
@@ -770,6 +795,10 @@ body.brp-global-player-visible {
     }
 
     &__close {
+        position: absolute;
+        top: calc(0.85rem + env(safe-area-inset-top, 0));
+        right: calc(0.85rem + env(safe-area-inset-right, 0));
+        z-index: 5;
         width: 2.65rem;
         height: 2.65rem;
         padding: 0;
@@ -795,7 +824,34 @@ body.brp-global-player-visible {
         display: block;
         width: 1.05rem;
         height: 1.05rem;
-        fill: currentColor;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: square;
+    }
+}
+
+@keyframes brp-player-fullscreen-enter {
+    from {
+        transform: translate3d(0, 2.75rem, 0);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes brp-player-fullscreen-exit {
+    from {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translate3d(0, 1.25rem, 0);
+        opacity: 0;
     }
 }
 
@@ -830,18 +886,18 @@ body.brp-player-fullscreen-open {
     }
 
     .brp-player-fullscreen__controls {
-        grid-template-columns: 1fr;
-        justify-items: center;
-    }
-
-    .brp-player-fullscreen__close {
-        justify-self: end;
+        justify-content: center;
     }
 }
 
 @include allAbove(medium) {
     .brp-player-fullscreen__panel {
         padding: 1.25rem 2rem calc(1.75rem + env(safe-area-inset-bottom, 0));
+    }
+
+    .brp-player-fullscreen__close {
+        top: calc(1.1rem + env(safe-area-inset-top, 0));
+        right: calc(1.25rem + env(safe-area-inset-right, 0));
     }
 
     .brp-player-fullscreen__hint {

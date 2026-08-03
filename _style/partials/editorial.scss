@@ -135,7 +135,7 @@
 $ep-play-size: 2.75rem;
 $ep-row-art: 64px;
 $ep-feed-art: 96px;
-$ep-play-compact: 2.25rem;
+$ep-play-compact: 2.65rem;
 $ep-play-art: $ep-row-art;
 
 .latest-episodes {
@@ -173,10 +173,10 @@ $ep-play-art: $ep-row-art;
         }
 
         .latest-episodes__list--feed {
-            gap: 0.35rem;
+            gap: 0.2rem;
 
             .latest-episodes__item {
-                padding: 0.5rem 0 0.35rem;
+                padding: 0.35rem 0 0.2rem;
                 border-bottom: none;
 
                 &:hover .latest-episodes__episode-card {
@@ -184,13 +184,14 @@ $ep-play-art: $ep-row-art;
                 }
 
                 &:last-child {
-                    padding-bottom: 0.35rem;
+                    padding-bottom: 0.2rem;
                 }
             }
 
             .latest-episodes__episode-card {
                 padding: 0.65rem 0.5rem 0.55rem;
-                border: none;
+                border: 1px solid rgba($color-ink, 0.14);
+                border-radius: $radius-sm;
                 background: $color-surface;
                 box-shadow: none;
                 transition: background 0.12s ease;
@@ -202,7 +203,8 @@ $ep-play-art: $ep-row-art;
                 .latest-episodes__item--current &,
                 .latest-episodes__item--playing & {
                     background: $color-surface;
-                    box-shadow: inset 0 0 0 2px rgba($color-speed, 0.55);
+                    border-color: rgba($color-speed, 0.55);
+                    box-shadow: inset 0 0 0 1px rgba($color-speed, 0.35);
                 }
             }
 
@@ -655,6 +657,9 @@ $ep-play-art: $ep-row-art;
         background: $color-lane;
         border: 1px solid rgba($color-ink, 0.12);
         overflow: hidden;
+        position: relative;
+        top: -2px;
+        z-index: 3;
     }
 
     &__listen-fill {
@@ -923,6 +928,9 @@ $ep-play-art: $ep-row-art;
         gap: 0.55rem;
 
         .latest-episodes__feed-day {
+            position: sticky;
+            top: 0;
+            z-index: 4;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -930,8 +938,10 @@ $ep-play-art: $ep-row-art;
             margin: 0.5rem 0 0.35rem;
             padding: 1.1rem 0.75rem 0.95rem;
             text-align: center;
-            background: transparent;
+            background: rgba($color-paper, 0.96);
             border-bottom: $border-width solid rgba($color-ink, 0.2);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
 
             &:first-child {
                 margin-top: 0;
@@ -1038,7 +1048,8 @@ $ep-play-art: $ep-row-art;
         border-radius: $radius-sm;
         box-shadow: $shadow-brutal-sm;
         overflow: hidden;
-        background: $color-lane;
+        background: black;
+
 
         picture,
         img.latest-episodes__cover {
@@ -1062,11 +1073,19 @@ $ep-play-art: $ep-row-art;
         z-index: 2;
         pointer-events: none;
         min-width: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 0.15rem;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-rows: auto auto;
+        column-gap: 0.5rem;
+        row-gap: 0.15rem;
+        align-items: center;
         align-self: start;
         padding-top: 0.05rem;
+
+        .latest-episodes__episode-title--feed {
+            grid-column: 1;
+            grid-row: 1;
+        }
 
         .latest-episodes__podcast-link--feed,
         .latest-episodes__podcast-label--feed {
@@ -1077,6 +1096,8 @@ $ep-play-art: $ep-row-art;
             width: fit-content;
             max-width: 100%;
             margin: 0;
+            grid-column: 1;
+            grid-row: 2;
             font-size: 0.84rem;
             line-height: 1.3;
             color: $color-muted;
@@ -1084,6 +1105,13 @@ $ep-play-art: $ep-row-art;
 
         .latest-episodes__podcast-label--feed {
             pointer-events: none;
+        }
+
+        .latest-episodes__play--feed {
+            grid-column: 2;
+            grid-row: 1 / -1;
+            align-self: center;
+            justify-self: end;
         }
     }
 
@@ -1103,10 +1131,11 @@ $ep-play-art: $ep-row-art;
         width: $ep-play-compact;
         height: $ep-play-compact;
         min-width: $ep-play-compact;
-        margin: 0.1rem 0 0;
+        margin: 0;
         padding: 0;
         border-radius: 50%;
         justify-content: center;
+        flex-shrink: 0;
 
         .latest-episodes__play-glyph {
             flex-shrink: 0;

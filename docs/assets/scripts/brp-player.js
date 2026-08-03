@@ -793,13 +793,50 @@
         updateGlobalTransportTimes();
     }
 
+    function prefersReducedMotion() {
+        return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+    }
+
+    function finishClosePlayerFullscreen() {
+        if (!fullscreenRoot) return;
+        fullscreenRoot.hidden = true;
+        fullscreenRoot.setAttribute('aria-hidden', 'true');
+        fullscreenRoot.classList.remove('brp-player-fullscreen--opening', 'brp-player-fullscreen--closing');
+        document.body.classList.remove('brp-player-fullscreen-open');
+        fullscreenOpen = false;
+        fullscreenScrubbing = false;
+        if (fullscreenEscHandler) {
+            document.removeEventListener('keydown', fullscreenEscHandler);
+        }
+        if (globalPlay) {
+            globalPlay.focus();
+        }
+    }
+
     function openPlayerFullscreen() {
         if (!fullscreenRoot || !playerActiveUrl()) return;
-        syncFullscreenUi();
+        fullscreenRoot.classList.remove('brp-player-fullscreen--closing');
         fullscreenRoot.hidden = false;
         fullscreenRoot.setAttribute('aria-hidden', 'false');
         document.body.classList.add('brp-player-fullscreen-open');
         fullscreenOpen = true;
+        syncFullscreenUi();
+        if (!prefersReducedMotion()) {
+            fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    fullscreenRoot.classList.add('brp-player-fullscreen--opening');
+                });
+            });
+            fullscreenRoot.addEventListener(
+                'animationend',
+                function onEnterEnd(event) {
+                    if (event.animationName !== 'brp-player-fullscreen-enter') return;
+                    fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
+                    fullscreenRoot.removeEventListener('animationend', onEnterEnd);
+                }
+            );
+        }
         if (!fullscreenEscHandler) {
             fullscreenEscHandler = function (event) {
                 if (event.key === 'Escape') {
@@ -813,19 +850,22 @@
         }
     }
 
-    function closePlayerFullscreen() {
+    function closePlayerFullscreen(instant) {
         if (!fullscreenRoot || !fullscreenOpen) return;
-        fullscreenRoot.hidden = true;
-        fullscreenRoot.setAttribute('aria-hidden', 'true');
-        document.body.classList.remove('brp-player-fullscreen-open');
-        fullscreenOpen = false;
-        fullscreenScrubbing = false;
-        if (fullscreenEscHandler) {
-            document.removeEventListener('keydown', fullscreenEscHandler);
+        if (instant || prefersReducedMotion()) {
+            finishClosePlayerFullscreen();
+            return;
         }
-        if (globalPlay) {
-            globalPlay.focus();
-        }
+        fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
+        fullscreenRoot.classList.add('brp-player-fullscreen--closing');
+        fullscreenRoot.addEventListener(
+            'animationend',
+            function onExitEnd(event) {
+                if (event.animationName !== 'brp-player-fullscreen-exit') return;
+                fullscreenRoot.removeEventListener('animationend', onExitEnd);
+                finishClosePlayerFullscreen();
+            }
+        );
     }
 
     function handleGlobalScrubInput(scrubInput) {
@@ -1371,6 +1411,20 @@
                 e.preventDefault();
                 e.stopPropagation();
                 seekGlobalBySeconds(SKIP_FORWARD_SEC);
+            });
+        }
+
+        if (globalArtWrap) {
+            globalArtWrap.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                openPlayerFullscreen();
+            });
+
+            globalArtWrap.addEventListener('keydown', function (e) {
+                if (e.key !== 'Enter' && e.key !== ' ') return;
+                e.preventDefault();
+                openPlayerFullscreen();
             });
         }
 
@@ -2643,7 +2697,7 @@
     function onBeforeTurboRender() {
         persistPlaybackMeta();
         savePlaybackHandoff();
-        closePlayerFullscreen();
+        closePlayerFullscreen(true);
         activeDeck = null;
         deckShellVisible = false;
         if (deckVisibilityObserver) {
