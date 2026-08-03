@@ -923,6 +923,7 @@ module LatestPodcastEpisodes
   def backfill_episodes_from_feed!(episodes, xml)
     parsed = RSS::Parser.parse(xml, false)
     lookup = {}
+    updated = false
 
     Array(parsed&.items).each do |item|
       audio = item.respond_to?(:enclosure) ? item.enclosure&.url.to_s.strip : ""
@@ -944,23 +945,30 @@ module LatestPodcastEpisodes
           entry["description_plain"] = description_plain_from_html(html)
           entry["description_sanitized"] = true
           entry.delete("page_build_fingerprint")
+          updated = true
         end
       elsif !skip_data_resanitize?
         entry["description_html"] = sanitize_episode_description_html(entry["description_html"])
         entry["description_plain"] = description_plain_from_html(entry["description_html"])
         entry["description_sanitized"] = true
+        updated = true
       end
 
       next unless entry["episode_image_url"].to_s.strip.empty?
 
       image_url = episode_image_url(item)
-      entry["episode_image_url"] = image_url unless image_url.empty?
+      unless image_url.empty?
+        entry["episode_image_url"] = image_url
+        updated = true
+      end
     end
+
+    updated
   end
 
   def backfill_episodes_from_feeds!(site, podcasts_with_feed, episodes_by_feed)
-    return episodes_by_feed unless episodes_by_feed.is_a?(Hash)
-    return episodes_by_feed unless episodes_need_feed_backfill?(episodes_by_feed)
+    return 0 unless episodes_by_feed.is_a?(Hash)
+    return 0 unless episodes_need_feed_backfill?(episodes_by_feed)
 
     backfilled_feeds = 0
     podcasts_with_feed.each do |doc|
@@ -979,8 +987,7 @@ module LatestPodcastEpisodes
 
       begin
         xml = fetch_feed(feed_url)
-        backfill_episodes_from_feed!(episodes, xml)
-        backfilled_feeds += 1
+        backfilled_feeds += 1 if backfill_episodes_from_feed!(episodes, xml)
       rescue StandardError => e
         Jekyll.logger.debug "LatestPodcastEpisodes:", "Episode metadata backfill failed #{feed_url}: #{e.class}"
       end
@@ -996,7 +1003,7 @@ module LatestPodcastEpisodes
       write_rss_cache(cache_path, payload) if payload.is_a?(Hash)
     end
 
-    episodes_by_feed
+    backfilled_feeds
   end
 
   def podcast_posts_with_feed(site)
@@ -1450,7 +1457,7 @@ module LatestPodcastEpisodes
         xml = fetch_feed(feed_url)
         podcast_slug = doc.data["slug"].to_s.strip
         limit = episodes_per_podcast_limit_for(doc)
-        include_descriptions = !feed_only_build?
+        include_descriptions = true
         episodes = episodes_from_feed(xml, limit, podcast_slug: podcast_slug, include_descriptions: include_descriptions)
         episodes_by_feed[feed_key] = episodes
 
@@ -1564,7 +1571,7 @@ module LatestPodcastEpisodes
     episode_limit = episodes_per_podcast_limit_for(doc)
 
     xml = fetch_feed(feed_url)
-    include_descriptions = !feed_only_build?
+    include_descriptions = true
     episodes = episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug, include_descriptions: include_descriptions)
     result = { "feed_key" => feed_key, "episodes" => episodes }
 
@@ -1702,9 +1709,9 @@ def build_latest_podcast_episodes_data(site)
 
     if merged
       podcasts_with_feed = LatestPodcastEpisodes.podcast_posts_with_feed(site)
-      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"]) &&
-         !LatestPodcastEpisodes.episode_pages_build?
-        LatestPodcastEpisodes.backfill_episodes_from_feeds!(
+      backfilled_feeds = 0
+      if LatestPodcastEpisodes.episodes_need_feed_backfill?(merged["episodes_by_feed"])
+        backfilled_feeds = LatestPodcastEpisodes.backfill_episodes_from_feeds!(
           site,
           podcasts_with_feed,
           merged["episodes_by_feed"]
@@ -1712,10 +1719,10 @@ def build_latest_podcast_episodes_data(site)
       end
       LatestPodcastEpisodes.normalize_episodes_by_feed!(site, merged["episodes_by_feed"])
       if LatestPodcastEpisodes.skip_data_resanitize?
-        if LatestPodcastEpisodes.episode_pages_build?
+        if LatestPodcastEpisodes.episode_pages_build? && backfilled_feeds.positive?
           Jekyll.logger.info(
             "LatestPodcastEpisodes:",
-            "Episode-pages build: backfilled missing show notes from RSS; skipped bulk resanitize."
+            "Episode-pages build: backfilled missing show notes from #{backfilled_feeds} RSS feed(s); skipped bulk resanitize."
           )
         end
       else
@@ -1756,7 +1763,7 @@ def build_latest_podcast_episodes_data(site)
 
   items, episodes_by_feed, errors =
     LatestPodcastEpisodes.fetch_all_podcast_feeds!(podcasts_with_feed)
-  feed_mode = LatestPodcastEpisodes.feed_only_build? ? "feed-only (no descriptions)" : "full"
+  feed_mode = LatestPodcastEpisodes.feed_only_build? ? "feed-only (episode HTML skipped)" : "full"
   Jekyll.logger.info(
     "LatestPodcastEpisodes:",
     "Fetched #{items.size} latest episode(s) from RSS (#{errors.size} feed error(s), #{feed_mode}, concurrency #{LatestPodcastEpisodes.rss_fetch_concurrency})."
@@ -1787,18 +1794,14 @@ def build_latest_podcast_episodes_data(site)
     cache_episodes
   )
   LatestPodcastEpisodes.normalize_episodes_by_feed!(site, episodes_by_feed)
+  backfilled_feeds = 0
   if LatestPodcastEpisodes.feed_only_build?
     LatestPodcastEpisodes.merge_prior_episode_metadata!(episodes_by_feed, prior_episodes)
-    unless LatestPodcastEpisodes.directory_only_build?
-      LatestPodcastEpisodes.backfill_episodes_from_feeds!(site, podcasts_with_feed, episodes_by_feed)
-      Jekyll.logger.info(
-        "LatestPodcastEpisodes:",
-        "Feed-only build: reused prior show notes and backfilled missing descriptions from RSS."
-      )
-    else
-      Jekyll.logger.info(
-        "LatestPodcastEpisodes:",
-        "Feed-only directory build: reused prior metadata; skipped per-feed description backfill."
+    if LatestPodcastEpisodes.episodes_need_feed_backfill?(episodes_by_feed)
+      backfilled_feeds = LatestPodcastEpisodes.backfill_episodes_from_feeds!(
+        site,
+        podcasts_with_feed,
+        episodes_by_feed
       )
     end
   else
@@ -1853,10 +1856,14 @@ def build_latest_podcast_episodes_data(site)
       "generated_at" => Time.now.utc.iso8601,
       "committed_fallback" => true,
       "fetch_errors" => errors,
-      "non_running_items" => LatestPodcastEpisodes.non_running_items_for_site(site, prior_snapshot["episodes_by_feed"])
+      "episodes_by_feed" => episodes_by_feed,
+      "non_running_items" => LatestPodcastEpisodes.non_running_items_for_site(site, episodes_by_feed)
     )
     LatestPodcastEpisodes.ensure_feed_episodes_list!(kept)
     site.data["latest_podcast_episodes"] = kept
+    if backfilled_feeds.positive?
+      LatestPodcastEpisodes.write_committed_data(site, kept)
+    end
   else
     site.data["latest_podcast_episodes"] = payload
   end

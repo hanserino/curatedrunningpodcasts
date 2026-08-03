@@ -363,20 +363,39 @@
     }
 
     &[data-box-grid="true"] {
+        .podcast-loop__item {
+            padding: 0;
+            overflow: hidden;
+        }
+
         .podcast-loop__item__list-content {
             display: contents;
         }
 
         .podcast-loop__item__list-content > header {
             order: 1;
+            padding: $grid-card-padding-y $grid-card-padding-x 0.45rem;
         }
 
         .podcast-loop__item__list-cover {
             order: 2;
+            width: 100%;
         }
 
         .podcast-loop__item__list-meta {
             order: 3;
+        }
+
+        .podcast-loop__item__media {
+            .podcast-cover,
+            picture {
+                display: block;
+                width: 100%;
+            }
+
+            img {
+                border-radius: 0;
+            }
         }
     }
 }

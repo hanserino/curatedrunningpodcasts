@@ -27,9 +27,9 @@ $font-display: "Space Grotesk", system-ui, sans-serif;
 $font-body: "Plus Jakarta Sans", system-ui, sans-serif;
 $font-mono: "JetBrains Mono", ui-monospace, monospace;
 
-$grid-card-padding-x: 1.35rem;
-$grid-card-padding-y: 1.25rem;
-$grid-card-meta-bottom: 1.4rem;
+$grid-card-padding-x: 0.85rem;
+$grid-card-padding-y: 0.75rem;
+$grid-card-meta-bottom: 0.9rem;
 
 @mixin brutal-surface($bg: $color-surface) {
     background: $bg;
