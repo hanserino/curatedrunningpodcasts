@@ -939,27 +939,22 @@ module LatestPodcastEpisodes
       next unless item
 
       if entry["description_html"].to_s.strip.empty?
-        html = episode_description_html(item)
+        html = episode_description_html(item, sanitize: false)
         unless html.empty?
           entry["description_html"] = html
           entry["description_plain"] = description_plain_from_html(html)
-          entry["description_sanitized"] = true
+          entry["description_sanitized"] = false
           entry.delete("page_build_fingerprint")
           updated = true
         end
-      elsif !skip_data_resanitize?
-        entry["description_html"] = sanitize_episode_description_html(entry["description_html"])
-        entry["description_plain"] = description_plain_from_html(entry["description_html"])
-        entry["description_sanitized"] = true
-        updated = true
       end
 
-      next unless entry["episode_image_url"].to_s.strip.empty?
-
-      image_url = episode_image_url(item)
-      unless image_url.empty?
-        entry["episode_image_url"] = image_url
-        updated = true
+      if entry["episode_image_url"].to_s.strip.empty?
+        image_url = episode_image_url(item)
+        unless image_url.empty?
+          entry["episode_image_url"] = image_url
+          updated = true
+        end
       end
     end
 
