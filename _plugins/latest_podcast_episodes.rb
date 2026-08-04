@@ -1294,7 +1294,7 @@ module LatestPodcastEpisodes
     25
   end
 
-  EPISODE_RENDER_VERSION = "1"
+  EPISODE_RENDER_VERSION = "2"
 
   def not_running_related?(doc)
     doc.data["not_running_related"] == true

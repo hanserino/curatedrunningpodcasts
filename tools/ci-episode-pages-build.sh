@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Generate episode HTML from committed _data without RSS fetch or show-note resanitize.
+# Generate episode HTML from committed _data without RSS fetch. Show notes are
+# re-sanitized per episode during page generation (see prepare_episode).
 set -eu
 
 EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}"

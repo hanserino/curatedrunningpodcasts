@@ -186,26 +186,13 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
   def prepare_episode(raw_episode)
     episode = raw_episode.dup
     html = episode["description_html"].to_s.strip
-    if LatestPodcastEpisodes.skip_data_resanitize? && !html.empty?
-      plain = episode["description_plain"].to_s.strip
-      episode["description_plain"] =
-        if plain.empty?
-          LatestPodcastEpisodes.description_plain_from_html(html)
-        else
-          plain
-        end
-      return episode
-    end
+    return episode if html.empty?
 
-    episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(
-      episode["description_html"]
-    )
+    # Episode-pages CI reads committed _data without bulk resanitize; always run the
+    # sanitizer here so HTML/plugin improvements apply to existing show notes.
+    episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(html)
     episode["description_plain"] =
-      if episode["description_html"].to_s.strip.empty?
-        ""
-      else
-        LatestPodcastEpisodes.description_plain_from_html(episode["description_html"])
-      end
+      LatestPodcastEpisodes.description_plain_from_html(episode["description_html"])
     episode
   end
 
