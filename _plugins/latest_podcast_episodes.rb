@@ -440,6 +440,7 @@ module LatestPodcastEpisodes
 
   def list_item_fragment?(plain, html)
     return false if plain.empty?
+    return false if chapter_timestamp_line?(plain)
     return false if plain.match?(/\A.+:\s*\z/) && !plain.match?(/:\s*(?:https?|www\.)/i)
 
     return true if plain.match?(/\A[^|]{1,80}\|\s*\S/i)
@@ -688,6 +689,13 @@ module LatestPodcastEpisodes
 
   CHAPTER_SECTION_HEADER_RX = /<p(?:\s[^>]*)?>(?:<strong>)?Chapters:?<\/strong>?<\/p>/i.freeze
   CHAPTER_LINE_PARAGRAPH_RX = /<p(?:\s[^>]*)?>(\d{1,6}:\d{2}(?::\d{2})?)\s+([\s\S]*?)<\/p>/i.freeze
+  CHAPTER_LINE_ITEM_RX = /<li(?:\s[^>]*)?>(\d{1,6}:\d{2}(?::\d{2})?)\s+([\s\S]*?)<\/li>/i.freeze
+  CHAPTER_TIMESTAMP_PLAIN_RX = /\A\d{1,6}:\d{2}(?::\d{2})?\s+\S/.freeze
+
+  # Anchor/Spotify chapter exports: "355:31:49 Title" (seconds + bogus :MM:SS).
+  def chapter_timestamp_line?(plain)
+    plain.to_s.match?(CHAPTER_TIMESTAMP_PLAIN_RX)
+  end
 
   def format_chapter_clock(total_seconds)
     total = total_seconds.to_f.round
@@ -759,7 +767,8 @@ module LatestPodcastEpisodes
     entries = []
     pos = 0
 
-    while (line_match = after_header.match(CHAPTER_LINE_PARAGRAPH_RX, pos))
+    while (line_match = after_header.match(CHAPTER_LINE_PARAGRAPH_RX, pos) ||
+                        after_header.match(CHAPTER_LINE_ITEM_RX, pos))
       entries << {
         seconds: chapter_seconds_from_token(line_match[1]),
         html: format_chapter_line_item(line_match[1], line_match[2]),
@@ -770,7 +779,7 @@ module LatestPodcastEpisodes
     return cleaned if entries.empty?
 
     entries.sort_by! { |entry| [entry[:seconds], entry[:html]] }
-    remainder = after_header[pos..].to_s
+    remainder = after_header[pos..].to_s.sub(/\A\s*<\/ul>\s*/i, "")
     section = +'<section class="episode-chapters"><h3 class="episode-chapters__heading"><strong>Chapters</strong></h3>'
     section << '<ol class="episode-chapters__list">'
     section << entries.map { |entry| entry[:html] }.join
@@ -1294,7 +1303,7 @@ module LatestPodcastEpisodes
     25
   end
 
-  EPISODE_RENDER_VERSION = "2"
+  EPISODE_RENDER_VERSION = "3"
 
   def not_running_related?(doc)
     doc.data["not_running_related"] == true
