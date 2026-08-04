@@ -186,7 +186,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-08-03T06:12:52Z">2026-08-03 06:12 UTC</time>
+      <time datetime="2026-08-04T05:10:58Z">2026-08-04 05:10 UTC</time>
     </p></footer>
 
 <div
@@ -198,21 +198,24 @@
   aria-label="Now playing"
 >
   <div class="brp-global-player__inner">
-    <div
-      class="brp-global-player__art-wrap brp-global-player__art-wrap--empty"
-      data-global-player-art-wrap
-      data-global-player-fullscreen-art
-      role="button"
-      tabindex="0"
+    <button
+      type="button"
+      class="brp-global-player__now-playing"
+      data-global-player-fullscreen-trigger
       aria-label="Open full player"
     >
-      <img class="brp-global-player__art" data-global-player-art alt="" width="52" height="52" decoding="async">
-    </div>
+      <div
+        class="brp-global-player__art-wrap brp-global-player__art-wrap--empty"
+        data-global-player-art-wrap
+      >
+        <img class="brp-global-player__art" data-global-player-art alt="" width="52" height="52" decoding="async">
+      </div>
 
-    <div class="brp-global-player__meta">
-      <p class="brp-global-player__title" data-global-player-title></p>
-      <p class="brp-global-player__show" data-global-player-show></p>
-    </div>
+      <div class="brp-global-player__meta">
+        <p class="brp-global-player__title" data-global-player-title></p>
+        <p class="brp-global-player__show" data-global-player-show></p>
+      </div>
+    </button>
 
     <div class="brp-global-player__transport">
       <button
