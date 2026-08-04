@@ -1235,6 +1235,12 @@ module LatestPodcastEpisodes
     directory_only_build? && rss_fetch_enabled?
   end
 
+  # Full show-note parsing is reserved for scheduled/episode-page builds; feed-only CI
+  # fetches metadata quickly and backfills missing descriptions per feed when needed.
+  def include_episode_descriptions_in_rss_fetch?
+    !feed_only_build?
+  end
+
   # Second CI pass: generate episode HTML from committed _data without RSS or resanitize.
   def episode_pages_build?
     ENV["EPISODE_PAGES_BUILD"].to_s == "1"
@@ -1452,7 +1458,7 @@ module LatestPodcastEpisodes
         xml = fetch_feed(feed_url)
         podcast_slug = doc.data["slug"].to_s.strip
         limit = episodes_per_podcast_limit_for(doc)
-        include_descriptions = true
+        include_descriptions = include_episode_descriptions_in_rss_fetch?
         episodes = episodes_from_feed(xml, limit, podcast_slug: podcast_slug, include_descriptions: include_descriptions)
         episodes_by_feed[feed_key] = episodes
 
@@ -1566,7 +1572,7 @@ module LatestPodcastEpisodes
     episode_limit = episodes_per_podcast_limit_for(doc)
 
     xml = fetch_feed(feed_url)
-    include_descriptions = true
+    include_descriptions = include_episode_descriptions_in_rss_fetch?
     episodes = episodes_from_feed(xml, episode_limit, podcast_slug: podcast_slug, include_descriptions: include_descriptions)
     result = { "feed_key" => feed_key, "episodes" => episodes }
 
@@ -1758,7 +1764,12 @@ def build_latest_podcast_episodes_data(site)
 
   items, episodes_by_feed, errors =
     LatestPodcastEpisodes.fetch_all_podcast_feeds!(podcasts_with_feed)
-  feed_mode = LatestPodcastEpisodes.feed_only_build? ? "feed-only (episode HTML skipped)" : "full"
+  feed_mode =
+    if LatestPodcastEpisodes.feed_only_build?
+      "feed-only (no descriptions)"
+    else
+      "full"
+    end
   Jekyll.logger.info(
     "LatestPodcastEpisodes:",
     "Fetched #{items.size} latest episode(s) from RSS (#{errors.size} feed error(s), #{feed_mode}, concurrency #{LatestPodcastEpisodes.rss_fetch_concurrency})."
