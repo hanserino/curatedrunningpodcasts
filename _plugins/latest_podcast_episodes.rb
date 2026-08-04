@@ -686,6 +686,99 @@ module LatestPodcastEpisodes
     end
   end
 
+  CHAPTER_SECTION_HEADER_RX = /<p(?:\s[^>]*)?>(?:<strong>)?Chapters:?<\/strong>?<\/p>/i.freeze
+  CHAPTER_LINE_PARAGRAPH_RX = /<p(?:\s[^>]*)?>(\d{1,6}:\d{2}(?::\d{2})?)\s+([\s\S]*?)<\/p>/i.freeze
+
+  def format_chapter_clock(total_seconds)
+    total = total_seconds.to_f.round
+    return "0:00" if total <= 0
+
+    h = total / 3600
+    m = (total % 3600) / 60
+    s = total % 60
+    if h.positive?
+      format("%d:%02d:%02d", h, m, s)
+    else
+      format("%d:%02d", m, s)
+    end
+  end
+
+  def chapter_time_iso8601(total_seconds)
+    total = total_seconds.to_f.round
+    return "PT0S" if total <= 0
+
+    h = total / 3600
+    m = (total % 3600) / 60
+    s = total % 60
+    parts = ["PT"]
+    parts << "#{h}H" if h.positive?
+    parts << "#{m}M" if m.positive?
+    parts << "#{s}S" if s.positive? || (h.zero? && m.zero?)
+    parts.join
+  end
+
+  # Anchor/Spotify often export chapter offsets as seconds or milliseconds with bogus :MM:SS suffixes.
+  def chapter_seconds_from_token(token)
+    token = token.to_s.strip
+    if (m = token.match(/\A(\d+):(\d{2}):(\d{2})\z/))
+      first = m[1].to_i
+      min = m[2].to_i
+      sec = m[3].to_i
+      if first > 7200
+        return (first / 1000.0).round
+      elsif first >= 60 || min >= 60 || sec >= 60
+        return first
+      else
+        return first * 3600 + min * 60 + sec
+      end
+    end
+    if (m = token.match(/\A(\d{1,2}):(\d{2})\z/))
+      return m[1].to_i * 60 + m[2].to_i
+    end
+
+    0
+  end
+
+  def format_chapter_line_item(time_token, title_html)
+    seconds = chapter_seconds_from_token(time_token)
+    display = format_chapter_clock(seconds)
+    iso = chapter_time_iso8601(seconds)
+    title = title_html.to_s.strip
+    plain_title = description_plain_from_html(title)
+    plain_title = plain_title.gsub(/\s+/, " ").strip
+    label = "Play from #{display}: #{plain_title}"
+    %(<li class="episode-chapters__item"><button type="button" class="episode-chapters__seek" data-brp-chapter-seek="#{seconds}" aria-label="#{CGI.escapeHTML(label)}"><time class="episode-chapters__time" datetime="#{CGI.escapeHTML(iso)}">#{CGI.escapeHTML(display)}</time><span class="episode-chapters__title">#{title}</span></button></li>)
+  end
+
+  def format_chapter_sections(html)
+    cleaned = html.to_s
+    header_match = cleaned.match(CHAPTER_SECTION_HEADER_RX)
+    return cleaned unless header_match
+
+    after_header = cleaned[header_match.end(0)..]
+    entries = []
+    pos = 0
+
+    while (line_match = after_header.match(CHAPTER_LINE_PARAGRAPH_RX, pos))
+      entries << {
+        seconds: chapter_seconds_from_token(line_match[1]),
+        html: format_chapter_line_item(line_match[1], line_match[2]),
+      }
+      pos = line_match.end(0)
+    end
+
+    return cleaned if entries.empty?
+
+    entries.sort_by! { |entry| [entry[:seconds], entry[:html]] }
+    remainder = after_header[pos..].to_s
+    section = +'<section class="episode-chapters"><h3 class="episode-chapters__heading"><strong>Chapters</strong></h3>'
+    section << '<ol class="episode-chapters__list">'
+    section << entries.map { |entry| entry[:html] }.join
+    section << "</ol></section>"
+
+    cleaned[0, header_match.begin(0)] + section + remainder
+  end
+
   def classify_segment(plain, html_inner)
     return :header if section_header_fragment?(plain, html_inner)
     return :list_item if list_item_fragment?(plain, html_inner)
@@ -798,7 +891,7 @@ module LatestPodcastEpisodes
     cleaned = repair_split_word_links(cleaned)
     cleaned = linkify_bare_urls_in_html(cleaned.strip)
     cleaned = linkify_social_handles_in_html(cleaned)
-    compact_label_url_links_in_html(cleaned)
+    format_chapter_sections(compact_label_url_links_in_html(cleaned))
   end
 
   def episode_image_url(item)

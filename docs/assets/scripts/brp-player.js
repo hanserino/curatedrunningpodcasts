@@ -1307,6 +1307,147 @@
         refreshAllListenProgress();
     }
 
+    function parseSecondsFromMediaUrl(href) {
+        if (!href) return null;
+        var match = href.match(/[?&]t=(\d+)(?:s\b|$|&)/i);
+        if (!match) return null;
+        var seconds = parseInt(match[1], 10);
+        return isFinite(seconds) ? seconds : null;
+    }
+
+    function getEpisodePagePlayButton() {
+        var root = document.getElementById('episode-single-player');
+        if (!root) return null;
+        return root.querySelector('[data-audio-url]');
+    }
+
+    function ensureEpisodePageDeck() {
+        var root = document.getElementById('episode-single-player');
+        if (!root) return activeDeck;
+        if (root.getAttribute('data-brp-deck-wired') !== 'true') {
+            return window.BrpPlayer.registerDeck('episode-single-player');
+        }
+        return activeDeck;
+    }
+
+    function applyAbsoluteSeek(seconds) {
+        if (!player || !isFinite(seconds) || seconds < 0) return;
+
+        var dur = player.duration;
+        var target = seconds;
+        if (isFinite(dur) && dur > 0) {
+            target = Math.min(target, dur);
+        }
+
+        player.currentTime = target;
+        updateGlobalTransportTimes();
+        if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
+        updateMediaSessionPosition();
+        refreshAllListenProgress();
+    }
+
+    function seekEpisodeToSeconds(seconds, options) {
+        options = options || {};
+        if (!isFinite(seconds) || seconds < 0) return;
+
+        var pageBtn = getEpisodePagePlayButton();
+        var pageUrl = pageBtn ? pageBtn.getAttribute('data-audio-url') : '';
+        var currentUrl = playerActiveUrl();
+        var needsEpisodeLoad = pageUrl && (!currentUrl || !urlsMatchEpisode(pageUrl, currentUrl));
+
+        function startPlayback() {
+            if (options.play !== false && player.paused) {
+                playEpisode();
+            }
+        }
+
+        function seekWhenReady() {
+            if (player.readyState >= 1) {
+                applyAbsoluteSeek(seconds);
+                startPlayback();
+                return;
+            }
+
+            player.addEventListener(
+                'loadedmetadata',
+                function onMeta() {
+                    player.removeEventListener('loadedmetadata', onMeta);
+                    applyAbsoluteSeek(seconds);
+                    startPlayback();
+                }
+            );
+        }
+
+        if (pageUrl) {
+            if (needsEpisodeLoad) {
+                var deck = ensureEpisodePageDeck();
+                activateEpisode(pageBtn, { userGesture: true, play: options.play !== false }, deck);
+            }
+            seekWhenReady();
+            return;
+        }
+
+        if (!player || !player.src) return;
+        seekWhenReady();
+    }
+
+    function isEmbeddedChapterLink(link) {
+        if (!link || !link.getAttribute) return false;
+        var href = link.getAttribute('href') || '';
+        if (!/youtu(\.be|be\.com)/i.test(href)) return false;
+        if (parseSecondsFromMediaUrl(href) == null) return false;
+
+        var body = link.closest('.episode-page__description-body');
+        if (!body) return false;
+
+        var section = link.closest('.episode-chapters, ul, ol');
+        if (!section) return false;
+
+        if (section.classList && section.classList.contains('episode-chapters')) {
+            return true;
+        }
+
+        var prev = section.previousElementSibling;
+        while (prev) {
+            var text = (prev.textContent || '').replace(/\s+/g, ' ').trim();
+            if (/^chapters:?$/i.test(text)) {
+                return true;
+            }
+            if (prev.matches && prev.matches('p, h2, h3, h4, section')) {
+                break;
+            }
+            prev = prev.previousElementSibling;
+        }
+
+        return false;
+    }
+
+    function wireEpisodeChapterSeeks() {
+        if (document.body.getAttribute('data-brp-chapter-seeks-wired') === 'true') return;
+        document.body.setAttribute('data-brp-chapter-seeks-wired', 'true');
+
+        document.addEventListener('click', function (event) {
+            if (!document.body.classList.contains('post-page--episode')) return;
+
+            var seekControl = event.target.closest('[data-brp-chapter-seek]');
+            if (seekControl) {
+                event.preventDefault();
+                var seconds = Number(seekControl.getAttribute('data-brp-chapter-seek'));
+                seekEpisodeToSeconds(seconds, { play: true });
+                return;
+            }
+
+            var chapterLink = event.target.closest('.episode-page__description-body a[href]');
+            if (!chapterLink || !isEmbeddedChapterLink(chapterLink)) return;
+
+            var linkSeconds = parseSecondsFromMediaUrl(chapterLink.getAttribute('href'));
+            if (linkSeconds == null) return;
+
+            event.preventDefault();
+            seekEpisodeToSeconds(linkSeconds, { play: true });
+        });
+    }
+
     function wireFullscreenControls() {
         if (!fullscreenRoot || fullscreenRoot.getAttribute('data-brp-fullscreen-wired') === 'true') return;
         fullscreenRoot.setAttribute('data-brp-fullscreen-wired', 'true');
@@ -1563,6 +1704,7 @@
         });
 
         setupMediaSessionHandlers();
+        wireEpisodeChapterSeeks();
     }
 
     function activateEpisode(button, options, deck) {
@@ -2701,6 +2843,10 @@
         },
         isPlaying: function () {
             return player && !player.paused && !player.ended;
+        },
+        seekToSeconds: function (seconds, options) {
+            initEngine();
+            seekEpisodeToSeconds(seconds, options || {});
         },
     };
 
