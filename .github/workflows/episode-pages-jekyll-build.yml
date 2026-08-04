@@ -12,6 +12,8 @@ on:
       - "_plugins/latest_podcast_episodes.rb"
       - "_plugins/podcast_episode_pages.rb"
       - "_data/youtube_channel_ids.yml"
+      - "_layouts/episode.html"
+      - "_includes/episode-*.html"
       - "tools/match-youtube-episodes.rb"
       - "tools/ci-episode-pages-build.sh"
       - "tools/ci-feed-and-episode-build.sh"

@@ -1,6 +1,7 @@
 {%- assign spotify = page.spotify_link | default: '' | strip -%}
 {%- assign apple = page.apple_podcast_link | default: '' | strip -%}
-{%- if spotify != '' or apple != '' -%}
+{%- assign youtube_id = page.youtube_video_id | default: '' | strip -%}
+{%- if spotify != '' or apple != '' or youtube_id != '' -%}
 <nav class="episode-page__platforms" aria-label="Listen on other platforms">
 	<p class="episode-page__platforms-label">Also on</p>
 	<ul class="episode-page__platforms-list">
@@ -12,6 +13,11 @@
 		{%- if apple != '' -%}
 		<li>
 			<a href="{{ apple | escape }}" rel="noopener noreferrer" target="_blank" title="Listen to {{ page.podcast_title | xml_escape }} on Apple Podcasts (opens in a new tab)">Apple Podcasts</a>
+		</li>
+		{%- endif -%}
+		{%- if youtube_id != '' -%}
+		<li>
+			<a href="https://www.youtube.com/watch?v={{ youtube_id | escape }}" rel="noopener noreferrer" target="_blank" title="Watch {{ page.episode_title | xml_escape }} on YouTube (opens in a new tab)">YouTube</a>
 		</li>
 		{%- endif -%}
 	</ul>

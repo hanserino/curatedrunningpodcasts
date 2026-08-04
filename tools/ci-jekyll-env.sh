@@ -25,6 +25,10 @@ if echo "$CHANGED" | grep -q '^[_]plugins/'; then
   append_env REBUILD_ALL_EPISODE_PAGES 1
 fi
 
+if echo "$CHANGED" | grep -qE '^[_]layouts/episode\.html$|^[_]includes/episode-'; then
+  append_env REBUILD_ALL_EPISODE_PAGES 1
+fi
+
 SLUGS=""
 while IFS= read -r file; do
   [ -n "$file" ] || continue
