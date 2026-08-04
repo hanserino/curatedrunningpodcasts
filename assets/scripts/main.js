@@ -11,6 +11,7 @@ var isTouchDevice = function () {
 };
 
 var OPML_FAVORITES_STORAGE_KEY = 'brp-opml-favorites';
+var OPML_FAVORITES_META_KEY = 'brp-opml-favorites-u';
 var FILTER_PREFS_STORAGE_KEY = 'brp-filter-prefs-v1';
 var RETURN_CONTEXT_KEY = 'brp-nav-return-v1';
 var restoringFilterPrefs = false;
@@ -454,6 +455,7 @@ function readOpmlFavoriteIds() {
 function writeOpmlFavoriteIds(ids, immediateSync) {
     try {
         localStorage.setItem(OPML_FAVORITES_STORAGE_KEY, JSON.stringify(ids));
+        localStorage.setItem(OPML_FAVORITES_META_KEY, JSON.stringify({ u: Date.now() }));
         notifyUserSync(immediateSync !== false);
     } catch (_e) {
         /* ignore */
@@ -1090,7 +1092,27 @@ function resetAllFilters() {
 
     updateFilterResultsCount();
     updateOpmlFavoritesUi();
-    persistFilterPrefs();
+
+    var map = readFilterPrefsMap();
+    var clearedAt = Date.now();
+    var currentState = captureFilterState();
+    Object.keys(map).forEach(function (pageKey) {
+        var prev = map[pageKey] || {};
+        map[pageKey] = {
+            categories: [],
+            language: '',
+            u: clearedAt,
+        };
+        if (prev.grid === 'true' || prev.grid === 'false') {
+            map[pageKey].grid = prev.grid;
+        }
+    });
+    var pageKey = getFilterPageKey();
+    if (pageKey) {
+        map[pageKey] = currentState;
+    }
+    writeFilterPrefsMap(map);
+    notifyUserSync(true);
 }
 
 function setInitialGridModeByViewport() {

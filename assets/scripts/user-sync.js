@@ -6,6 +6,7 @@
     var STORAGE_KEY_PROGRESS = 'brp-listen-progress-v1';
     var STORAGE_KEY_LAST = 'brp-last-listened-v1';
     var STORAGE_KEY_FAVORITES = 'brp-opml-favorites';
+    var STORAGE_KEY_FAVORITES_META = 'brp-opml-favorites-u';
     var STORAGE_KEY_FILTER_PREFS = 'brp-filter-prefs-v1';
     var SAVE_DEBOUNCE_MS = 2000;
 
@@ -167,26 +168,73 @@
         return (local.u || 0) >= (remoteEntry.u || 0) ? localEntry : remoteEntry;
     }
 
-    function mergeFavorites(local, remote) {
-        var seen = {};
-        var merged = [];
+    function readFavoritesMeta() {
+        var raw = readJson(STORAGE_KEY_FAVORITES_META, null);
+        return raw && typeof raw.u === 'number' ? raw.u : 0;
+    }
 
-        function addIds(ids) {
-            if (!Array.isArray(ids)) {
-                return;
-            }
-            ids.forEach(function (id) {
-                if (!id || seen[id]) {
-                    return;
-                }
-                seen[id] = true;
-                merged.push(id);
-            });
+    function writeFavoritesMeta(u) {
+        if (!u) {
+            return;
+        }
+        try {
+            localStorage.setItem(STORAGE_KEY_FAVORITES_META, JSON.stringify({ u: u }));
+        } catch (e) {
+            /* ignore quota errors */
+        }
+    }
+
+    function normalizeFavoriteIds(ids) {
+        return Array.isArray(ids) ? ids.filter(Boolean) : [];
+    }
+
+    function normalizeCloudFavorites(value, remoteUpdatedAt) {
+        if (Array.isArray(value)) {
+            return {
+                ids: normalizeFavoriteIds(value),
+                u: remoteUpdatedAt || 0,
+            };
+        }
+        if (value && typeof value === 'object' && Array.isArray(value.ids)) {
+            return {
+                ids: normalizeFavoriteIds(value.ids),
+                u: typeof value.u === 'number' ? value.u : remoteUpdatedAt || 0,
+            };
+        }
+        return {
+            ids: [],
+            u: remoteUpdatedAt || 0,
+        };
+    }
+
+    function serializeCloudFavorites(ids, updatedAt) {
+        return {
+            ids: normalizeFavoriteIds(ids),
+            u: updatedAt || readFavoritesMeta() || Date.now(),
+        };
+    }
+
+    function mergeFavorites(localIds, localUpdatedAt, remoteValue, remoteUpdatedAt) {
+        var remote = normalizeCloudFavorites(remoteValue, remoteUpdatedAt);
+        var local = normalizeFavoriteIds(localIds);
+        var localU = localUpdatedAt || 0;
+        var remoteU = remote.u || 0;
+
+        if (localU === 0 && local.length === 0 && remote.ids.length > 0) {
+            return { ids: remote.ids, u: remoteU || remoteUpdatedAt || Date.now() };
         }
 
-        addIds(local);
-        addIds(remote);
-        return merged;
+        if (localU > remoteU) {
+            return { ids: local, u: localU };
+        }
+        if (remoteU > localU) {
+            return { ids: remote.ids, u: remoteU };
+        }
+
+        if (remote.ids.length > 0 && local.length === 0) {
+            return { ids: remote.ids, u: remoteU || Date.now() };
+        }
+        return { ids: local, u: localU || Date.now() };
     }
 
     function readLocalLibrary() {
@@ -194,7 +242,8 @@
         return {
             listen_progress: readJson(STORAGE_KEY_PROGRESS, {}),
             last_listened: readJson(STORAGE_KEY_LAST, null),
-            favorites: Array.isArray(favorites) ? favorites.filter(Boolean) : [],
+            favorites: normalizeFavoriteIds(favorites),
+            favorites_u: readFavoritesMeta(),
             filter_prefs: readJson(STORAGE_KEY_FILTER_PREFS, {}),
         };
     }
@@ -211,6 +260,9 @@
                 localStorage.removeItem(STORAGE_KEY_LAST);
             }
             localStorage.setItem(STORAGE_KEY_FAVORITES, JSON.stringify(library.favorites || []));
+            if (typeof library.favorites_u === 'number' && library.favorites_u > 0) {
+                writeFavoritesMeta(library.favorites_u);
+            }
             if (library.filter_prefs !== undefined) {
                 var existingPrefs = readJson(STORAGE_KEY_FILTER_PREFS, {});
                 var mergedPrefs = mergeProgressMaps(existingPrefs, library.filter_prefs || {});
@@ -245,7 +297,7 @@
                 user_id: userId,
                 listen_progress: stripProgressTombstones(library.listen_progress),
                 last_listened: normalizeLastListenedForCloud(library.last_listened),
-                favorites: library.favorites || [],
+                favorites: serializeCloudFavorites(library.favorites, library.favorites_u),
                 filter_prefs: library.filter_prefs || {},
             },
             { onConflict: 'user_id' }
@@ -258,27 +310,27 @@
 
     function runCloudSave() {
         if (!session) {
-            return;
+            return Promise.resolve();
         }
 
         if (syncing) {
             pendingCloudSave = true;
-            return;
+            return Promise.resolve();
         }
 
-        upsertRemoteLibrary(session.user.id, readLocalLibrary()).catch(function (e) {
+        return upsertRemoteLibrary(session.user.id, readLocalLibrary()).catch(function (e) {
             console.warn('BrpUserSync: could not save library', e);
         });
     }
 
     function flushCloudSave() {
         if (!session) {
-            return;
+            return Promise.resolve();
         }
 
         clearTimeout(saveTimer);
         saveTimer = null;
-        runCloudSave();
+        return runCloudSave();
     }
 
     function scheduleCloudSave(immediate) {
@@ -318,15 +370,23 @@
 
             // Re-read local after the network round-trip so playback during sync is not lost.
             var local = readLocalLibrary();
+            var remoteUpdatedAt = remoteUpdatedAtMs(remote);
+            var favoritesMerge = mergeFavorites(
+                local.favorites,
+                local.favorites_u,
+                remote && remote.favorites,
+                remoteUpdatedAt
+            );
             var merged = {
                 listen_progress: mergeProgressMaps(local.listen_progress, remote && remote.listen_progress),
                 last_listened: mergeLastListened(
                     local.last_listened,
                     remote ? remote.last_listened : undefined,
                     !!remote,
-                    remoteUpdatedAtMs(remote)
+                    remoteUpdatedAt
                 ),
-                favorites: mergeFavorites(local.favorites, remote && remote.favorites),
+                favorites: favoritesMerge.ids,
+                favorites_u: favoritesMerge.u,
                 filter_prefs: mergeProgressMaps(local.filter_prefs, remote && remote.filter_prefs),
             };
 
