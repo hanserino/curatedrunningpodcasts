@@ -80,7 +80,7 @@
 					{%- if site.podcast_episode_pages_enabled -%}
 					{%- assign podcast_archive_url = page.url | append: "episodes/" -%}
 					{%- endif -%}
-					{% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=10 archive_url=podcast_archive_url %}
+					{% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=site.podcast_feed_display_limit archive_url=podcast_archive_url %}
 					{% endif %}
 				</div>
 			</section>

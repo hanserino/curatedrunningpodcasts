@@ -1349,6 +1349,9 @@ module LatestPodcastEpisodes
   end
 
   def skip_data_resanitize?
+    # Local `jekyll serve` uses committed _data; bulk resanitize adds minutes per rebuild.
+    return true if Jekyll.env == "development"
+
     ENV["SKIP_DATA_RESANITIZE"].to_s == "1" || episode_pages_build?
   end
 
@@ -1395,6 +1398,17 @@ module LatestPodcastEpisodes
     return true if ENV["JEKYLL_INCREMENTAL_EPISODE_PAGES"].to_s == "1"
 
     ENV["JEKYLL_ENV"].to_s == "production"
+  end
+
+  # Cap how many new episode HTML files one CI run generates (0 = unlimited).
+  def max_new_episode_pages_per_build
+    raw = ENV.fetch("EPISODE_PAGES_MAX_NEW", "0").to_s.strip
+    return nil if raw.empty? || raw == "0"
+
+    n = Integer(raw)
+    n.positive? ? n : nil
+  rescue ArgumentError
+    nil
   end
 
   def dirty_podcast_slugs
@@ -1480,6 +1494,13 @@ module LatestPodcastEpisodes
 
       Array(episodes).each do |entry|
         next unless entry.is_a?(Hash)
+
+        episode_slug = entry["episode_slug"].to_s.strip
+        next if episode_slug.empty?
+
+        podcast_slug = doc.data["slug"].to_s
+        permalink = "/#{podcast_slug}/#{episode_slug}/"
+        next unless File.file?(episode_page_existing_path(site, permalink))
 
         entry["page_build_fingerprint"] =
           episode_page_fingerprint(entry, doc)

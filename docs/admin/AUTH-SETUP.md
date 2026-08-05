@@ -72,14 +72,18 @@ Rebuild or restart `jekyll serve` after changing `_config.yml`.
 |-------------------|--------------|
 | `brp-listen-progress-v1` | `listen_progress` |
 | `brp-last-listened-v1` | `last_listened` |
+| `brp-play-queue-v1` | `play_queue` |
+| `brp-episode-meta-v1` | `episode_meta` |
 | `brp-opml-favorites` | `favorites` |
 | `brp-filter-prefs-v1` | `filter_prefs` |
 
 `filter_prefs` stores separate home-directory and latest-episodes filter choices (categories, language, and grid layout on the home page). Keys: `home` and `latest`.
 
-On sign-in, local and cloud data are **merged** (newer timestamps win for progress and per-page filters; favorites are unioned). While signed in, changes debounce to the cloud every ~2 seconds.
+`play_queue` stores your Up next order, manually queued episodes, and dismissed suggestions. `episode_meta` stores episode titles, podcast names, covers, and page URLs keyed by audio URL (used for queue and listen history on any device).
 
-**Existing Supabase projects:** if `user_library` was created before filter sync, run the `alter table ... add column if not exists filter_prefs` statement at the bottom of `supabase/schema.sql`.
+On sign-in, local and cloud data are **merged** (newer timestamps win for progress, episode metadata, and per-page filters; play queues combine order from both sides; favorites are unioned). While signed in, changes debounce to the cloud every ~2 seconds.
+
+**Existing Supabase projects:** if `user_library` was created before newer columns existed, run the `alter table ... add column if not exists` statements at the bottom of `supabase/schema.sql`.
 
 ---
 

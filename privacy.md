@@ -31,13 +31,16 @@ Sign-in is handled by **[Supabase](https://supabase.com/)** using Google OAuth. 
 
 When you are signed in, we store the following in your Supabase `user_library` row:
 
-- **Listen progress** — episode audio URLs with playback position and timestamps
+- **Listen progress** — episode audio URLs with playback position, played status, and timestamps
 - **Continue listening** — the last episode you were playing, with title and cover metadata
+- **Play queue** — episodes in Up next, including manual queue order and dismissed suggestions
+- **Episode metadata** — titles, podcast names, cover art, and page URLs for queued and played episodes
 - **Favorites** — podcast page URLs you have starred for OPML export
+- **Filter preferences** — your home and latest-episodes filter choices
 
 We use this data only to restore your experience on other browsers or devices. We do not sell it or use it for advertising profiles.
 
-On sign-in, data already on your device is **merged** with your cloud library (newer progress wins; favorites are combined). While signed in, changes sync to the cloud periodically.
+On sign-in, data already on your device is **merged** with your cloud library (newer progress and metadata win; play queues combine; favorites are combined). While signed in, changes sync to the cloud periodically.
 
 You can **Sign out** at any time from the header. Signing out stops further cloud sync; data already in the cloud remains until you ask us to delete it.
 

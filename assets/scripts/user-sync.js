@@ -5,6 +5,8 @@
 
     var STORAGE_KEY_PROGRESS = 'brp-listen-progress-v1';
     var STORAGE_KEY_LAST = 'brp-last-listened-v1';
+    var STORAGE_KEY_QUEUE = 'brp-play-queue-v1';
+    var STORAGE_KEY_EPISODE_META = 'brp-episode-meta-v1';
     var STORAGE_KEY_FAVORITES = 'brp-opml-favorites';
     var STORAGE_KEY_FAVORITES_META = 'brp-opml-favorites-u';
     var STORAGE_KEY_FILTER_PREFS = 'brp-filter-prefs-v1';
@@ -237,11 +239,69 @@
         return { ids: local, u: localU || Date.now() };
     }
 
+    function mergeEpisodeMetaMaps(local, remote) {
+        return mergeProgressMaps(local, remote);
+    }
+
+    function normalizeQueueState(value) {
+        var state = value && typeof value === 'object' ? value : {};
+        return {
+            order: Array.isArray(state.order) ? state.order.filter(Boolean) : [],
+            manual: state.manual && typeof state.manual === 'object' ? state.manual : {},
+            dismissed: state.dismissed && typeof state.dismissed === 'object' ? state.dismissed : {},
+            u: typeof state.u === 'number' && isFinite(state.u) ? state.u : 0,
+        };
+    }
+
+    function mergeQueueState(local, remote) {
+        local = normalizeQueueState(local);
+        remote = normalizeQueueState(remote);
+
+        var dismissed = {};
+        Object.keys(local.dismissed).forEach(function (key) {
+            dismissed[key] = true;
+        });
+        Object.keys(remote.dismissed).forEach(function (key) {
+            dismissed[key] = true;
+        });
+
+        var manual = {};
+        Object.keys(local.manual).forEach(function (key) {
+            manual[key] = true;
+        });
+        Object.keys(remote.manual).forEach(function (key) {
+            manual[key] = true;
+        });
+
+        var primary = local.u >= remote.u ? local : remote;
+        var secondary = local.u >= remote.u ? remote : local;
+        var order = [];
+        primary.order.forEach(function (key) {
+            if (!dismissed[key] && order.indexOf(key) === -1) {
+                order.push(key);
+            }
+        });
+        secondary.order.forEach(function (key) {
+            if (!dismissed[key] && order.indexOf(key) === -1) {
+                order.push(key);
+            }
+        });
+
+        return {
+            order: order,
+            manual: manual,
+            dismissed: dismissed,
+            u: Math.max(local.u, remote.u) || Date.now(),
+        };
+    }
+
     function readLocalLibrary() {
         var favorites = readJson(STORAGE_KEY_FAVORITES, []);
         return {
             listen_progress: readJson(STORAGE_KEY_PROGRESS, {}),
             last_listened: readJson(STORAGE_KEY_LAST, null),
+            play_queue: readJson(STORAGE_KEY_QUEUE, { order: [], manual: {}, dismissed: {} }),
+            episode_meta: readJson(STORAGE_KEY_EPISODE_META, {}),
             favorites: normalizeFavoriteIds(favorites),
             favorites_u: readFavoritesMeta(),
             filter_prefs: readJson(STORAGE_KEY_FILTER_PREFS, {}),
@@ -268,6 +328,16 @@
                 var mergedPrefs = mergeProgressMaps(existingPrefs, library.filter_prefs || {});
                 localStorage.setItem(STORAGE_KEY_FILTER_PREFS, JSON.stringify(mergedPrefs));
             }
+            if (library.play_queue !== undefined) {
+                localStorage.setItem(
+                    STORAGE_KEY_QUEUE,
+                    JSON.stringify(normalizeQueueState(library.play_queue))
+                );
+            }
+            if (library.episode_meta !== undefined) {
+                var metaMap = library.episode_meta && typeof library.episode_meta === 'object' ? library.episode_meta : {};
+                localStorage.setItem(STORAGE_KEY_EPISODE_META, JSON.stringify(metaMap));
+            }
         } catch (e) {
             /* ignore quota errors */
         }
@@ -280,7 +350,7 @@
     async function fetchRemoteLibrary(userId) {
         var response = await client
             .from('user_library')
-            .select('listen_progress,last_listened,favorites,filter_prefs,updated_at')
+            .select('listen_progress,last_listened,play_queue,episode_meta,favorites,filter_prefs,updated_at')
             .eq('user_id', userId)
             .maybeSingle();
 
@@ -297,6 +367,8 @@
                 user_id: userId,
                 listen_progress: stripProgressTombstones(library.listen_progress),
                 last_listened: normalizeLastListenedForCloud(library.last_listened),
+                play_queue: normalizeQueueState(library.play_queue),
+                episode_meta: library.episode_meta && typeof library.episode_meta === 'object' ? library.episode_meta : {},
                 favorites: serializeCloudFavorites(library.favorites, library.favorites_u),
                 filter_prefs: library.filter_prefs || {},
             },
@@ -385,6 +457,8 @@
                     !!remote,
                     remoteUpdatedAt
                 ),
+                play_queue: mergeQueueState(local.play_queue, remote && remote.play_queue),
+                episode_meta: mergeEpisodeMetaMaps(local.episode_meta, remote && remote.episode_meta),
                 favorites: favoritesMerge.ids,
                 favorites_u: favoritesMerge.u,
                 filter_prefs: mergeProgressMaps(local.filter_prefs, remote && remote.filter_prefs),

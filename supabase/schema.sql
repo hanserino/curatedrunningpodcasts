@@ -7,12 +7,20 @@ create table if not exists public.user_library (
   last_listened jsonb,
   favorites jsonb not null default '[]'::jsonb,
   filter_prefs jsonb not null default '{}'::jsonb,
+  play_queue jsonb not null default '{"order":[],"manual":{},"dismissed":{}}'::jsonb,
+  episode_meta jsonb not null default '{}'::jsonb,
   updated_at timestamptz not null default now()
 );
 
--- Existing projects: run this if user_library was created before filter_prefs existed.
+-- Existing projects: run these if user_library was created before new columns existed.
 alter table public.user_library
   add column if not exists filter_prefs jsonb not null default '{}'::jsonb;
+
+alter table public.user_library
+  add column if not exists play_queue jsonb not null default '{"order":[],"manual":{},"dismissed":{}}'::jsonb;
+
+alter table public.user_library
+  add column if not exists episode_meta jsonb not null default '{}'::jsonb;
 
 alter table public.user_library enable row level security;
 

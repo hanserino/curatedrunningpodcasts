@@ -20,6 +20,7 @@
 {% include analytics-consent.html %}
 <script src="{{ '/assets/scripts/turbo.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/scripts/brp-player.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/scripts/brp-library.js' | relative_url }}" defer></script>
 {%- if site.supabase.url and site.supabase.url != '' and site.supabase.anon_key and site.supabase.anon_key != '' -%}
 <script>
   window.BRP_SUPABASE_CONFIG = {

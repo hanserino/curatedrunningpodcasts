@@ -235,6 +235,8 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
 
     page_count = 0
     skipped_count = 0
+    deferred_count = 0
+    max_new = LatestPodcastEpisodes.max_new_episode_pages_per_build
 
     episodes_by_feed.each do |feed_key, episodes|
       podcast_doc = feed_to_podcast[feed_key.to_s]
@@ -264,6 +266,11 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
           next
         end
 
+        if max_new && page_count >= max_new
+          deferred_count += 1
+          next
+        end
+
         episode = prepare_episode(raw)
         page = PodcastEpisodePage.new(site, site.source, podcast_doc, episode, episode_slug)
         site.pages << page
@@ -276,12 +283,13 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     end
 
     if LatestPodcastEpisodes.incremental_episode_pages?
-      Jekyll.logger.info(
-        "PodcastEpisodePages:",
-        "Generated #{page_count} episode page(s); skipped #{skipped_count} unchanged."
-      )
+      msg = "Generated #{page_count} episode page(s); skipped #{skipped_count} unchanged."
+      msg += " Deferred #{deferred_count} (EPISODE_PAGES_MAX_NEW=#{max_new})." if deferred_count.positive?
+      Jekyll.logger.info("PodcastEpisodePages:", msg)
     else
-      Jekyll.logger.info "PodcastEpisodePages:", "Generated #{page_count} episode page(s)."
+      msg = "Generated #{page_count} episode page(s)."
+      msg += " Deferred #{deferred_count} (EPISODE_PAGES_MAX_NEW=#{max_new})." if deferred_count.positive?
+      Jekyll.logger.info "PodcastEpisodePages:", msg
     end
 
     return unless LatestPodcastEpisodes.episode_pages_build?

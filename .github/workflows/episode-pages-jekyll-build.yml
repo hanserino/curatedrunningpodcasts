@@ -29,7 +29,7 @@ permissions:
 
 concurrency:
   group: jekyll-build-episode-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -39,7 +39,7 @@ jobs:
       (github.event_name == 'workflow_run' &&
        github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 180
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
@@ -72,6 +72,7 @@ jobs:
       - name: Episode pages Jekyll build (committed episode data)
         env:
           EPISODE_PAGES_PER_PODCAST: "10"
+          EPISODE_PAGES_MAX_NEW: "120"
         run: bash tools/ci-episode-pages-build.sh
 
       - name: Commit and push if changed

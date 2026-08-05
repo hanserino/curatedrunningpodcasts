@@ -49,6 +49,7 @@ jobs:
       - name: Feed refresh + episode pages
         env:
           EPISODE_PAGES_PER_PODCAST: "10"
+          EPISODE_PAGES_MAX_NEW: "120"
           RSS_FETCH_CONCURRENCY: "10"
         run: bash tools/ci-feed-and-episode-build.sh
 

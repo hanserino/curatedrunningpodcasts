@@ -78,6 +78,12 @@
     <a href="{{ archive_url | relative_url }}">View all {{ episodes.size }} indexed episodes</a>
   </p>
   {%- endif -%}
+  <p class="latest-episodes__feed-note">
+    We show the {{ max_items }} most recent episodes from this podcast's RSS feed.
+    {%- if archive_url != "" and episodes.size > max_items -%}
+    Older episodes are listed in the <a href="{{ archive_url | relative_url }}">full archive</a>.
+    {%- endif -%}
+  </p>
   {%- else -%}
   <p class="latest-episodes__unavailable">
     Feed is currently unavailable for this podcast. Try again later or open the

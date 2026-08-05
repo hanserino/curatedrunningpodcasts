@@ -1106,7 +1106,7 @@ $ep-play-art: $ep-row-art;
             pointer-events: none;
         }
 
-        .latest-episodes__play--feed {
+        &:not(:has(.latest-episodes__episode-controls)) .latest-episodes__play--feed {
             grid-column: 2;
             grid-row: 1 / -1;
             align-self: center;
