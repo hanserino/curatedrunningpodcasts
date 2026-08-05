@@ -196,9 +196,9 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     episode
   end
 
-  def skip_archive_page?(site, podcast_doc, prepared_episodes)
+  def skip_archive_page?(site, podcast_doc, episodes)
     return false unless LatestPodcastEpisodes.incremental_episode_pages?
-    return false if prepared_episodes.empty?
+    return false if episodes.empty?
 
     podcast_slug = podcast_doc.data["slug"].to_s
     return false if LatestPodcastEpisodes.dirty_podcast_slugs.include?(podcast_slug)
@@ -206,7 +206,7 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     dest = LatestPodcastEpisodes.archive_page_existing_path(site, podcast_slug)
     return false unless File.file?(dest)
 
-    prepared_episodes.all? do |episode|
+    episodes.all? do |episode|
       episode_slug = episode["episode_slug"].to_s.strip
       next true if episode_slug.empty?
 
@@ -247,25 +247,24 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
         podcast_slug: podcast_slug
       )
 
-      prepared = with_slugs.map { |raw| prepare_episode(raw) }
-
-      unless skip_archive_page?(site, podcast_doc, prepared)
+      unless skip_archive_page?(site, podcast_doc, with_slugs)
         site.pages << PodcastEpisodeArchivePage.new(site, site.source, podcast_doc, with_slugs) unless with_slugs.empty?
       end
 
-      prepared.each do |episode|
-        audio = episode["audio_url"].to_s.strip
-        title = episode["episode_title"].to_s.strip
+      with_slugs.each do |raw|
+        audio = raw["audio_url"].to_s.strip
+        title = raw["episode_title"].to_s.strip
         next if audio.empty? || title.empty?
 
-        episode_slug = episode["episode_slug"].to_s.strip
+        episode_slug = raw["episode_slug"].to_s.strip
         next if episode_slug.empty?
 
-        if LatestPodcastEpisodes.skip_episode_page?(site, podcast_doc, episode, episode_slug)
+        if LatestPodcastEpisodes.skip_episode_page?(site, podcast_doc, raw, episode_slug)
           skipped_count += 1
           next
         end
 
+        episode = prepare_episode(raw)
         page = PodcastEpisodePage.new(site, site.source, podcast_doc, episode, episode_slug)
         site.pages << page
         target = PodcastEpisodeRedirects.absolute_target(site, page.data["permalink"])

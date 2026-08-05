@@ -1442,14 +1442,15 @@ module LatestPodcastEpisodes
     end
   end
 
-  def skip_episode_page?(site, podcast_doc, sanitized_episode, episode_slug)
+  def skip_episode_page?(site, podcast_doc, episode, episode_slug)
     return false unless incremental_episode_pages?
+    return false if ENV["REBUILD_ALL_EPISODE_PAGES"].to_s == "1"
 
     podcast_slug = podcast_doc.data["slug"].to_s
     return false if dirty_podcast_slugs.include?(podcast_slug)
 
-    fingerprint = episode_page_fingerprint(sanitized_episode, podcast_doc)
-    stored = sanitized_episode["page_build_fingerprint"].to_s
+    fingerprint = episode_page_fingerprint(episode, podcast_doc)
+    stored = episode["page_build_fingerprint"].to_s
     return false if stored.empty? || stored != fingerprint
 
     dest = episode_page_existing_path(
@@ -1458,7 +1459,7 @@ module LatestPodcastEpisodes
     )
     return false unless File.file?(dest)
 
-    yt_id = sanitized_episode["youtube_video_id"].to_s.strip
+    yt_id = episode["youtube_video_id"].to_s.strip
     if yt_id != ""
       html = File.read(dest, 262_144) rescue ""
       return false unless html.include?("youtube-nocookie.com/embed/#{yt_id}")
