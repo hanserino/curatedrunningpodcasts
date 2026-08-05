@@ -56,7 +56,7 @@
       "inLanguage": "en",
       "isPartOf": { "@type": "WebSite", "name": "The Best Running Podcasts", "url": "https://bestrunningpodcasts.com" },
       "breadcrumb": { "@id": "https://bestrunningpodcasts.com/nobody-asked-us/4-31-the-shotcaller-s-episode/#breadcrumb" },
-      "datePublished": "2026-07-22T09:00:00+00:00",
+      "datePublished": "2026-07-22T09:00:00Z",
       "mainEntity": { "@id": "https://bestrunningpodcasts.com/nobody-asked-us/4-31-the-shotcaller-s-episode/#episode" },"primaryImageOfPage": { "@type": "ImageObject", "url": "https://static.libsyn.com/p/assets/d/3/2/6/d326f8deb7055039d959afa2a1bf1c87/Des_and_Kara_-_Square_-_New_2-20260721-7zb42baj6o.png" }},
     {
       "@type": "PodcastSeries",
@@ -70,7 +70,7 @@
       "name": "4.31. The Shotcaller's Episode",
       "description": "There are callers and then there are SHOTcallers. Which are you? Josh called his shot in the mile. 222! Kara is calling her shot in the half marathon (sort-of), and Des is backing them both up. She predicted that Josh would get the World Record, and now she is predicting that Kara will get her goal. This episode starts with the \"normal\" catch-up chat where Kara discusses her half marathon training (!), and Des shares the chaos of Ryan's sailing race. Thankfully, he made it back safely, but it...",
       "url": "https://bestrunningpodcasts.com/nobody-asked-us/4-31-the-shotcaller-s-episode/",
-      "datePublished": "2026-07-22T09:00:00+00:00",
+      "datePublished": "2026-07-22T09:00:00Z",
       "inLanguage": "en",
       "mainEntityOfPage": { "@id": "https://bestrunningpodcasts.com/nobody-asked-us/4-31-the-shotcaller-s-episode/#webpage" },
       "partOfSeries": { "@id": "https://bestrunningpodcasts.com/nobody-asked-us/#show" },"image": "https://static.libsyn.com/p/assets/d/3/2/6/d326f8deb7055039d959afa2a1bf1c87/Des_and_Kara_-_Square_-_New_2-20260721-7zb42baj6o.png","associatedMedia": {
@@ -138,12 +138,6 @@
           </li>
         <li>
           <a
-            href="/listen-history/"
-            class="main-nav__link"
-            >Listen history</a>
-          </li>
-        <li>
-          <a
             href="/runners-picks/"
             class="main-nav__link"
             >Runners' picks</a>
@@ -186,6 +180,12 @@
     </button>
     <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
       <p class="user-auth__email" data-user-auth-email hidden></p>
+      <a
+        href="/listen-history/"
+        class="user-auth__action user-auth__action--link"
+        data-user-auth-menu-link
+        role="menuitem"
+      >Listen history</a>
       <div class="user-auth__sign-in" data-user-auth-sign-in-panel>
         <button
           type="button"
@@ -259,7 +259,7 @@
 						<h1 class="episode-page__title">4.31. The Shotcaller's Episode</h1>
 						<p class="episode-page__meta">
 							<a class="episode-page__podcast-link" href="/nobody-asked-us/">Nobody Asked Us</a><span class="episode-page__meta-sep" aria-hidden="true"> · </span>
-							<time class="episode-page__date" datetime="2026-07-22T09:00:00+00:00">July 22, 2026</time></p>
+							<time class="episode-page__date" datetime="2026-07-22T09:00:00Z">July 22, 2026</time></p>
 					</div>
 				</div></header>
 
@@ -308,7 +308,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-08-05T07:07:31Z">2026-08-05 07:07 UTC</time>
+      <time datetime="2026-08-05T16:32:26Z">2026-08-05 16:32 UTC</time>
     </p></footer>
 
 <div
@@ -434,6 +434,19 @@
       Press <kbd>Esc</kbd> to exit full player
     </p>
 
+    <div class="brp-player-fullscreen__youtube" data-fullscreen-youtube hidden>
+      <div class="brp-player-fullscreen__youtube-frame">
+        <iframe
+          class="brp-player-fullscreen__youtube-iframe"
+          data-fullscreen-youtube-iframe
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
     <div class="brp-player-fullscreen__hero">
       <div class="brp-player-fullscreen__art-wrap brp-player-fullscreen__art-wrap--empty" data-fullscreen-art-wrap>
         <img class="brp-player-fullscreen__art" data-fullscreen-art alt="" width="280" height="280" decoding="async">
@@ -444,6 +457,13 @@
         <div class="brp-player-fullscreen__links">
           <a class="brp-player-fullscreen__link" data-fullscreen-episode-link hidden>Open episode</a>
           <a class="brp-player-fullscreen__link" data-fullscreen-podcast-link hidden>Open podcast</a>
+          <a
+            class="brp-player-fullscreen__link"
+            data-fullscreen-youtube-link
+            hidden
+            target="_blank"
+            rel="noopener noreferrer"
+          >Open on YouTube</a>
         </div>
       </div>
     </div>

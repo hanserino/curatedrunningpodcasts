@@ -56,7 +56,7 @@
       "inLanguage": "en",
       "isPartOf": { "@type": "WebSite", "name": "The Best Running Podcasts", "url": "https://bestrunningpodcasts.com" },
       "breadcrumb": { "@id": "https://bestrunningpodcasts.com/the-buzz/run-rabbit-run-race-director-fred-abramowitz-on-prize-money-utmb-and-the-future-of-american-ultras/#breadcrumb" },
-      "datePublished": "2026-07-28T11:47:00+00:00",
+      "datePublished": "2026-07-28T11:47:00Z",
       "mainEntity": { "@id": "https://bestrunningpodcasts.com/the-buzz/run-rabbit-run-race-director-fred-abramowitz-on-prize-money-utmb-and-the-future-of-american-ultras/#episode" },"primaryImageOfPage": { "@type": "ImageObject", "url": "https://bestrunningpodcasts.com/media/thebuzz.jpeg" }},
     {
       "@type": "PodcastSeries",
@@ -70,7 +70,7 @@
       "name": "Run Rabbit Run Race Director Fred Abramowitz on Prize Money, UTMB, and the Future of American Ultras",
       "description": "Fred Abramowitz is a retired natural resources attorney, the author of Travels in Africa, a veteran of 75 ultras, and the co-founder and co-race director of Run Rabbit Run in Steamboat Springs, Colorado. In 2012 he did something nobody in American ultrarunning had done before: he put up a $100,000 prize purse, the largest of any trail ultra in the world, and absorbed several hundred internet comments about it. In this conversation, Fred and Buzz get into why paying ultrarunners was the right ...",
       "url": "https://bestrunningpodcasts.com/the-buzz/run-rabbit-run-race-director-fred-abramowitz-on-prize-money-utmb-and-the-future-of-american-ultras/",
-      "datePublished": "2026-07-28T11:47:00+00:00",
+      "datePublished": "2026-07-28T11:47:00Z",
       "inLanguage": "en",
       "mainEntityOfPage": { "@id": "https://bestrunningpodcasts.com/the-buzz/run-rabbit-run-race-director-fred-abramowitz-on-prize-money-utmb-and-the-future-of-american-ultras/#webpage" },
       "partOfSeries": { "@id": "https://bestrunningpodcasts.com/the-buzz/#show" },"image": "https://bestrunningpodcasts.com/media/thebuzz.jpeg","associatedMedia": {
@@ -180,6 +180,12 @@
     </button>
     <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
       <p class="user-auth__email" data-user-auth-email hidden></p>
+      <a
+        href="/listen-history/"
+        class="user-auth__action user-auth__action--link"
+        data-user-auth-menu-link
+        role="menuitem"
+      >Listen history</a>
       <div class="user-auth__sign-in" data-user-auth-sign-in-panel>
         <button
           type="button"
@@ -253,7 +259,7 @@
 						<h1 class="episode-page__title">Run Rabbit Run Race Director Fred Abramowitz on Prize Money, UTMB, and the Future of American Ultras</h1>
 						<p class="episode-page__meta">
 							<a class="episode-page__podcast-link" href="/the-buzz/">The Buzz</a><span class="episode-page__meta-sep" aria-hidden="true"> · </span>
-							<time class="episode-page__date" datetime="2026-07-28T11:47:00+00:00">July 28, 2026</time></p>
+							<time class="episode-page__date" datetime="2026-07-28T11:47:00Z">July 28, 2026</time></p>
 					</div>
 				</div></header>
 
@@ -290,7 +296,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-08-04T14:50:56Z">2026-08-04 14:50 UTC</time>
+      <time datetime="2026-08-05T16:32:26Z">2026-08-05 16:32 UTC</time>
     </p></footer>
 
 <div
@@ -416,6 +422,19 @@
       Press <kbd>Esc</kbd> to exit full player
     </p>
 
+    <div class="brp-player-fullscreen__youtube" data-fullscreen-youtube hidden>
+      <div class="brp-player-fullscreen__youtube-frame">
+        <iframe
+          class="brp-player-fullscreen__youtube-iframe"
+          data-fullscreen-youtube-iframe
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
     <div class="brp-player-fullscreen__hero">
       <div class="brp-player-fullscreen__art-wrap brp-player-fullscreen__art-wrap--empty" data-fullscreen-art-wrap>
         <img class="brp-player-fullscreen__art" data-fullscreen-art alt="" width="280" height="280" decoding="async">
@@ -426,6 +445,13 @@
         <div class="brp-player-fullscreen__links">
           <a class="brp-player-fullscreen__link" data-fullscreen-episode-link hidden>Open episode</a>
           <a class="brp-player-fullscreen__link" data-fullscreen-podcast-link hidden>Open podcast</a>
+          <a
+            class="brp-player-fullscreen__link"
+            data-fullscreen-youtube-link
+            hidden
+            target="_blank"
+            rel="noopener noreferrer"
+          >Open on YouTube</a>
         </div>
       </div>
     </div>
@@ -513,7 +539,8 @@
 </script>
 <script src="/assets/scripts/analytics-consent.js" defer></script>
 <script src="/assets/scripts/turbo.min.js" defer></script>
-<script src="/assets/scripts/brp-player.js" defer></script><script>
+<script src="/assets/scripts/brp-player.js" defer></script>
+<script src="/assets/scripts/brp-library.js" defer></script><script>
   window.BRP_SUPABASE_CONFIG = {
     url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"

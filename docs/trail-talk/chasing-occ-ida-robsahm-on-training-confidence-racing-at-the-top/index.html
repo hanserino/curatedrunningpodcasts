@@ -56,7 +56,7 @@
       "inLanguage": "en",
       "isPartOf": { "@type": "WebSite", "name": "The Best Running Podcasts", "url": "https://bestrunningpodcasts.com" },
       "breadcrumb": { "@id": "https://bestrunningpodcasts.com/trail-talk/chasing-occ-ida-robsahm-on-training-confidence-racing-at-the-top/#breadcrumb" },
-      "datePublished": "2026-07-28T05:00:00+00:00",
+      "datePublished": "2026-07-28T05:00:00Z",
       "mainEntity": { "@id": "https://bestrunningpodcasts.com/trail-talk/chasing-occ-ida-robsahm-on-training-confidence-racing-at-the-top/#episode" },"primaryImageOfPage": { "@type": "ImageObject", "url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39746339/39746339-1769498673843-c302a39682cdb.jpg" }},
     {
       "@type": "PodcastSeries",
@@ -70,7 +70,7 @@
       "name": "Chasing OCC | Ida Robsahm on Training, Confidence & Racing at the Top",
       "description": "This week on Trail Talk, Ida Robsahm joins the show. The Norwegian gets into her background in alpine skiing and the switch to trail running, a training philosophy built on high volume and variation, her recent races from the Valencia Marathon to the Marathon du Mont-Blanc, the mental side of racing and where confidence comes from, her course strategy for OCC, training out of Chamonix and the value of a team around her, fuelling and nutrition, and balancing it all with work as a teacher. RunM...",
       "url": "https://bestrunningpodcasts.com/trail-talk/chasing-occ-ida-robsahm-on-training-confidence-racing-at-the-top/",
-      "datePublished": "2026-07-28T05:00:00+00:00",
+      "datePublished": "2026-07-28T05:00:00Z",
       "inLanguage": "en",
       "mainEntityOfPage": { "@id": "https://bestrunningpodcasts.com/trail-talk/chasing-occ-ida-robsahm-on-training-confidence-racing-at-the-top/#webpage" },
       "partOfSeries": { "@id": "https://bestrunningpodcasts.com/trail-talk/#show" },"image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/39746339/39746339-1769498673843-c302a39682cdb.jpg","associatedMedia": {
@@ -138,12 +138,6 @@
           </li>
         <li>
           <a
-            href="/listen-history/"
-            class="main-nav__link"
-            >Listen history</a>
-          </li>
-        <li>
-          <a
             href="/runners-picks/"
             class="main-nav__link"
             >Runners' picks</a>
@@ -186,6 +180,12 @@
     </button>
     <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
       <p class="user-auth__email" data-user-auth-email hidden></p>
+      <a
+        href="/listen-history/"
+        class="user-auth__action user-auth__action--link"
+        data-user-auth-menu-link
+        role="menuitem"
+      >Listen history</a>
       <div class="user-auth__sign-in" data-user-auth-sign-in-panel>
         <button
           type="button"
@@ -259,7 +259,7 @@
 						<h1 class="episode-page__title">Chasing OCC | Ida Robsahm on Training, Confidence & Racing at the Top</h1>
 						<p class="episode-page__meta">
 							<a class="episode-page__podcast-link" href="/trail-talk/">Trail Talk</a><span class="episode-page__meta-sep" aria-hidden="true"> · </span>
-							<time class="episode-page__date" datetime="2026-07-28T05:00:00+00:00">July 28, 2026</time></p>
+							<time class="episode-page__date" datetime="2026-07-28T05:00:00Z">July 28, 2026</time></p>
 					</div>
 				</div></header>
 
@@ -308,7 +308,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-08-05T07:07:31Z">2026-08-05 07:07 UTC</time>
+      <time datetime="2026-08-05T16:32:26Z">2026-08-05 16:32 UTC</time>
     </p></footer>
 
 <div
@@ -434,6 +434,19 @@
       Press <kbd>Esc</kbd> to exit full player
     </p>
 
+    <div class="brp-player-fullscreen__youtube" data-fullscreen-youtube hidden>
+      <div class="brp-player-fullscreen__youtube-frame">
+        <iframe
+          class="brp-player-fullscreen__youtube-iframe"
+          data-fullscreen-youtube-iframe
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
     <div class="brp-player-fullscreen__hero">
       <div class="brp-player-fullscreen__art-wrap brp-player-fullscreen__art-wrap--empty" data-fullscreen-art-wrap>
         <img class="brp-player-fullscreen__art" data-fullscreen-art alt="" width="280" height="280" decoding="async">
@@ -444,6 +457,13 @@
         <div class="brp-player-fullscreen__links">
           <a class="brp-player-fullscreen__link" data-fullscreen-episode-link hidden>Open episode</a>
           <a class="brp-player-fullscreen__link" data-fullscreen-podcast-link hidden>Open podcast</a>
+          <a
+            class="brp-player-fullscreen__link"
+            data-fullscreen-youtube-link
+            hidden
+            target="_blank"
+            rel="noopener noreferrer"
+          >Open on YouTube</a>
         </div>
       </div>
     </div>
