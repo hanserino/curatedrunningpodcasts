@@ -45,8 +45,11 @@
     {%- if _yt_id != '' -%}
       {%- assign _yt_url = 'https://www.youtube.com/watch?v=' | append: _yt_id -%}
     {%- endif -%}
-    {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
-    {%- if _audio != '' -%}
+    {%- comment -%}Only link episode pages after CI stamps page_build_fingerprint.{%- endcomment -%}
+    {%- assign _ep_fp = episode.page_build_fingerprint | default: '' | strip -%}
+    {%- assign _ep_path = '' -%}
+    {%- if _audio != '' and _ep_fp != '' -%}
+      {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
       {%- if _ep_path == '' -%}
         {%- if _page_slug == '' -%}
           {%- include podcast-slug-from-url.html url=episode.podcast_page_url -%}
@@ -60,8 +63,6 @@
           {%- assign _ep_path = '/' | append: _page_slug | append: '/' | append: _ep_key | append: '/' -%}
         {%- endif -%}
       {%- endif -%}
-    {%- else -%}
-      {%- assign _ep_path = '' -%}
     {%- endif -%}
     {%- assign _hit_href = _ep_path -%}
     {%- if _hit_href == '' and _yt_url != '' -%}

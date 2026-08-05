@@ -15,8 +15,14 @@
     {%- assign _yt_url = _episode.episode_url -%}
   {%- endif -%}
 {%- endif -%}
-{%- assign _ep_path = _episode.episode_page_url | default: '' | strip -%}
-{%- if _audio != '' -%}
+{%- comment -%}
+  Only link to an episode page once CI has stamped page_build_fingerprint.
+  Feed refresh publishes episode_page_url before HTML exists; linking early 404s.
+{%- endcomment -%}
+{%- assign _ep_fp = _episode.page_build_fingerprint | default: '' | strip -%}
+{%- assign _ep_path = '' -%}
+{%- if _audio != '' and _ep_fp != '' -%}
+  {%- assign _ep_path = _episode.episode_page_url | default: '' | strip -%}
   {%- if _ep_path == '' -%}
     {%- assign _key = _episode.episode_slug | default: _episode.episode_key | default: '' | strip -%}
     {%- if _key == '' -%}
@@ -31,8 +37,6 @@
       {%- assign _ep_path = '/' | append: _slug | append: '/' | append: _key | append: '/' -%}
     {%- endif -%}
   {%- endif -%}
-{%- else -%}
-  {%- assign _ep_path = '' -%}
 {%- endif -%}
 {%- if _ep_path != '' -%}
 <a href="{{ _ep_path | relative_url | escape }}" class="{{ _class }}"{% if include.datetime_attr %} {{ include.datetime_attr }}{% endif %}>{{ _episode.episode_title }}</a>

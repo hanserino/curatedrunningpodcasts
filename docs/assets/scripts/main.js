@@ -42,6 +42,19 @@ function wireHeaderNav() {
             shell.classList.toggle('is-open', open);
             btn.setAttribute('aria-expanded', open ? 'true' : 'false');
             btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+            if (!open) {
+                if (window.BrpUserSync && typeof window.BrpUserSync.closeAllAuthMenus === 'function') {
+                    window.BrpUserSync.closeAllAuthMenus();
+                } else {
+                    shell.querySelectorAll('[data-user-auth]').forEach(function (root) {
+                        root.classList.remove('is-open');
+                        var toggle = root.querySelector('[data-user-auth-toggle]');
+                        var dropdown = root.querySelector('[data-user-auth-dropdown]');
+                        if (toggle) toggle.setAttribute('aria-expanded', 'false');
+                        if (dropdown) dropdown.hidden = true;
+                    });
+                }
+            }
         }
 
         btn.addEventListener('click', function (e) {

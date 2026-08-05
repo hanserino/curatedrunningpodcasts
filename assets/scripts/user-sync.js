@@ -529,7 +529,7 @@
     }
 
     function closeAuthMenu(root) {
-        if (!root || isMobileNav()) {
+        if (!root) {
             return;
         }
         var toggle = root.querySelector('[data-user-auth-toggle]');
@@ -556,9 +556,6 @@
         if (!toggle || !dropdown) {
             return;
         }
-        if (isMobileNav()) {
-            open = true;
-        }
         root.classList.toggle('is-open', open);
         toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
         dropdown.hidden = !open;
@@ -567,16 +564,15 @@
     function syncMobileAuthPresentation() {
         document.querySelectorAll('[data-user-auth]').forEach(function (root) {
             var toggle = root.querySelector('[data-user-auth-toggle]');
-            var dropdown = root.querySelector('[data-user-auth-dropdown]');
-            if (!toggle || !dropdown) {
+            if (!toggle) {
                 return;
             }
 
             if (isMobileNav()) {
                 root.classList.add('user-auth--mobile-nav');
-                setAuthMenuOpen(root, true);
-                toggle.setAttribute('tabindex', '-1');
-                toggle.setAttribute('aria-hidden', 'true');
+                toggle.removeAttribute('tabindex');
+                toggle.removeAttribute('aria-hidden');
+                closeAuthMenu(root);
             } else {
                 root.classList.remove('user-auth--mobile-nav');
                 toggle.removeAttribute('tabindex');
@@ -634,7 +630,7 @@
             if (signOutBtn) {
                 signOutBtn.hidden = !signedIn;
             }
-            if (toggle && !isMobileNav()) {
+            if (toggle) {
                 toggle.setAttribute(
                     'aria-label',
                     signedIn
@@ -643,10 +639,8 @@
                 );
             }
 
-            if (!signedIn && !isMobileNav()) {
+            if (!signedIn && !root.classList.contains('is-open')) {
                 closeAuthMenu(root);
-            } else if (isMobileNav()) {
-                setAuthMenuOpen(root, true);
             }
         });
     }
@@ -659,9 +653,6 @@
             }
             toggle.setAttribute('data-user-auth-wired', 'true');
             toggle.addEventListener('click', function (e) {
-                if (isMobileNav()) {
-                    return;
-                }
                 e.stopPropagation();
                 var open = !root.classList.contains('is-open');
                 closeAllAuthMenus();
@@ -784,6 +775,7 @@
         },
         notifyLocalChange: scheduleCloudSave,
         flushLocalChange: flushCloudSave,
+        closeAllAuthMenus: closeAllAuthMenus,
     };
 
     if (document.readyState === 'loading') {

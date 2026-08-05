@@ -27,17 +27,19 @@
     {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
     {%- assign _audio = episode.audio_url | default: '' | strip -%}
     {%- assign _yt_id = episode.youtube_video_id | default: '' | strip -%}
-    {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
-    {%- if _audio != '' and _ep_path == '' -%}
-      {%- assign _key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
-      {%- if _key == '' -%}
-        {%- assign _key = episode.episode_title | slugify -%}
+    {%- assign _ep_fp = episode.page_build_fingerprint | default: '' | strip -%}
+    {%- assign _ep_path = '' -%}
+    {%- if _audio != '' and _ep_fp != '' -%}
+      {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
+      {%- if _ep_path == '' -%}
+        {%- assign _key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
+        {%- if _key == '' -%}
+          {%- assign _key = episode.episode_title | slugify -%}
+        {%- endif -%}
+        {%- if page.slug != '' and _key != '' -%}
+          {%- assign _ep_path = '/' | append: page.slug | append: '/' | append: _key | append: '/' -%}
+        {%- endif -%}
       {%- endif -%}
-      {%- if page.slug != '' and _key != '' -%}
-        {%- assign _ep_path = '/' | append: page.slug | append: '/' | append: _key | append: '/' -%}
-      {%- endif -%}
-    {%- elsif _audio == '' -%}
-      {%- assign _ep_path = '' -%}
     {%- endif -%}
     {%- assign _item_cover = episode.episode_image_url | default: '' | strip -%}
     {%- if _item_cover == '' -%}

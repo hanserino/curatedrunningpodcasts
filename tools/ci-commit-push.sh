@@ -36,6 +36,7 @@ rebuild_site() {
       bash tools/ci-feed-only-build.sh
   elif [ "${CI_EPISODE_PAGES:-0}" = "1" ]; then
     EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
+      EPISODE_PAGES_MAX_NEW="${EPISODE_PAGES_MAX_NEW:-120}" \
       bash tools/ci-episode-pages-build.sh
   else
     bash tools/ci-directory-build.sh

@@ -1033,6 +1033,13 @@ module LatestPodcastEpisodes
       if match["youtube_video_id"].to_s.strip != ""
         item["youtube_video_id"] = match["youtube_video_id"]
       end
+      # Propagate build fingerprint so templates can avoid linking to unbuilt pages.
+      fingerprint = match["page_build_fingerprint"].to_s.strip
+      if fingerprint.empty?
+        item.delete("page_build_fingerprint")
+      else
+        item["page_build_fingerprint"] = fingerprint
+      end
     end
   end
 
@@ -1580,6 +1587,18 @@ module LatestPodcastEpisodes
   def stamp_episode_fingerprints!(site, episodes_by_feed, only_feed_keys: nil)
     return unless episodes_by_feed.is_a?(Hash)
 
+    # Pages generated this run exist in site.pages before Jekyll writes them to
+    # disk (and before rsync into docs/). Count those as built so fingerprints
+    # land in _data on the same CI pass instead of lagging one run behind.
+    generated_permalinks = {}
+    Array(site.pages).each do |page|
+      next unless page.respond_to?(:data)
+      next unless page.data["category"].to_s == "podcast_episode"
+
+      permalink = page.data["permalink"].to_s.strip
+      generated_permalinks[permalink] = true unless permalink.empty?
+    end
+
     feed_to_podcast = feed_to_podcast_map(site)
     episodes_by_feed.each do |feed_key, episodes|
       next if only_feed_keys && !only_feed_keys.map(&:to_s).include?(feed_key.to_s)
@@ -1594,8 +1613,9 @@ module LatestPodcastEpisodes
         next if episode_slug.empty?
 
         podcast_slug = doc.data["slug"].to_s
-        permalink = "/#{podcast_slug}/#{episode_slug}/"
-        next unless File.file?(episode_page_existing_path(site, permalink))
+        permalink = episode_page_path(podcast_slug, episode_slug)
+        on_disk = File.file?(episode_page_existing_path(site, permalink))
+        next unless on_disk || generated_permalinks[permalink]
 
         entry["page_build_fingerprint"] =
           episode_page_fingerprint(entry, doc)
@@ -1995,6 +2015,7 @@ def build_latest_podcast_episodes_data(site)
       )
       merged["episodes_by_feed"] ||= {}
       refreshed = LatestPodcastEpisodes.refresh_podcast_feeds!(site, merged)
+      LatestPodcastEpisodes.reconcile_directory_items!(merged["items"], merged["episodes_by_feed"])
       LatestPodcastEpisodes.ensure_feed_episodes_list!(merged)
       site.data["latest_podcast_episodes"] = merged
       if refreshed.positive?

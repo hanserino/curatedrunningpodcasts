@@ -253,130 +253,47 @@
         flex-direction: column;
         align-items: stretch;
         width: 100%;
-        gap: 0.15rem;
-
-        &--signed-in {
-            display: grid;
-            grid-template-columns: auto minmax(0, 1fr);
-            column-gap: 0.65rem;
-            row-gap: 0.15rem;
-            align-items: center;
-        }
-
-        &--signed-in &__identity {
-            display: flex;
-            grid-row: 1;
-            grid-column: 1;
-            padding: 0.15rem 0 0.35rem 0.15rem;
-        }
-
-        &--signed-in &__dropdown {
-            display: contents !important;
-        }
-
-        &--signed-in &__email {
-            grid-row: 1;
-            grid-column: 2;
-            margin: 0;
-            padding: 0.15rem 0.15rem 0.35rem 0;
-        }
-
-        &--signed-in &__action {
-            grid-column: 1 / -1;
-        }
+        gap: 0.35rem;
 
         &__identity {
-            display: none;
-            position: static;
-            width: auto;
-            height: auto;
-            align-items: center;
-            justify-content: flex-start;
-            gap: 0.65rem;
-            padding: 0.15rem 0.15rem 0.35rem;
-            pointer-events: auto;
-            overflow: visible;
-            border-radius: 0;
-        }
-
-        &__avatar {
-            width: 2.35rem;
-            height: 2.35rem;
-            flex-shrink: 0;
+            /* Keep avatar under the toggle hit target in the hamburger account row. */
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
         }
 
         &__toggle {
-            display: none;
+            display: inline-flex;
+            align-self: flex-start;
         }
 
         &__dropdown {
             position: static;
-            display: flex !important;
-            flex-direction: column;
-            align-items: stretch;
+            top: auto;
+            right: auto;
             width: 100%;
             min-width: 0;
             margin: 0;
-            padding: 0;
-            border: none;
-            border-radius: 0;
-            background: transparent;
-            box-shadow: none;
+            padding: 0.45rem;
+            @include brutal-surface;
 
             &[hidden] {
-                display: flex !important;
+                display: none !important;
             }
         }
 
-        &__sign-in {
-            width: 100%;
-        }
-
         &__sign-in-note {
-            padding: 0 0.15rem;
-            font-size: 0.78rem;
             text-align: left;
         }
 
         &__google-btn {
             justify-content: flex-start;
-            min-height: 2.75rem;
-            padding-inline: 0.9rem;
-        }
-
-        &__email {
-            order: -1;
-            margin: 0;
-            padding: 0.15rem 0.15rem 0.35rem;
-            border-bottom: none;
-            font-size: 0.92rem;
-            font-weight: 700;
-            color: inherit;
         }
 
         &__action {
-            display: block;
-            width: 100%;
-            padding: 0.45rem 0.15rem;
-            border: none;
-            border-radius: 0;
-            border-bottom: 2px solid transparent;
-            background: transparent;
-            font-size: 0.92rem;
-            font-weight: 700;
-            text-align: left;
-            box-shadow: none;
-
-            &:hover,
-            &:focus-visible {
-                background: transparent;
-                border-bottom-color: $color-ink;
-                transform: none;
-            }
-
-            &:focus-visible {
-                outline: 3px solid $color-speed;
-                outline-offset: 2px;
+            &[aria-current="page"] {
+                background: rgba($color-speed, 0.18);
             }
         }
     }
@@ -386,8 +303,16 @@
     }
 
     .home-page__hero-bar .user-auth {
+        &__dropdown {
+            background: rgba($color-ink, 0.92);
+            border-color: #fff;
+            color: #fff;
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.35);
+        }
+
         &__email {
             color: rgba(255, 255, 255, 0.88);
+            border-bottom-color: rgba(255, 255, 255, 0.18);
         }
 
         &__sign-in-note {
@@ -399,8 +324,11 @@
 
             &:hover,
             &:focus-visible {
-                color: $color-flash;
-                border-bottom-color: $color-flash;
+                background: rgba(255, 255, 255, 0.12);
+            }
+
+            &[aria-current="page"] {
+                background: rgba($color-speed, 0.28);
             }
         }
     }

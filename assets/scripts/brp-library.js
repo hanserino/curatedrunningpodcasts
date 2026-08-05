@@ -509,9 +509,10 @@
     }
 
     function removeFromListenHistory(url) {
-        unmarkEpisodePlayedLocally(url);
         if (window.BrpPlayer && window.BrpPlayer.unmarkAsPlayed) {
             window.BrpPlayer.unmarkAsPlayed(url);
+        } else {
+            unmarkEpisodePlayedLocally(url);
         }
         refreshActionLabels(document);
         renderListenHistory();
@@ -619,14 +620,16 @@
         if (playedBtn) {
             saveEpisodeMeta(meta);
             if (isEpisodePlayedLocally(meta.audioUrl)) {
-                unmarkEpisodePlayedLocally(meta.audioUrl);
                 if (window.BrpPlayer && window.BrpPlayer.unmarkAsPlayed) {
                     window.BrpPlayer.unmarkAsPlayed(meta.audioUrl);
+                } else {
+                    unmarkEpisodePlayedLocally(meta.audioUrl);
                 }
             } else {
-                markEpisodePlayedLocally(meta.audioUrl);
                 if (window.BrpPlayer && window.BrpPlayer.markAsPlayed) {
                     window.BrpPlayer.markAsPlayed(meta.audioUrl);
+                } else {
+                    markEpisodePlayedLocally(meta.audioUrl);
                 }
                 removeFromQueue(meta.audioUrl);
             }

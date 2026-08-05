@@ -224,7 +224,14 @@
 
     function getSavedProgressSeconds(url) {
         var row = getSavedProgressRow(url);
-        if (!row || isProgressComplete(row)) return null;
+        if (!row || typeof row.t !== 'number' || !isFinite(row.t)) return null;
+        if (row.t < MIN_RESUME_SEC) return null;
+        // Finished (or marked played at end): start over on next play.
+        if (isFinite(row.d) && row.d > 0 && row.t >= row.d - END_MARGIN_SEC) return null;
+        // Marked played with no scrub position, or complete with no duration.
+        if (row.c === true && !(isFinite(row.t) && row.t >= MIN_RESUME_SEC && isFinite(row.d) && row.d > 0)) {
+            return null;
+        }
         return row.t;
     }
 
@@ -257,12 +264,19 @@
     function saveProgressForUrl(url, currentTime, duration) {
         var key = storageUrlKey(url);
         if (!key || !isFinite(currentTime)) return;
+        var map = loadProgressMap();
+        var existing = map[key] || {};
+        var wasComplete = isProgressComplete(existing);
+
+        // Near the start: clear in-progress resume points, but never drop a
+        // completed listen from history (replaying / scrubbing to 0 used to).
         if (currentTime < MIN_RESUME_SEC) {
+            if (wasComplete) return;
+            if (!map[key] || map[key].x === 1) return;
             removeProgressForUrl(url);
             return;
         }
-        var map = loadProgressMap();
-        var existing = map[key] || {};
+
         var dur = duration;
         if (!isFinite(dur) || dur <= 0) {
             if (isFinite(existing.d) && existing.d > 0) dur = existing.d;
@@ -274,6 +288,8 @@
             entry = { t: currentTime, u: Date.now() };
             if (isFinite(dur) && dur > 0) entry.d = dur;
             else if (isFinite(existing.d) && existing.d > 0) entry.d = existing.d;
+            // Keep completed episodes in listen history while replaying mid-episode.
+            if (wasComplete) entry.c = true;
         }
         map[key] = entry;
         persistProgressMap(map);
@@ -412,23 +428,59 @@
         if (!episodePath) return;
         if (pathnamesMatch(window.location.pathname, episodePath)) return;
 
-        if (playerModalUrlState && playerModalUrlState.pushed) {
-            history.replaceState(
-                { brpPlayerModal: true, returnTo: playerModalUrlState.returnTo },
-                '',
-                episodePath
-            );
-            playerModalUrlState.episodePath = episodePath;
-            return;
-        }
+        // Feed / history / directory pages often link to episode URLs before CI
+        // has generated the HTML. Rewriting the address bar would 404 on refresh.
+        // Probe with HEAD first; skip the rewrite when the page is not built yet.
+        probeEpisodePageThenSync(episodePath);
+    }
 
-        var returnTo = currentPageSignature();
-        playerModalUrlState = {
-            pushed: true,
-            returnTo: returnTo,
-            episodePath: episodePath,
+    function probeEpisodePageThenSync(episodePath) {
+        if (!episodePath || !fullscreenOpen) return;
+        if (pathnamesMatch(window.location.pathname, episodePath)) return;
+
+        var applyUrl = function () {
+            if (!fullscreenOpen) return;
+            if (pathnamesMatch(window.location.pathname, episodePath)) return;
+
+            if (playerModalUrlState && playerModalUrlState.pushed) {
+                history.replaceState(
+                    { brpPlayerModal: true, returnTo: playerModalUrlState.returnTo },
+                    '',
+                    episodePath
+                );
+                playerModalUrlState.episodePath = episodePath;
+                return;
+            }
+
+            var returnTo = currentPageSignature();
+            playerModalUrlState = {
+                pushed: true,
+                returnTo: returnTo,
+                episodePath: episodePath,
+            };
+            history.pushState({ brpPlayerModal: true, returnTo: returnTo }, '', episodePath);
         };
-        history.pushState({ brpPlayerModal: true, returnTo: returnTo }, '', episodePath);
+
+        var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+        var timer = null;
+        var opts = { method: 'HEAD', credentials: 'same-origin' };
+        if (controller) {
+            opts.signal = controller.signal;
+            timer = setTimeout(function () {
+                try {
+                    controller.abort();
+                } catch (e) {}
+            }, 1200);
+        }
+        fetch(episodePath, opts)
+            .then(function (res) {
+                if (timer) clearTimeout(timer);
+                if (!res.ok) return;
+                applyUrl();
+            })
+            .catch(function () {
+                if (timer) clearTimeout(timer);
+            });
     }
 
     function restorePlayerModalUrlOnClose(skipRestore) {

@@ -237,6 +237,7 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     skipped_count = 0
     deferred_count = 0
     max_new = LatestPodcastEpisodes.max_new_episode_pages_per_build
+    pending = []
 
     episodes_by_feed.each do |feed_key, episodes|
       podcast_doc = feed_to_podcast[feed_key.to_s]
@@ -266,20 +267,46 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
           next
         end
 
-        if max_new && page_count >= max_new
-          deferred_count += 1
-          next
-        end
+        published_at =
+          begin
+            Time.parse(raw["published_at"].to_s)
+          rescue ArgumentError, TypeError
+            Time.at(0)
+          end
 
-        episode = prepare_episode(raw)
-        page = PodcastEpisodePage.new(site, site.source, podcast_doc, episode, episode_slug)
-        site.pages << page
-        target = PodcastEpisodeRedirects.absolute_target(site, page.data["permalink"])
-        page.redirect_paths.each do |from_path|
-          site.pages << PodcastEpisodeRedirectPage.new(site, site.source, from_path, target)
-        end
-        page_count += 1
+        pending << {
+          podcast_doc: podcast_doc,
+          raw: raw,
+          episode_slug: episode_slug,
+          published_at: published_at
+        }
       end
+    end
+
+    # Newest first so EPISODE_PAGES_MAX_NEW never defers today's episodes behind
+    # an older backlog when fingerprints are dirty or a prior run timed out.
+    pending.sort_by! { |row| row[:published_at] }.reverse!
+
+    pending.each do |row|
+      if max_new && page_count >= max_new
+        deferred_count += 1
+        next
+      end
+
+      episode = prepare_episode(row[:raw])
+      page = PodcastEpisodePage.new(
+        site,
+        site.source,
+        row[:podcast_doc],
+        episode,
+        row[:episode_slug]
+      )
+      site.pages << page
+      target = PodcastEpisodeRedirects.absolute_target(site, page.data["permalink"])
+      page.redirect_paths.each do |from_path|
+        site.pages << PodcastEpisodeRedirectPage.new(site, site.source, from_path, target)
+      end
+      page_count += 1
     end
 
     if LatestPodcastEpisodes.incremental_episode_pages?
@@ -299,6 +326,10 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     return unless episodes_by_feed.is_a?(Hash)
 
     LatestPodcastEpisodes.stamp_episode_fingerprints!(site, episodes_by_feed)
+    LatestPodcastEpisodes.reconcile_directory_items!(
+      feed_data["items"],
+      episodes_by_feed
+    )
     LatestPodcastEpisodes.write_committed_data(site, feed_data)
   end
 end
