@@ -1,5 +1,49 @@
 @import 'core/vars';
 
+@keyframes brp-skip-spin-back {
+    0% {
+        transform: rotate(0deg);
+    }
+    45% {
+        transform: rotate(-26deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes brp-skip-spin-forward {
+    0% {
+        transform: rotate(0deg);
+    }
+    45% {
+        transform: rotate(26deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.brp-skip-spin-back,
+.brp-skip-spin-forward {
+    transform-origin: center center;
+}
+
+.brp-skip-spin-back {
+    animation: brp-skip-spin-back 0.22s ease-out;
+}
+
+.brp-skip-spin-forward {
+    animation: brp-skip-spin-forward 0.22s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .brp-skip-spin-back,
+    .brp-skip-spin-forward {
+        animation: none;
+    }
+}
+
 #brp-global-player {
     position: fixed;
     left: 0;
@@ -241,11 +285,20 @@
         flex-shrink: 0;
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
+        transform-origin: center center;
 
         &:hover,
         &:focus-visible {
             background: rgba($color-speed, 0.16);
             border-color: $color-ink;
+        }
+
+        &.brp-skip-spin-back {
+            animation: brp-skip-spin-back 0.22s ease-out;
+        }
+
+        &.brp-skip-spin-forward {
+            animation: brp-skip-spin-forward 0.22s ease-out;
         }
     }
 
@@ -763,10 +816,19 @@ body.brp-global-player-visible {
         justify-content: center;
         flex-shrink: 0;
         touch-action: manipulation;
+        transform-origin: center center;
 
         &:hover,
         &:focus-visible {
             background: rgba($color-speed, 0.16);
+        }
+
+        &.brp-skip-spin-back {
+            animation: brp-skip-spin-back 0.22s ease-out;
+        }
+
+        &.brp-skip-spin-forward {
+            animation: brp-skip-spin-forward 0.22s ease-out;
         }
     }
 

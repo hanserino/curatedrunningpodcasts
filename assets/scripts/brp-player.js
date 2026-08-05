@@ -9,6 +9,21 @@
     var SKIP_BACK_SEC = 15;
     var SKIP_FORWARD_SEC = 30;
 
+    function pulseSkipSpin(button, direction) {
+        if (!button) return;
+        var cls = direction === 'back' ? 'brp-skip-spin-back' : 'brp-skip-spin-forward';
+        button.classList.remove('brp-skip-spin-back', 'brp-skip-spin-forward');
+        // Restart the animation if the same button is clicked again mid-spin.
+        requestAnimationFrame(function () {
+            button.classList.add(cls);
+        });
+        function clearSpin() {
+            button.classList.remove(cls);
+            button.removeEventListener('animationend', clearSpin);
+        }
+        button.addEventListener('animationend', clearSpin);
+    }
+
     var player = null;
     var globalRoot = null;
     var globalArt = null;
@@ -37,6 +52,8 @@
     var fullscreenScrubbing = false;
     var fullscreenOpen = false;
     var fullscreenEscHandler = null;
+    var playerModalUrlState = null;
+    var playerModalUrlRestorePending = false;
 
     var activeDeck = null;
     var currentMeta = {
@@ -360,6 +377,72 @@
         } catch (e) {
             return value.charAt(0) === '/' ? value : '/' + value;
         }
+    }
+
+    function normalizePathname(path) {
+        if (!path) return '/';
+        var p = String(path).split('?')[0].split('#')[0];
+        try {
+            p = new URL(p, window.location.origin).pathname;
+        } catch (e) {}
+        if (p.length > 1 && p.endsWith('/')) {
+            p = p.slice(0, -1);
+        }
+        return p || '/';
+    }
+
+    function pathnamesMatch(a, b) {
+        return normalizePathname(a) === normalizePathname(b);
+    }
+
+    function currentPageSignature() {
+        return window.location.pathname + window.location.search + window.location.hash;
+    }
+
+    function syncPlayerModalUrl() {
+        var episodePath = resolveSitePath(currentMeta.episodePageUrl);
+        if (!episodePath) return;
+        if (pathnamesMatch(window.location.pathname, episodePath)) return;
+
+        if (playerModalUrlState && playerModalUrlState.pushed) {
+            history.replaceState(
+                { brpPlayerModal: true, returnTo: playerModalUrlState.returnTo },
+                '',
+                episodePath
+            );
+            playerModalUrlState.episodePath = episodePath;
+            return;
+        }
+
+        var returnTo = currentPageSignature();
+        playerModalUrlState = {
+            pushed: true,
+            returnTo: returnTo,
+            episodePath: episodePath,
+        };
+        history.pushState({ brpPlayerModal: true, returnTo: returnTo }, '', episodePath);
+    }
+
+    function restorePlayerModalUrlOnClose(skipRestore) {
+        if (skipRestore) {
+            playerModalUrlState = null;
+            playerModalUrlRestorePending = false;
+            return;
+        }
+        if (!playerModalUrlState || !playerModalUrlState.pushed) return;
+        playerModalUrlState = null;
+        playerModalUrlRestorePending = true;
+        history.back();
+    }
+
+    function onPlayerModalPopState() {
+        if (playerModalUrlRestorePending) {
+            playerModalUrlRestorePending = false;
+            return;
+        }
+        if (!fullscreenOpen || !playerModalUrlState || !playerModalUrlState.pushed) return;
+        playerModalUrlState = null;
+        closePlayerFullscreen(true, { skipUrlRestore: true });
     }
 
     function metaLinkHtml(text, url, linkClass, appearanceClass) {
@@ -804,7 +887,8 @@
         return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
     }
 
-    function finishClosePlayerFullscreen() {
+    function finishClosePlayerFullscreen(options) {
+        options = options || {};
         if (!fullscreenRoot) return;
         fullscreenRoot.hidden = true;
         fullscreenRoot.setAttribute('aria-hidden', 'true');
@@ -812,6 +896,7 @@
         document.body.classList.remove('brp-player-fullscreen-open');
         fullscreenOpen = false;
         fullscreenScrubbing = false;
+        restorePlayerModalUrlOnClose(!!options.skipUrlRestore);
         if (fullscreenEscHandler) {
             document.removeEventListener('keydown', fullscreenEscHandler);
         }
@@ -855,12 +940,14 @@
         if (fullscreenPlay) {
             fullscreenPlay.focus();
         }
+        syncPlayerModalUrl();
     }
 
-    function closePlayerFullscreen(instant) {
+    function closePlayerFullscreen(instant, options) {
+        options = options || {};
         if (!fullscreenRoot || !fullscreenOpen) return;
         if (instant || prefersReducedMotion()) {
-            finishClosePlayerFullscreen();
+            finishClosePlayerFullscreen(options);
             return;
         }
         fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
@@ -870,7 +957,7 @@
             function onExitEnd(event) {
                 if (event.animationName !== 'brp-player-fullscreen-exit') return;
                 fullscreenRoot.removeEventListener('animationend', onExitEnd);
-                finishClosePlayerFullscreen();
+                finishClosePlayerFullscreen(options);
             }
         );
     }
@@ -1511,6 +1598,7 @@
             fsSkipBack.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
+                pulseSkipSpin(fsSkipBack, 'back');
                 seekGlobalBySeconds(-SKIP_BACK_SEC);
             });
         }
@@ -1519,6 +1607,7 @@
             fsSkipForward.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
+                pulseSkipSpin(fsSkipForward, 'forward');
                 seekGlobalBySeconds(SKIP_FORWARD_SEC);
             });
         }
@@ -1559,6 +1648,7 @@
             globalSkipBack.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
+                pulseSkipSpin(globalSkipBack, 'back');
                 seekGlobalBySeconds(-SKIP_BACK_SEC);
             });
         }
@@ -1567,6 +1657,7 @@
             globalSkipForward.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
+                pulseSkipSpin(globalSkipForward, 'forward');
                 seekGlobalBySeconds(SKIP_FORWARD_SEC);
             });
         }
@@ -2796,6 +2887,7 @@
         if (deckSkipBack) {
             deckSkipBack.addEventListener('click', function () {
                 if (!player.src) return;
+                pulseSkipSpin(deckSkipBack, 'back');
                 player.currentTime = Math.max(0, player.currentTime - SKIP_BACK_SEC);
                 updateTransportTimes();
                 updateGlobalTransportTimes();
@@ -2806,6 +2898,7 @@
         if (deckSkipForward) {
             deckSkipForward.addEventListener('click', function () {
                 if (!player.src) return;
+                pulseSkipSpin(deckSkipForward, 'forward');
                 var dur = player.duration;
                 var next = player.currentTime + SKIP_FORWARD_SEC;
                 if (isFinite(dur) && dur > 0) next = Math.min(next, dur);
@@ -2988,7 +3081,9 @@
     function onBeforeTurboRender() {
         persistPlaybackMeta();
         savePlaybackHandoff();
-        closePlayerFullscreen(true);
+        closePlayerFullscreen(true, { skipUrlRestore: true });
+        playerModalUrlState = null;
+        playerModalUrlRestorePending = false;
         activeDeck = null;
         deckShellVisible = false;
         if (deckVisibilityObserver) {
@@ -3069,4 +3164,5 @@
             el.removeAttribute('data-brp-deck-wired');
         });
     });
+    window.addEventListener('popstate', onPlayerModalPopState);
 })();
