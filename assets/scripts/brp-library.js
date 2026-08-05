@@ -360,10 +360,6 @@
         '<svg class="latest-episodes__action-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">' +
         '<path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M12 7v10M7 13l5 5 5-5"/></svg>';
 
-    function isMenuActionButton(btn) {
-        return !!(btn && btn.closest('.latest-episodes__actions-panel'));
-    }
-
     function ensureEpisodeControls(titles) {
         if (!titles) return null;
         var existing = titles.querySelector(':scope > .latest-episodes__episode-controls');
@@ -404,13 +400,7 @@
             '<button type="button" class="latest-episodes__action latest-episodes__action--icon" data-brp-mark-played title="Mark as played" aria-label="Mark as played">' +
             ICON_CHECK +
             '</button>' +
-            '</div>' +
-            '<details class="latest-episodes__actions-menu">' +
-            '<summary class="latest-episodes__actions-trigger" aria-label="Episode actions"><span aria-hidden="true">⋯</span></summary>' +
-            '<div class="latest-episodes__actions-panel" role="menu">' +
-            '<button type="button" class="latest-episodes__action" data-brp-queue-add role="menuitem">Add to queue</button>' +
-            '<button type="button" class="latest-episodes__action" data-brp-mark-played role="menuitem">Mark as played</button>' +
-            '</div></details>';
+            '</div>';
         var controls = titles && titles.querySelector('.latest-episodes__episode-controls');
         if (controls) {
             controls.appendChild(wrap);
@@ -497,13 +487,9 @@
                 btn.setAttribute('data-brp-history-remove', '');
                 btn.classList.remove('latest-episodes__action--active');
                 btn.classList.add('latest-episodes__action--history-remove');
-                if (isMenuActionButton(btn)) {
-                    btn.textContent = 'Remove from history';
-                } else {
-                    btn.innerHTML = ICON_X;
-                    btn.title = 'Remove from history';
-                    btn.setAttribute('aria-label', 'Remove from history');
-                }
+                btn.innerHTML = ICON_X;
+                btn.title = 'Remove from history';
+                btn.setAttribute('aria-label', 'Remove from history');
             });
         });
     }
@@ -538,25 +524,17 @@
             actions.querySelectorAll('[data-brp-mark-played]').forEach(function (btn) {
                 if (isListenHistoryItem(item)) return;
                 var label = played ? 'Mark unplayed' : 'Mark as played';
-                if (isMenuActionButton(btn)) {
-                    btn.textContent = label;
-                } else {
-                    btn.title = label;
-                    btn.setAttribute('aria-label', label);
-                    btn.classList.toggle('latest-episodes__action--active', played);
-                }
+                btn.title = label;
+                btn.setAttribute('aria-label', label);
+                btn.classList.toggle('latest-episodes__action--active', played);
                 btn.setAttribute('aria-pressed', played ? 'true' : 'false');
             });
             var inQueue = queueContains(loadQueueState(), urlKey(meta.audioUrl));
             actions.querySelectorAll('[data-brp-queue-add]').forEach(function (btn) {
                 var label = inQueue ? 'In queue' : 'Add to queue';
-                if (isMenuActionButton(btn)) {
-                    btn.textContent = label;
-                } else {
-                    btn.title = label;
-                    btn.setAttribute('aria-label', label);
-                    btn.classList.toggle('latest-episodes__action--active', inQueue);
-                }
+                btn.title = label;
+                btn.setAttribute('aria-label', label);
+                btn.classList.toggle('latest-episodes__action--active', inQueue);
                 btn.disabled = inQueue;
             });
         });
@@ -588,9 +566,6 @@
 
         event.preventDefault();
         event.stopPropagation();
-
-        var details = event.target.closest('details.latest-episodes__actions-menu');
-        if (details) details.open = false;
 
         if (moveBtn) {
             moveQueueItem(meta.audioUrl, moveBtn.getAttribute('data-brp-queue-move'));
