@@ -238,6 +238,12 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     deferred_count = 0
     max_new = LatestPodcastEpisodes.max_new_episode_pages_per_build
     pending = []
+    incremental = LatestPodcastEpisodes.incremental_episode_pages?
+    rebuild_all = ENV["REBUILD_ALL_EPISODE_PAGES"].to_s == "1"
+    Jekyll.logger.info(
+      "PodcastEpisodePages:",
+      "Scanning #{episodes_by_feed.size} feed(s) (incremental=#{incremental}, rebuild_all=#{rebuild_all}, max_new=#{max_new || 'unlimited'})."
+    )
 
     episodes_by_feed.each do |feed_key, episodes|
       podcast_doc = feed_to_podcast[feed_key.to_s]
@@ -287,10 +293,22 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     # an older backlog when fingerprints are dirty or a prior run timed out.
     pending.sort_by! { |row| row[:published_at] }.reverse!
 
+    Jekyll.logger.info(
+      "PodcastEpisodePages:",
+      "Scan complete: #{pending.size} pending, #{skipped_count} skipped unchanged."
+    )
+
     pending.each do |row|
       if max_new && page_count >= max_new
         deferred_count += 1
         next
+      end
+
+      if page_count.positive? && (page_count % 25).zero?
+        Jekyll.logger.info(
+          "PodcastEpisodePages:",
+          "Prepared #{page_count} episode page(s) so far…"
+        )
       end
 
       episode = prepare_episode(row[:raw])

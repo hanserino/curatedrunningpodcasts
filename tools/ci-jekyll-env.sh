@@ -21,7 +21,7 @@ fi
 
 CHANGED=$(git diff --name-only "$BEFORE" "$AFTER" 2>/dev/null || true)
 
-if echo "$CHANGED" | grep -q '^[_]plugins/'; then
+if echo "$CHANGED" | grep -qE '^[_]plugins/(latest_podcast_episodes|podcast_episode_pages|youtube_episode_matcher)\.rb$'; then
   append_env REBUILD_ALL_EPISODE_PAGES 1
 fi
 
