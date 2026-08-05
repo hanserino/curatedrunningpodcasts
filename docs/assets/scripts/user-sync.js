@@ -713,6 +713,16 @@
                 signOut();
             });
         });
+
+        document.querySelectorAll('[data-user-auth-menu-link]').forEach(function (link) {
+            if (link.getAttribute('data-user-auth-wired') === 'true') {
+                return;
+            }
+            link.setAttribute('data-user-auth-wired', 'true');
+            link.addEventListener('click', function () {
+                closeAllAuthMenus();
+            });
+        });
     }
 
     async function init() {

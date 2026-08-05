@@ -1,4 +1,5 @@
 {%- if site.supabase.url and site.supabase.url != '' and site.supabase.anon_key and site.supabase.anon_key != '' -%}
+{%- assign history_href = '/listen-history/' | relative_url -%}
 <li class="main-nav__item main-nav__item--auth">
   <div class="user-auth" data-user-auth>
     <div class="user-auth__identity" data-user-auth-identity>
@@ -31,6 +32,13 @@
     </button>
     <div class="user-auth__dropdown" id="user-auth-menu" data-user-auth-dropdown hidden role="menu">
       <p class="user-auth__email" data-user-auth-email hidden></p>
+      <a
+        href="{{ history_href }}"
+        class="user-auth__action user-auth__action--link"
+        data-user-auth-menu-link
+        role="menuitem"
+        {%- if page.path == 'listen-history.md' %} aria-current="page"{% endif %}
+      >Listen history</a>
       <div class="user-auth__sign-in" data-user-auth-sign-in-panel>
         <button
           type="button"

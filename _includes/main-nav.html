@@ -1,6 +1,5 @@
 {%- assign about_href = '/about/' | relative_url -%}
 {%- assign latest_href = '/latest-episodes/' | relative_url -%}
-{%- assign history_href = '/listen-history/' | relative_url -%}
 {%- assign runners_picks_href = '/runners-picks/' | relative_url -%}
 <div class="header__nav-shell" data-header-actions>
   <button
@@ -21,13 +20,6 @@
               class="main-nav__link"
               {%- if page.path == 'latest-episodes.md' %} aria-current="page"{% endif %}
               >Latest episodes</a>
-          </li>
-        <li>
-          <a
-            href="{{ history_href }}"
-            class="main-nav__link"
-            {%- if page.path == 'listen-history.md' %} aria-current="page"{% endif %}
-            >Listen history</a>
           </li>
         <li>
           <a

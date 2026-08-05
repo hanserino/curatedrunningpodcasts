@@ -211,6 +211,8 @@
         line-height: 1.3;
         text-align: left;
         cursor: pointer;
+        box-sizing: border-box;
+        text-decoration: none;
 
         &:hover,
         &:focus-visible {
@@ -225,6 +227,10 @@
 
         &[hidden] {
             display: none !important;
+        }
+
+        &[aria-current="page"] {
+            background: rgba($color-speed, 0.18);
         }
     }
 }

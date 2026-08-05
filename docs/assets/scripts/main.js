@@ -76,7 +76,7 @@ function wireHeaderNav() {
             });
         });
 
-        shell.querySelectorAll('[data-user-auth-sign-in], [data-user-auth-sign-out]').forEach(function (btn) {
+        document.querySelectorAll('[data-user-auth-sign-in], [data-user-auth-sign-out], [data-user-auth-menu-link]').forEach(function (btn) {
             btn.addEventListener('click', function () {
                 setOpen(false);
             });
