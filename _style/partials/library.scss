@@ -62,6 +62,57 @@
     }
 }
 
+// Titles get the full row; play + actions sit underneath (main feed and Up next).
+.latest-episodes__list--feed {
+    .latest-episodes__episode-titles:has(.latest-episodes__episode-controls) {
+        min-height: 0;
+    }
+
+    .latest-episodes__episode-controls {
+        display: contents;
+    }
+
+    .latest-episodes__episode-title--feed,
+    .latest-episodes__podcast-link--feed,
+    .latest-episodes__podcast-label--feed {
+        grid-column: 1 / -1;
+    }
+
+    .latest-episodes__episode-titles:not(:has(.latest-episodes__episode-controls))
+        .latest-episodes__play--feed,
+    .latest-episodes__play--feed {
+        grid-column: 2;
+        grid-row: 3;
+        align-self: center;
+        justify-self: end;
+        pointer-events: auto;
+    }
+
+    @media screen and (min-width: 721px) {
+        .latest-episodes__play--feed {
+            margin-right: 0.35rem;
+        }
+    }
+
+    [data-episode-actions] {
+        grid-column: 1;
+        grid-row: 3;
+        position: static;
+        justify-self: start;
+        align-self: center;
+        width: auto;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        flex: none;
+        pointer-events: auto;
+    }
+
+    .latest-episodes__actions-inline {
+        flex-wrap: nowrap;
+    }
+}
+
 .latest-episodes__actions {
     display: flex;
     align-items: center;
@@ -143,9 +194,14 @@
     display: block;
     position: relative;
     margin-left: auto;
+    z-index: 3;
 
-    &[open] .latest-episodes__actions-panel {
-        display: flex;
+    &[open] {
+        z-index: 40;
+
+        .latest-episodes__actions-panel {
+            display: flex;
+        }
     }
 }
 
@@ -185,9 +241,9 @@
     padding: 0.35rem;
     border: $border-heavy;
     border-radius: $radius-sm;
-    background: $color-surface;
+    background: $color-paper;
     box-shadow: $shadow-brutal;
-    z-index: 5;
+    z-index: 50;
 
     .latest-episodes__action {
         width: 100%;
@@ -200,6 +256,18 @@
             background: $color-speed;
         }
     }
+}
+
+// Lift the whole row above sticky day headers / following cards while the menu is open.
+.latest-episodes__item:has(.latest-episodes__actions-menu[open]) {
+    position: relative;
+    z-index: 12;
+}
+
+.latest-episodes__item:has(.latest-episodes__actions-menu[open]) .latest-episodes__episode-card,
+.latest-episodes__item:has(.latest-episodes__actions-menu[open]) .latest-episodes__episode-titles {
+    overflow: visible;
+    z-index: 12;
 }
 
 .latest-episodes__episode-titles:has(.latest-episodes__episode-controls) {

@@ -66,6 +66,11 @@ module LatestPodcastEpisodes
     nil
   end
 
+  # Always store publish times in UTC so Liquid day keys match absolute-time sort.
+  def utc_iso8601(time)
+    time.utc.iso8601
+  end
+
   def latest_item_from_feed(xml)
     parsed = RSS::Parser.parse(xml, false)
     items = Array(parsed&.items).compact
@@ -1279,7 +1284,7 @@ module LatestPodcastEpisodes
             "episode_title" => title,
             "episode_url" => item.link.to_s.strip,
             "audio_url" => enclosure_url,
-            "published_at" => published_at.iso8601,
+            "published_at" => utc_iso8601(published_at),
             "description_html" => description_html,
             "description_plain" => description_plain,
             "episode_image_url" => image_url,
@@ -1542,7 +1547,7 @@ module LatestPodcastEpisodes
       "episode_title" => latest_item.title.to_s.strip,
       "episode_url" => latest_item.link.to_s.strip,
       "audio_url" => enclosure_url,
-      "published_at" => published_at.iso8601,
+      "published_at" => utc_iso8601(published_at),
       "episode_key" => latest_episode_meta&.dig("episode_slug"),
       "episode_slug" => latest_episode_meta&.dig("episode_slug"),
       "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
@@ -1729,7 +1734,7 @@ module LatestPodcastEpisodes
       "episode_title" => latest_item.title.to_s.strip,
       "episode_url" => latest_item.link.to_s.strip,
       "audio_url" => enclosure_url,
-      "published_at" => published_at.iso8601,
+      "published_at" => utc_iso8601(published_at),
       "episode_key" => latest_episode_meta&.dig("episode_slug"),
       "episode_slug" => latest_episode_meta&.dig("episode_slug"),
       "episode_page_url" => latest_episode_meta&.dig("episode_page_url")

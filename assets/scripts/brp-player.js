@@ -37,8 +37,6 @@
     var fullscreenScrubbing = false;
     var fullscreenOpen = false;
     var fullscreenEscHandler = null;
-    var playerModalUrlState = null;
-    var playerModalUrlRestorePending = false;
 
     var activeDeck = null;
     var currentMeta = {
@@ -362,72 +360,6 @@
         } catch (e) {
             return value.charAt(0) === '/' ? value : '/' + value;
         }
-    }
-
-    function normalizePathname(path) {
-        if (!path) return '/';
-        var p = String(path).split('?')[0].split('#')[0];
-        try {
-            p = new URL(p, window.location.origin).pathname;
-        } catch (e) {}
-        if (p.length > 1 && p.endsWith('/')) {
-            p = p.slice(0, -1);
-        }
-        return p || '/';
-    }
-
-    function pathnamesMatch(a, b) {
-        return normalizePathname(a) === normalizePathname(b);
-    }
-
-    function currentPageSignature() {
-        return window.location.pathname + window.location.search + window.location.hash;
-    }
-
-    function syncPlayerModalUrl() {
-        var episodePath = resolveSitePath(currentMeta.episodePageUrl);
-        if (!episodePath) return;
-        if (pathnamesMatch(window.location.pathname, episodePath)) return;
-
-        if (playerModalUrlState && playerModalUrlState.pushed) {
-            history.replaceState(
-                { brpPlayerModal: true, returnTo: playerModalUrlState.returnTo },
-                '',
-                episodePath
-            );
-            playerModalUrlState.episodePath = episodePath;
-            return;
-        }
-
-        var returnTo = currentPageSignature();
-        playerModalUrlState = {
-            pushed: true,
-            returnTo: returnTo,
-            episodePath: episodePath,
-        };
-        history.pushState({ brpPlayerModal: true, returnTo: returnTo }, '', episodePath);
-    }
-
-    function restorePlayerModalUrlOnClose(skipRestore) {
-        if (skipRestore) {
-            playerModalUrlState = null;
-            playerModalUrlRestorePending = false;
-            return;
-        }
-        if (!playerModalUrlState || !playerModalUrlState.pushed) return;
-        playerModalUrlState = null;
-        playerModalUrlRestorePending = true;
-        history.back();
-    }
-
-    function onPlayerModalPopState() {
-        if (playerModalUrlRestorePending) {
-            playerModalUrlRestorePending = false;
-            return;
-        }
-        if (!fullscreenOpen || !playerModalUrlState || !playerModalUrlState.pushed) return;
-        playerModalUrlState = null;
-        closePlayerFullscreen(true, { skipUrlRestore: true });
     }
 
     function metaLinkHtml(text, url, linkClass, appearanceClass) {
@@ -872,8 +804,7 @@
         return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
     }
 
-    function finishClosePlayerFullscreen(options) {
-        options = options || {};
+    function finishClosePlayerFullscreen() {
         if (!fullscreenRoot) return;
         fullscreenRoot.hidden = true;
         fullscreenRoot.setAttribute('aria-hidden', 'true');
@@ -881,7 +812,6 @@
         document.body.classList.remove('brp-player-fullscreen-open');
         fullscreenOpen = false;
         fullscreenScrubbing = false;
-        restorePlayerModalUrlOnClose(!!options.skipUrlRestore);
         if (fullscreenEscHandler) {
             document.removeEventListener('keydown', fullscreenEscHandler);
         }
@@ -925,14 +855,12 @@
         if (fullscreenPlay) {
             fullscreenPlay.focus();
         }
-        syncPlayerModalUrl();
     }
 
-    function closePlayerFullscreen(instant, options) {
-        options = options || {};
+    function closePlayerFullscreen(instant) {
         if (!fullscreenRoot || !fullscreenOpen) return;
         if (instant || prefersReducedMotion()) {
-            finishClosePlayerFullscreen(options);
+            finishClosePlayerFullscreen();
             return;
         }
         fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
@@ -942,7 +870,7 @@
             function onExitEnd(event) {
                 if (event.animationName !== 'brp-player-fullscreen-exit') return;
                 fullscreenRoot.removeEventListener('animationend', onExitEnd);
-                finishClosePlayerFullscreen(options);
+                finishClosePlayerFullscreen();
             }
         );
     }
@@ -3060,9 +2988,7 @@
     function onBeforeTurboRender() {
         persistPlaybackMeta();
         savePlaybackHandoff();
-        closePlayerFullscreen(true, { skipUrlRestore: true });
-        playerModalUrlState = null;
-        playerModalUrlRestorePending = false;
+        closePlayerFullscreen(true);
         activeDeck = null;
         deckShellVisible = false;
         if (deckVisibilityObserver) {
@@ -3143,5 +3069,4 @@
             el.removeAttribute('data-brp-deck-wired');
         });
     });
-    window.addEventListener('popstate', onPlayerModalPopState);
 })();
