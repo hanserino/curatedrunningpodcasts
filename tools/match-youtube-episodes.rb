@@ -61,6 +61,11 @@ module LatestPodcastEpisodes
     url.to_s.strip.downcase
   end
 
+  def youtube_only_podcast?(doc)
+    data = doc.respond_to?(:data) ? doc.data : {}
+    data["rss_feed"].to_s.strip.empty? && data["youtube_link"].to_s.strip != ""
+  end
+
   def feed_to_podcast_map(_site)
     map = {}
     Dir.glob(PODCASTS_GLOB).sort.each do |path|
