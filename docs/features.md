@@ -1,3 +1,7 @@
 ## Features
-1. If a podcast episode has a youtube video and audio file which are the exact same length and the user hits play on the youtube video, we should track the time played, so that if the user plays the audio file a different time they start where they paused the youtube video. this should go the other way too, so if the user plays the audio file and hits pause and come back and starts the youtube file they should start where they paused the audio file. 
-2. If a podcast episode has a youtube video and audio file which are the exact same length  and the user starts playing the youtube video, the scrubber in the main podcast player should update as if the audio file/mp3 file was playing. 
+
+1: let's add a "mark as played" button to each episode. this will be added to a new page called "Listening history" (or something more better, maybe you have a suggestion?). we will likely add more buttons on each episode in the future, so on mobile put it under a ". . ." icon. 
+
+2: let's add a que button on each episode item in the feed, both in the latest episodes page and on the feed list on the podcast single page. this will add an episode to the playing que. this also implies that when an episode is done playing another episode starts to play. once one or more episodes are added to the que they will be added to a new top section in the top of the feed in the latest episodes page. at the top is the currently playing episode, under that is the que which is made up of all the episodes the user has started playing but hasn't finished and also episodes which are added to the que manually. do your absolute best to make this as user friendly and functional and understandable as possible. 
+
+3: on the podcast single pages at the bottom of the list of episodes we need to add a text saying we only pull X amount of episodes from their feed. 

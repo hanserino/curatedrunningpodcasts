@@ -194,7 +194,9 @@
         var key = storageUrlKey(url);
         if (!key) return null;
         var row = loadProgressMap()[key];
-        if (!row || typeof row.t !== 'number' || !isFinite(row.t)) return null;
+        if (!row || typeof row !== 'object') return null;
+        if (row.c === true) return row;
+        if (typeof row.t !== 'number' || !isFinite(row.t)) return null;
         return row;
     }
 
@@ -212,8 +214,13 @@
             var existing = getSavedProgressRow(url);
             if (existing && isFinite(existing.d) && existing.d > 0) dur = existing.d;
         }
-        if (!isFinite(dur) || dur <= 0) return;
-        saveProgressForUrl(url, dur, dur);
+        var map = loadProgressMap();
+        if (!isFinite(dur) || dur <= 0) {
+            map[key] = { c: true, u: Date.now() };
+        } else {
+            map[key] = { t: dur, d: dur, u: Date.now(), c: true };
+        }
+        persistProgressMap(map);
     }
 
     function removeProgressForUrl(url) {
@@ -1171,12 +1178,31 @@
         return Math.min(100, Math.max(0, (row.t / row.d) * 100));
     }
 
+    function isListenHistoryListItem(li) {
+        if (!li) return false;
+        return li.hasAttribute('data-brp-history-item') || !!li.closest('[data-brp-listen-history]');
+    }
+
     function updateListenProgressForButton(button) {
         var li = button.closest('.latest-episodes__item');
         if (!li) return;
+        var url = button.getAttribute('data-audio-url');
+        var row = url ? getSavedProgressRow(url) : null;
+        var played = !!(row && isProgressComplete(row));
+        if (isListenHistoryListItem(li)) {
+            li.classList.remove('latest-episodes__item--played');
+        } else {
+            li.classList.toggle('latest-episodes__item--played', played);
+        }
+
         var track = li.querySelector('[data-listen-progress-track]');
         var fill = li.querySelector('[data-listen-progress]');
         if (!track || !fill) return;
+        if (isListenHistoryListItem(li)) {
+            track.hidden = true;
+            fill.style.width = '0%';
+            return;
+        }
         var pct = listenPctForButton(button);
         if (pct == null) {
             track.hidden = true;
@@ -1655,6 +1681,7 @@
             resumeAppliedForSrc = '';
             syncGlobalBarFromMeta();
             refreshAllListenProgress();
+            dispatchPlaybackEnded(u);
         });
 
         player.addEventListener('stalled', function () {
@@ -1796,6 +1823,80 @@
         if (deck && deck.updateTransportTimes) deck.updateTransportTimes();
         syncGlobalBarFromMeta();
         refreshAllListenProgress();
+        dispatchEpisodeActivated({
+            episodeTitle: episodeTitle,
+            podcastTitle: podcastTitle,
+            coverUrl: coverUrl,
+            audioUrl: audioUrl,
+            episodePageUrl: metaUrls.episodePageUrl,
+            podcastPageUrl: metaUrls.podcastPageUrl,
+        });
+    }
+
+    function dispatchEpisodeActivated(meta) {
+        if (!meta || !meta.audioUrl) return;
+        try {
+            document.dispatchEvent(
+                new CustomEvent('brp-episode-activated', {
+                    detail: { meta: meta },
+                })
+            );
+        } catch (e) {}
+    }
+
+    function dispatchPlaybackEnded(url) {
+        if (!url) return;
+        try {
+            document.dispatchEvent(
+                new CustomEvent('brp-playback-ended', {
+                    detail: {
+                        url: url,
+                        meta: {
+                            episodeTitle: currentMeta.episodeTitle,
+                            podcastTitle: currentMeta.podcastTitle,
+                            coverUrl: currentMeta.coverUrl,
+                            audioUrl: url,
+                            episodePageUrl: currentMeta.episodePageUrl,
+                            podcastPageUrl: currentMeta.podcastPageUrl,
+                        },
+                    },
+                })
+            );
+        } catch (e) {}
+    }
+
+    function activateFromMeta(meta, options) {
+        options = options || {};
+        if (!meta || !meta.audioUrl) return false;
+        initEngine();
+        var btn = findPlayButtonForUrl(document, meta.audioUrl);
+        if (btn) {
+            activateEpisode(btn, options, activeDeck);
+            return true;
+        }
+
+        var switchingEpisode = !urlsMatchEpisode(meta.audioUrl, playerActiveUrl());
+        if (switchingEpisode) {
+            resumeAppliedForSrc = '';
+            if (activeDeck && activeDeck.resetAudioGraph) activeDeck.resetAudioGraph();
+            setEpisodeSource(meta.audioUrl);
+        }
+        rememberEpisodeMeta(
+            meta.episodeTitle,
+            meta.podcastTitle,
+            meta.coverUrl,
+            meta.audioUrl,
+            meta.episodePageUrl,
+            meta.podcastPageUrl
+        );
+        saveLastListened(meta.audioUrl, meta.episodeTitle, meta.podcastTitle, meta.coverUrl);
+        if (options.play !== false) {
+            playEpisode();
+        }
+        syncGlobalBarFromMeta();
+        refreshAllListenProgress();
+        dispatchEpisodeActivated(meta);
+        return true;
     }
 
     function coverUrlFromPlayButton(button) {
@@ -1868,6 +1969,50 @@
         var btn = findFirstListEpisodeButton(root);
         if (!btn) return false;
         return primeDeckEpisodePreview(btn, deck, 'Latest episode');
+    }
+
+    function isModifiedNavigationClick(event) {
+        return event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;
+    }
+
+    function isFeedEpisodeClickExempt(target) {
+        if (!target || !target.closest) return false;
+        return !!(
+            target.closest('a.latest-episodes__podcast-link') ||
+            target.closest('[data-episode-actions]')
+        );
+    }
+
+    function isFeedCardItem(item) {
+        if (!item) return false;
+        if (item.classList.contains('latest-episodes__feed-day')) return false;
+        if (item.classList.contains('latest-episodes__empty')) return false;
+        if (item.classList.contains('latest-episodes__item--promo')) return false;
+        return !!item.querySelector('.latest-episodes__episode-card');
+    }
+
+    function openFeedEpisodeModal(item, deck) {
+        var playBtn = item ? item.querySelector('[data-audio-url]') : null;
+        if (!playBtn) return;
+        var audioUrl = playBtn.getAttribute('data-audio-url');
+        if (!audioUrl) return;
+
+        var sameEpisode = urlsMatchEpisode(audioUrl, playerActiveUrl());
+        if (!sameEpisode) {
+            activateEpisode(playBtn, { userGesture: true, play: true }, deck);
+        } else {
+            if (deck) {
+                deck.clearCurrent();
+                deck.currentLi = item;
+                if (deck.currentLi) deck.currentLi.classList.add('latest-episodes__item--current');
+            }
+            if (player.paused && !player.ended) {
+                playEpisode();
+            }
+            if (deck && deck.onPlayStateChange) deck.onPlayStateChange();
+        }
+
+        openPlayerFullscreen();
     }
 
     function wireStickyOnlyDeck(root) {
@@ -1954,11 +2099,31 @@
         }
 
         root.addEventListener('click', function (event) {
+            if (isFeedEpisodeClickExempt(event.target)) return;
+
+            var item = event.target.closest('.latest-episodes__item');
+            if (!isFeedCardItem(item)) return;
+
             var button = event.target.closest('[data-audio-url]');
-            if (!button) return;
+            var hitLink = event.target.closest('a.latest-episodes__episode-hit');
+            if (!button && !hitLink) return;
+
+            if (hitLink && isModifiedNavigationClick(event)) return;
+
             event.preventDefault();
             event.stopPropagation();
-            activateEpisode(button, { userGesture: true, play: true }, deck);
+
+            if (button) {
+                var audioUrl = button.getAttribute('data-audio-url');
+                var sameEpisode = urlsMatchEpisode(audioUrl, playerActiveUrl());
+                var willTogglePause =
+                    sameEpisode && deck.currentLi === item && !player.paused && !player.ended;
+                activateEpisode(button, { userGesture: true, play: true }, deck);
+                if (!willTogglePause) openPlayerFullscreen();
+                return;
+            }
+
+            openFeedEpisodeModal(item, deck);
         });
 
         syncListFromPlayer();
@@ -2847,6 +3012,46 @@
         seekToSeconds: function (seconds, options) {
             initEngine();
             seekEpisodeToSeconds(seconds, options || {});
+        },
+        activateFromMeta: function (meta, options) {
+            initEngine();
+            return activateFromMeta(meta, options || {});
+        },
+        markAsPlayed: function (url, duration) {
+            initEngine();
+            var activeUrl = playerActiveUrl();
+            var dur = duration;
+            if (!isFinite(dur) || dur <= 0) {
+                if (urlsMatch(url, activeUrl) && player && isFinite(player.duration) && player.duration > 0) {
+                    dur = player.duration;
+                }
+            }
+            markProgressComplete(url, dur);
+            refreshAllListenProgress();
+            notifyUserSync(true);
+        },
+        unmarkAsPlayed: function (url) {
+            initEngine();
+            removeProgressForUrl(url);
+            refreshAllListenProgress();
+            notifyUserSync(true);
+        },
+        isEpisodePlayed: function (url) {
+            initEngine();
+            var key = storageUrlKey(url);
+            if (!key) return false;
+            return isProgressComplete(loadProgressMap()[key]);
+        },
+        refreshListenProgress: function () {
+            initEngine();
+            refreshAllListenProgress();
+        },
+        getActiveEpisodeUrl: function () {
+            initEngine();
+            return playerActiveUrl();
+        },
+        metaFromButton: function (button) {
+            return metaFromPlayButton(button);
         },
     };
 

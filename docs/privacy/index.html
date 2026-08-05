@@ -85,6 +85,12 @@
           </li>
         <li>
           <a
+            href="/listen-history/"
+            class="main-nav__link"
+            >Listen history</a>
+          </li>
+        <li>
+          <a
             href="/runners-picks/"
             class="main-nav__link"
             >Runners' picks</a>
@@ -192,14 +198,17 @@
 <p>When you are signed in, we store the following in your Supabase <code class="language-plaintext highlighter-rouge">user_library</code> row:</p>
 
 <ul>
-  <li><strong>Listen progress</strong> — episode audio URLs with playback position and timestamps</li>
+  <li><strong>Listen progress</strong> — episode audio URLs with playback position, played status, and timestamps</li>
   <li><strong>Continue listening</strong> — the last episode you were playing, with title and cover metadata</li>
+  <li><strong>Play queue</strong> — episodes in Up next, including manual queue order and dismissed suggestions</li>
+  <li><strong>Episode metadata</strong> — titles, podcast names, cover art, and page URLs for queued and played episodes</li>
   <li><strong>Favorites</strong> — podcast page URLs you have starred for OPML export</li>
+  <li><strong>Filter preferences</strong> — your home and latest-episodes filter choices</li>
 </ul>
 
 <p>We use this data only to restore your experience on other browsers or devices. We do not sell it or use it for advertising profiles.</p>
 
-<p>On sign-in, data already on your device is <strong>merged</strong> with your cloud library (newer progress wins; favorites are combined). While signed in, changes sync to the cloud periodically.</p>
+<p>On sign-in, data already on your device is <strong>merged</strong> with your cloud library (newer progress and metadata win; play queues combine; favorites are combined). While signed in, changes sync to the cloud periodically.</p>
 
 <p>You can <strong>Sign out</strong> at any time from the header. Signing out stops further cloud sync; data already in the cloud remains until you ask us to delete it.</p>
 
@@ -283,7 +292,7 @@
     <a href="/privacy/">Privacy</a> ·
     <a href="/terms/">Terms</a> ·
     <a href="/admin/" class="footer__admin" aria-label="Open site admin (Decap CMS)">Admin</a></p><p class="footer__build-meta"><span class="footer__build-label">Feed snapshot:</span>
-      <time datetime="2026-08-05T03:36:52Z">2026-08-05 03:36 UTC</time>
+      <time datetime="2026-08-05T05:17:46Z">2026-08-05 05:17 UTC</time>
     </p></footer>
 
 <div
@@ -506,7 +515,8 @@
 </script>
 <script src="/assets/scripts/analytics-consent.js" defer></script>
 <script src="/assets/scripts/turbo.min.js" defer></script>
-<script src="/assets/scripts/brp-player.js" defer></script><script>
+<script src="/assets/scripts/brp-player.js" defer></script>
+<script src="/assets/scripts/brp-library.js" defer></script><script>
   window.BRP_SUPABASE_CONFIG = {
     url: "https://xoqzcozyzikraqhmnhvo.supabase.co",
     anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhvcXpjb3p5emlrcmFxaG1uaHZvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQwODQ2ODMsImV4cCI6MjA5OTY2MDY4M30.UyAJ-QSilzz-bz9wxS-3sfqENB1gsiUrX4Knvz1hlwA"
