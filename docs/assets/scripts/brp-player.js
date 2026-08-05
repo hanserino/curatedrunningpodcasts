@@ -70,6 +70,8 @@
     };
     var mediaSessionReady = false;
     var iosMediaSessionResumeTime = 0;
+    var iosMediaSessionHandlerRefreshQueued = false;
+    var mediaSessionPauseFromHandler = false;
     var lastTimeupdateSave = 0;
     var resumeAppliedForSrc = '';
     var engineReady = false;
@@ -1181,10 +1183,38 @@
         syncGlobalBarFromMeta();
     }
 
+    function clearMediaSessionActionHandlers() {
+        if (!('mediaSession' in navigator)) return;
+        ['play', 'pause', 'stop', 'seekbackward', 'seekforward', 'seekto'].forEach(function (action) {
+            try {
+                navigator.mediaSession.setActionHandler(action, null);
+            } catch (e) {}
+        });
+    }
+
     function refreshMediaSessionHandlersForIOS() {
         if (!isIOS || !('mediaSession' in navigator)) return;
-        mediaSessionReady = false;
-        setupMediaSessionHandlers();
+        if (iosMediaSessionHandlerRefreshQueued) return;
+        iosMediaSessionHandlerRefreshQueued = true;
+        window.setTimeout(function () {
+            iosMediaSessionHandlerRefreshQueued = false;
+            mediaSessionReady = false;
+            clearMediaSessionActionHandlers();
+            setupMediaSessionHandlers();
+        }, 0);
+    }
+
+    function restoreIOSMediaSessionResumePosition() {
+        if (!isIOS || !player || iosMediaSessionResumeTime <= 0) return;
+        var resumeTime = iosMediaSessionResumeTime;
+        var dur = player.duration;
+        if (!isFinite(resumeTime) || resumeTime < 0) return;
+        if (isFinite(dur) && dur > 0 && resumeTime >= dur) return;
+        try {
+            if (Math.abs(player.currentTime - resumeTime) > 0.25) {
+                player.currentTime = resumeTime;
+            }
+        } catch (e) {}
     }
 
     function reloadPlayerForIOSLockScreenResume(callback) {
@@ -1239,7 +1269,8 @@
         }
 
         updateMediaSessionMetadata();
-        refreshMediaSessionHandlersForIOS();
+        if (activeDeck && activeDeck.resumeWaveAudioContext) activeDeck.resumeWaveAudioContext();
+        restoreIOSMediaSessionResumePosition();
 
         var playPromise = player.play();
         if (!playPromise || typeof playPromise.then !== 'function') {
@@ -1278,16 +1309,23 @@
     }
 
     function pauseFromMediaSession() {
+        mediaSessionPauseFromHandler = true;
         var url = playerActiveUrl();
         if (url) {
             iosMediaSessionResumeTime = player.currentTime;
             saveProgressForUrl(url, player.currentTime, player.duration);
         }
-        player.pause();
+        var wasPaused = player.paused;
+        if (!wasPaused) {
+            player.pause();
+        }
         if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
         setMediaSessionPlaybackState('paused');
         syncGlobalBarFromMeta();
         refreshMediaSessionHandlersForIOS();
+        if (wasPaused) {
+            mediaSessionPauseFromHandler = false;
+        }
     }
 
     function bindMediaSessionActionHandlers() {
@@ -1836,6 +1874,10 @@
             refreshAllListenProgress();
         });
 
+        player.addEventListener('playing', function () {
+            if (isIOS) refreshMediaSessionHandlersForIOS();
+        });
+
         player.addEventListener('pause', function () {
             if (activeDeck && activeDeck.onPlayStateChange) activeDeck.onPlayStateChange();
             setMediaSessionPlaybackState('paused');
@@ -1847,7 +1889,10 @@
             notifyUserSync(true);
             syncGlobalBarFromMeta();
             refreshAllListenProgress();
-            if (isIOS) refreshMediaSessionHandlersForIOS();
+            if (isIOS && !mediaSessionPauseFromHandler) {
+                refreshMediaSessionHandlersForIOS();
+            }
+            mediaSessionPauseFromHandler = false;
         });
 
         player.addEventListener('seeked', function () {
