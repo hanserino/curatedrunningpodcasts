@@ -5,6 +5,9 @@
 # Otherwise the build uses _data/latest_podcast_episodes.yml (from git) and/or
 # .jekyll-rss-cache/latest_podcast_episodes.yml so jekyll serve stays fast.
 #
+# Shows without rss_feed but with youtube_link use the channel/playlist YouTube Atom feed
+# as the episode source (no audio enclosure; UI links out to YouTube).
+#
 # Running-directory shows (not_running_related != true) get episodes_by_feed entries
 # (up to EPISODE_PAGES_PER_PODCAST, default 25) and static episode pages.
 # Unrelated shows keep a podcast landing page only — no RSS fetch and no episode pages
@@ -117,6 +120,17 @@ module LatestPodcastEpisodes
 
   def normalize_feed_key(url)
     url.to_s.strip.downcase
+  end
+
+  def source_feed_url_for_doc(doc)
+    rss = doc.data["rss_feed"].to_s.strip
+    return rss unless rss.empty?
+
+    doc.data["youtube_link"].to_s.strip
+  end
+
+  def youtube_only_podcast?(doc)
+    doc.data["rss_feed"].to_s.strip.empty? && doc.data["youtube_link"].to_s.strip != ""
   end
 
   def filter_category_for_doc(doc)
@@ -997,11 +1011,16 @@ module LatestPodcastEpisodes
       next unless episodes.is_a?(Array)
 
       audio = normalize_audio_key(item["audio_url"])
-      next if audio.empty?
-
+      youtube_id = item["youtube_video_id"].to_s.strip
       match =
-        episodes.find do |entry|
-          entry.is_a?(Hash) && normalize_audio_key(entry["audio_url"]) == audio
+        if audio.empty? && !youtube_id.empty?
+          episodes.find do |entry|
+            entry.is_a?(Hash) && entry["youtube_video_id"].to_s.strip == youtube_id
+          end
+        elsif !audio.empty?
+          episodes.find do |entry|
+            entry.is_a?(Hash) && normalize_audio_key(entry["audio_url"]) == audio
+          end
         end
       next unless match
 
@@ -1011,6 +1030,9 @@ module LatestPodcastEpisodes
       item["episode_page_url"] = match["episode_page_url"]
       item["episode_url"] = match["episode_url"] if match["episode_url"].to_s.strip != ""
       item["published_at"] = match["published_at"] if match["published_at"].to_s.strip != ""
+      if match["youtube_video_id"].to_s.strip != ""
+        item["youtube_video_id"] = match["youtube_video_id"]
+      end
     end
   end
 
@@ -1118,7 +1140,7 @@ module LatestPodcastEpisodes
         []
       end
     posts.select do |doc|
-      doc.data["category"] == "podcast" && doc.data["rss_feed"].to_s.strip != ""
+      doc.data["category"] == "podcast" && source_feed_url_for_doc(doc) != ""
     end
   end
 
@@ -1127,14 +1149,16 @@ module LatestPodcastEpisodes
     return nil unless latest_episode_meta
 
     audio_url = latest_episode_meta["audio_url"].to_s.strip
+    youtube_id = latest_episode_meta["youtube_video_id"].to_s.strip
     title = latest_episode_meta["episode_title"].to_s.strip
-    return nil if audio_url.empty? || title.empty?
+    return nil if title.empty?
+    return nil if audio_url.empty? && youtube_id.empty?
 
-    {
+    row = {
       "podcast_title" => doc.data["title"],
       "podcast_page_url" => doc.url,
       "cover_image" => doc.data["cover_image"].to_s.strip,
-      "feed_url" => doc.data["rss_feed"].to_s.strip,
+      "feed_url" => source_feed_url_for_doc(doc),
       "filter_category" => filter_category_for_doc(doc),
       "episode_title" => title,
       "episode_url" => latest_episode_meta["episode_url"].to_s.strip,
@@ -1144,6 +1168,11 @@ module LatestPodcastEpisodes
       "episode_slug" => latest_episode_meta["episode_slug"],
       "episode_page_url" => latest_episode_meta["episode_page_url"]
     }
+    unless youtube_id.empty?
+      row["youtube_video_id"] = youtube_id
+      row["youtube_only"] = true if audio_url.empty?
+    end
+    row
   end
 
   def non_running_items_for_site(site, episodes_by_feed)
@@ -1302,6 +1331,67 @@ module LatestPodcastEpisodes
     []
   end
 
+  def plain_text_description_html(text)
+    raw = text.to_s.strip
+    return "" if raw.empty?
+
+    raw.split(/\n\s*\n/).map do |para|
+      escaped = CGI.escapeHTML(para.strip).gsub("\n", "<br>\n")
+      "<p>#{escaped}</p>"
+    end.join("\n")
+  end
+
+  def episodes_from_youtube_videos(videos, limit = 15)
+    sorted =
+      Array(videos)
+        .reject { |video| video[:is_short] || video["is_short"] }
+        .map do |video|
+          video_id = (video[:video_id] || video["video_id"]).to_s.strip
+          next if video_id.empty?
+
+          title = (video[:title] || video["title"]).to_s.strip
+          next if title.empty?
+
+          published = video[:published_at] || video["published_at"]
+          published_at =
+            case published
+            when Time
+              published
+            else
+              begin
+                Time.parse(published.to_s)
+              rescue ArgumentError, TypeError
+                Time.at(0)
+              end
+            end
+
+          watch_url = (video[:watch_url] || video["watch_url"]).to_s.strip
+          watch_url = "https://www.youtube.com/watch?v=#{video_id}" if watch_url.empty?
+          description = (video[:media_description] || video["media_description"]).to_s.strip
+          description_html = plain_text_description_html(description)
+          entry = {
+            "episode_title" => title,
+            "episode_url" => watch_url,
+            "audio_url" => "",
+            "published_at" => utc_iso8601(published_at),
+            "description_html" => description_html,
+            "description_plain" => description,
+            "episode_image_url" => "https://i.ytimg.com/vi/#{video_id}/hqdefault.jpg",
+            "episode_uid" => "yt:video:#{video_id}",
+            "youtube_video_id" => video_id,
+            "youtube_only" => true
+          }
+          entry["description_sanitized"] = true unless description_html.empty?
+          entry
+        end
+        .compact
+        .sort_by { |entry| Time.parse(entry["published_at"].to_s) rescue Time.at(0) }
+        .reverse
+        .first(limit)
+    # No site episode pages for YouTube-only sources (no audio enclosure).
+    assign_episode_slugs!(sorted, podcast_slug: nil)
+  end
+
   def episodes_per_podcast_limit
     Integer(ENV.fetch("EPISODE_PAGES_PER_PODCAST", "25"))
   rescue ArgumentError, TypeError
@@ -1369,7 +1459,7 @@ module LatestPodcastEpisodes
   def feed_to_podcast_map(site)
     map = {}
     podcast_posts_with_feed(site).each do |doc|
-      feed_url = doc.data["rss_feed"].to_s.strip
+      feed_url = source_feed_url_for_doc(doc)
       next if feed_url.empty?
 
       map[normalize_feed_key(feed_url)] = doc
@@ -1563,7 +1653,7 @@ module LatestPodcastEpisodes
     items.reverse!
   end
 
-  # Fetch RSS for new/changed running podcasts during fast push builds.
+  # Fetch RSS/YouTube sources for new/changed running podcasts during fast push builds.
   def refresh_podcast_feeds!(site, payload)
     episodes_by_feed = payload["episodes_by_feed"] ||= {}
     items = payload["items"] ||= []
@@ -1572,11 +1662,40 @@ module LatestPodcastEpisodes
     return 0 if feed_keys.empty?
 
     feed_to_doc = feed_to_podcast_map(site)
+    channel_cache =
+      if defined?(YoutubeEpisodeMatcher)
+        YoutubeEpisodeMatcher.read_channel_cache(site)
+      else
+        {}
+      end
+    channel_cache_before = channel_cache.dup
     refreshed = 0
 
     feed_keys.each do |feed_key|
       doc = feed_to_doc[feed_key.to_s]
       next unless doc
+
+      if youtube_only_podcast?(doc)
+        youtube_link = doc.data["youtube_link"].to_s.strip
+        Jekyll.logger.info(
+          "LatestPodcastEpisodes:",
+          "Fetching YouTube Atom for #{doc.data['title']} (#{youtube_link})."
+        )
+        result = process_youtube_podcast_fetch(doc, channel_cache)
+        episodes_by_feed[feed_key] = result["episodes"] || []
+        if result["error"]
+          errors << result["error"]
+          Jekyll.logger.warn(
+            "LatestPodcastEpisodes:",
+            "YouTube source failed #{youtube_link}: #{result['error']['error']}"
+          )
+        elsif episode_pages_for_doc?(doc)
+          items.reject! { |item| normalize_feed_key(item["feed_url"].to_s) == feed_key.to_s }
+          items << result["item"] if result["item"]
+          refreshed += 1
+        end
+        next
+      end
 
       feed_url = doc.data["rss_feed"].to_s.strip
       Jekyll.logger.info(
@@ -1606,6 +1725,10 @@ module LatestPodcastEpisodes
         }
         Jekyll.logger.warn "LatestPodcastEpisodes:", "Feed failed #{feed_url}: #{e.class} #{e.message}"
       end
+    end
+
+    if defined?(YoutubeEpisodeMatcher) && channel_cache != channel_cache_before
+      YoutubeEpisodeMatcher.write_channel_cache(site, channel_cache)
     end
 
     return 0 if refreshed.zero?
@@ -1693,7 +1816,63 @@ module LatestPodcastEpisodes
     8
   end
 
-  def process_podcast_feed_fetch(doc)
+  def process_youtube_podcast_fetch(doc, channel_cache)
+    youtube_link = doc.data["youtube_link"].to_s.strip
+    feed_key = normalize_feed_key(youtube_link)
+    include_in_directory = doc.data["not_running_related"] != true
+    episode_limit = episodes_per_podcast_limit_for(doc)
+
+    videos = YoutubeEpisodeMatcher.fetch_videos_for_youtube_link(youtube_link, channel_cache)
+    episodes = episodes_from_youtube_videos(videos, episode_limit)
+    result = { "feed_key" => feed_key, "episodes" => episodes }
+
+    return result unless include_in_directory
+
+    latest = episodes.first
+    if latest.nil?
+      result["error"] = {
+        "podcast" => doc.data["title"],
+        "youtube_link" => youtube_link,
+        "error" => "No YouTube videos found"
+      }
+      return result
+    end
+
+    cover_image = doc.data["cover_image"].to_s.strip
+    result["item"] = {
+      "podcast_title" => doc.data["title"],
+      "podcast_page_url" => doc.url,
+      "cover_image" => cover_image,
+      "feed_url" => youtube_link,
+      "filter_category" => filter_category_for_doc(doc),
+      "episode_title" => latest["episode_title"],
+      "episode_url" => latest["episode_url"],
+      "audio_url" => "",
+      "published_at" => latest["published_at"],
+      "episode_key" => latest["episode_slug"],
+      "episode_slug" => latest["episode_slug"],
+      "episode_page_url" => "",
+      "youtube_video_id" => latest["youtube_video_id"],
+      "youtube_only" => true
+    }
+    result
+  rescue StandardError => e
+    {
+      "feed_key" => normalize_feed_key(doc.data["youtube_link"].to_s),
+      "episodes" => [],
+      "error" => {
+        "podcast" => doc.data["title"],
+        "youtube_link" => doc.data["youtube_link"].to_s.strip,
+        "error" => "#{e.class}: #{e.message}"
+      }
+    }
+  end
+
+  def process_podcast_feed_fetch(doc, channel_cache: nil)
+    if youtube_only_podcast?(doc)
+      return process_youtube_podcast_fetch(doc, channel_cache || {})
+    end
+
     feed_url = doc.data["rss_feed"].to_s.strip
     feed_key = normalize_feed_key(feed_url)
     include_in_directory = doc.data["not_running_related"] != true
@@ -1748,12 +1927,20 @@ module LatestPodcastEpisodes
     }
   end
 
-  def fetch_all_podcast_feeds!(podcasts_with_feed)
+  def fetch_all_podcast_feeds!(podcasts_with_feed, site: nil)
     items = []
     errors = []
     episodes_by_feed = {}
     docs = podcasts_with_feed.select { |doc| fetch_rss_for_doc?(doc) }
     return [items, episodes_by_feed, errors] if docs.empty?
+
+    channel_cache =
+      if site && defined?(YoutubeEpisodeMatcher)
+        YoutubeEpisodeMatcher.read_channel_cache(site)
+      else
+        {}
+      end
+    channel_cache_before = channel_cache.dup
 
     mutex = Mutex.new
     queue = Queue.new
@@ -1767,7 +1954,7 @@ module LatestPodcastEpisodes
           doc = queue.pop
           break unless doc
 
-          result = process_podcast_feed_fetch(doc)
+          result = process_podcast_feed_fetch(doc, channel_cache: channel_cache)
           mutex.synchronize do
             feed_key = result["feed_key"]
             episodes_by_feed[feed_key] = result["episodes"] if result.key?("episodes")
@@ -1778,6 +1965,10 @@ module LatestPodcastEpisodes
       end
     end
     workers.each(&:join)
+
+    if site && defined?(YoutubeEpisodeMatcher) && channel_cache != channel_cache_before
+      YoutubeEpisodeMatcher.write_channel_cache(site, channel_cache)
+    end
 
     [items, episodes_by_feed, errors]
   end
@@ -1884,15 +2075,10 @@ def build_latest_podcast_episodes_data(site)
     )
   end
 
-  posts = site.posts.respond_to?(:docs) ? site.posts.docs : []
-
-  podcasts_with_feed = posts.select do |doc|
-    doc.data["category"] == "podcast" &&
-      doc.data["rss_feed"].to_s.strip != ""
-  end
+  podcasts_with_feed = LatestPodcastEpisodes.podcast_posts_with_feed(site)
 
   items, episodes_by_feed, errors =
-    LatestPodcastEpisodes.fetch_all_podcast_feeds!(podcasts_with_feed)
+    LatestPodcastEpisodes.fetch_all_podcast_feeds!(podcasts_with_feed, site: site)
   feed_mode =
     if LatestPodcastEpisodes.feed_only_build?
       "feed-only (no descriptions)"

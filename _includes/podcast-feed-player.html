@@ -1,5 +1,6 @@
 {%- assign feed_url = include.rss_feed | to_s | strip -%}
 {%- assign feed_key = feed_url | downcase -%}
+{%- assign youtube_only = include.youtube_only | default: false -%}
 {%- assign feed_data = site.data.latest_podcast_episodes -%}
 {%- comment -%} Liquid cannot use hash[variable] on nested site.data; use feed_episodes_list + where. {%- endcomment -%}
 {%- assign episodes = "" | split: "," -%}
@@ -24,12 +25,10 @@
   <ol class="latest-episodes__list">
     {%- for episode in episodes limit: max_items -%}
     {%- assign published_label = episode.published_at | date: "%b %-d, %Y" -%}
+    {%- assign _audio = episode.audio_url | default: '' | strip -%}
+    {%- assign _yt_id = episode.youtube_video_id | default: '' | strip -%}
     {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
-    {%- assign _item_cover = episode.episode_image_url | default: '' | strip -%}
-    {%- if _item_cover == '' -%}
-      {%- assign _item_cover = show_cover -%}
-    {%- endif -%}
-    {%- if _ep_path == '' -%}
+    {%- if _audio != '' and _ep_path == '' -%}
       {%- assign _key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
       {%- if _key == '' -%}
         {%- assign _key = episode.episode_title | slugify -%}
@@ -37,29 +36,41 @@
       {%- if page.slug != '' and _key != '' -%}
         {%- assign _ep_path = '/' | append: page.slug | append: '/' | append: _key | append: '/' -%}
       {%- endif -%}
+    {%- elsif _audio == '' -%}
+      {%- assign _ep_path = '' -%}
     {%- endif -%}
-    <li class="latest-episodes__item">
+    {%- assign _item_cover = episode.episode_image_url | default: '' | strip -%}
+    {%- if _item_cover == '' -%}
+      {%- assign _item_cover = show_cover -%}
+    {%- endif -%}
+    {%- assign _cover_attr = '' -%}
+    {%- if _item_cover != "" -%}
+      {%- if _item_cover contains '://' -%}
+        {%- assign _cover_attr = _item_cover -%}
+      {%- else -%}
+        {%- assign _cover_attr = _item_cover | relative_url -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign _ep_attr = '' -%}
+    {%- if _ep_path != "" -%}
+      {%- assign _ep_attr = _ep_path | relative_url -%}
+    {%- endif -%}
+    {%- assign _aria_suffix = '' -%}
+    {%- if published_label != '' -%}
+      {%- assign _aria_suffix = ', ' | append: published_label -%}
+    {%- endif -%}
+    {%- assign _podcast_attr = page.url | relative_url -%}
+    <li class="latest-episodes__item"{% if _yt_id != '' and _audio == '' %} data-youtube-video-id="{{ _yt_id | escape }}"{% endif %}>
       <div class="latest-episodes__row latest-episodes__row--episode">
-        <button
-          type="button"
+        {% include episode-listen-control.html
+          episode=episode
           class="latest-episodes__play"
-          aria-pressed="false"
-          aria-label="Play episode: {{ episode.episode_title | xml_escape }}{% if published_label != '' %}, {{ published_label | xml_escape }}{% endif %}"
-          data-audio-url="{{ episode.audio_url | escape }}"
-          data-episode-title="{{ episode.episode_title | escape }}"
-          data-podcast-title="{{ include.podcast_title | default: 'Podcast' | escape }}"
-          data-podcast-url="{{ page.url | relative_url | escape }}"
-          {% if _item_cover != "" %}
-            {% if _item_cover contains '://' %}
-          data-cover-url="{{ _item_cover | escape }}"
-            {% else %}
-          data-cover-url="{{ _item_cover | relative_url | escape }}"
-            {% endif %}
-          {% endif %}
-          {% if _ep_path != "" %}data-episode-url="{{ _ep_path | relative_url | escape }}"{% endif %}
-        >
-          <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-        </button>
+          podcast_title=include.podcast_title
+          cover_url=_cover_attr
+          episode_path=_ep_attr
+          podcast_url=_podcast_attr
+          aria_suffix=_aria_suffix
+        %}
         <div class="latest-episodes__episode-main">
           {% include episode-page-link.html episode=episode podcast_slug=page.slug podcast_page_url=page.url class="latest-episodes__episode-title" %}
           {%- if published_label != "" -%}
@@ -79,15 +90,24 @@
   </p>
   {%- endif -%}
   <p class="latest-episodes__feed-note">
+    {%- if youtube_only -%}
+    Episodes for this show come from YouTube (no open RSS feed). Watch opens the video on this site.
+    {%- else -%}
     We show the {{ max_items }} most recent episodes from this podcast's RSS feed.
     {%- if archive_url != "" and episodes.size > max_items -%}
     Older episodes are listed in the <a href="{{ archive_url | relative_url }}">full archive</a>.
     {%- endif -%}
+    {%- endif -%}
   </p>
   {%- else -%}
   <p class="latest-episodes__unavailable">
+    {%- if youtube_only -%}
+    YouTube episodes are currently unavailable for this podcast. Try again later or open the
+    <a href="{{ feed_url }}" rel="noopener noreferrer" target="_blank">YouTube channel</a>.
+    {%- else -%}
     Feed is currently unavailable for this podcast. Try again later or open the
     <a href="{{ feed_url }}" rel="noopener noreferrer" target="_blank">RSS feed</a>.
+    {%- endif -%}
   </p>
   {%- endif -%}
 </section>

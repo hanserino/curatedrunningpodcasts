@@ -44,6 +44,9 @@
     var fullscreenShow = null;
     var fullscreenEpisodeLink = null;
     var fullscreenPodcastLink = null;
+    var fullscreenYoutubeWrap = null;
+    var fullscreenYoutubeIframe = null;
+    var fullscreenYoutubeLink = null;
     var fullscreenPlay = null;
     var fullscreenScrub = null;
     var fullscreenScrubProgress = null;
@@ -54,6 +57,8 @@
     var fullscreenEscHandler = null;
     var playerModalUrlState = null;
     var playerModalUrlRestorePending = false;
+    var youtubeMode = false;
+    var youtubeVideoId = '';
 
     var activeDeck = null;
     var currentMeta = {
@@ -401,6 +406,9 @@
 
     function syncPlayerModalUrl() {
         var episodePath = resolveSitePath(currentMeta.episodePageUrl);
+        if (!episodePath && youtubeMode) {
+            episodePath = resolveSitePath(currentMeta.podcastPageUrl);
+        }
         if (!episodePath) return;
         if (pathnamesMatch(window.location.pathname, episodePath)) return;
 
@@ -847,7 +855,22 @@
                 fullscreenPodcastLink.hidden = true;
             }
         }
+        if (fullscreenYoutubeLink) {
+            if (youtubeMode && youtubeVideoId) {
+                fullscreenYoutubeLink.href =
+                    'https://www.youtube.com/watch?v=' + encodeURIComponent(youtubeVideoId);
+                fullscreenYoutubeLink.hidden = false;
+            } else if (!youtubeMode) {
+                fullscreenYoutubeLink.hidden = true;
+            }
+        }
         if (fullscreenArt && fullscreenArtWrap) {
+            if (youtubeMode) {
+                fullscreenArt.onerror = null;
+                fullscreenArt.removeAttribute('data-brp-cover-url');
+                fullscreenArt.removeAttribute('src');
+                fullscreenArtWrap.classList.add('brp-player-fullscreen__art-wrap--empty');
+            } else {
             var cover = resolveCoverUrl(currentMeta.coverUrl);
             if (cover) {
                 fullscreenArt.onload = function () {
@@ -874,6 +897,7 @@
                 fullscreenArt.removeAttribute('src');
                 fullscreenArtWrap.classList.add('brp-player-fullscreen__art-wrap--empty');
             }
+            }
         }
     }
 
@@ -887,9 +911,29 @@
         return !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
     }
 
+    function clearYoutubeMode() {
+        youtubeMode = false;
+        youtubeVideoId = '';
+        if (fullscreenRoot) {
+            fullscreenRoot.classList.remove('brp-player-fullscreen--youtube');
+        }
+        if (fullscreenYoutubeIframe) {
+            fullscreenYoutubeIframe.removeAttribute('src');
+            fullscreenYoutubeIframe.title = 'YouTube video';
+        }
+        if (fullscreenYoutubeWrap) {
+            fullscreenYoutubeWrap.hidden = true;
+        }
+        if (fullscreenYoutubeLink) {
+            fullscreenYoutubeLink.hidden = true;
+            fullscreenYoutubeLink.removeAttribute('href');
+        }
+    }
+
     function finishClosePlayerFullscreen(options) {
         options = options || {};
         if (!fullscreenRoot) return;
+        clearYoutubeMode();
         fullscreenRoot.hidden = true;
         fullscreenRoot.setAttribute('aria-hidden', 'true');
         fullscreenRoot.classList.remove('brp-player-fullscreen--opening', 'brp-player-fullscreen--closing');
@@ -906,7 +950,8 @@
     }
 
     function openPlayerFullscreen() {
-        if (!fullscreenRoot || !playerActiveUrl()) return;
+        if (!fullscreenRoot) return;
+        if (!youtubeMode && !playerActiveUrl()) return;
         fullscreenRoot.classList.remove('brp-player-fullscreen--closing');
         fullscreenRoot.hidden = false;
         fullscreenRoot.setAttribute('aria-hidden', 'false');
@@ -937,7 +982,10 @@
             };
         }
         document.addEventListener('keydown', fullscreenEscHandler);
-        if (fullscreenPlay) {
+        if (youtubeMode) {
+            var closeBtn = fullscreenRoot.querySelector('[data-fullscreen-close]');
+            if (closeBtn) closeBtn.focus();
+        } else if (fullscreenPlay) {
             fullscreenPlay.focus();
         }
         syncPlayerModalUrl();
@@ -1842,6 +1890,10 @@
 
         if (!audioUrl) return;
 
+        if (youtubeMode) {
+            clearYoutubeMode();
+        }
+
         var playerEpisode = playerActiveUrl();
         var switchingEpisode = !urlsMatchEpisode(audioUrl, playerEpisode);
         if (switchingEpisode && !shouldPlay && !userGesture && (playerEpisode || isPlaybackActive())) {
@@ -2082,7 +2134,108 @@
         return !!item.querySelector('.latest-episodes__episode-card');
     }
 
+    function openYoutubeEpisode(source, deck) {
+        var item = null;
+        var button = null;
+        var videoId = '';
+
+        if (source && source.classList && source.classList.contains('latest-episodes__item')) {
+            item = source;
+        } else if (source && source.closest) {
+            item = source.closest('.latest-episodes__item');
+            if (source.getAttribute && source.getAttribute('data-youtube-video-id')) {
+                button = source;
+            }
+        }
+
+        if (item) {
+            videoId = (item.getAttribute('data-youtube-video-id') || '').trim();
+            if (!button) {
+                button = item.querySelector('button[data-youtube-video-id], [data-youtube-video-id].latest-episodes__play');
+            }
+        }
+        if (!videoId && button) {
+            videoId = (button.getAttribute('data-youtube-video-id') || '').trim();
+        }
+        if (!videoId) return;
+
+        if (player && !player.paused) {
+            player.pause();
+        }
+
+        var episodeTitle =
+            (button && button.getAttribute('data-episode-title')) ||
+            (item && item.querySelector('.latest-episodes__episode-title')
+                ? item.querySelector('.latest-episodes__episode-title').textContent
+                : '') ||
+            'Episode';
+        episodeTitle = String(episodeTitle).trim() || 'Episode';
+        var podcastTitle =
+            (button && button.getAttribute('data-podcast-title')) ||
+            (item && item.querySelector('.latest-episodes__podcast-link, .latest-episodes__podcast-label')
+                ? item.querySelector('.latest-episodes__podcast-link, .latest-episodes__podcast-label').textContent
+                : '') ||
+            'Podcast';
+        podcastTitle = String(podcastTitle).trim() || 'Podcast';
+        var coverUrl = (button && button.getAttribute('data-cover-url')) || '';
+        var podcastUrl =
+            (button && button.getAttribute('data-podcast-url')) ||
+            (item && item.getAttribute('data-podcast-url')) ||
+            '';
+
+        youtubeMode = true;
+        youtubeVideoId = videoId;
+        currentMeta = {
+            episodeTitle: episodeTitle,
+            podcastTitle: podcastTitle,
+            coverUrl: coverUrl,
+            episodePageUrl: '',
+            podcastPageUrl: podcastUrl,
+        };
+        metaSourceUrl = 'youtube:' + videoId;
+
+        if (deck) {
+            activeDeck = deck;
+            document.body.classList.add('brp-deck-active');
+            if (deck.clearCurrent) deck.clearCurrent();
+            deck.currentLi = item;
+            if (deck.currentLi) {
+                deck.currentLi.classList.add('latest-episodes__item--current');
+            }
+        }
+
+        if (fullscreenRoot) {
+            fullscreenRoot.classList.add('brp-player-fullscreen--youtube');
+        }
+        if (fullscreenYoutubeWrap) {
+            fullscreenYoutubeWrap.hidden = false;
+        }
+        if (fullscreenYoutubeIframe) {
+            fullscreenYoutubeIframe.src =
+                'https://www.youtube-nocookie.com/embed/' +
+                encodeURIComponent(videoId) +
+                '?autoplay=1&rel=0';
+            fullscreenYoutubeIframe.title = episodeTitle + ' — YouTube video';
+        }
+        if (fullscreenYoutubeLink) {
+            fullscreenYoutubeLink.href = 'https://www.youtube.com/watch?v=' + encodeURIComponent(videoId);
+            fullscreenYoutubeLink.hidden = false;
+        }
+
+        syncFullscreenMeta();
+        openPlayerFullscreen();
+    }
+
     function openFeedEpisodeModal(item, deck) {
+        if (
+            item &&
+            ((item.getAttribute('data-youtube-video-id') || '').trim() ||
+                item.querySelector('[data-youtube-video-id]'))
+        ) {
+            openYoutubeEpisode(item, deck);
+            return;
+        }
+
         var playBtn = item ? item.querySelector('[data-audio-url]') : null;
         if (!playBtn) return;
         var audioUrl = playBtn.getAttribute('data-audio-url');
@@ -2195,11 +2348,24 @@
             var item = event.target.closest('.latest-episodes__item');
             if (!isFeedCardItem(item)) return;
 
+            var ytControl = event.target.closest('[data-youtube-video-id]');
             var button = event.target.closest('[data-audio-url]');
             var hitLink = event.target.closest('a.latest-episodes__episode-hit');
-            if (!button && !hitLink) return;
+            var titleLink = event.target.closest('a.latest-episodes__episode-title');
+            var isYoutubeItem =
+                !!(item.getAttribute('data-youtube-video-id') || '').trim() ||
+                !!item.querySelector('button[data-youtube-video-id]');
 
-            if (hitLink && isModifiedNavigationClick(event)) return;
+            if (!button && !hitLink && !ytControl && !(isYoutubeItem && titleLink)) return;
+
+            if ((hitLink || titleLink) && isModifiedNavigationClick(event)) return;
+
+            if (isYoutubeItem || ytControl) {
+                event.preventDefault();
+                event.stopPropagation();
+                openYoutubeEpisode(item, deck);
+                return;
+            }
 
             event.preventDefault();
             event.stopPropagation();
@@ -3030,6 +3196,9 @@
             fullscreenShow = fullscreenRoot.querySelector('[data-fullscreen-show]');
             fullscreenEpisodeLink = fullscreenRoot.querySelector('[data-fullscreen-episode-link]');
             fullscreenPodcastLink = fullscreenRoot.querySelector('[data-fullscreen-podcast-link]');
+            fullscreenYoutubeWrap = fullscreenRoot.querySelector('[data-fullscreen-youtube]');
+            fullscreenYoutubeIframe = fullscreenRoot.querySelector('[data-fullscreen-youtube-iframe]');
+            fullscreenYoutubeLink = fullscreenRoot.querySelector('[data-fullscreen-youtube-link]');
             fullscreenPlay = fullscreenRoot.querySelector('[data-fullscreen-play]');
             fullscreenScrub = fullscreenRoot.querySelector('[data-fullscreen-scrub]');
             fullscreenScrubProgress = fullscreenRoot.querySelector('[data-fullscreen-scrub-progress]');

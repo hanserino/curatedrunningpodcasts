@@ -81,6 +81,8 @@
 					{%- assign podcast_archive_url = page.url | append: "episodes/" -%}
 					{%- endif -%}
 					{% include podcast-feed-player.html rss_feed=page.rss_feed podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=site.podcast_feed_display_limit archive_url=podcast_archive_url %}
+					{% elsif page.youtube_link and page.youtube_link != '' %}
+					{% include podcast-feed-player.html rss_feed=page.youtube_link youtube_only=true podcast_title=page.title cover_image=page.cover_image section_id="post-podcast-feed-player" heading="Latest episodes" limit=site.podcast_feed_display_limit %}
 					{% endif %}
 				</div>
 			</section>

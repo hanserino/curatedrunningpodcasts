@@ -1,0 +1,44 @@
+{%- comment -%}
+  Play button for audio episodes, or YouTube watch button (opens site modal) when there is no enclosure.
+  Params: episode, class, podcast_title, podcast_url (optional), cover_url (optional),
+  episode_path (optional), aria_suffix (optional)
+{%- endcomment -%}
+{%- assign _ep = include.episode -%}
+{%- assign _audio = _ep.audio_url | default: '' | strip -%}
+{%- assign _yt_id = _ep.youtube_video_id | default: '' | strip -%}
+{%- assign _aria = include.aria_suffix | default: '' -%}
+{%- if _audio != '' -%}
+<button
+  type="button"
+  class="{{ include.class }}"
+  aria-pressed="false"
+  aria-label="Play episode: {{ _ep.episode_title | xml_escape }}{{ _aria }}"
+  data-audio-url="{{ _audio | escape }}"
+  data-episode-title="{{ _ep.episode_title | escape }}"
+  data-podcast-title="{{ include.podcast_title | default: 'Podcast' | escape }}"
+  {% if include.cover_url and include.cover_url != '' %}data-cover-url="{{ include.cover_url | escape }}"{% endif %}
+  {% if include.episode_path and include.episode_path != '' %}data-episode-url="{{ include.episode_path | escape }}"{% endif %}
+  {% if include.podcast_url and include.podcast_url != '' %}data-podcast-url="{{ include.podcast_url | escape }}"{% endif %}
+>
+  <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
+</button>
+{%- elsif _yt_id != '' -%}
+<button
+  type="button"
+  class="{{ include.class }} latest-episodes__play--youtube"
+  data-youtube-video-id="{{ _yt_id | escape }}"
+  data-episode-title="{{ _ep.episode_title | escape }}"
+  data-podcast-title="{{ include.podcast_title | default: 'Podcast' | escape }}"
+  title="Watch video"
+  aria-label="Watch video: {{ _ep.episode_title | xml_escape }}{{ _aria }}"
+  {% if include.cover_url and include.cover_url != '' %}data-cover-url="{{ include.cover_url | escape }}"{% endif %}
+  {% if include.podcast_url and include.podcast_url != '' %}data-podcast-url="{{ include.podcast_url | escape }}"{% endif %}
+>
+  <svg class="latest-episodes__youtube-glyph" viewBox="0 0 24 24" width="14" height="14" focusable="false" aria-hidden="true">
+    <path
+      fill="currentColor"
+      d="M14 3h7v7h-2V6.41l-9.29 9.3-1.42-1.42 9.3-9.29H14V3zM5 5h6v2H7v10h10v-4h2v6H5V5z"
+    />
+  </svg>
+</button>
+{%- endif -%}

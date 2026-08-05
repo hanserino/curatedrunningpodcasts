@@ -634,6 +634,60 @@ body.brp-global-player-visible {
         object-fit: cover;
     }
 
+    &__youtube {
+        width: 100%;
+        max-width: 42rem;
+        margin: 0 auto 1.25rem;
+    }
+
+    &__youtube-frame {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        border: $border-heavy;
+        border-radius: $radius-sm;
+        overflow: hidden;
+        background: $color-ink;
+        box-shadow: $shadow-brutal;
+    }
+
+    &__youtube-iframe {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+    }
+
+    &--youtube {
+        .brp-player-fullscreen__art-wrap {
+            display: none;
+        }
+
+        .brp-player-fullscreen__timeline,
+        .brp-player-fullscreen__controls {
+            display: none;
+        }
+
+        .brp-player-fullscreen__hero {
+            grid-template-columns: 1fr;
+            justify-items: stretch;
+            text-align: center;
+            max-width: 42rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .brp-player-fullscreen__copy {
+            text-align: center;
+        }
+
+        .brp-player-fullscreen__links {
+            justify-content: center;
+        }
+    }
+
     &__copy {
         min-width: 0;
     }

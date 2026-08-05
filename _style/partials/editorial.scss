@@ -690,6 +690,8 @@ $ep-play-art: $ep-row-art;
             box-shadow 0.12s ease;
         touch-action: manipulation;
         -webkit-tap-highlight-color: transparent;
+        text-decoration: none;
+        box-sizing: border-box;
 
         &:hover {
             @include brutal-surface-hover;
@@ -1157,6 +1159,33 @@ $ep-play-art: $ep-row-art;
                 currentColor 9px
             );
         }
+
+        &.latest-episodes__play--youtube .latest-episodes__youtube-glyph {
+            width: 13px;
+            height: 13px;
+        }
+    }
+
+    /* YouTube-only episodes: same footprint as play, outbound affordance instead of triangle. */
+    &__play--youtube {
+        background: $color-lane;
+        color: $color-ink;
+
+        &:hover {
+            background: $color-mist-light;
+        }
+
+        &:focus-visible {
+            outline: 3px solid $color-ink;
+            outline-offset: 2px;
+        }
+    }
+
+    &__youtube-glyph {
+        display: block;
+        flex-shrink: 0;
+        width: 15px;
+        height: 15px;
     }
 
     &__episode-title--feed {

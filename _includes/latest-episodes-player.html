@@ -30,6 +30,7 @@
     {%- endif -%}
     {%- assign _filter_category = episode.filter_category | default: '' | strip -%}
     {%- assign _podcast_doc = nil -%}
+    {%- assign _page_slug = '' -%}
     {%- if _filter_category == '' -%}
       {%- include podcast-slug-from-url.html url=episode.podcast_page_url -%}
       {%- assign _page_slug = podcast_slug_from_url -%}
@@ -38,28 +39,47 @@
         {%- assign _podcast_doc = resolved_podcast -%}
       {%- endif -%}
     {%- endif -%}
+    {%- assign _audio = episode.audio_url | default: '' | strip -%}
+    {%- assign _yt_id = episode.youtube_video_id | default: '' | strip -%}
+    {%- assign _yt_url = '' -%}
+    {%- if _yt_id != '' -%}
+      {%- assign _yt_url = 'https://www.youtube.com/watch?v=' | append: _yt_id -%}
+    {%- endif -%}
     {%- assign _ep_path = episode.episode_page_url | default: '' | strip -%}
-    {%- if _ep_path == '' -%}
-      {%- assign _ep_key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
-      {%- if _ep_key == '' -%}
-        {%- assign _ep_key = episode.episode_title | slugify -%}
+    {%- if _audio != '' -%}
+      {%- if _ep_path == '' -%}
+        {%- if _page_slug == '' -%}
+          {%- include podcast-slug-from-url.html url=episode.podcast_page_url -%}
+          {%- assign _page_slug = podcast_slug_from_url -%}
+        {%- endif -%}
+        {%- assign _ep_key = episode.episode_slug | default: episode.episode_key | default: '' | strip -%}
+        {%- if _ep_key == '' -%}
+          {%- assign _ep_key = episode.episode_title | slugify -%}
+        {%- endif -%}
+        {%- if _page_slug != '' and _ep_key != '' -%}
+          {%- assign _ep_path = '/' | append: _page_slug | append: '/' | append: _ep_key | append: '/' -%}
+        {%- endif -%}
       {%- endif -%}
-      {%- if _page_slug != '' and _ep_key != '' -%}
-        {%- assign _ep_path = '/' | append: _page_slug | append: '/' | append: _ep_key | append: '/' -%}
-      {%- endif -%}
+    {%- else -%}
+      {%- assign _ep_path = '' -%}
+    {%- endif -%}
+    {%- assign _hit_href = _ep_path -%}
+    {%- if _hit_href == '' and _yt_url != '' -%}
+      {%- assign _hit_href = _yt_url -%}
     {%- endif -%}
     <li
       class="latest-episodes__item"
       {% if _filter_category != '' %}data-category="{{ _filter_category }}"{% elsif _podcast_doc %}data-category="{% for tag in _podcast_doc.tags %}{{ tag }} {% endfor %}{% for language in _podcast_doc.language %}{{ language }} {% endfor %}"{% endif %}
       {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
       {% if _ep_path != '' %}data-episode-url="{{ _ep_path | relative_url | escape }}"{% endif %}
+      {% if _yt_id != '' and _audio == '' %}data-youtube-video-id="{{ _yt_id | escape }}"{% endif %}
     >
-      <article class="latest-episodes__episode-card{% if _ep_path != '' %} latest-episodes__episode-card--linked{% endif %}">
-        {%- if _ep_path != '' -%}
+      <article class="latest-episodes__episode-card{% if _hit_href != '' %} latest-episodes__episode-card--linked{% endif %}">
+        {%- if _hit_href != '' -%}
         <a
-          href="{{ _ep_path | relative_url | escape }}"
+          href="{% if _yt_id != '' and _audio == '' %}{{ _yt_url | escape }}{% else %}{{ _hit_href | relative_url | escape }}{% endif %}"
           class="latest-episodes__episode-hit"
-          aria-label="Open episode: {{ episode.episode_title | xml_escape }}"
+          aria-label="{% if _yt_id != '' and _audio == '' %}Watch video: {% else %}Open episode: {% endif %}{{ episode.episode_title | xml_escape }}"
         ></a>
         {%- endif -%}
         <div class="latest-episodes__episode-art" aria-hidden="true">
@@ -76,20 +96,26 @@
           {%- else -%}
           <span class="latest-episodes__podcast-label latest-episodes__podcast-label--feed">{{ episode.podcast_title }}</span>
           {%- endif -%}
-          <button
-            type="button"
+          {%- assign _cover_attr = '' -%}
+          {%- if episode.cover_image and episode.cover_image != "" -%}
+            {%- assign _cover_attr = episode.cover_image | relative_url -%}
+          {%- endif -%}
+          {%- assign _podcast_attr = '' -%}
+          {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
+            {%- assign _podcast_attr = episode.podcast_page_url | relative_url -%}
+          {%- endif -%}
+          {%- assign _ep_attr = '' -%}
+          {%- if _ep_path != '' -%}
+            {%- assign _ep_attr = _ep_path | relative_url -%}
+          {%- endif -%}
+          {% include episode-listen-control.html
+            episode=episode
             class="latest-episodes__play latest-episodes__play--feed"
-            aria-pressed="false"
-            aria-label="Play episode: {{ episode.episode_title | xml_escape }}"
-            data-audio-url="{{ episode.audio_url | escape }}"
-            data-episode-title="{{ episode.episode_title | escape }}"
-            data-podcast-title="{{ episode.podcast_title | escape }}"
-            {% if episode.cover_image and episode.cover_image != "" %}data-cover-url="{{ episode.cover_image | relative_url | escape }}"{% endif %}
-            {% if _ep_path != '' %}data-episode-url="{{ _ep_path | relative_url | escape }}"{% endif %}
-            {% if episode.podcast_page_url and episode.podcast_page_url != "" %}data-podcast-url="{{ episode.podcast_page_url | relative_url | escape }}"{% endif %}
-          >
-            <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
-          </button>
+            podcast_title=episode.podcast_title
+            cover_url=_cover_attr
+            episode_path=_ep_attr
+            podcast_url=_podcast_attr
+          %}
         </div>
       </article>
       <div class="latest-episodes__listen-track" data-listen-progress-track hidden>

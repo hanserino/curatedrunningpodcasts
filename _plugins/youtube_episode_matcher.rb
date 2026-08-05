@@ -417,6 +417,8 @@ module YoutubeEpisodeMatcher
 
       youtube_link = podcast_doc.data["youtube_link"].to_s.strip
       next if youtube_link.empty?
+      # YouTube-only shows already ingested video IDs as the episode source.
+      next if LatestPodcastEpisodes.youtube_only_podcast?(podcast_doc)
 
       videos = []
       if fetch
