@@ -414,6 +414,59 @@ module LatestPodcastEpisodes
 
   BLOCK_ELEMENT_RX = /<(p|ul|ol|div|h[1-6])(\s[^>]*)?>([\s\S]*?)<\/\1>/im.freeze
   BLOCK_OPEN_RX = /<(p|ul|ol|div|h[1-6])(\s[^>]*)?>/i.freeze
+
+  # Match nested block tags by depth — avoids catastrophic backtracking in BLOCK_ELEMENT_RX.
+  def block_element_close_range(html, tag, open_end)
+    tag = tag.downcase
+    depth = 1
+    pos = open_end
+    open_rx = Regexp.new("<#{Regexp.escape(tag)}(?:\\s[^>]*)?>", Regexp::IGNORECASE)
+    close_rx = Regexp.new("</#{Regexp.escape(tag)}\\s*>", Regexp::IGNORECASE)
+
+    loop do
+      close_m = html.match(close_rx, pos)
+      return nil unless close_m
+
+      open_m = html.match(open_rx, pos)
+      if open_m && open_m.begin(0) < close_m.begin(0)
+        depth += 1
+        pos = open_m.end(0)
+      else
+        depth -= 1
+        return [close_m.begin(0), close_m.end(0)] if depth.zero?
+
+        pos = close_m.end(0)
+      end
+    end
+  end
+
+  def map_block_elements(html, tags)
+    tag_pattern = tags.map { |t| Regexp.escape(t) }.join("|")
+    open_rx = Regexp.new("<(#{tag_pattern})(\\s[^>]*)?>", Regexp::IGNORECASE)
+    result = +""
+    pos = 0
+    while pos < html.length
+      m = html.match(open_rx, pos)
+      break unless m
+
+      result << html[pos...m.begin(0)]
+      tag = m[1].downcase
+      close_range = block_element_close_range(html, tag, m.end(0))
+      unless close_range
+        result << html[m.begin(0)...m.end(0)]
+        pos = m.end(0)
+        next
+      end
+
+      close_begin, close_end = close_range
+      inner = html[m.end(0)...close_begin]
+      full = html[m.begin(0)...close_end]
+      result << yield(tag, m[2].to_s, inner, full)
+      pos = close_end
+    end
+    result << html[pos..]
+    result
+  end
   SECTION_LABEL_SPLIT_RX = /
     (?=
       \b(?:Show\s+Notes|Episode\s+Sponsors?|Sponsors?|Links|Connect|Resources|
@@ -650,27 +703,21 @@ module LatestPodcastEpisodes
   end
 
   def compact_label_url_links_in_html(html)
-    html.to_s.gsub(/<(li|p)(\s[^>]*)?>([\s\S]*?)<\/\1>/im) do
-      tag = Regexp.last_match(1)
-      attrs = Regexp.last_match(2).to_s
-      inner = Regexp.last_match(3).to_s.strip
-      compacted = compact_show_note_link(inner)
-      compacted == inner ? Regexp.last_match(0) : "<#{tag}#{attrs}>#{compacted}</#{tag}>"
+    map_block_elements(html.to_s, %w[li p]) do |tag, attrs, inner, full|
+      stripped = inner.strip
+      compacted = compact_show_note_link(stripped)
+      compacted == stripped ? full : "<#{tag}#{attrs}>#{compacted}</#{tag}>"
     end
   end
 
   def split_block_elements_on_breaks(html)
-    html.gsub(BLOCK_ELEMENT_RX) do
-      tag = Regexp.last_match(1)
-      attrs = Regexp.last_match(2).to_s
-      inner = Regexp.last_match(3).to_s
-      next Regexp.last_match(0) unless %w[p div].include?(tag.downcase)
-      next Regexp.last_match(0) unless inner.match?(/<br\s*\/?>/i)
-
-      parts = inner.split(/<br\s*\/?>/i).map(&:strip).reject { |part| html_inner_blank?(part) }
-      next Regexp.last_match(0) if parts.length <= 1
-
-      parts.map { |part| "<#{tag}#{attrs}>#{part}</#{tag}>" }.join
+    map_block_elements(html.to_s, %w[p div]) do |tag, attrs, inner, full|
+      unless inner.match?(/<br\s*\/?>/i)
+        full
+      else
+        parts = inner.split(/<br\s*\/?>/i).map(&:strip).reject { |part| html_inner_blank?(part) }
+        parts.length <= 1 ? full : parts.map { |part| "<#{tag}#{attrs}>#{part}</#{tag}>" }.join
+      end
     end
   end
 
@@ -681,10 +728,17 @@ module LatestPodcastEpisodes
   def each_description_segment(html)
     rest = html.to_s
     until rest.empty?
-      if (block_match = rest.match(/\A\s*<(p|ul|ol|div|h[1-6])(\s[^>]*)?>[\s\S]*?<\/\1>/im))
-        yield :element, block_match[1].downcase, block_match[0]
-        rest = rest[block_match[0].length..]
-        next
+      open_match = rest.match(/\A\s*<(p|ul|ol|div|h[1-6])(\s[^>]*)?>/im)
+      if open_match
+        tag = open_match[1].downcase
+        close_range = block_element_close_range(rest, tag, open_match.end(0))
+        if close_range
+          close_end = close_range[1]
+          element_html = rest[0...close_end]
+          yield :element, tag, element_html
+          rest = rest[close_end..].to_s
+          next
+        end
       end
 
       next_block = rest.match(BLOCK_OPEN_RX)
@@ -815,14 +869,24 @@ module LatestPodcastEpisodes
   end
 
   def normalize_list_element_html(tag, element_html)
-    inner = element_html.match(BLOCK_ELEMENT_RX)&.captures&.last.to_s
-    inner.gsub(/<li(\s[^>]*)?>([\s\S]*?)<\/li>/im) do
-      li_inner = Regexp.last_match(2).to_s.strip
+    open_m = element_html.match(/\A<(ul|ol)(\s[^>]*)?>/im)
+    inner =
+      if open_m
+        list_tag = open_m[1].downcase
+        close_range = block_element_close_range(element_html, list_tag, open_m.end(0))
+        close_range ? element_html[open_m.end(0)...close_range[0]] : ""
+      else
+        ""
+      end
+
+    items = map_block_elements(inner, %w[li]) do |_li_tag, _attrs, li_inner, _full|
+      li_inner = li_inner.strip
       if (bare = li_inner.match(/\A<p(\s[^>]*)?>([\s\S]*?)<\/p>\z/im))
         li_inner = bare[2].to_s.strip
       end
       format_list_item(li_inner)
-    end.then { |items| "<#{tag}>#{items}</#{tag}>" }
+    end
+    "<#{tag}>#{items}</#{tag}>"
   end
 
   def structure_episode_description_html(html)
@@ -920,6 +984,15 @@ module LatestPodcastEpisodes
     cleaned = linkify_bare_urls_in_html(cleaned.strip)
     cleaned = linkify_social_handles_in_html(cleaned)
     format_chapter_sections(compact_label_url_links_in_html(cleaned))
+  end
+
+  def sanitize_episode_description_html_fallback(html)
+    plain = description_plain_from_html(html)
+    return "" if plain.empty?
+
+    paragraphs = plain.split(/\n{2,}/).map(&:strip).reject(&:empty?)
+    paragraphs = [plain] if paragraphs.empty?
+    paragraphs.map { |para| "<p>#{CGI.escapeHTML(para)}</p>" }.join
   end
 
   def episode_image_url(item)

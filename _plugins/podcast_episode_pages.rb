@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require "timeout"
+
 # Generates a static page per RSS episode under /{podcast-slug}/{episode-title-slug}/
 # using episodes_by_feed from LatestPodcastEpisodes (production RSS or committed YAML).
 #
@@ -183,6 +185,8 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
     Jekyll.env == "production"
   end
 
+  SANITIZE_TIMEOUT_SECONDS = 45
+
   def prepare_episode(raw_episode)
     episode = raw_episode.dup
     html = episode["description_html"].to_s.strip
@@ -190,7 +194,19 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
 
     # Episode-pages CI reads committed _data without bulk resanitize; always run the
     # sanitizer here so HTML/plugin improvements apply to existing show notes.
-    episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(html)
+    slug = episode["episode_slug"].to_s.strip
+    begin
+      Timeout.timeout(SANITIZE_TIMEOUT_SECONDS) do
+        episode["description_html"] = LatestPodcastEpisodes.sanitize_episode_description_html(html)
+      end
+    rescue Timeout::Error
+      Jekyll.logger.warn(
+        "PodcastEpisodePages:",
+        "Show-note sanitize timed out after #{SANITIZE_TIMEOUT_SECONDS}s for #{slug} (#{html.length} chars); using plain-text fallback."
+      )
+      episode["description_html"] =
+        LatestPodcastEpisodes.sanitize_episode_description_html_fallback(html)
+    end
     episode["description_plain"] =
       LatestPodcastEpisodes.description_plain_from_html(episode["description_html"])
     episode
@@ -310,6 +326,11 @@ class PodcastEpisodePagesGenerator < Jekyll::Generator
           "Prepared #{page_count} episode page(s) so far…"
         )
       end
+
+      Jekyll.logger.info(
+        "PodcastEpisodePages:",
+        "Preparing #{row[:episode_slug]} (#{page_count + 1}/#{max_new || pending.size})…"
+      )
 
       episode = prepare_episode(row[:raw])
       page = PodcastEpisodePage.new(
