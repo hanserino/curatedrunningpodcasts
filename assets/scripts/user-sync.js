@@ -564,21 +564,25 @@
     function syncMobileAuthPresentation() {
         document.querySelectorAll('[data-user-auth]').forEach(function (root) {
             var toggle = root.querySelector('[data-user-auth-toggle]');
-            if (!toggle) {
+            var dropdown = root.querySelector('[data-user-auth-dropdown]');
+            if (!toggle || !dropdown) {
                 return;
             }
 
-            if (isMobileNav()) {
-                root.classList.add('user-auth--mobile-nav');
-                toggle.removeAttribute('tabindex');
-                toggle.removeAttribute('aria-hidden');
-                closeAuthMenu(root);
-            } else {
-                root.classList.remove('user-auth--mobile-nav');
-                toggle.removeAttribute('tabindex');
-                toggle.removeAttribute('aria-hidden');
-                closeAuthMenu(root);
+            var mobile = isMobileNav();
+            var signedIn = root.classList.contains('user-auth--signed-in');
+
+            root.classList.toggle('user-auth--mobile-nav', mobile);
+            root.classList.toggle('user-auth--mobile-nav-flat', mobile && signedIn);
+
+            if (mobile && signedIn) {
+                dropdown.hidden = false;
+                toggle.setAttribute('aria-expanded', 'true');
+                root.classList.remove('is-open');
+                return;
             }
+
+            closeAuthMenu(root);
         });
     }
 
@@ -643,6 +647,8 @@
                 closeAuthMenu(root);
             }
         });
+
+        syncMobileAuthPresentation();
     }
 
     function wireAuthMenus() {

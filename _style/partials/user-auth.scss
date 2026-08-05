@@ -298,6 +298,61 @@
         }
     }
 
+    .user-auth--mobile-nav-flat {
+        gap: 0;
+
+        .user-auth__identity,
+        .user-auth__toggle {
+            display: none !important;
+        }
+
+        .user-auth__dropdown {
+            display: flex !important;
+            flex-direction: column;
+            gap: 0.15rem;
+            position: static;
+            width: 100%;
+            min-width: 0;
+            margin: 0;
+            padding: 0;
+            border: none;
+            border-radius: 0;
+            background: transparent;
+            box-shadow: none;
+
+            &[hidden] {
+                display: flex !important;
+            }
+        }
+
+        .user-auth__email,
+        .user-auth__sign-in {
+            display: none !important;
+        }
+
+        .user-auth__action {
+            padding: 0.45rem 0.15rem;
+            border: none;
+            border-bottom: 2px solid transparent;
+            border-radius: 0;
+            background: transparent;
+            font-size: 0.92rem;
+            font-weight: 700;
+            text-align: left;
+
+            &:hover,
+            &:focus-visible {
+                background: transparent;
+                border-bottom-color: $color-ink;
+            }
+
+            &[aria-current="page"] {
+                background: transparent;
+                border-bottom-color: $color-speed;
+            }
+        }
+    }
+
     .home-page__hero-bar .main-nav__item--auth {
         border-top-color: rgba(255, 255, 255, 0.22);
     }
@@ -329,6 +384,29 @@
 
             &[aria-current="page"] {
                 background: rgba($color-speed, 0.28);
+            }
+        }
+    }
+
+    .home-page__hero-bar .user-auth--mobile-nav-flat {
+        .user-auth__dropdown {
+            background: transparent;
+            border: none;
+            box-shadow: none;
+        }
+
+        .user-auth__action {
+            color: inherit;
+
+            &:hover,
+            &:focus-visible {
+                background: transparent;
+                border-bottom-color: #fff;
+            }
+
+            &[aria-current="page"] {
+                background: transparent;
+                border-bottom-color: $color-speed;
             }
         }
     }
