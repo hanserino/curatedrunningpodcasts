@@ -1150,6 +1150,35 @@
     function playEpisode(options) {
         options = options || {};
         updateMediaSessionMetadata();
+        // Optimistic UI so footer/list don't look stuck while play() buffers.
+        // Avoid syncGlobalBarFromMeta here — it would clear these classes while paused.
+        if (globalPlay) {
+            globalPlay.classList.add('brp-global-player__play--playing');
+            globalPlay.setAttribute('aria-pressed', 'true');
+            globalPlay.setAttribute('aria-label', 'Pause');
+        }
+        if (fullscreenPlay) {
+            fullscreenPlay.classList.add('brp-player-fullscreen__play--playing');
+            fullscreenPlay.setAttribute('aria-pressed', 'true');
+            fullscreenPlay.setAttribute('aria-label', 'Pause');
+        }
+        if (activeDeck && activeDeck.currentLi) {
+            activeDeck.currentLi.classList.add('latest-episodes__item--playing');
+            var optBtn =
+                activeDeck.currentLi.querySelector('.latest-episodes__play') ||
+                activeDeck.currentLi.querySelector('[data-audio-url]');
+            if (optBtn) {
+                optBtn.classList.add('latest-episodes__play--playing');
+                optBtn.setAttribute('aria-pressed', 'true');
+                var optLabel = optBtn.querySelector('.episode-page__listen-label');
+                if (optLabel) optLabel.textContent = 'Pause episode';
+                if (optBtn.classList.contains('episode-page__listen-btn')) {
+                    optBtn.setAttribute('aria-label', 'Pause episode');
+                }
+            }
+        }
+        updateGlobalBarVisibility();
+
         var playPromise = player.play();
         if (playPromise && typeof playPromise.then === 'function') {
             playPromise
@@ -1511,16 +1540,53 @@
         }, 450);
     }
 
+    function setScrubGestureUi(scrubInput, active) {
+        var wrap = scrubInput && scrubInput.closest
+            ? scrubInput.closest(
+                  '.brp-global-player__scrub-wrap, .brp-player-fullscreen__scrub-wrap, .latest-episodes__scrub-track-wrap'
+              )
+            : null;
+        if (wrap) {
+            wrap.classList.toggle('is-scrubbing', !!active);
+        }
+        document.body.classList.toggle('brp-is-scrubbing', !!active);
+    }
+
+    function beginScrubGesture(scrubInput, event) {
+        if (!scrubInput) return;
+        setScrubGestureUi(scrubInput, true);
+        if (event && typeof scrubInput.setPointerCapture === 'function' && event.pointerId != null) {
+            try {
+                scrubInput.setPointerCapture(event.pointerId);
+            } catch (e) {}
+        }
+        if (event && event.pointerType === 'touch' && navigator.vibrate) {
+            try {
+                navigator.vibrate(8);
+            } catch (e) {}
+        }
+    }
+
+    function endScrubGestureUi(scrubInput) {
+        setScrubGestureUi(scrubInput, false);
+    }
+
     function commitGlobalScrubSeek() {
         var scrubInput = fullscreenScrubbing ? fullscreenScrub : globalScrub;
         if (!scrubInput) scrubInput = globalScrub;
-        if ((!globalScrubbing && !fullscreenScrubbing) || !scrubInput) return;
+        if ((!globalScrubbing && !fullscreenScrubbing) || !scrubInput) {
+            endScrubGestureUi(globalScrub);
+            endScrubGestureUi(fullscreenScrub);
+            return;
+        }
         var dur = player.duration;
         if (isFinite(dur) && dur > 0) {
             player.currentTime = (Number(scrubInput.value) / 1000) * dur;
         }
         globalScrubbing = false;
         fullscreenScrubbing = false;
+        endScrubGestureUi(scrubInput);
+        endScrubGestureUi(globalScrub === scrubInput ? fullscreenScrub : globalScrub);
         updateGlobalTransportTimes();
         if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
         updateMediaSessionPosition();
@@ -1530,6 +1596,8 @@
     function cancelGlobalScrubGesture() {
         globalScrubbing = false;
         fullscreenScrubbing = false;
+        endScrubGestureUi(globalScrub);
+        endScrubGestureUi(fullscreenScrub);
         updateGlobalTransportTimes();
     }
 
@@ -1578,7 +1646,7 @@
         if (root.getAttribute('data-brp-deck-wired') !== 'true') {
             return window.BrpPlayer.registerDeck('episode-single-player');
         }
-        return activeDeck;
+        return deckFromRoot(root) || activeDeck;
     }
 
     function applyAbsoluteSeek(seconds) {
@@ -1755,11 +1823,15 @@
                 handleGlobalScrubInput(fullscreenScrub);
             });
             fullscreenScrub.addEventListener('change', commitGlobalScrubSeek);
-            fullscreenScrub.addEventListener('pointerdown', function () {
+            fullscreenScrub.addEventListener('pointerdown', function (event) {
                 fullscreenScrubbing = true;
+                beginScrubGesture(fullscreenScrub, event);
             });
             fullscreenScrub.addEventListener('pointerup', commitGlobalScrubSeek);
             fullscreenScrub.addEventListener('pointercancel', cancelGlobalScrubGesture);
+            fullscreenScrub.addEventListener('lostpointercapture', function () {
+                if (fullscreenScrubbing) commitGlobalScrubSeek();
+            });
         }
     }
 
@@ -1815,12 +1887,16 @@
 
             globalScrub.addEventListener('change', commitGlobalScrubSeek);
 
-            globalScrub.addEventListener('pointerdown', function () {
+            globalScrub.addEventListener('pointerdown', function (event) {
                 globalScrubbing = true;
+                beginScrubGesture(globalScrub, event);
             });
 
             globalScrub.addEventListener('pointerup', commitGlobalScrubSeek);
             globalScrub.addEventListener('pointercancel', cancelGlobalScrubGesture);
+            globalScrub.addEventListener('lostpointercapture', function () {
+                if (globalScrubbing) commitGlobalScrubSeek();
+            });
         }
 
         wireFullscreenControls();
@@ -2056,12 +2132,26 @@
 
         if (shouldPlay) {
             playEpisode();
-        } else if (deck && deck.onPlayStateChange) {
-            deck.onPlayStateChange();
+            // Update footer meta/art without syncGlobalPlayButton — playEpisode already
+            // applied an optimistic playing state that syncGlobalBarFromMeta would clear.
+            if (globalTitle) {
+                setGlobalMetaLine(globalTitle, currentMeta.episodeTitle, null, null);
+            }
+            if (globalShow) {
+                setGlobalMetaLine(globalShow, currentMeta.podcastTitle, null, null);
+            }
+            updateGlobalArt(currentMeta.coverUrl);
+            syncFullscreenMeta();
+            updateGlobalTransportTimes();
+            updateGlobalBarVisibility();
+        } else {
+            if (deck && deck.onPlayStateChange) {
+                deck.onPlayStateChange();
+            }
+            syncGlobalBarFromMeta();
         }
 
         if (deck && deck.updateTransportTimes) deck.updateTransportTimes();
-        syncGlobalBarFromMeta();
         refreshAllListenProgress();
         dispatchEpisodeActivated({
             episodeTitle: episodeTitle,
@@ -2229,6 +2319,25 @@
         if (item.classList.contains('latest-episodes__empty')) return false;
         if (item.classList.contains('latest-episodes__item--promo')) return false;
         return !!item.querySelector('.latest-episodes__episode-card');
+    }
+
+    function isStickyPlayableItem(item) {
+        if (!item) return false;
+        if (item.classList.contains('latest-episodes__feed-day')) return false;
+        if (item.classList.contains('latest-episodes__empty')) return false;
+        if (item.classList.contains('latest-episodes__item--promo')) return false;
+        if (item.classList.contains('latest-episodes__item--solo')) return true;
+        if (item.querySelector('.latest-episodes__episode-card')) return true;
+        if (item.querySelector('.latest-episodes__row--episode')) return true;
+        return !!(
+            item.querySelector('[data-audio-url]') ||
+            item.querySelector('[data-youtube-video-id]') ||
+            (item.getAttribute('data-youtube-video-id') || '').trim()
+        );
+    }
+
+    function deckFromRoot(root) {
+        return root && root.__brpDeck ? root.__brpDeck : null;
     }
 
     function openYoutubeEpisode(source, deck) {
@@ -2443,8 +2552,10 @@
             if (isFeedEpisodeClickExempt(event.target)) return;
 
             var item = event.target.closest('.latest-episodes__item');
-            if (!isFeedCardItem(item)) return;
+            if (!isStickyPlayableItem(item)) return;
 
+            var isCard = isFeedCardItem(item);
+            var isSolo = item.classList.contains('latest-episodes__item--solo');
             var ytControl = event.target.closest('[data-youtube-video-id]');
             var button = event.target.closest('[data-audio-url]');
             var hitLink = event.target.closest('a.latest-episodes__episode-hit');
@@ -2452,6 +2563,41 @@
             var isYoutubeItem =
                 !!(item.getAttribute('data-youtube-video-id') || '').trim() ||
                 !!item.querySelector('button[data-youtube-video-id]');
+
+            // Episode page: only the big listen button toggles playback + footer.
+            if (isSolo) {
+                if (!button) return;
+                event.preventDefault();
+                event.stopPropagation();
+                var soloUrl = button.getAttribute('data-audio-url');
+                var soloSame = urlsMatchEpisode(soloUrl, playerActiveUrl());
+                var soloWillPause =
+                    soloSame && deck.currentLi === item && player && !player.paused && !player.ended;
+                activateEpisode(button, { userGesture: true, play: true }, deck);
+                if (!soloWillPause) openPlayerFullscreen();
+                return;
+            }
+
+            // Podcast page rows: play/youtube controls only — let title links navigate.
+            if (!isCard) {
+                if (isYoutubeItem || ytControl) {
+                    if (!button && !ytControl) return;
+                    event.preventDefault();
+                    event.stopPropagation();
+                    openYoutubeEpisode(item, deck);
+                    return;
+                }
+                if (!button) return;
+                event.preventDefault();
+                event.stopPropagation();
+                var rowUrl = button.getAttribute('data-audio-url');
+                var rowSame = urlsMatchEpisode(rowUrl, playerActiveUrl());
+                var rowWillPause =
+                    rowSame && deck.currentLi === item && player && !player.paused && !player.ended;
+                activateEpisode(button, { userGesture: true, play: true }, deck);
+                if (!rowWillPause) openPlayerFullscreen();
+                return;
+            }
 
             if (!button && !hitLink && !ytControl && !(isYoutubeItem && titleLink)) return;
 
@@ -2471,7 +2617,7 @@
                 var audioUrl = button.getAttribute('data-audio-url');
                 var sameEpisode = urlsMatchEpisode(audioUrl, playerActiveUrl());
                 var willTogglePause =
-                    sameEpisode && deck.currentLi === item && !player.paused && !player.ended;
+                    sameEpisode && deck.currentLi === item && player && !player.paused && !player.ended;
                 activateEpisode(button, { userGesture: true, play: true }, deck);
                 if (!willTogglePause) openPlayerFullscreen();
                 return;
@@ -2481,8 +2627,12 @@
         });
 
         syncListFromPlayer();
-        activeDeck = deck;
-        document.body.classList.add('brp-deck-active');
+        root.__brpDeck = deck;
+        // Do not steal activeDeck on wire — ownership updates when playback starts.
+        if (playerActiveUrl() && findPlayButtonForUrl(root, playerActiveUrl())) {
+            activeDeck = deck;
+            document.body.classList.add('brp-deck-active');
+        }
         refreshAllListenProgress();
         updateGlobalBarVisibility();
 
@@ -3180,6 +3330,7 @@
                     player.currentTime = (Number(scrubInput.value) / 1000) * dur;
                 }
                 scrubbing = false;
+                endScrubGestureUi(scrubInput);
                 updateTransportTimes();
                 updateGlobalTransportTimes();
                 updateMediaSessionPosition();
@@ -3188,12 +3339,14 @@
 
             function cancelDeckScrubGesture() {
                 scrubbing = false;
+                endScrubGestureUi(scrubInput);
                 updateTransportTimes();
                 updateGlobalTransportTimes();
             }
 
             scrubInput.addEventListener('input', function () {
                 scrubbing = true;
+                setScrubGestureUi(scrubInput, true);
                 var dur = player.duration;
                 if (!isFinite(dur) || dur <= 0) return;
                 var scaled = Number(scrubInput.value);
@@ -3201,11 +3354,15 @@
                 if (currentEl) currentEl.textContent = formatTime((scaled / 1000) * dur);
             });
             scrubInput.addEventListener('change', commitDeckScrubSeek);
-            scrubInput.addEventListener('pointerdown', function () {
+            scrubInput.addEventListener('pointerdown', function (event) {
                 scrubbing = true;
+                beginScrubGesture(scrubInput, event);
             });
             scrubInput.addEventListener('pointerup', commitDeckScrubSeek);
             scrubInput.addEventListener('pointercancel', cancelDeckScrubGesture);
+            scrubInput.addEventListener('lostpointercapture', function () {
+                if (scrubbing) commitDeckScrubSeek();
+            });
         }
 
         root.addEventListener('click', function (event) {

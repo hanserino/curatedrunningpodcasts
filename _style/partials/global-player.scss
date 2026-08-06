@@ -394,11 +394,27 @@
     &__scrub-wrap {
         position: relative;
         display: block;
-        height: 1.15rem;
+        // Tall invisible hit target; visual track stays centered.
+        height: 2rem;
         margin: 0;
         touch-action: none;
-        overflow: hidden;
-        contain: layout paint;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+
+        &.is-scrubbing {
+            .brp-global-player__scrub-track,
+            .brp-global-player__scrub-progress {
+                height: 8px;
+                margin-top: -4px;
+            }
+
+            .brp-global-player__scrub-thumb {
+                width: 1.15rem;
+                height: 1.15rem;
+                border-width: 2px;
+            }
+        }
     }
 
     &__scrub-input {
@@ -407,9 +423,51 @@
         width: 100%;
         height: 100%;
         margin: 0;
+        padding: 0;
         opacity: 0;
         cursor: pointer;
         z-index: 2;
+        // Expand native control chrome where browsers still draw it under opacity:0
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+        touch-action: none;
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            background: transparent;
+            border: 0;
+        }
+
+        &::-moz-range-thumb {
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            background: transparent;
+            border: 0;
+        }
+
+        &::-webkit-slider-runnable-track {
+            height: 2rem;
+            background: transparent;
+            border: 0;
+        }
+
+        &::-moz-range-track {
+            height: 2rem;
+            background: transparent;
+            border: 0;
+        }
+
+        &:focus-visible ~ .brp-global-player__scrub-thumb,
+        &:focus-visible ~ .brp-global-player__scrub-progress .brp-global-player__scrub-thumb {
+            outline: 3px solid $color-speed;
+            outline-offset: 2px;
+        }
     }
 
     &__scrub-track {
@@ -417,22 +475,26 @@
         left: 0;
         right: 0;
         top: 50%;
-        height: 4px;
-        margin-top: -2px;
+        height: 6px;
+        margin-top: -3px;
         background: $color-lane;
-        border: 1px solid rgba($color-ink, 0.12);
+        border: 1px solid rgba($color-ink, 0.14);
+        border-radius: 999px;
         pointer-events: none;
+        transition: height 0.12s ease, margin-top 0.12s ease;
     }
 
     &__scrub-progress {
         position: absolute;
         left: 0;
         top: 50%;
-        height: 4px;
-        margin-top: -2px;
+        height: 6px;
+        margin-top: -3px;
         width: 0%;
         pointer-events: none;
-        overflow: hidden;
+        overflow: visible;
+        z-index: 1;
+        transition: height 0.12s ease, margin-top 0.12s ease;
     }
 
     &__scrub-fill {
@@ -441,6 +503,25 @@
         height: 100%;
         background: $color-speed;
         border: 1px solid rgba($color-ink, 0.2);
+        border-radius: 999px;
+    }
+
+    &__scrub-thumb {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 0.95rem;
+        height: 0.95rem;
+        border-radius: 50%;
+        background: $color-ink;
+        border: 2px solid $color-surface;
+        box-shadow: $shadow-brutal-sm;
+        pointer-events: none;
+        transform: translate(50%, -50%);
+        transition:
+            width 0.12s ease,
+            height 0.12s ease,
+            transform 0.12s ease;
     }
 
     &__audio {
@@ -494,7 +575,31 @@
     }
 
     .brp-global-player__scrub-wrap {
-        height: 1.35rem;
+        height: 2.75rem;
+    }
+
+    .brp-global-player__scrub-track,
+    .brp-global-player__scrub-progress {
+        height: 8px;
+        margin-top: -4px;
+    }
+
+    .brp-global-player__scrub-thumb {
+        width: 1.15rem;
+        height: 1.15rem;
+    }
+
+    .brp-global-player__scrub-wrap.is-scrubbing {
+        .brp-global-player__scrub-track,
+        .brp-global-player__scrub-progress {
+            height: 12px;
+            margin-top: -6px;
+        }
+
+        .brp-global-player__scrub-thumb {
+            width: 1.45rem;
+            height: 1.45rem;
+        }
     }
 
     .brp-global-player__title-link,
@@ -503,7 +608,7 @@
     }
 
     body.brp-global-player-visible {
-        padding-bottom: calc(6.15rem + env(safe-area-inset-bottom, 0));
+        padding-bottom: calc(6.85rem + env(safe-area-inset-bottom, 0));
     }
 }
 
@@ -795,9 +900,25 @@ body.brp-global-player-visible {
     &__scrub-wrap {
         position: relative;
         display: block;
-        height: 1.35rem;
+        height: 2.35rem;
         margin: 0;
         touch-action: none;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        user-select: none;
+
+        &.is-scrubbing {
+            .brp-player-fullscreen__scrub-track,
+            .brp-player-fullscreen__scrub-progress {
+                height: 10px;
+                margin-top: -5px;
+            }
+
+            .brp-player-fullscreen__scrub-thumb {
+                width: 1.35rem;
+                height: 1.35rem;
+            }
+        }
     }
 
     &__scrub-input {
@@ -806,9 +927,49 @@ body.brp-global-player-visible {
         width: 100%;
         height: 100%;
         margin: 0;
+        padding: 0;
         opacity: 0;
         cursor: pointer;
         z-index: 2;
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+        touch-action: none;
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            background: transparent;
+            border: 0;
+        }
+
+        &::-moz-range-thumb {
+            width: 2.75rem;
+            height: 2.75rem;
+            border-radius: 50%;
+            background: transparent;
+            border: 0;
+        }
+
+        &::-webkit-slider-runnable-track {
+            height: 2.35rem;
+            background: transparent;
+            border: 0;
+        }
+
+        &::-moz-range-track {
+            height: 2.35rem;
+            background: transparent;
+            border: 0;
+        }
+
+        &:focus-visible ~ .brp-player-fullscreen__scrub-progress .brp-player-fullscreen__scrub-thumb {
+            outline: 3px solid $color-speed;
+            outline-offset: 2px;
+        }
     }
 
     &__scrub-track {
@@ -816,22 +977,26 @@ body.brp-global-player-visible {
         left: 0;
         right: 0;
         top: 50%;
-        height: 5px;
-        margin-top: -2.5px;
+        height: 7px;
+        margin-top: -3.5px;
         background: $color-lane;
         border: 1px solid rgba($color-ink, 0.18);
+        border-radius: 999px;
         pointer-events: none;
+        transition: height 0.12s ease, margin-top 0.12s ease;
     }
 
     &__scrub-progress {
         position: absolute;
         left: 0;
         top: 50%;
-        height: 5px;
-        margin-top: -2.5px;
+        height: 7px;
+        margin-top: -3.5px;
         width: 0%;
         pointer-events: none;
-        overflow: hidden;
+        overflow: visible;
+        z-index: 1;
+        transition: height 0.12s ease, margin-top 0.12s ease;
     }
 
     &__scrub-fill {
@@ -839,7 +1004,25 @@ body.brp-global-player-visible {
         width: 100%;
         height: 100%;
         background: $color-speed;
-        border: 1px solid rgba($color-ink, 0.2);
+        border: 1px solid rgba($color-ink, 0.22);
+        border-radius: 999px;
+    }
+
+    &__scrub-thumb {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 1.1rem;
+        height: 1.1rem;
+        border-radius: 50%;
+        background: $color-ink;
+        border: 2px solid $color-surface;
+        box-shadow: $shadow-brutal-sm;
+        pointer-events: none;
+        transform: translate(50%, -50%);
+        transition:
+            width 0.12s ease,
+            height 0.12s ease;
     }
 
     &__controls {
@@ -1046,6 +1229,35 @@ body.brp-player-fullscreen-open {
         width: 100%;
         margin-top: auto;
         margin-bottom: 0.85rem;
+        gap: 0.75rem;
+    }
+
+    .brp-player-fullscreen__scrub-wrap {
+        height: 3rem;
+    }
+
+    .brp-player-fullscreen__scrub-track,
+    .brp-player-fullscreen__scrub-progress {
+        height: 10px;
+        margin-top: -5px;
+    }
+
+    .brp-player-fullscreen__scrub-thumb {
+        width: 1.35rem;
+        height: 1.35rem;
+    }
+
+    .brp-player-fullscreen__scrub-wrap.is-scrubbing {
+        .brp-player-fullscreen__scrub-track,
+        .brp-player-fullscreen__scrub-progress {
+            height: 14px;
+            margin-top: -7px;
+        }
+
+        .brp-player-fullscreen__scrub-thumb {
+            width: 1.65rem;
+            height: 1.65rem;
+        }
     }
 
     .brp-player-fullscreen__controls {

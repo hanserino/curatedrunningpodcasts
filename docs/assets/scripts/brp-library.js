@@ -546,6 +546,10 @@
             if (item.classList.contains('latest-episodes__item--promo')) return;
             if (item.classList.contains('latest-episodes__feed-day')) return;
             if (item.classList.contains('latest-episodes__empty')) return;
+            // Episode-page solo listen button has no actions host — injecting here
+            // stacks queue/mark-played under the big play control.
+            if (item.classList.contains('latest-episodes__item--solo')) return;
+            if (item.closest('.latest-episodes--episode-page')) return;
             if (!item.querySelector('[data-audio-url]')) return;
             item.setAttribute('data-brp-actions-wired', 'true');
             appendEpisodeActions(item);
