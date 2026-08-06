@@ -336,10 +336,10 @@
             '<span class="latest-episodes__episode-title latest-episodes__episode-title--feed">' +
             escapeHtml(meta.episodeTitle) +
             '</span>' +
+            '<div class="latest-episodes__podcast-line">' +
             podcastHtml +
-            '<span class="latest-episodes__episode-meta-row">' +
             durationHtmlFromMeta(meta) +
-            '</span>' +
+            '</div>' +
             '<button type="button" class="latest-episodes__play latest-episodes__play--feed" aria-pressed="false" aria-label="Play episode: ' +
             escapeHtml(meta.episodeTitle) +
             '" data-audio-url="' +

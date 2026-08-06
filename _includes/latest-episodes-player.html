@@ -92,16 +92,14 @@
         </div>
         <div class="latest-episodes__episode-titles">
           <span class="latest-episodes__episode-title latest-episodes__episode-title--feed">{{ episode.episode_title }}</span>
+          <div class="latest-episodes__podcast-line">
           {%- if episode.podcast_page_url and episode.podcast_page_url != "" -%}
           <a href="{{ episode.podcast_page_url | relative_url }}" class="latest-episodes__podcast-link latest-episodes__podcast-link--feed">{{ episode.podcast_title }}</a>
           {%- else -%}
           <span class="latest-episodes__podcast-label latest-episodes__podcast-label--feed">{{ episode.podcast_title }}</span>
           {%- endif -%}
-          {%- if episode.duration_seconds -%}
-          <span class="latest-episodes__episode-meta-row">
-            {% include episode-duration.html episode=episode %}
-          </span>
-          {%- endif -%}
+          {% include episode-duration.html episode=episode %}
+          </div>
           {%- assign _cover_attr = '' -%}
           {%- if episode.cover_image and episode.cover_image != "" -%}
             {%- assign _cover_attr = episode.cover_image | relative_url -%}
