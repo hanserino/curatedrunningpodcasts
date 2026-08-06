@@ -1162,6 +1162,9 @@ $ep-play-art: $ep-row-art;
             font-size: 0.84rem;
             line-height: 1.3;
             color: $color-muted;
+            position: relative;
+            z-index: 2;
+            pointer-events: none;
 
             .latest-episodes__podcast-link--feed,
             .latest-episodes__podcast-label--feed {
@@ -1170,6 +1173,11 @@ $ep-play-art: $ep-row-art;
                 font-size: inherit;
                 line-height: inherit;
                 color: inherit;
+                pointer-events: auto;
+            }
+
+            .latest-episodes__episode-duration {
+                pointer-events: none;
             }
 
             .latest-episodes__episode-duration::before {

@@ -70,9 +70,15 @@
     }
 
     .latest-episodes__episode-title--feed,
+    .latest-episodes__podcast-line,
     .latest-episodes__podcast-link--feed,
     .latest-episodes__podcast-label--feed {
         grid-column: 1;
+    }
+
+    .latest-episodes__podcast-line {
+        grid-row: 2;
+        min-width: 0;
     }
 
     .latest-episodes__episode-titles:not(:has(.latest-episodes__episode-controls))
@@ -83,12 +89,6 @@
         align-self: center;
         justify-self: end;
         pointer-events: auto;
-    }
-
-    @media screen and (min-width: 721px) {
-        .latest-episodes__play--feed {
-            margin-right: 0.35rem;
-        }
     }
 
     [data-episode-actions] {
@@ -103,10 +103,47 @@
         padding: 0;
         flex: none;
         pointer-events: auto;
+        z-index: 1;
     }
 
     .latest-episodes__actions-inline {
         flex-wrap: nowrap;
+    }
+
+    // Wide viewports: stack play + actions in the right column so row-2 duration
+    // is not covered by hover action buttons (display:contents puts them on row 3).
+    @media screen and (min-width: 721px) {
+        .latest-episodes__episode-titles:has(.latest-episodes__episode-controls) {
+            grid-template-rows: auto auto;
+        }
+
+        .latest-episodes__episode-controls {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            grid-column: 2;
+            grid-row: 1 / -1;
+            align-self: stretch;
+            gap: 0.35rem;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .latest-episodes__play--feed {
+            grid-column: auto;
+            grid-row: auto;
+            align-self: auto;
+            justify-self: auto;
+            margin-right: 0;
+        }
+
+        [data-episode-actions] {
+            grid-column: auto;
+            grid-row: auto;
+            margin: 0;
+            justify-self: end;
+        }
     }
 }
 
