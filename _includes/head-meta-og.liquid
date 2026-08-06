@@ -45,4 +45,10 @@
   {%- assign seo_og_abs = "/assets/img/social.jpg" | absolute_url -%}
   {%- assign seo_og_alt = _default_alt -%}
   {%- assign seo_og_type = 'image/jpeg' -%}
+  {%- if seo_og_width == blank -%}
+    {%- assign seo_og_width = 1200 -%}
+  {%- endif -%}
+  {%- if seo_og_height == blank -%}
+    {%- assign seo_og_height = 630 -%}
+  {%- endif -%}
 {%- endif -%}

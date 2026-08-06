@@ -2,7 +2,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "optimize-media": "node tools/optimize-media.mjs"
+    "optimize-media": "node tools/optimize-media.mjs",
+    "generate-social-grid": "node tools/generate-social-grid.mjs"
   },
   "devDependencies": {
     "sharp": "^0.33.5"
