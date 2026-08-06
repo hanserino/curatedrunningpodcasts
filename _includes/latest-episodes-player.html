@@ -97,6 +97,11 @@
           {%- else -%}
           <span class="latest-episodes__podcast-label latest-episodes__podcast-label--feed">{{ episode.podcast_title }}</span>
           {%- endif -%}
+          {%- if episode.duration_seconds -%}
+          <span class="latest-episodes__episode-meta-row">
+            {% include episode-duration.html episode=episode %}
+          </span>
+          {%- endif -%}
           {%- assign _cover_attr = '' -%}
           {%- if episode.cover_image and episode.cover_image != "" -%}
             {%- assign _cover_attr = episode.cover_image | relative_url -%}

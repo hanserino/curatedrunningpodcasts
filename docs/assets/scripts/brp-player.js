@@ -594,6 +594,12 @@
             audioUrl: button.getAttribute('data-audio-url') || fallbackUrl || '',
             episodePageUrl: urls.episodePageUrl,
             podcastPageUrl: urls.podcastPageUrl,
+            durationSeconds: (function () {
+                var raw = button.getAttribute('data-duration-seconds');
+                if (!raw) return null;
+                var seconds = parseInt(raw, 10);
+                return isFinite(seconds) && seconds > 0 ? seconds : null;
+            })(),
         };
     }
 

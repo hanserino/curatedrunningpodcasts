@@ -801,6 +801,29 @@ module LatestPodcastEpisodes
     end
   end
 
+  def parse_itunes_duration_seconds(item)
+    return nil unless item.respond_to?(:itunes_duration) && item.itunes_duration
+
+    raw = item.itunes_duration
+    raw = raw.content if raw.respond_to?(:content)
+    raw = raw.to_s.strip
+    return nil if raw.empty?
+
+    return raw.to_i if raw.match?(/\A\d+\z/)
+
+    parts = raw.split(":").map { |part| Integer(part, 10) }
+    case parts.length
+    when 3
+      parts[0] * 3600 + parts[1] * 60 + parts[2]
+    when 2
+      parts[0] * 60 + parts[1]
+    when 1
+      parts[0]
+    end
+  rescue ArgumentError, TypeError
+    nil
+  end
+
   def chapter_time_iso8601(total_seconds)
     total = total_seconds.to_f.round
     return "PT0S" if total <= 0
@@ -1184,6 +1207,9 @@ module LatestPodcastEpisodes
       item["episode_page_url"] = match["episode_page_url"]
       item["episode_url"] = match["episode_url"] if match["episode_url"].to_s.strip != ""
       item["published_at"] = match["published_at"] if match["published_at"].to_s.strip != ""
+      if match.key?("duration_seconds") && !match["duration_seconds"].nil?
+        item["duration_seconds"] = match["duration_seconds"]
+      end
       if match["youtube_video_id"].to_s.strip != ""
         item["youtube_video_id"] = match["youtube_video_id"]
       end
@@ -1205,7 +1231,8 @@ module LatestPodcastEpisodes
         next false unless entry.is_a?(Hash)
 
         entry["description_html"].to_s.strip.empty? ||
-          entry["episode_image_url"].to_s.strip.empty?
+          entry["episode_image_url"].to_s.strip.empty? ||
+          entry["duration_seconds"].nil?
       end
     end
   end
@@ -1246,6 +1273,14 @@ module LatestPodcastEpisodes
           updated = true
         end
       end
+
+      if entry["duration_seconds"].nil?
+        duration_seconds = parse_itunes_duration_seconds(item)
+        unless duration_seconds.nil?
+          entry["duration_seconds"] = duration_seconds
+          updated = true
+        end
+      end
     end
 
     updated
@@ -1267,7 +1302,8 @@ module LatestPodcastEpisodes
       next unless episodes.is_a?(Array) && !episodes.empty?
       next unless episodes.any? do |entry|
         entry["description_html"].to_s.strip.empty? ||
-          entry["episode_image_url"].to_s.strip.empty?
+          entry["episode_image_url"].to_s.strip.empty? ||
+          entry["duration_seconds"].nil?
       end
 
       begin
@@ -1480,6 +1516,8 @@ module LatestPodcastEpisodes
             "episode_image_url" => image_url,
             "episode_uid" => episode_uid_from_item(item)
           }
+          duration_seconds = parse_itunes_duration_seconds(item)
+          entry["duration_seconds"] = duration_seconds unless duration_seconds.nil?
           entry["description_sanitized"] = true if include_descriptions && !description_html.empty?
           entry
         end
@@ -1802,7 +1840,8 @@ module LatestPodcastEpisodes
     cover_image = doc.data["cover_image"].to_s.strip
     cover_image = feed_image_from_xml(xml) if cover_image.empty?
     latest_episode_meta = episode_meta_for_rss_item(episodes, latest_item)
-    {
+    duration_seconds = parse_itunes_duration_seconds(latest_item)
+    item = {
       "podcast_title" => doc.data["title"],
       "podcast_page_url" => doc.url,
       "cover_image" => cover_image,
@@ -1816,6 +1855,8 @@ module LatestPodcastEpisodes
       "episode_slug" => latest_episode_meta&.dig("episode_slug"),
       "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
     }
+    item["duration_seconds"] = duration_seconds unless duration_seconds.nil?
+    item
   end
 
   def sort_directory_items!(items)

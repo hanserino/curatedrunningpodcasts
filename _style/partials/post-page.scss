@@ -361,6 +361,26 @@
         font-size: 0.9rem;
         color: $color-muted;
     }
+
+    &__meta {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.35rem 0.5rem;
+        font-family: $font-mono;
+        font-size: 0.78rem;
+        color: $color-muted;
+
+        .latest-episodes__episode-date + .latest-episodes__episode-duration::before {
+            content: "·";
+            margin-right: 0.5rem;
+            opacity: 0.75;
+        }
+
+        .latest-episodes__episode-duration {
+            font-variant-numeric: tabular-nums;
+        }
+    }
 }
 
 .post-page--about {

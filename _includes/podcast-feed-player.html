@@ -75,9 +75,12 @@
         %}
         <div class="latest-episodes__episode-main">
           {% include episode-page-link.html episode=episode podcast_slug=page.slug podcast_page_url=page.url class="latest-episodes__episode-title" %}
-          {%- if published_label != "" -%}
-          <time class="latest-episodes__episode-date" datetime="{{ episode.published_at }}">{{ published_label }}</time>
-          {%- endif -%}
+          <div class="latest-episodes__episode-meta-row">
+            {%- if published_label != "" -%}
+            <time class="latest-episodes__episode-date" datetime="{{ episode.published_at }}">{{ published_label }}</time>
+            {%- endif -%}
+            {% include episode-duration.html episode=episode %}
+          </div>
         </div>
       </div>
       <div class="latest-episodes__listen-track" data-listen-progress-track hidden>

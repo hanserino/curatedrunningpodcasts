@@ -65,6 +65,31 @@
         notifyCloudSync(true);
     }
 
+    function formatDurationSeconds(seconds) {
+        var total = Math.round(Number(seconds) || 0);
+        if (total <= 0) return '';
+        var h = Math.floor(total / 3600);
+        var m = Math.floor((total % 3600) / 60);
+        var s = total % 60;
+        if (h > 0) {
+            return h + ':' + String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+        }
+        return m + ':' + String(s).padStart(2, '0');
+    }
+
+    function durationHtmlFromMeta(meta) {
+        if (!meta || !meta.durationSeconds) return '';
+        var label = formatDurationSeconds(meta.durationSeconds);
+        if (!label) return '';
+        return (
+            '<span class="latest-episodes__episode-duration" aria-label="Duration ' +
+            escapeHtml(label) +
+            '">' +
+            escapeHtml(label) +
+            '</span>'
+        );
+    }
+
     function loadMetaMap() {
         var map = readJson(STORAGE_META, {});
         return map && typeof map === 'object' && !Array.isArray(map) ? map : {};
@@ -82,6 +107,7 @@
             audioUrl: meta.audioUrl,
             episodePageUrl: meta.episodePageUrl || '',
             podcastPageUrl: meta.podcastPageUrl || '',
+            durationSeconds: meta.durationSeconds || null,
             u: Date.now(),
         };
         writeJson(STORAGE_META, map);
@@ -109,7 +135,16 @@
             coverUrl: item.getAttribute('data-cover-url') || (play && play.getAttribute('data-cover-url')) || '',
             episodePageUrl: item.getAttribute('data-episode-url') || (play && play.getAttribute('data-episode-url')) || '',
             podcastPageUrl: item.getAttribute('data-podcast-url') || (play && play.getAttribute('data-podcast-url')) || '',
+            durationSeconds: readDurationSecondsFromButton(play),
         };
+    }
+
+    function readDurationSecondsFromButton(button) {
+        if (!button) return null;
+        var raw = button.getAttribute('data-duration-seconds');
+        if (!raw) return null;
+        var seconds = parseInt(raw, 10);
+        return isFinite(seconds) && seconds > 0 ? seconds : null;
     }
 
     function loadQueueState() {
@@ -302,6 +337,9 @@
             escapeHtml(meta.episodeTitle) +
             '</span>' +
             podcastHtml +
+            '<span class="latest-episodes__episode-meta-row">' +
+            durationHtmlFromMeta(meta) +
+            '</span>' +
             '<button type="button" class="latest-episodes__play latest-episodes__play--feed" aria-pressed="false" aria-label="Play episode: ' +
             escapeHtml(meta.episodeTitle) +
             '" data-audio-url="' +
@@ -314,6 +352,7 @@
             (meta.coverUrl ? ' data-cover-url="' + escapeHtml(meta.coverUrl) + '"' : '') +
             (meta.episodePageUrl ? ' data-episode-url="' + escapeHtml(meta.episodePageUrl) + '"' : '') +
             (meta.podcastPageUrl ? ' data-podcast-url="' + escapeHtml(meta.podcastPageUrl) + '"' : '') +
+            (meta.durationSeconds ? ' data-duration-seconds="' + escapeHtml(String(meta.durationSeconds)) + '"' : '') +
             '><span class="latest-episodes__play-glyph" aria-hidden="true"></span></button>' +
             '</div></article>' +
             '<div class="latest-episodes__listen-track" data-listen-progress-track hidden><div class="latest-episodes__listen-fill" data-listen-progress style="width: 0%"></div></div>';

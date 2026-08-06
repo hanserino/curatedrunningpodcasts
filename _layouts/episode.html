@@ -39,6 +39,10 @@
 							<span class="episode-page__meta-sep" aria-hidden="true"> · </span>
 							<time class="episode-page__date" datetime="{{ page.published_at }}">{{ page.published_at | date: "%B %-d, %Y" }}</time>
 							{%- endif -%}
+							{%- if page.duration_seconds -%}
+							<span class="episode-page__meta-sep" aria-hidden="true"> · </span>
+							{% include episode-duration.html duration_seconds=page.duration_seconds %}
+							{%- endif -%}
 						</p>
 					</div>
 				</div>
@@ -49,6 +53,10 @@
 					{%- if page.published_at -%}
 					<span class="episode-page__meta-sep" aria-hidden="true"> · </span>
 					<time class="episode-page__date" datetime="{{ page.published_at }}">{{ page.published_at | date: "%B %-d, %Y" }}</time>
+					{%- endif -%}
+					{%- if page.duration_seconds -%}
+					<span class="episode-page__meta-sep" aria-hidden="true"> · </span>
+					{% include episode-duration.html duration_seconds=page.duration_seconds %}
 					{%- endif -%}
 				</p>
 				{%- endif -%}

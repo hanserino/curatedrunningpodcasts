@@ -75,6 +75,9 @@
         "@type": "AudioObject",
         "contentUrl": {{ page.audio_url | jsonify }},
         "encodingFormat": "audio/mpeg"
+{%- if page.duration_seconds -%}
+        ,"duration": {{ page.duration_seconds | episode_duration_iso8601 | jsonify }}
+{%- endif -%}
       },
       "potentialAction": {
         "@type": "ListenAction",

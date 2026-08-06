@@ -131,6 +131,8 @@ class PodcastEpisodePage < Jekyll::Page
       "permalink" => permalink,
       "youtube_video_id" => episode["youtube_video_id"].to_s.strip
     }
+    duration_seconds = episode["duration_seconds"]
+    self.data["duration_seconds"] = duration_seconds unless duration_seconds.nil?
     if episode["youtube_video_id"].to_s.strip != ""
       episode.delete("page_build_fingerprint")
     end

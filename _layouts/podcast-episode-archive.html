@@ -32,9 +32,12 @@
 					{%- assign published_label = episode.published_at | date: "%B %-d, %Y" -%}
 					<li class="episode-archive__item">
 						{% include episode-page-link.html episode=episode podcast_slug=page.podcast_slug class="episode-archive__link" %}
+						<span class="episode-archive__meta">
 						{%- if published_label != "" -%}
 						<time class="episode-archive__date" datetime="{{ episode.published_at }}">{{ published_label }}</time>
 						{%- endif -%}
+						{% include episode-duration.html episode=episode %}
+						</span>
 					</li>
 					{%- endfor -%}
 				</ol>

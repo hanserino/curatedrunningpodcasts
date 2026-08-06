@@ -19,6 +19,7 @@
   {% if include.cover_url and include.cover_url != '' %}data-cover-url="{{ include.cover_url | escape }}"{% endif %}
   {% if include.episode_path and include.episode_path != '' %}data-episode-url="{{ include.episode_path | escape }}"{% endif %}
   {% if include.podcast_url and include.podcast_url != '' %}data-podcast-url="{{ include.podcast_url | escape }}"{% endif %}
+  {% if _ep.duration_seconds %}data-duration-seconds="{{ _ep.duration_seconds }}"{% endif %}
 >
   <span class="latest-episodes__play-glyph" aria-hidden="true"></span>
 </button>

@@ -266,7 +266,8 @@
 .latest-episodes__item--played {
     .latest-episodes__episode-title--feed,
     .latest-episodes__podcast-link--feed,
-    .latest-episodes__podcast-label--feed {
+    .latest-episodes__podcast-label--feed,
+    .latest-episodes__episode-duration {
         color: rgba($color-ink, 0.55);
     }
 
