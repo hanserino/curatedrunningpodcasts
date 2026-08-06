@@ -55,6 +55,7 @@
     var fullscreenScrubbing = false;
     var fullscreenOpen = false;
     var fullscreenEscHandler = null;
+    var fullscreenCloseTimer = null;
     var playerModalUrlState = null;
     var playerModalUrlRestorePending = false;
     var youtubeMode = false;
@@ -430,81 +431,53 @@
         if (!episodePath) return;
         if (pathnamesMatch(window.location.pathname, episodePath)) return;
 
-        // Feed / history / directory pages often link to episode URLs before CI
-        // has generated the HTML. Rewriting the address bar would 404 on refresh.
-        // Probe with HEAD first; skip the rewrite when the page is not built yet.
-        probeEpisodePageThenSync(episodePath);
-    }
+        // Never pushState from feed/list/history pages. pushState + history.back() on
+        // close races Turbo Drive and leaves the footer play/fullscreen controls dead.
+        // Only reflect the episode URL when we are already on an episode page.
+        if (!document.body.classList.contains('post-page--episode')) return;
 
-    function probeEpisodePageThenSync(episodePath) {
-        if (!episodePath || !fullscreenOpen) return;
-        if (pathnamesMatch(window.location.pathname, episodePath)) return;
-
-        var applyUrl = function () {
-            if (!fullscreenOpen) return;
-            if (pathnamesMatch(window.location.pathname, episodePath)) return;
-
-            if (playerModalUrlState && playerModalUrlState.pushed) {
-                history.replaceState(
-                    { brpPlayerModal: true, returnTo: playerModalUrlState.returnTo },
-                    '',
-                    episodePath
-                );
-                playerModalUrlState.episodePath = episodePath;
-                return;
-            }
-
-            var returnTo = currentPageSignature();
-            playerModalUrlState = {
-                pushed: true,
-                returnTo: returnTo,
-                episodePath: episodePath,
-            };
-            history.pushState({ brpPlayerModal: true, returnTo: returnTo }, '', episodePath);
-        };
-
-        var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
-        var timer = null;
-        var opts = { method: 'HEAD', credentials: 'same-origin' };
-        if (controller) {
-            opts.signal = controller.signal;
-            timer = setTimeout(function () {
-                try {
-                    controller.abort();
-                } catch (e) {}
-            }, 1200);
-        }
-        fetch(episodePath, opts)
-            .then(function (res) {
-                if (timer) clearTimeout(timer);
-                if (!res.ok) return;
-                applyUrl();
-            })
-            .catch(function () {
-                if (timer) clearTimeout(timer);
-            });
+        try {
+            history.replaceState(
+                history.state && typeof history.state === 'object' ? history.state : { brpPlayerModal: true },
+                '',
+                episodePath
+            );
+        } catch (e) {}
     }
 
     function restorePlayerModalUrlOnClose(skipRestore) {
-        if (skipRestore) {
-            playerModalUrlState = null;
-            playerModalUrlRestorePending = false;
-            return;
-        }
-        if (!playerModalUrlState || !playerModalUrlState.pushed) return;
         playerModalUrlState = null;
-        playerModalUrlRestorePending = true;
-        history.back();
+        playerModalUrlRestorePending = false;
+        // Intentionally no history.back() — modal URL sync no longer pushStates.
+        if (skipRestore) return;
     }
 
     function onPlayerModalPopState() {
+        // Browser back while fullscreen is open should dismiss the modal.
         if (playerModalUrlRestorePending) {
             playerModalUrlRestorePending = false;
             return;
         }
-        if (!fullscreenOpen || !playerModalUrlState || !playerModalUrlState.pushed) return;
-        playerModalUrlState = null;
+        if (!fullscreenOpen) return;
         closePlayerFullscreen(true, { skipUrlRestore: true });
+    }
+
+    function forceCleanupFullscreenChrome() {
+        document.body.classList.remove('brp-player-fullscreen-open');
+        if (fullscreenRoot) {
+            fullscreenRoot.hidden = true;
+            fullscreenRoot.setAttribute('aria-hidden', 'true');
+            fullscreenRoot.classList.remove(
+                'brp-player-fullscreen--opening',
+                'brp-player-fullscreen--closing'
+            );
+        }
+        fullscreenOpen = false;
+        fullscreenScrubbing = false;
+        endScrubGestureUi(fullscreenScrub);
+        if (globalRoot) {
+            globalRoot.style.visibility = '';
+        }
     }
 
     function metaLinkHtml(text, url, linkClass, appearanceClass) {
@@ -986,31 +959,38 @@
 
     function finishClosePlayerFullscreen(options) {
         options = options || {};
-        if (!fullscreenRoot) return;
+        if (fullscreenCloseTimer) {
+            clearTimeout(fullscreenCloseTimer);
+            fullscreenCloseTimer = null;
+        }
         clearYoutubeMode();
-        fullscreenRoot.hidden = true;
-        fullscreenRoot.setAttribute('aria-hidden', 'true');
-        fullscreenRoot.classList.remove('brp-player-fullscreen--opening', 'brp-player-fullscreen--closing');
-        document.body.classList.remove('brp-player-fullscreen-open');
-        fullscreenOpen = false;
-        fullscreenScrubbing = false;
+        forceCleanupFullscreenChrome();
         restorePlayerModalUrlOnClose(!!options.skipUrlRestore);
         if (fullscreenEscHandler) {
             document.removeEventListener('keydown', fullscreenEscHandler);
         }
-        if (globalPlay) {
-            globalPlay.focus();
+        if (globalPlay && typeof globalPlay.focus === 'function') {
+            try {
+                globalPlay.focus({ preventScroll: true });
+            } catch (e) {
+                globalPlay.focus();
+            }
         }
     }
 
     function openPlayerFullscreen() {
         if (!fullscreenRoot) return;
         if (!youtubeMode && !playerActiveUrl()) return;
+        if (fullscreenCloseTimer) {
+            clearTimeout(fullscreenCloseTimer);
+            fullscreenCloseTimer = null;
+        }
         fullscreenRoot.classList.remove('brp-player-fullscreen--closing');
         fullscreenRoot.hidden = false;
         fullscreenRoot.setAttribute('aria-hidden', 'false');
         document.body.classList.add('brp-player-fullscreen-open');
         fullscreenOpen = true;
+        if (globalRoot) globalRoot.style.visibility = '';
         syncFullscreenUi();
         if (!prefersReducedMotion()) {
             fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
@@ -1047,21 +1027,37 @@
 
     function closePlayerFullscreen(instant, options) {
         options = options || {};
-        if (!fullscreenRoot || !fullscreenOpen) return;
+        if (!fullscreenRoot || !fullscreenOpen) {
+            forceCleanupFullscreenChrome();
+            return;
+        }
         if (instant || prefersReducedMotion()) {
             finishClosePlayerFullscreen(options);
             return;
         }
         fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
         fullscreenRoot.classList.add('brp-player-fullscreen--closing');
-        fullscreenRoot.addEventListener(
-            'animationend',
-            function onExitEnd(event) {
-                if (event.animationName !== 'brp-player-fullscreen-exit') return;
-                fullscreenRoot.removeEventListener('animationend', onExitEnd);
-                finishClosePlayerFullscreen(options);
+
+        var finished = false;
+        function done(event) {
+            if (finished) return;
+            if (event && event.animationName && event.animationName !== 'brp-player-fullscreen-exit') {
+                return;
             }
-        );
+            finished = true;
+            fullscreenRoot.removeEventListener('animationend', done);
+            if (fullscreenCloseTimer) {
+                clearTimeout(fullscreenCloseTimer);
+                fullscreenCloseTimer = null;
+            }
+            finishClosePlayerFullscreen(options);
+        }
+
+        fullscreenRoot.addEventListener('animationend', done);
+        // Some browsers skip animationend when animation is interrupted or disabled.
+        fullscreenCloseTimer = setTimeout(function () {
+            done();
+        }, 320);
     }
 
     function handleGlobalScrubInput(scrubInput) {
@@ -1602,11 +1598,20 @@
     }
 
     function toggleGlobalPlayback() {
+        forceCleanupFullscreenChromeIfStale();
         if (!player || !playerActiveUrl()) return;
         if (!player.paused && !player.ended) {
             player.pause();
         } else {
             playEpisode();
+        }
+    }
+
+    function forceCleanupFullscreenChromeIfStale() {
+        var bodyOpen = document.body.classList.contains('brp-player-fullscreen-open');
+        var rootVisible = !!(fullscreenRoot && !fullscreenRoot.hidden);
+        if (!fullscreenOpen && (bodyOpen || rootVisible)) {
+            forceCleanupFullscreenChrome();
         }
     }
 
@@ -1780,6 +1785,7 @@
             openBtn.addEventListener('click', function (e) {
                 e.preventDefault();
                 e.stopPropagation();
+                forceCleanupFullscreenChromeIfStale();
                 openPlayerFullscreen();
             });
         }
@@ -1876,6 +1882,7 @@
         if (globalNowPlaying) {
             globalNowPlaying.addEventListener('click', function (e) {
                 e.preventDefault();
+                forceCleanupFullscreenChromeIfStale();
                 openPlayerFullscreen();
             });
         }
