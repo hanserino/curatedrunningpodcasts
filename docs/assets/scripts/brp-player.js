@@ -1210,7 +1210,7 @@
 
     function clearMediaSessionActionHandlers() {
         if (!('mediaSession' in navigator)) return;
-        ['play', 'pause', 'stop', 'seekbackward', 'seekforward', 'seekto'].forEach(function (action) {
+        ['play', 'pause', 'stop', 'seekbackward', 'seekforward', 'seekto', 'nexttrack', 'previoustrack'].forEach(function (action) {
             try {
                 navigator.mediaSession.setActionHandler(action, null);
             } catch (e) {}
@@ -1370,21 +1370,12 @@
 
         navigator.mediaSession.setActionHandler('seekbackward', function (details) {
             var offset = details && details.seekOffset ? details.seekOffset : SKIP_BACK_SEC;
-            player.currentTime = Math.max(0, player.currentTime - offset);
-            updateGlobalTransportTimes();
-            if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
-            updateMediaSessionPosition();
+            seekFromMediaSession(-offset);
         });
 
         navigator.mediaSession.setActionHandler('seekforward', function (details) {
             var offset = details && details.seekOffset ? details.seekOffset : SKIP_FORWARD_SEC;
-            var dur = player.duration;
-            var next = player.currentTime + offset;
-            if (isFinite(dur) && dur > 0) next = Math.min(next, dur);
-            player.currentTime = next;
-            updateGlobalTransportTimes();
-            if (activeDeck && activeDeck.updateTransportTimes) activeDeck.updateTransportTimes();
-            updateMediaSessionPosition();
+            seekFromMediaSession(offset);
         });
 
         navigator.mediaSession.setActionHandler('seekto', function (details) {
@@ -1395,6 +1386,20 @@
                 updateMediaSessionPosition();
             }
         });
+
+        // AirPods double-tap (often configured as Next/Previous Track) sends these
+        // instead of seekforward/seekbackward — map to podcast-style skip intervals.
+        try {
+            navigator.mediaSession.setActionHandler('nexttrack', function () {
+                seekFromMediaSession(SKIP_FORWARD_SEC);
+            });
+        } catch (e) {}
+
+        try {
+            navigator.mediaSession.setActionHandler('previoustrack', function () {
+                seekFromMediaSession(-SKIP_BACK_SEC);
+            });
+        } catch (e) {}
     }
 
     function setupMediaSessionHandlers() {
@@ -1616,6 +1621,10 @@
     }
 
     function seekGlobalBySeconds(deltaSec) {
+        seekFromMediaSession(deltaSec);
+    }
+
+    function seekFromMediaSession(deltaSec) {
         if (!player || !player.src) return;
         var dur = player.duration;
         var next = player.currentTime + deltaSec;
