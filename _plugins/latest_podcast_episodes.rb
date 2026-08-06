@@ -762,21 +762,25 @@ module LatestPodcastEpisodes
   end
 
   CHAPTER_SECTION_LABEL_RX = "(?:Chapters|Timestamps)".freeze
+  CHAPTER_TIME_TOKEN = '\d{1,2}:\d{2}(?::\d{2})?'.freeze
   CHAPTER_SECTION_HEADER_RX =
     /<(?:p|h[1-6])(?:\s[^>]*)?>(?:<strong>)?#{CHAPTER_SECTION_LABEL_RX}:?(?:<\/strong>)?<\/(?:p|h[1-6])>/i.freeze
-  CHAPTER_LINE_TIME_RX = /(\d{1,6}:\d{2}(?::\d{2})?)/
+  CHAPTER_LINE_TIME_RX = /(#{CHAPTER_TIME_TOKEN})/
   CHAPTER_LINE_SEPARATOR_RX = /\s*(?:-\s*)?/
+  CHAPTER_LINE_PAREN_RX = /\(\s*(#{CHAPTER_TIME_TOKEN})\s*\)\s*/
   CHAPTER_LINE_PARAGRAPH_RX =
-    /<p(?:\s[^>]*)?>#{CHAPTER_LINE_TIME_RX}#{CHAPTER_LINE_SEPARATOR_RX}([\s\S]*?)<\/p>/i.freeze
+    /<p(?:\s[^>]*)?>(?:#{CHAPTER_LINE_PAREN_RX}|#{CHAPTER_LINE_TIME_RX}#{CHAPTER_LINE_SEPARATOR_RX})([\s\S]*?)<\/p>/i.freeze
   CHAPTER_LINE_ITEM_RX =
-    /<li(?:\s[^>]*)?>#{CHAPTER_LINE_TIME_RX}#{CHAPTER_LINE_SEPARATOR_RX}([\s\S]*?)<\/li>/i.freeze
+    /<li(?:\s[^>]*)?>(?:#{CHAPTER_LINE_PAREN_RX}|#{CHAPTER_LINE_TIME_RX}#{CHAPTER_LINE_SEPARATOR_RX})([\s\S]*?)<\/li>/i.freeze
+  CHAPTER_PAREN_LI_RX =
+    /<li(?:\s[^>]*)?>\(\s*(#{CHAPTER_TIME_TOKEN})\s*\)\s*([\s\S]*?)<\/li>/im.freeze
   CHAPTER_INLINE_BLOCK_RX =
     /<(?:p|li)(?:\s[^>]*)?>(?:<strong>)?(Chapters|Timestamps):?(?:<\/strong>)?([\s\S]*?)<\/(?:p|li)>/i.freeze
   CHAPTER_INLINE_UL_BLOCK_RX =
     /<ul>\s*<li(?:\s[^>]*)?>(?:<strong>)?(Chapters|Timestamps):?(?:<\/strong>)?([\s\S]*?)<\/li>\s*<\/ul>/i.freeze
   CHAPTER_INLINE_TIMESTAMP_ENTRY_RX =
     /(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*(.+?)(?=\d{1,2}:\d{2}(?::\d{2})?\s*-|\z)/m.freeze
-  CHAPTER_TIMESTAMP_PLAIN_RX = /\A\d{1,6}:\d{2}(?::\d{2})?\s+\S/.freeze
+  CHAPTER_TIMESTAMP_PLAIN_RX = /\A(?:\(\s*)?\d{1,6}:\d{2}(?::\d{2})?(?:\s*\))?\s+\S/.freeze
 
   # Anchor/Spotify chapter exports: "355:31:49 Title" (seconds + bogus :MM:SS).
   def chapter_timestamp_line?(plain)
@@ -875,6 +879,26 @@ module LatestPodcastEpisodes
     section
   end
 
+  def format_paren_timestamp_lists(html)
+    cleaned = html.to_s
+    cleaned.gsub(/<ul(?:\s[^>]*)?>([\s\S]*?)<\/ul>/im) do
+      inner = Regexp.last_match(1)
+      li_matches = inner.scan(CHAPTER_PAREN_LI_RX)
+      total_li = inner.scan(/<li(?:\s[^>]*)?>/i).size
+      next Regexp.last_match(0) if total_li < 2 || li_matches.size < 2
+      next Regexp.last_match(0) if li_matches.size < total_li
+
+      entries = li_matches.map do |time, title|
+        {
+          seconds: chapter_seconds_from_token(time),
+          time_token: time,
+          title_html: title.to_s.strip
+        }
+      end
+      build_chapter_section_html(entries, "Chapters")
+    end
+  end
+
   def format_chapter_inline_block(html)
     cleaned = html.to_s
     match =
@@ -892,6 +916,7 @@ module LatestPodcastEpisodes
 
   def format_chapter_sections(html)
     cleaned = format_chapter_inline_block(html.to_s)
+    cleaned = format_paren_timestamp_lists(cleaned)
     header_match = cleaned.match(CHAPTER_SECTION_HEADER_RX)
     return cleaned unless header_match
 
