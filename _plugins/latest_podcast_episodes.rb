@@ -513,6 +513,7 @@ module LatestPodcastEpisodes
   def list_item_fragment?(plain, html)
     return false if plain.empty?
     return false if chapter_timestamp_line?(plain)
+    return false if plain.match?(/\A(?:Chapters|Timestamps):?\s*\d{1,2}:\d{2}/i)
     return false if plain.match?(/\A.+:\s*\z/) && !plain.match?(/:\s*(?:https?|www\.)/i)
 
     return true if plain.match?(/\A[^|]{1,80}\|\s*\S/i)
@@ -760,9 +761,21 @@ module LatestPodcastEpisodes
     end
   end
 
-  CHAPTER_SECTION_HEADER_RX = /<p(?:\s[^>]*)?>(?:<strong>)?Chapters:?<\/strong>?<\/p>/i.freeze
-  CHAPTER_LINE_PARAGRAPH_RX = /<p(?:\s[^>]*)?>(\d{1,6}:\d{2}(?::\d{2})?)\s+([\s\S]*?)<\/p>/i.freeze
-  CHAPTER_LINE_ITEM_RX = /<li(?:\s[^>]*)?>(\d{1,6}:\d{2}(?::\d{2})?)\s+([\s\S]*?)<\/li>/i.freeze
+  CHAPTER_SECTION_LABEL_RX = "(?:Chapters|Timestamps)".freeze
+  CHAPTER_SECTION_HEADER_RX =
+    /<(?:p|h[1-6])(?:\s[^>]*)?>(?:<strong>)?#{CHAPTER_SECTION_LABEL_RX}:?(?:<\/strong>)?<\/(?:p|h[1-6])>/i.freeze
+  CHAPTER_LINE_TIME_RX = /(\d{1,6}:\d{2}(?::\d{2})?)/
+  CHAPTER_LINE_SEPARATOR_RX = /\s*(?:-\s*)?/
+  CHAPTER_LINE_PARAGRAPH_RX =
+    /<p(?:\s[^>]*)?>#{CHAPTER_LINE_TIME_RX}#{CHAPTER_LINE_SEPARATOR_RX}([\s\S]*?)<\/p>/i.freeze
+  CHAPTER_LINE_ITEM_RX =
+    /<li(?:\s[^>]*)?>#{CHAPTER_LINE_TIME_RX}#{CHAPTER_LINE_SEPARATOR_RX}([\s\S]*?)<\/li>/i.freeze
+  CHAPTER_INLINE_BLOCK_RX =
+    /<(?:p|li)(?:\s[^>]*)?>(?:<strong>)?(Chapters|Timestamps):?(?:<\/strong>)?([\s\S]*?)<\/(?:p|li)>/i.freeze
+  CHAPTER_INLINE_UL_BLOCK_RX =
+    /<ul>\s*<li(?:\s[^>]*)?>(?:<strong>)?(Chapters|Timestamps):?(?:<\/strong>)?([\s\S]*?)<\/li>\s*<\/ul>/i.freeze
+  CHAPTER_INLINE_TIMESTAMP_ENTRY_RX =
+    /(\d{1,2}:\d{2}(?::\d{2})?)\s*-\s*(.+?)(?=\d{1,2}:\d{2}(?::\d{2})?\s*-|\z)/m.freeze
   CHAPTER_TIMESTAMP_PLAIN_RX = /\A\d{1,6}:\d{2}(?::\d{2})?\s+\S/.freeze
 
   # Anchor/Spotify chapter exports: "355:31:49 Title" (seconds + bogus :MM:SS).
@@ -831,11 +844,58 @@ module LatestPodcastEpisodes
     %(<li class="episode-chapters__item"><button type="button" class="episode-chapters__seek" data-brp-chapter-seek="#{seconds}" aria-label="#{CGI.escapeHTML(label)}"><time class="episode-chapters__time" datetime="#{CGI.escapeHTML(iso)}">#{CGI.escapeHTML(display)}</time><span class="episode-chapters__title">#{title}</span></button></li>)
   end
 
-  def format_chapter_sections(html)
+  def parse_inline_chapter_entries(text)
+    body = text.to_s.strip
+    return [] if body.empty?
+    return [] unless body.match?(/\d{1,2}:\d{2}(?::\d{2})?\s*-/)
+
+    body.scan(CHAPTER_INLINE_TIMESTAMP_ENTRY_RX).filter_map do |time, title|
+      title = title.to_s.strip
+      next if title.empty?
+
+      {
+        seconds: chapter_seconds_from_token(time),
+        time_token: time,
+        title_html: CGI.escapeHTML(title)
+      }
+    end
+  end
+
+  def build_chapter_section_html(entries, heading_label)
+    label = heading_label.to_s.strip.sub(/:\z/, "")
+    label = "Chapters" if label.empty?
+
+    sorted = entries.sort_by { |entry| [entry[:seconds], entry[:title_html].to_s] }
+    section = +%(<section class="episode-chapters"><h3 class="episode-chapters__heading"><strong>#{CGI.escapeHTML(label)}</strong></h3>)
+    section << '<ol class="episode-chapters__list">'
+    sorted.each do |entry|
+      section << format_chapter_line_item(entry[:time_token], entry[:title_html])
+    end
+    section << "</ol></section>"
+    section
+  end
+
+  def format_chapter_inline_block(html)
     cleaned = html.to_s
+    match =
+      cleaned.match(CHAPTER_INLINE_UL_BLOCK_RX) ||
+      cleaned.match(CHAPTER_INLINE_BLOCK_RX)
+    return cleaned unless match
+
+    body = match[2].to_s
+    entries = parse_inline_chapter_entries(body)
+    return cleaned if entries.empty?
+
+    section = build_chapter_section_html(entries, match[1])
+    cleaned[0, match.begin(0)] + section + cleaned[match.end(0)..].to_s
+  end
+
+  def format_chapter_sections(html)
+    cleaned = format_chapter_inline_block(html.to_s)
     header_match = cleaned.match(CHAPTER_SECTION_HEADER_RX)
     return cleaned unless header_match
 
+    heading_label = header_match[0].match(/(Chapters|Timestamps)/i)&.[](1) || "Chapters"
     after_header = cleaned[header_match.end(0)..]
     entries = []
     pos = 0
@@ -844,20 +904,16 @@ module LatestPodcastEpisodes
                         after_header.match(CHAPTER_LINE_ITEM_RX, pos))
       entries << {
         seconds: chapter_seconds_from_token(line_match[1]),
-        html: format_chapter_line_item(line_match[1], line_match[2]),
+        time_token: line_match[1],
+        title_html: line_match[2].to_s.strip
       }
       pos = line_match.end(0)
     end
 
     return cleaned if entries.empty?
 
-    entries.sort_by! { |entry| [entry[:seconds], entry[:html]] }
     remainder = after_header[pos..].to_s.sub(/\A\s*<\/ul>\s*/i, "")
-    section = +'<section class="episode-chapters"><h3 class="episode-chapters__heading"><strong>Chapters</strong></h3>'
-    section << '<ol class="episode-chapters__list">'
-    section << entries.map { |entry| entry[:html] }.join
-    section << "</ol></section>"
-
+    section = build_chapter_section_html(entries, heading_label)
     cleaned[0, header_match.begin(0)] + section + remainder
   end
 
