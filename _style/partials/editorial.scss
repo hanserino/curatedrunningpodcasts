@@ -1340,7 +1340,8 @@ $ep-play-art: $ep-row-art;
         display: none;
         pointer-events: none;
 
-        @media screen and (min-width: 721px) {
+        // Width alone matches touch tablets in landscape; require mouse/trackpad input.
+        @media screen and (min-width: 721px) and (hover: hover) and (pointer: fine) {
             display: -webkit-box;
             -webkit-box-orient: vertical;
             -webkit-line-clamp: 2;
