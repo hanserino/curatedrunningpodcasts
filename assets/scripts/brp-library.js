@@ -150,12 +150,16 @@
         return m + ':' + String(s).padStart(2, '0');
     }
 
-    function durationHtmlFromMeta(meta) {
+    function durationHtmlFromMeta(meta, extraClass) {
         if (!meta || !meta.durationSeconds) return '';
         var label = formatDurationSeconds(meta.durationSeconds);
         if (!label) return '';
+        var cls = 'latest-episodes__episode-duration';
+        if (extraClass) cls += ' ' + extraClass;
         return (
-            '<span class="latest-episodes__episode-duration" aria-label="Duration ' +
+            '<span class="' +
+            cls +
+            '" aria-label="Duration ' +
             escapeHtml(label) +
             '">' +
             escapeHtml(label) +
@@ -411,9 +415,10 @@
             '</span>' +
             '<div class="latest-episodes__podcast-line">' +
             podcastHtml +
-            durationHtmlFromMeta(meta) +
+            durationHtmlFromMeta(meta, 'latest-episodes__episode-duration--inline') +
             '</div>' +
             '</div>' +
+            '<div class="latest-episodes__episode-play-stack">' +
             '<button type="button" class="latest-episodes__play latest-episodes__play--feed" aria-pressed="false" aria-label="Play episode: ' +
             escapeHtml(meta.episodeTitle) +
             '" data-audio-url="' +
@@ -428,6 +433,10 @@
             (meta.podcastPageUrl ? ' data-podcast-url="' + escapeHtml(meta.podcastPageUrl) + '"' : '') +
             (meta.durationSeconds ? ' data-duration-seconds="' + escapeHtml(String(meta.durationSeconds)) + '"' : '') +
             '><span class="latest-episodes__play-glyph" aria-hidden="true"></span></button>' +
+            '<div class="latest-episodes__episode-play-meta">' +
+            durationHtmlFromMeta(meta, 'latest-episodes__episode-duration--under-play') +
+            '</div>' +
+            '</div>' +
             '</div></article>' +
             '<div class="latest-episodes__listen-track" data-listen-progress-track hidden><div class="latest-episodes__listen-fill" data-listen-progress style="width: 0%"></div></div>';
 
@@ -473,24 +482,40 @@
         '<svg class="latest-episodes__action-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">' +
         '<path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="M12 7v10M7 13l5 5 5-5"/></svg>';
 
+    function relocateFeedEpisodeActions(titles) {
+        if (!titles || !titles.closest('.latest-episodes__list--feed')) return;
+        var copy = titles.querySelector('.latest-episodes__episode-copy');
+        var actions = titles.querySelector('[data-episode-actions]');
+        if (copy && actions && !copy.contains(actions)) {
+            copy.appendChild(actions);
+        }
+    }
+
     function ensureEpisodeControls(titles) {
         if (!titles) return null;
         var existing = titles.querySelector(':scope > .latest-episodes__episode-controls');
         if (existing) {
+            relocateFeedEpisodeActions(titles);
             var strayActions = titles.querySelector(':scope > [data-episode-actions]');
             if (strayActions && !existing.contains(strayActions)) {
                 existing.appendChild(strayActions);
             }
+            relocateFeedEpisodeActions(titles);
             return existing;
         }
-        var play = titles.querySelector(':scope > .latest-episodes__play--feed, :scope > .latest-episodes__play');
-        if (!play) return null;
+        var playStack = titles.querySelector(':scope > .latest-episodes__episode-play-stack');
+        var play = playStack
+            ? playStack.querySelector('.latest-episodes__play--feed, .latest-episodes__play')
+            : titles.querySelector(':scope > .latest-episodes__play--feed, :scope > .latest-episodes__play');
+        if (!play && !playStack) return null;
         var controls = document.createElement('div');
         controls.className = 'latest-episodes__episode-controls';
-        titles.insertBefore(controls, play);
-        controls.appendChild(play);
+        var mount = playStack || play;
+        titles.insertBefore(controls, mount);
+        controls.appendChild(mount);
         var actions = titles.querySelector(':scope > [data-episode-actions]');
         if (actions) controls.appendChild(actions);
+        relocateFeedEpisodeActions(titles);
         return controls;
     }
 
@@ -499,6 +524,7 @@
         var titles = item.querySelector('.latest-episodes__episode-titles');
         if (titles) ensureEpisodeControls(titles);
         if (item.querySelector('[data-episode-actions]')) {
+            relocateFeedEpisodeActions(titles);
             refreshActionLabels(item);
             return;
         }
@@ -514,8 +540,12 @@
             ICON_CHECK +
             '</button>' +
             '</div>';
+        var copy = titles && titles.querySelector('.latest-episodes__episode-copy');
+        var isFeed = titles && titles.closest('.latest-episodes__list--feed');
         var controls = titles && titles.querySelector('.latest-episodes__episode-controls');
-        if (controls) {
+        if (isFeed && copy) {
+            copy.appendChild(wrap);
+        } else if (controls) {
             controls.appendChild(wrap);
         } else {
             var host =

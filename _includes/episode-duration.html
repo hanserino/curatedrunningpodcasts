@@ -7,5 +7,5 @@
 {%- endif -%}
 {%- assign _dur_num = _dur | plus: 0 -%}
 {%- if _dur_num > 0 -%}
-<span class="latest-episodes__episode-duration" aria-label="Duration {{ _dur_num | format_episode_duration }}">{{ _dur_num | format_episode_duration }}</span>
+<span class="latest-episodes__episode-duration{% if include.class %} {{ include.class }}{% endif %}" aria-label="Duration {{ _dur_num | format_episode_duration }}">{{ _dur_num | format_episode_duration }}</span>
 {%- endif -%}

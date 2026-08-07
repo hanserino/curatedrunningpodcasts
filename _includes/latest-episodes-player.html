@@ -102,7 +102,7 @@
             {%- else -%}
             <span class="latest-episodes__podcast-label latest-episodes__podcast-label--feed">{{ episode.podcast_title }}</span>
             {%- endif -%}
-            {% include episode-duration.html episode=episode %}
+            {% include episode-duration.html episode=episode class="latest-episodes__episode-duration--inline" %}
             </div>
           </div>
           {%- assign _cover_attr = '' -%}
@@ -117,6 +117,7 @@
           {%- if _ep_path != '' -%}
             {%- assign _ep_attr = _ep_path | relative_url -%}
           {%- endif -%}
+          <div class="latest-episodes__episode-play-stack">
           {% include episode-listen-control.html
             episode=episode
             class="latest-episodes__play latest-episodes__play--feed"
@@ -125,6 +126,10 @@
             episode_path=_ep_attr
             podcast_url=_podcast_attr
           %}
+          <div class="latest-episodes__episode-play-meta">
+            {% include episode-duration.html episode=episode class="latest-episodes__episode-duration--under-play" %}
+          </div>
+          </div>
         </div>
       </article>
       <div class="latest-episodes__listen-track" data-listen-progress-track hidden>

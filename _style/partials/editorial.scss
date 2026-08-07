@@ -1110,6 +1110,37 @@ $ep-play-art: $ep-row-art;
         }
     }
 
+    &__episode-play-stack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+        pointer-events: none;
+        z-index: 3;
+
+        .latest-episodes__play--feed {
+            pointer-events: auto;
+        }
+    }
+
+    &__episode-play-meta {
+        text-align: center;
+        line-height: 1.1;
+
+        &:empty {
+            display: none;
+        }
+
+        .latest-episodes__episode-duration--under-play {
+            display: none;
+            font-size: 0.62rem;
+            font-style: italic;
+            opacity: 0.82;
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+    }
+
     &__episode-art-placeholder {
         display: block;
         width: 100%;
@@ -1185,7 +1216,7 @@ $ep-play-art: $ep-row-art;
                 pointer-events: none;
             }
 
-            .latest-episodes__episode-duration::before {
+            .latest-episodes__episode-duration--inline::before {
                 content: "·";
                 margin-right: 0.35rem;
                 opacity: 0.5;
@@ -1197,10 +1228,10 @@ $ep-play-art: $ep-row-art;
         }
     }
 
-    &__episode-titles:not(:has(.latest-episodes__episode-controls)) .latest-episodes__play--feed {
+    &__episode-titles:not(:has(.latest-episodes__episode-controls)) .latest-episodes__episode-play-stack {
         grid-column: 2;
         grid-row: 1;
-        align-self: center;
+        align-self: start;
         justify-self: end;
     }
 
@@ -1505,5 +1536,19 @@ $ep-play-art: $ep-row-art;
     .latest-episodes__deck-skip {
         width: 2.75rem;
         height: 2.75rem;
+    }
+
+    .latest-episodes__list--feed {
+        .latest-episodes__episode-duration--inline {
+            display: none;
+        }
+
+        .latest-episodes__episode-duration--under-play {
+            display: inline;
+        }
+
+        .latest-episodes__episode-copy {
+            gap: 0.12rem;
+        }
     }
 }
