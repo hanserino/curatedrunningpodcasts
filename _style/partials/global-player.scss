@@ -642,6 +642,7 @@ body.brp-global-player-visible {
 
     &--closing {
         animation: brp-player-fullscreen-exit 0.18s cubic-bezier(0.4, 0, 0.85, 1) both;
+        pointer-events: none;
     }
 
     @media (prefers-reduced-motion: reduce) {

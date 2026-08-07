@@ -212,6 +212,19 @@ $ep-play-art: $ep-row-art;
                 box-shadow: none;
             }
         }
+
+        // Podcast page episode rows (embedded feed, not episode-page or Latest Episodes cards)
+        &.latest-episodes--embedded:not(.latest-episodes--episode-page) {
+            .latest-episodes__list:not(.latest-episodes__list--feed) {
+                .latest-episodes__item {
+                    padding: 0.45rem 0.55rem 0.45rem 0.65rem;
+                }
+
+                .latest-episodes__listen-track {
+                    margin-top: 0.35rem;
+                }
+            }
+        }
     }
 
     @include allAbove(medium) {

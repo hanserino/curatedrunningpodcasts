@@ -471,6 +471,8 @@
                 'brp-player-fullscreen--opening',
                 'brp-player-fullscreen--closing'
             );
+            fullscreenRoot.style.pointerEvents = '';
+            fullscreenRoot.removeAttribute('inert');
         }
         fullscreenOpen = false;
         fullscreenScrubbing = false;
@@ -1011,10 +1013,15 @@
         if (fullscreenCloseTimer) {
             clearTimeout(fullscreenCloseTimer);
             fullscreenCloseTimer = null;
+            if (fullscreenRoot.classList.contains('brp-player-fullscreen--closing')) {
+                finishClosePlayerFullscreen({ skipUrlRestore: true });
+            }
         }
         fullscreenRoot.classList.remove('brp-player-fullscreen--closing');
         fullscreenRoot.hidden = false;
         fullscreenRoot.setAttribute('aria-hidden', 'false');
+        fullscreenRoot.style.pointerEvents = '';
+        fullscreenRoot.removeAttribute('inert');
         document.body.classList.add('brp-player-fullscreen-open');
         fullscreenOpen = true;
         if (globalRoot) globalRoot.style.visibility = '';
@@ -1062,6 +1069,12 @@
             finishClosePlayerFullscreen(options);
             return;
         }
+        // Restore footer interaction immediately; exit animation is visual only.
+        document.body.classList.remove('brp-player-fullscreen-open');
+        if (globalRoot) globalRoot.style.visibility = '';
+        // Stop intercepting taps on the footer while the exit animation runs.
+        fullscreenRoot.style.pointerEvents = 'none';
+        fullscreenRoot.setAttribute('inert', '');
         fullscreenRoot.classList.remove('brp-player-fullscreen--opening');
         fullscreenRoot.classList.add('brp-player-fullscreen--closing');
 
@@ -1640,10 +1653,16 @@
     }
 
     function forceCleanupFullscreenChromeIfStale() {
+        if (!fullscreenRoot) return;
         var bodyOpen = document.body.classList.contains('brp-player-fullscreen-open');
-        var rootVisible = !!(fullscreenRoot && !fullscreenRoot.hidden);
+        var rootVisible = !fullscreenRoot.hidden;
+        var closing = fullscreenRoot.classList.contains('brp-player-fullscreen--closing');
         if (!fullscreenOpen && (bodyOpen || rootVisible)) {
             forceCleanupFullscreenChrome();
+            return;
+        }
+        if (closing) {
+            finishClosePlayerFullscreen({ skipUrlRestore: true });
         }
     }
 

@@ -519,8 +519,15 @@
         return controls;
     }
 
+    function isPodcastPageFeedItem(item) {
+        if (!item) return false;
+        var deck = item.closest('.latest-episodes--embedded.latest-episodes--sticky-only');
+        return !!deck && !deck.classList.contains('latest-episodes--episode-page');
+    }
+
     function appendEpisodeActions(item) {
         if (!item) return;
+        if (isPodcastPageFeedItem(item)) return;
         var titles = item.querySelector('.latest-episodes__episode-titles');
         if (titles) ensureEpisodeControls(titles);
         if (item.querySelector('[data-episode-actions]')) {
@@ -693,6 +700,7 @@
             // stacks queue/mark-played under the big play control.
             if (item.classList.contains('latest-episodes__item--solo')) return;
             if (item.closest('.latest-episodes--episode-page')) return;
+            if (isPodcastPageFeedItem(item)) return;
             if (!item.querySelector('[data-audio-url]')) return;
             item.setAttribute('data-brp-actions-wired', 'true');
             appendEpisodeActions(item);
