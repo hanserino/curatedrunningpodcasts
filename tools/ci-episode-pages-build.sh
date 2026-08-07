@@ -3,7 +3,7 @@
 # re-sanitized per episode during page generation (see prepare_episode).
 set -eu
 
-EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}"
+EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-20}"
 EPISODE_PAGES_MAX_NEW="${EPISODE_PAGES_MAX_NEW:-0}"
 
 echo "==> YouTube episode matching"

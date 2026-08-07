@@ -71,7 +71,7 @@ jobs:
 
       - name: Episode pages Jekyll build (committed episode data)
         env:
-          EPISODE_PAGES_PER_PODCAST: "10"
+          EPISODE_PAGES_PER_PODCAST: "20"
           EPISODE_PAGES_MAX_NEW: "120"
         run: bash tools/ci-episode-pages-build.sh
 

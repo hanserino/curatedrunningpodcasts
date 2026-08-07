@@ -48,7 +48,7 @@ jobs:
 
       - name: Feed refresh + episode pages
         env:
-          EPISODE_PAGES_PER_PODCAST: "10"
+          EPISODE_PAGES_PER_PODCAST: "20"
           EPISODE_PAGES_MAX_NEW: "120"
           RSS_FETCH_CONCURRENCY: "10"
         run: bash tools/ci-feed-and-episode-build.sh
@@ -58,6 +58,6 @@ jobs:
           BRANCH: ${{ github.ref_name }}
           CI_FETCH_RSS: "1"
           SKIP_EPISODE_PAGES: "1"
-          EPISODE_PAGES_PER_PODCAST: "10"
+          EPISODE_PAGES_PER_PODCAST: "20"
           RSS_FETCH_CONCURRENCY: "10"
         run: 'bash tools/ci-commit-push.sh "chore: refresh RSS, optimize new media, rebuild docs"'

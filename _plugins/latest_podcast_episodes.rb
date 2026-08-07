@@ -9,7 +9,7 @@
 # as the episode source (no audio enclosure; UI links out to YouTube).
 #
 # Running-directory shows (not_running_related != true) get episodes_by_feed entries
-# (up to EPISODE_PAGES_PER_PODCAST, default 25) and static episode pages.
+# (up to EPISODE_PAGES_PER_PODCAST, default 20) and static episode pages.
 # Unrelated shows keep a podcast landing page only — no RSS fetch and no episode pages
 # unless JEKYLL_FETCH_UNRELATED_RSS=1.
 
@@ -1594,9 +1594,9 @@ module LatestPodcastEpisodes
   end
 
   def episodes_per_podcast_limit
-    Integer(ENV.fetch("EPISODE_PAGES_PER_PODCAST", "25"))
+    Integer(ENV.fetch("EPISODE_PAGES_PER_PODCAST", "20"))
   rescue ArgumentError, TypeError
-    25
+    20
   end
 
   EPISODE_RENDER_VERSION = "3"

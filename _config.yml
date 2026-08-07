@@ -19,7 +19,7 @@ description: >
   An independent, hand-curated directory of the best running podcasts—road, track, trail, ultra, skyrunning, and training science.
   Each entry is reviewed for quality and usefulness for runners, coaches, and fans. Filter by training focus and language, discover Spotify and Apple Podcasts links, and find shows worth your long run.
 # Episodes shown in the podcast page feed player (matches CI indexing cap in production).
-podcast_feed_display_limit: 10
+podcast_feed_display_limit: 20
 markdown: kramdown
 kramdown:
   input: GFM

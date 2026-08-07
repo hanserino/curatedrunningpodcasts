@@ -25,7 +25,7 @@ trap cleanup EXIT
 rebuild_site() {
   if [ "${LOCAL_PUSH_FETCH_RSS:-0}" = "1" ]; then
     echo "Building with RSS + YouTube match + episode pages (this may take several minutes)..."
-    JEKYLL_ENV=production EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}" \
+    JEKYLL_ENV=production EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-20}" \
       bash tools/ci-feed-and-episode-build.sh
   else
     echo "Building directory pages only (committed episode data; no RSS/YouTube/episode HTML)..."

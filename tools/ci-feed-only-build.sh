@@ -3,7 +3,7 @@
 # (triggered via episode-pages-jekyll-build.yml after this workflow succeeds).
 set -eu
 
-EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-10}"
+EPISODE_PAGES_PER_PODCAST="${EPISODE_PAGES_PER_PODCAST:-20}"
 RSS_FETCH_CONCURRENCY="${RSS_FETCH_CONCURRENCY:-10}"
 
 echo "==> Feed refresh (RSS, no episode HTML)"
