@@ -6,11 +6,14 @@ redirect_from:
   - /podcast/singletrack.html
 date: 2026-05-29
 title: Singletrack
-category: podcast
 url_slug: singletrack
+category: podcast
 published: true
-description: Singletrack covers the professional trail and ultrarunning scene.
-seo_description: Singletrack is a trail and ultrarunning podcast covering the pro scene, major races like Western States and Hardrock, and in-depth interviews with elite athletes and coaches.
+description: >
+  Singletrack, hosted by Finn Melanson, is one of the leading podcasts on
+  professional trail and ultrarunning. The show covers race previews, post-race
+  recaps, and long-form interviews with elite athletes, coaches, and people
+  shaping the sport.
 not_running_related: false
 cover_image: /media/singletracknew.jpeg
 publisher: Finn Melanson
@@ -23,8 +26,7 @@ tags:
   - business
 language:
   - english
+seo_description: Singletrack is a trail and ultrarunning podcast covering the
+  pro scene, major races like Western States and Hardrock, and in-depth
+  interviews with elite athletes and coaches.
 ---
-
-Singletrack, hosted by Finn Melanson, is one of the leading podcasts on professional trail and ultrarunning. The show covers race previews, post-race recaps, and long-form interviews with elite athletes, coaches, and people shaping the sport.
-
-If you follow Western States, Hardrock, UTMB, or the broader pro trail scene, Singletrack is a core listen. Episodes are available on Spotify and Apple Podcasts; you can also play recent shows right here in the directory.
