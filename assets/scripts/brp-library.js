@@ -333,12 +333,14 @@
             coverHtml +
             '</div>' +
             '<div class="latest-episodes__episode-titles">' +
+            '<div class="latest-episodes__episode-copy">' +
             '<span class="latest-episodes__episode-title latest-episodes__episode-title--feed">' +
             escapeHtml(meta.episodeTitle) +
             '</span>' +
             '<div class="latest-episodes__podcast-line">' +
             podcastHtml +
             durationHtmlFromMeta(meta) +
+            '</div>' +
             '</div>' +
             '<button type="button" class="latest-episodes__play latest-episodes__play--feed" aria-pressed="false" aria-label="Play episode: ' +
             escapeHtml(meta.episodeTitle) +

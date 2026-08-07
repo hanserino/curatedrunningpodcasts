@@ -58,34 +58,27 @@
     }
 }
 
-// Titles take the text column; play sits mid-right beside the copy; actions under titles.
+// Text stack in column 1; play sits beside copy; actions under copy on narrow viewports.
 .latest-episodes__list--feed {
     .latest-episodes__episode-titles:has(.latest-episodes__episode-controls) {
         min-height: 0;
-        grid-template-rows: auto auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .latest-episodes__episode-copy {
+        grid-column: 1;
+        grid-row: 1;
+        min-width: 0;
     }
 
     .latest-episodes__episode-controls {
         display: contents;
     }
 
-    .latest-episodes__episode-title--feed,
-    .latest-episodes__podcast-line,
-    .latest-episodes__podcast-link--feed,
-    .latest-episodes__podcast-label--feed {
-        grid-column: 1;
-    }
-
-    .latest-episodes__podcast-line {
-        grid-row: 2;
-        min-width: 0;
-    }
-
-    .latest-episodes__episode-titles:not(:has(.latest-episodes__episode-controls))
-        .latest-episodes__play--feed,
+    .latest-episodes__episode-titles:not(:has(.latest-episodes__episode-controls)) .latest-episodes__play--feed,
     .latest-episodes__play--feed {
         grid-column: 2;
-        grid-row: 1 / span 2;
+        grid-row: 1;
         align-self: center;
         justify-self: end;
         pointer-events: auto;
@@ -93,13 +86,13 @@
 
     [data-episode-actions] {
         grid-column: 1 / -1;
-        grid-row: 3;
+        grid-row: 2;
         position: static;
         justify-self: start;
         align-self: center;
         width: auto;
         max-width: 100%;
-        margin: 0.15rem 0 0;
+        margin: 0.1rem 0 0;
         padding: 0;
         flex: none;
         pointer-events: auto;
@@ -110,11 +103,10 @@
         flex-wrap: nowrap;
     }
 
-    // Wide viewports: stack play + actions in the right column so row-2 duration
-    // is not covered by hover action buttons (display:contents puts them on row 3).
+    // Wide viewports: stack play + actions in the right column beside the text stack.
     @media screen and (min-width: 721px) {
         .latest-episodes__episode-titles:has(.latest-episodes__episode-controls) {
-            grid-template-rows: auto auto;
+            grid-template-rows: auto;
         }
 
         .latest-episodes__episode-controls {
@@ -123,7 +115,7 @@
             align-items: flex-end;
             justify-content: space-between;
             grid-column: 2;
-            grid-row: 1 / -1;
+            grid-row: 1;
             align-self: stretch;
             gap: 0.35rem;
             pointer-events: none;
@@ -304,7 +296,8 @@
     .latest-episodes__episode-title--feed,
     .latest-episodes__podcast-link--feed,
     .latest-episodes__podcast-label--feed,
-    .latest-episodes__episode-duration {
+    .latest-episodes__episode-duration,
+    .latest-episodes__episode-snippet {
         color: rgba($color-ink, 0.55);
     }
 

@@ -1,0 +1,8 @@
+{%- comment -%}
+  Truncated show-notes preview for latest feed (desktop). Params: episode, limit (chars, default 160).
+{%- endcomment -%}
+{%- assign _snippet = include.episode.description_plain | default: '' | strip_html | strip -%}
+{%- assign _limit = include.limit | default: 160 | plus: 0 -%}
+{%- if _snippet != '' -%}
+<p class="latest-episodes__episode-snippet latest-episodes__episode-snippet--desktop">{{ _snippet | truncate: _limit }}</p>
+{%- endif -%}

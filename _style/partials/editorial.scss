@@ -1125,16 +1125,26 @@ $ep-play-art: $ep-row-art;
         min-width: 0;
         display: grid;
         grid-template-columns: minmax(0, 1fr) auto;
-        grid-template-rows: auto auto;
-        column-gap: 0.5rem;
-        row-gap: 0.15rem;
-        align-items: center;
+        grid-template-rows: auto;
+        column-gap: 0.65rem;
+        row-gap: 0.45rem;
+        align-items: start;
         align-self: start;
         padding-top: 0.05rem;
+    }
 
-        .latest-episodes__episode-title--feed {
-            grid-column: 1;
-            grid-row: 1;
+    &__episode-copy {
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        min-width: 0;
+
+        .latest-episodes__episode-title--feed,
+        .latest-episodes__episode-snippet--desktop,
+        .latest-episodes__podcast-line {
+            margin: 0;
         }
 
         .latest-episodes__podcast-link--feed,
@@ -1142,25 +1152,22 @@ $ep-play-art: $ep-row-art;
             position: relative;
             z-index: 3;
             pointer-events: auto;
-            align-self: flex-start;
             width: fit-content;
             max-width: 100%;
             margin: 0;
             font-size: 0.84rem;
-            line-height: 1.3;
+            line-height: 1.35;
             color: $color-muted;
         }
 
         .latest-episodes__podcast-line {
-            grid-column: 1;
-            grid-row: 2;
             display: flex;
             flex-wrap: wrap;
             align-items: baseline;
             gap: 0 0.35rem;
             min-width: 0;
             font-size: 0.84rem;
-            line-height: 1.3;
+            line-height: 1.35;
             color: $color-muted;
             position: relative;
             z-index: 2;
@@ -1168,8 +1175,6 @@ $ep-play-art: $ep-row-art;
 
             .latest-episodes__podcast-link--feed,
             .latest-episodes__podcast-label--feed {
-                grid-column: auto;
-                grid-row: auto;
                 font-size: inherit;
                 line-height: inherit;
                 color: inherit;
@@ -1190,13 +1195,13 @@ $ep-play-art: $ep-row-art;
         .latest-episodes__podcast-label--feed {
             pointer-events: none;
         }
+    }
 
-        &:not(:has(.latest-episodes__episode-controls)) .latest-episodes__play--feed {
-            grid-column: 2;
-            grid-row: 1 / -1;
-            align-self: center;
-            justify-self: end;
-        }
+    &__episode-titles:not(:has(.latest-episodes__episode-controls)) .latest-episodes__play--feed {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: center;
+        justify-self: end;
     }
 
     &__episode-date {
@@ -1320,6 +1325,26 @@ $ep-play-art: $ep-row-art;
                 color: $color-speed;
                 text-decoration: underline;
             }
+        }
+    }
+
+    &__episode-snippet {
+        margin: 0;
+        font-size: 0.78rem;
+        line-height: 1.4;
+        color: rgba($color-muted, 0.95);
+    }
+
+    &__episode-snippet--desktop {
+        display: none;
+        pointer-events: none;
+
+        @media screen and (min-width: 721px) {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            max-width: 100%;
         }
     }
 

@@ -11,4 +11,4 @@ permalink: /latest-episodes/
   {% include filter.html show_grid=false title="Filter episodes" noun="episode" filter_page="latest" filter_item=".latest-episodes__item" total_count=_latest_feed.size show_opml_favorites=false show_favorites_filter=true %}
 </div>
 
-{% include latest-episodes-player.html section_id="latest-episodes-page" heading="Latest episodes across all shows" limit=100 %}
+{% include latest-episodes-player.html section_id="latest-episodes-page" heading="Latest episodes across all shows" limit=100 show_desktop_snippet=true %}

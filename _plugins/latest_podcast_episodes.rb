@@ -1210,6 +1210,8 @@ module LatestPodcastEpisodes
       if match.key?("duration_seconds") && !match["duration_seconds"].nil?
         item["duration_seconds"] = match["duration_seconds"]
       end
+      plain = match["description_plain"].to_s.strip
+      item["description_plain"] = plain unless plain.empty?
       if match["youtube_video_id"].to_s.strip != ""
         item["youtube_video_id"] = match["youtube_video_id"]
       end
@@ -1856,6 +1858,8 @@ module LatestPodcastEpisodes
       "episode_page_url" => latest_episode_meta&.dig("episode_page_url")
     }
     item["duration_seconds"] = duration_seconds unless duration_seconds.nil?
+    plain = latest_episode_meta&.dig("description_plain").to_s.strip
+    item["description_plain"] = plain unless plain.empty?
     item
   end
 
