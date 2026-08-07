@@ -106,6 +106,35 @@
     }
 }
 
+@include allBelow(medium) {
+    .header__nav-shell {
+        z-index: 500;
+    }
+
+    .header__menu-toggle {
+        z-index: 510;
+    }
+
+    .header__nav-panel {
+        z-index: 520;
+    }
+
+    // Episode feed rows use z-index 2–4 on titles/controls; keep the menu above them.
+    .latest-page .latest-page__intro,
+    .post-page .post-page__intro,
+    .runners-picks-page .runners-picks__intro,
+    .home-page .home-page__hero-content {
+        z-index: 100;
+    }
+
+    .post-page .post-page__intro-bar,
+    .latest-page .post-page__intro-bar,
+    .home-page .home-page__hero-bar {
+        position: relative;
+        z-index: 101;
+    }
+}
+
 @include allAbove(medium) {
     .header__menu-toggle {
         display: none !important;

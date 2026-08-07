@@ -1234,8 +1234,9 @@ $ep-play-art: $ep-row-art;
     &__episode-duration {
         margin: 0;
         font-family: inherit;
-        font-size: inherit;
+        font-size: 0.88em;
         font-weight: 400;
+        font-style: italic;
         line-height: inherit;
         color: inherit;
         opacity: 0.88;

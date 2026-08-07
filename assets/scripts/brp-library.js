@@ -31,6 +31,79 @@
         }
     }
 
+    function urlsMatchEpisode(a, b) {
+        if (!a || !b) return false;
+        if (a === b) return true;
+        return urlKey(a) === urlKey(b);
+    }
+
+    function pickMetaText(value, fallback) {
+        var text = String(value == null ? '' : value).trim();
+        return text || fallback;
+    }
+
+    function normalizeEpisodeMeta(url, raw) {
+        var key = urlKey(url || (raw && raw.audioUrl) || '');
+        if (!key) return null;
+        raw = raw && typeof raw === 'object' ? raw : {};
+        var duration = parseInt(raw.durationSeconds, 10);
+        return {
+            audioUrl: key,
+            episodeTitle: pickMetaText(raw.episodeTitle, 'Episode'),
+            podcastTitle: pickMetaText(raw.podcastTitle, 'Podcast'),
+            coverUrl: pickMetaText(raw.coverUrl, ''),
+            episodePageUrl: pickMetaText(raw.episodePageUrl, ''),
+            podcastPageUrl: pickMetaText(raw.podcastPageUrl, ''),
+            durationSeconds: isFinite(duration) && duration > 0 ? duration : null,
+        };
+    }
+
+    function lookupStoredEpisodeMeta(url) {
+        var key = urlKey(url);
+        if (!key) return null;
+        var map = loadMetaMap();
+        if (map[key]) return normalizeEpisodeMeta(key, map[key]);
+        var keys = Object.keys(map);
+        for (var i = 0; i < keys.length; i++) {
+            if (urlsMatchEpisode(keys[i], key)) {
+                return normalizeEpisodeMeta(key, map[keys[i]]);
+            }
+        }
+        return null;
+    }
+
+    function lookupEpisodeMetaFromDom(url) {
+        if (!window.BrpPlayer || !window.BrpPlayer.metaFromButton) return null;
+        var buttons = document.querySelectorAll('[data-audio-url]');
+        for (var i = 0; i < buttons.length; i++) {
+            var btn = buttons[i];
+            if (urlsMatchEpisode(btn.getAttribute('data-audio-url'), url)) {
+                return normalizeEpisodeMeta(url, window.BrpPlayer.metaFromButton(btn));
+            }
+        }
+        return null;
+    }
+
+    function resolveEpisodeMeta(url) {
+        var meta = lookupStoredEpisodeMeta(url);
+        var hasIdentity =
+            meta &&
+            (meta.episodeTitle !== 'Episode' ||
+                meta.podcastTitle !== 'Podcast' ||
+                meta.coverUrl ||
+                meta.episodePageUrl ||
+                meta.podcastPageUrl);
+        if (hasIdentity) return meta;
+
+        var fromDom = lookupEpisodeMetaFromDom(url);
+        if (fromDom) {
+            saveEpisodeMeta(fromDom);
+            return fromDom;
+        }
+
+        return meta || normalizeEpisodeMeta(url, null);
+    }
+
     function progressRow(url) {
         var key = urlKey(url);
         if (!key) return null;
@@ -96,18 +169,19 @@
     }
 
     function saveEpisodeMeta(meta) {
+        meta = normalizeEpisodeMeta(meta && meta.audioUrl, meta);
         if (!meta || !meta.audioUrl) return;
         var key = urlKey(meta.audioUrl);
         if (!key) return;
         var map = loadMetaMap();
         map[key] = {
-            episodeTitle: meta.episodeTitle || 'Episode',
-            podcastTitle: meta.podcastTitle || 'Podcast',
-            coverUrl: meta.coverUrl || '',
-            audioUrl: meta.audioUrl,
-            episodePageUrl: meta.episodePageUrl || '',
-            podcastPageUrl: meta.podcastPageUrl || '',
-            durationSeconds: meta.durationSeconds || null,
+            episodeTitle: meta.episodeTitle,
+            podcastTitle: meta.podcastTitle,
+            coverUrl: meta.coverUrl,
+            audioUrl: key,
+            episodePageUrl: meta.episodePageUrl,
+            podcastPageUrl: meta.podcastPageUrl,
+            durationSeconds: meta.durationSeconds,
             u: Date.now(),
         };
         writeJson(STORAGE_META, map);
@@ -115,9 +189,7 @@
     }
 
     function getEpisodeMeta(url) {
-        var key = urlKey(url);
-        if (!key) return null;
-        return loadMetaMap()[key] || null;
+        return lookupStoredEpisodeMeta(url);
     }
 
     function metaFromItemElement(item) {
@@ -742,17 +814,8 @@
         Object.keys(progress).forEach(function (key) {
             var row = progress[key];
             if (!isProgressComplete(row)) return;
-            var meta = getEpisodeMeta(key);
-            if (!meta) {
-                meta = {
-                    audioUrl: key,
-                    episodeTitle: 'Episode',
-                    podcastTitle: 'Podcast',
-                    coverUrl: '',
-                    episodePageUrl: '',
-                    podcastPageUrl: '',
-                };
-            }
+            var meta = resolveEpisodeMeta(key);
+            if (!meta) return;
             items.push({
                 meta: meta,
                 playedAt: row.u || 0,
@@ -795,7 +858,41 @@
         refreshActionLabels(list);
     }
 
+    function repairEpisodeMetaMap() {
+        var map = loadMetaMap();
+        var changed = false;
+        Object.keys(map).forEach(function (key) {
+            var normalized = normalizeEpisodeMeta(key, map[key]);
+            if (!normalized) {
+                delete map[key];
+                changed = true;
+                return;
+            }
+            var raw = map[key];
+            if (
+                !raw ||
+                !raw.audioUrl ||
+                String(raw.episodeTitle || '').trim() !== normalized.episodeTitle ||
+                String(raw.podcastTitle || '').trim() !== normalized.podcastTitle
+            ) {
+                map[key] = {
+                    episodeTitle: normalized.episodeTitle,
+                    podcastTitle: normalized.podcastTitle,
+                    coverUrl: normalized.coverUrl,
+                    audioUrl: normalized.audioUrl,
+                    episodePageUrl: normalized.episodePageUrl,
+                    podcastPageUrl: normalized.podcastPageUrl,
+                    durationSeconds: normalized.durationSeconds,
+                    u: (raw && raw.u) || Date.now(),
+                };
+                changed = true;
+            }
+        });
+        if (changed) writeJson(STORAGE_META, map);
+    }
+
     function onPageReady() {
+        repairEpisodeMetaMap();
         wireEpisodeActions(document);
         renderUpNextSection();
         renderListenHistory();
@@ -836,6 +933,7 @@
     });
 
     document.addEventListener('brp-user-synced', function () {
+        repairEpisodeMetaMap();
         renderUpNextSection();
         renderListenHistory();
         refreshActionLabels(document);

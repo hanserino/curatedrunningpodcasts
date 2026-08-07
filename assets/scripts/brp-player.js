@@ -546,6 +546,26 @@
         };
     }
 
+    function persistEpisodeMetaLibrary(audioUrl) {
+        var key = storageUrlKey(audioUrl || playerActiveUrl());
+        if (!key || (!currentMeta.episodeTitle && !currentMeta.podcastTitle)) return;
+        try {
+            var raw = localStorage.getItem('brp-episode-meta-v1');
+            var map = raw ? JSON.parse(raw) : {};
+            if (!map || typeof map !== 'object' || Array.isArray(map)) map = {};
+            map[key] = {
+                episodeTitle: currentMeta.episodeTitle || 'Episode',
+                podcastTitle: currentMeta.podcastTitle || 'Podcast',
+                coverUrl: (currentMeta.coverUrl || '').trim(),
+                audioUrl: key,
+                episodePageUrl: (currentMeta.episodePageUrl || '').trim(),
+                podcastPageUrl: (currentMeta.podcastPageUrl || '').trim(),
+                u: Date.now(),
+            };
+            localStorage.setItem('brp-episode-meta-v1', JSON.stringify(map));
+        } catch (e) {}
+    }
+
     function rememberEpisodeMeta(episodeTitle, podcastTitle, coverUrl, audioUrl, episodePageUrl, podcastPageUrl) {
         currentMeta.episodeTitle = episodeTitle || 'Episode';
         currentMeta.podcastTitle = podcastTitle || 'Podcast';
@@ -554,6 +574,7 @@
         currentMeta.podcastPageUrl = (podcastPageUrl || '').trim();
         metaSourceUrl = storageUrlKey(audioUrl || playerActiveUrl());
         persistPlaybackMeta(audioUrl);
+        persistEpisodeMetaLibrary(audioUrl);
         setupMediaSessionHandlers();
         updateMediaSessionMetadata();
     }

@@ -239,8 +239,75 @@
         return { ids: local, u: localU || Date.now() };
     }
 
+    function mergeEpisodeMetaEntry(local, remote) {
+        if (!local && !remote) {
+            return undefined;
+        }
+        if (!local) {
+            return remote;
+        }
+        if (!remote) {
+            return local;
+        }
+
+        function pickString(primary, secondary, fallback) {
+            var a = String(primary == null ? '' : primary).trim();
+            if (a) return a;
+            var b = String(secondary == null ? '' : secondary).trim();
+            if (b) return b;
+            return fallback;
+        }
+
+        function pickOptionalString(primary, secondary) {
+            var a = String(primary == null ? '' : primary).trim();
+            if (a) return a;
+            return String(secondary == null ? '' : secondary).trim();
+        }
+
+        var primary = (local.u || 0) >= (remote.u || 0) ? local : remote;
+        var secondary = primary === local ? remote : local;
+        var localDuration = parseInt(local.durationSeconds, 10);
+        var remoteDuration = parseInt(remote.durationSeconds, 10);
+        var durationSeconds =
+            isFinite(localDuration) && localDuration > 0
+                ? localDuration
+                : isFinite(remoteDuration) && remoteDuration > 0
+                  ? remoteDuration
+                  : null;
+
+        return {
+            episodeTitle: pickString(primary.episodeTitle, secondary.episodeTitle, 'Episode'),
+            podcastTitle: pickString(primary.podcastTitle, secondary.podcastTitle, 'Podcast'),
+            coverUrl: pickOptionalString(primary.coverUrl, secondary.coverUrl),
+            audioUrl: pickString(primary.audioUrl, secondary.audioUrl, ''),
+            episodePageUrl: pickOptionalString(primary.episodePageUrl, secondary.episodePageUrl),
+            podcastPageUrl: pickOptionalString(primary.podcastPageUrl, secondary.podcastPageUrl),
+            durationSeconds: durationSeconds,
+            u: Math.max(local.u || 0, remote.u || 0) || Date.now(),
+        };
+    }
+
     function mergeEpisodeMetaMaps(local, remote) {
-        return mergeProgressMaps(local, remote);
+        var merged = {};
+        var keys = {};
+        var localMap = local && typeof local === 'object' ? local : {};
+        var remoteMap = remote && typeof remote === 'object' ? remote : {};
+
+        Object.keys(localMap).forEach(function (key) {
+            keys[key] = true;
+        });
+        Object.keys(remoteMap).forEach(function (key) {
+            keys[key] = true;
+        });
+
+        Object.keys(keys).forEach(function (key) {
+            var winner = mergeEpisodeMetaEntry(localMap[key], remoteMap[key]);
+            if (winner !== undefined) {
+                merged[key] = winner;
+            }
+        });
+
+        return merged;
     }
 
     function normalizeQueueState(value) {
