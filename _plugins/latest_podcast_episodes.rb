@@ -33,13 +33,10 @@ module LatestPodcastEpisodes
   PARAGRAPH_ONLY_NBSP_RX =
     %r{<p(\s[^>]*)?>(?:\s|<br\s*/?>|#{NBSP_ENTITY_RX.source})*</p>}im.freeze
   HTML_TOKEN_RX = /(<[^>]+>)/i.freeze
+  # Only explicit URLs. Bare "word.Word" fragments are left as text.
   AUTOLINK_URL_RX = %r{
     (?<![\w@/])
-    (
-      (?:https?://|www\.)[^\s<>"']+
-      |
-      (?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+(?:[a-z]{2,63})(?:/[^\s<>"']*)?
-    )
+    ((?:https?://|www\.)[^\s<>"']+)
   }ix.freeze
   SOCIAL_LABEL_HANDLE_RX = /
     \b(Instagram|Twitter|X|TikTok|YouTube)
@@ -479,7 +476,12 @@ module LatestPodcastEpisodes
   def strip_presentation_attributes(html)
     cleaned = html.to_s.gsub(/<(p|li|ul|ol|div|h[1-6])(\s+)([^>]*)>/i) do
       tag = Regexp.last_match(1)
-      attrs = Regexp.last_match(3).to_s.gsub(
+      attrs = Regexp.last_match(3).to_s
+      # Chapter blocks are built by us; keep their classes so a later pass
+      # does not flatten an already formatted timestamp list.
+      next Regexp.last_match(0) if attrs.match?(/episode-chapters/)
+
+      attrs = attrs.gsub(
         /\s*(?:style|class|data-[a-z0-9_-]+)=("[^"]*"|'[^']*'|[^\s>]+)/i,
         ""
       ).strip
@@ -877,7 +879,7 @@ module LatestPodcastEpisodes
     return [] unless body.match?(/\d{1,2}:\d{2}(?::\d{2})?\s*-/)
 
     body.scan(CHAPTER_INLINE_TIMESTAMP_ENTRY_RX).filter_map do |time, title|
-      title = title.to_s.strip
+      title = title.to_s.gsub(/<br\s*\/?>/i, " ").gsub(/\s+/, " ").strip
       next if title.empty?
 
       {
@@ -905,11 +907,13 @@ module LatestPodcastEpisodes
   def format_paren_timestamp_lists(html)
     cleaned = html.to_s
     cleaned.gsub(/<ul(?:\s[^>]*)?>([\s\S]*?)<\/ul>/im) do
+      full = Regexp.last_match(0)
       inner = Regexp.last_match(1)
       li_matches = inner.scan(CHAPTER_PAREN_LI_RX)
       total_li = inner.scan(/<li(?:\s[^>]*)?>/i).size
-      next Regexp.last_match(0) if total_li < 2 || li_matches.size < 2
-      next Regexp.last_match(0) if li_matches.size < total_li
+      # scan overwrites Regexp.last_match, so keep `full` from the <ul> match.
+      next full if total_li < 2 || li_matches.size < 2
+      next full if li_matches.size < total_li
 
       entries = li_matches.map do |time, title|
         {
@@ -950,10 +954,11 @@ module LatestPodcastEpisodes
 
     while (line_match = after_header.match(CHAPTER_LINE_PARAGRAPH_RX, pos) ||
                         after_header.match(CHAPTER_LINE_ITEM_RX, pos))
+      time_token = line_match[1] || line_match[2]
       entries << {
-        seconds: chapter_seconds_from_token(line_match[1]),
-        time_token: line_match[1],
-        title_html: line_match[2].to_s.strip
+        seconds: chapter_seconds_from_token(time_token),
+        time_token: time_token,
+        title_html: line_match[3].to_s.strip
       }
       pos = line_match.end(0)
     end
@@ -1048,6 +1053,28 @@ module LatestPodcastEpisodes
     structured.empty? ? cleaned : structured
   end
 
+  # Turn previously generated favicon chips back into ordinary links.
+  def unwrap_episode_note_links(html)
+    html.to_s.gsub(%r{<a\b([^>]*)>([\s\S]*?)</a>}i) do
+      attrs = Regexp.last_match(1).to_s
+      inner = Regexp.last_match(2).to_s
+      chip = attrs.match?(/episode-note-link/) || inner.match?(/episode-note-link__/)
+      next Regexp.last_match(0) unless chip
+
+      href = attrs[/href\s*=\s*(["'])(.*?)\1/i, 2]
+      next Regexp.last_match(0) if href.to_s.empty?
+
+      label = inner[/<span\b[^>]*episode-note-link__label[^>]*>([\s\S]*?)<\/span>/i, 1]
+      label = inner.gsub(/<img\b[^>]*>/i, "") if label.nil?
+      label = label.to_s.gsub(/<[^>]+>/, "").strip
+      label = href if label.empty?
+
+      %(<a href="#{href}" rel="noopener noreferrer" target="_blank">#{label}</a>)
+    end
+  end
+
+  # Keep the feed's own paragraphs, lists, and headings. Link bare URLs and
+  # format clear chapter timestamps. Do not guess headings or invent lists.
   def sanitize_episode_description_html(html)
     cleaned = html.to_s.strip
     return "" if cleaned.empty?
@@ -1055,20 +1082,9 @@ module LatestPodcastEpisodes
     cleaned = cleaned.gsub(/\r\n?/, "\n")
     cleaned = strip_paragraphs_with_only_nbsp(cleaned)
     cleaned = strip_nbsp_entities(cleaned)
+    cleaned = unwrap_episode_note_links(cleaned)
 
-    # Plain-text show notes: wrap paragraphs once; skip the heavy HTML pipeline.
-    unless cleaned.include?("<")
-      paragraphs = cleaned.split(/\n{2,}/).map(&:strip).reject(&:empty?)
-      return paragraphs.map { |para| "<p>#{CGI.escapeHTML(para)}</p>" }.join
-    end
-
-    # Single simple paragraph with no lists, headers, or links.
-    if cleaned.match?(/\A<p(\s[^>]*)?>[\s\S]*<\/p>\z/i) &&
-       !cleaned.match?(/<(ul|ol|li|h[1-6]|a[\s>])/i) &&
-       !cleaned.match?(%r{https?://|www\.}i)
-      cleaned = strip_empty_block_tags(cleaned)
-      return cleaned.strip
-    end
+    cleaned = plain_text_description_html(cleaned) unless cleaned.include?("<")
 
     cleaned = strip_empty_block_tags(cleaned)
 
@@ -1081,13 +1097,10 @@ module LatestPodcastEpisodes
 
     cleaned = cleaned.gsub(/<(p|div|li)(\s[^>]*)?>\s+/, '<\1\2>')
     cleaned = cleaned.gsub(/\s+<\/(p|div|li)>/, "</\\1>")
-    cleaned = cleaned.gsub(/>\s+</, "><")
-    cleaned = structure_episode_description_html(cleaned)
-    cleaned = cleaned.gsub(/<br\s*\/?>/i, " ")
+    cleaned = strip_presentation_attributes(cleaned)
     cleaned = repair_split_word_links(cleaned)
     cleaned = linkify_bare_urls_in_html(cleaned.strip)
-    cleaned = linkify_social_handles_in_html(cleaned)
-    format_chapter_sections(compact_label_url_links_in_html(cleaned))
+    format_chapter_sections(cleaned)
   end
 
   def sanitize_episode_description_html_fallback(html)

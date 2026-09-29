@@ -416,7 +416,7 @@
         ul,
         ol {
             margin: 0 0 1rem;
-            padding-left: 1.35rem;
+            padding-left: 2rem;
         }
 
         ul {
@@ -614,10 +614,6 @@
             height: auto;
             margin: 0.5rem 0 1rem;
             border-radius: $radius-sm;
-        }
-
-        br {
-            display: none;
         }
     }
 
